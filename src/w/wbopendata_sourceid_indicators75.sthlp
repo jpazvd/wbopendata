@@ -57,33 +57,57 @@
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
-{marker sourceid_60}
-{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators60##:TOC}}){p_end}
+{marker sourceid_75}
+{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators75##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{syntab:{title:{bf:60 Economic Fitness}}}
+{syntab:{title:{bf:75 Environment, Social and Governance (ESG) Data}}}
 {synoptline}
-{marker sourceid_EF.EFM.OVRL.XD}
-{synopt:{bf:{help wbopendata_sourceid##EF.EFM.OVRL.XD:EF.EFM.OVRL.XD} - `"Economic Fitness Metric"'}}
+{marker sourceid_EN.CLC.CDDY.XD}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.CDDY.XD:EN.CLC.CDDY.XD} - `"Cooling Degree Days"'}}
 
-{synopt:{opt Source}}`"60 Economic Fitness"'{p_end}
+{synopt:{opt Source}}`"75 Environment, Social and Governance (ESG) Data"'{p_end}
 
 
-{synopt:{opt Source Notes}}Economic Fitness (EF) is both a measure of a country’s diversification and ability to produce complex goods on a globally competitive basis.  Countries with the highest levels of EF have capabilities to produce a diverse portfolio of product{p_end}
+{synopt:{opt Source Notes}}A cooling degree day (CDD) is a measurement designed to quantify the demand for energy needed to cool buildings. It is the number of degrees that a day's average temperature is above 18°C.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit {browse "https://www.nature.com/articles/srep00723"} and http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth{p_end}
+{synopt:{opt Source Organization}}World Bank, Climate Change Knowledge Portal ({browse "https://climateknowledgeportal.worldbank.org"}){p_end}
 
 
 {synoptline}
-{marker sourceid_EF.EFM.RANK.XD}
-{synopt:{bf:{help wbopendata_sourceid##EF.EFM.RANK.XD:EF.EFM.RANK.XD} - `"Economic Fitness Ranking (1 = high, 149 = low)"'}}
+{marker sourceid_EN.CLC.HEAT.XD}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.HEAT.XD:EN.CLC.HEAT.XD} - `"Health Index 35"'}}
 
-{synopt:{opt Source}}`"60 Economic Fitness"'{p_end}
+{synopt:{opt Source}}`"75 Environment, Social and Governance (ESG) Data"'{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total count of days per year where the daily mean Heat Index rose above 35°C. The Heat Index is a measure of how hot it really feels when relative humidity is factored in with the actual air temperature.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit {browse "https://www.nature.com/articles/srep00723"} and http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth{p_end}
+{synopt:{opt Source Organization}}World Bank, Climate Change Knowledge Portal ({browse "https://climateknowledgeportal.worldbank.org"}){p_end}
+
+
+{synoptline}
+{marker sourceid_EN.CLC.PRCP.XD}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.PRCP.XD:EN.CLC.PRCP.XD} - `"Maximum 5-day Rainfall (25-yr RL)"'}}
+
+{synopt:{opt Source}}`"75 Environment, Social and Governance (ESG) Data"'{p_end}
+
+
+{synopt:{opt Source Notes}}A 25-year return level of the 5-day cumulative precipitation is the maximum precipitation sum over any 5-day period that can be expected once in an average 25-year period.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Climate Change Knowledge Portal ({browse "https://climateknowledgeportal.worldbank.org"}){p_end}
+
+
+{synoptline}
+{marker sourceid_EN.CLC.SPEI.XD}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.SPEI.XD:EN.CLC.SPEI.XD} - `"Mean Drought Index (SPEI)"'}}
+
+{synopt:{opt Source}}`"75 Environment, Social and Governance (ESG) Data"'{p_end}
+
+
+{synopt:{opt Source Notes}}The Standardized Precipitation Evapotranspiration Index (SPEI), or Mean Drought Index, calculated for a 12-month period, has been found to be closely related to drought impacts on ecosystems, crop, and water resources. The SPEI is designed to{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Climate Change Knowledge Portal ({browse "https://climateknowledgeportal.worldbank.org"}){p_end}
 
 
 

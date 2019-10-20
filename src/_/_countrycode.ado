@@ -1,7 +1,7 @@
-*! _countryname <20 Oct 2019 : 14:03:53>                 by João Pedro Azevedo
-*                 auto generated and updated using _update_countrymetadata.ado 
+*! _countrycode <28 Sept 2019 : 20:52:10>                 by João Pedro Azevedo
+*                 manually generated and updated using _update_countrymetadata.ado 
   
- program define _countryname 
+ program define _countrycode
   
      syntax , match(varname) 
   
@@ -193,7 +193,7 @@
          replace countryname = "Mexico"  if `match' == "MEX"  
          replace countryname = "Marshall Islands"  if `match' == "MHL"  
          replace countryname = "Middle income"  if `match' == "MIC"  
-         replace countryname = "North Macedonia"  if `match' == "MKD"  
+         replace countryname = "Macedonia, FYR"  if `match' == "MKD"  
          replace countryname = "Mali"  if `match' == "MLI"  
          replace countryname = "Malta"  if `match' == "MLT"  
          replace countryname = "Myanmar"  if `match' == "MMR"  

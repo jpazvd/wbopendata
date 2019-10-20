@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13mar2019)}
+{right:(as of 20oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -10,11 +10,6 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
-{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
-{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
-{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
-{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
-{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -27,6 +22,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -41,6 +37,7 @@
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
+{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -51,6 +48,13 @@
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
+{synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
+{synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
+{synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
+{synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
+{synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
+{synopt:{opt 74}}  {help wbopendata_sourceid_indicators74##sourceid_74:Macro Poverty Outlook External}{p_end}
+{synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
 {marker sourceid_18}
@@ -60,39 +64,39 @@
 {syntab:{title:{bf:18 IDA Results Measurement System}}}
 {synoptline}
 {marker sourceid_EG.ELC.HOUS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EG.ELC.HOUS.ZS:EG.ELC.HOUS.ZS} - Household electrification rate (% of households)}}
+{synopt:{bf:{help wbopendata_sourceid##EG.ELC.HOUS.ZS:EG.ELC.HOUS.ZS} - `"Household electrification rate (% of households)"'}}
 
-{synopt:{opt Source}}18 IDA Results Measurement System{p_end}
+{synopt:{opt Source}}`"18 IDA Results Measurement System"'{p_end}
 
 
-{synopt:{opt Source Notes}}Household electrification rate is defined as the percentage of households with access to electricity and is measured using household surveys (e.g. Demographic and Health Surveys, Living Standard Measurement Surveys). Household surveys provide better measurement than the data provided by national power utilities. In addition, utilities employ different definitions of electrification making it difficult for accurate cross-country comparison.{p_end}
+{synopt:{opt Source Notes}}Household electrification rate is defined as the percentage of households with access to electricity and is measured using household surveys (e.g. Demographic and Health Surveys, Living Standard Measurement Surveys). Household surveys provide{p_end}
 
 {synopt:{opt Source Organization}}Compiled by World Bank staff from household surveys.{p_end}
 
 
 {synoptline}
 {marker sourceid_ER.FST.DFST.ZG}
-{synopt:{bf:{help wbopendata_sourceid##ER.FST.DFST.ZG:ER.FST.DFST.ZG} - Annual deforestation (% of change)}}
+{synopt:{bf:{help wbopendata_sourceid##ER.FST.DFST.ZG:ER.FST.DFST.ZG} - `"Annual deforestation (% of change)"'}}
 
-{synopt:{opt Source}}18 IDA Results Measurement System{p_end}
+{synopt:{opt Source}}`"18 IDA Results Measurement System"'{p_end}
 
 
-{synopt:{opt Source Notes}}Water productivity is calculated as GDP in constant prices divided by annual total water withdrawal.{p_end}
+{synopt:{opt Source Notes}}Average annual deforestation refers to the permanent conversion of natural forest area to other uses, including shifting cultivation, permanent agriculture, ranching, settlements, and infrastructure development. Deforested areas do not include{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, Global Forest Resources Assessment.{p_end}
 
 
 {synoptline}
 {marker sourceid_IS.ROD.ALLS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IS.ROD.ALLS.ZS:IS.ROD.ALLS.ZS} - Access to an all-season road (% of rural population)}}
+{synopt:{bf:{help wbopendata_sourceid##IS.ROD.ALLS.ZS:IS.ROD.ALLS.ZS} - `"Access to an all-season road (% of rural population)"'}}
 
-{synopt:{opt Source}}18 IDA Results Measurement System{p_end}
-
-
-{synopt:{opt Source Notes}}Access to an all-season road is measured as the proportion of rural people who live within 2 kilometers (typically equivalent to a 20-minute walk) of an all-season road. An all-season road is a road that is motorable all year by the prevailing means of rural transport (often a pick-up or a truck which does not have four-wheel-drive). Predictable interruptions of short duration during inclement weather (e.g. heavy rainfall) are acceptable, particularly on low volume roads. The preferred approach to measuring this indicator is by analysis of household surveys that include appropriate questions about access to transport.{p_end}
-
-{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted.{p_end}
+{synopt:{opt Source}}`"18 IDA Results Measurement System"'{p_end}
 
 
+{synopt:{opt Source Notes}}Access to an all-season road is measured as the proportion of rural people who live within 2 kilometers (typically equivalent to a 20-minute walk) of an all-season road. An all-season road is a road that is motorable all year by the prevailing{p_end}
 
-{right:(as of 13mar2019)}
+{synopt:{opt Source Organization}}Compiled by World Bank staff from household surveys, specifically Living Standard Measurement Surveys (LSMS), Income/Expenditure Household Surveys (IES), Poverty Surveys (PS) and Core Welfare Indicators Questionnaires (CWIQ) carried out betwee{p_end}
+
+
+
+{right:(as of 20oct2019)}

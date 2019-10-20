@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13mar2019)}
+{right:(as of 20oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -10,11 +10,6 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
-{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
-{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
-{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
-{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
-{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -53,24 +48,43 @@
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
+{synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
+{synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
+{synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
+{synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
+{synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
+{synopt:{opt 74}}  {help wbopendata_sourceid_indicators74##sourceid_74:Macro Poverty Outlook External}{p_end}
+{synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
-{marker sourceid_50}
-{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators50##:TOC}}){p_end}
+{marker sourceid_70}
+{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators70##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{syntab:{title:{bf:50 Subnational Population}}}
+{syntab:{title:{bf:70 Economic Fitness 2}}}
 {synoptline}
-{marker sourceid_SP.POP.TOTL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.ZS:SP.POP.TOTL.ZS} - Population (% of total)}}
+{marker sourceid_EF.EFM.PROD.XD}
+{synopt:{bf:{help wbopendata_sourceid##EF.EFM.PROD.XD:EF.EFM.PROD.XD} - `"Economic Fitness Metric"'}}
 
-{synopt:{opt Source}}50 Subnational Population{p_end}
-
-
-{synopt:{opt Source Notes}}Population Percentage of total is the share of first level administrative division (Admin 1 level) de facto mid-year population to total population.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source}}`"70 Economic Fitness 2"'{p_end}
 
 
+{synopt:{opt Source Notes}}Economic Fitness (EF) is both a measure of a country’s diversification and ability to produce complex goods on a globally competitive basis. Countries with the highest levels of EF have capabilities to produce a diverse portfolio of products{p_end}
 
-{right:(as of 13mar2019)}
+{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit {browse "https://www.nature.com/articles/s41567-018-0204-y/"} and {browse "http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth"} and https://www.nature.com{p_end}
+
+
+{synoptline}
+{marker sourceid_EF.EFM.UNIV.XD}
+{synopt:{bf:{help wbopendata_sourceid##EF.EFM.UNIV.XD:EF.EFM.UNIV.XD} - `"Universal Economic Fitness Metric"'}}
+
+{synopt:{opt Source}}`"70 Economic Fitness 2"'{p_end}
+
+
+{synopt:{opt Source Notes}}	The Universal Economic Fitness (UEF) is both a measure of a country’s diversification and ability to produce complex goods on a globally competitive basis.  Countries with the highest levels of EF have capabilities to produce a diverse port{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details please visit the following links. The Fitness and Complexity algorithm has been introduced in: {browse "https://www.nature.com/articles/srep00723"} For a detailed discussion of the data preprocessing{p_end}
+
+
+
+{right:(as of 20oct2019)}

@@ -2,7 +2,11 @@
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
+<<<<<<< HEAD
 {title:Indicators List (as of 19oct2019)}
+=======
+{title:Indicators List (as of 10mar2019)}
+>>>>>>> _parameter.ado
 
 {synoptset 33 tabbed}{...}
 {synopthdr: Indicators List}
@@ -9100,6 +9104,7 @@
 {synopt:{opt NW.TOW.TO}} Total wealth (constant 2014 US$){p_end}
 {synopt:{opt NY.ADJ.AEDU.CD}} Adjusted savings: education expenditure (current US$) {p_end}
 {synopt:{opt NY.ADJ.AEDU.CD}} Adjusted savings: education expenditure (current US$){p_end}
+<<<<<<< HEAD
 {synopt:{opt NY.ADJ.AEDU.GN.ZS}} Adjusted savings: education expenditure (% of GNI) {p_end}
 {synopt:{opt NY.ADJ.DCO2.CD}} Adjusted savings: carbon dioxide damage (current US$) {p_end}
 {synopt:{opt NY.ADJ.DCO2.GN.ZS}} Adjusted savings: carbon dioxide damage (% of GNI) {p_end}
@@ -13586,6 +13591,4347 @@
 {synopt:{opt WP_time_10.7}} Account, secondary education or more (% ages 15+) [ts] {p_end}
 {synopt:{opt WP_time_10.8}} Account, income, poorest 40% (% ages 15+) [ts] {p_end}
 {synopt:{opt WP_time_10.9}} Account, income, richest 60% (% ages 15+) [ts] {p_end}
+=======
+{synopt:{opt NY.ADJ.AEDU.GN.ZS}} Adjusted savings: education expenditure (% of GNI){p_end}
+{synopt:{opt NY.ADJ.DCO2.CD}} Adjusted savings: carbon dioxide damage (current US$){p_end}
+{synopt:{opt NY.ADJ.DCO2.GN.ZS}} Adjusted savings: carbon dioxide damage (% of GNI){p_end}
+{synopt:{opt NY.ADJ.DFOR.CD}} Adjusted savings: net forest depletion (current US$){p_end}
+{synopt:{opt NY.ADJ.DFOR.GN.ZS}} Adjusted savings: net forest depletion (% of GNI){p_end}
+{synopt:{opt NY.ADJ.DKAP.CD}} Adjusted savings: consumption of fixed capital (current US$){p_end}
+{synopt:{opt NY.ADJ.DKAP.GN.ZS}} Adjusted savings: consumption of fixed capital (% of GNI){p_end}
+{synopt:{opt NY.ADJ.DMIN.CD}} Adjusted savings: mineral depletion (current US$){p_end}
+{synopt:{opt NY.ADJ.DMIN.GN.ZS}} Adjusted savings: mineral depletion (% of GNI){p_end}
+{synopt:{opt NY.ADJ.DNGY.CD}} Adjusted savings: energy depletion (current US$){p_end}
+{synopt:{opt NY.ADJ.DNGY.GN.ZS}} Adjusted savings: energy depletion (% of GNI){p_end}
+{synopt:{opt NY.ADJ.DPEM.CD}} Adjusted savings: particulate emission damage (current US$){p_end}
+{synopt:{opt NY.ADJ.DPEM.GN.ZS}} Adjusted savings: particulate emission damage (% of GNI){p_end}
+{synopt:{opt NY.ADJ.DRES.GN.ZS}} Adjusted savings: natural resources depletion (% of GNI){p_end}
+{synopt:{opt NY.ADJ.ICTR.GN.ZS}} Adjusted savings: gross savings (% of GNI){p_end}
+{synopt:{opt NY.ADJ.NNAT.CD}} Adjusted savings: net national savings (current US$){p_end}
+{synopt:{opt NY.ADJ.NNAT.GN.ZS}} Adjusted savings: net national savings (% of GNI){p_end}
+{synopt:{opt NY.ADJ.NNTY.CD}} Adjusted net national income (current US$){p_end}
+{synopt:{opt NY.ADJ.NNTY.KD.ZG}} Adjusted net national income (annual % growth){p_end}
+{synopt:{opt NY.ADJ.NNTY.KD}} Adjusted net national income (constant 2010 US$){p_end}
+{synopt:{opt NY.ADJ.NNTY.PC.CD}} Adjusted net national income per capita (current US$){p_end}
+{synopt:{opt NY.ADJ.NNTY.PC.KD.ZG}} Adjusted net national income per capita (annual % growth){p_end}
+{synopt:{opt NY.ADJ.NNTY.PC.KD}} Adjusted net national income per capita (constant 2010 US$){p_end}
+{synopt:{opt NY.ADJ.SVNG.CD}} Adjusted net savings, including particulate emission damage (current US$){p_end}
+{synopt:{opt NY.ADJ.SVNG.GN.ZS}} Adjusted net savings, including particulate emission damage (% of GNI){p_end}
+{synopt:{opt NY.ADJ.SVNX.CD}} Adjusted net savings, excluding particulate emission damage (current US$){p_end}
+{synopt:{opt NY.ADJ.SVNX.GN.ZS}} Adjusted net savings, excluding particulate emission damage (% of GNI){p_end}
+{synopt:{opt NY.AGR.SUBS.GD.ZS}} Agricultural support estimate (% of GDP){p_end}
+{synopt:{opt NY.EXP.CAPM.KD.87}} Exports as a capacity to import (constant 1987 US$){p_end}
+{synopt:{opt NY.EXP.CAPM.KN.87}} Exports as a capacity to import (constant 1987 LCU){p_end}
+{synopt:{opt NY.EXP.CAPM.KN}} Exports as a capacity to import (constant LCU){p_end}
+{synopt:{opt NY.GDP.COAL.RT.ZS}} Coal rents (% of GDP){p_end}
+{synopt:{opt NY.GDP.DEFL.87.ZG}} Inflation, GDP deflator (annual %){p_end}
+{synopt:{opt NY.GDP.DEFL.KD.ZG.AD}} Inflation, GDP deflator: linked series (annual %){p_end}
+{synopt:{opt NY.GDP.DEFL.KD.ZG}} Inflation, GDP deflator (annual %){p_end}
+{synopt:{opt NY.GDP.DEFL.ZS.87}} GDP deflator (1987 = 100){p_end}
+{synopt:{opt NY.GDP.DEFL.ZS.AD}} GDP deflator: linked series (base year varies by country){p_end}
+{synopt:{opt NY.GDP.DEFL.ZS}} GDP deflator (base year varies by country){p_end}
+{synopt:{opt NY.GDP.DISC.CD}} Discrepancy in expenditure estimate of GDP (current US$){p_end}
+{synopt:{opt NY.GDP.DISC.CN}} Discrepancy in expenditure estimate of GDP (current LCU){p_end}
+{synopt:{opt NY.GDP.DISC.KN}} Discrepancy in expenditure estimate of GDP (constant LCU){p_end}
+{synopt:{opt NY.GDP.FCST.CD}} Gross value added at basic prices (GVA) (current US$){p_end}
+{synopt:{opt NY.GDP.FCST.CN}} Gross value added at basic prices (GVA) (current LCU){p_end}
+{synopt:{opt NY.GDP.FCST.KD.87}} GDP at factor cost (constant 1987 US$){p_end}
+{synopt:{opt NY.GDP.FCST.KD}} Gross value added at basic prices (GVA) (constant 2010 US$){p_end}
+{synopt:{opt NY.GDP.FCST.KN.87}} GDP at factor cost (constant 1987 LCU){p_end}
+{synopt:{opt NY.GDP.FCST.KN}} Gross value added at basic prices (GVA) (constant LCU){p_end}
+{synopt:{opt NY.GDP.FRST.RT.ZS}} Forest rents (% of GDP){p_end}
+{synopt:{opt NY.GDP.MINR.RT.ZS}} Mineral rents (% of GDP){p_end}
+{synopt:{opt NY.GDP.MKTP.CD.XD}} GDP deflator, index (2000=100; US$ series){p_end}
+{synopt:{opt NY.GDP.MKTP.CD}} GDP (current US$){p_end}
+{synopt:{opt NY.GDP.MKTP.CN.AD}} GDP: linked series (current LCU){p_end}
+{synopt:{opt NY.GDP.MKTP.CN.XD}} GDP deflator, period average (LCU index 2000=100){p_end}
+{synopt:{opt NY.GDP.MKTP.CN}} GDP (current LCU){p_end}
+{synopt:{opt NY.GDP.MKTP.IN}} GDP Deflator{p_end}
+{synopt:{opt NY.GDP.MKTP.KD.87}} GDP at market prices (constant 1987 US$){p_end}
+{synopt:{opt NY.GDP.MKTP.KD.ZG}} GDP growth (annual %){p_end}
+{synopt:{opt NY.GDP.MKTP.KD}} GDP (constant 2010 US$){p_end}
+{synopt:{opt NY.GDP.MKTP.KN.87.ZG}} GDP growth (annual %){p_end}
+{synopt:{opt NY.GDP.MKTP.KN.87}} GDP at market prices (constant 1987 LCU){p_end}
+{synopt:{opt NY.GDP.MKTP.KN}} GDP (constant LCU){p_end}
+{synopt:{opt NY.GDP.MKTP.PP.CD}} GDP, PPP (current international $){p_end}
+{synopt:{opt NY.GDP.MKTP.PP.KD.87}} GDP, PPP (constant 1987 international $){p_end}
+{synopt:{opt NY.GDP.MKTP.PP.KD}} GDP, PPP (constant 2011 international $){p_end}
+{synopt:{opt NY.GDP.MKTP.XD}} GDP deflator (1987=100,Index){p_end}
+{synopt:{opt NY.GDP.MKTP.XU.E}} GDP deflator, end period (base year varies by country){p_end}
+{synopt:{opt NY.GDP.MKTP.ZG}} Gross domestic product (Av. annual growth, %){p_end}
+{synopt:{opt NY.GDP.NGAS.RT.ZS}} Natural gas rents (% of GDP){p_end}
+{synopt:{opt NY.GDP.PCAP.CD}} GDP per capita (current US$){p_end}
+{synopt:{opt NY.GDP.PCAP.CN}} GDP per capita (current LCU){p_end}
+{synopt:{opt NY.GDP.PCAP.KD.ZG}} GDP per capita growth (annual %){p_end}
+{synopt:{opt NY.GDP.PCAP.KD}} GDP per capita (constant 2010 US$){p_end}
+{synopt:{opt NY.GDP.PCAP.KN}} GDP per capita (constant LCU){p_end}
+{synopt:{opt NY.GDP.PCAP.PP.CD}} GDP per capita, PPP (current international $){p_end}
+{synopt:{opt NY.GDP.PCAP.PP.KD.87}} GDP per capita, PPP (constant 1987 international $){p_end}
+{synopt:{opt NY.GDP.PCAP.PP.KD.ZG}} GDP per capita, PPP annual growth (%){p_end}
+{synopt:{opt NY.GDP.PCAP.PP.KD}} GDP per capita, PPP (constant 2011 international $){p_end}
+{synopt:{opt NY.GDP.PETR.RT.ZS}} Oil rents (% of GDP){p_end}
+{synopt:{opt NY.GDP.TOTL.RT.ZS}} Total natural resources rents (% of GDP){p_end}
+{synopt:{opt NY.GDS.PRVT.CD}} Gross domestic savings, private (current US$){p_end}
+{synopt:{opt NY.GDS.PRVT.CN}} Gross domestic savings, private (current LCU){p_end}
+{synopt:{opt NY.GDS.PRVT.KN}} Gross domestic savings, private (constant LCU){p_end}
+{synopt:{opt NY.GDS.PUBL.CD}} Gross domestic savings, public (current US$){p_end}
+{synopt:{opt NY.GDS.PUBL.CN}} Gross domestic savings, public (current LCU){p_end}
+{synopt:{opt NY.GDS.PUBL.KN}} Gross domestic savings, public (constant LCU){p_end}
+{synopt:{opt NY.GDS.TOTL.CD}} Gross domestic savings (current US$){p_end}
+{synopt:{opt NY.GDS.TOTL.CN}} Gross domestic savings (current LCU){p_end}
+{synopt:{opt NY.GDS.TOTL.KD.87}} Gross domestic savings (constant 1987 US$){p_end}
+{synopt:{opt NY.GDS.TOTL.KD}} Gross domestic savings, total (constant 2000 US$){p_end}
+{synopt:{opt NY.GDS.TOTL.KN.87}} Gross domestic savings (constant 1987 LCU){p_end}
+{synopt:{opt NY.GDS.TOTL.KN}} Gross domestic savings (constant LCU){p_end}
+{synopt:{opt NY.GDS.TOTL.ZS}} Gross domestic savings (% of GDP){p_end}
+{synopt:{opt NY.GDY.TOTL.KD.87}} Gross domestic income (constant 1987 US$){p_end}
+{synopt:{opt NY.GDY.TOTL.KD}} Gross domestic income (constant 2005 US$){p_end}
+{synopt:{opt NY.GDY.TOTL.KN.87}} Gross domestic income (constant 1987 LCU){p_end}
+{synopt:{opt NY.GDY.TOTL.KN}} Gross domestic income (constant LCU){p_end}
+{synopt:{opt NY.GEN.AEDU.GD.ZS}} Genuine savings: education expenditure (% of GDP){p_end}
+{synopt:{opt NY.GEN.DCO2.GD.ZS}} Genuine savings: carbon dioxide damage (% of GDP){p_end}
+{synopt:{opt NY.GEN.DFOR.GD.ZS}} Genuine savings: net forest depletion (% of GDP){p_end}
+{synopt:{opt NY.GEN.DKAP.GD.ZS}} Genuine savings: consumption of fixed capital (% of GDP){p_end}
+{synopt:{opt NY.GEN.DMIN.GD.ZS}} Genuine savings: mineral depletion (% of GDP){p_end}
+{synopt:{opt NY.GEN.DNGY.GD.ZS}} Genuine savings: energy depletion (% of GDP){p_end}
+{synopt:{opt NY.GEN.NDOM.GD.ZS}} Genuine savings: net domestic savings (% of GDP){p_end}
+{synopt:{opt NY.GEN.SVNG.GD.ZS}} Genuine domestic savings (% of GDP){p_end}
+{synopt:{opt NY.GNP.ATLS.CD}} GNI, Atlas method (current US$){p_end}
+{synopt:{opt NY.GNP.MKTP.CD}} GNI (current US$){p_end}
+{synopt:{opt NY.GNP.MKTP.CN}} GNI (current LCU){p_end}
+{synopt:{opt NY.GNP.MKTP.KD.87}} GNP at market prices (constant 1987 US$){p_end}
+{synopt:{opt NY.GNP.MKTP.KD.ZG}} GNI growth (annual %){p_end}
+{synopt:{opt NY.GNP.MKTP.KD}} GNI (constant 2010 US$){p_end}
+{synopt:{opt NY.GNP.MKTP.KN.87.ZG}} GNP growth (annual %){p_end}
+{synopt:{opt NY.GNP.MKTP.KN.87}} GNP at market prices (constant 1987 LCU){p_end}
+{synopt:{opt NY.GNP.MKTP.KN}} GNI (constant LCU){p_end}
+{synopt:{opt NY.GNP.MKTP.PC.CD}} GNI per capita (current US$){p_end}
+{synopt:{opt NY.GNP.MKTP.PP.CD}} GNI, PPP (current international $){p_end}
+{synopt:{opt NY.GNP.MKTP.PP.KD.87}} GNP, PPP (constant 1987 international $){p_end}
+{synopt:{opt NY.GNP.MKTP.PP.KD}} GNI, PPP (constant 2011 international $){p_end}
+{synopt:{opt NY.GNP.PCAP.CD.AT}} GNP per capita (Atlas method) (US$,curr. pr.){p_end}
+{synopt:{opt NY.GNP.PCAP.CD}} GNI per capita, Atlas method (current US$){p_end}
+{synopt:{opt NY.GNP.PCAP.CN}} GNI per capita (current LCU){p_end}
+{synopt:{opt NY.GNP.PCAP.KD.87}} GNP per capita (constant 1987 US$){p_end}
+{synopt:{opt NY.GNP.PCAP.KD.ZG}} GNI per capita growth (annual %){p_end}
+{synopt:{opt NY.GNP.PCAP.KD}} GNI per capita (constant 2010 US$){p_end}
+{synopt:{opt NY.GNP.PCAP.KN.87}} GNP per capita (constant 1987 LCU){p_end}
+{synopt:{opt NY.GNP.PCAP.KN}} GNI per capita (constant LCU){p_end}
+{synopt:{opt NY.GNP.PCAP.PP.CD}} GNI per capita, PPP (current international $){p_end}
+{synopt:{opt NY.GNP.PCAP.PP.KD.87}} GNP per capita, PPP (constant 1987 international $){p_end}
+{synopt:{opt NY.GNP.PCAP.PP.KD}} GNI per capita, PPP (constant 2011 international $){p_end}
+{synopt:{opt NY.GNP.PCAP.ZG}} GNP per capita growth (annual %){p_end}
+{synopt:{opt NY.GNP.PCAT.CD}} Gross national product per capita (USD, Atlas meth.){p_end}
+{synopt:{opt NY.GNS.ICTR.CD}} Gross savings (current US$){p_end}
+{synopt:{opt NY.GNS.ICTR.CN}} Gross savings (current LCU){p_end}
+{synopt:{opt NY.GNS.ICTR.GN.ZS}} Gross savings (% of GNI){p_end}
+{synopt:{opt NY.GNS.ICTR.KD}} Gross national savings, including net current transfers (constant 2000 US$){p_end}
+{synopt:{opt NY.GNS.ICTR.KN}} Gross national savings, including net current transfers (constant LCU){p_end}
+{synopt:{opt NY.GNS.ICTR.ZS}} Gross savings (% of GDP){p_end}
+{synopt:{opt NY.GNS.PRVT.CD}} Gross national savings, private (current US$){p_end}
+{synopt:{opt NY.GNS.PRVT.CN}} Gross national savings, private (current LCU){p_end}
+{synopt:{opt NY.GNS.PRVT.KN}} Gross national savings, private (constant LCU){p_end}
+{synopt:{opt NY.GNS.PUBL.CD}} Gross national savings, public (current US$){p_end}
+{synopt:{opt NY.GNS.PUBL.CN}} Gross national savings, public (current LCU){p_end}
+{synopt:{opt NY.GNS.PUBL.KN}} Gross national savings, public (constant LCU){p_end}
+{synopt:{opt NY.GNS.TOTL.CN}} CP Gross National Savings (Local){p_end}
+{synopt:{opt NY.GNY.PCAP.KD.87}} Gross national income per capita (1987 US$){p_end}
+{synopt:{opt NY.GNY.PCAP.KD}} Gross national income per capita (1987 USD){p_end}
+{synopt:{opt NY.GNY.TOTL.CN}} Gross national disposable income (current LCU){p_end}
+{synopt:{opt NY.GNY.TOTL.KD.87}} Gross national income (constant 1987 US$){p_end}
+{synopt:{opt NY.GNY.TOTL.KD}} Gross national income (constant 2000 US$){p_end}
+{synopt:{opt NY.GNY.TOTL.KN.87}} Gross national income (constant 1987 LCU){p_end}
+{synopt:{opt NY.GNY.TOTL.KN}} Gross national income (constant LCU){p_end}
+{synopt:{opt NY.GNY.TOTL.ZG}} Gross national income (Av. annual growth, %){p_end}
+{synopt:{opt NY.GSR.NFCY.CD}} Net primary income (Net income from abroad) (current US$){p_end}
+{synopt:{opt NY.GSR.NFCY.CN}} Net primary income (Net income from abroad) (current LCU){p_end}
+{synopt:{opt NY.GSR.NFCY.KD.87}} Net income from abroad (constant 1987 US$){p_end}
+{synopt:{opt NY.GSR.NFCY.KN.87}} Net income from abroad (constant 1987 LCU){p_end}
+{synopt:{opt NY.GSR.NFCY.KN}} Net primary income (Net income from abroad) (constant LCU){p_end}
+{synopt:{opt NY.SVF.NFSY.CN}} CP Net Factor Income (+) or Payments (Local){p_end}
+{synopt:{opt NY.TAX.IDRT.CD}} Indirect taxes (current US$){p_end}
+{synopt:{opt NY.TAX.IDRT.CN}} Indirect taxes (current LCU){p_end}
+{synopt:{opt NY.TAX.NIND.CD}} Taxes less subsidies on products (current US$){p_end}
+{synopt:{opt NY.TAX.NIND.CN}} Taxes less subsidies on products (current LCU){p_end}
+{synopt:{opt NY.TAX.NIND.KD.87}} Net indirect taxes (constant 1987 US$){p_end}
+{synopt:{opt NY.TAX.NIND.KN.87}} Net indirect taxes (constant 1987 LCU){p_end}
+{synopt:{opt NY.TAX.NIND.KN}} Taxes less subsidies on products (constant LCU){p_end}
+{synopt:{opt NY.TAX.SUBS.CD}} Subsidies (current US$){p_end}
+{synopt:{opt NY.TAX.SUBS.CN}} Subsidies (current LCU; from SNA){p_end}
+{synopt:{opt NY.TRF.NCTR.CD}} Net secondary income (Net current transfers from abroad) (current US$){p_end}
+{synopt:{opt NY.TRF.NCTR.CN}} Net secondary income (Net current transfers from abroad) (current LCU){p_end}
+{synopt:{opt NY.TRF.NCTR.KN}} Net secondary income (Net current transfers from abroad) (constant LCU){p_end}
+{synopt:{opt NY.TTF.GNFS.KD.87}} Terms of trade adjustment (constant 1987 US$){p_end}
+{synopt:{opt NY.TTF.GNFS.KN.87}} Terms of trade adjustment (constant 1987 LCU){p_end}
+{synopt:{opt NY.TTF.GNFS.KN}} Terms of trade adjustment (constant LCU){p_end}
+{synopt:{opt NY.TTF.MRCH.KN}} Terms of Trade Adjustment (local) (Const. Price){p_end}
+{synopt:{opt NYGDPMKTPKDZ}} Annual percentage growth rate of GDP at market prices based on constant 2010 US Dollars.{p_end}
+{synopt:{opt NYGDPMKTPSACD}} GDP,current US$,millions,seas. adj.,{p_end}
+{synopt:{opt NYGDPMKTPSACN}} GDP,current LCU,millions,seas. adj.,{p_end}
+{synopt:{opt NYGDPMKTPSAKD}} GDP,constant 2010 US$,millions,seas. adj.,{p_end}
+{synopt:{opt NYGDPMKTPSAKN}} GDP,constant 2010 LCU,millions,seas. adj.,{p_end}
+{synopt:{opt OECD.TSAL.0.E0}} Annual statutory teacher salaries in public institutions in USD. Pre-Primary. Starting salary{p_end}
+{synopt:{opt OECD.TSAL.0.E10}} Annual statutory teacher salaries in public institutions in USD. Pre-Primary. 10 years of experience{p_end}
+{synopt:{opt OECD.TSAL.0.E15}} Annual statutory teacher salaries in public institutions in USD. Pre-Primary. 15 years of experience{p_end}
+{synopt:{opt OECD.TSAL.0.ETOP}} Annual statutory teacher salaries in public institutions in USD. Pre-Primary. Top of scale{p_end}
+{synopt:{opt OECD.TSAL.1.E0}} Annual statutory teacher salaries in public institutions in USD. Primary. Starting salary{p_end}
+{synopt:{opt OECD.TSAL.1.E10}} Annual statutory teacher salaries in public institutions in USD. Primary. 10 years of experience{p_end}
+{synopt:{opt OECD.TSAL.1.E15}} Annual statutory teacher salaries in public institutions in USD. Primary. 15 years of experience{p_end}
+{synopt:{opt OECD.TSAL.1.ETOP}} Annual statutory teacher salaries in public institutions in USD. Primary. Top of scale{p_end}
+{synopt:{opt OECD.TSAL.2.E0}} Annual statutory teacher salaries in public institutions in USD. Lower Secondary. Starting salary{p_end}
+{synopt:{opt OECD.TSAL.2.E10}} Annual statutory teacher salaries in public institutions in USD. Lower Secondary. 10 years of experience{p_end}
+{synopt:{opt OECD.TSAL.2.E15}} Annual statutory teacher salaries in public institutions in USD. Lower Secondary. 15 years of experience{p_end}
+{synopt:{opt OECD.TSAL.2.ETOP}} Annual statutory teacher salaries in public institutions in USD. Lower Secondary. Top of scale{p_end}
+{synopt:{opt OECD.TSAL.3.E0}} Annual statutory teacher salaries in public institutions in USD. Upper Secondary. Starting salary{p_end}
+{synopt:{opt OECD.TSAL.3.E10}} Annual statutory teacher salaries in public institutions in USD. Upper Secondary. 10 years of experience{p_end}
+{synopt:{opt OECD.TSAL.3.E15}} Annual statutory teacher salaries in public institutions in USD. Upper Secondary. 15 years of experience{p_end}
+{synopt:{opt OECD.TSAL.3.ETOP}} Annual statutory teacher salaries in public institutions in USD. Upper Secondary. Top of scale{p_end}
+{synopt:{opt OTHR.TAX.PAID.ZS}} Other taxes (% of profits){p_end}
+{synopt:{opt PA.NUS.ATLS}} DEC alternative conversion factor (LCU per US$){p_end}
+{synopt:{opt PA.NUS.FCRF.XR}} Official exchange rate to parallel exchange rate ratio{p_end}
+{synopt:{opt PA.NUS.FCRF}} Official exchange rate (LCU per US$, period average){p_end}
+{synopt:{opt PA.NUS.PPP.05}} 2005 PPP conversion factor, GDP (LCU per international $){p_end}
+{synopt:{opt PA.NUS.PPPC.RF}} Price level ratio of PPP conversion factor (GDP) to market exchange rate{p_end}
+{synopt:{opt PA.NUS.PPP}} PPP conversion factor, GDP (LCU per international $){p_end}
+{synopt:{opt PA.NUS.PRVT.PP.05}} 2005 PPP conversion factor, private consumption (LCU per international $){p_end}
+{synopt:{opt PA.NUS.PRVT.PP}} PPP conversion factor, private consumption (LCU per international $){p_end}
+{synopt:{opt PA.PPR.MAIZ.CD}} Maize price (US$ per metric ton){p_end}
+{synopt:{opt PA.PPR.MAIZ.CN}} Maize price (local currency per metric ton){p_end}
+{synopt:{opt PA.PPR.WHEA.CD}} Wheat price (US$ per metric ton){p_end}
+{synopt:{opt PA.PPR.WHEA.CN}} Wheat price (local currency per metric ton){p_end}
+{synopt:{opt PALM.LND.DMG}} Palm Oil Land Area by type of condition: Damaged (in Hectares){p_end}
+{synopt:{opt PALM.LND.IMM}} Palm Oil Land Area by type of condition: Immature (in Hectares){p_end}
+{synopt:{opt PALM.LND.MTR}} Palm Oil Land Area by type of condition: Mature (in Hectares){p_end}
+{synopt:{opt PALM.LND.PRVT}} Palm Oil Land Area by type of ownership: Private (in Hectares){p_end}
+{synopt:{opt PALM.LND.SMHD}} Palm Oil Land Area by type of ownership: Smallholder (in Hectares){p_end}
+{synopt:{opt PALM.LND.SOE}} Palm Oil Land Area by type of ownership: State Owned Enterprise (in Hectares){p_end}
+{synopt:{opt PALM.LND.TOTL}} Palm Oil Land Area: Total (in Hectares){p_end}
+{synopt:{opt PALM.PRD.PRVT}} Palm Production by type of ownership: Private (in Tons){p_end}
+{synopt:{opt PALM.PRD.SMHD}} Palm Production by type of ownership: Smallholder (in Tons){p_end}
+{synopt:{opt PALM.PRD.SOE}} Palm Production by type of ownership: State Owned Enterprise (in Tons){p_end}
+{synopt:{opt PALM.PRD.TOTL}} Palm Production: Total (in Tons){p_end}
+{synopt:{opt PALM.YLD.PRVT}} Palm Oil Yield by type of ownership: Private (in Kg/Ha){p_end}
+{synopt:{opt PALM.YLD.SMHD}} Palm Oil Yield by type of ownership: Smallholder (in Kg/Ha){p_end}
+{synopt:{opt PALM.YLD.SOE}} Palm Oil Yield by type of ownership: State Owned Enterprise (in Kg/Ha){p_end}
+{synopt:{opt PAY.TAX.COIT.AU.HRS.DB1719}} Paying taxes: Time to comply with corporate income tax correction (hours) (DB17-19 methodology){p_end}
+{synopt:{opt PAY.TAX.COIT.AU.HRS.TM.DB1719.DFRN}} Paying taxes: Time to comply with corporate income tax correction (hours) (DB17-19 methodology) - Score{p_end}
+{synopt:{opt PAY.TAX.COIT.AU.WKS.DB1719}} Paying taxes: Time to complete a corporate income tax correction (weeks) (DB17-19 methodology){p_end}
+{synopt:{opt PAY.TAX.COIT.WKS.TM.DB1719.DFRN}} Paying taxes: Time to complete a corporate income tax correction (weeks) (DB17-19 methodology) - Score{p_end}
+{synopt:{opt PAY.TAX.DB0616.DFRN}} Paying taxes (DB06-16 methodology) - Score{p_end}
+{synopt:{opt PAY.TAX.DB1719.DRFN}} Paying taxes (DB17-19 methodology) - Score{p_end}
+{synopt:{opt PAY.TAX.LABR.TAX.CONTR.ZS}} Paying taxes: Labor tax and contributions (% of commercial profits){p_end}
+{synopt:{opt PAY.TAX.POST.FIL.XD.0100.DB1719.DFRN}} Paying taxes: Postfiling index (0-100) (DB17-19 methodology) - Score{p_end}
+{synopt:{opt PAY.TAX.PRFT.CP.ZS}} Paying taxes: Profit tax (% of profits){p_end}
+{synopt:{opt PAY.TAX.PYMT.FREQ.NO}} Paying taxes: Payments (number per year){p_end}
+{synopt:{opt PAY.TAX.PYMT.NO.DFRN}} Paying taxes: Tax payments per year (number) - Score{p_end}
+{synopt:{opt PAY.TAX.RK.DB19}} Rank: Paying taxes (1=most business-friendly regulations) (DB19 methodology){p_end}
+{synopt:{opt PAY.TAX.TM.DFRN}} Paying taxes: Time (hours per year) - Score{p_end}
+{synopt:{opt PAY.TAX.TM}} Paying taxes: Time (hours per year){p_end}
+{synopt:{opt PAY.TAX.TOT.TAX.RT.ZS.DRFRN}} Paying taxes: Total tax rate (% of profit) - Score{p_end}
+{synopt:{opt PAY.TAX.TOT.TAX.RT.ZS}} Paying taxes: Total tax rate (% of profit){p_end}
+{synopt:{opt PAY.TAX.VAT.REF.OBT.WKS.TM.DB1719.DFRN}} Paying taxes: Time to obtain VAT refund (weeks) (DB17-19 methodology) - Score{p_end}
+{synopt:{opt PAY.TAX.VAT.REF.OBT.WKS.TM.DB1719}} Paying taxes: Time to obtain VAT refund (weeks) (DB17-19 methodology){p_end}
+{synopt:{opt PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719.DFRN}} Paying taxes: Time to comply with VAT refund (hours) (DB17-19 methodology) - Score{p_end}
+{synopt:{opt PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719}} Paying taxes: Time to comply with VAT refund (hours) (DB17-19 methodology){p_end}
+{synopt:{opt PE.NUS.FCAE}} Official exchange rate (LCU per US$, end period){p_end}
+{synopt:{opt PE.USG.LNDN}} London gold price (US$ per ounce){p_end}
+{synopt:{opt PRJ.ATT.1519.1.FE}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.1519.1.MA}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.1519.1.MF}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.1519.2.FE}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Lower Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.1519.2.MA}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Lower Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.1519.2.MF}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Lower Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.1519.3.FE}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Upper Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.1519.3.MA}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Upper Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.1519.3.MF}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Upper Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.1519.4.FE}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Post Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.1519.4.MA}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Post Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.1519.4.MF}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Post Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.1519.NED.FE}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. No Education. Female{p_end}
+{synopt:{opt PRJ.ATT.1519.NED.MA}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. No Education. Male{p_end}
+{synopt:{opt PRJ.ATT.1519.NED.MF}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. No Education. Total{p_end}
+{synopt:{opt PRJ.ATT.1519.S1.FE}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Incomplete Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.1519.S1.MA}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Incomplete Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.1519.S1.MF}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Incomplete Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.15UP.1.FE}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.15UP.1.MA}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.15UP.1.MF}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.15UP.2.FE}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Lower Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.15UP.2.MA}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Lower Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.15UP.2.MF}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Lower Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.15UP.3.FE}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Upper Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.15UP.3.MA}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Upper Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.15UP.3.MF}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Upper Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.15UP.4.FE}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Post Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.15UP.4.MA}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Post Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.15UP.4.MF}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Post Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.15UP.NED.FE}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. No Education. Female{p_end}
+{synopt:{opt PRJ.ATT.15UP.NED.MA}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. No Education. Male{p_end}
+{synopt:{opt PRJ.ATT.15UP.NED.MF}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. No Education. Total{p_end}
+{synopt:{opt PRJ.ATT.15UP.S1.FE}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Incomplete Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.15UP.S1.MA}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Incomplete Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.15UP.S1.MF}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Incomplete Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.2024.1.FE}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.2024.1.MA}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.2024.1.MF}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.2024.2.FE}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Lower Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.2024.2.MA}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Lower Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.2024.2.MF}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Lower Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.2024.3.FE}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Upper Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.2024.3.MA}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Upper Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.2024.3.MF}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Upper Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.2024.4.FE}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Post Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.2024.4.MA}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Post Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.2024.4.MF}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Post Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.2024.NED.FE}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. No Education. Female{p_end}
+{synopt:{opt PRJ.ATT.2024.NED.MA}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. No Education. Male{p_end}
+{synopt:{opt PRJ.ATT.2024.NED.MF}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. No Education. Total{p_end}
+{synopt:{opt PRJ.ATT.2024.S1.FE}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Incomplete Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.2024.S1.MA}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Incomplete Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.2024.S1.MF}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Incomplete Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.2039.1.FE}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.2039.1.MA}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.2039.1.MF}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.2039.2.FE}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Lower Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.2039.2.MA}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Lower Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.2039.2.MF}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Lower Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.2039.3.FE}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Upper Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.2039.3.MA}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Upper Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.2039.3.MF}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Upper Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.2039.4.FE}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Post Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.2039.4.MA}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Post Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.2039.4.MF}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Post Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.2039.NED.FE}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. No Education. Female{p_end}
+{synopt:{opt PRJ.ATT.2039.NED.MA}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. No Education. Male{p_end}
+{synopt:{opt PRJ.ATT.2039.NED.MF}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. No Education. Total{p_end}
+{synopt:{opt PRJ.ATT.2039.S1.FE}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Incomplete Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.2039.S1.MA}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Incomplete Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.2039.S1.MF}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Incomplete Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.2064.1.FE}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.2064.1.MA}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.2064.1.MF}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.2064.2.FE}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Lower Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.2064.2.MA}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Lower Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.2064.2.MF}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Lower Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.2064.3.FE}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Upper Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.2064.3.MA}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Upper Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.2064.3.MF}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Upper Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.2064.4.FE}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Post Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.2064.4.MA}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Post Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.2064.4.MF}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Post Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.2064.NED.FE}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. No Education. Female{p_end}
+{synopt:{opt PRJ.ATT.2064.NED.MA}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. No Education. Male{p_end}
+{synopt:{opt PRJ.ATT.2064.NED.MF}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. No Education. Total{p_end}
+{synopt:{opt PRJ.ATT.2064.S1.FE}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Incomplete Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.2064.S1.MA}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Incomplete Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.2064.S1.MF}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Incomplete Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.2529.1.FE}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.2529.1.MA}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.2529.1.MF}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.2529.2.FE}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Lower Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.2529.2.MA}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Lower Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.2529.2.MF}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Lower Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.2529.3.FE}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Upper Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.2529.3.MA}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Upper Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.2529.3.MF}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Upper Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.2529.4.FE}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Post Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.2529.4.MA}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Post Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.2529.4.MF}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Post Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.2529.NED.FE}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. No Education. Female{p_end}
+{synopt:{opt PRJ.ATT.2529.NED.MA}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. No Education. Male{p_end}
+{synopt:{opt PRJ.ATT.2529.NED.MF}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. No Education. Total{p_end}
+{synopt:{opt PRJ.ATT.2529.S1.FE}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Incomplete Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.2529.S1.MA}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Incomplete Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.2529.S1.MF}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Incomplete Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.25UP.1.FE}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.25UP.1.MA}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.25UP.1.MF}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.25UP.2.FE}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Lower Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.25UP.2.MA}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Lower Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.25UP.2.MF}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Lower Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.25UP.3.FE}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Upper Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.25UP.3.MA}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Upper Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.25UP.3.MF}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Upper Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.25UP.4.FE}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Post Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.25UP.4.MA}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Post Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.25UP.4.MF}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Post Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.25UP.NED.FE}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. No Education. Female{p_end}
+{synopt:{opt PRJ.ATT.25UP.NED.MA}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. No Education. Male{p_end}
+{synopt:{opt PRJ.ATT.25UP.NED.MF}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. No Education. Total{p_end}
+{synopt:{opt PRJ.ATT.25UP.S1.FE}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Incomplete Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.25UP.S1.MA}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Incomplete Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.25UP.S1.MF}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Incomplete Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.4064.1.FE}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.4064.1.MA}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.4064.1.MF}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.4064.2.FE}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Lower Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.4064.2.MA}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Lower Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.4064.2.MF}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Lower Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.4064.3.FE}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Upper Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.4064.3.MA}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Upper Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.4064.3.MF}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Upper Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.4064.4.FE}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Post Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.4064.4.MA}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Post Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.4064.4.MF}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Post Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.4064.NED.FE}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. No Education. Female{p_end}
+{synopt:{opt PRJ.ATT.4064.NED.MA}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. No Education. Male{p_end}
+{synopt:{opt PRJ.ATT.4064.NED.MF}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. No Education. Total{p_end}
+{synopt:{opt PRJ.ATT.4064.S1.FE}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Incomplete Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.4064.S1.MA}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Incomplete Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.4064.S1.MF}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Incomplete Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.60UP.1.FE}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.60UP.1.MA}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.60UP.1.MF}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.60UP.2.FE}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Lower Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.60UP.2.MA}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Lower Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.60UP.2.MF}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Lower Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.60UP.3.FE}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Upper Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.60UP.3.MA}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Upper Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.60UP.3.MF}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Upper Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.60UP.4.FE}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Post Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.60UP.4.MA}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Post Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.60UP.4.MF}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Post Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.60UP.NED.FE}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. No Education. Female{p_end}
+{synopt:{opt PRJ.ATT.60UP.NED.MA}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. No Education. Male{p_end}
+{synopt:{opt PRJ.ATT.60UP.NED.MF}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. No Education. Total{p_end}
+{synopt:{opt PRJ.ATT.60UP.S1.FE}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Incomplete Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.60UP.S1.MA}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Incomplete Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.60UP.S1.MF}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Incomplete Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.80UP.1.FE}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.80UP.1.MA}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.80UP.1.MF}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.80UP.2.FE}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Lower Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.80UP.2.MA}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Lower Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.80UP.2.MF}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Lower Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.80UP.3.FE}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Upper Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.80UP.3.MA}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Upper Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.80UP.3.MF}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Upper Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.80UP.4.FE}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Post Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.80UP.4.MA}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Post Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.80UP.4.MF}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Post Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.80UP.NED.FE}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. No Education. Female{p_end}
+{synopt:{opt PRJ.ATT.80UP.NED.MA}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. No Education. Male{p_end}
+{synopt:{opt PRJ.ATT.80UP.NED.MF}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. No Education. Total{p_end}
+{synopt:{opt PRJ.ATT.80UP.S1.FE}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Incomplete Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.80UP.S1.MA}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Incomplete Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.80UP.S1.MF}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Incomplete Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.ALL.1.FE}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.ALL.1.MA}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.ALL.1.MF}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Primary. Total{p_end}
+{synopt:{opt PRJ.ATT.ALL.2.FE}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Lower Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.ALL.2.MA}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Lower Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.ALL.2.MF}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Lower Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.ALL.3.FE}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Upper Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.ALL.3.MA}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Upper Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.ALL.3.MF}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Upper Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.ALL.4.FE}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Post Secondary. Female{p_end}
+{synopt:{opt PRJ.ATT.ALL.4.MA}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Post Secondary. Male{p_end}
+{synopt:{opt PRJ.ATT.ALL.4.MF}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Post Secondary. Total{p_end}
+{synopt:{opt PRJ.ATT.ALL.NED.FE}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. No Education. Female{p_end}
+{synopt:{opt PRJ.ATT.ALL.NED.MA}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. No Education. Male{p_end}
+{synopt:{opt PRJ.ATT.ALL.NED.MF}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. No Education. Total{p_end}
+{synopt:{opt PRJ.ATT.ALL.S1.FE}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Incomplete Primary. Female{p_end}
+{synopt:{opt PRJ.ATT.ALL.S1.MA}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Incomplete Primary. Male{p_end}
+{synopt:{opt PRJ.ATT.ALL.S1.MF}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Incomplete Primary. Total{p_end}
+{synopt:{opt PRJ.MYS.0T19.FE}} Wittgenstein Projection: Mean years of schooling. Age 0-19. Female{p_end}
+{synopt:{opt PRJ.MYS.0T19.MA}} Wittgenstein Projection: Mean years of schooling. Age 0-19. Male{p_end}
+{synopt:{opt PRJ.MYS.0T19.MF}} Wittgenstein Projection: Mean years of schooling. Age 0-19. Total{p_end}
+{synopt:{opt PRJ.MYS.1519.FE}} Wittgenstein Projection: Mean years of schooling. Age 15-19. Female{p_end}
+{synopt:{opt PRJ.MYS.1519.MA}} Wittgenstein Projection: Mean years of schooling. Age 15-19. Male{p_end}
+{synopt:{opt PRJ.MYS.1519.MF}} Wittgenstein Projection: Mean years of schooling. Age 15-19. Total{p_end}
+{synopt:{opt PRJ.MYS.15UP.FE}} Wittgenstein Projection: Mean years of schooling. Age 15+. Female{p_end}
+{synopt:{opt PRJ.MYS.15UP.GPI}} Wittgenstein Projection: Mean Years of Schooling. Age 15+. Gender Gap{p_end}
+{synopt:{opt PRJ.MYS.15UP.MA}} Wittgenstein Projection: Mean years of schooling. Age 15+. Male{p_end}
+{synopt:{opt PRJ.MYS.15UP.MF}} Wittgenstein Projection: Mean years of schooling. Age 15+. Total{p_end}
+{synopt:{opt PRJ.MYS.2024.FE}} Wittgenstein Projection: Mean years of schooling. Age 20-24. Female{p_end}
+{synopt:{opt PRJ.MYS.2024.MA}} Wittgenstein Projection: Mean years of schooling. Age 20-24. Male{p_end}
+{synopt:{opt PRJ.MYS.2024.MF}} Wittgenstein Projection: Mean years of schooling. Age 20-24. Total{p_end}
+{synopt:{opt PRJ.MYS.2039.FE}} Wittgenstein Projection: Mean years of schooling. Age 20-39. Female{p_end}
+{synopt:{opt PRJ.MYS.2039.MA}} Wittgenstein Projection: Mean years of schooling. Age 20-39. Male{p_end}
+{synopt:{opt PRJ.MYS.2039.MF}} Wittgenstein Projection: Mean years of schooling. Age 20-39. Total{p_end}
+{synopt:{opt PRJ.MYS.2064.FE}} Wittgenstein Projection: Mean years of schooling. Age 20-64. Female{p_end}
+{synopt:{opt PRJ.MYS.2064.MA}} Wittgenstein Projection: Mean years of schooling. Age 20-64. Male{p_end}
+{synopt:{opt PRJ.MYS.2064.MF}} Wittgenstein Projection: Mean years of schooling. Age 20-64. Total{p_end}
+{synopt:{opt PRJ.MYS.2529.FE}} Wittgenstein Projection: Mean years of schooling. Age 25-29. Female{p_end}
+{synopt:{opt PRJ.MYS.2529.MA}} Wittgenstein Projection: Mean years of schooling. Age 25-29. Male{p_end}
+{synopt:{opt PRJ.MYS.2529.MF}} Wittgenstein Projection: Mean years of schooling. Age 25-29. Total{p_end}
+{synopt:{opt PRJ.MYS.25UP.FE}} Wittgenstein Projection: Mean years of schooling. Age 25+. Female{p_end}
+{synopt:{opt PRJ.MYS.25UP.GPI}} Wittgenstein Projection: Mean Years of Schooling. Age 25+. Gender Gap{p_end}
+{synopt:{opt PRJ.MYS.25UP.MA}} Wittgenstein Projection: Mean years of schooling. Age 25+. Male{p_end}
+{synopt:{opt PRJ.MYS.25UP.MF}} Wittgenstein Projection: Mean years of schooling. Age 25+. Total{p_end}
+{synopt:{opt PRJ.MYS.4064.FE}} Wittgenstein Projection: Mean years of schooling. Age 40-64. Female{p_end}
+{synopt:{opt PRJ.MYS.4064.MA}} Wittgenstein Projection: Mean years of schooling. Age 40-64. Male{p_end}
+{synopt:{opt PRJ.MYS.4064.MF}} Wittgenstein Projection: Mean years of schooling. Age 40-64. Total{p_end}
+{synopt:{opt PRJ.MYS.60UP.FE}} Wittgenstein Projection: Mean years of schooling. Age 60+. Female{p_end}
+{synopt:{opt PRJ.MYS.60UP.MA}} Wittgenstein Projection: Mean years of schooling. Age 60+. Male{p_end}
+{synopt:{opt PRJ.MYS.60UP.MF}} Wittgenstein Projection: Mean years of schooling. Age 60+. Total{p_end}
+{synopt:{opt PRJ.MYS.65UP.FE}} Wittgenstein Projection: Mean years of schooling. Age 65+. Female{p_end}
+{synopt:{opt PRJ.MYS.65UP.MA}} Wittgenstein Projection: Mean years of schooling. Age 65+. Male{p_end}
+{synopt:{opt PRJ.MYS.65UP.MF}} Wittgenstein Projection: Mean years of schooling. Age 65+. Total{p_end}
+{synopt:{opt PRJ.MYS.80UP.FE}} Wittgenstein Projection: Mean years of schooling. Age 80+. Female{p_end}
+{synopt:{opt PRJ.MYS.80UP.MA}} Wittgenstein Projection: Mean years of schooling. Age 80+. Male{p_end}
+{synopt:{opt PRJ.MYS.80UP.MF}} Wittgenstein Projection: Mean years of schooling. Age 80+. Total{p_end}
+{synopt:{opt PRJ.POP.1519.1.FE}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Primary. Female{p_end}
+{synopt:{opt PRJ.POP.1519.1.MA}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Primary. Male{p_end}
+{synopt:{opt PRJ.POP.1519.1.MF}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Primary. Total{p_end}
+{synopt:{opt PRJ.POP.1519.2.FE}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Lower Secondary. Female{p_end}
+{synopt:{opt PRJ.POP.1519.2.MA}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Lower Secondary. Male{p_end}
+{synopt:{opt PRJ.POP.1519.2.MF}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Lower Secondary. Total{p_end}
+{synopt:{opt PRJ.POP.1519.3.FE}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Upper Secondary. Female{p_end}
+{synopt:{opt PRJ.POP.1519.3.MA}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Upper Secondary. Male{p_end}
+{synopt:{opt PRJ.POP.1519.3.MF}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Upper Secondary. Total{p_end}
+{synopt:{opt PRJ.POP.1519.4.FE}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Post Secondary. Female{p_end}
+{synopt:{opt PRJ.POP.1519.4.MA}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Post Secondary. Male{p_end}
+{synopt:{opt PRJ.POP.1519.4.MF}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Post Secondary. Total{p_end}
+{synopt:{opt PRJ.POP.1519.NED.FE}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. No Education. Female{p_end}
+{synopt:{opt PRJ.POP.1519.NED.MA}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. No Education. Male{p_end}
+{synopt:{opt PRJ.POP.1519.NED.MF}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. No Education. Total{p_end}
+{synopt:{opt PRJ.POP.1519.S1.FE}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Incomplete Primary. Female{p_end}
+{synopt:{opt PRJ.POP.1519.S1.MA}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Incomplete Primary. Male{p_end}
+{synopt:{opt PRJ.POP.1519.S1.MF}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Incomplete Primary. Total{p_end}
+{synopt:{opt PRJ.POP.2024.1.FE}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Primary. Female{p_end}
+{synopt:{opt PRJ.POP.2024.1.MA}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Primary. Male{p_end}
+{synopt:{opt PRJ.POP.2024.1.MF}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Primary. Total{p_end}
+{synopt:{opt PRJ.POP.2024.2.FE}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Lower Secondary. Female{p_end}
+{synopt:{opt PRJ.POP.2024.2.MA}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Lower Secondary. Male{p_end}
+{synopt:{opt PRJ.POP.2024.2.MF}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Lower Secondary. Total{p_end}
+{synopt:{opt PRJ.POP.2024.3.FE}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Upper Secondary. Female{p_end}
+{synopt:{opt PRJ.POP.2024.3.MA}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Upper Secondary. Male{p_end}
+{synopt:{opt PRJ.POP.2024.3.MF}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Upper Secondary. Total{p_end}
+{synopt:{opt PRJ.POP.2024.4.FE}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Post Secondary. Female{p_end}
+{synopt:{opt PRJ.POP.2024.4.MA}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Post Secondary. Male{p_end}
+{synopt:{opt PRJ.POP.2024.4.MF}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Post Secondary. Total{p_end}
+{synopt:{opt PRJ.POP.2024.NED.FE}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. No Education. Female{p_end}
+{synopt:{opt PRJ.POP.2024.NED.MA}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. No Education. Male{p_end}
+{synopt:{opt PRJ.POP.2024.NED.MF}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. No Education. Total{p_end}
+{synopt:{opt PRJ.POP.2024.S1.FE}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Incomplete Primary. Female{p_end}
+{synopt:{opt PRJ.POP.2024.S1.MA}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Incomplete Primary. Male{p_end}
+{synopt:{opt PRJ.POP.2024.S1.MF}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Incomplete Primary. Total{p_end}
+{synopt:{opt PRJ.POP.2529.1.FE}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Primary. Female{p_end}
+{synopt:{opt PRJ.POP.2529.1.MA}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Primary. Male{p_end}
+{synopt:{opt PRJ.POP.2529.1.MF}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Primary. Total{p_end}
+{synopt:{opt PRJ.POP.2529.2.FE}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Lower Secondary. Female{p_end}
+{synopt:{opt PRJ.POP.2529.2.MA}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Lower Secondary. Male{p_end}
+{synopt:{opt PRJ.POP.2529.2.MF}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Lower Secondary. Total{p_end}
+{synopt:{opt PRJ.POP.2529.3.FE}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Upper Secondary. Female{p_end}
+{synopt:{opt PRJ.POP.2529.3.MA}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Upper Secondary. Male{p_end}
+{synopt:{opt PRJ.POP.2529.3.MF}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Upper Secondary. Total{p_end}
+{synopt:{opt PRJ.POP.2529.4.FE}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Post Secondary. Female{p_end}
+{synopt:{opt PRJ.POP.2529.4.MA}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Post Secondary. Male{p_end}
+{synopt:{opt PRJ.POP.2529.4.MF}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Post Secondary. Total{p_end}
+{synopt:{opt PRJ.POP.2529.NED.FE}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. No Education. Female{p_end}
+{synopt:{opt PRJ.POP.2529.NED.MA}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. No Education. Male{p_end}
+{synopt:{opt PRJ.POP.2529.NED.MF}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. No Education. Total{p_end}
+{synopt:{opt PRJ.POP.2529.S1.FE}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Incomplete Primary. Female{p_end}
+{synopt:{opt PRJ.POP.2529.S1.MA}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Incomplete Primary. Male{p_end}
+{synopt:{opt PRJ.POP.2529.S1.MF}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Incomplete Primary. Total{p_end}
+{synopt:{opt PRJ.POP.ALL.1.FE}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Primary. Female{p_end}
+{synopt:{opt PRJ.POP.ALL.1.MA}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Primary. Male{p_end}
+{synopt:{opt PRJ.POP.ALL.1.MF}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Primary. Total{p_end}
+{synopt:{opt PRJ.POP.ALL.2.FE}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Lower Secondary. Female{p_end}
+{synopt:{opt PRJ.POP.ALL.2.MA}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Lower Secondary. Male{p_end}
+{synopt:{opt PRJ.POP.ALL.2.MF}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Lower Secondary. Total{p_end}
+{synopt:{opt PRJ.POP.ALL.3.FE}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Upper Secondary. Female{p_end}
+{synopt:{opt PRJ.POP.ALL.3.MA}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Upper Secondary. Male{p_end}
+{synopt:{opt PRJ.POP.ALL.3.MF}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Upper Secondary. Total{p_end}
+{synopt:{opt PRJ.POP.ALL.4.FE}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Post Secondary. Female{p_end}
+{synopt:{opt PRJ.POP.ALL.4.MA}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Post Secondary. Male{p_end}
+{synopt:{opt PRJ.POP.ALL.4.MF}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Post Secondary. Total{p_end}
+{synopt:{opt PRJ.POP.ALL.NED.FE}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. No Education. Female{p_end}
+{synopt:{opt PRJ.POP.ALL.NED.MA}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. No Education. Male{p_end}
+{synopt:{opt PRJ.POP.ALL.NED.MF}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. No Education. Total{p_end}
+{synopt:{opt PRJ.POP.ALL.S1.FE}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Incomplete Primary. Female{p_end}
+{synopt:{opt PRJ.POP.ALL.S1.MA}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Incomplete Primary. Male{p_end}
+{synopt:{opt PRJ.POP.ALL.S1.MF}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Incomplete Primary. Total{p_end}
+{synopt:{opt PROT.MINOR.INV.DFRN.DB0614}} Protecting minority investors (DB06-14 methodology) - Score{p_end}
+{synopt:{opt PROT.MINOR.INV.DFRN.DB1519}} Protecting minority investors (DB15-19 methodology) - Score{p_end}
+{synopt:{opt PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB0614}} Protecting minority investors: Ease of shareholder suits index (0-10) (DB06-14 methodology){p_end}
+{synopt:{opt PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB1519}} Protecting minority investors: Ease of shareholder suits index (0-10) (DB15-19 methodology){p_end}
+{synopt:{opt PROT.MINOR.INV.EASE.SSI.XD.0010.DB0614.DFRN}} Protecting minority investors: Ease of shareholder suits index (0-10) (DB06-14 methodology) - Score{p_end}
+{synopt:{opt PROT.MINOR.INV.EASE.SSI.XD.0010.DB1519.DFRN}} Protecting minority investors: Ease of shareholder suits index (0-10) (DB15-19 methodology) - Score{p_end}
+{synopt:{opt PROT.MINOR.INV.EXT.BUS.DISC.010.XD}} Protecting minority investors: Extent of disclosure index (0-10){p_end}
+{synopt:{opt PROT.MINOR.INV.EXT.CONFL.INTER.XD.010.DB1519}} Protecting minority investors: Extent of conflict of interest regulation index (0-10) (DB15-19 methodology){p_end}
+{synopt:{opt PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519}} Protecting minority investors: Extent of corporate transparency index (0-10) (DB15-19 methodology){p_end}
+{synopt:{opt PROT.MINOR.INV.EXT.CORP.TRANS.XD.010.DB1519.DFRN}} Protecting minority investors: Extent of corporate transparency index (0-10) (DB15-19 methodology) - Score{p_end}
+{synopt:{opt PROT.MINOR.INV.EXT.DIR.LBL.010.XD.DFRN}} Protecting minority investors: Extent of director liability index (0-10) - Score{p_end}
+{synopt:{opt PROT.MINOR.INV.EXT.DISC.010.XD.DFRN}} Protecting minority investors: Extent of disclosure index (0-10) - Score{p_end}
+{synopt:{opt PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519}} Protecting minority investors: Extent of ownership and control index (0-10) (DB15-19 methodology){p_end}
+{synopt:{opt PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN}} Protecting minority investors: Extent of ownership and control index (0-10) (DB15-19 methodology) - Score{p_end}
+{synopt:{opt PROT.MINOR.INV.EXT.SHARE.GOV.XD.010.DB1519}} Protecting minority investors: Extent of shareholder governance index (0-10) (DB15-19 methodology){p_end}
+{synopt:{opt PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519}} Protecting minority investors: Extent of shareholder rights index (0-10) (DB15-19 methodology){p_end}
+{synopt:{opt PROT.MINOR.INV.EXT.SHRHLD.RGT.XD.0010.DB1519.DRFN}} Protecting minority investors: Extent of shareholder rights index (0-10) (DB15-19 methodology) - Score{p_end}
+{synopt:{opt PROT.MINOR.INV.IC.PRIN.EXT.DIR.LGL.010.XD}} Protecting minority investors: Extent of director liability index (0-10){p_end}
+{synopt:{opt PROT.MINOR.INV.IC.PRIN.MINOR.RK}} Rank: Protecting minority investors (1=most business-friendly regulations)  (DB19 methodology){p_end}
+{synopt:{opt PROT.MINOR.INV.STRENG.INV.PROT.XD.010.DB0614}} Protecting minority investors: Strength of investor protection index (0-10) (DB06-14 methodology){p_end}
+{synopt:{opt PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614}} Protecting minority investors: Strength of minority investor protection index (0-10) (DB15-19 methodology){p_end}
+{synopt:{opt PRT.PDCL.IND1.IDX}} PDI-1 Country with operational national development strategies (rating){p_end}
+{synopt:{opt PRT.PDCL.IND10A.ALLD.ZS}} PDI-10a Donor missions co-ordinated (percent){p_end}
+{synopt:{opt PRT.PDCL.IND10B.ALLD.ZS}} PDI-10b Country-analysis co-ordinated (percent){p_end}
+{synopt:{opt PRT.PDCL.IND11.IDX}} PDI-11 Existence of a monitorable performance assessment framework (rating){p_end}
+{synopt:{opt PRT.PDCL.IND12.IDX}} PDI-12 Existence of a mutual accountability review (rating){p_end}
+{synopt:{opt PRT.PDCL.IND2A.IDX}} PDI-2a Country financial management systems reliability (rating){p_end}
+{synopt:{opt PRT.PDCL.IND2B.IDX}} PDI-2b Country procurement systems reliability (rating){p_end}
+{synopt:{opt PRT.PDCL.IND3.ALLD.ZS}} PDI-3 Government budget estimates comprehensive and realistic (percent){p_end}
+{synopt:{opt PRT.PDCL.IND4.ALLD.ZS}} PDI-4 Technical assistance aligned and co-ordinated with country programmes (percent){p_end}
+{synopt:{opt PRT.PDCL.IND5A.ALLD.ZS}} PDI-5a Aid for government sectors uses country public finanacial management systems (percent){p_end}
+{synopt:{opt PRT.PDCL.IND5B.ALLD.ZS}} PDI-5b Aid for government sectors uses country procurement systems (percent){p_end}
+{synopt:{opt PRT.PDCL.IND6.ALLD.NUM}} PDI-6 Project implementation units parallel to country structures (number){p_end}
+{synopt:{opt PRT.PDCL.IND7.ALLD.ZS}} PDI-7 Aid disbursements on schedule and recorded by government (percent){p_end}
+{synopt:{opt PRT.PDCL.IND8.ALLD.ZS}} PDI-8 Bilateral aid that is untied (percent){p_end}
+{synopt:{opt PRT.PDCL.IND9.ALLD.ZS}} PDI-9 Aid provided in the framework of programme-based appproaches (%){p_end}
+{synopt:{opt PV.EST}} Political Stability and Absence of Violence/Terrorism: Estimate{p_end}
+{synopt:{opt PV.NO.SRC}} Political Stability and Absence of Violence/Terrorism: Number of Sources{p_end}
+{synopt:{opt PV.PER.RNK.LOWER}} Political Stability and Absence of Violence/Terrorism: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
+{synopt:{opt PV.PER.RNK.UPPER}} Political Stability and Absence of Violence/Terrorism: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
+{synopt:{opt PV.PER.RNK}} Political Stability and Absence of Violence/Terrorism: Percentile Rank{p_end}
+{synopt:{opt PV.STD.ERR}} Political Stability and Absence of Violence/Terrorism: Standard Error{p_end}
+{synopt:{opt PX.MUV.TOTL.XU}} Manufactured exports unit value (MUV) index (% change){p_end}
+{synopt:{opt PX.MUV.TOTL}} Manufactures value index{p_end}
+{synopt:{opt PX.REC.REER}} Real effective exchange rate index (line rec, 2005 = 100){p_end}
+{synopt:{opt PX.REX.REER}} Real effective exchange rate index (2010 = 100){p_end}
+{synopt:{opt Q.1C0.1C0.C.9A.ALL.PITT.1.ALL.MV.TO1.ALL}} 26_Portfolio investment assets{p_end}
+{synopt:{opt Q.1C0.1C0.C.9A.MOA.RXGT.1.ALL.MV.TO1.ALL}} 24_International reserves (excluding gold){p_end}
+{synopt:{opt Q.1C0.1C0.C.9B.IFI.LMIM.1.ALL.NV.SDR.MOA}} 07_Multilateral loans, IMF{p_end}
+{synopt:{opt Q.1C0.1C0.C.9B.IFI.LMIM.1.STR.NV.SDR.MOA}} 13_Multilateral loans, IMF, short term{p_end}
+{synopt:{opt Q.1C0.1C0.C.9B.IFI.SDAL.1.ALL.MV.SDR.MOA}} 11_SDR allocation{p_end}
+{synopt:{opt Q.1C0.1C0.C.9E.ALL.DSTT.1.ALL.MV.TO1.ALL}} 14_Debt securities held by nonresidents{p_end}
+{synopt:{opt Q.1C0.1C0.C.9E.ALL.DSTT.1.STO.MV.TO1.ALL}} 15_Debt securities held by nonresidents, total, short term{p_end}
+{synopt:{opt Q.1C0.1C0.D.9B.MOA.SDHO.1.ALL.MV.SDR.IFI}} 25_SDR holdings{p_end}
+{synopt:{opt Q.1E0.1E0.C.9B.IFI.LMOI.1.ALL.NV.TO1.ALL}} 08_Multilateral loans, other institutions{p_end}
+{synopt:{opt Q.1E0.1E0.C.9B.IFI.LMTT.1.ALL.NV.TO1.ALL}} 06_Multilateral loans, total{p_end}
+{synopt:{opt Q.5A0.5A0.C.9C.GGO.LOBA.1.ALL.NV.TO1.ALL}} 04_Official bilateral loans, aid loans{p_end}
+{synopt:{opt Q.5A0.5A0.C.9C.GGO.LOBN.1.ALL.NV.TO1.ALL}} 05_Official bilateral loans, other{p_end}
+{synopt:{opt Q.5A0.5A0.C.9C.GGO.LOBT.1.ALL.NV.TO1.ALL}} 03_Official bilateral loans, total{p_end}
+{synopt:{opt Q.5B0.5B0.C.5A.BKC.ASTT.1.ALL.MX.TO1.ALL}} 23_Liabilities to BIS banks, consolidated, total{p_end}
+{synopt:{opt Q.5B0.5B0.C.5A.BKC.ASTT.1.STR.MX.TO1.ALL}} 12_Liabilities to BIS banks (cons.), short term{p_end}
+{synopt:{opt Q.5B0.5B0.C.5A.BKL.ASTT.1.ALL.MX.TO1.ALL}} 22_Liabilities to BIS banks, locational, total{p_end}
+{synopt:{opt Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.ALL}} 01_Cross-border loans from BIS reporting banks{p_end}
+{synopt:{opt Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.NBK}} 02_Cross-border loans from BIS banks to nonbanks{p_end}
+{synopt:{opt Q.5B0.5B0.D.5A.ALL.DFXB.1.ALL.NV.TO1.BMA}} 27_Cross-border deposits with BIS rep. banks{p_end}
+{synopt:{opt Q.5B0.5B0.D.5A.NBK.DFXB.1.ALL.NV.TO1.BMA}} 28_Cross-border dep. with BIS banks,  nonbanks{p_end}
+{synopt:{opt Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.ALL}} 16_International debt securities, all maturities{p_end}
+{synopt:{opt Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.NBK}} 17_International debt securities, nonbanks{p_end}
+{synopt:{opt Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.ALL}} 18_International debt securities, short term{p_end}
+{synopt:{opt Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.NBK}} 19_Intnl debt securities, nonbanks, short term{p_end}
+{synopt:{opt Q.6T0.5B0.C.3P.GGO.PCNO.1.ALL.NV.TO1.GGO}} 21_Paris Club claims (non ODA){p_end}
+{synopt:{opt Q.6T0.5B0.C.3P.GGO.PCOD.1.ALL.NV.TO1.GGO}} 20_Paris Club claims (ODA){p_end}
+{synopt:{opt Q.8A0.5B0.C.5A.ALL.IECE.1.ALL.MX.TO1.ALL}} 09_Insured export credit exposures, Berne Union{p_end}
+{synopt:{opt Q.8A0.5B0.C.5A.ALL.IECE.1.STR.MX.TO1.ALL}} 10_Insured export credit exposures, short term (BU){p_end}
+{synopt:{opt REER}} Real Effective Exchange Rate{p_end}
+{synopt:{opt RES.DPST.CBK}} Outstanding Deposits of Commercial Banks owned by Regional Government (Province Level, in IDR Million){p_end}
+{synopt:{opt RESLV.ISV.COPR.03.XD.DB1519}} Resolving insolvency: Commencement of proceedings index (0-3) (DB15-19 methodology){p_end}
+{synopt:{opt RESLV.ISV.COST.ZS}} Resolving insolvency: Cost (% of estate){p_end}
+{synopt:{opt RESLV.ISV.CPI.04.XD.DB1519}} Resolving insolvency: Creditor participation index (0-4) (DB15-19 methodology){p_end}
+{synopt:{opt RESLV.ISV.DB0414.DFRN}} Resolving insolvency (DB04-14 methodology) - Score{p_end}
+{synopt:{opt RESLV.ISV.DB1519.DFRN}} Resolving insolvency (DB15-19 methodology) - Score{p_end}
+{synopt:{opt RESLV.ISV.DFRN.RCOV.RT}} Resolving insolvency: Recovery rate (cents on the dollar) - Score{p_end}
+{synopt:{opt RESLV.ISV.DURS.YR}} Resolving insolvency: Time (years){p_end}
+{synopt:{opt RESLV.ISV.MGDA.XD.DB1519}} Resolving insolvency: Management of debtor's assets index (0-6) (DB15-19 methodology){p_end}
+{synopt:{opt RESLV.ISV.OTCM}} Resolving insolvency: Outcome (0 as piecemeal sale and 1 as going concern){p_end}
+{synopt:{opt RESLV.ISV.RCOV.RT.016.DB1519.DFRN}} Resolving insolvency: Strength of insolvency framework index (0-16) (DB15-19 methodology) - Score{p_end}
+{synopt:{opt RESLV.ISV.RCOV.RT}} Resolving insolvency: Recovery rate (cents on the dollar){p_end}
+{synopt:{opt RESLV.ISV.RK.DB19}} Rank: Resolving insolvency  (DB19 methodology){p_end}
+{synopt:{opt RESLV.ISV.ROPC.03.XD.DB1519}} Reorganization proceedings index (0-3) (DB15-19 methodology){p_end}
+{synopt:{opt RESLV.ISV.SOIF.06.DB1519}} Resolving insolvency: Strength of insolvency framework index (0-16) (DB15-19 methodology){p_end}
+{synopt:{opt RETSALESSA}} Retail Sales Volume,Index,,,{p_end}
+{synopt:{opt REV.DAK.CR}} Total Special Allocation Grant/DAK (in IDR){p_end}
+{synopt:{opt REV.DAU.CR}} Total General Allocation Grant/DAU (in IDR){p_end}
+{synopt:{opt REV.NRRV.SHR.CR}} Total Natural Resource Revenue Sharing/DBH SDA (in IDR){p_end}
+{synopt:{opt REV.OSRV.CR}} Total Own Source Revenue/PAD (in IDR){p_end}
+{synopt:{opt REV.OTHR.CR}} Total Other Revenue (in IDR){p_end}
+{synopt:{opt REV.RV.SHR.CR}} Total Revenue Sharing{p_end}
+{synopt:{opt REV.TOTL.CR}} Total Revenue (in IDR){p_end}
+{synopt:{opt REV.TXRV.SHR.CR}} Total Tax Revenue Sharing/DBH Pajak (in IDR){p_end}
+{synopt:{opt RL.EST}} Rule of Law: Estimate{p_end}
+{synopt:{opt RL.NO.SRC}} Rule of Law: Number of Sources{p_end}
+{synopt:{opt RL.PER.RNK.LOWER}} Rule of Law: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
+{synopt:{opt RL.PER.RNK.UPPER}} Rule of Law: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
+{synopt:{opt RL.PER.RNK}} Rule of Law: Percentile Rank{p_end}
+{synopt:{opt RL.STD.ERR}} Rule of Law: Standard Error{p_end}
+{synopt:{opt ROD.DIST.ASPH.KM}} Length of District Road: Asphalt (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.DIST.BDMG.BM.KM}} Length of District Road: Bad Damage (in km) (Bina Marga Data){p_end}
+{synopt:{opt ROD.DIST.BDMG.KM}} Length of District Road: Bad Damage (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.DIST.DIRT.KM}} Length of District Road: Dirt (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.DIST.FAIR.BM.KM}} Length of District Road: Fair (in km) (Bina Marga Data){p_end}
+{synopt:{opt ROD.DIST.FAIR.KM}} Length of District Road: Fair (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.DIST.GOOD.BM.KM}} Length of District Road: Good (in km) (Bina Marga Data){p_end}
+{synopt:{opt ROD.DIST.GOOD.KM}} Length of District Road: Good (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.DIST.GRAVL.KM}} Length of District Road: Gravel (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.DIST.LDMG.BM.KM}} Length of District Road: Light Damage (in km) (Bina Marga Data){p_end}
+{synopt:{opt ROD.DIST.LDMG.KM}} Length of District Road: Light Damage (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.DIST.OTHR.KM}} Length of District Road: Other (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.NATL.ASPH.KM}} Length of National Road: Asphalt (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.NATL.BDMG.KM}} Length of National Road: Bad Damage (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.NATL.DIRT.KM}} Length of National Road: Dirt (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.NATL.FAIR.KM}} Length of National Road: Fair (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.NATL.GOOD.KM}} Length of National Road: Good (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.NATL.GRAVL.KM}} Length of National Road: Gravel (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.NATL.LDMG.KM}} Length of National Road: Light Damage (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.NATL.OTHR.KM}} Length of National Road: Other (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.PROV.ASPH.KM}} Length of Province Road: Asphalt (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.PROV.BDMG.KM}} Length of Province Road: Bad Damage (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.PROV.DIRT.KM}} Length of Province Road: Dirt (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.PROV.FAIR.KM}} Length of Province Road: Fair (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.PROV.GOOD.KM}} Length of Province Road: Good (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.PROV.GRAVL.KM}} Length of Province Road: Gravel (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.PROV.LDMG.KM}} Length of Province Road: Light Damage (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.PROV.OTHR.KM}} Length of Province Road: Other (in km) (BPS Data, Province only){p_end}
+{synopt:{opt ROD.VILG.ASPH.ZS}} Villages with road: Asphalt (in % of total villages){p_end}
+{synopt:{opt ROD.VILG.DIRT.ZS}} Villages with road: Dirt (in % of total villages){p_end}
+{synopt:{opt ROD.VILG.GRAVL.ZS}} Villages with road: Gravel (in % of total villages){p_end}
+{synopt:{opt ROD.VILG.OTHR.ZS}} Villages with road: Other (in % of total villages){p_end}
+{synopt:{opt RQ.EST}} Regulatory Quality: Estimate{p_end}
+{synopt:{opt RQ.NO.SRC}} Regulatory Quality: Number of Sources{p_end}
+{synopt:{opt RQ.PER.RNK.LOWER}} Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
+{synopt:{opt RQ.PER.RNK.UPPER}} Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
+{synopt:{opt RQ.PER.RNK}} Regulatory Quality: Percentile Rank{p_end}
+{synopt:{opt RQ.STD.ERR}} Regulatory Quality: Standard Error{p_end}
+{synopt:{opt S01}} EXPENDITURES (National currency units, billions){p_end}
+{synopt:{opt S02}} EXPENDITURE SHARES (GDP=100){p_end}
+{synopt:{opt S03}} PPPs (US$=1){p_end}
+{synopt:{opt S04}} REAL EXPENDITURES (US$, billions){p_end}
+{synopt:{opt S05}} REAL EXPENDITURES: COUNTRY AND REGIONAL SHARES (World=100){p_end}
+{synopt:{opt S06}} REAL EXPENDITURES PER CAPITA (US$){p_end}
+{synopt:{opt S07}} INDEX OF REAL EXPENDITURES PER CAPITA (World=100){p_end}
+{synopt:{opt S08}} PRICE LEVEL INDEX (World = 100){p_end}
+{synopt:{opt S09}} NOMINAL EXPENDITURES (US$, billions){p_end}
+{synopt:{opt S10}} NOMINAL EXPENDITURES PER CAPITA (US$){p_end}
+{synopt:{opt S11}} EXCHANGE RATE (US$ = 1.000){p_end}
+{synopt:{opt S12}} POPULATION (millions){p_end}
+{synopt:{opt SABER.EMIS.GOAL1.LVL1}} SABER: (Education Management Information Systems) Policy Goal 1 Lever 1: Legal Framework{p_end}
+{synopt:{opt SABER.EMIS.GOAL1.LVL2}} SABER: (Education Management Information Systems) Policy Goal 1 Lever 2: Organizational Structure{p_end}
+{synopt:{opt SABER.EMIS.GOAL1.LVL3}} SABER: (Education Management Information Systems) Policy Goal 1 Lever 3: Human Resources{p_end}
+{synopt:{opt SABER.EMIS.GOAL1.LVL4}} SABER: (Education Management Information Systems) Policy Goal 1 Lever 4: Infrastructural capacity{p_end}
+{synopt:{opt SABER.EMIS.GOAL1.LVL5}} SABER: (Education Management Information Systems) Policy Goal 1 Lever 5: Budget{p_end}
+{synopt:{opt SABER.EMIS.GOAL1.LVL6}} SABER: (Education Management Information Systems) Policy Goal 1 Lever 6: Data-driven Culture{p_end}
+{synopt:{opt SABER.EMIS.GOAL1}} SABER: (Education Management Information Systems) Policy Goal 1: Enabling Environment{p_end}
+{synopt:{opt SABER.EMIS.GOAL2.LVL1}} SABER: (Education Management Information Systems) Policy Goal 2 Lever 1: Data Architecture{p_end}
+{synopt:{opt SABER.EMIS.GOAL2.LVL2}} SABER: (Education Management Information Systems) Policy Goal 2 Lever 2: Data Coverage{p_end}
+{synopt:{opt SABER.EMIS.GOAL2.LVL3}} SABER: (Education Management Information Systems) Policy Goal 2 Lever 3: Data Analytics{p_end}
+{synopt:{opt SABER.EMIS.GOAL2.LVL4}} SABER: (Education Management Information Systems) Policy Goal 2 Lever 4: Dynamic System{p_end}
+{synopt:{opt SABER.EMIS.GOAL2.LVL5}} SABER: (Education Management Information Systems) Policy Goal 2 Lever 5: Serviceability{p_end}
+{synopt:{opt SABER.EMIS.GOAL2}} SABER: (Education Management Information Systems) Policy Goal 2: System Soundness{p_end}
+{synopt:{opt SABER.EMIS.GOAL3.LVL1}} SABER: (Education Management Information Systems) Policy Goal 3 Lever 1: Methodological Soundness{p_end}
+{synopt:{opt SABER.EMIS.GOAL3.LVL2}} SABER: (Education Management Information Systems) Policy Goal 3 Lever 2: Accuracy and Reliability{p_end}
+{synopt:{opt SABER.EMIS.GOAL3.LVL3}} SABER: (Education Management Information Systems) Policy Goal 3 Lever 3: Integrity{p_end}
+{synopt:{opt SABER.EMIS.GOAL3.LVL4}} SABER: (Education Management Information Systems) Policy Goal 3 Lever 4: Periodicity and Timeliness{p_end}
+{synopt:{opt SABER.EMIS.GOAL3}} SABER: (Education Management Information Systems) Policy Goal 3: Quality data{p_end}
+{synopt:{opt SABER.EMIS.GOAL4.LVL1}} SABER: (Education Management Information Systems) Policy Goal 4 Lever 1: Openness{p_end}
+{synopt:{opt SABER.EMIS.GOAL4.LVL2}} SABER: (Education Management Information Systems) Policy Goal 4 Lever 2: Operational Use{p_end}
+{synopt:{opt SABER.EMIS.GOAL4.LVL3}} SABER: (Education Management Information Systems) Policy Goal 4 Lever 3: Accessibility{p_end}
+{synopt:{opt SABER.EMIS.GOAL4.LVL4}} SABER: (Education Management Information Systems) Policy Goal 4 Lever 4: Effectiveness in Disseminating Findings{p_end}
+{synopt:{opt SABER.EMIS.GOAL4}} SABER: (Education Management Information Systems) Policy Goal 4: Utilization in decision making{p_end}
+{synopt:{opt SABER.ERL.CHLD.GOAL1.LVL1}} SABER: (Early Childhood Development) Policy Goal 1 Lever 1: Legal Framework{p_end}
+{synopt:{opt SABER.ERL.CHLD.GOAL1.LVL2}} SABER: (Early Childhood Development) Policy Goal 1 Lever 2: Inter-sectoral Coordination{p_end}
+{synopt:{opt SABER.ERL.CHLD.GOAL1.LVL3}} SABER: (Early Childhood Development) Policy Goal 1 Lever 3: Finance{p_end}
+{synopt:{opt SABER.ERL.CHLD.GOAL1}} SABER: (Early Childhood Development) Policy Goal 1: Establishing an Enabling Environment{p_end}
+{synopt:{opt SABER.ERL.CHLD.GOAL2.LVL1}} SABER: (Early Childhood Development) Policy Goal 2 Lever 1: Scope of Programs{p_end}
+{synopt:{opt SABER.ERL.CHLD.GOAL2.LVL2}} SABER: (Early Childhood Development) Policy Goal 2 Lever 2: Coverage{p_end}
+{synopt:{opt SABER.ERL.CHLD.GOAL2.LVL3}} SABER: (Early Childhood Development) Policy Goal 2 Lever 3: Equity{p_end}
+{synopt:{opt SABER.ERL.CHLD.GOAL2}} SABER: (Early Childhood Development) Policy Goal 2: Implementing Widely{p_end}
+{synopt:{opt SABER.ERL.CHLD.GOAL3.LVL1}} SABER: (Early Childhood Development) Policy Goal 3 Lever 1: Data Availability{p_end}
+{synopt:{opt SABER.ERL.CHLD.GOAL3.LVL2}} SABER: (Early Childhood Development) Policy Goal 3 Lever 2: Quality Standards{p_end}
+{synopt:{opt SABER.ERL.CHLD.GOAL3.LVL3}} SABER: (Early Childhood Development) Policy Goal 3 Lever 3: Compliance with Standards{p_end}
+{synopt:{opt SABER.ERL.CHLD.GOAL3}} SABER: (Early Childhood Development) Policy Goal 3: Monitoring and Assuring Quality{p_end}
+{synopt:{opt SABER.GRVT.GOAL5.LVL1}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 1: Teacher standards{p_end}
+{synopt:{opt SABER.GRVT.GOAL5.LVL2}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 2: Appointment and deployment of teachers{p_end}
+{synopt:{opt SABER.GRVT.GOAL5.LVL3}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 3: Teacher salaries{p_end}
+{synopt:{opt SABER.GRVT.GOAL5.LVL4}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 4: Teacher dismissal{p_end}
+{synopt:{opt SABER.GRVT.GOAL5.LVL5}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 5: Curriculum delivery{p_end}
+{synopt:{opt SABER.GRVT.GOAL5.LVL6}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 6: Classroom resourcing{p_end}
+{synopt:{opt SABER.GRVT.GOAL5.LVL7}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 7: Budget autonomy{p_end}
+{synopt:{opt SABER.GRVT.GOAL5}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 5: Encouraging innovation by providers{p_end}
+{synopt:{opt SABER.GRVT.GOAL6.LVL1}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 1: Student standards{p_end}
+{synopt:{opt SABER.GRVT.GOAL6.LVL2}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 2: Student assessment{p_end}
+{synopt:{opt SABER.GRVT.GOAL6.LVL3}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 3: Financial reporting{p_end}
+{synopt:{opt SABER.GRVT.GOAL6.LVL4}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 4: Inspection{p_end}
+{synopt:{opt SABER.GRVT.GOAL6.LVL5}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 5: Improvement planning{p_end}
+{synopt:{opt SABER.GRVT.GOAL6.LVL6}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 6: Sanctions and rewards{p_end}
+{synopt:{opt SABER.GRVT.GOAL6}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 6: Holding schools accountable{p_end}
+{synopt:{opt SABER.GRVT.GOAL7.LVL1}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 7 Lever 1: Information{p_end}
+{synopt:{opt SABER.GRVT.GOAL7.LVL2}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 7 Lever 2: Voice{p_end}
+{synopt:{opt SABER.GRVT.GOAL7.LVL3}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 7 Lever 3: Selection{p_end}
+{synopt:{opt SABER.GRVT.GOAL7.LVL4}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 7 Lever 4: Contributions{p_end}
+{synopt:{opt SABER.GRVT.GOAL7}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 7: Empowering all parents, students, and communities{p_end}
+{synopt:{opt SABER.GRVT.GOAL8.LVL1}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 1: Ownership{p_end}
+{synopt:{opt SABER.GRVT.GOAL8.LVL2}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 2: Certification standards{p_end}
+{synopt:{opt SABER.GRVT.GOAL8.LVL3}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 3: Market entry information{p_end}
+{synopt:{opt SABER.GRVT.GOAL8.LVL4}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 4: Regulatory fees{p_end}
+{synopt:{opt SABER.GRVT.GOAL8.LVL5}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 5: Funding{p_end}
+{synopt:{opt SABER.GRVT.GOAL8.LVL6}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 6: Incentives{p_end}
+{synopt:{opt SABER.GRVT.GOAL8.LVL7}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 7: Planning{p_end}
+{synopt:{opt SABER.GRVT.GOAL8}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 8: Promoting diversity of supply{p_end}
+{synopt:{opt SABER.HLTH.GOAL1}} SABER: (School Health and School Feeding) Feeding Policy Goal 1: Policy Frameworks{p_end}
+{synopt:{opt SABER.HLTH.GOAL2}} SABER: (School Health and School Feeding) Feeding Policy Goal 2: Financial Capacity{p_end}
+{synopt:{opt SABER.HLTH.GOAL3}} SABER: (School Health and School Feeding) Feeding Policy Goal 3: Institutional Capacity and Coordination{p_end}
+{synopt:{opt SABER.HLTH.GOAL4}} SABER: (School Health and School Feeding) Feeding Policy Goal 4: Design and Implementation{p_end}
+{synopt:{opt SABER.HLTH.GOAL5}} SABER: (School Health and School Feeding) Feeding Policy Goal 5: Community Roles–Reaching Beyond Schools{p_end}
+{synopt:{opt SABER.HLTH.GOAL6}} SABER: (School Health and School Feeding) Health Policy Goal 1: Health-related school policies{p_end}
+{synopt:{opt SABER.HLTH.GOAL7}} SABER: (School Health and School Feeding) Health Policy Goal 2: Safe, Supportive School Environments{p_end}
+{synopt:{opt SABER.HLTH.GOAL8}} SABER: (School Health and School Feeding) Health Policy Goal 3: School-Based Health and Nutrition Services{p_end}
+{synopt:{opt SABER.HLTH.GOAL9}} SABER: (School Health and School Feeding) Health Policy Goal 4: Skills-Based Health Education{p_end}
+{synopt:{opt SABER.PRVT.GOAL1.LVL1}} SABER: (Engaging the Private Sector) Policy Goal 1 Lever 1: Teacher standards{p_end}
+{synopt:{opt SABER.PRVT.GOAL1.LVL2}} SABER: (Engaging the Private Sector) Policy Goal 1 Lever 2: Teacher appointment and deployment{p_end}
+{synopt:{opt SABER.PRVT.GOAL1.LVL3}} SABER: (Engaging the Private Sector) Policy Goal 1 Lever 3: Teacher salaries{p_end}
+{synopt:{opt SABER.PRVT.GOAL1.LVL4}} SABER: (Engaging the Private Sector) Policy Goal 1 Lever 4: Teacher dismissal{p_end}
+{synopt:{opt SABER.PRVT.GOAL1.LVL5}} SABER: (Engaging the Private Sector) Policy Goal 1 Lever 5: Curriculum Delivery{p_end}
+{synopt:{opt SABER.PRVT.GOAL1.LVL6}} SABER: (Engaging the Private Sector) Policy Goal 1 Lever 6: Classroom resourcing{p_end}
+{synopt:{opt SABER.PRVT.GOAL1}} SABER: (Engaging the Private Sector) Policy Goal 1: Encouraging innovation by providers{p_end}
+{synopt:{opt SABER.PRVT.GOAL2.LVL1}} SABER: (Engaging the Private Sector) Policy Goal 2 Lever 1: Student standards{p_end}
+{synopt:{opt SABER.PRVT.GOAL2.LVL2}} SABER: (Engaging the Private Sector) Policy Goal 2 Lever 2: Student assessment{p_end}
+{synopt:{opt SABER.PRVT.GOAL2.LVL3}} SABER: (Engaging the Private Sector) Policy Goal 2 Lever 3: Inspection{p_end}
+{synopt:{opt SABER.PRVT.GOAL2.LVL4}} SABER: (Engaging the Private Sector) Policy Goal 2 Lever 4: Improvement planning{p_end}
+{synopt:{opt SABER.PRVT.GOAL2.LVL5}} SABER: (Engaging the Private Sector) Policy Goal 2 Lever 5: Sanctions{p_end}
+{synopt:{opt SABER.PRVT.GOAL2}} SABER: (Engaging the Private Sector) Policy Goal 2: Holding schools accountable{p_end}
+{synopt:{opt SABER.PRVT.GOAL3.LVL1}} SABER: (Engaging the Private Sector) Policy Goal 3 Lever 1: Information{p_end}
+{synopt:{opt SABER.PRVT.GOAL3.LVL2}} SABER: (Engaging the Private Sector) Policy Goal 3 Lever 2: Voice{p_end}
+{synopt:{opt SABER.PRVT.GOAL3.LVL3}} SABER: (Engaging the Private Sector) Policy Goal 3 Lever 3: Financial Support{p_end}
+{synopt:{opt SABER.PRVT.GOAL3}} SABER: (Engaging the Private Sector) Policy Goal 3: Empowering all parents, students, and communities{p_end}
+{synopt:{opt SABER.PRVT.GOAL4.LVL1}} SABER: (Engaging the Private Sector) Policy Goal 4 Lever 1: Tuition fees{p_end}
+{synopt:{opt SABER.PRVT.GOAL4.LVL2}} SABER: (Engaging the Private Sector) Policy Goal 4 Lever 2: Ownership{p_end}
+{synopt:{opt SABER.PRVT.GOAL4.LVL3}} SABER: (Engaging the Private Sector) Policy Goal 4 Lever 3: Certification standards{p_end}
+{synopt:{opt SABER.PRVT.GOAL4.LVL4}} SABER: (Engaging the Private Sector) Policy Goal 4 Lever 4: Market entry{p_end}
+{synopt:{opt SABER.PRVT.GOAL4.LVL5}} SABER: (Engaging the Private Sector) Policy Goal 4 Lever 5: Regulatory fees{p_end}
+{synopt:{opt SABER.PRVT.GOAL4}} SABER: (Engaging the Private Sector) Policy Goal 4: Promoting diversity of supply{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL1.LVL1}} SABER: (School Autonomy Accountability) Policy Goal 1 Lever 1: Legal authority over the management of the operational budget{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL1.LVL2}} SABER: (School Autonomy Accountability) Policy Goal 1 Lever 2: Legal authority over the management of the non-teaching staff salaries{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL1.LVL3}} SABER: (School Autonomy Accountability) Policy Goal 1 Lever 3: Legal authority over the management of teacher salaries{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL1.LVL4}} SABER: (School Autonomy Accountability) Policy Goal 1 Lever 4: Legal authority to raise additional funds for the school{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL1.LVL5}} SABER: (School Autonomy Accountability) Policy Goal 1 Lever 5: Collaborative budget planning{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL1}} SABER: (School Autonomy Accountability) Policy Goal 1: Level of autonomy in the planning and management of school budget{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL2.LVL1}} SABER: (School Autonomy Accountability) Policy Goal 2 Lever 1: Autonomy in teacher appointment and deployment decisions{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL2.LVL2}} SABER: (School Autonomy Accountability) Policy Goal 2 Lever 2: Autonomy in non-teaching staff appointment and deployment decisions{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL2.LVL3}} SABER: (School Autonomy Accountability) Policy Goal 2 Lever 3: Autonomy in school principal appointment and deployment decisions{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL2}} SABER: (School Autonomy Accountability) Policy Goal 2: Level of autonomy in personnel management{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL1}} SABER: (School Autonomy Accountability) Policy Goal 3 Lever 1: Participation of the school councils in budget preparation{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL2}} SABER: (School Autonomy Accountability) Policy Goal 3 Lever 2: Participation of the school councils in financial oversight{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL3}} SABER: (School Autonomy Accountability) Policy Goal 3 Lever 3: Participation of the school councils in personnel management{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL4}} SABER: (School Autonomy Accountability) Policy Goal 3 Lever 4: Participation of the school councils in school activities{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL5}} SABER: (School Autonomy Accountability) Policy Goal 3 Lever 5: Participation of the school councils in learning inputs{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL6}} SABER: (School Autonomy Accountability) Policy Goal 3 Lever 6: Transparency in community participation{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL3}} SABER: (School Autonomy Accountability) Policy Goal 3: Role of the school council on school governance{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL4.LVL1}} SABER: (School Autonomy Accountability) Policy Goal 4 Lever 1: Existence and Frequency of school assessments{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL4.LVL2}} SABER: (School Autonomy Accountability) Policy Goal 4 Lever 2: Use of school assessments for making school adjustments{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL4.LVL3}} SABER: (School Autonomy Accountability) Policy Goal 4 Lever 3: Existence and Frequency of standardized student assessments{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL4.LVL4}} SABER: (School Autonomy Accountability) Policy Goal 4 Lever 4: Use of standardized student assessments for pedagogical, operational, and personnel adjustments{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL4.LVL5}} SABER: (School Autonomy Accountability) Policy Goal 4 Lever 5: Publication of student assessments{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL4}} SABER: (School Autonomy Accountability) Policy Goal 4: School and student assessment{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL5.LVL1}} SABER: (School Autonomy Accountability) Policy Goal 5 Lever 1:  Guidelines for the use of results of student assessments{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL5.LVL2}} SABER: (School Autonomy Accountability) Policy Goal 5 Lever 2:  Analysis of school and student performan{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL5.LVL3}} SABER: (School Autonomy Accountability) Policy Goal 5 Lever 3:  Degree of Financial accountability at the central level, regional, municipal, local and school level{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL5.LVL4}} SABER: (School Autonomy Accountability) Policy Goal 5 Lever 4: Degree of Accountability in school operations{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL5.LVL5}} SABER: (School Autonomy Accountability) Policy Goal 5 Lever 5): Degree of learning accountability{p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL5}} SABER: (School Autonomy Accountability) Policy Goal 5: School Accountability{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL1.LVL1}} SABER: (School Finance) Policy Goal 1 Lever 1:  Are ther policies and systems set up to provide basic educational inputs to all?{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL1.LVL2}} SABER: (School Finance) Policy Goal 1 Lever 2: Are there basic educational inputs for all primary school students?{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL1}} SABER: (School Finance) Policy Goal 1: Ensuring adequacy{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL2.LVL1}} SABER: (School Finance) Policy Goal 2 Lever 1: Does the government provide more resources to students from disadvantaged backgrounds?{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL2.LVL2}} SABER: (School Finance) Policy Goal 2 Lever 2: Do payments for schooling represent a high share of income for low income households?{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL2}} SABER: (School Finance) Policy Goal 2: Monitoring learning conditions and outcomes{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL3.LVL1}} SABER: (School Finance) Policy Goal 3 Lever 1: Are resources allocated and disbursed in a manner that is transparent and effective?{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL3.LVL2}} SABER: (School Finance) Policy Goal 3 Lever 2: Do monitoring and auditing processes encourage accountability in the use of funding?{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL3}} SABER: (School Finance) Policy Goal 3: Overseeing service delivery{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL4.LVL1}} SABER: (School Finance) Policy Goal 4 Lever 1: Is there an informed budget process?{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL4.LVL2}} SABER: (School Finance) Policy Goal 4 Lever 2: Is the budget comprehensive and transparent?{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL4}} SABER: (School Finance) Policy Goal 4: Budgeting with adequate and transparent information{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL5.LVL1}} SABER: (School Finance) Policy Goal 5 Lever 1: Are more public resources available to students from disadvantaged backgrounds?{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL5.LVL2}} SABER: (School Finance) Policy Goal 5 Lever 2: Do payments for schooling represent a small share of income for low income families?{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL5}} SABER: (School Finance) Policy Goal 5: Providing more resources to students who need them{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL6.LVL1}} SABER: (School Finance) Policy Goal 6 Lever 1: Are there systems in place to verify the use of educational resources?{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL6.LVL2}} SABER: (School Finance) Policy Goal 6 Lever 2: Are education expenditures audited?{p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL6}} SABER: (School Finance) Policy Goal 6: Managing resources efficiently{p_end}
+{synopt:{opt SABER.STD.ASS.GOAL1.LVL1}} SABER: (Student Assessment) Policy Goal 1 Lever 1: Enabling Context and System Alignment{p_end}
+{synopt:{opt SABER.STD.ASS.GOAL1.LVL2}} SABER: (Student Assessment) Policy Goal 1 Lever 2: Assessment Quality{p_end}
+{synopt:{opt SABER.STD.ASS.GOAL1}} SABER: (Student Assessment) Policy Goal 1: Classroom Assessment{p_end}
+{synopt:{opt SABER.STD.ASS.GOAL2.LVL1}} SABER: (Student Assessment) Policy Goal 2 Lever 1: Enabling Context{p_end}
+{synopt:{opt SABER.STD.ASS.GOAL2.LVL2}} SABER: (Student Assessment) Policy Goal 2 Lever 2: System Alignment{p_end}
+{synopt:{opt SABER.STD.ASS.GOAL2.LVL3}} SABER: (Student Assessment) Policy Goal 2 Lever 3: Assessment Quality{p_end}
+{synopt:{opt SABER.STD.ASS.GOAL2}} SABER: (Student Assessment) Policy Goal 2: Examinations{p_end}
+{synopt:{opt SABER.STD.ASS.GOAL3.LVL1}} SABER: (Student Assessment) Policy Goal 3 Lever 1: Enabling Context{p_end}
+{synopt:{opt SABER.STD.ASS.GOAL3.LVL2}} SABER: (Student Assessment) Policy Goal 3 Lever 2: System Alignment{p_end}
+{synopt:{opt SABER.STD.ASS.GOAL3.LVL3}} SABER: (Student Assessment) Policy Goal 3 Lever 3: Assessment Quality{p_end}
+{synopt:{opt SABER.STD.ASS.GOAL3}} SABER: (Student Assessment) Policy Goal 3: National Large-Scale Assessment (NLSA){p_end}
+{synopt:{opt SABER.STD.ASS.GOAL4.LVL1}} SABER: (Student Assessment) Policy Goal 4 Lever 1: Enabling Context{p_end}
+{synopt:{opt SABER.STD.ASS.GOAL4.LVL2}} SABER: (Student Assessment) Policy Goal 4 Lever 2: System Alignment{p_end}
+{synopt:{opt SABER.STD.ASS.GOAL4.LVL3}} SABER: (Student Assessment) Policy Goal 4 Lever 3: Assessment Quality{p_end}
+{synopt:{opt SABER.STD.ASS.GOAL4}} SABER: (Student Assessment) Policy Goal 4: International Large-Scale Assessment (ILSA){p_end}
+{synopt:{opt SABER.TECH.GOAL1.LVL1}} SABER: (Teachers) Policy Goal 1 Lever 1: Are there clear expectations for teachers?{p_end}
+{synopt:{opt SABER.TECH.GOAL1.LVL2}} SABER: (Teachers) Policy Goal 1 Lever 2: Is there useful guidance on the use of teachers' working time?{p_end}
+{synopt:{opt SABER.TECH.GOAL1}} SABER: (Teachers) Policy Goal 1: Setting clear expectations for teachers{p_end}
+{synopt:{opt SABER.TECH.GOAL2.LVL1}} SABER: (Teachers) Policy Goal 2 Lever 1: Are entry requirements set up to attract talented candidates?{p_end}
+{synopt:{opt SABER.TECH.GOAL2.LVL2}} SABER: (Teachers) Policy Goal 2 Lever 2: Is teacher pay appealing for talented candidates?{p_end}
+{synopt:{opt SABER.TECH.GOAL2.LVL3}} SABER: (Teachers) Policy Goal 2 Lever 3: Are working conditions appealing for talented applicants?{p_end}
+{synopt:{opt SABER.TECH.GOAL2.LVL4}} SABER: (Teachers) Policy Goal 2 Lever 4: Are there attractive career opportunities?{p_end}
+{synopt:{opt SABER.TECH.GOAL2}} SABER: (Teachers) Policy Goal 2: Attracting the best into teaching{p_end}
+{synopt:{opt SABER.TECH.GOAL3.LVL1}} SABER: (Teachers) Policy Goal 3 Lever 1: Are there minimum standards for pre-service teaching education programs?{p_end}
+{synopt:{opt SABER.TECH.GOAL3.LVL2}} SABER: (Teachers) Policy Goal 3 Lever 2: To what extent are teacher-entrants required to be familiar with classroom practice?{p_end}
+{synopt:{opt SABER.TECH.GOAL3}} SABER: (Teachers) Policy Goal 3: Preparing teachers with useful Training and experience{p_end}
+{synopt:{opt SABER.TECH.GOAL4.LVL1}} SABER: (Teachers) Policy Goal 4 Lever 1: Are there incentives for teachers to work at hard-to-staff schools?{p_end}
+{synopt:{opt SABER.TECH.GOAL4.LVL2}} SABER: (Teachers) Policy Goal 4 Lever 2: Are there incentives for teachers to teach critical shortage subjects?{p_end}
+{synopt:{opt SABER.TECH.GOAL4}} SABER: (Teachers) Policy Goal 4: Matching teachers' skills with students' needs{p_end}
+{synopt:{opt SABER.TECH.GOAL5.LVL1}} SABER: (Teachers) Policy Goal 5 Lever 1: Does the education system invest in developing qualified school leaders?{p_end}
+{synopt:{opt SABER.TECH.GOAL5.LVL2}} SABER: (Teachers) Policy Goal 5 Lever 2: Are principals expected to support and improve instructional practice?{p_end}
+{synopt:{opt SABER.TECH.GOAL5}} SABER: (Teachers) Policy Goal 5: Leading teachers with strong principals{p_end}
+{synopt:{opt SABER.TECH.GOAL6.LVL1}} SABER: (Teachers) Policy Goal 6 Lever 1: Are there systems in place to assess student learning in order to inform teaching and policy?{p_end}
+{synopt:{opt SABER.TECH.GOAL6.LVL2}} SABER: (Teachers) Policy Goal 6 Lever 2: Are there systems in place to monitor teacher performance?{p_end}
+{synopt:{opt SABER.TECH.GOAL6.LVL3}} SABER: (Teachers) Policy Goal 6 Lever 3: Are there multiple mechanisms to evaluate teacher performance?{p_end}
+{synopt:{opt SABER.TECH.GOAL6}} SABER: (Teachers) Policy Goal 6: Monitoring teaching and learning{p_end}
+{synopt:{opt SABER.TECH.GOAL7.LVL1}} SABER: (Teachers) Policy Goal 7 Lever 1: Are there opportunities for professional development?{p_end}
+{synopt:{opt SABER.TECH.GOAL7.LVL2}} SABER: (Teachers) Policy Goal 7 Lever 2: Is teacher professional development collaborative and focused on instructional improvement?{p_end}
+{synopt:{opt SABER.TECH.GOAL7.LVL3}} SABER: (Teachers) Policy Goal 7 Lever 3: Is teacher professional development assigned based on perceived needs?{p_end}
+{synopt:{opt SABER.TECH.GOAL7}} SABER: (Teachers) Policy Goal 7: Supporting teachers to improve instruction{p_end}
+{synopt:{opt SABER.TECH.GOAL8.LVL1}} SABER: (Teachers) Policy Goal 8 Lever 1: Are career opportunities linked to performance?{p_end}
+{synopt:{opt SABER.TECH.GOAL8.LVL2}} SABER: (Teachers) Policy Goal 8 Lever 2: Are there mechanisms to hold teachers accountable?{p_end}
+{synopt:{opt SABER.TECH.GOAL8.LVL3}} SABER: (Teachers) Policy Goal 8 Lever 3: Is teacher compensation linked to performance?{p_end}
+{synopt:{opt SABER.TECH.GOAL8}} SABER: (Teachers) Policy Goal 8: Motivating teachers to perform{p_end}
+{synopt:{opt SABER.TER.GOAL1.LVL1}} SABER: (Tertiary Education) Policy Goal 1 Lever 1: Clear vision{p_end}
+{synopt:{opt SABER.TER.GOAL1}} SABER: (Tertiary Education) Policy Goal 1: Vision for Tertiary Education{p_end}
+{synopt:{opt SABER.TER.GOAL2.LVL1}} SABER: (Tertiary Education) Policy Goal 2 Lever 1: Steering the system{p_end}
+{synopt:{opt SABER.TER.GOAL2}} SABER: (Tertiary Education) Policy Goal 2: Regulatory Framework for Tertiary Education{p_end}
+{synopt:{opt SABER.TER.GOAL3.LVL1}} SABER: (Tertiary Education) Policy Goal 3 Lever 1: Articulation{p_end}
+{synopt:{opt SABER.TER.GOAL3.LVL2}} SABER: (Tertiary Education) Policy Goal 3 Lever 2: Institutional autonomy{p_end}
+{synopt:{opt SABER.TER.GOAL3}} SABER: (Tertiary Education) Policy Goal 3: Governance{p_end}
+{synopt:{opt SABER.TER.GOAL4.LVL1}} SABER: (Tertiary Education) Policy Goal 4 Lever 1: Coverage of resource allocation{p_end}
+{synopt:{opt SABER.TER.GOAL4.LVL2}} SABER: (Tertiary Education) Policy Goal 4 Lever 2: Resource allocation{p_end}
+{synopt:{opt SABER.TER.GOAL4.LVL3}} SABER: (Tertiary Education) Policy Goal 4 Lever 3: Resource utilization (Equity){p_end}
+{synopt:{opt SABER.TER.GOAL4}} SABER: (Tertiary Education) Policy Goal 4: Finance{p_end}
+{synopt:{opt SABER.TER.GOAL5.LVL1}} SABER: (Tertiary Education) Policy Goal 5 Lever 1: Accreditation and Institutional Quality Standards{p_end}
+{synopt:{opt SABER.TER.GOAL5.LVL2}} SABER: (Tertiary Education) Policy Goal 5 Lever 2: Tertiary Education Management Information{p_end}
+{synopt:{opt SABER.TER.GOAL5}} SABER: (Tertiary Education) Policy Goal 5: Quality Assurance{p_end}
+{synopt:{opt SABER.TER.GOAL6.LVL1}} SABER: (Tertiary Education) Policy Goal 6 Lever 1: Economic Development{p_end}
+{synopt:{opt SABER.TER.GOAL6.LVL2}} SABER: (Tertiary Education) Policy Goal 6 Lever 2: Fostering RDI and Innovation{p_end}
+{synopt:{opt SABER.TER.GOAL6.LVL3}} SABER: (Tertiary Education) Policy Goal 6 Lever 3: Fostering Social and Cultural Development and Environmental Protection and Sustainability{p_end}
+{synopt:{opt SABER.TER.GOAL6}} SABER: (Tertiary Education) Policy Goal 6: The Relevance of Tertiary Education for Economic and Social Needs{p_end}
+{synopt:{opt SABER.WORK.GOAL1.LVL1}} SABER: (Workforce Development) Policy Goal 1 Lever 1: Setting a Strategic Direction{p_end}
+{synopt:{opt SABER.WORK.GOAL1.LVL2}} SABER: (Workforce Development) Policy Goal 1 Lever 2: Fostering a Demand-Driven Approach{p_end}
+{synopt:{opt SABER.WORK.GOAL1.LVL3}} SABER: (Workforce Development) Policy Goal 1 Lever 3: Strengthening Critical Coordination{p_end}
+{synopt:{opt SABER.WORK.GOAL1}} SABER: (Workforce Development) Policy Goal 1: Strategic Framework{p_end}
+{synopt:{opt SABER.WORK.GOAL2.LVL1}} SABER: (Workforce Development) Policy Goal 2 Lever 1: Ensuring Efficiency and Equity in Funding{p_end}
+{synopt:{opt SABER.WORK.GOAL2.LVL2}} SABER: (Workforce Development) Policy Goal 2 Lever 2: Assuring Relevant and Reliable Standards{p_end}
+{synopt:{opt SABER.WORK.GOAL2.LVL3}} SABER: (Workforce Development) Policy Goal 2 Lever 3: Diversifying Pathways for Skills Acquisition{p_end}
+{synopt:{opt SABER.WORK.GOAL2}} SABER: (Workforce Development) Policy Goal 2: System Oversight{p_end}
+{synopt:{opt SABER.WORK.GOAL3.LVL1}} SABER: (Workforce Development) Policy Goal 3 Lever 1: Enabling Diversity and Excellence in Training Provision{p_end}
+{synopt:{opt SABER.WORK.GOAL3.LVL2}} SABER: (Workforce Development) Policy Goal 3 Lever 2: Fostering Relevance in Public Training Programs{p_end}
+{synopt:{opt SABER.WORK.GOAL3.LVL3}} SABER: (Workforce Development) Policy Goal 3 Lever 3: Enhancing Evidence-based Accountability for Results{p_end}
+{synopt:{opt SABER.WORK.GOAL3}} SABER: (Workforce Development) Policy Goal 3: Service Delivery{p_end}
+{synopt:{opt SE.ADT.1524.IL.FE.ZS}} Illiteracy rate, youth female (% of females ages 15-24){p_end}
+{synopt:{opt SE.ADT.1524.IL.MA.ZS}} Illiteracy rate, youth male (% of males ages 15-24){p_end}
+{synopt:{opt SE.ADT.1524.IL.ZS}} Illiteracy rate, youth total (% of people ages 15-24){p_end}
+{synopt:{opt SE.ADT.1524.LT.FE.ZS}} Literacy rate, youth female (% of females ages 15-24){p_end}
+{synopt:{opt SE.ADT.1524.LT.FM.ZS}} Literacy rate, youth (ages 15-24), gender parity index (GPI){p_end}
+{synopt:{opt SE.ADT.1524.LT.MA.ZS}} Literacy rate, youth male (% of males ages 15-24){p_end}
+{synopt:{opt SE.ADT.1524.LT.ZS}} Literacy rate, youth total (% of people ages 15-24){p_end}
+{synopt:{opt SE.ADT.ILIT.FE.ZS}} Illiteracy rate, adult female (% of females ages 15 and above){p_end}
+{synopt:{opt SE.ADT.ILIT.MA.ZS}} Illiteracy rate, adult male (% of males ages 15 and above){p_end}
+{synopt:{opt SE.ADT.ILIT.ZS}} Illiteracy rate, adult total (% of people ages 15 and above){p_end}
+{synopt:{opt SE.ADT.LITR.FE.ZS}} Literacy rate, adult female (% of females ages 15 and above){p_end}
+{synopt:{opt SE.ADT.LITR.MA.ZS}} Literacy rate, adult male (% of males ages 15 and above){p_end}
+{synopt:{opt SE.ADT.LITR.ZS}} Literacy rate, adult total (% of people ages 15 and above){p_end}
+{synopt:{opt SE.COM.DURS}} Compulsory education, duration (years){p_end}
+{synopt:{opt SE.ENR.ORPH}} Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14{p_end}
+{synopt:{opt SE.ENR.PRIM.FM.ZS}} School enrollment, primary (gross), gender parity index (GPI){p_end}
+{synopt:{opt SE.ENR.PRIM.ZS}} School Enroll. Ratio, primary school (%){p_end}
+{synopt:{opt SE.ENR.PRSC.FM.ZS}} School enrollment, primary and secondary (gross), gender parity index (GPI){p_end}
+{synopt:{opt SE.ENR.SECO.FM.ZS}} School enrollment, secondary (gross), gender parity index (GPI){p_end}
+{synopt:{opt SE.ENR.SECO.ZS}} School Enroll. Ratio, secondary school (%){p_end}
+{synopt:{opt SE.ENR.TERT.FM.ZS}} School enrollment, tertiary (gross), gender parity index (GPI){p_end}
+{synopt:{opt SE.JRSEC.NENR.ZS}} Net Enrollment Ratio: Junior Secondary (in %){p_end}
+{synopt:{opt SE.LITR.15UP.ZS}} Literacy Rate for Population age 15 and over (in % of total population){p_end}
+{synopt:{opt SE.NEXM.SCR.JRSEC}} Average National Exam Score: Junior Secondary Level (out of 100, available only in district level for 2009){p_end}
+{synopt:{opt SE.NEXM.SCR.PRM}} Average National Exam Score: Primary Level (out of 100, available only in district level for 2009){p_end}
+{synopt:{opt SE.NEXM.SCR.SRSEC}} Average National Exam Score: Senior Secondary Level (out of 100, available only in district level for 2009){p_end}
+{synopt:{opt SE.PRE.DURS}} Preprimary education, duration (years){p_end}
+{synopt:{opt SE.PRE.ENRL.FE.ZS}} Percentage of students in pre-primary education who are female (%){p_end}
+{synopt:{opt SE.PRE.ENRL.FE}} Enrolment in pre-primary education, female (number){p_end}
+{synopt:{opt SE.PRE.ENRL.TC.ZS}} Pupil-teacher ratio, preprimary{p_end}
+{synopt:{opt SE.PRE.ENRL}} Enrolment in pre-primary education, both sexes (number){p_end}
+{synopt:{opt SE.PRE.ENRR.FE}} School enrollment, preprimary, female (% gross){p_end}
+{synopt:{opt SE.PRE.ENRR.MA}} School enrollment, preprimary, male (% gross){p_end}
+{synopt:{opt SE.PRE.ENRR}} School enrollment, preprimary (% gross){p_end}
+{synopt:{opt SE.PRE.NENR.FE}} Net enrolment rate, pre-primary, female (%){p_end}
+{synopt:{opt SE.PRE.NENR.MA}} Net enrolment rate, pre-primary, male (%){p_end}
+{synopt:{opt SE.PRE.NENR}} Net enrolment rate, pre-primary, both sexes (%){p_end}
+{synopt:{opt SE.PRE.PRIV.ZS}} Percentage of enrolment in pre-primary education in private institutions (%){p_end}
+{synopt:{opt SE.PRE.TCAQ.FE.ZS}} Trained teachers in preprimary education, female (% of female teachers){p_end}
+{synopt:{opt SE.PRE.TCAQ.MA.ZS}} Trained teachers in preprimary education, male (% of male teachers){p_end}
+{synopt:{opt SE.PRE.TCAQ.ZS}} Trained teachers in preprimary education (% of total teachers){p_end}
+{synopt:{opt SE.PRE.TCHR.FE.ZS}} Percentage of teachers in pre-primary education who are female (%){p_end}
+{synopt:{opt SE.PRE.TCHR.FE}} Teachers in pre-primary education, female (number){p_end}
+{synopt:{opt SE.PRE.TCHR}} Teachers in pre-primary education, both sexes (number){p_end}
+{synopt:{opt SE.PRM.AGEE.ZS}} Age efficiency, primary (net enrollment as % of gross){p_end}
+{synopt:{opt SE.PRM.AGES}} Primary school starting age (years){p_end}
+{synopt:{opt SE.PRM.CMPL.FE.ZS}} Gross graduation ratio from primary education, female (%){p_end}
+{synopt:{opt SE.PRM.CMPL.MA.ZS}} Gross graduation ratio from primary education, male (%){p_end}
+{synopt:{opt SE.PRM.CMPL.ZS}} Gross graduation ratio from primary education, both sexes (%){p_end}
+{synopt:{opt SE.PRM.CMPT.FE.ZS}} Primary completion rate, female (% of relevant age group){p_end}
+{synopt:{opt SE.PRM.CMPT.MA.ZS}} Primary completion rate, male (% of relevant age group){p_end}
+{synopt:{opt SE.PRM.CMPT.ZS}} Primary completion rate, total (% of relevant age group){p_end}
+{synopt:{opt SE.PRM.CUAT.FE.ZS}} Educational attainment, at least completed primary, population 25+ years, female (%) (cumulative){p_end}
+{synopt:{opt SE.PRM.CUAT.MA.ZS}} Educational attainment, at least completed primary, population 25+ years, male (%) (cumulative){p_end}
+{synopt:{opt SE.PRM.CUAT.ZS}} Educational attainment, at least completed primary, population 25+ years, total (%) (cumulative){p_end}
+{synopt:{opt SE.PRM.DROP.FE.ZS}} Cumulative drop-out rate to the last grade of primary education, female (%){p_end}
+{synopt:{opt SE.PRM.DROP.MA.ZS}} Cumulative drop-out rate to the last grade of primary education, male (%){p_end}
+{synopt:{opt SE.PRM.DROP.ZS}} Cumulative drop-out rate to the last grade of primary education, both sexes (%){p_end}
+{synopt:{opt SE.PRM.DURS}} Primary education, duration (years){p_end}
+{synopt:{opt SE.PRM.ENNR.FE}} Primary Schl. Enroll. Ratio, Female{p_end}
+{synopt:{opt SE.PRM.ENRL.FE.ZS}} Primary education, pupils (% female){p_end}
+{synopt:{opt SE.PRM.ENRL.FE}} Enrolment in primary education, female (number){p_end}
+{synopt:{opt SE.PRM.ENRL.TC.ZS}} Pupil-teacher ratio, primary{p_end}
+{synopt:{opt SE.PRM.ENRL}} Primary education, pupils{p_end}
+{synopt:{opt SE.PRM.ENRR.FE}} School enrollment, primary, female (% gross){p_end}
+{synopt:{opt SE.PRM.ENRR.MA}} School enrollment, primary, male (% gross){p_end}
+{synopt:{opt SE.PRM.ENRR.MF}} School Enroll. Ratio, primary (%){p_end}
+{synopt:{opt SE.PRM.ENRR}} School enrollment, primary (% gross){p_end}
+{synopt:{opt SE.PRM.GINT.FE.ZS}} Gross intake ratio in first grade of primary education, female (% of relevant age group){p_end}
+{synopt:{opt SE.PRM.GINT.MA.ZS}} Gross intake ratio in first grade of primary education, male (% of relevant age group){p_end}
+{synopt:{opt SE.PRM.GINT.ZS}} Gross intake ratio in first grade of primary education, total (% of relevant age group){p_end}
+{synopt:{opt SE.PRM.NENR.FE}} School enrollment, primary, female (% net){p_end}
+{synopt:{opt SE.PRM.NENR.MA}} School enrollment, primary, male (% net){p_end}
+{synopt:{opt SE.PRM.NENR.ZS}} Net Enrollment Ratio: Primary (in %){p_end}
+{synopt:{opt SE.PRM.NENR}} School enrollment, primary (% net){p_end}
+{synopt:{opt SE.PRM.NINT.FE.ZS}} Net intake rate in grade 1, female (% of official school-age population){p_end}
+{synopt:{opt SE.PRM.NINT.MA.ZS}} Net intake rate in grade 1, male (% of official school-age population){p_end}
+{synopt:{opt SE.PRM.NINT.ZS}} Net intake rate in grade 1 (% of official school-age population){p_end}
+{synopt:{opt SE.PRM.OENR.FE.ZS}} Over-age students, primary, female (% of female enrollment){p_end}
+{synopt:{opt SE.PRM.OENR.MA.ZS}} Over-age students, primary, male (% of male enrollment){p_end}
+{synopt:{opt SE.PRM.OENR.ZS}} Over-age students, primary (% of enrollment){p_end}
+{synopt:{opt SE.PRM.PRIV.ZS}} School enrollment, primary, private (% of total primary){p_end}
+{synopt:{opt SE.PRM.PRS4.FE.ZS}} Persistence to grade 4, female (% of cohort){p_end}
+{synopt:{opt SE.PRM.PRS4.MA.ZS}} Persistence to grade 4, male (% of cohort){p_end}
+{synopt:{opt SE.PRM.PRS4.ZS}} Persistence to grade 4, total (% of cohort){p_end}
+{synopt:{opt SE.PRM.PRS5.FE.ZS}} Persistence to grade 5, female (% of cohort){p_end}
+{synopt:{opt SE.PRM.PRS5.MA.ZS}} Persistence to grade 5, male (% of cohort){p_end}
+{synopt:{opt SE.PRM.PRS5.ZS}} Persistence to grade 5, total (% of cohort){p_end}
+{synopt:{opt SE.PRM.PRSL.FE.ZS}} Persistence to last grade of primary, female (% of cohort){p_end}
+{synopt:{opt SE.PRM.PRSL.MA.ZS}} Persistence to last grade of primary, male (% of cohort){p_end}
+{synopt:{opt SE.PRM.PRSL.ZS}} Persistence to last grade of primary, total (% of cohort){p_end}
+{synopt:{opt SE.PRM.PTRA}} Primary school pupil-teacher ratio{p_end}
+{synopt:{opt SE.PRM.REPT.FE.ZS}} Repeaters, primary, female (% of female enrollment){p_end}
+{synopt:{opt SE.PRM.REPT.MA.ZS}} Repeaters, primary, male (% of male enrollment){p_end}
+{synopt:{opt SE.PRM.REPT.ZS}} Repeaters, primary, total (% of total enrollment){p_end}
+{synopt:{opt SE.PRM.TCAQ.FE.ZS}} Trained teachers in primary education, female (% of female teachers){p_end}
+{synopt:{opt SE.PRM.TCAQ.MA.ZS}} Trained teachers in primary education, male (% of male teachers){p_end}
+{synopt:{opt SE.PRM.TCAQ.ZS}} Trained teachers in primary education (% of total teachers){p_end}
+{synopt:{opt SE.PRM.TCHR.FE.ZS}} Primary education, teachers (% female){p_end}
+{synopt:{opt SE.PRM.TCHR.FE}} Teachers in primary education, female (number){p_end}
+{synopt:{opt SE.PRM.TCHR}} Primary education, teachers{p_end}
+{synopt:{opt SE.PRM.TENR.FE}} Adjusted net enrollment rate, primary, female (% of primary school age children){p_end}
+{synopt:{opt SE.PRM.TENR.MA}} Adjusted net enrollment rate, primary, male (% of primary school age children){p_end}
+{synopt:{opt SE.PRM.TENR}} Adjusted net enrollment rate, primary (% of primary school age children){p_end}
+{synopt:{opt SE.PRM.UNER.FE.ZS}} Children out of school, female (% of female primary school age){p_end}
+{synopt:{opt SE.PRM.UNER.FE}} Children out of school, primary, female{p_end}
+{synopt:{opt SE.PRM.UNER.MA.ZS}} Children out of school, male (% of male primary school age){p_end}
+{synopt:{opt SE.PRM.UNER.MA}} Children out of school, primary, male{p_end}
+{synopt:{opt SE.PRM.UNER.ZS}} Children out of school (% of primary school age){p_end}
+{synopt:{opt SE.PRM.UNER}} Children out of school, primary{p_end}
+{synopt:{opt SE.SCH.EFIC.ZS}} Education coefficient of efficiency (ideal years to graduate as % of actual){p_end}
+{synopt:{opt SE.SCH.LIFE.FE}} School life expectancy, primary to tertiary, female (years){p_end}
+{synopt:{opt SE.SCH.LIFE.MA}} School life expectancy, primary to tertiary, male (years){p_end}
+{synopt:{opt SE.SCH.LIFE}} School life expectancy, primary to tertiary, both sexes (years){p_end}
+{synopt:{opt SE.SCHL.JRSEC}} Number of schools at Junior Secondary Level{p_end}
+{synopt:{opt SE.SCHL.PRM}} Number of schools at Primary Level{p_end}
+{synopt:{opt SE.SCHL.SRSEC}} Number of schools at Senior Secondary level{p_end}
+{synopt:{opt SE.SEC.AGEE.ZS}} Age efficiency, secondary (net enrollment as % of gross){p_end}
+{synopt:{opt SE.SEC.AGES}} Lower secondary school starting age (years){p_end}
+{synopt:{opt SE.SEC.CMPT.LO.FE.ZS}} Lower secondary completion rate, female (% of relevant age group){p_end}
+{synopt:{opt SE.SEC.CMPT.LO.MA.ZS}} Lower secondary completion rate, male (% of relevant age group){p_end}
+{synopt:{opt SE.SEC.CMPT.LO.ZS}} Lower secondary completion rate, total (% of relevant age group){p_end}
+{synopt:{opt SE.SEC.CUAT.LO.FE.ZS}} Educational attainment, at least completed lower secondary, population 25+, female (%) (cumulative){p_end}
+{synopt:{opt SE.SEC.CUAT.LO.MA.ZS}} Educational attainment, at least completed lower secondary, population 25+, male (%) (cumulative){p_end}
+{synopt:{opt SE.SEC.CUAT.LO.ZS}} Educational attainment, at least completed lower secondary, population 25+, total (%) (cumulative){p_end}
+{synopt:{opt SE.SEC.CUAT.PO.FE.ZS}} Educational attainment, at least completed post-secondary, population 25+, female (%) (cumulative){p_end}
+{synopt:{opt SE.SEC.CUAT.PO.MA.ZS}} Educational attainment, at least completed post-secondary, population 25+, male (%) (cumulative){p_end}
+{synopt:{opt SE.SEC.CUAT.PO.ZS}} Educational attainment, at least completed post-secondary, population 25+, total (%) (cumulative){p_end}
+{synopt:{opt SE.SEC.CUAT.UP.FE.ZS}} Educational attainment, at least completed upper secondary, population 25+, female (%) (cumulative){p_end}
+{synopt:{opt SE.SEC.CUAT.UP.MA.ZS}} Educational attainment, at least completed upper secondary, population 25+, male (%) (cumulative){p_end}
+{synopt:{opt SE.SEC.CUAT.UP.ZS}} Educational attainment, at least completed upper secondary, population 25+, total (%) (cumulative){p_end}
+{synopt:{opt SE.SEC.DURS.LO}} Theoretical duration of lower secondary education (years){p_end}
+{synopt:{opt SE.SEC.DURS.UP}} Theoretical duration of upper secondary education (years){p_end}
+{synopt:{opt SE.SEC.DURS}} Secondary education, duration (years){p_end}
+{synopt:{opt SE.SEC.ENRL.FE.VO.ZS}} Share of female students in secondary education enrolled in vocational programmes (%){p_end}
+{synopt:{opt SE.SEC.ENRL.FE.ZS}} Secondary education, pupils (% female){p_end}
+{synopt:{opt SE.SEC.ENRL.FE}} Enrolment in secondary education, female (number){p_end}
+{synopt:{opt SE.SEC.ENRL.GC.FE.ZS}} Secondary education, general pupils (% female){p_end}
+{synopt:{opt SE.SEC.ENRL.GC.FE}} Enrolment in secondary general, female (number){p_end}
+{synopt:{opt SE.SEC.ENRL.GC}} Secondary education, general pupils{p_end}
+{synopt:{opt SE.SEC.ENRL.LO.TC.ZS}} Pupil-teacher ratio, lower secondary{p_end}
+{synopt:{opt SE.SEC.ENRL.MA.VO.ZS}} Share of male students in secondary education enrolled in vocational programmes (%){p_end}
+{synopt:{opt SE.SEC.ENRL.TC.ZS}} Pupil-teacher ratio, secondary{p_end}
+{synopt:{opt SE.SEC.ENRL.UP.TC.ZS}} Pupil-teacher ratio, upper secondary{p_end}
+{synopt:{opt SE.SEC.ENRL.VO.FE.ZS}} Secondary education, vocational pupils (% female){p_end}
+{synopt:{opt SE.SEC.ENRL.VO.FE}} Enrolment in secondary vocational, female (number){p_end}
+{synopt:{opt SE.SEC.ENRL.VO.ZS}} Share of all students in secondary education enrolled in vocational programmes (%){p_end}
+{synopt:{opt SE.SEC.ENRL.VO}} Secondary education, vocational pupils{p_end}
+{synopt:{opt SE.SEC.ENRL}} Secondary education, pupils{p_end}
+{synopt:{opt SE.SEC.ENRR.FE}} School enrollment, secondary, female (% gross){p_end}
+{synopt:{opt SE.SEC.ENRR.LO.FE}} Gross enrolment ratio, lower secondary, female (%){p_end}
+{synopt:{opt SE.SEC.ENRR.LO.MA}} Gross enrolment ratio, lower secondary, male (%){p_end}
+{synopt:{opt SE.SEC.ENRR.LO}} Gross enrolment ratio, lower secondary, both sexes (%){p_end}
+{synopt:{opt SE.SEC.ENRR.MA}} School enrollment, secondary, male (% gross){p_end}
+{synopt:{opt SE.SEC.ENRR.MF}} School Enroll. Ratio, secondary (%){p_end}
+{synopt:{opt SE.SEC.ENRR.UP.FE}} Gross enrolment ratio, upper secondary, female (%){p_end}
+{synopt:{opt SE.SEC.ENRR.UP.MA}} Gross enrolment ratio, upper secondary, male (%){p_end}
+{synopt:{opt SE.SEC.ENRR.UP}} Gross enrolment ratio, upper secondary, both sexes (%){p_end}
+{synopt:{opt SE.SEC.ENRR}} School enrollment, secondary (% gross){p_end}
+{synopt:{opt SE.SEC.NENR.FE}} School enrollment, secondary, female (% net){p_end}
+{synopt:{opt SE.SEC.NENR.MA}} School enrollment, secondary, male (% net){p_end}
+{synopt:{opt SE.SEC.NENR}} School enrollment, secondary (% net){p_end}
+{synopt:{opt SE.SEC.PRIV.ZS}} School enrollment, secondary, private (% of total secondary){p_end}
+{synopt:{opt SE.SEC.PROG.FE.ZS}} Progression to secondary school, female (%){p_end}
+{synopt:{opt SE.SEC.PROG.MA.ZS}} Progression to secondary school, male (%){p_end}
+{synopt:{opt SE.SEC.PROG.ZS}} Progression to secondary school (%){p_end}
+{synopt:{opt SE.SEC.REPT.FE.ZS}} Repeaters, secondary, female (% of female enrollment){p_end}
+{synopt:{opt SE.SEC.REPT.MA.ZS}} Repeaters, secondary, male (% of male enrollment){p_end}
+{synopt:{opt SE.SEC.REPT.ZS}} Repeaters, secondary, total (% of total enrollment){p_end}
+{synopt:{opt SE.SEC.TCAQ.FE.ZS}} Trained teachers in secondary education, female (% of female teachers){p_end}
+{synopt:{opt SE.SEC.TCAQ.LO.FE.ZS}} Trained teachers in lower secondary education, female (% of female teachers){p_end}
+{synopt:{opt SE.SEC.TCAQ.LO.MA.ZS}} Trained teachers in lower secondary education, male (% of male teachers){p_end}
+{synopt:{opt SE.SEC.TCAQ.LO.ZS}} Trained teachers in lower secondary education (% of total teachers){p_end}
+{synopt:{opt SE.SEC.TCAQ.MA.ZS}} Trained teachers in secondary education, male (% of male teachers){p_end}
+{synopt:{opt SE.SEC.TCAQ.UP.FE.ZS}} Trained teachers in upper secondary education, female (% of female teachers){p_end}
+{synopt:{opt SE.SEC.TCAQ.UP.MA.ZS}} Trained teachers in upper secondary education, male (% of male teachers){p_end}
+{synopt:{opt SE.SEC.TCAQ.UP.ZS}} Trained teachers in upper secondary education (% of total teachers){p_end}
+{synopt:{opt SE.SEC.TCAQ.ZS}} Trained teachers in secondary education (% of total teachers){p_end}
+{synopt:{opt SE.SEC.TCHR.FE.ZS}} Secondary education, teachers (% female){p_end}
+{synopt:{opt SE.SEC.TCHR.FE}} Secondary education, teachers, female{p_end}
+{synopt:{opt SE.SEC.TCHR.GC.FE.ZS}} Secondary education, general teachers (% female){p_end}
+{synopt:{opt SE.SEC.TCHR.GC}} Secondary education, general teachers{p_end}
+{synopt:{opt SE.SEC.TCHR.VO.FE.ZS}} Secondary education, vocational teachers (% female){p_end}
+{synopt:{opt SE.SEC.TCHR.VO}} Secondary education, vocational teachers{p_end}
+{synopt:{opt SE.SEC.TCHR}} Secondary education, teachers{p_end}
+{synopt:{opt SE.SEC.UNER.FE.ZS}} Children out of school, secondary, female (% of relevant age group){p_end}
+{synopt:{opt SE.SEC.UNER.FE}} Children out of school, secondary, female{p_end}
+{synopt:{opt SE.SEC.UNER.LO.FE.ZS}} Adolescents out of school, female (% of female lower secondary school age){p_end}
+{synopt:{opt SE.SEC.UNER.LO.MA.ZS}} Adolescents out of school, male (% of male lower secondary school age){p_end}
+{synopt:{opt SE.SEC.UNER.LO.ZS}} Adolescents out of school (% of lower secondary school age){p_end}
+{synopt:{opt SE.SEC.UNER.MA.ZS}} Children out of school, secondary, male (% of relevant age group){p_end}
+{synopt:{opt SE.SEC.UNER.MA}} Children out of school, secondary, male{p_end}
+{synopt:{opt SE.SEC.UNER.ZS}} Children out of school, secondary (% of relevant age group){p_end}
+{synopt:{opt SE.SEC.UNER}} Children out of school, secondary{p_end}
+{synopt:{opt SE.SRSEC.NENR.ZS}} Net Enrollment Ratio: Senior Secondary (in %){p_end}
+{synopt:{opt SE.STUD.JRSEC}} Number of Student: Junior Secondary Level (in number of people, 2009 data only){p_end}
+{synopt:{opt SE.STUD.PRM}} Number of Student: Primary Level (in number of people, 2009 data only){p_end}
+{synopt:{opt SE.STUD.SRSEC}} Number of Student: Senior Secondary Level (in number of people, 2009 data only){p_end}
+{synopt:{opt SE.TCHR.JRSEC}} Number of Teacher: Junior Secondary Level (in number of people, 2009 data only){p_end}
+{synopt:{opt SE.TCHR.PRM}} Number of Teacher: Primary Level (in number of people, 2009 data only){p_end}
+{synopt:{opt SE.TCHR.SRSEC}} Number of Teacher: Senior Secondary Level (in number of people, 2009 data only){p_end}
+{synopt:{opt SE.TER.CMPL.FE.ZS}} Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, female (%){p_end}
+{synopt:{opt SE.TER.CMPL.MA.ZS}} Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, male (%){p_end}
+{synopt:{opt SE.TER.CMPL.ZS}} Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, both sexes (%){p_end}
+{synopt:{opt SE.TER.CUAT.BA.FE.ZS}} Educational attainment, at least Bachelor's or equivalent, population 25+, female (%) (cumulative){p_end}
+{synopt:{opt SE.TER.CUAT.BA.MA.ZS}} Educational attainment, at least Bachelor's or equivalent, population 25+, male (%) (cumulative){p_end}
+{synopt:{opt SE.TER.CUAT.BA.ZS}} Educational attainment, at least Bachelor's or equivalent, population 25+, total (%) (cumulative){p_end}
+{synopt:{opt SE.TER.CUAT.DO.FE.ZS}} Educational attainment, Doctoral or equivalent, population 25+, female (%) (cumulative){p_end}
+{synopt:{opt SE.TER.CUAT.DO.MA.ZS}} Educational attainment, Doctoral or equivalent, population 25+, male (%) (cumulative){p_end}
+{synopt:{opt SE.TER.CUAT.DO.ZS}} Educational attainment, Doctoral or equivalent, population 25+, total (%) (cumulative){p_end}
+{synopt:{opt SE.TER.CUAT.MS.FE.ZS}} Educational attainment, at least Master's or equivalent, population 25+, female (%) (cumulative){p_end}
+{synopt:{opt SE.TER.CUAT.MS.MA.ZS}} Educational attainment, at least Master's or equivalent, population 25+, male (%) (cumulative){p_end}
+{synopt:{opt SE.TER.CUAT.MS.ZS}} Educational attainment, at least Master's or equivalent, population 25+, total (%) (cumulative){p_end}
+{synopt:{opt SE.TER.CUAT.ST.FE.ZS}} Educational attainment, at least completed short-cycle tertiary, population 25+, female (%) (cumulative){p_end}
+{synopt:{opt SE.TER.CUAT.ST.MA.ZS}} Educational attainment, at least completed short-cycle tertiary, population 25+, male (%) (cumulative){p_end}
+{synopt:{opt SE.TER.CUAT.ST.ZS}} Educational attainment, at least completed short-cycle tertiary, population 25+, total (%) (cumulative){p_end}
+{synopt:{opt SE.TER.ENRL.FE.ZS}} Percentage of students in tertiary education who are female (%){p_end}
+{synopt:{opt SE.TER.ENRL.FE}} Enrolment in tertiary education, all programmes, female (number){p_end}
+{synopt:{opt SE.TER.ENRL.TC.ZS}} Pupil-teacher ratio, tertiary{p_end}
+{synopt:{opt SE.TER.ENRL}} Enrolment in tertiary education, all programmes, both sexes (number){p_end}
+{synopt:{opt SE.TER.ENRR.FE}} School enrollment, tertiary, female (% gross){p_end}
+{synopt:{opt SE.TER.ENRR.MA}} School enrollment, tertiary, male (% gross){p_end}
+{synopt:{opt SE.TER.ENRR}} School enrollment, tertiary (% gross){p_end}
+{synopt:{opt SE.TER.GRAD.AG.FE.ZS}} Percentage of female graduates from tertiary education graduating from Agriculture, Forestry, Fisheries and Veterinary programmes, female (%){p_end}
+{synopt:{opt SE.TER.GRAD.AG.ZS}} Percentage of graduates from tertiary education graduating from Agriculture, Forestry, Fisheries and Veterinary programmes, both sexes (%){p_end}
+{synopt:{opt SE.TER.GRAD.ED.FE.ZS}} Percentage of female graduates from tertiary education graduating from Education programmes, female (%){p_end}
+{synopt:{opt SE.TER.GRAD.ED.ZS}} Percentage of graduates from tertiary education graduating from Education programmes, both sexes (%){p_end}
+{synopt:{opt SE.TER.GRAD.EN.FE.ZS}} Percentage of female graduates from tertiary education graduating from Engineering, Manufacturing and Construction programmes, female (%){p_end}
+{synopt:{opt SE.TER.GRAD.EN.ZS}} Percentage of graduates from tertiary education graduating from Engineering, Manufacturing and Construction programmes, both sexes (%){p_end}
+{synopt:{opt SE.TER.GRAD.FE.AG.ZS}} Percentage of graduates from Agriculture, Forestry, Fisheries and Veterinary programmes in tertiary education who are female (%){p_end}
+{synopt:{opt SE.TER.GRAD.FE.ED.ZS}} Percentage of graduates from Education programmes in tertiary education who are female (%){p_end}
+{synopt:{opt SE.TER.GRAD.FE.EN.ZS}} Percentage of graduates from Engineering, Manufacturing and Construction programmes in tertiary education who are female (%){p_end}
+{synopt:{opt SE.TER.GRAD.FE.HL.ZS}} Percentage of graduates from Health and Welfare programmes in tertiary education who are female (%){p_end}
+{synopt:{opt SE.TER.GRAD.FE.HU.ZS}} Percentage of graduates from Arts and Humanities programmes in tertiary education who are female (%){p_end}
+{synopt:{opt SE.TER.GRAD.FE.OT.ZS}} Percentage of graduates from programmes in unspecified fields in tertiary education who are female (%){p_end}
+{synopt:{opt SE.TER.GRAD.FE.SC.ZS}} Percentage of graduates from Natural Sciences, Mathematics and Statistics programmes in tertiary education who are female (%){p_end}
+{synopt:{opt SE.TER.GRAD.FE.SS.ZS}} Percentage of graduates from Social Sciences, Journalism and Information programmes in tertiary education who are female (%){p_end}
+{synopt:{opt SE.TER.GRAD.FE.SV.ZS}} Percentage of graduates from Services programmes in tertiary education who are female (%){p_end}
+{synopt:{opt SE.TER.GRAD.FE.ZS}} Percentage of graduates from tertiary education who are female (%){p_end}
+{synopt:{opt SE.TER.GRAD.FE}} Graduates from tertiary education, female (number){p_end}
+{synopt:{opt SE.TER.GRAD.HL.FE.ZS}} Percentage of female graduates from tertiary education graduating from Health and Welfare programmes, female (%){p_end}
+{synopt:{opt SE.TER.GRAD.HL.ZS}} Percentage of graduates from tertiary education graduating from Health and Welfare programmes, both sexes (%){p_end}
+{synopt:{opt SE.TER.GRAD.HU.FE.ZS}} Percentage of female graduates from tertiary education graduating from Arts and Humanities programmes, female (%){p_end}
+{synopt:{opt SE.TER.GRAD.HU.ZS}} Percentage of graduates from tertiary education graduating from Arts and Humanities programmes, both sexes (%){p_end}
+{synopt:{opt SE.TER.GRAD.OT.FE.ZS}} Percentage of female graduates from tertiary education graduating from programmes in unspecified fields, female (%){p_end}
+{synopt:{opt SE.TER.GRAD.OT.ZS}} Percentage of graduates from tertiary education graduating from programmes in unspecified fields, both sexes (%){p_end}
+{synopt:{opt SE.TER.GRAD.SC.FE.ZS}} Percentage of female graduates from tertiary education graduating from Natural Sciences, Mathematics and Statistics programmes, female (%){p_end}
+{synopt:{opt SE.TER.GRAD.SC.ZS}} Percentage of graduates from tertiary education graduating from Natural Sciences, Mathematics and Statistics programmes, both sexes (%){p_end}
+{synopt:{opt SE.TER.GRAD.SS.FE.ZS}} Percentage of female graduates from tertiary education graduating from Social Sciences, Journalism and Information programmes, female (%){p_end}
+{synopt:{opt SE.TER.GRAD.SS.ZS}} Percentage of graduates from tertiary education graduating from Social Sciences, Journalism and Information programmes, both sexes (%){p_end}
+{synopt:{opt SE.TER.GRAD.SV.FE.ZS}} Percentage of female graduates from tertiary education graduating from Services programmes, female (%){p_end}
+{synopt:{opt SE.TER.GRAD.SV.ZS}} Percentage of graduates from tertiary education graduating from Services programmes, both sexes (%){p_end}
+{synopt:{opt SE.TER.GRAD}} Graduates from tertiary education, both sexes (number){p_end}
+{synopt:{opt SE.TER.PRIV.ZS}} Percentage of enrolment in tertiary education in private institutions (%){p_end}
+{synopt:{opt SE.TER.SCIE.ZS}} Science and engineering students (% of total tertiary students){p_end}
+{synopt:{opt SE.TER.TCHR.FE.ZS}} Tertiary education, academic staff (% female){p_end}
+{synopt:{opt SE.TER.TCHR.FE}} Teachers in tertiary education programmes, female (number){p_end}
+{synopt:{opt SE.TER.TCHR}} Teachers in tertiary education programmes, both sexes (number){p_end}
+{synopt:{opt SE.TOT.ENRR}} Gross enrolment ratio, primary to tertiary, both sexes (%){p_end}
+{synopt:{opt SE.XPD.CPRM.ZS}} Current education expenditure, primary (% of total expenditure in primary public institutions){p_end}
+{synopt:{opt SE.XPD.CSEC.ZS}} Current education expenditure, secondary (% of total expenditure in secondary public institutions){p_end}
+{synopt:{opt SE.XPD.CTER.ZS}} Current education expenditure, tertiary (% of total expenditure in tertiary public institutions){p_end}
+{synopt:{opt SE.XPD.CTOT.ZS}} Current education expenditure, total (% of total expenditure in public institutions){p_end}
+{synopt:{opt SE.XPD.CUR.TOTL.ZS}} Current expenditure as % of total expenditure in public institutions (%){p_end}
+{synopt:{opt SE.XPD.EDUC.ZS}} Public Expenditure on Education  (% GDP){p_end}
+{synopt:{opt SE.XPD.MPRM.ZS}} All education staff compensation, primary (% of total expenditure in primary public institutions){p_end}
+{synopt:{opt SE.XPD.MSEC.ZS}} All education staff compensation, secondary (% of total expenditure in secondary public institutions){p_end}
+{synopt:{opt SE.XPD.MTER.ZS}} All education staff compensation, tertiary (% of total expenditure in tertiary public institutions){p_end}
+{synopt:{opt SE.XPD.MTOT.ZS}} All education staff compensation, total (% of total expenditure in public institutions){p_end}
+{synopt:{opt SE.XPD.PRIM.GDP.ZS}} Public spending on education, primary (% of GDP){p_end}
+{synopt:{opt SE.XPD.PRIM.PC.ZS}} Government expenditure per student, primary (% of GDP per capita){p_end}
+{synopt:{opt SE.XPD.PRIM.ZS}} Expenditure on primary education (% of government expenditure on education){p_end}
+{synopt:{opt SE.XPD.PTCH.ZS}} Spending on teaching materials, primary (% of primary expenditure){p_end}
+{synopt:{opt SE.XPD.SECO.GDP.ZS}} Public spending on education, secondary (% of GDP){p_end}
+{synopt:{opt SE.XPD.SECO.PC.ZS}} Government expenditure per student, secondary (% of GDP per capita){p_end}
+{synopt:{opt SE.XPD.SECO.ZS}} Expenditure on secondary education (% of government expenditure on education){p_end}
+{synopt:{opt SE.XPD.STCH.ZS}} Spending on teaching materials, secondary (% of secondary expenditure){p_end}
+{synopt:{opt SE.XPD.TCHR.XC.ZS}} Teachers' salaries (% of current education expenditure){p_end}
+{synopt:{opt SE.XPD.TERT.GDP.ZS}} Public spending on education, tertiary (% of GDP){p_end}
+{synopt:{opt SE.XPD.TERT.PC.ZS}} Government expenditure per student, tertiary (% of GDP per capita){p_end}
+{synopt:{opt SE.XPD.TERT.ZS}} Expenditure on tertiary education (% of government expenditure on education){p_end}
+{synopt:{opt SE.XPD.TOTL.GB.ZS}} Government expenditure on education, total (% of government expenditure){p_end}
+{synopt:{opt SE.XPD.TOTL.GD.ZS}} Government expenditure on education, total (% of GDP){p_end}
+{synopt:{opt SE.XPD.TOTL.GN.ZS}} Public spending on education, total (% of GNI, UNESCO){p_end}
+{synopt:{opt SF.CMN.FAX.TH}} Fax machines (per 1,000 people){p_end}
+{synopt:{opt SF.CMN.ICALL.3MN.CD}} International telecom, average price call to USA (US$ per 3 min.){p_end}
+{synopt:{opt SF.CMN.ICALL.MN.SU}} International telecom, outgoing traffic (minutes per subscriber){p_end}
+{synopt:{opt SF.CMN.INET.USER.10K}} Internet users (per 10,000 people){p_end}
+{synopt:{opt SF.CMN.MNLN.TH}} Telephone mainlines (per 1,000 people){p_end}
+{synopt:{opt SF.CMN.NEWS.TH}} Daily newspapers (per 1,000 people){p_end}
+{synopt:{opt SF.CMN.PC.TH}} Personal computers (per 1,000 people){p_end}
+{synopt:{opt SF.CMN.PHON.CELL.TH}} Mobile phones (per 1,000 people){p_end}
+{synopt:{opt SF.CMN.PHON.LCTY.ZS}} Telephone mainlines in largest city (% of total){p_end}
+{synopt:{opt SF.CMN.PHON.LN.WAIT}} Telephone mainlines, waiting time (years){p_end}
+{synopt:{opt SF.CMN.RDIO.TH}} Radios (per 1,000 people){p_end}
+{synopt:{opt SF.CMN.TELE.TH}} Television sets (per 1,000 people){p_end}
+{synopt:{opt SF.TRN.AIR.DPRT}} Aircraft departures (thousands){p_end}
+{synopt:{opt SF.TRN.AIR.GDS}} Air transport, freight (ton-km){p_end}
+{synopt:{opt SF.TRN.AIR.PSGR}} Air transport, passengers carried (thousands){p_end}
+{synopt:{opt SF.TRN.RAIL.GDS}} Railways, goods transported (million ton-km){p_end}
+{synopt:{opt SF.TRN.RAIL.KM.ZS}} Rail traffic (km per million US$ GDP){p_end}
+{synopt:{opt SG.COK.CHCO.ZS}} Main cooking fuel: charcoal (% of households){p_end}
+{synopt:{opt SG.COK.CROP.ZS}} Main cooking fuel: agricultural crop (% of households){p_end}
+{synopt:{opt SG.COK.DUNG.ZS}} Main cooking fuel: dung (% of households){p_end}
+{synopt:{opt SG.COK.ELEC.ZS}} Main cooking fuel: electricity  (% of households){p_end}
+{synopt:{opt SG.COK.HOUS.ZS}} Location of cooking: inside the house (% of households){p_end}
+{synopt:{opt SG.COK.LPGN.ZS}} Main cooking fuel: LPG/natural gas/biogas (% of households){p_end}
+{synopt:{opt SG.COK.OTHR.ZS}} Location of cooking: other places (% of households){p_end}
+{synopt:{opt SG.COK.OUTD.ZS}} Location of cooking: outdoors (% of households){p_end}
+{synopt:{opt SG.COK.SBLD.ZS}} Location of cooking: separate building (% of households){p_end}
+{synopt:{opt SG.COK.STRW.ZS}} Main cooking fuel: straw/shrubs/grass (% of households){p_end}
+{synopt:{opt SG.COK.WOOD.ZS}} Main cooking fuel: wood (% of households){p_end}
+{synopt:{opt SG.CRT.TSTM.WT}} Woman's testimony carries the same evidentiary weight in court as a man's (1=yes; 0=no){p_end}
+{synopt:{opt SG.DMK.ALLD.FN.ZS}} Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.DPCH.FN.ZS}} Women participating in making daily purchase decisions (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.FOOD.FN.ZS}} Women participating in decision of what food to cook daily (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.HLTH.FN.ZS}} Women participating in own health care decisions (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.HLTH.HB.ZS}} Decision maker about a woman's own health care: mainly husband (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.HLTH.OT.ZS}} Decision maker about a woman's own health care: other (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.HLTH.SE.ZS}} Decision maker about a woman's own health care: someone else (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.HLTH.WF.ZS}} Decision maker about a woman's own health care: mainly wife (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.HLTH.WH.ZS}} Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.NONE.FN.ZS}} Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.PRCH.FN.ZS}} Women participating in making major household purchase decisions (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.PRCH.HB.ZS}} Decision maker about major household purchases: mainly husband (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.PRCH.OT.ZS}} Decision maker about major household purchases: other (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.PRCH.SE.ZS}} Decision maker about major household purchases: someone else (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.PRCH.WF.ZS}} Decision maker about major household purchases: mainly wife (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.PRCH.WH.ZS}} Decision maker about major household purchases: wife and husband jointly (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.SRCR.FN.ZS}} Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.VISI.FN.ZS}} Women participating in decision of visits to family, relatives, friends (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.VISI.HB.ZS}} Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.VISI.OT.ZS}} Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.VISI.SE.ZS}} Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.VISI.WF.ZS}} Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49){p_end}
+{synopt:{opt SG.DMK.VISI.WH.ZS}} Decision maker about Visits to her family or relatives: wife and husband jointly (% of women age 15-49){p_end}
+{synopt:{opt SG.GEN.LSOM.ZS}} Female legislators, senior officials and managers (% of total){p_end}
+{synopt:{opt SG.GEN.MNST.ZS}} Proportion of women in ministerial level positions (%){p_end}
+{synopt:{opt SG.GEN.PARL.ZS}} Proportion of seats held by women in national parliaments (%){p_end}
+{synopt:{opt SG.GEN.TECH.ZS}} Female professional and technical workers (% of total){p_end}
+{synopt:{opt SG.H2O.PRMS.HH.ZS}} Households with water on the premises (%){p_end}
+{synopt:{opt SG.H2O.TL30.HH.ZS}} Households with water less than 30 minutes away round trip (%){p_end}
+{synopt:{opt SG.H2O.TM30.HH.ZS}} Households with water 30 minutes or longer away round trip (%){p_end}
+{synopt:{opt SG.JOB.NOPN.EQ}} Nonpregnant and nonnursing women can do the same jobs as men (1=yes; 0=no){p_end}
+{synopt:{opt SG.LAW.CHMR}} Law prohibits or invalidates child or early marriage (1=yes; 0=no){p_end}
+{synopt:{opt SG.LAW.EQRM.WK}} Law mandates equal remuneration for females and males for work of equal value (1=yes; 0=no){p_end}
+{synopt:{opt SG.LAW.LEVE.PU}} Law mandates paid or unpaid maternity leave (1=yes; 0=no){p_end}
+{synopt:{opt SG.LAW.NODC.HR}} Law mandates nondiscrimination based on gender in hiring (1=yes; 0=no){p_end}
+{synopt:{opt SG.LAW.OBHB.MR}} Married women are required by law to obey their husbands (1=yes; 0=no){p_end}
+{synopt:{opt SG.LEG.DVAW}} Legislation exists on domestic violence (1=yes; 0=no){p_end}
+{synopt:{opt SG.LEG.MRRP}} Legislation explicitly criminalizes marital rape (1=yes; 0=no){p_end}
+{synopt:{opt SG.LEG.SXHR}} Legislation specifically addresses sexual harassment (1=yes; 0=no){p_end}
+{synopt:{opt SG.MMR.LEVE.EP}} Mothers are guaranteed an equivalent position after maternity leave (1=yes; 0=no){p_end}
+{synopt:{opt SG.NOD.CONS}} Nondiscrimination clause mentions gender in the constitution (1=yes; 0=no){p_end}
+{synopt:{opt SG.OBT.IDCD.MR}} Married women can obtain a national ID card in the same way as married men (1=yes; 0=no){p_end}
+{synopt:{opt SG.OWN.HSAJ.FE.Q1.ZS}} Women who own a house both alone and jointly (% of women age 15-49): Q1 (lowest){p_end}
+{synopt:{opt SG.OWN.HSAJ.FE.Q2.ZS}} Women who own a house both alone and jointly (% of women age 15-49): Q2{p_end}
+{synopt:{opt SG.OWN.HSAJ.FE.Q3.ZS}} Women who own a house both alone and jointly (% of women age 15-49): Q3{p_end}
+{synopt:{opt SG.OWN.HSAJ.FE.Q4.ZS}} Women who own a house both alone and jointly (% of women age 15-49): Q4{p_end}
+{synopt:{opt SG.OWN.HSAJ.FE.Q5.ZS}} Women who own a house both alone and jointly (% of women age 15-49): Q5 (highest){p_end}
+{synopt:{opt SG.OWN.HSAJ.FE.ZS}} Women who own a house both alone and jointly (% of women age 15-49){p_end}
+{synopt:{opt SG.OWN.HSAJ.MA.Q1.ZS}} Men who own a house both alone and jointly (% of men): Q1 (lowest){p_end}
+{synopt:{opt SG.OWN.HSAJ.MA.Q2.ZS}} Men who own a house both alone and jointly (% of men): Q2{p_end}
+{synopt:{opt SG.OWN.HSAJ.MA.Q3.ZS}} Men who own a house both alone and jointly (% of men): Q3{p_end}
+{synopt:{opt SG.OWN.HSAJ.MA.Q4.ZS}} Men who own a house both alone and jointly (% of men): Q4{p_end}
+{synopt:{opt SG.OWN.HSAJ.MA.Q5.ZS}} Men who own a house both alone and jointly (% of men): Q5 (highest){p_end}
+{synopt:{opt SG.OWN.HSAJ.MA.ZS}} Men who own a house both alone and jointly (% of men){p_end}
+{synopt:{opt SG.OWN.HSAL.FE.Q1.ZS}} Women who own a house alone (% of women age 15-49): Q1 (lowest){p_end}
+{synopt:{opt SG.OWN.HSAL.FE.Q2.ZS}} Women who own a house alone (% of women age 15-49): Q2{p_end}
+{synopt:{opt SG.OWN.HSAL.FE.Q3.ZS}} Women who own a house alone (% of women age 15-49): Q3{p_end}
+{synopt:{opt SG.OWN.HSAL.FE.Q4.ZS}} Women who own a house alone (% of women age 15-49): Q4{p_end}
+{synopt:{opt SG.OWN.HSAL.FE.Q5.ZS}} Women who own a house alone (% of women age 15-49): Q5 (highest){p_end}
+{synopt:{opt SG.OWN.HSAL.FE.ZS}} Women who own a house alone (% of women age 15-49){p_end}
+{synopt:{opt SG.OWN.HSAL.MA.Q1.ZS}} Men who own a house alone (% of men): Q1 (lowest){p_end}
+{synopt:{opt SG.OWN.HSAL.MA.Q2.ZS}} Men who own a house alone (% of men): Q2{p_end}
+{synopt:{opt SG.OWN.HSAL.MA.Q3.ZS}} Men who own a house alone (% of men): Q3{p_end}
+{synopt:{opt SG.OWN.HSAL.MA.Q4.ZS}} Men who own a house alone (% of men): Q4{p_end}
+{synopt:{opt SG.OWN.HSAL.MA.Q5.ZS}} Men who own a house alone (% of men): Q5 (highest){p_end}
+{synopt:{opt SG.OWN.HSAL.MA.ZS}} Men who own a house alone (% of men){p_end}
+{synopt:{opt SG.OWN.HSJT.FE.Q1.ZS}} Women who own a house jointly (% of women age 15-49): Q1 (lowest){p_end}
+{synopt:{opt SG.OWN.HSJT.FE.Q2.ZS}} Women who own a house jointly (% of women age 15-49): Q2{p_end}
+{synopt:{opt SG.OWN.HSJT.FE.Q3.ZS}} Women who own a house jointly (% of women age 15-49): Q3{p_end}
+{synopt:{opt SG.OWN.HSJT.FE.Q4.ZS}} Women who own a house jointly (% of women age 15-49): Q4{p_end}
+{synopt:{opt SG.OWN.HSJT.FE.Q5.ZS}} Women who own a house jointly (% of women age 15-49): Q5 (highest){p_end}
+{synopt:{opt SG.OWN.HSJT.FE.ZS}} Women who own a house jointly (% of women age 15-49){p_end}
+{synopt:{opt SG.OWN.HSJT.MA.Q1.ZS}} Men who own a house jointly (% of men): Q1 (lowest){p_end}
+{synopt:{opt SG.OWN.HSJT.MA.Q2.ZS}} Men who own a house jointly (% of men): Q2{p_end}
+{synopt:{opt SG.OWN.HSJT.MA.Q3.ZS}} Men who own a house jointly (% of men): Q3{p_end}
+{synopt:{opt SG.OWN.HSJT.MA.Q4.ZS}} Men who own a house jointly (% of men): Q4{p_end}
+{synopt:{opt SG.OWN.HSJT.MA.Q5.ZS}} Men who own a house jointly (% of men): Q5 (highest){p_end}
+{synopt:{opt SG.OWN.HSJT.MA.ZS}} Men who own a house jointly (% of men){p_end}
+{synopt:{opt SG.OWN.HSNO.FE.Q1.ZS}} Women who do not own a house (% of women age 15-49): Q1 (lowest){p_end}
+{synopt:{opt SG.OWN.HSNO.FE.Q2.ZS}} Women who do not own a house (% of women age 15-49): Q2{p_end}
+{synopt:{opt SG.OWN.HSNO.FE.Q3.ZS}} Women who do not own a house (% of women age 15-49): Q3{p_end}
+{synopt:{opt SG.OWN.HSNO.FE.Q4.ZS}} Women who do not own a house (% of women age 15-49): Q4{p_end}
+{synopt:{opt SG.OWN.HSNO.FE.Q5.ZS}} Women who do not own a house (% of women age 15-49): Q5 (highest){p_end}
+{synopt:{opt SG.OWN.HSNO.FE.ZS}} Women who do not own a house (% of women age 15-49){p_end}
+{synopt:{opt SG.OWN.HSNO.MA.Q1.ZS}} Men who do not own a house (% of men): Q1 (lowest){p_end}
+{synopt:{opt SG.OWN.HSNO.MA.Q2.ZS}} Men who do not own a house (% of men): Q2{p_end}
+{synopt:{opt SG.OWN.HSNO.MA.Q3.ZS}} Men who do not own a house (% of men): Q3{p_end}
+{synopt:{opt SG.OWN.HSNO.MA.Q4.ZS}} Men who do not own a house (% of men): Q4{p_end}
+{synopt:{opt SG.OWN.HSNO.MA.Q5.ZS}} Men who do not own a house (% of men): Q5 (highest){p_end}
+{synopt:{opt SG.OWN.HSNO.MA.ZS}} Men who do not own a house (% of men){p_end}
+{synopt:{opt SG.OWN.LDAJ.FE.Q1.ZS}} Women who own land both alone and jointly (% of women age 15-49): Q1 (lowest){p_end}
+{synopt:{opt SG.OWN.LDAJ.FE.Q2.ZS}} Women who own land both alone and jointly (% of women age 15-49): Q2{p_end}
+{synopt:{opt SG.OWN.LDAJ.FE.Q3.ZS}} Women who own land both alone and jointly (% of women age 15-49): Q3{p_end}
+{synopt:{opt SG.OWN.LDAJ.FE.Q4.ZS}} Women who own land both alone and jointly (% of women age 15-49): Q4{p_end}
+{synopt:{opt SG.OWN.LDAJ.FE.Q5.ZS}} Women who own land both alone and jointly (% of women age 15-49): Q5 (highest){p_end}
+{synopt:{opt SG.OWN.LDAJ.FE.ZS}} Women who own land both alone and jointly (% of women age 15-49){p_end}
+{synopt:{opt SG.OWN.LDAJ.MA.Q1.ZS}} Men who own land both alone and jointly (% of men): Q1 (lowest){p_end}
+{synopt:{opt SG.OWN.LDAJ.MA.Q2.ZS}} Men who own land both alone and jointly (% of men): Q2{p_end}
+{synopt:{opt SG.OWN.LDAJ.MA.Q3.ZS}} Men who own land both alone and jointly (% of men): Q3{p_end}
+{synopt:{opt SG.OWN.LDAJ.MA.Q4.ZS}} Men who own land both alone and jointly (% of men): Q4{p_end}
+{synopt:{opt SG.OWN.LDAJ.MA.Q5.ZS}} Men who own land both alone and jointly (% of men): Q5 (highest){p_end}
+{synopt:{opt SG.OWN.LDAJ.MA.ZS}} Men who own land both alone and jointly (% of men){p_end}
+{synopt:{opt SG.OWN.LDAL.FE.Q1.ZS}} Women who own land alone (% of women age 15-49): Q1 (lowest){p_end}
+{synopt:{opt SG.OWN.LDAL.FE.Q2.ZS}} Women who own land alone (% of women age 15-49): Q2{p_end}
+{synopt:{opt SG.OWN.LDAL.FE.Q3.ZS}} Women who own land alone (% of women age 15-49): Q3{p_end}
+{synopt:{opt SG.OWN.LDAL.FE.Q4.ZS}} Women who own land alone (% of women age 15-49): Q4{p_end}
+{synopt:{opt SG.OWN.LDAL.FE.Q5.ZS}} Women who own land alone (% of women age 15-49): Q5 (highest){p_end}
+{synopt:{opt SG.OWN.LDAL.FE.ZS}} Women who own land alone (% of women age 15-49){p_end}
+{synopt:{opt SG.OWN.LDAL.MA.Q1.ZS}} Men who own land alone (% of men): Q1 (lowest){p_end}
+{synopt:{opt SG.OWN.LDAL.MA.Q2.ZS}} Men who own land alone (% of men): Q2{p_end}
+{synopt:{opt SG.OWN.LDAL.MA.Q3.ZS}} Men who own land alone (% of men): Q3{p_end}
+{synopt:{opt SG.OWN.LDAL.MA.Q4.ZS}} Men who own land alone (% of men): Q4{p_end}
+{synopt:{opt SG.OWN.LDAL.MA.Q5.ZS}} Men who own land alone (% of men): Q5 (highest){p_end}
+{synopt:{opt SG.OWN.LDAL.MA.ZS}} Men who own land alone (% of men){p_end}
+{synopt:{opt SG.OWN.LDJT.FE.Q1.ZS}} Women who own land jointly (% of women age 15-49): Q1 (lowest){p_end}
+{synopt:{opt SG.OWN.LDJT.FE.Q2.ZS}} Women who own land jointly (% of women age 15-49): Q2{p_end}
+{synopt:{opt SG.OWN.LDJT.FE.Q3.ZS}} Women who own land jointly (% of women age 15-49): Q3{p_end}
+{synopt:{opt SG.OWN.LDJT.FE.Q4.ZS}} Women who own land jointly (% of women age 15-49): Q4{p_end}
+{synopt:{opt SG.OWN.LDJT.FE.Q5.ZS}} Women who own land jointly (% of women age 15-49): Q5 (highest){p_end}
+{synopt:{opt SG.OWN.LDJT.FE.ZS}} Women who own land jointly (% of women age 15-49){p_end}
+{synopt:{opt SG.OWN.LDJT.MA.Q1.ZS}} Men who own land jointly (% of men): Q1 (lowest){p_end}
+{synopt:{opt SG.OWN.LDJT.MA.Q2.ZS}} Men who own land jointly (% of men): Q2{p_end}
+{synopt:{opt SG.OWN.LDJT.MA.Q3.ZS}} Men who own land jointly (% of men): Q3{p_end}
+{synopt:{opt SG.OWN.LDJT.MA.Q4.ZS}} Men who own land jointly (% of men): Q4{p_end}
+{synopt:{opt SG.OWN.LDJT.MA.Q5.ZS}} Men who own land jointly (% of men): Q5 (highest){p_end}
+{synopt:{opt SG.OWN.LDJT.MA.ZS}} Men who own land jointly (% of men){p_end}
+{synopt:{opt SG.OWN.LDNO.FE.Q1.ZS}} Women who do not own land (% of women age 15-49): Q1 (lowest){p_end}
+{synopt:{opt SG.OWN.LDNO.FE.Q2.ZS}} Women who do not own land (% of women age 15-49): Q2{p_end}
+{synopt:{opt SG.OWN.LDNO.FE.Q3.ZS}} Women who do not own land (% of women age 15-49): Q3{p_end}
+{synopt:{opt SG.OWN.LDNO.FE.Q4.ZS}} Women who do not own land (% of women age 15-49): Q4{p_end}
+{synopt:{opt SG.OWN.LDNO.FE.Q5.ZS}} Women who do not own land (% of women age 15-49): Q5 (highest){p_end}
+{synopt:{opt SG.OWN.LDNO.FE.ZS}} Women who do not own land (% of women age 15-49){p_end}
+{synopt:{opt SG.OWN.LDNO.MA.Q1.ZS}} Men who do not own land (% of men): Q1 (lowest){p_end}
+{synopt:{opt SG.OWN.LDNO.MA.Q2.ZS}} Men who do not own land (% of men): Q2{p_end}
+{synopt:{opt SG.OWN.LDNO.MA.Q3.ZS}} Men who do not own land (% of men): Q3{p_end}
+{synopt:{opt SG.OWN.LDNO.MA.Q4.ZS}} Men who do not own land (% of men): Q4{p_end}
+{synopt:{opt SG.OWN.LDNO.MA.Q5.ZS}} Men who do not own land (% of men): Q5 (highest){p_end}
+{synopt:{opt SG.OWN.LDNO.MA.ZS}} Men who do not own land (% of men){p_end}
+{synopt:{opt SG.OWN.PRRT.MR}} Married men and married women have equal ownership rights to property (1=yes; 0=no){p_end}
+{synopt:{opt SG.POP.MIGR.FE.ZS}} Female migrants (% of international migrant stock){p_end}
+{synopt:{opt SG.RSX.BRTH.Q1.ZS}} Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q1 (lowest){p_end}
+{synopt:{opt SG.RSX.BRTH.Q2.ZS}} Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q2{p_end}
+{synopt:{opt SG.RSX.BRTH.Q3.ZS}} Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q3{p_end}
+{synopt:{opt SG.RSX.BRTH.Q4.ZS}} Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q4{p_end}
+{synopt:{opt SG.RSX.BRTH.Q5.ZS}} Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q5 (highest){p_end}
+{synopt:{opt SG.RSX.BRTH.ZS}} Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%){p_end}
+{synopt:{opt SG.RSX.NORS.Q1.ZS}} Women who believe a wife is justified refusing sex with her husband for none of the reasons (%): Q1 (lowest){p_end}
+{synopt:{opt SG.RSX.NORS.Q2.ZS}} Women who believe a wife is justified refusing sex with her husband for none of the reasons (%): Q2{p_end}
+{synopt:{opt SG.RSX.NORS.Q3.ZS}} Women who believe a wife is justified refusing sex with her husband for none of the reasons (%): Q3{p_end}
+{synopt:{opt SG.RSX.NORS.Q4.ZS}} Women who believe a wife is justified refusing sex with her husband for none of the reasons (%): Q4{p_end}
+{synopt:{opt SG.RSX.NORS.Q5.ZS}} Women who believe a wife is justified refusing sex with her husband for none of the reasons (%): Q5 (highest){p_end}
+{synopt:{opt SG.RSX.NORS.ZS}} Women who believe a wife is justified refusing sex with her husband for none of the reasons (%){p_end}
+{synopt:{opt SG.RSX.REAS.Q1.ZS}} Women who believe a wife is justified refusing sex with her husband for all of the reasons (%): Q1 (lowest){p_end}
+{synopt:{opt SG.RSX.REAS.Q2.ZS}} Women who believe a wife is justified refusing sex with her husband for all of the reasons (%): Q2{p_end}
+{synopt:{opt SG.RSX.REAS.Q3.ZS}} Women who believe a wife is justified refusing sex with her husband for all of the reasons (%): Q3{p_end}
+{synopt:{opt SG.RSX.REAS.Q4.ZS}} Women who believe a wife is justified refusing sex with her husband for all of the reasons (%): Q4{p_end}
+{synopt:{opt SG.RSX.REAS.Q5.ZS}} Women who believe a wife is justified refusing sex with her husband for all of the reasons (%): Q5 (highest){p_end}
+{synopt:{opt SG.RSX.REAS.ZS}} Women who believe a wife is justified refusing sex with her husband for all of the reasons (%){p_end}
+{synopt:{opt SG.RSX.SXOT.Q1.ZS}} Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q1 (lowest){p_end}
+{synopt:{opt SG.RSX.SXOT.Q2.ZS}} Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q2{p_end}
+{synopt:{opt SG.RSX.SXOT.Q3.ZS}} Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q3{p_end}
+{synopt:{opt SG.RSX.SXOT.Q4.ZS}} Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q4{p_end}
+{synopt:{opt SG.RSX.SXOT.Q5.ZS}} Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q5 (highest){p_end}
+{synopt:{opt SG.RSX.SXOT.ZS}} Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%){p_end}
+{synopt:{opt SG.RSX.TIRD.Q1.ZS}} Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q1 (lowest){p_end}
+{synopt:{opt SG.RSX.TIRD.Q2.ZS}} Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q2{p_end}
+{synopt:{opt SG.RSX.TIRD.Q3.ZS}} Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q3{p_end}
+{synopt:{opt SG.RSX.TIRD.Q4.ZS}} Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q4{p_end}
+{synopt:{opt SG.RSX.TIRD.Q5.ZS}} Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q5 (highest){p_end}
+{synopt:{opt SG.RSX.TIRD.ZS}} Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%){p_end}
+{synopt:{opt SG.RSX.TMDS.Q1.ZS}} Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q1 (lowest){p_end}
+{synopt:{opt SG.RSX.TMDS.Q2.ZS}} Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q2{p_end}
+{synopt:{opt SG.RSX.TMDS.Q3.ZS}} Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q3{p_end}
+{synopt:{opt SG.RSX.TMDS.Q4.ZS}} Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q4{p_end}
+{synopt:{opt SG.RSX.TMDS.Q5.ZS}} Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q5 (highest){p_end}
+{synopt:{opt SG.RSX.TMDS.ZS}} Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%){p_end}
+{synopt:{opt SG.TIM.UWRK.FE}} Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day){p_end}
+{synopt:{opt SG.TIM.UWRK.MA}} Proportion of time spent on unpaid domestic and care work, male (% of 24 hour day){p_end}
+{synopt:{opt SG.VAW.1549.ZS}} Proportion of women subjected to physical and/or sexual violence in the last 12 months (% of women age 15-49){p_end}
+{synopt:{opt SG.VAW.ARGU.Q1.ZS}} Women who believe a husband is justified in beating his wife when she argues with him (%): Q1 (lowest){p_end}
+{synopt:{opt SG.VAW.ARGU.Q2.ZS}} Women who believe a husband is justified in beating his wife when she argues with him (%): Q2{p_end}
+{synopt:{opt SG.VAW.ARGU.Q3.ZS}} Women who believe a husband is justified in beating his wife when she argues with him (%): Q3{p_end}
+{synopt:{opt SG.VAW.ARGU.Q4.ZS}} Women who believe a husband is justified in beating his wife when she argues with him (%): Q4{p_end}
+{synopt:{opt SG.VAW.ARGU.Q5.ZS}} Women who believe a husband is justified in beating his wife when she argues with him (%): Q5 (highest){p_end}
+{synopt:{opt SG.VAW.ARGU.ZS}} Women who believe a husband is justified in beating his wife when she argues with him (%){p_end}
+{synopt:{opt SG.VAW.BURN.Q1.ZS}} Women who believe a husband is justified in beating his wife when she burns the food (%): Q1 (lowest){p_end}
+{synopt:{opt SG.VAW.BURN.Q2.ZS}} Women who believe a husband is justified in beating his wife when she burns the food (%): Q2{p_end}
+{synopt:{opt SG.VAW.BURN.Q3.ZS}} Women who believe a husband is justified in beating his wife when she burns the food (%): Q3{p_end}
+{synopt:{opt SG.VAW.BURN.Q4.ZS}} Women who believe a husband is justified in beating his wife when she burns the food (%): Q4{p_end}
+{synopt:{opt SG.VAW.BURN.Q5.ZS}} Women who believe a husband is justified in beating his wife when she burns the food (%): Q5 (highest){p_end}
+{synopt:{opt SG.VAW.BURN.ZS}} Women who believe a husband is justified in beating his wife when she burns the food (%){p_end}
+{synopt:{opt SG.VAW.GOES.Q1.ZS}} Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q1 (lowest){p_end}
+{synopt:{opt SG.VAW.GOES.Q2.ZS}} Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q2{p_end}
+{synopt:{opt SG.VAW.GOES.Q3.ZS}} Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q3{p_end}
+{synopt:{opt SG.VAW.GOES.Q4.ZS}} Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q4{p_end}
+{synopt:{opt SG.VAW.GOES.Q5.ZS}} Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q5 (highest){p_end}
+{synopt:{opt SG.VAW.GOES.ZS}} Women who believe a husband is justified in beating his wife when she goes out without telling him (%){p_end}
+{synopt:{opt SG.VAW.MARR.ZS}} Spousal physical or sexual violence in last 12 months (%){p_end}
+{synopt:{opt SG.VAW.NEGL.Q1.ZS}} Women who believe a husband is justified in beating his wife when she neglects the children (%): Q1 (lowest){p_end}
+{synopt:{opt SG.VAW.NEGL.Q2.ZS}} Women who believe a husband is justified in beating his wife when she neglects the children (%): Q2{p_end}
+{synopt:{opt SG.VAW.NEGL.Q3.ZS}} Women who believe a husband is justified in beating his wife when she neglects the children (%): Q3{p_end}
+{synopt:{opt SG.VAW.NEGL.Q4.ZS}} Women who believe a husband is justified in beating his wife when she neglects the children (%): Q4{p_end}
+{synopt:{opt SG.VAW.NEGL.Q5.ZS}} Women who believe a husband is justified in beating his wife when she neglects the children (%): Q5 (highest){p_end}
+{synopt:{opt SG.VAW.NEGL.ZS}} Women who believe a husband is justified in beating his wife when she neglects the children (%){p_end}
+{synopt:{opt SG.VAW.REAS.Q1.ZS}} Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q1 (lowest){p_end}
+{synopt:{opt SG.VAW.REAS.Q2.ZS}} Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q2{p_end}
+{synopt:{opt SG.VAW.REAS.Q3.ZS}} Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q3{p_end}
+{synopt:{opt SG.VAW.REAS.Q4.ZS}} Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q4{p_end}
+{synopt:{opt SG.VAW.REAS.Q5.ZS}} Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q5 (highest){p_end}
+{synopt:{opt SG.VAW.REAS.ZS}} Women who believe a husband is justified in beating his wife (any of five reasons) (%){p_end}
+{synopt:{opt SG.VAW.REFU.Q1.ZS}} Women who believe a husband is justified in beating his wife when she refuses sex with him (%): Q1 (lowest){p_end}
+{synopt:{opt SG.VAW.REFU.Q2.ZS}} Women who believe a husband is justified in beating his wife when she refuses sex with him (%): Q2{p_end}
+{synopt:{opt SG.VAW.REFU.Q3.ZS}} Women who believe a husband is justified in beating his wife when she refuses sex with him (%): Q3{p_end}
+{synopt:{opt SG.VAW.REFU.Q4.ZS}} Women who believe a husband is justified in beating his wife when she refuses sex with him (%): Q4{p_end}
+{synopt:{opt SG.VAW.REFU.Q5.ZS}} Women who believe a husband is justified in beating his wife when she refuses sex with him (%): Q5 (highest){p_end}
+{synopt:{opt SG.VAW.REFU.ZS}} Women who believe a husband is justified in beating his wife when she refuses sex with him (%){p_end}
+{synopt:{opt SH.ACS.ALON.Q1.ZS}} Problems in accessing health care (not wanting to go alone) (% of women): Q1 (lowest){p_end}
+{synopt:{opt SH.ACS.ALON.Q2.ZS}} Problems in accessing health care (not wanting to go alone) (% of women): Q2{p_end}
+{synopt:{opt SH.ACS.ALON.Q3.ZS}} Problems in accessing health care (not wanting to go alone) (% of women): Q3{p_end}
+{synopt:{opt SH.ACS.ALON.Q4.ZS}} Problems in accessing health care (not wanting to go alone) (% of women): Q4{p_end}
+{synopt:{opt SH.ACS.ALON.Q5.ZS}} Problems in accessing health care (not wanting to go alone) (% of women): Q5 (highest){p_end}
+{synopt:{opt SH.ACS.DIST.Q1.ZS}} Problems in accessing health care (distance to health facility) (% of women): Q1 (lowest){p_end}
+{synopt:{opt SH.ACS.DIST.Q2.ZS}} Problems in accessing health care (distance to health facility) (% of women): Q2{p_end}
+{synopt:{opt SH.ACS.DIST.Q3.ZS}} Problems in accessing health care (distance to health facility) (% of women): Q3{p_end}
+{synopt:{opt SH.ACS.DIST.Q4.ZS}} Problems in accessing health care (distance to health facility) (% of women): Q4{p_end}
+{synopt:{opt SH.ACS.DIST.Q5.ZS}} Problems in accessing health care (distance to health facility) (% of women): Q5 (highest){p_end}
+{synopt:{opt SH.ACS.MONY.Q1.ZS}} Problems in accessing health care (getting money for treatment) (% of women): Q1 (lowest){p_end}
+{synopt:{opt SH.ACS.MONY.Q2.ZS}} Problems in accessing health care (getting money for treatment) (% of women): Q2{p_end}
+{synopt:{opt SH.ACS.MONY.Q3.ZS}} Problems in accessing health care (getting money for treatment) (% of women): Q3{p_end}
+{synopt:{opt SH.ACS.MONY.Q4.ZS}} Problems in accessing health care (getting money for treatment) (% of women): Q4{p_end}
+{synopt:{opt SH.ACS.MONY.Q5.ZS}} Problems in accessing health care (getting money for treatment) (% of women): Q5 (highest){p_end}
+{synopt:{opt SH.ACS.NOFP.Q1.ZS}} Problems in accessing health care (concern there may not be a female provider) (% of women): Q1 (lowest){p_end}
+{synopt:{opt SH.ACS.NOFP.Q2.ZS}} Problems in accessing health care (concern there may not be a female provider) (% of women): Q2{p_end}
+{synopt:{opt SH.ACS.NOFP.Q3.ZS}} Problems in accessing health care (concern there may not be a female provider) (% of women): Q3{p_end}
+{synopt:{opt SH.ACS.NOFP.Q4.ZS}} Problems in accessing health care (concern there may not be a female provider) (% of women): Q4{p_end}
+{synopt:{opt SH.ACS.NOFP.Q5.ZS}} Problems in accessing health care (concern there may not be a female provider) (% of women): Q5 (highest){p_end}
+{synopt:{opt SH.ACS.PERM.Q1.ZS}} Problems in accessing health care (getting permission to go for treatment) (% of women): Q1 (lowest){p_end}
+{synopt:{opt SH.ACS.PERM.Q2.ZS}} Problems in accessing health care (getting permission to go for treatment) (% of women): Q2{p_end}
+{synopt:{opt SH.ACS.PERM.Q3.ZS}} Problems in accessing health care (getting permission to go for treatment) (% of women): Q3{p_end}
+{synopt:{opt SH.ACS.PERM.Q4.ZS}} Problems in accessing health care (getting permission to go for treatment) (% of women): Q4{p_end}
+{synopt:{opt SH.ACS.PERM.Q5.ZS}} Problems in accessing health care (getting permission to go for treatment) (% of women): Q5 (highest){p_end}
+{synopt:{opt SH.ACS.PROB.Q1.ZS}} Problems in accessing health care (any of the specified problems) (% of women): Q1 (lowest){p_end}
+{synopt:{opt SH.ACS.PROB.Q2.ZS}} Problems in accessing health care (any of the specified problems) (% of women): Q2{p_end}
+{synopt:{opt SH.ACS.PROB.Q3.ZS}} Problems in accessing health care (any of the specified problems) (% of women): Q3{p_end}
+{synopt:{opt SH.ACS.PROB.Q4.ZS}} Problems in accessing health care (any of the specified problems) (% of women): Q4{p_end}
+{synopt:{opt SH.ACS.PROB.Q5.ZS}} Problems in accessing health care (any of the specified problems) (% of women): Q5 (highest){p_end}
+{synopt:{opt SH.ACS.TRAN.Q1.ZS}} Problems in accessing health care (having to take transport) (% of women): Q1 (lowest){p_end}
+{synopt:{opt SH.ACS.TRAN.Q2.ZS}} Problems in accessing health care (having to take transport) (% of women): Q2{p_end}
+{synopt:{opt SH.ACS.TRAN.Q3.ZS}} Problems in accessing health care (having to take transport) (% of women): Q3{p_end}
+{synopt:{opt SH.ACS.TRAN.Q4.ZS}} Problems in accessing health care (having to take transport) (% of women): Q4{p_end}
+{synopt:{opt SH.ACS.TRAN.Q5.ZS}} Problems in accessing health care (having to take transport) (% of women): Q5 (highest){p_end}
+{synopt:{opt SH.ACS.WHER.Q1.ZS}} Problems in accessing health care (knowing where to go for treatment) (% of women): Q1 (lowest){p_end}
+{synopt:{opt SH.ACS.WHER.Q2.ZS}} Problems in accessing health care (knowing where to go for treatment) (% of women): Q2{p_end}
+{synopt:{opt SH.ACS.WHER.Q3.ZS}} Problems in accessing health care (knowing where to go for treatment) (% of women): Q3{p_end}
+{synopt:{opt SH.ACS.WHER.Q4.ZS}} Problems in accessing health care (knowing where to go for treatment) (% of women): Q4{p_end}
+{synopt:{opt SH.ACS.WHER.Q5.ZS}} Problems in accessing health care (knowing where to go for treatment) (% of women): Q5 (highest){p_end}
+{synopt:{opt SH.ADM.INPT}} Inpatient admission rate (% of population ){p_end}
+{synopt:{opt SH.ALC.PCAP.FE.LI}} Total alcohol consumption per capita, female (liters of pure alcohol, projected estimates, female 15+ years of age){p_end}
+{synopt:{opt SH.ALC.PCAP.LI}} Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age){p_end}
+{synopt:{opt SH.ALC.PCAP.MA.LI}} Total alcohol consumption per capita, male (liters of pure alcohol, projected estimates, male 15+ years of age){p_end}
+{synopt:{opt SH.ANM.ALLW.ZS}} Prevalence of anemia among women of reproductive age (% of women ages 15-49){p_end}
+{synopt:{opt SH.ANM.CHLD.ZS}} Prevalence of anemia among children (% of children under 5){p_end}
+{synopt:{opt SH.ANM.NPRG.ZS}} Prevalence of anemia among non-pregnant women (% of women ages 15-49){p_end}
+{synopt:{opt SH.CON.1524.FE.ZS}} Condom use, population ages 15-24, female (% of females ages 15-24){p_end}
+{synopt:{opt SH.CON.1524.MA.ZS}} Condom use, population ages 15-24, male (% of males ages 15-24){p_end}
+{synopt:{opt SH.CON.AIDS.FE.ZS}} Condom use with non regular partner, % adults(15-49), female{p_end}
+{synopt:{opt SH.CON.AIDS.MA.ZS}} Condom use with non regular partner, % adults(15-49), male{p_end}
+{synopt:{opt SH.DR.TOTL}} Number of Doctors{p_end}
+{synopt:{opt SH.DTH.0514}} Number of deaths ages 5-14 years{p_end}
+{synopt:{opt SH.DTH.COMM.1534.FE.ZS}} Cause of death, by communicable diseases, ages 15-34, female (% of relevant age group){p_end}
+{synopt:{opt SH.DTH.COMM.1534.MA.ZS}} Cause of death, by communicable diseases, ages 15-34, male (% of relevant age group){p_end}
+{synopt:{opt SH.DTH.COMM.3559.FE.ZS}} Cause of death, by communicable diseases, ages 35-59, female (% of relevant age group){p_end}
+{synopt:{opt SH.DTH.COMM.3559.MA.ZS}} Cause of death, by communicable diseases, ages 35-59, male (% of relevant age group){p_end}
+{synopt:{opt SH.DTH.COMM.ZS}} Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total){p_end}
+{synopt:{opt SH.DTH.IMRT}} Number of infant deaths{p_end}
+{synopt:{opt SH.DTH.INJR.1534.FE.ZS}} Cause of death, by injury, ages 15-34, female  (% of relevant age group){p_end}
+{synopt:{opt SH.DTH.INJR.1534.MA.ZS}} Cause of death, by injury, ages 15-34, male (% of relevant age group){p_end}
+{synopt:{opt SH.DTH.INJR.3559.FE.ZS}} Cause of death, by injury, ages 35-59, female (% of relevant age group){p_end}
+{synopt:{opt SH.DTH.INJR.3559.MA.ZS}} Cause of death, by injury, ages 35-59, male (% of relevant age group){p_end}
+{synopt:{opt SH.DTH.INJR.ZS}} Cause of death, by injury (% of total){p_end}
+{synopt:{opt SH.DTH.MORT}} Number of under-five deaths{p_end}
+{synopt:{opt SH.DTH.NCOM.1534.FE.ZS}} Cause of death, by non-communicable diseases, ages 15-34, female (% of relevant age group){p_end}
+{synopt:{opt SH.DTH.NCOM.1534.MA.ZS}} Cause of death, by non-communicable diseases, ages 15-34, male (% of relevant age group){p_end}
+{synopt:{opt SH.DTH.NCOM.3559.FE.ZS}} Cause of death, by non-communicable diseases, ages 35-59, female (% of relevant age group){p_end}
+{synopt:{opt SH.DTH.NCOM.3559.MA.ZS}} Cause of death, by non-communicable diseases, ages 35-59, male (% of relevant age group){p_end}
+{synopt:{opt SH.DTH.NCOM.ZS}} Cause of death, by non-communicable diseases (% of total){p_end}
+{synopt:{opt SH.DTH.NMRT}} Number of neonatal deaths{p_end}
+{synopt:{opt SH.DYN.0514}} Probability of dying at age 5-14 years (per 1,000 children age 5){p_end}
+{synopt:{opt SH.DYN.AIDS.DH}} AIDS estimated deaths (UNAIDS estimates){p_end}
+{synopt:{opt SH.DYN.AIDS.FE.ZS}} Women's share of population ages 15+ living with HIV (%){p_end}
+{synopt:{opt SH.DYN.AIDS.HG.ZS}} HIV prevalence rate, adult 15-49 years (%; high estimate){p_end}
+{synopt:{opt SH.DYN.AIDS.LW.ZS}} HIV prevalence rate, adult 15-49 years (%; low estimate){p_end}
+{synopt:{opt SH.DYN.AIDS.ZS}} Prevalence of HIV, total (% of population ages 15-49){p_end}
+{synopt:{opt SH.DYN.AIDS}} Adults (ages 15+) living with HIV{p_end}
+{synopt:{opt SH.DYN.CHLD.FE}} Mortality rate, female child (per 1,000 female children age one){p_end}
+{synopt:{opt SH.DYN.CHLD.MA}} Mortality rate, male child (per 1,000 male children age one){p_end}
+{synopt:{opt SH.DYN.MORT.FE}} Mortality rate, under-5, female (per 1,000 live births){p_end}
+{synopt:{opt SH.DYN.MORT.MA}} Mortality rate, under-5, male (per 1,000 live births){p_end}
+{synopt:{opt SH.DYN.MORT.Q1}} Under-5 mortality rate (per 1,000 live births): Q1 (lowest){p_end}
+{synopt:{opt SH.DYN.MORT.Q2}} Under-5 mortality rate (per 1,000 live births): Q2{p_end}
+{synopt:{opt SH.DYN.MORT.Q3}} Under-5 mortality rate (per 1,000 live births): Q3{p_end}
+{synopt:{opt SH.DYN.MORT.Q4}} Under-5 mortality rate (per 1,000 live births): Q4{p_end}
+{synopt:{opt SH.DYN.MORT.Q5}} Under-5 mortality rate (per 1,000 live births): Q5 (highest){p_end}
+{synopt:{opt SH.DYN.MORT}} Mortality rate, under-5 (per 1,000 live births){p_end}
+{synopt:{opt SH.DYN.NCOM.FE.ZS}} Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70, female (%){p_end}
+{synopt:{opt SH.DYN.NCOM.MA.ZS}} Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70, male (%){p_end}
+{synopt:{opt SH.DYN.NCOM.ZS}} Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%){p_end}
+{synopt:{opt SH.DYN.NMRT}} Mortality rate, neonatal (per 1,000 live births){p_end}
+{synopt:{opt SH.FPL.ACPT.Q1.ZS}} Acceptability of media messages on family planning (% of women): Q1 (lowest){p_end}
+{synopt:{opt SH.FPL.ACPT.Q2.ZS}} Acceptability of media messages on family planning (% of women): Q2{p_end}
+{synopt:{opt SH.FPL.ACPT.Q3.ZS}} Acceptability of media messages on family planning (% of women): Q3{p_end}
+{synopt:{opt SH.FPL.ACPT.Q4.ZS}} Acceptability of media messages on family planning (% of women): Q4{p_end}
+{synopt:{opt SH.FPL.ACPT.Q5.ZS}} Acceptability of media messages on family planning (% of women): Q5 (highest){p_end}
+{synopt:{opt SH.FPL.FBRT.Q1.ZS}} Median age at first birth (women ages 25-49): Q1 (lowest){p_end}
+{synopt:{opt SH.FPL.FBRT.Q2.ZS}} Median age at first birth (women ages 25-49): Q2{p_end}
+{synopt:{opt SH.FPL.FBRT.Q3.ZS}} Median age at first birth (women ages 25-49): Q3{p_end}
+{synopt:{opt SH.FPL.FBRT.Q4.ZS}} Median age at first birth (women ages 25-49): Q4{p_end}
+{synopt:{opt SH.FPL.FBRT.Q5.ZS}} Median age at first birth (women ages 25-49): Q5 (highest){p_end}
+{synopt:{opt SH.FPL.FMAR.Q1.ZS}} Median age at first marriage (women ages 25-49): Q1 (lowest){p_end}
+{synopt:{opt SH.FPL.FMAR.Q2.ZS}} Median age at first marriage (women ages 25-49): Q2{p_end}
+{synopt:{opt SH.FPL.FMAR.Q3.ZS}} Median age at first marriage (women ages 25-49): Q3{p_end}
+{synopt:{opt SH.FPL.FMAR.Q4.ZS}} Median age at first marriage (women ages 25-49): Q4{p_end}
+{synopt:{opt SH.FPL.FMAR.Q5.ZS}} Median age at first marriage (women ages 25-49): Q5 (highest){p_end}
+{synopt:{opt SH.FPL.FSEX.Q1.ZS}} Median age at first sexual intercourse (women ages 25-49): Q1 (lowest){p_end}
+{synopt:{opt SH.FPL.FSEX.Q2.ZS}} Median age at first sexual intercourse (women ages 25-49): Q2{p_end}
+{synopt:{opt SH.FPL.FSEX.Q3.ZS}} Median age at first sexual intercourse (women ages 25-49): Q3{p_end}
+{synopt:{opt SH.FPL.FSEX.Q4.ZS}} Median age at first sexual intercourse (women ages 25-49): Q4{p_end}
+{synopt:{opt SH.FPL.FSEX.Q5.ZS}} Median age at first sexual intercourse (women ages 25-49): Q5 (highest){p_end}
+{synopt:{opt SH.FPL.HEAR.Q1.ZS}} Heard family planning on radio and television (% of women): Q1 (lowest){p_end}
+{synopt:{opt SH.FPL.HEAR.Q2.ZS}} Heard family planning on radio and television (% of women): Q2{p_end}
+{synopt:{opt SH.FPL.HEAR.Q3.ZS}} Heard family planning on radio and television (% of women): Q3{p_end}
+{synopt:{opt SH.FPL.HEAR.Q4.ZS}} Heard family planning on radio and television (% of women): Q4{p_end}
+{synopt:{opt SH.FPL.HEAR.Q5.ZS}} Heard family planning on radio and television (% of women): Q5 (highest){p_end}
+{synopt:{opt SH.FPL.IDLC.Q1}} Mean ideal number of children (per woman): Q1 (lowest){p_end}
+{synopt:{opt SH.FPL.IDLC.Q2}} Mean ideal number of children (per woman): Q2{p_end}
+{synopt:{opt SH.FPL.IDLC.Q3}} Mean ideal number of children (per woman): Q3{p_end}
+{synopt:{opt SH.FPL.IDLC.Q4}} Mean ideal number of children (per woman): Q4{p_end}
+{synopt:{opt SH.FPL.IDLC.Q5}} Mean ideal number of children (per woman): Q5 (highest){p_end}
+{synopt:{opt SH.FPL.KNOW.Q1.ZS}} Knowledge of contraception (any method) (% of married women): Q1 (lowest){p_end}
+{synopt:{opt SH.FPL.KNOW.Q2.ZS}} Knowledge of contraception (any method) (% of married women): Q2{p_end}
+{synopt:{opt SH.FPL.KNOW.Q3.ZS}} Knowledge of contraception (any method) (% of married women): Q3{p_end}
+{synopt:{opt SH.FPL.KNOW.Q4.ZS}} Knowledge of contraception (any method) (% of married women): Q4{p_end}
+{synopt:{opt SH.FPL.KNOW.Q5.ZS}} Knowledge of contraception (any method) (% of married women): Q5 (highest){p_end}
+{synopt:{opt SH.FPL.KWMD.Q1.ZS}} Knowledge of contraception (modern method) (% of married women): Q1 (lowest){p_end}
+{synopt:{opt SH.FPL.KWMD.Q2.ZS}} Knowledge of contraception (modern method) (% of married women): Q2{p_end}
+{synopt:{opt SH.FPL.KWMD.Q3.ZS}} Knowledge of contraception (modern method) (% of married women): Q3{p_end}
+{synopt:{opt SH.FPL.KWMD.Q4.ZS}} Knowledge of contraception (modern method) (% of married women): Q4{p_end}
+{synopt:{opt SH.FPL.KWMD.Q5.ZS}} Knowledge of contraception (modern method) (% of married women): Q5 (highest){p_end}
+{synopt:{opt SH.FPL.LIMT.Q1.ZS}} Desire to stop (limit) childbearing (% of married women): Q1 (lowest){p_end}
+{synopt:{opt SH.FPL.LIMT.Q2.ZS}} Desire to stop (limit) childbearing (% of married women): Q2{p_end}
+{synopt:{opt SH.FPL.LIMT.Q3.ZS}} Desire to stop (limit) childbearing (% of married women): Q3{p_end}
+{synopt:{opt SH.FPL.LIMT.Q4.ZS}} Desire to stop (limit) childbearing (% of married women): Q4{p_end}
+{synopt:{opt SH.FPL.LIMT.Q5.ZS}} Desire to stop (limit) childbearing (% of married women): Q5 (highest){p_end}
+{synopt:{opt SH.FPL.MBRI.Q1}} Median birth interval (months): Q1 (lowest){p_end}
+{synopt:{opt SH.FPL.MBRI.Q2}} Median birth interval (months): Q2{p_end}
+{synopt:{opt SH.FPL.MBRI.Q3}} Median birth interval (months): Q3{p_end}
+{synopt:{opt SH.FPL.MBRI.Q4}} Median birth interval (months): Q4{p_end}
+{synopt:{opt SH.FPL.MBRI.Q5}} Median birth interval (months): Q5 (highest){p_end}
+{synopt:{opt SH.FPL.MSTM.Q1.ZS}} Fertility planning status (wanted later) (% of births): Q1 (lowest){p_end}
+{synopt:{opt SH.FPL.MSTM.Q2.ZS}} Fertility planning status (wanted later) (% of births): Q2{p_end}
+{synopt:{opt SH.FPL.MSTM.Q3.ZS}} Fertility planning status (wanted later) (% of births): Q3{p_end}
+{synopt:{opt SH.FPL.MSTM.Q4.ZS}} Fertility planning status (wanted later) (% of births): Q4{p_end}
+{synopt:{opt SH.FPL.MSTM.Q5.ZS}} Fertility planning status (wanted later) (% of births): Q5 (highest){p_end}
+{synopt:{opt SH.FPL.READ.Q1.ZS}} Family planning messages in print (% of women): Q1 (lowest){p_end}
+{synopt:{opt SH.FPL.READ.Q2.ZS}} Family planning messages in print (% of women): Q2{p_end}
+{synopt:{opt SH.FPL.READ.Q3.ZS}} Family planning messages in print (% of women): Q3{p_end}
+{synopt:{opt SH.FPL.READ.Q4.ZS}} Family planning messages in print (% of women): Q4{p_end}
+{synopt:{opt SH.FPL.READ.Q5.ZS}} Family planning messages in print (% of women): Q5 (highest){p_end}
+{synopt:{opt SH.FPL.SATI.ZS}} Demand for family planning satisfied by any methods (% of married women with demand for family planning){p_end}
+{synopt:{opt SH.FPL.SATM.ZS}} Demand for family planning satisfied by modern methods (% of married women with demand for family planning){p_end}
+{synopt:{opt SH.FPL.UWTD.Q1.ZS}} Fertility planning status (wanted no more) (% of births): Q1 (lowest){p_end}
+{synopt:{opt SH.FPL.UWTD.Q2.ZS}} Fertility planning status (wanted no more) (% of births): Q2{p_end}
+{synopt:{opt SH.FPL.UWTD.Q3.ZS}} Fertility planning status (wanted no more) (% of births): Q3{p_end}
+{synopt:{opt SH.FPL.UWTD.Q4.ZS}} Fertility planning status (wanted no more) (% of births): Q4{p_end}
+{synopt:{opt SH.FPL.UWTD.Q5.ZS}} Fertility planning status (wanted no more) (% of births): Q5 (highest){p_end}
+{synopt:{opt SH.FPL.WNTD.Q1.ZS}} Fertility planning status (wanted then) (% of births): Q1 (lowest){p_end}
+{synopt:{opt SH.FPL.WNTD.Q2.ZS}} Fertility planning status (wanted then) (% of births): Q2{p_end}
+{synopt:{opt SH.FPL.WNTD.Q3.ZS}} Fertility planning status (wanted then) (% of births): Q3{p_end}
+{synopt:{opt SH.FPL.WNTD.Q4.ZS}} Fertility planning status (wanted then) (% of births): Q4{p_end}
+{synopt:{opt SH.FPL.WNTD.Q5.ZS}} Fertility planning status (wanted then) (% of births): Q5 (highest){p_end}
+{synopt:{opt SH.H2O.BASW.Q1.ZS}} People using at least basic drinking water services (% of population): Q1 (lowest){p_end}
+{synopt:{opt SH.H2O.BASW.Q2.ZS}} People using at least basic drinking water services (% of population): Q2{p_end}
+{synopt:{opt SH.H2O.BASW.Q3.ZS}} People using at least basic drinking water services (% of population): Q3{p_end}
+{synopt:{opt SH.H2O.BASW.Q4.ZS}} People using at least basic drinking water services (% of population): Q4{p_end}
+{synopt:{opt SH.H2O.BASW.Q5.ZS}} People using at least basic drinking water services (% of population): Q5 (highest){p_end}
+{synopt:{opt SH.H2O.BASW.RU.Q1.ZS}} People using at least basic drinking water services, rural (% of rural population): Q1 (lowest){p_end}
+{synopt:{opt SH.H2O.BASW.RU.Q2.ZS}} People using at least basic drinking water services, rural (% of rural population): Q2{p_end}
+{synopt:{opt SH.H2O.BASW.RU.Q3.ZS}} People using at least basic drinking water services, rural (% of rural population): Q3{p_end}
+{synopt:{opt SH.H2O.BASW.RU.Q4.ZS}} People using at least basic drinking water services, rural (% of rural population): Q4{p_end}
+{synopt:{opt SH.H2O.BASW.RU.Q5.ZS}} People using at least basic drinking water services, rural (% of rural population): Q5 (highest){p_end}
+{synopt:{opt SH.H2O.BASW.RU.ZS}} People using at least basic drinking water services, rural (% of rural population){p_end}
+{synopt:{opt SH.H2O.BASW.UR.Q1.ZS}} People using at least basic drinking water services, urban (% of urban population): Q1 (lowest){p_end}
+{synopt:{opt SH.H2O.BASW.UR.Q2.ZS}} People using at least basic drinking water services, urban (% of urban population): Q2{p_end}
+{synopt:{opt SH.H2O.BASW.UR.Q3.ZS}} People using at least basic drinking water services, urban (% of urban population): Q3{p_end}
+{synopt:{opt SH.H2O.BASW.UR.Q4.ZS}} People using at least basic drinking water services, urban (% of urban population): Q4{p_end}
+{synopt:{opt SH.H2O.BASW.UR.Q5.ZS}} People using at least basic drinking water services, urban (% of urban population): Q5 (highest){p_end}
+{synopt:{opt SH.H2O.BASW.UR.ZS}} People using at least basic drinking water services, urban (% of urban population){p_end}
+{synopt:{opt SH.H2O.BASW.ZS}} People using at least basic drinking water services (% of population){p_end}
+{synopt:{opt SH.H2O.SAFE.RU.ZS}} Improved water source, rural (% of rural population with access){p_end}
+{synopt:{opt SH.H2O.SAFE.UR.ZS}} Improved water source, urban (% of urban population with access){p_end}
+{synopt:{opt SH.H2O.SAFE.ZS}} Improved water source (% of population with access){p_end}
+{synopt:{opt SH.H2O.SMDW.RU.ZS}} People using safely managed drinking water services, rural (% of rural population){p_end}
+{synopt:{opt SH.H2O.SMDW.UR.ZS}} People using safely managed drinking water services, urban (% of urban population){p_end}
+{synopt:{opt SH.H2O.SMDW.ZS}} People using safely managed drinking water services (% of population){p_end}
+{synopt:{opt SH.HIV.0014}} Children (0-14) living with HIV{p_end}
+{synopt:{opt SH.HIV.1524.FE.HG.ZS}} Prevalence of HIV, young women 15-24 years (%; high estimate){p_end}
+{synopt:{opt SH.HIV.1524.FE.LW.ZS}} Prevalence of HIV, young women 15-24 years (%; low estimate){p_end}
+{synopt:{opt SH.HIV.1524.FE.ZS}} Prevalence of HIV, female (% ages 15-24){p_end}
+{synopt:{opt SH.HIV.1524.KW.FE.ZS}} Comprehensive correct knowledge of HIV/AIDS, ages 15-24, female (2 prevent ways and reject 3 misconceptions){p_end}
+{synopt:{opt SH.HIV.1524.KW.MA.ZS}} Comprehensive correct knowledge of HIV/AIDS, ages 15-24, male (2 prevent ways and reject 3 misconceptions){p_end}
+{synopt:{opt SH.HIV.1524.MA.HG.ZS}} Prevalence of HIV, young men 15-24 years (%; high estimate){p_end}
+{synopt:{opt SH.HIV.1524.MA.LW.ZS}} Prevalence of HIV, young men 15-24 years (%; low estimate){p_end}
+{synopt:{opt SH.HIV.1524.MA.ZS}} Prevalence of HIV, male (% ages 15-24){p_end}
+{synopt:{opt SH.HIV.ARTC.FE.ZS}} Access to anti-retroviral drugs, female (%){p_end}
+{synopt:{opt SH.HIV.ARTC.MA.ZS}} Access to anti-retroviral drugs, male (%){p_end}
+{synopt:{opt SH.HIV.ARTC.ZS}} Antiretroviral therapy coverage (% of people living with HIV){p_end}
+{synopt:{opt SH.HIV.DTS.HG.NUM}} AIDS deaths in adults and children (high estimate){p_end}
+{synopt:{opt SH.HIV.DTS.LW.NUM}} AIDS deaths in adults and children (low estimate){p_end}
+{synopt:{opt SH.HIV.DTS.NUM}} AIDS deaths in adults and children{p_end}
+{synopt:{opt SH.HIV.INCD.14}} Children (ages 0-14) newly infected with HIV{p_end}
+{synopt:{opt SH.HIV.INCD.TL}} Adults (ages 15+) and children (ages 0-14) newly infected with HIV{p_end}
+{synopt:{opt SH.HIV.INCD.ZS}} Incidence of HIV (% of uninfected population ages 15-49){p_end}
+{synopt:{opt SH.HIV.INCD}} Adults (ages 15+) newly infected with HIV{p_end}
+{synopt:{opt SH.HIV.KNOW.FE.ZS}} % of females having comprehensive correct knowledge about HIV (2 prevent ways and reject 3 misconceptions){p_end}
+{synopt:{opt SH.HIV.KNOW.MA.ZS}} Comprehensive correct knowledge of HIV/AIDS, ages 15-49, male (2 prevent ways and reject 3 misconceptions){p_end}
+{synopt:{opt SH.HIV.NEW.0014.HG.NUM}} New HIV infections (0-14 years), high estimate{p_end}
+{synopt:{opt SH.HIV.NEW.0014.LW.NUM}} New HIV infections (0-14 years), low estimate{p_end}
+{synopt:{opt SH.HIV.NEW.0014.NUM}} New HIV infections (0-14 years){p_end}
+{synopt:{opt SH.HIV.NEW.TOTL.HG.NUM}} New HIV infections, high estimate{p_end}
+{synopt:{opt SH.HIV.NEW.TOTL.LW.NUM}} New HIV infections, low estimate{p_end}
+{synopt:{opt SH.HIV.NEW.TOTL.NUM}} New HIV infections{p_end}
+{synopt:{opt SH.HIV.ORP.HG.NUM}} Orphans 0-17 years currently living (high estimate){p_end}
+{synopt:{opt SH.HIV.ORP.LW.NUM}} Orphans 0-17 years currently living (low estimate){p_end}
+{synopt:{opt SH.HIV.ORP.NUM}} Orphans 0-17 years currently living{p_end}
+{synopt:{opt SH.HIV.ORPH}} Children orphaned by HIV/AIDS{p_end}
+{synopt:{opt SH.HIV.PMTC.ZS}} Antiretroviral therapy coverage for PMTCT (% of pregnant women living with HIV){p_end}
+{synopt:{opt SH.HIV.PREG.VIRALS.HG.ZS}} HIV positive pregnant women receiving antiretrovirals, using WHO/UNAIDS methodology (%; high estimate){p_end}
+{synopt:{opt SH.HIV.PREG.VIRALS.LW.ZS}} HIV positive pregnant women receiving antiretrovirals, using WHO/UNAIDS methodology (%; low estimate){p_end}
+{synopt:{opt SH.HIV.PREG.VIRALS.NUM}} Number of HIV positive pregnant women receiving antiretrovirals{p_end}
+{synopt:{opt SH.HIV.PREG.VIRALS.ZS}} HIV positive pregnant women receiving antiretrovirals, using WHO/UNAIDS methodology (%){p_end}
+{synopt:{opt SH.HIV.TOTL.HG.NUM}} People living with HIV/AIDS, total (high estimate){p_end}
+{synopt:{opt SH.HIV.TOTL.LW.NUM}} People living with HIV/AIDS, total (low estimate){p_end}
+{synopt:{opt SH.HIV.TOTL.NUM}} People living with HIV/AIDS, total{p_end}
+{synopt:{opt SH.HIV.TOTL}} Adults (ages 15+) and children (0-14 years) living with HIV{p_end}
+{synopt:{opt SH.HOSP.TOTL}} Number of hospitals{p_end}
+{synopt:{opt SH.IMM.ALLV.Q1.ZS}} Vaccinations (all vaccinations) (% of children ages 12-23 months): Q1 (lowest){p_end}
+{synopt:{opt SH.IMM.ALLV.Q2.ZS}} Vaccinations (all vaccinations) (% of children ages 12-23 months): Q2{p_end}
+{synopt:{opt SH.IMM.ALLV.Q3.ZS}} Vaccinations (all vaccinations) (% of children ages 12-23 months): Q3{p_end}
+{synopt:{opt SH.IMM.ALLV.Q4.ZS}} Vaccinations (all vaccinations) (% of children ages 12-23 months): Q4{p_end}
+{synopt:{opt SH.IMM.ALLV.Q5.ZS}} Vaccinations (all vaccinations) (% of children ages 12-23 months): Q5 (highest){p_end}
+{synopt:{opt SH.IMM.CHLD.ZS}} Immunization Coverage for Children under 5 years old (in % of children population under 5 years old){p_end}
+{synopt:{opt SH.IMM.HEPB}} Immunization, HepB3 (% of one-year-old children){p_end}
+{synopt:{opt SH.IMM.HIB3}} Immunization, Hib3 (% of children ages 12-23 months){p_end}
+{synopt:{opt SH.IMM.IBCG.Q1.ZS}} Vaccinations (BCG) (% of children ages 12-23 months): Q1 (lowest){p_end}
+{synopt:{opt SH.IMM.IBCG.Q2.ZS}} Vaccinations (BCG) (% of children ages 12-23 months): Q2{p_end}
+{synopt:{opt SH.IMM.IBCG.Q3.ZS}} Vaccinations (BCG) (% of children ages 12-23 months): Q3{p_end}
+{synopt:{opt SH.IMM.IBCG.Q4.ZS}} Vaccinations (BCG) (% of children ages 12-23 months): Q4{p_end}
+{synopt:{opt SH.IMM.IBCG.Q5.ZS}} Vaccinations (BCG) (% of children ages 12-23 months): Q5 (highest){p_end}
+{synopt:{opt SH.IMM.IBCG}} Immunization, BCG (% of one-year-old children){p_end}
+{synopt:{opt SH.IMM.IDPT.Q1.ZS}} Vaccinations (DPT 3) (% of children ages 12-23 months): Q1 (lowest){p_end}
+{synopt:{opt SH.IMM.IDPT.Q2.ZS}} Vaccinations (DPT 3) (% of children ages 12-23 months): Q2{p_end}
+{synopt:{opt SH.IMM.IDPT.Q3.ZS}} Vaccinations (DPT 3) (% of children ages 12-23 months): Q3{p_end}
+{synopt:{opt SH.IMM.IDPT.Q4.ZS}} Vaccinations (DPT 3) (% of children ages 12-23 months): Q4{p_end}
+{synopt:{opt SH.IMM.IDPT.Q5.ZS}} Vaccinations (DPT 3) (% of children ages 12-23 months): Q5 (highest){p_end}
+{synopt:{opt SH.IMM.IDPT}} Immunization, DPT (% of children ages 12-23 months){p_end}
+{synopt:{opt SH.IMM.MEAS.Q1.ZS}} Vaccinations (Measles) (% of children ages 12-23 months): Q1 (lowest){p_end}
+{synopt:{opt SH.IMM.MEAS.Q2.ZS}} Vaccinations (Measles) (% of children ages 12-23 months): Q2{p_end}
+{synopt:{opt SH.IMM.MEAS.Q3.ZS}} Vaccinations (Measles) (% of children ages 12-23 months): Q3{p_end}
+{synopt:{opt SH.IMM.MEAS.Q4.ZS}} Vaccinations (Measles) (% of children ages 12-23 months): Q4{p_end}
+{synopt:{opt SH.IMM.MEAS.Q5.ZS}} Vaccinations (Measles) (% of children ages 12-23 months): Q5 (highest){p_end}
+{synopt:{opt SH.IMM.MEAS}} Immunization, measles (% of children ages 12-23 months){p_end}
+{synopt:{opt SH.IMM.NONE.Q1.ZS}} Vaccinations (no vaccinations) (% of children ages 12-23 months): Q1 (lowest){p_end}
+{synopt:{opt SH.IMM.NONE.Q2.ZS}} Vaccinations (no vaccinations) (% of children ages 12-23 months): Q2{p_end}
+{synopt:{opt SH.IMM.NONE.Q3.ZS}} Vaccinations (no vaccinations) (% of children ages 12-23 months): Q3{p_end}
+{synopt:{opt SH.IMM.NONE.Q4.ZS}} Vaccinations (no vaccinations) (% of children ages 12-23 months): Q4{p_end}
+{synopt:{opt SH.IMM.NONE.Q5.ZS}} Vaccinations (no vaccinations) (% of children ages 12-23 months): Q5 (highest){p_end}
+{synopt:{opt SH.IMM.POL3}} Immunization, Pol3 (% of one-year-old children){p_end}
+{synopt:{opt SH.MED.BEDS.ZS}} Hospital beds (per 1,000 people){p_end}
+{synopt:{opt SH.MED.CMHW.P3}} Community health workers (per 1,000 people){p_end}
+{synopt:{opt SH.MED.MWIV.TOTL}} Number of Midwives{p_end}
+{synopt:{opt SH.MED.NUMW.P3}} Nurses and midwives (per 1,000 people){p_end}
+{synopt:{opt SH.MED.NURS.ZS}} Population per nurse{p_end}
+{synopt:{opt SH.MED.PHYS.ZS}} Physicians (per 1,000 people){p_end}
+{synopt:{opt SH.MED.SAOP.P5}} Specialist surgical workforce (per 100,000 population){p_end}
+{synopt:{opt SH.MLR.CSES.TOTL}} Reported clinical malaria cases (total){p_end}
+{synopt:{opt SH.MLR.DTHS.CHLD.ZS}} Deaths among children under five years of age due to malaria (%){p_end}
+{synopt:{opt SH.MLR.DTHS.TOTL}} Reported malaria deaths (total){p_end}
+{synopt:{opt SH.MLR.INCD.P3}} Incidence of malaria (per 1,000 population at risk){p_end}
+{synopt:{opt SH.MLR.INCD}} Notified cases of malaria (per 100,000 people){p_end}
+{synopt:{opt SH.MLR.ITN.1HH.ZS}} Households with one or more insect-treated mosquito net (%){p_end}
+{synopt:{opt SH.MLR.NETA.Q1.ZS}} Mosquito net use by children (any mosquito net) (% of children under 5): Q1 (lowest){p_end}
+{synopt:{opt SH.MLR.NETA.Q2.ZS}} Mosquito net use by children (any mosquito net) (% of children under 5): Q2{p_end}
+{synopt:{opt SH.MLR.NETA.Q3.ZS}} Mosquito net use by children (any mosquito net) (% of children under 5): Q3{p_end}
+{synopt:{opt SH.MLR.NETA.Q4.ZS}} Mosquito net use by children (any mosquito net) (% of children under 5): Q4{p_end}
+{synopt:{opt SH.MLR.NETA.Q5.ZS}} Mosquito net use by children (any mosquito net) (% of children under 5): Q5 (highest){p_end}
+{synopt:{opt SH.MLR.NETH.Q1.ZS}} Household posession of mosquito nets (any type of mosquito net) (% of households): Q1 (lowest){p_end}
+{synopt:{opt SH.MLR.NETH.Q2.ZS}} Household posession of mosquito nets (any type of mosquito net) (% of households): Q2{p_end}
+{synopt:{opt SH.MLR.NETH.Q3.ZS}} Household posession of mosquito nets (any type of mosquito net) (% of households): Q3{p_end}
+{synopt:{opt SH.MLR.NETH.Q4.ZS}} Household posession of mosquito nets (any type of mosquito net) (% of households): Q4{p_end}
+{synopt:{opt SH.MLR.NETH.Q5.ZS}} Household posession of mosquito nets (any type of mosquito net) (% of households): Q5 (highest){p_end}
+{synopt:{opt SH.MLR.NETP.Q1.ZS}} Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q1 (lowest){p_end}
+{synopt:{opt SH.MLR.NETP.Q2.ZS}} Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q2{p_end}
+{synopt:{opt SH.MLR.NETP.Q3.ZS}} Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q3{p_end}
+{synopt:{opt SH.MLR.NETP.Q4.ZS}} Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q4{p_end}
+{synopt:{opt SH.MLR.NETP.Q5.ZS}} Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q5 (highest){p_end}
+{synopt:{opt SH.MLR.NETS.Q1.ZS}} Malaria prevention, use of bed nets (% of under-5 children in the poorest quintile){p_end}
+{synopt:{opt SH.MLR.NETS.Q2.ZS}} Mosquito net use by children (insecticide-treated net) (% of children under 5): Q2{p_end}
+{synopt:{opt SH.MLR.NETS.Q3.ZS}} Mosquito net use by children (insecticide-treated net) (% of children under 5): Q3{p_end}
+{synopt:{opt SH.MLR.NETS.Q4.ZS}} Mosquito net use by children (insecticide-treated net) (% of children under 5): Q4{p_end}
+{synopt:{opt SH.MLR.NETS.Q5.ZS}} Malaria prevention, use of bed nets (% of under-5 children in the richest quintile){p_end}
+{synopt:{opt SH.MLR.NETS.ZS}} Use of insecticide-treated bed nets (% of under-5 population){p_end}
+{synopt:{opt SH.MLR.NTHI.Q1.ZS}} Household posession of mosquito nets (insecticide-treated net) (% of households): Q1 (lowest){p_end}
+{synopt:{opt SH.MLR.NTHI.Q2.ZS}} Household posession of mosquito nets (insecticide-treated net) (% of households): Q2{p_end}
+{synopt:{opt SH.MLR.NTHI.Q3.ZS}} Household posession of mosquito nets (insecticide-treated net) (% of households): Q3{p_end}
+{synopt:{opt SH.MLR.NTHI.Q4.ZS}} Household posession of mosquito nets (insecticide-treated net) (% of households): Q4{p_end}
+{synopt:{opt SH.MLR.NTHI.Q5.ZS}} Household posession of mosquito nets (insecticide-treated net) (% of households): Q5 (highest){p_end}
+{synopt:{opt SH.MLR.NTPI.Q1.ZS}} Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q1 (lowest){p_end}
+{synopt:{opt SH.MLR.NTPI.Q2.ZS}} Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q2{p_end}
+{synopt:{opt SH.MLR.NTPI.Q3.ZS}} Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q3{p_end}
+{synopt:{opt SH.MLR.NTPI.Q4.ZS}} Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q4{p_end}
+{synopt:{opt SH.MLR.NTPI.Q5.ZS}} Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q5 (highest){p_end}
+{synopt:{opt SH.MLR.PREG.2IPT.ZS}} Pregnant women who took at least 2 doses of intermittent preventative treatment (%){p_end}
+{synopt:{opt SH.MLR.SPF2.ZS}} Use of Intermittent Preventive Treatment of malaria, 2+ doses of SP/Fansidar (% of pregnant women){p_end}
+{synopt:{opt SH.MLR.SPFN.Q1.ZS}} Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q1 (lowest){p_end}
+{synopt:{opt SH.MLR.SPFN.Q2.ZS}} Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q2{p_end}
+{synopt:{opt SH.MLR.SPFN.Q3.ZS}} Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q3{p_end}
+{synopt:{opt SH.MLR.SPFN.Q4.ZS}} Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q4{p_end}
+{synopt:{opt SH.MLR.SPFN.Q5.ZS}} Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q5 (highest){p_end}
+{synopt:{opt SH.MLR.TRET.Q1.ZS}} Treatment of fever (% of children under 5 with fever): Q1 (lowest){p_end}
+{synopt:{opt SH.MLR.TRET.Q2.ZS}} Treatment of fever (% of children under 5 with fever): Q2{p_end}
+{synopt:{opt SH.MLR.TRET.Q3.ZS}} Treatment of fever (% of children under 5 with fever): Q3{p_end}
+{synopt:{opt SH.MLR.TRET.Q4.ZS}} Treatment of fever (% of children under 5 with fever): Q4{p_end}
+{synopt:{opt SH.MLR.TRET.Q5.ZS}} Treatment of fever (% of children under 5 with fever): Q5 (highest){p_end}
+{synopt:{opt SH.MLR.TRET.ZS}} Children with fever receiving antimalarial drugs (% of children under age 5 with fever){p_end}
+{synopt:{opt SH.MMR.DTHS}} Number of maternal deaths{p_end}
+{synopt:{opt SH.MMR.LEVE}} Maternity leave (days paid){p_end}
+{synopt:{opt SH.MMR.RISK.ZS}} Lifetime risk of maternal death (%){p_end}
+{synopt:{opt SH.MMR.RISK}} Lifetime risk of maternal death (1 in: rate varies by country){p_end}
+{synopt:{opt SH.MMR.WAGE.ZS}} Maternity leave benefits (% of wages paid){p_end}
+{synopt:{opt SH.MORB.ZS}} Morbidity Rate (in %){p_end}
+{synopt:{opt SH.POLINDES.TOTL}} Number of Polindes (Poliklinik Desa/Village Polyclinic){p_end}
+{synopt:{opt SH.PRG.ANEM}} Prevalence of anemia among pregnant women (%){p_end}
+{synopt:{opt SH.PRG.SYPH.ZS}} Prevalence of syphilis (% of women attending antenatal care){p_end}
+{synopt:{opt SH.PRV.SMOK.FE.Q1.ZS}} Smoking (% of women): Q1 (lowest){p_end}
+{synopt:{opt SH.PRV.SMOK.FE.Q2.ZS}} Smoking (% of women): Q2{p_end}
+{synopt:{opt SH.PRV.SMOK.FE.Q3.ZS}} Smoking (% of women): Q3{p_end}
+{synopt:{opt SH.PRV.SMOK.FE.Q4.ZS}} Smoking (% of women): Q4{p_end}
+{synopt:{opt SH.PRV.SMOK.FE.Q5.ZS}} Smoking (% of women): Q5 (highest){p_end}
+{synopt:{opt SH.PRV.SMOK.FE}} Smoking prevalence, females (% of adults){p_end}
+{synopt:{opt SH.PRV.SMOK.MA}} Smoking prevalence, males (% of adults){p_end}
+{synopt:{opt SH.PRV.SMOK}} Smoking prevalence, total (ages 15+){p_end}
+{synopt:{opt SH.PUSKESMAS.TOTL}} Number of Puskesmas and its line services{p_end}
+{synopt:{opt SH.SGR.CRSK.ZS}} Risk of catastrophic expenditure for surgical care (% of people at risk){p_end}
+{synopt:{opt SH.SGR.IRSK.ZS}} Risk of impoverishing expenditure for surgical care (% of people at risk){p_end}
+{synopt:{opt SH.SGR.PROC.P5}} Number of surgical procedures (per 100,000 population){p_end}
+{synopt:{opt SH.STA.ACCH.ZS}} Health care (% of population with access){p_end}
+{synopt:{opt SH.STA.ACSN.RU}} Improved sanitation facilities, rural (% of rural population with access){p_end}
+{synopt:{opt SH.STA.ACSN.UR}} Improved sanitation facilities, urban (% of urban population with access){p_end}
+{synopt:{opt SH.STA.ACSN}} Improved sanitation facilities (% of population with access){p_end}
+{synopt:{opt SH.STA.AIRP.FE.P5}} Mortality rate attributed to household and ambient air pollution, age-standardized, female (per 100,000 female population){p_end}
+{synopt:{opt SH.STA.AIRP.MA.P5}} Mortality rate attributed to household and ambient air pollution, age-standardized, male (per 100,000 male population){p_end}
+{synopt:{opt SH.STA.AIRP.P5}} Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population){p_end}
+{synopt:{opt SH.STA.ANCP.Q1.ZS}} Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.ANCP.Q2.ZS}} Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q2{p_end}
+{synopt:{opt SH.STA.ANCP.Q3.ZS}} Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q3{p_end}
+{synopt:{opt SH.STA.ANCP.Q4.ZS}} Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q4{p_end}
+{synopt:{opt SH.STA.ANCP.Q5.ZS}} Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q5 (highest){p_end}
+{synopt:{opt SH.STA.ANV4.ZS}} Pregnant women receiving prenatal care of at least four visits (% of pregnant women){p_end}
+{synopt:{opt SH.STA.ANVC.Q1.ZS}} Antenatal care (any skilled personnel) (% of women with a birth): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.ANVC.Q2.ZS}} Antenatal care (any skilled personnel) (% of women with a birth): Q2{p_end}
+{synopt:{opt SH.STA.ANVC.Q3.ZS}} Antenatal care (any skilled personnel) (% of women with a birth): Q3{p_end}
+{synopt:{opt SH.STA.ANVC.Q4.ZS}} Antenatal care (any skilled personnel) (% of women with a birth): Q4{p_end}
+{synopt:{opt SH.STA.ANVC.Q5.ZS}} Antenatal care (any skilled personnel) (% of women with a birth): Q5 (highest){p_end}
+{synopt:{opt SH.STA.ANVC.ZS}} Pregnant women receiving prenatal care (%){p_end}
+{synopt:{opt SH.STA.ANVP.Q1.ZS}} Antenatal care (doctor) (% of women with a birth): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.ANVP.Q2.ZS}} Antenatal care (doctor) (% of women with a birth): Q2{p_end}
+{synopt:{opt SH.STA.ANVP.Q3.ZS}} Antenatal care (doctor) (% of women with a birth): Q3{p_end}
+{synopt:{opt SH.STA.ANVP.Q4.ZS}} Antenatal care (doctor) (% of women with a birth): Q4{p_end}
+{synopt:{opt SH.STA.ANVP.Q5.ZS}} Antenatal care (doctor) (% of women with a birth): Q5 (highest){p_end}
+{synopt:{opt SH.STA.ARIC.Q1.ZS}} Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.ARIC.Q2.ZS}} Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q2{p_end}
+{synopt:{opt SH.STA.ARIC.Q3.ZS}} Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q3{p_end}
+{synopt:{opt SH.STA.ARIC.Q4.ZS}} Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q4{p_end}
+{synopt:{opt SH.STA.ARIC.Q5.ZS}} Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q5 (highest){p_end}
+{synopt:{opt SH.STA.ARIC.ZS}} ARI treatment (% of children under 5 taken to a health provider){p_end}
+{synopt:{opt SH.STA.ARIF.Q1.ZS}} Prevalence of acute respiratory infection (ARI) (% of children under 5): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.ARIF.Q2.ZS}} Prevalence of acute respiratory infection (ARI) (% of children under 5): Q2{p_end}
+{synopt:{opt SH.STA.ARIF.Q3.ZS}} Prevalence of acute respiratory infection (ARI) (% of children under 5): Q3{p_end}
+{synopt:{opt SH.STA.ARIF.Q4.ZS}} Prevalence of acute respiratory infection (ARI) (% of children under 5): Q4{p_end}
+{synopt:{opt SH.STA.ARIF.Q5.ZS}} Prevalence of acute respiratory infection (ARI) (% of children under 5): Q5 (highest){p_end}
+{synopt:{opt SH.STA.ARIF.ZS}} ARI prevalence (% of children under 5){p_end}
+{synopt:{opt SH.STA.BASS.Q1.ZS}} People using at least basic sanitation services (% of population): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.BASS.Q2.ZS}} People using at least basic sanitation services (% of population): Q2{p_end}
+{synopt:{opt SH.STA.BASS.Q3.ZS}} People using at least basic sanitation services (% of population): Q3{p_end}
+{synopt:{opt SH.STA.BASS.Q4.ZS}} People using at least basic sanitation services (% of population): Q4{p_end}
+{synopt:{opt SH.STA.BASS.Q5.ZS}} People using at least basic sanitation services (% of population): Q5 (highest){p_end}
+{synopt:{opt SH.STA.BASS.RU.Q1.ZS}} People using at least basic sanitation services, rural (% of rural population): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.BASS.RU.Q2.ZS}} People using at least basic sanitation services, rural (% of rural population): Q2{p_end}
+{synopt:{opt SH.STA.BASS.RU.Q3.ZS}} People using at least basic sanitation services, rural (% of rural population): Q3{p_end}
+{synopt:{opt SH.STA.BASS.RU.Q4.ZS}} People using at least basic sanitation services, rural (% of rural population): Q4{p_end}
+{synopt:{opt SH.STA.BASS.RU.Q5.ZS}} People using at least basic sanitation services, rural (% of rural population): Q5 (highest){p_end}
+{synopt:{opt SH.STA.BASS.RU.ZS}} People using at least basic sanitation services, rural (% of rural population){p_end}
+{synopt:{opt SH.STA.BASS.UR.Q1.ZS}} People using at least basic sanitation services, urban  (% of urban population): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.BASS.UR.Q2.ZS}} People using at least basic sanitation services, urban  (% of urban population): Q2{p_end}
+{synopt:{opt SH.STA.BASS.UR.Q3.ZS}} People using at least basic sanitation services, urban  (% of urban population): Q3{p_end}
+{synopt:{opt SH.STA.BASS.UR.Q4.ZS}} People using at least basic sanitation services, urban  (% of urban population): Q4{p_end}
+{synopt:{opt SH.STA.BASS.UR.Q5.ZS}} People using at least basic sanitation services, urban  (% of urban population): Q5 (highest){p_end}
+{synopt:{opt SH.STA.BASS.UR.ZS}} People using at least basic sanitation services, urban (% of urban population){p_end}
+{synopt:{opt SH.STA.BASS.ZS}} People using at least basic sanitation services (% of population){p_end}
+{synopt:{opt SH.STA.BFED.Q1.ZS}} Breastfeeding (% of children under 6 months): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.BFED.Q2.ZS}} Breastfeeding (% of children under 6 months): Q2{p_end}
+{synopt:{opt SH.STA.BFED.Q3.ZS}} Breastfeeding (% of children under 6 months): Q3{p_end}
+{synopt:{opt SH.STA.BFED.Q4.ZS}} Breastfeeding (% of children under 6 months): Q4{p_end}
+{synopt:{opt SH.STA.BFED.Q5.ZS}} Breastfeeding (% of children under 6 months): Q5 (highest){p_end}
+{synopt:{opt SH.STA.BFED.ZS}} Exclusive breastfeeding (% of children under 6 months){p_end}
+{synopt:{opt SH.STA.BRTC.Q1.ZS}} Assistance during delivery (any skilled personnel) (% of births): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.BRTC.Q2.ZS}} Assistance during delivery (any skilled personnel) (% of births): Q2{p_end}
+{synopt:{opt SH.STA.BRTC.Q3.ZS}} Assistance during delivery (any skilled personnel) (% of births): Q3{p_end}
+{synopt:{opt SH.STA.BRTC.Q4.ZS}} Assistance during delivery (any skilled personnel) (% of births): Q4{p_end}
+{synopt:{opt SH.STA.BRTC.Q5.ZS}} Assistance during delivery (any skilled personnel) (% of births): Q5 (highest){p_end}
+{synopt:{opt SH.STA.BRTC.ZS}} Births attended by skilled health staff (% of total){p_end}
+{synopt:{opt SH.STA.BRTF.Q1.ZS}} Place of delivery (births at health facility) (% of births): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.BRTF.Q2.ZS}} Place of delivery (births at health facility) (% of births): Q2{p_end}
+{synopt:{opt SH.STA.BRTF.Q3.ZS}} Place of delivery (births at health facility) (% of births): Q3{p_end}
+{synopt:{opt SH.STA.BRTF.Q4.ZS}} Place of delivery (births at health facility) (% of births): Q4{p_end}
+{synopt:{opt SH.STA.BRTF.Q5.ZS}} Place of delivery (births at health facility) (% of births): Q5 (highest){p_end}
+{synopt:{opt SH.STA.BRTP.Q1.ZS}} Assistance during delivery (doctor) (% of births): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.BRTP.Q2.ZS}} Assistance during delivery (doctor) (% of births): Q2{p_end}
+{synopt:{opt SH.STA.BRTP.Q3.ZS}} Assistance during delivery (doctor) (% of births): Q3{p_end}
+{synopt:{opt SH.STA.BRTP.Q4.ZS}} Assistance during delivery (doctor) (% of births): Q4{p_end}
+{synopt:{opt SH.STA.BRTP.Q5.ZS}} Assistance during delivery (doctor) (% of births): Q5 (highest){p_end}
+{synopt:{opt SH.STA.BRTW.ZS}} Low-birthweight babies (% of births){p_end}
+{synopt:{opt SH.STA.DIAB.ZS}} Diabetes prevalence (% of population ages 20 to 79){p_end}
+{synopt:{opt SH.STA.DIRH.Q1.ZS}} Prevalence of diarrhea (% of children under 5): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.DIRH.Q2.ZS}} Prevalence of diarrhea (% of children under 5): Q2{p_end}
+{synopt:{opt SH.STA.DIRH.Q3.ZS}} Prevalence of diarrhea (% of children under 5): Q3{p_end}
+{synopt:{opt SH.STA.DIRH.Q4.ZS}} Prevalence of diarrhea (% of children under 5): Q4{p_end}
+{synopt:{opt SH.STA.DIRH.Q5.ZS}} Prevalence of diarrhea (% of children under 5): Q5 (highest){p_end}
+{synopt:{opt SH.STA.DIRH.ZS}} Diarrhea prevalence (% of children under 5){p_end}
+{synopt:{opt SH.STA.FEVR.Q1.ZS}} Prevalence of children with fever (% of children under 5): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.FEVR.Q2.ZS}} Prevalence of children with fever (% of children under 5): Q2{p_end}
+{synopt:{opt SH.STA.FEVR.Q3.ZS}} Prevalence of children with fever (% of children under 5): Q3{p_end}
+{synopt:{opt SH.STA.FEVR.Q4.ZS}} Prevalence of children with fever (% of children under 5): Q4{p_end}
+{synopt:{opt SH.STA.FEVR.Q5.ZS}} Prevalence of children with fever (% of children under 5): Q5 (highest){p_end}
+{synopt:{opt SH.STA.FGMS.Q1.ZS}} Female genital mutilation prevalence (%): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.FGMS.Q2.ZS}} Female genital mutilation prevalence (%): Q2{p_end}
+{synopt:{opt SH.STA.FGMS.Q3.ZS}} Female genital mutilation prevalence (%): Q3{p_end}
+{synopt:{opt SH.STA.FGMS.Q4.ZS}} Female genital mutilation prevalence (%): Q4{p_end}
+{synopt:{opt SH.STA.FGMS.Q5.ZS}} Female genital mutilation prevalence (%): Q5 (highest){p_end}
+{synopt:{opt SH.STA.FGMS.ZS}} Female genital mutilation prevalence (%){p_end}
+{synopt:{opt SH.STA.HYGN.Q1.ZS}} People with basic handwashing facilities including soap and water (% of population): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.HYGN.Q2.ZS}} People with basic handwashing facilities including soap and water (% of population): Q2{p_end}
+{synopt:{opt SH.STA.HYGN.Q3.ZS}} People with basic handwashing facilities including soap and water (% of population): Q3{p_end}
+{synopt:{opt SH.STA.HYGN.Q4.ZS}} People with basic handwashing facilities including soap and water (% of population): Q4{p_end}
+{synopt:{opt SH.STA.HYGN.Q5.ZS}} People with basic handwashing facilities including soap and water (% of population): Q5 (highest){p_end}
+{synopt:{opt SH.STA.HYGN.RU.Q1.ZS}} People with basic handwashing facilities including soap and water, rural (% of rural population): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.HYGN.RU.Q2.ZS}} People with basic handwashing facilities including soap and water, rural (% of rural population): Q2{p_end}
+{synopt:{opt SH.STA.HYGN.RU.Q3.ZS}} People with basic handwashing facilities including soap and water, rural (% of rural population): Q3{p_end}
+{synopt:{opt SH.STA.HYGN.RU.Q4.ZS}} People with basic handwashing facilities including soap and water, rural (% of rural population): Q4{p_end}
+{synopt:{opt SH.STA.HYGN.RU.Q5.ZS}} People with basic handwashing facilities including soap and water, rural (% of rural population): Q5 (highest){p_end}
+{synopt:{opt SH.STA.HYGN.RU.ZS}} People with basic handwashing facilities including soap and water, rural (% of rural population){p_end}
+{synopt:{opt SH.STA.HYGN.UR.Q1.ZS}} People with basic handwashing facilities including soap and water, urban (% of urban population): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.HYGN.UR.Q2.ZS}} People with basic handwashing facilities including soap and water, urban (% of urban population): Q2{p_end}
+{synopt:{opt SH.STA.HYGN.UR.Q3.ZS}} People with basic handwashing facilities including soap and water, urban (% of urban population): Q3{p_end}
+{synopt:{opt SH.STA.HYGN.UR.Q4.ZS}} People with basic handwashing facilities including soap and water, urban (% of urban population): Q4{p_end}
+{synopt:{opt SH.STA.HYGN.UR.Q5.ZS}} People with basic handwashing facilities including soap and water, urban (% of urban population): Q5 (highest){p_end}
+{synopt:{opt SH.STA.HYGN.UR.ZS}} People with basic handwashing facilities including soap and water, urban (% of urban population){p_end}
+{synopt:{opt SH.STA.HYGN.ZS}} People with basic handwashing facilities including soap and water (% of population){p_end}
+{synopt:{opt SH.STA.IYCF.ZS}} Infant and young child feeding practices, all 3 IYCF (% children ages 6-23 months){p_end}
+{synopt:{opt SH.STA.LBMI.Q1.ZS}} Malnourished women (BMI is less than 18.5) (% of women): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.LBMI.Q2.ZS}} Malnourished women (BMI is less than 18.5) (% of women): Q2{p_end}
+{synopt:{opt SH.STA.LBMI.Q3.ZS}} Malnourished women (BMI is less than 18.5) (% of women): Q3{p_end}
+{synopt:{opt SH.STA.LBMI.Q4.ZS}} Malnourished women (BMI is less than 18.5) (% of women): Q4{p_end}
+{synopt:{opt SH.STA.LBMI.Q5.ZS}} Malnourished women (BMI is less than 18.5) (% of women): Q5 (highest){p_end}
+{synopt:{opt SH.STA.MALN.FE.ZS}} Prevalence of underweight, weight for age, female (% of children under 5){p_end}
+{synopt:{opt SH.STA.MALN.MA.ZS}} Prevalence of underweight, weight for age, male (% of children under 5){p_end}
+{synopt:{opt SH.STA.MALN.Q1.ZS}} Malnourished children (underweight, -2SD) (% of children under 5): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.MALN.Q2.ZS}} Malnourished children (underweight, -2SD) (% of children under 5): Q2{p_end}
+{synopt:{opt SH.STA.MALN.Q3.ZS}} Malnourished children (underweight, -2SD) (% of children under 5): Q3{p_end}
+{synopt:{opt SH.STA.MALN.Q4.ZS}} Malnourished children (underweight, -2SD) (% of children under 5): Q4{p_end}
+{synopt:{opt SH.STA.MALN.Q5.ZS}} Malnourished children (underweight, -2SD) (% of children under 5): Q5 (highest){p_end}
+{synopt:{opt SH.STA.MALN.ZS}} Prevalence of underweight, weight for age (% of children under 5){p_end}
+{synopt:{opt SH.STA.MALR}} Malaria cases reported{p_end}
+{synopt:{opt SH.STA.MLN3.Q1.ZS}} Malnourished children (underweight, -3SD) (% of children under 5): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.MLN3.Q2.ZS}} Malnourished children (underweight, -3SD) (% of children under 5): Q2{p_end}
+{synopt:{opt SH.STA.MLN3.Q3.ZS}} Malnourished children (underweight, -3SD) (% of children under 5): Q3{p_end}
+{synopt:{opt SH.STA.MLN3.Q4.ZS}} Malnourished children (underweight, -3SD) (% of children under 5): Q4{p_end}
+{synopt:{opt SH.STA.MLN3.Q5.ZS}} Malnourished children (underweight, -3SD) (% of children under 5): Q5 (highest){p_end}
+{synopt:{opt SH.STA.MMRT.NE}} Maternal mortality ratio (national estimate, per 100,000 live births){p_end}
+{synopt:{opt SH.STA.MMRT}} Maternal mortality ratio (modeled estimate, per 100,000 live births){p_end}
+{synopt:{opt SH.STA.OB18.FE.ZS}} Prevalence of obesity, female (% of female population ages 18+){p_end}
+{synopt:{opt SH.STA.OB18.MA.ZS}} Prevalence of obesity, male (% of male population ages 18+){p_end}
+{synopt:{opt SH.STA.ODFC.Q1.ZS}} People practicing open defecation (% of population): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.ODFC.Q2.ZS}} People practicing open defecation (% of population): Q2{p_end}
+{synopt:{opt SH.STA.ODFC.Q3.ZS}} People practicing open defecation (% of population): Q3{p_end}
+{synopt:{opt SH.STA.ODFC.Q4.ZS}} People practicing open defecation (% of population): Q4{p_end}
+{synopt:{opt SH.STA.ODFC.Q5.ZS}} People practicing open defecation (% of population): Q5 (highest){p_end}
+{synopt:{opt SH.STA.ODFC.RU.Q1.ZS}} People practicing open defecation, rural (% of rural population): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.ODFC.RU.Q2.ZS}} People practicing open defecation, rural (% of rural population): Q2{p_end}
+{synopt:{opt SH.STA.ODFC.RU.Q3.ZS}} People practicing open defecation, rural (% of rural population): Q3{p_end}
+{synopt:{opt SH.STA.ODFC.RU.Q4.ZS}} People practicing open defecation, rural (% of rural population): Q4{p_end}
+{synopt:{opt SH.STA.ODFC.RU.Q5.ZS}} People practicing open defecation, rural (% of rural population): Q5 (highest){p_end}
+{synopt:{opt SH.STA.ODFC.RU.ZS}} People practicing open defecation, rural (% of rural population){p_end}
+{synopt:{opt SH.STA.ODFC.UR.Q1.ZS}} People practicing open defecation, urban (% of urban population): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.ODFC.UR.Q2.ZS}} People practicing open defecation, urban (% of urban population): Q2{p_end}
+{synopt:{opt SH.STA.ODFC.UR.Q3.ZS}} People practicing open defecation, urban (% of urban population): Q3{p_end}
+{synopt:{opt SH.STA.ODFC.UR.Q4.ZS}} People practicing open defecation, urban (% of urban population): Q4{p_end}
+{synopt:{opt SH.STA.ODFC.UR.Q5.ZS}} People practicing open defecation, urban (% of urban population): Q5 (highest){p_end}
+{synopt:{opt SH.STA.ODFC.UR.ZS}} People practicing open defecation, urban (% of urban population){p_end}
+{synopt:{opt SH.STA.ODFC.ZS}} People practicing open defecation (% of population){p_end}
+{synopt:{opt SH.STA.ORCF.ZS}} Diarrhea treatment (% of children under 5 receiving oral rehydration and continued feeding){p_end}
+{synopt:{opt SH.STA.ORHF.Q1.ZS}} Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.ORHF.Q2.ZS}} Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q2{p_end}
+{synopt:{opt SH.STA.ORHF.Q3.ZS}} Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q3{p_end}
+{synopt:{opt SH.STA.ORHF.Q4.ZS}} Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q4{p_end}
+{synopt:{opt SH.STA.ORHF.Q5.ZS}} Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q5 (highest){p_end}
+{synopt:{opt SH.STA.ORHK.Q1.ZS}} Knowledge of diarrhea care (% of mothers): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.ORHK.Q2.ZS}} Knowledge of diarrhea care (% of mothers): Q2{p_end}
+{synopt:{opt SH.STA.ORHK.Q3.ZS}} Knowledge of diarrhea care (% of mothers): Q3{p_end}
+{synopt:{opt SH.STA.ORHK.Q4.ZS}} Knowledge of diarrhea care (% of mothers): Q4{p_end}
+{synopt:{opt SH.STA.ORHK.Q5.ZS}} Knowledge of diarrhea care (% of mothers): Q5 (highest){p_end}
+{synopt:{opt SH.STA.ORHS.Q1ZS}} Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.ORHS.Q2ZS}} Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q2{p_end}
+{synopt:{opt SH.STA.ORHS.Q3ZS}} Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q3{p_end}
+{synopt:{opt SH.STA.ORHS.Q4ZS}} Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q4{p_end}
+{synopt:{opt SH.STA.ORHS.Q5ZS}} Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q5 (highest){p_end}
+{synopt:{opt SH.STA.ORTH}} Diarrhea treatment (% of children under 5 who received ORS packet){p_end}
+{synopt:{opt SH.STA.OWAD.FE.ZS}} Prevalence of overweight, female (% of female adults){p_end}
+{synopt:{opt SH.STA.OWAD.MA.ZS}} Prevalence of overweight, male (% of male adults){p_end}
+{synopt:{opt SH.STA.OWAD.ZS}} Prevalence of overweight (% of adults){p_end}
+{synopt:{opt SH.STA.OWGH.FE.ZS}} Prevalence of overweight, weight for height, female (% of children under 5){p_end}
+{synopt:{opt SH.STA.OWGH.MA.ZS}} Prevalence of overweight, weight for height, male (% of children under 5){p_end}
+{synopt:{opt SH.STA.OWGH.ZS}} Prevalence of overweight, weight for height (% of children under 5){p_end}
+{synopt:{opt SH.STA.PNVC.ZS}} Postnatal care coverage (% mothers){p_end}
+{synopt:{opt SH.STA.POIS.P5.FE}} Mortality rate attributed to unintentional poisoning, female (per 100,000 female population){p_end}
+{synopt:{opt SH.STA.POIS.P5.MA}} Mortality rate attributed to unintentional poisoning, male (per 100,000 male population){p_end}
+{synopt:{opt SH.STA.POIS.P5}} Mortality rate attributed to unintentional poisoning (per 100,000 population){p_end}
+{synopt:{opt SH.STA.SMSS.RU.ZS}} People using safely managed sanitation services, rural (% of rural population){p_end}
+{synopt:{opt SH.STA.SMSS.UR.ZS}} People using safely managed sanitation services, urban (% of urban population){p_end}
+{synopt:{opt SH.STA.SMSS.ZS}} People using safely managed sanitation services (% of population){p_end}
+{synopt:{opt SH.STA.STN3.Q1.ZS}} Malnourished children (stunting, -3SD) (% of children under 5): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.STN3.Q2.ZS}} Malnourished children (stunting, -3SD) (% of children under 5): Q2{p_end}
+{synopt:{opt SH.STA.STN3.Q3.ZS}} Malnourished children (stunting, -3SD) (% of children under 5): Q3{p_end}
+{synopt:{opt SH.STA.STN3.Q4.ZS}} Malnourished children (stunting, -3SD) (% of children under 5): Q4{p_end}
+{synopt:{opt SH.STA.STN3.Q5.ZS}} Malnourished children (stunting, -3SD) (% of children under 5): Q5 (highest){p_end}
+{synopt:{opt SH.STA.STNT.FE.ZS}} Prevalence of stunting, height for age, female (% of children under 5){p_end}
+{synopt:{opt SH.STA.STNT.MA.ZS}} Prevalence of stunting, height for age, male (% of children under 5){p_end}
+{synopt:{opt SH.STA.STNT.Q1.ZS}} Malnourished children (stunting, -2SD) (% of children under 5): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.STNT.Q2.ZS}} Malnourished children (stunting, -2SD) (% of children under 5): Q2{p_end}
+{synopt:{opt SH.STA.STNT.Q3.ZS}} Malnourished children (stunting, -2SD) (% of children under 5): Q3{p_end}
+{synopt:{opt SH.STA.STNT.Q4.ZS}} Malnourished children (stunting, -2SD) (% of children under 5): Q4{p_end}
+{synopt:{opt SH.STA.STNT.Q5.ZS}} Malnourished children (stunting, -2SD) (% of children under 5): Q5 (highest){p_end}
+{synopt:{opt SH.STA.STNT.ZS}} Prevalence of stunting, height for age (% of children under 5){p_end}
+{synopt:{opt SH.STA.SUIC.FE.P5}} Suicide mortality rate, female (per 100,000 female population){p_end}
+{synopt:{opt SH.STA.SUIC.MA.P5}} Suicide mortality rate, male (per 100,000 male population){p_end}
+{synopt:{opt SH.STA.SUIC.P5}} Suicide mortality rate (per 100,000 population){p_end}
+{synopt:{opt SH.STA.TRAF.P5}} Mortality caused by road traffic injury (per 100,000 people){p_end}
+{synopt:{opt SH.STA.WASH.P5}} Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (per 100,000 population){p_end}
+{synopt:{opt SH.STA.WAST.FE.ZS}} Prevalence of wasting, weight for height, female (% of children under 5){p_end}
+{synopt:{opt SH.STA.WAST.MA.ZS}} Prevalence of wasting, weight for height, male (% of children under 5){p_end}
+{synopt:{opt SH.STA.WAST.Q1.ZS}} Malnourished children (wasting, -2SD) (% of children under 5): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.WAST.Q2.ZS}} Malnourished children (wasting, -2SD) (% of children under 5): Q2{p_end}
+{synopt:{opt SH.STA.WAST.Q3.ZS}} Malnourished children (wasting, -2SD) (% of children under 5): Q3{p_end}
+{synopt:{opt SH.STA.WAST.Q4.ZS}} Malnourished children (wasting, -2SD) (% of children under 5): Q4{p_end}
+{synopt:{opt SH.STA.WAST.Q5.ZS}} Malnourished children (wasting, -2SD) (% of children under 5): Q5 (highest){p_end}
+{synopt:{opt SH.STA.WAST.ZS}} Prevalence of wasting, weight for height (% of children under 5){p_end}
+{synopt:{opt SH.STA.WST3.Q1.ZS}} Malnourished children (wasting, -3SD) (% of children under 5): Q1 (lowest){p_end}
+{synopt:{opt SH.STA.WST3.Q2.ZS}} Malnourished children (wasting, -3SD) (% of children under 5): Q2{p_end}
+{synopt:{opt SH.STA.WST3.Q3.ZS}} Malnourished children (wasting, -3SD) (% of children under 5): Q3{p_end}
+{synopt:{opt SH.STA.WST3.Q4.ZS}} Malnourished children (wasting, -3SD) (% of children under 5): Q4{p_end}
+{synopt:{opt SH.STA.WST3.Q5.ZS}} Malnourished children (wasting, -3SD) (% of children under 5): Q5 (highest){p_end}
+{synopt:{opt SH.SVR.WAST.FE.ZS}} Prevalence of severe wasting, weight for height, female (% of children under 5){p_end}
+{synopt:{opt SH.SVR.WAST.MA.ZS}} Prevalence of severe wasting, weight for height, male (% of children under 5){p_end}
+{synopt:{opt SH.SVR.WAST.ZS}} Prevalence of severe wasting, weight for height (% of children under 5){p_end}
+{synopt:{opt SH.TBS.CURE.ZS}} Tuberculosis treatment success rate (% of new cases){p_end}
+{synopt:{opt SH.TBS.DOTS}} Tuberculosis cases detected under DOTS (%){p_end}
+{synopt:{opt SH.TBS.DTEC.ZS}} Tuberculosis case detection rate (%, all forms){p_end}
+{synopt:{opt SH.TBS.INCD.HG}} Incidence of tuberculosis, high uncertainty bound (per 100,000 people){p_end}
+{synopt:{opt SH.TBS.INCD.LW}} Incidence of tuberculosis, low uncertainty bound (per 100,000 people){p_end}
+{synopt:{opt SH.TBS.INCD}} Incidence of tuberculosis (per 100,000 people){p_end}
+{synopt:{opt SH.TBS.MORT.HG}} Deaths due to tuberculosis among HIV-negative people, high uncertainty bound (per 100,000 population){p_end}
+{synopt:{opt SH.TBS.MORT.LW}} Deaths due to tuberculosis among HIV-negative people, low uncertainty bound (per 100,000 population){p_end}
+{synopt:{opt SH.TBS.MORT}} Tuberculosis death rate (per 100,000 people){p_end}
+{synopt:{opt SH.TBS.PREV.HG}} Tuberculosis prevalence rate, high uncertainty bound (per 1000,000 population, WHO){p_end}
+{synopt:{opt SH.TBS.PREV.LW}} Tuberculosis prevalence rate, low uncertainty bound (per 1000,000 population, WHO){p_end}
+{synopt:{opt SH.TBS.PREV}} Tuberculosis prevalence rate (per 1000,000 population, WHO){p_end}
+{synopt:{opt SH.UHC.CONS.TO}} Number of people pushed below the 50% median consumption poverty line by out-of-pocket health care expenditure{p_end}
+{synopt:{opt SH.UHC.CONS.ZS}} Proportion of population pushed below the 50% median consumption poverty line by out-of-pocket health care expenditure (%){p_end}
+{synopt:{opt SH.UHC.NOP1.CG}} Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD){p_end}
+{synopt:{opt SH.UHC.NOP1.TO}} Number of people pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure{p_end}
+{synopt:{opt SH.UHC.NOP1.ZG}} Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line){p_end}
+{synopt:{opt SH.UHC.NOP1.ZS}} Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%){p_end}
+{synopt:{opt SH.UHC.NOP2.CG}} Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD){p_end}
+{synopt:{opt SH.UHC.NOP2.TO}} Number of people pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure{p_end}
+{synopt:{opt SH.UHC.NOP2.ZG}} Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line){p_end}
+{synopt:{opt SH.UHC.NOP2.ZS}} Proportion of population pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%){p_end}
+{synopt:{opt SH.UHC.OOPC.10.TO}} Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure{p_end}
+{synopt:{opt SH.UHC.OOPC.10.ZS}} Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure (%){p_end}
+{synopt:{opt SH.UHC.OOPC.25.TO}} Number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure{p_end}
+{synopt:{opt SH.UHC.OOPC.25.ZS}} Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure (%){p_end}
+{synopt:{opt SH.UHC.SRVS.CV.XD}} UHC service coverage index{p_end}
+{synopt:{opt SH.VAC.TTNS.Q1.ZS}} Tetanus toxoid vaccination (% of live births): Q1 (lowest){p_end}
+{synopt:{opt SH.VAC.TTNS.Q2.ZS}} Tetanus toxoid vaccination (% of live births): Q2{p_end}
+{synopt:{opt SH.VAC.TTNS.Q3.ZS}} Tetanus toxoid vaccination (% of live births): Q3{p_end}
+{synopt:{opt SH.VAC.TTNS.Q4.ZS}} Tetanus toxoid vaccination (% of live births): Q4{p_end}
+{synopt:{opt SH.VAC.TTNS.Q5.ZS}} Tetanus toxoid vaccination (% of live births): Q5 (highest){p_end}
+{synopt:{opt SH.VAC.TTNS.ZS}} Newborns protected against tetanus (%){p_end}
+{synopt:{opt SH.VST.OUTP}} Outpatient visits per capita{p_end}
+{synopt:{opt SH.XPD.CHEX.GD.ZS}} Current health expenditure (% of GDP){p_end}
+{synopt:{opt SH.XPD.CHEX.PC.CD}} Current health expenditure per capita (current US$){p_end}
+{synopt:{opt SH.XPD.CHEX.PP.CD}} Current health expenditure per capita, PPP (current international $){p_end}
+{synopt:{opt SH.XPD.EHEX.CH.ZS}} External health expenditure (% of current health expenditure){p_end}
+{synopt:{opt SH.XPD.EHEX.EH.ZS}} External health expenditure channeled through government (% of external health expenditure){p_end}
+{synopt:{opt SH.XPD.EHEX.PC.CD}} External health expenditure per capita (current US$){p_end}
+{synopt:{opt SH.XPD.EHEX.PP.CD}} External health expenditure per capita, PPP (current international $){p_end}
+{synopt:{opt SH.XPD.EXTR.ZS}} External resources for health (% of total expenditure on health){p_end}
+{synopt:{opt SH.XPD.GHED.CH.ZS}} Domestic general government health expenditure (% of current health expenditure){p_end}
+{synopt:{opt SH.XPD.GHED.GD.ZS}} Domestic general government health expenditure (% of GDP){p_end}
+{synopt:{opt SH.XPD.GHED.GE.ZS}} Domestic general government health expenditure (% of general government expenditure){p_end}
+{synopt:{opt SH.XPD.GHED.PC.CD}} Domestic general government health expenditure per capita (current US$){p_end}
+{synopt:{opt SH.XPD.GHED.PP.CD}} Domestic general government health expenditure per capita, PPP (current international $){p_end}
+{synopt:{opt SH.XPD.HLTH.ZS}} Public Expenditure on Health (% GDP){p_end}
+{synopt:{opt SH.XPD.KHEX.GD.ZS}} Capital health expenditure (% of GDP){p_end}
+{synopt:{opt SH.XPD.OOPC.CH.ZS}} Out-of-pocket expenditure (% of current health expenditure){p_end}
+{synopt:{opt SH.XPD.OOPC.PC.CD}} Out-of-pocket expenditure per capita (current US$){p_end}
+{synopt:{opt SH.XPD.OOPC.PP.CD}} Out-of-pocket expenditure per capita, PPP (current international $){p_end}
+{synopt:{opt SH.XPD.OOPC.TO.ZS}} Out-of-pocket health expenditure (% of total expenditure on health){p_end}
+{synopt:{opt SH.XPD.OOPC.ZS}} Out-of-pocket health expenditure (% of private expenditure on health){p_end}
+{synopt:{opt SH.XPD.PCAP.GX}} Government health expenditure per capita (current US$){p_end}
+{synopt:{opt SH.XPD.PCAP.PP.KD}} Health expenditure per capita, PPP (constant 2011 international $){p_end}
+{synopt:{opt SH.XPD.PCAP}} Health expenditure per capita (current US$){p_end}
+{synopt:{opt SH.XPD.PPPC}} Health expenditure per capita, PPP (current international $){p_end}
+{synopt:{opt SH.XPD.PRIV.PRPP.ZS}} Private prepaid plans (% of private expenditure on health){p_end}
+{synopt:{opt SH.XPD.PRIV.ZS}} Health expenditure, private (% of GDP){p_end}
+{synopt:{opt SH.XPD.PRIV}} Health expenditure, private (% of total health expenditure){p_end}
+{synopt:{opt SH.XPD.PUBL.GX.ZS}} Health expenditure, public (% of government expenditure){p_end}
+{synopt:{opt SH.XPD.PUBL.ZS}} Health expenditure, public (% of GDP){p_end}
+{synopt:{opt SH.XPD.PUBL}} Health expenditure, public (% of total health expenditure){p_end}
+{synopt:{opt SH.XPD.PVTD.CH.ZS}} Domestic private health expenditure (% of current health expenditure){p_end}
+{synopt:{opt SH.XPD.PVTD.PC.CD}} Domestic private health expenditure per capita (current US$){p_end}
+{synopt:{opt SH.XPD.PVTD.PP.CD}} Domestic private health expenditure per capita, PPP (current international $){p_end}
+{synopt:{opt SH.XPD.SOSE.GX.ZS}} Social Security expenditure on health (% government expenditure on health){p_end}
+{synopt:{opt SH.XPD.TOTL.CD}} Health expenditure (current US$){p_end}
+{synopt:{opt SH.XPD.TOTL.ZS}} Health expenditure, total (% of GDP){p_end}
+{synopt:{opt SI.DST.02ND.20}} Income share held by second 20%{p_end}
+{synopt:{opt SI.DST.03RD.20}} Income share held by third 20%{p_end}
+{synopt:{opt SI.DST.04TH.20}} Income share held by fourth 20%{p_end}
+{synopt:{opt SI.DST.05TH.20}} Income share held by highest 20%{p_end}
+{synopt:{opt SI.DST.10TH.10}} Income share held by highest 10%{p_end}
+{synopt:{opt SI.DST.FRST.10}} Income share held by lowest 10%{p_end}
+{synopt:{opt SI.DST.FRST.20}} Income share held by lowest 20%{p_end}
+{synopt:{opt SI.POV.2DAY}} Poverty headcount ratio at $3.10 a day (2011 PPP) (% of population){p_end}
+{synopt:{opt SI.POV.BPL}} Number of people live below the poverty line (in number of people){p_end}
+{synopt:{opt SI.POV.DDAY.CV}} Survey coverage for poverty headcount ratio (at $1.90 a day, 2011 PPP){p_end}
+{synopt:{opt SI.POV.DDAY.GR}} Growth component of change in poverty at $1.90 a day (2011 PPP) (% of change){p_end}
+{synopt:{opt SI.POV.DDAY.RE}} Redistribution component of change in poverty at $1.90 a day (2011 PPP) (% of change){p_end}
+{synopt:{opt SI.POV.DDAY.SH}} Share of total poor population (at $1.90 a day, 2011 PPP){p_end}
+{synopt:{opt SI.POV.DDAY}} Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population){p_end}
+{synopt:{opt SI.POV.GAP2}} Poverty gap at $3.10 a day (2011 PPP) (%){p_end}
+{synopt:{opt SI.POV.GAPS}} Poverty gap at $1.90 a day (2011 PPP) (%){p_end}
+{synopt:{opt SI.POV.GINI}} GINI index (World Bank estimate){p_end}
+{synopt:{opt SI.POV.LMIC.GP}} Poverty gap at $3.20 a day (2011 PPP) (%){p_end}
+{synopt:{opt SI.POV.LMIC.GR}} Growth component of change in poverty at $3.20 a day (2011 PPP) (% of change){p_end}
+{synopt:{opt SI.POV.LMIC.NO}} Number of poor at $3.20 a day (2011 PPP) (millions){p_end}
+{synopt:{opt SI.POV.LMIC.RE}} Redistribution component of change in poverty at $3.20 a day (2011 PPP) (% of change){p_end}
+{synopt:{opt SI.POV.LMIC}} Poverty headcount ratio at $3.20 a day (2011 PPP) (% of population){p_end}
+{synopt:{opt SI.POV.NAGP.NC}} Poverty gap at national poverty lines (%), including noncomparable values{p_end}
+{synopt:{opt SI.POV.NAGP}} Poverty gap at national poverty lines (%){p_end}
+{synopt:{opt SI.POV.NAHC.NC}} Poverty headcount ratio at national poverty lines (% of population), including noncomparable values{p_end}
+{synopt:{opt SI.POV.NAHC}} Poverty headcount ratio at national poverty lines (% of population){p_end}
+{synopt:{opt SI.POV.NAPL}} Poverty Line (in IDR){p_end}
+{synopt:{opt SI.POV.NAPR.ZS}} Poverty Rate (in % of population){p_end}
+{synopt:{opt SI.POV.NGAP}} Poverty Gap (index){p_end}
+{synopt:{opt SI.POV.NOP1}} Number of poor at $1.90 a day (2011 PPP) (millions){p_end}
+{synopt:{opt SI.POV.RUGP.NC}} Rural poverty gap at national poverty lines (%), including noncomparable values{p_end}
+{synopt:{opt SI.POV.RUGP}} Rural poverty gap at national poverty lines (%){p_end}
+{synopt:{opt SI.POV.RUHC.NC}} Rural poverty headcount ratio at national poverty lines (% of rural population), including noncomparable values{p_end}
+{synopt:{opt SI.POV.RUHC}} Rural poverty headcount ratio at national poverty lines (% of rural population){p_end}
+{synopt:{opt SI.POV.UMIC.GP}} Poverty gap at $5.50 a day (2011 PPP) (%){p_end}
+{synopt:{opt SI.POV.UMIC.GR}} Growth component of change in poverty at $5.50 a day (2011 PPP) (% of change){p_end}
+{synopt:{opt SI.POV.UMIC.NO}} Number of poor at $5.50 a day (2011 PPP) (millions){p_end}
+{synopt:{opt SI.POV.UMIC.RE}} Redistribution component of change in poverty at $5.50 a day (2011 PPP) (% of change){p_end}
+{synopt:{opt SI.POV.UMIC}} Poverty headcount ratio at $5.50 a day (2011 PPP) (% of population){p_end}
+{synopt:{opt SI.POV.URGP.NC}} Urban poverty gap at national poverty lines (%), including noncomparable values{p_end}
+{synopt:{opt SI.POV.URGP}} Urban poverty gap at national poverty lines (%){p_end}
+{synopt:{opt SI.POV.URHC.NC}} Urban poverty headcount ratio at national poverty lines (% of urban population), including noncomparable values{p_end}
+{synopt:{opt SI.POV.URHC}} Urban poverty headcount ratio at national poverty lines (% of urban population){p_end}
+{synopt:{opt SI.RMT.COST.IB.ZS}} Average transaction cost of sending remittances to a specific country (%){p_end}
+{synopt:{opt SI.RMT.COST.OB.ZS}} Average transaction cost of sending remittances from a specific country (%){p_end}
+{synopt:{opt SI.RMT.COST.ZS}} Average transaction cost of remittances (%){p_end}
+{synopt:{opt SI.SPR.PC40.05}} Survey mean consumption or income per capita, bottom 40% of population (2005 PPP $ per day){p_end}
+{synopt:{opt SI.SPR.PC40.ZG}} Annualized average growth rate in per capita real survey mean consumption or income, bottom 40% of population (%){p_end}
+{synopt:{opt SI.SPR.PC40}} Survey mean consumption or income per capita, bottom 40% of population (2011 PPP $ per day){p_end}
+{synopt:{opt SI.SPR.PCAP.05}} Survey mean consumption or income per capita, total population (2005 PPP $ per day){p_end}
+{synopt:{opt SI.SPR.PCAP.ZG}} Annualized average growth rate in per capita real survey mean consumption or income, total population (%){p_end}
+{synopt:{opt SI.SPR.PCAP}} Survey mean consumption or income per capita, total population (2011 PPP $ per day){p_end}
+{synopt:{opt SI.SPR.PT10.ZG}} Annualized growth in per capita real survey mean consumption or income, top 10% (%){p_end}
+{synopt:{opt SI.SPR.PT10}} Survey mean consumption or income per capita, top 10% (2011 PPP $ per day){p_end}
+{synopt:{opt SI.SPR.PT60.ZG}} Annualized growth in per capita real survey mean consumption or income, top 60% (%){p_end}
+{synopt:{opt SI.SPR.PT60}} Survey mean consumption or income per capita, top 60% (2011 PPP $ per day){p_end}
+{synopt:{opt SL.AGR.0714.FE.ZS}} Child employment in agriculture, female (% of female economically active children ages 7-14){p_end}
+{synopt:{opt SL.AGR.0714.MA.ZS}} Child employment in agriculture, male (% of male economically active children ages 7-14){p_end}
+{synopt:{opt SL.AGR.0714.ZS}} Child employment in agriculture (% of economically active children ages 7-14){p_end}
+{synopt:{opt SL.AGR.EMPL.FE.TO.ZS}} Employees, agriculture, female (% of total agricultural employment){p_end}
+{synopt:{opt SL.AGR.EMPL.FE.ZS}} Employment in agriculture, female (% of female employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.AGR.EMPL.MA.ZS}} Employment in agriculture, male (% of male employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.AGR.EMPL.ZS}} Employment in agriculture (% of total employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.AGR.TOTL.IN.ZS}} Labor force in agriculture (%){p_end}
+{synopt:{opt SL.AGR.TOTL.MF}} Labor Force, Agriculture (%){p_end}
+{synopt:{opt SL.AGR.TOTL.ZS}} Labor force in agriculture (% of total){p_end}
+{synopt:{opt SL.EMP.1524.SP.FE.NE.ZS}} Employment to population ratio, ages 15-24, female (%) (national estimate){p_end}
+{synopt:{opt SL.EMP.1524.SP.FE.ZS}} Employment to population ratio, ages 15-24, female (%) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.1524.SP.MA.NE.ZS}} Employment to population ratio, ages 15-24, male (%) (national estimate){p_end}
+{synopt:{opt SL.EMP.1524.SP.MA.ZS}} Employment to population ratio, ages 15-24, male (%) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.1524.SP.NE.ZS}} Employment to population ratio, ages 15-24, total (%) (national estimate){p_end}
+{synopt:{opt SL.EMP.1524.SP.ZS}} Employment to population ratio, ages 15-24, total (%) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.AGR.FRST.FSH}} Number of people employed in agriculture, forestry and fishery{p_end}
+{synopt:{opt SL.EMP.CNST}} Number of people employed in construction sector{p_end}
+{synopt:{opt SL.EMP.ELC}} Number of people employed in electricity and utilities sector{p_end}
+{synopt:{opt SL.EMP.FINS}} Number of people employed in financial services sector{p_end}
+{synopt:{opt SL.EMP.IND}} Number of people employed in industrial sector{p_end}
+{synopt:{opt SL.EMP.INSV.FE.ZS}} Share of women in wage employment in the nonagricultural sector (% of total nonagricultural employment){p_end}
+{synopt:{opt SL.EMP.MINQ}} Number of people employed in mining and quarrying sector{p_end}
+{synopt:{opt SL.EMP.MPYR.FE.ZS}} Employers, female (% of female employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.MPYR.MA.ZS}} Employers, male (% of male employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.MPYR.ZS}} Employers, total (% of total employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.OWAC.FE.ZS}} Own-account workers, female (% of female employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.OWAC.MA.ZS}} Own-account workers, male (% of male employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.OWAC.ZS}} Own-account workers, total (% of total employment){p_end}
+{synopt:{opt SL.EMP.SELF.FE.ZS}} Self-employed, female (% of female employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.SELF.MA.ZS}} Self-employed, male (% of male employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.SELF.ZS}} Self-employed, total (% of total employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.SMGT.FE.ZS}} Female share of employment in senior and middle management (%){p_end}
+{synopt:{opt SL.EMP.SOCL}} Number of people employed in social services sector{p_end}
+{synopt:{opt SL.EMP.TOTL.FE}} Total employment, female (ages 15+){p_end}
+{synopt:{opt SL.EMP.TOTL.MA}} Total employment, male (ages 15+){p_end}
+{synopt:{opt SL.EMP.TOTL.SP.FE.NE.ZS}} Employment to population ratio, 15+, female (%) (national estimate){p_end}
+{synopt:{opt SL.EMP.TOTL.SP.FE.ZS}} Employment to population ratio, 15+, female (%) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.TOTL.SP.MA.NE.ZS}} Employment to population ratio, 15+, male (%) (national estimate){p_end}
+{synopt:{opt SL.EMP.TOTL.SP.MA.ZS}} Employment to population ratio, 15+, male (%) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.TOTL.SP.NE.ZS}} Employment to population ratio, 15+, total (%) (national estimate){p_end}
+{synopt:{opt SL.EMP.TOTL.SP.ZS}} Employment to population ratio, 15+, total (%) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.TOTL}} Number of people employed{p_end}
+{synopt:{opt SL.EMP.TRAD}} Number of people employed in trade, hotel and restaurant sector{p_end}
+{synopt:{opt SL.EMP.TRAN}} Number of people employed in transportation and telecommunication sector{p_end}
+{synopt:{opt SL.EMP.UNDR.FE.ZS}} Time-related underemployment, female (% of employment){p_end}
+{synopt:{opt SL.EMP.UNDR.MA.ZS}} Time-related underemployment, male (% of employment){p_end}
+{synopt:{opt SL.EMP.UNDR}} Number of people underemployed{p_end}
+{synopt:{opt SL.EMP.VULN.FE.ZS}} Vulnerable employment, female (% of female employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.VULN.MA.ZS}} Vulnerable employment, male (% of male employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.VULN.ZS}} Vulnerable employment, total (% of total employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.WORK.FE.ZS}} Wage and salaried workers, female (% of female employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.WORK.MA.ZS}} Wage and salaried workers, male (% of male employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.EMP.WORK.ZS}} Wage and salaried workers, total (% of total employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.FAM.0714.FE.ZS}} Children in employment, unpaid family workers, female (% of female children in employment, ages 7-14){p_end}
+{synopt:{opt SL.FAM.0714.MA.ZS}} Children in employment, unpaid family workers, male (% of male children in employment, ages 7-14){p_end}
+{synopt:{opt SL.FAM.0714.ZS}} Children in employment, unpaid family workers (% of children in employment, ages 7-14){p_end}
+{synopt:{opt SL.FAM.WORK.FE.ZS}} Contributing family workers, female (% of female employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.FAM.WORK.MA.ZS}} Contributing family workers, male (% of male employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.FAM.WORK.ZS}} Contributing family workers, total (% of total employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.GDP.PCAP.EM.KD.ZG}} GDP per person employed (annual % growth){p_end}
+{synopt:{opt SL.GDP.PCAP.EM.KD}} GDP per person employed (constant 2011 PPP $){p_end}
+{synopt:{opt SL.GDP.PCAP.EM.XD}} GDP per person employed, index (1980 = 100){p_end}
+{synopt:{opt SL.IND.EMPL.FE.ZS}} Employment in industry, female (% of female employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.IND.EMPL.MA.ZS}} Employment in industry, male (% of male employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.IND.EMPL.ZS}} Employment in industry (% of total employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.ISV.IFRM.FE.ZS}} Informal employment, female (% of total non-agricultural employment){p_end}
+{synopt:{opt SL.ISV.IFRM.MA.ZS}} Informal employment, male (% of total non-agricultural employment){p_end}
+{synopt:{opt SL.ISV.IFRM.ZS}} Informal employment (% of total non-agricultural employment){p_end}
+{synopt:{opt SL.MNF.0714.FE.ZS}} Child employment in manufacturing, female (% of female economically active children ages 7-14){p_end}
+{synopt:{opt SL.MNF.0714.MA.ZS}} Child employment in manufacturing, male (% of male economically active children ages 7-14){p_end}
+{synopt:{opt SL.MNF.0714.ZS}} Child employment in manufacturing (% of economically active children ages 7-14){p_end}
+{synopt:{opt SL.MNF.WAGE.FM}} Ratio of female to male wages in manufacturing (%){p_end}
+{synopt:{opt SL.SLF.0714.FE.ZS}} Children in employment, self-employed, female (% of female children in employment, ages 7-14){p_end}
+{synopt:{opt SL.SLF.0714.MA.ZS}} Children in employment, self-employed, male (% of male children in employment, ages 7-14){p_end}
+{synopt:{opt SL.SLF.0714.ZS}} Children in employment, self-employed (% of children in employment, ages 7-14){p_end}
+{synopt:{opt SL.SRV.0714.FE.ZS}} Child employment in services, female (% of female economically active children ages 7-14){p_end}
+{synopt:{opt SL.SRV.0714.MA.ZS}} Child employment in services, male (% of male economically active children ages 7-14){p_end}
+{synopt:{opt SL.SRV.0714.ZS}} Child employment in services (% of economically active children ages 7-14){p_end}
+{synopt:{opt SL.SRV.EMPL.FE.ZS}} Employment in services, female (% of female employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.SRV.EMPL.MA.ZS}} Employment in services, male (% of male employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.SRV.EMPL.ZS}} Employment in services (% of total employment) (modeled ILO estimate){p_end}
+{synopt:{opt SL.TLF.0714.FE.ZS}} Children in employment, female (% of female children ages 7-14){p_end}
+{synopt:{opt SL.TLF.0714.MA.ZS}} Children in employment, male (% of male children ages 7-14){p_end}
+{synopt:{opt SL.TLF.0714.SW.FE.TM}} Average working hours of children, study and work, female, ages 7-14 (hours per week){p_end}
+{synopt:{opt SL.TLF.0714.SW.FE.ZS}} Children in employment, study and work, female (% of female children in employment, ages 7-14){p_end}
+{synopt:{opt SL.TLF.0714.SW.MA.TM}} Average working hours of children, study and work, male, ages 7-14 (hours per week){p_end}
+{synopt:{opt SL.TLF.0714.SW.MA.ZS}} Children in employment, study and work, male (% of male children in employment, ages 7-14){p_end}
+{synopt:{opt SL.TLF.0714.SW.TM}} Average working hours of children, study and work, ages 7-14 (hours per week){p_end}
+{synopt:{opt SL.TLF.0714.SW.ZS}} Children in employment, study and work (% of children in employment, ages 7-14){p_end}
+{synopt:{opt SL.TLF.0714.WK.FE.TM}} Average working hours of children, working only, female, ages 7-14 (hours per week){p_end}
+{synopt:{opt SL.TLF.0714.WK.FE.ZS}} Children in employment, work only, female (% of female children in employment, ages 7-14){p_end}
+{synopt:{opt SL.TLF.0714.WK.MA.TM}} Average working hours of children, working only, male, ages 7-14 (hours per week){p_end}
+{synopt:{opt SL.TLF.0714.WK.MA.ZS}} Children in employment, work only, male (% of male children in employment, ages 7-14){p_end}
+{synopt:{opt SL.TLF.0714.WK.TM}} Average working hours of children, working only, ages 7-14 (hours per week){p_end}
+{synopt:{opt SL.TLF.0714.WK.ZS}} Children in employment, work only (% of children in employment, ages 7-14){p_end}
+{synopt:{opt SL.TLF.0714.ZS}} Children in employment, total (% of children ages 7-14){p_end}
+{synopt:{opt SL.TLF.1524.FE.IN}} Labor force (15-24 years), female{p_end}
+{synopt:{opt SL.TLF.1524.FE.ZS}} Labor force (15-24 years), female (% of total labor force 15-24 years){p_end}
+{synopt:{opt SL.TLF.1524.IN}} Labor force (15-24 years), total{p_end}
+{synopt:{opt SL.TLF.1524.MA.IN}} Labor force (15-24 years), male{p_end}
+{synopt:{opt SL.TLF.1524.MA.ZS}} Labor force (15-24 years), male (% of total labor force 15-24 years){p_end}
+{synopt:{opt SL.TLF.1564.FE.IN}} Labor force (15-64 years), female{p_end}
+{synopt:{opt SL.TLF.1564.FE.ZS}} Labor force (15-64 years), female (% of total labor force 15-64 years){p_end}
+{synopt:{opt SL.TLF.1564.IN}} Labor force (15-64 years), total{p_end}
+{synopt:{opt SL.TLF.1564.MA.IN}} Labor force (15-64 years), male{p_end}
+{synopt:{opt SL.TLF.1564.MA.ZS}} Labor force (15-64 years), male (% of total labor force 15-64 years){p_end}
+{synopt:{opt SL.TLF.ACTI.1524.FE.NE.ZS}} Labor force participation rate for ages 15-24, female (%) (national estimate){p_end}
+{synopt:{opt SL.TLF.ACTI.1524.FE.ZS}} Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate){p_end}
+{synopt:{opt SL.TLF.ACTI.1524.MA.NE.ZS}} Labor force participation rate for ages 15-24, male (%) (national estimate){p_end}
+{synopt:{opt SL.TLF.ACTI.1524.MA.ZS}} Labor force participation rate for ages 15-24, male (%) (modeled ILO estimate){p_end}
+{synopt:{opt SL.TLF.ACTI.1524.NE.ZS}} Labor force participation rate for ages 15-24, total (%) (national estimate){p_end}
+{synopt:{opt SL.TLF.ACTI.1524.ZS}} Labor force participation rate for ages 15-24, total (%) (modeled ILO estimate){p_end}
+{synopt:{opt SL.TLF.ACTI.FE.ZS}} Labor force participation rate, female (% of female population ages 15-64) (modeled ILO estimate){p_end}
+{synopt:{opt SL.TLF.ACTI.MA.ZS}} Labor force participation rate, male (% of male population ages 15-64) (modeled ILO estimate){p_end}
+{synopt:{opt SL.TLF.ACTI.ZS}} Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate){p_end}
+{synopt:{opt SL.TLF.ADVN.FE.ZS}} Labor force with advanced education, female (% of female working-age population with advanced education){p_end}
+{synopt:{opt SL.TLF.ADVN.MA.ZS}} Labor force with advanced education, male (% of male working-age population with advanced education){p_end}
+{synopt:{opt SL.TLF.ADVN.ZS}} Labor force with advanced education (% of total working-age population with advanced education){p_end}
+{synopt:{opt SL.TLF.BASC.FE.ZS}} Labor force with basic education, female (% of female working-age population with basic education){p_end}
+{synopt:{opt SL.TLF.BASC.MA.ZS}} Labor force with basic education, male (% of male working-age population with basic education){p_end}
+{synopt:{opt SL.TLF.BASC.ZS}} Labor force with basic education (% of total working-age population with basic education){p_end}
+{synopt:{opt SL.TLF.CACT.2534.FE.ZS}} Labor participation rate, female (% of female population ages 25-34){p_end}
+{synopt:{opt SL.TLF.CACT.2534.MA.ZS}} Labor participation rate, male (% of male population ages 25-34){p_end}
+{synopt:{opt SL.TLF.CACT.2534.ZS}} Labor participation rate, total (% of total population ages 25-34){p_end}
+{synopt:{opt SL.TLF.CACT.2554.FE.ZS}} Labor participation rate, female (% of female population ages 25-54){p_end}
+{synopt:{opt SL.TLF.CACT.2554.MA.ZS}} Labor participation rate, male (% of male population ages 25-54){p_end}
+{synopt:{opt SL.TLF.CACT.2554.ZS}} Labor participation rate, total (% of total population ages 25-54){p_end}
+{synopt:{opt SL.TLF.CACT.3554.FE.ZS}} Labor participation rate, female (% of female population ages 35-54){p_end}
+{synopt:{opt SL.TLF.CACT.3554.MA.ZS}} Labor participation rate, male (% of male population ages 35-54){p_end}
+{synopt:{opt SL.TLF.CACT.3554.ZS}} Labor participation rate, total (% of total population ages 35-54){p_end}
+{synopt:{opt SL.TLF.CACT.5564.FE.ZS}} Labor participation rate, female (% of female population ages 55-64){p_end}
+{synopt:{opt SL.TLF.CACT.5564.MA.ZS}} Labor participation rate, male (% of male population ages 55-64){p_end}
+{synopt:{opt SL.TLF.CACT.5564.ZS}} Labor participation rate, total (% of total population ages 55-64){p_end}
+{synopt:{opt SL.TLF.CACT.65UP.FE.ZS}} Labor participation rate, female (% of female population ages 65+){p_end}
+{synopt:{opt SL.TLF.CACT.65UP.MA.ZS}} Labor participation rate, male (% of male population ages 65+){p_end}
+{synopt:{opt SL.TLF.CACT.65UP.ZS}} Labor participation rate, total (% of total population ages 65+){p_end}
+{synopt:{opt SL.TLF.CACT.FE.NE.ZS}} Labor force participation rate, female (% of female population ages 15+) (national estimate){p_end}
+{synopt:{opt SL.TLF.CACT.FE.ZS}} Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate){p_end}
+{synopt:{opt SL.TLF.CACT.FM.NE.ZS}} Ratio of female to male labor force participation rate (%) (national estimate){p_end}
+{synopt:{opt SL.TLF.CACT.FM.ZS}} Ratio of female to male labor force participation rate (%) (modeled ILO estimate){p_end}
+{synopt:{opt SL.TLF.CACT.MA.NE.ZS}} Labor force participation rate, male (% of male population ages 15+) (national estimate){p_end}
+{synopt:{opt SL.TLF.CACT.MA.ZS}} Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate){p_end}
+{synopt:{opt SL.TLF.CACT.NE.ZS}} Labor force participation rate, total (% of total population ages 15+) (national estimate){p_end}
+{synopt:{opt SL.TLF.CACT.ZS}} Labor force participation rate, total (% of total population ages 15+) (modeled ILO estimate){p_end}
+{synopt:{opt SL.TLF.CHLD.ZS}} Labor force, children 10-14 (% of age group){p_end}
+{synopt:{opt SL.TLF.CHLD}} Labor force, children 10-14 (% of age group){p_end}
+{synopt:{opt SL.TLF.INTM.FE.ZS}} Labor force with intermediate education, female (% of female working-age population with intermediate education){p_end}
+{synopt:{opt SL.TLF.INTM.MA.ZS}} Labor force with intermediate education, male (% of male working-age population with intermediate education){p_end}
+{synopt:{opt SL.TLF.INTM.ZS}} Labor force with intermediate education (% of total working-age population with intermediate education){p_end}
+{synopt:{opt SL.TLF.PART.FE.ZS}} Part time employment, female (% of total female employment){p_end}
+{synopt:{opt SL.TLF.PART.MA.ZS}} Part time employment, male (% of total male employment){p_end}
+{synopt:{opt SL.TLF.PART.TL.FE.ZS}} Part time employment, female (% of total part time employment){p_end}
+{synopt:{opt SL.TLF.PART.ZS}} Part time employment, total (% of total employment){p_end}
+{synopt:{opt SL.TLF.PRIM.FE.ZS}} Labor force with primary education, female (% of female labor force){p_end}
+{synopt:{opt SL.TLF.PRIM.MA.ZS}} Labor force with primary education, male (% of male labor force){p_end}
+{synopt:{opt SL.TLF.PRIM.ZS}} Labor force with primary education (% of total){p_end}
+{synopt:{opt SL.TLF.SECO.FE.ZS}} Labor force with secondary education, female (% of female labor force){p_end}
+{synopt:{opt SL.TLF.SECO.MA.ZS}} Labor force with secondary education, male (% of male labor force){p_end}
+{synopt:{opt SL.TLF.SECO.ZS}} Labor force with secondary education (% of total){p_end}
+{synopt:{opt SL.TLF.TERT.FE.ZS}} Labor force with tertiary education, female (% of female labor force){p_end}
+{synopt:{opt SL.TLF.TERT.MA.ZS}} Labor force with tertiary education, male (% of male labor force){p_end}
+{synopt:{opt SL.TLF.TERT.ZS}} Labor force with tertiary education (% of total){p_end}
+{synopt:{opt SL.TLF.TOTL.FE.IN.ZS}} Labor Force, Female (%){p_end}
+{synopt:{opt SL.TLF.TOTL.FE.IN}} Labor force, female{p_end}
+{synopt:{opt SL.TLF.TOTL.FE.ZS}} Labor force, female (% of total labor force){p_end}
+{synopt:{opt SL.TLF.TOTL.IN.ZG}} Labor force growth, total (annual %){p_end}
+{synopt:{opt SL.TLF.TOTL.IN}} Labor force, total{p_end}
+{synopt:{opt SL.TLF.TOTL.MA.IN}} Labor force, male{p_end}
+{synopt:{opt SL.TLF.TOTL.MA.ZS}} Labor force, male (% of total labor force){p_end}
+{synopt:{opt SL.TLF}} Number of people in labor force{p_end}
+{synopt:{opt SL.UEM.1524.FE.NE.ZS}} Unemployment, youth female (% of female labor force ages 15-24) (national estimate){p_end}
+{synopt:{opt SL.UEM.1524.FE.ZS}} Unemployment, youth female (% of female labor force ages 15-24) (modeled ILO estimate){p_end}
+{synopt:{opt SL.UEM.1524.FM.NE.ZS}} Ratio of female to male youth unemployment rate (%) (national estimate){p_end}
+{synopt:{opt SL.UEM.1524.FM.ZS}} Ratio of female to male youth unemployment rate (% ages 15-24) (modeled ILO estimate){p_end}
+{synopt:{opt SL.UEM.1524.MA.NE.ZS}} Unemployment, youth male (% of male labor force ages 15-24) (national estimate){p_end}
+{synopt:{opt SL.UEM.1524.MA.ZS}} Unemployment, youth male (% of male labor force ages 15-24) (modeled ILO estimate){p_end}
+{synopt:{opt SL.UEM.1524.NE.ZS}} Unemployment, youth total (% of total labor force ages 15-24) (national estimate){p_end}
+{synopt:{opt SL.UEM.1524.ZS}} Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate){p_end}
+{synopt:{opt SL.UEM.ADVN.FE.ZS}} Unemployment with advanced education, female (% of female labor force with advanced education){p_end}
+{synopt:{opt SL.UEM.ADVN.MA.ZS}} Unemployment with advanced education, male (% of male labor force with advanced education){p_end}
+{synopt:{opt SL.UEM.ADVN.ZS}} Unemployment with advanced education (% of total labor force with advanced education){p_end}
+{synopt:{opt SL.UEM.BASC.FE.ZS}} Unemployment with basic education, female (% of female labor force with basic education){p_end}
+{synopt:{opt SL.UEM.BASC.MA.ZS}} Unemployment with basic education, male (% of male labor force with basic education){p_end}
+{synopt:{opt SL.UEM.BASC.ZS}} Unemployment with basic education (% of total labor force with basic education){p_end}
+{synopt:{opt SL.UEM.INTM.FE.ZS}} Unemployment with intermediate education, female (% of female labor force with intermediate education){p_end}
+{synopt:{opt SL.UEM.INTM.MA.ZS}} Unemployment with intermediate education, male (% of male labor force with intermediate education){p_end}
+{synopt:{opt SL.UEM.INTM.ZS}} Unemployment with intermediate education (% of total labor force with intermediate education){p_end}
+{synopt:{opt SL.UEM.LTRM.FE.ZS}} Long-term unemployment, female (% of female unemployment){p_end}
+{synopt:{opt SL.UEM.LTRM.MA.ZS}} Long-term unemployment, male (% of male unemployment){p_end}
+{synopt:{opt SL.UEM.LTRM.ZS}} Long-term unemployment (% of total unemployment){p_end}
+{synopt:{opt SL.UEM.NEET.FE.ZS}} Share of youth not in education, employment or training, female (% of female youth population){p_end}
+{synopt:{opt SL.UEM.NEET.MA.ZS}} Share of youth not in education, employment or training, male (% of male youth population){p_end}
+{synopt:{opt SL.UEM.NEET.ZS}} Share of youth not in education, employment or training, total (% of youth population){p_end}
+{synopt:{opt SL.UEM.PRIM.FE.ZS}} Unemployment with primary education, female (% of female unemployment){p_end}
+{synopt:{opt SL.UEM.PRIM.MA.ZS}} Unemployment with primary education, male (% of male unemployment){p_end}
+{synopt:{opt SL.UEM.PRIM.ZS}} Unemployment with primary education (% of total unemployment){p_end}
+{synopt:{opt SL.UEM.SECO.FE.ZS}} Unemployment with secondary education, female (% of female unemployment){p_end}
+{synopt:{opt SL.UEM.SECO.MA.ZS}} Unemployment with secondary education, male (% of male unemployment){p_end}
+{synopt:{opt SL.UEM.SECO.ZS}} Unemployment with secondary education (% of total unemployment){p_end}
+{synopt:{opt SL.UEM.TERT.FE.ZS}} Unemployment with tertiary education, female (% of female unemployment){p_end}
+{synopt:{opt SL.UEM.TERT.MA.ZS}} Unemployment with tertiary education, male (% of male unemployment){p_end}
+{synopt:{opt SL.UEM.TERT.ZS}} Unemployment with tertiary education (% of total unemployment){p_end}
+{synopt:{opt SL.UEM.TOTL.FE.NE.ZS}} Unemployment, female (% of female labor force) (national estimate){p_end}
+{synopt:{opt SL.UEM.TOTL.FE.ZS}} Unemployment, female (% of female labor force) (modeled ILO estimate){p_end}
+{synopt:{opt SL.UEM.TOTL.MA.NE.ZS}} Unemployment, male (% of male labor force) (national estimate){p_end}
+{synopt:{opt SL.UEM.TOTL.MA.ZS}} Unemployment, male (% of male labor force) (modeled ILO estimate){p_end}
+{synopt:{opt SL.UEM.TOTL.NE.ZS}} Unemployment, total (% of total labor force) (national estimate){p_end}
+{synopt:{opt SL.UEM.TOTL.ZS}} Unemployment, total (% of total labor force) (modeled ILO estimate){p_end}
+{synopt:{opt SL.UEM.TOTL}} Number of people unemployed{p_end}
+{synopt:{opt SL.WAG.0714.FE.ZS}} Children in employment, wage workers, female (% of female children in employment, ages 7-14){p_end}
+{synopt:{opt SL.WAG.0714.MA.ZS}} Children in employment, wage workers, male (% of male children in employment, ages 7-14){p_end}
+{synopt:{opt SL.WAG.0714.ZS}} Children in employment, wage workers (% of children in employment, ages 7-14){p_end}
+{synopt:{opt SM.EMI.TERT.ZS}} Emigration rate of tertiary educated (% of total tertiary educated population){p_end}
+{synopt:{opt SM.MMR.DTHS}} Number of maternal mortality deaths{p_end}
+{synopt:{opt SM.POP.FRGN.ZS}} Foreign population (% of total population){p_end}
+{synopt:{opt SM.POP.FRGN}} Foreign population{p_end}
+{synopt:{opt SM.POP.IASY}} Inflows of asylum seekers{p_end}
+{synopt:{opt SM.POP.IFRN}} Inflows of foreign population{p_end}
+{synopt:{opt SM.POP.NETM}} Net migration{p_end}
+{synopt:{opt SM.POP.REFG.OR}} Refugee population by country or territory of origin{p_end}
+{synopt:{opt SM.POP.REFG}} Refugee population by country or territory of asylum{p_end}
+{synopt:{opt SM.POP.TOTL.ZS}} International migrant stock (% of population){p_end}
+{synopt:{opt SM.POP.TOTL}} International migrant stock, total{p_end}
+{synopt:{opt SM.TLF.FRGN.ZS}} Foreign labor force (% of total labor force){p_end}
+{synopt:{opt SM.TLF.IFRN}} Inflows of foreign workers{p_end}
+{synopt:{opt SN.ITK.DEFC.POP}} Prevalence of undernourishment (population){p_end}
+{synopt:{opt SN.ITK.DEFC.ZS}} Prevalence of undernourishment (% of population){p_end}
+{synopt:{opt SN.ITK.DEFC}} Number of people who are undernourished{p_end}
+{synopt:{opt SN.ITK.DFCT}} Depth of the food deficit (kilocalories per person per day){p_end}
+{synopt:{opt SN.ITK.DPTH}} Depth of hunger (kilocalories per person per day){p_end}
+{synopt:{opt SN.ITK.SALT.ZS}} Consumption of iodized salt (% of households){p_end}
+{synopt:{opt SN.ITK.VAPP.Q1.ZS}} Vitamin A supplements for postpartum women (% of women with a birth): Q1 (lowest){p_end}
+{synopt:{opt SN.ITK.VAPP.Q2.ZS}} Vitamin A supplements for postpartum women (% of women with a birth): Q2{p_end}
+{synopt:{opt SN.ITK.VAPP.Q3.ZS}} Vitamin A supplements for postpartum women (% of women with a birth): Q3{p_end}
+{synopt:{opt SN.ITK.VAPP.Q4.ZS}} Vitamin A supplements for postpartum women (% of women with a birth): Q4{p_end}
+{synopt:{opt SN.ITK.VAPP.Q5.ZS}} Vitamin A supplements for postpartum women (% of women with a birth): Q5 (highest){p_end}
+{synopt:{opt SN.ITK.VITA.Q1.ZS}} Vitamin A supplements for children (% of children ages 6-59 months): Q1 (lowest){p_end}
+{synopt:{opt SN.ITK.VITA.Q2.ZS}} Vitamin A supplements for children (% of children ages 6-59 months): Q2{p_end}
+{synopt:{opt SN.ITK.VITA.Q3.ZS}} Vitamin A supplements for children (% of children ages 6-59 months): Q3{p_end}
+{synopt:{opt SN.ITK.VITA.Q4.ZS}} Vitamin A supplements for children (% of children ages 6-59 months): Q4{p_end}
+{synopt:{opt SN.ITK.VITA.Q5.ZS}} Vitamin A supplements for children (% of children ages 6-59 months): Q5 (highest){p_end}
+{synopt:{opt SN.ITK.VITA.ZS}} Vitamin A supplementation coverage rate (% of children ages 6-59 months){p_end}
+{synopt:{opt SN.PRD.FOOD.ZC}} Food Production, per capita (1980=100){p_end}
+{synopt:{opt SN.PRD.FOOD}} Food Production, per capita (1979-81=100){p_end}
+{synopt:{opt SN.SH.STA.MALN.ZS}} Sub-National Malnutrition prevalence, weight for age (% of children under 5){p_end}
+{synopt:{opt SN.SH.STA.OWGH.ZS}} Sub-National Prevalence of overweight (% of children under 5){p_end}
+{synopt:{opt SN.SH.STA.STNT.ZS}} Sub-National Malnutrition prevalence, height for age (% of children under 5){p_end}
+{synopt:{opt SN.SH.STA.WAST.ZS}} Sub-National Prevalence of wasting (% of children under 5){p_end}
+{synopt:{opt SN.SH.SVR.WAST.ZS}} Sub-National Prevalence of severe wasting, weight for height (% of children under 5){p_end}
+{synopt:{opt SN.STA.FPRD}} Food Production per capita (1987=100){p_end}
+{synopt:{opt SP.ADO.TFRT}} Adolescent fertility rate (births per 1,000 women ages 15-19){p_end}
+{synopt:{opt SP.BRT.CRUD.ZT}} Crude Birth Rate (per 1000 population){p_end}
+{synopt:{opt SP.DTH.INFR.ZS}} Completeness of infant death reporting (% of reported infant deaths to estimated infant deaths){p_end}
+{synopt:{opt SP.DTH.REPT.ZS}} Completeness of total death reporting (% of reported total deaths to estimated total deaths){p_end}
+{synopt:{opt SP.DYN.1ANTE.ZS}} Antenatal care coverage provided by a skilled health provider, at least one visit (%){p_end}
+{synopt:{opt SP.DYN.4ANTE.ZS}} Antenatal care coverage provided by any provider (skilled or unskilled), at least four visits (%){p_end}
+{synopt:{opt SP.DYN.AMRT.FE}} Mortality rate, adult, female (per 1,000 female adults){p_end}
+{synopt:{opt SP.DYN.AMRT.MA}} Mortality rate, adult, male (per 1,000 male adults){p_end}
+{synopt:{opt SP.DYN.CBRT.IN}} Birth rate, crude (per 1,000 people){p_end}
+{synopt:{opt SP.DYN.CBRT}} Crude Birth Rate (per thousand population){p_end}
+{synopt:{opt SP.DYN.CDRT.IN}} Death rate, crude (per 1,000 people){p_end}
+{synopt:{opt SP.DYN.CEBN.Q1}} Mean number of children ever born to women aged 40-49: Q1 (lowest){p_end}
+{synopt:{opt SP.DYN.CEBN.Q2}} Mean number of children ever born to women aged 40-49: Q2{p_end}
+{synopt:{opt SP.DYN.CEBN.Q3}} Mean number of children ever born to women aged 40-49: Q3{p_end}
+{synopt:{opt SP.DYN.CEBN.Q4}} Mean number of children ever born to women aged 40-49: Q4{p_end}
+{synopt:{opt SP.DYN.CEBN.Q5}} Mean number of children ever born to women aged 40-49: Q5 (highest){p_end}
+{synopt:{opt SP.DYN.CONM.Q1.ZS}} Current use of contraception (modern method) (% of married women): Q1 (lowest){p_end}
+{synopt:{opt SP.DYN.CONM.Q2.ZS}} Current use of contraception (modern method) (% of married women): Q2{p_end}
+{synopt:{opt SP.DYN.CONM.Q3.ZS}} Current use of contraception (modern method) (% of married women): Q3{p_end}
+{synopt:{opt SP.DYN.CONM.Q4.ZS}} Current use of contraception (modern method) (% of married women): Q4{p_end}
+{synopt:{opt SP.DYN.CONM.Q5.ZS}} Current use of contraception (modern method) (% of married women): Q5 (highest){p_end}
+{synopt:{opt SP.DYN.CONM.ZS}} Contraceptive prevalence, modern methods (% of women ages 15-49){p_end}
+{synopt:{opt SP.DYN.CONU.CDM.ZS}} Contraceptive use among married women 15-49 years old, condom (%){p_end}
+{synopt:{opt SP.DYN.CONU.MDN.ZS}} Contraceptive use among married women 15-49 years old, modern method (%){p_end}
+{synopt:{opt SP.DYN.CONU.Q1.ZS}} Current use of contraception (any method) (% of married women): Q1 (lowest){p_end}
+{synopt:{opt SP.DYN.CONU.Q2.ZS}} Current use of contraception (any method) (% of married women): Q2{p_end}
+{synopt:{opt SP.DYN.CONU.Q3.ZS}} Current use of contraception (any method) (% of married women): Q3{p_end}
+{synopt:{opt SP.DYN.CONU.Q4.ZS}} Current use of contraception (any method) (% of married women): Q4{p_end}
+{synopt:{opt SP.DYN.CONU.Q5.ZS}} Current use of contraception (any method) (% of married women): Q5 (highest){p_end}
+{synopt:{opt SP.DYN.CONU.ZS}} Contraceptive prevalence, any methods (% of women ages 15-49){p_end}
+{synopt:{opt SP.DYN.IMRT.FE.IN}} Mortality rate, infant, female (per 1,000 live births){p_end}
+{synopt:{opt SP.DYN.IMRT.IN}} Mortality rate, infant (per 1,000 live births){p_end}
+{synopt:{opt SP.DYN.IMRT.MA.IN}} Mortality rate, infant, male (per 1,000 live births){p_end}
+{synopt:{opt SP.DYN.IMRT.Q1}} Infant mortality rate (per 1,000 live births): Q1 (lowest){p_end}
+{synopt:{opt SP.DYN.IMRT.Q2}} Infant mortality rate (per 1,000 live births): Q2{p_end}
+{synopt:{opt SP.DYN.IMRT.Q3}} Infant mortality rate (per 1,000 live births): Q3{p_end}
+{synopt:{opt SP.DYN.IMRT.Q4}} Infant mortality rate (per 1,000 live births): Q4{p_end}
+{synopt:{opt SP.DYN.IMRT.Q5}} Infant mortality rate (per 1,000 live births): Q5 (highest){p_end}
+{synopt:{opt SP.DYN.IMRT}} Infant Mortality Rate (per thousand live births){p_end}
+{synopt:{opt SP.DYN.LE00.FE.IN}} Life expectancy at birth, female (years){p_end}
+{synopt:{opt SP.DYN.LE00.IN}} Life expectancy at birth, total (years){p_end}
+{synopt:{opt SP.DYN.LE00.MA.IN}} Life expectancy at birth, male (years){p_end}
+{synopt:{opt SP.DYN.LE60.FE.IN}} Life expectancy at age 60, female (years){p_end}
+{synopt:{opt SP.DYN.LE60.MA.IN}} Life expectancy at age 60, male (years){p_end}
+{synopt:{opt SP.DYN.SMAM.FE}} Age at first marriage, female{p_end}
+{synopt:{opt SP.DYN.SMAM.MA}} Age at first marriage, male{p_end}
+{synopt:{opt SP.DYN.TFRT.IN}} Fertility rate, total (births per woman){p_end}
+{synopt:{opt SP.DYN.TFRT.Q1}} Total fertility rate (TFR) (births per woman): Q1 (lowest){p_end}
+{synopt:{opt SP.DYN.TFRT.Q2}} Total fertility rate (TFR) (births per woman): Q2{p_end}
+{synopt:{opt SP.DYN.TFRT.Q3}} Total fertility rate (TFR) (births per woman): Q3{p_end}
+{synopt:{opt SP.DYN.TFRT.Q4}} Total fertility rate (TFR) (births per woman): Q4{p_end}
+{synopt:{opt SP.DYN.TFRT.Q5}} Total fertility rate (TFR) (births per woman): Q5 (highest){p_end}
+{synopt:{opt SP.DYN.TFRT}} Total Fertility Rate (births per woman){p_end}
+{synopt:{opt SP.DYN.TO65.FE.ZS}} Survival to age 65, female (% of cohort){p_end}
+{synopt:{opt SP.DYN.TO65.MA.ZS}} Survival to age 65, male (% of cohort){p_end}
+{synopt:{opt SP.DYN.WFRT.Q1}} Total wanted fertility rate (births per woman): Q1 (lowest){p_end}
+{synopt:{opt SP.DYN.WFRT.Q2}} Total wanted fertility rate (births per woman): Q2{p_end}
+{synopt:{opt SP.DYN.WFRT.Q3}} Total wanted fertility rate (births per woman): Q3{p_end}
+{synopt:{opt SP.DYN.WFRT.Q4}} Total wanted fertility rate (births per woman): Q4{p_end}
+{synopt:{opt SP.DYN.WFRT.Q5}} Total wanted fertility rate (births per woman): Q5 (highest){p_end}
+{synopt:{opt SP.DYN.WFRT}} Wanted fertility rate (births per woman){p_end}
+{synopt:{opt SP.FER.TOTL.ZR}} Total Fertility Rate{p_end}
+{synopt:{opt SP.HOU.FEMA.ZS}} Female headed households (% of households with a female head){p_end}
+{synopt:{opt SP.M15.2024.FE.ZS}} Women who were first married by age 15 (% of women ages 20-24){p_end}
+{synopt:{opt SP.M18.2024.FE.ZS}} Women who were first married by age 18 (% of women ages 20-24){p_end}
+{synopt:{opt SP.MOR.INFA.ZT}} Infant Mortality Rate (per 1000 infants){p_end}
+{synopt:{opt SP.MTR.1519.Q1.ZS}} Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q1 (lowest){p_end}
+{synopt:{opt SP.MTR.1519.Q2.ZS}} Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q2{p_end}
+{synopt:{opt SP.MTR.1519.Q3.ZS}} Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q3{p_end}
+{synopt:{opt SP.MTR.1519.Q4.ZS}} Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q4{p_end}
+{synopt:{opt SP.MTR.1519.Q5.ZS}} Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q5 (highest){p_end}
+{synopt:{opt SP.MTR.1519.ZS}} Teenage mothers (% of women ages 15-19 who have had children or are currently pregnant){p_end}
+{synopt:{opt SP.POP.0004.FE.5Y}} Population ages 0-4, female (% of female population){p_end}
+{synopt:{opt SP.POP.0004.FE}} Female population 00-04{p_end}
+{synopt:{opt SP.POP.0004.MA.5Y}} Population ages 0-4, male (% of male population){p_end}
+{synopt:{opt SP.POP.0004.MA}} Male population 00-04{p_end}
+{synopt:{opt SP.POP.0014.FE.IN}} Population ages 0-14, female{p_end}
+{synopt:{opt SP.POP.0014.FE.ZS}} Population ages 0-14, female (% of total){p_end}
+{synopt:{opt SP.POP.0014.MA.IN}} Population ages 0-14, male{p_end}
+{synopt:{opt SP.POP.0014.MA.ZS}} Population ages 0-14, male (% of total){p_end}
+{synopt:{opt SP.POP.0014.TO.ZS}} Population ages 0-14 (% of total){p_end}
+{synopt:{opt SP.POP.0014.TO}} Population ages 0-14, total{p_end}
+{synopt:{opt SP.POP.0024.TO.ZS}} Population 0-24 (% of total population){p_end}
+{synopt:{opt SP.POP.0305.FE.UN}} Population, ages 3-5, female{p_end}
+{synopt:{opt SP.POP.0305.MA.UN}} Population, ages 3-5, male{p_end}
+{synopt:{opt SP.POP.0305.TO.UN}} Population, ages 3-5, total{p_end}
+{synopt:{opt SP.POP.0406.FE.UN}} Population, ages 4-6, female{p_end}
+{synopt:{opt SP.POP.0406.MA.UN}} Population, ages 4-6, male{p_end}
+{synopt:{opt SP.POP.0406.TO.UN}} Population, ages 4-6, total{p_end}
+{synopt:{opt SP.POP.0509.FE.5Y}} Population ages 5-9, female (% of female population){p_end}
+{synopt:{opt SP.POP.0509.FE.UN}} Population, ages 5-9, female{p_end}
+{synopt:{opt SP.POP.0509.FE}} Female population 05-09{p_end}
+{synopt:{opt SP.POP.0509.MA.5Y}} Population ages 5-9, male (% of male population){p_end}
+{synopt:{opt SP.POP.0509.MA.UN}} Population, ages 5-9, male{p_end}
+{synopt:{opt SP.POP.0509.MA}} Male population 05-09{p_end}
+{synopt:{opt SP.POP.0509.TO.UN}} Population, ages 5-9, total{p_end}
+{synopt:{opt SP.POP.0510.FE.UN}} Population, ages 5-10, female{p_end}
+{synopt:{opt SP.POP.0510.MA.UN}} Population, ages 5-10, male{p_end}
+{synopt:{opt SP.POP.0510.TO.UN}} Population, ages 5-10, total{p_end}
+{synopt:{opt SP.POP.0511.FE.UN}} Population, ages 5-11, female{p_end}
+{synopt:{opt SP.POP.0511.MA.UN}} Population, ages 5-11, male{p_end}
+{synopt:{opt SP.POP.0511.TO.UN}} Population, ages 5-11, total{p_end}
+{synopt:{opt SP.POP.0609.FE.UN}} Population, ages 6-9, female{p_end}
+{synopt:{opt SP.POP.0609.MA.UN}} Population, ages 6-9, male{p_end}
+{synopt:{opt SP.POP.0609.TO.UN}} Population, ages 6-9, total{p_end}
+{synopt:{opt SP.POP.0610.FE.UN}} Population, ages 6-10, female{p_end}
+{synopt:{opt SP.POP.0610.MA.UN}} Population, ages 6-10, male{p_end}
+{synopt:{opt SP.POP.0610.TO.UN}} Population, ages 6-10, total{p_end}
+{synopt:{opt SP.POP.0611.FE.UN}} Population, ages 6-11, female{p_end}
+{synopt:{opt SP.POP.0611.MA.UN}} Population, ages 6-11, male{p_end}
+{synopt:{opt SP.POP.0611.TO.UN}} Population, ages 6-11, total{p_end}
+{synopt:{opt SP.POP.0612.FE.UN}} Population, ages 6-12, female{p_end}
+{synopt:{opt SP.POP.0612.MA.UN}} Population, ages 6-12, male{p_end}
+{synopt:{opt SP.POP.0612.TO.UN}} Population, ages 6-12, total{p_end}
+{synopt:{opt SP.POP.0709.FE.UN}} Population, ages 7-9, female{p_end}
+{synopt:{opt SP.POP.0709.MA.UN}} Population, ages 7-9, male{p_end}
+{synopt:{opt SP.POP.0709.TO.UN}} Population, ages 7-9, total{p_end}
+{synopt:{opt SP.POP.0710.FE.UN}} Population, ages 7-10, female{p_end}
+{synopt:{opt SP.POP.0710.MA.UN}} Population, ages 7-10, male{p_end}
+{synopt:{opt SP.POP.0710.TO.UN}} Population, ages 7-10, total{p_end}
+{synopt:{opt SP.POP.0711.FE.UN}} Population, ages 7-11, female{p_end}
+{synopt:{opt SP.POP.0711.MA.UN}} Population, ages 7-11, male{p_end}
+{synopt:{opt SP.POP.0711.TO.UN}} Population, ages 7-11, total{p_end}
+{synopt:{opt SP.POP.0712.FE.UN}} Population, ages 7-12, female{p_end}
+{synopt:{opt SP.POP.0712.MA.UN}} Population, ages 7-12, male{p_end}
+{synopt:{opt SP.POP.0712.TO.UN}} Population, ages 7-12, total{p_end}
+{synopt:{opt SP.POP.0713.FE.UN}} Population, ages 7-13, female{p_end}
+{synopt:{opt SP.POP.0713.MA.UN}} Population, ages 7-13, male{p_end}
+{synopt:{opt SP.POP.0713.TO.UN}} Population, ages 7-13, total{p_end}
+{synopt:{opt SP.POP.1014.FE.5Y}} Population ages 10-14, female (% of female population){p_end}
+{synopt:{opt SP.POP.1014.FE.UN}} Population, ages 10-14, female{p_end}
+{synopt:{opt SP.POP.1014.FE}} Female population 10-14{p_end}
+{synopt:{opt SP.POP.1014.MA.5Y}} Population ages 10-14, male (% of male population){p_end}
+{synopt:{opt SP.POP.1014.MA.UN}} Population, ages 10-14, male{p_end}
+{synopt:{opt SP.POP.1014.MA}} Male population 10-14{p_end}
+{synopt:{opt SP.POP.1014.TO.UN}} Population, ages 10-14, total{p_end}
+{synopt:{opt SP.POP.1015.FE.UN}} Population, ages 10-15, female{p_end}
+{synopt:{opt SP.POP.1015.MA.UN}} Population, ages 10-15, male{p_end}
+{synopt:{opt SP.POP.1015.TO.UN}} Population, ages 10-15, total{p_end}
+{synopt:{opt SP.POP.1016.FE.UN}} Population, ages 10-16, female{p_end}
+{synopt:{opt SP.POP.1016.MA.UN}} Population, ages 10-16, male{p_end}
+{synopt:{opt SP.POP.1016.TO.UN}} Population, ages 10-16, total{p_end}
+{synopt:{opt SP.POP.1017.FE.UN}} Population, ages 10-17, female{p_end}
+{synopt:{opt SP.POP.1017.MA.UN}} Population, ages 10-17, male{p_end}
+{synopt:{opt SP.POP.1017.TO.UN}} Population, ages 10-17, total{p_end}
+{synopt:{opt SP.POP.1018.FE.UN}} Population, ages 10-18, female{p_end}
+{synopt:{opt SP.POP.1018.MA.UN}} Population, ages 10-18, male{p_end}
+{synopt:{opt SP.POP.1018.TO.UN}} Population, ages 10-18, total{p_end}
+{synopt:{opt SP.POP.1115.FE.UN}} Population, ages 11-15, female{p_end}
+{synopt:{opt SP.POP.1115.MA.UN}} Population, ages 11-15, male{p_end}
+{synopt:{opt SP.POP.1115.TO.UN}} Population, ages 11-15, total{p_end}
+{synopt:{opt SP.POP.1116.FE.UN}} Population, ages 11-16, female{p_end}
+{synopt:{opt SP.POP.1116.MA.UN}} Population, ages 11-16, male{p_end}
+{synopt:{opt SP.POP.1116.TO.UN}} Population, ages 11-16, total{p_end}
+{synopt:{opt SP.POP.1117.FE.UN}} Population, ages 11-17, female{p_end}
+{synopt:{opt SP.POP.1117.MA.UN}} Population, ages 11-17, male{p_end}
+{synopt:{opt SP.POP.1117.TO.UN}} Population, ages 11-17, total{p_end}
+{synopt:{opt SP.POP.1118.FE.UN}} Population, ages 11-18, female{p_end}
+{synopt:{opt SP.POP.1118.MA.UN}} Population, ages 11-18, male{p_end}
+{synopt:{opt SP.POP.1118.TO.UN}} Population, ages 11-18, total{p_end}
+{synopt:{opt SP.POP.1215.FE.UN}} Population, ages 12-15, female{p_end}
+{synopt:{opt SP.POP.1215.MA.UN}} Population, ages 12-15, male{p_end}
+{synopt:{opt SP.POP.1215.TO.UN}} Population, ages 12-15, total{p_end}
+{synopt:{opt SP.POP.1216.FE.UN}} Population, ages 12-16, female{p_end}
+{synopt:{opt SP.POP.1216.MA.UN}} Population, ages 12-16, male{p_end}
+{synopt:{opt SP.POP.1216.TO.UN}} Population, ages 12-16, total{p_end}
+{synopt:{opt SP.POP.1217.FE.UN}} Population, ages 12-17, female{p_end}
+{synopt:{opt SP.POP.1217.MA.UN}} Population, ages 12-17, male{p_end}
+{synopt:{opt SP.POP.1217.TO.UN}} Population, ages 12-17, total{p_end}
+{synopt:{opt SP.POP.1218.FE.UN}} Population, ages 12-18, female{p_end}
+{synopt:{opt SP.POP.1218.MA.UN}} Population, ages 12-18, male{p_end}
+{synopt:{opt SP.POP.1218.TO.UN}} Population, ages 12-18, total{p_end}
+{synopt:{opt SP.POP.1316.FE.UN}} Population, ages 13-16, female{p_end}
+{synopt:{opt SP.POP.1316.MA.UN}} Population, ages 13-16, male{p_end}
+{synopt:{opt SP.POP.1316.TO.UN}} Population, ages 13-16, total{p_end}
+{synopt:{opt SP.POP.1317.FE.UN}} Population, ages 13-17, female{p_end}
+{synopt:{opt SP.POP.1317.MA.UN}} Population, ages 13-17, male{p_end}
+{synopt:{opt SP.POP.1317.TO.UN}} Population, ages 13-17, total{p_end}
+{synopt:{opt SP.POP.1318.FE.UN}} Population, ages 13-18, female{p_end}
+{synopt:{opt SP.POP.1318.MA.UN}} Population, ages 13-18, male{p_end}
+{synopt:{opt SP.POP.1318.TO.UN}} Population, ages 13-18, total{p_end}
+{synopt:{opt SP.POP.1319.FE.UN}} Population, ages 13-19, female{p_end}
+{synopt:{opt SP.POP.1319.MA.UN}} Population, ages 13-19, male{p_end}
+{synopt:{opt SP.POP.1319.TO.UN}} Population, ages 13-19, total{p_end}
+{synopt:{opt SP.POP.1418.FE.UN}} Population, ages 14-18, female{p_end}
+{synopt:{opt SP.POP.1418.MA.UN}} Population, ages 14-18, male{p_end}
+{synopt:{opt SP.POP.1418.TO.UN}} Population, ages 14-18, total{p_end}
+{synopt:{opt SP.POP.1419.FE.UN}} Population, ages 14-19, female{p_end}
+{synopt:{opt SP.POP.1419.MA.UN}} Population, ages 14-19, male{p_end}
+{synopt:{opt SP.POP.1419.TO.UN}} Population, ages 14-19, total{p_end}
+{synopt:{opt SP.POP.1519.FE.5Y}} Population ages 15-19, female (% of female population){p_end}
+{synopt:{opt SP.POP.1519.FE}} Female population 15-19{p_end}
+{synopt:{opt SP.POP.1519.MA.5Y}} Population ages 15-19, male (% of male population){p_end}
+{synopt:{opt SP.POP.1519.MA}} Male population 15-19{p_end}
+{synopt:{opt SP.POP.1524.FE.UN}} Population, ages 15-24, female{p_end}
+{synopt:{opt SP.POP.1524.MA.UN}} Population, ages 15-24, male{p_end}
+{synopt:{opt SP.POP.1524.TO.UN}} Population, ages 15-24, total{p_end}
+{synopt:{opt SP.POP.1564.FE.IN}} Population ages 15-64, female{p_end}
+{synopt:{opt SP.POP.1564.FE.ZS}} Population ages 15-64, female (% of total){p_end}
+{synopt:{opt SP.POP.1564.IN.ZS}} Population ages 15-64 (% of total){p_end}
+{synopt:{opt SP.POP.1564.IN}} Population aged 15-64, total{p_end}
+{synopt:{opt SP.POP.1564.MA.IN}} Population ages 15-64, male{p_end}
+{synopt:{opt SP.POP.1564.MA.ZS}} Population ages 15-64, male (% of total){p_end}
+{synopt:{opt SP.POP.1564.TO.ZS}} Population ages 15-64 (% of total){p_end}
+{synopt:{opt SP.POP.1564.TO}} Population ages 15-64, total{p_end}
+{synopt:{opt SP.POP.2024.FE.5Y}} Population ages 20-24, female (% of female population){p_end}
+{synopt:{opt SP.POP.2024.FE}} Female population 20-24{p_end}
+{synopt:{opt SP.POP.2024.MA.5Y}} Population ages 20-24, male (% of male population){p_end}
+{synopt:{opt SP.POP.2024.MA}} Male population 20-24{p_end}
+{synopt:{opt SP.POP.2529.FE.5Y}} Population ages 25-29, female (% of female population){p_end}
+{synopt:{opt SP.POP.2529.FE}} Female population 25-29{p_end}
+{synopt:{opt SP.POP.2529.MA.5Y}} Population ages 25-29, male (% of male population){p_end}
+{synopt:{opt SP.POP.2529.MA}} Male population 25-29{p_end}
+{synopt:{opt SP.POP.3034.FE.5Y}} Population ages 30-34, female (% of female population){p_end}
+{synopt:{opt SP.POP.3034.FE}} Female population 30-34{p_end}
+{synopt:{opt SP.POP.3034.MA.5Y}} Population ages 30-34, male (% of male population){p_end}
+{synopt:{opt SP.POP.3034.MA}} Male population 30-34{p_end}
+{synopt:{opt SP.POP.3539.FE.5Y}} Population ages 35-39, female (% of female population){p_end}
+{synopt:{opt SP.POP.3539.FE}} Female population 35-39{p_end}
+{synopt:{opt SP.POP.3539.MA.5Y}} Population ages 35-39, male (% of male population){p_end}
+{synopt:{opt SP.POP.3539.MA}} Male population 35-39{p_end}
+{synopt:{opt SP.POP.4044.FE.5Y}} Population ages 40-44, female (% of female population){p_end}
+{synopt:{opt SP.POP.4044.FE}} Female population 40-44{p_end}
+{synopt:{opt SP.POP.4044.MA.5Y}} Population ages 40-44, male (% of male population){p_end}
+{synopt:{opt SP.POP.4044.MA}} Male population 40-44{p_end}
+{synopt:{opt SP.POP.4549.FE.5Y}} Population ages 45-49, female (% of female population){p_end}
+{synopt:{opt SP.POP.4549.FE}} Female population 45-49{p_end}
+{synopt:{opt SP.POP.4549.MA.5Y}} Population ages 45-49, male (% of male population){p_end}
+{synopt:{opt SP.POP.4549.MA}} Male population 45-49{p_end}
+{synopt:{opt SP.POP.5054.FE.5Y}} Population ages 50-54, female (% of female population){p_end}
+{synopt:{opt SP.POP.5054.FE}} Female population 50-54{p_end}
+{synopt:{opt SP.POP.5054.MA.5Y}} Population ages 50-54, male (% of male population){p_end}
+{synopt:{opt SP.POP.5054.MA}} Male population 50-54{p_end}
+{synopt:{opt SP.POP.5559.FE.5Y}} Population ages 55-59, female (% of female population){p_end}
+{synopt:{opt SP.POP.5559.FE}} Female population 55-59{p_end}
+{synopt:{opt SP.POP.5559.MA.5Y}} Population ages 55-59, male (% of male population){p_end}
+{synopt:{opt SP.POP.5559.MA}} Male population 55-59{p_end}
+{synopt:{opt SP.POP.6064.FE.5Y}} Population ages 60-64, female (% of female population){p_end}
+{synopt:{opt SP.POP.6064.FE}} Female population 60-64{p_end}
+{synopt:{opt SP.POP.6064.MA.5Y}} Population ages 60-64, male (% of male population){p_end}
+{synopt:{opt SP.POP.6064.MA}} Male population 60-64{p_end}
+{synopt:{opt SP.POP.6569.FE.5Y}} Population ages 65-69, female (% of female population){p_end}
+{synopt:{opt SP.POP.6569.FE}} Female population 65-69{p_end}
+{synopt:{opt SP.POP.6569.MA.5Y}} Population ages 65-69, male (% of male population){p_end}
+{synopt:{opt SP.POP.6569.MA}} Male population 65-69{p_end}
+{synopt:{opt SP.POP.65UP.FE.IN}} Population ages 65 and above, female{p_end}
+{synopt:{opt SP.POP.65UP.FE.ZS}} Population ages 65 and above, female (% of total){p_end}
+{synopt:{opt SP.POP.65UP.MA.IN}} Population ages 65 and above, male{p_end}
+{synopt:{opt SP.POP.65UP.MA.ZS}} Population ages 65 and above, male (% of total){p_end}
+{synopt:{opt SP.POP.65UP.MF.ZS}} Women ages 65 and above (per 100 men){p_end}
+{synopt:{opt SP.POP.65UP.TO.ZS}} Population ages 65 and above (% of total){p_end}
+{synopt:{opt SP.POP.65UP.TO}} Population ages 65 and above, total{p_end}
+{synopt:{opt SP.POP.7074.FE.5Y}} Population ages 70-74, female (% of female population){p_end}
+{synopt:{opt SP.POP.7074.FE}} Female population 70-74{p_end}
+{synopt:{opt SP.POP.7074.MA.5Y}} Population ages 70-74, male (% of male population){p_end}
+{synopt:{opt SP.POP.7074.MA}} Male population 70-74{p_end}
+{synopt:{opt SP.POP.7579.FE.5Y}} Population ages 75-79, female (% of female population){p_end}
+{synopt:{opt SP.POP.7579.FE}} Female population 75-79{p_end}
+{synopt:{opt SP.POP.7579.MA.5Y}} Population ages 75-79, male (% of male population){p_end}
+{synopt:{opt SP.POP.7579.MA}} Male population 75-79{p_end}
+{synopt:{opt SP.POP.80UP.FE.5Y}} Population ages 80 and above, female (% of female population){p_end}
+{synopt:{opt SP.POP.80UP.FE}} Female population 80+{p_end}
+{synopt:{opt SP.POP.80UP.MA.5Y}} Population ages 80 and above, male (% of male population){p_end}
+{synopt:{opt SP.POP.80UP.MA}} Male population 80+{p_end}
+{synopt:{opt SP.POP.AG00.FE.IN}} Age population, age 0, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG00.FE.UN}} Population, age 0, female{p_end}
+{synopt:{opt SP.POP.AG00.MA.IN}} Age population, age 0, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG00.MA.UN}} Population, age 0, male{p_end}
+{synopt:{opt SP.POP.AG00.TO.UN}} Population, age 0, total{p_end}
+{synopt:{opt SP.POP.AG01.FE.IN}} Age population, age 01, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG01.FE.UN}} Population, age 1, female{p_end}
+{synopt:{opt SP.POP.AG01.MA.IN}} Age population, age 01, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG01.MA.UN}} Population, age 1, male{p_end}
+{synopt:{opt SP.POP.AG01.TO.UN}} Population, age 1, total{p_end}
+{synopt:{opt SP.POP.AG02.FE.IN}} Age population, age 02, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG02.FE.UN}} Population, age 2, female{p_end}
+{synopt:{opt SP.POP.AG02.MA.IN}} Age population, age 02, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG02.MA.UN}} Population, age 2, male{p_end}
+{synopt:{opt SP.POP.AG02.TO.UN}} Population, age 2, total{p_end}
+{synopt:{opt SP.POP.AG03.FE.IN}} Age population, age 03, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG03.FE.UN}} Population, age 3, female{p_end}
+{synopt:{opt SP.POP.AG03.MA.IN}} Age population, age 03, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG03.MA.UN}} Population, age 3, male{p_end}
+{synopt:{opt SP.POP.AG03.TO.UN}} Population, age 3, total{p_end}
+{synopt:{opt SP.POP.AG04.FE.IN}} Age population, age 04, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG04.FE.UN}} Population, age 4, female{p_end}
+{synopt:{opt SP.POP.AG04.MA.IN}} Age population, age 04, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG04.MA.UN}} Population, age 4, male{p_end}
+{synopt:{opt SP.POP.AG04.TO.UN}} Population, age 4, total{p_end}
+{synopt:{opt SP.POP.AG05.FE.IN}} Age population, age 05, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG05.FE.UN}} Population, age 5, female{p_end}
+{synopt:{opt SP.POP.AG05.MA.IN}} Age population, age 05, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG05.MA.UN}} Population, age 5, male{p_end}
+{synopt:{opt SP.POP.AG05.TO.UN}} Population, age 5, total{p_end}
+{synopt:{opt SP.POP.AG06.FE.IN}} Age population, age 06, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG06.FE.UN}} Population, age 6, female{p_end}
+{synopt:{opt SP.POP.AG06.MA.IN}} Age population, age 06, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG06.MA.UN}} Population, age 6, male{p_end}
+{synopt:{opt SP.POP.AG06.TO.UN}} Population, age 6, total{p_end}
+{synopt:{opt SP.POP.AG07.FE.IN}} Age population, age 07, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG07.FE.UN}} Population, age 7, female{p_end}
+{synopt:{opt SP.POP.AG07.MA.IN}} Age population, age 07, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG07.MA.UN}} Population, age 7, male{p_end}
+{synopt:{opt SP.POP.AG07.TO.UN}} Population, age 7, total{p_end}
+{synopt:{opt SP.POP.AG08.FE.IN}} Age population, age 08, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG08.FE.UN}} Population, age 8, female{p_end}
+{synopt:{opt SP.POP.AG08.MA.IN}} Age population, age 08, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG08.MA.UN}} Population, age 8, male{p_end}
+{synopt:{opt SP.POP.AG08.TO.UN}} Population, age 8, total{p_end}
+{synopt:{opt SP.POP.AG09.FE.IN}} Age population, age 09, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG09.FE.UN}} Population, age 9, female{p_end}
+{synopt:{opt SP.POP.AG09.MA.IN}} Age population, age 09, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG09.MA.UN}} Population, age 9, male{p_end}
+{synopt:{opt SP.POP.AG09.TO.UN}} Population, age 9, total{p_end}
+{synopt:{opt SP.POP.AG10.FE.IN}} Age population, age 10, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG10.FE.UN}} Population, age 10, female{p_end}
+{synopt:{opt SP.POP.AG10.MA.IN}} Age population, age 10, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG10.MA.UN}} Population, age 10, male{p_end}
+{synopt:{opt SP.POP.AG10.TO.UN}} Population, age 10, total{p_end}
+{synopt:{opt SP.POP.AG11.FE.IN}} Age population, age 11, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG11.FE.UN}} Population, age 11, female{p_end}
+{synopt:{opt SP.POP.AG11.MA.IN}} Age population, age 11, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG11.MA.UN}} Population, age 11, male{p_end}
+{synopt:{opt SP.POP.AG11.TO.UN}} Population, age 11, total{p_end}
+{synopt:{opt SP.POP.AG12.FE.IN}} Age population, age 12, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG12.FE.UN}} Population, age 12, female{p_end}
+{synopt:{opt SP.POP.AG12.MA.IN}} Age population, age 12, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG12.MA.UN}} Population, age 12, male{p_end}
+{synopt:{opt SP.POP.AG12.TO.UN}} Population, age 12, total{p_end}
+{synopt:{opt SP.POP.AG13.FE.IN}} Age population, age 13, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG13.FE.UN}} Population, age 13, female{p_end}
+{synopt:{opt SP.POP.AG13.MA.IN}} Age population, age 13, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG13.MA.UN}} Population, age 13, male{p_end}
+{synopt:{opt SP.POP.AG13.TO.UN}} Population, age 13, total{p_end}
+{synopt:{opt SP.POP.AG14.FE.IN}} Age population, age 14, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG14.FE.UN}} Population, age 14, female{p_end}
+{synopt:{opt SP.POP.AG14.MA.IN}} Age population, age 14, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG14.MA.UN}} Population, age 14, male{p_end}
+{synopt:{opt SP.POP.AG14.TO.UN}} Population, age 14, total{p_end}
+{synopt:{opt SP.POP.AG15.FE.IN}} Age population, age 15, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG15.FE.UN}} Population, age 15, female{p_end}
+{synopt:{opt SP.POP.AG15.MA.IN}} Age population, age 15, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG15.MA.UN}} Population, age 15, male{p_end}
+{synopt:{opt SP.POP.AG15.TO.UN}} Population, age 15, total{p_end}
+{synopt:{opt SP.POP.AG16.FE.IN}} Age population, age 16, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG16.FE.UN}} Population, age 16, female{p_end}
+{synopt:{opt SP.POP.AG16.MA.IN}} Age population, age 16, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG16.MA.UN}} Population, age 16, male{p_end}
+{synopt:{opt SP.POP.AG16.TO.UN}} Population, age 16, total{p_end}
+{synopt:{opt SP.POP.AG17.FE.IN}} Age population, age 17, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG17.FE.UN}} Population, age 17, female{p_end}
+{synopt:{opt SP.POP.AG17.MA.IN}} Age population, age 17, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG17.MA.UN}} Population, age 17, male{p_end}
+{synopt:{opt SP.POP.AG17.TO.UN}} Population, age 17, total{p_end}
+{synopt:{opt SP.POP.AG18.FE.IN}} Age population, age 18, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG18.FE.UN}} Population, age 18, female{p_end}
+{synopt:{opt SP.POP.AG18.MA.IN}} Age population, age 18, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG18.MA.UN}} Population, age 18, male{p_end}
+{synopt:{opt SP.POP.AG18.TO.UN}} Population, age 18, total{p_end}
+{synopt:{opt SP.POP.AG19.FE.IN}} Age population, age 19, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG19.FE.UN}} Population, age 19, female{p_end}
+{synopt:{opt SP.POP.AG19.MA.IN}} Age population, age 19, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG19.MA.UN}} Population, age 19, male{p_end}
+{synopt:{opt SP.POP.AG19.TO.UN}} Population, age 19, total{p_end}
+{synopt:{opt SP.POP.AG20.FE.IN}} Age population, age 20, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG20.FE.UN}} Population, age 20, female{p_end}
+{synopt:{opt SP.POP.AG20.MA.IN}} Age population, age 20, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG20.MA.UN}} Population, age 20, male{p_end}
+{synopt:{opt SP.POP.AG20.TO.UN}} Population, age 20, total{p_end}
+{synopt:{opt SP.POP.AG21.FE.IN}} Age population, age 21, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG21.FE.UN}} Population, age 21, female{p_end}
+{synopt:{opt SP.POP.AG21.MA.IN}} Age population, age 21, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG21.MA.UN}} Population, age 21, male{p_end}
+{synopt:{opt SP.POP.AG21.TO.UN}} Population, age 21, total{p_end}
+{synopt:{opt SP.POP.AG22.FE.IN}} Age population, age 22, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG22.FE.UN}} Population, age 22, female{p_end}
+{synopt:{opt SP.POP.AG22.MA.IN}} Age population, age 22, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG22.MA.UN}} Population, age 22, male{p_end}
+{synopt:{opt SP.POP.AG22.TO.UN}} Population, age 22, total{p_end}
+{synopt:{opt SP.POP.AG23.FE.IN}} Age population, age 23, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG23.FE.UN}} Population, age 23, female{p_end}
+{synopt:{opt SP.POP.AG23.MA.IN}} Age population, age 23, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG23.MA.UN}} Population, age 23, male{p_end}
+{synopt:{opt SP.POP.AG23.TO.UN}} Population, age 23, total{p_end}
+{synopt:{opt SP.POP.AG24.FE.IN}} Age population, age 24, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG24.FE.UN}} Population, age 24, female{p_end}
+{synopt:{opt SP.POP.AG24.MA.IN}} Age population, age 24, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG24.MA.UN}} Population, age 24, male{p_end}
+{synopt:{opt SP.POP.AG24.TO.UN}} Population, age 24, tota{p_end}
+{synopt:{opt SP.POP.AG25.FE.IN}} Age population, age 25, female, interpolated{p_end}
+{synopt:{opt SP.POP.AG25.FE.UN}} Population, age 25, female{p_end}
+{synopt:{opt SP.POP.AG25.MA.IN}} Age population, age 25, male, interpolated{p_end}
+{synopt:{opt SP.POP.AG25.MA.UN}} Population, age 25, male{p_end}
+{synopt:{opt SP.POP.AG25.TO.UN}} Population, age 25, total{p_end}
+{synopt:{opt SP.POP.BRTH.MF}} Sex ratio at birth (male births per female births){p_end}
+{synopt:{opt SP.POP.DPND.OL}} Age dependency ratio, old (% of working-age population){p_end}
+{synopt:{opt SP.POP.DPND.YG}} Age dependency ratio, young (% of working-age population){p_end}
+{synopt:{opt SP.POP.DPND}} Age dependency ratio (% of working-age population){p_end}
+{synopt:{opt SP.POP.GROW}} Population growth (annual %){p_end}
+{synopt:{opt SP.POP.LAND.ZS}} Population density (people per sq km){p_end}
+{synopt:{opt SP.POP.SCIE.RD.P6}} Researchers in R&amp;D (per million people){p_end}
+{synopt:{opt SP.POP.SCIE.RD}} Scientists and engineers in research and dev. (per million people){p_end}
+{synopt:{opt SP.POP.TECH.RD.P6}} Technicians in R&amp;D (per million people){p_end}
+{synopt:{opt SP.POP.TECH.RD}} Technicians in research and development  (per million people){p_end}
+{synopt:{opt SP.POP.TOTL.FE.IN}} Population, female{p_end}
+{synopt:{opt SP.POP.TOTL.FE.ZS}} Population, female (% of total){p_end}
+{synopt:{opt SP.POP.TOTL.MA.IN}} Population, male{p_end}
+{synopt:{opt SP.POP.TOTL.MA.ZS}} Population, male (% of total){p_end}
+{synopt:{opt SP.POP.TOTL.ZS}} Population (% of total){p_end}
+{synopt:{opt SP.POP.TOTL}} Population, total{p_end}
+{synopt:{opt SP.PRE.TOTL.FE.IN}} School age population, pre-primary education, female (number){p_end}
+{synopt:{opt SP.PRE.TOTL.IN}} School age population, pre-primary education, both sexes (number){p_end}
+{synopt:{opt SP.PRE.TOTL.MA.IN}} School age population, pre-primary education, male (number){p_end}
+{synopt:{opt SP.PRM.GRAD.FE}} School age population, last grade of primary education, female (number){p_end}
+{synopt:{opt SP.PRM.GRAD.MA}} School age population, last grade of primary education, male (number){p_end}
+{synopt:{opt SP.PRM.GRAD.TO}} School age population, last grade of primary education, both sexes (number){p_end}
+{synopt:{opt SP.PRM.TOTL.FE.IN}} School age population, primary education, female (number){p_end}
+{synopt:{opt SP.PRM.TOTL.IN}} School age population, primary education, both sexes (number){p_end}
+{synopt:{opt SP.PRM.TOTL.MA.IN}} School age population, primary education, male (number){p_end}
+{synopt:{opt SP.REG.BRTH.FE.ZS}} Completeness of birth registration, female (%){p_end}
+{synopt:{opt SP.REG.BRTH.MA.ZS}} Completeness of birth registration, male (%){p_end}
+{synopt:{opt SP.REG.BRTH.Q1.ZS}} Completeness of birth registration (%): Q1 (lowest){p_end}
+{synopt:{opt SP.REG.BRTH.Q2.ZS}} Completeness of birth registration (%): Q2{p_end}
+{synopt:{opt SP.REG.BRTH.Q3.ZS}} Completeness of birth registration (%): Q3{p_end}
+{synopt:{opt SP.REG.BRTH.Q4.ZS}} Completeness of birth registration (%): Q4{p_end}
+{synopt:{opt SP.REG.BRTH.Q5.ZS}} Completeness of birth registration (%): Q5 (highest){p_end}
+{synopt:{opt SP.REG.BRTH.RU.ZS}} Completeness of birth registration, rural (%){p_end}
+{synopt:{opt SP.REG.BRTH.UR.ZS}} Completeness of birth registration, urban (%){p_end}
+{synopt:{opt SP.REG.BRTH.ZS}} Completeness of birth registration (%){p_end}
+{synopt:{opt SP.REG.DTHS.ZS}} Completeness of death registration with cause-of-death information (%){p_end}
+{synopt:{opt SP.RUR.TOTL.FE.ZS}} Rural population, female (% of total){p_end}
+{synopt:{opt SP.RUR.TOTL.MA.ZS}} Rural population, male (% of total){p_end}
+{synopt:{opt SP.RUR.TOTL.ZG}} Rural population growth (annual %){p_end}
+{synopt:{opt SP.RUR.TOTL.ZS}} Rural population (% of total population){p_end}
+{synopt:{opt SP.RUR.TOTL}} Rural population{p_end}
+{synopt:{opt SP.SEC.LTOT.FE.IN}} School age population, lower secondary education, female (number){p_end}
+{synopt:{opt SP.SEC.LTOT.IN}} School age population, lower secondary education, both sexes (number){p_end}
+{synopt:{opt SP.SEC.LTOT.MA.IN}} School age population, lower secondary education, male (number){p_end}
+{synopt:{opt SP.SEC.TOTL.FE.IN}} School age population, secondary education, female (number){p_end}
+{synopt:{opt SP.SEC.TOTL.IN}} School age population, secondary education, both sexes (number){p_end}
+{synopt:{opt SP.SEC.TOTL.MA.IN}} School age population, secondary education, male (number){p_end}
+{synopt:{opt SP.SEC.UTOT.FE.IN}} School age population, upper secondary education, female (number){p_end}
+{synopt:{opt SP.SEC.UTOT.IN}} School age population, upper secondary education, both sexes (number){p_end}
+{synopt:{opt SP.SEC.UTOT.MA.IN}} School age population, upper secondary education, male (number){p_end}
+{synopt:{opt SP.TER.TOTL.FE.IN}} School age population, tertiary education, female (number){p_end}
+{synopt:{opt SP.TER.TOTL.IN}} School age population, tertiary education, both sexes (number){p_end}
+{synopt:{opt SP.TER.TOTL.MA.IN}} School age population, tertiary education, male (number){p_end}
+{synopt:{opt SP.URB.GROW}} Urban population growth (annual %){p_end}
+{synopt:{opt SP.URB.LCTY.UR.ZS}} Population in the largest city (% of urban population){p_end}
+{synopt:{opt SP.URB.LCTY}} Population in largest city{p_end}
+{synopt:{opt SP.URB.MCTY.UR.ZS}} Population in urban agglomerations &gt; 1 million (% of total pop){p_end}
+{synopt:{opt SP.URB.MCTY}} Population in urban agglomerations &gt; 1 million{p_end}
+{synopt:{opt SP.URB.TOTL.FE.ZS}} Urban population, female (% of total){p_end}
+{synopt:{opt SP.URB.TOTL.IN.ZS}} Urban population (% of total){p_end}
+{synopt:{opt SP.URB.TOTL.MA.ZS}} Urban population, male (% of total){p_end}
+{synopt:{opt SP.URB.TOTL.ZS}} Percentage of Population in Urban Areas (only 2005 and 2010) (in % of Total Population){p_end}
+{synopt:{opt SP.URB.TOTL}} Urban population{p_end}
+{synopt:{opt SP.UWT.LMTG.Q1.ZS}} Unmet need for family planning (for limiting) (% of married women): Q1 (lowest){p_end}
+{synopt:{opt SP.UWT.LMTG.Q2.ZS}} Unmet need for family planning (for limiting) (% of married women): Q2{p_end}
+{synopt:{opt SP.UWT.LMTG.Q3.ZS}} Unmet need for family planning (for limiting) (% of married women): Q3{p_end}
+{synopt:{opt SP.UWT.LMTG.Q4.ZS}} Unmet need for family planning (for limiting) (% of married women): Q4{p_end}
+{synopt:{opt SP.UWT.LMTG.Q5.ZS}} Unmet need for family planning (for limiting) (% of married women): Q5 (highest){p_end}
+{synopt:{opt SP.UWT.SPCG.Q1.ZS}} Unmet need for family planning (for spacing) (% of married women): Q1 (lowest){p_end}
+{synopt:{opt SP.UWT.SPCG.Q2.ZS}} Unmet need for family planning (for spacing) (% of married women): Q2{p_end}
+{synopt:{opt SP.UWT.SPCG.Q3.ZS}} Unmet need for family planning (for spacing) (% of married women): Q3{p_end}
+{synopt:{opt SP.UWT.SPCG.Q4.ZS}} Unmet need for family planning (for spacing) (% of married women): Q4{p_end}
+{synopt:{opt SP.UWT.SPCG.Q5.ZS}} Unmet need for family planning (for spacing) (% of married women): Q5 (highest){p_end}
+{synopt:{opt SP.UWT.TFRT.Q1.ZS}} Unmet need for family planning (total) (% of married women): Q1 (lowest){p_end}
+{synopt:{opt SP.UWT.TFRT.Q2.ZS}} Unmet need for family planning (total) (% of married women): Q2{p_end}
+{synopt:{opt SP.UWT.TFRT.Q3.ZS}} Unmet need for family planning (total) (% of married women): Q3{p_end}
+{synopt:{opt SP.UWT.TFRT.Q4.ZS}} Unmet need for family planning (total) (% of married women): Q4{p_end}
+{synopt:{opt SP.UWT.TFRT.Q5.ZS}} Unmet need for family planning (total) (% of married women): Q5 (highest){p_end}
+{synopt:{opt SP.UWT.TFRT}} Unmet need for contraception (% of married women ages 15-49){p_end}
+{synopt:{opt SR.ARE.ARBL.K2}} Arable land area (sq km){p_end}
+{synopt:{opt SR.ARE.SURF.K2}} Surface area (sq km){p_end}
+{synopt:{opt SS.H2O.FAIL.DY}} Water supply failure for firms receiving water (average days/year){p_end}
+{synopt:{opt ST.INT.ARVL}} International tourism, number of arrivals{p_end}
+{synopt:{opt ST.INT.DPRT}} International tourism, number of departures{p_end}
+{synopt:{opt ST.INT.RCPT.CD}} International tourism, receipts (current US$){p_end}
+{synopt:{opt ST.INT.RCPT.XP.ZS}} International tourism, receipts (% of total exports){p_end}
+{synopt:{opt ST.INT.TRNR.CD}} International tourism, receipts for passenger transport items (current US$){p_end}
+{synopt:{opt ST.INT.TRNX.CD}} International tourism, expenditures for passenger transport items (current US$){p_end}
+{synopt:{opt ST.INT.TVLR.CD}} International tourism, receipts for travel items (current US$){p_end}
+{synopt:{opt ST.INT.TVLX.CD}} International tourism, expenditures for travel items (current US$){p_end}
+{synopt:{opt ST.INT.XPND.CD}} International tourism, expenditures (current US$){p_end}
+{synopt:{opt ST.INT.XPND.MP.ZS}} International tourism, expenditures (% of total imports){p_end}
+{synopt:{opt TG.VAL.TOTL.GD.PP.ZS}} Trade (% of GDP, PPP){p_end}
+{synopt:{opt TG.VAL.TOTL.GD.ZS}} Merchandise trade (% of GDP){p_end}
+{synopt:{opt TG.VAL.TOTL.GG.ZS}} Trade in goods (% of goods GDP){p_end}
+{synopt:{opt TM.CONC.DIV.NO}} Number of product (imports){p_end}
+{synopt:{opt TM.CONC.IND.XQ}} Import product concentration index{p_end}
+{synopt:{opt TM.DIV.IND.XQ}} Import product diversification index{p_end}
+{synopt:{opt TM.GATS.XD}} General Agreement on Trade in Services (GATS) Commitments Index, all service sectors (0 least liberal to 100 most liberal){p_end}
+{synopt:{opt TM.MRC.NOTX.DV.ZS}} Goods (excluding arms) admitted free of tariffs from developing countries (% total merchandise imports excluding arms){p_end}
+{synopt:{opt TM.MRC.NOTX.LD.ZS}} Goods (excluding arms) admitted free of tariffs from least developed countries (% total merchandise imports excluding arms){p_end}
+{synopt:{opt TM.PRI.MRCH.CD.UN}} Merchandise import price index (1987 = 100){p_end}
+{synopt:{opt TM.PRI.MRCH.ID}} Import Price Index, cif (1980=100, US$-based){p_end}
+{synopt:{opt TM.PRI.MRCH.XD.WB}} Merchandise import price index{p_end}
+{synopt:{opt TM.PRI.MRCH.XD}} Import Price Index, cif (1987=100,US$-based){p_end}
+{synopt:{opt TM.PRI.NFSV.XU}} Import price index, (nonfactor) services{p_end}
+{synopt:{opt TM.QTY.ENGY.XD.WB}} Import volume index, POL and other energy{p_end}
+{synopt:{opt TM.QTY.FOOD.XD.WB}} Import volume index, food{p_end}
+{synopt:{opt TM.QTY.KGDS.XD.WB}} Import volume index, capital goods{p_end}
+{synopt:{opt TM.QTY.MRCH.XD.WB}} Merchandise import volume index{p_end}
+{synopt:{opt TM.QTY.MRCH.XD.WD}} Import volume index (2000 = 100){p_end}
+{synopt:{opt TM.QTY.NFCG.XD.WB}} Import volume index, other consumer goods{p_end}
+{synopt:{opt TM.QTY.NFSV.XD}} Import volume index, (nonfactor) services{p_end}
+{synopt:{opt TM.QTY.RAWM.XD.WB}} Import volume index, manufactures{p_end}
+{synopt:{opt TM.QTY.RAWP.XD.WB}} Import volume index, primary goods{p_end}
+{synopt:{opt TM.QTY.RAWT.XD.WB}} Import volume index, intermediate goods{p_end}
+{synopt:{opt TM.TAX.AGRI.CD.DV}} Average tariffs imposed by developed countries on agricultural products from developing countries (%){p_end}
+{synopt:{opt TM.TAX.AGRI.CD.LD}} Average tariffs imposed by developed countries on agricultural products from least developed countries (%){p_end}
+{synopt:{opt TM.TAX.CLTH.CD.DV}} Average tariffs imposed by developed countries on clothing products from developing countries (%){p_end}
+{synopt:{opt TM.TAX.CLTH.CD.LD}} Average tariffs imposed by developed countries on clothing products from least developed countries (%){p_end}
+{synopt:{opt TM.TAX.MANF.B.ZS}} Tariff barriers, share of lines bound, manufactured products (%){p_end}
+{synopt:{opt TM.TAX.MANF.BC.ZS}} Binding coverage, manufactured products (%){p_end}
+{synopt:{opt TM.TAX.MANF.BR.ZS}} Bound rate, simple mean, manufactured products (%){p_end}
+{synopt:{opt TM.TAX.MANF.DM.ZS}} Tariff barriers, dispersion around the mean, manufactured products (%){p_end}
+{synopt:{opt TM.TAX.MANF.DP.ZS}} Tariff barriers, share of lines domestic peaks, manufactured products (%){p_end}
+{synopt:{opt TM.TAX.MANF.IP.ZS}} Share of tariff lines with international peaks, manufactured products (%){p_end}
+{synopt:{opt TM.TAX.MANF.SM.AR.ZS}} Tariff rate, applied, simple mean, manufactured products (%){p_end}
+{synopt:{opt TM.TAX.MANF.SM.FN.ZS}} Tariff rate, most favored nation, simple mean, manufactured products (%){p_end}
+{synopt:{opt TM.TAX.MANF.SR.ZS}} Share of tariff lines with specific rates, manufactured products (%){p_end}
+{synopt:{opt TM.TAX.MANF.WM.AR.ZS}} Tariff rate, applied, weighted mean, manufactured products (%){p_end}
+{synopt:{opt TM.TAX.MANF.WM.FN.ZS}} Tariff rate, most favored nation, weighted mean, manufactured products (%){p_end}
+{synopt:{opt TM.TAX.MRCH.B.ZS}} Tariff barriers, share of lines bound, all products (%){p_end}
+{synopt:{opt TM.TAX.MRCH.BC.ZS}} Binding coverage, all products (%){p_end}
+{synopt:{opt TM.TAX.MRCH.BR.ZS}} Bound rate, simple mean, all products (%){p_end}
+{synopt:{opt TM.TAX.MRCH.DM.ZS}} Tariff barriers, dispersion around the mean, all products (%){p_end}
+{synopt:{opt TM.TAX.MRCH.DP.ZS}} Tariff barriers, share of lines domestic peaks, all products (%){p_end}
+{synopt:{opt TM.TAX.MRCH.IP.ZS}} Share of tariff lines with international peaks, all products (%){p_end}
+{synopt:{opt TM.TAX.MRCH.SM.AR.ZS}} Tariff rate, applied, simple mean, all products (%){p_end}
+{synopt:{opt TM.TAX.MRCH.SM.FN.ZS}} Tariff rate, most favored nation, simple mean, all products (%){p_end}
+{synopt:{opt TM.TAX.MRCH.SR.ZS}} Share of tariff lines with specific rates, all products (%){p_end}
+{synopt:{opt TM.TAX.MRCH.WM.AR.ZS}} Tariff rate, applied, weighted mean, all products (%){p_end}
+{synopt:{opt TM.TAX.MRCH.WM.FN.ZS}} Tariff rate, most favored nation, weighted mean, all products (%){p_end}
+{synopt:{opt TM.TAX.TCOM.B.ZS}} Tariff barriers, share of lines bound, primary products (%){p_end}
+{synopt:{opt TM.TAX.TCOM.BC.ZS}} Binding coverage, primary products (%){p_end}
+{synopt:{opt TM.TAX.TCOM.BR.ZS}} Bound rate, simple mean, primary products (%){p_end}
+{synopt:{opt TM.TAX.TCOM.DM.ZS}} Tariff barriers, dispersion around the mean, primary products (%){p_end}
+{synopt:{opt TM.TAX.TCOM.DP.ZS}} Tariff barriers, share of lines domestic peaks, primary (%){p_end}
+{synopt:{opt TM.TAX.TCOM.IP.ZS}} Share of tariff lines with international peaks, primary products (%){p_end}
+{synopt:{opt TM.TAX.TCOM.SM.AR.ZS}} Tariff rate, applied, simple mean, primary products (%){p_end}
+{synopt:{opt TM.TAX.TCOM.SM.FN.ZS}} Tariff rate, most favored nation, simple mean, primary products (%){p_end}
+{synopt:{opt TM.TAX.TCOM.SR.ZS}} Share of tariff lines with specific rates, primary products (%){p_end}
+{synopt:{opt TM.TAX.TCOM.WM.AR.ZS}} Tariff rate, applied, weighted mean, primary products (%){p_end}
+{synopt:{opt TM.TAX.TCOM.WM.FN.ZS}} Tariff rate, most favored nation, weighted mean, primary products (%){p_end}
+{synopt:{opt TM.TAX.TXTL.CD.DV}} Average tariffs imposed by developed countries on textile products from developing countries (%){p_end}
+{synopt:{opt TM.TAX.TXTL.CD.LD}} Average tariffs imposed by developed countries on textile products from least developed countries (%){p_end}
+{synopt:{opt TM.UVI.MRCH.XD.WD}} Import unit value index (2000 = 100){p_end}
+{synopt:{opt TM.VAL.AGRI.ZS.UN}} Agricultural raw materials imports (% of merchandise imports){p_end}
+{synopt:{opt TM.VAL.ENGY.CD.WB}} POL and other energy imports (current US$){p_end}
+{synopt:{opt TM.VAL.ENGY.KD.WB}} POL and other energy imports (constant US$){p_end}
+{synopt:{opt TM.VAL.FOOD.CD.WB}} Food imports (current US$){p_end}
+{synopt:{opt TM.VAL.FOOD.KD.WB}} Food imports (constant US$){p_end}
+{synopt:{opt TM.VAL.FOOD.UN.ZS}} Food (% of merchandise imports){p_end}
+{synopt:{opt TM.VAL.FOOD.ZS.UN}} Food imports (% of merchandise imports){p_end}
+{synopt:{opt TM.VAL.FUEL.CD}} CP Imports of Fuels (US$){p_end}
+{synopt:{opt TM.VAL.FUEL.UN.ZS}} Fuel (% of merchandise imports){p_end}
+{synopt:{opt TM.VAL.FUEL.ZS.UN}} Fuel imports (% of merchandise imports){p_end}
+{synopt:{opt TM.VAL.ICTG.ZS.UN}} ICT goods imports (% total goods imports){p_end}
+{synopt:{opt TM.VAL.INSF.ZS.WT}} Insurance and financial services (% of commercial service imports){p_end}
+{synopt:{opt TM.VAL.KGDS.CD.WB}} Capital goods imports (current US$){p_end}
+{synopt:{opt TM.VAL.KGDS.KD.WB}} Capital goods imports (constant US$){p_end}
+{synopt:{opt TM.VAL.MANF.CD}} CP Imports of Manufactures (US$){p_end}
+{synopt:{opt TM.VAL.MANF.ZS.UN}} Manufactures imports (% of merchandise imports){p_end}
+{synopt:{opt TM.VAL.MCHT.UN.ZS}} Machinery and transport equipment (% of merchandise imports){p_end}
+{synopt:{opt TM.VAL.METL.UN.ZS}} Minerals and metals (% of merchandise imports){p_end}
+{synopt:{opt TM.VAL.MMTL.ZS.UN}} Ores and metals imports (% of merchandise imports){p_end}
+{synopt:{opt TM.VAL.MRCH.AL.ZS}} Merchandise imports from economies in the Arab World (% of total merchandise imports){p_end}
+{synopt:{opt TM.VAL.MRCH.CD.UN.ZG}} Import growth, value (annual %){p_end}
+{synopt:{opt TM.VAL.MRCH.CD.UN}} Merchandise imports (UN, current US$){p_end}
+{synopt:{opt TM.VAL.MRCH.CD.WB}} Merchandise imports, WB (current US$){p_end}
+{synopt:{opt TM.VAL.MRCH.CD.WT}} Merchandise imports (current US$){p_end}
+{synopt:{opt TM.VAL.MRCH.CD}} CP Value of Imports, cif (US$){p_end}
+{synopt:{opt TM.VAL.MRCH.HI.ZS}} Merchandise imports from high-income economies (% of total merchandise imports){p_end}
+{synopt:{opt TM.VAL.MRCH.KD.UN.ZG}} Import growth, volume (annual %){p_end}
+{synopt:{opt TM.VAL.MRCH.KD.UN}} Merchandise imports (constant 1987 US$){p_end}
+{synopt:{opt TM.VAL.MRCH.KD.WB}} Merchandise imports (constant US$){p_end}
+{synopt:{opt TM.VAL.MRCH.KD}} Imports, cif (1980 US$) (Const. Price){p_end}
+{synopt:{opt TM.VAL.MRCH.OR.ZS}} Merchandise imports from low- and middle-income economies outside region (% of total merchandise imports){p_end}
+{synopt:{opt TM.VAL.MRCH.R1.ZS}} Merchandise imports from low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise imports){p_end}
+{synopt:{opt TM.VAL.MRCH.R2.ZS}} Merchandise imports from low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise imports){p_end}
+{synopt:{opt TM.VAL.MRCH.R3.ZS}} Merchandise imports from low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise imports){p_end}
+{synopt:{opt TM.VAL.MRCH.R4.ZS}} Merchandise imports from low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise imports){p_end}
+{synopt:{opt TM.VAL.MRCH.R5.ZS}} Merchandise imports from low- and middle-income economies in South Asia (% of total merchandise imports){p_end}
+{synopt:{opt TM.VAL.MRCH.R6.ZS}} Merchandise imports from low- and middle-income economies in Sub-Saharan Africa (% of total merchandise imports){p_end}
+{synopt:{opt TM.VAL.MRCH.RS.ZS}} Merchandise imports by the reporting economy, residual (% of total merchandise imports){p_end}
+{synopt:{opt TM.VAL.MRCH.WL.CD}} Merchandise imports by the reporting economy (current US$){p_end}
+{synopt:{opt TM.VAL.MRCH.WR.ZS}} Merchandise imports from low- and middle-income economies within region (% of total merchandise imports){p_end}
+{synopt:{opt TM.VAL.MRCH.XD.WD}} Import value index (2000 = 100){p_end}
+{synopt:{opt TM.VAL.NFCG.CD.WB}} Other consumer goods imports (current US$){p_end}
+{synopt:{opt TM.VAL.NFCG.KD.WB}} Other consumer goods imports (constant US$){p_end}
+{synopt:{opt TM.VAL.NFOD.UN.ZS}} Non-food primary commodities (% of merchandise imports){p_end}
+{synopt:{opt TM.VAL.NFPP.CD}} Imports of Nonfuel Primary Prod.(US$,curr. pr.){p_end}
+{synopt:{opt TM.VAL.NFPR.CD}} CP Imports of Nonfuel Primary Products (US$){p_end}
+{synopt:{opt TM.VAL.OMFG.UN.ZS}} Other manufactures (% of merchandise imports){p_end}
+{synopt:{opt TM.VAL.OPRM.UN.ZS}} Other primary commodities (% of merchandise imports){p_end}
+{synopt:{opt TM.VAL.OTHR.ZS.WT}} Computer, communications and other services (% of commercial service imports){p_end}
+{synopt:{opt TM.VAL.RAWM.CD.WB}} Intermediate goods imports, manufactures (current US$){p_end}
+{synopt:{opt TM.VAL.RAWM.KD.WB}} Intermediate goods imports, manufactures (constant US$){p_end}
+{synopt:{opt TM.VAL.RAWP.CD.WB}} Intermediate goods imports, primary (current US$){p_end}
+{synopt:{opt TM.VAL.RAWP.KD.WB}} Intermediate goods imports, primary (constant US$){p_end}
+{synopt:{opt TM.VAL.RAWT.CD.WB}} Intermediate goods imports, total (current US$){p_end}
+{synopt:{opt TM.VAL.RAWT.KD.WB}} Intermediate goods imports, total (constant US$){p_end}
+{synopt:{opt TM.VAL.SERV.CD.WT}} Commercial service imports (current US$){p_end}
+{synopt:{opt TM.VAL.TRAN.ZS.WT}} Transport services (% of commercial service imports){p_end}
+{synopt:{opt TM.VAL.TRVL.ZS.WT}} Travel services (% of commercial service imports){p_end}
+{synopt:{opt TM.VOL.MRCH.ZG}} Growth of merch. imports (av. ann grwth %){p_end}
+{synopt:{opt TN.PRI.MRCH.ID}} Terms of Trade Index (1980=100, US$-based){p_end}
+{synopt:{opt TOTRESV}} Total Reserves{p_end}
+{synopt:{opt TOT}} Terms of Trade{p_end}
+{synopt:{opt TRAD.EXPT.BVTO}} Export: Beverages and tobacco (province Level, in USD){p_end}
+{synopt:{opt TRAD.EXPT.CHEM}} Export: Chemical and related products, nes (province Level, in USD){p_end}
+{synopt:{opt TRAD.EXPT.CRUD}} Export: Crude materials, inedible, except fuels (province Level, in USD){p_end}
+{synopt:{opt TRAD.EXPT.FLVSK}} Export: Food and Live Animals (province Level, in USD){p_end}
+{synopt:{opt TRAD.EXPT.FUEL}} Export: Mineral fuels, lubricants and related materials (province Level, in USD){p_end}
+{synopt:{opt TRAD.EXPT.MANF.OTHR}} Export: Miscellaneous manufactures articles (province Level, in USD){p_end}
+{synopt:{opt TRAD.EXPT.MANF}} Export: Manufactured goods, classified chiefly by material (province Level, in USD){p_end}
+{synopt:{opt TRAD.EXPT.MTRN}} Export: Machinery and transport equipment (province Level, in USD){p_end}
+{synopt:{opt TRAD.EXPT.OLFTW}} Export: Animals and vegetable oil, fat and waxes (province Level, in USD){p_end}
+{synopt:{opt TRAD.EXPT.OTHR}} Export: Commodities and transaction not elsewhere classified (province Level, in USD){p_end}
+{synopt:{opt TRAD.IMPT.BVTO}} Import: Beverages and tobacco (province Level, in USD){p_end}
+{synopt:{opt TRAD.IMPT.CHEM}} Import: Chemical and related products, nes (province Level, in USD){p_end}
+{synopt:{opt TRAD.IMPT.CRUD}} Import: Crude materials, inedible, except fuels (province Level, in USD){p_end}
+{synopt:{opt TRAD.IMPT.FLVSK}} Import: Food and Live Animals (province Level, in USD){p_end}
+{synopt:{opt TRAD.IMPT.FUEL}} Import: Mineral fuels, lubricants and related materials (province Level, in USD){p_end}
+{synopt:{opt TRAD.IMPT.MANF.OTHR}} Import: Miscellaneous manufactures articles (province Level, in USD){p_end}
+{synopt:{opt TRAD.IMPT.MANF}} Import: Manufactured goods, classified chiefly by material (province Level, in USD){p_end}
+{synopt:{opt TRAD.IMPT.MTRN}} Import: Machinery and transport equipment (province Level, in USD){p_end}
+{synopt:{opt TRAD.IMPT.OLFTW}} Import: Animals and vegetable oil, fat and waxes (province Level, in USD){p_end}
+{synopt:{opt TRAD.IMPT.OTHR}} Import: Commodities and transaction not elsewhere classified (province Level, in USD){p_end}
+{synopt:{opt TRD.ACRS.BRDR.DB0615.DFRN}} Trading across borders (DB06-15 methodology) - Score{p_end}
+{synopt:{opt TRD.ACRS.BRDR.DB1619.DFRN}} Trading across borders (DB16-19 methodology) - Score{p_end}
+{synopt:{opt TRD.ACRS.BRDR.DOC.COMP.HR.DB1619}} Time to export: Documentary compliance (hours) (DB16-19 methodology){p_end}
+{synopt:{opt TRD.ACRS.BRDR.DOCS.EXPT.NO.DB0615.DFRN}} Trading across borders: Documents to export (number) (DB06-15 methodology) - Score{p_end}
+{synopt:{opt TRD.ACRS.BRDR.DOCS.EXPT.NO.DB0615}} Trading across borders: Documents to export (number) (DB06-15 methodology){p_end}
+{synopt:{opt TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615.DFRN}} Trading across borders: Documents to import (number) (DB06-15 methodology) - Score{p_end}
+{synopt:{opt TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615}} Trading across borders: Documents to import (number) (DB06-15 methodology){p_end}
+{synopt:{opt TRD.ACRS.BRDR.EXPT.BRDR.COMP.HR.DB1619}} Time to export: Border compliance (hours) (DB16-19 methodology){p_end}
+{synopt:{opt TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619.DFRN}} Trading across borders: Cost to export: Border compliance (USD) (DB16-19 methodology) - Score{p_end}
+{synopt:{opt TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619}} Trading across borders: Cost to export: Border compliance (USD) (DB16-19 methodology){p_end}
+{synopt:{opt TRD.ACRS.BRDR.EXPT.COST.CD.DB0615.DFRN}} Trading across borders: Cost to export (US$ per container) (DB06-15 methodology) - Score{p_end}
+{synopt:{opt TRD.ACRS.BRDR.EXPT.COST.CD.DB0615}} Trading across borders: Cost to export (US$ per container deflated) (DB06-15 methodology){p_end}
+{synopt:{opt TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619.DFRN}} Trading across borders: Cost to export: Documentary compliance (USD) (DB16-19 methodology) - Score{p_end}
+{synopt:{opt TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619}} Trading across borders: Cost to export: Documentary compliance (USD) (DB16-19 methodology){p_end}
+{synopt:{opt TRD.ACRS.BRDR.EXPT.DURS.DY.DB0615}} Time to export (days) (DB06-15 methodology){p_end}
+{synopt:{opt TRD.ACRS.BRDR.EXPT.TM.BRDR.COMP.HR.DB1619.DFRN}} Trading across borders: Time to export: Border compliance (hours) (DB16-19 methodology) - Score{p_end}
+{synopt:{opt TRD.ACRS.BRDR.EXPT.TM.DOC.COMP.HR.DB1619.DFRN}} Trading across borders: Time to export: Documentary compliance (hours) (DB16-19 methodology) - Score{p_end}
+{synopt:{opt TRD.ACRS.BRDR.EXPT.TM.DY.DB0615.DFRN}} Trading across borders: Time to export (days) (DB06-15 methodology) - Score{p_end}
+{synopt:{opt TRD.ACRS.BRDR.IMP.BRDR.COMP.HR.DB1619}} Time to import: Border compliance (hours) (DB16-19 methodology){p_end}
+{synopt:{opt TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619.DFRN}} Trading across borders: Cost to import: Border compliance (USD) (DB16-19 methodology) - Score{p_end}
+{synopt:{opt TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619}} Trading across borders: Cost to import: Border compliance (USD) (DB16-19 methodology){p_end}
+{synopt:{opt TRD.ACRS.BRDR.IMP.COST.CD.DB0615.DFRN}} Trading across borders: Cost to import (US$ per container)(DB06-15 methodology) - Score{p_end}
+{synopt:{opt TRD.ACRS.BRDR.IMP.COST.CD.DB0615}} Trading across borders: Cost to import (US$ per container deflated)(DB06-15 methodology){p_end}
+{synopt:{opt TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619.DFRN}} Trading across borders: Cost to import: Documentary compliance (USD) (DB16-19 methodology) - Score{p_end}
+{synopt:{opt TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619}} Trading across borders: Cost to import: Documentary compliance (USD) (DB16-19 methodology){p_end}
+{synopt:{opt TRD.ACRS.BRDR.IMP.DOC.COMP.HR.DB1619}} Time to import: Documentary compliance (hours) (DB16-19 methodology){p_end}
+{synopt:{opt TRD.ACRS.BRDR.IMP.DURS.DY.DB0615}} Time to import (days) (DB06-15 methodology){p_end}
+{synopt:{opt TRD.ACRS.BRDR.IMP.TM.BRDR.COMP.HR.DB1619.DFRN}} Trading across borders: Time to import: Border compliance (hours) (DB16-19 methodology) - Score{p_end}
+{synopt:{opt TRD.ACRS.BRDR.IMP.TM.DOC.COMP.HR.DB1619.DFRN}} Trading across borders: Time to import: Documentary compliance (hours) (DB16-19 methodology) - Score{p_end}
+{synopt:{opt TRD.ACRS.BRDR.IMP.TM.DY.DB0615.DFRN}} Trading across borders: Time to import (days) (DB06-15 methodology) - Score{p_end}
+{synopt:{opt TRD.ACRS.BRDR.RK.DB19}} Rank: Trading across borders (1=most business-friendly regulations) (DB19 methodology){p_end}
+{synopt:{opt TT.INC.MRCH.XD.UN}} Income terms of trade (1987 = 100){p_end}
+{synopt:{opt TT.PRI.MRCH.XD.UN}} Net barter terms of trade (1987 = 100){p_end}
+{synopt:{opt TT.PRI.MRCH.XD.WB}} Merchandise Terms of Trade (1987 = 100){p_end}
+{synopt:{opt TT.PRI.MRCH.XD.WD}} Net barter terms of trade index (2000 = 100){p_end}
+{synopt:{opt TT.PRI.MRCH.XD}} Terms of Trade Index (1987=100,US$-based){p_end}
+{synopt:{opt TX.CONC.DIV.NO}} Number of product (exports){p_end}
+{synopt:{opt TX.CONC.IND.XQ}} Export product concentration index{p_end}
+{synopt:{opt TX.DIV.IND.XQ}} Export product diversification index{p_end}
+{synopt:{opt TX.MNF.TECH.ZS.UN}} Medium and high-tech exports (% manufactured exports){p_end}
+{synopt:{opt TX.PRI.FUEL.ID}} Fuel Export Price Index (1980=100, US$-based){p_end}
+{synopt:{opt TX.PRI.MANF.ID}} Manufactures Exp. Price Index (1980=100, US$-based){p_end}
+{synopt:{opt TX.PRI.MRCH.CD.UN}} Merchandise export price index (1987 = 100){p_end}
+{synopt:{opt TX.PRI.MRCH.ID}} Export Price Index, fob (1980=100, US$-based){p_end}
+{synopt:{opt TX.PRI.MRCH.XD.WB}} Merchandise export price index (1987 = 100){p_end}
+{synopt:{opt TX.PRI.MRCH.XD}} Export Price Index, fob (1987=100,US$-based){p_end}
+{synopt:{opt TX.PRI.NFPR.ID}} Nonfuel Prim.Prod.Exp.Price Index (1980=100,US$-based){p_end}
+{synopt:{opt TX.PRI.NFSV.XU}} Export price index, (nonfactor) services{p_end}
+{synopt:{opt TX.QTY.COM1.XD.WB}} Exports of commodity 1 (volume index){p_end}
+{synopt:{opt TX.QTY.COM2.XD.WB}} Exports of commodity 2 (volume index){p_end}
+{synopt:{opt TX.QTY.COM3.XD.WB}} Exports of commodity 3 (volume index){p_end}
+{synopt:{opt TX.QTY.COM4.XD.WB}} Exports of commodity 4 (volume index){p_end}
+{synopt:{opt TX.QTY.MANF.XD.WB}} Export volume index, manufactures{p_end}
+{synopt:{opt TX.QTY.MRCH.XD.WB}} Merchandise export volume index{p_end}
+{synopt:{opt TX.QTY.MRCH.XD.WD}} Export volume index (2000 = 100){p_end}
+{synopt:{opt TX.QTY.NFSV.XD}} Export volume index, (nonfactor) services{p_end}
+{synopt:{opt TX.QTY.OCOM.XD.WB}} Export volume index, other primary commodities{p_end}
+{synopt:{opt TX.UVI.MRCH.XD.WD}} Export unit value index (2000 = 100){p_end}
+{synopt:{opt TX.VAL.AGRI.ZS.UN}} Agricultural raw materials exports (% of merchandise exports){p_end}
+{synopt:{opt TX.VAL.COM1.CD.WB}} Exports of commodity 1 (current US$){p_end}
+{synopt:{opt TX.VAL.COM1.KD.WB}} Exports of commodity 1 (constant US$){p_end}
+{synopt:{opt TX.VAL.COM2.CD.WB}} Exports of commodity 2 (current US$){p_end}
+{synopt:{opt TX.VAL.COM2.KD.WB}} Exports of commodity 2 (constant US$){p_end}
+{synopt:{opt TX.VAL.COM3.CD.WB}} Exports of commodity 3 (current US$){p_end}
+{synopt:{opt TX.VAL.COM3.KD.WB}} Exports of commodity 3 (constant US$){p_end}
+{synopt:{opt TX.VAL.COM4.CD.WB}} Exports of commodity 4 (current US$){p_end}
+{synopt:{opt TX.VAL.COM4.KD.WB}} Exports of commodity 4 (constant US$){p_end}
+{synopt:{opt TX.VAL.FMTL.UN.ZS}} Fuels, minerals, and metals (% of merchandise exports){p_end}
+{synopt:{opt TX.VAL.FOOD.UN.ZS}} Food (% of merchandise exports){p_end}
+{synopt:{opt TX.VAL.FOOD.ZS.UN}} Food exports (% of merchandise exports){p_end}
+{synopt:{opt TX.VAL.FUEL.CD}} CP Exports of Fuels (US$){p_end}
+{synopt:{opt TX.VAL.FUEL.ZS.UN}} Fuel exports (% of merchandise exports){p_end}
+{synopt:{opt TX.VAL.ICTG.ZS.UN}} ICT goods exports (% of total goods exports){p_end}
+{synopt:{opt TX.VAL.INSF.ZS.WT}} Insurance and financial services (% of commercial service exports){p_end}
+{synopt:{opt TX.VAL.MANF.CD.WB}} Manufactures exports (current US$){p_end}
+{synopt:{opt TX.VAL.MANF.CD}} CP Exports of Manufactures (US$){p_end}
+{synopt:{opt TX.VAL.MANF.KD.WB}} Manufactures exports (constant US$){p_end}
+{synopt:{opt TX.VAL.MANF.UN.ZS}} Manufactures (% of merchandise exports){p_end}
+{synopt:{opt TX.VAL.MANF.ZS.UN}} Manufactures exports (% of merchandise exports){p_end}
+{synopt:{opt TX.VAL.MCHT.UN.ZS}} Machinery and transport equipment (% of merchandise exports){p_end}
+{synopt:{opt TX.VAL.METL.UN.ZS}} Metals (% of merchandise exports){p_end}
+{synopt:{opt TX.VAL.MMTL.ZS.UN}} Ores and metals exports (% of merchandise exports){p_end}
+{synopt:{opt TX.VAL.MNRL.UN.ZS}} Minerals (% of merchandise exports){p_end}
+{synopt:{opt TX.VAL.MRCH.AL.ZS}} Merchandise exports to economies in the Arab World (% of total merchandise exports){p_end}
+{synopt:{opt TX.VAL.MRCH.CD.UN.ZG}} Export growth, value (annual %){p_end}
+{synopt:{opt TX.VAL.MRCH.CD.UN}} Merchandise exports (UN, current US$){p_end}
+{synopt:{opt TX.VAL.MRCH.CD.WB}} Merchandise exports, WB (current US$){p_end}
+{synopt:{opt TX.VAL.MRCH.CD.WT}} Merchandise exports (current US$){p_end}
+{synopt:{opt TX.VAL.MRCH.CD}} CP Value of Exports, fob (US$){p_end}
+{synopt:{opt TX.VAL.MRCH.HI.ZS}} Merchandise exports to high-income economies (% of total merchandise exports){p_end}
+{synopt:{opt TX.VAL.MRCH.KD.UN.ZG}} Export growth, volume (annual %){p_end}
+{synopt:{opt TX.VAL.MRCH.KD.UN}} Merchandise exports (constant 1987 US$){p_end}
+{synopt:{opt TX.VAL.MRCH.KD.WB}} Merchandise exports (constant US$){p_end}
+{synopt:{opt TX.VAL.MRCH.KD}} Exports, fob (1980 US$) (Const. Price){p_end}
+{synopt:{opt TX.VAL.MRCH.OR.ZS}} Merchandise exports to low- and middle-income economies outside region (% of total merchandise exports){p_end}
+{synopt:{opt TX.VAL.MRCH.R1.ZS}} Merchandise exports to low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise exports){p_end}
+{synopt:{opt TX.VAL.MRCH.R2.ZS}} Merchandise exports to low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise exports){p_end}
+{synopt:{opt TX.VAL.MRCH.R3.ZS}} Merchandise exports to low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise exports){p_end}
+{synopt:{opt TX.VAL.MRCH.R4.ZS}} Merchandise exports to low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise exports){p_end}
+{synopt:{opt TX.VAL.MRCH.R5.ZS}} Merchandise exports to low- and middle-income economies in South Asia (% of total merchandise exports){p_end}
+{synopt:{opt TX.VAL.MRCH.R6.ZS}} Merchandise exports to low- and middle-income economies in Sub-Saharan Africa (% of total merchandise exports){p_end}
+{synopt:{opt TX.VAL.MRCH.RS.ZS}} Merchandise exports by the reporting economy, residual (% of total merchandise exports){p_end}
+{synopt:{opt TX.VAL.MRCH.WL.CD}} Merchandise exports by the reporting economy (current US$){p_end}
+{synopt:{opt TX.VAL.MRCH.WR.ZS}} Merchandise exports to low- and middle-income economies within region (% of total merchandise exports){p_end}
+{synopt:{opt TX.VAL.MRCH.XD.WD}} Export value index (2000 = 100){p_end}
+{synopt:{opt TX.VAL.NFOD.UN.ZS}} Non-food primary commodities (% of merchandise exports){p_end}
+{synopt:{opt TX.VAL.NFPP.CD}} Exports of Nonfuel Primary Prod.(US$,curr. pr.){p_end}
+{synopt:{opt TX.VAL.NFPR.CD}} CP Exports of Nonfuel Primary Products (US$){p_end}
+{synopt:{opt TX.VAL.OCOM.CD.WB}} Other primary commodities exports (current US$){p_end}
+{synopt:{opt TX.VAL.OCOM.KD.WB}} Other primary commodities exports (constant US$){p_end}
+{synopt:{opt TX.VAL.OPRM.UN.ZS}} Other primary commodities (% of merchandise exports){p_end}
+{synopt:{opt TX.VAL.OTHR.ZS.WT}} Computer, communications and other services (% of commercial service exports){p_end}
+{synopt:{opt TX.VAL.SERV.CD.WT}} Commercial service exports (current US$){p_end}
+{synopt:{opt TX.VAL.SERV.MT.ZS}} Ratio of commercial service exports to merchandise exports (%){p_end}
+{synopt:{opt TX.VAL.TCOM.CD.WB}} Primary commodities exports (current US$){p_end}
+{synopt:{opt TX.VAL.TCOM.KD.WB}} Primary commodities exports (constant US$){p_end}
+{synopt:{opt TX.VAL.TECH.CD}} High-technology exports (current US$){p_end}
+{synopt:{opt TX.VAL.TECH.MANF.ZS}} High-technology exports (% of manufactured exports){p_end}
+{synopt:{opt TX.VAL.TECH.MF.ZS}} High-technology exports (% of manufactured exports){p_end}
+{synopt:{opt TX.VAL.TRAN.ZS.WT}} Transport services (% of commercial service exports){p_end}
+{synopt:{opt TX.VAL.TRVL.ZS.WT}} Travel services (% of commercial service exports){p_end}
+{synopt:{opt TX.VAL.TXTL.UN.ZS}} Textiles and clothing (% of merchandise exports){p_end}
+{synopt:{opt TX.VAL.XTHR.UN.ZS}} Other manufactures (% of merchandise exports){p_end}
+{synopt:{opt TX.VOL.MRCH.ZG}} Growth of merch. exports (av. ann grwth %){p_end}
+{synopt:{opt UIS.AFR.AGRADMG.1.PU}} Africa Dataset: Average number of grades per multigrade class in primary schools (number of grades){p_end}
+{synopt:{opt UIS.AFR.CS.1.PU}} Africa Dataset: Average size of classes in primary schools (number of pupils){p_end}
+{synopt:{opt UIS.AFR.CS.MG.1.PU}} Africa Dataset: Average size of multigrade classes in primary schools (number of pupils){p_end}
+{synopt:{opt UIS.AFR.CS.SG.1.G1.PU}} Africa Dataset: Average size of single grade classes in Grade 1 of primary schools (number of pupils){p_end}
+{synopt:{opt UIS.AFR.CS.SG.1.G2.PU}} Africa Dataset: Average size of single grade classes in Grade 2 of primary schools (number of pupils){p_end}
+{synopt:{opt UIS.AFR.CS.SG.1.G3.PU}} Africa Dataset: Average size of single grade classes in Grade 3 of primary schools (number of pupils){p_end}
+{synopt:{opt UIS.AFR.CS.SG.1.G4.PU}} Africa Dataset: Average size of single grade classes in Grade 4 of primary schools (number of pupils){p_end}
+{synopt:{opt UIS.AFR.CS.SG.1.G5.PU}} Africa Dataset: Average size of single grade classes in Grade 5 of primary schools (number of pupils){p_end}
+{synopt:{opt UIS.AFR.CS.SG.1.G6.PU}} Africa Dataset: Average size of single grade classes in Grade 6 of primary schools (number of pupils){p_end}
+{synopt:{opt UIS.AFR.CS.SG.1.G7.PU}} Africa Dataset: Average size of single grade classes in Grade 7 of primary schools (number of pupils){p_end}
+{synopt:{opt UIS.AFR.CS.SG.1.PU}} Africa Dataset: Average size of single grade classes in primary schools (number of pupils){p_end}
+{synopt:{opt UIS.AFR.ECP.MG.1.PU}} Africa Dataset: Percentage of primary pupils in multigrade classes (%){p_end}
+{synopt:{opt UIS.AFR.FNTP.1}} Africa Dataset: Percentage of newly recruited teachers in primary education who are female (%){p_end}
+{synopt:{opt UIS.AFR.FNTP.2}} Africa Dataset: Percentage of newly recruited teachers in lower secondary education who are female (%){p_end}
+{synopt:{opt UIS.AFR.FNTP.3}} Africa Dataset: Percentage of newly recruited teachers in upper secondary education who are female (%){p_end}
+{synopt:{opt UIS.AFR.GTC.1.F}} Africa Dataset: Graduates from accredited pre-service primary teacher training programmes, female (number){p_end}
+{synopt:{opt UIS.AFR.GTC.1.T}} Africa Dataset: Graduates from accredited pre-service primary teacher training programmes, both sexes (number){p_end}
+{synopt:{opt UIS.AFR.GTC.1T3.F}} Africa Dataset: Graduates from accredited pre-service primary or secondary teacher training programmes, female (number){p_end}
+{synopt:{opt UIS.AFR.GTC.1T3.T}} Africa Dataset: Graduates from accredited pre-service primary or secondary teacher training programmes, both sexes (number){p_end}
+{synopt:{opt UIS.AFR.GTC.2.F}} Africa Dataset: Graduates from accredited pre-service lower secondary teacher training programmes, female (number){p_end}
+{synopt:{opt UIS.AFR.GTC.2.T}} Africa Dataset: Graduates from accredited pre-service lower secondary teacher training programmes, both sexes (number){p_end}
+{synopt:{opt UIS.AFR.GTC.3.F}} Africa Dataset: Graduates from accredited pre-service upper secondary teacher training programmes, female (number){p_end}
+{synopt:{opt UIS.AFR.GTC.3.T}} Africa Dataset: Graduates from accredited pre-service upper secondary teacher training programmes, both sexes (number){p_end}
+{synopt:{opt UIS.AFR.GTC.UK.F}} Africa Dataset: Graduates from accredited pre-service teacher training programmes, level unspecified, female (number){p_end}
+{synopt:{opt UIS.AFR.GTC.UK.T}} Africa Dataset: Graduates from accredited pre-service teacher training programmes, level unspecified, both sexes (number){p_end}
+{synopt:{opt UIS.AFR.GTCTR.1.F}} Africa Dataset: Ratio of teacher training graduates to teachers in primary education, female{p_end}
+{synopt:{opt UIS.AFR.GTCTR.1.M}} Africa Dataset: Ratio of teacher training graduates to teachers in primary education, male{p_end}
+{synopt:{opt UIS.AFR.GTCTR.1.T}} Africa Dataset: Ratio of teacher training graduates to teachers in primary education, both sexes{p_end}
+{synopt:{opt UIS.AFR.GTCTR.2.F}} Africa Dataset: Ratio of teacher training graduates to teachers in lower secondary education, female{p_end}
+{synopt:{opt UIS.AFR.GTCTR.2.M}} Africa Dataset: Ratio of teacher training graduates to teachers in lower secondary education, male{p_end}
+{synopt:{opt UIS.AFR.GTCTR.2.T}} Africa Dataset: Ratio of teacher training graduates to teachers in lower secondary education, both sexes{p_end}
+{synopt:{opt UIS.AFR.GTCTR.3.F}} Africa Dataset: Ratio of teacher training graduates to teachers in upper secondary education, female{p_end}
+{synopt:{opt UIS.AFR.GTCTR.3.M}} Africa Dataset: Ratio of teacher training graduates to teachers in upper secondary education, male{p_end}
+{synopt:{opt UIS.AFR.GTCTR.3.T}} Africa Dataset: Ratio of teacher training graduates to teachers in upper secondary education, both sexes{p_end}
+{synopt:{opt UIS.AFR.NTP.1.PU.F}} Africa Dataset: Percentage of female teachers in primary education who are newly recruited, female (%){p_end}
+{synopt:{opt UIS.AFR.NTP.1.PU.M}} Africa Dataset: Percentage of male teachers in primary education who are newly recruited, male (%){p_end}
+{synopt:{opt UIS.AFR.NTP.1.PU.T}} Africa Dataset: Percentage of teachers in primary education who are newly recruited, both sexes (%){p_end}
+{synopt:{opt UIS.AFR.NTP.2.PU.F}} Africa Dataset: Percentage of female teachers in lower secondary education who are newly recruited, female (%){p_end}
+{synopt:{opt UIS.AFR.NTP.2.PU.M}} Africa Dataset: Percentage of male teachers in lower secondary education who are newly recruited, male (%){p_end}
+{synopt:{opt UIS.AFR.NTP.2.PU.T}} Africa Dataset: Percentage of teachers in lower secondary education who are newly recruited, both sexes (%){p_end}
+{synopt:{opt UIS.AFR.NTP.3.PU.F}} Africa Dataset: Percentage of female teachers in upper secondary education who are newly recruited, female (%){p_end}
+{synopt:{opt UIS.AFR.NTP.3.PU.M}} Africa Dataset: Percentage of male teachers in upper secondary education who are newly recruited, male (%){p_end}
+{synopt:{opt UIS.AFR.NTP.3.PU.T}} Africa Dataset: Percentage of teachers in upper secondary education who are newly recruited, both sexes (%){p_end}
+{synopt:{opt UIS.AFR.PBR.1.G1.PU.MATH}} Africa Dataset: Average number of pupils per mathematics textbook in Grade 1 of primary education (number){p_end}
+{synopt:{opt UIS.AFR.PBR.1.G1.PU.READ}} Africa Dataset: Average number of pupils per reading textbook in Grade 1 of primary education (number){p_end}
+{synopt:{opt UIS.AFR.PBR.1.G2.PU.MATH}} Africa Dataset: Average number of pupils per mathematics textbook in Grade 2 of primary education (number){p_end}
+{synopt:{opt UIS.AFR.PBR.1.G2.PU.READ}} Africa Dataset: Average number of pupils per reading textbook in Grade 2 of primary education (number){p_end}
+{synopt:{opt UIS.AFR.PBR.1.G3.PU.MATH}} Africa Dataset: Average number of pupils per mathematics textbook in Grade 3 of primary education (number){p_end}
+{synopt:{opt UIS.AFR.PBR.1.G3.PU.READ}} Africa Dataset: Average number of pupils per reading textbook in Grade 3 of primary education (number){p_end}
+{synopt:{opt UIS.AFR.PBR.1.G4.PU.MATH}} Africa Dataset: Average number of pupils per mathematics textbook in Grade 4 of primary education (number){p_end}
+{synopt:{opt UIS.AFR.PBR.1.G4.PU.READ}} Africa Dataset: Average number of pupils per reading textbook in Grade 4 of primary education (number){p_end}
+{synopt:{opt UIS.AFR.PBR.1.G5.PU.MATH}} Africa Dataset: Average number of pupils per mathematics textbook in Grade 5 of primary education (number){p_end}
+{synopt:{opt UIS.AFR.PBR.1.G5.PU.READ}} Africa Dataset: Average number of pupils per reading textbook in Grade 5 of primary education (number){p_end}
+{synopt:{opt UIS.AFR.PBR.1.G6.PU.MATH}} Africa Dataset: Average number of pupils per mathematics textbook in Grade 6 of primary education (number){p_end}
+{synopt:{opt UIS.AFR.PBR.1.G6.PU.READ}} Africa Dataset: Average number of pupils per reading textbook in Grade 6 of primary education (number){p_end}
+{synopt:{opt UIS.AFR.PBR.1.G7.PU.MATH}} Africa Dataset: Average number of pupils per mathematics textbook in Grade 7 of primary education (number){p_end}
+{synopt:{opt UIS.AFR.PBR.1.G7.PU.READ}} Africa Dataset: Average number of pupils per reading textbook in Grade 7 of primary education (number){p_end}
+{synopt:{opt UIS.AFR.PBR.1.PU.MATH}} Africa Dataset: Average number of pupils per mathematics textbook in primary education (number){p_end}
+{synopt:{opt UIS.AFR.PBR.1.PU.READ}} Africa Dataset: Average number of pupils per reading textbook in primary education (number){p_end}
+{synopt:{opt UIS.AFR.SCHBSP.1.PU.MIXTOIL}} Africa Dataset: Percentage of primary schools with mixed-sex toilets (%){p_end}
+{synopt:{opt UIS.AFR.SCHBSP.1.PU.WELEC}} Africa Dataset: Proportion of public primary schools with access to electricity (%){p_end}
+{synopt:{opt UIS.AFR.SCHBSP.2.PU.MIXTOIL}} Africa Dataset: Percentage of lower secondary schools with mixed-sex toilets (%){p_end}
+{synopt:{opt UIS.AFR.SCHBSP.2.PU.WELEC}} Africa Dataset: Proportion of public lower secondary schools with access to electricity (%){p_end}
+{synopt:{opt UIS.AFR.SCHCENRESPR.1.PU}} Africa Dataset: School census return rate from primary schools{p_end}
+{synopt:{opt UIS.AFR.SCHCENRESPR.23.PU}} Africa Dataset: School census return rate from secondary schools{p_end}
+{synopt:{opt UIS.AFR.TRNTP.1.PU.F}} Africa Dataset: Percentage of female newly recruited teachers in primary education who are trained, female (%){p_end}
+{synopt:{opt UIS.AFR.TRNTP.1.PU.M}} Africa Dataset: Percentage of male newly recruited teachers in primary education who are trained, male (%){p_end}
+{synopt:{opt UIS.AFR.TRNTP.1.PU.T}} Africa Dataset: Percentage of newly recruited teachers in primary education who are trained, both sexes (%){p_end}
+{synopt:{opt UIS.AFR.TRNTP.2.PU.F}} Africa Dataset: Percentage of female newly recruited teachers in lower secondary education who are trained, female (%){p_end}
+{synopt:{opt UIS.AFR.TRNTP.2.PU.M}} Africa Dataset: Percentage of male newly recruited teachers in lower secondary education who are trained, male (%){p_end}
+{synopt:{opt UIS.AFR.TRNTP.2.PU.T}} Africa Dataset: Percentage of newly recruited teachers in lower secondary education who are trained, both sexes (%){p_end}
+{synopt:{opt UIS.AFR.TRNTP.3.PU.F}} Africa Dataset: Percentage of female newly recruited teachers in upper secondary education who are trained, female (%){p_end}
+{synopt:{opt UIS.AFR.TRNTP.3.PU.M}} Africa Dataset: Percentage of male newly recruited teachers in upper secondary education who are trained, male (%){p_end}
+{synopt:{opt UIS.AFR.TRNTP.3.PU.T}} Africa Dataset: Percentage of newly recruited teachers in upper secondary education who are trained, both sexes (%){p_end}
+{synopt:{opt UIS.AIR.1.GPI}} Gross intake ratio to Grade 1 of primary education, gender parity index (GPI){p_end}
+{synopt:{opt UIS.AIR.1.Glast.GPI}} Primary completion rate, gender parity index (GPI){p_end}
+{synopt:{opt UIS.AIR.2.GPV.F}} Gross intake ratio to Grade 1 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.AIR.2.GPV.GLAST.GPI}} Lower secondary completion rate, gender parity index (GPI){p_end}
+{synopt:{opt UIS.AIR.2.GPV.GPI}} Gross intake ratio to Grade 1 of lower secondary general education, gender parity index (GPI){p_end}
+{synopt:{opt UIS.AIR.2.GPV.M}} Gross intake ratio to Grade 1 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.AIR.2.GPV}} Gross intake ratio to Grade 1 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.CEAge.1}} Official entrance age to compulsory education (years){p_end}
+{synopt:{opt UIS.DR.1.G1.F}} Drop-out rate from Grade 1 of primary education, female (%){p_end}
+{synopt:{opt UIS.DR.1.G1.M}} Drop-out rate from Grade 1 of primary education, male (%){p_end}
+{synopt:{opt UIS.DR.1.G1}} Drop-out rate from Grade 1 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.DR.1.G2.F}} Drop-out rate from Grade 2 of primary education, female (%){p_end}
+{synopt:{opt UIS.DR.1.G2.M}} Drop-out rate from Grade 2 of primary education, male (%){p_end}
+{synopt:{opt UIS.DR.1.G2}} Drop-out rate from Grade 2 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.DR.1.G3.F}} Drop-out rate from Grade 3 of primary education, female (%){p_end}
+{synopt:{opt UIS.DR.1.G3.M}} Drop-out rate from Grade 3 of primary education, male (%){p_end}
+{synopt:{opt UIS.DR.1.G3}} Drop-out rate from Grade 3 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.DR.1.G4.F}} Drop-out rate from Grade 4 of primary education, female (%){p_end}
+{synopt:{opt UIS.DR.1.G4.M}} Drop-out rate from Grade 4 of primary education, male (%){p_end}
+{synopt:{opt UIS.DR.1.G4}} Drop-out rate from Grade 4 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.DR.1.G5.F}} Drop-out rate from Grade 5 of primary education, female (%){p_end}
+{synopt:{opt UIS.DR.1.G5.M}} Drop-out rate from Grade 5 of primary education, male (%){p_end}
+{synopt:{opt UIS.DR.1.G5}} Drop-out rate from Grade 5 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.DR.1.G6.F}} Drop-out rate from Grade 6 of primary education, female (%){p_end}
+{synopt:{opt UIS.DR.1.G6.M}} Drop-out rate from Grade 6 of primary education, male (%){p_end}
+{synopt:{opt UIS.DR.1.G6}} Drop-out rate from Grade 6 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.F}} Cumulative drop-out rate to the last grade of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.G1.F}} Drop-out rate from Grade 1 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.G1.M}} Drop-out rate from Grade 1 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.G1.T}} Drop-out rate from Grade 1 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.G2.F}} Drop-out rate from Grade 2 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.G2.M}} Drop-out rate from Grade 2 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.G2.T}} Drop-out rate from Grade 2 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.G3.F}} Drop-out rate from Grade 3 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.G3.M}} Drop-out rate from Grade 3 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.G3.T}} Drop-out rate from Grade 3 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.G4.F}} Drop-out rate from Grade 4 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.G4.M}} Drop-out rate from Grade 4 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.G4.T}} Drop-out rate from Grade 4 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.G5.F}} Drop-out rate from Grade 5 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.G5.M}} Drop-out rate from Grade 5 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.G5.T}} Drop-out rate from Grade 5 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.M}} Cumulative drop-out rate to the last grade of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.DR.2.GPV.T}} Cumulative drop-out rate to the last grade of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.E.0.F}} Enrolment in early childhood education, female (number){p_end}
+{synopt:{opt UIS.E.0.PR.F}} Enrolment in early childhood education, private institutions, female (number){p_end}
+{synopt:{opt UIS.E.0.PR.T}} Enrolment in early childhood education, private institutions, both sexes (number){p_end}
+{synopt:{opt UIS.E.0.PU.T}} Enrolment in early childhood education, public institutions, both sexes (number){p_end}
+{synopt:{opt UIS.E.0.Pu.F}} Enrolment in early childhood education, public institutions, female (number){p_end}
+{synopt:{opt UIS.E.0.T}} Enrolment in early childhood education, both sexes (number){p_end}
+{synopt:{opt UIS.E.01.F}} Enrolment in early childhood educational development programmes, female (number){p_end}
+{synopt:{opt UIS.E.01.PR.F}} Enrolment in early childhood educational development programmes, private institutions, female (number){p_end}
+{synopt:{opt UIS.E.01.PR.T}} Enrolment in early childhood educational development programmes, private institutions, both sexes (number){p_end}
+{synopt:{opt UIS.E.01.PU.F}} Enrolment in early childhood educational development programmes, public institutions, female (number){p_end}
+{synopt:{opt UIS.E.01.PU.T}} Enrolment in early childhood educational development programmes, public institutions, both sexes (number){p_end}
+{synopt:{opt UIS.E.01.T}} Enrolment in early childhood educational development programmes, both sexes (number){p_end}
+{synopt:{opt UIS.E.02.PR.F}} Enrolment in pre-primary education, private institutions, female (number){p_end}
+{synopt:{opt UIS.E.02.PR}} Enrolment in pre-primary education, private institutions, both sexes (number){p_end}
+{synopt:{opt UIS.E.02.PU.F}} Enrolment in pre-primary education, public institutions, female (number){p_end}
+{synopt:{opt UIS.E.02.PU}} Enrolment in pre-primary education, public institutions, both sexes (number){p_end}
+{synopt:{opt UIS.E.1.G1.F}} Enrolment in Grade 1 of primary education, female (number){p_end}
+{synopt:{opt UIS.E.1.G1}} Enrolment in Grade 1 of primary education, both sexes (number){p_end}
+{synopt:{opt UIS.E.1.G2.F}} Enrolment in Grade 2 of primary education, female (number){p_end}
+{synopt:{opt UIS.E.1.G2}} Enrolment in Grade 2 of primary education, both sexes (number){p_end}
+{synopt:{opt UIS.E.1.G3.F}} Enrolment in Grade 3 of primary education, female (number){p_end}
+{synopt:{opt UIS.E.1.G3}} Enrolment in Grade 3 of primary education, both sexes (number){p_end}
+{synopt:{opt UIS.E.1.G4.F}} Enrolment in Grade 4 of primary education, female (number){p_end}
+{synopt:{opt UIS.E.1.G4}} Enrolment in Grade 4 of primary education, both sexes (number){p_end}
+{synopt:{opt UIS.E.1.G5.F}} Enrolment in Grade 5 of primary education, female (number){p_end}
+{synopt:{opt UIS.E.1.G5}} Enrolment in Grade 5 of primary education, both sexes (number){p_end}
+{synopt:{opt UIS.E.1.G6.F}} Enrolment in Grade 6 of primary education, female (number){p_end}
+{synopt:{opt UIS.E.1.G6}} Enrolment in Grade 6 of primary education, both sexes (number){p_end}
+{synopt:{opt UIS.E.1.G7.F}} Enrolment in Grade 7 of primary education, female (number){p_end}
+{synopt:{opt UIS.E.1.G7}} Enrolment in Grade 7 of primary education, both sexes (number){p_end}
+{synopt:{opt UIS.E.1.Guk.F}} Enrolment in primary education, Grade unspecified, female (number){p_end}
+{synopt:{opt UIS.E.1.Guk}} Enrolment in primary education, Grade unspecified, both sexes (number){p_end}
+{synopt:{opt UIS.E.1.PR.F}} Enrolment in primary education, private institutions, female (number){p_end}
+{synopt:{opt UIS.E.1.PR}} Enrolment in primary education, private institutions, both sexes (number){p_end}
+{synopt:{opt UIS.E.1.Pu.F}} Enrolment in primary education, public institutions, female (number){p_end}
+{synopt:{opt UIS.E.1.Pu}} Enrolment in primary education, public institutions, both sexes (number){p_end}
+{synopt:{opt UIS.E.2.F}} Enrolment in lower secondary education, female (number){p_end}
+{synopt:{opt UIS.E.2.GPV.F}} Enrolment in lower secondary general, female (number){p_end}
+{synopt:{opt UIS.E.2.GPV.G1.F}} Enrolment in Grade 1 of lower secondary general education, female (number){p_end}
+{synopt:{opt UIS.E.2.GPV.G1.T}} Enrolment in Grade 1 of lower secondary general education, both sexes (number){p_end}
+{synopt:{opt UIS.E.2.GPV.G2.F}} Enrolment in Grade 2 of lower secondary general education, female (number){p_end}
+{synopt:{opt UIS.E.2.GPV.G2.T}} Enrolment in Grade 2 of lower secondary general education, both sexes (number){p_end}
+{synopt:{opt UIS.E.2.GPV.G3.F}} Enrolment in Grade 3 of lower secondary general education, female (number){p_end}
+{synopt:{opt UIS.E.2.GPV.G3.T}} Enrolment in Grade 3 of lower secondary general education, both sexes (number){p_end}
+{synopt:{opt UIS.E.2.GPV.G4.F}} Enrolment in Grade 4 of lower secondary general education, female (number){p_end}
+{synopt:{opt UIS.E.2.GPV.G4.T}} Enrolment in Grade 4 of lower secondary general education, both sexes (number){p_end}
+{synopt:{opt UIS.E.2.GPV.G5.F}} Enrolment in Grade 5 of lower secondary general education, female (number){p_end}
+{synopt:{opt UIS.E.2.GPV.G5.T}} Enrolment in Grade 5 of lower secondary general education, both sexes (number){p_end}
+{synopt:{opt UIS.E.2.GPV.G6.F}} Enrolment in Grade 6 of lower secondary general education, female (number){p_end}
+{synopt:{opt UIS.E.2.GPV.G6.T}} Enrolment in Grade 6 of lower secondary general education, both sexes (number){p_end}
+{synopt:{opt UIS.E.2.GPV.GUK.F}} Enrolment in lower secondary general education, Grade unspecified, female (number){p_end}
+{synopt:{opt UIS.E.2.GPV.GUK.T}} Enrolment in lower secondary general education, Grade unspecified, both sexes (number){p_end}
+{synopt:{opt UIS.E.2.GPV}} Enrolment in lower secondary general, both sexes (number){p_end}
+{synopt:{opt UIS.E.2.PR.F}} Enrolment in lower secondary education, private institutions, female (number){p_end}
+{synopt:{opt UIS.E.2.PR}} Enrolment in lower secondary education, private institutions, both sexes (number){p_end}
+{synopt:{opt UIS.E.2.PU.F}} Enrolment in lower secondary education, public institutions, female (number){p_end}
+{synopt:{opt UIS.E.2.PU}} Enrolment in lower secondary education, public institutions, both sexes (number){p_end}
+{synopt:{opt UIS.E.2.V.F}} Enrolment in lower secondary vocational, female (number){p_end}
+{synopt:{opt UIS.E.2.V}} Enrolment in lower secondary vocational, both sexes (number){p_end}
+{synopt:{opt UIS.E.23.PR.F}} Enrolment in secondary education, private institutions, female (number){p_end}
+{synopt:{opt UIS.E.23.PR}} Enrolment in secondary education, private institutions, both sexes (number){p_end}
+{synopt:{opt UIS.E.23.PU.F}} Enrolment in secondary education, public institutions, female (number){p_end}
+{synopt:{opt UIS.E.23.PU}} Enrolment in secondary education, public institutions, both sexes (number){p_end}
+{synopt:{opt UIS.E.2}} Enrolment in lower secondary education, both sexes (number){p_end}
+{synopt:{opt UIS.E.3.F}} Enrolment in upper secondary education, female (number){p_end}
+{synopt:{opt UIS.E.3.GPV.F}} Enrolment in upper secondary general, female (number){p_end}
+{synopt:{opt UIS.E.3.GPV}} Enrolment in upper secondary general, both sexes (number){p_end}
+{synopt:{opt UIS.E.3.M}} Enrolment in upper secondary education, male (number){p_end}
+{synopt:{opt UIS.E.3.PR.F}} Enrolment in upper secondary education, private institutions, female (number){p_end}
+{synopt:{opt UIS.E.3.PR}} Enrolment in upper secondary education, private institutions, both sexes (number){p_end}
+{synopt:{opt UIS.E.3.PU.F}} Enrolment in upper secondary education, public institutions, female (number){p_end}
+{synopt:{opt UIS.E.3.PU}} Enrolment in upper secondary education, public institutions, both sexes (number){p_end}
+{synopt:{opt UIS.E.3.V.F}} Enrolment in upper secondary vocational, female (number){p_end}
+{synopt:{opt UIS.E.3.V}} Enrolment in upper secondary vocational, both sexes (number){p_end}
+{synopt:{opt UIS.E.3}} Enrolment in upper secondary education, both sexes (number){p_end}
+{synopt:{opt UIS.E.4.F}} Enrolment in post-secondary non-tertiary education, female (number){p_end}
+{synopt:{opt UIS.E.4.PR.F}} Enrolment in post-secondary non-tertiary education, private institutions, female (number){p_end}
+{synopt:{opt UIS.E.4.PR}} Enrolment in post-secondary non-tertiary education, private institutions, both sexes (number){p_end}
+{synopt:{opt UIS.E.4.PU.F}} Enrolment in post-secondary non-tertiary education, public institutions, female (number){p_end}
+{synopt:{opt UIS.E.4.PU}} Enrolment in post-secondary non-tertiary education, public institutions, both sexes (number){p_end}
+{synopt:{opt UIS.E.4}} Enrolment in post-secondary non-tertiary education, both sexes (number){p_end}
+{synopt:{opt UIS.E.5.B.F}} Enrolment in tertiary education, ISCED 5 programmes, female (number){p_end}
+{synopt:{opt UIS.E.5.B}} Enrolment in tertiary education, ISCED 5 programmes, both sexes (number){p_end}
+{synopt:{opt UIS.E.6.F}} Enrolment in tertiary education, ISCED 6 programmes, female (number){p_end}
+{synopt:{opt UIS.E.6}} Enrolment in tertiary education, ISCED 6 programmes, both sexes (number){p_end}
+{synopt:{opt UIS.E.7.F}} Enrolment in tertiary education, ISCED 7 programmes, female (number){p_end}
+{synopt:{opt UIS.E.7}} Enrolment in tertiary education, ISCED 7 programmes, both sexes (number){p_end}
+{synopt:{opt UIS.E.8.F}} Enrolment in tertiary education, ISCED 8 programmes, female (number){p_end}
+{synopt:{opt UIS.E.8}} Enrolment in tertiary education, ISCED 8 programmes, both sexes (number){p_end}
+{synopt:{opt UIS.EA.1.AG25T99.F}} UIS: Percentage of population age 25+ with completed primary education. Female{p_end}
+{synopt:{opt UIS.EA.1.AG25T99.M}} UIS: Percentage of population age 25+ with completed primary education. Male{p_end}
+{synopt:{opt UIS.EA.1.AG25T99}} UIS: Percentage of population age 25+ with completed primary education. Total{p_end}
+{synopt:{opt UIS.EA.1T6.AG25T99.F}} UIS: Percentage of population age 25+ with at least completed primary education (ISCED 1 or higher). Female{p_end}
+{synopt:{opt UIS.EA.1T6.AG25T99.GPI}} UIS: Percentage of population age 25+ with at least completed primary education (ISCED 1 or higher). Gender Parity Index{p_end}
+{synopt:{opt UIS.EA.1T6.AG25T99.M}} UIS: Percentage of population age 25+ with at least completed primary education (ISCED 1 or higher). Male{p_end}
+{synopt:{opt UIS.EA.1T6.AG25T99}} UIS: Percentage of population age 25+ with at least completed primary education (ISCED 1 or higher). Total{p_end}
+{synopt:{opt UIS.EA.2.AG25T99.F}} UIS: Percentage of population age 25+ with completed lower secondary education. Female{p_end}
+{synopt:{opt UIS.EA.2.AG25T99.M}} UIS: Percentage of population age 25+ with completed lower secondary education. Male{p_end}
+{synopt:{opt UIS.EA.2.AG25T99}} UIS: Percentage of population age 25+ with completed lower secondary education. Total{p_end}
+{synopt:{opt UIS.EA.2T6.AG25T99.F}} UIS: Percentage of population age 25+ with at least completed lower secondary education (ISCED 2 or higher). Female{p_end}
+{synopt:{opt UIS.EA.2T6.AG25T99.GPI}} UIS: Percentage of population age 25+ with at least completed lower secondary education (ISCED 2 or higher). Gender Parity Index{p_end}
+{synopt:{opt UIS.EA.2T6.AG25T99.M}} UIS: Percentage of population age 25+ with at least completed lower secondary education (ISCED 2 or higher). Male{p_end}
+{synopt:{opt UIS.EA.2T6.AG25T99}} UIS: Percentage of population age 25+ with at least completed lower secondary education (ISCED 2 or higher). Total{p_end}
+{synopt:{opt UIS.EA.3.AG25T99.F}} UIS: Percentage of population age 25+ with completed upper secondary education. Female{p_end}
+{synopt:{opt UIS.EA.3.AG25T99.M}} UIS: Percentage of population age 25+ with completed upper secondary education. Male{p_end}
+{synopt:{opt UIS.EA.3.AG25T99}} UIS: Percentage of population age 25+ with completed upper secondary education. Total{p_end}
+{synopt:{opt UIS.EA.3T6.AG25T99.F}} UIS: Percentage of population age 25+ with at least completed upper secondary education (ISCED 3 or higher). Female{p_end}
+{synopt:{opt UIS.EA.3T6.AG25T99.GPI}} UIS: Percentage of population age 25+ with at least completed upper secondary education (ISCED 3 or higher). Gender Parity Index{p_end}
+{synopt:{opt UIS.EA.3T6.AG25T99.M}} UIS: Percentage of population age 25+ with at least completed upper secondary education (ISCED 3 or higher). Male{p_end}
+{synopt:{opt UIS.EA.3T6.AG25T99}} UIS: Percentage of population age 25+ with at least completed upper secondary education (ISCED 3 or higher). Total{p_end}
+{synopt:{opt UIS.EA.4.AG25T99.F}} UIS: Percentage of population age 25+ with completed post-secondary education. Female{p_end}
+{synopt:{opt UIS.EA.4.AG25T99.M}} UIS: Percentage of population age 25+ with completed post-secondary education. Male{p_end}
+{synopt:{opt UIS.EA.4.AG25T99}} UIS: Percentage of population age 25+ with completed post-secondary education. Total{p_end}
+{synopt:{opt UIS.EA.4T6.AG25T99.F}} UIS: Percentage of population age 25+ with at least completed post-secondary education (ISCED 4 or higher). Female{p_end}
+{synopt:{opt UIS.EA.4T6.AG25T99.GPI}} UIS: Percentage of population age 25+ with at least completed post-secondary education (ISCED 4 or higher). Gender Parity Index{p_end}
+{synopt:{opt UIS.EA.4T6.AG25T99.M}} UIS: Percentage of population age 25+ with at least completed post-secondary education (ISCED 4 or higher). Male{p_end}
+{synopt:{opt UIS.EA.4T6.AG25T99}} UIS: Percentage of population age 25+ with at least completed post-secondary education (ISCED 4 or higher). Total{p_end}
+{synopt:{opt UIS.EA.5.AG25T99.F}} UIS: Percentage of population age 25+ with a completed short-cycle tertiary degree (ISCED 5). Female{p_end}
+{synopt:{opt UIS.EA.5.AG25T99.M}} UIS: Percentage of population age 25+ with a completed short-cycle tertiary degree (ISCED 5). Male{p_end}
+{synopt:{opt UIS.EA.5.AG25T99}} UIS: Percentage of population age 25+ with a completed short-cycle tertiary degree (ISCED 5). Total{p_end}
+{synopt:{opt UIS.EA.5T8.AG25T99.F}} UIS: Percentage of population age 25+ with at least a completed short-cycle tertiary degree (ISCED 5 or higher). Female{p_end}
+{synopt:{opt UIS.EA.5T8.AG25T99.GPI}} UIS: Percentage of population age 25+ with at least a completed short-cycle tertiary degree (ISCED 5 or higher). Gender Parity Index{p_end}
+{synopt:{opt UIS.EA.5T8.AG25T99.M}} UIS: Percentage of population age 25+ with at least a completed short-cycle tertiary degree (ISCED 5 or higher). Male{p_end}
+{synopt:{opt UIS.EA.5T8.AG25T99}} UIS: Percentage of population age 25+ with at least a completed short-cycle tertiary degree (ISCED 5 or higher). Total{p_end}
+{synopt:{opt UIS.EA.6.AG25T99.F}} UIS: Percentage of population age 25+ with a completed bachelor's or equivalent degree (ISCED 6). Female{p_end}
+{synopt:{opt UIS.EA.6.AG25T99.M}} UIS: Percentage of population age 25+ with a completed bachelor's or equivalent degree (ISCED 6). Male{p_end}
+{synopt:{opt UIS.EA.6.AG25T99}} UIS: Percentage of population age 25+ with a completed bachelor's or equivalent degree (ISCED 6). Total{p_end}
+{synopt:{opt UIS.EA.6T8.AG25T99.F}} UIS: Percentage of population age 25+ with at least a completed bachelor's or equivalent degree (ISCED 6 or higher). Female{p_end}
+{synopt:{opt UIS.EA.6T8.AG25T99.GPI}} UIS: Percentage of population age 25+ with at least a completed bachelor's or equivalent degree (ISCED 6 or higher). Gender Parity Index{p_end}
+{synopt:{opt UIS.EA.6T8.AG25T99.M}} UIS: Percentage of population age 25+ with at least a completed bachelor's or equivalent degree (ISCED 6 or higher). Male{p_end}
+{synopt:{opt UIS.EA.6T8.AG25T99}} UIS: Percentage of population age 25+ with at least a completed bachelor's or equivalent degree (ISCED 6 or higher). Total{p_end}
+{synopt:{opt UIS.EA.7.AG25T99.F}} UIS: Percentage of population age 25+ with a completed master's or equivalent degree (ISCED 7). Female{p_end}
+{synopt:{opt UIS.EA.7.AG25T99.M}} UIS: Percentage of population age 25+ with a completed master's or equivalent degree (ISCED 7). Male{p_end}
+{synopt:{opt UIS.EA.7.AG25T99}} UIS: Percentage of population age 25+ with a completed master's or equivalent degree (ISCED 7). Total{p_end}
+{synopt:{opt UIS.EA.7T8.AG25T99.F}} UIS: Percentage of population age 25+ with at least a completed master's degree or equivalent (ISCED 7 or higher). Female{p_end}
+{synopt:{opt UIS.EA.7T8.AG25T99.GPI}} UIS: Percentage of population age 25+ with at least a completed master's degree or equivalent (ISCED 7 or higher). Gender Parity Index{p_end}
+{synopt:{opt UIS.EA.7T8.AG25T99.M}} UIS: Percentage of population age 25+ with at least a completed master's degree or equivalent (ISCED 7 or higher). Male{p_end}
+{synopt:{opt UIS.EA.7T8.AG25T99}} UIS: Percentage of population age 25+ with at least a completed master's degree or equivalent (ISCED 7 or higher). Total{p_end}
+{synopt:{opt UIS.EA.8.AG25T99.F}} UIS: Percentage of population age 25+ with a doctoral degree or equivalent (ISCED 8). Female{p_end}
+{synopt:{opt UIS.EA.8.AG25T99.GPI}} UIS: Percentage of population age 25+ with a doctoral degree or equivalent (ISCED 8). Gender Parity Index{p_end}
+{synopt:{opt UIS.EA.8.AG25T99.M}} UIS: Percentage of population age 25+ with a doctoral degree or equivalent (ISCED 8). Male{p_end}
+{synopt:{opt UIS.EA.8.AG25T99}} UIS: Percentage of population age 25+ with a doctoral degree or equivalent (ISCED 8). Total{p_end}
+{synopt:{opt UIS.EA.MEAN.1T6.AG25T99.F}} UIS: Mean years of schooling (ISCED 1 or higher) of the population age 25+. Female{p_end}
+{synopt:{opt UIS.EA.MEAN.1T6.AG25T99.M}} UIS: Mean years of schooling (ISCED 1 or higher) of the population age 25+. Male{p_end}
+{synopt:{opt UIS.EA.MEAN.1T6.AG25T99}} UIS: Mean years of schooling (ISCED 1 or higher) of the population age 25+. Total{p_end}
+{synopt:{opt UIS.EA.NS.AG25T99.F}} UIS: Percentage of population age 25+ with no schooling. Female{p_end}
+{synopt:{opt UIS.EA.NS.AG25T99.M}} UIS: Percentage of population age 25+ with no schooling. Male{p_end}
+{synopt:{opt UIS.EA.NS.AG25T99}} UIS: Percentage of population age 25+ with no schooling. Total{p_end}
+{synopt:{opt UIS.EA.S1.AG25T99.F}} UIS: Percentage of population age 25+ with some primary education. Female{p_end}
+{synopt:{opt UIS.EA.S1.AG25T99.M}} UIS: Percentage of population age 25+ with some primary education. Male{p_end}
+{synopt:{opt UIS.EA.S1.AG25T99}} UIS: Percentage of population age 25+ with some primary education. Total{p_end}
+{synopt:{opt UIS.EA.UK.AG25T99.F}} UIS: Percentage of population age 25+ with unknown educational attainment. Female{p_end}
+{synopt:{opt UIS.EA.UK.AG25T99.M}} UIS: Percentage of population age 25+ with unknown educational attainment. Male{p_end}
+{synopt:{opt UIS.EA.UK.AG25T99}} UIS: Percentage of population age 25+ with unknown educational attainment. Total{p_end}
+{synopt:{opt UIS.ECDP.1.F}} Percentage of new entrants to Grade 1 of primary education with early childhood education experience, female (%){p_end}
+{synopt:{opt UIS.ECDP.1.GPI}} Percentage of new entrants to Grade 1 of primary education with early childhood education experience, gender parity index (GPI){p_end}
+{synopt:{opt UIS.ECDP.1.M}} Percentage of new entrants to Grade 1 of primary education with early childhood education experience, male (%){p_end}
+{synopt:{opt UIS.ECDP.1}} Percentage of new entrants to Grade 1 of primary education with early childhood education experience, both sexes (%){p_end}
+{synopt:{opt UIS.ESL.1.F}} Early school leavers from primary education, female (number){p_end}
+{synopt:{opt UIS.ESL.1.M}} Early school leavers from primary education, male (number){p_end}
+{synopt:{opt UIS.ESL.1.T}} Early school leavers from primary education, both sexes (number){p_end}
+{synopt:{opt UIS.FEP.01}} Percentage of students in early childhood educational development programmes who are female (%){p_end}
+{synopt:{opt UIS.FEP.0}} Percentage of students in early childhood education who are female (%){p_end}
+{synopt:{opt UIS.FEP.2.GPV}} Percentage of students in lower secondary general education who are female (%){p_end}
+{synopt:{opt UIS.FEP.2.V}} Percentage of students in lower secondary vocational education who are female (%){p_end}
+{synopt:{opt UIS.FEP.2}} Percentage of students in lower secondary education who are female (%){p_end}
+{synopt:{opt UIS.FEP.3.GPV}} Percentage of students in upper secondary general education who are female (%){p_end}
+{synopt:{opt UIS.FEP.3.V}} Percentage of students in upper secondary vocational education who are female (%){p_end}
+{synopt:{opt UIS.FEP.3}} Percentage of students in upper secondary education who are female (%){p_end}
+{synopt:{opt UIS.FEP.4.GPV}} Percentage of students in post-secondary non-tertiary general education who are female (%){p_end}
+{synopt:{opt UIS.FEP.4.V}} Percentage of students in post-secondary non-tertiary vocational education who are female (%){p_end}
+{synopt:{opt UIS.FEP.4}} Percentage of students in post-secondary non-tertiary education who are female (%){p_end}
+{synopt:{opt UIS.FEP.5.B}} Percentage of students in tertiary ISCED 5 programmes who are female (%){p_end}
+{synopt:{opt UIS.FEP.56.F1000}} Percentage of students enrolled in Services programmes in tertiary education who are female (%){p_end}
+{synopt:{opt UIS.FEP.56.F140}} Percentage of students enrolled in Education programmes in tertiary education who are female (%){p_end}
+{synopt:{opt UIS.FEP.56.F200}} Percentage of students enrolled in Arts and Humanities programmes in tertiary education who are female (%){p_end}
+{synopt:{opt UIS.FEP.56.F300}} Percentage of students enrolled in Social Sciences, Journalism and Information programmes in tertiary education who are female (%){p_end}
+{synopt:{opt UIS.FEP.56.F400}} Percentage of students enrolled in Business, Administration and Law programmes in tertiary education who are female (%){p_end}
+{synopt:{opt UIS.FEP.56.F500}} Percentage of students enrolled in Natural Sciences, Mathematics and Statistics programmes in tertiary education who are female (%){p_end}
+{synopt:{opt UIS.FEP.56.F600}} Percentage of students enrolled in Information and Communication Technologies programmes in tertiary education who are female (%){p_end}
+{synopt:{opt UIS.FEP.56.F700}} Percentage of students enrolled in Engineering, Manufacturing and Construction programmes in tertiary education who are female (%){p_end}
+{synopt:{opt UIS.FEP.56.F800}} Percentage of students enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes in tertiary education who are female (%){p_end}
+{synopt:{opt UIS.FEP.56.F900}} Percentage of students enrolled in Health and Welfare programmes in tertiary education who are female (%){p_end}
+{synopt:{opt UIS.FEP.56.FOREIGN}} Percentage of all inbound internationally mobile students in tertiary education in the host country who are female, (%){p_end}
+{synopt:{opt UIS.FEP.56.FUK}} Percentage of students enrolled in programmes in unspecified fields in tertiary education who are female (%){p_end}
+{synopt:{opt UIS.FEP.6}} Percentage of students in tertiary ISCED 6 programmes who are female (%){p_end}
+{synopt:{opt UIS.FEP.7}} Percentage of students in tertiary ISCED 7 programmes who are female (%){p_end}
+{synopt:{opt UIS.FEP.8}} Percentage of students in tertiary ISCED 8 programmes who are female (%){p_end}
+{synopt:{opt UIS.FGP.5.B}} Percentage of graduates from tertiary ISCED 5 programmes who are female (%){p_end}
+{synopt:{opt UIS.FGP.5T8.F400}} Percentage of graduates from Business, Administration and Law programmes in tertiary education who are female (%){p_end}
+{synopt:{opt UIS.FGP.5T8.F500600700}} Percentage of graduates from Science, Technology, Engineering and Mathematics programmes in tertiary education who are female (%){p_end}
+{synopt:{opt UIS.FGP.5T8.F600}} Percentage of graduates from Information and Communication Technologies programmes in tertiary education who are female (%){p_end}
+{synopt:{opt UIS.FGP.5T8.FNON500600700}} Percentage of graduates from other fields than Science, Technology, Engineering and Mathematics programmes in tertiary education who are female (%){p_end}
+{synopt:{opt UIS.FGP.6}} Percentage of graduates from tertiary ISCED 6 programmes who are female (%){p_end}
+{synopt:{opt UIS.FGP.7}} Percentage of graduates from tertiary ISCED 7 programmes who are female (%){p_end}
+{synopt:{opt UIS.FGP.8}} Percentage of graduates from tertiary ISCED 8 programmes who are female (%){p_end}
+{synopt:{opt UIS.FNP.1}} New entrants to Grade 1 of primary education, percentage female (%){p_end}
+{synopt:{opt UIS.FOFSTP.1}} Out-of-school children of primary school age, percentage female (%){p_end}
+{synopt:{opt UIS.FOFSTP.2}} Out-of-school adolescents of lower secondary school age, percentage female (%){p_end}
+{synopt:{opt UIS.FOFSTP.3}} Out-of-school youth of upper secondary school age, percentage female (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F1000.F}} Percentage of students in tertiary education enrolled in Services programmes, female (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F1000.M}} Percentage of students in tertiary education enrolled in Services programmes, male (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F1000}} Percentage of students in tertiary education enrolled in Services programmes, both sexes (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F140.F}} Percentage of students in tertiary education enrolled in Education programmes, female (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F140.M}} Percentage of students in tertiary education enrolled in Education programmes, male (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F140}} Percentage of students in tertiary education enrolled in Education programmes, both sexes (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F200.F}} Percentage of students in tertiary education enrolled in Arts and Humanities programmes, female (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F200.M}} Percentage of students in tertiary education enrolled in Arts and Humanities programmes, male (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F200}} Percentage of students in tertiary education enrolled in Arts and Humanities programmes, both sexes (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F300.F}} Percentage of students in tertiary education enrolled in Social Sciences, Journalism and Information programmes, female (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F300.M}} Percentage of students in tertiary education enrolled in Social Sciences, Journalism and Information programmes, male (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F300}} Percentage of students in tertiary education enrolled in Social Sciences, Journalism and Information programmes, both sexes (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F400.F}} Percentage of students in tertiary education enrolled in Business, Administration and Law programmes, female (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F400.M}} Percentage of students in tertiary education enrolled in Business, Administration and Law programmes, male (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F400}} Percentage of students in tertiary education enrolled in Business, Administration and Law programmes, both sexes (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F500.F}} Percentage of students in tertiary education enrolled in Natural Sciences, Mathematics and Statistics programmes, female (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F500.M}} Percentage of students in tertiary education enrolled in Natural Sciences, Mathematics and Statistics programmes, male (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F500}} Percentage of students in tertiary education enrolled in Natural Sciences, Mathematics and Statistics programmes, both sexes (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F600.F}} Percentage of students in tertiary education enrolled in Information and Communication Technologies programmes, female (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F600.M}} Percentage of students in tertiary education enrolled in Information and Communication Technologies programmes, male (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F600}} Percentage of students in tertiary education enrolled in Information and Communication Technologies programmes, both sexes (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F700.F}} Percentage of students in tertiary education enrolled in Engineering, Manufacturing and Construction programmes, female (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F700.M}} Percentage of students in tertiary education enrolled in Engineering, Manufacturing and Construction programmes, male (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F700}} Percentage of students in tertiary education enrolled in Engineering, Manufacturing and Construction programmes, both sexes (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F800.F}} Percentage of students in tertiary education enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes, female (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F800.M}} Percentage of students in tertiary education enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes, male (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F800}} Percentage of students in tertiary education enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes, both sexes (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F900.F}} Percentage of students in tertiary education enrolled in Health and Welfare programmes, female (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F900.M}} Percentage of students in tertiary education enrolled in Health and Welfare programmes, male (%){p_end}
+{synopt:{opt UIS.FOSEP.56.F900}} Percentage of students in tertiary education enrolled in Health and Welfare programmes, both sexes (%){p_end}
+{synopt:{opt UIS.FOSEP.56.FUK.F}} Percentage of students in tertiary education enrolled in unspecified fields, female (%){p_end}
+{synopt:{opt UIS.FOSEP.56.FUK.M}} Percentage of students in tertiary education enrolled in unspecified fields, male (%){p_end}
+{synopt:{opt UIS.FOSEP.56.FUK}} Percentage of students in tertiary education enrolled in programmes in unspecified fields, both sexes (%){p_end}
+{synopt:{opt UIS.FOSGP.56.F140.M}} Percentage of male graduates from tertiary education graduating from Education programmes, male (%){p_end}
+{synopt:{opt UIS.FOSGP.56.F200.M}} Percentage of male graduates from tertiary education graduating from Arts and Humanities programmes, male (%){p_end}
+{synopt:{opt UIS.FOSGP.56.F300.M}} Percentage of male graduates from tertiary education graduating from Social Sciences, Journalism and Information programmes, male (%){p_end}
+{synopt:{opt UIS.FOSGP.56.F400.M}} Percentage of male graduates from tertiary education graduating from Business, Administration and Law programmes, male (%){p_end}
+{synopt:{opt UIS.FOSGP.56.F500.M}} Percentage of male graduates from tertiary education graduating from Natural Sciences, Mathematics and Statistics programmes, male (%){p_end}
+{synopt:{opt UIS.FOSGP.56.F600.M}} Percentage of male graduates from tertiary education graduating from Information and Communication Technologies programmes, male (%){p_end}
+{synopt:{opt UIS.FOSGP.56.F700.M}} Percentage of male graduates from tertiary education graduating from Engineering, Manufacturing and Construction programmes, male (%){p_end}
+{synopt:{opt UIS.FOSGP.56.F800.M}} Percentage of male graduates from tertiary education graduating from Agriculture, Forestry, Fisheries and Veterinary programmes, male (%){p_end}
+{synopt:{opt UIS.FOSGP.56.FUK.M}} Percentage of male graduates from tertiary education graduating from programmes in unspecified fields, male (%){p_end}
+{synopt:{opt UIS.FOSGP.5T8.F1000.M}} Percentage of male graduates from tertiary education graduating from Services programmes, male (%){p_end}
+{synopt:{opt UIS.FOSGP.5T8.F400.F}} Percentage of female graduates from tertiary education graduating from Business, Administration and Law programmes, female (%){p_end}
+{synopt:{opt UIS.FOSGP.5T8.F400}} Percentage of graduates from tertiary education graduating from Business, Administration and Law  programmes, both sexes (%){p_end}
+{synopt:{opt UIS.FOSGP.5T8.F500600700.F}} Percentage of female graduates from Science, Technology, Engineering and Mathematics programmes in tertiary education, female (%){p_end}
+{synopt:{opt UIS.FOSGP.5T8.F500600700.M}} Percentage of male graduates from Science, Technology, Engineering and Mathematics programmes in tertiary education, male (%){p_end}
+{synopt:{opt UIS.FOSGP.5T8.F500600700}} Percentage of graduates from Science, Technology, Engineering and Mathematics programmes in tertiary education, both sexes (%){p_end}
+{synopt:{opt UIS.FOSGP.5T8.F600.F}} Percentage of female graduates from tertiary education graduating from Information and Communication Technologies programmes, female (%){p_end}
+{synopt:{opt UIS.FOSGP.5T8.F600}} Percentage of graduates from tertiary education graduating from Information and Communication Technologies programmes, both sexes (%){p_end}
+{synopt:{opt UIS.FOSGP.5T8.F900.M}} Percentage of male graduates from tertiary education graduating from Health and Welfare programmes, male (%){p_end}
+{synopt:{opt UIS.FOSGP.5T8.FNON500600700.F}} Percentage of female graduates from programmes other than Science, Technology, Engineering and Mathematics in tertiary education, female (%){p_end}
+{synopt:{opt UIS.FOSGP.5T8.FNON500600700.M}} Percentage of male graduates from programmes other than Science, Technology, Engineering and Mathematics in tertiary education, male (%){p_end}
+{synopt:{opt UIS.FOSGP.5T8.FNON500600700}} Percentage of graduates from programmes other than Science, Technology, Engineering and Mathematics in tertiary education, both sexes (%){p_end}
+{synopt:{opt UIS.FTP.2}} Percentage of teachers in lower secondary education who are female (%){p_end}
+{synopt:{opt UIS.FTP.3}} Percentage of teachers in upper secondary education who are female (%){p_end}
+{synopt:{opt UIS.FTP.4}} Percentage of teachers in post-secondary non-tertiary education who are female (%){p_end}
+{synopt:{opt UIS.G.5.B.F}} Graduates from ISCED 5 programmes in tertiary education, female (number){p_end}
+{synopt:{opt UIS.G.5.B.T}} Graduates from ISCED 5 programmes in tertiary education, both sexes (number){p_end}
+{synopt:{opt UIS.G.6.F}} Graduates from ISCED 6 programmes in tertiary education, female (number){p_end}
+{synopt:{opt UIS.G.6.T}} Graduates from ISCED 6 programmes in tertiary education, both sexes (number){p_end}
+{synopt:{opt UIS.G.7.F}} Graduates from ISCED 7 programmes in tertiary education, female (number){p_end}
+{synopt:{opt UIS.G.7.T}} Graduates from ISCED 7 programmes in tertiary education, both sexes (number){p_end}
+{synopt:{opt UIS.G.8.F}} Graduates from ISCED 8 programmes in tertiary education, female (number){p_end}
+{synopt:{opt UIS.G.8.T}} Graduates from ISCED 8 programmes in tertiary education, both sexes (number){p_end}
+{synopt:{opt UIS.GER.0.GPI}} Gross enrolment ratio, pre-primary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.GER.12.F}} Gross enrolment ratio, primary and lower secondary, female (%){p_end}
+{synopt:{opt UIS.GER.12.GPI}} Gross enrolment ratio, primary and lower secondary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.GER.12.M}} Gross enrolment ratio, primary and lower secondary, male (%){p_end}
+{synopt:{opt UIS.GER.123.F}} Gross enrolment ratio, primary and secondary, female (%){p_end}
+{synopt:{opt UIS.GER.123.M}} Gross enrolment ratio, primary and secondary, male (%){p_end}
+{synopt:{opt UIS.GER.123}} Gross enrolment ratio, primary and secondary, both sexes (%){p_end}
+{synopt:{opt UIS.GER.12}} Gross enrolment ratio, primary and lower secondary, both sexes (%){p_end}
+{synopt:{opt UIS.GER.1t6.F}} Gross enrolment ratio, primary to tertiary, female (%){p_end}
+{synopt:{opt UIS.GER.1t6.GPI}} Gross enrolment ratio, primary to tertiary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.GER.1t6.M}} Gross enrolment ratio, primary to tertiary, male (%){p_end}
+{synopt:{opt UIS.GER.2.GPI}} Gross enrolment ratio, lower secondary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.GER.3.GPI}} Gross enrolment ratio, upper secondary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.GER.4.F}} Gross enrolment ratio, post-secondary non-tertiary, female (%){p_end}
+{synopt:{opt UIS.GER.4.GPI}} Gross enrolment ratio, post-secondary non-tertiary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.GER.4.M}} Gross enrolment ratio, post-secondary non-tertiary, male (%){p_end}
+{synopt:{opt UIS.GER.4}} Gross enrolment ratio, post-secondary non-tertiary, both sexes (%){p_end}
+{synopt:{opt UIS.GGR.1.GPI}} Gross graduation ratio from primary education, gender parity index (GPI){p_end}
+{synopt:{opt UIS.GGR.2.F}} Gross graduation ratio from lower secondary education, female (%){p_end}
+{synopt:{opt UIS.GGR.2.GPI}} Gross graduation ratio from lower secondary education, gender parity index (GPI){p_end}
+{synopt:{opt UIS.GGR.2.M}} Gross graduation ratio from lower secondary education, male (%){p_end}
+{synopt:{opt UIS.GGR.2}} Gross graduation ratio from lower secondary education, both sexes (%){p_end}
+{synopt:{opt UIS.GGR.5.A.GPI}} Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, gender parity index (GPI){p_end}
+{synopt:{opt UIS.GOER.56}} Gross outbound enrolment ratio, all regions, both sexes (%){p_end}
+{synopt:{opt UIS.GTVP.2.GPV.F}} Share of female students in lower secondary education enrolled in general programmes (%){p_end}
+{synopt:{opt UIS.GTVP.2.GPV.M}} Share of male students in lower secondary education enrolled in general programmes (%){p_end}
+{synopt:{opt UIS.GTVP.2.GPV}} Share of all students in lower secondary education enrolled in general programmes (%){p_end}
+{synopt:{opt UIS.GTVP.2.V.F}} Share of female students in lower secondary education enrolled in vocational programmes (%){p_end}
+{synopt:{opt UIS.GTVP.2.V.M}} Share of male students in lower secondary education enrolled in vocational programmes (%){p_end}
+{synopt:{opt UIS.GTVP.2.V}} Share of all students in lower secondary education enrolled in vocational programmes (%){p_end}
+{synopt:{opt UIS.GTVP.23.GPV.F}} Share of female students in secondary education enrolled in general programmes (%){p_end}
+{synopt:{opt UIS.GTVP.23.GPV.M}} Share of male students in secondary education enrolled in general programmes (%){p_end}
+{synopt:{opt UIS.GTVP.23.GPV}} Share of all students in secondary education enrolled in general programmes (%){p_end}
+{synopt:{opt UIS.GTVP.3.GPV.F}} Share of female students in upper secondary education enrolled in general programmes (%){p_end}
+{synopt:{opt UIS.GTVP.3.GPV.M}} Share of male students in upper secondary education enrolled in general programmes (%){p_end}
+{synopt:{opt UIS.GTVP.3.GPV}} Share of all students in upper secondary education enrolled in general programmes (%){p_end}
+{synopt:{opt UIS.GTVP.3.V.F}} Share of female students in upper secondary education enrolled in vocational programmes (%){p_end}
+{synopt:{opt UIS.GTVP.3.V.M}} Share of male students in upper secondary education enrolled in vocational programmes (%){p_end}
+{synopt:{opt UIS.GTVP.3.V}} Share of all students in upper secondary education enrolled in vocational programmes (%){p_end}
+{synopt:{opt UIS.GTVP.4.GPV.F}} Share of female students in post-secondary non-tertiary education enrolled in general programmes (%){p_end}
+{synopt:{opt UIS.GTVP.4.GPV.M}} Share of male students in post-secondary non-tertiary education enrolled in general programmes (%){p_end}
+{synopt:{opt UIS.GTVP.4.GPV}} Share of all students in post-secondary non-tertiary education enrolled in general programmes (%){p_end}
+{synopt:{opt UIS.GTVP.4.V.F}} Share of female students in post-secondary non-tertiary education enrolled in vocational programmes (%){p_end}
+{synopt:{opt UIS.GTVP.4.V.M}} Share of male students in post-secondary non-tertiary education enrolled in vocational programmes (%){p_end}
+{synopt:{opt UIS.GTVP.4.V}} Share of all students in post-secondary non-tertiary education enrolled in vocational programmes (%){p_end}
+{synopt:{opt UIS.ILLPOP.AG25T64.F}} Illiterate population, 25-64 years, female (number){p_end}
+{synopt:{opt UIS.ILLPOP.AG25T64.M}} Illiterate population, 25-64 years, male (number){p_end}
+{synopt:{opt UIS.ILLPOP.AG25T64}} Illiterate population, 25-64 years, both sexes (number){p_end}
+{synopt:{opt UIS.ILLPOPF.AG25T64}} Illiterate population, 25-64 years, % female{p_end}
+{synopt:{opt UIS.LP.AG15T24.F}} Youth illiterate population, 15-24 years, female (number){p_end}
+{synopt:{opt UIS.LP.AG15T24.M}} Youth illiterate population, 15-24 years, male (number){p_end}
+{synopt:{opt UIS.LP.AG15T24}} Youth illiterate population, 15-24 years, both sexes (number){p_end}
+{synopt:{opt UIS.LP.AG15T99.F}} Adult illiterate population, 15+ years, female (number){p_end}
+{synopt:{opt UIS.LP.AG15T99.M}} Adult illiterate population, 15+ years, male (number){p_end}
+{synopt:{opt UIS.LP.AG15T99}} Adult illiterate population, 15+ years, both sexes (number){p_end}
+{synopt:{opt UIS.LP.AG65.F}} Elderly illiterate population, 65+ years, female (number){p_end}
+{synopt:{opt UIS.LP.AG65.M}} Elderly illiterate population, 65+ years, male (number){p_end}
+{synopt:{opt UIS.LP.AG65}} Elderly illiterate population, 65+ years, both sexes (number){p_end}
+{synopt:{opt UIS.LPP.AG15T24}} Youth illiterate population, 15-24 years, % female{p_end}
+{synopt:{opt UIS.LPP.AG15T99}} Adult illiterate population, 15+ years, % female{p_end}
+{synopt:{opt UIS.LPP.AG65}} Elderly illiterate population, 65+ years, % female{p_end}
+{synopt:{opt UIS.LR.AG15T99.GPI}} Adult literacy rate, population 15+ years, gender parity index (GPI){p_end}
+{synopt:{opt UIS.LR.AG25T64.F}} Literacy rate, population 25-64 years, female (%){p_end}
+{synopt:{opt UIS.LR.AG25T64.GPI}} Literacy rate, population 25-64 years, gender parity index (GPI){p_end}
+{synopt:{opt UIS.LR.AG25T64.M}} Literacy rate, population 25-64 years, male (%){p_end}
+{synopt:{opt UIS.LR.AG25T64}} Literacy rate, population 25-64 years, both sexes (%){p_end}
+{synopt:{opt UIS.LR.AG65.F}} Elderly literacy rate, population 65+ years, female (%){p_end}
+{synopt:{opt UIS.LR.AG65.GPI}} Elderly literacy rate, population 65+ years, gender parity index (GPI){p_end}
+{synopt:{opt UIS.LR.AG65.M}} Elderly literacy rate, population 65+ years, male (%){p_end}
+{synopt:{opt UIS.LR.AG65}} Elderly literacy rate, population 65+ years, both sexes (%){p_end}
+{synopt:{opt UIS.MENF.56}} Net flow of internationally mobile students (inbound - outbound), both sexes (number){p_end}
+{synopt:{opt UIS.MENFR.56}} Net flow ratio of internationally mobile students (inbound - outbound), both sexes (%){p_end}
+{synopt:{opt UIS.MS.56.F}} Total inbound internationally mobile students, female (number){p_end}
+{synopt:{opt UIS.MS.56.T}} Total inbound internationally mobile students, both sexes (number){p_end}
+{synopt:{opt UIS.MSEP.56.F}} Inbound mobility rate, female (%){p_end}
+{synopt:{opt UIS.MSEP.56.M}} Inbound mobility rate, male (%){p_end}
+{synopt:{opt UIS.MSEP.56}} Inbound mobility rate, both sexes (%){p_end}
+{synopt:{opt UIS.NAR.1.F}} UIS: Net attendance rate, primary, female (%){p_end}
+{synopt:{opt UIS.NAR.1.GPIA}} UIS: Net attendance rate, primary, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NAR.1.M}} UIS: Net attendance rate, primary, male (%){p_end}
+{synopt:{opt UIS.NAR.1.Q1.F}} UIS: Net attendance rate, primary, poorest quintile, female (%){p_end}
+{synopt:{opt UIS.NAR.1.Q1.GPIA}} UIS: Net attendance rate, primary, poorest quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NAR.1.Q1.M}} UIS: Net attendance rate, primary, poorest quintile, male (%){p_end}
+{synopt:{opt UIS.NAR.1.Q1}} UIS: Net attendance rate, primary, poorest quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NAR.1.Q2.F}} UIS: Net attendance rate, primary, second quintile, female (%){p_end}
+{synopt:{opt UIS.NAR.1.Q2.GPIA}} UIS: Net attendance rate, primary, second quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NAR.1.Q2.M}} UIS: Net attendance rate, primary, second quintile, male (%){p_end}
+{synopt:{opt UIS.NAR.1.Q2}} UIS: Net attendance rate, primary, second quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NAR.1.Q3.F}} UIS: Net attendance rate, primary, middle quintile, female (%){p_end}
+{synopt:{opt UIS.NAR.1.Q3.GPIA}} UIS: Net attendance rate, primary, middle quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NAR.1.Q3.M}} UIS: Net attendance rate, primary, middle quintile, male (%){p_end}
+{synopt:{opt UIS.NAR.1.Q3}} UIS: Net attendance rate, primary, middle quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NAR.1.Q4.F}} UIS: Net attendance rate, primary, fourth quintile, female (%){p_end}
+{synopt:{opt UIS.NAR.1.Q4.GPIA}} UIS: Net attendance rate, primary, fourth quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NAR.1.Q4.M}} UIS: Net attendance rate, primary, fourth quintile, male (%){p_end}
+{synopt:{opt UIS.NAR.1.Q4}} UIS: Net attendance rate, primary, fourth quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NAR.1.Q5.F}} UIS: Net attendance rate, primary, richest quintile, female (%){p_end}
+{synopt:{opt UIS.NAR.1.Q5.GPIA}} UIS: Net attendance rate, primary, richest quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NAR.1.Q5.M}} UIS: Net attendance rate, primary, richest quintile, male (%){p_end}
+{synopt:{opt UIS.NAR.1.Q5}} UIS: Net attendance rate, primary, richest quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NAR.1.RUR.F}} UIS: Net attendance rate, primary, rural, female (%){p_end}
+{synopt:{opt UIS.NAR.1.RUR.GPIA}} UIS: Net attendance rate, primary, rural, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NAR.1.RUR.M}} UIS: Net attendance rate, primary, rural, male (%){p_end}
+{synopt:{opt UIS.NAR.1.RUR}} UIS: Net attendance rate, primary, rural, both sexes (%){p_end}
+{synopt:{opt UIS.NAR.1.URB.F}} UIS: Net attendance rate, primary, urban, female (%){p_end}
+{synopt:{opt UIS.NAR.1.URB.GPIA}} UIS: Net attendance rate, primary, urban, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NAR.1.URB.M}} UIS: Net attendance rate, primary, urban, male (%){p_end}
+{synopt:{opt UIS.NAR.1.URB}} UIS: Net attendance rate, primary, urban, both sexes (%){p_end}
+{synopt:{opt UIS.NAR.1}} UIS: Net attendance rate, primary, both sexes (%){p_end}
+{synopt:{opt UIS.NAR.2.F}} UIS: Net attendance rate, lower secondary, female (%){p_end}
+{synopt:{opt UIS.NAR.2.GPIA}} UIS: Net attendance rate, lower secondary, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NAR.2.M}} UIS: Net attendance rate, lower secondary, male (%){p_end}
+{synopt:{opt UIS.NAR.2.Q1.F}} UIS: Net attendance rate, lower secondary, poorest quintile, female (%){p_end}
+{synopt:{opt UIS.NAR.2.Q1.GPIA}} UIS: Net attendance rate, lower secondary, poorest quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NAR.2.Q1.M}} UIS: Net attendance rate, lower secondary, poorest quintile, male (%){p_end}
+{synopt:{opt UIS.NAR.2.Q1}} UIS: Net attendance rate, lower secondary, poorest quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NAR.2.Q2.F}} UIS: Net attendance rate, lower secondary, second quintile, female (%){p_end}
+{synopt:{opt UIS.NAR.2.Q2.GPIA}} UIS: Net attendance rate, lower secondary, second quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NAR.2.Q2.M}} UIS: Net attendance rate, lower secondary, second quintile, male (%){p_end}
+{synopt:{opt UIS.NAR.2.Q2}} UIS: Net attendance rate, lower secondary, second quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NAR.2.Q3.F}} UIS: Net attendance rate, lower secondary, middle quintile, female (%){p_end}
+{synopt:{opt UIS.NAR.2.Q3.GPIA}} UIS: Net attendance rate, lower secondary, middle quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NAR.2.Q3.M}} UIS: Net attendance rate, lower secondary, middle quintile, male (%){p_end}
+{synopt:{opt UIS.NAR.2.Q3}} UIS: Net attendance rate, lower secondary, middle quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NAR.2.Q4.F}} UIS: Net attendance rate, lower secondary, fourth quintile, female (%){p_end}
+{synopt:{opt UIS.NAR.2.Q4.GPIA}} UIS: Net attendance rate, lower secondary, fourth quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NAR.2.Q4.M}} UIS: Net attendance rate, lower secondary, fourth quintile, male (%){p_end}
+{synopt:{opt UIS.NAR.2.Q4}} UIS: Net attendance rate, lower secondary, fourth quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NAR.2.Q5.F}} UIS: Net attendance rate, lower secondary, richest quintile, female (%){p_end}
+{synopt:{opt UIS.NAR.2.Q5.GPIA}} UIS: Net attendance rate, lower secondary, richest quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NAR.2.Q5.M}} UIS: Net attendance rate, lower secondary, richest quintile, male (%){p_end}
+{synopt:{opt UIS.NAR.2.Q5}} UIS: Net attendance rate, lower secondary, richest quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NAR.2.RUR.F}} UIS: Net attendance rate, lower secondary, rural, female (%){p_end}
+{synopt:{opt UIS.NAR.2.RUR.GPIA}} UIS: Net attendance rate, lower secondary, rural, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NAR.2.RUR.M}} UIS: Net attendance rate, lower secondary, rural, male (%){p_end}
+{synopt:{opt UIS.NAR.2.RUR}} UIS: Net attendance rate, lower secondary, rural, both sexes (%){p_end}
+{synopt:{opt UIS.NAR.2.URB.F}} UIS: Net attendance rate, lower secondary, urban, female (%){p_end}
+{synopt:{opt UIS.NAR.2.URB.GPIA}} UIS: Net attendance rate, lower secondary, urban, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NAR.2.URB.M}} UIS: Net attendance rate, lower secondary, urban, male (%){p_end}
+{synopt:{opt UIS.NAR.2.URB}} UIS: Net attendance rate, lower secondary, urban, both sexes (%){p_end}
+{synopt:{opt UIS.NAR.2}} UIS: Net attendance rate, lower secondary, both sexes (%){p_end}
+{synopt:{opt UIS.NARA.1.F}} UIS: Adjusted net attendance rate, primary, female (%){p_end}
+{synopt:{opt UIS.NARA.1.GPIA}} UIS: Adjusted net attendance rate, primary, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NARA.1.M}} UIS: Adjusted net attendance rate, primary, male (%){p_end}
+{synopt:{opt UIS.NARA.1.Q1.F}} UIS: Adjusted net attendance rate, primary, poorest quintile, female (%){p_end}
+{synopt:{opt UIS.NARA.1.Q1.GPIA}} UIS: Adjusted net attendance rate, primary, poorest quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NARA.1.Q1.M}} UIS: Adjusted net attendance rate, primary, poorest quintile, male (%){p_end}
+{synopt:{opt UIS.NARA.1.Q1}} UIS: Adjusted net attendance rate, primary, poorest quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NARA.1.Q2.F}} UIS: Adjusted net attendance rate, primary, second quintile, female (%){p_end}
+{synopt:{opt UIS.NARA.1.Q2.GPIA}} UIS: Adjusted net attendance rate, primary, second quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NARA.1.Q2.M}} UIS: Adjusted net attendance rate, primary, second quintile, male (%){p_end}
+{synopt:{opt UIS.NARA.1.Q2}} UIS: Adjusted net attendance rate, primary, second quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NARA.1.Q3.F}} UIS: Adjusted net attendance rate, primary, middle quintile, female (%){p_end}
+{synopt:{opt UIS.NARA.1.Q3.GPIA}} UIS: Adjusted net attendance rate, primary, middle quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NARA.1.Q3.M}} UIS: Adjusted net attendance rate, primary, middle quintile, male (%){p_end}
+{synopt:{opt UIS.NARA.1.Q3}} UIS: Adjusted net attendance rate, primary, middle quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NARA.1.Q4.F}} UIS: Adjusted net attendance rate, primary, fourth quintile, female (%){p_end}
+{synopt:{opt UIS.NARA.1.Q4.GPIA}} UIS: Adjusted net attendance rate, primary, fourth quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NARA.1.Q4.M}} UIS: Adjusted net attendance rate, primary, fourth quintile, male (%){p_end}
+{synopt:{opt UIS.NARA.1.Q4}} UIS: Adjusted net attendance rate, primary, fourth quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NARA.1.Q5.F}} UIS: Adjusted net attendance rate, primary, richest quintile, female (%){p_end}
+{synopt:{opt UIS.NARA.1.Q5.GPIA}} UIS: Adjusted net attendance rate, primary, richest quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NARA.1.Q5.M}} UIS: Adjusted net attendance rate, primary, richest quintile, male (%){p_end}
+{synopt:{opt UIS.NARA.1.Q5}} UIS: Adjusted net attendance rate, primary, richest quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NARA.1.RUR.F}} UIS: Adjusted net attendance rate, primary, rural, female (%){p_end}
+{synopt:{opt UIS.NARA.1.RUR.GPIA}} UIS: Adjusted net attendance rate, primary, rural, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NARA.1.RUR.M}} UIS: Adjusted net attendance rate, primary, rural, male (%){p_end}
+{synopt:{opt UIS.NARA.1.RUR}} UIS: Adjusted net attendance rate, primary, rural, both sexes (%){p_end}
+{synopt:{opt UIS.NARA.1.URB.F}} UIS: Adjusted net attendance rate, primary, urban, female (%){p_end}
+{synopt:{opt UIS.NARA.1.URB.GPIA}} UIS: Adjusted net attendance rate, primary, urban, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NARA.1.URB.M}} UIS: Adjusted net attendance rate, primary, urban, male (%){p_end}
+{synopt:{opt UIS.NARA.1.URB}} UIS: Adjusted net attendance rate, primary, urban, both sexes (%){p_end}
+{synopt:{opt UIS.NARA.1}} UIS: Adjusted net attendance rate, primary, both sexes (%){p_end}
+{synopt:{opt UIS.NART.2.F}} UIS: Total net attendance rate, lower secondary, female (%){p_end}
+{synopt:{opt UIS.NART.2.GPIA}} UIS: Total net attendance rate, lower secondary, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NART.2.M}} UIS: Total net attendance rate, lower secondary, male (%){p_end}
+{synopt:{opt UIS.NART.2.Q1.F}} UIS: Total net attendance rate, lower secondary, poorest quintile, female (%){p_end}
+{synopt:{opt UIS.NART.2.Q1.GPIA}} UIS: Total net attendance rate, lower secondary, poorest quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NART.2.Q1.M}} UIS: Total net attendance rate, lower secondary, poorest quintile, male (%){p_end}
+{synopt:{opt UIS.NART.2.Q1}} UIS: Total net attendance rate, lower secondary, poorest quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NART.2.Q2.F}} UIS: Total net attendance rate, lower secondary, second quintile, female (%){p_end}
+{synopt:{opt UIS.NART.2.Q2.GPIA}} UIS: Total net attendance rate, lower secondary, second quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NART.2.Q2.M}} UIS: Total net attendance rate, lower secondary, second quintile, male (%){p_end}
+{synopt:{opt UIS.NART.2.Q2}} UIS: Total net attendance rate, lower secondary, second quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NART.2.Q3.F}} UIS: Total net attendance rate, lower secondary, middle quintile, female (%){p_end}
+{synopt:{opt UIS.NART.2.Q3.GPIA}} UIS: Total net attendance rate, lower secondary, middle quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NART.2.Q3.M}} UIS: Total net attendance rate, lower secondary, middle quintile, male (%){p_end}
+{synopt:{opt UIS.NART.2.Q3}} UIS: Total net attendance rate, lower secondary, middle quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NART.2.Q4.F}} UIS: Total net attendance rate, lower secondary, fourth quintile, female (%){p_end}
+{synopt:{opt UIS.NART.2.Q4.GPIA}} UIS: Total net attendance rate, lower secondary, fourth quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NART.2.Q4.M}} UIS: Total net attendance rate, lower secondary, fourth quintile, male (%){p_end}
+{synopt:{opt UIS.NART.2.Q4}} UIS: Total net attendance rate, lower secondary, fourth quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NART.2.Q5.F}} UIS: Total net attendance rate, lower secondary, richest quintile, female (%){p_end}
+{synopt:{opt UIS.NART.2.Q5.GPIA}} UIS: Total net attendance rate, lower secondary, richest quintile, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NART.2.Q5.M}} UIS: Total net attendance rate, lower secondary, richest quintile, male (%){p_end}
+{synopt:{opt UIS.NART.2.Q5}} UIS: Total net attendance rate, lower secondary, richest quintile, both sexes (%){p_end}
+{synopt:{opt UIS.NART.2.RUR.F}} UIS: Total net attendance rate, lower secondary, rural, female (%){p_end}
+{synopt:{opt UIS.NART.2.RUR.GPIA}} UIS: Total net attendance rate, lower secondary, rural, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NART.2.RUR.M}} UIS: Total net attendance rate, lower secondary, rural, male (%){p_end}
+{synopt:{opt UIS.NART.2.RUR}} UIS: Total net attendance rate, lower secondary, rural, both sexes (%){p_end}
+{synopt:{opt UIS.NART.2.URB.F}} UIS: Total net attendance rate, lower secondary, urban, female (%){p_end}
+{synopt:{opt UIS.NART.2.URB.GPIA}} UIS: Total net attendance rate, lower secondary, urban, adjusted gender parity index (GPIA){p_end}
+{synopt:{opt UIS.NART.2.URB.M}} UIS: Total net attendance rate, lower secondary, urban, male (%){p_end}
+{synopt:{opt UIS.NART.2.URB}} UIS: Total net attendance rate, lower secondary, urban, both sexes (%){p_end}
+{synopt:{opt UIS.NART.2}} UIS: Total net attendance rate, lower secondary, both sexes (%){p_end}
+{synopt:{opt UIS.NE.1.ECD.F}} New entrants to Grade 1 of primary education with early childhood education experience, female (number){p_end}
+{synopt:{opt UIS.NE.1.ECD}} New entrants to Grade 1 of primary education with early childhood education experience, both sexes (number){p_end}
+{synopt:{opt UIS.NE.1.G1.F}} New entrants to Grade 1 of primary education, female (number){p_end}
+{synopt:{opt UIS.NE.1.G1}} New entrants to Grade 1 of primary education, both sexes (number){p_end}
+{synopt:{opt UIS.NER.0.GPI}} Net enrolment rate, pre-primary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.NER.1.GPI}} Net enrolment rate, primary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.NER.2.F}} Net enrolment rate, lower secondary, female (%){p_end}
+{synopt:{opt UIS.NER.2.M}} Net enrolment rate, lower secondary, male (%){p_end}
+{synopt:{opt UIS.NER.23.GPI}} Net enrolment rate, secondary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.NER.2}} Net enrolment rate, lower secondary, both sexes (%){p_end}
+{synopt:{opt UIS.NER.3.F}} Net enrolment rate, upper secondary, female (%){p_end}
+{synopt:{opt UIS.NER.3.M}} Net enrolment rate, upper secondary, male (%){p_end}
+{synopt:{opt UIS.NER.3}} Net enrolment rate, upper secondary, both sexes (%){p_end}
+{synopt:{opt UIS.NERA.1.GPI}} Adjusted net enrolment rate, primary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.NERA.2.F}} Adjusted net enrolment rate, lower secondary, female (%){p_end}
+{synopt:{opt UIS.NERA.2.GPI}} Adjusted net enrolment rate, lower secondary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.NERA.2.M}} Adjusted net enrolment rate, lower secondary, male (%){p_end}
+{synopt:{opt UIS.NERA.2}} Adjusted net enrolment rate, lower secondary, both sexes (%){p_end}
+{synopt:{opt UIS.NERA.3.F}} Adjusted net enrolment rate, upper secondary, female (%){p_end}
+{synopt:{opt UIS.NERA.3.GPI}} Adjusted net enrolment rate, upper secondary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.NERA.3.M}} Adjusted net enrolment rate, upper secondary, male (%){p_end}
+{synopt:{opt UIS.NERA.3}} Adjusted net enrolment rate, upper secondary, both sexes (%){p_end}
+{synopt:{opt UIS.NERA.AGM1.F}} Adjusted net enrolment rate, one year before the official primary entry age, female (%){p_end}
+{synopt:{opt UIS.NERA.AGM1.M}} Adjusted net enrolment rate, one year before the official primary entry age, male (%){p_end}
+{synopt:{opt UIS.NERA.AGM1}} Adjusted net enrolment rate, one year before the official primary entry age, both sexes (%){p_end}
+{synopt:{opt UIS.NERT.1.F}} Total net enrolment rate, primary, female (%){p_end}
+{synopt:{opt UIS.NERT.1.GPI}} Total net enrolment rate, primary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.NERT.1.M}} Total net enrolment rate, primary, male (%){p_end}
+{synopt:{opt UIS.NERT.1}} Total net enrolment rate, primary, both sexes (%){p_end}
+{synopt:{opt UIS.NERT.2.F}} Total net enrolment rate, lower secondary, female (%){p_end}
+{synopt:{opt UIS.NERT.2.GPI}} Total net enrolment rate, lower secondary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.NERT.2.M}} Total net enrolment rate, lower secondary, male (%){p_end}
+{synopt:{opt UIS.NERT.2}} Total net enrolment rate, lower secondary, both sexes (%){p_end}
+{synopt:{opt UIS.NERT.3.F}} Total net enrolment rate, upper secondary, female (%){p_end}
+{synopt:{opt UIS.NERT.3.GPI}} Total net enrolment rate, upper secondary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.NERT.3.M}} Total net enrolment rate, upper secondary, male (%){p_end}
+{synopt:{opt UIS.NERT.3}} Total net enrolment rate, upper secondary, both sexes (%){p_end}
+{synopt:{opt UIS.NIR.1.AGM1.F}} Net intake rate to Grade 1 of primary education by under-age entrants (-1 year), female (%){p_end}
+{synopt:{opt UIS.NIR.1.AGM1.GPI}} Net intake rate to Grade 1 of primary education by under-age entrants (-1 year), gender parity index (GPI){p_end}
+{synopt:{opt UIS.NIR.1.AGM1.M}} Net intake rate to Grade 1 of primary education by under-age entrants (-1 year), male (%){p_end}
+{synopt:{opt UIS.NIR.1.AGM1}} Net intake rate to Grade 1 of primary education by under-age entrants (-1 year), both sexes (%){p_end}
+{synopt:{opt UIS.NIR.1.AGP1.F}} Net intake rate to Grade 1 of primary education by over-age entrants (+1 year), female (%){p_end}
+{synopt:{opt UIS.NIR.1.AGP1.GPI}} Net intake rate to Grade 1 of primary education by over-age entrants (+1 year), gender parity index (GPI){p_end}
+{synopt:{opt UIS.NIR.1.AGP1.M}} Net intake rate to Grade 1 of primary education by over-age entrants (+1 year), male (%){p_end}
+{synopt:{opt UIS.NIR.1.AGP1}} Net intake rate to Grade 1 of primary education by over-age entrants (+1 year), both sexes (%){p_end}
+{synopt:{opt UIS.NIR.1.GPI}} Net intake rate to Grade 1 of primary education, gender parity index (GPI){p_end}
+{synopt:{opt UIS.NIRA.1.F}} Adjusted net intake rate to Grade 1 of primary education, female (%){p_end}
+{synopt:{opt UIS.NIRA.1.GPI}} Adjusted net intake rate to Grade 1 of primary education, gender parity index (GPI){p_end}
+{synopt:{opt UIS.NIRA.1.M}} Adjusted net intake rate to Grade 1 of primary education, male (%){p_end}
+{synopt:{opt UIS.NIRA.1}} Adjusted net intake rate to Grade 1 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.OAEP.1.F}} Percentage of female students enrolled in primary education who are over-age, female (%){p_end}
+{synopt:{opt UIS.OAEP.1.M}} Percentage of male students enrolled in primary education who are over-age, male (%){p_end}
+{synopt:{opt UIS.OAEP.1}} Percentage of students enrolled in primary education who are over-age, both sexes (%){p_end}
+{synopt:{opt UIS.OAPP.1.F}} Over-age enrolment ratio in primary education, female (%){p_end}
+{synopt:{opt UIS.OAPP.1.M}} Over-age enrolment ratio in primary education, male (%){p_end}
+{synopt:{opt UIS.OAPP.1}} Over-age enrolment ratio in primary education, both sexes (%){p_end}
+{synopt:{opt UIS.OE.56.40510}} Total outbound internationally mobile tertiary students studying abroad, all countries, both sexes (number){p_end}
+{synopt:{opt UIS.OFSPPT.1.F}} Out-of-school children of primary school age in pre-primary education, female (number){p_end}
+{synopt:{opt UIS.OFSPPT.1.M}} Out-of-school children of primary school age in pre-primary education, male (number){p_end}
+{synopt:{opt UIS.OFSPPT.1}} Out-of-school children of primary school age in pre-primary education, both sexes (number){p_end}
+{synopt:{opt UIS.OFST.2.F}} Out-of-school adolescents of lower secondary school age, female (number){p_end}
+{synopt:{opt UIS.OFST.2.M}} Out-of-school adolescents of lower secondary school age, male (number){p_end}
+{synopt:{opt UIS.OFST.2}} Out-of-school adolescents of lower secondary school age, both sexes (number){p_end}
+{synopt:{opt UIS.OFST.3.CP}} Out-of-school youth of upper secondary school age, both sexes (number){p_end}
+{synopt:{opt UIS.OFST.3.F.CP}} Out-of-school youth of upper secondary school age, female (number){p_end}
+{synopt:{opt UIS.OFST.3.M.CP}} Out-of-school youth of upper secondary school age, male (number){p_end}
+{synopt:{opt UIS.OMR.56}} Outbound mobility ratio, all regions, both sexes (%){p_end}
+{synopt:{opt UIS.PRP.01}} Percentage of enrolment in early childhood educational development programmes in private institutions (%){p_end}
+{synopt:{opt UIS.PRP.0}} Percentage of enrolment in early childhood education programmes in private institutions (%){p_end}
+{synopt:{opt UIS.PRP.2}} Percentage of enrolment in lower secondary education in private institutions (%){p_end}
+{synopt:{opt UIS.PRP.3}} Percentage of enrolment in upper secondary education in private institutions (%){p_end}
+{synopt:{opt UIS.PRP.4}} Percentage of enrolment in post-secondary non-tertiary education in private institutions (%){p_end}
+{synopt:{opt UIS.PTRHC.02.QUALIFIED}} Pupil/qualified teacher ratio in pre-primary education (headcount basis){p_end}
+{synopt:{opt UIS.PTRHC.02.TRAINED}} Pupil/trained teacher ratio in pre-primary education (headcount basis){p_end}
+{synopt:{opt UIS.PTRHC.1.QUALIFIED}} Pupil/qualified teacher ratio in primary education (headcount basis){p_end}
+{synopt:{opt UIS.PTRHC.1.TRAINED}} Pupil/trained teacher ratio in primary education (headcount basis){p_end}
+{synopt:{opt UIS.PTRHC.2.QUALIFIED}} Pupil/qualified teacher ratio in lower secondary (headcount basis){p_end}
+{synopt:{opt UIS.PTRHC.2.TRAINED}} Pupil/trained teacher ratio in lower secondary education (headcount basis){p_end}
+{synopt:{opt UIS.PTRHC.2T3.QUALIFIED}} Pupil/qualified teacher ratio in secondary (headcount basis){p_end}
+{synopt:{opt UIS.PTRHC.2T3.TRAINED}} Pupil/trained teacher ratio in secondary education (headcount basis){p_end}
+{synopt:{opt UIS.PTRHC.2}} Pupil-teacher ratio in lower secondary education (headcount basis){p_end}
+{synopt:{opt UIS.PTRHC.3.QUALIFIED}} Pupil/qualified teacher ratio in upper secondary (headcount basis){p_end}
+{synopt:{opt UIS.PTRHC.3.TRAINED}} Pupil/trained teacher ratio in upper secondary education (headcount basis){p_end}
+{synopt:{opt UIS.PTRHC.3}} Pupil-teacher ratio in upper secondary education (headcount basis){p_end}
+{synopt:{opt UIS.PTRHC.56}} Pupil-teacher ratio in tertiary education (headcount basis){p_end}
+{synopt:{opt UIS.QUTP.02}} Percentage of teachers in pre-primary education who are qualified, both sexes (%){p_end}
+{synopt:{opt UIS.QUTP.1}} Percentage of teachers in primary education who are qualified, both sexes (%){p_end}
+{synopt:{opt UIS.QUTP.2T3}} Percentage of teachers in secondary education who are qualified, both sexes (%){p_end}
+{synopt:{opt UIS.QUTP.2}} Percentage of teachers in lower secondary education who are qualified, both sexes (%){p_end}
+{synopt:{opt UIS.QUTP.3}} Percentage of teachers in upper secondary education who are qualified, both sexes (%){p_end}
+{synopt:{opt UIS.R.1.F}} Repeaters in primary education, all grades, female (number){p_end}
+{synopt:{opt UIS.R.1.G1.F}} Repeaters in Grade 1 of primary education, female (number){p_end}
+{synopt:{opt UIS.R.1.G1}} Repeaters in Grade 1 of primary education, both sexes (number){p_end}
+{synopt:{opt UIS.R.1.G2.F}} Repeaters in Grade 2 of primary education, female (number){p_end}
+{synopt:{opt UIS.R.1.G2}} Repeaters in Grade 2 of primary education, both sexes (number){p_end}
+{synopt:{opt UIS.R.1.G3.F}} Repeaters in Grade 3 of primary education, female (number){p_end}
+{synopt:{opt UIS.R.1.G3}} Repeaters in Grade 3 of primary education, both sexes (number){p_end}
+{synopt:{opt UIS.R.1.G4.F}} Repeaters in Grade 4 of primary education, female (number){p_end}
+{synopt:{opt UIS.R.1.G4}} Repeaters in Grade 4 of primary education, both sexes (number){p_end}
+{synopt:{opt UIS.R.1.G5.F}} Repeaters in Grade 5 of primary education, female (number){p_end}
+{synopt:{opt UIS.R.1.G5}} Repeaters in Grade 5 of primary education, both sexes (number){p_end}
+{synopt:{opt UIS.R.1.G6.F}} Repeaters in Grade 6 of primary education, female (number){p_end}
+{synopt:{opt UIS.R.1.G6}} Repeaters in Grade 6 of primary education, both sexes (number){p_end}
+{synopt:{opt UIS.R.1.G7.F}} Repeaters in Grade 7 of primary education, female (number){p_end}
+{synopt:{opt UIS.R.1.G7}} Repeaters in Grade 7 of primary education, both sexes (number){p_end}
+{synopt:{opt UIS.R.1}} Repeaters in primary education, all grades, both sexes (number){p_end}
+{synopt:{opt UIS.R.2.GPV.F}} Repeaters in lower secondary general education, all grades, female (number){p_end}
+{synopt:{opt UIS.R.2.GPV.G1.F}} Repeaters in Grade 1 of lower secondary general education, female (number){p_end}
+{synopt:{opt UIS.R.2.GPV.G1}} Repeaters in Grade 1 of lower secondary general education, both sexes (number){p_end}
+{synopt:{opt UIS.R.2.GPV.G2.F}} Repeaters in Grade 2 of lower secondary general education, female (number){p_end}
+{synopt:{opt UIS.R.2.GPV.G2}} Repeaters in Grade 2 of lower secondary general education, both sexes (number){p_end}
+{synopt:{opt UIS.R.2.GPV.G3.F}} Repeaters in Grade 3 of lower secondary general education, female (number){p_end}
+{synopt:{opt UIS.R.2.GPV.G3}} Repeaters in Grade 3 of lower secondary general education, both sexes (number){p_end}
+{synopt:{opt UIS.R.2.GPV.G4.F}} Repeaters in Grade 4 of lower secondary general education, female (number){p_end}
+{synopt:{opt UIS.R.2.GPV.G4}} Repeaters in Grade 4 of lower secondary general education, both sexes (number){p_end}
+{synopt:{opt UIS.R.2.GPV.G5.F}} Repeaters in Grade 5 of lower secondary general education, female (number){p_end}
+{synopt:{opt UIS.R.2.GPV.G5}} Repeaters in Grade 5 of lower secondary general education, both sexes (number){p_end}
+{synopt:{opt UIS.R.2.GPV.G6.F}} Repeaters in Grade 6 of lower secondary general education, female (number){p_end}
+{synopt:{opt UIS.R.2.GPV.G6}} Repeaters in Grade 6 of lower secondary general education, both sexes (number){p_end}
+{synopt:{opt UIS.R.2.GPV}} Repeaters in lower secondary general education, all grades, both sexes (number){p_end}
+{synopt:{opt UIS.REPP.1.G1.F}} Percentage of repeaters in Grade 1 of primary education, female (%){p_end}
+{synopt:{opt UIS.REPP.1.G1.M}} Percentage of repeaters in Grade 1 of primary education, male (%){p_end}
+{synopt:{opt UIS.REPP.1.G1}} Percentage of repeaters in Grade 1 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.REPP.1.G2.F}} Percentage of repeaters in Grade 2 of primary education, female (%){p_end}
+{synopt:{opt UIS.REPP.1.G2.M}} Percentage of repeaters in Grade 2 of primary education, male (%){p_end}
+{synopt:{opt UIS.REPP.1.G2}} Percentage of repeaters in Grade 2 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.REPP.1.G3.F}} Percentage of repeaters in Grade 3 of primary education, female (%){p_end}
+{synopt:{opt UIS.REPP.1.G3.M}} Percentage of repeaters in Grade 3 of primary education, male (%){p_end}
+{synopt:{opt UIS.REPP.1.G3}} Percentage of repeaters in Grade 3 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.REPP.1.G4.F}} Percentage of repeaters in Grade 4 of primary education, female (%){p_end}
+{synopt:{opt UIS.REPP.1.G4.M}} Percentage of repeaters in Grade 4 of primary education, male (%){p_end}
+{synopt:{opt UIS.REPP.1.G4}} Percentage of repeaters in Grade 4 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.REPP.1.G5.F}} Percentage of repeaters in Grade 5 of primary education, female (%){p_end}
+{synopt:{opt UIS.REPP.1.G5.M}} Percentage of repeaters in Grade 5 of primary education, male (%){p_end}
+{synopt:{opt UIS.REPP.1.G5}} Percentage of repeaters in Grade 5 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.REPP.1.G6.F}} Percentage of repeaters in Grade 6 of primary education, female (%){p_end}
+{synopt:{opt UIS.REPP.1.G6.M}} Percentage of repeaters in Grade 6 of primary education, male (%){p_end}
+{synopt:{opt UIS.REPP.1.G6}} Percentage of repeaters in Grade 6 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.REPP.1.G7.F}} Percentage of repeaters in Grade 7 of primary education, female (%){p_end}
+{synopt:{opt UIS.REPP.1.G7.M}} Percentage of repeaters in Grade 7 of primary education, male (%){p_end}
+{synopt:{opt UIS.REPP.1.G7}} Percentage of repeaters in Grade 7 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.REPP.1.GPI}} Percentage of repeaters in primary education, all grades, gender parity index (GPI){p_end}
+{synopt:{opt UIS.REPP.2.GPV.F}} Percentage of repeaters in lower secondary general education, all grades, female (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G1.F}} Percentage of repeaters in Grade 1 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G1.M}} Percentage of repeaters in Grade 1 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G1}} Percentage of repeaters in Grade 1 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G2.F}} Percentage of repeaters in Grade 2 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G2.M}} Percentage of repeaters in Grade 2 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G2}} Percentage of repeaters in Grade 2 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G3.F}} Percentage of repeaters in Grade 3 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G3.M}} Percentage of repeaters in Grade 3 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G3}} Percentage of repeaters in Grade 3 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G4.F}} Percentage of repeaters in Grade 4 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G4.M}} Percentage of repeaters in Grade 4 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G4}} Percentage of repeaters in Grade 4 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G5.F}} Percentage of repeaters in Grade 5 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G5.M}} Percentage of repeaters in Grade 5 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G5}} Percentage of repeaters in Grade 5 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G6.F}} Percentage of repeaters in Grade 6 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G6.M}} Percentage of repeaters in Grade 6 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.G6}} Percentage of repeaters in Grade 6 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV.GPI}} Percentage of repeaters in lower secondary education, all grades, gender parity index (GPI){p_end}
+{synopt:{opt UIS.REPP.2.GPV.M}} Percentage of repeaters in lower secondary general education, all grades, male (%){p_end}
+{synopt:{opt UIS.REPP.2.GPV}} Percentage of repeaters in lower secondary general education, all grades, both sexes (%){p_end}
+{synopt:{opt UIS.REPR.1.F}} Repetition rate in primary education (all grades), female (%){p_end}
+{synopt:{opt UIS.REPR.1.G1.F}} Repetition rate in Grade 1 of primary education, female (%){p_end}
+{synopt:{opt UIS.REPR.1.G1.M}} Repetition rate in Grade 1 of primary education, male (%){p_end}
+{synopt:{opt UIS.REPR.1.G1}} Repetition rate in Grade 1 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.REPR.1.G2.F}} Repetition rate in Grade 2 of primary education, female (%){p_end}
+{synopt:{opt UIS.REPR.1.G2.M}} Repetition rate in Grade 2 of primary education, male (%){p_end}
+{synopt:{opt UIS.REPR.1.G2}} Repetition rate in Grade 2 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.REPR.1.G3.F}} Repetition rate in Grade 3 of primary education, female (%){p_end}
+{synopt:{opt UIS.REPR.1.G3.M}} Repetition rate in Grade 3 of primary education, male (%){p_end}
+{synopt:{opt UIS.REPR.1.G3}} Repetition rate in Grade 3 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.REPR.1.G4.F}} Repetition rate in Grade 4 of primary education, female (%){p_end}
+{synopt:{opt UIS.REPR.1.G4.M}} Repetition rate in Grade 4 of primary education, male (%){p_end}
+{synopt:{opt UIS.REPR.1.G4}} Repetition rate in Grade 4 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.REPR.1.G5.F}} Repetition rate in Grade 5 of primary education, female (%){p_end}
+{synopt:{opt UIS.REPR.1.G5.M}} Repetition rate in Grade 5 of primary education, male (%){p_end}
+{synopt:{opt UIS.REPR.1.G5}} Repetition rate in Grade 5 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.REPR.1.G6.F}} Repetition rate in Grade 6 of primary education, female (%){p_end}
+{synopt:{opt UIS.REPR.1.G6.M}} Repetition rate in Grade 6 of primary education, male (%){p_end}
+{synopt:{opt UIS.REPR.1.G6}} Repetition rate in Grade 6 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.REPR.1.G7.F}} Repetition rate in Grade 7 of primary education, female (%){p_end}
+{synopt:{opt UIS.REPR.1.G7.M}} Repetition rate in Grade 7 of primary education, male (%){p_end}
+{synopt:{opt UIS.REPR.1.G7}} Repetition rate in Grade 7 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.REPR.1.M}} Repetition rate in primary education (all grades), male (%){p_end}
+{synopt:{opt UIS.REPR.1}} Repetition rate in primary education (all grades), both sexes (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.F}} Repetition rate in lower secondary general education (all grades), female (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.G1.F}} Repetition rate in Grade 1 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.G1.M}} Repetition rate in Grade 1 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.G1}} Repetition rate in Grade 1 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.G2.F}} Repetition rate in Grade 2 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.G2.M}} Repetition rate in Grade 2 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.G2}} Repetition rate in Grade 2 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.G3.F}} Repetition rate in Grade 3 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.G3.M}} Repetition rate in Grade 3 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.G3}} Repetition rate in Grade 3 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.G4.F}} Repetition rate in Grade 4 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.G4.M}} Repetition rate in Grade 4 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.G4}} Repetition rate in Grade 4 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.G5.F}} Repetition rate in Grade 5 of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.G5.M}} Repetition rate in Grade 5 of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.G5}} Repetition rate in Grade 5 of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV.M}} Repetition rate in lower secondary general education (all grades), male (%){p_end}
+{synopt:{opt UIS.REPR.2.GPV}} Repetition rate in lower secondary general education (all grades), both sexes (%){p_end}
+{synopt:{opt UIS.ROFSPPT.1.F}} Rate of out-of-school children of primary school age in pre-primary education, female (%){p_end}
+{synopt:{opt UIS.ROFSPPT.1.M}} Rate of out-of-school children of primary school age in pre-primary education, male (%){p_end}
+{synopt:{opt UIS.ROFSPPT.1}} Rate of out-of-school children of primary school age in pre-primary education, both sexes (%){p_end}
+{synopt:{opt UIS.ROFST.1.F}} Rate of out-of-school children of primary school age, female (%){p_end}
+{synopt:{opt UIS.ROFST.1.M}} Rate of out-of-school children of primary school age, male (%){p_end}
+{synopt:{opt UIS.ROFST.1}} Rate of out-of-school children of primary school age, both sexes (%){p_end}
+{synopt:{opt UIS.ROFST.2.F}} Rate of out-of-school adolescents of lower secondary school age, female (%){p_end}
+{synopt:{opt UIS.ROFST.2.M}} Rate of out-of-school adolescents of lower secondary school age, male (%){p_end}
+{synopt:{opt UIS.ROFST.2}} Rate of out-of-school adolescents of lower secondary school age, both sexes (%){p_end}
+{synopt:{opt UIS.ROFST.3.CP}} Rate of out-of-school youth of upper secondary school age, both sexes (%){p_end}
+{synopt:{opt UIS.ROFST.3.F.CP}} Rate of out-of-school youth of upper secondary school age, female (%){p_end}
+{synopt:{opt UIS.ROFST.3.M.CP}} Rate of out-of-school youth of upper secondary school age, male (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.F}} UIS: Rate of out-of-school children of primary school age, female (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.M}} UIS: Rate of out-of-school children of primary school age, male (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.Q1.F}} UIS: Rate of out-of-school children of primary school age, poorest quintile, female (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.Q1.M}} UIS: Rate of out-of-school children of primary school age, poorest quintile, male (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.Q1}} UIS: Rate of out-of-school children of primary school age, poorest quintile, both sexes (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.Q2.F}} UIS: Rate of out-of-school children of primary school age, second quintile, female (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.Q2.M}} UIS: Rate of out-of-school children of primary school age, second quintile, male (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.Q2}} UIS: Rate of out-of-school children of primary school age, second quintile, both sexes (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.Q3.F}} UIS: Rate of out-of-school children of primary school age, middle quintile, female (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.Q3.M}} UIS: Rate of out-of-school children of primary school age, middle quintile, male (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.Q3}} UIS: Rate of out-of-school children of primary school age, middle quintile, both sexes (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.Q4.F}} UIS: Rate of out-of-school children of primary school age, fourth quintile, female (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.Q4.M}} UIS: Rate of out-of-school children of primary school age, fourth quintile, male (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.Q4}} UIS: Rate of out-of-school children of primary school age, fourth quintile, both sexes (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.Q5.F}} UIS: Rate of out-of-school children of primary school age, richest quintile, female (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.Q5.M}} UIS: Rate of out-of-school children of primary school age, richest quintile, male (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.Q5}} UIS: Rate of out-of-school children of primary school age, richest quintile, both sexes (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.RUR.F}} UIS: Rate of out-of-school children of primary school age, rural, female (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.RUR.M}} UIS: Rate of out-of-school children of primary school age, rural, male (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.RUR}} UIS: Rate of out-of-school children of primary school age, rural, both sexes (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.URB.F}} UIS: Rate of out-of-school children of primary school age, urban, female (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.URB.M}} UIS: Rate of out-of-school children of primary school age, urban, male (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1.URB}} UIS: Rate of out-of-school children of primary school age, urban, both sexes (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.1}} UIS: Rate of out-of-school children of primary school age, both sexes (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.F}} UIS: Rate of out-of-school adolescents of lower secondary school age, female (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.M}} UIS: Rate of out-of-school adolescents of lower secondary school age, male (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.Q1.F}} UIS: Rate of out-of-school adolescents of lower secondary school age, poorest quintile, female (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.Q1.M}} UIS: Rate of out-of-school adolescents of lower secondary school age, poorest quintile, male (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.Q1}} UIS: Rate of out-of-school adolescents of lower secondary school age, poorest quintile, both sexes (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.Q2.F}} UIS: Rate of out-of-school adolescents of lower secondary school age, second quintile, female (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.Q2.M}} UIS: Rate of out-of-school adolescents of lower secondary school age, second quintile, male (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.Q2}} UIS: Rate of out-of-school adolescents of lower secondary school age, second quintile, both sexes (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.Q3.F}} UIS: Rate of out-of-school adolescents of lower secondary school age, middle quintile, female (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.Q3.M}} UIS: Rate of out-of-school adolescents of lower secondary school age, middle quintile, male (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.Q3}} UIS: Rate of out-of-school adolescents of lower secondary school age, middle quintile, both sexes (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.Q4.F}} UIS: Rate of out-of-school adolescents of lower secondary school age, fourth quintile, female (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.Q4.M}} UIS: Rate of out-of-school adolescents of lower secondary school age, fourth quintile, male (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.Q4}} UIS: Rate of out-of-school adolescents of lower secondary school age, fourth quintile, both sexes (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.Q5.F}} UIS: Rate of out-of-school adolescents of lower secondary school age, richest quintile, female (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.Q5.M}} UIS: Rate of out-of-school adolescents of lower secondary school age, richest quintile, male (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.Q5}} UIS: Rate of out-of-school adolescents of lower secondary school age, richest quintile, both sexes (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.RUR.F}} UIS: Rate of out-of-school adolescents of lower secondary school age, rural, female (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.RUR.M}} UIS: Rate of out-of-school adolescents of lower secondary school age, rural, male (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.RUR}} UIS: Rate of out-of-school adolescents of lower secondary school age, rural, both sexes (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.URB.F}} UIS: Rate of out-of-school adolescents of lower secondary school age, urban, female (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.URB.M}} UIS: Rate of out-of-school adolescents of lower secondary school age, urban, male (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2.URB}} UIS: Rate of out-of-school adolescents of lower secondary school age, urban, both sexes (household survey data) (%){p_end}
+{synopt:{opt UIS.ROFST.H.2}} UIS: Rate of out-of-school adolescents of lower secondary school age, both sexes (household survey data) (%){p_end}
+{synopt:{opt UIS.SAP.1.G1.F}} Population of the official entrance age to primary education, female (number){p_end}
+{synopt:{opt UIS.SAP.1.G1.M}} Population of the official entrance age to primary education, male (number){p_end}
+{synopt:{opt UIS.SAP.1.G1}} Population of the official entrance age to primary education, both sexes (number){p_end}
+{synopt:{opt UIS.SAP.23.GPV.G1.F}} Population of the official entrance age to secondary general education, female (number){p_end}
+{synopt:{opt UIS.SAP.23.GPV.G1.M}} Population of the official entrance age to secondary general education, male (number){p_end}
+{synopt:{opt UIS.SAP.23.GPV.G1}} Population of the official entrance age to secondary general education, both sexes (number){p_end}
+{synopt:{opt UIS.SAP.4.F}} School age population, post-secondary non-tertiary education, female (number){p_end}
+{synopt:{opt UIS.SAP.4.M}} School age population, post-secondary non-tertiary education, male (number){p_end}
+{synopt:{opt UIS.SAP.4}} School age population, post-secondary non-tertiary education, both sexes (number){p_end}
+{synopt:{opt UIS.SAP.CE.F}} Population of compulsory school age, female (number){p_end}
+{synopt:{opt UIS.SAP.CE.M}} Population of compulsory school age, male (number){p_end}
+{synopt:{opt UIS.SAP.CE}} Population of compulsory school age, both sexes (number){p_end}
+{synopt:{opt UIS.SLE.0.F}} School life expectancy, pre-primary, female (years){p_end}
+{synopt:{opt UIS.SLE.0.GPI}} School life expectancy, pre-primary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.SLE.0.M}} School life expectancy, pre-primary, male (years){p_end}
+{synopt:{opt UIS.SLE.0}} School life expectancy, pre-primary, both sexes (years){p_end}
+{synopt:{opt UIS.SLE.1.F}} School life expectancy, primary, female (years){p_end}
+{synopt:{opt UIS.SLE.1.GPI}} School life expectancy, primary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.SLE.1.M}} School life expectancy, primary, male (years){p_end}
+{synopt:{opt UIS.SLE.12.F}} School life expectancy, primary and lower secondary, female (years){p_end}
+{synopt:{opt UIS.SLE.12.M}} School life expectancy, primary and lower secondary, male (years){p_end}
+{synopt:{opt UIS.SLE.123.F}} School life expectancy, primary and secondary, female (years){p_end}
+{synopt:{opt UIS.SLE.123.GPI}} School life expectancy, primary and secondary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.SLE.123.M}} School life expectancy, primary and secondary, male (years){p_end}
+{synopt:{opt UIS.SLE.123}} School life expectancy, primary and secondary, both sexes (years){p_end}
+{synopt:{opt UIS.SLE.12}} School life expectancy, primary and lower secondary, both sexes (years){p_end}
+{synopt:{opt UIS.SLE.1t6.GPI}} School life expectancy, primary to tertiary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.SLE.1}} School life expectancy, primary, both sexes (years){p_end}
+{synopt:{opt UIS.SLE.23.F}} School life expectancy, secondary, female (years){p_end}
+{synopt:{opt UIS.SLE.23.GPI}} School life expectancy, secondary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.SLE.23.M}} School life expectancy, secondary, male (years){p_end}
+{synopt:{opt UIS.SLE.23}} School life expectancy, secondary, both sexes (years){p_end}
+{synopt:{opt UIS.SLE.4.F}} School life expectancy, post-secondary non-tertiary, female (years){p_end}
+{synopt:{opt UIS.SLE.4.GPI}} School life expectancy, post-secondary non-tertiary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.SLE.4.M}} School life expectancy, post-secondary non-tertiary, male (years){p_end}
+{synopt:{opt UIS.SLE.4}} School life expectancy, post-secondary non-tertiary, both sexes (years){p_end}
+{synopt:{opt UIS.SLE.56.F}} School life expectancy, tertiary, female (years){p_end}
+{synopt:{opt UIS.SLE.56.GPI}} School life expectancy, tertiary, gender parity index (GPI){p_end}
+{synopt:{opt UIS.SLE.56.M}} School life expectancy, tertiary, male (years){p_end}
+{synopt:{opt UIS.SLE.56}} School life expectancy, tertiary, both sexes (years){p_end}
+{synopt:{opt UIS.SLEN.12.F}} School life expectancy, primary and lower secondary (excluding repetition), female (years){p_end}
+{synopt:{opt UIS.SLEN.12.GPI}} School life expectancy, primary and lower secondary (excluding repetition), gender parity index (GPI){p_end}
+{synopt:{opt UIS.SLEN.12.M}} School life expectancy, primary and lower secondary (excluding repetition), male (years){p_end}
+{synopt:{opt UIS.SLEN.12.T}} School life expectancy, primary and lower secondary (excluding repetition), both sexes (years){p_end}
+{synopt:{opt UIS.SR.1.G4.F}} Survival rate to Grade 4 of primary education, female (%){p_end}
+{synopt:{opt UIS.SR.1.G4.GPI}} Survival rate to Grade 4 of primary education, gender parity index (GPI){p_end}
+{synopt:{opt UIS.SR.1.G4.M}} Survival rate to Grade 4 of primary education, male (%){p_end}
+{synopt:{opt UIS.SR.1.G4}} Survival rate to Grade 4 of primary education, both sexes (%){p_end}
+{synopt:{opt UIS.SR.1.G5.GPI}} Survival rate to Grade 5 of primary education, gender parity index (GPI){p_end}
+{synopt:{opt UIS.SR.1.GLAST.GPI}} Survival rate to the last grade of primary education, gender parity index (GPI){p_end}
+{synopt:{opt UIS.SR.2.GPV.GLAST.CP.F}} Survival rate to the last grade of lower secondary general education, female (%){p_end}
+{synopt:{opt UIS.SR.2.GPV.GLAST.CP.M}} Survival rate to the last grade of lower secondary general education, male (%){p_end}
+{synopt:{opt UIS.SR.2.GPV.GLAST.CP.T}} Survival rate to the last grade of lower secondary general education, both sexes (%){p_end}
+{synopt:{opt UIS.SR.2.GPV.GLAST.GPI}} Survival rate to the last grade of lower secondary general education, gender parity index (GPI){p_end}
+{synopt:{opt UIS.T.2.F}} Teachers in lower secondary education, female (number){p_end}
+{synopt:{opt UIS.T.23.GPV.F}} Teachers in secondary general education, female (number){p_end}
+{synopt:{opt UIS.T.23.GPV}} Teachers in secondary general education, both sexes (number){p_end}
+{synopt:{opt UIS.T.23.V.F}} Teachers in secondary vocational education, female (number){p_end}
+{synopt:{opt UIS.T.23.V}} Teachers in secondary vocational education, both sexes (number){p_end}
+{synopt:{opt UIS.T.2}} Teachers in lower secondary education, both sexes (number){p_end}
+{synopt:{opt UIS.T.3.F}} Teachers in upper secondary education, female (number){p_end}
+{synopt:{opt UIS.T.3}} Teachers in upper secondary education, both sexes (number){p_end}
+{synopt:{opt UIS.T.4.F}} Teachers in post-secondary non-tertiary education, female (number){p_end}
+{synopt:{opt UIS.T.4}} Teachers in post-secondary non-tertiary education, both sexes (number){p_end}
+{synopt:{opt UIS.T.5.B.F}} Teachers in tertiary education ISCED 5 programmes, female (number){p_end}
+{synopt:{opt UIS.T.5.B}} Teachers in tertiary education ISCED 5 programmes, both sexes (number){p_end}
+{synopt:{opt UIS.TATTRR.1.F}} Teacher attrition rate from primary education, female (%){p_end}
+{synopt:{opt UIS.TATTRR.1.M}} Teacher attrition rate from primary education, male (%){p_end}
+{synopt:{opt UIS.TATTRR.1.T}} Teacher attrition rate from primary education, both sexes (%){p_end}
+{synopt:{opt UIS.TATTRR.2.F}} Teacher attrition rate from lower secondary education, female (%){p_end}
+{synopt:{opt UIS.TATTRR.2.M}} Teacher attrition rate from lower secondary education, male (%){p_end}
+{synopt:{opt UIS.TATTRR.2.T}} Teacher attrition rate from lower secondary education, both sexes (%){p_end}
+{synopt:{opt UIS.TATTRR.3.F}} Teacher attrition rate from upper secondary education, female (%){p_end}
+{synopt:{opt UIS.TATTRR.3.M}} Teacher attrition rate from upper secondary education, male (%){p_end}
+{synopt:{opt UIS.TATTRR.3.T}} Teacher attrition rate from upper secondary education, both sexes (%){p_end}
+{synopt:{opt UIS.TEP.5.B.F}} Share of female students in tertiary education enrolled in ISCED 5 (%){p_end}
+{synopt:{opt UIS.TEP.5.B.M}} Share of male students in tertiary education enrolled in ISCED 5 (%){p_end}
+{synopt:{opt UIS.TEP.5.B}} Share of all students in tertiary education enrolled in ISCED 5 (%){p_end}
+{synopt:{opt UIS.TEP.6.F}} Share of female students in tertiary education enrolled in ISCED 6 (%){p_end}
+{synopt:{opt UIS.TEP.6.M}} Share of male students in tertiary education enrolled in ISCED 6 (%){p_end}
+{synopt:{opt UIS.TEP.6}} Share of all students in tertiary education enrolled in ISCED 6 (%){p_end}
+{synopt:{opt UIS.TEP.7.F}} Share of female students in tertiary education enrolled in ISCED 7 (%){p_end}
+{synopt:{opt UIS.TEP.7.M}} Share of male students in tertiary education enrolled in ISCED 7 (%){p_end}
+{synopt:{opt UIS.TEP.7}} Share of all students in tertiary education enrolled in ISCED 7 (%){p_end}
+{synopt:{opt UIS.TEP.8.F}} Share of female students in tertiary education enrolled in ISCED 8 (%){p_end}
+{synopt:{opt UIS.TEP.8.M}} Share of male students in tertiary education enrolled in ISCED 8 (%){p_end}
+{synopt:{opt UIS.TEP.8}} Share of all students in tertiary education enrolled in ISCED 8 (%){p_end}
+{synopt:{opt UIS.TRANRA.23.GPV.GPI}} Effective transition rate from primary to lower secondary general education, gender parity index (GPI){p_end}
+{synopt:{opt UIS.TRTP.02.F}} Percentage of female teachers in pre-primary education who are trained, female (%){p_end}
+{synopt:{opt UIS.TRTP.02.GPI}} Percentage of teachers in pre-primary education who are trained, gender parity index (GPI){p_end}
+{synopt:{opt UIS.TRTP.02.M}} Percentage of male teachers in pre-primary education who are trained, male (%){p_end}
+{synopt:{opt UIS.TRTP.02}} Percentage of teachers in pre-primary education who are trained, both sexes (%){p_end}
+{synopt:{opt UIS.TRTP.1.GPI}} Percentage of teachers in primary education who are trained, gender parity index (GPI){p_end}
+{synopt:{opt UIS.TRTP.2.F}} Percentage of female teachers in lower secondary education who are trained, female (%){p_end}
+{synopt:{opt UIS.TRTP.2.GPI}} Percentage of teachers in lower secondary education who are trained, gender parity index (GPI){p_end}
+{synopt:{opt UIS.TRTP.2.M}} Percentage of male teachers in lower secondary education who are trained, male (%){p_end}
+{synopt:{opt UIS.TRTP.23.GPI}} Percentage of teachers in secondary education who are trained, gender parity index (GPI){p_end}
+{synopt:{opt UIS.TRTP.2}} Percentage of teachers in lower secondary education who are trained, both sexes (%){p_end}
+{synopt:{opt UIS.TRTP.3.F}} Percentage of female teachers in upper secondary education who are trained, female (%){p_end}
+{synopt:{opt UIS.TRTP.3.GPI}} Percentage of teachers in upper secondary education who are trained, gender parity index (GPI){p_end}
+{synopt:{opt UIS.TRTP.3.M}} Percentage of male teachers in upper secondary education who are trained, male (%){p_end}
+{synopt:{opt UIS.TRTP.3}} Percentage of teachers in upper secondary education who are trained, both sexes (%){p_end}
+{synopt:{opt UIS.TRTP.4.F}} Percentage of female teachers in post-secondary non-tertiary education who are trained, female (%){p_end}
+{synopt:{opt UIS.TRTP.4.GPI}} Percentage of teachers in post-secondary non-tertiary education who are trained, gender parity index (GPI){p_end}
+{synopt:{opt UIS.TRTP.4.M}} Percentage of male teachers in post-secondary non-tertiary education who are trained, male (%){p_end}
+{synopt:{opt UIS.TRTP.4}} Percentage of teachers in post-secondary non-tertiary education who are trained, both sexes (%){p_end}
+{synopt:{opt UIS.UAEP.1.F}} Percentage of female students enrolled in primary education who are under-age, female (%){p_end}
+{synopt:{opt UIS.UAEP.1.M}} Percentage of male students enrolled in primary education who are under-age, male (%){p_end}
+{synopt:{opt UIS.UAEP.1}} Percentage of students enrolled in primary education who are under-age, both sexes (%){p_end}
+{synopt:{opt UIS.UAPP.1.F}} Under-age enrolment ratio in primary education, female (%){p_end}
+{synopt:{opt UIS.UAPP.1.M}} Under-age enrolment ratio in primary education, male (%){p_end}
+{synopt:{opt UIS.UAPP.1}} Under-age enrolment ratio in primary education, both sexes (%){p_end}
+{synopt:{opt UIS.UAPP.23.F}} Under-age enrolment ratio in secondary education, female (%){p_end}
+{synopt:{opt UIS.UAPP.23.M}} Under-age enrolment ratio in secondary education, male (%){p_end}
+{synopt:{opt UIS.UAPP.23}} Under-age enrolment ratio in secondary education, both sexes (%){p_end}
+{synopt:{opt UIS.X.PPP.02.FSGOV}} Government expenditure on pre-primary education, PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPP.1.FSGOV}} Government expenditure on primary education, PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPP.2.FSGOV}} Government expenditure on lower secondary education, PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPP.2T3.FSGOV}} Government expenditure on secondary education, PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPP.2T4.V.FSGOV}} Government expenditure on secondary and post-secondary non-tertiary vocational education only, PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPP.3.FSGOV}} Government expenditure on upper secondary education, PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPP.4.FSGOV}} Government expenditure on post-secondary non-tertiary education, PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPP.5T8.FSGOV}} Government expenditure on tertiary education, PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPP.FSGOV}} Government expenditure on education, PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPP.UK.FSGOV}} Government expenditure on education not specified by level, PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPPCONST.02.FSGOV}} Government expenditure on pre-primary education, constant PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPPCONST.1.FSGOV}} Government expenditure on primary education, constant PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPPCONST.2.FSGOV}} Government expenditure on lower secondary education, constant PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPPCONST.2T3.FSGOV}} Government expenditure on secondary education, constant PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPPCONST.2T4.V.FSGOV}} Government expenditure on secondary and post-secondary non-tertiary vocational education only, constant PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPPCONST.3.FSGOV}} Government expenditure on upper secondary education, constant PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPPCONST.4.FSGOV}} Government expenditure on post-secondary non-tertiary education, constant PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPPCONST.5T8.FSGOV}} Government expenditure on tertiary education, constant PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPPCONST.FSGOV}} Government expenditure on education, constant PPP$ (millions){p_end}
+{synopt:{opt UIS.X.PPPCONST.UK.FSGOV}} Government expenditure on education not specified by level, constant PPP$ (millions){p_end}
+{synopt:{opt UIS.X.US.02.FSGOV}} Government expenditure on pre-primary education, US$ (millions){p_end}
+{synopt:{opt UIS.X.US.1.FSGOV}} Government expenditure on primary education, US$ (millions){p_end}
+{synopt:{opt UIS.X.US.2.FSGOV}} Government expenditure on lower secondary education, US$ (millions){p_end}
+{synopt:{opt UIS.X.US.2T3.FSGOV}} Government expenditure on secondary education, US$ (millions){p_end}
+{synopt:{opt UIS.X.US.2T4.V.FSGOV}} Government expenditure on secondary and post-secondary non-tertiary vocational education only, US$ (millions){p_end}
+{synopt:{opt UIS.X.US.3.FSGOV}} Government expenditure on upper secondary education, US$ (millions){p_end}
+{synopt:{opt UIS.X.US.4.FSGOV}} Government expenditure on post-secondary non-tertiary education, US$ (millions){p_end}
+{synopt:{opt UIS.X.US.5T8.FSGOV}} Government expenditure on tertiary education, US$ (millions){p_end}
+{synopt:{opt UIS.X.US.FSGOV}} Government expenditure on education, US$ (millions){p_end}
+{synopt:{opt UIS.X.US.UK.FSGOV}} Government expenditure on education not specified by level, US$ (millions){p_end}
+{synopt:{opt UIS.X.USCONST.02.FSGOV}} Government expenditure on pre-primary education, constant US$ (millions){p_end}
+{synopt:{opt UIS.X.USCONST.1.FSGOV}} Government expenditure on primary education, constant US$ (millions){p_end}
+{synopt:{opt UIS.X.USCONST.2.FSGOV}} Government expenditure on lower secondary education, constant US$ (millions){p_end}
+{synopt:{opt UIS.X.USCONST.2T3.FSGOV}} Government expenditure on secondary education, constant US$ (millions){p_end}
+{synopt:{opt UIS.X.USCONST.2T4.V.FSGOV}} Government expenditure on secondary and post-secondary non-tertiary vocational education only, constant US$ (millions){p_end}
+{synopt:{opt UIS.X.USCONST.3.FSGOV}} Government expenditure on upper secondary education, constant US$ (millions){p_end}
+{synopt:{opt UIS.X.USCONST.4.FSGOV}} Government expenditure on post-secondary non-tertiary education, constant US$ (millions){p_end}
+{synopt:{opt UIS.X.USCONST.5T8.FSGOV}} Government expenditure on tertiary education, constant US$ (millions){p_end}
+{synopt:{opt UIS.X.USCONST.FSGOV}} Government expenditure on education, constant US$ (millions){p_end}
+{synopt:{opt UIS.X.USCONST.UK.FSGOV}} Government expenditure on education not specified by level, constant US$ (millions){p_end}
+{synopt:{opt UIS.XGDP.0.FSGOV}} Government expenditure on pre-primary education as % of GDP (%){p_end}
+{synopt:{opt UIS.XGDP.02.FSGOV.FFNTR}} Initial government funding of pre-primary education as a percentage of GDP (%){p_end}
+{synopt:{opt UIS.XGDP.1.FSGOV.FFNTR}} Initial government funding of primary education as a percentage of GDP (%){p_end}
+{synopt:{opt UIS.XGDP.1.FSGOV}} Government expenditure on primary education as % of GDP (%){p_end}
+{synopt:{opt UIS.XGDP.1.FSHH.FFNTR}} Initial household funding of primary education as a percentage of GDP{p_end}
+{synopt:{opt UIS.XGDP.2.FSGOV.FFNTR}} Initial government funding of lower secondary education as a percentage of GDP (%){p_end}
+{synopt:{opt UIS.XGDP.2.FSGOV}} Government expenditure on lower secondary education as a percentage of GDP (%){p_end}
+{synopt:{opt UIS.XGDP.23.FSGOV}} Government expenditure on secondary education as % of GDP (%){p_end}
+{synopt:{opt UIS.XGDP.23.FSHH.FFNTR}} Initial household funding of secondary education as a percentage of GDP{p_end}
+{synopt:{opt UIS.XGDP.2T3.FSGOV.FFNTR}} Initial government funding of secondary education as a percentage of GDP (%){p_end}
+{synopt:{opt UIS.XGDP.2T4.V.FSGOV}} Government expenditure on secondary and post-secondary non-tertiary vocational education as % of GDP (%){p_end}
+{synopt:{opt UIS.XGDP.3.FSGOV.FFNTR}} Initial government funding of upper secondary education as a percentage of GDP (%){p_end}
+{synopt:{opt UIS.XGDP.3.FSGOV}} Government expenditure on upper secondary education as a percentage of GDP (%){p_end}
+{synopt:{opt UIS.XGDP.4.FSGOV}} Government expenditure on post-secondary non-tertiary education as % of GDP (%){p_end}
+{synopt:{opt UIS.XGDP.56.FSGOV}} Government expenditure on tertiary education as % of GDP (%){p_end}
+{synopt:{opt UIS.XGDP.5T8.FSGOV.FFNTR}} Initial government funding of tertiary education as a percentage of GDP (%){p_end}
+{synopt:{opt UIS.XGDP.5T8.FSHH.FFNTR}} Initial household funding of tertiary education as a percentage of GDP{p_end}
+{synopt:{opt UIS.XGDP.FSGOV.FFNTR}} Initial government funding of education as a percentage of GDP (%){p_end}
+{synopt:{opt UIS.XGDP.FSHH.FFNTR}} Initial household funding of education as a percentage of GDP{p_end}
+{synopt:{opt UIS.XGOVEXP.IMF.0}} Expenditure on pre-primary as % of total government expenditure (%){p_end}
+{synopt:{opt UIS.XGOVEXP.IMF.1}} Expenditure on primary as % of total government expenditure (%){p_end}
+{synopt:{opt UIS.XGOVEXP.IMF.23}} Expenditure on secondary as % of total government expenditure (%){p_end}
+{synopt:{opt UIS.XGOVEXP.IMF.2T4.V}} Expenditure on secondary and post-secondary non-tertiary vocational education as % of total government expenditure (%){p_end}
+{synopt:{opt UIS.XGOVEXP.IMF.2}} Expenditure on lower secondary as % of total government expenditure (%){p_end}
+{synopt:{opt UIS.XGOVEXP.IMF.3}} Expenditure on upper secondary as % of total government expenditure (%){p_end}
+{synopt:{opt UIS.XGOVEXP.IMF.4}} Expenditure on post-secondary non-tertiary as % of total government expenditure (%){p_end}
+{synopt:{opt UIS.XGOVEXP.IMF.56}} Expenditure on tertiary as % of total government expenditure (%){p_end}
+{synopt:{opt UIS.XPUBP.0}} Expenditure on pre-primary as % of government expenditure on education (%){p_end}
+{synopt:{opt UIS.XPUBP.2T4.V}} Expenditure on secondary and post-secondary non-tertiary vocational as % of government expenditure on education (%){p_end}
+{synopt:{opt UIS.XPUBP.2}} Expenditure on lower secondary as % of government expenditure on education (%){p_end}
+{synopt:{opt UIS.XPUBP.3}} Expenditure on upper secondary as % of government expenditure on education (%){p_end}
+{synopt:{opt UIS.XPUBP.4}} Expenditure on post-secondary non-tertiary as % of government expenditure on education (%){p_end}
+{synopt:{opt UIS.XPUBP.UK}} Expenditure on education not specified by level as % of government expenditure on education (%){p_end}
+{synopt:{opt UIS.XSPENDP.0.FDPUB.FNCAP}} Capital expenditure as % of total expenditure in pre-primary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.0.FDPUB.FNCUR}} Current expenditure as % of total expenditure in pre-primary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.0.FDPUB.FNNONS}} Current expenditure other than staff compensation as % of total expenditure in pre-primary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.0.FDPUB.FNS}} All staff compensation as % of total expenditure in pre-primary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.02.FDPUB.FNNTS}} Non-teaching staff compensation as a percentage of total expenditure in pre-primary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.02.FDPUB.FNTS}} Teaching staff compensation as a percentage of total expenditure in pre-primary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.1.FDPUB.FNBOOKS}} Expenditure on school books and teaching material as % of total expenditure in primary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.1.FDPUB.FNCAP}} Capital expenditure as % of total expenditure in primary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.1.FDPUB.FNCUR}} Current expenditure as % of total expenditure in primary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.1.FDPUB.FNNONS}} Current expenditure other than staff compensation as % of total expenditure in primary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.1.FDPUB.FNNTS}} Non-teaching staff compensation as a percentage of total expenditure in primary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.1.FDPUB.FNS}} All staff compensation as % of total expenditure in primary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.1.FDPUB.FNTS}} Teaching staff compensation as a percentage of total expenditure in primary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.2.FDPUB.FNCAP}} Capital expenditure as % of total expenditure in lower secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.2.FDPUB.FNCUR}} Current expenditure as % of total expenditure in lower secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.2.FDPUB.FNNONS}} Current expenditure other than staff compensation as % of total expenditure in lower secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.2.FDPUB.FNNTS}} Non-teaching staff compensation as a percentage of total expenditure in lower secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.2.FDPUB.FNS}} All staff compensation as % of total expenditure in lower secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.2.FDPUB.FNTS}} Teaching staff compensation as a percentage of total expenditure in lower secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.23.FDPUB.FNBOOKS}} Expenditure on school books and teaching material as % of total expenditure in secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.23.FDPUB.FNCAP}} Capital expenditure as % of total expenditure in secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.23.FDPUB.FNCUR}} Current expenditure as % of total expenditure in secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.23.FDPUB.FNNONS}} Current expenditure other than staff compensation as % of total expenditure in secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.23.FDPUB.FNNTS}} Non-teaching staff compensation as a percentage of total expenditure in secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.23.FDPUB.FNS}} All staff compensation as % of total expenditure in secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.23.FDPUB.FNTS}} Teaching staff compensation as a percentage of total expenditure in secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.3.FDPUB.FNCAP}} Capital expenditure as % of total expenditure in upper-secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.3.FDPUB.FNCUR}} Current expenditure as % of total expenditure in upper-secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.3.FDPUB.FNNONS}} Current expenditure other than staff compensation as % of total expenditure in upper secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.3.FDPUB.FNNTS}} Non-teaching staff compensation as a percentage of total expenditure in upper secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.3.FDPUB.FNS}} All staff compensation as % of total expenditure in upper secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.3.FDPUB.FNTS}} Teaching staff compensation as a percentage of total expenditure in upper secondary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.4.FDPUB.FNCAP}} Capital expenditure as % of total expenditure in post-secondary non-tertiary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.4.FDPUB.FNCUR}} Current expenditure as % of total expenditure in post-secondary non-tertiary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.4.FDPUB.FNNONS}} Current expenditure other than staff compensation as % of total expenditure in post-secondary non-tertiary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.4.FDPUB.FNNTS}} Non-teaching staff compensation as a percentage of total expenditure in post-secondary non-tertiary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.4.FDPUB.FNS}} All staff compensation as % of total expenditure in post-secondary non-tertiary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.4.FDPUB.FNTS}} Teaching staff compensation as a percentage of total expenditure in post-secondary non-tertiary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.56.FDPUB.FNCAP}} Capital expenditure as % of total expenditure in tertiary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.56.FDPUB.FNCUR}} Current expenditure as % of total expenditure in tertiary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.56.FDPUB.FNNONS}} Current expenditure other than staff compensation as % of total expenditure in tertiary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.56.FDPUB.FNNTS}} Non-teaching staff compensation as a percentage of total expenditure in tertiary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.56.FDPUB.FNS}} All staff compensation as % of total expenditure in tertiary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.56.FDPUB.FNTS}} Teaching staff compensation as a percentage of total expenditure in tertiary public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.FDPUB.FNCAP}} Capital expenditure as % of total expenditure in public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.FDPUB.FNNONS}} Current expenditure other than staff compensation as % of total expenditure in public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.FDPUB.FNNTS}} Non-teaching staff compensation as a percentage of total expenditure in public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.FDPUB.FNS}} All staff compensation as % of total expenditure in public institutions (%){p_end}
+{synopt:{opt UIS.XSPENDP.FDPUB.FNTS}} Teaching staff compensation as a percentage of total expenditure in public institutions (%){p_end}
+{synopt:{opt UIS.XUNIT.GDPCAP.02.FSGOV}} Initial government funding per pre-primary student as a percentage of GDP per capita{p_end}
+{synopt:{opt UIS.XUNIT.GDPCAP.1.FSGOV}} Initial government funding per primary student as a percentage of GDP per capita{p_end}
+{synopt:{opt UIS.XUNIT.GDPCAP.1.FSHH}} Initial household funding per primary student as a percentage of GDP per capita{p_end}
+{synopt:{opt UIS.XUNIT.GDPCAP.2.FSGOV}} Initial government funding per lower secondary student as a percentage of GDP per capita{p_end}
+{synopt:{opt UIS.XUNIT.GDPCAP.23.FSGOV}} Initial government funding per secondary student as a percentage of GDP per capita{p_end}
+{synopt:{opt UIS.XUNIT.GDPCAP.23.FSHH}} Initial household funding per secondary student as a percentage of GDP per capita{p_end}
+{synopt:{opt UIS.XUNIT.GDPCAP.3.FSGOV}} Initial government funding per upper secondary student as a percentage of GDP per capita{p_end}
+{synopt:{opt UIS.XUNIT.GDPCAP.5T8.FSGOV}} Initial government funding per tertiary student as a percentage of GDP per capita{p_end}
+{synopt:{opt UIS.XUNIT.GDPCAP.5T8.FSHH}} Initial household funding per tertiary student as a percentage of GDP per capita{p_end}
+{synopt:{opt UIS.XUNIT.PPP.02.FSGOV.FFNTR}} Initial government funding per pre-primary student, PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPP.1.FSGOV.FFNTR}} Initial government funding per primary student, PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPP.1.FSHH.FFNTR}} Initial household funding per primary student, PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPP.2.FSGOV.FFNTR}} Initial government funding per lower secondary student, PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPP.23.FSHH.FFNTR}} Initial household funding per secondary student, PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPP.2T3.FSGOV.FFNTR}} Initial government funding per secondary student, PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPP.3.FSGOV.FFNTR}} Initial government funding per upper secondary student, PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPP.5T8.FSGOV.FFNTR}} Initial government funding per tertiary student, PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPP.5T8.FSHH.FFNTR}} Initial household funding per tertiary student, PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPPCONST.02.FSGOV}} Initial government funding per pre-primary student, constant PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPPCONST.1.FSGOV}} Initial government funding per primary student, constant PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPPCONST.1.FSHH}} Initial household funding per primary student, constant PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPPCONST.2.FSGOV}} Initial government funding per lower secondary student, constant PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPPCONST.23.FSGOV}} Initial government funding per secondary student, constant PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPPCONST.23.FSHH}} Initial household funding per secondary student, constant PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPPCONST.3.FSGOV}} Initial government funding per upper secondary student, constant PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPPCONST.5T8.FSGOV}} Initial government funding per tertiary student, constant PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.PPPCONST.5T8.FSHH}} Initial household funding per tertiary student, constant PPP$. {p_end}
+{synopt:{opt UIS.XUNIT.US.02.FSGOV.FFNTR}} Initial government funding per pre-primary student, US$. {p_end}
+{synopt:{opt UIS.XUNIT.US.1.FSGOV.FFNTR}} Initial government funding per primary student, US$. {p_end}
+{synopt:{opt UIS.XUNIT.US.1.FSHH.FFNTR}} Initial household funding per primary student, US$. {p_end}
+{synopt:{opt UIS.XUNIT.US.2.FSGOV.FFNTR}} Initial government funding per lower secondary student, US$. {p_end}
+{synopt:{opt UIS.XUNIT.US.23.FSGOV.FFNTR}} Initial government funding per secondary student, US$. {p_end}
+{synopt:{opt UIS.XUNIT.US.23.FSHH.FFNTR}} Initial household funding per secondary student, US$. {p_end}
+{synopt:{opt UIS.XUNIT.US.3.FSGOV.FFNTR}} Initial government funding per upper secondary student, US$. {p_end}
+{synopt:{opt UIS.XUNIT.US.5T8.FSGOV.FFNTR}} Initial government funding per tertiary student, US$. {p_end}
+{synopt:{opt UIS.XUNIT.US.5T8.FSHH.FFNTR}} Initial household funding per tertiary student, US$. {p_end}
+{synopt:{opt UIS.XUNIT.USCONST.02.FSGOV}} Initial government funding per pre-primary student, constant US$. {p_end}
+{synopt:{opt UIS.XUNIT.USCONST.1.FSGOV}} Initial government funding per primary student, constant US$. {p_end}
+{synopt:{opt UIS.XUNIT.USCONST.1.FSHH}} Initial household funding per primary student, constant US$. {p_end}
+{synopt:{opt UIS.XUNIT.USCONST.2.FSGOV}} Initial government funding per lower secondary student, constant US$. {p_end}
+{synopt:{opt UIS.XUNIT.USCONST.23.FSGOV}} Initial government funding per secondary student, constant US$. {p_end}
+{synopt:{opt UIS.XUNIT.USCONST.23.FSHH}} Initial household funding per secondary student, constant US$. {p_end}
+{synopt:{opt UIS.XUNIT.USCONST.3.FSGOV}} Initial government funding per upper secondary student, constant US$. {p_end}
+{synopt:{opt UIS.XUNIT.USCONST.5T8.FSGOV}} Initial government funding per tertiary student, constant US$. {p_end}
+{synopt:{opt UIS.XUNIT.USCONST.5T8.FSHH}} Initial household funding per tertiary student, constant US$. {p_end}
+{synopt:{opt UIS.thAge.0}} Official entrance age to pre-primary education (years){p_end}
+{synopt:{opt UIS.thAge.3.A.GPV}} Official entrance age to upper secondary education (years){p_end}
+{synopt:{opt UIS.thAge.4.A.GPV}} Official entrance age to post-secondary non-tertiary education (years){p_end}
+{synopt:{opt UIS.thDur.0}} Theoretical duration of pre-primary education (years){p_end}
+{synopt:{opt UIS.thDur.4.A.GPV}} Theoretical duration of post-secondary non-tertiary education (years){p_end}
+{synopt:{opt UM.EMP.ROUT.IN}} Manufacturing Real Output per Empl. (1980=100){p_end}
+{synopt:{opt UM.EMP.ROUT.XD}} Manufacturing Real Output per Empl. (1987=100){p_end}
+{synopt:{opt UM.EMP.RWAG.IN}} Manufacturing Real Earnings per Empl. (1980=100){p_end}
+{synopt:{opt UM.EMP.RWAG.XD}} Manufacturing Real Earnings per Empl.(1987=100){p_end}
+{synopt:{opt UM.EMP.TOTL.IN}} Manufacturing Employment (1980=100){p_end}
+{synopt:{opt UM.EMP.TOTL.XU}} Manufacturing Employment (1987=100){p_end}
+{synopt:{opt UM.VAD.WAGE.SN}} Manufacturing Earnings as % of Value Added{p_end}
+{synopt:{opt UM.VAD.WAGE.ZS}} Manufacturing Earnings as % of Value Added{p_end}
+{synopt:{opt UNDP.HDI.XD}} Human development index (HDI){p_end}
+{synopt:{opt UNEMPSA_}} Unemployment rate,Percent,,,{p_end}
+{synopt:{opt UPP.COM.POL.XQ}} Combined polity score{p_end}
+{synopt:{opt UPP.INS.AUTO.XQ}} Institutionalized autocracy{p_end}
+{synopt:{opt UPP.INS.DEMO.XQ}} Institutionalized democracy{p_end}
+{synopt:{opt UPP.REV.POL.XQ}} Revised Combined Polity Score{p_end}
+{synopt:{opt VA.EST}} Voice and Accountability: Estimate{p_end}
+{synopt:{opt VA.NO.SRC}} Voice and Accountability: Number of Sources{p_end}
+{synopt:{opt VA.PER.RNK.LOWER}} Voice and Accountability: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
+{synopt:{opt VA.PER.RNK.UPPER}} Voice and Accountability: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
+{synopt:{opt VA.PER.RNK}} Voice and Accountability: Percentile Rank{p_end}
+{synopt:{opt VA.STD.ERR}} Voice and Accountability: Standard Error{p_end}
+{synopt:{opt VC.BTL.DETH}} Battle-related deaths (number of people){p_end}
+{synopt:{opt VC.HOM.ITEN.P5.HE}} Intentional homicide rate (per 100,000 people, CTS and national sources){p_end}
+{synopt:{opt VC.HOM.ITEN.P5.LE}} Intentional homicide rate (per 100,000 people, WHO){p_end}
+{synopt:{opt VC.IDP.NWCV}} Internally displaced persons, new displacement associated with conflict and violence (number of cases){p_end}
+{synopt:{opt VC.IDP.NWDS}} Internally displaced persons, new displacement associated with disasters (number of cases){p_end}
+{synopt:{opt VC.IDP.TOCV}} Internally displaced persons, total displaced by conflict and violence (number of people){p_end}
+{synopt:{opt VC.IDP.TOTL.HE}} Internally displaced persons (number, high estimate){p_end}
+{synopt:{opt VC.IDP.TOTL.LE}} Internally displaced persons (number, low estimate){p_end}
+{synopt:{opt VC.IDP.TOTL}} Internally displaced persons (number){p_end}
+{synopt:{opt VC.IHR.ICTS.P5}} Intentional homicides, UN Crime Trends Survey (CTS) source (per 100,000 people){p_end}
+{synopt:{opt VC.IHR.IPBH.P5}} Intentional homicides, international public health sources (per 100,000 people){p_end}
+{synopt:{opt VC.IHR.IPOL.P5}} Intentional homicides, international police sources (per 100,000 people){p_end}
+{synopt:{opt VC.IHR.NPOL.P5}} Intentional homicides, government police sources (per 100,000 people){p_end}
+{synopt:{opt VC.IHR.PSRC.FE.P5}} Intentional homicides, female (per 100,000 female){p_end}
+{synopt:{opt VC.IHR.PSRC.MA.P5}} Intentional homicides, male (per 100,000 male){p_end}
+{synopt:{opt VC.IHR.PSRC.P5}} Intentional homicides (per 100,000 people){p_end}
+{synopt:{opt VC.PKP.TOTL.UN}} Presence of peace keepers (number of troops, police, and military observers in mandate){p_end}
+{synopt:{opt WP15163_4.1}} Mobile account (% age 15+) [w2]{p_end}
+{synopt:{opt WP15163_4.2}} Mobile account, male (% age 15+) [w2]{p_end}
+{synopt:{opt WP15163_4.3}} Mobile account, female (% age 15+) [w2]{p_end}
+{synopt:{opt WP15163_4.8}} Mobile account, income, poorest 40% (% ages 15+) [w2]{p_end}
+{synopt:{opt WP15163_4.9}} Mobile account, income, richest 60% (% ages 15+) [w2]{p_end}
+{synopt:{opt WP_time_01.1}} Account at a financial institution (% age 15+) [ts]{p_end}
+{synopt:{opt WP_time_01.2}} Account at a financial institution, male (% age 15+) [ts]{p_end}
+{synopt:{opt WP_time_01.3}} Account at a financial institution, female (% age 15+) [ts]{p_end}
+{synopt:{opt WP_time_01.8}} Account at a financial institution, income, poorest 40% (% ages 15+) [ts]{p_end}
+{synopt:{opt WP_time_01.9}} Account at a financial institution, income, richest 60% (% ages 15+) [ts]{p_end}
+{synopt:{opt WP_time_10.1}} Account (% age 15+){p_end}
+{synopt:{opt WP_time_10.2}} Account, male (% age 15+){p_end}
+{synopt:{opt WP_time_10.3}} Account, female (% age 15+){p_end}
+{synopt:{opt WP_time_10.4}} Account, young adults (% ages 15-24){p_end}
+{synopt:{opt WP_time_10.5}} Account, older adults (% ages 25+){p_end}
+{synopt:{opt WP_time_10.6}} Account, primary education or less (% ages 15+){p_end}
+{synopt:{opt WP_time_10.7}} Account, secondary education or more (% ages 15+){p_end}
+{synopt:{opt WP_time_10.8}} Account, income, poorest 40% (% ages 15+){p_end}
+{synopt:{opt WP_time_10.9}} Account, income, richest 60% (% ages 15+){p_end}
+>>>>>>> _parameter.ado
 {synopt:{opt account.t.d.10}} Account, in labor force (% age 15+){p_end}
 {synopt:{opt account.t.d.11}} Account, out of labor force (% age 15+){p_end}
 {synopt:{opt account.t.d.1}} Account, male (% age 15+){p_end}
@@ -14492,6 +18838,7 @@
 {synopt:{opt mobileaccount.t.d.8}} Mobile money account, income, richest 60%  (% age 15+){p_end}
 {synopt:{opt mobileaccount.t.d.9}} Mobile money account, rural  (% age 15+){p_end}
 {synopt:{opt mobileaccount.t.d}} Mobile money account (% age 15+){p_end}
+<<<<<<< HEAD
 {synopt:{opt per_allsp.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor  (preT) {p_end}
 {synopt:{opt per_allsp.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor {p_end}
 {synopt:{opt per_allsp.adq_pop_preT_tot}} Adequacy of benefits (%) -All Social Protection and Labor (preT) {p_end}
@@ -17331,3 +21678,2844 @@
 {synopt:{opt s_loans_A1}} Outstanding loans per 1,000 adults {p_end}
 {synopt:{opt s_policyholders_B2_life}} Insurance policy holders per 1,000 adults (life) {p_end}
 {synopt:{opt s_policyholders_B2_nonlife}} Insurance policy holders per 1,000 adults (non-life) {p_end}
+=======
+{synopt:{opt per_allsp.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor  (preT){p_end}
+{synopt:{opt per_allsp.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.adq_pop_preT_tot}} Adequacy of benefits (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.adq_pop_rur}} Adequacy of benefits (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.adq_pop_tot}} Adequacy of social protection and labor programs (% of total welfare of beneficiary households){p_end}
+{synopt:{opt per_allsp.adq_pop_urb}} Adequacy of benefits (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.adq_q5_rur}} Adequacy of benefits in richest quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.adq_q5_tot}} Adequacy of benefits in richest quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.adq_q5_urb}} Adequacy of benefits in richest quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) -All Social Protection and Labor  (preT){p_end}
+{synopt:{opt per_allsp.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.avt_pop_preT_tot}} Average per capita transfer -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.avt_pop_rur}} Average per capita transfer -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.avt_pop_tot}} Average per capita transfer -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.avt_pop_urb}} Average per capita transfer -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.avt_q1_rur}} Average per capita transfer held by poorest quintile -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.avt_q1_tot}} Average per capita transfer held by poorest quintile -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.avt_q1_urb}} Average per capita transfer held by poorest quintile -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.avt_q2_rur}} Average per capita transfer held by 2nd quintile -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.avt_q2_tot}} Average per capita transfer held by 2nd quintile -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.avt_q2_urb}} Average per capita transfer held by 2nd quintile -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.avt_q3_rur}} Average per capita transfer held by 3rd quintile -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.avt_q3_tot}} Average per capita transfer held by 3rd quintile -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.avt_q3_urb}} Average per capita transfer held by 3rd quintile -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.avt_q4_rur}} Average per capita transfer held by 4th quintile -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.avt_q4_tot}} Average per capita transfer held by 4th quintile -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.avt_q4_urb}} Average per capita transfer held by 4th quintile -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.avt_q5_preT_tot}} Average per capita transfer held by richest quintile -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.avt_q5_rur}} Average per capita transfer held by richest quintile -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.avt_q5_tot}} Average per capita transfer held by richest quintile -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.avt_q5_urb}} Average per capita transfer held by richest quintile -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor  (preT){p_end}
+{synopt:{opt per_allsp.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.ben_q1_rur}} Benefits incidence in poorest quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.ben_q1_tot}} Benefit incidence of social protection and labor programs to poorest quintile (% of total SPL benefits){p_end}
+{synopt:{opt per_allsp.ben_q1_urb}} Benefits incidence in poorest quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.ben_q2_rur}} Benefits incidence in 2nd quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.ben_q2_tot}} Benefits incidence in 2nd quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.ben_q2_urb}} Benefits incidence in 2nd quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.ben_q3_rur}} Benefits incidence in 3rd quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.ben_q3_tot}} Benefits incidence in 3rd quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.ben_q3_urb}} Benefits incidence in 3rd quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.ben_q4_rur}} Benefits incidence in 4th quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.ben_q4_tot}} Benefits incidence in 4th quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.ben_q4_urb}} Benefits incidence in 4th quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.ben_q5_rur}} Benefits incidence in richest quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.ben_q5_tot}} Benefits incidence in richest quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.ben_q5_urb}} Benefits incidence in richest quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor  (preT){p_end}
+{synopt:{opt per_allsp.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.bry_q5_rur}} Beneficiary incidence in richest quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.bry_q5_tot}} Beneficiary incidence in richest quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.bry_q5_urb}} Beneficiary incidence in richest quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.cba_ep_preT_tot}} Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_allsp.cba_ep_tot}} Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_allsp.cba_q1_preT_tot}} Benefit-cost ratio - All Social Protection and Labor -poorest quintile (preT){p_end}
+{synopt:{opt per_allsp.cba_q1_rur}} Benefit-cost ratio - All Social Protection and Labor -poorest quintile -rural{p_end}
+{synopt:{opt per_allsp.cba_q1_tot}} Benefit-cost ratio - All Social Protection and Labor -poorest quintile{p_end}
+{synopt:{opt per_allsp.cba_q1_urb}} Benefit-cost ratio - All Social Protection and Labor - poorest quintile -urban{p_end}
+{synopt:{opt per_allsp.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor  (preT){p_end}
+{synopt:{opt per_allsp.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.cov_pop_preT_tot}} Coverage (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.cov_pop_rur}} Coverage (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.cov_pop_tot}} Coverage of social protection and labor programs (% of population){p_end}
+{synopt:{opt per_allsp.cov_pop_urb}} Coverage (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.cov_q1_preT_tot}} Coverage in poorest quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.cov_q1_rur}} Coverage in poorest quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.cov_q1_tot}} Coverage in poorest quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.cov_q1_urb}} Coverage in poorest quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.cov_q2_preT_tot}} Coverage in 2nd quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.cov_q2_rur}} Coverage in 2nd quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.cov_q2_tot}} Coverage in 2nd quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.cov_q2_urb}} Coverage in 2nd quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.cov_q3_preT_tot}} Coverage in 3rd quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.cov_q3_rur}} Coverage in 3rd quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.cov_q3_tot}} Coverage in 3rd quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.cov_q3_urb}} Coverage in 3rd quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.cov_q4_preT_tot}} Coverage in 4th quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.cov_q4_rur}} Coverage in 4th quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.cov_q4_tot}} Coverage in 4th quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.cov_q4_urb}} Coverage in 4th quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp.cov_q5_preT_tot}} Coverage in richest quintile (%) -All Social Protection and Labor (preT){p_end}
+{synopt:{opt per_allsp.cov_q5_rur}} Coverage in richest quintile (%) -All Social Protection and Labor -rural{p_end}
+{synopt:{opt per_allsp.cov_q5_tot}} Coverage in richest quintile (%) -All Social Protection and Labor{p_end}
+{synopt:{opt per_allsp.cov_q5_urb}} Coverage in richest quintile (%) -All Social Protection and Labor -urban{p_end}
+{synopt:{opt per_allsp_gini_preT_tot}} Gini inequality reduction (%) - All Social Protection and Labor -poorest quintile (preT){p_end}
+{synopt:{opt per_allsp_gini_rur}} Gini inequality reduction (%) - All Social Protection and Labor -poorest quintile -rural{p_end}
+{synopt:{opt per_allsp_gini_tot}} Gini inequality reduction (%) - All Social Protection and Labor -poorest quintile{p_end}
+{synopt:{opt per_allsp_gini_urb}} Gini inequality reduction (%) - All Social Protection and Labor - poorest quintile -urban{p_end}
+{synopt:{opt per_allsp_p0_ep_preT_tot}} Poverty Headcount reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_allsp_p0_ep_tot}} Poverty Headcount reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_allsp_p0_preT_tot}} Poverty Headcount reduction (%) - All Social Protection and Labor -poorest quintile (preT){p_end}
+{synopt:{opt per_allsp_p0_rur}} Poverty Headcount reduction (%) - All Social Protection and Labor -poorest quintile -rural{p_end}
+{synopt:{opt per_allsp_p0_tot}} Poverty Headcount reduction (%) - All Social Protection and Labor -poorest quintile{p_end}
+{synopt:{opt per_allsp_p0_urb}} Poverty Headcount reduction (%) - All Social Protection and Labor - poorest quintile -urban{p_end}
+{synopt:{opt per_allsp_p1_ep_preT_tot}} Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_allsp_p1_ep_tot}} Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_allsp_p1_preT_tot}} Poverty Gap reduction (%) - All Social Protection and Labor -poorest quintile (preT){p_end}
+{synopt:{opt per_allsp_p1_rur}} Poverty Gap reduction (%) - All Social Protection and Labor -poorest quintile -rural{p_end}
+{synopt:{opt per_allsp_p1_tot}} Poverty Gap reduction (%) - All Social Protection and Labor -poorest quintile{p_end}
+{synopt:{opt per_allsp_p1_urb}} Poverty Gap reduction (%) - All Social Protection and Labor - poorest quintile -urban{p_end}
+{synopt:{opt per_lm_ac.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market  (preT){p_end}
+{synopt:{opt per_lm_ac.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.adq_pop_preT_tot}} Adequacy of benefits (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.adq_pop_rur}} Adequacy of benefits (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.adq_pop_tot}} Adequacy of benefits (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.adq_pop_urb}} Adequacy of benefits (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Active Labor Market  (preT){p_end}
+{synopt:{opt per_lm_ac.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.avt_pop_preT_tot}} Average per capita transfer - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.avt_pop_rur}} Average per capita transfer - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.avt_pop_tot}} Average per capita transfer - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.avt_pop_urb}} Average per capita transfer - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.avt_q1_rur}} Average per capita transfer held by poorest quintile - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.avt_q1_tot}} Average per capita transfer held by poorest quintile - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.avt_q1_urb}} Average per capita transfer held by poorest quintile - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.avt_q2_urb}} Average per capita transfer held by 2nd quintile - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.avt_q3_rur}} Average per capita transfer held by 3rd quintile - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.avt_q3_tot}} Average per capita transfer held by 3rd quintile - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.avt_q3_urb}} Average per capita transfer held by 3rd quintile - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.avt_q4_rur}} Average per capita transfer held by 4th quintile - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.avt_q4_tot}} Average per capita transfer held by 4th quintile - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.avt_q4_urb}} Average per capita transfer held by 4th quintile - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.avt_q5_rur}} Average per capita transfer held by richest quintile - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.avt_q5_tot}} Average per capita transfer held by richest quintile - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.avt_q5_urb}} Average per capita transfer held by richest quintile - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market  (preT){p_end}
+{synopt:{opt per_lm_ac.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.ben_q5_rur}} Benefits incidence in richest quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.ben_q5_tot}} Benefits incidence in richest quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.ben_q5_urb}} Benefits incidence in richest quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market  (preT){p_end}
+{synopt:{opt per_lm_ac.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.cba_ep_preT_tot}} Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_lm_ac.cba_ep_tot}} Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_lm_ac.cba_q1_preT_tot}} Benefit-cost ratio -  Active Labor Market  -poorest quintile (preT){p_end}
+{synopt:{opt per_lm_ac.cba_q1_rur}} Benefit-cost ratio -  Active Labor Market  -poorest quintile -rural{p_end}
+{synopt:{opt per_lm_ac.cba_q1_tot}} Benefit-cost ratio -  Active Labor Market  -poorest quintile{p_end}
+{synopt:{opt per_lm_ac.cba_q1_urb}} Benefit-cost ratio -  Active Labor Market  - poorest quintile -urban{p_end}
+{synopt:{opt per_lm_ac.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market  (preT){p_end}
+{synopt:{opt per_lm_ac.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.cov_pop_preT_tot}} Coverage (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.cov_pop_rur}} Coverage (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.cov_pop_tot}} Coverage (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.cov_pop_urb}} Coverage (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.cov_q1_rur}} Coverage in poorest quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.cov_q1_tot}} Coverage in poorest quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.cov_q1_urb}} Coverage in poorest quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.cov_q2_rur}} Coverage in 2nd quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.cov_q2_tot}} Coverage in 2nd quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.cov_q2_urb}} Coverage in 2nd quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.cov_q3_rur}} Coverage in 3rd quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.cov_q3_tot}} Coverage in 3rd quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.cov_q3_urb}} Coverage in 3rd quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.cov_q4_preT_tot}} Coverage in 4th quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.cov_q4_rur}} Coverage in 4th quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.cov_q4_tot}} Coverage in 4th quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.cov_q4_urb}} Coverage in 4th quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac.cov_q5_preT_tot}} Coverage in richest quintile (%) - Active Labor Market (preT){p_end}
+{synopt:{opt per_lm_ac.cov_q5_rur}} Coverage in richest quintile (%) - Active Labor Market -rural{p_end}
+{synopt:{opt per_lm_ac.cov_q5_tot}} Coverage in richest quintile (%) - Active Labor Market{p_end}
+{synopt:{opt per_lm_ac.cov_q5_urb}} Coverage in richest quintile (%) - Active Labor Market -urban{p_end}
+{synopt:{opt per_lm_ac_gini_preT_tot}} Gini inequality reduction (%) -  Active Labor Market  -poorest quintile (preT){p_end}
+{synopt:{opt per_lm_ac_gini_rur}} Gini inequality reduction (%) -  Active Labor Market  -poorest quintile -rural{p_end}
+{synopt:{opt per_lm_ac_gini_tot}} Gini inequality reduction (%) -  Active Labor Market  -poorest quintile{p_end}
+{synopt:{opt per_lm_ac_gini_urb}} Gini inequality reduction (%) -  Active Labor Market  - poorest quintile -urban{p_end}
+{synopt:{opt per_lm_ac_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_lm_ac_p0_ep_tot}} Poverty Headcount reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_lm_ac_p0_preT_tot}} Poverty Headcount reduction (%) -  Active Labor Market  -poorest quintile (preT){p_end}
+{synopt:{opt per_lm_ac_p0_rur}} Poverty Headcount reduction (%) -  Active Labor Market  -poorest quintile -rural{p_end}
+{synopt:{opt per_lm_ac_p0_tot}} Poverty Headcount reduction (%) -  Active Labor Market  -poorest quintile{p_end}
+{synopt:{opt per_lm_ac_p0_urb}} Poverty Headcount reduction (%) -  Active Labor Market  - poorest quintile -urban{p_end}
+{synopt:{opt per_lm_ac_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_lm_ac_p1_ep_tot}} Poverty Gap reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_lm_ac_p1_preT_tot}} Poverty Gap reduction (%) -  Active Labor Market  -poorest quintile (preT){p_end}
+{synopt:{opt per_lm_ac_p1_rur}} Poverty Gap reduction (%) -  Active Labor Market  -poorest quintile -rural{p_end}
+{synopt:{opt per_lm_ac_p1_tot}} Poverty Gap reduction (%) -  Active Labor Market  -poorest quintile{p_end}
+{synopt:{opt per_lm_ac_p1_urb}} Poverty Gap reduction (%) -  Active Labor Market  - poorest quintile -urban{p_end}
+{synopt:{opt per_lm_alllm.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Labor Market  (preT){p_end}
+{synopt:{opt per_lm_alllm.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.adq_pop_preT_tot}} Adequacy of benefits (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.adq_pop_rur}} Adequacy of benefits (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.adq_pop_tot}} Adequacy of unemployment benefits and ALMP (% of total welfare of beneficiary households){p_end}
+{synopt:{opt per_lm_alllm.adq_pop_urb}} Adequacy of benefits (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Labor Market  (preT){p_end}
+{synopt:{opt per_lm_alllm.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.avt_pop_preT_tot}} Average per capita transfer - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.avt_pop_rur}} Average per capita transfer - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.avt_pop_tot}} Average per capita transfer - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.avt_pop_urb}} Average per capita transfer - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.avt_q1_rur}} Average per capita transfer held by poorest quintile - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.avt_q1_tot}} Average per capita transfer held by poorest quintile - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.avt_q1_urb}} Average per capita transfer held by poorest quintile - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.avt_q2_rur}} Average per capita transfer held by 2nd quintile - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.avt_q2_tot}} Average per capita transfer held by 2nd quintile - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.avt_q2_urb}} Average per capita transfer held by 2nd quintile - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.avt_q3_rur}} Average per capita transfer held by 3rd quintile - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.avt_q3_tot}} Average per capita transfer held by 3rd quintile - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.avt_q3_urb}} Average per capita transfer held by 3rd quintile - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.avt_q4_rur}} Average per capita transfer held by 4th quintile - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.avt_q4_tot}} Average per capita transfer held by 4th quintile - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.avt_q4_urb}} Average per capita transfer held by 4th quintile - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.avt_q5_rur}} Average per capita transfer held by richest quintile - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.avt_q5_tot}} Average per capita transfer held by richest quintile - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.avt_q5_urb}} Average per capita transfer held by richest quintile - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Labor Market  (preT){p_end}
+{synopt:{opt per_lm_alllm.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.ben_q1_rur}} Benefits incidence in poorest quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.ben_q1_tot}} Benefit incidence of unemployment benefits and ALMP to poorest quintile (% of total U/ALMP benefits){p_end}
+{synopt:{opt per_lm_alllm.ben_q1_urb}} Benefits incidence in poorest quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.ben_q4_rur}} Benefits incidence in 4th quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.ben_q4_tot}} Benefits incidence in 4th quintile (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.ben_q4_urb}} Benefits incidence in 4th quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.ben_q5_rur}} Benefits incidence in richest quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.ben_q5_tot}} Benefits incidence in richest quintile (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.ben_q5_urb}} Benefits incidence in richest quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Labor Market  (preT){p_end}
+{synopt:{opt per_lm_alllm.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.cba_ep_preT_tot}} Benefit-cost ratio -  All Labor Market  -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_lm_alllm.cba_ep_tot}} Benefit-cost ratio -  All Labor Market  -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_lm_alllm.cba_q1_preT_tot}} Benefit-cost ratio -  All Labor Market  -poorest quintile (preT){p_end}
+{synopt:{opt per_lm_alllm.cba_q1_rur}} Benefit-cost ratio -  All Labor Market  -poorest quintile -rural{p_end}
+{synopt:{opt per_lm_alllm.cba_q1_tot}} Benefit-cost ratio -  All Labor Market  -poorest quintile{p_end}
+{synopt:{opt per_lm_alllm.cba_q1_urb}} Benefit-cost ratio -  All Labor Market  - poorest quintile -urban{p_end}
+{synopt:{opt per_lm_alllm.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - All Labor Market  (preT){p_end}
+{synopt:{opt per_lm_alllm.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - All Labor Market{p_end}
+{synopt:{opt per_lm_alllm.cov_pop_preT_tot}} Coverage (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.cov_pop_rur}} Coverage (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.cov_pop_tot}} Coverage of unemployment benefits and ALMP (% of population){p_end}
+{synopt:{opt per_lm_alllm.cov_pop_urb}} Coverage (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.cov_q1_preT_tot}} Coverage in poorest quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.cov_q1_rur}} Coverage in poorest quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.cov_q1_tot}} Coverage of unemployment benefits and ALMP in poorest quintile (% of population){p_end}
+{synopt:{opt per_lm_alllm.cov_q1_urb}} Coverage in poorest quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.cov_q2_rur}} Coverage in 2nd quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.cov_q2_tot}} Coverage of unemployment benefits and ALMP in 2nd quintile (% of population){p_end}
+{synopt:{opt per_lm_alllm.cov_q2_urb}} Coverage in 2nd quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.cov_q3_rur}} Coverage in 3rd quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.cov_q3_tot}} Coverage of unemployment benefits and ALMP in 3rd quintile (% of population){p_end}
+{synopt:{opt per_lm_alllm.cov_q3_urb}} Coverage in 3rd quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.cov_q4_preT_tot}} Coverage in 4th quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.cov_q4_rur}} Coverage in 4th quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.cov_q4_tot}} Coverage of unemployment benefits and ALMP in 4th quintile (% of population){p_end}
+{synopt:{opt per_lm_alllm.cov_q4_urb}} Coverage in 4th quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.cov_q5_preT_tot}} Coverage in richest quintile (%) - All Labor Market (preT){p_end}
+{synopt:{opt per_lm_alllm.cov_q5_rur}} Coverage in richest quintile (%) - All Labor Market -rural{p_end}
+{synopt:{opt per_lm_alllm.cov_q5_tot}} Coverage of unemployment benefits and ALMP in richest quintile (% of population){p_end}
+{synopt:{opt per_lm_alllm.cov_q5_urb}} Coverage in richest quintile (%) - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm_gini_preT_tot}} Gini inequality reduction (%) -  All Labor Market  -poorest quintile (preT){p_end}
+{synopt:{opt per_lm_alllm_gini_rur}} Gini inequality reduction (%) -  All Labor Market  -poorest quintile -rural{p_end}
+{synopt:{opt per_lm_alllm_gini_tot}} Gini inequality reduction (%) -  All Labor Market  -poorest quintile{p_end}
+{synopt:{opt per_lm_alllm_gini_urb}} Gini inequality reduction (%) -  All Labor Market  - poorest quintile -urban{p_end}
+{synopt:{opt per_lm_alllm_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  All Labor Market  -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_lm_alllm_p0_ep_tot}} Poverty Headcount reduction (%) -  All Labor Market  -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_lm_alllm_p0_preT_tot}} Poverty Headcount reduction (%) -  All Labor Market  -poorest quintile (preT){p_end}
+{synopt:{opt per_lm_alllm_p0_rur}} Poverty Headcount reduction (%) -  All Labor Market  -poorest quintile -rural{p_end}
+{synopt:{opt per_lm_alllm_p0_tot}} Poverty Headcount reduction (%) -  All Labor Market  -poorest quintile{p_end}
+{synopt:{opt per_lm_alllm_p0_urb}} Poverty Headcount reduction (%) -  All Labor Market  - poorest quintile -urban{p_end}
+{synopt:{opt per_lm_alllm_p1_ep_preT_tot}} Poverty Gap reduction (%) -  All Labor Market  -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_lm_alllm_p1_ep_tot}} Poverty Gap reduction (%) -  All Labor Market  -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_lm_alllm_p1_preT_tot}} Poverty Gap reduction (%) -  All Labor Market  -poorest quintile (preT){p_end}
+{synopt:{opt per_lm_alllm_p1_rur}} Poverty Gap reduction (%) -  All Labor Market  -poorest quintile -rural{p_end}
+{synopt:{opt per_lm_alllm_p1_tot}} Poverty Gap reduction (%) -  All Labor Market  -poorest quintile{p_end}
+{synopt:{opt per_lm_alllm_p1_urb}} Poverty Gap reduction (%) -  All Labor Market  - poorest quintile -urban{p_end}
+{synopt:{opt per_lm_pa.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market  (preT){p_end}
+{synopt:{opt per_lm_pa.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.adq_pop_preT_tot}} Adequacy of benefits (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.adq_pop_rur}} Adequacy of benefits (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.adq_pop_tot}} Adequacy of benefits (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.adq_pop_urb}} Adequacy of benefits (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Passive Labor Market  (preT){p_end}
+{synopt:{opt per_lm_pa.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.avt_pop_preT_tot}} Average per capita transfer - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.avt_pop_rur}} Average per capita transfer - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.avt_pop_tot}} Average per capita transfer - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.avt_pop_urb}} Average per capita transfer - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.avt_q1_rur}} Average per capita transfer held by poorest quintile - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.avt_q1_tot}} Average per capita transfer held by poorest quintile - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.avt_q1_urb}} Average per capita transfer held by poorest quintile - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.avt_q2_urb}} Average per capita transfer held by 2nd quintile - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.avt_q3_rur}} Average per capita transfer held by 3rd quintile - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.avt_q3_tot}} Average per capita transfer held by 3rd quintile - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.avt_q3_urb}} Average per capita transfer held by 3rd quintile - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.avt_q4_rur}} Average per capita transfer held by 4th quintile - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.avt_q4_tot}} Average per capita transfer held by 4th quintile - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.avt_q4_urb}} Average per capita transfer held by 4th quintile - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.avt_q5_rur}} Average per capita transfer held by richest quintile - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.avt_q5_tot}} Average per capita transfer held by richest quintile - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.avt_q5_urb}} Average per capita transfer held by richest quintile - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market  (preT){p_end}
+{synopt:{opt per_lm_pa.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.ben_q5_rur}} Benefits incidence in richest quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.ben_q5_tot}} Benefits incidence in richest quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.ben_q5_urb}} Benefits incidence in richest quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market  (preT){p_end}
+{synopt:{opt per_lm_pa.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.cba_ep_preT_tot}} Benefit-cost ratio -  Passive Labor Market  -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_lm_pa.cba_ep_tot}} Benefit-cost ratio -  Passive Labor Market  -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_lm_pa.cba_q1_preT_tot}} Benefit-cost ratio -  Passive Labor Market  -poorest quintile (preT){p_end}
+{synopt:{opt per_lm_pa.cba_q1_rur}} Benefit-cost ratio -  Passive Labor Market  -poorest quintile -rural{p_end}
+{synopt:{opt per_lm_pa.cba_q1_tot}} Benefit-cost ratio -  Passive Labor Market  -poorest quintile{p_end}
+{synopt:{opt per_lm_pa.cba_q1_urb}} Benefit-cost ratio -  Passive Labor Market  - poorest quintile -urban{p_end}
+{synopt:{opt per_lm_pa.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market  (preT){p_end}
+{synopt:{opt per_lm_pa.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.cov_pop_preT_tot}} Coverage (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.cov_pop_rur}} Coverage (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.cov_pop_tot}} Coverage (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.cov_pop_urb}} Coverage (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.cov_q1_rur}} Coverage in poorest quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.cov_q1_tot}} Coverage in poorest quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.cov_q1_urb}} Coverage in poorest quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.cov_q2_rur}} Coverage in 2nd quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.cov_q2_tot}} Coverage in 2nd quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.cov_q2_urb}} Coverage in 2nd quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.cov_q3_rur}} Coverage in 3rd quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.cov_q3_tot}} Coverage in 3rd quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.cov_q3_urb}} Coverage in 3rd quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.cov_q4_preT_tot}} Coverage in 4th quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.cov_q4_rur}} Coverage in 4th quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.cov_q4_tot}} Coverage in 4th quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.cov_q4_urb}} Coverage in 4th quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa.cov_q5_preT_tot}} Coverage in richest quintile (%) - Passive Labor Market (preT){p_end}
+{synopt:{opt per_lm_pa.cov_q5_rur}} Coverage in richest quintile (%) - Passive Labor Market -rural{p_end}
+{synopt:{opt per_lm_pa.cov_q5_tot}} Coverage in richest quintile (%) - Passive Labor Market{p_end}
+{synopt:{opt per_lm_pa.cov_q5_urb}} Coverage in richest quintile (%) - Passive Labor Market -urban{p_end}
+{synopt:{opt per_lm_pa_gini_preT_tot}} Gini inequality reduction (%) -  Passive Labor Market  -poorest quintile (preT){p_end}
+{synopt:{opt per_lm_pa_gini_rur}} Gini inequality reduction (%) -  Passive Labor Market  -poorest quintile -rural{p_end}
+{synopt:{opt per_lm_pa_gini_tot}} Gini inequality reduction (%) -  Passive Labor Market  -poorest quintile{p_end}
+{synopt:{opt per_lm_pa_gini_urb}} Gini inequality reduction (%) -  Passive Labor Market  - poorest quintile -urban{p_end}
+{synopt:{opt per_lm_pa_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Passive Labor Market  -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_lm_pa_p0_ep_tot}} Poverty Headcount reduction (%) -  Passive Labor Market  -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_lm_pa_p0_preT_tot}} Poverty Headcount reduction (%) -  Passive Labor Market  -poorest quintile (preT){p_end}
+{synopt:{opt per_lm_pa_p0_rur}} Poverty Headcount reduction (%) -  Passive Labor Market  -poorest quintile -rural{p_end}
+{synopt:{opt per_lm_pa_p0_tot}} Poverty Headcount reduction (%) -  Passive Labor Market  -poorest quintile{p_end}
+{synopt:{opt per_lm_pa_p0_urb}} Poverty Headcount reduction (%) -  Passive Labor Market  - poorest quintile -urban{p_end}
+{synopt:{opt per_lm_pa_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Passive Labor Market  -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_lm_pa_p1_ep_tot}} Poverty Gap reduction (%) -  Passive Labor Market  -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_lm_pa_p1_preT_tot}} Poverty Gap reduction (%) -  Passive Labor Market  -poorest quintile (preT){p_end}
+{synopt:{opt per_lm_pa_p1_rur}} Poverty Gap reduction (%) -  Passive Labor Market  -poorest quintile -rural{p_end}
+{synopt:{opt per_lm_pa_p1_tot}} Poverty Gap reduction (%) -  Passive Labor Market  -poorest quintile{p_end}
+{synopt:{opt per_lm_pa_p1_urb}} Poverty Gap reduction (%) -  Passive Labor Market  - poorest quintile -urban{p_end}
+{synopt:{opt per_lmonl.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) only receiving Labor Market (%, preT){p_end}
+{synopt:{opt per_lmonl.overlap_ep_tot}} Population in extreme poor (&lt;$1.25 a day) only receiving Labor Market (%){p_end}
+{synopt:{opt per_lmonl.overlap_pop_preT_tot}} Population only receiving Labor Market (%, preT){p_end}
+{synopt:{opt per_lmonl.overlap_pop_rur}} Population only receiving Labor Market (%) -rural{p_end}
+{synopt:{opt per_lmonl.overlap_pop_tot}} Population only receiving Labor Market (%){p_end}
+{synopt:{opt per_lmonl.overlap_pop_urb}} Population only receiving Labor Market (%) -urban{p_end}
+{synopt:{opt per_lmonl.overlap_q1_preT_tot}} Population in the poorest quintile only receiving Labor Market (%, preT){p_end}
+{synopt:{opt per_lmonl.overlap_q1_rur}} Population in the poorest quintile only receiving Labor Market (%) -rural{p_end}
+{synopt:{opt per_lmonl.overlap_q1_tot}} Population in the poorest quintile only receiving Labor Market (%){p_end}
+{synopt:{opt per_lmonl.overlap_q1_urb}} Population in the poorest quintile only receiving Labor Market (%) -urban{p_end}
+{synopt:{opt per_nprog.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) not receiving Social Protection (%, preT){p_end}
+{synopt:{opt per_nprog.overlap_ep_tot}} Population in extreme poor (&lt;$1.25 a day) not receiving Social Protection (%){p_end}
+{synopt:{opt per_nprog.overlap_pop_preT_tot}} Population not receiving Social Protection (%, preT){p_end}
+{synopt:{opt per_nprog.overlap_pop_rur}} Population not receiving Social Protection (%) -rural{p_end}
+{synopt:{opt per_nprog.overlap_pop_tot}} Population not receiving Social Protection (%){p_end}
+{synopt:{opt per_nprog.overlap_pop_urb}} Population not receiving Social Protection (%) -urban{p_end}
+{synopt:{opt per_nprog.overlap_q1_preT_tot}} Population in the poorest quintile not receiving Social Protection (%, preT){p_end}
+{synopt:{opt per_nprog.overlap_q1_rur}} Population in the poorest quintile not receiving Social Protection (%) -rural{p_end}
+{synopt:{opt per_nprog.overlap_q1_tot}} Population in the poorest quintile not receiving Social Protection (%){p_end}
+{synopt:{opt per_nprog.overlap_q1_urb}} Population in the poorest quintile not receiving Social Protection (%) -urban{p_end}
+{synopt:{opt per_numprog1_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) receiving only 1 program (%, preT){p_end}
+{synopt:{opt per_numprog1_ep_tot}} Population in extreme poor (&lt;$1.25 a day) receiving only 1 program (%){p_end}
+{synopt:{opt per_numprog1_pop_preT_tot}} Population receiving only 1 program (%, preT){p_end}
+{synopt:{opt per_numprog1_pop_rur}} Population receiving only 1 program (%) -rural{p_end}
+{synopt:{opt per_numprog1_pop_tot}} Population receiving only 1 program (%){p_end}
+{synopt:{opt per_numprog1_pop_urb}} Population receiving only 1 program (%) -urban{p_end}
+{synopt:{opt per_numprog1_q1_preT_tot}} Population in the poorest quintile receiving 1 program (%, preT){p_end}
+{synopt:{opt per_numprog1_q1_rur}} Population in the poorest quintile receiving 1 program (%) -rural{p_end}
+{synopt:{opt per_numprog1_q1_tot}} Population in the poorest quintile receiving 1 program (%){p_end}
+{synopt:{opt per_numprog1_q1_urb}} Population in the poorest quintile receiving 1 program (%) -urban{p_end}
+{synopt:{opt per_numprog2_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) receiving 2 programs (%, preT){p_end}
+{synopt:{opt per_numprog2_ep_tot}} Population in extreme poor (&lt;$1.25 a day) receiving 2 programs (%){p_end}
+{synopt:{opt per_numprog2_pop_preT_tot}} Population receiving 2 programs (%, preT){p_end}
+{synopt:{opt per_numprog2_pop_rur}} Population receiving 2 programs (%) -rural{p_end}
+{synopt:{opt per_numprog2_pop_tot}} Population receiving 2 programs (%){p_end}
+{synopt:{opt per_numprog2_pop_urb}} Population receiving 2 programs (%) -urban{p_end}
+{synopt:{opt per_numprog2_q1_preT_tot}} Population in the poorest quintile receiving 2 programs (%, preT){p_end}
+{synopt:{opt per_numprog2_q1_rur}} Population in the poorest quintile receiving 2 programs (%) -rural{p_end}
+{synopt:{opt per_numprog2_q1_tot}} Population in the poorest quintile receiving 2 programs (%){p_end}
+{synopt:{opt per_numprog2_q1_urb}} Population in the poorest quintile receiving 2 programs (%) -urban{p_end}
+{synopt:{opt per_numprog3_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) receiving 3 programs (%, preT){p_end}
+{synopt:{opt per_numprog3_ep_tot}} Population in extreme poor (&lt;$1.25 a day) receiving 3 programs (%){p_end}
+{synopt:{opt per_numprog3_pop_preT_tot}} Population receiving 3 programs (%, preT){p_end}
+{synopt:{opt per_numprog3_pop_rur}} Population receiving 3 programs (%) -rural{p_end}
+{synopt:{opt per_numprog3_pop_tot}} Population receiving 3 programs (%){p_end}
+{synopt:{opt per_numprog3_pop_urb}} Population receiving 3 programs (%) -urban{p_end}
+{synopt:{opt per_numprog3_q1_preT_tot}} Population in the poorest quintile receiving 3 programs (%, preT){p_end}
+{synopt:{opt per_numprog3_q1_rur}} Population in the poorest quintile receiving 3 programs (%) -rural{p_end}
+{synopt:{opt per_numprog3_q1_tot}} Population in the poorest quintile receiving 3 programs (%){p_end}
+{synopt:{opt per_numprog3_q1_urb}} Population in the poorest quintile receiving 3 programs (%) -urban{p_end}
+{synopt:{opt per_numprog4_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) receiving 4 or more programs (%, preT){p_end}
+{synopt:{opt per_numprog4_ep_tot}} Population in extreme poor (&lt;$1.25 a day) receiving 4 or more programs (%){p_end}
+{synopt:{opt per_numprog4_pop_preT_tot}} Population receiving 4 or more programs (%, preT){p_end}
+{synopt:{opt per_numprog4_pop_rur}} Population receiving 4 or more programs (%) -rural{p_end}
+{synopt:{opt per_numprog4_pop_tot}} Population receiving 4 or more programs (%){p_end}
+{synopt:{opt per_numprog4_pop_urb}} Population receiving 4 or more programs (%) -urban{p_end}
+{synopt:{opt per_numprog4_q1_preT_tot}} Population in the poorest quintile receiving 4 or more programs (%, preT){p_end}
+{synopt:{opt per_numprog4_q1_rur}} Population in the poorest quintile receiving 4 or more programs (%) -rural{p_end}
+{synopt:{opt per_numprog4_q1_tot}} Population in the poorest quintile receiving 4 or more programs (%){p_end}
+{synopt:{opt per_numprog4_q1_urb}} Population in the poorest quintile receiving 4 or more programs (%) -urban{p_end}
+{synopt:{opt per_pr_allpr.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.adq_pop_preT_tot}} Adequacy of benefits (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.adq_pop_rur}} Adequacy of benefits (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.adq_pop_tot}} Adequacy of benefits (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.adq_pop_urb}} Adequacy of benefits (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.avt_pop_preT_tot}} Average per capita transfer - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.avt_pop_rur}} Average per capita transfer - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.avt_pop_tot}} Average per capita transfer - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.avt_pop_urb}} Average per capita transfer - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.avt_q1_rur}} Average per capita transfer held by poorest quintile - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.avt_q1_tot}} Average per capita transfer held by poorest quintile - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.avt_q1_urb}} Average per capita transfer held by poorest quintile - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.avt_q2_rur}} Average per capita transfer held by 2nd quintile - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.avt_q2_tot}} Average per capita transfer held by 2nd quintile - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.avt_q2_urb}} Average per capita transfer held by 2nd quintile - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.avt_q3_rur}} Average per capita transfer held by 3rd quintile - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.avt_q3_tot}} Average per capita transfer held by 3rd quintile - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.avt_q3_urb}} Average per capita transfer held by 3rd quintile - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.avt_q4_rur}} Average per capita transfer held by 4th quintile - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.avt_q4_tot}} Average per capita transfer held by 4th quintile - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.avt_q4_urb}} Average per capita transfer held by 4th quintile - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.avt_q5_rur}} Average per capita transfer held by richest quintile - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.avt_q5_tot}} Average per capita transfer held by richest quintile - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.avt_q5_urb}} Average per capita transfer held by richest quintile - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.ben_q1_rur}} Benefits incidence in poorest quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.ben_q1_tot}} Benefits incidence in poorest quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.ben_q1_urb}} Benefits incidence in poorest quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.ben_q4_rur}} Benefits incidence in 4th quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.ben_q4_tot}} Benefits incidence in 4th quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.ben_q4_urb}} Benefits incidence in 4th quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.ben_q5_rur}} Benefits incidence in richest quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.ben_q5_tot}} Benefits incidence in richest quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.ben_q5_urb}} Benefits incidence in richest quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.cba_ep_preT_tot}} Benefit-cost ratio -  All Private Transfers -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_pr_allpr.cba_ep_tot}} Benefit-cost ratio -  All Private Transfers -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_pr_allpr.cba_q1_preT_tot}} Benefit-cost ratio -  All Private Transfers -poorest quintile (preT){p_end}
+{synopt:{opt per_pr_allpr.cba_q1_rur}} Benefit-cost ratio -  All Private Transfers -poorest quintile -rural{p_end}
+{synopt:{opt per_pr_allpr.cba_q1_tot}} Benefit-cost ratio -  All Private Transfers -poorest quintile{p_end}
+{synopt:{opt per_pr_allpr.cba_q1_urb}} Benefit-cost ratio -  All Private Transfers - poorest quintile -urban{p_end}
+{synopt:{opt per_pr_allpr.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.cov_pop_preT_tot}} Coverage (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.cov_pop_rur}} Coverage (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.cov_pop_tot}} Coverage (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.cov_pop_urb}} Coverage (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.cov_q1_preT_tot}} Coverage in poorest quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.cov_q1_rur}} Coverage in poorest quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.cov_q1_tot}} Coverage in poorest quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.cov_q1_urb}} Coverage in poorest quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.cov_q2_rur}} Coverage in 2nd quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.cov_q2_tot}} Coverage in 2nd quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.cov_q2_urb}} Coverage in 2nd quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.cov_q3_rur}} Coverage in 3rd quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.cov_q3_tot}} Coverage in 3rd quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.cov_q3_urb}} Coverage in 3rd quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.cov_q4_preT_tot}} Coverage in 4th quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.cov_q4_rur}} Coverage in 4th quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.cov_q4_tot}} Coverage in 4th quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.cov_q4_urb}} Coverage in 4th quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr.cov_q5_preT_tot}} Coverage in richest quintile (%) - All Private Transfers (preT){p_end}
+{synopt:{opt per_pr_allpr.cov_q5_rur}} Coverage in richest quintile (%) - All Private Transfers -rural{p_end}
+{synopt:{opt per_pr_allpr.cov_q5_tot}} Coverage in richest quintile (%) - All Private Transfers{p_end}
+{synopt:{opt per_pr_allpr.cov_q5_urb}} Coverage in richest quintile (%) - All Private Transfers -urban{p_end}
+{synopt:{opt per_pr_allpr_gini_preT_tot}} Gini inequality reduction (%) -  All Private Transfers -poorest quintile (preT){p_end}
+{synopt:{opt per_pr_allpr_gini_rur}} Gini inequality reduction (%) -  All Private Transfers -poorest quintile -rural{p_end}
+{synopt:{opt per_pr_allpr_gini_tot}} Gini inequality reduction (%) -  All Private Transfers -poorest quintile{p_end}
+{synopt:{opt per_pr_allpr_gini_urb}} Gini inequality reduction (%) -  All Private Transfers - poorest quintile -urban{p_end}
+{synopt:{opt per_pr_allpr_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  All Private Transfers -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_pr_allpr_p0_ep_tot}} Poverty Headcount reduction (%) -  All Private Transfers -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_pr_allpr_p0_preT_tot}} Poverty Headcount reduction (%) -  All Private Transfers -poorest quintile (preT){p_end}
+{synopt:{opt per_pr_allpr_p0_rur}} Poverty Headcount reduction (%) -  All Private Transfers -poorest quintile -rural{p_end}
+{synopt:{opt per_pr_allpr_p0_tot}} Poverty Headcount reduction (%) -  All Private Transfers -poorest quintile{p_end}
+{synopt:{opt per_pr_allpr_p0_urb}} Poverty Headcount reduction (%) -  All Private Transfers - poorest quintile -urban{p_end}
+{synopt:{opt per_pr_allpr_p1_ep_preT_tot}} Poverty Gap reduction (%) -  All Private Transfers -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_pr_allpr_p1_ep_tot}} Poverty Gap reduction (%) -  All Private Transfers -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_pr_allpr_p1_preT_tot}} Poverty Gap reduction (%) -  All Private Transfers -poorest quintile (preT){p_end}
+{synopt:{opt per_pr_allpr_p1_rur}} Poverty Gap reduction (%) -  All Private Transfers -poorest quintile -rural{p_end}
+{synopt:{opt per_pr_allpr_p1_tot}} Poverty Gap reduction (%) -  All Private Transfers -poorest quintile{p_end}
+{synopt:{opt per_pr_allpr_p1_urb}} Poverty Gap reduction (%) -  All Private Transfers - poorest quintile -urban{p_end}
+{synopt:{opt per_pr_dp.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.adq_pop_preT_tot}} Adequacy of benefits (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.adq_pop_rur}} Adequacy of benefits (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.adq_pop_tot}} Adequacy of benefits (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.adq_pop_urb}} Adequacy of benefits (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.avt_pop_preT_tot}} Average per capita transfer - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.avt_pop_rur}} Average per capita transfer - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.avt_pop_tot}} Average per capita transfer - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.avt_pop_urb}} Average per capita transfer - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.avt_q1_rur}} Average per capita transfer held by poorest quintile - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.avt_q1_tot}} Average per capita transfer held by poorest quintile - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.avt_q1_urb}} Average per capita transfer held by poorest quintile - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.avt_q2_urb}} Average per capita transfer held by 2nd quintile - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.avt_q3_rur}} Average per capita transfer held by 3rd quintile - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.avt_q3_tot}} Average per capita transfer held by 3rd quintile - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.avt_q3_urb}} Average per capita transfer held by 3rd quintile - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.avt_q4_rur}} Average per capita transfer held by 4th quintile - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.avt_q4_tot}} Average per capita transfer held by 4th quintile - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.avt_q4_urb}} Average per capita transfer held by 4th quintile - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.avt_q5_rur}} Average per capita transfer held by richest quintile - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.avt_q5_tot}} Average per capita transfer held by richest quintile - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.avt_q5_urb}} Average per capita transfer held by richest quintile - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.ben_q5_rur}} Benefits incidence in richest quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.ben_q5_tot}} Benefits incidence in richest quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.ben_q5_urb}} Benefits incidence in richest quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.cba_ep_preT_tot}} Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_pr_dp.cba_ep_tot}} Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_pr_dp.cba_q1_preT_tot}} Benefit-cost ratio -  Domestic Private Transfers -poorest quintile (preT){p_end}
+{synopt:{opt per_pr_dp.cba_q1_rur}} Benefit-cost ratio -  Domestic Private Transfers -poorest quintile -rural{p_end}
+{synopt:{opt per_pr_dp.cba_q1_tot}} Benefit-cost ratio -  Domestic Private Transfers -poorest quintile{p_end}
+{synopt:{opt per_pr_dp.cba_q1_urb}} Benefit-cost ratio -  Domestic Private Transfers - poorest quintile -urban{p_end}
+{synopt:{opt per_pr_dp.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.cov_pop_preT_tot}} Coverage (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.cov_pop_rur}} Coverage (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.cov_pop_tot}} Coverage (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.cov_pop_urb}} Coverage (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.cov_q1_rur}} Coverage in poorest quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.cov_q1_tot}} Coverage in poorest quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.cov_q1_urb}} Coverage in poorest quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.cov_q2_rur}} Coverage in 2nd quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.cov_q2_tot}} Coverage in 2nd quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.cov_q2_urb}} Coverage in 2nd quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.cov_q3_rur}} Coverage in 3rd quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.cov_q3_tot}} Coverage in 3rd quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.cov_q3_urb}} Coverage in 3rd quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.cov_q4_preT_tot}} Coverage in 4th quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.cov_q4_rur}} Coverage in 4th quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.cov_q4_tot}} Coverage in 4th quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.cov_q4_urb}} Coverage in 4th quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp.cov_q5_preT_tot}} Coverage in richest quintile (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{opt per_pr_dp.cov_q5_rur}} Coverage in richest quintile (%) - Domestic Private Transfers -rural{p_end}
+{synopt:{opt per_pr_dp.cov_q5_tot}} Coverage in richest quintile (%) - Domestic Private Transfers{p_end}
+{synopt:{opt per_pr_dp.cov_q5_urb}} Coverage in richest quintile (%) - Domestic Private Transfers -urban{p_end}
+{synopt:{opt per_pr_dp_gini_preT_tot}} Gini inequality reduction (%) -  Domestic Private Transfers -poorest quintile (preT){p_end}
+{synopt:{opt per_pr_dp_gini_rur}} Gini inequality reduction (%) -  Domestic Private Transfers -poorest quintile -rural{p_end}
+{synopt:{opt per_pr_dp_gini_tot}} Gini inequality reduction (%) -  Domestic Private Transfers -poorest quintile{p_end}
+{synopt:{opt per_pr_dp_gini_urb}} Gini inequality reduction (%) -  Domestic Private Transfers - poorest quintile -urban{p_end}
+{synopt:{opt per_pr_dp_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_pr_dp_p0_ep_tot}} Poverty Headcount reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_pr_dp_p0_preT_tot}} Poverty Headcount reduction (%) -  Domestic Private Transfers -poorest quintile (preT){p_end}
+{synopt:{opt per_pr_dp_p0_rur}} Poverty Headcount reduction (%) -  Domestic Private Transfers -poorest quintile -rural{p_end}
+{synopt:{opt per_pr_dp_p0_tot}} Poverty Headcount reduction (%) -  Domestic Private Transfers -poorest quintile{p_end}
+{synopt:{opt per_pr_dp_p0_urb}} Poverty Headcount reduction (%) -  Domestic Private Transfers - poorest quintile -urban{p_end}
+{synopt:{opt per_pr_dp_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_pr_dp_p1_ep_tot}} Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_pr_dp_p1_preT_tot}} Poverty Gap reduction (%) -  Domestic Private Transfers -poorest quintile (preT){p_end}
+{synopt:{opt per_pr_dp_p1_rur}} Poverty Gap reduction (%) -  Domestic Private Transfers -poorest quintile -rural{p_end}
+{synopt:{opt per_pr_dp_p1_tot}} Poverty Gap reduction (%) -  Domestic Private Transfers -poorest quintile{p_end}
+{synopt:{opt per_pr_dp_p1_urb}} Poverty Gap reduction (%) -  Domestic Private Transfers - poorest quintile -urban{p_end}
+{synopt:{opt per_pr_ip.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.adq_pop_preT_tot}} Adequacy of benefits (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.adq_pop_rur}} Adequacy of benefits (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.adq_pop_tot}} Adequacy of benefits (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.adq_pop_urb}} Adequacy of benefits (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.avt_pop_preT_tot}} Average per capita transfer - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.avt_pop_rur}} Average per capita transfer - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.avt_pop_tot}} Average per capita transfer - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.avt_pop_urb}} Average per capita transfer - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.avt_q1_rur}} Average per capita transfer held by poorest quintile - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.avt_q1_tot}} Average per capita transfer held by poorest quintile - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.avt_q1_urb}} Average per capita transfer held by poorest quintile - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.avt_q2_rur}} Average per capita transfer held by 2nd quintile - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.avt_q2_tot}} Average per capita transfer held by 2nd quintile - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.avt_q2_urb}} Average per capita transfer held by 2nd quintile - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.avt_q3_rur}} Average per capita transfer held by 3rd quintile - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.avt_q3_tot}} Average per capita transfer held by 3rd quintile - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.avt_q3_urb}} Average per capita transfer held by 3rd quintile - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.avt_q4_rur}} Average per capita transfer held by 4th quintile - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.avt_q4_tot}} Average per capita transfer held by 4th quintile - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.avt_q4_urb}} Average per capita transfer held by 4th quintile - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.avt_q5_rur}} Average per capita transfer held by richest quintile - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.avt_q5_tot}} Average per capita transfer held by richest quintile - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.avt_q5_urb}} Average per capita transfer held by richest quintile - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.ben_q1_rur}} Benefits incidence in poorest quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.ben_q1_tot}} Benefits incidence in poorest quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.ben_q1_urb}} Benefits incidence in poorest quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.ben_q4_rur}} Benefits incidence in 4th quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.ben_q4_tot}} Benefits incidence in 4th quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.ben_q4_urb}} Benefits incidence in 4th quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.ben_q5_rur}} Benefits incidence in richest quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.ben_q5_tot}} Benefits incidence in richest quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.ben_q5_urb}} Benefits incidence in richest quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.cba_ep_preT_tot}} Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_pr_ip.cba_ep_tot}} Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_pr_ip.cba_q1_preT_tot}} Benefit-cost ratio -  International Private Transfers -poorest quintile (preT){p_end}
+{synopt:{opt per_pr_ip.cba_q1_rur}} Benefit-cost ratio -  International Private Transfers -poorest quintile -rural{p_end}
+{synopt:{opt per_pr_ip.cba_q1_tot}} Benefit-cost ratio -  International Private Transfers -poorest quintile{p_end}
+{synopt:{opt per_pr_ip.cba_q1_urb}} Benefit-cost ratio -  International Private Transfers - poorest quintile -urban{p_end}
+{synopt:{opt per_pr_ip.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.cov_pop_preT_tot}} Coverage (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.cov_pop_rur}} Coverage (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.cov_pop_tot}} Coverage (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.cov_pop_urb}} Coverage (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.cov_q1_preT_tot}} Coverage in poorest quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.cov_q1_rur}} Coverage in poorest quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.cov_q1_tot}} Coverage in poorest quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.cov_q1_urb}} Coverage in poorest quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.cov_q2_rur}} Coverage in 2nd quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.cov_q2_tot}} Coverage in 2nd quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.cov_q2_urb}} Coverage in 2nd quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.cov_q3_rur}} Coverage in 3rd quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.cov_q3_tot}} Coverage in 3rd quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.cov_q3_urb}} Coverage in 3rd quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.cov_q4_preT_tot}} Coverage in 4th quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.cov_q4_rur}} Coverage in 4th quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.cov_q4_tot}} Coverage in 4th quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.cov_q4_urb}} Coverage in 4th quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip.cov_q5_preT_tot}} Coverage in richest quintile (%) - International Private Transfers (preT){p_end}
+{synopt:{opt per_pr_ip.cov_q5_rur}} Coverage in richest quintile (%) - International Private Transfers -rural{p_end}
+{synopt:{opt per_pr_ip.cov_q5_tot}} Coverage in richest quintile (%) - International Private Transfers{p_end}
+{synopt:{opt per_pr_ip.cov_q5_urb}} Coverage in richest quintile (%) - International Private Transfers -urban{p_end}
+{synopt:{opt per_pr_ip_gini_preT_tot}} Gini inequality reduction (%) -  International Private Transfers -poorest quintile (preT){p_end}
+{synopt:{opt per_pr_ip_gini_rur}} Gini inequality reduction (%) -  International Private Transfers -poorest quintile -rural{p_end}
+{synopt:{opt per_pr_ip_gini_tot}} Gini inequality reduction (%) -  International Private Transfers -poorest quintile{p_end}
+{synopt:{opt per_pr_ip_gini_urb}} Gini inequality reduction (%) -  International Private Transfers - poorest quintile -urban{p_end}
+{synopt:{opt per_pr_ip_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_pr_ip_p0_ep_tot}} Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_pr_ip_p0_preT_tot}} Poverty Headcount reduction (%) -  International Private Transfers -poorest quintile (preT){p_end}
+{synopt:{opt per_pr_ip_p0_rur}} Poverty Headcount reduction (%) -  International Private Transfers -poorest quintile -rural{p_end}
+{synopt:{opt per_pr_ip_p0_tot}} Poverty Headcount reduction (%) -  International Private Transfers -poorest quintile{p_end}
+{synopt:{opt per_pr_ip_p0_urb}} Poverty Headcount reduction (%) -  International Private Transfers - poorest quintile -urban{p_end}
+{synopt:{opt per_pr_ip_p1_ep_preT_tot}} Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_pr_ip_p1_ep_tot}} Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_pr_ip_p1_preT_tot}} Poverty Gap reduction (%) -  International Private Transfers -poorest quintile (preT){p_end}
+{synopt:{opt per_pr_ip_p1_rur}} Poverty Gap reduction (%) -  International Private Transfers -poorest quintile -rural{p_end}
+{synopt:{opt per_pr_ip_p1_tot}} Poverty Gap reduction (%) -  International Private Transfers -poorest quintile{p_end}
+{synopt:{opt per_pr_ip_p1_urb}} Poverty Gap reduction (%) -  International Private Transfers - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_allsa.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance  (preT){p_end}
+{synopt:{opt per_sa_allsa.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.adq_pop_preT_tot}} Adequacy of benefits (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.adq_pop_rur}} Adequacy of benefits (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.adq_pop_tot}} Adequacy of social safety net programs (% of total welfare of beneficiary households){p_end}
+{synopt:{opt per_sa_allsa.adq_pop_urb}} Adequacy of benefits (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Social Assistance  (preT){p_end}
+{synopt:{opt per_sa_allsa.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.avt_pop_preT_tot}} Average per capita transfer - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.avt_pop_rur}} Average per capita transfer - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.avt_pop_tot}} Average per capita transfer - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.avt_pop_urb}} Average per capita transfer - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.avt_q1_rur}} Average per capita transfer held by poorest quintile - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.avt_q1_tot}} Average per capita transfer held by poorest quintile - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.avt_q1_urb}} Average per capita transfer held by poorest quintile - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.avt_q2_rur}} Average per capita transfer held by 2nd quintile - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.avt_q2_tot}} Average per capita transfer held by 2nd quintile - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.avt_q2_urb}} Average per capita transfer held by 2nd quintile - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.avt_q3_rur}} Average per capita transfer held by 3rd quintile - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.avt_q3_tot}} Average per capita transfer held by 3rd quintile - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.avt_q3_urb}} Average per capita transfer held by 3rd quintile - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.avt_q4_rur}} Average per capita transfer held by 4th quintile - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.avt_q4_tot}} Average per capita transfer held by 4th quintile - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.avt_q4_urb}} Average per capita transfer held by 4th quintile - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.avt_q5_rur}} Average per capita transfer held by richest quintile - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.avt_q5_tot}} Average per capita transfer held by richest quintile - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.avt_q5_urb}} Average per capita transfer held by richest quintile - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance  (preT){p_end}
+{synopt:{opt per_sa_allsa.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.ben_q1_rur}} Benefits incidence in poorest quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.ben_q1_tot}} Benefit incidence of social safety net programs to poorest quintile (% of total safety net benefits){p_end}
+{synopt:{opt per_sa_allsa.ben_q1_urb}} Benefits incidence in poorest quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.ben_q4_rur}} Benefits incidence in 4th quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.ben_q4_tot}} Benefits incidence in 4th quintile (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.ben_q4_urb}} Benefits incidence in 4th quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.ben_q5_rur}} Benefits incidence in richest quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.ben_q5_tot}} Benefits incidence in richest quintile (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.ben_q5_urb}} Benefits incidence in richest quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance  (preT){p_end}
+{synopt:{opt per_sa_allsa.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.cba_ep_preT_tot}} Benefit-cost ratio -  All Social Assistance -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_allsa.cba_ep_tot}} Benefit-cost ratio -  All Social Assistance -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_allsa.cba_q1_preT_tot}} Benefit-cost ratio -  All Social Assistance -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_allsa.cba_q1_rur}} Benefit-cost ratio -  All Social Assistance -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_allsa.cba_q1_tot}} Benefit-cost ratio -  All Social Assistance -poorest quintile{p_end}
+{synopt:{opt per_sa_allsa.cba_q1_urb}} Benefit-cost ratio -  All Social Assistance - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_allsa.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance  (preT){p_end}
+{synopt:{opt per_sa_allsa.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance{p_end}
+{synopt:{opt per_sa_allsa.cov_pop_preT_tot}} Coverage (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.cov_pop_rur}} Coverage (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.cov_pop_tot}} Coverage of social safety net programs (% of population){p_end}
+{synopt:{opt per_sa_allsa.cov_pop_urb}} Coverage (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.cov_q1_preT_tot}} Coverage in poorest quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.cov_q1_rur}} Coverage in poorest quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.cov_q1_tot}} Coverage of social safety net programs in poorest quintile (% of population){p_end}
+{synopt:{opt per_sa_allsa.cov_q1_urb}} Coverage in poorest quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.cov_q2_rur}} Coverage in 2nd quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.cov_q2_tot}} Coverage of social safety net programs in 2nd quintile (% of population){p_end}
+{synopt:{opt per_sa_allsa.cov_q2_urb}} Coverage in 2nd quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.cov_q3_rur}} Coverage in 3rd quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.cov_q3_tot}} Coverage of social safety net programs in 3rd quintile (% of population){p_end}
+{synopt:{opt per_sa_allsa.cov_q3_urb}} Coverage in 3rd quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.cov_q4_preT_tot}} Coverage in 4th quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.cov_q4_rur}} Coverage in 4th quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.cov_q4_tot}} Coverage of social safety net programs in 4th quintile (% of population){p_end}
+{synopt:{opt per_sa_allsa.cov_q4_urb}} Coverage in 4th quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa.cov_q5_preT_tot}} Coverage in richest quintile (%) - All Social Assistance (preT){p_end}
+{synopt:{opt per_sa_allsa.cov_q5_rur}} Coverage in richest quintile (%) - All Social Assistance -rural{p_end}
+{synopt:{opt per_sa_allsa.cov_q5_tot}} Coverage of social safety net programs in richest quintile (% of population){p_end}
+{synopt:{opt per_sa_allsa.cov_q5_urb}} Coverage in richest quintile (%) - All Social Assistance -urban{p_end}
+{synopt:{opt per_sa_allsa_gini_preT_tot}} Gini inequality reduction (%) -  All Social Assistance -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_allsa_gini_rur}} Gini inequality reduction (%) -  All Social Assistance -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_allsa_gini_tot}} Gini inequality reduction (%) -  All Social Assistance -poorest quintile{p_end}
+{synopt:{opt per_sa_allsa_gini_urb}} Gini inequality reduction (%) -  All Social Assistance - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_allsa_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_allsa_p0_ep_tot}} Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_allsa_p0_preT_tot}} Poverty Headcount reduction (%) -  All Social Assistance -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_allsa_p0_rur}} Poverty Headcount reduction (%) -  All Social Assistance -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_allsa_p0_tot}} Poverty Headcount reduction (%) -  All Social Assistance -poorest quintile{p_end}
+{synopt:{opt per_sa_allsa_p0_urb}} Poverty Headcount reduction (%) -  All Social Assistance - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_allsa_p1_ep_preT_tot}} Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_allsa_p1_ep_tot}} Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_allsa_p1_preT_tot}} Poverty Gap reduction (%) -  All Social Assistance -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_allsa_p1_rur}} Poverty Gap reduction (%) -  All Social Assistance -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_allsa_p1_tot}} Poverty Gap reduction (%) -  All Social Assistance -poorest quintile{p_end}
+{synopt:{opt per_sa_allsa_p1_urb}} Poverty Gap reduction (%) -  All Social Assistance - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_cc.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.adq_pop_preT_tot}} Adequacy of benefits (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.adq_pop_rur}} Adequacy of benefits (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.adq_pop_tot}} Adequacy of benefits (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.adq_pop_urb}} Adequacy of benefits (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.avt_pop_preT_tot}} Average per capita transfer - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.avt_pop_rur}} Average per capita transfer - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.avt_pop_tot}} Average per capita transfer - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.avt_pop_urb}} Average per capita transfer - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.avt_q1_rur}} Average per capita transfer held by poorest quintile - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.avt_q1_tot}} Average per capita transfer held by poorest quintile - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.avt_q1_urb}} Average per capita transfer held by poorest quintile - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.avt_q2_urb}} Average per capita transfer held by 2nd quintile - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.avt_q3_rur}} Average per capita transfer held by 3rd quintile - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.avt_q3_tot}} Average per capita transfer held by 3rd quintile - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.avt_q3_urb}} Average per capita transfer held by 3rd quintile - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.avt_q4_rur}} Average per capita transfer held by 4th quintile - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.avt_q4_tot}} Average per capita transfer held by 4th quintile - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.avt_q4_urb}} Average per capita transfer held by 4th quintile - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.avt_q5_rur}} Average per capita transfer held by richest quintile - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.avt_q5_tot}} Average per capita transfer held by richest quintile - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.avt_q5_urb}} Average per capita transfer held by richest quintile - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.ben_q5_rur}} Benefits incidence in richest quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.ben_q5_tot}} Benefits incidence in richest quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.ben_q5_urb}} Benefits incidence in richest quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.cba_ep_preT_tot}} Benefit-cost ratio -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_cc.cba_ep_tot}} Benefit-cost ratio -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_cc.cba_q1_preT_tot}} Benefit-cost ratio -  Conditional Cash Transfer -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_cc.cba_q1_rur}} Benefit-cost ratio -  Conditional Cash Transfer -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_cc.cba_q1_tot}} Benefit-cost ratio -  Conditional Cash Transfer -poorest quintile{p_end}
+{synopt:{opt per_sa_cc.cba_q1_urb}} Benefit-cost ratio -  Conditional Cash Transfer - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_cc.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.cov_pop_preT_tot}} Coverage (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.cov_pop_rur}} Coverage (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.cov_pop_tot}} Coverage (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.cov_pop_urb}} Coverage (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.cov_q1_rur}} Coverage in poorest quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.cov_q1_tot}} Coverage in poorest quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.cov_q1_urb}} Coverage in poorest quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.cov_q2_rur}} Coverage in 2nd quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.cov_q2_tot}} Coverage in 2nd quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.cov_q2_urb}} Coverage in 2nd quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.cov_q3_rur}} Coverage in 3rd quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.cov_q3_tot}} Coverage in 3rd quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.cov_q3_urb}} Coverage in 3rd quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.cov_q4_preT_tot}} Coverage in 4th quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.cov_q4_rur}} Coverage in 4th quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.cov_q4_tot}} Coverage in 4th quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.cov_q4_urb}} Coverage in 4th quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc.cov_q5_preT_tot}} Coverage in richest quintile (%) - Conditional Cash Transfers (preT){p_end}
+{synopt:{opt per_sa_cc.cov_q5_rur}} Coverage in richest quintile (%) - Conditional Cash Transfers -rural{p_end}
+{synopt:{opt per_sa_cc.cov_q5_tot}} Coverage in richest quintile (%) - Conditional Cash Transfers{p_end}
+{synopt:{opt per_sa_cc.cov_q5_urb}} Coverage in richest quintile (%) - Conditional Cash Transfers -urban{p_end}
+{synopt:{opt per_sa_cc_gini_preT_tot}} Gini inequality reduction (%) -  Conditional Cash Transfer -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_cc_gini_rur}} Gini inequality reduction (%) -  Conditional Cash Transfer -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_cc_gini_tot}} Gini inequality reduction (%) -  Conditional Cash Transfer -poorest quintile{p_end}
+{synopt:{opt per_sa_cc_gini_urb}} Gini inequality reduction (%) -  Conditional Cash Transfer - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_cc_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_cc_p0_ep_tot}} Poverty Headcount reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_cc_p0_preT_tot}} Poverty Headcount reduction (%) -  Conditional Cash Transfer -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_cc_p0_rur}} Poverty Headcount reduction (%) -  Conditional Cash Transfer -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_cc_p0_tot}} Poverty Headcount reduction (%) -  Conditional Cash Transfer -poorest quintile{p_end}
+{synopt:{opt per_sa_cc_p0_urb}} Poverty Headcount reduction (%) -  Conditional Cash Transfer - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_cc_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_cc_p1_ep_tot}} Poverty Gap reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_cc_p1_preT_tot}} Poverty Gap reduction (%) -  Conditional Cash Transfer -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_cc_p1_rur}} Poverty Gap reduction (%) -  Conditional Cash Transfer -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_cc_p1_tot}} Poverty Gap reduction (%) -  Conditional Cash Transfer -poorest quintile{p_end}
+{synopt:{opt per_sa_cc_p1_urb}} Poverty Gap reduction (%) -  Conditional Cash Transfer - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_ct.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer  (preT){p_end}
+{synopt:{opt per_sa_ct.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.adq_pop_preT_tot}} Adequacy of benefits (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.adq_pop_rur}} Adequacy of benefits (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.adq_pop_tot}} Adequacy of benefits (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.adq_pop_urb}} Adequacy of benefits (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Cash Transfer  (preT){p_end}
+{synopt:{opt per_sa_ct.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.avt_pop_preT_tot}} Average per capita transfer - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.avt_pop_rur}} Average per capita transfer - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.avt_pop_tot}} Average per capita transfer - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.avt_pop_urb}} Average per capita transfer - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.avt_q1_rur}} Average per capita transfer held by poorest quintile - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.avt_q1_tot}} Average per capita transfer held by poorest quintile - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.avt_q1_urb}} Average per capita transfer held by poorest quintile - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.avt_q2_urb}} Average per capita transfer held by 2nd quintile - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.avt_q3_rur}} Average per capita transfer held by 3rd quintile - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.avt_q3_tot}} Average per capita transfer held by 3rd quintile - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.avt_q3_urb}} Average per capita transfer held by 3rd quintile - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.avt_q4_rur}} Average per capita transfer held by 4th quintile - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.avt_q4_tot}} Average per capita transfer held by 4th quintile - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.avt_q4_urb}} Average per capita transfer held by 4th quintile - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.avt_q5_rur}} Average per capita transfer held by richest quintile - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.avt_q5_tot}} Average per capita transfer held by richest quintile - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.avt_q5_urb}} Average per capita transfer held by richest quintile - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer  (preT){p_end}
+{synopt:{opt per_sa_ct.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.ben_q5_rur}} Benefits incidence in richest quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.ben_q5_tot}} Benefits incidence in richest quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.ben_q5_urb}} Benefits incidence in richest quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer  (preT){p_end}
+{synopt:{opt per_sa_ct.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.cba_ep_preT_tot}} Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_ct.cba_ep_tot}} Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_ct.cba_q1_preT_tot}} Benefit-cost ratio -  Cash Transfer -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_ct.cba_q1_rur}} Benefit-cost ratio -  Cash Transfer -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_ct.cba_q1_tot}} Benefit-cost ratio -  Cash Transfer -poorest quintile{p_end}
+{synopt:{opt per_sa_ct.cba_q1_urb}} Benefit-cost ratio -  Cash Transfer - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_ct.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer  (preT){p_end}
+{synopt:{opt per_sa_ct.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.cov_pop_preT_tot}} Coverage (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.cov_pop_rur}} Coverage (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.cov_pop_tot}} Coverage (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.cov_pop_urb}} Coverage (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.cov_q1_rur}} Coverage in poorest quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.cov_q1_tot}} Coverage in poorest quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.cov_q1_urb}} Coverage in poorest quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.cov_q2_rur}} Coverage in 2nd quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.cov_q2_tot}} Coverage in 2nd quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.cov_q2_urb}} Coverage in 2nd quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.cov_q3_rur}} Coverage in 3rd quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.cov_q3_tot}} Coverage in 3rd quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.cov_q3_urb}} Coverage in 3rd quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.cov_q4_preT_tot}} Coverage in 4th quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.cov_q4_rur}} Coverage in 4th quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.cov_q4_tot}} Coverage in 4th quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.cov_q4_urb}} Coverage in 4th quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct.cov_q5_preT_tot}} Coverage in richest quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{opt per_sa_ct.cov_q5_rur}} Coverage in richest quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{opt per_sa_ct.cov_q5_tot}} Coverage in richest quintile (%) - Cash Transfer{p_end}
+{synopt:{opt per_sa_ct.cov_q5_urb}} Coverage in richest quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{opt per_sa_ct_gini_preT_tot}} Gini inequality reduction (%) -  Cash Transfer -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_ct_gini_rur}} Gini inequality reduction (%) -  Cash Transfer -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_ct_gini_tot}} Gini inequality reduction (%) -  Cash Transfer -poorest quintile{p_end}
+{synopt:{opt per_sa_ct_gini_urb}} Gini inequality reduction (%) -  Cash Transfer - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_ct_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_ct_p0_ep_tot}} Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_ct_p0_preT_tot}} Poverty Headcount reduction (%) -  Cash Transfer -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_ct_p0_rur}} Poverty Headcount reduction (%) -  Cash Transfer -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_ct_p0_tot}} Poverty Headcount reduction (%) -  Cash Transfer -poorest quintile{p_end}
+{synopt:{opt per_sa_ct_p0_urb}} Poverty Headcount reduction (%) -  Cash Transfer - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_ct_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_ct_p1_ep_tot}} Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_ct_p1_preT_tot}} Poverty Gap reduction (%) -  Cash Transfer -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_ct_p1_rur}} Poverty Gap reduction (%) -  Cash Transfer -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_ct_p1_tot}} Poverty Gap reduction (%) -  Cash Transfer -poorest quintile{p_end}
+{synopt:{opt per_sa_ct_p1_urb}} Poverty Gap reduction (%) -  Cash Transfer - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_fw.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.adq_pop_preT_tot}} Adequacy of benefits (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.adq_pop_rur}} Adequacy of benefits (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.adq_pop_tot}} Adequacy of benefits (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.adq_pop_urb}} Adequacy of benefits (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.avt_pop_preT_tot}} Average per capita transfer - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.avt_pop_rur}} Average per capita transfer - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.avt_pop_tot}} Average per capita transfer - Subsidies{p_end}
+{synopt:{opt per_sa_fw.avt_pop_urb}} Average per capita transfer - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.avt_q1_rur}} Average per capita transfer held by poorest quintile - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.avt_q1_tot}} Average per capita transfer held by poorest quintile - Subsidies{p_end}
+{synopt:{opt per_sa_fw.avt_q1_urb}} Average per capita transfer held by poorest quintile - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Subsidies{p_end}
+{synopt:{opt per_sa_fw.avt_q2_urb}} Average per capita transfer held by 2nd quintile - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.avt_q3_rur}} Average per capita transfer held by 3rd quintile - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.avt_q3_tot}} Average per capita transfer held by 3rd quintile - Subsidies{p_end}
+{synopt:{opt per_sa_fw.avt_q3_urb}} Average per capita transfer held by 3rd quintile - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.avt_q4_rur}} Average per capita transfer held by 4th quintile - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.avt_q4_tot}} Average per capita transfer held by 4th quintile - Subsidies{p_end}
+{synopt:{opt per_sa_fw.avt_q4_urb}} Average per capita transfer held by 4th quintile - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.avt_q5_rur}} Average per capita transfer held by richest quintile - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.avt_q5_tot}} Average per capita transfer held by richest quintile - Subsidies{p_end}
+{synopt:{opt per_sa_fw.avt_q5_urb}} Average per capita transfer held by richest quintile - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.ben_q5_rur}} Benefits incidence in richest quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.ben_q5_tot}} Benefits incidence in richest quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.ben_q5_urb}} Benefits incidence in richest quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.cba_ep_preT_tot}} Benefit-cost ratio -  Subsidies -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_fw.cba_ep_tot}} Benefit-cost ratio -  Subsidies -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_fw.cba_q1_preT_tot}} Benefit-cost ratio -  Subsidies -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_fw.cba_q1_rur}} Benefit-cost ratio -  Subsidies -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_fw.cba_q1_tot}} Benefit-cost ratio -  Subsidies -poorest quintile{p_end}
+{synopt:{opt per_sa_fw.cba_q1_urb}} Benefit-cost ratio -  Subsidies - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_fw.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.cov_pop_preT_tot}} Coverage (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.cov_pop_rur}} Coverage (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.cov_pop_tot}} Coverage (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.cov_pop_urb}} Coverage (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.cov_q1_rur}} Coverage in poorest quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.cov_q1_tot}} Coverage in poorest quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.cov_q1_urb}} Coverage in poorest quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.cov_q2_rur}} Coverage in 2nd quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.cov_q2_tot}} Coverage in 2nd quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.cov_q2_urb}} Coverage in 2nd quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.cov_q3_rur}} Coverage in 3rd quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.cov_q3_tot}} Coverage in 3rd quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.cov_q3_urb}} Coverage in 3rd quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.cov_q4_preT_tot}} Coverage in 4th quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.cov_q4_rur}} Coverage in 4th quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.cov_q4_tot}} Coverage in 4th quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.cov_q4_urb}} Coverage in 4th quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw.cov_q5_preT_tot}} Coverage in richest quintile (%) - Subsidies (preT){p_end}
+{synopt:{opt per_sa_fw.cov_q5_rur}} Coverage in richest quintile (%) - Subsidies -rural{p_end}
+{synopt:{opt per_sa_fw.cov_q5_tot}} Coverage in richest quintile (%) - Subsidies{p_end}
+{synopt:{opt per_sa_fw.cov_q5_urb}} Coverage in richest quintile (%) - Subsidies -urban{p_end}
+{synopt:{opt per_sa_fw_gini_preT_tot}} Gini inequality reduction (%) -  Subsidies -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_fw_gini_rur}} Gini inequality reduction (%) -  Subsidies -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_fw_gini_tot}} Gini inequality reduction (%) -  Subsidies -poorest quintile{p_end}
+{synopt:{opt per_sa_fw_gini_urb}} Gini inequality reduction (%) -  Subsidies - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_fw_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Subsidies -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_fw_p0_ep_tot}} Poverty Headcount reduction (%) -  Subsidies -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_fw_p0_preT_tot}} Poverty Headcount reduction (%) -  Subsidies -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_fw_p0_rur}} Poverty Headcount reduction (%) -  Subsidies -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_fw_p0_tot}} Poverty Headcount reduction (%) -  Subsidies -poorest quintile{p_end}
+{synopt:{opt per_sa_fw_p0_urb}} Poverty Headcount reduction (%) -  Subsidies - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_fw_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Subsidies -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_fw_p1_ep_tot}} Poverty Gap reduction (%) -  Subsidies -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_fw_p1_preT_tot}} Poverty Gap reduction (%) -  Subsidies -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_fw_p1_rur}} Poverty Gap reduction (%) -  Subsidies -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_fw_p1_tot}} Poverty Gap reduction (%) -  Subsidies -poorest quintile{p_end}
+{synopt:{opt per_sa_fw_p1_urb}} Poverty Gap reduction (%) -  Subsidies - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_ik.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.adq_pop_preT_tot}} Adequacy of benefits (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.adq_pop_rur}} Adequacy of benefits (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.adq_pop_tot}} Adequacy of benefits (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.adq_pop_urb}} Adequacy of benefits (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.avt_pop_preT_tot}} Average per capita transfer - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.avt_pop_rur}} Average per capita transfer - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.avt_pop_tot}} Average per capita transfer - In-Kind{p_end}
+{synopt:{opt per_sa_ik.avt_pop_urb}} Average per capita transfer - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.avt_q1_rur}} Average per capita transfer held by poorest quintile - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.avt_q1_tot}} Average per capita transfer held by poorest quintile - In-Kind{p_end}
+{synopt:{opt per_sa_ik.avt_q1_urb}} Average per capita transfer held by poorest quintile - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.avt_q2_rur}} Average per capita transfer held by 2nd quintile - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.avt_q2_tot}} Average per capita transfer held by 2nd quintile - In-Kind{p_end}
+{synopt:{opt per_sa_ik.avt_q2_urb}} Average per capita transfer held by 2nd quintile - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.avt_q3_rur}} Average per capita transfer held by 3rd quintile - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.avt_q3_tot}} Average per capita transfer held by 3rd quintile - In-Kind{p_end}
+{synopt:{opt per_sa_ik.avt_q3_urb}} Average per capita transfer held by 3rd quintile - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.avt_q4_rur}} Average per capita transfer held by 4th quintile - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.avt_q4_tot}} Average per capita transfer held by 4th quintile - In-Kind{p_end}
+{synopt:{opt per_sa_ik.avt_q4_urb}} Average per capita transfer held by 4th quintile - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.avt_q5_rur}} Average per capita transfer held by richest quintile - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.avt_q5_tot}} Average per capita transfer held by richest quintile - In-Kind{p_end}
+{synopt:{opt per_sa_ik.avt_q5_urb}} Average per capita transfer held by richest quintile - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.ben_q1_rur}} Benefits incidence in poorest quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.ben_q1_tot}} Benefits incidence in poorest quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.ben_q1_urb}} Benefits incidence in poorest quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.ben_q4_rur}} Benefits incidence in 4th quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.ben_q4_tot}} Benefits incidence in 4th quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.ben_q4_urb}} Benefits incidence in 4th quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.ben_q5_rur}} Benefits incidence in richest quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.ben_q5_tot}} Benefits incidence in richest quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.ben_q5_urb}} Benefits incidence in richest quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.cba_ep_preT_tot}} Benefit-cost ratio -  In-Kind -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_ik.cba_ep_tot}} Benefit-cost ratio -  In-Kind -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_ik.cba_q1_preT_tot}} Benefit-cost ratio -  In-Kind -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_ik.cba_q1_rur}} Benefit-cost ratio -  In-Kind -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_ik.cba_q1_tot}} Benefit-cost ratio -  In-Kind -poorest quintile{p_end}
+{synopt:{opt per_sa_ik.cba_q1_urb}} Benefit-cost ratio -  In-Kind - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_ik.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.cov_pop_preT_tot}} Coverage (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.cov_pop_rur}} Coverage (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.cov_pop_tot}} Coverage (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.cov_pop_urb}} Coverage (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.cov_q1_preT_tot}} Coverage in poorest quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.cov_q1_rur}} Coverage in poorest quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.cov_q1_tot}} Coverage in poorest quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.cov_q1_urb}} Coverage in poorest quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.cov_q2_rur}} Coverage in 2nd quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.cov_q2_tot}} Coverage in 2nd quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.cov_q2_urb}} Coverage in 2nd quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.cov_q3_rur}} Coverage in 3rd quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.cov_q3_tot}} Coverage in 3rd quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.cov_q3_urb}} Coverage in 3rd quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.cov_q4_preT_tot}} Coverage in 4th quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.cov_q4_rur}} Coverage in 4th quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.cov_q4_tot}} Coverage in 4th quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.cov_q4_urb}} Coverage in 4th quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik.cov_q5_preT_tot}} Coverage in richest quintile (%) - In-Kind (preT){p_end}
+{synopt:{opt per_sa_ik.cov_q5_rur}} Coverage in richest quintile (%) - In-Kind -rural{p_end}
+{synopt:{opt per_sa_ik.cov_q5_tot}} Coverage in richest quintile (%) - In-Kind{p_end}
+{synopt:{opt per_sa_ik.cov_q5_urb}} Coverage in richest quintile (%) - In-Kind -urban{p_end}
+{synopt:{opt per_sa_ik_gini_preT_tot}} Gini inequality reduction (%) -  In-Kind -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_ik_gini_rur}} Gini inequality reduction (%) -  In-Kind -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_ik_gini_tot}} Gini inequality reduction (%) -  In-Kind -poorest quintile{p_end}
+{synopt:{opt per_sa_ik_gini_urb}} Gini inequality reduction (%) -  In-Kind - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_ik_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_ik_p0_ep_tot}} Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_ik_p0_preT_tot}} Poverty Headcount reduction (%) -  In-Kind -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_ik_p0_rur}} Poverty Headcount reduction (%) -  In-Kind -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_ik_p0_tot}} Poverty Headcount reduction (%) -  In-Kind -poorest quintile{p_end}
+{synopt:{opt per_sa_ik_p0_urb}} Poverty Headcount reduction (%) -  In-Kind - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_ik_p1_ep_preT_tot}} Poverty Gap reduction (%) -  In-Kind -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_ik_p1_ep_tot}} Poverty Gap reduction (%) -  In-Kind -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_ik_p1_preT_tot}} Poverty Gap reduction (%) -  In-Kind -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_ik_p1_rur}} Poverty Gap reduction (%) -  In-Kind -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_ik_p1_tot}} Poverty Gap reduction (%) -  In-Kind -poorest quintile{p_end}
+{synopt:{opt per_sa_ik_p1_urb}} Poverty Gap reduction (%) -  In-Kind - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_os.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.adq_pop_preT_tot}} Adequacy of benefits (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.adq_pop_rur}} Adequacy of benefits (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.adq_pop_tot}} Adequacy of benefits (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.adq_pop_urb}} Adequacy of benefits (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.avt_pop_preT_tot}} Average per capita transfer - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.avt_pop_rur}} Average per capita transfer - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.avt_pop_tot}} Average per capita transfer - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.avt_pop_urb}} Average per capita transfer - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.avt_q1_rur}} Average per capita transfer held by poorest quintile - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.avt_q1_tot}} Average per capita transfer held by poorest quintile - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.avt_q1_urb}} Average per capita transfer held by poorest quintile - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.avt_q2_urb}} Average per capita transfer held by 2nd quintile - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.avt_q3_rur}} Average per capita transfer held by 3rd quintile - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.avt_q3_tot}} Average per capita transfer held by 3rd quintile - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.avt_q3_urb}} Average per capita transfer held by 3rd quintile - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.avt_q4_rur}} Average per capita transfer held by 4th quintile - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.avt_q4_tot}} Average per capita transfer held by 4th quintile - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.avt_q4_urb}} Average per capita transfer held by 4th quintile - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.avt_q5_rur}} Average per capita transfer held by richest quintile - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.avt_q5_tot}} Average per capita transfer held by richest quintile - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.avt_q5_urb}} Average per capita transfer held by richest quintile - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.ben_q5_rur}} Benefits incidence in richest quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.ben_q5_tot}} Benefits incidence in richest quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.ben_q5_urb}} Benefits incidence in richest quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.cba_ep_preT_tot}} Benefit-cost ratio -  Other Social Assistance -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_os.cba_ep_tot}} Benefit-cost ratio -  Other Social Assistance -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_os.cba_q1_preT_tot}} Benefit-cost ratio -  Other Social Assistance -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_os.cba_q1_rur}} Benefit-cost ratio -  Other Social Assistance -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_os.cba_q1_tot}} Benefit-cost ratio -  Other Social Assistance -poorest quintile{p_end}
+{synopt:{opt per_sa_os.cba_q1_urb}} Benefit-cost ratio -  Other Social Assistance - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_os.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.cov_pop_preT_tot}} Coverage (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.cov_pop_rur}} Coverage (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.cov_pop_tot}} Coverage (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.cov_pop_urb}} Coverage (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.cov_q1_rur}} Coverage in poorest quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.cov_q1_tot}} Coverage in poorest quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.cov_q1_urb}} Coverage in poorest quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.cov_q2_rur}} Coverage in 2nd quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.cov_q2_tot}} Coverage in 2nd quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.cov_q2_urb}} Coverage in 2nd quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.cov_q3_rur}} Coverage in 3rd quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.cov_q3_tot}} Coverage in 3rd quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.cov_q3_urb}} Coverage in 3rd quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.cov_q4_preT_tot}} Coverage in 4th quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.cov_q4_rur}} Coverage in 4th quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.cov_q4_tot}} Coverage in 4th quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.cov_q4_urb}} Coverage in 4th quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os.cov_q5_preT_tot}} Coverage in richest quintile (%) - Other Social Assistance (preT){p_end}
+{synopt:{opt per_sa_os.cov_q5_rur}} Coverage in richest quintile (%) - Other Social Assistance -rural{p_end}
+{synopt:{opt per_sa_os.cov_q5_tot}} Coverage in richest quintile (%) - Other Social Assistance{p_end}
+{synopt:{opt per_sa_os.cov_q5_urb}} Coverage in richest quintile (%) - Other Social Assistance -urban{p_end}
+{synopt:{opt per_sa_os_gini_preT_tot}} Gini inequality reduction (%) -  Other Social Assistance -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_os_gini_rur}} Gini inequality reduction (%) -  Other Social Assistance -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_os_gini_tot}} Gini inequality reduction (%) -  Other Social Assistance -poorest quintile{p_end}
+{synopt:{opt per_sa_os_gini_urb}} Gini inequality reduction (%) -  Other Social Assistance - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_os_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_os_p0_ep_tot}} Poverty Headcount reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_os_p0_preT_tot}} Poverty Headcount reduction (%) -  Other Social Assistance -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_os_p0_rur}} Poverty Headcount reduction (%) -  Other Social Assistance -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_os_p0_tot}} Poverty Headcount reduction (%) -  Other Social Assistance -poorest quintile{p_end}
+{synopt:{opt per_sa_os_p0_urb}} Poverty Headcount reduction (%) -  Other Social Assistance - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_os_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_os_p1_ep_tot}} Poverty Gap reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_os_p1_preT_tot}} Poverty Gap reduction (%) -  Other Social Assistance -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_os_p1_rur}} Poverty Gap reduction (%) -  Other Social Assistance -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_os_p1_tot}} Poverty Gap reduction (%) -  Other Social Assistance -poorest quintile{p_end}
+{synopt:{opt per_sa_os_p1_urb}} Poverty Gap reduction (%) -  Other Social Assistance - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_pw.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.adq_pop_preT_tot}} Adequacy of benefits (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.adq_pop_rur}} Adequacy of benefits (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.adq_pop_tot}} Adequacy of benefits (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.adq_pop_urb}} Adequacy of benefits (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.avt_pop_preT_tot}} Average per capita transfer - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.avt_pop_rur}} Average per capita transfer - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.avt_pop_tot}} Average per capita transfer - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.avt_pop_urb}} Average per capita transfer - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.avt_q1_rur}} Average per capita transfer held by poorest quintile - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.avt_q1_tot}} Average per capita transfer held by poorest quintile - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.avt_q1_urb}} Average per capita transfer held by poorest quintile - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.avt_q2_urb}} Average per capita transfer held by 2nd quintile - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.avt_q3_rur}} Average per capita transfer held by 3rd quintile - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.avt_q3_tot}} Average per capita transfer held by 3rd quintile - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.avt_q3_urb}} Average per capita transfer held by 3rd quintile - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.avt_q4_rur}} Average per capita transfer held by 4th quintile - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.avt_q4_tot}} Average per capita transfer held by 4th quintile - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.avt_q4_urb}} Average per capita transfer held by 4th quintile - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.avt_q5_rur}} Average per capita transfer held by richest quintile - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.avt_q5_tot}} Average per capita transfer held by richest quintile - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.avt_q5_urb}} Average per capita transfer held by richest quintile - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.ben_q5_rur}} Benefits incidence in richest quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.ben_q5_tot}} Benefits incidence in richest quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.ben_q5_urb}} Benefits incidence in richest quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.cba_ep_preT_tot}} Benefit-cost ratio -  Public Works -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_pw.cba_ep_tot}} Benefit-cost ratio -  Public Works -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_pw.cba_q1_preT_tot}} Benefit-cost ratio -  Public Works -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_pw.cba_q1_rur}} Benefit-cost ratio -  Public Works -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_pw.cba_q1_tot}} Benefit-cost ratio -  Public Works -poorest quintile{p_end}
+{synopt:{opt per_sa_pw.cba_q1_urb}} Benefit-cost ratio -  Public Works - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_pw.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.cov_pop_preT_tot}} Coverage (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.cov_pop_rur}} Coverage (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.cov_pop_tot}} Coverage (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.cov_pop_urb}} Coverage (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.cov_q1_rur}} Coverage in poorest quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.cov_q1_tot}} Coverage in poorest quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.cov_q1_urb}} Coverage in poorest quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.cov_q2_rur}} Coverage in 2nd quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.cov_q2_tot}} Coverage in 2nd quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.cov_q2_urb}} Coverage in 2nd quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.cov_q3_rur}} Coverage in 3rd quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.cov_q3_tot}} Coverage in 3rd quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.cov_q3_urb}} Coverage in 3rd quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.cov_q4_preT_tot}} Coverage in 4th quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.cov_q4_rur}} Coverage in 4th quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.cov_q4_tot}} Coverage in 4th quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.cov_q4_urb}} Coverage in 4th quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw.cov_q5_preT_tot}} Coverage in richest quintile (%) - Public Works or Cash for Work (preT){p_end}
+{synopt:{opt per_sa_pw.cov_q5_rur}} Coverage in richest quintile (%) - Public Works or Cash for Work -rural{p_end}
+{synopt:{opt per_sa_pw.cov_q5_tot}} Coverage in richest quintile (%) - Public Works or Cash for Work{p_end}
+{synopt:{opt per_sa_pw.cov_q5_urb}} Coverage in richest quintile (%) - Public Works or Cash for Work -urban{p_end}
+{synopt:{opt per_sa_pw_gini_preT_tot}} Gini inequality reduction (%) -  Public Works -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_pw_gini_rur}} Gini inequality reduction (%) -  Public Works -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_pw_gini_tot}} Gini inequality reduction (%) -  Public Works -poorest quintile{p_end}
+{synopt:{opt per_sa_pw_gini_urb}} Gini inequality reduction (%) -  Public Works - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_pw_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_pw_p0_ep_tot}} Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_pw_p0_preT_tot}} Poverty Headcount reduction (%) -  Public Works -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_pw_p0_rur}} Poverty Headcount reduction (%) -  Public Works -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_pw_p0_tot}} Poverty Headcount reduction (%) -  Public Works -poorest quintile{p_end}
+{synopt:{opt per_sa_pw_p0_urb}} Poverty Headcount reduction (%) -  Public Works - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_pw_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Public Works -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_pw_p1_ep_tot}} Poverty Gap reduction (%) -  Public Works -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_pw_p1_preT_tot}} Poverty Gap reduction (%) -  Public Works -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_pw_p1_rur}} Poverty Gap reduction (%) -  Public Works -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_pw_p1_tot}} Poverty Gap reduction (%) -  Public Works -poorest quintile{p_end}
+{synopt:{opt per_sa_pw_p1_urb}} Poverty Gap reduction (%) -  Public Works - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_sf.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.adq_pop_preT_tot}} Adequacy of benefits (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.adq_pop_rur}} Adequacy of benefits (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.adq_pop_tot}} Adequacy of benefits (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.adq_pop_urb}} Adequacy of benefits (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.avt_pop_preT_tot}} Average per capita transfer - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.avt_pop_rur}} Average per capita transfer - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.avt_pop_tot}} Average per capita transfer - School Feeding{p_end}
+{synopt:{opt per_sa_sf.avt_pop_urb}} Average per capita transfer - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.avt_q1_rur}} Average per capita transfer held by poorest quintile - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.avt_q1_tot}} Average per capita transfer held by poorest quintile - School Feeding{p_end}
+{synopt:{opt per_sa_sf.avt_q1_urb}} Average per capita transfer held by poorest quintile - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.avt_q2_rur}} Average per capita transfer held by 2nd quintile - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.avt_q2_tot}} Average per capita transfer held by 2nd quintile - School Feeding{p_end}
+{synopt:{opt per_sa_sf.avt_q2_urb}} Average per capita transfer held by 2nd quintile - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.avt_q3_rur}} Average per capita transfer held by 3rd quintile - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.avt_q3_tot}} Average per capita transfer held by 3rd quintile - School Feeding{p_end}
+{synopt:{opt per_sa_sf.avt_q3_urb}} Average per capita transfer held by 3rd quintile - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.avt_q4_rur}} Average per capita transfer held by 4th quintile - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.avt_q4_tot}} Average per capita transfer held by 4th quintile - School Feeding{p_end}
+{synopt:{opt per_sa_sf.avt_q4_urb}} Average per capita transfer held by 4th quintile - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.avt_q5_rur}} Average per capita transfer held by richest quintile - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.avt_q5_tot}} Average per capita transfer held by richest quintile - School Feeding{p_end}
+{synopt:{opt per_sa_sf.avt_q5_urb}} Average per capita transfer held by richest quintile - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.ben_q1_rur}} Benefits incidence in poorest quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.ben_q1_tot}} Benefits incidence in poorest quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.ben_q1_urb}} Benefits incidence in poorest quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.ben_q4_rur}} Benefits incidence in 4th quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.ben_q4_tot}} Benefits incidence in 4th quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.ben_q4_urb}} Benefits incidence in 4th quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.ben_q5_rur}} Benefits incidence in richest quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.ben_q5_tot}} Benefits incidence in richest quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.ben_q5_urb}} Benefits incidence in richest quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.cba_ep_preT_tot}} Benefit-cost ratio -  School-feeding -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_sf.cba_ep_tot}} Benefit-cost ratio -  School-feeding -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_sf.cba_q1_preT_tot}} Benefit-cost ratio -  School-feeding -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_sf.cba_q1_rur}} Benefit-cost ratio -  School-feeding -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_sf.cba_q1_tot}} Benefit-cost ratio -  School-feeding -poorest quintile{p_end}
+{synopt:{opt per_sa_sf.cba_q1_urb}} Benefit-cost ratio -  School-feeding - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_sf.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.cov_pop_preT_tot}} Coverage (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.cov_pop_rur}} Coverage (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.cov_pop_tot}} Coverage (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.cov_pop_urb}} Coverage (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.cov_q1_preT_tot}} Coverage in poorest quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.cov_q1_rur}} Coverage in poorest quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.cov_q1_tot}} Coverage in poorest quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.cov_q1_urb}} Coverage in poorest quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.cov_q2_rur}} Coverage in 2nd quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.cov_q2_tot}} Coverage in 2nd quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.cov_q2_urb}} Coverage in 2nd quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.cov_q3_rur}} Coverage in 3rd quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.cov_q3_tot}} Coverage in 3rd quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.cov_q3_urb}} Coverage in 3rd quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.cov_q4_preT_tot}} Coverage in 4th quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.cov_q4_rur}} Coverage in 4th quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.cov_q4_tot}} Coverage in 4th quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.cov_q4_urb}} Coverage in 4th quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf.cov_q5_preT_tot}} Coverage in richest quintile (%) - School Feeding (preT){p_end}
+{synopt:{opt per_sa_sf.cov_q5_rur}} Coverage in richest quintile (%) - School Feeding -rural{p_end}
+{synopt:{opt per_sa_sf.cov_q5_tot}} Coverage in richest quintile (%) - School Feeding{p_end}
+{synopt:{opt per_sa_sf.cov_q5_urb}} Coverage in richest quintile (%) - School Feeding -urban{p_end}
+{synopt:{opt per_sa_sf_gini_preT_tot}} Gini inequality reduction (%) -  School-feeding -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_sf_gini_rur}} Gini inequality reduction (%) -  School-feeding -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_sf_gini_tot}} Gini inequality reduction (%) -  School-feeding -poorest quintile{p_end}
+{synopt:{opt per_sa_sf_gini_urb}} Gini inequality reduction (%) -  School-feeding - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_sf_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  School-feeding -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_sf_p0_ep_tot}} Poverty Headcount reduction (%) -  School-feeding -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_sf_p0_preT_tot}} Poverty Headcount reduction (%) -  School-feeding -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_sf_p0_rur}} Poverty Headcount reduction (%) -  School-feeding -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_sf_p0_tot}} Poverty Headcount reduction (%) -  School-feeding -poorest quintile{p_end}
+{synopt:{opt per_sa_sf_p0_urb}} Poverty Headcount reduction (%) -  School-feeding - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_sf_p1_ep_preT_tot}} Poverty Gap reduction (%) -  School-feeding -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_sf_p1_ep_tot}} Poverty Gap reduction (%) -  School-feeding -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_sf_p1_preT_tot}} Poverty Gap reduction (%) -  School-feeding -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_sf_p1_rur}} Poverty Gap reduction (%) -  School-feeding -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_sf_p1_tot}} Poverty Gap reduction (%) -  School-feeding -poorest quintile{p_end}
+{synopt:{opt per_sa_sf_p1_urb}} Poverty Gap reduction (%) -  School-feeding - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_sp.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Social Pensions  (preT){p_end}
+{synopt:{opt per_sa_sp.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.adq_pop_preT_tot}} Adequacy of benefits (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.adq_pop_rur}} Adequacy of benefits (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.adq_pop_tot}} Adequacy of benefits (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.adq_pop_urb}} Adequacy of benefits (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Social Pensions  (preT){p_end}
+{synopt:{opt per_sa_sp.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.avt_pop_preT_tot}} Average per capita transfer - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.avt_pop_rur}} Average per capita transfer - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.avt_pop_tot}} Average per capita transfer - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.avt_pop_urb}} Average per capita transfer - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.avt_q1_rur}} Average per capita transfer held by poorest quintile - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.avt_q1_tot}} Average per capita transfer held by poorest quintile - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.avt_q1_urb}} Average per capita transfer held by poorest quintile - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.avt_q2_urb}} Average per capita transfer held by 2nd quintile - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.avt_q3_rur}} Average per capita transfer held by 3rd quintile - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.avt_q3_tot}} Average per capita transfer held by 3rd quintile - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.avt_q3_urb}} Average per capita transfer held by 3rd quintile - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.avt_q4_rur}} Average per capita transfer held by 4th quintile - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.avt_q4_tot}} Average per capita transfer held by 4th quintile - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.avt_q4_urb}} Average per capita transfer held by 4th quintile - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.avt_q5_rur}} Average per capita transfer held by richest quintile - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.avt_q5_tot}} Average per capita transfer held by richest quintile - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.avt_q5_urb}} Average per capita transfer held by richest quintile - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Social Pensions  (preT){p_end}
+{synopt:{opt per_sa_sp.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.ben_q5_rur}} Benefits incidence in richest quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.ben_q5_tot}} Benefits incidence in richest quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.ben_q5_urb}} Benefits incidence in richest quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Social Pensions  (preT){p_end}
+{synopt:{opt per_sa_sp.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.cba_ep_preT_tot}} Benefit-cost ratio -  Social Pension -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_sp.cba_ep_tot}} Benefit-cost ratio -  Social Pension -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_sp.cba_q1_preT_tot}} Benefit-cost ratio -  Social Pension -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_sp.cba_q1_rur}} Benefit-cost ratio -  Social Pension -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_sp.cba_q1_tot}} Benefit-cost ratio -  Social Pension -poorest quintile{p_end}
+{synopt:{opt per_sa_sp.cba_q1_urb}} Benefit-cost ratio -  Social Pension - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_sp.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Social Pensions  (preT){p_end}
+{synopt:{opt per_sa_sp.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.cov_pop_preT_tot}} Coverage (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.cov_pop_rur}} Coverage (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.cov_pop_tot}} Coverage (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.cov_pop_urb}} Coverage (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.cov_q1_rur}} Coverage in poorest quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.cov_q1_tot}} Coverage in poorest quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.cov_q1_urb}} Coverage in poorest quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.cov_q2_rur}} Coverage in 2nd quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.cov_q2_tot}} Coverage in 2nd quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.cov_q2_urb}} Coverage in 2nd quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.cov_q3_rur}} Coverage in 3rd quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.cov_q3_tot}} Coverage in 3rd quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.cov_q3_urb}} Coverage in 3rd quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.cov_q4_preT_tot}} Coverage in 4th quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.cov_q4_rur}} Coverage in 4th quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.cov_q4_tot}} Coverage in 4th quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.cov_q4_urb}} Coverage in 4th quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp.cov_q5_preT_tot}} Coverage in richest quintile (%) - Social Pensions (preT){p_end}
+{synopt:{opt per_sa_sp.cov_q5_rur}} Coverage in richest quintile (%) - Social Pensions -rural{p_end}
+{synopt:{opt per_sa_sp.cov_q5_tot}} Coverage in richest quintile (%) - Social Pensions{p_end}
+{synopt:{opt per_sa_sp.cov_q5_urb}} Coverage in richest quintile (%) - Social Pensions -urban{p_end}
+{synopt:{opt per_sa_sp_gini_preT_tot}} Gini inequality reduction (%) -  Social Pension -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_sp_gini_rur}} Gini inequality reduction (%) -  Social Pension -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_sp_gini_tot}} Gini inequality reduction (%) -  Social Pension -poorest quintile{p_end}
+{synopt:{opt per_sa_sp_gini_urb}} Gini inequality reduction (%) -  Social Pension - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_sp_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_sp_p0_ep_tot}} Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_sp_p0_preT_tot}} Poverty Headcount reduction (%) -  Social Pension -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_sp_p0_rur}} Poverty Headcount reduction (%) -  Social Pension -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_sp_p0_tot}} Poverty Headcount reduction (%) -  Social Pension -poorest quintile{p_end}
+{synopt:{opt per_sa_sp_p0_urb}} Poverty Headcount reduction (%) -  Social Pension - poorest quintile -urban{p_end}
+{synopt:{opt per_sa_sp_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_sa_sp_p1_ep_tot}} Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_sa_sp_p1_preT_tot}} Poverty Gap reduction (%) -  Social Pension -poorest quintile (preT){p_end}
+{synopt:{opt per_sa_sp_p1_rur}} Poverty Gap reduction (%) -  Social Pension -poorest quintile -rural{p_end}
+{synopt:{opt per_sa_sp_p1_tot}} Poverty Gap reduction (%) -  Social Pension -poorest quintile{p_end}
+{synopt:{opt per_sa_sp_p1_urb}} Poverty Gap reduction (%) -  Social Pension - poorest quintile -urban{p_end}
+{synopt:{opt per_saonl.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) only receiving All Social Assistance (%, preT){p_end}
+{synopt:{opt per_saonl.overlap_ep_tot}} Population in extreme poor (&lt;$1.25 a day) only receiving All Social Assistance (%){p_end}
+{synopt:{opt per_saonl.overlap_pop_preT_tot}} Population only receiving All Social Assistance (%, preT){p_end}
+{synopt:{opt per_saonl.overlap_pop_rur}} Population only receiving All Social Assistance (%) -rural{p_end}
+{synopt:{opt per_saonl.overlap_pop_tot}} Population only receiving All Social Assistance (%){p_end}
+{synopt:{opt per_saonl.overlap_pop_urb}} Population only receiving All Social Assistance (%) -urban{p_end}
+{synopt:{opt per_saonl.overlap_q1_preT_tot}} Population in the poorest quintile only receiving All Social Assistance (%, preT){p_end}
+{synopt:{opt per_saonl.overlap_q1_rur}} Population in the poorest quintile only receiving All Social Assistance (%) -rural{p_end}
+{synopt:{opt per_saonl.overlap_q1_tot}} Population in the poorest quintile only receiving All Social Assistance (%){p_end}
+{synopt:{opt per_saonl.overlap_q1_urb}} Population in the poorest quintile only receiving All Social Assistance (%) -urban{p_end}
+{synopt:{opt per_saoth.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) receiving Social Assistance and Other (%, preT){p_end}
+{synopt:{opt per_saoth.overlap_ep_tot}} Population in extreme poor (&lt;$1.25 a day) receiving Social Assistance and Other (%){p_end}
+{synopt:{opt per_saoth.overlap_pop_preT_tot}} Population receiving Social Assistance and Other (%, preT){p_end}
+{synopt:{opt per_saoth.overlap_pop_rur}} Population receiving Social Assistance and Other (%) -rural{p_end}
+{synopt:{opt per_saoth.overlap_pop_tot}} Population receiving Social Assistance and Other (%){p_end}
+{synopt:{opt per_saoth.overlap_pop_urb}} Population receiving Social Assistance and Other (%) -urban{p_end}
+{synopt:{opt per_saoth.overlap_q1_preT_tot}} Population in the poorest quintile receiving Social Assistance and Other (%, preT){p_end}
+{synopt:{opt per_saoth.overlap_q1_rur}} Population in the poorest quintile receiving Social Assistance and Other (%) -rural{p_end}
+{synopt:{opt per_saoth.overlap_q1_tot}} Population in the poorest quintile receiving Social Assistance and Other (%){p_end}
+{synopt:{opt per_saoth.overlap_q1_urb}} Population in the poorest quintile receiving Social Assistance and Other (%) -urban{p_end}
+{synopt:{opt per_si_allsi.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance  (preT){p_end}
+{synopt:{opt per_si_allsi.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.adq_pop_preT_tot}} Adequacy of benefits (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.adq_pop_rur}} Adequacy of benefits (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.adq_pop_tot}} Adequacy of social insurance programs (% of total welfare of beneficiary households){p_end}
+{synopt:{opt per_si_allsi.adq_pop_urb}} Adequacy of benefits (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Social Insurance  (preT){p_end}
+{synopt:{opt per_si_allsi.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.avt_pop_preT_tot}} Average per capita transfer - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.avt_pop_rur}} Average per capita transfer - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.avt_pop_tot}} Average per capita transfer - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.avt_pop_urb}} Average per capita transfer - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.avt_q1_rur}} Average per capita transfer held by poorest quintile - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.avt_q1_tot}} Average per capita transfer held by poorest quintile - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.avt_q1_urb}} Average per capita transfer held by poorest quintile - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.avt_q2_rur}} Average per capita transfer held by 2nd quintile - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.avt_q2_tot}} Average per capita transfer held by 2nd quintile - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.avt_q2_urb}} Average per capita transfer held by 2nd quintile - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.avt_q3_rur}} Average per capita transfer held by 3rd quintile - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.avt_q3_tot}} Average per capita transfer held by 3rd quintile - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.avt_q3_urb}} Average per capita transfer held by 3rd quintile - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.avt_q4_rur}} Average per capita transfer held by 4th quintile - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.avt_q4_tot}} Average per capita transfer held by 4th quintile - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.avt_q4_urb}} Average per capita transfer held by 4th quintile - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.avt_q5_rur}} Average per capita transfer held by richest quintile - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.avt_q5_tot}} Average per capita transfer held by richest quintile - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.avt_q5_urb}} Average per capita transfer held by richest quintile - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance  (preT){p_end}
+{synopt:{opt per_si_allsi.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.ben_q1_rur}} Benefits incidence in poorest quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.ben_q1_tot}} Benefit incidence of social insurance programs to poorest quintile (% of total social insurance benefits){p_end}
+{synopt:{opt per_si_allsi.ben_q1_urb}} Benefits incidence in poorest quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.ben_q4_rur}} Benefits incidence in 4th quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.ben_q4_tot}} Benefits incidence in 4th quintile (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.ben_q4_urb}} Benefits incidence in 4th quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.ben_q5_rur}} Benefits incidence in richest quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.ben_q5_tot}} Benefits incidence in richest quintile (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.ben_q5_urb}} Benefits incidence in richest quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance  (preT){p_end}
+{synopt:{opt per_si_allsi.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.cba_ep_preT_tot}} Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_si_allsi.cba_ep_tot}} Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_si_allsi.cba_q1_preT_tot}} Benefit-cost ratio -  All Social Insurance -poorest quintile (preT){p_end}
+{synopt:{opt per_si_allsi.cba_q1_rur}} Benefit-cost ratio -  All Social Insurance -poorest quintile -rural{p_end}
+{synopt:{opt per_si_allsi.cba_q1_tot}} Benefit-cost ratio -  All Social Insurance -poorest quintile{p_end}
+{synopt:{opt per_si_allsi.cba_q1_urb}} Benefit-cost ratio -  All Social Insurance - poorest quintile -urban{p_end}
+{synopt:{opt per_si_allsi.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance  (preT){p_end}
+{synopt:{opt per_si_allsi.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance{p_end}
+{synopt:{opt per_si_allsi.cov_pop_preT_tot}} Coverage (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.cov_pop_rur}} Coverage (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.cov_pop_tot}} Coverage of social insurance programs (% of population){p_end}
+{synopt:{opt per_si_allsi.cov_pop_urb}} Coverage (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.cov_q1_preT_tot}} Coverage in poorest quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.cov_q1_rur}} Coverage in poorest quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.cov_q1_tot}} Coverage of social insurance programs in poorest quintile (% of population){p_end}
+{synopt:{opt per_si_allsi.cov_q1_urb}} Coverage in poorest quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.cov_q2_rur}} Coverage in 2nd quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.cov_q2_tot}} Coverage of social insurance programs in 2nd quintile (% of population){p_end}
+{synopt:{opt per_si_allsi.cov_q2_urb}} Coverage in 2nd quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.cov_q3_rur}} Coverage in 3rd quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.cov_q3_tot}} Coverage of social insurance programs in 3rd quintile (% of population){p_end}
+{synopt:{opt per_si_allsi.cov_q3_urb}} Coverage in 3rd quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.cov_q4_preT_tot}} Coverage in 4th quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.cov_q4_rur}} Coverage in 4th quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.cov_q4_tot}} Coverage of social insurance programs in 4th quintile (% of population){p_end}
+{synopt:{opt per_si_allsi.cov_q4_urb}} Coverage in 4th quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi.cov_q5_preT_tot}} Coverage in richest quintile (%) - All Social Insurance (preT){p_end}
+{synopt:{opt per_si_allsi.cov_q5_rur}} Coverage in richest quintile (%) - All Social Insurance -rural{p_end}
+{synopt:{opt per_si_allsi.cov_q5_tot}} Coverage of social insurance programs in richest quintile (% of population){p_end}
+{synopt:{opt per_si_allsi.cov_q5_urb}} Coverage in richest quintile (%) - All Social Insurance -urban{p_end}
+{synopt:{opt per_si_allsi_gini_preT_tot}} Gini inequality reduction (%) -  All Social Insurance -poorest quintile (preT){p_end}
+{synopt:{opt per_si_allsi_gini_rur}} Gini inequality reduction (%) -  All Social Insurance -poorest quintile -rural{p_end}
+{synopt:{opt per_si_allsi_gini_tot}} Gini inequality reduction (%) -  All Social Insurance -poorest quintile{p_end}
+{synopt:{opt per_si_allsi_gini_urb}} Gini inequality reduction (%) -  All Social Insurance - poorest quintile -urban{p_end}
+{synopt:{opt per_si_allsi_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_si_allsi_p0_ep_tot}} Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_si_allsi_p0_preT_tot}} Poverty Headcount reduction (%) -  All Social Insurance -poorest quintile (preT){p_end}
+{synopt:{opt per_si_allsi_p0_rur}} Poverty Headcount reduction (%) -  All Social Insurance -poorest quintile -rural{p_end}
+{synopt:{opt per_si_allsi_p0_tot}} Poverty Headcount reduction (%) -  All Social Insurance -poorest quintile{p_end}
+{synopt:{opt per_si_allsi_p0_urb}} Poverty Headcount reduction (%) -  All Social Insurance - poorest quintile -urban{p_end}
+{synopt:{opt per_si_allsi_p1_ep_preT_tot}} Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_si_allsi_p1_ep_tot}} Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_si_allsi_p1_preT_tot}} Poverty Gap reduction (%) -  All Social Insurance -poorest quintile (preT){p_end}
+{synopt:{opt per_si_allsi_p1_rur}} Poverty Gap reduction (%) -  All Social Insurance -poorest quintile -rural{p_end}
+{synopt:{opt per_si_allsi_p1_tot}} Poverty Gap reduction (%) -  All Social Insurance -poorest quintile{p_end}
+{synopt:{opt per_si_allsi_p1_urb}} Poverty Gap reduction (%) -  All Social Insurance - poorest quintile -urban{p_end}
+{synopt:{opt per_si_cp.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions  (preT){p_end}
+{synopt:{opt per_si_cp.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.adq_pop_preT_tot}} Adequacy of benefits (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.adq_pop_rur}} Adequacy of benefits (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.adq_pop_tot}} Adequacy of benefits (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.adq_pop_urb}} Adequacy of benefits (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Contributory Pensions  (preT){p_end}
+{synopt:{opt per_si_cp.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.avt_pop_preT_tot}} Average per capita transfer - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.avt_pop_rur}} Average per capita transfer - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.avt_pop_tot}} Average per capita transfer - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.avt_pop_urb}} Average per capita transfer - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.avt_q1_rur}} Average per capita transfer held by poorest quintile - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.avt_q1_tot}} Average per capita transfer held by poorest quintile - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.avt_q1_urb}} Average per capita transfer held by poorest quintile - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.avt_q2_urb}} Average per capita transfer held by 2nd quintile - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.avt_q3_rur}} Average per capita transfer held by 3rd quintile - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.avt_q3_tot}} Average per capita transfer held by 3rd quintile - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.avt_q3_urb}} Average per capita transfer held by 3rd quintile - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.avt_q4_rur}} Average per capita transfer held by 4th quintile - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.avt_q4_tot}} Average per capita transfer held by 4th quintile - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.avt_q4_urb}} Average per capita transfer held by 4th quintile - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.avt_q5_rur}} Average per capita transfer held by richest quintile - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.avt_q5_tot}} Average per capita transfer held by richest quintile - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.avt_q5_urb}} Average per capita transfer held by richest quintile - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions  (preT){p_end}
+{synopt:{opt per_si_cp.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.ben_q5_rur}} Benefits incidence in richest quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.ben_q5_tot}} Benefits incidence in richest quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.ben_q5_urb}} Benefits incidence in richest quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions  (preT){p_end}
+{synopt:{opt per_si_cp.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.cba_ep_preT_tot}} Benefit-cost ratio -  Contributory Pensions -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_si_cp.cba_ep_tot}} Benefit-cost ratio -  Contributory Pensions -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_si_cp.cba_q1_preT_tot}} Benefit-cost ratio -  Contributory Pensions -poorest quintile (preT){p_end}
+{synopt:{opt per_si_cp.cba_q1_rur}} Benefit-cost ratio -  Contributory Pensions -poorest quintile -rural{p_end}
+{synopt:{opt per_si_cp.cba_q1_tot}} Benefit-cost ratio -  Contributory Pensions -poorest quintile{p_end}
+{synopt:{opt per_si_cp.cba_q1_urb}} Benefit-cost ratio -  Contributory Pensions - poorest quintile -urban{p_end}
+{synopt:{opt per_si_cp.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions  (preT){p_end}
+{synopt:{opt per_si_cp.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.cov_pop_preT_tot}} Coverage (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.cov_pop_rur}} Coverage (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.cov_pop_tot}} Coverage (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.cov_pop_urb}} Coverage (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.cov_q1_rur}} Coverage in poorest quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.cov_q1_tot}} Coverage in poorest quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.cov_q1_urb}} Coverage in poorest quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.cov_q2_rur}} Coverage in 2nd quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.cov_q2_tot}} Coverage in 2nd quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.cov_q2_urb}} Coverage in 2nd quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.cov_q3_rur}} Coverage in 3rd quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.cov_q3_tot}} Coverage in 3rd quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.cov_q3_urb}} Coverage in 3rd quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.cov_q4_preT_tot}} Coverage in 4th quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.cov_q4_rur}} Coverage in 4th quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.cov_q4_tot}} Coverage in 4th quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.cov_q4_urb}} Coverage in 4th quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp.cov_q5_preT_tot}} Coverage in richest quintile (%) - Contributory Pensions (preT){p_end}
+{synopt:{opt per_si_cp.cov_q5_rur}} Coverage in richest quintile (%) - Contributory Pensions -rural{p_end}
+{synopt:{opt per_si_cp.cov_q5_tot}} Coverage in richest quintile (%) - Contributory Pensions{p_end}
+{synopt:{opt per_si_cp.cov_q5_urb}} Coverage in richest quintile (%) - Contributory Pensions -urban{p_end}
+{synopt:{opt per_si_cp_gini_preT_tot}} Gini inequality reduction (%) -  Contributory Pensions -poorest quintile (preT){p_end}
+{synopt:{opt per_si_cp_gini_rur}} Gini inequality reduction (%) -  Contributory Pensions -poorest quintile -rural{p_end}
+{synopt:{opt per_si_cp_gini_tot}} Gini inequality reduction (%) -  Contributory Pensions -poorest quintile{p_end}
+{synopt:{opt per_si_cp_gini_urb}} Gini inequality reduction (%) -  Contributory Pensions - poorest quintile -urban{p_end}
+{synopt:{opt per_si_cp_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_si_cp_p0_ep_tot}} Poverty Headcount reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_si_cp_p0_preT_tot}} Poverty Headcount reduction (%) -  Contributory Pensions -poorest quintile (preT){p_end}
+{synopt:{opt per_si_cp_p0_rur}} Poverty Headcount reduction (%) -  Contributory Pensions -poorest quintile -rural{p_end}
+{synopt:{opt per_si_cp_p0_tot}} Poverty Headcount reduction (%) -  Contributory Pensions -poorest quintile{p_end}
+{synopt:{opt per_si_cp_p0_urb}} Poverty Headcount reduction (%) -  Contributory Pensions - poorest quintile -urban{p_end}
+{synopt:{opt per_si_cp_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_si_cp_p1_ep_tot}} Poverty Gap reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_si_cp_p1_preT_tot}} Poverty Gap reduction (%) -  Contributory Pensions -poorest quintile (preT){p_end}
+{synopt:{opt per_si_cp_p1_rur}} Poverty Gap reduction (%) -  Contributory Pensions -poorest quintile -rural{p_end}
+{synopt:{opt per_si_cp_p1_tot}} Poverty Gap reduction (%) -  Contributory Pensions -poorest quintile{p_end}
+{synopt:{opt per_si_cp_p1_urb}} Poverty Gap reduction (%) -  Contributory Pensions - poorest quintile -urban{p_end}
+{synopt:{opt per_si_ss.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance  (preT){p_end}
+{synopt:{opt per_si_ss.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.adq_pop_preT_tot}} Adequacy of benefits (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.adq_pop_rur}} Adequacy of benefits (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.adq_pop_tot}} Adequacy of benefits (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.adq_pop_urb}} Adequacy of benefits (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Other Social Insurance  (preT){p_end}
+{synopt:{opt per_si_ss.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.avt_pop_preT_tot}} Average per capita transfer - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.avt_pop_rur}} Average per capita transfer - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.avt_pop_tot}} Average per capita transfer - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.avt_pop_urb}} Average per capita transfer - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.avt_q1_rur}} Average per capita transfer held by poorest quintile - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.avt_q1_tot}} Average per capita transfer held by poorest quintile - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.avt_q1_urb}} Average per capita transfer held by poorest quintile - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.avt_q2_urb}} Average per capita transfer held by 2nd quintile - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.avt_q3_rur}} Average per capita transfer held by 3rd quintile - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.avt_q3_tot}} Average per capita transfer held by 3rd quintile - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.avt_q3_urb}} Average per capita transfer held by 3rd quintile - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.avt_q4_rur}} Average per capita transfer held by 4th quintile - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.avt_q4_tot}} Average per capita transfer held by 4th quintile - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.avt_q4_urb}} Average per capita transfer held by 4th quintile - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.avt_q5_rur}} Average per capita transfer held by richest quintile - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.avt_q5_tot}} Average per capita transfer held by richest quintile - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.avt_q5_urb}} Average per capita transfer held by richest quintile - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance  (preT){p_end}
+{synopt:{opt per_si_ss.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.ben_q5_rur}} Benefits incidence in richest quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.ben_q5_tot}} Benefits incidence in richest quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.ben_q5_urb}} Benefits incidence in richest quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance  (preT){p_end}
+{synopt:{opt per_si_ss.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.cba_ep_preT_tot}} Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_si_ss.cba_ep_tot}} Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_si_ss.cba_q1_preT_tot}} Benefit-cost ratio -  Other Social Insurance -poorest quintile (preT){p_end}
+{synopt:{opt per_si_ss.cba_q1_rur}} Benefit-cost ratio -  Other Social Insurance -poorest quintile -rural{p_end}
+{synopt:{opt per_si_ss.cba_q1_tot}} Benefit-cost ratio -  Other Social Insurance -poorest quintile{p_end}
+{synopt:{opt per_si_ss.cba_q1_urb}} Benefit-cost ratio -  Other Social Insurance - poorest quintile -urban{p_end}
+{synopt:{opt per_si_ss.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance  (preT){p_end}
+{synopt:{opt per_si_ss.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.cov_pop_preT_tot}} Coverage (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.cov_pop_rur}} Coverage (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.cov_pop_tot}} Coverage (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.cov_pop_urb}} Coverage (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.cov_q1_rur}} Coverage in poorest quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.cov_q1_tot}} Coverage in poorest quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.cov_q1_urb}} Coverage in poorest quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.cov_q2_rur}} Coverage in 2nd quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.cov_q2_tot}} Coverage in 2nd quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.cov_q2_urb}} Coverage in 2nd quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.cov_q3_rur}} Coverage in 3rd quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.cov_q3_tot}} Coverage in 3rd quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.cov_q3_urb}} Coverage in 3rd quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.cov_q4_preT_tot}} Coverage in 4th quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.cov_q4_rur}} Coverage in 4th quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.cov_q4_tot}} Coverage in 4th quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.cov_q4_urb}} Coverage in 4th quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss.cov_q5_preT_tot}} Coverage in richest quintile (%) - Other Social Insurance (preT){p_end}
+{synopt:{opt per_si_ss.cov_q5_rur}} Coverage in richest quintile (%) - Other Social Insurance -rural{p_end}
+{synopt:{opt per_si_ss.cov_q5_tot}} Coverage in richest quintile (%) - Other Social Insurance{p_end}
+{synopt:{opt per_si_ss.cov_q5_urb}} Coverage in richest quintile (%) - Other Social Insurance -urban{p_end}
+{synopt:{opt per_si_ss_gini_preT_tot}} Gini inequality reduction (%) -  Other Social Insurance -poorest quintile{p_end}
+{synopt:{opt per_si_ss_gini_rur}} Gini inequality reduction (%) -  Other Social Insurance -poorest quintile -rural{p_end}
+{synopt:{opt per_si_ss_gini_tot}} Gini inequality reduction (%) -  Other Social Insurance -poorest quintile{p_end}
+{synopt:{opt per_si_ss_gini_urb}} Gini inequality reduction (%) -  Other Social Insurance - poorest quintile -urban{p_end}
+{synopt:{opt per_si_ss_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_si_ss_p0_ep_tot}} Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_si_ss_p0_preT_tot}} Poverty Headcount reduction (%) -  Other Social Insurance -poorest quintile (preT){p_end}
+{synopt:{opt per_si_ss_p0_rur}} Poverty Headcount reduction (%) -  Other Social Insurance -poorest quintile -rural{p_end}
+{synopt:{opt per_si_ss_p0_tot}} Poverty Headcount reduction (%) -  Other Social Insurance -poorest quintile{p_end}
+{synopt:{opt per_si_ss_p0_urb}} Poverty Headcount reduction (%) -  Other Social Insurance - poorest quintile -urban{p_end}
+{synopt:{opt per_si_ss_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.25 a day) (preT){p_end}
+{synopt:{opt per_si_ss_p1_ep_tot}} Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.25 a day){p_end}
+{synopt:{opt per_si_ss_p1_preT_tot}} Poverty Gap reduction (%) -  Other Social Insurance -poorest quintile (preT){p_end}
+{synopt:{opt per_si_ss_p1_rur}} Poverty Gap reduction (%) -  Other Social Insurance -poorest quintile -rural{p_end}
+{synopt:{opt per_si_ss_p1_tot}} Poverty Gap reduction (%) -  Other Social Insurance -poorest quintile{p_end}
+{synopt:{opt per_si_ss_p1_urb}} Poverty Gap reduction (%) -  Other Social Insurance - poorest quintile -urban{p_end}
+{synopt:{opt per_silm.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) receiving All Social Insurance and Labor Market (%, preT){p_end}
+{synopt:{opt per_silm.overlap_ep_tot}} Population in extreme poor (&lt;$1.25 a day) receiving All Social Insurance and Labor Market (%){p_end}
+{synopt:{opt per_silm.overlap_pop_preT_tot}} Population receiving All Social Insurance and Labor Market (%, preT){p_end}
+{synopt:{opt per_silm.overlap_pop_rur}} Population receiving All Social Insurance and Labor Market (%) -rural{p_end}
+{synopt:{opt per_silm.overlap_pop_tot}} Population receiving All Social Insurance and Labor Market (%){p_end}
+{synopt:{opt per_silm.overlap_pop_urb}} Population receiving All Social Insurance and Labor Market (%) -urban{p_end}
+{synopt:{opt per_silm.overlap_q1_preT_tot}} Population in the poorest quintile receiving All Social Insurance and Labor Market (%, preT){p_end}
+{synopt:{opt per_silm.overlap_q1_rur}} Population in the poorest quintile receiving All Social Insurance and Labor Market (%) -rural{p_end}
+{synopt:{opt per_silm.overlap_q1_tot}} Population in the poorest quintile receiving All Social Insurance and Labor Market (%){p_end}
+{synopt:{opt per_silm.overlap_q1_urb}} Population in the poorest quintile receiving All Social Insurance and Labor Market (%) -urban{p_end}
+{synopt:{opt per_sionl.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) only receiving All Social Insurance (%, preT){p_end}
+{synopt:{opt per_sionl.overlap_ep_tot}} Population in extreme poor (&lt;$1.25 a day) only receiving All Social Insurance (%){p_end}
+{synopt:{opt per_sionl.overlap_pop_preT_tot}} Population only receiving All Social Insurance (%, preT){p_end}
+{synopt:{opt per_sionl.overlap_pop_rur}} Population only receiving All Social Insurance (%) -rural{p_end}
+{synopt:{opt per_sionl.overlap_pop_tot}} Population only receiving All Social Insurance (%){p_end}
+{synopt:{opt per_sionl.overlap_pop_urb}} Population only receiving All Social Insurance (%) -urban{p_end}
+{synopt:{opt per_sionl.overlap_q1_preT_tot}} Population in the poorest quintile only receiving All Social Insurance (%, preT){p_end}
+{synopt:{opt per_sionl.overlap_q1_rur}} Population in the poorest quintile only receiving All Social Insurance (%) -rural{p_end}
+{synopt:{opt per_sionl.overlap_q1_tot}} Population in the poorest quintile only receiving All Social Insurance (%){p_end}
+{synopt:{opt per_sionl.overlap_q1_urb}} Population in the poorest quintile only receiving All Social Insurance (%) -urban{p_end}
+{synopt:{opt s_loans_A1}} Outstanding loans per 1,000 adults{p_end}
+{synopt:{opt s_policyholders_B2_life}} Insurance policy holders per 1,000 adults (life){p_end}
+{synopt:{opt s_policyholders_B2_nonlife}} Insurance policy holders per 1,000 adults (non-life){p_end}
+>>>>>>> _parameter.ado
