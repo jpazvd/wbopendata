@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Lending Type  (as of 03mar2019)}
+{title:Lending Type  (as of 20oct2019)}
 
 {marker IBD}
 {p 20 20 2}(Go up to {it:{help wbopendata##lendingtype:Lending Type }}){p_end}
@@ -34,7 +34,6 @@
 {synopt:{opt SLV}}  El Salvador {p_end}
 {synopt:{opt GNQ}}  Equatorial Guinea {p_end}
 {synopt:{opt SWZ}}  Eswatini {p_end}
-{synopt:{opt FJI}}  Fiji {p_end}
 {synopt:{opt GAB}}  Gabon {p_end}
 {synopt:{opt GEO}}  Georgia {p_end}
 {synopt:{opt GTM}}  Guatemala {p_end}
@@ -47,7 +46,6 @@
 {synopt:{opt KAZ}}  Kazakhstan {p_end}
 {synopt:{opt LBN}}  Lebanon {p_end}
 {synopt:{opt LBY}}  Libya {p_end}
-{synopt:{opt MKD}}  Macedonia, FYR {p_end}
 {synopt:{opt MYS}}  Malaysia {p_end}
 {synopt:{opt MUS}}  Mauritius {p_end}
 {synopt:{opt MEX}}  Mexico {p_end}
@@ -55,6 +53,7 @@
 {synopt:{opt MAR}}  Morocco {p_end}
 {synopt:{opt NAM}}  Namibia {p_end}
 {synopt:{opt NRU}}  Nauru {p_end}
+{synopt:{opt MKD}}  North Macedonia {p_end}
 {synopt:{opt PLW}}  Palau {p_end}
 {synopt:{opt PAN}}  Panama {p_end}
 {synopt:{opt PRY}}  Paraguay {p_end}
@@ -88,6 +87,7 @@
 {synopt:{opt CMR}}  Cameroon {p_end}
 {synopt:{opt COG}}  Congo, Rep {p_end}
 {synopt:{opt DMA}}  Dominica {p_end}
+{synopt:{opt FJI}}  Fiji {p_end}
 {synopt:{opt GRD}}  Grenada {p_end}
 {synopt:{opt KEN}}  Kenya {p_end}
 {synopt:{opt MDA}}  Moldova {p_end}
@@ -99,7 +99,6 @@
 {synopt:{opt VCT}}  St Vincent and the Grenadines {p_end}
 {synopt:{opt TLS}}  Timor-Leste {p_end}
 {synopt:{opt UZB}}  Uzbekistan {p_end}
-{synopt:{opt ZWE}}  Zimbabwe {p_end}
 
 {marker IDX}
 {p 20 20 2}(Go up to {it:{help wbopendata##lendingtype:Lending Type }}){p_end}

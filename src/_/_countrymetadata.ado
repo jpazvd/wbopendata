@@ -2,6 +2,7 @@
 *  _countrymetadata
 *! v 15.1  	3Mar2019               by Joao Pedro Azevedo   
 *	self-standing code to create country attribute table
+* 	support lower case match variables
 *******************************************************************************
 
 program define _countrymetadata , rclass
@@ -37,7 +38,8 @@ program define _countrymetadata , rclass
 				latitude 			///
 				longitude 			///
 				countryname			///
-		  ]
+				lower				///
+			]
 	
 	******************************************************
 

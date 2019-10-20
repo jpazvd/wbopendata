@@ -1,4 +1,4 @@
-*! _countryname <3 Mar 2019 : 20:52:10>                 by João Pedro Azevedo
+*! _countryname <20 Oct 2019 : 15:43:51>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _countryname 
@@ -193,7 +193,7 @@
          replace countryname = "Mexico"  if `match' == "MEX"  
          replace countryname = "Marshall Islands"  if `match' == "MHL"  
          replace countryname = "Middle income"  if `match' == "MIC"  
-         replace countryname = "Macedonia, FYR"  if `match' == "MKD"  
+         replace countryname = "North Macedonia"  if `match' == "MKD"  
          replace countryname = "Mali"  if `match' == "MLI"  
          replace countryname = "Malta"  if `match' == "MLT"  
          replace countryname = "Myanmar"  if `match' == "MMR"  

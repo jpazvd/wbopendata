@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Region  (as of 03mar2019)}
+{title:Region  (as of 20oct2019)}
 
 {marker EAS}
 {p 20 20 2}(Go up to {it:{help wbopendata##region:Region }}){p_end}
@@ -88,11 +88,11 @@
 {synopt:{opt LIE}}  Liechtenstein {p_end}
 {synopt:{opt LTU}}  Lithuania {p_end}
 {synopt:{opt LUX}}  Luxembourg {p_end}
-{synopt:{opt MKD}}  Macedonia, FYR {p_end}
 {synopt:{opt MDA}}  Moldova {p_end}
 {synopt:{opt MCO}}  Monaco {p_end}
 {synopt:{opt MNE}}  Montenegro {p_end}
 {synopt:{opt NLD}}  Netherlands {p_end}
+{synopt:{opt MKD}}  North Macedonia {p_end}
 {synopt:{opt NOR}}  Norway {p_end}
 {synopt:{opt POL}}  Poland {p_end}
 {synopt:{opt PRT}}  Portugal {p_end}

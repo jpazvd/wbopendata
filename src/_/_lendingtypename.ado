@@ -1,4 +1,4 @@
-*! _lendingtypename <3 Mar 2019 : 20:52:10>                 by João Pedro Azevedo
+*! _lendingtypename <20 Oct 2019 : 15:43:51>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _lendingtypename 
@@ -71,7 +71,7 @@
          replace lendingtypename = "Not classified"  if `match' == "EST"  
          replace lendingtypename = "IDA"  if `match' == "ETH"  
          replace lendingtypename = "Not classified"  if `match' == "FIN"  
-         replace lendingtypename = "IBRD"  if `match' == "FJI"  
+         replace lendingtypename = "Blend"  if `match' == "FJI"  
          replace lendingtypename = "Not classified"  if `match' == "FRA"  
          replace lendingtypename = "Not classified"  if `match' == "FRO"  
          replace lendingtypename = "IDA"  if `match' == "FSM"  
@@ -225,7 +225,6 @@
          replace lendingtypename = "IDA"  if `match' == "YEM"  
          replace lendingtypename = "IBRD"  if `match' == "ZAF"  
          replace lendingtypename = "IDA"  if `match' == "ZMB"  
-         replace lendingtypename = "Blend"  if `match' == "ZWE"  
   
 *********************
   
