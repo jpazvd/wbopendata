@@ -1,4 +1,4 @@
-*! _adminregion <25 Mar 2019 : 06:21:27>                 by João Pedro Azevedo
+*! _adminregion <19 Oct 2019 : 23:14:03>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _adminregion 
@@ -11,6 +11,7 @@
          replace adminregion = "SAS"  if `match' == "AFG"  
          replace adminregion = "SSA"  if `match' == "AGO"  
          replace adminregion = "ECA"  if `match' == "ALB"  
+         replace adminregion = "LAC"  if `match' == "ARG"  
          replace adminregion = "ECA"  if `match' == "ARM"  
          replace adminregion = "EAP"  if `match' == "ASM"  
          replace adminregion = "ECA"  if `match' == "AZE"  
@@ -144,7 +145,6 @@
          replace adminregion = "MNA"  if `match' == "YEM"  
          replace adminregion = "SSA"  if `match' == "ZAF"  
          replace adminregion = "SSA"  if `match' == "ZMB"  
-         replace adminregion = "SSA"  if `match' == "ZWE"  
   
 *********************
   
