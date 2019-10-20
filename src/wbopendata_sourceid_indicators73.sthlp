@@ -57,16 +57,16 @@
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
-{marker sourceid_62}
-{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators62##:TOC}}){p_end}
+{marker sourceid_73}
+{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators73##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{syntab:{title:{bf:62 International Comparison Program (ICP) 2011}}}
+{syntab:{title:{bf:73 Global Financial Inclusion and Consumer Protection Survey (Internal)}}}
 {synoptline}
-{marker sourceid_S01}
-{synopt:{bf:{help wbopendata_sourceid##S01:S01} - `"EXPENDITURES (National currency units, billions)"'}}
+{marker sourceid_FB.CAP.INST.ST.MS.WB}
+{synopt:{bf:{help wbopendata_sourceid##FB.CAP.INST.ST.MS.WB:FB.CAP.INST.ST.MS.WB} - }}
 
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -75,22 +75,10 @@
 
 
 {synoptline}
-{marker sourceid_S02}
-{synopt:{bf:{help wbopendata_sourceid##S02:S02} - `"EXPENDITURE SHARES (GDP=100)"'}}
+{marker sourceid_FB.CAP.POLI.GL.WP}
+{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.GL.WP:FB.CAP.POLI.GL.WP} - }}
 
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_S03}
-{synopt:{bf:{help wbopendata_sourceid##S03:S03} - `"PPPs (US$=1)"'}}
-
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -99,22 +87,10 @@
 
 
 {synoptline}
-{marker sourceid_S04}
-{synopt:{bf:{help wbopendata_sourceid##S04:S04} - `"REAL EXPENDITURES (US$, billions)"'}}
+{marker sourceid_FB.CAP.POLI.RE.WP}
+{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.RE.WP:FB.CAP.POLI.RE.WP} - }}
 
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_S05}
-{synopt:{bf:{help wbopendata_sourceid##S05:S05} - `"REAL EXPENDITURES: COUNTRY AND REGIONAL SHARES (World=100)"'}}
-
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -123,22 +99,10 @@
 
 
 {synoptline}
-{marker sourceid_S06}
-{synopt:{bf:{help wbopendata_sourceid##S06:S06} - `"REAL EXPENDITURES PER CAPITA (US$)"'}}
+{marker sourceid_FB.CAP.POLI.RG.DC.WP}
+{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.RG.DC.WP:FB.CAP.POLI.RG.DC.WP} - }}
 
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_S07}
-{synopt:{bf:{help wbopendata_sourceid##S07:S07} - `"INDEX OF REAL EXPENDITURES PER CAPITA (World=100)"'}}
-
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -147,22 +111,10 @@
 
 
 {synoptline}
-{marker sourceid_S08}
-{synopt:{bf:{help wbopendata_sourceid##S08:S08} - `"PRICE LEVEL INDEX (World = 100)"'}}
+{marker sourceid_FB.FCP.INST.ES.WH.EN}
+{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ES.WH.EN:FB.FCP.INST.ES.WH.EN} - }}
 
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_S09}
-{synopt:{bf:{help wbopendata_sourceid##S09:S09} - `"NOMINAL EXPENDITURES (US$, billions)"'}}
-
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -171,22 +123,10 @@
 
 
 {synoptline}
-{marker sourceid_S10}
-{synopt:{bf:{help wbopendata_sourceid##S10:S10} - `"NOMINAL EXPENDITURES PER CAPITA (US$)"'}}
+{marker sourceid_FB.FCP.INST.NS.HW.MY}
+{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.NS.HW.MY:FB.FCP.INST.NS.HW.MY} - }}
 
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_S11}
-{synopt:{bf:{help wbopendata_sourceid##S11:S11} - `"EXCHANGE RATE (US$ = 1.000)"'}}
-
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -195,10 +135,154 @@
 
 
 {synoptline}
-{marker sourceid_S12}
-{synopt:{bf:{help wbopendata_sourceid##S12:S12} - `"POPULATION (millions)"'}}
+{marker sourceid_FB.FCP.INST.ST.RS.WT}
+{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ST.RS.WT:FB.FCP.INST.ST.RS.WT} - }}
 
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_FB.INC.EMNY.SP.IF.WH}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.EMNY.SP.IF.WH:FB.INC.EMNY.SP.IF.WH} - }}
+
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_FB.INC.INST.CB.AU.WR}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.AU.WR:FB.INC.INST.CB.AU.WR} - }}
+
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_FB.INC.INST.CB.LN.WL}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.LN.WL:FB.INC.INST.CB.LN.WL} - }}
+
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_FB.INC.INST.FC.AU.WR}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.AU.WR:FB.INC.INST.FC.AU.WR} - }}
+
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_FB.INC.INST.FC.LN.WL}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.LN.WL:FB.INC.INST.FC.LN.WL} - }}
+
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_FB.INC.INST.MC.AU.WR}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.AU.WR:FB.INC.INST.MC.AU.WR} - }}
+
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_FB.INC.INST.MC.LN.WL}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.LN.WL:FB.INC.INST.MC.LN.WL} - }}
+
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_FB.INC.INST.NB.AU.WR}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.NB.AU.WR:FB.INC.INST.NB.AU.WR} - }}
+
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_FB.INC.INST.OB.AU.WR}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.AU.WR:FB.INC.INST.OB.AU.WR} - }}
+
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_FB.INC.INST.OB.LN.WL}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.LN.WL:FB.INC.INST.OB.LN.WL} - }}
+
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_FB.INC.INST.OD.AU.WR}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.AU.WR:FB.INC.INST.OD.AU.WR} - }}
+
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_FB.INC.INST.OD.LN.WL}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.LN.WL:FB.INC.INST.OD.LN.WL} - }}
+
+{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}

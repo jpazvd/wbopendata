@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 25mar2019)}
+{right:(as of 20oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -94,7 +94,7 @@
 {marker topicid_DC.ODA.TLDC.CD}
 {synopt:{bf:{help wbopendata_topicid##DC.ODA.TLDC.CD:DC.ODA.TLDC.CD} - `"Net ODA provided, to the least developed countries (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -107,7 +107,7 @@
 {marker topicid_DC.ODA.TLDC.GN.ZS}
 {synopt:{bf:{help wbopendata_topicid##DC.ODA.TLDC.GN.ZS:DC.ODA.TLDC.GN.ZS} - `"Net ODA provided to the least developed countries (% of GNI)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -120,7 +120,7 @@
 {marker topicid_DC.ODA.TOTL.CD}
 {synopt:{bf:{help wbopendata_topicid##DC.ODA.TOTL.CD:DC.ODA.TOTL.CD} - `"Net ODA provided, total (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -133,7 +133,7 @@
 {marker topicid_DC.ODA.TOTL.GN.ZS}
 {synopt:{bf:{help wbopendata_topicid##DC.ODA.TOTL.GN.ZS:DC.ODA.TOTL.GN.ZS} - `"Net ODA provided, total (% of GNI)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -146,7 +146,7 @@
 {marker topicid_DC.ODA.TOTL.KD}
 {synopt:{bf:{help wbopendata_topicid##DC.ODA.TOTL.KD:DC.ODA.TOTL.KD} - `"Net ODA provided, total (constant 2015 US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -377,4 +377,4 @@
 
 
 
-{right:(as of 25mar2019)}
+{right:(as of 20oct2019)}

@@ -57,16 +57,40 @@
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
-{marker sourceid_62}
-{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators62##:TOC}}){p_end}
+{marker sourceid_74}
+{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators74##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{syntab:{title:{bf:62 International Comparison Program (ICP) 2011}}}
+{syntab:{title:{bf:74 Macro Poverty Outlook External}}}
 {synoptline}
-{marker sourceid_S01}
-{synopt:{bf:{help wbopendata_sourceid##S01:S01} - `"EXPENDITURES (National currency units, billions)"'}}
+{marker sourceid_BFCAFFFDICD__EXT}
+{synopt:{bf:{help wbopendata_sourceid##BFCAFFFDICD__EXT:BFCAFFFDICD__EXT} - `"Net Foreign Direct Investment, % GDP"'}}
 
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
+{synopt:{opt Source}}`"74 Macro Poverty Outlook External"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}Macro Poverty Outlook, Spring Meeting 2222{p_end}
+
+
+{synoptline}
+{marker sourceid_BNCABFUNDCD__EXT}
+{synopt:{bf:{help wbopendata_sourceid##BNCABFUNDCD__EXT:BNCABFUNDCD__EXT} - `"Current Account Balance, % GDP"'}}
+
+{synopt:{opt Source}}`"74 Macro Poverty Outlook External"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}Macro Poverty Outlook, Spring Meeting 2038{p_end}
+
+
+{synoptline}
+{marker sourceid_FPCPITOTLXN__EXT}
+{synopt:{bf:{help wbopendata_sourceid##FPCPITOTLXN__EXT:FPCPITOTLXN__EXT} - `"Consumer Price Index, annual change (%)"'}}
+
+{synopt:{opt Source}}`"74 Macro Poverty Outlook External"'{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -75,10 +99,46 @@
 
 
 {synoptline}
-{marker sourceid_S02}
-{synopt:{bf:{help wbopendata_sourceid##S02:S02} - `"EXPENDITURE SHARES (GDP=100)"'}}
+{marker sourceid_GGBALOVRLCN__EXT}
+{synopt:{bf:{help wbopendata_sourceid##GGBALOVRLCN__EXT:GGBALOVRLCN__EXT} - `"Overall General Government Balance, LCU mn, % of GDP"'}}
 
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
+{synopt:{opt Source}}`"74 Macro Poverty Outlook External"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}Macro Poverty Outlook, Spring Meeting 2249{p_end}
+
+
+{synoptline}
+{marker sourceid_GGBALPRIMCN__EXT}
+{synopt:{bf:{help wbopendata_sourceid##GGBALPRIMCN__EXT:GGBALPRIMCN__EXT} - `"General Government primary balance, LCU mn, %GDP"'}}
+
+{synopt:{opt Source}}`"74 Macro Poverty Outlook External"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}Macro Poverty Outlook, Spring Meeting 2141{p_end}
+
+
+{synoptline}
+{marker sourceid_GGDBTTOTLCN__EXT}
+{synopt:{bf:{help wbopendata_sourceid##GGDBTTOTLCN__EXT:GGDBTTOTLCN__EXT} - `"General government gross debt, %GDP"'}}
+
+{synopt:{opt Source}}`"74 Macro Poverty Outlook External"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}Macro Poverty Outlook, Spring Meeting 2133{p_end}
+
+
+{synoptline}
+{marker sourceid_NECONGOVTKN__EXT}
+{synopt:{bf:{help wbopendata_sourceid##NECONGOVTKN__EXT:NECONGOVTKN__EXT} - `"Government Consumption, Real LCU mn, annual growth rate (%)"'}}
+
+{synopt:{opt Source}}`"74 Macro Poverty Outlook External"'{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -87,22 +147,10 @@
 
 
 {synoptline}
-{marker sourceid_S03}
-{synopt:{bf:{help wbopendata_sourceid##S03:S03} - `"PPPs (US$=1)"'}}
+{marker sourceid_NECONPRVTKN__EXT}
+{synopt:{bf:{help wbopendata_sourceid##NECONPRVTKN__EXT:NECONPRVTKN__EXT} - `"Private Consumption, annual growth rate (%)"'}}
 
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_S04}
-{synopt:{bf:{help wbopendata_sourceid##S04:S04} - `"REAL EXPENDITURES (US$, billions)"'}}
-
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
+{synopt:{opt Source}}`"74 Macro Poverty Outlook External"'{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -111,22 +159,10 @@
 
 
 {synoptline}
-{marker sourceid_S05}
-{synopt:{bf:{help wbopendata_sourceid##S05:S05} - `"REAL EXPENDITURES: COUNTRY AND REGIONAL SHARES (World=100)"'}}
+{marker sourceid_NEEXPGNFSKN__EXT}
+{synopt:{bf:{help wbopendata_sourceid##NEEXPGNFSKN__EXT:NEEXPGNFSKN__EXT} - `"Exports, GNFS (NIA), annual growth rate %"'}}
 
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_S06}
-{synopt:{bf:{help wbopendata_sourceid##S06:S06} - `"REAL EXPENDITURES PER CAPITA (US$)"'}}
-
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
+{synopt:{opt Source}}`"74 Macro Poverty Outlook External"'{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -135,22 +171,10 @@
 
 
 {synoptline}
-{marker sourceid_S07}
-{synopt:{bf:{help wbopendata_sourceid##S07:S07} - `"INDEX OF REAL EXPENDITURES PER CAPITA (World=100)"'}}
+{marker sourceid_NEGDIFTOTKN__EXT}
+{synopt:{bf:{help wbopendata_sourceid##NEGDIFTOTKN__EXT:NEGDIFTOTKN__EXT} - `"Fixed Domestic Investment, annual growth rate %"'}}
 
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_S08}
-{synopt:{bf:{help wbopendata_sourceid##S08:S08} - `"PRICE LEVEL INDEX (World = 100)"'}}
-
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
+{synopt:{opt Source}}`"74 Macro Poverty Outlook External"'{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -159,22 +183,10 @@
 
 
 {synoptline}
-{marker sourceid_S09}
-{synopt:{bf:{help wbopendata_sourceid##S09:S09} - `"NOMINAL EXPENDITURES (US$, billions)"'}}
+{marker sourceid_NEIMPGNFSKN__EXT}
+{synopt:{bf:{help wbopendata_sourceid##NEIMPGNFSKN__EXT:NEIMPGNFSKN__EXT} - `"Imports,  GNFS (NIA), Real LCU mn, annual growth rate %"'}}
 
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_S10}
-{synopt:{bf:{help wbopendata_sourceid##S10:S10} - `"NOMINAL EXPENDITURES PER CAPITA (US$)"'}}
-
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
+{synopt:{opt Source}}`"74 Macro Poverty Outlook External"'{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -183,10 +195,10 @@
 
 
 {synoptline}
-{marker sourceid_S11}
-{synopt:{bf:{help wbopendata_sourceid##S11:S11} - `"EXCHANGE RATE (US$ = 1.000)"'}}
+{marker sourceid_NVAGRTOTLKN__EXT}
+{synopt:{bf:{help wbopendata_sourceid##NVAGRTOTLKN__EXT:NVAGRTOTLKN__EXT} - `"Value Added Agriculture, LCU mn, annual growth rate %"'}}
 
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
+{synopt:{opt Source}}`"74 Macro Poverty Outlook External"'{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -195,10 +207,46 @@
 
 
 {synoptline}
-{marker sourceid_S12}
-{synopt:{bf:{help wbopendata_sourceid##S12:S12} - `"POPULATION (millions)"'}}
+{marker sourceid_NVINDTOTLKN__EXT}
+{synopt:{bf:{help wbopendata_sourceid##NVINDTOTLKN__EXT:NVINDTOTLKN__EXT} - `"Value Added Industry, Real LCU mn, annual growth rate %"'}}
 
-{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
+{synopt:{opt Source}}`"74 Macro Poverty Outlook External"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NVSRVTOTLKN__EXT}
+{synopt:{bf:{help wbopendata_sourceid##NVSRVTOTLKN__EXT:NVSRVTOTLKN__EXT} - `"Value Added Services, Real LCU mn, annual growth rate %"'}}
+
+{synopt:{opt Source}}`"74 Macro Poverty Outlook External"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NYGDPFCSTKN__EXT}
+{synopt:{bf:{help wbopendata_sourceid##NYGDPFCSTKN__EXT:NYGDPFCSTKN__EXT} - `"GDP Factor Cost, Real LCU mn , annual change %"'}}
+
+{synopt:{opt Source}}`"74 Macro Poverty Outlook External"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NYGDPMKTPKN__EXT}
+{synopt:{bf:{help wbopendata_sourceid##NYGDPMKTPKN__EXT:NYGDPMKTPKN__EXT} - `"GDP, Market Prices, Real LCU mn, annual growth rate (%)"'}}
+
+{synopt:{opt Source}}`"74 Macro Poverty Outlook External"'{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
