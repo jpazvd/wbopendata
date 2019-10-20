@@ -1,7 +1,8 @@
 *******************************************************************************
 * _update_countrymetadata 
-*! v 15.1  	3Mar2019               by Joao Pedro Azevedo   
-*	initial commit
+*! v 15.3  	28Sept2019					by Joao Pedro Azevedo   
+*
+* 	add countrycode 
 *******************************************************************************
 
 program define _update_countrymetadata , rclass
@@ -515,4 +516,8 @@ end
 *		capital
 *		latitude
 *		longitude
+*******************************************************************************
+*! v 15.1  	3Mar2019               by Joao Pedro Azevedo   
+*
+*	initial commit
 *******************************************************************************
