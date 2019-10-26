@@ -1,4 +1,4 @@
-*! _capital <20 Oct 2019 : 15:43:51>                 by João Pedro Azevedo
+*! _capital <22 Oct 2019 : 22:00:04>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _capital 
