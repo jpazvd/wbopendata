@@ -1,8 +1,5 @@
 ########################################################################
 #
-# .gitignore DIME template
-# https://github.com/worldbank/DIMEwiki/tree/master/Topics/GitHub
-#
 # We recommend that you create a .gitignore file using GitHub's tools and
 # replace the content of that file with the content of this file. Otherwise
 # you have to rename this file .gitignore. But if you rename the fine in a
@@ -52,7 +49,11 @@
 !/src/*.do
 !/src/*.ado
 !/src/*.sthlp
-
+!/src/*.dta
+!/src/**/*.do
+!/src/**/*.ado
+!/src/**/*.sthlp
+!/src/**/*.dta
 
 
 # csv files in selected input folders
