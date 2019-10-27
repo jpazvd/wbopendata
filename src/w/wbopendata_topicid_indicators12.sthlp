@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 20oct2019)}
+{right:(as of 27oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -118,7 +118,7 @@
 
 {synoptline}
 {marker topicid_IC.BUS.EASE.XQ}
-{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - `"Ease of doing business index (1=most business-friendly regulations)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - `"Rank: Ease of doing business index (1=most business-friendly regulations)"'}}
 
 {synopt:{opt Source}}{p_end}
 
@@ -235,7 +235,7 @@
 
 {synoptline}
 {marker topicid_IC.ELC.TIME}
-{synopt:{bf:{help wbopendata_topicid##IC.ELC.TIME:IC.ELC.TIME} - `"Time required to get electricity (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.ELC.TIME:IC.ELC.TIME} - `"Getting electricity: Time (days)"'}}
 
 {synopt:{opt Source}}{p_end}
 
@@ -755,7 +755,7 @@
 
 {synoptline}
 {marker topicid_IC.REG.COST.PC.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.REG.COST.PC.FE.ZS:IC.REG.COST.PC.FE.ZS} - `"Cost of business start-up procedures, female (% of GNI per capita)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.REG.COST.PC.FE.ZS:IC.REG.COST.PC.FE.ZS} - `"Starting a business: Cost - Women (% of income per capita)"'}}
 
 {synopt:{opt Source}}{p_end}
 
@@ -768,7 +768,7 @@
 
 {synoptline}
 {marker topicid_IC.REG.COST.PC.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.REG.COST.PC.MA.ZS:IC.REG.COST.PC.MA.ZS} - `"Cost of business start-up procedures, male (% of GNI per capita)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.REG.COST.PC.MA.ZS:IC.REG.COST.PC.MA.ZS} - `"Starting a business: Cost - Men (% of income per capita)"'}}
 
 {synopt:{opt Source}}{p_end}
 
@@ -2353,4 +2353,4 @@
 
 
 
-{right:(as of 20oct2019)}
+{right:(as of 27oct2019)}

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 20oct2019)}
+{right:(as of 27oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -53,7 +53,6 @@
 {synopt:{opt 70}}  {help wbopendata_sourceid##sourceid_70:Economic Fitness 2}{p_end}
 {synopt:{opt 71}}  {help wbopendata_sourceid##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
 {synopt:{opt 73}}  {help wbopendata_sourceid##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
-{synopt:{opt 74}}  {help wbopendata_sourceid##sourceid_74:Macro Poverty Outlook External}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 {synoptline}
 
@@ -30731,45 +30730,6 @@
 {synopt:{help wbopendata_sourceid_indicators73##sourceid_FB.INC.INST.OD.LN.WL:FB.INC.INST.OD.LN.WL{marker FB.INC.INST.OD.LN.WL}}}{p_end}
 {synoptline}
 
-{marker sourceid_74}
-{p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_74:Source}} or {it:{help wbopendata_sourceid_indicators74##:TOC}}){p_end}
-{synoptset 40 tabbed}{...}
-{synopthdr:74 Macro Poverty Outlook External}
-{synoptline}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_BFCAFFFDICD__EXT:BFCAFFFDICD__EXT{marker BFCAFFFDICD__EXT}}}Net Foreign Direct Investment, % GDP{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_BNCABFUNDCD__EXT:BNCABFUNDCD__EXT{marker BNCABFUNDCD__EXT}}}Current Account Balance, % GDP{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_FPCPITOTLXN__EXT:FPCPITOTLXN__EXT{marker FPCPITOTLXN__EXT}}}Consumer Price Index, annual change (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_GGBALOVRLCN__EXT:GGBALOVRLCN__EXT{marker GGBALOVRLCN__EXT}}}Overall General Government Balance, LCU mn, % of GDP{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_GGBALPRIMCN__EXT:GGBALPRIMCN__EXT{marker GGBALPRIMCN__EXT}}}General Government primary balance, LCU mn, %GDP{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_GGDBTTOTLCN__EXT:GGDBTTOTLCN__EXT{marker GGDBTTOTLCN__EXT}}}General government gross debt, %GDP{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NECONGOVTKN__EXT:NECONGOVTKN__EXT{marker NECONGOVTKN__EXT}}}Government Consumption, Real LCU mn, annual growth rate (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NECONPRVTKN__EXT:NECONPRVTKN__EXT{marker NECONPRVTKN__EXT}}}Private Consumption, annual growth rate (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NEEXPGNFSKN__EXT:NEEXPGNFSKN__EXT{marker NEEXPGNFSKN__EXT}}}Exports, GNFS (NIA), annual growth rate %{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NEGDIFTOTKN__EXT:NEGDIFTOTKN__EXT{marker NEGDIFTOTKN__EXT}}}Fixed Domestic Investment, annual growth rate %{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NEIMPGNFSKN__EXT:NEIMPGNFSKN__EXT{marker NEIMPGNFSKN__EXT}}}Imports,  GNFS (NIA), Real LCU mn, annual growth rate %{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NVAGRTOTLKN__EXT:NVAGRTOTLKN__EXT{marker NVAGRTOTLKN__EXT}}}Value Added Agriculture, LCU mn, annual growth rate %{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NVINDTOTLKN__EXT:NVINDTOTLKN__EXT{marker NVINDTOTLKN__EXT}}}Value Added Industry, Real LCU mn, annual growth rate %{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NVSRVTOTLKN__EXT:NVSRVTOTLKN__EXT{marker NVSRVTOTLKN__EXT}}}Value Added Services, Real LCU mn, annual growth rate %{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NYGDPFCSTKN__EXT:NYGDPFCSTKN__EXT{marker NYGDPFCSTKN__EXT}}}GDP Factor Cost, Real LCU mn , annual change %{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NYGDPMKTPKN__EXT:NYGDPMKTPKN__EXT{marker NYGDPMKTPKN__EXT}}}GDP, Market Prices, Real LCU mn, annual growth rate (%){p_end}
-{synoptline}
-
 {marker sourceid_75}
 {p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_75:Source}} or {it:{help wbopendata_sourceid_indicators75##:TOC}}){p_end}
 {synoptset 40 tabbed}{...}
@@ -30785,4 +30745,4 @@
 {synopt:{help wbopendata_sourceid_indicators75##sourceid_EN.CLC.SPEI.XD:EN.CLC.SPEI.XD{marker EN.CLC.SPEI.XD}}}Mean Drought Index (SPEI){p_end}
 {synoptline}
 
-{right:(as of 20oct2019)}
+{right:(as of 27oct2019)}

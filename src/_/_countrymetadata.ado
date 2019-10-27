@@ -112,7 +112,7 @@ program define _countrymetadata , rclass
 				local order "`order' `tmpcountrycode_iso2' `tmpcountryname' `tmpregion' `tmpregion_iso2' `tmpregionname'  "
 			}
 			if (_rc != 0) {
-				noi di in r "variable `tmpcountrycode_iso2' `tmpcountryname' `tmpregion' `tmpregion_iso2' `tmpregionname'  already defined"
+				*noi di in r "variable `tmpcountrycode_iso2' `tmpcountryname' `tmpregion' `tmpregion_iso2' `tmpregionname'  already defined"
 			}
 		}
 
@@ -122,7 +122,7 @@ program define _countrymetadata , rclass
 				local order "`order' `tmpadminregion' `tmpadminregion_iso2' `tmpadminregionname' `tmpincomelevel' `tmpincomelevel_iso2' `tmpincomelevelname' "
 			}
 			if (_rc != 0) {
-				noi di in r "variable `tmpadminregion' `tmpadminregion_iso2' `tmpadminregionname' `tmpincomelevel' `tmpincomelevel_iso2' `tmpincomelevelname' "
+				*noi di in r "variable `tmpadminregion' `tmpadminregion_iso2' `tmpadminregionname' `tmpincomelevel' `tmpincomelevel_iso2' `tmpincomelevelname' "
 			}
 		}
 		
@@ -132,7 +132,7 @@ program define _countrymetadata , rclass
 				local order "`order' `tmplendingtype' `tmplendingtype_iso2' `tmplendingtypename' `tmpcapital' `tmplongitude' `tmplatitude'  "
 			}
 			if (_rc != 0) {
-				noi di in r "variable `tmplendingtype' `tmplendingtype_iso2' `tmplendingtypename' `tmpcapital' `tmplongitude' `tmplatitude'  already defined"
+				*noi di in r "variable `tmplendingtype' `tmplendingtype_iso2' `tmplendingtypename' `tmpcapital' `tmplongitude' `tmplatitude'  already defined"
 			}
 		}
 		
