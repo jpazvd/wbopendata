@@ -76,7 +76,7 @@ program define _countrymetadata2 , rclass
 			local capitalist " `tmpcapitallist' "
 		}	
 		if ("`full'" == "full") {
-			local full	" `countrycode_iso2' `countryname'  `tmpregionlist' `tmpadminlist' `tmpincomelist' `tmplendinglist' `tmpcapitalist' "
+			local full	" countrycode_iso2  countryname  `tmpregionlist' `tmpadminlist' `tmpincomelist' `tmplendinglist' `tmpcapitalist' "
 		}
 
 	******************************************************
@@ -105,7 +105,7 @@ program define _countrymetadata2 , rclass
 	******************************************************
 	* call the subroutines
 	
-		if (wordcount("`tmpcountrycode_iso2' tmpcountryname `tmpregion' `tmpregion_iso2' `tmpregionname' ") >= 1) {
+		if (wordcount("`tmpcountrycode_iso2' `tmpcountryname' `tmpregion' `tmpregion_iso2' `tmpregionname' ") >= 1) {
 			cap: _wbod_tmpfile1, match(`match') `tmpcountrycode_iso2' `tmpcountryname' `tmpregion' `tmpregion_iso2' `tmpregionname' 
 
 			if (_rc == 0) {
