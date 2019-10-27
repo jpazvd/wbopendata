@@ -378,11 +378,13 @@ syntax , 								///
 		file write `out' `""' 																_n
 
 		noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
-
-			file write `out' `"		return local `returnname' = `old`returnname'' "' 		_n
-					
+			if (`old`returnname'' != .) {
+				file write `out' `"		return local `returnname' = `old`returnname'' "' 		_n
+			}
+			else {
+				file write `out' `"		return local `returnname' = . "' 		_n
+			}
 		}
-
 			
 		file write `out' `""' 																_n
 		file write `out' `"		return local sourcereturn  "`oldsourcereturn'" "' 			_n

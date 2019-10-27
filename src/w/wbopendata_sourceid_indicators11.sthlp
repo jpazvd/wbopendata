@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 20oct2019)}
+{right:(as of 27oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -53,7 +53,6 @@
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
-{synopt:{opt 74}}  {help wbopendata_sourceid_indicators74##sourceid_74:Macro Poverty Outlook External}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
@@ -5856,7 +5855,7 @@
 
 {synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Paved roads are those surfaced with crushed stone (macadam) and hydrocarbon binder or bituminized agents, with concrete, or with cobblestones, as a percentage of all the country's roads, measured in length.{p_end}
 
@@ -5895,7 +5894,7 @@
 
 {synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Motor vehicles include cars, buses, and freight vehicles but do not include two-wheelers. Population refers to midyear population in the year for which data are available.{p_end}
 
@@ -5908,7 +5907,7 @@
 
 {synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Passenger cars refer to road motor vehicles, other than two-wheelers, intended for the carriage of passengers and designed to seat no more than nine people (including the driver).{p_end}
 
@@ -5921,7 +5920,7 @@
 
 {synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Vehicles per kilometer of road include cars, buses, and freight vehicles but do not include two-wheelers. Roads refer to motorways, highways, main or national roads, secondary or regional roads, and other roads. A motorway is a road specially{p_end}
 
@@ -8264,7 +8263,7 @@
 
 {synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Child mortality rate is the probability of dying between the exact ages of one and five, if subject to current age-specific mortality rates. The probability is expressed as a rate per 1,000.{p_end}
 
@@ -10179,4 +10178,4 @@
 
 
 
-{right:(as of 20oct2019)}
+{right:(as of 27oct2019)}

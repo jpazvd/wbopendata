@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 20oct2019)}
+{right:(as of 27oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -53,7 +53,6 @@
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
-{synopt:{opt 74}}  {help wbopendata_sourceid_indicators74##sourceid_74:Macro Poverty Outlook External}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
@@ -1665,7 +1664,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Access to non-solid fuel, rural is the percentage of rural population with access to non-solid fuel.{p_end}
 
@@ -1678,7 +1677,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Access to non-solid fuel, urban is the percentage of urban population with access to non-solid fuel.{p_end}
 
@@ -1691,7 +1690,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Access to non-solid fuel is the percentage of population with access to non-solid fuel.{p_end}
 
@@ -4035,7 +4034,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearan{p_end}
 
@@ -4048,7 +4047,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}All documents required per shipment to export goods are recorded. It is assumed that the contract has already been agreed upon and signed by both parties. Documents required for clearance by government ministries, customs authorities, port and{p_end}
 
@@ -4061,7 +4060,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Time to export is the time necessary to comply with all procedures required to export goods. Time is recorded in calendar days. The time calculation for a procedure starts from the moment it is initiated and runs until it is completed. If a pr{p_end}
 
@@ -4087,7 +4086,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}All documents required per shipment to import goods are recorded. It is assumed that the contract has already been agreed upon and signed by both parties. Documents required for clearance by government ministries, customs authorities, port and{p_end}
 
@@ -7703,7 +7702,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source, rural, refers to the percentage of the rural population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located{p_end}
 
@@ -7716,7 +7715,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source, urban, refers to the percentage of the urban population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located{p_end}
 
@@ -7729,7 +7728,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source refers to the percentage of the population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the use{p_end}
 
@@ -7779,7 +7778,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Access to improved sanitation facilities refers to the percentage of the population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include{p_end}
 
@@ -7792,7 +7791,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Access to improved sanitation facilities, rural, refers to the percentage of the rural population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact{p_end}
 
@@ -7805,7 +7804,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Access to improved sanitation facilities, urban, refers to the percentage of the urban population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact{p_end}
 
@@ -8257,7 +8256,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
@@ -8309,7 +8308,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Female labor force with secondary education is the share of the female labor force that attained or completed secondary education as the highest level of education.{p_end}
 
@@ -8322,7 +8321,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with secondary education is the share of the male labor force that attained or completed secondary education as the highest level of education.{p_end}
 
@@ -8335,7 +8334,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Labor force with secondary education is the share of the total labor force that attained or completed secondary education as the highest level of education.{p_end}
 
@@ -8348,7 +8347,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Female labor force with tertiary education is the share of the female labor force that attained or completed tertiary education as the highest level of education.{p_end}
 
@@ -8361,7 +8360,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with tertiary education is the share of the male labor force that attained or completed tertiary education as the highest level of education.{p_end}
 
@@ -8374,7 +8373,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Labor force with tertiary education is the share of the total labor force that attained or completed tertiary education as the highest level of education.{p_end}
 
@@ -8411,7 +8410,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Long-term unemployment refers to the number of people with continuous periods of unemployment extending for a year or longer, expressed as a percentage of the total unemployed.{p_end}
 
@@ -8450,7 +8449,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Female unemployment with primary education is the share of the female unemployed who attained or completed primary education as the highest level.{p_end}
 
@@ -8489,7 +8488,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Female unemployment with secondary education is the share of the female unemployed who attained or completed secondary education as the highest level.{p_end}
 
@@ -8515,7 +8514,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Female unemployment with tertiary education is the share of the female unemployed who attained or completed tertiary education as the highest level.{p_end}
 
@@ -8541,7 +8540,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Emigration rate of tertiary educated shows the stock of emigrants ages 25 and older, residing in an OECD country other than that in which they were born, with at least one year of tertiary education as a percentage of the population age 25 and{p_end}
 
@@ -9858,7 +9857,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (female, % age 15+). [ts: data are{p_end}
 
@@ -10153,4 +10152,4 @@
 
 
 
-{right:(as of 20oct2019)}
+{right:(as of 27oct2019)}
