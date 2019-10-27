@@ -15,11 +15,12 @@ program define _countrymetadata2 , rclass
 			match(varname) 			///
 			[ 						///
 				ISO					///
-				REGION				///
-				ADMINREGION			///
-				INCOMELEVEL			///
-				LENDINGTYPE			///
-				CAPITAL				///
+				REGIONS				///
+				ADMINR				///
+				INCOME				///
+				LENDING				///
+				CAPITALS			///
+				BASIC				///
 				FULL				///
 				countrycode_iso2 	///
 				region 				///
@@ -43,85 +44,102 @@ program define _countrymetadata2 , rclass
 	
 	******************************************************
 
-	local tmpisolist " countrycode_iso2 region_iso2 adminregion_iso2 incomelevel_iso2 lendingtype_iso2 "
-	local tmpregionlist " region region_iso2 regionname  "
-	local tmpadminlist " adminregion adminregion_iso2 adminregionname "
-	local tmpincomelist " incomelevel incomelevel_iso2 incomelevelname "
-	local tmplendinglist " lendingtype lendingtype_iso2 lendingtypename "
-	local tmpcapitalist " capital latitude longitude "
-
-			
-	if ("`iso'" == "iso") {
-		local isolist " `tmpisolist' "
-	}
-	if ("`region'" == "region") {
-		local regionlist " `tmpregionlist' "
-	}
-	if ("`adminregion'" == "adminregion") {
-		local adminlist " `tmpadminlist' "
-	}
-	if ("`incomelevel'" == "incomelevel") {
-		local incomelist " `tmpincomelist' "
-	}
-	if ("`incomelevel'" == "incomelevel") {
-		local lendinglist " `tmplendinglist' "
-	}
-	if ("`incomelevel'" == "incomelevel") {
-		local capitalist " `tmpcapitallist' "
-	}	
-	if ("`full'" == "full") {
-		local full	" `tmpregionlist' `tmpadminlist' `tmpincomelist' `tmplendinglist' `tmpcapitalist' "
-	}
-
-	******************************************************
-	
-	if (wordcount(" `countryname' `full' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `capitalist' `isolist' ") == 0) {
-		local basic " region regionname  adminregion adminregionname incomelevel incomelevelname lendingtype lendingtypename "
-	}
-	else {
-		local basic " `full' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `capitalist' "
-	}
+	qui {
 	
 	******************************************************
-	
-	if (wordcount("`countrycode_iso2' `countryname' `region' `region_iso2' `regionname' ") >= 1) {
-		cap: _wbod_tmpfile1, match(`match') `countrycode_iso2' `countryname' `region' `region_iso2' `regionname' 
+	* create lists of metadata by type
+		local tmpisolist " countrycode_iso2 region_iso2 adminregion_iso2 incomelevel_iso2 lendingtype_iso2 "
+		local tmpregionlist " region region_iso2 regionname  "
+		local tmpadminlist " adminregion adminregion_iso2 adminregionname "
+		local tmpincomelist " incomelevel incomelevel_iso2 incomelevelname "
+		local tmplendinglist " lendingtype lendingtype_iso2 lendingtypename "
+		local tmpcapitalist " capital latitude longitude "
 
-		if (_rc == 0) {
-			local order "`order' `countrycode_iso2' `countryname' `region' `region_iso2' `regionname' "
+	******************************************************
+	* asign list variable values if options are selected			
+		if ("`iso'" == "iso") {
+			local isolist " `tmpisolist' "
 		}
-		if (_rc != 0) {
-			noi di in r "variable `countrycode_iso2' `countryname' `region' `region_iso2' `regionname' already defined"
+		if ("`regions'" == "regions") {
+			local regionlist " `tmpregionlist' "
 		}
-	}
+		if ("`adminr'" == "adminr") {
+			local adminlist " `tmpadminlist' "
+		}
+		if ("`income'" == "income") {
+			local incomelist " `tmpincomelist' "
+		}
+		if ("`lending'" == "lending") {
+			local lendinglist " `tmplendinglist' "
+		}
+		if ("`capital'" == "capital") {
+			local capitalist " `tmpcapitallist' "
+		}	
+		if ("`full'" == "full") {
+			local full	" `countrycode_iso2' `countryname'  `tmpregionlist' `tmpadminlist' `tmpincomelist' `tmplendinglist' `tmpcapitalist' "
+		}
 
-	if (wordcount("`adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname'  ") >= 1) {
-		cap: _wbod_tmpfile2, match(`match') `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname' 
-		if (_rc == 0) {
-			local order "`order' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname'  "
+	******************************************************
+	* crate default list of variables 
+		if (wordcount(" `countryname' `full' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `capitalist' `isolist' `countryname' `region'  `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname'  `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude'") == 0)  {
+			local basic " region regionname  adminregion adminregionname incomelevel incomelevelname lendingtype lendingtypename "
 		}
-		if (_rc != 0) {
-			noi di in r "variable `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname' "
+
+	******************************************************
+	* create full list of variables
+		else {
+			local basic " `full' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `capitalist' "
 		}
-	}
+		
+	******************************************************
+	* add tmp prefix to all local. this will be used in the option of the subroutines
+		
+		foreach var in `full' `basic' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `capitalist' `countrycode_iso2' `countryname' `region'  `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname'  `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude' {
+		
+			local tmp`var' `var'
+		
+		}
+		
+	local tmpcountryname countryname
+		
+	******************************************************
+	* call the subroutines
 	
-	if (wordcount("`lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude' ") >= 1) {
-		cap: _wbod_tmpfile3, match(`match') `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude' 
+		if (wordcount("`tmpcountrycode_iso2' tmpcountryname `tmpregion' `tmpregion_iso2' `tmpregionname' ") >= 1) {
+			cap: _wbod_tmpfile1, match(`match') `tmpcountrycode_iso2' `tmpcountryname' `tmpregion' `tmpregion_iso2' `tmpregionname' 
+
 			if (_rc == 0) {
-			local order "`order' `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude' "
+				local order "`order' `tmpcountrycode_iso2' `tmpcountryname' `tmpregion' `tmpregion_iso2' `tmpregionname'  "
+			}
+			if (_rc != 0) {
+				noi di in r "variable `tmpcountrycode_iso2' `tmpcountryname' `tmpregion' `tmpregion_iso2' `tmpregionname'  already defined"
+			}
 		}
-		if (_rc != 0) {
-			noi di in r "variable `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude' already defined"
-		}
-	}
-	
-	******************************************************
 
-	cap: order countrycode countryname `order'
-	if (_rc != 0) {
-		noi di in g "variable " in y "countryname" in g " not found."
-		qui _countryname, match(`match')
-		order countrycode countryname `order'
+		if (wordcount("`tmpadminregion' `tmpadminregion_iso2' `tmpadminregionname' `tmpincomelevel' `tmpincomelevel_iso2' `tmpincomelevelname'  ") >= 1) {
+			cap: _wbod_tmpfile2, match(`match') `tmpadminregion' `tmpadminregion_iso2' `tmpadminregionname' `tmpincomelevel' `tmpincomelevel_iso2' `tmpincomelevelname' 
+			if (_rc == 0) {
+				local order "`order' `tmpadminregion' `tmpadminregion_iso2' `tmpadminregionname' `tmpincomelevel' `tmpincomelevel_iso2' `tmpincomelevelname' "
+			}
+			if (_rc != 0) {
+				noi di in r "variable `tmpadminregion' `tmpadminregion_iso2' `tmpadminregionname' `tmpincomelevel' `tmpincomelevel_iso2' `tmpincomelevelname' "
+			}
+		}
+		
+		if (wordcount("`tmplendingtype' `tmplendingtype_iso2' `tmplendingtypename' `tmpcapital' `tmplongitude' `tmplatitude' ") >= 1) {
+			cap: _wbod_tmpfile3, match(`match') `tmplendingtype' `tmplendingtype_iso2' `tmplendingtypename' `tmpcapital' `tmplongitude' `tmplatitude' 
+				if (_rc == 0) {
+				local order "`order' `tmplendingtype' `tmplendingtype_iso2' `tmplendingtypename' `tmpcapital' `tmplongitude' `tmplatitude'  "
+			}
+			if (_rc != 0) {
+				noi di in r "variable `tmplendingtype' `tmplendingtype_iso2' `tmplendingtypename' `tmpcapital' `tmplongitude' `tmplatitude'  already defined"
+			}
+		}
+		
+	******************************************************
+	* order variables
+		cap: order countrycode countryname `order'
+	
 	}
 
 end
