@@ -1,9 +1,10 @@
 *******************************************************************************
-*! v 16.0  	26Oct2019					by Joao Pedro Azevedo  
-* 		generate only three files
+*! v 16.0  	27Oct2019					by Joao Pedro Azevedo  
+* 	generate only three files
+*	change dataflow
 *******************************************************************************
 
-program define _update_countrymetadata2 , rclass
+program define _update_countrymetadata , rclass
 
 	version 9.0
 
