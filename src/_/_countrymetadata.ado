@@ -1,11 +1,11 @@
 *******************************************************************************
 *  _countrymetadata2
-*! v 16.0  	26Oct2019               by Joao Pedro Azevedo   
+*! v 16.0  	27Oct2019               by Joao Pedro Azevedo   
 *	self-standing code to create country attribute table
 * 	support lower case match variables
 *******************************************************************************
 
-program define _countrymetadata2 , rclass
+program define _countrymetadata , rclass
 
 	version 9.0
 

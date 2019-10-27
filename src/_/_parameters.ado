@@ -1,4 +1,4 @@
-*! _parameters <20 Oct 2019 : 20:02:56>    João Pedro Azevedo 
+*! _parameters <27 Oct 2019 : 15:27:51>    João Pedro Azevedo 
 
 program define _parameters, rclass
 
@@ -52,7 +52,6 @@ version 9
              return local sourceid70 = 2 
              return local sourceid71 = 17 
              return local sourceid73 = 19 
-             return local sourceid74 = 16 
              return local sourceid75 = 4 
              return local topicid01 = 49 
              return local topicid02 = 73 
@@ -88,10 +87,10 @@ version 9
 
              return local number_indicators = 17326
              return local dt_update "20 Oct 2019 15:41:46" 
-             return local dt_lastcheck  "20 Oct 2019 20:02:56" 
+             return local dt_lastcheck  "27 Oct 2019 15:27:51" 
 
              return local ctrymetadata = 304
-             return local dt_ctrylastcheck   "20 Oct 2019 20:02:56" 
+             return local dt_ctrylastcheck   "27 Oct 2019 15:27:51" 
              return local dt_ctryupdate  "20 Oct 2019 15:43:57" 
 
 end
