@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:03 Worldwide Governance Indicators}}}
 {synoptline}
 {marker sourceid_CC.EST}
-{synopt:{bf:{help wbopendata_sourceid##CC.EST:CC.EST} - `"Control of Corruption: Estimate"'}}
+{synopt:{bf:{help wbopendata_sourceid##CC.EST:CC.EST} - Control of Corruption: Estimate}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -80,7 +80,7 @@
 
 {synoptline}
 {marker sourceid_CC.NO.SRC}
-{synopt:{bf:{help wbopendata_sourceid##CC.NO.SRC:CC.NO.SRC} - `"Control of Corruption: Number of Sources"'}}
+{synopt:{bf:{help wbopendata_sourceid##CC.NO.SRC:CC.NO.SRC} - Control of Corruption: Number of Sources}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -92,7 +92,7 @@
 
 {synoptline}
 {marker sourceid_CC.PER.RNK}
-{synopt:{bf:{help wbopendata_sourceid##CC.PER.RNK:CC.PER.RNK} - `"Control of Corruption: Percentile Rank"'}}
+{synopt:{bf:{help wbopendata_sourceid##CC.PER.RNK:CC.PER.RNK} - Control of Corruption: Percentile Rank}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -104,7 +104,7 @@
 
 {synoptline}
 {marker sourceid_CC.PER.RNK.LOWER}
-{synopt:{bf:{help wbopendata_sourceid##CC.PER.RNK.LOWER:CC.PER.RNK.LOWER} - `"Control of Corruption: Percentile Rank, Lower Bound of 90% Confidence Interval"'}}
+{synopt:{bf:{help wbopendata_sourceid##CC.PER.RNK.LOWER:CC.PER.RNK.LOWER} - Control of Corruption: Percentile Rank, Lower Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -116,7 +116,7 @@
 
 {synoptline}
 {marker sourceid_CC.PER.RNK.UPPER}
-{synopt:{bf:{help wbopendata_sourceid##CC.PER.RNK.UPPER:CC.PER.RNK.UPPER} - `"Control of Corruption: Percentile Rank, Upper Bound of 90% Confidence Interval"'}}
+{synopt:{bf:{help wbopendata_sourceid##CC.PER.RNK.UPPER:CC.PER.RNK.UPPER} - Control of Corruption: Percentile Rank, Upper Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -128,7 +128,7 @@
 
 {synoptline}
 {marker sourceid_CC.STD.ERR}
-{synopt:{bf:{help wbopendata_sourceid##CC.STD.ERR:CC.STD.ERR} - `"Control of Corruption: Standard Error"'}}
+{synopt:{bf:{help wbopendata_sourceid##CC.STD.ERR:CC.STD.ERR} - Control of Corruption: Standard Error}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -140,7 +140,7 @@
 
 {synoptline}
 {marker sourceid_GE.EST}
-{synopt:{bf:{help wbopendata_sourceid##GE.EST:GE.EST} - `"Government Effectiveness: Estimate"'}}
+{synopt:{bf:{help wbopendata_sourceid##GE.EST:GE.EST} - Government Effectiveness: Estimate}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -152,7 +152,7 @@
 
 {synoptline}
 {marker sourceid_GE.NO.SRC}
-{synopt:{bf:{help wbopendata_sourceid##GE.NO.SRC:GE.NO.SRC} - `"Government Effectiveness: Number of Sources"'}}
+{synopt:{bf:{help wbopendata_sourceid##GE.NO.SRC:GE.NO.SRC} - Government Effectiveness: Number of Sources}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -164,7 +164,7 @@
 
 {synoptline}
 {marker sourceid_GE.PER.RNK}
-{synopt:{bf:{help wbopendata_sourceid##GE.PER.RNK:GE.PER.RNK} - `"Government Effectiveness: Percentile Rank"'}}
+{synopt:{bf:{help wbopendata_sourceid##GE.PER.RNK:GE.PER.RNK} - Government Effectiveness: Percentile Rank}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -176,7 +176,7 @@
 
 {synoptline}
 {marker sourceid_GE.PER.RNK.LOWER}
-{synopt:{bf:{help wbopendata_sourceid##GE.PER.RNK.LOWER:GE.PER.RNK.LOWER} - `"Government Effectiveness: Percentile Rank, Lower Bound of 90% Confidence Interval"'}}
+{synopt:{bf:{help wbopendata_sourceid##GE.PER.RNK.LOWER:GE.PER.RNK.LOWER} - Government Effectiveness: Percentile Rank, Lower Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -188,7 +188,7 @@
 
 {synoptline}
 {marker sourceid_GE.PER.RNK.UPPER}
-{synopt:{bf:{help wbopendata_sourceid##GE.PER.RNK.UPPER:GE.PER.RNK.UPPER} - `"Government Effectiveness: Percentile Rank, Upper Bound of 90% Confidence Interval"'}}
+{synopt:{bf:{help wbopendata_sourceid##GE.PER.RNK.UPPER:GE.PER.RNK.UPPER} - Government Effectiveness: Percentile Rank, Upper Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -200,7 +200,7 @@
 
 {synoptline}
 {marker sourceid_GE.STD.ERR}
-{synopt:{bf:{help wbopendata_sourceid##GE.STD.ERR:GE.STD.ERR} - `"Government Effectiveness: Standard Error"'}}
+{synopt:{bf:{help wbopendata_sourceid##GE.STD.ERR:GE.STD.ERR} - Government Effectiveness: Standard Error}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -212,7 +212,7 @@
 
 {synoptline}
 {marker sourceid_PV.EST}
-{synopt:{bf:{help wbopendata_sourceid##PV.EST:PV.EST} - `"Political Stability and Absence of Violence/Terrorism: Estimate"'}}
+{synopt:{bf:{help wbopendata_sourceid##PV.EST:PV.EST} - Political Stability and Absence of Violence/Terrorism: Estimate}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -224,7 +224,7 @@
 
 {synoptline}
 {marker sourceid_PV.NO.SRC}
-{synopt:{bf:{help wbopendata_sourceid##PV.NO.SRC:PV.NO.SRC} - `"Political Stability and Absence of Violence/Terrorism: Number of Sources"'}}
+{synopt:{bf:{help wbopendata_sourceid##PV.NO.SRC:PV.NO.SRC} - Political Stability and Absence of Violence/Terrorism: Number of Sources}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -236,7 +236,7 @@
 
 {synoptline}
 {marker sourceid_PV.PER.RNK}
-{synopt:{bf:{help wbopendata_sourceid##PV.PER.RNK:PV.PER.RNK} - `"Political Stability and Absence of Violence/Terrorism: Percentile Rank"'}}
+{synopt:{bf:{help wbopendata_sourceid##PV.PER.RNK:PV.PER.RNK} - Political Stability and Absence of Violence/Terrorism: Percentile Rank}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -248,7 +248,7 @@
 
 {synoptline}
 {marker sourceid_PV.PER.RNK.LOWER}
-{synopt:{bf:{help wbopendata_sourceid##PV.PER.RNK.LOWER:PV.PER.RNK.LOWER} - `"Political Stability and Absence of Violence/Terrorism: Percentile Rank, Lower Bound of 90% Confidence Interval"'}}
+{synopt:{bf:{help wbopendata_sourceid##PV.PER.RNK.LOWER:PV.PER.RNK.LOWER} - Political Stability and Absence of Violence/Terrorism: Percentile Rank, Lower Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -260,7 +260,7 @@
 
 {synoptline}
 {marker sourceid_PV.PER.RNK.UPPER}
-{synopt:{bf:{help wbopendata_sourceid##PV.PER.RNK.UPPER:PV.PER.RNK.UPPER} - `"Political Stability and Absence of Violence/Terrorism: Percentile Rank, Upper Bound of 90% Confidence Interval"'}}
+{synopt:{bf:{help wbopendata_sourceid##PV.PER.RNK.UPPER:PV.PER.RNK.UPPER} - Political Stability and Absence of Violence/Terrorism: Percentile Rank, Upper Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -272,7 +272,7 @@
 
 {synoptline}
 {marker sourceid_PV.STD.ERR}
-{synopt:{bf:{help wbopendata_sourceid##PV.STD.ERR:PV.STD.ERR} - `"Political Stability and Absence of Violence/Terrorism: Standard Error"'}}
+{synopt:{bf:{help wbopendata_sourceid##PV.STD.ERR:PV.STD.ERR} - Political Stability and Absence of Violence/Terrorism: Standard Error}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -284,7 +284,7 @@
 
 {synoptline}
 {marker sourceid_RL.EST}
-{synopt:{bf:{help wbopendata_sourceid##RL.EST:RL.EST} - `"Rule of Law: Estimate"'}}
+{synopt:{bf:{help wbopendata_sourceid##RL.EST:RL.EST} - Rule of Law: Estimate}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -296,7 +296,7 @@
 
 {synoptline}
 {marker sourceid_RL.NO.SRC}
-{synopt:{bf:{help wbopendata_sourceid##RL.NO.SRC:RL.NO.SRC} - `"Rule of Law: Number of Sources"'}}
+{synopt:{bf:{help wbopendata_sourceid##RL.NO.SRC:RL.NO.SRC} - Rule of Law: Number of Sources}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -308,7 +308,7 @@
 
 {synoptline}
 {marker sourceid_RL.PER.RNK}
-{synopt:{bf:{help wbopendata_sourceid##RL.PER.RNK:RL.PER.RNK} - `"Rule of Law: Percentile Rank"'}}
+{synopt:{bf:{help wbopendata_sourceid##RL.PER.RNK:RL.PER.RNK} - Rule of Law: Percentile Rank}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -320,7 +320,7 @@
 
 {synoptline}
 {marker sourceid_RL.PER.RNK.LOWER}
-{synopt:{bf:{help wbopendata_sourceid##RL.PER.RNK.LOWER:RL.PER.RNK.LOWER} - `"Rule of Law: Percentile Rank, Lower Bound of 90% Confidence Interval"'}}
+{synopt:{bf:{help wbopendata_sourceid##RL.PER.RNK.LOWER:RL.PER.RNK.LOWER} - Rule of Law: Percentile Rank, Lower Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -332,7 +332,7 @@
 
 {synoptline}
 {marker sourceid_RL.PER.RNK.UPPER}
-{synopt:{bf:{help wbopendata_sourceid##RL.PER.RNK.UPPER:RL.PER.RNK.UPPER} - `"Rule of Law: Percentile Rank, Upper Bound of 90% Confidence Interval"'}}
+{synopt:{bf:{help wbopendata_sourceid##RL.PER.RNK.UPPER:RL.PER.RNK.UPPER} - Rule of Law: Percentile Rank, Upper Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -344,7 +344,7 @@
 
 {synoptline}
 {marker sourceid_RL.STD.ERR}
-{synopt:{bf:{help wbopendata_sourceid##RL.STD.ERR:RL.STD.ERR} - `"Rule of Law: Standard Error"'}}
+{synopt:{bf:{help wbopendata_sourceid##RL.STD.ERR:RL.STD.ERR} - Rule of Law: Standard Error}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -356,7 +356,7 @@
 
 {synoptline}
 {marker sourceid_RQ.EST}
-{synopt:{bf:{help wbopendata_sourceid##RQ.EST:RQ.EST} - `"Regulatory Quality: Estimate"'}}
+{synopt:{bf:{help wbopendata_sourceid##RQ.EST:RQ.EST} - Regulatory Quality: Estimate}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -368,7 +368,7 @@
 
 {synoptline}
 {marker sourceid_RQ.NO.SRC}
-{synopt:{bf:{help wbopendata_sourceid##RQ.NO.SRC:RQ.NO.SRC} - `"Regulatory Quality: Number of Sources"'}}
+{synopt:{bf:{help wbopendata_sourceid##RQ.NO.SRC:RQ.NO.SRC} - Regulatory Quality: Number of Sources}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -380,7 +380,7 @@
 
 {synoptline}
 {marker sourceid_RQ.PER.RNK}
-{synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK:RQ.PER.RNK} - `"Regulatory Quality: Percentile Rank"'}}
+{synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK:RQ.PER.RNK} - Regulatory Quality: Percentile Rank}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -392,7 +392,7 @@
 
 {synoptline}
 {marker sourceid_RQ.PER.RNK.LOWER}
-{synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK.LOWER:RQ.PER.RNK.LOWER} - `"Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval"'}}
+{synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK.LOWER:RQ.PER.RNK.LOWER} - Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -404,7 +404,7 @@
 
 {synoptline}
 {marker sourceid_RQ.PER.RNK.UPPER}
-{synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK.UPPER:RQ.PER.RNK.UPPER} - `"Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval"'}}
+{synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK.UPPER:RQ.PER.RNK.UPPER} - Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -416,7 +416,7 @@
 
 {synoptline}
 {marker sourceid_RQ.STD.ERR}
-{synopt:{bf:{help wbopendata_sourceid##RQ.STD.ERR:RQ.STD.ERR} - `"Regulatory Quality: Standard Error"'}}
+{synopt:{bf:{help wbopendata_sourceid##RQ.STD.ERR:RQ.STD.ERR} - Regulatory Quality: Standard Error}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -428,7 +428,7 @@
 
 {synoptline}
 {marker sourceid_VA.EST}
-{synopt:{bf:{help wbopendata_sourceid##VA.EST:VA.EST} - `"Voice and Accountability: Estimate"'}}
+{synopt:{bf:{help wbopendata_sourceid##VA.EST:VA.EST} - Voice and Accountability: Estimate}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -440,7 +440,7 @@
 
 {synoptline}
 {marker sourceid_VA.NO.SRC}
-{synopt:{bf:{help wbopendata_sourceid##VA.NO.SRC:VA.NO.SRC} - `"Voice and Accountability: Number of Sources"'}}
+{synopt:{bf:{help wbopendata_sourceid##VA.NO.SRC:VA.NO.SRC} - Voice and Accountability: Number of Sources}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -452,7 +452,7 @@
 
 {synoptline}
 {marker sourceid_VA.PER.RNK}
-{synopt:{bf:{help wbopendata_sourceid##VA.PER.RNK:VA.PER.RNK} - `"Voice and Accountability: Percentile Rank"'}}
+{synopt:{bf:{help wbopendata_sourceid##VA.PER.RNK:VA.PER.RNK} - Voice and Accountability: Percentile Rank}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -464,7 +464,7 @@
 
 {synoptline}
 {marker sourceid_VA.PER.RNK.LOWER}
-{synopt:{bf:{help wbopendata_sourceid##VA.PER.RNK.LOWER:VA.PER.RNK.LOWER} - `"Voice and Accountability: Percentile Rank, Lower Bound of 90% Confidence Interval"'}}
+{synopt:{bf:{help wbopendata_sourceid##VA.PER.RNK.LOWER:VA.PER.RNK.LOWER} - Voice and Accountability: Percentile Rank, Lower Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -476,7 +476,7 @@
 
 {synoptline}
 {marker sourceid_VA.PER.RNK.UPPER}
-{synopt:{bf:{help wbopendata_sourceid##VA.PER.RNK.UPPER:VA.PER.RNK.UPPER} - `"Voice and Accountability: Percentile Rank, Upper Bound of 90% Confidence Interval"'}}
+{synopt:{bf:{help wbopendata_sourceid##VA.PER.RNK.UPPER:VA.PER.RNK.UPPER} - Voice and Accountability: Percentile Rank, Upper Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -488,7 +488,7 @@
 
 {synoptline}
 {marker sourceid_VA.STD.ERR}
-{synopt:{bf:{help wbopendata_sourceid##VA.STD.ERR:VA.STD.ERR} - `"Voice and Accountability: Standard Error"'}}
+{synopt:{bf:{help wbopendata_sourceid##VA.STD.ERR:VA.STD.ERR} - Voice and Accountability: Standard Error}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -499,4 +499,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

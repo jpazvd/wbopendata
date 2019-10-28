@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:54 Joint External Debt Hub}}}
 {synoptline}
 {marker sourceid_Q.1C0.1C0.C.9A.ALL.PITT.1.ALL.MV.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.C.9A.ALL.PITT.1.ALL.MV.TO1.ALL:Q.1C0.1C0.C.9A.ALL.PITT.1.ALL.MV.TO1.ALL} - `"26_Portfolio investment assets"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.C.9A.ALL.PITT.1.ALL.MV.TO1.ALL:Q.1C0.1C0.C.9A.ALL.PITT.1.ALL.MV.TO1.ALL} - 26_Portfolio investment assets}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -80,7 +80,7 @@
 
 {synoptline}
 {marker sourceid_Q.1C0.1C0.C.9A.MOA.RXGT.1.ALL.MV.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.C.9A.MOA.RXGT.1.ALL.MV.TO1.ALL:Q.1C0.1C0.C.9A.MOA.RXGT.1.ALL.MV.TO1.ALL} - `"24_International reserves (excluding gold)"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.C.9A.MOA.RXGT.1.ALL.MV.TO1.ALL:Q.1C0.1C0.C.9A.MOA.RXGT.1.ALL.MV.TO1.ALL} - 24_International reserves (excluding gold)}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -92,7 +92,7 @@
 
 {synoptline}
 {marker sourceid_Q.1C0.1C0.C.9B.IFI.LMIM.1.ALL.NV.SDR.MOA}
-{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.C.9B.IFI.LMIM.1.ALL.NV.SDR.MOA:Q.1C0.1C0.C.9B.IFI.LMIM.1.ALL.NV.SDR.MOA} - `"07_Multilateral loans, IMF"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.C.9B.IFI.LMIM.1.ALL.NV.SDR.MOA:Q.1C0.1C0.C.9B.IFI.LMIM.1.ALL.NV.SDR.MOA} - 07_Multilateral loans, IMF}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -104,7 +104,7 @@
 
 {synoptline}
 {marker sourceid_Q.1C0.1C0.C.9B.IFI.LMIM.1.STR.NV.SDR.MOA}
-{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.C.9B.IFI.LMIM.1.STR.NV.SDR.MOA:Q.1C0.1C0.C.9B.IFI.LMIM.1.STR.NV.SDR.MOA} - `"13_Multilateral loans, IMF, short term"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.C.9B.IFI.LMIM.1.STR.NV.SDR.MOA:Q.1C0.1C0.C.9B.IFI.LMIM.1.STR.NV.SDR.MOA} - 13_Multilateral loans, IMF, short term}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -116,7 +116,7 @@
 
 {synoptline}
 {marker sourceid_Q.1C0.1C0.C.9B.IFI.SDAL.1.ALL.MV.SDR.MOA}
-{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.C.9B.IFI.SDAL.1.ALL.MV.SDR.MOA:Q.1C0.1C0.C.9B.IFI.SDAL.1.ALL.MV.SDR.MOA} - `"11_SDR allocation"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.C.9B.IFI.SDAL.1.ALL.MV.SDR.MOA:Q.1C0.1C0.C.9B.IFI.SDAL.1.ALL.MV.SDR.MOA} - 11_SDR allocation}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -128,7 +128,7 @@
 
 {synoptline}
 {marker sourceid_Q.1C0.1C0.C.9E.ALL.DSTT.1.ALL.MV.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.C.9E.ALL.DSTT.1.ALL.MV.TO1.ALL:Q.1C0.1C0.C.9E.ALL.DSTT.1.ALL.MV.TO1.ALL} - `"14_Debt securities held by nonresidents"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.C.9E.ALL.DSTT.1.ALL.MV.TO1.ALL:Q.1C0.1C0.C.9E.ALL.DSTT.1.ALL.MV.TO1.ALL} - 14_Debt securities held by nonresidents}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -140,7 +140,7 @@
 
 {synoptline}
 {marker sourceid_Q.1C0.1C0.C.9E.ALL.DSTT.1.STO.MV.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.C.9E.ALL.DSTT.1.STO.MV.TO1.ALL:Q.1C0.1C0.C.9E.ALL.DSTT.1.STO.MV.TO1.ALL} - `"15_Debt securities held by nonresidents, total, short term"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.C.9E.ALL.DSTT.1.STO.MV.TO1.ALL:Q.1C0.1C0.C.9E.ALL.DSTT.1.STO.MV.TO1.ALL} - 15_Debt securities held by nonresidents, total, short term}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -152,7 +152,7 @@
 
 {synoptline}
 {marker sourceid_Q.1C0.1C0.D.9B.MOA.SDHO.1.ALL.MV.SDR.IFI}
-{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.D.9B.MOA.SDHO.1.ALL.MV.SDR.IFI:Q.1C0.1C0.D.9B.MOA.SDHO.1.ALL.MV.SDR.IFI} - `"25_SDR holdings"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.D.9B.MOA.SDHO.1.ALL.MV.SDR.IFI:Q.1C0.1C0.D.9B.MOA.SDHO.1.ALL.MV.SDR.IFI} - 25_SDR holdings}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -164,7 +164,7 @@
 
 {synoptline}
 {marker sourceid_Q.1E0.1E0.C.9B.IFI.LMOI.1.ALL.NV.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.1E0.1E0.C.9B.IFI.LMOI.1.ALL.NV.TO1.ALL:Q.1E0.1E0.C.9B.IFI.LMOI.1.ALL.NV.TO1.ALL} - `"08_Multilateral loans, other institutions"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.1E0.1E0.C.9B.IFI.LMOI.1.ALL.NV.TO1.ALL:Q.1E0.1E0.C.9B.IFI.LMOI.1.ALL.NV.TO1.ALL} - 08_Multilateral loans, other institutions}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -176,7 +176,7 @@
 
 {synoptline}
 {marker sourceid_Q.1E0.1E0.C.9B.IFI.LMTT.1.ALL.NV.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.1E0.1E0.C.9B.IFI.LMTT.1.ALL.NV.TO1.ALL:Q.1E0.1E0.C.9B.IFI.LMTT.1.ALL.NV.TO1.ALL} - `"06_Multilateral loans, total"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.1E0.1E0.C.9B.IFI.LMTT.1.ALL.NV.TO1.ALL:Q.1E0.1E0.C.9B.IFI.LMTT.1.ALL.NV.TO1.ALL} - 06_Multilateral loans, total}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -188,7 +188,7 @@
 
 {synoptline}
 {marker sourceid_Q.5A0.5A0.C.9C.GGO.LOBA.1.ALL.NV.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.5A0.5A0.C.9C.GGO.LOBA.1.ALL.NV.TO1.ALL:Q.5A0.5A0.C.9C.GGO.LOBA.1.ALL.NV.TO1.ALL} - `"04_Official bilateral loans, aid loans"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.5A0.5A0.C.9C.GGO.LOBA.1.ALL.NV.TO1.ALL:Q.5A0.5A0.C.9C.GGO.LOBA.1.ALL.NV.TO1.ALL} - 04_Official bilateral loans, aid loans}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -200,7 +200,7 @@
 
 {synoptline}
 {marker sourceid_Q.5A0.5A0.C.9C.GGO.LOBN.1.ALL.NV.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.5A0.5A0.C.9C.GGO.LOBN.1.ALL.NV.TO1.ALL:Q.5A0.5A0.C.9C.GGO.LOBN.1.ALL.NV.TO1.ALL} - `"05_Official bilateral loans, other"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.5A0.5A0.C.9C.GGO.LOBN.1.ALL.NV.TO1.ALL:Q.5A0.5A0.C.9C.GGO.LOBN.1.ALL.NV.TO1.ALL} - 05_Official bilateral loans, other}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -212,7 +212,7 @@
 
 {synoptline}
 {marker sourceid_Q.5A0.5A0.C.9C.GGO.LOBT.1.ALL.NV.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.5A0.5A0.C.9C.GGO.LOBT.1.ALL.NV.TO1.ALL:Q.5A0.5A0.C.9C.GGO.LOBT.1.ALL.NV.TO1.ALL} - `"03_Official bilateral loans, total"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.5A0.5A0.C.9C.GGO.LOBT.1.ALL.NV.TO1.ALL:Q.5A0.5A0.C.9C.GGO.LOBT.1.ALL.NV.TO1.ALL} - 03_Official bilateral loans, total}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -224,7 +224,7 @@
 
 {synoptline}
 {marker sourceid_Q.5B0.5B0.C.5A.BKC.ASTT.1.ALL.MX.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.C.5A.BKC.ASTT.1.ALL.MX.TO1.ALL:Q.5B0.5B0.C.5A.BKC.ASTT.1.ALL.MX.TO1.ALL} - `"23_Liabilities to BIS banks, consolidated, total"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.C.5A.BKC.ASTT.1.ALL.MX.TO1.ALL:Q.5B0.5B0.C.5A.BKC.ASTT.1.ALL.MX.TO1.ALL} - 23_Liabilities to BIS banks, consolidated, total}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -236,7 +236,7 @@
 
 {synoptline}
 {marker sourceid_Q.5B0.5B0.C.5A.BKC.ASTT.1.STR.MX.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.C.5A.BKC.ASTT.1.STR.MX.TO1.ALL:Q.5B0.5B0.C.5A.BKC.ASTT.1.STR.MX.TO1.ALL} - `"12_Liabilities to BIS banks (cons.), short term"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.C.5A.BKC.ASTT.1.STR.MX.TO1.ALL:Q.5B0.5B0.C.5A.BKC.ASTT.1.STR.MX.TO1.ALL} - 12_Liabilities to BIS banks (cons.), short term}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -248,7 +248,7 @@
 
 {synoptline}
 {marker sourceid_Q.5B0.5B0.C.5A.BKL.ASTT.1.ALL.MX.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.C.5A.BKL.ASTT.1.ALL.MX.TO1.ALL:Q.5B0.5B0.C.5A.BKL.ASTT.1.ALL.MX.TO1.ALL} - `"22_Liabilities to BIS banks, locational, total"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.C.5A.BKL.ASTT.1.ALL.MX.TO1.ALL:Q.5B0.5B0.C.5A.BKL.ASTT.1.ALL.MX.TO1.ALL} - 22_Liabilities to BIS banks, locational, total}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -260,7 +260,7 @@
 
 {synoptline}
 {marker sourceid_Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.ALL:Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.ALL} - `"01_Cross-border loans from BIS reporting banks"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.ALL:Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.ALL} - 01_Cross-border loans from BIS reporting banks}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -272,7 +272,7 @@
 
 {synoptline}
 {marker sourceid_Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.NBK}
-{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.NBK:Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.NBK} - `"02_Cross-border loans from BIS banks to nonbanks"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.NBK:Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.NBK} - 02_Cross-border loans from BIS banks to nonbanks}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -284,7 +284,7 @@
 
 {synoptline}
 {marker sourceid_Q.5B0.5B0.D.5A.ALL.DFXB.1.ALL.NV.TO1.BMA}
-{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.D.5A.ALL.DFXB.1.ALL.NV.TO1.BMA:Q.5B0.5B0.D.5A.ALL.DFXB.1.ALL.NV.TO1.BMA} - `"27_Cross-border deposits with BIS rep. banks"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.D.5A.ALL.DFXB.1.ALL.NV.TO1.BMA:Q.5B0.5B0.D.5A.ALL.DFXB.1.ALL.NV.TO1.BMA} - 27_Cross-border deposits with BIS rep. banks}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -296,7 +296,7 @@
 
 {synoptline}
 {marker sourceid_Q.5B0.5B0.D.5A.NBK.DFXB.1.ALL.NV.TO1.BMA}
-{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.D.5A.NBK.DFXB.1.ALL.NV.TO1.BMA:Q.5B0.5B0.D.5A.NBK.DFXB.1.ALL.NV.TO1.BMA} - `"28_Cross-border dep. with BIS banks,  nonbanks"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.D.5A.NBK.DFXB.1.ALL.NV.TO1.BMA:Q.5B0.5B0.D.5A.NBK.DFXB.1.ALL.NV.TO1.BMA} - 28_Cross-border dep. with BIS banks,  nonbanks}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -308,7 +308,7 @@
 
 {synoptline}
 {marker sourceid_Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.ALL:Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.ALL} - `"16_International debt securities, all maturities"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.ALL:Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.ALL} - 16_International debt securities, all maturities}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -320,7 +320,7 @@
 
 {synoptline}
 {marker sourceid_Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.NBK}
-{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.NBK:Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.NBK} - `"17_International debt securities, nonbanks"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.NBK:Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.NBK} - 17_International debt securities, nonbanks}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -332,7 +332,7 @@
 
 {synoptline}
 {marker sourceid_Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.ALL:Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.ALL} - `"18_International debt securities, short term"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.ALL:Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.ALL} - 18_International debt securities, short term}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -344,7 +344,7 @@
 
 {synoptline}
 {marker sourceid_Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.NBK}
-{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.NBK:Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.NBK} - `"19_Intnl debt securities, nonbanks, short term"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.NBK:Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.NBK} - 19_Intnl debt securities, nonbanks, short term}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -356,7 +356,7 @@
 
 {synoptline}
 {marker sourceid_Q.6T0.5B0.C.3P.GGO.PCNO.1.ALL.NV.TO1.GGO}
-{synopt:{bf:{help wbopendata_sourceid##Q.6T0.5B0.C.3P.GGO.PCNO.1.ALL.NV.TO1.GGO:Q.6T0.5B0.C.3P.GGO.PCNO.1.ALL.NV.TO1.GGO} - `"21_Paris Club claims (non ODA)"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.6T0.5B0.C.3P.GGO.PCNO.1.ALL.NV.TO1.GGO:Q.6T0.5B0.C.3P.GGO.PCNO.1.ALL.NV.TO1.GGO} - 21_Paris Club claims (non ODA)}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -368,7 +368,7 @@
 
 {synoptline}
 {marker sourceid_Q.6T0.5B0.C.3P.GGO.PCOD.1.ALL.NV.TO1.GGO}
-{synopt:{bf:{help wbopendata_sourceid##Q.6T0.5B0.C.3P.GGO.PCOD.1.ALL.NV.TO1.GGO:Q.6T0.5B0.C.3P.GGO.PCOD.1.ALL.NV.TO1.GGO} - `"20_Paris Club claims (ODA)"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.6T0.5B0.C.3P.GGO.PCOD.1.ALL.NV.TO1.GGO:Q.6T0.5B0.C.3P.GGO.PCOD.1.ALL.NV.TO1.GGO} - 20_Paris Club claims (ODA)}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -380,7 +380,7 @@
 
 {synoptline}
 {marker sourceid_Q.8A0.5B0.C.5A.ALL.IECE.1.ALL.MX.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.8A0.5B0.C.5A.ALL.IECE.1.ALL.MX.TO1.ALL:Q.8A0.5B0.C.5A.ALL.IECE.1.ALL.MX.TO1.ALL} - `"09_Insured export credit exposures, Berne Union"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.8A0.5B0.C.5A.ALL.IECE.1.ALL.MX.TO1.ALL:Q.8A0.5B0.C.5A.ALL.IECE.1.ALL.MX.TO1.ALL} - 09_Insured export credit exposures, Berne Union}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -392,7 +392,7 @@
 
 {synoptline}
 {marker sourceid_Q.8A0.5B0.C.5A.ALL.IECE.1.STR.MX.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.8A0.5B0.C.5A.ALL.IECE.1.STR.MX.TO1.ALL:Q.8A0.5B0.C.5A.ALL.IECE.1.STR.MX.TO1.ALL} - `"10_Insured export credit exposures, short term (BU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##Q.8A0.5B0.C.5A.ALL.IECE.1.STR.MX.TO1.ALL:Q.8A0.5B0.C.5A.ALL.IECE.1.STR.MX.TO1.ALL} - 10_Insured export credit exposures, short term (BU)}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -403,4 +403,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

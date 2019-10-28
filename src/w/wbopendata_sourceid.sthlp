@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1215,11 +1215,11 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_GF.XPD.BUDG.ZS:GF.XPD.BUDG.ZS{marker GF.XPD.BUDG.ZS}}}Primary government expenditures as a proportion of original approved budget (%){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.BUS.DFRN.XQ:IC.BUS.DFRN.XQ{marker IC.BUS.DFRN.XQ}}}Distance to frontier score (0=lowest performance to 100=frontier){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.BUS.DFRN.XQ:IC.BUS.DFRN.XQ{marker IC.BUS.DFRN.XQ}}}Ease of doing business score (0 = lowest performance to 100 = best performance){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.BUS.DISC.XQ:IC.BUS.DISC.XQ{marker IC.BUS.DISC.XQ}}}Business extent of disclosure index (0=less disclosure to 10=more disclosure){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Rank: Ease of doing business index (1=most business-friendly regulations){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Ease of doing business index (1=most business-friendly regulations){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.BUS.NDNS.ZS:IC.BUS.NDNS.ZS{marker IC.BUS.NDNS.ZS}}}New business density (new registrations per 1,000 people ages 15-64){p_end}
 
@@ -1239,7 +1239,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.ELC.OUTG.ZS:IC.ELC.OUTG.ZS{marker IC.ELC.OUTG.ZS}}}Firms experiencing electrical outages (% of firms){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.ELC.TIME:IC.ELC.TIME{marker IC.ELC.TIME}}}Getting electricity: Time (days){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.ELC.TIME:IC.ELC.TIME{marker IC.ELC.TIME}}}Time required to get electricity (days){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.EXP.CSBC.CD:IC.EXP.CSBC.CD{marker IC.EXP.CSBC.CD}}}Cost to export, border compliance (US$){p_end}
 
@@ -1301,9 +1301,9 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.PRP.PROC:IC.PRP.PROC{marker IC.PRP.PROC}}}Procedures to register property (number){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.REG.COST.PC.FE.ZS:IC.REG.COST.PC.FE.ZS{marker IC.REG.COST.PC.FE.ZS}}}Starting a business: Cost - Women (% of income per capita){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.REG.COST.PC.FE.ZS:IC.REG.COST.PC.FE.ZS{marker IC.REG.COST.PC.FE.ZS}}}Cost of business start-up procedures, female (% of GNI per capita){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.REG.COST.PC.MA.ZS:IC.REG.COST.PC.MA.ZS{marker IC.REG.COST.PC.MA.ZS}}}Starting a business: Cost - Men (% of income per capita){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.REG.COST.PC.MA.ZS:IC.REG.COST.PC.MA.ZS{marker IC.REG.COST.PC.MA.ZS}}}Cost of business start-up procedures, male (% of GNI per capita){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.REG.COST.PC.ZS:IC.REG.COST.PC.ZS{marker IC.REG.COST.PC.ZS}}}Cost of business start-up procedures (% of GNI per capita){p_end}
 
@@ -35001,4 +35001,4 @@
 {synopt:{help wbopendata_sourceid_indicators75##sourceid_EN.CLC.SPEI.XD:EN.CLC.SPEI.XD{marker EN.CLC.SPEI.XD}}}Mean Drought Index (SPEI){p_end}
 {synoptline}
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

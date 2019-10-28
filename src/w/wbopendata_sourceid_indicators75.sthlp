@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:75 Environment, Social and Governance (ESG) Data}}}
 {synoptline}
 {marker sourceid_EN.CLC.CDDY.XD}
-{synopt:{bf:{help wbopendata_sourceid##EN.CLC.CDDY.XD:EN.CLC.CDDY.XD} - `"Cooling Degree Days"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.CDDY.XD:EN.CLC.CDDY.XD} - Cooling Degree Days}}
 
 {synopt:{opt Source}}75 Environment, Social and Governance (ESG) Data{p_end}
 
@@ -80,7 +80,7 @@
 
 {synoptline}
 {marker sourceid_EN.CLC.HEAT.XD}
-{synopt:{bf:{help wbopendata_sourceid##EN.CLC.HEAT.XD:EN.CLC.HEAT.XD} - `"Health Index 35"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.HEAT.XD:EN.CLC.HEAT.XD} - Health Index 35}}
 
 {synopt:{opt Source}}75 Environment, Social and Governance (ESG) Data{p_end}
 
@@ -92,7 +92,7 @@
 
 {synoptline}
 {marker sourceid_EN.CLC.PRCP.XD}
-{synopt:{bf:{help wbopendata_sourceid##EN.CLC.PRCP.XD:EN.CLC.PRCP.XD} - `"Maximum 5-day Rainfall (25-yr RL)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.PRCP.XD:EN.CLC.PRCP.XD} - Maximum 5-day Rainfall (25-yr RL)}}
 
 {synopt:{opt Source}}75 Environment, Social and Governance (ESG) Data{p_end}
 
@@ -104,7 +104,7 @@
 
 {synoptline}
 {marker sourceid_EN.CLC.SPEI.XD}
-{synopt:{bf:{help wbopendata_sourceid##EN.CLC.SPEI.XD:EN.CLC.SPEI.XD} - `"Mean Drought Index (SPEI)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.SPEI.XD:EN.CLC.SPEI.XD} - Mean Drought Index (SPEI)}}
 
 {synopt:{opt Source}}75 Environment, Social and Governance (ESG) Data{p_end}
 
@@ -115,4 +115,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

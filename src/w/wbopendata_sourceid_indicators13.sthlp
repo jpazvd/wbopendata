@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:13 Enterprise Surveys}}}
 {synoptline}
 {marker sourceid_IC.FRM.CORR.CORR1}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR1:IC.FRM.CORR.CORR1} - `"Percent of firms expected to give gifts in meetings with tax officials"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR1:IC.FRM.CORR.CORR1} - Percent of firms expected to give gifts in meetings with tax officials}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -80,7 +80,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CORR.CORR10}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR10:IC.FRM.CORR.CORR10} - `"Percent of firms expected to give gifts to get an operating license"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR10:IC.FRM.CORR.CORR10} - Percent of firms expected to give gifts to get an operating license}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -92,7 +92,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CORR.CORR11}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR11:IC.FRM.CORR.CORR11} - `"Percent of firms identifying corruption as a major constraint"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR11:IC.FRM.CORR.CORR11} - Percent of firms identifying corruption as a major constraint}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -104,7 +104,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CORR.CORR2}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR2:IC.FRM.CORR.CORR2} - `"Percent of firms expected to give gifts to secure government contract"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR2:IC.FRM.CORR.CORR2} - Percent of firms expected to give gifts to secure government contract}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -116,7 +116,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CORR.CORR3}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR3:IC.FRM.CORR.CORR3} - `"Value of gift expected to secure a government contract (% of contract value)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR3:IC.FRM.CORR.CORR3} - Value of gift expected to secure a government contract (% of contract value)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -128,7 +128,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CORR.CORR4}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR4:IC.FRM.CORR.CORR4} - `"Percent of firms expected to give gifts to public officials to get things done"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR4:IC.FRM.CORR.CORR4} - Percent of firms expected to give gifts to public officials to get things done}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -140,7 +140,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CORR.CORR6}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR6:IC.FRM.CORR.CORR6} - `"Percent of firms expected to give gifts to get an electrical connection"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR6:IC.FRM.CORR.CORR6} - Percent of firms expected to give gifts to get an electrical connection}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -152,7 +152,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CORR.CORR7}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR7:IC.FRM.CORR.CORR7} - `"Percent of firms expected to give gifts to get a water connection"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR7:IC.FRM.CORR.CORR7} - Percent of firms expected to give gifts to get a water connection}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -164,7 +164,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CORR.CORR8}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR8:IC.FRM.CORR.CORR8} - `"Percent of firms expected to give gifts to get a construction permit"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR8:IC.FRM.CORR.CORR8} - Percent of firms expected to give gifts to get a construction permit}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -176,7 +176,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CORR.CORR9}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR9:IC.FRM.CORR.CORR9} - `"Percent of firms expected to give gifts to get an import license"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR9:IC.FRM.CORR.CORR9} - Percent of firms expected to give gifts to get an import license}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -188,7 +188,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CORR.CRIME9}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CRIME9:IC.FRM.CORR.CRIME9} - `"Percent of firms identifying the courts system as a major constraint"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CRIME9:IC.FRM.CORR.CRIME9} - Percent of firms identifying the courts system as a major constraint}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -200,7 +200,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CORR.GRAFT2}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.GRAFT2:IC.FRM.CORR.GRAFT2} - `"Bribery index (% of gift or informal payment requests during public transactions)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.GRAFT2:IC.FRM.CORR.GRAFT2} - Bribery index (% of gift or informal payment requests during public transactions)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -212,7 +212,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CRM.CRIME1}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRM.CRIME1:IC.FRM.CRM.CRIME1} - `"Percent of firms paying for security"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRM.CRIME1:IC.FRM.CRM.CRIME1} - Percent of firms paying for security}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -224,7 +224,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CRM.CRIME2_C}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRM.CRIME2_C:IC.FRM.CRM.CRIME2_C} - `"If the establishment pays for security, average security costs (% of annual sales)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRM.CRIME2_C:IC.FRM.CRM.CRIME2_C} - If the establishment pays for security, average security costs (% of annual sales)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -236,7 +236,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CRM.CRIME3_C}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRM.CRIME3_C:IC.FRM.CRM.CRIME3_C} - `"If there were losses, average losses due to theft and vandalism (% of annual sales)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRM.CRIME3_C:IC.FRM.CRM.CRIME3_C} - If there were losses, average losses due to theft and vandalism (% of annual sales)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -248,7 +248,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CRM.CRIME5}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRM.CRIME5:IC.FRM.CRM.CRIME5} - `"Products shipped to supply domestic markets that were lost due to theft (% of product value)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRM.CRIME5:IC.FRM.CRM.CRIME5} - Products shipped to supply domestic markets that were lost due to theft (% of product value)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -260,7 +260,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CRM.CRIME8}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRM.CRIME8:IC.FRM.CRM.CRIME8} - `"Percent of firms identifying crime, theft and disorder as a major constraint"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRM.CRIME8:IC.FRM.CRM.CRIME8} - Percent of firms identifying crime, theft and disorder as a major constraint}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -272,7 +272,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FCHAR.CAR1}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FCHAR.CAR1:IC.FRM.FCHAR.CAR1} - `"Age of the establishment (years)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FCHAR.CAR1:IC.FRM.FCHAR.CAR1} - Age of the establishment (years)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -284,7 +284,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FCHAR.CAR2}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FCHAR.CAR2:IC.FRM.FCHAR.CAR2} - `"Proportion of private domestic ownership in a firm (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FCHAR.CAR2:IC.FRM.FCHAR.CAR2} - Proportion of private domestic ownership in a firm (%)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -296,7 +296,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FCHAR.LFORM3}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FCHAR.LFORM3:IC.FRM.FCHAR.LFORM3} - `"Percent of firms with legal status of Sole Proprietorship"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FCHAR.LFORM3:IC.FRM.FCHAR.LFORM3} - Percent of firms with legal status of Sole Proprietorship}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -308,7 +308,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FIN.FIN1}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN1:IC.FRM.FIN.FIN1} - `"Proportion of investment financed internally (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN1:IC.FRM.FIN.FIN1} - Proportion of investment financed internally (%)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -320,7 +320,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FIN.FIN10}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN10:IC.FRM.FIN.FIN10} - `"Value of collateral needed for a loan (% of the loan amount)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN10:IC.FRM.FIN.FIN10} - Value of collateral needed for a loan (% of the loan amount)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -332,7 +332,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FIN.FIN11}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN11:IC.FRM.FIN.FIN11} - `"Proportion of loans requiring collateral (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN11:IC.FRM.FIN.FIN11} - Proportion of loans requiring collateral (%)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -344,7 +344,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FIN.FIN12}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN12:IC.FRM.FIN.FIN12} - `"Percent of firms using banks to finance investments"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN12:IC.FRM.FIN.FIN12} - Percent of firms using banks to finance investments}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -356,7 +356,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FIN.FIN13}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN13:IC.FRM.FIN.FIN13} - `"Percent of firms using banks to finance working capital"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN13:IC.FRM.FIN.FIN13} - Percent of firms using banks to finance working capital}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -368,7 +368,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FIN.FIN14}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN14:IC.FRM.FIN.FIN14} - `"Percent of firms with a bank loan/line of credit"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN14:IC.FRM.FIN.FIN14} - Percent of firms with a bank loan/line of credit}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -380,7 +380,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FIN.FIN15}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN15:IC.FRM.FIN.FIN15} - `"Percent of firms with a checking or savings account"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN15:IC.FRM.FIN.FIN15} - Percent of firms with a checking or savings account}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -392,7 +392,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FIN.FIN16}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN16:IC.FRM.FIN.FIN16} - `"Percent of firms identifying access to finance as a major constraint"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN16:IC.FRM.FIN.FIN16} - Percent of firms identifying access to finance as a major constraint}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -404,7 +404,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FIN.FIN2}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN2:IC.FRM.FIN.FIN2} - `"Proportion of investment financed by banks (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN2:IC.FRM.FIN.FIN2} - Proportion of investment financed by banks (%)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -416,7 +416,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FIN.FIN20}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN20:IC.FRM.FIN.FIN20} - `"Percent of firms not needing a loan"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN20:IC.FRM.FIN.FIN20} - Percent of firms not needing a loan}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -428,7 +428,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FIN.FIN21}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN21:IC.FRM.FIN.FIN21} - `"Percent of firms whose recent loan application was rejected"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN21:IC.FRM.FIN.FIN21} - Percent of firms whose recent loan application was rejected}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -440,7 +440,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FIN.FIN7}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN7:IC.FRM.FIN.FIN7} - `"Proportion of working capital financed by banks (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN7:IC.FRM.FIN.FIN7} - Proportion of working capital financed by banks (%)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -452,7 +452,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.GEN.GEND1}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.GEN.GEND1:IC.FRM.GEN.GEND1} - `"Percent of firms with female participation in ownership"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.GEN.GEND1:IC.FRM.GEN.GEND1} - Percent of firms with female participation in ownership}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -464,7 +464,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.GEN.GEND2}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.GEN.GEND2:IC.FRM.GEN.GEND2} - `"Proportion of permanent full-time workers that are female (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.GEN.GEND2:IC.FRM.GEN.GEND2} - Proportion of permanent full-time workers that are female (%)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -476,7 +476,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.GEN.GEND3}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.GEN.GEND3:IC.FRM.GEN.GEND3} - `"Proportion of permanent full-time non-production workers that are female (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.GEN.GEND3:IC.FRM.GEN.GEND3} - Proportion of permanent full-time non-production workers that are female (%)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -488,7 +488,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.GEN.GEND4}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.GEN.GEND4:IC.FRM.GEN.GEND4} - `"Percent of firms with a female top manager"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.GEN.GEND4:IC.FRM.GEN.GEND4} - Percent of firms with a female top manager}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -500,7 +500,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INFOR.INFOR1}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFOR.INFOR1:IC.FRM.INFOR.INFOR1} - `"Percent of firms competing against unregistered or informal firms"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFOR.INFOR1:IC.FRM.INFOR.INFOR1} - Percent of firms competing against unregistered or informal firms}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -512,7 +512,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INFOR.INFOR2}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFOR.INFOR2:IC.FRM.INFOR.INFOR2} - `"Percent of firms identifying practices of competitors in the informal sector as a major constraint"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFOR.INFOR2:IC.FRM.INFOR.INFOR2} - Percent of firms identifying practices of competitors in the informal sector as a major constraint}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -524,7 +524,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INFOR.INFOR4}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFOR.INFOR4:IC.FRM.INFOR.INFOR4} - `"Percent of firms formally registered when they started operations in the country"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFOR.INFOR4:IC.FRM.INFOR.INFOR4} - Percent of firms formally registered when they started operations in the country}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -536,7 +536,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INFOR.INFOR5}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFOR.INFOR5:IC.FRM.INFOR.INFOR5} - `"Number of years firm operated without formal registration"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFOR.INFOR5:IC.FRM.INFOR.INFOR5} - Number of years firm operated without formal registration}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -548,7 +548,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INFRA.IN1}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN1:IC.FRM.INFRA.IN1} - `"Days to obtain an electrical connection (upon application)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN1:IC.FRM.INFRA.IN1} - Days to obtain an electrical connection (upon application)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -560,7 +560,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INFRA.IN10_C}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN10_C:IC.FRM.INFRA.IN10_C} - `"If a generator is used, average proportion of electricity from a generator (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN10_C:IC.FRM.INFRA.IN10_C} - If a generator is used, average proportion of electricity from a generator (%)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -572,7 +572,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INFRA.IN11}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN11:IC.FRM.INFRA.IN11} - `"Percent of firms identifying transportation as a major constraint"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN11:IC.FRM.INFRA.IN11} - Percent of firms identifying transportation as a major constraint}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -584,7 +584,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INFRA.IN12}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN12:IC.FRM.INFRA.IN12} - `"Percent of firms identifying electricity as a major constraint"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN12:IC.FRM.INFRA.IN12} - Percent of firms identifying electricity as a major constraint}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -596,7 +596,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INFRA.IN14}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN14:IC.FRM.INFRA.IN14} - `"Proportion of products lost to breakage or spoilage during shipping to domestic markets (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN14:IC.FRM.INFRA.IN14} - Proportion of products lost to breakage or spoilage during shipping to domestic markets (%)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -608,7 +608,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INFRA.IN2}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN2:IC.FRM.INFRA.IN2} - `"Number of electrical outages in a typical month"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN2:IC.FRM.INFRA.IN2} - Number of electrical outages in a typical month}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -620,7 +620,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INFRA.IN3_C}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN3_C:IC.FRM.INFRA.IN3_C} - `"If there were outages, average duration of a typical electrical outage (hours)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN3_C:IC.FRM.INFRA.IN3_C} - If there were outages, average duration of a typical electrical outage (hours)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -632,7 +632,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INFRA.IN6}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN6:IC.FRM.INFRA.IN6} - `"Number of water insufficiencies in a typical month"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN6:IC.FRM.INFRA.IN6} - Number of water insufficiencies in a typical month}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -644,7 +644,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INFRA.IN9}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN9:IC.FRM.INFRA.IN9} - `"Percent of firms owning or sharing  a generator"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN9:IC.FRM.INFRA.IN9} - Percent of firms owning or sharing  a generator}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -656,7 +656,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INNOV.T1}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INNOV.T1:IC.FRM.INNOV.T1} - `"Percent of firms with an internationally-recognized quality certification"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INNOV.T1:IC.FRM.INNOV.T1} - Percent of firms with an internationally-recognized quality certification}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -668,7 +668,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INNOV.T2}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INNOV.T2:IC.FRM.INNOV.T2} - `"Percent of firms with an annual financial statement reviewed by external auditors"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INNOV.T2:IC.FRM.INNOV.T2} - Percent of firms with an annual financial statement reviewed by external auditors}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -680,7 +680,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INNOV.T3}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INNOV.T3:IC.FRM.INNOV.T3} - `"Capacity utilization (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INNOV.T3:IC.FRM.INNOV.T3} - Capacity utilization (%)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -692,7 +692,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INNOV.T4}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INNOV.T4:IC.FRM.INNOV.T4} - `"Percent of firms using technology licensed from foreign companies"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INNOV.T4:IC.FRM.INNOV.T4} - Percent of firms using technology licensed from foreign companies}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -704,7 +704,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INNOV.T5}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INNOV.T5:IC.FRM.INNOV.T5} - `"Percent of firms having their own Web site"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INNOV.T5:IC.FRM.INNOV.T5} - Percent of firms having their own Web site}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -716,7 +716,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INNOV.T6}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INNOV.T6:IC.FRM.INNOV.T6} - `"Percent of firms using e-mail to interact with clients/suppliers"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INNOV.T6:IC.FRM.INNOV.T6} - Percent of firms using e-mail to interact with clients/suppliers}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -728,7 +728,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST1}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST1:IC.FRM.OBS.OBST1} - `"Percent of firms choosing access to finance as their biggest obstacle"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST1:IC.FRM.OBS.OBST1} - Percent of firms choosing access to finance as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -740,7 +740,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST10}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST10:IC.FRM.OBS.OBST10} - `"Percent of firms choosing labor regulations as their biggest obstacle"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST10:IC.FRM.OBS.OBST10} - Percent of firms choosing labor regulations as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -752,7 +752,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST11}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST11:IC.FRM.OBS.OBST11} - `"Percent of firms choosing political instability as their biggest obstacle"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST11:IC.FRM.OBS.OBST11} - Percent of firms choosing political instability as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -764,7 +764,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST12}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST12:IC.FRM.OBS.OBST12} - `"Percent of firms choosing practices of the informal sector as their biggest obstacle"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST12:IC.FRM.OBS.OBST12} - Percent of firms choosing practices of the informal sector as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -776,7 +776,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST13}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST13:IC.FRM.OBS.OBST13} - `"Percent of firms choosing tax administration as their biggest obstacle"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST13:IC.FRM.OBS.OBST13} - Percent of firms choosing tax administration as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -788,7 +788,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST14}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST14:IC.FRM.OBS.OBST14} - `"Percent of firms choosing tax rates as their biggest obstacle"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST14:IC.FRM.OBS.OBST14} - Percent of firms choosing tax rates as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -800,7 +800,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST15}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST15:IC.FRM.OBS.OBST15} - `"Percent of firms choosing transportation as their biggest obstacle"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST15:IC.FRM.OBS.OBST15} - Percent of firms choosing transportation as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -812,7 +812,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST2}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST2:IC.FRM.OBS.OBST2} - `"Percent of firms choosing access to land as their biggest obstacle"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST2:IC.FRM.OBS.OBST2} - Percent of firms choosing access to land as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -824,7 +824,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST3}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST3:IC.FRM.OBS.OBST3} - `"Percent of firms choosing business licensing and permits as their biggest obstacle"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST3:IC.FRM.OBS.OBST3} - Percent of firms choosing business licensing and permits as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -836,7 +836,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST4}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST4:IC.FRM.OBS.OBST4} - `"Percent of firms choosing corruption as their biggest obstacle"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST4:IC.FRM.OBS.OBST4} - Percent of firms choosing corruption as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -848,7 +848,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST5}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST5:IC.FRM.OBS.OBST5} - `"Percent of firms choosing courts as their biggest obstacle"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST5:IC.FRM.OBS.OBST5} - Percent of firms choosing courts as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -860,7 +860,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST6}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST6:IC.FRM.OBS.OBST6} - `"Percent of firms choosing crime, theft and disorder as their biggest obstacle"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST6:IC.FRM.OBS.OBST6} - Percent of firms choosing crime, theft and disorder as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -872,7 +872,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST7}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST7:IC.FRM.OBS.OBST7} - `"Percent of firms choosing customs and trade regulations as their biggest obstacle"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST7:IC.FRM.OBS.OBST7} - Percent of firms choosing customs and trade regulations as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -884,7 +884,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST8}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST8:IC.FRM.OBS.OBST8} - `"Percent of firms choosing electricity as their biggest obstacle"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST8:IC.FRM.OBS.OBST8} - Percent of firms choosing electricity as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -896,7 +896,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST9}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST9:IC.FRM.OBS.OBST9} - `"Percent of firms choosing inadequately educated workforce as their biggest obstacle"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST9:IC.FRM.OBS.OBST9} - Percent of firms choosing inadequately educated workforce as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -908,7 +908,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.REG.BUS1}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.BUS1:IC.FRM.REG.BUS1} - `"Days to obtain an import license"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.BUS1:IC.FRM.REG.BUS1} - Days to obtain an import license}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -920,7 +920,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.REG.BUS2}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.BUS2:IC.FRM.REG.BUS2} - `"Days to obtain an operating license"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.BUS2:IC.FRM.REG.BUS2} - Days to obtain an operating license}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -932,7 +932,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.REG.BUS3}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.BUS3:IC.FRM.REG.BUS3} - `"Days to obtain a construction-related permit"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.BUS3:IC.FRM.REG.BUS3} - Days to obtain a construction-related permit}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -944,7 +944,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.REG.BUS5}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.BUS5:IC.FRM.REG.BUS5} - `"Percent of firms identifying business licensing and permits as a major constraint"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.BUS5:IC.FRM.REG.BUS5} - Percent of firms identifying business licensing and permits as a major constraint}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -956,7 +956,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.REG.REG1}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.REG1:IC.FRM.REG.REG1} - `"Senior management time spent dealing with the requirements of government regulation (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.REG1:IC.FRM.REG.REG1} - Senior management time spent dealing with the requirements of government regulation (%)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -968,7 +968,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.REG.REG2_C}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.REG2_C:IC.FRM.REG.REG2_C} - `"If there were visits, average number of visits or required meetings with tax officials"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.REG2_C:IC.FRM.REG.REG2_C} - If there were visits, average number of visits or required meetings with tax officials}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -980,7 +980,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.REG.REG4}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.REG4:IC.FRM.REG.REG4} - `"Percent of firms identifying tax rates as a major constraint"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.REG4:IC.FRM.REG.REG4} - Percent of firms identifying tax rates as a major constraint}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -992,7 +992,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.REG.REG5}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.REG5:IC.FRM.REG.REG5} - `"Percent of firms identifying tax administration as a major constraint"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.REG5:IC.FRM.REG.REG5} - Percent of firms identifying tax administration as a major constraint}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -1004,7 +1004,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.TRD.TR1}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRD.TR1:IC.FRM.TRD.TR1} - `"Days to clear direct exports through customs"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRD.TR1:IC.FRM.TRD.TR1} - Days to clear direct exports through customs}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -1016,7 +1016,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.TRD.TR11}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRD.TR11:IC.FRM.TRD.TR11} - `"Percent of firms using material inputs and/or supplies of foreign origin"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRD.TR11:IC.FRM.TRD.TR11} - Percent of firms using material inputs and/or supplies of foreign origin}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -1028,7 +1028,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.TRD.TR2}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRD.TR2:IC.FRM.TRD.TR2} - `"Days to clear imports from customs"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRD.TR2:IC.FRM.TRD.TR2} - Days to clear imports from customs}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -1040,7 +1040,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.TRD.TR5}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRD.TR5:IC.FRM.TRD.TR5} - `"Proportion of total sales that are exported directly (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRD.TR5:IC.FRM.TRD.TR5} - Proportion of total sales that are exported directly (%)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -1052,7 +1052,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.TRD.TR8}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRD.TR8:IC.FRM.TRD.TR8} - `"Proportion of total inputs that are of foreign origin (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRD.TR8:IC.FRM.TRD.TR8} - Proportion of total inputs that are of foreign origin (%)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -1064,7 +1064,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.TRD.TR9}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRD.TR9:IC.FRM.TRD.TR9} - `"Percent of firms identifying customs and trade regulations as a major constraint"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRD.TR9:IC.FRM.TRD.TR9} - Percent of firms identifying customs and trade regulations as a major constraint}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -1076,7 +1076,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.WRKF.WK1}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.WRKF.WK1:IC.FRM.WRKF.WK1} - `"Percent of firms offering formal training"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.WRKF.WK1:IC.FRM.WRKF.WK1} - Percent of firms offering formal training}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -1088,7 +1088,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.WRKF.WK10}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.WRKF.WK10:IC.FRM.WRKF.WK10} - `"Percent of firms identifying an inadequately educated workforce as a major constraint"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.WRKF.WK10:IC.FRM.WRKF.WK10} - Percent of firms identifying an inadequately educated workforce as a major constraint}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -1100,7 +1100,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.WRKF.WK2}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.WRKF.WK2:IC.FRM.WRKF.WK2} - `"Proportion of workers offered formal training (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.WRKF.WK2:IC.FRM.WRKF.WK2} - Proportion of workers offered formal training (%)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -1112,7 +1112,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.WRKF.WK8}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.WRKF.WK8:IC.FRM.WRKF.WK8} - `"Years of the top manager's experience working in the firm's sector"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.WRKF.WK8:IC.FRM.WRKF.WK8} - Years of the top manager's experience working in the firm's sector}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -1124,7 +1124,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.WRKF.WK9}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.WRKF.WK9:IC.FRM.WRKF.WK9} - `"Percent of firms identifying labor regulations as a major constraint"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.WRKF.WK9:IC.FRM.WRKF.WK9} - Percent of firms identifying labor regulations as a major constraint}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -1135,4 +1135,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

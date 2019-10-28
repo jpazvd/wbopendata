@@ -2,7 +2,7 @@
 * _update_indicators                                                                   
 *! v 16.0   27Oct2019				by João Pedro Azevedo
 *		fix macros
-/*******************************************************************************
+*******************************************************************************
 
 
 program define _update_indicators, rclass
@@ -24,7 +24,7 @@ version 9
 			] 			
 						 
 
-*******************************************************************************/
+*******************************************************************************
 
 	tempfile tmp
 	
@@ -81,7 +81,7 @@ quietly {
 	foreach var in topicid sourceid {
 		replace `var' = subinstr(`var',"&amp;","and",.) 
 		replace `var' = subinstr(`var',">"," ",.) 
-		replace `var' = string(0)+`var' if length(word(`var',1))==1
+		replace `var' = "0"+`var' if real(substr(`var',1,2))<=9 & real(substr(`var',1,1)) !=.
 	}
 
 	* Indentify multiple entries for the same indicator	
@@ -136,7 +136,7 @@ if ("`noindlist'" == "") {
 *noi gen length = length(sourcenote)
 *noi sum
 	
-	noi di in smcl in g "{bf: Processing indicators list... COMPLETED!}"
+	noi di in smcl in g "{bf: Processing indicators list...COMPLETED!}"
 
 }
 
@@ -243,7 +243,7 @@ if ("`nosthlp1'" == "") {
 						local indicatorcode 	= indicatorcode   	in `line'
 						
 						file write `hlp`variable''  ""  _n
-						file write `hlp`variable''  "{synopt:{help wbopendata_`variable'_indicators`topicode0'##`variable'_`indicatorcode':`indicatorcode'{marker `indicatorcode'}}}`indicatorname3'{p_end}" _n
+						file write `hlp`variable''  "{synopt:{help wbopendata_`variable'_indicators`topicode0'##`variable'_`indicatorcode':`indicatorcode'{marker `indicatorcode'}}}`indicatorname'{p_end}" _n
 						
 					}
 				
@@ -271,7 +271,7 @@ if ("`nosthlp1'" == "") {
 	}		
 	
 	noi di in smcl in g ""
-	noi di in smcl in g "{bf: Processing indicators by source and topic... COMPLETED!}"
+	noi di in smcl in g "{bf: Processing indicators by source and topic...COMPLETED!}"
 	noi di in smcl in g ""
 
 }
@@ -393,8 +393,8 @@ if ("`nosthlp2'" == "") {
 						`noi' di "`variable' : `topic1' :  `indicator'"
 
 						local indicatorcode 		"`indicator'"
-						levelsof indicatorname if indicatorcode == "`indicator'", clean miss local(indicatorname)
-						local indicatorname 	`r(indicatorname)'
+						levelsof indicatorname if indicatorcode == "`indicator'"
+						local indicatorname 	`r(levels)'
 						levelsof sourceid if indicatorcode == "`indicator'"
 						local sourceid 				`r(levels)'
 						levelsof sourceorganization if indicatorcode == "`indicator'"
@@ -461,7 +461,7 @@ if ("`nosthlp2'" == "") {
 	}		
 	
 	noi di in smcl in g ""
-	noi di in smcl in g "{bf: Processing indicators metadata by source and topic... COMPLETED!}"
+	noi di in smcl in g "{bf: Processing indicators metadata by source and topic...COMPLETED!}"
 	noi di in smcl in g ""
 		
 }
@@ -485,7 +485,7 @@ if ("`nosthlp2'" == "") {
 		tab sourceid, m
 		
 		levelsof sourceid
-		return local sourceid  " `"`r(levels)'"' "
+		return local sourceid  `"`r(levels)'"' 
 		
 		foreach varvalue in `r(levels)' {
 			di `"`varvalue'"'
@@ -513,7 +513,8 @@ if ("`nosthlp2'" == "") {
 		tab topicid, m
 	
 		levelsof topicid
-		return local topicid " `"`r(levels)'"' "
+		return local topicid `"`r(levels)'"'
+		
 		foreach varvalue in `r(levels)' {
 			di `"`varvalue'"'
 			sum if topicid == "`varvalue'" & topicid != ""
