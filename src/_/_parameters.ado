@@ -1,4 +1,4 @@
-*! _parameters <28 Oct 2019 : 18:07:06>    João Pedro Azevedo 
+*! _parameters <28 Oct 2019 : 19:07:16>    João Pedro Azevedo 
 
 program define _parameters, rclass
 
@@ -91,12 +91,12 @@ version 9
 
 
              return local number_indicators = 17299
-             return local dt_update "28 Oct 2019 18:07:06" 
-             return local dt_lastcheck  "28 Oct 2019 18:07:06" 
+             return local dt_update "28 Oct 2019 19:07:16" 
+             return local dt_lastcheck  "28 Oct 2019 19:07:16" 
 
              return local ctrymetadata = 304
-             return local dt_ctrylastupdate  "28 Oct 2019 18:03:19" 
-             return local dt_ctrylastcheck   "28 Oct 2019 18:07:06" 
-             return local dt_ctryupdate  "28 Oct 2019 18:09:42" 
+             return local dt_ctrylastupdate  "28 Oct 2019 18:43:09" 
+             return local dt_ctrylastcheck   "28 Oct 2019 19:07:16" 
+             return local dt_ctryupdate  "28 Oct 2019 19:10:13" 
 
 end
