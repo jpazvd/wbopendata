@@ -1,6 +1,6 @@
 *******************************************************************************
 * _update_indicators                                                                   
-*! v 16.0   20Oct2019				by João Pedro Azevedo
+*! v 16.0   27Oct2019				by João Pedro Azevedo
 *		fix macros
 /*******************************************************************************
 
@@ -394,7 +394,7 @@ if ("`nosthlp2'" == "") {
 
 						local indicatorcode 		"`indicator'"
 						levelsof indicatorname if indicatorcode == "`indicator'", clean miss local(indicatorname)
-						local indicatorname2 	`r(indicatorname)'
+						local indicatorname 	`r(indicatorname)'
 						levelsof sourceid if indicatorcode == "`indicator'"
 						local sourceid 				`r(levels)'
 						levelsof sourceorganization if indicatorcode == "`indicator'"
@@ -414,7 +414,7 @@ if ("`nosthlp2'" == "") {
 						
 						file write `hlp`variable'`tc0''  "{synoptline}" _n
 						file write `hlp`variable'`tc0''  `"{marker `variable'_`indicatorcode'}"' _n
-						file write `hlp`variable'`tc0''  `"{synopt:{bf:{help wbopendata_`variable'##`indicatorcode':`indicatorcode'} - `indicatorname3'}}"' _n 
+						file write `hlp`variable'`tc0''  `"{synopt:{bf:{help wbopendata_`variable'##`indicatorcode':`indicatorcode'} - `indicatorname'}}"' _n 
 						file write `hlp`variable'`tc0''  "" _n
 						file write `hlp`variable'`tc0''  `"{synopt:{opt Source}}`sourceid'{p_end}"'  _n
 						file write `hlp`variable'`tc0''  "" _n
