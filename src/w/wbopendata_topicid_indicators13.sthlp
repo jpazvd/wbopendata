@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 20oct2019)}
+{right:(as of 27oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -42,7 +42,7 @@
 {marker topicid_GB.TAX.CMAR.ZS}
 {synopt:{bf:{help wbopendata_topicid##GB.TAX.CMAR.ZS:GB.TAX.CMAR.ZS} - `"Highest marginal tax rate, corporate rate (%)"'}}
 
-{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -55,7 +55,7 @@
 {marker topicid_GC.AST.TOTL.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.AST.TOTL.CN:GC.AST.TOTL.CN} - `"Net acquisition of financial assets (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -68,7 +68,7 @@
 {marker topicid_GC.AST.TOTL.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.AST.TOTL.GD.ZS:GC.AST.TOTL.GD.ZS} - `"Net acquisition of financial assets (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -81,7 +81,7 @@
 {marker topicid_GC.DOD.TOTL.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.DOD.TOTL.CN:GC.DOD.TOTL.CN} - `"Central government debt, total (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -94,7 +94,7 @@
 {marker topicid_GC.DOD.TOTL.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.DOD.TOTL.GD.ZS:GC.DOD.TOTL.GD.ZS} - `"Central government debt, total (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -107,7 +107,7 @@
 {marker topicid_GC.LBL.TOTL.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.LBL.TOTL.CN:GC.LBL.TOTL.CN} - `"Net incurrence of liabilities, total (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -120,7 +120,7 @@
 {marker topicid_GC.LBL.TOTL.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.LBL.TOTL.GD.ZS:GC.LBL.TOTL.GD.ZS} - `"Net incurrence of liabilities, total (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -133,7 +133,7 @@
 {marker topicid_GC.NFN.TOTL.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.NFN.TOTL.CN:GC.NFN.TOTL.CN} - `"Net investment in nonfinancial assets (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -146,7 +146,7 @@
 {marker topicid_GC.NFN.TOTL.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.NFN.TOTL.GD.ZS:GC.NFN.TOTL.GD.ZS} - `"Net investment in nonfinancial assets (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -159,7 +159,7 @@
 {marker topicid_GC.NLD.TOTL.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.NLD.TOTL.CN:GC.NLD.TOTL.CN} - `"Net lending (+) / net borrowing (-) (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -172,7 +172,7 @@
 {marker topicid_GC.NLD.TOTL.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.NLD.TOTL.GD.ZS:GC.NLD.TOTL.GD.ZS} - `"Net lending (+) / net borrowing (-) (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -185,7 +185,7 @@
 {marker topicid_GC.REV.GOTR.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.REV.GOTR.CN:GC.REV.GOTR.CN} - `"Grants and other revenue (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -198,7 +198,7 @@
 {marker topicid_GC.REV.GOTR.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.REV.GOTR.ZS:GC.REV.GOTR.ZS} - `"Grants and other revenue (% of revenue)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -211,7 +211,7 @@
 {marker topicid_GC.REV.SOCL.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.REV.SOCL.CN:GC.REV.SOCL.CN} - `"Social contributions (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -224,7 +224,7 @@
 {marker topicid_GC.REV.SOCL.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.REV.SOCL.ZS:GC.REV.SOCL.ZS} - `"Social contributions (% of revenue)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -237,7 +237,7 @@
 {marker topicid_GC.REV.XGRT.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.REV.XGRT.CN:GC.REV.XGRT.CN} - `"Revenue, excluding grants (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -250,7 +250,7 @@
 {marker topicid_GC.REV.XGRT.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.REV.XGRT.GD.ZS:GC.REV.XGRT.GD.ZS} - `"Revenue, excluding grants (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -263,7 +263,7 @@
 {marker topicid_GC.TAX.EXPT.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.TAX.EXPT.CN:GC.TAX.EXPT.CN} - `"Taxes on exports (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -276,7 +276,7 @@
 {marker topicid_GC.TAX.EXPT.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.TAX.EXPT.ZS:GC.TAX.EXPT.ZS} - `"Taxes on exports (% of tax revenue)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -289,7 +289,7 @@
 {marker topicid_GC.TAX.GSRV.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.TAX.GSRV.CN:GC.TAX.GSRV.CN} - `"Taxes on goods and services (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -302,7 +302,7 @@
 {marker topicid_GC.TAX.GSRV.RV.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.TAX.GSRV.RV.ZS:GC.TAX.GSRV.RV.ZS} - `"Taxes on goods and services (% of revenue)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -315,7 +315,7 @@
 {marker topicid_GC.TAX.GSRV.VA.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.TAX.GSRV.VA.ZS:GC.TAX.GSRV.VA.ZS} - `"Taxes on goods and services (% value added of industry and services)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -328,7 +328,7 @@
 {marker topicid_GC.TAX.IMPT.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.TAX.IMPT.CN:GC.TAX.IMPT.CN} - `"Customs and other import duties (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -341,7 +341,7 @@
 {marker topicid_GC.TAX.IMPT.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.TAX.IMPT.ZS:GC.TAX.IMPT.ZS} - `"Customs and other import duties (% of tax revenue)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -354,7 +354,7 @@
 {marker topicid_GC.TAX.INTT.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.TAX.INTT.CN:GC.TAX.INTT.CN} - `"Taxes on international trade (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -367,7 +367,7 @@
 {marker topicid_GC.TAX.INTT.RV.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.TAX.INTT.RV.ZS:GC.TAX.INTT.RV.ZS} - `"Taxes on international trade (% of revenue)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -380,7 +380,7 @@
 {marker topicid_GC.TAX.OTHR.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.TAX.OTHR.CN:GC.TAX.OTHR.CN} - `"Other taxes (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -393,7 +393,7 @@
 {marker topicid_GC.TAX.OTHR.RV.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.TAX.OTHR.RV.ZS:GC.TAX.OTHR.RV.ZS} - `"Other taxes (% of revenue)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -406,7 +406,7 @@
 {marker topicid_GC.TAX.TOTL.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.TAX.TOTL.CN:GC.TAX.TOTL.CN} - `"Tax revenue (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -419,7 +419,7 @@
 {marker topicid_GC.TAX.TOTL.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.TAX.TOTL.GD.ZS:GC.TAX.TOTL.GD.ZS} - `"Tax revenue (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -432,7 +432,7 @@
 {marker topicid_GC.TAX.YPKG.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.TAX.YPKG.CN:GC.TAX.YPKG.CN} - `"Taxes on income, profits and capital gains (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -445,7 +445,7 @@
 {marker topicid_GC.TAX.YPKG.RV.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.TAX.YPKG.RV.ZS:GC.TAX.YPKG.RV.ZS} - `"Taxes on income, profits and capital gains (% of revenue)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -458,7 +458,7 @@
 {marker topicid_GC.TAX.YPKG.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.TAX.YPKG.ZS:GC.TAX.YPKG.ZS} - `"Taxes on income, profits and capital gains (% of total taxes)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -471,7 +471,7 @@
 {marker topicid_GC.XPN.COMP.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.XPN.COMP.CN:GC.XPN.COMP.CN} - `"Compensation of employees (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -484,7 +484,7 @@
 {marker topicid_GC.XPN.COMP.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.XPN.COMP.ZS:GC.XPN.COMP.ZS} - `"Compensation of employees (% of expense)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -497,7 +497,7 @@
 {marker topicid_GC.XPN.GSRV.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.XPN.GSRV.CN:GC.XPN.GSRV.CN} - `"Goods and services expense (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -510,7 +510,7 @@
 {marker topicid_GC.XPN.GSRV.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.XPN.GSRV.ZS:GC.XPN.GSRV.ZS} - `"Goods and services expense (% of expense)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -523,7 +523,7 @@
 {marker topicid_GC.XPN.INTP.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.XPN.INTP.CN:GC.XPN.INTP.CN} - `"Interest payments (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -536,7 +536,7 @@
 {marker topicid_GC.XPN.INTP.RV.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.XPN.INTP.RV.ZS:GC.XPN.INTP.RV.ZS} - `"Interest payments (% of revenue)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -549,7 +549,7 @@
 {marker topicid_GC.XPN.INTP.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.XPN.INTP.ZS:GC.XPN.INTP.ZS} - `"Interest payments (% of expense)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -562,7 +562,7 @@
 {marker topicid_GC.XPN.OTHR.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.XPN.OTHR.CN:GC.XPN.OTHR.CN} - `"Other expense (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -575,7 +575,7 @@
 {marker topicid_GC.XPN.OTHR.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.XPN.OTHR.ZS:GC.XPN.OTHR.ZS} - `"Other expense (% of expense)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -588,7 +588,7 @@
 {marker topicid_GC.XPN.TOTL.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.XPN.TOTL.CN:GC.XPN.TOTL.CN} - `"Expense (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -601,7 +601,7 @@
 {marker topicid_GC.XPN.TOTL.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.XPN.TOTL.GD.ZS:GC.XPN.TOTL.GD.ZS} - `"Expense (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -614,7 +614,7 @@
 {marker topicid_GC.XPN.TRFT.CN}
 {synopt:{bf:{help wbopendata_topicid##GC.XPN.TRFT.CN:GC.XPN.TRFT.CN} - `"Subsidies and other transfers (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -627,7 +627,7 @@
 {marker topicid_GC.XPN.TRFT.ZS}
 {synopt:{bf:{help wbopendata_topicid##GC.XPN.TRFT.ZS:GC.XPN.TRFT.ZS} - `"Subsidies and other transfers (% of expense)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -640,7 +640,7 @@
 {marker topicid_IC.CRD.PUBL.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.CRD.PUBL.ZS:IC.CRD.PUBL.ZS} - `"Public credit registry coverage (% of adults)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -653,7 +653,7 @@
 {marker topicid_IC.LGL.CRED.XQ}
 {synopt:{bf:{help wbopendata_topicid##IC.LGL.CRED.XQ:IC.LGL.CRED.XQ} - `"Strength of legal rights index (0=weak to 12=strong)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -666,7 +666,7 @@
 {marker topicid_IC.TAX.DURS}
 {synopt:{bf:{help wbopendata_topicid##IC.TAX.DURS:IC.TAX.DURS} - `"Time to prepare and pay taxes (hours)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -679,7 +679,7 @@
 {marker topicid_IC.TAX.PAYM}
 {synopt:{bf:{help wbopendata_topicid##IC.TAX.PAYM:IC.TAX.PAYM} - `"Tax payments (number)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -692,7 +692,7 @@
 {marker topicid_IC.TAX.TOTL.CP.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.TAX.TOTL.CP.ZS:IC.TAX.TOTL.CP.ZS} - `"Total tax and contribution rate (% of profit)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -705,7 +705,7 @@
 {marker topicid_IQ.CPA.BREG.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.BREG.XQ:IQ.CPA.BREG.XQ} - `"CPIA business regulatory environment rating (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -718,7 +718,7 @@
 {marker topicid_IQ.CPA.DEBT.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.DEBT.XQ:IQ.CPA.DEBT.XQ} - `"CPIA debt policy rating (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -731,7 +731,7 @@
 {marker topicid_IQ.CPA.ECON.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.ECON.XQ:IQ.CPA.ECON.XQ} - `"CPIA economic management cluster average (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -744,7 +744,7 @@
 {marker topicid_IQ.CPA.ENVR.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.ENVR.XQ:IQ.CPA.ENVR.XQ} - `"CPIA policy and institutions for environmental sustainability rating (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -757,7 +757,7 @@
 {marker topicid_IQ.CPA.FINQ.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.FINQ.XQ:IQ.CPA.FINQ.XQ} - `"CPIA quality of budgetary and financial management rating (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -770,7 +770,7 @@
 {marker topicid_IQ.CPA.FINS.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.FINS.XQ:IQ.CPA.FINS.XQ} - `"CPIA financial sector rating (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -783,7 +783,7 @@
 {marker topicid_IQ.CPA.FISP.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.FISP.XQ:IQ.CPA.FISP.XQ} - `"CPIA fiscal policy rating (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -796,7 +796,7 @@
 {marker topicid_IQ.CPA.GNDR.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.GNDR.XQ:IQ.CPA.GNDR.XQ} - `"CPIA gender equality rating (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -809,7 +809,7 @@
 {marker topicid_IQ.CPA.HRES.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.HRES.XQ:IQ.CPA.HRES.XQ} - `"CPIA building human resources rating (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -822,7 +822,7 @@
 {marker topicid_IQ.CPA.IRAI.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.IRAI.XQ:IQ.CPA.IRAI.XQ} - `"IDA resource allocation index (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -835,7 +835,7 @@
 {marker topicid_IQ.CPA.MACR.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.MACR.XQ:IQ.CPA.MACR.XQ} - `"CPIA macroeconomic management rating (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -848,7 +848,7 @@
 {marker topicid_IQ.CPA.PADM.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.PADM.XQ:IQ.CPA.PADM.XQ} - `"CPIA quality of public administration rating (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -861,7 +861,7 @@
 {marker topicid_IQ.CPA.PRES.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.PRES.XQ:IQ.CPA.PRES.XQ} - `"CPIA equity of public resource use rating (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -874,7 +874,7 @@
 {marker topicid_IQ.CPA.PROP.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.PROP.XQ:IQ.CPA.PROP.XQ} - `"CPIA property rights and rule-based governance rating (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -887,7 +887,7 @@
 {marker topicid_IQ.CPA.PROT.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.PROT.XQ:IQ.CPA.PROT.XQ} - `"CPIA social protection rating (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -900,7 +900,7 @@
 {marker topicid_IQ.CPA.PUBS.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.PUBS.XQ:IQ.CPA.PUBS.XQ} - `"CPIA public sector management and institutions cluster average (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -913,7 +913,7 @@
 {marker topicid_IQ.CPA.REVN.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.REVN.XQ:IQ.CPA.REVN.XQ} - `"CPIA efficiency of revenue mobilization rating (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -926,7 +926,7 @@
 {marker topicid_IQ.CPA.SOCI.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.SOCI.XQ:IQ.CPA.SOCI.XQ} - `"CPIA policies for social inclusion/equity cluster average (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -939,7 +939,7 @@
 {marker topicid_IQ.CPA.STRC.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.STRC.XQ:IQ.CPA.STRC.XQ} - `"CPIA structural policies cluster average (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -952,7 +952,7 @@
 {marker topicid_IQ.CPA.TRAD.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.TRAD.XQ:IQ.CPA.TRAD.XQ} - `"CPIA trade rating (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -965,7 +965,7 @@
 {marker topicid_IQ.CPA.TRAN.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.CPA.TRAN.XQ:IQ.CPA.TRAN.XQ} - `"CPIA transparency, accountability, and corruption in the public sector rating (1=low to 6=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -978,7 +978,7 @@
 {marker topicid_IQ.SCI.MTHD}
 {synopt:{bf:{help wbopendata_topicid##IQ.SCI.MTHD:IQ.SCI.MTHD} - `"Methodology assessment of statistical capacity (scale 0 - 100)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -991,7 +991,7 @@
 {marker topicid_IQ.SCI.OVRL}
 {synopt:{bf:{help wbopendata_topicid##IQ.SCI.OVRL:IQ.SCI.OVRL} - `"Statistical Capacity score (Overall average)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1004,7 +1004,7 @@
 {marker topicid_IQ.SCI.PRDC}
 {synopt:{bf:{help wbopendata_topicid##IQ.SCI.PRDC:IQ.SCI.PRDC} - `"Periodicity and timeliness assessment of statistical capacity (scale 0 - 100)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1017,7 +1017,7 @@
 {marker topicid_IQ.SCI.SRCE}
 {synopt:{bf:{help wbopendata_topicid##IQ.SCI.SRCE:IQ.SCI.SRCE} - `"Source data assessment of statistical capacity (scale 0 - 100)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1030,7 +1030,7 @@
 {marker topicid_MS.MIL.MPRT.KD}
 {synopt:{bf:{help wbopendata_topicid##MS.MIL.MPRT.KD:MS.MIL.MPRT.KD} - `"Arms imports (SIPRI trend indicator values)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1043,7 +1043,7 @@
 {marker topicid_MS.MIL.TOTL.P1}
 {synopt:{bf:{help wbopendata_topicid##MS.MIL.TOTL.P1:MS.MIL.TOTL.P1} - `"Armed forces personnel, total"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1056,7 +1056,7 @@
 {marker topicid_MS.MIL.TOTL.TF.ZS}
 {synopt:{bf:{help wbopendata_topicid##MS.MIL.TOTL.TF.ZS:MS.MIL.TOTL.TF.ZS} - `"Armed forces personnel (% of total labor force)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1069,7 +1069,7 @@
 {marker topicid_MS.MIL.XPND.CN}
 {synopt:{bf:{help wbopendata_topicid##MS.MIL.XPND.CN:MS.MIL.XPND.CN} - `"Military expenditure (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1082,7 +1082,7 @@
 {marker topicid_MS.MIL.XPND.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##MS.MIL.XPND.GD.ZS:MS.MIL.XPND.GD.ZS} - `"Military expenditure (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1095,7 +1095,7 @@
 {marker topicid_MS.MIL.XPND.ZS}
 {synopt:{bf:{help wbopendata_topicid##MS.MIL.XPND.ZS:MS.MIL.XPND.ZS} - `"Military expenditure (% of general government expenditure)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1108,7 +1108,7 @@
 {marker topicid_MS.MIL.XPRT.KD}
 {synopt:{bf:{help wbopendata_topicid##MS.MIL.XPRT.KD:MS.MIL.XPRT.KD} - `"Arms exports (SIPRI trend indicator values)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1121,7 +1121,7 @@
 {marker topicid_SG.GEN.PARL.ZS}
 {synopt:{bf:{help wbopendata_topicid##SG.GEN.PARL.ZS:SG.GEN.PARL.ZS} - `"Proportion of seats held by women in national parliaments (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1134,7 +1134,7 @@
 {marker topicid_SG.JOB.NOPN.EQ}
 {synopt:{bf:{help wbopendata_topicid##SG.JOB.NOPN.EQ:SG.JOB.NOPN.EQ} - `"Nonpregnant and nonnursing women can do the same jobs as men (1=yes; 0=no)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1147,7 +1147,7 @@
 {marker topicid_SG.LAW.CHMR}
 {synopt:{bf:{help wbopendata_topicid##SG.LAW.CHMR:SG.LAW.CHMR} - `"Law prohibits or invalidates child or early marriage (1=yes; 0=no)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1160,7 +1160,7 @@
 {marker topicid_SG.LAW.EQRM.WK}
 {synopt:{bf:{help wbopendata_topicid##SG.LAW.EQRM.WK:SG.LAW.EQRM.WK} - `"Law mandates equal remuneration for females and males for work of equal value (1=yes; 0=no)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1173,7 +1173,7 @@
 {marker topicid_SG.LAW.LEVE.PU}
 {synopt:{bf:{help wbopendata_topicid##SG.LAW.LEVE.PU:SG.LAW.LEVE.PU} - `"Law mandates paid or unpaid maternity leave (1=yes; 0=no)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1186,7 +1186,7 @@
 {marker topicid_SG.LAW.NODC.HR}
 {synopt:{bf:{help wbopendata_topicid##SG.LAW.NODC.HR:SG.LAW.NODC.HR} - `"Law mandates nondiscrimination based on gender in hiring (1=yes; 0=no)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1199,7 +1199,7 @@
 {marker topicid_SG.LEG.DVAW}
 {synopt:{bf:{help wbopendata_topicid##SG.LEG.DVAW:SG.LEG.DVAW} - `"Legislation exists on domestic violence (1=yes; 0=no)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1212,7 +1212,7 @@
 {marker topicid_SG.MMR.LEVE.EP}
 {synopt:{bf:{help wbopendata_topicid##SG.MMR.LEVE.EP:SG.MMR.LEVE.EP} - `"Mothers are guaranteed an equivalent position after maternity leave (1=yes; 0=no)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1225,7 +1225,7 @@
 {marker topicid_SG.NOD.CONS}
 {synopt:{bf:{help wbopendata_topicid##SG.NOD.CONS:SG.NOD.CONS} - `"Nondiscrimination clause mentions gender in the constitution (1=yes; 0=no)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1238,7 +1238,7 @@
 {marker topicid_VC.BTL.DETH}
 {synopt:{bf:{help wbopendata_topicid##VC.BTL.DETH:VC.BTL.DETH} - `"Battle-related deaths (number of people)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1251,7 +1251,7 @@
 {marker topicid_VC.IDP.NWCV}
 {synopt:{bf:{help wbopendata_topicid##VC.IDP.NWCV:VC.IDP.NWCV} - `"Internally displaced persons, new displacement associated with conflict and violence (number of cases)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1264,7 +1264,7 @@
 {marker topicid_VC.IDP.NWDS}
 {synopt:{bf:{help wbopendata_topicid##VC.IDP.NWDS:VC.IDP.NWDS} - `"Internally displaced persons, new displacement associated with disasters (number of cases)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1277,7 +1277,7 @@
 {marker topicid_VC.IDP.TOCV}
 {synopt:{bf:{help wbopendata_topicid##VC.IDP.TOCV:VC.IDP.TOCV} - `"Internally displaced persons, total displaced by conflict and violence (number of people)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1290,7 +1290,7 @@
 {marker topicid_VC.IDP.TOTL.HE}
 {synopt:{bf:{help wbopendata_topicid##VC.IDP.TOTL.HE:VC.IDP.TOTL.HE} - `"Internally displaced persons (number, high estimate)"'}}
 
-{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1303,7 +1303,7 @@
 {marker topicid_VC.IDP.TOTL.LE}
 {synopt:{bf:{help wbopendata_topicid##VC.IDP.TOTL.LE:VC.IDP.TOTL.LE} - `"Internally displaced persons (number, low estimate)"'}}
 
-{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1316,7 +1316,7 @@
 {marker topicid_VC.IHR.PSRC.P5}
 {synopt:{bf:{help wbopendata_topicid##VC.IHR.PSRC.P5:VC.IHR.PSRC.P5} - `"Intentional homicides (per 100,000 people)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1329,7 +1329,7 @@
 {marker topicid_VC.PKP.TOTL.UN}
 {synopt:{bf:{help wbopendata_topicid##VC.PKP.TOTL.UN:VC.PKP.TOTL.UN} - `"Presence of peace keepers (number of troops, police, and military observers in mandate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1339,4 +1339,4 @@
 
 
 
-{right:(as of 20oct2019)}
+{right:(as of 27oct2019)}
