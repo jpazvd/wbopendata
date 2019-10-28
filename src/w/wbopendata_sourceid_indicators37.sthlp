@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 20oct2019)}
+{right:(as of 27oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -10,6 +10,11 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
+{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
+{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
+{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
+{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
+{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -53,7 +58,6 @@
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
-{synopt:{opt 74}}  {help wbopendata_sourceid_indicators74##sourceid_74:Macro Poverty Outlook External}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
@@ -66,7 +70,7 @@
 {marker sourceid_1.0.HCount.1.90usd}
 {synopt:{bf:{help wbopendata_sourceid##1.0.HCount.1.90usd:1.0.HCount.1.90usd} - `"Poverty Headcount ($1.90 a day)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -79,7 +83,7 @@
 {marker sourceid_1.0.HCount.2.5usd}
 {synopt:{bf:{help wbopendata_sourceid##1.0.HCount.2.5usd:1.0.HCount.2.5usd} - `"Poverty Headcount ($2.50 a day)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -92,7 +96,7 @@
 {marker sourceid_1.0.HCount.Mid10to50}
 {synopt:{bf:{help wbopendata_sourceid##1.0.HCount.Mid10to50:1.0.HCount.Mid10to50} - `"Middle Class ($10-50 a day) Headcount"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -105,7 +109,7 @@
 {marker sourceid_1.0.HCount.Ofcl}
 {synopt:{bf:{help wbopendata_sourceid##1.0.HCount.Ofcl:1.0.HCount.Ofcl} - `"Official Moderate Poverty Rate-National"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -118,7 +122,7 @@
 {marker sourceid_1.0.HCount.Poor4uds}
 {synopt:{bf:{help wbopendata_sourceid##1.0.HCount.Poor4uds:1.0.HCount.Poor4uds} - `"Poverty Headcount ($4 a day)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -131,7 +135,7 @@
 {marker sourceid_1.0.HCount.Vul4to10}
 {synopt:{bf:{help wbopendata_sourceid##1.0.HCount.Vul4to10:1.0.HCount.Vul4to10} - `"Vulnerable ($4-10 a day) Headcount"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -144,7 +148,7 @@
 {marker sourceid_1.0.PGap.1.90usd}
 {synopt:{bf:{help wbopendata_sourceid##1.0.PGap.1.90usd:1.0.PGap.1.90usd} - `"Poverty Gap ($1.90 a day)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -157,7 +161,7 @@
 {marker sourceid_1.0.PGap.2.5usd}
 {synopt:{bf:{help wbopendata_sourceid##1.0.PGap.2.5usd:1.0.PGap.2.5usd} - `"Poverty Gap ($2.50 a day)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -170,7 +174,7 @@
 {marker sourceid_1.0.PGap.Poor4uds}
 {synopt:{bf:{help wbopendata_sourceid##1.0.PGap.Poor4uds:1.0.PGap.Poor4uds} - `"Poverty Gap ($4 a day)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -183,7 +187,7 @@
 {marker sourceid_1.0.PSev.1.90usd}
 {synopt:{bf:{help wbopendata_sourceid##1.0.PSev.1.90usd:1.0.PSev.1.90usd} - `"Poverty Severity ($1.90 a day)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -196,7 +200,7 @@
 {marker sourceid_1.0.PSev.2.5usd}
 {synopt:{bf:{help wbopendata_sourceid##1.0.PSev.2.5usd:1.0.PSev.2.5usd} - `"Poverty Severity ($2.50 a day)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -209,7 +213,7 @@
 {marker sourceid_1.0.PSev.Poor4uds}
 {synopt:{bf:{help wbopendata_sourceid##1.0.PSev.Poor4uds:1.0.PSev.Poor4uds} - `"Poverty Severity ($4 a day)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -222,7 +226,7 @@
 {marker sourceid_1.1.HCount.1.90usd}
 {synopt:{bf:{help wbopendata_sourceid##1.1.HCount.1.90usd:1.1.HCount.1.90usd} - `"Poverty Headcount ($1.90 a day)-Rural"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -235,7 +239,7 @@
 {marker sourceid_1.1.HCount.2.5usd}
 {synopt:{bf:{help wbopendata_sourceid##1.1.HCount.2.5usd:1.1.HCount.2.5usd} - `"Poverty Headcount ($2.50 a day)-Rural"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -248,7 +252,7 @@
 {marker sourceid_1.1.HCount.Mid10to50}
 {synopt:{bf:{help wbopendata_sourceid##1.1.HCount.Mid10to50:1.1.HCount.Mid10to50} - `"Middle Class ($10-50 a day) Headcount-Rural"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -261,7 +265,7 @@
 {marker sourceid_1.1.HCount.Ofcl}
 {synopt:{bf:{help wbopendata_sourceid##1.1.HCount.Ofcl:1.1.HCount.Ofcl} - `"Official Moderate Poverty Rate- Rural"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -274,7 +278,7 @@
 {marker sourceid_1.1.HCount.Poor4uds}
 {synopt:{bf:{help wbopendata_sourceid##1.1.HCount.Poor4uds:1.1.HCount.Poor4uds} - `"Poverty Headcount ($4 a day)-Rural"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -287,7 +291,7 @@
 {marker sourceid_1.1.HCount.Vul4to10}
 {synopt:{bf:{help wbopendata_sourceid##1.1.HCount.Vul4to10:1.1.HCount.Vul4to10} - `"Vulnerable ($4-10 a day) Headcount-Rural"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -300,7 +304,7 @@
 {marker sourceid_1.1.PGap.1.90usd}
 {synopt:{bf:{help wbopendata_sourceid##1.1.PGap.1.90usd:1.1.PGap.1.90usd} - `"Poverty Gap ($1.90 a day)-Rural"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -313,7 +317,7 @@
 {marker sourceid_1.1.PGap.2.5usd}
 {synopt:{bf:{help wbopendata_sourceid##1.1.PGap.2.5usd:1.1.PGap.2.5usd} - `"Poverty Gap ($2.50 a day)-Rural"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -326,7 +330,7 @@
 {marker sourceid_1.1.PGap.Poor4uds}
 {synopt:{bf:{help wbopendata_sourceid##1.1.PGap.Poor4uds:1.1.PGap.Poor4uds} - `"Poverty Gap ($4 a day)-Rural"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -339,7 +343,7 @@
 {marker sourceid_1.1.PSev.1.90usd}
 {synopt:{bf:{help wbopendata_sourceid##1.1.PSev.1.90usd:1.1.PSev.1.90usd} - `"Poverty Severity ($1.90 a day)-Rural"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -352,7 +356,7 @@
 {marker sourceid_1.1.PSev.2.5usd}
 {synopt:{bf:{help wbopendata_sourceid##1.1.PSev.2.5usd:1.1.PSev.2.5usd} - `"Poverty Severity ($2.50 a day)-Rural"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -365,7 +369,7 @@
 {marker sourceid_1.1.PSev.Poor4uds}
 {synopt:{bf:{help wbopendata_sourceid##1.1.PSev.Poor4uds:1.1.PSev.Poor4uds} - `"Poverty Severity ($4 a day)-Rural"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -378,7 +382,7 @@
 {marker sourceid_1.2.HCount.1.90usd}
 {synopt:{bf:{help wbopendata_sourceid##1.2.HCount.1.90usd:1.2.HCount.1.90usd} - `"Poverty Headcount ($1.90 a day)-Urban"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -391,7 +395,7 @@
 {marker sourceid_1.2.HCount.2.5usd}
 {synopt:{bf:{help wbopendata_sourceid##1.2.HCount.2.5usd:1.2.HCount.2.5usd} - `"Poverty Headcount ($2.50 a day)-Urban"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -404,7 +408,7 @@
 {marker sourceid_1.2.HCount.Mid10to50}
 {synopt:{bf:{help wbopendata_sourceid##1.2.HCount.Mid10to50:1.2.HCount.Mid10to50} - `"Middle Class ($10-50 a day) Headcount-Urban"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -417,7 +421,7 @@
 {marker sourceid_1.2.HCount.Ofcl}
 {synopt:{bf:{help wbopendata_sourceid##1.2.HCount.Ofcl:1.2.HCount.Ofcl} - `"Official Moderate Poverty Rate-Urban"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -430,7 +434,7 @@
 {marker sourceid_1.2.HCount.Poor4uds}
 {synopt:{bf:{help wbopendata_sourceid##1.2.HCount.Poor4uds:1.2.HCount.Poor4uds} - `"Poverty Headcount ($4 a day)-Urban"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -443,7 +447,7 @@
 {marker sourceid_1.2.HCount.Vul4to10}
 {synopt:{bf:{help wbopendata_sourceid##1.2.HCount.Vul4to10:1.2.HCount.Vul4to10} - `"Vulnerable ($4-10 a day) Headcount-Urban"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -456,7 +460,7 @@
 {marker sourceid_1.2.PGap.1.90usd}
 {synopt:{bf:{help wbopendata_sourceid##1.2.PGap.1.90usd:1.2.PGap.1.90usd} - `"Poverty Gap ($1.90 a day)-Urban"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -469,7 +473,7 @@
 {marker sourceid_1.2.PGap.2.5usd}
 {synopt:{bf:{help wbopendata_sourceid##1.2.PGap.2.5usd:1.2.PGap.2.5usd} - `"Poverty Gap ($2.50 a day)-Urban"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -482,7 +486,7 @@
 {marker sourceid_1.2.PGap.Poor4uds}
 {synopt:{bf:{help wbopendata_sourceid##1.2.PGap.Poor4uds:1.2.PGap.Poor4uds} - `"Poverty Gap ($4 a day)-Urban"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -495,7 +499,7 @@
 {marker sourceid_1.2.PSev.1.90usd}
 {synopt:{bf:{help wbopendata_sourceid##1.2.PSev.1.90usd:1.2.PSev.1.90usd} - `"Poverty Severity ($1.90 a day)-Urban"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -508,7 +512,7 @@
 {marker sourceid_1.2.PSev.2.5usd}
 {synopt:{bf:{help wbopendata_sourceid##1.2.PSev.2.5usd:1.2.PSev.2.5usd} - `"Poverty Severity ($2.50 a day)-Urban"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -521,7 +525,7 @@
 {marker sourceid_1.2.PSev.Poor4uds}
 {synopt:{bf:{help wbopendata_sourceid##1.2.PSev.Poor4uds:1.2.PSev.Poor4uds} - `"Poverty Severity ($4 a day)-Urban"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -534,7 +538,7 @@
 {marker sourceid_2.0.cov.Cel}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Cel:2.0.cov.Cel} - `"Coverage: Mobile Phone"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -547,7 +551,7 @@
 {marker sourceid_2.0.cov.Ele}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Ele:2.0.cov.Ele} - `"Coverage: Electricity"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -560,7 +564,7 @@
 {marker sourceid_2.0.cov.FPS}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.FPS:2.0.cov.FPS} - `"Coverage: Finished Primary School"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -573,7 +577,7 @@
 {marker sourceid_2.0.cov.Int}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Int:2.0.cov.Int} - `"Coverage: Internet"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -586,7 +590,7 @@
 {marker sourceid_2.0.cov.Math.pl_2.all}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Math.pl_2.all:2.0.cov.Math.pl_2.all} - `"Coverage: Mathematics Proficiency Level 2"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -599,7 +603,7 @@
 {marker sourceid_2.0.cov.Math.pl_2.prv}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Math.pl_2.prv:2.0.cov.Math.pl_2.prv} - `"Coverage: Mathematics Proficiency Level 2, Private schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -612,7 +616,7 @@
 {marker sourceid_2.0.cov.Math.pl_2.pub}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Math.pl_2.pub:2.0.cov.Math.pl_2.pub} - `"Coverage: Mathematics Proficiency Level 2, Public schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -625,7 +629,7 @@
 {marker sourceid_2.0.cov.Math.pl_3.all}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Math.pl_3.all:2.0.cov.Math.pl_3.all} - `"Coverage: Mathematics Proficiency Level 3"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -638,7 +642,7 @@
 {marker sourceid_2.0.cov.Math.pl_3.prv}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Math.pl_3.prv:2.0.cov.Math.pl_3.prv} - `"Coverage: Mathematics Proficiency Level 3, Private schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -651,7 +655,7 @@
 {marker sourceid_2.0.cov.Math.pl_3.pub}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Math.pl_3.pub:2.0.cov.Math.pl_3.pub} - `"Coverage: Mathematics Proficiency Level 3, Public schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -664,7 +668,7 @@
 {marker sourceid_2.0.cov.Read.pl_2.all}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Read.pl_2.all:2.0.cov.Read.pl_2.all} - `"Coverage: Reading Proficiency Level 2"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -677,7 +681,7 @@
 {marker sourceid_2.0.cov.Read.pl_2.prv}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Read.pl_2.prv:2.0.cov.Read.pl_2.prv} - `"Coverage: Reading Proficiency Level 2, Private schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -690,7 +694,7 @@
 {marker sourceid_2.0.cov.Read.pl_2.pub}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Read.pl_2.pub:2.0.cov.Read.pl_2.pub} - `"Coverage: Reading Proficiency Level 2, Public schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -703,7 +707,7 @@
 {marker sourceid_2.0.cov.Read.pl_3.all}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Read.pl_3.all:2.0.cov.Read.pl_3.all} - `"Coverage: Reading Proficiency Level 3"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -716,7 +720,7 @@
 {marker sourceid_2.0.cov.Read.pl_3.prv}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Read.pl_3.prv:2.0.cov.Read.pl_3.prv} - `"Coverage: Reading Proficiency Level 3, Private schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -729,7 +733,7 @@
 {marker sourceid_2.0.cov.Read.pl_3.pub}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Read.pl_3.pub:2.0.cov.Read.pl_3.pub} - `"Coverage: Reading Proficiency Level 3, Public schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -742,7 +746,7 @@
 {marker sourceid_2.0.cov.San}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.San:2.0.cov.San} - `"Coverage: Sanitation"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -755,7 +759,7 @@
 {marker sourceid_2.0.cov.Sch}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Sch:2.0.cov.Sch} - `"Coverage: School Enrollment"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -768,7 +772,7 @@
 {marker sourceid_2.0.cov.Scie.pl_2.all}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Scie.pl_2.all:2.0.cov.Scie.pl_2.all} - `"Coverage: Science Proficiency Level 2"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -781,7 +785,7 @@
 {marker sourceid_2.0.cov.Scie.pl_2.prv}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Scie.pl_2.prv:2.0.cov.Scie.pl_2.prv} - `"Coverage: Science Proficiency Level 2, Private schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -794,7 +798,7 @@
 {marker sourceid_2.0.cov.Scie.pl_2.pub}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Scie.pl_2.pub:2.0.cov.Scie.pl_2.pub} - `"Coverage: Science Proficiency Level 2, Public schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -807,7 +811,7 @@
 {marker sourceid_2.0.cov.Scie.pl_3.all}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Scie.pl_3.all:2.0.cov.Scie.pl_3.all} - `"Coverage: Science Proficiency Level 3"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -820,7 +824,7 @@
 {marker sourceid_2.0.cov.Scie.pl_3.prv}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Scie.pl_3.prv:2.0.cov.Scie.pl_3.prv} - `"Coverage: Science Proficiency Level 3, Private schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -833,7 +837,7 @@
 {marker sourceid_2.0.cov.Scie.pl_3.pub}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Scie.pl_3.pub:2.0.cov.Scie.pl_3.pub} - `"Coverage: Science Proficiency Level 3, Public schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -846,7 +850,7 @@
 {marker sourceid_2.0.cov.Wat}
 {synopt:{bf:{help wbopendata_sourceid##2.0.cov.Wat:2.0.cov.Wat} - `"Coverage: Water"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -859,7 +863,7 @@
 {marker sourceid_2.0.hoi.Cel}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Cel:2.0.hoi.Cel} - `"HOI: Mobile Phone"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -872,7 +876,7 @@
 {marker sourceid_2.0.hoi.Ele}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Ele:2.0.hoi.Ele} - `"HOI: Electricity"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -885,7 +889,7 @@
 {marker sourceid_2.0.hoi.FPS}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.FPS:2.0.hoi.FPS} - `"HOI: Finished Primary School"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -898,7 +902,7 @@
 {marker sourceid_2.0.hoi.Int}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Int:2.0.hoi.Int} - `"HOI: Internet"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -911,7 +915,7 @@
 {marker sourceid_2.0.hoi.Math.pl_2.all}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Math.pl_2.all:2.0.hoi.Math.pl_2.all} - `"HOI: Mathematics Proficiency Level 2"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -924,7 +928,7 @@
 {marker sourceid_2.0.hoi.Math.pl_2.prv}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Math.pl_2.prv:2.0.hoi.Math.pl_2.prv} - `"HOI: Mathematics Proficiency Level 2, Private schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -937,7 +941,7 @@
 {marker sourceid_2.0.hoi.Math.pl_2.pub}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Math.pl_2.pub:2.0.hoi.Math.pl_2.pub} - `"HOI: Mathematics Proficiency Level 2, Public schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -950,7 +954,7 @@
 {marker sourceid_2.0.hoi.Math.pl_3.all}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Math.pl_3.all:2.0.hoi.Math.pl_3.all} - `"HOI: Mathematics Proficiency Level 3"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -963,7 +967,7 @@
 {marker sourceid_2.0.hoi.Math.pl_3.prv}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Math.pl_3.prv:2.0.hoi.Math.pl_3.prv} - `"HOI: Mathematics Proficiency Level 3, Private schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -976,7 +980,7 @@
 {marker sourceid_2.0.hoi.Math.pl_3.pub}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Math.pl_3.pub:2.0.hoi.Math.pl_3.pub} - `"HOI: Mathematics Proficiency Level 3, Public schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -989,7 +993,7 @@
 {marker sourceid_2.0.hoi.Read.pl_2.all}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Read.pl_2.all:2.0.hoi.Read.pl_2.all} - `"HOI: Reading Proficiency Level 2"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1002,7 +1006,7 @@
 {marker sourceid_2.0.hoi.Read.pl_2.prv}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Read.pl_2.prv:2.0.hoi.Read.pl_2.prv} - `"HOI: Reading Proficiency Level 2, Private schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1015,7 +1019,7 @@
 {marker sourceid_2.0.hoi.Read.pl_2.pub}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Read.pl_2.pub:2.0.hoi.Read.pl_2.pub} - `"HOI: Reading Proficiency Level 2, Public schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1028,7 +1032,7 @@
 {marker sourceid_2.0.hoi.Read.pl_3.all}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Read.pl_3.all:2.0.hoi.Read.pl_3.all} - `"HOI: Reading Proficiency Level 3"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1041,7 +1045,7 @@
 {marker sourceid_2.0.hoi.Read.pl_3.prv}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Read.pl_3.prv:2.0.hoi.Read.pl_3.prv} - `"HOI: Reading Proficiency Level 3, Private schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1054,7 +1058,7 @@
 {marker sourceid_2.0.hoi.Read.pl_3.pub}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Read.pl_3.pub:2.0.hoi.Read.pl_3.pub} - `"HOI: Reading Proficiency Level 3, Public schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1067,7 +1071,7 @@
 {marker sourceid_2.0.hoi.San}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.San:2.0.hoi.San} - `"HOI: Sanitation"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1080,7 +1084,7 @@
 {marker sourceid_2.0.hoi.Sch}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Sch:2.0.hoi.Sch} - `"HOI: School Enrollment"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1093,7 +1097,7 @@
 {marker sourceid_2.0.hoi.Scie.pl_2.all}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Scie.pl_2.all:2.0.hoi.Scie.pl_2.all} - `"HOI: Science Proficiency Level 2"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1106,7 +1110,7 @@
 {marker sourceid_2.0.hoi.Scie.pl_2.prv}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Scie.pl_2.prv:2.0.hoi.Scie.pl_2.prv} - `"HOI: Science Proficiency Level 2, Private schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1119,7 +1123,7 @@
 {marker sourceid_2.0.hoi.Scie.pl_2.pub}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Scie.pl_2.pub:2.0.hoi.Scie.pl_2.pub} - `"HOI: Science Proficiency Level 2, Public schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1132,7 +1136,7 @@
 {marker sourceid_2.0.hoi.Scie.pl_3.all}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Scie.pl_3.all:2.0.hoi.Scie.pl_3.all} - `"HOI: Science Proficiency Level 3"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1145,7 +1149,7 @@
 {marker sourceid_2.0.hoi.Scie.pl_3.prv}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Scie.pl_3.prv:2.0.hoi.Scie.pl_3.prv} - `"HOI: Science Proficiency Level 3, Private schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1158,7 +1162,7 @@
 {marker sourceid_2.0.hoi.Scie.pl_3.pub}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Scie.pl_3.pub:2.0.hoi.Scie.pl_3.pub} - `"HOI: Science Proficiency Level 3, Public schools"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1171,7 +1175,7 @@
 {marker sourceid_2.0.hoi.Wat}
 {synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Wat:2.0.hoi.Wat} - `"HOI: Water"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1184,7 +1188,7 @@
 {marker sourceid_3.0.Atkin.0.5}
 {synopt:{bf:{help wbopendata_sourceid##3.0.Atkin.0.5:3.0.Atkin.0.5} - `"Atkinson, A(.5)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1197,7 +1201,7 @@
 {marker sourceid_3.0.Atkin.1}
 {synopt:{bf:{help wbopendata_sourceid##3.0.Atkin.1:3.0.Atkin.1} - `"Atkinson, A(1)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1210,7 +1214,7 @@
 {marker sourceid_3.0.Atkin.2}
 {synopt:{bf:{help wbopendata_sourceid##3.0.Atkin.2:3.0.Atkin.2} - `"Atkinson, A(2)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1223,7 +1227,7 @@
 {marker sourceid_3.0.GenEnt-1}
 {synopt:{bf:{help wbopendata_sourceid##3.0.GenEnt-1:3.0.GenEnt-1} - `"Generalized Entrophy, GE(-1)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1236,7 +1240,7 @@
 {marker sourceid_3.0.GenEnt2}
 {synopt:{bf:{help wbopendata_sourceid##3.0.GenEnt2:3.0.GenEnt2} - `"Generalized Entrophy, GE(2)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1249,7 +1253,7 @@
 {marker sourceid_3.0.Gini}
 {synopt:{bf:{help wbopendata_sourceid##3.0.Gini:3.0.Gini} - `"Gini Coefficient"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1262,7 +1266,7 @@
 {marker sourceid_3.0.Gini_nozero}
 {synopt:{bf:{help wbopendata_sourceid##3.0.Gini_nozero:3.0.Gini_nozero} - `"Gini Coefficient (No Zero Income)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1275,7 +1279,7 @@
 {marker sourceid_3.0.IncShr.q1}
 {synopt:{bf:{help wbopendata_sourceid##3.0.IncShr.q1:3.0.IncShr.q1} - `"Income Share of First Quintile"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1288,7 +1292,7 @@
 {marker sourceid_3.0.IncShr.q2}
 {synopt:{bf:{help wbopendata_sourceid##3.0.IncShr.q2:3.0.IncShr.q2} - `"Income Share of Second Quintile"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1301,7 +1305,7 @@
 {marker sourceid_3.0.IncShr.q3}
 {synopt:{bf:{help wbopendata_sourceid##3.0.IncShr.q3:3.0.IncShr.q3} - `"Income Share of Third Quintile"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1314,7 +1318,7 @@
 {marker sourceid_3.0.IncShr.q4}
 {synopt:{bf:{help wbopendata_sourceid##3.0.IncShr.q4:3.0.IncShr.q4} - `"Income Share of Fourth Quintile"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1327,7 +1331,7 @@
 {marker sourceid_3.0.IncShr.q5}
 {synopt:{bf:{help wbopendata_sourceid##3.0.IncShr.q5:3.0.IncShr.q5} - `"Income Share of Fifth Quintile"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1340,7 +1344,7 @@
 {marker sourceid_3.0.MLongDev0}
 {synopt:{bf:{help wbopendata_sourceid##3.0.MLongDev0:3.0.MLongDev0} - `"Mean Log Deviation, GE(0)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1353,7 +1357,7 @@
 {marker sourceid_3.0.Rate75-25}
 {synopt:{bf:{help wbopendata_sourceid##3.0.Rate75-25:3.0.Rate75-25} - `"Rate 75/25"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1366,7 +1370,7 @@
 {marker sourceid_3.0.Rate90-10}
 {synopt:{bf:{help wbopendata_sourceid##3.0.Rate90-10:3.0.Rate90-10} - `"Rate 90/10"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1379,7 +1383,7 @@
 {marker sourceid_3.0.TheilInd1}
 {synopt:{bf:{help wbopendata_sourceid##3.0.TheilInd1:3.0.TheilInd1} - `"Theil Index, GE(1)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1392,7 +1396,7 @@
 {marker sourceid_3.1.Gini}
 {synopt:{bf:{help wbopendata_sourceid##3.1.Gini:3.1.Gini} - `"Gini, Rural"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1405,7 +1409,7 @@
 {marker sourceid_3.1.MLongDev0}
 {synopt:{bf:{help wbopendata_sourceid##3.1.MLongDev0:3.1.MLongDev0} - `"Mean Log Deviation, GE(0), Rural"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1418,7 +1422,7 @@
 {marker sourceid_3.1.TheilInd1}
 {synopt:{bf:{help wbopendata_sourceid##3.1.TheilInd1:3.1.TheilInd1} - `"Theil Index, GE(1), Rural"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1431,7 +1435,7 @@
 {marker sourceid_3.2.Gini}
 {synopt:{bf:{help wbopendata_sourceid##3.2.Gini:3.2.Gini} - `"Gini, Urban"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1444,7 +1448,7 @@
 {marker sourceid_3.2.MLongDev0}
 {synopt:{bf:{help wbopendata_sourceid##3.2.MLongDev0:3.2.MLongDev0} - `"Mean Log Deviation, GE(0),Urban"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1457,7 +1461,7 @@
 {marker sourceid_3.2.TheilInd1}
 {synopt:{bf:{help wbopendata_sourceid##3.2.TheilInd1:3.2.TheilInd1} - `"Theil Index, GE(1),Urban"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1470,7 +1474,7 @@
 {marker sourceid_4.0.nini.15a18}
 {synopt:{bf:{help wbopendata_sourceid##4.0.nini.15a18:4.0.nini.15a18} - `"Youth: Neither in School Nor Working  (15-18)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1483,7 +1487,7 @@
 {marker sourceid_4.0.nini.15a24}
 {synopt:{bf:{help wbopendata_sourceid##4.0.nini.15a24:4.0.nini.15a24} - `"Youth: Neither in School Nor Working  (15-24)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1496,7 +1500,7 @@
 {marker sourceid_4.0.nini.19a24}
 {synopt:{bf:{help wbopendata_sourceid##4.0.nini.19a24:4.0.nini.19a24} - `"Youth: Neither in School Nor Working  (19-24)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1509,7 +1513,7 @@
 {marker sourceid_4.0.stud.15a18}
 {synopt:{bf:{help wbopendata_sourceid##4.0.stud.15a18:4.0.stud.15a18} - `"Youth: In School (15-18)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1522,7 +1526,7 @@
 {marker sourceid_4.0.stud.15a24}
 {synopt:{bf:{help wbopendata_sourceid##4.0.stud.15a24:4.0.stud.15a24} - `"Youth: In School (15-24)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1535,7 +1539,7 @@
 {marker sourceid_4.0.stud.19a24}
 {synopt:{bf:{help wbopendata_sourceid##4.0.stud.19a24:4.0.stud.19a24} - `"Youth: In School (19-24)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1548,7 +1552,7 @@
 {marker sourceid_4.0.studwork.15a18}
 {synopt:{bf:{help wbopendata_sourceid##4.0.studwork.15a18:4.0.studwork.15a18} - `"Youth: In School and Employed (15-18)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1561,7 +1565,7 @@
 {marker sourceid_4.0.studwork.15a24}
 {synopt:{bf:{help wbopendata_sourceid##4.0.studwork.15a24:4.0.studwork.15a24} - `"Youth: In School and Employed (15-24)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1574,7 +1578,7 @@
 {marker sourceid_4.0.studwork.19a24}
 {synopt:{bf:{help wbopendata_sourceid##4.0.studwork.19a24:4.0.studwork.19a24} - `"Youth: In School and Employed (19-24)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1587,7 +1591,7 @@
 {marker sourceid_4.0.work.15a18}
 {synopt:{bf:{help wbopendata_sourceid##4.0.work.15a18:4.0.work.15a18} - `"Youth: Employed (15-18)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1600,7 +1604,7 @@
 {marker sourceid_4.0.work.15a24}
 {synopt:{bf:{help wbopendata_sourceid##4.0.work.15a24:4.0.work.15a24} - `"Youth: Employed (15-24)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1613,7 +1617,7 @@
 {marker sourceid_4.0.work.19a24}
 {synopt:{bf:{help wbopendata_sourceid##4.0.work.19a24:4.0.work.19a24} - `"Youth: Employed (19-24)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1626,7 +1630,7 @@
 {marker sourceid_4.1.nini.15a18}
 {synopt:{bf:{help wbopendata_sourceid##4.1.nini.15a18:4.1.nini.15a18} - `"Youth: Neither in School Nor Working  (15-18), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1639,7 +1643,7 @@
 {marker sourceid_4.1.nini.15a24}
 {synopt:{bf:{help wbopendata_sourceid##4.1.nini.15a24:4.1.nini.15a24} - `"Youth: Neither in School Nor Working  (15-24), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1652,7 +1656,7 @@
 {marker sourceid_4.1.nini.19a24}
 {synopt:{bf:{help wbopendata_sourceid##4.1.nini.19a24:4.1.nini.19a24} - `"Youth: Neither in School Nor Working  (19-24), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1665,7 +1669,7 @@
 {marker sourceid_4.1.stud.15a18}
 {synopt:{bf:{help wbopendata_sourceid##4.1.stud.15a18:4.1.stud.15a18} - `"Youth: In School (15-18), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1678,7 +1682,7 @@
 {marker sourceid_4.1.stud.15a24}
 {synopt:{bf:{help wbopendata_sourceid##4.1.stud.15a24:4.1.stud.15a24} - `"Youth: In School (15-24), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1691,7 +1695,7 @@
 {marker sourceid_4.1.stud.19a24}
 {synopt:{bf:{help wbopendata_sourceid##4.1.stud.19a24:4.1.stud.19a24} - `"Youth: In School (19-24), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1704,7 +1708,7 @@
 {marker sourceid_4.1.studwork.15a18}
 {synopt:{bf:{help wbopendata_sourceid##4.1.studwork.15a18:4.1.studwork.15a18} - `"Youth: In School and Employed (15-18), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1717,7 +1721,7 @@
 {marker sourceid_4.1.studwork.15a24}
 {synopt:{bf:{help wbopendata_sourceid##4.1.studwork.15a24:4.1.studwork.15a24} - `"Youth: In School and Employed (15-24), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1730,7 +1734,7 @@
 {marker sourceid_4.1.studwork.19a24}
 {synopt:{bf:{help wbopendata_sourceid##4.1.studwork.19a24:4.1.studwork.19a24} - `"Youth: In School and Employed (19-24), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1743,7 +1747,7 @@
 {marker sourceid_4.1.work.15a18}
 {synopt:{bf:{help wbopendata_sourceid##4.1.work.15a18:4.1.work.15a18} - `"Youth: Employed (15-18), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1756,7 +1760,7 @@
 {marker sourceid_4.1.work.15a24}
 {synopt:{bf:{help wbopendata_sourceid##4.1.work.15a24:4.1.work.15a24} - `"Youth: Employed (15-24), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1769,7 +1773,7 @@
 {marker sourceid_4.1.work.19a24}
 {synopt:{bf:{help wbopendata_sourceid##4.1.work.19a24:4.1.work.19a24} - `"Youth: Employed (19-24), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1782,7 +1786,7 @@
 {marker sourceid_4.2.nini.15a18}
 {synopt:{bf:{help wbopendata_sourceid##4.2.nini.15a18:4.2.nini.15a18} - `"Youth: Neither in School Nor Working  (15-18), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1795,7 +1799,7 @@
 {marker sourceid_4.2.nini.15a24}
 {synopt:{bf:{help wbopendata_sourceid##4.2.nini.15a24:4.2.nini.15a24} - `"Youth: Neither in School Nor Working  (15-24), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1808,7 +1812,7 @@
 {marker sourceid_4.2.nini.19a24}
 {synopt:{bf:{help wbopendata_sourceid##4.2.nini.19a24:4.2.nini.19a24} - `"Youth: Neither in School Nor Working  (19-24), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1821,7 +1825,7 @@
 {marker sourceid_4.2.stud.15a18}
 {synopt:{bf:{help wbopendata_sourceid##4.2.stud.15a18:4.2.stud.15a18} - `"Youth: In School (15-18), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1834,7 +1838,7 @@
 {marker sourceid_4.2.stud.15a24}
 {synopt:{bf:{help wbopendata_sourceid##4.2.stud.15a24:4.2.stud.15a24} - `"Youth: In School (15-24), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1847,7 +1851,7 @@
 {marker sourceid_4.2.stud.19a24}
 {synopt:{bf:{help wbopendata_sourceid##4.2.stud.19a24:4.2.stud.19a24} - `"Youth: In School (19-24), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1860,7 +1864,7 @@
 {marker sourceid_4.2.studwork.15a18}
 {synopt:{bf:{help wbopendata_sourceid##4.2.studwork.15a18:4.2.studwork.15a18} - `"Youth: In School and Employed (15-18), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1873,7 +1877,7 @@
 {marker sourceid_4.2.studwork.15a24}
 {synopt:{bf:{help wbopendata_sourceid##4.2.studwork.15a24:4.2.studwork.15a24} - `"Youth: In School and Employed (15-24), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1886,7 +1890,7 @@
 {marker sourceid_4.2.studwork.19a24}
 {synopt:{bf:{help wbopendata_sourceid##4.2.studwork.19a24:4.2.studwork.19a24} - `"Youth: In School and Employed (19-24), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1899,7 +1903,7 @@
 {marker sourceid_4.2.work.15a18}
 {synopt:{bf:{help wbopendata_sourceid##4.2.work.15a18:4.2.work.15a18} - `"Youth: Employed (15-18), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1912,7 +1916,7 @@
 {marker sourceid_4.2.work.15a24}
 {synopt:{bf:{help wbopendata_sourceid##4.2.work.15a24:4.2.work.15a24} - `"Youth: Employed (15-24), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1925,7 +1929,7 @@
 {marker sourceid_4.2.work.19a24}
 {synopt:{bf:{help wbopendata_sourceid##4.2.work.19a24:4.2.work.19a24} - `"Youth: Employed (19-24), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1938,7 +1942,7 @@
 {marker sourceid_5.0.AMeanIncGr.All}
 {synopt:{bf:{help wbopendata_sourceid##5.0.AMeanIncGr.All:5.0.AMeanIncGr.All} - `"Annualized Mean Income Growth (2004-2014)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -1951,7 +1955,7 @@
 {marker sourceid_5.0.AMeanIncGr.B40}
 {synopt:{bf:{help wbopendata_sourceid##5.0.AMeanIncGr.B40:5.0.AMeanIncGr.B40} - `"Annualized Mean Income Growth Bottom 40 Percent (2004-2014)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -1964,7 +1968,7 @@
 {marker sourceid_5.1.AMeanIncGr.All}
 {synopt:{bf:{help wbopendata_sourceid##5.1.AMeanIncGr.All:5.1.AMeanIncGr.All} - `"Annualized Mean Income Growth (2004-2009)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -1977,7 +1981,7 @@
 {marker sourceid_5.1.AMeanIncGr.B40}
 {synopt:{bf:{help wbopendata_sourceid##5.1.AMeanIncGr.B40:5.1.AMeanIncGr.B40} - `"Annualized Mean Income Growth Bottom 40 Percent (2004-2009)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -1990,7 +1994,7 @@
 {marker sourceid_5.2.AMeanIncGr.All}
 {synopt:{bf:{help wbopendata_sourceid##5.2.AMeanIncGr.All:5.2.AMeanIncGr.All} - `"Annualized Mean Income Growth (2009-2014)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -2003,7 +2007,7 @@
 {marker sourceid_5.2.AMeanIncGr.B40}
 {synopt:{bf:{help wbopendata_sourceid##5.2.AMeanIncGr.B40:5.2.AMeanIncGr.B40} - `"Annualized Mean Income Growth Bottom 40 Percent (2009-2014)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -2016,7 +2020,7 @@
 {marker sourceid_6.0.Conspc}
 {synopt:{bf:{help wbopendata_sourceid##6.0.Conspc:6.0.Conspc} - `"Consumption per capita (2011 $)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -2029,7 +2033,7 @@
 {marker sourceid_6.0.GDP_current}
 {synopt:{bf:{help wbopendata_sourceid##6.0.GDP_current:6.0.GDP_current} - `"GDP (current $)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -2042,7 +2046,7 @@
 {marker sourceid_6.0.GDP_growth}
 {synopt:{bf:{help wbopendata_sourceid##6.0.GDP_growth:6.0.GDP_growth} - `"GDP growth (annual %)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -2055,7 +2059,7 @@
 {marker sourceid_6.0.GDP_usd}
 {synopt:{bf:{help wbopendata_sourceid##6.0.GDP_usd:6.0.GDP_usd} - `"GDP (constant 2005 $)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -2068,7 +2072,7 @@
 {marker sourceid_6.0.GDPpc_constant}
 {synopt:{bf:{help wbopendata_sourceid##6.0.GDPpc_constant:6.0.GDPpc_constant} - `"GDP per capita, PPP (constant 2011 international $)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -2081,7 +2085,7 @@
 {marker sourceid_6.0.GNIpc}
 {synopt:{bf:{help wbopendata_sourceid##6.0.GNIpc:6.0.GNIpc} - `"GNI per capita (2011 $)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -2094,7 +2098,7 @@
 {marker sourceid_8.0.LIPI}
 {synopt:{bf:{help wbopendata_sourceid##8.0.LIPI:8.0.LIPI} - `"Labor Income Poverty Index"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -2107,7 +2111,7 @@
 {marker sourceid_9.0.Employee.All}
 {synopt:{bf:{help wbopendata_sourceid##9.0.Employee.All:9.0.Employee.All} - `"Employees (%)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2120,7 +2124,7 @@
 {marker sourceid_9.0.Employee.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.0.Employee.B40:9.0.Employee.B40} - `"Employees-Bottom 40 Percent (%)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2133,7 +2137,7 @@
 {marker sourceid_9.0.Employee.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.0.Employee.T60:9.0.Employee.T60} - `"Employees-Top 60 Percent (%)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2146,7 +2150,7 @@
 {marker sourceid_9.0.Employer.All}
 {synopt:{bf:{help wbopendata_sourceid##9.0.Employer.All:9.0.Employer.All} - `"Employers (%)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2159,7 +2163,7 @@
 {marker sourceid_9.0.Employer.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.0.Employer.B40:9.0.Employer.B40} - `"Employers-Bottom 40 Percent (%)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2172,7 +2176,7 @@
 {marker sourceid_9.0.Employer.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.0.Employer.T60:9.0.Employer.T60} - `"Employers-Top 60 Percent (%)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2185,7 +2189,7 @@
 {marker sourceid_9.0.Labor.All}
 {synopt:{bf:{help wbopendata_sourceid##9.0.Labor.All:9.0.Labor.All} - `"Labor Force Participation Rate (%)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2198,7 +2202,7 @@
 {marker sourceid_9.0.Labor.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.0.Labor.B40:9.0.Labor.B40} - `"Labor Force Participation Rate (%)-Bottom 40 Percent"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -2211,7 +2215,7 @@
 {marker sourceid_9.0.Labor.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.0.Labor.T60:9.0.Labor.T60} - `"Labor Force Participation Rate (%)-Top 60 Percent"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -2224,7 +2228,7 @@
 {marker sourceid_9.0.SelfEmp.All}
 {synopt:{bf:{help wbopendata_sourceid##9.0.SelfEmp.All:9.0.SelfEmp.All} - `"Self-Employed (%)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2237,7 +2241,7 @@
 {marker sourceid_9.0.SelfEmp.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.0.SelfEmp.B40:9.0.SelfEmp.B40} - `"Self-Employed-Bottom 40 Percent (%)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2250,7 +2254,7 @@
 {marker sourceid_9.0.SelfEmp.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.0.SelfEmp.T60:9.0.SelfEmp.T60} - `"Self-Employed-Top 60 Percent (%)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2263,7 +2267,7 @@
 {marker sourceid_9.0.Unemp.All}
 {synopt:{bf:{help wbopendata_sourceid##9.0.Unemp.All:9.0.Unemp.All} - `"Unemployed (%)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2276,7 +2280,7 @@
 {marker sourceid_9.0.Unemp.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.0.Unemp.B40:9.0.Unemp.B40} - `"Unemployed-Bottom 40 Percent (%)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2289,7 +2293,7 @@
 {marker sourceid_9.0.Unemp.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.0.Unemp.T60:9.0.Unemp.T60} - `"Unemployed-Top 60 Percent (%)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2302,7 +2306,7 @@
 {marker sourceid_9.0.Unpaid.All}
 {synopt:{bf:{help wbopendata_sourceid##9.0.Unpaid.All:9.0.Unpaid.All} - `"Unpaid Workers (%)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2315,7 +2319,7 @@
 {marker sourceid_9.0.Unpaid.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.0.Unpaid.B40:9.0.Unpaid.B40} - `"Unpaid Workers-Bottom 40 Percent (%)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2328,7 +2332,7 @@
 {marker sourceid_9.0.Unpaid.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.0.Unpaid.T60:9.0.Unpaid.T60} - `"Unpaid Workers-Top 60 Percent (%)"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2341,7 +2345,7 @@
 {marker sourceid_9.1.Employee.All}
 {synopt:{bf:{help wbopendata_sourceid##9.1.Employee.All:9.1.Employee.All} - `"Employees (%), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2354,7 +2358,7 @@
 {marker sourceid_9.1.Employee.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.1.Employee.B40:9.1.Employee.B40} - `"Employees-Bottom 40 Percent (%), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2367,7 +2371,7 @@
 {marker sourceid_9.1.Employee.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.1.Employee.T60:9.1.Employee.T60} - `"Employees-Top 60 Percent (%), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2380,7 +2384,7 @@
 {marker sourceid_9.1.Employer.All}
 {synopt:{bf:{help wbopendata_sourceid##9.1.Employer.All:9.1.Employer.All} - `"Employers (%), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2393,7 +2397,7 @@
 {marker sourceid_9.1.Employer.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.1.Employer.B40:9.1.Employer.B40} - `"Employers-Bottom 40 Percent (%), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2406,7 +2410,7 @@
 {marker sourceid_9.1.Employer.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.1.Employer.T60:9.1.Employer.T60} - `"Employers-Top 60 Percent (%), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2419,7 +2423,7 @@
 {marker sourceid_9.1.Labor.All}
 {synopt:{bf:{help wbopendata_sourceid##9.1.Labor.All:9.1.Labor.All} - `"Labor Force Participation Rate (%), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2432,7 +2436,7 @@
 {marker sourceid_9.1.Labor.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.1.Labor.B40:9.1.Labor.B40} - `"Labor Force Participation Rate (%)-Bottom 40 Percent, Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -2445,7 +2449,7 @@
 {marker sourceid_9.1.Labor.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.1.Labor.T60:9.1.Labor.T60} - `"Labor Force Participation Rate (%)-Top 60 Percent, Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -2458,7 +2462,7 @@
 {marker sourceid_9.1.SelfEmp.All}
 {synopt:{bf:{help wbopendata_sourceid##9.1.SelfEmp.All:9.1.SelfEmp.All} - `"Self-Employed (%), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2471,7 +2475,7 @@
 {marker sourceid_9.1.SelfEmp.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.1.SelfEmp.B40:9.1.SelfEmp.B40} - `"Self-Employed-Bottom 40 Percent (%), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2484,7 +2488,7 @@
 {marker sourceid_9.1.SelfEmp.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.1.SelfEmp.T60:9.1.SelfEmp.T60} - `"Self-Employed-Top 60 Percent (%), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2497,7 +2501,7 @@
 {marker sourceid_9.1.Unemp.All}
 {synopt:{bf:{help wbopendata_sourceid##9.1.Unemp.All:9.1.Unemp.All} - `"Unemployed (%), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2510,7 +2514,7 @@
 {marker sourceid_9.1.Unemp.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.1.Unemp.B40:9.1.Unemp.B40} - `"Unemployed-Bottom 40 Percent (%), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2523,7 +2527,7 @@
 {marker sourceid_9.1.Unemp.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.1.Unemp.T60:9.1.Unemp.T60} - `"Unemployed-Top 60 Percent (%), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2536,7 +2540,7 @@
 {marker sourceid_9.1.Unpaid.All}
 {synopt:{bf:{help wbopendata_sourceid##9.1.Unpaid.All:9.1.Unpaid.All} - `"Unpaid Workers (%), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2549,7 +2553,7 @@
 {marker sourceid_9.1.Unpaid.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.1.Unpaid.B40:9.1.Unpaid.B40} - `"Unpaid Workers-Bottom 40 Percent (%), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2562,7 +2566,7 @@
 {marker sourceid_9.1.Unpaid.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.1.Unpaid.T60:9.1.Unpaid.T60} - `"Unpaid Workers-Top 60 Percent (%), Male"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2575,7 +2579,7 @@
 {marker sourceid_9.2.Employee.All}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Employee.All:9.2.Employee.All} - `"Employees (%), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2588,7 +2592,7 @@
 {marker sourceid_9.2.Employee.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Employee.B40:9.2.Employee.B40} - `"Employees-Bottom 40 Percent (%), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2601,7 +2605,7 @@
 {marker sourceid_9.2.Employee.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Employee.T60:9.2.Employee.T60} - `"Employees-Top 60 Percent (%), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2614,7 +2618,7 @@
 {marker sourceid_9.2.Employer.All}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Employer.All:9.2.Employer.All} - `"Employers (%), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2627,7 +2631,7 @@
 {marker sourceid_9.2.Employer.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Employer.B40:9.2.Employer.B40} - `"Employers-Bottom 40 Percent (%), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2640,7 +2644,7 @@
 {marker sourceid_9.2.Employer.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Employer.T60:9.2.Employer.T60} - `"Employers-Top 60 Percent (%), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2653,7 +2657,7 @@
 {marker sourceid_9.2.Labor.All}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Labor.All:9.2.Labor.All} - `"Labor Force Participation Rate (%), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2666,7 +2670,7 @@
 {marker sourceid_9.2.Labor.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Labor.B40:9.2.Labor.B40} - `"Labor Force Participation Rate (%)-Bottom 40 Percent, Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -2679,7 +2683,7 @@
 {marker sourceid_9.2.Labor.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Labor.T60:9.2.Labor.T60} - `"Labor Force Participation Rate (%)-Top 60 Percent, Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
@@ -2692,7 +2696,7 @@
 {marker sourceid_9.2.SelfEmp.All}
 {synopt:{bf:{help wbopendata_sourceid##9.2.SelfEmp.All:9.2.SelfEmp.All} - `"Self-Employed (%), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2705,7 +2709,7 @@
 {marker sourceid_9.2.SelfEmp.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.2.SelfEmp.B40:9.2.SelfEmp.B40} - `"Self-Employed-Bottom 40 Percent (%), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2718,7 +2722,7 @@
 {marker sourceid_9.2.SelfEmp.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.2.SelfEmp.T60:9.2.SelfEmp.T60} - `"Self-Employed-Top 60 Percent (%), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2731,7 +2735,7 @@
 {marker sourceid_9.2.Unemp.All}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Unemp.All:9.2.Unemp.All} - `"Unemployed (%), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2744,7 +2748,7 @@
 {marker sourceid_9.2.Unemp.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Unemp.B40:9.2.Unemp.B40} - `"Unemployed-Bottom 40 Percent (%), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2757,7 +2761,7 @@
 {marker sourceid_9.2.Unemp.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Unemp.T60:9.2.Unemp.T60} - `"Unemployed-Top 60 Percent (%), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2770,7 +2774,7 @@
 {marker sourceid_9.2.Unpaid.All}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Unpaid.All:9.2.Unpaid.All} - `"Unpaid Workers (%), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2783,7 +2787,7 @@
 {marker sourceid_9.2.Unpaid.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Unpaid.B40:9.2.Unpaid.B40} - `"Unpaid Workers-Bottom 40 Percent (%), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2796,7 +2800,7 @@
 {marker sourceid_9.2.Unpaid.T60}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Unpaid.T60:9.2.Unpaid.T60} - `"Unpaid Workers-Top 60 Percent (%), Female"'}}
 
-{synopt:{opt Source}}`"37 LAC Equity Lab"'{p_end}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2806,4 +2810,4 @@
 
 
 
-{right:(as of 20oct2019)}
+{right:(as of 27oct2019)}

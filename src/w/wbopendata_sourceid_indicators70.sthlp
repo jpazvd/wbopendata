@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 20oct2019)}
+{right:(as of 27oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -10,6 +10,11 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
+{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
+{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
+{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
+{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
+{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -53,7 +58,6 @@
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
-{synopt:{opt 74}}  {help wbopendata_sourceid_indicators74##sourceid_74:Macro Poverty Outlook External}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
@@ -66,7 +70,7 @@
 {marker sourceid_EF.EFM.PROD.XD}
 {synopt:{bf:{help wbopendata_sourceid##EF.EFM.PROD.XD:EF.EFM.PROD.XD} - `"Economic Fitness Metric"'}}
 
-{synopt:{opt Source}}`"70 Economic Fitness 2"'{p_end}
+{synopt:{opt Source}}70 Economic Fitness 2{p_end}
 
 
 {synopt:{opt Source Notes}}Economic Fitness (EF) is both a measure of a country’s diversification and ability to produce complex goods on a globally competitive basis. Countries with the highest levels of EF have capabilities to produce a diverse portfolio of products{p_end}
@@ -78,7 +82,7 @@
 {marker sourceid_EF.EFM.UNIV.XD}
 {synopt:{bf:{help wbopendata_sourceid##EF.EFM.UNIV.XD:EF.EFM.UNIV.XD} - `"Universal Economic Fitness Metric"'}}
 
-{synopt:{opt Source}}`"70 Economic Fitness 2"'{p_end}
+{synopt:{opt Source}}70 Economic Fitness 2{p_end}
 
 
 {synopt:{opt Source Notes}}	The Universal Economic Fitness (UEF) is both a measure of a country’s diversification and ability to produce complex goods on a globally competitive basis.  Countries with the highest levels of EF have capabilities to produce a diverse port{p_end}
@@ -87,4 +91,4 @@
 
 
 
-{right:(as of 20oct2019)}
+{right:(as of 27oct2019)}

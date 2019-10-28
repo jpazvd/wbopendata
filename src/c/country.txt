@@ -15,27 +15,34 @@ AUS - Australia
 AUT - Austria
 AZE - Azerbaijan
 BDI - Burundi
+BEA - East Asia and Pacific (IBRD-only countries)
+BEC - Europe and Central Asia (IBRD-only countries)
 BEL - Belgium
 BEN - Benin
 BFA - Burkina Faso
 BGD - Bangladesh
 BGR - Bulgaria
+BHI - IBRD countries classified as high income
 BHR - Bahrain
 BHS - Bahamas, The
 BIH - Bosnia and Herzegovina
+BLA - Latin America and the Caribbean (IBRD-only countries)
 BLR - Belarus
 BLZ - Belize
+BMN - Middle East and North Africa (IBRD-only countries)
 BMU - Bermuda
 BOL - Bolivia
 BRA - Brazil
 BRB - Barbados
 BRN - Brunei Darussalam
+BSS - Sub-Saharan Africa (IBRD-only countries)
 BTN - Bhutan
 BWA - Botswana
 CAA - Sub-Saharan Africa (IFC classification)
 CAF - Central African Republic
 CAN - Canada
 CEA - East Asia and the Pacific (IFC classification)
+CEB - Central Europe and the Baltics
 CEU - Europe and Central Asia (IFC classification)
 CHE - Switzerland
 CHI - Channel Islands
@@ -45,8 +52,8 @@ CIV - Cote d'Ivoire
 CLA - Latin America and the Caribbean (IFC classification)
 CME - Middle East and North Africa (IFC classification)
 CMR - Cameroon
-COD - Congo, Dem. Rep.
-COG - Congo, Rep.
+COD - Congo, Dem Rep
+COG - Congo, Rep
 COL - Colombia
 COM - Comoros
 CPV - Cabo Verde
@@ -58,33 +65,48 @@ CUW - Curacao
 CYM - Cayman Islands
 CYP - Cyprus
 CZE - Czech Republic
+DEA - East Asia and Pacific (IDA-eligible countries)
+DEC - Europe and Central Asia (IDA-eligible countries)
 DEU - Germany
+DFS - IDA countries classified as Fragile Situations
 DJI - Djibouti
+DLA - Latin America and the Caribbean (IDA-eligible countries)
 DMA - Dominica
+DMN - Middle East and North Africa (IDA-eligible countries)
+DNF - IDA countries not classified as Fragile Situations
 DNK - Denmark
+DNS - IDA countries in Sub-Saharan Africa not classified as fragile situations
 DOM - Dominican Republic
+DSA - South Asia (IDA-eligible countries)
+DSF - IDA countries in Sub-Saharan Africa classified as fragile situations
+DSS - Sub-Saharan Africa (IDA-eligible countries)
+DXS - IDA total, excluding Sub-Saharan Africa
 DZA - Algeria
-EAP - East Asia & Pacific (developing only)
-EAS - East Asia & Pacific (all income levels)
-ECA - Europe & Central Asia (developing only)
-ECS - Europe & Central Asia (all income levels)
+EAP - East Asia and Pacific (excluding high income)
+EAR - Early-demographic dividend
+EAS - East Asia and Pacific
+ECA - Europe and Central Asia (excluding high income)
+ECS - Europe and Central Asia
 ECU - Ecuador
-EGY - Egypt, Arab Rep.
+EGY - Egypt, Arab Rep
 EMU - Euro area
 ERI - Eritrea
 ESP - Spain
 EST - Estonia
 ETH - Ethiopia
 EUU - European Union
+FCS - Fragile and conflict affected situations
 FIN - Finland
 FJI - Fiji
 FRA - France
-FRO - Faeroe Islands
-FSM - Micronesia, Fed. Sts.
+FRO - Faroe Islands
+FSM - Micronesia, Fed Sts
+FXS - IDA countries classified as fragile situations, excluding Sub-Saharan Africa
 GAB - Gabon
 GBR - United Kingdom
 GEO - Georgia
 GHA - Ghana
+GIB - Gibraltar
 GIN - Guinea
 GMB - Gambia, The
 GNB - Guinea-Bissau
@@ -102,12 +124,18 @@ HPC - Heavily indebted poor countries (HIPC)
 HRV - Croatia
 HTI - Haiti
 HUN - Hungary
+IBB - IBRD, including blend
+IBD - IBRD only
+IBT - IDA and IBRD total
+IDA - IDA total
+IDB - IDA blend
 IDN - Indonesia
+IDX - IDA only
 IMN - Isle of Man
 IND - India
 INX - Not classified
 IRL - Ireland
-IRN - Iran, Islamic Rep.
+IRN - Iran, Islamic Rep
 IRQ - Iraq
 ISL - Iceland
 ISR - Israel
@@ -120,45 +148,46 @@ KEN - Kenya
 KGZ - Kyrgyz Republic
 KHM - Cambodia
 KIR - Kiribati
-KNA - St. Kitts and Nevis
-KOR - Korea, Rep.
-KSV - Kosovo
+KNA - St Kitts and Nevis
+KOR - Korea, Rep
 KWT - Kuwait
-LAC - Latin America & Caribbean (developing only)
+LAC - Latin America and Caribbean (excluding high income)
 LAO - Lao PDR
 LBN - Lebanon
 LBR - Liberia
 LBY - Libya
-LCA - St. Lucia
-LCN - Latin America & Caribbean (all income levels)
+LCA - St Lucia
+LCN - Latin America and Caribbean
 LCR - Latin America and the Caribbean
 LDC - Least developed countries: UN classification
 LIC - Low income
 LIE - Liechtenstein
 LKA - Sri Lanka
 LMC - Lower middle income
-LMY - Low & middle income
+LMY - Low and middle income
 LSO - Lesotho
+LTE - Late-demographic dividend
 LTU - Lithuania
 LUX - Luxembourg
 LVA - Latvia
 MAC - Macao SAR, China
-MAF - St. Martin (French part)
+MAF - St Martin (French part)
 MAR - Morocco
-MCA - Mexico and Central America
+MCA - Central America
 MCO - Monaco
 MDA - Moldova
+MDE - Middle East (developing only)
 MDG - Madagascar
 MDV - Maldives
-MEA - Middle East & North Africa (all income levels)
+MEA - Middle East and North Africa
 MEX - Mexico
 MHL - Marshall Islands
 MIC - Middle income
-MKD - Macedonia, FYR
+MKD - North Macedonia
 MLI - Mali
 MLT - Malta
 MMR - Myanmar
-MNA - Middle East & North Africa (developing only)
+MNA - Middle East and North Africa (excluding high income)
 MNE - Montenegro
 MNG - Mongolia
 MNP - Northern Mariana Islands
@@ -175,11 +204,13 @@ NER - Niger
 NGA - Nigeria
 NIC - Nicaragua
 NLD - Netherlands
-NOC - High income: nonOECD
+NLS - Non-resource rich Sub-Saharan Africa countries, of which landlocked
 NOR - Norway
 NPL - Nepal
+NRS - Non-resource rich Sub-Saharan Africa countries
+NRU - Nauru
+NXS - IDA countries not classified as fragile situations, excluding Sub-Saharan Africa
 NZL - New Zealand
-OEC - High income: OECD
 OED - OECD members
 OMN - Oman
 OSS - Other small states
@@ -190,20 +221,24 @@ PHL - Philippines
 PLW - Palau
 PNG - Papua New Guinea
 POL - Poland
+PRE - Pre-demographic dividend
 PRI - Puerto Rico
-PRK - Korea, Dem. Rep.
+PRK - Korea, Dem People’s Rep
 PRT - Portugal
 PRY - Paraguay
 PSE - West Bank and Gaza
 PSS - Pacific island small states
+PST - Post-demographic dividend
 PYF - French Polynesia
 QAT - Qatar
 ROU - Romania
+RRS - Resource rich Sub-Saharan Africa countries
+RSO - Resource rich Sub-Saharan Africa countries, of which oil exporters
 RUS - Russian Federation
 RWA - Rwanda
 SAS - South Asia
 SAU - Saudi Arabia
-SCE - Southern Cone Extended
+SCE - Southern Cone
 SDN - Sudan
 SEN - Senegal
 SGP - Singapore
@@ -213,32 +248,39 @@ SLV - El Salvador
 SMR - San Marino
 SOM - Somalia
 SRB - Serbia
-SSA - Sub-Saharan Africa (developing only)
+SSA - Sub-Saharan Africa (excluding high income)
 SSD - South Sudan
-SSF - Sub-Saharan Africa (all income levels)
+SSF - Sub-Saharan Africa
 SST - Small states
 STP - Sao Tome and Principe
 SUR - Suriname
 SVK - Slovak Republic
 SVN - Slovenia
 SWE - Sweden
-SWZ - Swaziland
+SWZ - Eswatini
 SXM - Sint Maarten (Dutch part)
 SXZ - Sub-Saharan Africa excluding South Africa
 SYC - Seychelles
 SYR - Syrian Arab Republic
 TCA - Turks and Caicos Islands
 TCD - Chad
+TEA - East Asia and Pacific (IDA and IBRD countries)
+TEC - Europe and Central Asia (IDA and IBRD countries)
 TGO - Togo
 THA - Thailand
 TJK - Tajikistan
 TKM - Turkmenistan
+TLA - Latin America and the Caribbean (IDA and IBRD countries)
 TLS - Timor-Leste
+TMN - Middle East and North Africa (IDA and IBRD countries)
 TON - Tonga
+TSA - South Asia (IDA and IBRD)
+TSS - Sub-Saharan Africa (IDA and IBRD countries)
 TTO - Trinidad and Tobago
 TUN - Tunisia
 TUR - Turkey
 TUV - Tuvalu
+TWN - Taiwan, China
 TZA - Tanzania
 UGA - Uganda
 UKR - Ukraine
@@ -246,15 +288,17 @@ UMC - Upper middle income
 URY - Uruguay
 USA - United States
 UZB - Uzbekistan
-VCT - St. Vincent and the Grenadines
+VCT - St Vincent and the Grenadines
 VEN - Venezuela, RB
-VIR - Virgin Islands (U.S.)
+VGB - British Virgin Islands
+VIR - Virgin Islands (US)
 VNM - Vietnam
 VUT - Vanuatu
 WLD - World
 WSM - Samoa
+XKX - Kosovo
 XZN - Sub-Saharan Africa excluding South Africa and Nigeria
-YEM - Yemen, Rep.
+YEM - Yemen, Rep
 ZAF - South Africa
 ZMB - Zambia
 ZWE - Zimbabwe

@@ -1,24 +1,9 @@
 *******************************************************************************
 * _update_indicators                                                                   
-*! v 16.0   20Oct2019				by João Pedro Azevedo
-*		initial commit
+*! v 16.0   27Oct2019				by João Pedro Azevedo
+*		fix macros
 /*******************************************************************************
 
-cd "C:\GitHub_myados\wbopendata\src"
-
-! git checkout dev
-
-discard
-
-_api_read_indicators, update preserveout file2(file2.txt)
-
-_update_indicators, file(file2.txt) nosthlp1 nosthlp2
-
-return list
-
-	insheet using file1.txt, delimiter("#") clear name
-
-*******************************************************************************/
 
 program define _update_indicators, rclass
 
@@ -33,10 +18,13 @@ version 9
 				CHECK					///
 				QUERY					///
 				NOIsily					///
+				NAME(string)			///
+				SAVE					///
+				REPLACE					///
 			] 			
 						 
 
-*******************************************************************************
+*******************************************************************************/
 
 	tempfile tmp
 	
@@ -65,8 +53,11 @@ quietly {
 
 	insheet using `file2', delimiter("#") clear name
 
+*	noi di "save tmptmp"
+*	save tmptmp, replace
+	
 	* drop cases in which SOURCEID does not stata with a numeric CODE
-	drop if real(substr(sourceid,1,2))==. & !missing(sourceid)
+	drop if real(substr(sourceid,1,1))==. & !missing(sourceid)
 	
 	gen seq = _n
 
@@ -168,6 +159,18 @@ if ("`nosthlp1'" == "") {
 
 		use `tmp', clear
 		
+		
+		if ("`save'" != "") {
+		
+			if ("`name'" == "") {
+				local name "indicators"
+			}
+		
+			save `name'.dta, `replace'
+			noi di in y "`name'.dta saved `replace'"
+			noi di ""
+		}
+		
 		keep if `variable' != ""
 		sort `variable' indicatorcode
 		bysort `variable' indicatorcode : gen `dups`variable'' = _n
@@ -240,7 +243,7 @@ if ("`nosthlp1'" == "") {
 						local indicatorcode 	= indicatorcode   	in `line'
 						
 						file write `hlp`variable''  ""  _n
-						file write `hlp`variable''  "{synopt:{help wbopendata_`variable'_indicators`topicode0'##`variable'_`indicatorcode':`indicatorcode'{marker `indicatorcode'}}}`indicatorname'{p_end}" _n
+						file write `hlp`variable''  "{synopt:{help wbopendata_`variable'_indicators`topicode0'##`variable'_`indicatorcode':`indicatorcode'{marker `indicatorcode'}}}`indicatorname3'{p_end}" _n
 						
 					}
 				
@@ -390,10 +393,10 @@ if ("`nosthlp2'" == "") {
 						`noi' di "`variable' : `topic1' :  `indicator'"
 
 						local indicatorcode 		"`indicator'"
-						levelsof indicatorname if indicatorcode == "`indicator'"
-						local indicatorname 		"`r(levels)'"
+						levelsof indicatorname if indicatorcode == "`indicator'", clean miss local(indicatorname)
+						local indicatorname 	`r(indicatorname)'
 						levelsof sourceid if indicatorcode == "`indicator'"
-						local sourceid 				"`r(levels)'"
+						local sourceid 				`r(levels)'
 						levelsof sourceorganization if indicatorcode == "`indicator'"
 						local sourceorganization	"`r(levels)'"
 						levelsof sourcenote if indicatorcode == "`indicator'"
@@ -547,3 +550,4 @@ end
 *******************************************************************************
 * _indicators                                                                     *
 *! v 15.1   10Mar2019				by João Pedro Azevedo
+*******************************************************************************

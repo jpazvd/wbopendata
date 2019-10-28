@@ -1,12 +1,13 @@
 *******************************************************************************
 * wbopendata                                                                  *
-*!  v 16.0	    20Oct2019               by Joao Pedro Azevedo 
+*!  v 16.0	    27Oct2019               by Joao Pedro Azevedo 
 * created and tested new functions, namely:
   * _api_read_indicators.ado : download indicator list from API, for formats output in a Stata readable form
   * _update_indicators.ado: calls _api_read_indicators.ado, and uses its output to generate several documentation outputs for wbopendata:
     * dialogue indicator list
     * sthlp indicator list by Source and Topic
     * sthlp indicator metadata by Source and Topic
+ * match option supported in wbopendata (add countrymetadata matching on MATCH var) 
  * _website.ado : screens a text file and converts and http or www "word" to a SMCL web compatible code.
  * _parameters.ado: now include detailed count of indicators by SOURCE and TOPIC
  * _wbopendata.ado: renamned _update_wbopendata
@@ -43,12 +44,41 @@ version 9.0
 						 FORCE						///
 						 SHORT						///
 						 DETAIL						///
+						 CTRYLIST					///
+						 MATCH(string)				///
+							ISO					///
+							REGIONS				///
+							ADMINR				///
+							INCOME				///
+							LENDING				///
+							CAPITALS			///
+							BASIC				///
+							FULL				///
+							countrycode_iso2 	///
+							region 				///
+							region_iso2 		///
+							regionname 			///
+							adminregion 		///
+							adminregion_iso2 	///
+							adminregionname 	///
+							incomelevel 		///
+							incomelevel_iso2 	///
+							incomelevelname 	///
+							lendingtype 		///
+							lendingtype_iso2 	///
+							lendingtypename 	///
+							capital 			///
+							latitude 			///
+							longitude 			///
+							countryname			///
                  ]
 
 
 	quietly {
 	
 	
+**********************************************************************************
+
 		if ("`query'" != "") & ("`check'" != "") {
 			noi di  as err "update query and update check options cannot be selected at the same time."
 			exit 198
@@ -65,14 +95,27 @@ version 9.0
 			
 		if ("`update'" != "") & wordcount("`query' `check' `countrymetadata' `all'")== 1 {
 
-			noi _update_wbopendata, update `query' `check'	`countrymetadata' `all' `force' `short' `detail' 
+			noi _update_wbopendata, update `query' `check'	`countrymetadata' `all' `force' `short' `detail' `ctrylist'
 			break
 					
 		}
 
+**********************************************************************************
+* option to match	
+	
+	
+	qui if ("`match'" != "") {
+
+		_countrymetadata, match(`match') `full' `iso' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `capitalist' `isolist' `countryname' `region'  `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname'  `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude'
+
+	}
+
+**********************************************************************************
+	
+	
 		local f = 1
 
-		if ("`indicator'" != "") & ("`update'" == ""){
+		if ("`indicator'" != "") & ("`update'" == "") & ("`match'" == "") {
 
 			_tknz "`indicator'" , parse(;)
 
@@ -140,7 +183,7 @@ version 9.0
 
 		 else {
 
-			if ("`update'" == "") {
+			if ("`update'" == "") & ("`match'" == "") {
 			 
 				noi _query , language("`language'")       ///
 								  country("`country'")         ///
