@@ -70,7 +70,7 @@
 {marker sourceid_SL.EMP.OWAC.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SL.EMP.OWAC.ZS:SL.EMP.OWAC.ZS} - `"Own-account workers, total (% of total employment)"'}}
 
-{synopt:{opt Source}}`"25 Jobs"'{p_end}
+{synopt:{opt Source}}25 Jobs{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}

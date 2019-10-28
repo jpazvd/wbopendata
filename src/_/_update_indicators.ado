@@ -408,10 +408,10 @@ if ("`nosthlp2'" == "") {
 						`noi' di "`variable' : `topic1' :  `indicator'"
 
 						local indicatorcode 		"`indicator'"
-						levelsof indicatorname if indicatorcode == "`indicator'"
-						local indicatorname 		"`r(levels)'"
+						levelsof indicatorname if indicatorcode == "`indicator'", clean
+						local indicatorname 	`r(levels)'
 						levelsof sourceid if indicatorcode == "`indicator'"
-						local sourceid 				"`r(levels)'"
+						local sourceid 				`r(levels)'
 						levelsof sourceorganization if indicatorcode == "`indicator'"
 						local sourceorganization	"`r(levels)'"
 						levelsof sourcenote if indicatorcode == "`indicator'"

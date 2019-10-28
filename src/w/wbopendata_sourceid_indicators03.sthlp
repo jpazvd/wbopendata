@@ -70,7 +70,7 @@
 {marker sourceid_CC.EST}
 {synopt:{bf:{help wbopendata_sourceid##CC.EST:CC.EST} - `"Control of Corruption: Estimate"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests. Estimate gives t{p_end}
@@ -82,7 +82,7 @@
 {marker sourceid_CC.NO.SRC}
 {synopt:{bf:{help wbopendata_sourceid##CC.NO.SRC:CC.NO.SRC} - `"Control of Corruption: Number of Sources"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests. Number of source{p_end}
@@ -94,7 +94,7 @@
 {marker sourceid_CC.PER.RNK}
 {synopt:{bf:{help wbopendata_sourceid##CC.PER.RNK:CC.PER.RNK} - `"Control of Corruption: Percentile Rank"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.  Percentile rank{p_end}
@@ -106,7 +106,7 @@
 {marker sourceid_CC.PER.RNK.LOWER}
 {synopt:{bf:{help wbopendata_sourceid##CC.PER.RNK.LOWER:CC.PER.RNK.LOWER} - `"Control of Corruption: Percentile Rank, Lower Bound of 90% Confidence Interval"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.  Percentile rank{p_end}
@@ -118,7 +118,7 @@
 {marker sourceid_CC.PER.RNK.UPPER}
 {synopt:{bf:{help wbopendata_sourceid##CC.PER.RNK.UPPER:CC.PER.RNK.UPPER} - `"Control of Corruption: Percentile Rank, Upper Bound of 90% Confidence Interval"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.  Percentile rank{p_end}
@@ -130,7 +130,7 @@
 {marker sourceid_CC.STD.ERR}
 {synopt:{bf:{help wbopendata_sourceid##CC.STD.ERR:CC.STD.ERR} - `"Control of Corruption: Standard Error"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.   Standard error{p_end}
@@ -142,7 +142,7 @@
 {marker sourceid_GE.EST}
 {synopt:{bf:{help wbopendata_sourceid##GE.EST:GE.EST} - `"Government Effectiveness: Estimate"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
@@ -154,7 +154,7 @@
 {marker sourceid_GE.NO.SRC}
 {synopt:{bf:{help wbopendata_sourceid##GE.NO.SRC:GE.NO.SRC} - `"Government Effectiveness: Number of Sources"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
@@ -166,7 +166,7 @@
 {marker sourceid_GE.PER.RNK}
 {synopt:{bf:{help wbopendata_sourceid##GE.PER.RNK:GE.PER.RNK} - `"Government Effectiveness: Percentile Rank"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
@@ -178,7 +178,7 @@
 {marker sourceid_GE.PER.RNK.LOWER}
 {synopt:{bf:{help wbopendata_sourceid##GE.PER.RNK.LOWER:GE.PER.RNK.LOWER} - `"Government Effectiveness: Percentile Rank, Lower Bound of 90% Confidence Interval"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
@@ -190,7 +190,7 @@
 {marker sourceid_GE.PER.RNK.UPPER}
 {synopt:{bf:{help wbopendata_sourceid##GE.PER.RNK.UPPER:GE.PER.RNK.UPPER} - `"Government Effectiveness: Percentile Rank, Upper Bound of 90% Confidence Interval"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
@@ -202,7 +202,7 @@
 {marker sourceid_GE.STD.ERR}
 {synopt:{bf:{help wbopendata_sourceid##GE.STD.ERR:GE.STD.ERR} - `"Government Effectiveness: Standard Error"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
@@ -214,7 +214,7 @@
 {marker sourceid_PV.EST}
 {synopt:{bf:{help wbopendata_sourceid##PV.EST:PV.EST} - `"Political Stability and Absence of Violence/Terrorism: Estimate"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism. Estimate gives the country's score on the aggregate indicator, in{p_end}
@@ -226,7 +226,7 @@
 {marker sourceid_PV.NO.SRC}
 {synopt:{bf:{help wbopendata_sourceid##PV.NO.SRC:PV.NO.SRC} - `"Political Stability and Absence of Violence/Terrorism: Number of Sources"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.   Number of sources indicates the number of underlying data sourc{p_end}
@@ -238,7 +238,7 @@
 {marker sourceid_PV.PER.RNK}
 {synopt:{bf:{help wbopendata_sourceid##PV.PER.RNK:PV.PER.RNK} - `"Political Stability and Absence of Violence/Terrorism: Percentile Rank"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Percentile rank indicates the country's rank among all countries{p_end}
@@ -250,7 +250,7 @@
 {marker sourceid_PV.PER.RNK.LOWER}
 {synopt:{bf:{help wbopendata_sourceid##PV.PER.RNK.LOWER:PV.PER.RNK.LOWER} - `"Political Stability and Absence of Violence/Terrorism: Percentile Rank, Lower Bound of 90% Confidence Interval"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Percentile rank indicates the country's rank among all countries{p_end}
@@ -262,7 +262,7 @@
 {marker sourceid_PV.PER.RNK.UPPER}
 {synopt:{bf:{help wbopendata_sourceid##PV.PER.RNK.UPPER:PV.PER.RNK.UPPER} - `"Political Stability and Absence of Violence/Terrorism: Percentile Rank, Upper Bound of 90% Confidence Interval"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Percentile rank indicates the country's rank among all countries{p_end}
@@ -274,7 +274,7 @@
 {marker sourceid_PV.STD.ERR}
 {synopt:{bf:{help wbopendata_sourceid##PV.STD.ERR:PV.STD.ERR} - `"Political Stability and Absence of Violence/Terrorism: Standard Error"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Standard error indicates the precision of the estimate of govern{p_end}
@@ -286,7 +286,7 @@
 {marker sourceid_RL.EST}
 {synopt:{bf:{help wbopendata_sourceid##RL.EST:RL.EST} - `"Rule of Law: Estimate"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
@@ -298,7 +298,7 @@
 {marker sourceid_RL.NO.SRC}
 {synopt:{bf:{help wbopendata_sourceid##RL.NO.SRC:RL.NO.SRC} - `"Rule of Law: Number of Sources"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
@@ -310,7 +310,7 @@
 {marker sourceid_RL.PER.RNK}
 {synopt:{bf:{help wbopendata_sourceid##RL.PER.RNK:RL.PER.RNK} - `"Rule of Law: Percentile Rank"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
@@ -322,7 +322,7 @@
 {marker sourceid_RL.PER.RNK.LOWER}
 {synopt:{bf:{help wbopendata_sourceid##RL.PER.RNK.LOWER:RL.PER.RNK.LOWER} - `"Rule of Law: Percentile Rank, Lower Bound of 90% Confidence Interval"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
@@ -334,7 +334,7 @@
 {marker sourceid_RL.PER.RNK.UPPER}
 {synopt:{bf:{help wbopendata_sourceid##RL.PER.RNK.UPPER:RL.PER.RNK.UPPER} - `"Rule of Law: Percentile Rank, Upper Bound of 90% Confidence Interval"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
@@ -346,7 +346,7 @@
 {marker sourceid_RL.STD.ERR}
 {synopt:{bf:{help wbopendata_sourceid##RL.STD.ERR:RL.STD.ERR} - `"Rule of Law: Standard Error"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
@@ -358,7 +358,7 @@
 {marker sourceid_RQ.EST}
 {synopt:{bf:{help wbopendata_sourceid##RQ.EST:RQ.EST} - `"Regulatory Quality: Estimate"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Estimate gives the country's score on the aggregate indicato{p_end}
@@ -370,7 +370,7 @@
 {marker sourceid_RQ.NO.SRC}
 {synopt:{bf:{help wbopendata_sourceid##RQ.NO.SRC:RQ.NO.SRC} - `"Regulatory Quality: Number of Sources"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. umber of sources indicates the number of underlying data sou{p_end}
@@ -382,7 +382,7 @@
 {marker sourceid_RQ.PER.RNK}
 {synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK:RQ.PER.RNK} - `"Regulatory Quality: Percentile Rank"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
@@ -394,7 +394,7 @@
 {marker sourceid_RQ.PER.RNK.LOWER}
 {synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK.LOWER:RQ.PER.RNK.LOWER} - `"Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
@@ -406,7 +406,7 @@
 {marker sourceid_RQ.PER.RNK.UPPER}
 {synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK.UPPER:RQ.PER.RNK.UPPER} - `"Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
@@ -418,7 +418,7 @@
 {marker sourceid_RQ.STD.ERR}
 {synopt:{bf:{help wbopendata_sourceid##RQ.STD.ERR:RQ.STD.ERR} - `"Regulatory Quality: Standard Error"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Standard error indicates the precision of the estimate of go{p_end}
@@ -430,7 +430,7 @@
 {marker sourceid_VA.EST}
 {synopt:{bf:{help wbopendata_sourceid##VA.EST:VA.EST} - `"Voice and Accountability: Estimate"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media. Estimate gives the cou{p_end}
@@ -442,7 +442,7 @@
 {marker sourceid_VA.NO.SRC}
 {synopt:{bf:{help wbopendata_sourceid##VA.NO.SRC:VA.NO.SRC} - `"Voice and Accountability: Number of Sources"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media.  Number of sources ind{p_end}
@@ -454,7 +454,7 @@
 {marker sourceid_VA.PER.RNK}
 {synopt:{bf:{help wbopendata_sourceid##VA.PER.RNK:VA.PER.RNK} - `"Voice and Accountability: Percentile Rank"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media. Percentile rank indica{p_end}
@@ -466,7 +466,7 @@
 {marker sourceid_VA.PER.RNK.LOWER}
 {synopt:{bf:{help wbopendata_sourceid##VA.PER.RNK.LOWER:VA.PER.RNK.LOWER} - `"Voice and Accountability: Percentile Rank, Lower Bound of 90% Confidence Interval"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media. Percentile rank indica{p_end}
@@ -478,7 +478,7 @@
 {marker sourceid_VA.PER.RNK.UPPER}
 {synopt:{bf:{help wbopendata_sourceid##VA.PER.RNK.UPPER:VA.PER.RNK.UPPER} - `"Voice and Accountability: Percentile Rank, Upper Bound of 90% Confidence Interval"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media. Percentile rank indica{p_end}
@@ -490,7 +490,7 @@
 {marker sourceid_VA.STD.ERR}
 {synopt:{bf:{help wbopendata_sourceid##VA.STD.ERR:VA.STD.ERR} - `"Voice and Accountability: Standard Error"'}}
 
-{synopt:{opt Source}}`"03 Worldwide Governance Indicators"'{p_end}
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media.{p_end}

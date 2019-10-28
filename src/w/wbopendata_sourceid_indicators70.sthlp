@@ -70,7 +70,7 @@
 {marker sourceid_EF.EFM.PROD.XD}
 {synopt:{bf:{help wbopendata_sourceid##EF.EFM.PROD.XD:EF.EFM.PROD.XD} - `"Economic Fitness Metric"'}}
 
-{synopt:{opt Source}}`"70 Economic Fitness 2"'{p_end}
+{synopt:{opt Source}}70 Economic Fitness 2{p_end}
 
 
 {synopt:{opt Source Notes}}Economic Fitness (EF) is both a measure of a country’s diversification and ability to produce complex goods on a globally competitive basis. Countries with the highest levels of EF have capabilities to produce a diverse portfolio of products{p_end}
@@ -82,7 +82,7 @@
 {marker sourceid_EF.EFM.UNIV.XD}
 {synopt:{bf:{help wbopendata_sourceid##EF.EFM.UNIV.XD:EF.EFM.UNIV.XD} - `"Universal Economic Fitness Metric"'}}
 
-{synopt:{opt Source}}`"70 Economic Fitness 2"'{p_end}
+{synopt:{opt Source}}70 Economic Fitness 2{p_end}
 
 
 {synopt:{opt Source Notes}}	The Universal Economic Fitness (UEF) is both a measure of a country’s diversification and ability to produce complex goods on a globally competitive basis.  Countries with the highest levels of EF have capabilities to produce a diverse port{p_end}

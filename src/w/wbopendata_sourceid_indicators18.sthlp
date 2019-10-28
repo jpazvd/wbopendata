@@ -70,7 +70,7 @@
 {marker sourceid_EG.ELC.HOUS.ZS}
 {synopt:{bf:{help wbopendata_sourceid##EG.ELC.HOUS.ZS:EG.ELC.HOUS.ZS} - `"Household electrification rate (% of households)"'}}
 
-{synopt:{opt Source}}`"18 IDA Results Measurement System"'{p_end}
+{synopt:{opt Source}}18 IDA Results Measurement System{p_end}
 
 
 {synopt:{opt Source Notes}}Household electrification rate is defined as the percentage of households with access to electricity and is measured using household surveys (e.g. Demographic and Health Surveys, Living Standard Measurement Surveys). Household surveys provide{p_end}
@@ -82,7 +82,7 @@
 {marker sourceid_ER.FST.DFST.ZG}
 {synopt:{bf:{help wbopendata_sourceid##ER.FST.DFST.ZG:ER.FST.DFST.ZG} - `"Annual deforestation (% of change)"'}}
 
-{synopt:{opt Source}}`"18 IDA Results Measurement System"'{p_end}
+{synopt:{opt Source}}18 IDA Results Measurement System{p_end}
 
 
 {synopt:{opt Source Notes}}Average annual deforestation refers to the permanent conversion of natural forest area to other uses, including shifting cultivation, permanent agriculture, ranching, settlements, and infrastructure development. Deforested areas do not include{p_end}
@@ -94,7 +94,7 @@
 {marker sourceid_IS.ROD.ALLS.ZS}
 {synopt:{bf:{help wbopendata_sourceid##IS.ROD.ALLS.ZS:IS.ROD.ALLS.ZS} - `"Access to an all-season road (% of rural population)"'}}
 
-{synopt:{opt Source}}`"18 IDA Results Measurement System"'{p_end}
+{synopt:{opt Source}}18 IDA Results Measurement System{p_end}
 
 
 {synopt:{opt Source Notes}}Access to an all-season road is measured as the proportion of rural people who live within 2 kilometers (typically equivalent to a 20-minute walk) of an all-season road. An all-season road is a road that is motorable all year by the prevailing{p_end}
