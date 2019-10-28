@@ -10,6 +10,11 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
+{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
+{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
+{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
+{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
+{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -65,7 +70,7 @@
 {marker sourceid_NW.HCA.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.HCA.PC:NW.HCA.PC} - `"Human capital per capita (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Human capital is computed as the present value of future earnings for the working population over their lifetimes.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
@@ -77,7 +82,7 @@
 {marker sourceid_NW.HCA.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.HCA.TO:NW.HCA.TO} - `"Human capital (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Human capital is computed as the present value of future earnings for the working population over their lifetimes.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
@@ -89,7 +94,7 @@
 {marker sourceid_NW.NCA.AGRI.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.AGRI.PC:NW.NCA.AGRI.PC} - `"Natural capital per capita, agricultural land (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -101,7 +106,7 @@
 {marker sourceid_NW.NCA.AGRI.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.AGRI.TO:NW.NCA.AGRI.TO} - `"Natural capital, agricultural land (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -113,7 +118,7 @@
 {marker sourceid_NW.NCA.CROL.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.CROL.PC:NW.NCA.CROL.PC} - `"Natural capital per capita, agricultural land: cropland (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -125,7 +130,7 @@
 {marker sourceid_NW.NCA.CROL.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.CROL.TO:NW.NCA.CROL.TO} - `"Natural capital, agricultural land: cropland (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -137,7 +142,7 @@
 {marker sourceid_NW.NCA.FNTI.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.FNTI.PC:NW.NCA.FNTI.PC} - `"Natural capital per capita, forests: nontimber (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -149,7 +154,7 @@
 {marker sourceid_NW.NCA.FNTI.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.FNTI.TO:NW.NCA.FNTI.TO} - `"Natural capital, forests: nontimber (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -161,7 +166,7 @@
 {marker sourceid_NW.NCA.FORE.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.FORE.PC:NW.NCA.FORE.PC} - `"Natural capital per capita, forests (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -173,7 +178,7 @@
 {marker sourceid_NW.NCA.FORE.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.FORE.TO:NW.NCA.FORE.TO} - `"Natural capital, forests (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -185,7 +190,7 @@
 {marker sourceid_NW.NCA.FTIM.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.FTIM.PC:NW.NCA.FTIM.PC} - `"Natural capital per capita, forests: timber (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -197,7 +202,7 @@
 {marker sourceid_NW.NCA.FTIM.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.FTIM.TO:NW.NCA.FTIM.TO} - `"Natural capital, forests: timber (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -209,7 +214,7 @@
 {marker sourceid_NW.NCA.MBAU.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MBAU.PC:NW.NCA.MBAU.PC} - `"Natural capital per capita, subsoil assets, minerals: bauxite (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -221,7 +226,7 @@
 {marker sourceid_NW.NCA.MBAU.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MBAU.TO:NW.NCA.MBAU.TO} - `"Natural capital, subsoil assets, minerals: bauxite (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -233,7 +238,7 @@
 {marker sourceid_NW.NCA.MCOP.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MCOP.PC:NW.NCA.MCOP.PC} - `"Natural capital per capita, subsoil assets, minerals: copper (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -245,7 +250,7 @@
 {marker sourceid_NW.NCA.MCOP.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MCOP.TO:NW.NCA.MCOP.TO} - `"Natural capital, subsoil assets, minerals: copper (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -257,7 +262,7 @@
 {marker sourceid_NW.NCA.MGOL.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MGOL.PC:NW.NCA.MGOL.PC} - `"Natural capital per capita, subsoil assets, minerals: gold (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -269,7 +274,7 @@
 {marker sourceid_NW.NCA.MGOL.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MGOL.TO:NW.NCA.MGOL.TO} - `"Natural capital, subsoil assets, minerals: gold (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -281,7 +286,7 @@
 {marker sourceid_NW.NCA.MINR.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MINR.PC:NW.NCA.MINR.PC} - `"Natural capital per capita, subsoil assets: minerals (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -293,7 +298,7 @@
 {marker sourceid_NW.NCA.MINR.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MINR.TO:NW.NCA.MINR.TO} - `"Natural capital, subsoil assets: minerals (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -305,7 +310,7 @@
 {marker sourceid_NW.NCA.MIRO.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MIRO.PC:NW.NCA.MIRO.PC} - `"Natural capital per capita, subsoil assets, minerals: iron ore (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -317,7 +322,7 @@
 {marker sourceid_NW.NCA.MIRO.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MIRO.TO:NW.NCA.MIRO.TO} - `"Natural capital, subsoil assets, minerals: iron ore (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -329,7 +334,7 @@
 {marker sourceid_NW.NCA.MLEA.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MLEA.PC:NW.NCA.MLEA.PC} - `"Natural capital per capita, subsoil assets, minerals: lead (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -341,7 +346,7 @@
 {marker sourceid_NW.NCA.MLEA.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MLEA.TO:NW.NCA.MLEA.TO} - `"Natural capital, subsoil assets, minerals: lead (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -353,7 +358,7 @@
 {marker sourceid_NW.NCA.MNIC.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MNIC.PC:NW.NCA.MNIC.PC} - `"Natural capital per capita, subsoil assets, minerals: nickel (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -365,7 +370,7 @@
 {marker sourceid_NW.NCA.MNIC.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MNIC.TO:NW.NCA.MNIC.TO} - `"Natural capital, subsoil assets, minerals: nickel (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -377,7 +382,7 @@
 {marker sourceid_NW.NCA.MPHO.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MPHO.PC:NW.NCA.MPHO.PC} - `"Natural capital per capita, subsoil assets, minerals: phosphate (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -389,7 +394,7 @@
 {marker sourceid_NW.NCA.MPHO.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MPHO.TO:NW.NCA.MPHO.TO} - `"Natural capital, subsoil assets, minerals: phosphate (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -401,7 +406,7 @@
 {marker sourceid_NW.NCA.MSIL.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MSIL.PC:NW.NCA.MSIL.PC} - `"Natural capital per capita, subsoil assets, minerals: silver (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -413,7 +418,7 @@
 {marker sourceid_NW.NCA.MSIL.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MSIL.TO:NW.NCA.MSIL.TO} - `"Natural capital, subsoil assets, minerals: silver (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -425,7 +430,7 @@
 {marker sourceid_NW.NCA.MTIN.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MTIN.PC:NW.NCA.MTIN.PC} - `"Natural capital per capita, subsoil assets, minerals: tin (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -437,7 +442,7 @@
 {marker sourceid_NW.NCA.MTIN.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MTIN.TO:NW.NCA.MTIN.TO} - `"Natural capital, subsoil assets, minerals: tin (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -449,7 +454,7 @@
 {marker sourceid_NW.NCA.MZIN.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MZIN.PC:NW.NCA.MZIN.PC} - `"Natural capital per capita, subsoil assets, minerals: zinc (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -461,7 +466,7 @@
 {marker sourceid_NW.NCA.MZIN.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.MZIN.TO:NW.NCA.MZIN.TO} - `"Natural capital, subsoil assets, minerals: zinc (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -473,7 +478,7 @@
 {marker sourceid_NW.NCA.PASL.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.PASL.PC:NW.NCA.PASL.PC} - `"Natural capital per capita, agricultural land: pastureland (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -485,7 +490,7 @@
 {marker sourceid_NW.NCA.PASL.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.PASL.TO:NW.NCA.PASL.TO} - `"Natural capital, agricultural land: pastureland (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -497,7 +502,7 @@
 {marker sourceid_NW.NCA.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.PC:NW.NCA.PC} - `"Natural capital per capita (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -509,7 +514,7 @@
 {marker sourceid_NW.NCA.PRAR.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.PRAR.PC:NW.NCA.PRAR.PC} - `"Natural capital per capita, protected areas (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -521,7 +526,7 @@
 {marker sourceid_NW.NCA.PRAR.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.PRAR.TO:NW.NCA.PRAR.TO} - `"Natural capital, protected areas (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -533,7 +538,7 @@
 {marker sourceid_NW.NCA.SACO.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.SACO.PC:NW.NCA.SACO.PC} - `"Natural capital per capita, subsoil assets: coal (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -545,7 +550,7 @@
 {marker sourceid_NW.NCA.SACO.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.SACO.TO:NW.NCA.SACO.TO} - `"Natural capital, subsoil assets: coal (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -557,7 +562,7 @@
 {marker sourceid_NW.NCA.SAGA.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.SAGA.PC:NW.NCA.SAGA.PC} - `"Natural capital per capita, subsoil assets: gas (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -569,7 +574,7 @@
 {marker sourceid_NW.NCA.SAGA.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.SAGA.TO:NW.NCA.SAGA.TO} - `"Natural capital, subsoil assets: gas (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -581,7 +586,7 @@
 {marker sourceid_NW.NCA.SAOI.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.SAOI.PC:NW.NCA.SAOI.PC} - `"Natural capital per capita, subsoil assets: oil (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -593,7 +598,7 @@
 {marker sourceid_NW.NCA.SAOI.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.SAOI.TO:NW.NCA.SAOI.TO} - `"Natural capital, subsoil assets: oil (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -605,7 +610,7 @@
 {marker sourceid_NW.NCA.SSOI.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.SSOI.PC:NW.NCA.SSOI.PC} - `"Natural capital per capita, subsoil assets (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -617,7 +622,7 @@
 {marker sourceid_NW.NCA.SSOI.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.SSOI.TO:NW.NCA.SSOI.TO} - `"Natural capital, subsoil assets (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -629,7 +634,7 @@
 {marker sourceid_NW.NCA.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NCA.TO:NW.NCA.TO} - `"Natural capital (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
@@ -641,7 +646,7 @@
 {marker sourceid_NW.NFA.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.NFA.PC:NW.NFA.PC} - `"Net foreign assets per capita (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Net foreign assets is foreign assets minus foreign liabilities.   Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
@@ -653,7 +658,7 @@
 {marker sourceid_NW.NFA.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.NFA.TO:NW.NFA.TO} - `"Net foreign assets (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Net foreign assets is foreign assets minus foreign liabilities.   Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
@@ -665,7 +670,7 @@
 {marker sourceid_NW.PCA.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.PCA.PC:NW.PCA.PC} - `"Produced capital per capita (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Produced capital includes the value of machinery, buildings, equipment, and residential and nonresidential urban land.    Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
@@ -677,7 +682,7 @@
 {marker sourceid_NW.PCA.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.PCA.TO:NW.PCA.TO} - `"Produced capital (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Produced capital includes the value of machinery, buildings, equipment, and residential and nonresidential urban land.    Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
@@ -689,7 +694,7 @@
 {marker sourceid_NW.TOW.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.TOW.PC:NW.TOW.PC} - `"Total wealth per capita (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Total wealth is calculated as the sum of produced capital, natural capital, human capital, and net foreign assets.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
@@ -701,7 +706,7 @@
 {marker sourceid_NW.TOW.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.TOW.TO:NW.TOW.TO} - `"Total wealth (constant 2014 US$)"'}}
 
-{synopt:{opt Source}}`"59 Wealth Accounts"'{p_end}
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
 {synopt:{opt Source Notes}}Total wealth is calculated as the sum of produced capital, natural capital, human capital, and net foreign assets.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}

@@ -4,7 +4,7 @@
 *	change indicators update; function _update_indicators.ado replace  
 *   _indicators.ado increase the return list stored under parameter 
 *	add report tables with SOURCE adn TOPIC labels
-*
+*   add the update of the CTRYLIST
 **********************************************************
 
 program define _update_wbopendata, rclass
@@ -24,6 +24,7 @@ syntax , 								///
 				SHORT					///
 				DETAIL					///
 				NOHLP					///
+				CTRYLIST				///
 		  ]
 
 	return add
@@ -629,7 +630,7 @@ syntax , 								///
 			
 			noi di in smcl ""
 				
-			noi _update_countrymetadata 
+			noi _update_countrymetadata , `ctrylist'
 			local newctrymeta 		= r(ctrymeta)
 			local newctrylastcheck	= r(dt_ctrylastcheck)
 			local newctryupdate		= r(dt_ctryupdate)

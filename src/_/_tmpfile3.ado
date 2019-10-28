@@ -1,7 +1,7 @@
-*! _wbod_tmpfile3 <27 Oct 2019 : 20:24:57>                 by João Pedro Azevedo
+*! _tmpfile3 <26 Oct 2019 : 16:11:22>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
- program define _wbod_tmpfile3 
+ program define _tmpfile3 
   
      syntax , match(varname) [  lendingtype lendingtype_iso2 lendingtypename capital longitude latitude  ] 
   

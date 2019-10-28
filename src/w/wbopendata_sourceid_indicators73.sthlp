@@ -10,6 +10,11 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
+{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
+{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
+{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
+{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
+{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -65,7 +70,7 @@
 {marker sourceid_FB.CAP.INST.ST.MS.WB}
 {synopt:{bf:{help wbopendata_sourceid##FB.CAP.INST.ST.MS.WB:FB.CAP.INST.ST.MS.WB} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -77,7 +82,7 @@
 {marker sourceid_FB.CAP.POLI.GL.WP}
 {synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.GL.WP:FB.CAP.POLI.GL.WP} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -89,7 +94,7 @@
 {marker sourceid_FB.CAP.POLI.RE.WP}
 {synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.RE.WP:FB.CAP.POLI.RE.WP} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -101,7 +106,7 @@
 {marker sourceid_FB.CAP.POLI.RG.DC.WP}
 {synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.RG.DC.WP:FB.CAP.POLI.RG.DC.WP} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -113,7 +118,7 @@
 {marker sourceid_FB.FCP.INST.ES.WH.EN}
 {synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ES.WH.EN:FB.FCP.INST.ES.WH.EN} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -125,7 +130,7 @@
 {marker sourceid_FB.FCP.INST.NS.HW.MY}
 {synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.NS.HW.MY:FB.FCP.INST.NS.HW.MY} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -137,7 +142,7 @@
 {marker sourceid_FB.FCP.INST.ST.RS.WT}
 {synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ST.RS.WT:FB.FCP.INST.ST.RS.WT} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -149,7 +154,7 @@
 {marker sourceid_FB.INC.EMNY.SP.IF.WH}
 {synopt:{bf:{help wbopendata_sourceid##FB.INC.EMNY.SP.IF.WH:FB.INC.EMNY.SP.IF.WH} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -161,7 +166,7 @@
 {marker sourceid_FB.INC.INST.CB.AU.WR}
 {synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.AU.WR:FB.INC.INST.CB.AU.WR} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -173,7 +178,7 @@
 {marker sourceid_FB.INC.INST.CB.LN.WL}
 {synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.LN.WL:FB.INC.INST.CB.LN.WL} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -185,7 +190,7 @@
 {marker sourceid_FB.INC.INST.FC.AU.WR}
 {synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.AU.WR:FB.INC.INST.FC.AU.WR} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -197,7 +202,7 @@
 {marker sourceid_FB.INC.INST.FC.LN.WL}
 {synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.LN.WL:FB.INC.INST.FC.LN.WL} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -209,7 +214,7 @@
 {marker sourceid_FB.INC.INST.MC.AU.WR}
 {synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.AU.WR:FB.INC.INST.MC.AU.WR} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -221,7 +226,7 @@
 {marker sourceid_FB.INC.INST.MC.LN.WL}
 {synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.LN.WL:FB.INC.INST.MC.LN.WL} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -233,7 +238,7 @@
 {marker sourceid_FB.INC.INST.NB.AU.WR}
 {synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.NB.AU.WR:FB.INC.INST.NB.AU.WR} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -245,7 +250,7 @@
 {marker sourceid_FB.INC.INST.OB.AU.WR}
 {synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.AU.WR:FB.INC.INST.OB.AU.WR} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -257,7 +262,7 @@
 {marker sourceid_FB.INC.INST.OB.LN.WL}
 {synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.LN.WL:FB.INC.INST.OB.LN.WL} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -269,7 +274,7 @@
 {marker sourceid_FB.INC.INST.OD.AU.WR}
 {synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.AU.WR:FB.INC.INST.OD.AU.WR} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -281,7 +286,7 @@
 {marker sourceid_FB.INC.INST.OD.LN.WL}
 {synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.LN.WL:FB.INC.INST.OD.LN.WL} - }}
 
-{synopt:{opt Source}}`"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"'{p_end}
+{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}

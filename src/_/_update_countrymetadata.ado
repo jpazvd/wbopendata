@@ -16,6 +16,7 @@ program define _update_countrymetadata , rclass
 				SAVE			///
 				REPLACE			///
 				NOCTRYREFRESH	///
+				CTRYLIST		///
 		  ]
 	
 
@@ -76,7 +77,6 @@ quietly {
 				nopreserve ///
 				parameter( country?id iso2Code name region?id adminregion?id incomeLevel?id lendingType?id iso2code capitalCity latitude longitude )
 
-				noi di in smcl in g ""
 				noi di in smcl in g "{bf: Downloading country metadata... COMPLETED!}"
 				noi di in smcl in g ""
 				noi di in smcl in g "{bf: Processing country metadata...}"
@@ -172,6 +172,8 @@ quietly {
 
 		}
 
+		tempfile tmpCTRYtmp_dta
+		
 		*******************************************************************************
 		* create countrymetadata ado files
 		*******************************************************************************
@@ -183,6 +185,8 @@ quietly {
 		drop dups
 		drop if countrycode == ""
 
+		save `tmpCTRYtmp_dta'
+		
 		replace adminregionname = regionname + " (excluding high income)" if adminregionname != "" & incomelevel != "HIC"
 		
 		compress
@@ -387,26 +391,62 @@ quietly {
 
 	}
 			
-		noi di in smcl in g ""
 		noi di in smcl in g "{bf: Processing country metadata... COMPLETED!}"
 		noi di in smcl in g ""
-		noi di in smcl in g "{bf: Processing country documentation...}"
-		noi di in smcl in g ""
-
-		******************************************************************************
-		* create country txt files
-		*******************************************************************************
-
-		
-		
-		*******************************************************************************
-		* create country sthlp files
-		*******************************************************************************
-
 		tempfile tmp
 		
 		save `tmp'
 			
+		******************************************************************************
+		* udpate country txt files
+		*******************************************************************************
+
+				
+
+		if ("`ctrylist'" == "ctrylist") {
+
+			noi di in smcl in g "{bf: Processing country list...}"
+
+			local country country.txt
+			
+			tempfile  tmpCTRYtmp
+			
+			use `tmpCTRYtmp_dta'
+
+			bysort countrycode : gen dups = _n
+			keep if dups == 1
+			drop dups
+			drop if countrycode == ""
+			
+			sort countrycode
+			gen export = countrycode + " - " + countryname
+			keep export
+			sort export
+			outsheet using `tmpCTRYtmp', replace noquote nolabel nonames
+			
+			cap: findfile `country' , `path'
+					
+			if _rc == 0 {
+				copy `tmpCTRYtmp'  `r(fn)' , replace
+			}
+			else {
+				copy `tmpCTRYtmp' `indicator'
+			}
+			
+			noi di in smcl in g "{bf: Processing country list... COMPLETED!}"
+			noi di in smcl in g ""
+
+		}
+
+		
+		*******************************************************************************
+		* create country sthlp files
+		*******************************************************************************
+		
+		noi di in smcl in g "{bf: Processing country documentation...}"
+		noi di in smcl in g ""
+
+		use `tmp', clear
 		
 		foreach variable in region adminregion incomelevel lendingtype {
 		
@@ -502,7 +542,6 @@ quietly {
 		
 		*******************************************************************************
 
-		noi di in smcl in g ""
 		noi di in smcl in g "{bf: Processing country documentation... COMPLETED!}"
 
 		

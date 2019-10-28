@@ -42,7 +42,7 @@
 {marker topicid_BM.GSR.ROYL.CD}
 {synopt:{bf:{help wbopendata_topicid##BM.GSR.ROYL.CD:BM.GSR.ROYL.CD} - `"Charges for the use of intellectual property, payments (BoP, current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}14 Science and Technology{p_end}
 
@@ -55,7 +55,7 @@
 {marker topicid_BX.GSR.ROYL.CD}
 {synopt:{bf:{help wbopendata_topicid##BX.GSR.ROYL.CD:BX.GSR.ROYL.CD} - `"Charges for the use of intellectual property, receipts (BoP, current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}14 Science and Technology{p_end}
 
@@ -68,7 +68,7 @@
 {marker topicid_GB.XPD.RSDV.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##GB.XPD.RSDV.GD.ZS:GB.XPD.RSDV.GD.ZS} - `"Research and development expenditure (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}14 Science and Technology{p_end}
 
@@ -81,7 +81,7 @@
 {marker topicid_IP.JRN.ARTC.SC}
 {synopt:{bf:{help wbopendata_topicid##IP.JRN.ARTC.SC:IP.JRN.ARTC.SC} - `"Scientific and technical journal articles"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}14 Science and Technology{p_end}
 
@@ -94,7 +94,7 @@
 {marker topicid_IP.PAT.NRES}
 {synopt:{bf:{help wbopendata_topicid##IP.PAT.NRES:IP.PAT.NRES} - `"Patent applications, nonresidents"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}14 Science and Technology{p_end}
 
@@ -107,7 +107,7 @@
 {marker topicid_IP.PAT.RESD}
 {synopt:{bf:{help wbopendata_topicid##IP.PAT.RESD:IP.PAT.RESD} - `"Patent applications, residents"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}14 Science and Technology{p_end}
 
@@ -120,7 +120,7 @@
 {marker topicid_IP.TMK.NRES}
 {synopt:{bf:{help wbopendata_topicid##IP.TMK.NRES:IP.TMK.NRES} - `"Trademark applications, direct nonresident"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}14 Science and Technology{p_end}
 
@@ -133,7 +133,7 @@
 {marker topicid_IP.TMK.RESD}
 {synopt:{bf:{help wbopendata_topicid##IP.TMK.RESD:IP.TMK.RESD} - `"Trademark applications, direct resident"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}14 Science and Technology{p_end}
 
@@ -146,7 +146,7 @@
 {marker topicid_IP.TMK.TOTL}
 {synopt:{bf:{help wbopendata_topicid##IP.TMK.TOTL:IP.TMK.TOTL} - `"Trademark applications, total"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}14 Science and Technology{p_end}
 
@@ -159,7 +159,7 @@
 {marker topicid_SP.POP.SCIE.RD.P6}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.SCIE.RD.P6:SP.POP.SCIE.RD.P6} - `"Researchers in R&amp;D (per million people)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}14 Science and Technology{p_end}
 
@@ -172,7 +172,7 @@
 {marker topicid_SP.POP.TECH.RD.P6}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TECH.RD.P6:SP.POP.TECH.RD.P6} - `"Technicians in R&amp;D (per million people)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}14 Science and Technology{p_end}
 
@@ -185,7 +185,7 @@
 {marker topicid_TX.VAL.TECH.CD}
 {synopt:{bf:{help wbopendata_topicid##TX.VAL.TECH.CD:TX.VAL.TECH.CD} - `"High-technology exports (current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}14 Science and Technology{p_end}
 
@@ -198,7 +198,7 @@
 {marker topicid_TX.VAL.TECH.MF.ZS}
 {synopt:{bf:{help wbopendata_topicid##TX.VAL.TECH.MF.ZS:TX.VAL.TECH.MF.ZS} - `"High-technology exports (% of manufactured exports)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}14 Science and Technology{p_end}
 

@@ -1,7 +1,7 @@
-*! _wbod_tmpfile1 <27 Oct 2019 : 20:24:57>                 by João Pedro Azevedo
+*! _tmpfile1 <26 Oct 2019 : 16:11:22>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
- program define _wbod_tmpfile1 
+ program define _tmpfile1 
   
      syntax , match(varname) [  countrycode_iso2 countryname region region_iso2 regionname  ] 
   

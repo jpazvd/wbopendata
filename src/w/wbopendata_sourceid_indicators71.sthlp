@@ -10,6 +10,11 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
+{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
+{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
+{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
+{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
+{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -65,7 +70,7 @@
 {marker sourceid_CD}
 {synopt:{bf:{help wbopendata_sourceid##CD:CD} - `"Expenditures (current US$, XR term)"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -77,7 +82,7 @@
 {marker sourceid_GD.ZS}
 {synopt:{bf:{help wbopendata_sourceid##GD.ZS:GD.ZS} - `"Expenditure shares of GDP (percentage share, GDP=100, XR term)"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -89,7 +94,7 @@
 {marker sourceid_PA.NPP}
 {synopt:{bf:{help wbopendata_sourceid##PA.NPP:PA.NPP} - `"PPP (LCU per international $)"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -101,7 +106,7 @@
 {marker sourceid_PA.NUS}
 {synopt:{bf:{help wbopendata_sourceid##PA.NUS:PA.NUS} - `"Exchange rate (LCU per US$, period average)"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -113,7 +118,7 @@
 {marker sourceid_PC.CD}
 {synopt:{bf:{help wbopendata_sourceid##PC.CD:PC.CD} - `"Expenditures per capita (current US$, XR term)"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -125,7 +130,7 @@
 {marker sourceid_PC.PP.CD}
 {synopt:{bf:{help wbopendata_sourceid##PC.PP.CD:PC.PP.CD} - `"Expenditures per capita (current international $, PPP term)"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -137,7 +142,7 @@
 {marker sourceid_PC.US.PP.ZX}
 {synopt:{bf:{help wbopendata_sourceid##PC.US.PP.ZX:PC.US.PP.ZX} - `"Expenditures per capita (index, US=100, PPP term)"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -149,7 +154,7 @@
 {marker sourceid_PC.US.ZX}
 {synopt:{bf:{help wbopendata_sourceid##PC.US.ZX:PC.US.ZX} - `"Expenditures per capita (index, US=100, XR term)"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -161,7 +166,7 @@
 {marker sourceid_PC.WL.PP.ZX}
 {synopt:{bf:{help wbopendata_sourceid##PC.WL.PP.ZX:PC.WL.PP.ZX} - `"Expenditures per capita (index, World=100, PPP term)"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -173,7 +178,7 @@
 {marker sourceid_PC.WL.ZX}
 {synopt:{bf:{help wbopendata_sourceid##PC.WL.ZX:PC.WL.ZX} - `"Expenditures per capita (index, World=100, XR term)"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -185,7 +190,7 @@
 {marker sourceid_POP}
 {synopt:{bf:{help wbopendata_sourceid##POP:POP} - `"Population"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -197,7 +202,7 @@
 {marker sourceid_POP.ZS}
 {synopt:{bf:{help wbopendata_sourceid##POP.ZS:POP.ZS} - `"Population (percentage share, World=100)"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -209,7 +214,7 @@
 {marker sourceid_PP.CD}
 {synopt:{bf:{help wbopendata_sourceid##PP.CD:PP.CD} - `"Expenditures (current international $, PPP term)"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -221,7 +226,7 @@
 {marker sourceid_PX.US}
 {synopt:{bf:{help wbopendata_sourceid##PX.US:PX.US} - `"Price level index (US=100)"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -233,7 +238,7 @@
 {marker sourceid_PX.WL}
 {synopt:{bf:{help wbopendata_sourceid##PX.WL:PX.WL} - `"Price level index (World=100)"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -245,7 +250,7 @@
 {marker sourceid_WL.PP.ZS}
 {synopt:{bf:{help wbopendata_sourceid##WL.PP.ZS:WL.PP.ZS} - `"Expenditures (percentage share, World=100, PPP term)"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -257,7 +262,7 @@
 {marker sourceid_WL.ZS}
 {synopt:{bf:{help wbopendata_sourceid##WL.ZS:WL.ZS} - `"Expenditures (percentage share, World=100, XR term)"'}}
 
-{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+{synopt:{opt Source}}71 International Comparison Program (ICP) 2005{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
