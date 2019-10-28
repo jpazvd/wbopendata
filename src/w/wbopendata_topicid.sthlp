@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -3938,7 +3938,7 @@
 
 {synopt:{help wbopendata_topicid_indicators05##topicid_IC.ELC.DURS:IC.ELC.DURS{marker IC.ELC.DURS}}}Time to obtain an electrical connection (days){p_end}
 
-{synopt:{help wbopendata_topicid_indicators05##topicid_IC.ELC.TIME:IC.ELC.TIME{marker IC.ELC.TIME}}}Getting electricity: Time (days){p_end}
+{synopt:{help wbopendata_topicid_indicators05##topicid_IC.ELC.TIME:IC.ELC.TIME{marker IC.ELC.TIME}}}Time required to get electricity (days){p_end}
 
 {synopt:{help wbopendata_topicid_indicators05##topicid_IC.FRM.BNKS.ZS:IC.FRM.BNKS.ZS{marker IC.FRM.BNKS.ZS}}}Firms using banks to finance investment (% of firms){p_end}
 
@@ -10815,11 +10815,11 @@
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_FS.AST.PRVT.GD.ZS:FS.AST.PRVT.GD.ZS{marker FS.AST.PRVT.GD.ZS}}}Domestic credit to private sector (% of GDP){p_end}
 
-{synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.DFRN.XQ:IC.BUS.DFRN.XQ{marker IC.BUS.DFRN.XQ}}}Distance to frontier score (0=lowest performance to 100=frontier){p_end}
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.DFRN.XQ:IC.BUS.DFRN.XQ{marker IC.BUS.DFRN.XQ}}}Ease of doing business score (0 = lowest performance to 100 = best performance){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.DISC.XQ:IC.BUS.DISC.XQ{marker IC.BUS.DISC.XQ}}}Business extent of disclosure index (0=less disclosure to 10=more disclosure){p_end}
 
-{synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Rank: Ease of doing business index (1=most business-friendly regulations){p_end}
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Ease of doing business index (1=most business-friendly regulations){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.NDNS.ZS:IC.BUS.NDNS.ZS{marker IC.BUS.NDNS.ZS}}}New business density (new registrations per 1,000 people ages 15-64){p_end}
 
@@ -10837,7 +10837,7 @@
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.ELC.OUTG:IC.ELC.OUTG{marker IC.ELC.OUTG}}}Power outages in firms in a typical month (number){p_end}
 
-{synopt:{help wbopendata_topicid_indicators12##topicid_IC.ELC.TIME:IC.ELC.TIME{marker IC.ELC.TIME}}}Getting electricity: Time (days){p_end}
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.ELC.TIME:IC.ELC.TIME{marker IC.ELC.TIME}}}Time required to get electricity (days){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.ELEC.COST.PC.ZS:IC.ELEC.COST.PC.ZS{marker IC.ELEC.COST.PC.ZS}}}Cost to get electricity connection (% of income per capita){p_end}
 
@@ -10917,9 +10917,9 @@
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.PRP.PROC:IC.PRP.PROC{marker IC.PRP.PROC}}}Procedures to register property (number){p_end}
 
-{synopt:{help wbopendata_topicid_indicators12##topicid_IC.REG.COST.PC.FE.ZS:IC.REG.COST.PC.FE.ZS{marker IC.REG.COST.PC.FE.ZS}}}Starting a business: Cost - Women (% of income per capita){p_end}
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.REG.COST.PC.FE.ZS:IC.REG.COST.PC.FE.ZS{marker IC.REG.COST.PC.FE.ZS}}}Cost of business start-up procedures, female (% of GNI per capita){p_end}
 
-{synopt:{help wbopendata_topicid_indicators12##topicid_IC.REG.COST.PC.MA.ZS:IC.REG.COST.PC.MA.ZS{marker IC.REG.COST.PC.MA.ZS}}}Starting a business: Cost - Men (% of income per capita){p_end}
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.REG.COST.PC.MA.ZS:IC.REG.COST.PC.MA.ZS{marker IC.REG.COST.PC.MA.ZS}}}Cost of business start-up procedures, male (% of GNI per capita){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.REG.COST.PC.ZS:IC.REG.COST.PC.ZS{marker IC.REG.COST.PC.ZS}}}Cost of business start-up procedures (% of GNI per capita){p_end}
 
@@ -12304,7 +12304,7 @@
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_ER.PTD.TOTL.ZS:ER.PTD.TOTL.ZS{marker ER.PTD.TOTL.ZS}}}Terrestrial and marine protected areas (% of total territorial area){p_end}
 
-{synopt:{help wbopendata_topicid_indicators19##topicid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Rank: Ease of doing business index (1=most business-friendly regulations){p_end}
+{synopt:{help wbopendata_topicid_indicators19##topicid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Ease of doing business index (1=most business-friendly regulations){p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_IQ.CPA.PUBS.XQ:IQ.CPA.PUBS.XQ{marker IQ.CPA.PUBS.XQ}}}CPIA public sector management and institutions cluster average (1=low to 6=high){p_end}
 
@@ -13695,4 +13695,4 @@
 {synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.TRVL.ZS.WT:TX.VAL.TRVL.ZS.WT{marker TX.VAL.TRVL.ZS.WT}}}Travel services (% of commercial service exports){p_end}
 {synoptline}
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

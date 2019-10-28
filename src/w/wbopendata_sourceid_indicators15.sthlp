@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:15 Global Economic Monitor}}}
 {synoptline}
 {marker sourceid_CORENS}
-{synopt:{bf:{help wbopendata_sourceid##CORENS:CORENS} - `"Core CPI,not seas.adj,,,"'}}
+{synopt:{bf:{help wbopendata_sourceid##CORENS:CORENS} - Core CPI,not seas.adj,,,}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -80,7 +80,7 @@
 
 {synoptline}
 {marker sourceid_CORESA}
-{synopt:{bf:{help wbopendata_sourceid##CORESA:CORESA} - `"Core CPI,seas.adj,,,"'}}
+{synopt:{bf:{help wbopendata_sourceid##CORESA:CORESA} - Core CPI,seas.adj,,,}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -92,7 +92,7 @@
 
 {synoptline}
 {marker sourceid_CPTOTNSXN}
-{synopt:{bf:{help wbopendata_sourceid##CPTOTNSXN:CPTOTNSXN} - `"CPI Price, nominal"'}}
+{synopt:{bf:{help wbopendata_sourceid##CPTOTNSXN:CPTOTNSXN} - CPI Price, nominal}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -104,7 +104,7 @@
 
 {synoptline}
 {marker sourceid_CPTOTSAXMZGY}
-{synopt:{bf:{help wbopendata_sourceid##CPTOTSAXMZGY:CPTOTSAXMZGY} - `"CPI Price, % y-o-y, median weighted, seas. adj."'}}
+{synopt:{bf:{help wbopendata_sourceid##CPTOTSAXMZGY:CPTOTSAXMZGY} - CPI Price, % y-o-y, median weighted, seas. adj.}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -116,7 +116,7 @@
 
 {synoptline}
 {marker sourceid_CPTOTSAXN}
-{synopt:{bf:{help wbopendata_sourceid##CPTOTSAXN:CPTOTSAXN} - `"CPI Price, nominal, seas. adj."'}}
+{synopt:{bf:{help wbopendata_sourceid##CPTOTSAXN:CPTOTSAXN} - CPI Price, nominal, seas. adj.}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -128,7 +128,7 @@
 
 {synoptline}
 {marker sourceid_CPTOTSAXNZGY}
-{synopt:{bf:{help wbopendata_sourceid##CPTOTSAXNZGY:CPTOTSAXNZGY} - `"CPI Price, % y-o-y, nominal, seas. adj."'}}
+{synopt:{bf:{help wbopendata_sourceid##CPTOTSAXNZGY:CPTOTSAXNZGY} - CPI Price, % y-o-y, nominal, seas. adj.}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -140,7 +140,7 @@
 
 {synoptline}
 {marker sourceid_DMGSRMRCHNSCD}
-{synopt:{bf:{help wbopendata_sourceid##DMGSRMRCHNSCD:DMGSRMRCHNSCD} - `"Imports Merchandise, Customs, current US$, millions"'}}
+{synopt:{bf:{help wbopendata_sourceid##DMGSRMRCHNSCD:DMGSRMRCHNSCD} - Imports Merchandise, Customs, current US$, millions}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -152,7 +152,7 @@
 
 {synoptline}
 {marker sourceid_DMGSRMRCHNSKD}
-{synopt:{bf:{help wbopendata_sourceid##DMGSRMRCHNSKD:DMGSRMRCHNSKD} - `"Imports Merchandise, Customs, constant US$, millions"'}}
+{synopt:{bf:{help wbopendata_sourceid##DMGSRMRCHNSKD:DMGSRMRCHNSKD} - Imports Merchandise, Customs, constant US$, millions}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -164,7 +164,7 @@
 
 {synoptline}
 {marker sourceid_DMGSRMRCHNSXD}
-{synopt:{bf:{help wbopendata_sourceid##DMGSRMRCHNSXD:DMGSRMRCHNSXD} - `"Imports Merchandise, Customs, Price, US$"'}}
+{synopt:{bf:{help wbopendata_sourceid##DMGSRMRCHNSXD:DMGSRMRCHNSXD} - Imports Merchandise, Customs, Price, US$}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -176,7 +176,7 @@
 
 {synoptline}
 {marker sourceid_DMGSRMRCHSACD}
-{synopt:{bf:{help wbopendata_sourceid##DMGSRMRCHSACD:DMGSRMRCHSACD} - `"Imports Merchandise, Customs, current US$, millions, seas. adj."'}}
+{synopt:{bf:{help wbopendata_sourceid##DMGSRMRCHSACD:DMGSRMRCHSACD} - Imports Merchandise, Customs, current US$, millions, seas. adj.}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -188,7 +188,7 @@
 
 {synoptline}
 {marker sourceid_DMGSRMRCHSAKD}
-{synopt:{bf:{help wbopendata_sourceid##DMGSRMRCHSAKD:DMGSRMRCHSAKD} - `"Imports Merchandise, Customs, constant US$, millions, seas. adj."'}}
+{synopt:{bf:{help wbopendata_sourceid##DMGSRMRCHSAKD:DMGSRMRCHSAKD} - Imports Merchandise, Customs, constant US$, millions, seas. adj.}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -200,7 +200,7 @@
 
 {synoptline}
 {marker sourceid_DMGSRMRCHSAXD}
-{synopt:{bf:{help wbopendata_sourceid##DMGSRMRCHSAXD:DMGSRMRCHSAXD} - `"Imports Merchandise, Customs, Price, US$, seas. adj."'}}
+{synopt:{bf:{help wbopendata_sourceid##DMGSRMRCHSAXD:DMGSRMRCHSAXD} - Imports Merchandise, Customs, Price, US$, seas. adj.}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -212,7 +212,7 @@
 
 {synoptline}
 {marker sourceid_DPANUSLCU}
-{synopt:{bf:{help wbopendata_sourceid##DPANUSLCU:DPANUSLCU} - `"Official exchange rate, LCU per USD, period average"'}}
+{synopt:{bf:{help wbopendata_sourceid##DPANUSLCU:DPANUSLCU} - Official exchange rate, LCU per USD, period average}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -224,7 +224,7 @@
 
 {synoptline}
 {marker sourceid_DPANUSSPB}
-{synopt:{bf:{help wbopendata_sourceid##DPANUSSPB:DPANUSSPB} - `"Exchange rate, new LCU per USD extended backward, period average"'}}
+{synopt:{bf:{help wbopendata_sourceid##DPANUSSPB:DPANUSSPB} - Exchange rate, new LCU per USD extended backward, period average}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -236,7 +236,7 @@
 
 {synoptline}
 {marker sourceid_DPANUSSPF}
-{synopt:{bf:{help wbopendata_sourceid##DPANUSSPF:DPANUSSPF} - `"Exchange rate, old LCU per USD extended forward, period average"'}}
+{synopt:{bf:{help wbopendata_sourceid##DPANUSSPF:DPANUSSPF} - Exchange rate, old LCU per USD extended forward, period average}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -248,7 +248,7 @@
 
 {synoptline}
 {marker sourceid_DSTKMKTXD}
-{synopt:{bf:{help wbopendata_sourceid##DSTKMKTXD:DSTKMKTXD} - `"Stock Markets, US$"'}}
+{synopt:{bf:{help wbopendata_sourceid##DSTKMKTXD:DSTKMKTXD} - Stock Markets, US$}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -260,7 +260,7 @@
 
 {synoptline}
 {marker sourceid_DSTKMKTXN}
-{synopt:{bf:{help wbopendata_sourceid##DSTKMKTXN:DSTKMKTXN} - `"Stock Markets, LCU"'}}
+{synopt:{bf:{help wbopendata_sourceid##DSTKMKTXN:DSTKMKTXN} - Stock Markets, LCU}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -272,7 +272,7 @@
 
 {synoptline}
 {marker sourceid_DXGSRMRCHNSCD}
-{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHNSCD:DXGSRMRCHNSCD} - `"Exports Merchandise, Customs, current US$, millions"'}}
+{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHNSCD:DXGSRMRCHNSCD} - Exports Merchandise, Customs, current US$, millions}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -284,7 +284,7 @@
 
 {synoptline}
 {marker sourceid_DXGSRMRCHNSKD}
-{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHNSKD:DXGSRMRCHNSKD} - `"Exports Merchandise, Customs, constant US$, millions"'}}
+{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHNSKD:DXGSRMRCHNSKD} - Exports Merchandise, Customs, constant US$, millions}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -296,7 +296,7 @@
 
 {synoptline}
 {marker sourceid_DXGSRMRCHNSXD}
-{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHNSXD:DXGSRMRCHNSXD} - `"Exports Merchandise, Customs, Price, US$"'}}
+{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHNSXD:DXGSRMRCHNSXD} - Exports Merchandise, Customs, Price, US$}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -308,7 +308,7 @@
 
 {synoptline}
 {marker sourceid_DXGSRMRCHSACD}
-{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHSACD:DXGSRMRCHSACD} - `"Exports Merchandise, Customs, current US$, millions, seas. adj."'}}
+{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHSACD:DXGSRMRCHSACD} - Exports Merchandise, Customs, current US$, millions, seas. adj.}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -320,7 +320,7 @@
 
 {synoptline}
 {marker sourceid_DXGSRMRCHSAKD}
-{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHSAKD:DXGSRMRCHSAKD} - `"Exports Merchandise, Customs, constant US$, millions, seas. adj."'}}
+{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHSAKD:DXGSRMRCHSAKD} - Exports Merchandise, Customs, constant US$, millions, seas. adj.}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -332,7 +332,7 @@
 
 {synoptline}
 {marker sourceid_DXGSRMRCHSAXD}
-{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHSAXD:DXGSRMRCHSAXD} - `"Exports Merchandise, Customs, Price, US$, seas. adj."'}}
+{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHSAXD:DXGSRMRCHSAXD} - Exports Merchandise, Customs, Price, US$, seas. adj.}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -344,7 +344,7 @@
 
 {synoptline}
 {marker sourceid_EMBIG}
-{synopt:{bf:{help wbopendata_sourceid##EMBIG:EMBIG} - `"J.P. Morgan Emerging Markets Bond Spread (EMBI+),,,,"'}}
+{synopt:{bf:{help wbopendata_sourceid##EMBIG:EMBIG} - J.P. Morgan Emerging Markets Bond Spread (EMBI+),,,,}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -356,7 +356,7 @@
 
 {synoptline}
 {marker sourceid_EMBIGI}
-{synopt:{bf:{help wbopendata_sourceid##EMBIGI:EMBIGI} - `"J.P. Morgan Emerging Markets Bond Index(EMBI+),,,,"'}}
+{synopt:{bf:{help wbopendata_sourceid##EMBIGI:EMBIGI} - J.P. Morgan Emerging Markets Bond Index(EMBI+),,,,}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -368,7 +368,7 @@
 
 {synoptline}
 {marker sourceid_IMPCOV}
-{synopt:{bf:{help wbopendata_sourceid##IMPCOV:IMPCOV} - `"Foreign Reserves, Months Import Cover, Goods"'}}
+{synopt:{bf:{help wbopendata_sourceid##IMPCOV:IMPCOV} - Foreign Reserves, Months Import Cover, Goods}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -380,7 +380,7 @@
 
 {synoptline}
 {marker sourceid_IPTOTNSKD}
-{synopt:{bf:{help wbopendata_sourceid##IPTOTNSKD:IPTOTNSKD} - `"Industrial Production, constant US$"'}}
+{synopt:{bf:{help wbopendata_sourceid##IPTOTNSKD:IPTOTNSKD} - Industrial Production, constant US$}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -392,7 +392,7 @@
 
 {synoptline}
 {marker sourceid_IPTOTSAKD}
-{synopt:{bf:{help wbopendata_sourceid##IPTOTSAKD:IPTOTSAKD} - `"Industrial Production, constant US$, seas. adj."'}}
+{synopt:{bf:{help wbopendata_sourceid##IPTOTSAKD:IPTOTSAKD} - Industrial Production, constant US$, seas. adj.}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -404,7 +404,7 @@
 
 {synoptline}
 {marker sourceid_NEER}
-{synopt:{bf:{help wbopendata_sourceid##NEER:NEER} - `"Nominal Effecive Exchange Rate"'}}
+{synopt:{bf:{help wbopendata_sourceid##NEER:NEER} - Nominal Effecive Exchange Rate}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -416,7 +416,7 @@
 
 {synoptline}
 {marker sourceid_NYGDPMKTPSACD}
-{synopt:{bf:{help wbopendata_sourceid##NYGDPMKTPSACD:NYGDPMKTPSACD} - `"GDP,current US$,millions,seas. adj.,"'}}
+{synopt:{bf:{help wbopendata_sourceid##NYGDPMKTPSACD:NYGDPMKTPSACD} - GDP,current US$,millions,seas. adj.,}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -428,7 +428,7 @@
 
 {synoptline}
 {marker sourceid_NYGDPMKTPSACN}
-{synopt:{bf:{help wbopendata_sourceid##NYGDPMKTPSACN:NYGDPMKTPSACN} - `"GDP,current LCU,millions,seas. adj.,"'}}
+{synopt:{bf:{help wbopendata_sourceid##NYGDPMKTPSACN:NYGDPMKTPSACN} - GDP,current LCU,millions,seas. adj.,}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -440,7 +440,7 @@
 
 {synoptline}
 {marker sourceid_NYGDPMKTPSAKD}
-{synopt:{bf:{help wbopendata_sourceid##NYGDPMKTPSAKD:NYGDPMKTPSAKD} - `"GDP,constant 2010 US$,millions,seas. adj.,"'}}
+{synopt:{bf:{help wbopendata_sourceid##NYGDPMKTPSAKD:NYGDPMKTPSAKD} - GDP,constant 2010 US$,millions,seas. adj.,}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -452,7 +452,7 @@
 
 {synoptline}
 {marker sourceid_NYGDPMKTPSAKN}
-{synopt:{bf:{help wbopendata_sourceid##NYGDPMKTPSAKN:NYGDPMKTPSAKN} - `"GDP,constant 2010 LCU,millions,seas. adj.,"'}}
+{synopt:{bf:{help wbopendata_sourceid##NYGDPMKTPSAKN:NYGDPMKTPSAKN} - GDP,constant 2010 LCU,millions,seas. adj.,}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -464,7 +464,7 @@
 
 {synoptline}
 {marker sourceid_REER}
-{synopt:{bf:{help wbopendata_sourceid##REER:REER} - `"Real Effective Exchange Rate"'}}
+{synopt:{bf:{help wbopendata_sourceid##REER:REER} - Real Effective Exchange Rate}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -476,7 +476,7 @@
 
 {synoptline}
 {marker sourceid_RETSALESSA}
-{synopt:{bf:{help wbopendata_sourceid##RETSALESSA:RETSALESSA} - `"Retail Sales Volume,Index,,,"'}}
+{synopt:{bf:{help wbopendata_sourceid##RETSALESSA:RETSALESSA} - Retail Sales Volume,Index,,,}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -488,7 +488,7 @@
 
 {synoptline}
 {marker sourceid_TOT}
-{synopt:{bf:{help wbopendata_sourceid##TOT:TOT} - `"Terms of Trade"'}}
+{synopt:{bf:{help wbopendata_sourceid##TOT:TOT} - Terms of Trade}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -500,7 +500,7 @@
 
 {synoptline}
 {marker sourceid_TOTRESV}
-{synopt:{bf:{help wbopendata_sourceid##TOTRESV:TOTRESV} - `"Total Reserves"'}}
+{synopt:{bf:{help wbopendata_sourceid##TOTRESV:TOTRESV} - Total Reserves}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -512,7 +512,7 @@
 
 {synoptline}
 {marker sourceid_UNEMPSA_}
-{synopt:{bf:{help wbopendata_sourceid##UNEMPSA_:UNEMPSA_} - `"Unemployment rate,Percent,,,"'}}
+{synopt:{bf:{help wbopendata_sourceid##UNEMPSA_:UNEMPSA_} - Unemployment rate,Percent,,,}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -523,4 +523,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

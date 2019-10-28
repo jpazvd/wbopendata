@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:46 Sustainable Development Goals}}}
 {synoptline}
 {marker sourceid_DT.ODA.ODAT.CD1}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ODAT.CD1:DT.ODA.ODAT.CD1} - `"Net official development assistance received (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ODAT.CD1:DT.ODA.ODAT.CD1} - Net official development assistance received (current US$)}}
 
 {synopt:{opt Source}}46 Sustainable Development Goals{p_end}
 
@@ -80,7 +80,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNP.MKTP.PC.CD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNP.MKTP.PC.CD:NY.GNP.MKTP.PC.CD} - `"GNI per capita (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNP.MKTP.PC.CD:NY.GNP.MKTP.PC.CD} - GNI per capita (current US$)}}
 
 {synopt:{opt Source}}46 Sustainable Development Goals{p_end}
 
@@ -91,4 +91,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

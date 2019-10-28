@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:11 Africa Development Indicators}}}
 {synoptline}
 {marker sourceid_AG.AID.CREL.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.AID.CREL.MT:AG.AID.CREL.MT} - `"Cereal food aid deliveries (FAO, tonnes)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.AID.CREL.MT:AG.AID.CREL.MT} - Cereal food aid deliveries (FAO, tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -80,7 +80,7 @@
 
 {synoptline}
 {marker sourceid_AG.AID.FOOD.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.AID.FOOD.MT:AG.AID.FOOD.MT} - `"Total food (cereals and non-cereal) food aid deliveries (FAO, tonnes)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.AID.FOOD.MT:AG.AID.FOOD.MT} - Total food (cereals and non-cereal) food aid deliveries (FAO, tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -92,7 +92,7 @@
 
 {synoptline}
 {marker sourceid_AG.AID.NCREL.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.AID.NCREL.MT:AG.AID.NCREL.MT} - `"Non-cereal food aid deliveries (FAO, tonnes)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.AID.NCREL.MT:AG.AID.NCREL.MT} - Non-cereal food aid deliveries (FAO, tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -104,7 +104,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.BLY.CD}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.BLY.CD:AG.CRP.BLY.CD} - `"Producer Price for Barley (per tonne, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.BLY.CD:AG.CRP.BLY.CD} - Producer Price for Barley (per tonne, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -116,7 +116,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.BLY.CN}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.BLY.CN:AG.CRP.BLY.CN} - `"Producer Price for Barley (per tonne, current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.BLY.CN:AG.CRP.BLY.CN} - Producer Price for Barley (per tonne, current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -128,7 +128,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.FNO.CD}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.FNO.CD:AG.CRP.FNO.CD} - `"Producer Price for Fonio (per tonne, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.FNO.CD:AG.CRP.FNO.CD} - Producer Price for Fonio (per tonne, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -140,7 +140,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.FNO.CN}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.FNO.CN:AG.CRP.FNO.CN} - `"Producer Price for Fonio (per tonne, current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.FNO.CN:AG.CRP.FNO.CN} - Producer Price for Fonio (per tonne, current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -152,7 +152,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.MLT.CD}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.MLT.CD:AG.CRP.MLT.CD} - `"Producer Price for Millet (per tonne, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.MLT.CD:AG.CRP.MLT.CD} - Producer Price for Millet (per tonne, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -164,7 +164,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.MLT.CN}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.MLT.CN:AG.CRP.MLT.CN} - `"Producer Price for Millet (per tonne, current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.MLT.CN:AG.CRP.MLT.CN} - Producer Price for Millet (per tonne, current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -176,7 +176,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.MZE.CD}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.MZE.CD:AG.CRP.MZE.CD} - `"Producer Price for Maize (per tonne, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.MZE.CD:AG.CRP.MZE.CD} - Producer Price for Maize (per tonne, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -188,7 +188,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.MZE.CN}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.MZE.CN:AG.CRP.MZE.CN} - `"Producer Price for Maize (per tonne, current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.MZE.CN:AG.CRP.MZE.CN} - Producer Price for Maize (per tonne, current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -200,7 +200,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.RICE.CD}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.RICE.CD:AG.CRP.RICE.CD} - `"Producer Price for Rice, paddy (per tonne, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.RICE.CD:AG.CRP.RICE.CD} - Producer Price for Rice, paddy (per tonne, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -212,7 +212,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.RICE.CN}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.RICE.CN:AG.CRP.RICE.CN} - `"Producer Price for Rice, paddy (per tonne, current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.RICE.CN:AG.CRP.RICE.CN} - Producer Price for Rice, paddy (per tonne, current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -224,7 +224,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.SGM.CD}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.SGM.CD:AG.CRP.SGM.CD} - `"Producer Price for Sorghum (per tonne, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.SGM.CD:AG.CRP.SGM.CD} - Producer Price for Sorghum (per tonne, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -236,7 +236,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.SGM.CN}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.SGM.CN:AG.CRP.SGM.CN} - `"Producer Price for Sorghum (per tonne, current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.SGM.CN:AG.CRP.SGM.CN} - Producer Price for Sorghum (per tonne, current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -248,7 +248,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.WHT.CD}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.WHT.CD:AG.CRP.WHT.CD} - `"Producer Price for Wheat (per tonne, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.WHT.CD:AG.CRP.WHT.CD} - Producer Price for Wheat (per tonne, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -260,7 +260,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.WHT.CN}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.WHT.CN:AG.CRP.WHT.CN} - `"Producer Price for Wheat (per tonne, current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.WHT.CN:AG.CRP.WHT.CN} - Producer Price for Wheat (per tonne, current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -272,7 +272,7 @@
 
 {synoptline}
 {marker sourceid_AG.FRST.PROD.CHAR}
-{synopt:{bf:{help wbopendata_sourceid##AG.FRST.PROD.CHAR:AG.FRST.PROD.CHAR} - `"Wood charcoal production quantity (tonnes)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.FRST.PROD.CHAR:AG.FRST.PROD.CHAR} - Wood charcoal production quantity (tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -284,7 +284,7 @@
 
 {synoptline}
 {marker sourceid_AG.FRST.PROD.WOOD}
-{synopt:{bf:{help wbopendata_sourceid##AG.FRST.PROD.WOOD:AG.FRST.PROD.WOOD} - `"Wood fuel production quantity (CUM, solid volume units)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.FRST.PROD.WOOD:AG.FRST.PROD.WOOD} - Wood fuel production quantity (CUM, solid volume units)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -296,7 +296,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.AGRI.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.AGRI.HA:AG.LND.AGRI.HA} - `"Agricultural land (hectares)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.AGRI.HA:AG.LND.AGRI.HA} - Agricultural land (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -308,7 +308,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.BLY.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.BLY.HA:AG.LND.BLY.HA} - `"Land under barley production (hectares)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.BLY.HA:AG.LND.BLY.HA} - Land under barley production (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -320,7 +320,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.CERE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.CERE.ZS:AG.LND.CERE.ZS} - `"Cereal cropland (% of land area)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.CERE.ZS:AG.LND.CERE.ZS} - Cereal cropland (% of land area)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -332,7 +332,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.CROP.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.CROP.HA:AG.LND.CROP.HA} - `"Permanent cropland (hectares)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.CROP.HA:AG.LND.CROP.HA} - Permanent cropland (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -344,7 +344,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.CRPA.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.CRPA.HA:AG.LND.CRPA.HA} - `"Arable and permanent cropland (hectares)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.CRPA.HA:AG.LND.CRPA.HA} - Arable and permanent cropland (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -356,7 +356,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.FNO.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.FNO.HA:AG.LND.FNO.HA} - `"Land under fonio production (hectares)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.FNO.HA:AG.LND.FNO.HA} - Land under fonio production (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -368,7 +368,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.FRST.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.FRST.HA:AG.LND.FRST.HA} - `"Forest area (hectares)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.FRST.HA:AG.LND.FRST.HA} - Forest area (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -380,7 +380,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.IRIG.HA.AG}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.IRIG.HA.AG:AG.LND.IRIG.HA.AG} - `"Agricultural area irrigated (ha)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.IRIG.HA.AG:AG.LND.IRIG.HA.AG} - Agricultural area irrigated (ha)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -392,7 +392,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.IRIG.PO.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.IRIG.PO.HA:AG.LND.IRIG.PO.HA} - `"Land area equipped for irrigation (hectares)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.IRIG.PO.HA:AG.LND.IRIG.PO.HA} - Land area equipped for irrigation (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -404,7 +404,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.MLT.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.MLT.HA:AG.LND.MLT.HA} - `"Land under millet production (hectares)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.MLT.HA:AG.LND.MLT.HA} - Land under millet production (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -416,7 +416,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.MZE.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.MZE.HA:AG.LND.MZE.HA} - `"Land under maize production (hectares)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.MZE.HA:AG.LND.MZE.HA} - Land under maize production (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -428,7 +428,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.RICE.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.RICE.HA:AG.LND.RICE.HA} - `"Land under rice production (hectares)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.RICE.HA:AG.LND.RICE.HA} - Land under rice production (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -440,7 +440,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.SGM.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.SGM.HA:AG.LND.SGM.HA} - `"Land under sorghum production (hectares)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.SGM.HA:AG.LND.SGM.HA} - Land under sorghum production (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -452,7 +452,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.TOTL.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.TOTL.HA:AG.LND.TOTL.HA} - `"Land area (hectares)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.TOTL.HA:AG.LND.TOTL.HA} - Land area (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -464,7 +464,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.WHT.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.WHT.HA:AG.LND.WHT.HA} - `"Land under wheat production (hectares)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.WHT.HA:AG.LND.WHT.HA} - Land under wheat production (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -476,7 +476,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.AGRI.XD}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.AGRI.XD:AG.PRD.AGRI.XD} - `"Agriculture production index (1999-2001 = 100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.AGRI.XD:AG.PRD.AGRI.XD} - Agriculture production index (1999-2001 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -488,7 +488,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.BLY.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.BLY.MT:AG.PRD.BLY.MT} - `"Barley production (metric tons)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.BLY.MT:AG.PRD.BLY.MT} - Barley production (metric tons)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -500,7 +500,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.CREL.XD}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.CREL.XD:AG.PRD.CREL.XD} - `"Cereal production index (1999-2001 = 100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.CREL.XD:AG.PRD.CREL.XD} - Cereal production index (1999-2001 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -512,7 +512,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.FNO.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.FNO.MT:AG.PRD.FNO.MT} - `"Fonio production (metric tons)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.FNO.MT:AG.PRD.FNO.MT} - Fonio production (metric tons)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -524,7 +524,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.GAGRI.XD}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GAGRI.XD:AG.PRD.GAGRI.XD} - `"Agriculture production index (gross, 1999-2001 = 100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GAGRI.XD:AG.PRD.GAGRI.XD} - Agriculture production index (gross, 1999-2001 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -536,7 +536,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.GCREL.XD}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GCREL.XD:AG.PRD.GCREL.XD} - `"Cereal production index (gross, 1999-2001 = 100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GCREL.XD:AG.PRD.GCREL.XD} - Cereal production index (gross, 1999-2001 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -548,7 +548,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.GCROP.XD}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GCROP.XD:AG.PRD.GCROP.XD} - `"Crop production index (gross, 1999-2001 = 100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GCROP.XD:AG.PRD.GCROP.XD} - Crop production index (gross, 1999-2001 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -560,7 +560,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.GFOOD.XD}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GFOOD.XD:AG.PRD.GFOOD.XD} - `"Food production index (gross, 1999-2001 = 100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GFOOD.XD:AG.PRD.GFOOD.XD} - Food production index (gross, 1999-2001 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -572,7 +572,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.GLVSK.XD}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GLVSK.XD:AG.PRD.GLVSK.XD} - `"Livestock production index (gross, 1999-2001 = 100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GLVSK.XD:AG.PRD.GLVSK.XD} - Livestock production index (gross, 1999-2001 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -584,7 +584,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.GNFOOD.XD}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GNFOOD.XD:AG.PRD.GNFOOD.XD} - `"Non-food production index (gross, 1999-2001 = 100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GNFOOD.XD:AG.PRD.GNFOOD.XD} - Non-food production index (gross, 1999-2001 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -596,7 +596,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.MLT.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.MLT.MT:AG.PRD.MLT.MT} - `"Millet production (metric tons)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.MLT.MT:AG.PRD.MLT.MT} - Millet production (metric tons)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -608,7 +608,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.MZE.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.MZE.MT:AG.PRD.MZE.MT} - `"Maize production (metric tons)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.MZE.MT:AG.PRD.MZE.MT} - Maize production (metric tons)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -620,7 +620,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.NFOOD.XD}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.NFOOD.XD:AG.PRD.NFOOD.XD} - `"Gross non-food production index (1999-2001 = 100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.NFOOD.XD:AG.PRD.NFOOD.XD} - Gross non-food production index (1999-2001 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -632,7 +632,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.RICE.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.RICE.MT:AG.PRD.RICE.MT} - `"Rice production (metric tons)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.RICE.MT:AG.PRD.RICE.MT} - Rice production (metric tons)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -644,7 +644,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.SGM.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.SGM.MT:AG.PRD.SGM.MT} - `"Sorghum production (metric tons)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.SGM.MT:AG.PRD.SGM.MT} - Sorghum production (metric tons)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -656,7 +656,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.WHT.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.WHT.MT:AG.PRD.WHT.MT} - `"Wheat production (metric tons)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.WHT.MT:AG.PRD.WHT.MT} - Wheat production (metric tons)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -668,7 +668,7 @@
 
 {synoptline}
 {marker sourceid_AG.SED.BLY.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.SED.BLY.MT:AG.SED.BLY.MT} - `"Barley seed quantity (FAO, metric tonnes)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.SED.BLY.MT:AG.SED.BLY.MT} - Barley seed quantity (FAO, metric tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -680,7 +680,7 @@
 
 {synoptline}
 {marker sourceid_AG.SED.CREL.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.SED.CREL.MT:AG.SED.CREL.MT} - `"Cereal seed quantity (FAO, metric tonnes)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.SED.CREL.MT:AG.SED.CREL.MT} - Cereal seed quantity (FAO, metric tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -692,7 +692,7 @@
 
 {synoptline}
 {marker sourceid_AG.SED.FNO.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.SED.FNO.MT:AG.SED.FNO.MT} - `"Fonio seed quantity (FAO, metric tonnes)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.SED.FNO.MT:AG.SED.FNO.MT} - Fonio seed quantity (FAO, metric tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -704,7 +704,7 @@
 
 {synoptline}
 {marker sourceid_AG.SED.MLT.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.SED.MLT.MT:AG.SED.MLT.MT} - `"Millet seed quantity (FAO, metric tonnes)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.SED.MLT.MT:AG.SED.MLT.MT} - Millet seed quantity (FAO, metric tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -716,7 +716,7 @@
 
 {synoptline}
 {marker sourceid_AG.SED.MZE.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.SED.MZE.MT:AG.SED.MZE.MT} - `"Maize seed quantity (FAO, metric tonnes)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.SED.MZE.MT:AG.SED.MZE.MT} - Maize seed quantity (FAO, metric tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -728,7 +728,7 @@
 
 {synoptline}
 {marker sourceid_AG.SED.RICE.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.SED.RICE.MT:AG.SED.RICE.MT} - `"Rice seed quantity (FAO, metric tonnes)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.SED.RICE.MT:AG.SED.RICE.MT} - Rice seed quantity (FAO, metric tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -740,7 +740,7 @@
 
 {synoptline}
 {marker sourceid_AG.SED.SGM.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.SED.SGM.MT:AG.SED.SGM.MT} - `"Sorghum seed quantity (FAO, metric tonnes)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.SED.SGM.MT:AG.SED.SGM.MT} - Sorghum seed quantity (FAO, metric tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -752,7 +752,7 @@
 
 {synoptline}
 {marker sourceid_AG.SED.WHT.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.SED.WHT.MT:AG.SED.WHT.MT} - `"Wheat seed quantity (FAO, metric tonnes)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.SED.WHT.MT:AG.SED.WHT.MT} - Wheat seed quantity (FAO, metric tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -764,7 +764,7 @@
 
 {synoptline}
 {marker sourceid_AG.SRF.TOTL.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.SRF.TOTL.HA:AG.SRF.TOTL.HA} - `"Surface area (ha)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.SRF.TOTL.HA:AG.SRF.TOTL.HA} - Surface area (ha)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -776,7 +776,7 @@
 
 {synoptline}
 {marker sourceid_AG.YLD.BLY.KG}
-{synopt:{bf:{help wbopendata_sourceid##AG.YLD.BLY.KG:AG.YLD.BLY.KG} - `"Barley yield (kg per hectare)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.YLD.BLY.KG:AG.YLD.BLY.KG} - Barley yield (kg per hectare)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -788,7 +788,7 @@
 
 {synoptline}
 {marker sourceid_AG.YLD.FNO.KG}
-{synopt:{bf:{help wbopendata_sourceid##AG.YLD.FNO.KG:AG.YLD.FNO.KG} - `"Fonio yield (kg per hectare)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.YLD.FNO.KG:AG.YLD.FNO.KG} - Fonio yield (kg per hectare)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -800,7 +800,7 @@
 
 {synoptline}
 {marker sourceid_AG.YLD.MLT.KG}
-{synopt:{bf:{help wbopendata_sourceid##AG.YLD.MLT.KG:AG.YLD.MLT.KG} - `"Millet yield (kg per hectare)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.YLD.MLT.KG:AG.YLD.MLT.KG} - Millet yield (kg per hectare)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -812,7 +812,7 @@
 
 {synoptline}
 {marker sourceid_AG.YLD.MZE.KG}
-{synopt:{bf:{help wbopendata_sourceid##AG.YLD.MZE.KG:AG.YLD.MZE.KG} - `"Maize yield (kg per hectare)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.YLD.MZE.KG:AG.YLD.MZE.KG} - Maize yield (kg per hectare)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -824,7 +824,7 @@
 
 {synoptline}
 {marker sourceid_AG.YLD.RICE.KG}
-{synopt:{bf:{help wbopendata_sourceid##AG.YLD.RICE.KG:AG.YLD.RICE.KG} - `"Rice yield (kg per hectare)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.YLD.RICE.KG:AG.YLD.RICE.KG} - Rice yield (kg per hectare)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -836,7 +836,7 @@
 
 {synoptline}
 {marker sourceid_AG.YLD.SGM.KG}
-{synopt:{bf:{help wbopendata_sourceid##AG.YLD.SGM.KG:AG.YLD.SGM.KG} - `"Sorghum yield (kg per hectare)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.YLD.SGM.KG:AG.YLD.SGM.KG} - Sorghum yield (kg per hectare)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -848,7 +848,7 @@
 
 {synoptline}
 {marker sourceid_AG.YLD.WHT.KG}
-{synopt:{bf:{help wbopendata_sourceid##AG.YLD.WHT.KG:AG.YLD.WHT.KG} - `"Wheat yield (kg per hectare)"'}}
+{synopt:{bf:{help wbopendata_sourceid##AG.YLD.WHT.KG:AG.YLD.WHT.KG} - Wheat yield (kg per hectare)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -860,7 +860,7 @@
 
 {synoptline}
 {marker sourceid_BM.AG.AGR.TRAC.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.AG.AGR.TRAC.CD:BM.AG.AGR.TRAC.CD} - `"Agricultural tractors, exports (FAO, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BM.AG.AGR.TRAC.CD:BM.AG.AGR.TRAC.CD} - Agricultural tractors, exports (FAO, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -872,7 +872,7 @@
 
 {synoptline}
 {marker sourceid_BM.AG.AGR.TRAC.NO}
-{synopt:{bf:{help wbopendata_sourceid##BM.AG.AGR.TRAC.NO:BM.AG.AGR.TRAC.NO} - `"Agricultural tractors, exports"'}}
+{synopt:{bf:{help wbopendata_sourceid##BM.AG.AGR.TRAC.NO:BM.AG.AGR.TRAC.NO} - Agricultural tractors, exports}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -884,7 +884,7 @@
 
 {synoptline}
 {marker sourceid_BM.AG.CREL.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.AG.CREL.CD:BM.AG.CREL.CD} - `"Cereal exports (FAO, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BM.AG.CREL.CD:BM.AG.CREL.CD} - Cereal exports (FAO, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -896,7 +896,7 @@
 
 {synoptline}
 {marker sourceid_BM.AG.CREL.MT}
-{synopt:{bf:{help wbopendata_sourceid##BM.AG.CREL.MT:BM.AG.CREL.MT} - `"Cereal exports quantity (FAO, tonnes)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BM.AG.CREL.MT:BM.AG.CREL.MT} - Cereal exports quantity (FAO, tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -908,7 +908,7 @@
 
 {synoptline}
 {marker sourceid_BM.AG.FRST.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.AG.FRST.CD:BM.AG.FRST.CD} - `"Forest products imports (FAO, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BM.AG.FRST.CD:BM.AG.FRST.CD} - Forest products imports (FAO, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -920,7 +920,7 @@
 
 {synoptline}
 {marker sourceid_BM.AG.HZ.PEST.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.AG.HZ.PEST.CD:BM.AG.HZ.PEST.CD} - `"Hazardous pesticides imports (FAO, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BM.AG.HZ.PEST.CD:BM.AG.HZ.PEST.CD} - Hazardous pesticides imports (FAO, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -932,7 +932,7 @@
 
 {synoptline}
 {marker sourceid_BM.AG.PEST.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.AG.PEST.CD:BM.AG.PEST.CD} - `"Pesticides imports (FAO, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BM.AG.PEST.CD:BM.AG.PEST.CD} - Pesticides imports (FAO, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -944,7 +944,7 @@
 
 {synoptline}
 {marker sourceid_BM.FOD.AGRI.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.FOD.AGRI.CD:BM.FOD.AGRI.CD} - `"Food imports excluding fish (FAO, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BM.FOD.AGRI.CD:BM.FOD.AGRI.CD} - Food imports excluding fish (FAO, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -956,7 +956,7 @@
 
 {synoptline}
 {marker sourceid_BM.GSR.AGRI.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.GSR.AGRI.CD:BM.GSR.AGRI.CD} - `"Total agricultural imports (FAO, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BM.GSR.AGRI.CD:BM.GSR.AGRI.CD} - Total agricultural imports (FAO, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -968,7 +968,7 @@
 
 {synoptline}
 {marker sourceid_BM.GSR.FXAI.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.GSR.FXAI.CD:BM.GSR.FXAI.CD} - `"Other income payments (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BM.GSR.FXAI.CD:BM.GSR.FXAI.CD} - Other income payments (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -980,7 +980,7 @@
 
 {synoptline}
 {marker sourceid_BM.GSR.SERV.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.GSR.SERV.CD:BM.GSR.SERV.CD} - `"Imports of  total services (Debit, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BM.GSR.SERV.CD:BM.GSR.SERV.CD} - Imports of  total services (Debit, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -992,7 +992,7 @@
 
 {synoptline}
 {marker sourceid_BM.KLT.DINV.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.KLT.DINV.CD:BM.KLT.DINV.CD} - `"Foreign direct investment, net outflows by reporting economy (IMF-BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BM.KLT.DINV.CD:BM.KLT.DINV.CD} - Foreign direct investment, net outflows by reporting economy (IMF-BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1004,7 +1004,7 @@
 
 {synoptline}
 {marker sourceid_BM.TRF.CURR.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.TRF.CURR.CD:BM.TRF.CURR.CD} - `"Current transfers, payments (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BM.TRF.CURR.CD:BM.TRF.CURR.CD} - Current transfers, payments (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1016,7 +1016,7 @@
 
 {synoptline}
 {marker sourceid_BM.TRF.MGR.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.TRF.MGR.CD:BM.TRF.MGR.CD} - `"Migrant remittance outflows (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BM.TRF.MGR.CD:BM.TRF.MGR.CD} - Migrant remittance outflows (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1028,7 +1028,7 @@
 
 {synoptline}
 {marker sourceid_BM.TRF.OFDC.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.TRF.OFDC.CD:BM.TRF.OFDC.CD} - `"Official current transfers, payments (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BM.TRF.OFDC.CD:BM.TRF.OFDC.CD} - Official current transfers, payments (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1040,7 +1040,7 @@
 
 {synoptline}
 {marker sourceid_BM.TRF.PWKR.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.TRF.PWKR.CD:BM.TRF.PWKR.CD} - `"Workers' remittances, payments (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BM.TRF.PWKR.CD:BM.TRF.PWKR.CD} - Workers' remittances, payments (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1052,7 +1052,7 @@
 
 {synoptline}
 {marker sourceid_BN.CAB.XOKA.GN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BN.CAB.XOKA.GN.ZS:BN.CAB.XOKA.GN.ZS} - `"Current account balance (% of GNP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.CAB.XOKA.GN.ZS:BN.CAB.XOKA.GN.ZS} - Current account balance (% of GNP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1064,7 +1064,7 @@
 
 {synoptline}
 {marker sourceid_BN.CUR.GDPM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BN.CUR.GDPM.ZS:BN.CUR.GDPM.ZS} - `"Current account balance excluding net official capital grants (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.CUR.GDPM.ZS:BN.CUR.GDPM.ZS} - Current account balance excluding net official capital grants (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1076,7 +1076,7 @@
 
 {synoptline}
 {marker sourceid_BN.DSR.UNPD.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.DSR.UNPD.CD:BN.DSR.UNPD.CD} - `"Debt service not paid (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.DSR.UNPD.CD:BN.DSR.UNPD.CD} - Debt service not paid (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1088,7 +1088,7 @@
 
 {synoptline}
 {marker sourceid_BN.FAC.ARAC.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.FAC.ARAC.CD:BN.FAC.ARAC.CD} - `"Debt Service not paid: Arrears Accumulation (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.FAC.ARAC.CD:BN.FAC.ARAC.CD} - Debt Service not paid: Arrears Accumulation (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1100,7 +1100,7 @@
 
 {synoptline}
 {marker sourceid_BN.GSR.FCTY.CD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BN.GSR.FCTY.CD.ZS:BN.GSR.FCTY.CD.ZS} - `"Net income (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.GSR.FCTY.CD.ZS:BN.GSR.FCTY.CD.ZS} - Net income (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1112,7 +1112,7 @@
 
 {synoptline}
 {marker sourceid_BN.KAC.FNEI.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.KAC.FNEI.CD:BN.KAC.FNEI.CD} - `"Capital flows not elsewhere included (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.KAC.FNEI.CD:BN.KAC.FNEI.CD} - Capital flows not elsewhere included (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1124,7 +1124,7 @@
 
 {synoptline}
 {marker sourceid_BN.KAC.OTHR.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.KAC.OTHR.CD:BN.KAC.OTHR.CD} - `"Other capital flows, net (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.KAC.OTHR.CD:BN.KAC.OTHR.CD} - Other capital flows, net (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1136,7 +1136,7 @@
 
 {synoptline}
 {marker sourceid_BN.KLT.DINV.CD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BN.KLT.DINV.CD.ZS:BN.KLT.DINV.CD.ZS} - `"Foreign direct investment (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.KLT.DINV.CD.ZS:BN.KLT.DINV.CD.ZS} - Foreign direct investment (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1148,7 +1148,7 @@
 
 {synoptline}
 {marker sourceid_BN.KLT.NFLW.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.KLT.NFLW.CD:BN.KLT.NFLW.CD} - `"Net long-term borrowing (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.KLT.NFLW.CD:BN.KLT.NFLW.CD} - Net long-term borrowing (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1160,7 +1160,7 @@
 
 {synoptline}
 {marker sourceid_BN.KLT.OTHR.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.KLT.OTHR.CD:BN.KLT.OTHR.CD} - `"Other long-term inflows, net (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.KLT.OTHR.CD:BN.KLT.OTHR.CD} - Other long-term inflows, net (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1172,7 +1172,7 @@
 
 {synoptline}
 {marker sourceid_BN.KLT.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.KLT.PRVT.CD:BN.KLT.PRVT.CD} - `"Private capital flows, total (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.KLT.PRVT.CD:BN.KLT.PRVT.CD} - Private capital flows, total (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1185,7 +1185,7 @@
 
 {synoptline}
 {marker sourceid_BN.KLT.PRVT.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BN.KLT.PRVT.GD.ZS:BN.KLT.PRVT.GD.ZS} - `"Private capital flows, total (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.KLT.PRVT.GD.ZS:BN.KLT.PRVT.GD.ZS} - Private capital flows, total (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1198,7 +1198,7 @@
 
 {synoptline}
 {marker sourceid_BN.TRF.CURR.CD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BN.TRF.CURR.CD.ZS:BN.TRF.CURR.CD.ZS} - `"Net current transfers (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.TRF.CURR.CD.ZS:BN.TRF.CURR.CD.ZS} - Net current transfers (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1210,7 +1210,7 @@
 
 {synoptline}
 {marker sourceid_BN.TRF.OFDC.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.TRF.OFDC.CD:BN.TRF.OFDC.CD} - `"Official current transfers, net (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.TRF.OFDC.CD:BN.TRF.OFDC.CD} - Official current transfers, net (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1222,7 +1222,7 @@
 
 {synoptline}
 {marker sourceid_BN.TRF.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.TRF.PRVT.CD:BN.TRF.PRVT.CD} - `"Private current transfers, net (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.TRF.PRVT.CD:BN.TRF.PRVT.CD} - Private current transfers, net (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1234,7 +1234,7 @@
 
 {synoptline}
 {marker sourceid_BN.TRF.PWKR.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.TRF.PWKR.CD:BN.TRF.PWKR.CD} - `"Workers' remittances, net (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.TRF.PWKR.CD:BN.TRF.PWKR.CD} - Workers' remittances, net (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1246,7 +1246,7 @@
 
 {synoptline}
 {marker sourceid_BN.TRN.KOGT.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.TRN.KOGT.CD:BN.TRN.KOGT.CD} - `"Grants (disbursements) from new commitments (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BN.TRN.KOGT.CD:BN.TRN.KOGT.CD} - Grants (disbursements) from new commitments (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1258,7 +1258,7 @@
 
 {synoptline}
 {marker sourceid_BX.AG.AGR.TRAC.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.AG.AGR.TRAC.CD:BX.AG.AGR.TRAC.CD} - `"Agricultural tractors, imports (FAO, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.AG.AGR.TRAC.CD:BX.AG.AGR.TRAC.CD} - Agricultural tractors, imports (FAO, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1270,7 +1270,7 @@
 
 {synoptline}
 {marker sourceid_BX.AG.AGR.TRAC.NO}
-{synopt:{bf:{help wbopendata_sourceid##BX.AG.AGR.TRAC.NO:BX.AG.AGR.TRAC.NO} - `"Agricultural tractors, imports"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.AG.AGR.TRAC.NO:BX.AG.AGR.TRAC.NO} - Agricultural tractors, imports}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1282,7 +1282,7 @@
 
 {synoptline}
 {marker sourceid_BX.AG.CREL.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.AG.CREL.CD:BX.AG.CREL.CD} - `"Cereal imports (FAO, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.AG.CREL.CD:BX.AG.CREL.CD} - Cereal imports (FAO, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1294,7 +1294,7 @@
 
 {synoptline}
 {marker sourceid_BX.AG.CREL.MT}
-{synopt:{bf:{help wbopendata_sourceid##BX.AG.CREL.MT:BX.AG.CREL.MT} - `"Cereal imports quantity (FAO, tonnes)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.AG.CREL.MT:BX.AG.CREL.MT} - Cereal imports quantity (FAO, tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1306,7 +1306,7 @@
 
 {synoptline}
 {marker sourceid_BX.AG.FRST.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.AG.FRST.CD:BX.AG.FRST.CD} - `"Forest products exports (FAO, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.AG.FRST.CD:BX.AG.FRST.CD} - Forest products exports (FAO, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1318,7 +1318,7 @@
 
 {synoptline}
 {marker sourceid_BX.AG.HZ.PEST.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.AG.HZ.PEST.CD:BX.AG.HZ.PEST.CD} - `"Hazardous pesticides exports (FAO, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.AG.HZ.PEST.CD:BX.AG.HZ.PEST.CD} - Hazardous pesticides exports (FAO, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1330,7 +1330,7 @@
 
 {synoptline}
 {marker sourceid_BX.AG.PEST.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.AG.PEST.CD:BX.AG.PEST.CD} - `"Pesticides exports (FAO, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.AG.PEST.CD:BX.AG.PEST.CD} - Pesticides exports (FAO, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1342,7 +1342,7 @@
 
 {synoptline}
 {marker sourceid_BX.FOD.AGRI.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.FOD.AGRI.CD:BX.FOD.AGRI.CD} - `"Food exports excluding fish (FAO, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.FOD.AGRI.CD:BX.FOD.AGRI.CD} - Food exports excluding fish (FAO, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1354,7 +1354,7 @@
 
 {synoptline}
 {marker sourceid_BX.GSR.AGRI.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.GSR.AGRI.CD:BX.GSR.AGRI.CD} - `"Total agricultural exports (FAO, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.GSR.AGRI.CD:BX.GSR.AGRI.CD} - Total agricultural exports (FAO, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1366,7 +1366,7 @@
 
 {synoptline}
 {marker sourceid_BX.GSR.INCL.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.GSR.INCL.CD:BX.GSR.INCL.CD} - `"Exports of goods, services, income and workers' remittances (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.GSR.INCL.CD:BX.GSR.INCL.CD} - Exports of goods, services, income and workers' remittances (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1379,7 +1379,7 @@
 
 {synoptline}
 {marker sourceid_BX.KLT.DINV.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DINV.CD:BX.KLT.DINV.CD} - `"Foreign direct investment, net inflows in reporting economy (IMF-BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DINV.CD:BX.KLT.DINV.CD} - Foreign direct investment, net inflows in reporting economy (IMF-BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1391,7 +1391,7 @@
 
 {synoptline}
 {marker sourceid_BX.TRF.MGR.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.TRF.MGR.CD:BX.TRF.MGR.CD} - `"Migrant remittance inflows (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.TRF.MGR.CD:BX.TRF.MGR.CD} - Migrant remittance inflows (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1403,7 +1403,7 @@
 
 {synoptline}
 {marker sourceid_BX.TRF.MGR.DT.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BX.TRF.MGR.DT.GD.ZS:BX.TRF.MGR.DT.GD.ZS} - `"Migrant remittance inflows (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.TRF.MGR.DT.GD.ZS:BX.TRF.MGR.DT.GD.ZS} - Migrant remittance inflows (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1415,7 +1415,7 @@
 
 {synoptline}
 {marker sourceid_BX.TRF.OFDC.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.TRF.OFDC.CD:BX.TRF.OFDC.CD} - `"Official current transfers, receipts (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.TRF.OFDC.CD:BX.TRF.OFDC.CD} - Official current transfers, receipts (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1427,7 +1427,7 @@
 
 {synoptline}
 {marker sourceid_BX.TRF.OFFT.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.TRF.OFFT.CD:BX.TRF.OFFT.CD} - `"Official transfers, current and capital (Credit, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.TRF.OFFT.CD:BX.TRF.OFFT.CD} - Official transfers, current and capital (Credit, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1439,7 +1439,7 @@
 
 {synoptline}
 {marker sourceid_BX.TRF.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.TRF.PRVT.CD:BX.TRF.PRVT.CD} - `"Private current transfers, receipts (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.TRF.PRVT.CD:BX.TRF.PRVT.CD} - Private current transfers, receipts (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1451,7 +1451,7 @@
 
 {synoptline}
 {marker sourceid_BX.TRF.PWKR.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BX.TRF.PWKR.GD.ZS:BX.TRF.PWKR.GD.ZS} - `"Workers' remittances, receipts (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.TRF.PWKR.GD.ZS:BX.TRF.PWKR.GD.ZS} - Workers' remittances, receipts (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1463,7 +1463,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMD.DLXF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMD.DLXF.CD:DT.AMD.DLXF.CD} - `"LT Principal due per balance of payments account (BoP, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMD.DLXF.CD:DT.AMD.DLXF.CD} - LT Principal due per balance of payments account (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1475,7 +1475,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD:DT.AMT.DECT.CD} - `"Principal repayments, Total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD:DT.AMT.DECT.CD} - Principal repayments, Total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1487,7 +1487,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PGNG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PGNG.CD:DT.AMT.PGNG.CD} - `"Principal repayments, PPG and PNG private creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PGNG.CD:DT.AMT.PGNG.CD} - Principal repayments, PPG and PNG private creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1499,7 +1499,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.BLCT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLCT.CD:DT.DIS.BLCT.CD} - `"Disbursements, Bilateral on nonconcessional terms (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLCT.CD:DT.DIS.BLCT.CD} - Disbursements, Bilateral on nonconcessional terms (DIS, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1511,7 +1511,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.DECT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DECT.CD:DT.DIS.DECT.CD} - `"Disbursements, Total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DECT.CD:DT.DIS.DECT.CD} - Disbursements, Total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1523,7 +1523,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.DSTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DSTC.CD:DT.DIS.DSTC.CD} - `"Disbursements, Short-term (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DSTC.CD:DT.DIS.DSTC.CD} - Disbursements, Short-term (DIS, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1535,7 +1535,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.MLCT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLCT.CD:DT.DIS.MLCT.CD} - `"Disbursements, PPG Multilateral creditors nonconcessional (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLCT.CD:DT.DIS.MLCT.CD} - Disbursements, PPG Multilateral creditors nonconcessional (DIS, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1547,7 +1547,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PGNG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PGNG.CD:DT.DIS.PGNG.CD} - `"Disbursements, PPG and PNG private creditors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PGNG.CD:DT.DIS.PGNG.CD} - Disbursements, PPG and PNG private creditors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1559,7 +1559,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.ALLC.ZSG}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLC.ZSG:DT.DOD.ALLC.ZSG} - `"Debt on Concessional terms to GDP (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLC.ZSG:DT.DOD.ALLC.ZSG} - Debt on Concessional terms to GDP (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1571,7 +1571,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.ALLC.ZSX}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLC.ZSX:DT.DOD.ALLC.ZSX} - `"Debt on Concessional terms to export ratio (% of exports)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLC.ZSX:DT.DOD.ALLC.ZSX} - Debt on Concessional terms to export ratio (% of exports)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1583,7 +1583,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.ALLN.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLN.CD:DT.DOD.ALLN.CD} - `"Debt on Non-concessional terms (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLN.CD:DT.DOD.ALLN.CD} - Debt on Non-concessional terms (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1595,7 +1595,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.ALLN.ZSG}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLN.ZSG:DT.DOD.ALLN.ZSG} - `"Debt on Non-concessional terms to GDP (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLN.ZSG:DT.DOD.ALLN.ZSG} - Debt on Non-concessional terms to GDP (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1607,7 +1607,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.ALLN.ZSX}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLN.ZSX:DT.DOD.ALLN.ZSX} - `"Debt on Non-concessional terms to export ratio (% of exports)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLN.ZSX:DT.DOD.ALLN.ZSX} - Debt on Non-concessional terms to export ratio (% of exports)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1619,7 +1619,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.BLTN.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTN.CD:DT.DOD.BLTN.CD} - `"Debt outstanding and disbursed, PPG Bilateral on nonconcessional terms (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTN.CD:DT.DOD.BLTN.CD} - Debt outstanding and disbursed, PPG Bilateral on nonconcessional terms (DOD, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1631,7 +1631,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.PC}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.PC:DT.DOD.DECT.CD.PC} - `"Debt outstanding and disbursed, Total per capita (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.PC:DT.DOD.DECT.CD.PC} - Debt outstanding and disbursed, Total per capita (DOD, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1643,7 +1643,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.ZSG}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.ZSG:DT.DOD.DECT.CD.ZSG} - `"Debt outstanding and disbursed, Total to GDP (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.ZSG:DT.DOD.DECT.CD.ZSG} - Debt outstanding and disbursed, Total to GDP (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1655,7 +1655,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTF.CD:DT.DOD.DLTF.CD} - `"Debt outstanding and disbursed, Long-term debt including IMF credit (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTF.CD:DT.DOD.DLTF.CD} - Debt outstanding and disbursed, Long-term debt including IMF credit (DOD, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1667,7 +1667,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.MLTN.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLTN.CD:DT.DOD.MLTN.CD} - `"Debt outstanding and disbursed, PPG Multilateral on nonconcessional terms (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLTN.CD:DT.DOD.MLTN.CD} - Debt outstanding and disbursed, PPG Multilateral on nonconcessional terms (DOD, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1679,7 +1679,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PGNG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PGNG.CD:DT.DOD.PGNG.CD} - `"Debt outstanding and disbursed, PPG and PNG private creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PGNG.CD:DT.DOD.PGNG.CD} - Debt outstanding and disbursed, PPG and PNG private creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1691,7 +1691,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PVLX.ND.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PVLX.ND.ZS:DT.DOD.PVLX.ND.ZS} - `"Present value to nominal value of debt (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PVLX.ND.ZS:DT.DOD.PVLX.ND.ZS} - Present value to nominal value of debt (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1703,7 +1703,7 @@
 
 {synoptline}
 {marker sourceid_DT.DTA.DLXF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DTA.DLXF.CD:DT.DTA.DLXF.CD} - `"Total stock of arrears (principal and interest payments) (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DTA.DLXF.CD:DT.DTA.DLXF.CD} - Total stock of arrears (principal and interest payments) (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1715,7 +1715,7 @@
 
 {synoptline}
 {marker sourceid_DT.DTA.OADJ.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DTA.OADJ.CD:DT.DTA.OADJ.CD} - `"Adjustment to Arrears"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DTA.OADJ.CD:DT.DTA.OADJ.CD} - Adjustment to Arrears}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1727,7 +1727,7 @@
 
 {synoptline}
 {marker sourceid_DT.INA.DECT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INA.DECT.CD:DT.INA.DECT.CD} - `"Adjustments to scheduled interest (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INA.DECT.CD:DT.INA.DECT.CD} - Adjustments to scheduled interest (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1739,7 +1739,7 @@
 
 {synoptline}
 {marker sourceid_DT.IND.DEXF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.IND.DEXF.CD:DT.IND.DEXF.CD} - `"Interest due, total long-term and short term, including IMF per BOP (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.IND.DEXF.CD:DT.IND.DEXF.CD} - Interest due, total long-term and short term, including IMF per BOP (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1751,7 +1751,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTF.CD:DT.INT.DLTF.CD} - `"Interest payments, Long-term debt including IMF credit (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTF.CD:DT.INT.DLTF.CD} - Interest payments, Long-term debt including IMF credit (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1763,7 +1763,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PGNG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PGNG.CD:DT.INT.PGNG.CD} - `"Interest payments, PPG and PNG Private creditors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PGNG.CD:DT.INT.PGNG.CD} - Interest payments, PPG and PNG Private creditors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1775,7 +1775,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ALLD.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.GD.ZS:DT.ODA.ALLD.GD.ZS} - `"Net ODA received (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.GD.ZS:DT.ODA.ALLD.GD.ZS} - Net ODA received (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1787,7 +1787,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ALLD.GI.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.GI.ZS:DT.ODA.ALLD.GI.ZS} - `"Net official development assistance received (% of gross capital formation)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.GI.ZS:DT.ODA.ALLD.GI.ZS} - Net official development assistance received (% of gross capital formation)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1799,7 +1799,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ALLD.GN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.GN.ZS:DT.ODA.ALLD.GN.ZS} - `"Net ODA received (% of GNP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.GN.ZS:DT.ODA.ALLD.GN.ZS} - Net ODA received (% of GNP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1811,7 +1811,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ALLD.HIV.CNTRL.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.HIV.CNTRL.CD:DT.ODA.ALLD.HIV.CNTRL.CD} - `"ODA aid disbursements for STD control including HIV/AIDS, all donors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.HIV.CNTRL.CD:DT.ODA.ALLD.HIV.CNTRL.CD} - ODA aid disbursements for STD control including HIV/AIDS, all donors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1823,7 +1823,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ALLD.HIV.MITI.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.HIV.MITI.CD:DT.ODA.ALLD.HIV.MITI.CD} - `"ODA aid disbursements for Social mitigation of HIV/AIDS, all donors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.HIV.MITI.CD:DT.ODA.ALLD.HIV.MITI.CD} - ODA aid disbursements for Social mitigation of HIV/AIDS, all donors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1835,7 +1835,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ALLD.MLR.CNTRL.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.MLR.CNTRL.CD:DT.ODA.ALLD.MLR.CNTRL.CD} - `"ODA aid disbursements for Malaria control, all donors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.MLR.CNTRL.CD:DT.ODA.ALLD.MLR.CNTRL.CD} - ODA aid disbursements for Malaria control, all donors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1847,7 +1847,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ALLD.MP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.MP.ZS:DT.ODA.ALLD.MP.ZS} - `"Net ODA received (% exports and imports)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.MP.ZS:DT.ODA.ALLD.MP.ZS} - Net ODA received (% exports and imports)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1859,7 +1859,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ALLD.PC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.PC.ZS:DT.ODA.ALLD.PC.ZS} - `"Net official development assistance received per capita (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.PC.ZS:DT.ODA.ALLD.PC.ZS} - Net official development assistance received per capita (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1871,7 +1871,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ALLD.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.PRVT.CD:DT.ODA.ALLD.PRVT.CD} - `"Total ODA Private Net, all donors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.PRVT.CD:DT.ODA.ALLD.PRVT.CD} - Total ODA Private Net, all donors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1883,7 +1883,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ALLD.XP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.XP.ZS:DT.ODA.ALLD.XP.ZS} - `"Net ODA received (% of central government expenditure)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.XP.ZS:DT.ODA.ALLD.XP.ZS} - Net ODA received (% of central government expenditure)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1895,7 +1895,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ADMN.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ADMN.CD:DT.ODA.DACD.ADMN.CD} - `"Gross ODA aid disbursement for administrative costs of donors, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ADMN.CD:DT.ODA.DACD.ADMN.CD} - Gross ODA aid disbursement for administrative costs of donors, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1907,7 +1907,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.AGPA.BDGT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.AGPA.BDGT.CD:DT.ODA.DACD.AGPA.BDGT.CD} - `"Gross ODA aid disbursement for general budget support, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.AGPA.BDGT.CD:DT.ODA.DACD.AGPA.BDGT.CD} - Gross ODA aid disbursement for general budget support, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1919,7 +1919,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.AGPA.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.AGPA.CD:DT.ODA.DACD.AGPA.CD} - `"Gross ODA aid disbursement for commodity and general program assistance, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.AGPA.CD:DT.ODA.DACD.AGPA.CD} - Gross ODA aid disbursement for commodity and general program assistance, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1931,7 +1931,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.AGPA.FOOD.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.AGPA.FOOD.CD:DT.ODA.DACD.AGPA.FOOD.CD} - `"Gross ODA aid disbursement for developmental food aid/food security assistance, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.AGPA.FOOD.CD:DT.ODA.DACD.AGPA.FOOD.CD} - Gross ODA aid disbursement for developmental food aid/food security assistance, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1943,7 +1943,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.AGPA.OCOM.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.AGPA.OCOM.CD:DT.ODA.DACD.AGPA.OCOM.CD} - `"Gross ODA aid disbursement for other commodity assistance, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.AGPA.OCOM.CD:DT.ODA.DACD.AGPA.OCOM.CD} - Gross ODA aid disbursement for other commodity assistance, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1955,7 +1955,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ALLS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ALLS.CD:DT.ODA.DACD.ALLS.CD} - `"Gross ODA aid disbursement for all sectors and functions, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ALLS.CD:DT.ODA.DACD.ALLS.CD} - Gross ODA aid disbursement for all sectors and functions, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1967,7 +1967,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.CD:DT.ODA.DACD.CD} - `"Net ODA received from DAC donors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.CD:DT.ODA.DACD.CD} - Net ODA received from DAC donors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1979,7 +1979,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.CD.PC}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.CD.PC:DT.ODA.DACD.CD.PC} - `"Net ODA received per capita from DAC donors(current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.CD.PC:DT.ODA.DACD.CD.PC} - Net ODA received per capita from DAC donors(current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1991,7 +1991,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.DEBT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.DEBT.CD:DT.ODA.DACD.DEBT.CD} - `"Gross ODA aid disbursement for action related to debt, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.DEBT.CD:DT.ODA.DACD.DEBT.CD} - Gross ODA aid disbursement for action related to debt, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2003,7 +2003,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ECON.BKFN.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.BKFN.CD:DT.ODA.DACD.ECON.BKFN.CD} - `"Gross ODA aid disbursement for banking &amp; financial services, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.BKFN.CD:DT.ODA.DACD.ECON.BKFN.CD} - Gross ODA aid disbursement for banking &amp; financial services, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2015,7 +2015,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ECON.BUSN.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.BUSN.CD:DT.ODA.DACD.ECON.BUSN.CD} - `"Gross ODA aid disbursement for business &amp; other services, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.BUSN.CD:DT.ODA.DACD.ECON.BUSN.CD} - Gross ODA aid disbursement for business &amp; other services, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2027,7 +2027,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ECON.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.CD:DT.ODA.DACD.ECON.CD} - `"Gross ODA aid disbursement for economic infrastructure, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.CD:DT.ODA.DACD.ECON.CD} - Gross ODA aid disbursement for economic infrastructure, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2039,7 +2039,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ECON.COMM.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.COMM.CD:DT.ODA.DACD.ECON.COMM.CD} - `"Gross ODA aid disbursement for communications, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.COMM.CD:DT.ODA.DACD.ECON.COMM.CD} - Gross ODA aid disbursement for communications, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2051,7 +2051,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ECON.NRGY.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.NRGY.CD:DT.ODA.DACD.ECON.NRGY.CD} - `"Gross ODA aid disbursement for energy,  DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.NRGY.CD:DT.ODA.DACD.ECON.NRGY.CD} - Gross ODA aid disbursement for energy,  DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2063,7 +2063,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ECON.TRSP.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.TRSP.CD:DT.ODA.DACD.ECON.TRSP.CD} - `"Gross ODA aid disbursement for transport and storage, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.TRSP.CD:DT.ODA.DACD.ECON.TRSP.CD} - Gross ODA aid disbursement for transport and storage, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2075,7 +2075,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.EDU.BAS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EDU.BAS.CD:DT.ODA.DACD.EDU.BAS.CD} - `"Gross ODA aid disbursement for basic education, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EDU.BAS.CD:DT.ODA.DACD.EDU.BAS.CD} - Gross ODA aid disbursement for basic education, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2087,7 +2087,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.EDU.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EDU.CD:DT.ODA.DACD.EDU.CD} - `"Gross ODA aid disbursement for education, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EDU.CD:DT.ODA.DACD.EDU.CD} - Gross ODA aid disbursement for education, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2099,7 +2099,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.EDU.PSEC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EDU.PSEC.CD:DT.ODA.DACD.EDU.PSEC.CD} - `"Gross ODA aid disbursement for post-secondary education, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EDU.PSEC.CD:DT.ODA.DACD.EDU.PSEC.CD} - Gross ODA aid disbursement for post-secondary education, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2111,7 +2111,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.EDU.SEC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EDU.SEC.CD:DT.ODA.DACD.EDU.SEC.CD} - `"Gross ODA aid disbursement for secondary education, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EDU.SEC.CD:DT.ODA.DACD.EDU.SEC.CD} - Gross ODA aid disbursement for secondary education, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2123,7 +2123,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.EDU.UNKN.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EDU.UNKN.CD:DT.ODA.DACD.EDU.UNKN.CD} - `"Gross ODA aid disbursement for education (level unspecified), DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EDU.UNKN.CD:DT.ODA.DACD.EDU.UNKN.CD} - Gross ODA aid disbursement for education (level unspecified), DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2135,7 +2135,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.EMRC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EMRC.CD:DT.ODA.DACD.EMRC.CD} - `"Gross ODA aid disbursement for humanitarian aid, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EMRC.CD:DT.ODA.DACD.EMRC.CD} - Gross ODA aid disbursement for humanitarian aid, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2147,7 +2147,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.EMRC.DISA.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EMRC.DISA.CD:DT.ODA.DACD.EMRC.DISA.CD} - `"Gross ODA aid disbursement for disaster prevention &amp; preparedness, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EMRC.DISA.CD:DT.ODA.DACD.EMRC.DISA.CD} - Gross ODA aid disbursement for disaster prevention &amp; preparedness, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2159,7 +2159,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.EMRC.OTHR.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EMRC.OTHR.CD:DT.ODA.DACD.EMRC.OTHR.CD} - `"Gross ODA aid disbursement for emergency response, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EMRC.OTHR.CD:DT.ODA.DACD.EMRC.OTHR.CD} - Gross ODA aid disbursement for emergency response, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2171,7 +2171,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.EMRC.RCST.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EMRC.RCST.CD:DT.ODA.DACD.EMRC.RCST.CD} - `"Gross ODA aid disbursement for reconstruction relief and rehabilitation, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EMRC.RCST.CD:DT.ODA.DACD.EMRC.RCST.CD} - Gross ODA aid disbursement for reconstruction relief and rehabilitation, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2183,7 +2183,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.GVCS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.GVCS.CD:DT.ODA.DACD.GVCS.CD} - `"Gross ODA aid disbursement for government &amp; civil society, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.GVCS.CD:DT.ODA.DACD.GVCS.CD} - Gross ODA aid disbursement for government &amp; civil society, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2195,7 +2195,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.GVCS.CPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.GVCS.CPS.CD:DT.ODA.DACD.GVCS.CPS.CD} - `"Gross ODA aid disbursement for conflict, peace and security, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.GVCS.CPS.CD:DT.ODA.DACD.GVCS.CPS.CD} - Gross ODA aid disbursement for conflict, peace and security, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2207,7 +2207,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.GVCS.GEN.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.GVCS.GEN.CD:DT.ODA.DACD.GVCS.GEN.CD} - `"Gross ODA aid disbursement for general government and civil society, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.GVCS.GEN.CD:DT.ODA.DACD.GVCS.GEN.CD} - Gross ODA aid disbursement for general government and civil society, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2219,7 +2219,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.HIV.CNTRL.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.HIV.CNTRL.CD:DT.ODA.DACD.HIV.CNTRL.CD} - `"ODA aid disbursements for STD control including HIV/AIDS, DAC donors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.HIV.CNTRL.CD:DT.ODA.DACD.HIV.CNTRL.CD} - ODA aid disbursements for STD control including HIV/AIDS, DAC donors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2232,7 +2232,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.HIV.MITI.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.HIV.MITI.CD:DT.ODA.DACD.HIV.MITI.CD} - `"ODA aid disbursements for Social mitigation of HIV/AIDS, DAC donors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.HIV.MITI.CD:DT.ODA.DACD.HIV.MITI.CD} - ODA aid disbursements for Social mitigation of HIV/AIDS, DAC donors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2245,7 +2245,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.HLTH.BAS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.HLTH.BAS.CD:DT.ODA.DACD.HLTH.BAS.CD} - `"Gross ODA aid disbursement for basic health, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.HLTH.BAS.CD:DT.ODA.DACD.HLTH.BAS.CD} - Gross ODA aid disbursement for basic health, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2257,7 +2257,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.HLTH.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.HLTH.CD:DT.ODA.DACD.HLTH.CD} - `"Gross ODA aid disbursement for health, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.HLTH.CD:DT.ODA.DACD.HLTH.CD} - Gross ODA aid disbursement for health, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2269,7 +2269,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.HLTH.GEN.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.HLTH.GEN.CD:DT.ODA.DACD.HLTH.GEN.CD} - `"Gross ODA aid disbursement for general health, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.HLTH.GEN.CD:DT.ODA.DACD.HLTH.GEN.CD} - Gross ODA aid disbursement for general health, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2281,7 +2281,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.KD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.KD:DT.ODA.DACD.KD} - `"Net ODA received from DAC donors (constant 2010 US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.KD:DT.ODA.DACD.KD} - Net ODA received from DAC donors (constant 2010 US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2293,7 +2293,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.MLR.CNTRL.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.MLR.CNTRL.CD:DT.ODA.DACD.MLR.CNTRL.CD} - `"ODA aid disbursements for Malaria control, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.MLR.CNTRL.CD:DT.ODA.DACD.MLR.CNTRL.CD} - ODA aid disbursements for Malaria control, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2306,7 +2306,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.MSEC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.MSEC.CD:DT.ODA.DACD.MSEC.CD} - `"Gross ODA aid disbursement for multisector,  DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.MSEC.CD:DT.ODA.DACD.MSEC.CD} - Gross ODA aid disbursement for multisector,  DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2318,7 +2318,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.MSEC.GENV.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.MSEC.GENV.CD:DT.ODA.DACD.MSEC.GENV.CD} - `"Gross ODA aid disbursement for general environment protection, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.MSEC.GENV.CD:DT.ODA.DACD.MSEC.GENV.CD} - Gross ODA aid disbursement for general environment protection, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2330,7 +2330,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.MSEC.OMSEC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.MSEC.OMSEC.CD:DT.ODA.DACD.MSEC.OMSEC.CD} - `"Gross ODA aid disbursement for other multisector initiatives, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.MSEC.OMSEC.CD:DT.ODA.DACD.MSEC.OMSEC.CD} - Gross ODA aid disbursement for other multisector initiatives, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2342,7 +2342,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.POP.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.POP.CD:DT.ODA.DACD.POP.CD} - `"Gross ODA aid disbursement for population programmes and reproductive health, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.POP.CD:DT.ODA.DACD.POP.CD} - Gross ODA aid disbursement for population programmes and reproductive health, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2354,7 +2354,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.PROD.AGRI.AGR.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.AGRI.AGR.CD:DT.ODA.DACD.PROD.AGRI.AGR.CD} - `"Gross ODA aid disbursement for agriculture, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.AGRI.AGR.CD:DT.ODA.DACD.PROD.AGRI.AGR.CD} - Gross ODA aid disbursement for agriculture, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2366,7 +2366,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.PROD.AGRI.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.AGRI.CD:DT.ODA.DACD.PROD.AGRI.CD} - `"Gross ODA aid disbursement for agriculture, forestry and fishing sector, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.AGRI.CD:DT.ODA.DACD.PROD.AGRI.CD} - Gross ODA aid disbursement for agriculture, forestry and fishing sector, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2378,7 +2378,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.PROD.AGRI.FISH.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.AGRI.FISH.CD:DT.ODA.DACD.PROD.AGRI.FISH.CD} - `"Gross ODA aid disbursement for fishing, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.AGRI.FISH.CD:DT.ODA.DACD.PROD.AGRI.FISH.CD} - Gross ODA aid disbursement for fishing, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2390,7 +2390,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.PROD.AGRI.FORS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.AGRI.FORS.CD:DT.ODA.DACD.PROD.AGRI.FORS.CD} - `"Gross ODA aid disbursement for forestry, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.AGRI.FORS.CD:DT.ODA.DACD.PROD.AGRI.FORS.CD} - Gross ODA aid disbursement for forestry, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2402,7 +2402,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.PROD.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.CD:DT.ODA.DACD.PROD.CD} - `"Gross ODA aid disbursement for production sectors,  DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.CD:DT.ODA.DACD.PROD.CD} - Gross ODA aid disbursement for production sectors,  DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2414,7 +2414,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.PROD.INDS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.INDS.CD:DT.ODA.DACD.PROD.INDS.CD} - `"Gross ODA aid disbursement for industry, mining and construction, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.INDS.CD:DT.ODA.DACD.PROD.INDS.CD} - Gross ODA aid disbursement for industry, mining and construction, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2426,7 +2426,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.PROD.INDS.CON.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.INDS.CON.CD:DT.ODA.DACD.PROD.INDS.CON.CD} - `"Gross ODA aid disbursement for construction,  DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.INDS.CON.CD:DT.ODA.DACD.PROD.INDS.CON.CD} - Gross ODA aid disbursement for construction,  DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2438,7 +2438,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.PROD.INDS.IND.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.INDS.IND.CD:DT.ODA.DACD.PROD.INDS.IND.CD} - `"Gross ODA aid disbursement for industry,  DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.INDS.IND.CD:DT.ODA.DACD.PROD.INDS.IND.CD} - Gross ODA aid disbursement for industry,  DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2450,7 +2450,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.PROD.INDS.MIN.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.INDS.MIN.CD:DT.ODA.DACD.PROD.INDS.MIN.CD} - `"Gross ODA aid disbursement for mineral resources and mining,  DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.INDS.MIN.CD:DT.ODA.DACD.PROD.INDS.MIN.CD} - Gross ODA aid disbursement for mineral resources and mining,  DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2462,7 +2462,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.PROD.TRDP.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.TRDP.CD:DT.ODA.DACD.PROD.TRDP.CD} - `"Gross ODA aid disbursement for trade policy and regulations, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.TRDP.CD:DT.ODA.DACD.PROD.TRDP.CD} - Gross ODA aid disbursement for trade policy and regulations, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2474,7 +2474,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.PROD.TRSM.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.TRSM.CD:DT.ODA.DACD.PROD.TRSM.CD} - `"Gross ODA aid disbursement for tourism sector, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.TRSM.CD:DT.ODA.DACD.PROD.TRSM.CD} - Gross ODA aid disbursement for tourism sector, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2486,7 +2486,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PRVT.CD:DT.ODA.DACD.PRVT.CD} - `"Total ODA Private Net, DAC donors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PRVT.CD:DT.ODA.DACD.PRVT.CD} - Total ODA Private Net, DAC donors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2498,7 +2498,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.RFGE.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.RFGE.CD:DT.ODA.DACD.RFGE.CD} - `"Gross ODA aid disbursement for refugees in donor countries,  DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.RFGE.CD:DT.ODA.DACD.RFGE.CD} - Gross ODA aid disbursement for refugees in donor countries,  DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2510,7 +2510,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.SOCI.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.SOCI.CD:DT.ODA.DACD.SOCI.CD} - `"Gross ODA aid disbursement for social infrastructure &amp; services,  DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.SOCI.CD:DT.ODA.DACD.SOCI.CD} - Gross ODA aid disbursement for social infrastructure &amp; services,  DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2522,7 +2522,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.TSEC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.TSEC.CD:DT.ODA.DACD.TSEC.CD} - `"Gross ODA aid disbursement for total sector allocable, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.TSEC.CD:DT.ODA.DACD.TSEC.CD} - Gross ODA aid disbursement for total sector allocable, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2534,7 +2534,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.UNAL.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.UNAL.CD:DT.ODA.DACD.UNAL.CD} - `"Gross ODA aid disbursement for unallocated/unspecified support, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.UNAL.CD:DT.ODA.DACD.UNAL.CD} - Gross ODA aid disbursement for unallocated/unspecified support, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2546,7 +2546,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.WSS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.WSS.CD:DT.ODA.DACD.WSS.CD} - `"Gross ODA aid disbursement for water supply and sanitation, DAC donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.WSS.CD:DT.ODA.DACD.WSS.CD} - Gross ODA aid disbursement for water supply and sanitation, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2558,7 +2558,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ZSG}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ZSG:DT.ODA.DACD.ZSG} - `"Net ODA received from DAC donors (% of recipient's GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ZSG:DT.ODA.DACD.ZSG} - Net ODA received from DAC donors (% of recipient's GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2570,7 +2570,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ZSI}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ZSI:DT.ODA.DACD.ZSI} - `"Net ODA received from DAC donors (% of recipient's GDI)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ZSI:DT.ODA.DACD.ZSI} - Net ODA received from DAC donors (% of recipient's GDI)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2582,7 +2582,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.MULT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULT.CD:DT.ODA.MULT.CD} - `"Net ODA received from multilateral donors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULT.CD:DT.ODA.MULT.CD} - Net ODA received from multilateral donors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2594,7 +2594,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.MULT.CD.PC}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULT.CD.PC:DT.ODA.MULT.CD.PC} - `"Net ODA received per capita from multilateral donors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULT.CD.PC:DT.ODA.MULT.CD.PC} - Net ODA received per capita from multilateral donors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2606,7 +2606,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.MULT.KD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULT.KD:DT.ODA.MULT.KD} - `"Net ODA received from multilateral donors (constant 2010 US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULT.KD:DT.ODA.MULT.KD} - Net ODA received from multilateral donors (constant 2010 US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2618,7 +2618,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.MULT.ZSG}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULT.ZSG:DT.ODA.MULT.ZSG} - `"Net ODA received from multilateral donors (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULT.ZSG:DT.ODA.MULT.ZSG} - Net ODA received from multilateral donors (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2630,7 +2630,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.MULT.ZSI}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULT.ZSI:DT.ODA.MULT.ZSI} - `"Net ODA received from multilateral donors (% of gross capital formation)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULT.ZSI:DT.ODA.MULT.ZSI} - Net ODA received from multilateral donors (% of gross capital formation)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2642,7 +2642,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.MULTI.HIV.CNTRL.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULTI.HIV.CNTRL.CD:DT.ODA.MULTI.HIV.CNTRL.CD} - `"ODA aid disbursements for STD control including HIV/AIDS, Multilateral donors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULTI.HIV.CNTRL.CD:DT.ODA.MULTI.HIV.CNTRL.CD} - ODA aid disbursements for STD control including HIV/AIDS, Multilateral donors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2655,7 +2655,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.MULTI.HIV.MITI.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULTI.HIV.MITI.CD:DT.ODA.MULTI.HIV.MITI.CD} - `"ODA aid disbursements for Social mitigation of HIV/AIDS, Multilateral donors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULTI.HIV.MITI.CD:DT.ODA.MULTI.HIV.MITI.CD} - ODA aid disbursements for Social mitigation of HIV/AIDS, Multilateral donors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2668,7 +2668,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.MULTI.MLR.CNTRL.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULTI.MLR.CNTRL.CD:DT.ODA.MULTI.MLR.CNTRL.CD} - `"ODA aid disbursements for Malaria control, multilateral donors total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULTI.MLR.CNTRL.CD:DT.ODA.MULTI.MLR.CNTRL.CD} - ODA aid disbursements for Malaria control, multilateral donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2681,7 +2681,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.NDAC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.NDAC.CD:DT.ODA.NDAC.CD} - `"Net ODA received from non-DAC donors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.NDAC.CD:DT.ODA.NDAC.CD} - Net ODA received from non-DAC donors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2693,7 +2693,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.NDAC.KD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.NDAC.KD:DT.ODA.NDAC.KD} - `"Net ODA received from non-DAC donors (constant 2010 US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.NDAC.KD:DT.ODA.NDAC.KD} - Net ODA received from non-DAC donors (constant 2010 US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2705,7 +2705,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.NDAC.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.NDAC.PRVT.CD:DT.ODA.NDAC.PRVT.CD} - `"Total ODA Private Net, non-DAC donors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.NDAC.PRVT.CD:DT.ODA.NDAC.PRVT.CD} - Total ODA Private Net, non-DAC donors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2717,7 +2717,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.NDAC.ZSG}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.NDAC.ZSG:DT.ODA.NDAC.ZSG} - `"Net ODA received from non-DAC bilateral donors (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.NDAC.ZSG:DT.ODA.NDAC.ZSG} - Net ODA received from non-DAC bilateral donors (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2729,7 +2729,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.NDAC.ZSI}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.NDAC.ZSI:DT.ODA.NDAC.ZSI} - `"Net ODA received from non-DAC bilateral donors (% of gross capital formation)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.NDAC.ZSI:DT.ODA.NDAC.ZSI} - Net ODA received from non-DAC bilateral donors (% of gross capital formation)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2741,7 +2741,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ODAT.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ODAT.GD.ZS:DT.ODA.ODAT.GD.ZS} - `"Net ODA received (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ODAT.GD.ZS:DT.ODA.ODAT.GD.ZS} - Net ODA received (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2753,7 +2753,7 @@
 
 {synoptline}
 {marker sourceid_DT.SRV.POST.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.SRV.POST.ZS:DT.SRV.POST.ZS} - `"Debt service to export ratio, ex-post (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.SRV.POST.ZS:DT.SRV.POST.ZS} - Debt service to export ratio, ex-post (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2765,7 +2765,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDA.DECT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDA.DECT.CD:DT.TDA.DECT.CD} - `"Adjustments to scheduled debt service (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDA.DECT.CD:DT.TDA.DECT.CD} - Adjustments to scheduled debt service (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2777,7 +2777,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.GD.ZS:DT.TDS.DECT.GD.ZS} - `"Total debt service (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.GD.ZS:DT.TDS.DECT.GD.ZS} - Total debt service (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2789,7 +2789,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PGNG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PGNG.CD:DT.TDS.PGNG.CD} - `"Debt service, PPG and PNG private creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PGNG.CD:DT.TDS.PGNG.CD} - Debt service, PPG and PNG private creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2801,7 +2801,7 @@
 
 {synoptline}
 {marker sourceid_DT.TRA.DECT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TRA.DECT.CD:DT.TRA.DECT.CD} - `"Debt service, reduction in arrears/prepayments (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TRA.DECT.CD:DT.TRA.DECT.CD} - Debt service, reduction in arrears/prepayments (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2813,7 +2813,7 @@
 
 {synoptline}
 {marker sourceid_EE.BOD.TOTL.KG}
-{synopt:{bf:{help wbopendata_sourceid##EE.BOD.TOTL.KG:EE.BOD.TOTL.KG} - `"Organic water pollutant (BOD) emissions (kg per day)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EE.BOD.TOTL.KG:EE.BOD.TOTL.KG} - Organic water pollutant (BOD) emissions (kg per day)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2826,7 +2826,7 @@
 
 {synoptline}
 {marker sourceid_EG.IMP.TOTL.KT.OE}
-{synopt:{bf:{help wbopendata_sourceid##EG.IMP.TOTL.KT.OE:EG.IMP.TOTL.KT.OE} - `"Energy imports (kt of oil equivalent)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EG.IMP.TOTL.KT.OE:EG.IMP.TOTL.KT.OE} - Energy imports (kt of oil equivalent)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2838,7 +2838,7 @@
 
 {synoptline}
 {marker sourceid_EN.AGR.EMPL}
-{synopt:{bf:{help wbopendata_sourceid##EN.AGR.EMPL:EN.AGR.EMPL} - `"Economically active population in agriculture (number)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.AGR.EMPL:EN.AGR.EMPL} - Economically active population in agriculture (number)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2851,7 +2851,7 @@
 
 {synoptline}
 {marker sourceid_EN.AGR.EMPL.FE}
-{synopt:{bf:{help wbopendata_sourceid##EN.AGR.EMPL.FE:EN.AGR.EMPL.FE} - `"Economically active population in agriculture, female (FAO, number)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.AGR.EMPL.FE:EN.AGR.EMPL.FE} - Economically active population in agriculture, female (FAO, number)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2863,7 +2863,7 @@
 
 {synoptline}
 {marker sourceid_EN.AGR.EMPL.IN}
-{synopt:{bf:{help wbopendata_sourceid##EN.AGR.EMPL.IN:EN.AGR.EMPL.IN} - `"Agricultural population (FAO, number)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.AGR.EMPL.IN:EN.AGR.EMPL.IN} - Agricultural population (FAO, number)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2875,7 +2875,7 @@
 
 {synoptline}
 {marker sourceid_EN.AGR.EMPL.MA}
-{synopt:{bf:{help wbopendata_sourceid##EN.AGR.EMPL.MA:EN.AGR.EMPL.MA} - `"Economically active population in agriculture, male (FAO, number)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.AGR.EMPL.MA:EN.AGR.EMPL.MA} - Economically active population in agriculture, male (FAO, number)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2887,7 +2887,7 @@
 
 {synoptline}
 {marker sourceid_EN.ANM.THRD.NO}
-{synopt:{bf:{help wbopendata_sourceid##EN.ANM.THRD.NO:EN.ANM.THRD.NO} - `"Animal species, threatened"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.ANM.THRD.NO:EN.ANM.THRD.NO} - Animal species, threatened}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2899,7 +2899,7 @@
 
 {synoptline}
 {marker sourceid_EN.ATM.CO2E.CP.KT}
-{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.CP.KT:EN.ATM.CO2E.CP.KT} - `"CO2 emissions from cement production (thousand metric tons)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.CP.KT:EN.ATM.CO2E.CP.KT} - CO2 emissions from cement production (thousand metric tons)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2911,7 +2911,7 @@
 
 {synoptline}
 {marker sourceid_EN.ATM.CO2E.FF.KT}
-{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.FF.KT:EN.ATM.CO2E.FF.KT} - `"CO2 emissions from fossil-fuels, total (thousand metric tons)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.FF.KT:EN.ATM.CO2E.FF.KT} - CO2 emissions from fossil-fuels, total (thousand metric tons)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2923,7 +2923,7 @@
 
 {synoptline}
 {marker sourceid_EN.ATM.CO2E.FF.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.FF.ZS:EN.ATM.CO2E.FF.ZS} - `"CO2 emissions from fossil-fuels (% of total)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.FF.ZS:EN.ATM.CO2E.FF.ZS} - CO2 emissions from fossil-fuels (% of total)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2935,7 +2935,7 @@
 
 {synoptline}
 {marker sourceid_EN.ATM.CO2E.GL.KT}
-{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.GL.KT:EN.ATM.CO2E.GL.KT} - `"CO2 emissions from gas flaring (thousand metric tons)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.GL.KT:EN.ATM.CO2E.GL.KT} - CO2 emissions from gas flaring (thousand metric tons)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2947,7 +2947,7 @@
 
 {synoptline}
 {marker sourceid_EN.ATM.METH.IN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EN.ATM.METH.IN.ZS:EN.ATM.METH.IN.ZS} - `"Energy related methane emissions (% of total)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.METH.IN.ZS:EN.ATM.METH.IN.ZS} - Energy related methane emissions (% of total)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2960,7 +2960,7 @@
 
 {synoptline}
 {marker sourceid_EN.ATM.NOXE.IN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EN.ATM.NOXE.IN.ZS:EN.ATM.NOXE.IN.ZS} - `"Nitrous oxide emissions in industrial and energy processes (% of total nitrous oxide emissions)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.NOXE.IN.ZS:EN.ATM.NOXE.IN.ZS} - Nitrous oxide emissions in industrial and energy processes (% of total nitrous oxide emissions)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2973,7 +2973,7 @@
 
 {synoptline}
 {marker sourceid_EN.NAGR.EMPL.IN}
-{synopt:{bf:{help wbopendata_sourceid##EN.NAGR.EMPL.IN:EN.NAGR.EMPL.IN} - `"Non-agricultural population (FAO, number)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.NAGR.EMPL.IN:EN.NAGR.EMPL.IN} - Non-agricultural population (FAO, number)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2985,7 +2985,7 @@
 
 {synoptline}
 {marker sourceid_EN.RUR.DNST}
-{synopt:{bf:{help wbopendata_sourceid##EN.RUR.DNST:EN.RUR.DNST} - `"Rural population density (rural population per sq. km of arable land)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EN.RUR.DNST:EN.RUR.DNST} - Rural population density (rural population per sq. km of arable land)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2997,7 +2997,7 @@
 
 {synoptline}
 {marker sourceid_ER.LND.PTLD.K2}
-{synopt:{bf:{help wbopendata_sourceid##ER.LND.PTLD.K2:ER.LND.PTLD.K2} - `"Terrestrial protected areas  (sq. km)"'}}
+{synopt:{bf:{help wbopendata_sourceid##ER.LND.PTLD.K2:ER.LND.PTLD.K2} - Terrestrial protected areas  (sq. km)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3009,7 +3009,7 @@
 
 {synoptline}
 {marker sourceid_ER.MRN.PTMR.K2}
-{synopt:{bf:{help wbopendata_sourceid##ER.MRN.PTMR.K2:ER.MRN.PTMR.K2} - `"Marine protected areas (sq. km)"'}}
+{synopt:{bf:{help wbopendata_sourceid##ER.MRN.PTMR.K2:ER.MRN.PTMR.K2} - Marine protected areas (sq. km)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3021,7 +3021,7 @@
 
 {synoptline}
 {marker sourceid_FI.RES.GOLD.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##FI.RES.GOLD.CD.WB:FI.RES.GOLD.CD.WB} - `"Gold, valued at year-end London prices (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FI.RES.GOLD.CD.WB:FI.RES.GOLD.CD.WB} - Gold, valued at year-end London prices (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3033,7 +3033,7 @@
 
 {synoptline}
 {marker sourceid_FI.RES.TOTL.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##FI.RES.TOTL.CD.WB:FI.RES.TOTL.CD.WB} - `"Total reserves including gold valued at London gold price (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FI.RES.TOTL.CD.WB:FI.RES.TOTL.CD.WB} - Total reserves including gold valued at London gold price (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3045,7 +3045,7 @@
 
 {synoptline}
 {marker sourceid_FI.RES.TOTL.CD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##FI.RES.TOTL.CD.ZS:FI.RES.TOTL.CD.ZS} - `"Total reserves includes gold (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FI.RES.TOTL.CD.ZS:FI.RES.TOTL.CD.ZS} - Total reserves includes gold (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3057,7 +3057,7 @@
 
 {synoptline}
 {marker sourceid_FI.RES.TOTL.MO.WB}
-{synopt:{bf:{help wbopendata_sourceid##FI.RES.TOTL.MO.WB:FI.RES.TOTL.MO.WB} - `"Total reserves in months of imports of goods and services"'}}
+{synopt:{bf:{help wbopendata_sourceid##FI.RES.TOTL.MO.WB:FI.RES.TOTL.MO.WB} - Total reserves in months of imports of goods and services}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3069,7 +3069,7 @@
 
 {synoptline}
 {marker sourceid_FM.ASC.DOMO.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.ASC.DOMO.CN:FM.ASC.DOMO.CN} - `"Claims on private sector, flow (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.ASC.DOMO.CN:FM.ASC.DOMO.CN} - Claims on private sector, flow (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3081,7 +3081,7 @@
 
 {synoptline}
 {marker sourceid_FM.ASC.DOMS.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.ASC.DOMS.CN:FM.ASC.DOMS.CN} - `"Net domestic credit, flow (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.ASC.DOMS.CN:FM.ASC.DOMS.CN} - Net domestic credit, flow (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3093,7 +3093,7 @@
 
 {synoptline}
 {marker sourceid_FM.ASC.GOVT.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.ASC.GOVT.CN:FM.ASC.GOVT.CN} - `"Net domestic credit to government, flow (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.ASC.GOVT.CN:FM.ASC.GOVT.CN} - Net domestic credit to government, flow (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3105,7 +3105,7 @@
 
 {synoptline}
 {marker sourceid_FM.ASC.NCGV.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.ASC.NCGV.CN:FM.ASC.NCGV.CN} - `"Claims on central government, flow (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.ASC.NCGV.CN:FM.ASC.NCGV.CN} - Claims on central government, flow (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3117,7 +3117,7 @@
 
 {synoptline}
 {marker sourceid_FM.ASC.NFGD.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.ASC.NFGD.CN:FM.ASC.NFGD.CN} - `"Total assets, flow (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.ASC.NFGD.CN:FM.ASC.NFGD.CN} - Total assets, flow (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3129,7 +3129,7 @@
 
 {synoptline}
 {marker sourceid_FM.ASC.NFRG.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.ASC.NFRG.CN:FM.ASC.NFRG.CN} - `"Net foreign assets, flow (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.ASC.NFRG.CN:FM.ASC.NFRG.CN} - Net foreign assets, flow (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3141,7 +3141,7 @@
 
 {synoptline}
 {marker sourceid_FM.ASC.OFFO.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.ASC.OFFO.CN:FM.ASC.OFFO.CN} - `"Claims on other official entities, flow (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.ASC.OFFO.CN:FM.ASC.OFFO.CN} - Claims on other official entities, flow (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3153,7 +3153,7 @@
 
 {synoptline}
 {marker sourceid_FM.ASC.OFIN.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.ASC.OFIN.CN:FM.ASC.OFIN.CN} - `"Claims on nonmonetary financial institutions, flow (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.ASC.OFIN.CN:FM.ASC.OFIN.CN} - Claims on nonmonetary financial institutions, flow (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3165,7 +3165,7 @@
 
 {synoptline}
 {marker sourceid_FM.ASC.TOTP.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.ASC.TOTP.CN:FM.ASC.TOTP.CN} - `"Claims on private sector and other financial institutions, flow (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.ASC.TOTP.CN:FM.ASC.TOTP.CN} - Claims on private sector and other financial institutions, flow (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3177,7 +3177,7 @@
 
 {synoptline}
 {marker sourceid_FM.AST.DOMO.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.AST.DOMO.CN:FM.AST.DOMO.CN} - `"Net domestic credit to private sector, stock (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.AST.DOMO.CN:FM.AST.DOMO.CN} - Net domestic credit to private sector, stock (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3189,7 +3189,7 @@
 
 {synoptline}
 {marker sourceid_FM.AST.GOVT.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.AST.GOVT.CN:FM.AST.GOVT.CN} - `"Claims on governments and other public entities (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.AST.GOVT.CN:FM.AST.GOVT.CN} - Claims on governments and other public entities (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3202,7 +3202,7 @@
 
 {synoptline}
 {marker sourceid_FM.AST.GOVT.CN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##FM.AST.GOVT.CN.ZS:FM.AST.GOVT.CN.ZS} - `"Claims on governments and other public entities (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.AST.GOVT.CN.ZS:FM.AST.GOVT.CN.ZS} - Claims on governments and other public entities (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3214,7 +3214,7 @@
 
 {synoptline}
 {marker sourceid_FM.AST.GOVT.ZG.M2}
-{synopt:{bf:{help wbopendata_sourceid##FM.AST.GOVT.ZG.M2:FM.AST.GOVT.ZG.M2} - `"Claims on governments, etc. (annual growth as % of M2)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.AST.GOVT.ZG.M2:FM.AST.GOVT.ZG.M2} - Claims on governments, etc. (annual growth as % of M2)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3227,7 +3227,7 @@
 
 {synoptline}
 {marker sourceid_FM.AST.NCGV.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.AST.NCGV.CN:FM.AST.NCGV.CN} - `"Claims on central government (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.AST.NCGV.CN:FM.AST.NCGV.CN} - Claims on central government (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3239,7 +3239,7 @@
 
 {synoptline}
 {marker sourceid_FM.AST.NFGD.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.AST.NFGD.CN:FM.AST.NFGD.CN} - `"Total assets (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.AST.NFGD.CN:FM.AST.NFGD.CN} - Total assets (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3251,7 +3251,7 @@
 
 {synoptline}
 {marker sourceid_FM.AST.NFRG.CD}
-{synopt:{bf:{help wbopendata_sourceid##FM.AST.NFRG.CD:FM.AST.NFRG.CD} - `"Net foreign assets (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.AST.NFRG.CD:FM.AST.NFRG.CD} - Net foreign assets (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3263,7 +3263,7 @@
 
 {synoptline}
 {marker sourceid_FM.AST.OFFO.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.AST.OFFO.CN:FM.AST.OFFO.CN} - `"Net domestic credit to other official entities, stock (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.AST.OFFO.CN:FM.AST.OFFO.CN} - Net domestic credit to other official entities, stock (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3275,7 +3275,7 @@
 
 {synoptline}
 {marker sourceid_FM.AST.OFIN.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.AST.OFIN.CN:FM.AST.OFIN.CN} - `"Net domestic credit to other private financial institutions, stock (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.AST.OFIN.CN:FM.AST.OFIN.CN} - Net domestic credit to other private financial institutions, stock (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3287,7 +3287,7 @@
 
 {synoptline}
 {marker sourceid_FM.AST.PRVT.ZG.M2}
-{synopt:{bf:{help wbopendata_sourceid##FM.AST.PRVT.ZG.M2:FM.AST.PRVT.ZG.M2} - `"Claims on private sector (annual growth as % of M2)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.AST.PRVT.ZG.M2:FM.AST.PRVT.ZG.M2} - Claims on private sector (annual growth as % of M2)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3300,7 +3300,7 @@
 
 {synoptline}
 {marker sourceid_FM.AST.TOTP.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.AST.TOTP.CN:FM.AST.TOTP.CN} - `"Net domestic credit to rest of economy, stock (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.AST.TOTP.CN:FM.AST.TOTP.CN} - Net domestic credit to rest of economy, stock (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3312,7 +3312,7 @@
 
 {synoptline}
 {marker sourceid_FM.LBC.MQMY.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.LBC.MQMY.CN:FM.LBC.MQMY.CN} - `"Money and quasi money (M2), flow (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.LBC.MQMY.CN:FM.LBC.MQMY.CN} - Money and quasi money (M2), flow (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3324,7 +3324,7 @@
 
 {synoptline}
 {marker sourceid_FM.LBC.XMQM.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.LBC.XMQM.CN:FM.LBC.XMQM.CN} - `"Other liabilities excluding M2, flow (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.LBC.XMQM.CN:FM.LBC.XMQM.CN} - Other liabilities excluding M2, flow (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3336,7 +3336,7 @@
 
 {synoptline}
 {marker sourceid_FM.LBL.XMQM.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.LBL.XMQM.CN:FM.LBL.XMQM.CN} - `"Other liabilities excluding M2 (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FM.LBL.XMQM.CN:FM.LBL.XMQM.CN} - Other liabilities excluding M2 (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3348,7 +3348,7 @@
 
 {synoptline}
 {marker sourceid_FN.INR.CBIR}
-{synopt:{bf:{help wbopendata_sourceid##FN.INR.CBIR:FN.INR.CBIR} - `"Central bank intervention rate (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FN.INR.CBIR:FN.INR.CBIR} - Central bank intervention rate (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3360,7 +3360,7 @@
 
 {synoptline}
 {marker sourceid_FR.INR.DPST.DP}
-{synopt:{bf:{help wbopendata_sourceid##FR.INR.DPST.DP:FR.INR.DPST.DP} - `"Real deposit interest rate (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FR.INR.DPST.DP:FR.INR.DPST.DP} - Real deposit interest rate (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3372,7 +3372,7 @@
 
 {synoptline}
 {marker sourceid_FR.INR.GBND}
-{synopt:{bf:{help wbopendata_sourceid##FR.INR.GBND:FR.INR.GBND} - `"Bond interest rate (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FR.INR.GBND:FR.INR.GBND} - Bond interest rate (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3384,7 +3384,7 @@
 
 {synoptline}
 {marker sourceid_FR.INR.IMPL}
-{synopt:{bf:{help wbopendata_sourceid##FR.INR.IMPL:FR.INR.IMPL} - `"International interest rate, implicit (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FR.INR.IMPL:FR.INR.IMPL} - International interest rate, implicit (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3396,7 +3396,7 @@
 
 {synoptline}
 {marker sourceid_FR.INR.MMKT}
-{synopt:{bf:{help wbopendata_sourceid##FR.INR.MMKT:FR.INR.MMKT} - `"Money market rate (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FR.INR.MMKT:FR.INR.MMKT} - Money market rate (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3408,7 +3408,7 @@
 
 {synoptline}
 {marker sourceid_FR.INR.TDPT}
-{synopt:{bf:{help wbopendata_sourceid##FR.INR.TDPT:FR.INR.TDPT} - `"Time deposits interest rate (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FR.INR.TDPT:FR.INR.TDPT} - Time deposits interest rate (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3420,7 +3420,7 @@
 
 {synoptline}
 {marker sourceid_FR.INR.TDPT.RL}
-{synopt:{bf:{help wbopendata_sourceid##FR.INR.TDPT.RL:FR.INR.TDPT.RL} - `"Real interest on time deposit (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FR.INR.TDPT.RL:FR.INR.TDPT.RL} - Real interest on time deposit (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3432,7 +3432,7 @@
 
 {synoptline}
 {marker sourceid_FS.AST.PRVT.CN}
-{synopt:{bf:{help wbopendata_sourceid##FS.AST.PRVT.CN:FS.AST.PRVT.CN} - `"Banking survey: claims on private sector (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FS.AST.PRVT.CN:FS.AST.PRVT.CN} - Banking survey: claims on private sector (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3444,7 +3444,7 @@
 
 {synoptline}
 {marker sourceid_FS.XPC.DDPT.CN}
-{synopt:{bf:{help wbopendata_sourceid##FS.XPC.DDPT.CN:FS.XPC.DDPT.CN} - `"Demand deposits (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FS.XPC.DDPT.CN:FS.XPC.DDPT.CN} - Demand deposits (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3456,7 +3456,7 @@
 
 {synoptline}
 {marker sourceid_FS.XPC.TDPT.CN}
-{synopt:{bf:{help wbopendata_sourceid##FS.XPC.TDPT.CN:FS.XPC.TDPT.CN} - `"Time deposits (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##FS.XPC.TDPT.CN:FS.XPC.TDPT.CN} - Time deposits (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3468,7 +3468,7 @@
 
 {synoptline}
 {marker sourceid_GB.AMA.ABRD.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.AMA.ABRD.CN:GB.AMA.ABRD.CN} - `"Adjustments to foreign scheduled principal repayments (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.AMA.ABRD.CN:GB.AMA.ABRD.CN} - Adjustments to foreign scheduled principal repayments (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3480,7 +3480,7 @@
 
 {synoptline}
 {marker sourceid_GB.BAL.CIGR.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.BAL.CIGR.CN:GB.BAL.CIGR.CN} - `"Current budget balance, including grants (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.BAL.CIGR.CN:GB.BAL.CIGR.CN} - Current budget balance, including grants (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3492,7 +3492,7 @@
 
 {synoptline}
 {marker sourceid_GB.BAL.OVRL.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.BAL.OVRL.CN:GB.BAL.OVRL.CN} - `"Overall budget balance, including grants (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.BAL.OVRL.CN:GB.BAL.OVRL.CN} - Overall budget balance, including grants (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3504,7 +3504,7 @@
 
 {synoptline}
 {marker sourceid_GB.BAL.OVRX.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.BAL.OVRX.CN:GB.BAL.OVRX.CN} - `"Overall surplus/deficit, excluding current grants (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.BAL.OVRX.CN:GB.BAL.OVRX.CN} - Overall surplus/deficit, excluding current grants (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3516,7 +3516,7 @@
 
 {synoptline}
 {marker sourceid_GB.BAL.OVXG.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.BAL.OVXG.CN:GB.BAL.OVXG.CN} - `"Overall surplus/deficit, excluding all grants (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.BAL.OVXG.CN:GB.BAL.OVXG.CN} - Overall surplus/deficit, excluding all grants (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3528,7 +3528,7 @@
 
 {synoptline}
 {marker sourceid_GB.BAL.XINT.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.BAL.XINT.CN:GB.BAL.XINT.CN} - `"Primary balance, excluding interest (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.BAL.XINT.CN:GB.BAL.XINT.CN} - Primary balance, excluding interest (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3540,7 +3540,7 @@
 
 {synoptline}
 {marker sourceid_GB.DOD.DMSY.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.DOD.DMSY.CN:GB.DOD.DMSY.CN} - `"Central government debt, monetary system credit (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.DOD.DMSY.CN:GB.DOD.DMSY.CN} - Central government debt, monetary system credit (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3552,7 +3552,7 @@
 
 {synoptline}
 {marker sourceid_GB.DOD.DNMS.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.DOD.DNMS.CN:GB.DOD.DNMS.CN} - `"Central government debt, other domestic (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.DOD.DNMS.CN:GB.DOD.DNMS.CN} - Central government debt, other domestic (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3564,7 +3564,7 @@
 
 {synoptline}
 {marker sourceid_GB.DOD.FRGN.CD}
-{synopt:{bf:{help wbopendata_sourceid##GB.DOD.FRGN.CD:GB.DOD.FRGN.CD} - `"External debt, end year (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.DOD.FRGN.CD:GB.DOD.FRGN.CD} - External debt, end year (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3576,7 +3576,7 @@
 
 {synoptline}
 {marker sourceid_GB.DOD.FRGN.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.DOD.FRGN.CN:GB.DOD.FRGN.CN} - `"External debt, end year (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.DOD.FRGN.CN:GB.DOD.FRGN.CN} - External debt, end year (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3588,7 +3588,7 @@
 
 {synoptline}
 {marker sourceid_GB.DOD.TOTL.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.DOD.TOTL.CN:GB.DOD.TOTL.CN} - `"Total government debt (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.DOD.TOTL.CN:GB.DOD.TOTL.CN} - Total government debt (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3600,7 +3600,7 @@
 
 {synoptline}
 {marker sourceid_GB.DTA.DOMS.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.DTA.DOMS.CN:GB.DTA.DOMS.CN} - `"Central government arrears on domestic debt (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.DTA.DOMS.CN:GB.DTA.DOMS.CN} - Central government arrears on domestic debt (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3612,7 +3612,7 @@
 
 {synoptline}
 {marker sourceid_GB.DTA.FRGN.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.DTA.FRGN.CN:GB.DTA.FRGN.CN} - `"Central government arrears on external debt (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.DTA.FRGN.CN:GB.DTA.FRGN.CN} - Central government arrears on external debt (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3624,7 +3624,7 @@
 
 {synoptline}
 {marker sourceid_GB.FIN.ABRD.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.FIN.ABRD.CN:GB.FIN.ABRD.CN} - `"External borrowing, net (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.FIN.ABRD.CN:GB.FIN.ABRD.CN} - External borrowing, net (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3636,7 +3636,7 @@
 
 {synoptline}
 {marker sourceid_GB.FIN.DMSY.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.FIN.DMSY.CN:GB.FIN.DMSY.CN} - `"Domestic financing, monetary system credit (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.FIN.DMSY.CN:GB.FIN.DMSY.CN} - Domestic financing, monetary system credit (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3648,7 +3648,7 @@
 
 {synoptline}
 {marker sourceid_GB.FIN.DNMS.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.FIN.DNMS.CN:GB.FIN.DNMS.CN} - `"Other domestic borrowing (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.FIN.DNMS.CN:GB.FIN.DNMS.CN} - Other domestic borrowing (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3660,7 +3660,7 @@
 
 {synoptline}
 {marker sourceid_GB.FIN.IKFR.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.FIN.IKFR.CN:GB.FIN.IKFR.CN} - `"Financing, including external capital grants (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.FIN.IKFR.CN:GB.FIN.IKFR.CN} - Financing, including external capital grants (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3672,7 +3672,7 @@
 
 {synoptline}
 {marker sourceid_GB.GRT.CTOT.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.GRT.CTOT.CN:GB.GRT.CTOT.CN} - `"Total current grants (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.GRT.CTOT.CN:GB.GRT.CTOT.CN} - Total current grants (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3684,7 +3684,7 @@
 
 {synoptline}
 {marker sourceid_GB.GRT.KFRN.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.GRT.KFRN.CN:GB.GRT.KFRN.CN} - `"External capital grants (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.GRT.KFRN.CN:GB.GRT.KFRN.CN} - External capital grants (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3696,7 +3696,7 @@
 
 {synoptline}
 {marker sourceid_GB.NTX.CIGR.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.NTX.CIGR.CN:GB.NTX.CIGR.CN} - `"Nontax receipts (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.NTX.CIGR.CN:GB.NTX.CIGR.CN} - Nontax receipts (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3708,7 +3708,7 @@
 
 {synoptline}
 {marker sourceid_GB.REV.IGRT.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.REV.IGRT.CN:GB.REV.IGRT.CN} - `"Total revenue including current grants (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.REV.IGRT.CN:GB.REV.IGRT.CN} - Total revenue including current grants (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3720,7 +3720,7 @@
 
 {synoptline}
 {marker sourceid_GB.REV.XAGT.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.REV.XAGT.CN:GB.REV.XAGT.CN} - `"Central government revenue excluding all grants  (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.REV.XAGT.CN:GB.REV.XAGT.CN} - Central government revenue excluding all grants  (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3732,7 +3732,7 @@
 
 {synoptline}
 {marker sourceid_GB.REV.XAGT.CN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.REV.XAGT.CN.ZS:GB.REV.XAGT.CN.ZS} - `"Central government revenues, excluding all grants (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.REV.XAGT.CN.ZS:GB.REV.XAGT.CN.ZS} - Central government revenues, excluding all grants (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3744,7 +3744,7 @@
 
 {synoptline}
 {marker sourceid_GB.RVC.IGRT.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.RVC.IGRT.CN:GB.RVC.IGRT.CN} - `"Total currrent revenues  including current grants (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.RVC.IGRT.CN:GB.RVC.IGRT.CN} - Total currrent revenues  including current grants (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3756,7 +3756,7 @@
 
 {synoptline}
 {marker sourceid_GB.RVC.TOTL.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.RVC.TOTL.CN:GB.RVC.TOTL.CN} - `"Current revenue, excluding grants (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.RVC.TOTL.CN:GB.RVC.TOTL.CN} - Current revenue, excluding grants (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3768,7 +3768,7 @@
 
 {synoptline}
 {marker sourceid_GB.RVK.TOTL.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.RVK.TOTL.CN:GB.RVK.TOTL.CN} - `"Capital revenue (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.RVK.TOTL.CN:GB.RVK.TOTL.CN} - Capital revenue (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3780,7 +3780,7 @@
 
 {synoptline}
 {marker sourceid_GB.TAX.CMAR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.TAX.CMAR.ZS:GB.TAX.CMAR.ZS} - `"Highest marginal tax rate, corporate rate (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.TAX.CMAR.ZS:GB.TAX.CMAR.ZS} - Highest marginal tax rate, corporate rate (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3793,7 +3793,7 @@
 
 {synoptline}
 {marker sourceid_GB.TAX.DRCT.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.TAX.DRCT.CN:GB.TAX.DRCT.CN} - `"Direct taxes (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.TAX.DRCT.CN:GB.TAX.DRCT.CN} - Direct taxes (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3805,7 +3805,7 @@
 
 {synoptline}
 {marker sourceid_GB.TAX.GSRV.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.TAX.GSRV.CN:GB.TAX.GSRV.CN} - `"Taxes on goods and services, GB (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.TAX.GSRV.CN:GB.TAX.GSRV.CN} - Taxes on goods and services, GB (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3817,7 +3817,7 @@
 
 {synoptline}
 {marker sourceid_GB.TAX.IDRT.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.TAX.IDRT.CN:GB.TAX.IDRT.CN} - `"Indirect taxes less subsidies (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.TAX.IDRT.CN:GB.TAX.IDRT.CN} - Indirect taxes less subsidies (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3829,7 +3829,7 @@
 
 {synoptline}
 {marker sourceid_GB.TAX.INTT.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.TAX.INTT.CN:GB.TAX.INTT.CN} - `"Taxes on international trade, GB (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.TAX.INTT.CN:GB.TAX.INTT.CN} - Taxes on international trade, GB (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3841,7 +3841,7 @@
 
 {synoptline}
 {marker sourceid_GB.TDS.ABRD.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.TDS.ABRD.CN:GB.TDS.ABRD.CN} - `"Adjustments to foreign scheduled debt service (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.TDS.ABRD.CN:GB.TDS.ABRD.CN} - Adjustments to foreign scheduled debt service (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3853,7 +3853,7 @@
 
 {synoptline}
 {marker sourceid_GB.TDS.FRGN.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.TDS.FRGN.CN:GB.TDS.FRGN.CN} - `"Central government debt service, external (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.TDS.FRGN.CN:GB.TDS.FRGN.CN} - Central government debt service, external (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3865,7 +3865,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPC.GSRV.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPC.GSRV.CN:GB.XPC.GSRV.CN} - `"Government consumption (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPC.GSRV.CN:GB.XPC.GSRV.CN} - Government consumption (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3877,7 +3877,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPC.INTD.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPC.INTD.CN:GB.XPC.INTD.CN} - `"Interest on domestic debt (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPC.INTD.CN:GB.XPC.INTD.CN} - Interest on domestic debt (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3889,7 +3889,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPC.INTE.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPC.INTE.CN:GB.XPC.INTE.CN} - `"Interest on external debt (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPC.INTE.CN:GB.XPC.INTE.CN} - Interest on external debt (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3901,7 +3901,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPC.SUBS.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPC.SUBS.CN:GB.XPC.SUBS.CN} - `"Subsidies (GFS, current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPC.SUBS.CN:GB.XPC.SUBS.CN} - Subsidies (GFS, current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3913,7 +3913,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPC.TOTL.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPC.TOTL.CN:GB.XPC.TOTL.CN} - `"Current expenditure, total (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPC.TOTL.CN:GB.XPC.TOTL.CN} - Current expenditure, total (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3925,7 +3925,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPC.TRFO.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPC.TRFO.CN:GB.XPC.TRFO.CN} - `"Other current transfers (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPC.TRFO.CN:GB.XPC.TRFO.CN} - Other current transfers (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3937,7 +3937,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPC.WAGE.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPC.WAGE.CN:GB.XPC.WAGE.CN} - `"Wages and salaries (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPC.WAGE.CN:GB.XPC.WAGE.CN} - Wages and salaries (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3949,7 +3949,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPD.DEFN.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPD.DEFN.CN:GB.XPD.DEFN.CN} - `"Defense expenditure (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPD.DEFN.CN:GB.XPD.DEFN.CN} - Defense expenditure (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3961,7 +3961,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPD.INLD.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPD.INLD.CN:GB.XPD.INLD.CN} - `"Total expenditure and net lending (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPD.INLD.CN:GB.XPD.INLD.CN} - Total expenditure and net lending (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3973,7 +3973,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPK.INLD.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPK.INLD.CN:GB.XPK.INLD.CN} - `"Total capital expenditure and net lending (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPK.INLD.CN:GB.XPK.INLD.CN} - Total capital expenditure and net lending (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3985,7 +3985,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPK.RINV.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPK.RINV.CN:GB.XPK.RINV.CN} - `"Budgetary investment (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPK.RINV.CN:GB.XPK.RINV.CN} - Budgetary investment (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3997,7 +3997,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPL.TRNL.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPL.TRNL.CN:GB.XPL.TRNL.CN} - `"Capital transfers (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPL.TRNL.CN:GB.XPL.TRNL.CN} - Capital transfers (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4009,7 +4009,7 @@
 
 {synoptline}
 {marker sourceid_GC.BAL.CASH.CD}
-{synopt:{bf:{help wbopendata_sourceid##GC.BAL.CASH.CD:GC.BAL.CASH.CD} - `"Fiscal balance, cash surplus/deficit (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GC.BAL.CASH.CD:GC.BAL.CASH.CD} - Fiscal balance, cash surplus/deficit (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4021,7 +4021,7 @@
 
 {synoptline}
 {marker sourceid_GC.REV.TOTL.CD}
-{synopt:{bf:{help wbopendata_sourceid##GC.REV.TOTL.CD:GC.REV.TOTL.CD} - `"Total revenue (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GC.REV.TOTL.CD:GC.REV.TOTL.CD} - Total revenue (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4033,7 +4033,7 @@
 
 {synoptline}
 {marker sourceid_GC.REV.TOTL.CN}
-{synopt:{bf:{help wbopendata_sourceid##GC.REV.TOTL.CN:GC.REV.TOTL.CN} - `"Total revenue (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GC.REV.TOTL.CN:GC.REV.TOTL.CN} - Total revenue (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4045,7 +4045,7 @@
 
 {synoptline}
 {marker sourceid_GC.REV.XGRT.CD}
-{synopt:{bf:{help wbopendata_sourceid##GC.REV.XGRT.CD:GC.REV.XGRT.CD} - `"Revenue, excluding grants (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GC.REV.XGRT.CD:GC.REV.XGRT.CD} - Revenue, excluding grants (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4057,7 +4057,7 @@
 
 {synoptline}
 {marker sourceid_GC.XPN.TOTL.CD}
-{synopt:{bf:{help wbopendata_sourceid##GC.XPN.TOTL.CD:GC.XPN.TOTL.CD} - `"Expense (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GC.XPN.TOTL.CD:GC.XPN.TOTL.CD} - Expense (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4069,7 +4069,7 @@
 
 {synoptline}
 {marker sourceid_GCI.10THPILLAR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.10THPILLAR.XQ:GCI.10THPILLAR.XQ} - `"10th pillar: Market size"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.10THPILLAR.XQ:GCI.10THPILLAR.XQ} - 10th pillar: Market size}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4081,7 +4081,7 @@
 
 {synoptline}
 {marker sourceid_GCI.11THPILLAR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.11THPILLAR.XQ:GCI.11THPILLAR.XQ} - `"11th pillar: Business sophistication"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.11THPILLAR.XQ:GCI.11THPILLAR.XQ} - 11th pillar: Business sophistication}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4093,7 +4093,7 @@
 
 {synoptline}
 {marker sourceid_GCI.12THPILLAR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.12THPILLAR.XQ:GCI.12THPILLAR.XQ} - `"12th pillar: Innovation"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.12THPILLAR.XQ:GCI.12THPILLAR.XQ} - 12th pillar: Innovation}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4105,7 +4105,7 @@
 
 {synoptline}
 {marker sourceid_GCI.1STPILLAR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.1STPILLAR.XQ:GCI.1STPILLAR.XQ} - `"1st pillar: Institutions"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.1STPILLAR.XQ:GCI.1STPILLAR.XQ} - 1st pillar: Institutions}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4117,7 +4117,7 @@
 
 {synoptline}
 {marker sourceid_GCI.2NDPILLAR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.2NDPILLAR.XQ:GCI.2NDPILLAR.XQ} - `"2nd pillar: Infrastructure"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.2NDPILLAR.XQ:GCI.2NDPILLAR.XQ} - 2nd pillar: Infrastructure}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4129,7 +4129,7 @@
 
 {synoptline}
 {marker sourceid_GCI.3RDPILLAR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.3RDPILLAR.XQ:GCI.3RDPILLAR.XQ} - `"3rd pillar: Macroeconomic stability"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.3RDPILLAR.XQ:GCI.3RDPILLAR.XQ} - 3rd pillar: Macroeconomic stability}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4141,7 +4141,7 @@
 
 {synoptline}
 {marker sourceid_GCI.4THPILLAR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.4THPILLAR.XQ:GCI.4THPILLAR.XQ} - `"4th pllar: Health and primary education"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.4THPILLAR.XQ:GCI.4THPILLAR.XQ} - 4th pllar: Health and primary education}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4153,7 +4153,7 @@
 
 {synoptline}
 {marker sourceid_GCI.5THPILLAR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.5THPILLAR.XQ:GCI.5THPILLAR.XQ} - `"5th pillar: Higher education and training"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.5THPILLAR.XQ:GCI.5THPILLAR.XQ} - 5th pillar: Higher education and training}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4165,7 +4165,7 @@
 
 {synoptline}
 {marker sourceid_GCI.6THPILLAR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.6THPILLAR.XQ:GCI.6THPILLAR.XQ} - `"6th pillar: Goods market efficiency"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.6THPILLAR.XQ:GCI.6THPILLAR.XQ} - 6th pillar: Goods market efficiency}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4177,7 +4177,7 @@
 
 {synoptline}
 {marker sourceid_GCI.7THPILLAR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.7THPILLAR.XQ:GCI.7THPILLAR.XQ} - `"7th pillar: Labor market efficiency"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.7THPILLAR.XQ:GCI.7THPILLAR.XQ} - 7th pillar: Labor market efficiency}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4189,7 +4189,7 @@
 
 {synoptline}
 {marker sourceid_GCI.8THPILLAR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.8THPILLAR.XQ:GCI.8THPILLAR.XQ} - `"8th pillar: Financial market sophistication"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.8THPILLAR.XQ:GCI.8THPILLAR.XQ} - 8th pillar: Financial market sophistication}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4201,7 +4201,7 @@
 
 {synoptline}
 {marker sourceid_GCI.9THPILLAR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.9THPILLAR.XQ:GCI.9THPILLAR.XQ} - `"9th pillar: Techonological readiness"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.9THPILLAR.XQ:GCI.9THPILLAR.XQ} - 9th pillar: Techonological readiness}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4213,7 +4213,7 @@
 
 {synoptline}
 {marker sourceid_GCI.INDEX.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.INDEX.XQ:GCI.INDEX.XQ} - `"Global Competitiveness Index (GCI)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.INDEX.XQ:GCI.INDEX.XQ} - Global Competitiveness Index (GCI)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4225,7 +4225,7 @@
 
 {synoptline}
 {marker sourceid_GCI.PILLAR11TO12.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.PILLAR11TO12.XQ:GCI.PILLAR11TO12.XQ} - `"Innovation and sophistication factors (weighted index 11th pillar to 12 th pillar)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.PILLAR11TO12.XQ:GCI.PILLAR11TO12.XQ} - Innovation and sophistication factors (weighted index 11th pillar to 12 th pillar)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4237,7 +4237,7 @@
 
 {synoptline}
 {marker sourceid_GCI.PILLAR1TO4.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.PILLAR1TO4.XQ:GCI.PILLAR1TO4.XQ} - `"Basic requirements (weighted index 1st pillar to 4th pillar)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.PILLAR1TO4.XQ:GCI.PILLAR1TO4.XQ} - Basic requirements (weighted index 1st pillar to 4th pillar)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4249,7 +4249,7 @@
 
 {synoptline}
 {marker sourceid_GCI.PILLAR5TO10.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.PILLAR5TO10.XQ:GCI.PILLAR5TO10.XQ} - `"Efficiency enhancers (weighted index 5th to 10th pillar)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.PILLAR5TO10.XQ:GCI.PILLAR5TO10.XQ} - Efficiency enhancers (weighted index 5th to 10th pillar)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4261,7 +4261,7 @@
 
 {synoptline}
 {marker sourceid_GCI.RANK.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.RANK.XQ:GCI.RANK.XQ} - `"Global Competitive Index (GCI) rank"'}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.RANK.XQ:GCI.RANK.XQ} - Global Competitive Index (GCI) rank}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4273,7 +4273,7 @@
 
 {synoptline}
 {marker sourceid_GV.CONT.CO.ES}
-{synopt:{bf:{help wbopendata_sourceid##GV.CONT.CO.ES:GV.CONT.CO.ES} - `"Control of Corruption (estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.CONT.CO.ES:GV.CONT.CO.ES} - Control of Corruption (estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4285,7 +4285,7 @@
 
 {synoptline}
 {marker sourceid_GV.CONT.CO.NO}
-{synopt:{bf:{help wbopendata_sourceid##GV.CONT.CO.NO:GV.CONT.CO.NO} - `"Control of Corruption (number of surveys/polls)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.CONT.CO.NO:GV.CONT.CO.NO} - Control of Corruption (number of surveys/polls)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4297,7 +4297,7 @@
 
 {synoptline}
 {marker sourceid_GV.CONT.CO.SE}
-{synopt:{bf:{help wbopendata_sourceid##GV.CONT.CO.SE:GV.CONT.CO.SE} - `"Control of Corruption (standard error)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.CONT.CO.SE:GV.CONT.CO.SE} - Control of Corruption (standard error)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4309,7 +4309,7 @@
 
 {synoptline}
 {marker sourceid_GV.GOVT.EF.ES}
-{synopt:{bf:{help wbopendata_sourceid##GV.GOVT.EF.ES:GV.GOVT.EF.ES} - `"Government Effectiveness (estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.GOVT.EF.ES:GV.GOVT.EF.ES} - Government Effectiveness (estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4321,7 +4321,7 @@
 
 {synoptline}
 {marker sourceid_GV.GOVT.EF.NO}
-{synopt:{bf:{help wbopendata_sourceid##GV.GOVT.EF.NO:GV.GOVT.EF.NO} - `"Government Effectiveness (number of surveys/polls)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.GOVT.EF.NO:GV.GOVT.EF.NO} - Government Effectiveness (number of surveys/polls)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4333,7 +4333,7 @@
 
 {synoptline}
 {marker sourceid_GV.GOVT.EF.SE}
-{synopt:{bf:{help wbopendata_sourceid##GV.GOVT.EF.SE:GV.GOVT.EF.SE} - `"Government Effectiveness (standard error)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.GOVT.EF.SE:GV.GOVT.EF.SE} - Government Effectiveness (standard error)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4345,7 +4345,7 @@
 
 {synoptline}
 {marker sourceid_GV.POLI.ST.ES}
-{synopt:{bf:{help wbopendata_sourceid##GV.POLI.ST.ES:GV.POLI.ST.ES} - `"Political Stability/No Violence (estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.POLI.ST.ES:GV.POLI.ST.ES} - Political Stability/No Violence (estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4357,7 +4357,7 @@
 
 {synoptline}
 {marker sourceid_GV.POLI.ST.NO}
-{synopt:{bf:{help wbopendata_sourceid##GV.POLI.ST.NO:GV.POLI.ST.NO} - `"Political Stability/No Violence (number of surveys/polls)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.POLI.ST.NO:GV.POLI.ST.NO} - Political Stability/No Violence (number of surveys/polls)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4369,7 +4369,7 @@
 
 {synoptline}
 {marker sourceid_GV.POLI.ST.SE}
-{synopt:{bf:{help wbopendata_sourceid##GV.POLI.ST.SE:GV.POLI.ST.SE} - `"Political Stability/No Violence (standard error)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.POLI.ST.SE:GV.POLI.ST.SE} - Political Stability/No Violence (standard error)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4381,7 +4381,7 @@
 
 {synoptline}
 {marker sourceid_GV.REGL.LA.ES}
-{synopt:{bf:{help wbopendata_sourceid##GV.REGL.LA.ES:GV.REGL.LA.ES} - `"Regulatory Quality (estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.REGL.LA.ES:GV.REGL.LA.ES} - Regulatory Quality (estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4393,7 +4393,7 @@
 
 {synoptline}
 {marker sourceid_GV.REGL.LA.NO}
-{synopt:{bf:{help wbopendata_sourceid##GV.REGL.LA.NO:GV.REGL.LA.NO} - `"Regulatory Quality (number of surveys/polls)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.REGL.LA.NO:GV.REGL.LA.NO} - Regulatory Quality (number of surveys/polls)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4405,7 +4405,7 @@
 
 {synoptline}
 {marker sourceid_GV.REGL.LA.SE}
-{synopt:{bf:{help wbopendata_sourceid##GV.REGL.LA.SE:GV.REGL.LA.SE} - `"Regulatory Quality (standard error)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.REGL.LA.SE:GV.REGL.LA.SE} - Regulatory Quality (standard error)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4417,7 +4417,7 @@
 
 {synoptline}
 {marker sourceid_GV.RULE.LW.ES}
-{synopt:{bf:{help wbopendata_sourceid##GV.RULE.LW.ES:GV.RULE.LW.ES} - `"Rule of Law (estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.RULE.LW.ES:GV.RULE.LW.ES} - Rule of Law (estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4429,7 +4429,7 @@
 
 {synoptline}
 {marker sourceid_GV.RULE.LW.NO}
-{synopt:{bf:{help wbopendata_sourceid##GV.RULE.LW.NO:GV.RULE.LW.NO} - `"Rule of Law (number off surveys/polls)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.RULE.LW.NO:GV.RULE.LW.NO} - Rule of Law (number off surveys/polls)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4441,7 +4441,7 @@
 
 {synoptline}
 {marker sourceid_GV.RULE.LW.SE}
-{synopt:{bf:{help wbopendata_sourceid##GV.RULE.LW.SE:GV.RULE.LW.SE} - `"Rule of Law (standard error)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.RULE.LW.SE:GV.RULE.LW.SE} - Rule of Law (standard error)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4453,7 +4453,7 @@
 
 {synoptline}
 {marker sourceid_GV.TI.RANK.IDX}
-{synopt:{bf:{help wbopendata_sourceid##GV.TI.RANK.IDX:GV.TI.RANK.IDX} - `"Corruption Perceptions Index (rank)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.TI.RANK.IDX:GV.TI.RANK.IDX} - Corruption Perceptions Index (rank)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4465,7 +4465,7 @@
 
 {synoptline}
 {marker sourceid_GV.TI.SCOR.IDX}
-{synopt:{bf:{help wbopendata_sourceid##GV.TI.SCOR.IDX:GV.TI.SCOR.IDX} - `"Corruption Perceptions Index (score)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.TI.SCOR.IDX:GV.TI.SCOR.IDX} - Corruption Perceptions Index (score)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4477,7 +4477,7 @@
 
 {synoptline}
 {marker sourceid_GV.VOIC.AC.ES}
-{synopt:{bf:{help wbopendata_sourceid##GV.VOIC.AC.ES:GV.VOIC.AC.ES} - `"Voice and Accountability (estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.VOIC.AC.ES:GV.VOIC.AC.ES} - Voice and Accountability (estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4489,7 +4489,7 @@
 
 {synoptline}
 {marker sourceid_GV.VOIC.AC.NO}
-{synopt:{bf:{help wbopendata_sourceid##GV.VOIC.AC.NO:GV.VOIC.AC.NO} - `"Voice and Accountability (number of surveys/polls)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.VOIC.AC.NO:GV.VOIC.AC.NO} - Voice and Accountability (number of surveys/polls)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4501,7 +4501,7 @@
 
 {synoptline}
 {marker sourceid_GV.VOIC.AC.SE}
-{synopt:{bf:{help wbopendata_sourceid##GV.VOIC.AC.SE:GV.VOIC.AC.SE} - `"Voice and Accountability (standard error)"'}}
+{synopt:{bf:{help wbopendata_sourceid##GV.VOIC.AC.SE:GV.VOIC.AC.SE} - Voice and Accountability (standard error)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4513,7 +4513,7 @@
 
 {synoptline}
 {marker sourceid_IBP.OBI.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IBP.OBI.XQ:IBP.OBI.XQ} - `"Open Budget Index Overall Country Score"'}}
+{synopt:{bf:{help wbopendata_sourceid##IBP.OBI.XQ:IBP.OBI.XQ} - Open Budget Index Overall Country Score}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4525,7 +4525,7 @@
 
 {synoptline}
 {marker sourceid_IC.BUS.DIR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.BUS.DIR.XQ:IC.BUS.DIR.XQ} - `"Protecting investors, director liability index"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.BUS.DIR.XQ:IC.BUS.DIR.XQ} - Protecting investors, director liability index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4537,7 +4537,7 @@
 
 {synoptline}
 {marker sourceid_IC.BUS.INVS.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.BUS.INVS.XQ:IC.BUS.INVS.XQ} - `"Protecting investors, investor protection index"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.BUS.INVS.XQ:IC.BUS.INVS.XQ} - Protecting investors, investor protection index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4549,7 +4549,7 @@
 
 {synoptline}
 {marker sourceid_IC.BUS.SHR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.BUS.SHR.XQ:IC.BUS.SHR.XQ} - `"Protecting investors, shareholder suits index"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.BUS.SHR.XQ:IC.BUS.SHR.XQ} - Protecting investors, shareholder suits index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4561,7 +4561,7 @@
 
 {synoptline}
 {marker sourceid_IC.BUS.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.BUS.XQ:IC.BUS.XQ} - `"Protecting investors (rank)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.BUS.XQ:IC.BUS.XQ} - Protecting investors (rank)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4573,7 +4573,7 @@
 
 {synoptline}
 {marker sourceid_IC.CLS.COST.EST.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CLS.COST.EST.ZS:IC.CLS.COST.EST.ZS} - `"Closing a business, cost (% of estate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CLS.COST.EST.ZS:IC.CLS.COST.EST.ZS} - Closing a business, cost (% of estate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4585,7 +4585,7 @@
 
 {synoptline}
 {marker sourceid_IC.CLS.DURS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CLS.DURS:IC.CLS.DURS} - `"Closing a business, time (years)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CLS.DURS:IC.CLS.DURS} - Closing a business, time (years)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4597,7 +4597,7 @@
 
 {synoptline}
 {marker sourceid_IC.CLS.REC.CD}
-{synopt:{bf:{help wbopendata_sourceid##IC.CLS.REC.CD:IC.CLS.REC.CD} - `"Closing a business, recovery rate (cents on the dollar)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CLS.REC.CD:IC.CLS.REC.CD} - Closing a business, recovery rate (cents on the dollar)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4609,7 +4609,7 @@
 
 {synoptline}
 {marker sourceid_IC.CLS.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.CLS.XQ:IC.CLS.XQ} - `"Closing a business (rank)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CLS.XQ:IC.CLS.XQ} - Closing a business (rank)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4621,7 +4621,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.CORR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.CORR.ZS:IC.CNS.CORR.ZS} - `"Corruption (% of managers surveyed ranking this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.CORR.ZS:IC.CNS.CORR.ZS} - Corruption (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4633,7 +4633,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.CRIM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.CRIM.ZS:IC.CNS.CRIM.ZS} - `"Crime (% of managers surveyed ranking this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.CRIM.ZS:IC.CNS.CRIM.ZS} - Crime (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4645,7 +4645,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.ELEC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.ELEC.ZS:IC.CNS.ELEC.ZS} - `"Electricity (% of managers surveyed ranking this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.ELEC.ZS:IC.CNS.ELEC.ZS} - Electricity (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4657,7 +4657,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.FINA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.FINA.ZS:IC.CNS.FINA.ZS} - `"Finance (% of managers surveyed ranking this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.FINA.ZS:IC.CNS.FINA.ZS} - Finance (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4669,7 +4669,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.GEN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.GEN.ZS:IC.CNS.GEN.ZS} - `"Firms that share or own their own generator (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.GEN.ZS:IC.CNS.GEN.ZS} - Firms that share or own their own generator (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4681,7 +4681,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.IMP.DURS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.IMP.DURS:IC.CNS.IMP.DURS} - `"Days to Obtain Import License"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.IMP.DURS:IC.CNS.IMP.DURS} - Days to Obtain Import License}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4693,7 +4693,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.INFM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.INFM.ZS:IC.CNS.INFM.ZS} - `"Practices Informal Sector (% of managers surveyed ranking this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.INFM.ZS:IC.CNS.INFM.ZS} - Practices Informal Sector (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4705,7 +4705,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.LAND.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.LAND.ZS:IC.CNS.LAND.ZS} - `"Access to Land (% of managers surveyed ranking this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.LAND.ZS:IC.CNS.LAND.ZS} - Access to Land (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4717,7 +4717,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.LBRG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.LBRG.ZS:IC.CNS.LBRG.ZS} - `"Labor regulations (% of managers surveyed ranking this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.LBRG.ZS:IC.CNS.LBRG.ZS} - Labor regulations (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4729,7 +4729,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.LBSK.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.LBSK.ZS:IC.CNS.LBSK.ZS} - `"Labor skills (% of managers surveyed ranking this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.LBSK.ZS:IC.CNS.LBSK.ZS} - Labor skills (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4741,7 +4741,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.LEGL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.LEGL.ZS:IC.CNS.LEGL.ZS} - `"Courts (% of managers surveyed ranking this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.LEGL.ZS:IC.CNS.LEGL.ZS} - Courts (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4753,7 +4753,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.LIC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.LIC.ZS:IC.CNS.LIC.ZS} - `"Licenses &amp; Permits (% of managers surveyed ranking this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.LIC.ZS:IC.CNS.LIC.ZS} - Licenses &amp; Permits (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4765,7 +4765,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.LOSS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.LOSS.ZS:IC.CNS.LOSS.ZS} - `"Losses Due to Theft, Robbery, Vandalism, and Arson Against the Firm (% of Sales)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.LOSS.ZS:IC.CNS.LOSS.ZS} - Losses Due to Theft, Robbery, Vandalism, and Arson Against the Firm (% of Sales)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4777,7 +4777,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.PER.DURS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.PER.DURS:IC.CNS.PER.DURS} - `"Days to Obtain Construction-related Permit"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.PER.DURS:IC.CNS.PER.DURS} - Days to Obtain Construction-related Permit}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4789,7 +4789,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.POLC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.POLC.ZS:IC.CNS.POLC.ZS} - `"Policy uncertainty (% of managers surveyed ranking this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.POLC.ZS:IC.CNS.POLC.ZS} - Policy uncertainty (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4801,7 +4801,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.TAXAD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.TAXAD.ZS:IC.CNS.TAXAD.ZS} - `"Tax administration (% of managers surveyed ranking this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.TAXAD.ZS:IC.CNS.TAXAD.ZS} - Tax administration (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4813,7 +4813,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.TAXR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.TAXR.ZS:IC.CNS.TAXR.ZS} - `"Tax rates (% of managers surveyed ranking this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.TAXR.ZS:IC.CNS.TAXR.ZS} - Tax rates (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4825,7 +4825,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.TRAD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.TRAD.ZS:IC.CNS.TRAD.ZS} - `"Customs &amp; trade regulations (% of managers surveyed ranking this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.TRAD.ZS:IC.CNS.TRAD.ZS} - Customs &amp; trade regulations (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4837,7 +4837,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.TRSP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.TRSP.ZS:IC.CNS.TRSP.ZS} - `"Transportation (% of managers surveyed ranking this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.TRSP.ZS:IC.CNS.TRSP.ZS} - Transportation (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4849,7 +4849,7 @@
 
 {synoptline}
 {marker sourceid_IC.CON.GIFT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CON.GIFT.ZS:IC.CON.GIFT.ZS} - `"Expected to give gifts to get a Construction Permit (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CON.GIFT.ZS:IC.CON.GIFT.ZS} - Expected to give gifts to get a Construction Permit (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4861,7 +4861,7 @@
 
 {synoptline}
 {marker sourceid_IC.CRD.LGL.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.CRD.LGL.XQ:IC.CRD.LGL.XQ} - `"Getting credit, legal rights index"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRD.LGL.XQ:IC.CRD.LGL.XQ} - Getting credit, legal rights index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4873,7 +4873,7 @@
 
 {synoptline}
 {marker sourceid_IC.CRD.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.CRD.XQ:IC.CRD.XQ} - `"Getting credit (rank)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRD.XQ:IC.CRD.XQ} - Getting credit (rank)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4885,7 +4885,7 @@
 
 {synoptline}
 {marker sourceid_IC.CUS.DURS.IM}
-{synopt:{bf:{help wbopendata_sourceid##IC.CUS.DURS.IM:IC.CUS.DURS.IM} - `"Average time to clear imports from customs (days)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CUS.DURS.IM:IC.CUS.DURS.IM} - Average time to clear imports from customs (days)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4897,7 +4897,7 @@
 
 {synoptline}
 {marker sourceid_IC.DMKT.BRK.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.DMKT.BRK.ZS:IC.DMKT.BRK.ZS} - `"Products shipped to supply domestic markets lost due to breakage or spoilage (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.DMKT.BRK.ZS:IC.DMKT.BRK.ZS} - Products shipped to supply domestic markets lost due to breakage or spoilage (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4909,7 +4909,7 @@
 
 {synoptline}
 {marker sourceid_IC.DMKT.LOSS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.DMKT.LOSS.ZS:IC.DMKT.LOSS.ZS} - `"Products shipped to supply domestic markets lost due to theft (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.DMKT.LOSS.ZS:IC.DMKT.LOSS.ZS} - Products shipped to supply domestic markets lost due to theft (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4921,7 +4921,7 @@
 
 {synoptline}
 {marker sourceid_IC.ELC.GEN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.GEN.ZS:IC.ELC.GEN.ZS} - `"Electricity from Generator (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.GEN.ZS:IC.ELC.GEN.ZS} - Electricity from Generator (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4933,7 +4933,7 @@
 
 {synoptline}
 {marker sourceid_IC.ELC.GIFT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.GIFT.ZS:IC.ELC.GIFT.ZS} - `"Expected to give gifts to get an electrical connection (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.GIFT.ZS:IC.ELC.GIFT.ZS} - Expected to give gifts to get an electrical connection (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4945,7 +4945,7 @@
 
 {synoptline}
 {marker sourceid_IC.ELC.OUTG.HR}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.OUTG.HR:IC.ELC.OUTG.HR} - `"Average duration of power outages (hours)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.OUTG.HR:IC.ELC.OUTG.HR} - Average duration of power outages (hours)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4957,7 +4957,7 @@
 
 {synoptline}
 {marker sourceid_IC.ELEC.COST.PC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELEC.COST.PC.ZS:IC.ELEC.COST.PC.ZS} - `"Cost to get electricity connection (% of income per capita)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELEC.COST.PC.ZS:IC.ELEC.COST.PC.ZS} - Cost to get electricity connection (% of income per capita)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4970,7 +4970,7 @@
 
 {synoptline}
 {marker sourceid_IC.ELEC.PROC}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELEC.PROC:IC.ELEC.PROC} - `"Procedures required to get electricity (number)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELEC.PROC:IC.ELEC.PROC} - Procedures required to get electricity (number)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4983,7 +4983,7 @@
 
 {synoptline}
 {marker sourceid_IC.ELEC.TIME}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELEC.TIME:IC.ELEC.TIME} - `"Time required to get electricity (days)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELEC.TIME:IC.ELEC.TIME} - Time required to get electricity (days)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4996,7 +4996,7 @@
 
 {synoptline}
 {marker sourceid_IC.ELEC.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELEC.XQ:IC.ELEC.XQ} - `"Getting electricity (rank)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELEC.XQ:IC.ELEC.XQ} - Getting electricity (rank)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5009,7 +5009,7 @@
 
 {synoptline}
 {marker sourceid_IC.EMPL.FTRNG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.EMPL.FTRNG.ZS:IC.EMPL.FTRNG.ZS} - `"Employees offered formal training (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.EMPL.FTRNG.ZS:IC.EMPL.FTRNG.ZS} - Employees offered formal training (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5021,7 +5021,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.ACC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.ACC.ZS:IC.FRM.ACC.ZS} - `"Firms with a Checking or Savings Account (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.ACC.ZS:IC.FRM.ACC.ZS} - Firms with a Checking or Savings Account (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5033,7 +5033,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.AGE.YR}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.AGE.YR:IC.FRM.AGE.YR} - `"Age of firm (years)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.AGE.YR:IC.FRM.AGE.YR} - Age of firm (years)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5045,7 +5045,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.AUDIT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.AUDIT.ZS:IC.FRM.AUDIT.ZS} - `"Firms with annual Financial Statement reviewed by External Auditor (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.AUDIT.ZS:IC.FRM.AUDIT.ZS} - Firms with annual Financial Statement reviewed by External Auditor (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5057,7 +5057,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.COMP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.COMP.ZS:IC.FRM.COMP.ZS} - `"Firms identifying practices of competitors in the Informal Sector as a major constraint (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.COMP.ZS:IC.FRM.COMP.ZS} - Firms identifying practices of competitors in the Informal Sector as a major constraint (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5069,7 +5069,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.COR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.COR.ZS:IC.FRM.COR.ZS} - `"Firms identifying corruption as a major constraint (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.COR.ZS:IC.FRM.COR.ZS} - Firms identifying corruption as a major constraint (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5081,7 +5081,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.COST.PC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.COST.PC.ZS:IC.FRM.COST.PC.ZS} - `"Dealing with construction permits, cost (% of income per capita)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.COST.PC.ZS:IC.FRM.COST.PC.ZS} - Dealing with construction permits, cost (% of income per capita)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5093,7 +5093,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CRD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRD.ZS:IC.FRM.CRD.ZS} - `"Firms with Line of Credit or Loans from Financial Institutions (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRD.ZS:IC.FRM.CRD.ZS} - Firms with Line of Credit or Loans from Financial Institutions (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5105,7 +5105,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CRT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRT.ZS:IC.FRM.CRT.ZS} - `"Believing the court system is fair, impartial and uncorrupted (% of firms identifying this as a major contraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRT.ZS:IC.FRM.CRT.ZS} - Believing the court system is fair, impartial and uncorrupted (% of firms identifying this as a major contraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5117,7 +5117,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CUS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CUS.ZS:IC.FRM.CUS.ZS} - `"Firms that trade identifying customs &amp; trade regulations as a major constraint (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CUS.ZS:IC.FRM.CUS.ZS} - Firms that trade identifying customs &amp; trade regulations as a major constraint (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5129,7 +5129,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.ELEC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.ELEC.ZS:IC.FRM.ELEC.ZS} - `"Electricity (% of firms identifying this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.ELEC.ZS:IC.FRM.ELEC.ZS} - Electricity (% of firms identifying this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5141,7 +5141,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.EMAIL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.EMAIL.ZS:IC.FRM.EMAIL.ZS} - `"Firms using email to communicate with clients/suppliers (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.EMAIL.ZS:IC.FRM.EMAIL.ZS} - Firms using email to communicate with clients/suppliers (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5153,7 +5153,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.EMPL.PERM}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.EMPL.PERM:IC.FRM.EMPL.PERM} - `"Average number of permanent, full time employees"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.EMPL.PERM:IC.FRM.EMPL.PERM} - Average number of permanent, full time employees}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5165,7 +5165,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.EMPL.SKILL}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.EMPL.SKILL:IC.FRM.EMPL.SKILL} - `"Average number of skilled production employees"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.EMPL.SKILL:IC.FRM.EMPL.SKILL} - Average number of skilled production employees}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5177,7 +5177,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.EMPL.TEMP}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.EMPL.TEMP:IC.FRM.EMPL.TEMP} - `"Average number of seasonal/temporary, full-time employees"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.EMPL.TEMP:IC.FRM.EMPL.TEMP} - Average number of seasonal/temporary, full-time employees}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5189,7 +5189,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.EMPL.UNSKILL}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.EMPL.UNSKILL:IC.FRM.EMPL.UNSKILL} - `"Average number of unskilled production workers"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.EMPL.UNSKILL:IC.FRM.EMPL.UNSKILL} - Average number of unskilled production workers}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5201,7 +5201,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.EXP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.EXP.ZS:IC.FRM.EXP.ZS} - `"Exporter firms (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.EXP.ZS:IC.FRM.EXP.ZS} - Exporter firms (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5213,7 +5213,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FEMW.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FEMW.ZS:IC.FRM.FEMW.ZS} - `"Full time female workers (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FEMW.ZS:IC.FRM.FEMW.ZS} - Full time female workers (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5225,7 +5225,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FINA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FINA.ZS:IC.FRM.FINA.ZS} - `"Access to finance (% of firms identifying this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FINA.ZS:IC.FRM.FINA.ZS} - Access to finance (% of firms identifying this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5237,7 +5237,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FINPUT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FINPUT.ZS:IC.FRM.FINPUT.ZS} - `"Firms that use material inputs and/or supplies of foreign origin"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FINPUT.ZS:IC.FRM.FINPUT.ZS} - Firms that use material inputs and/or supplies of foreign origin}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5249,7 +5249,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.INFRM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRM.ZS:IC.FRM.INFRM.ZS} - `"Services firms competing against unregistered or informal firms (% of service firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRM.ZS:IC.FRM.INFRM.ZS} - Services firms competing against unregistered or informal firms (% of service firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5261,7 +5261,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.ISOC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.ISOC.ZS:IC.FRM.ISOC.ZS} - `"Internationally-recognized quality certification (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.ISOC.ZS:IC.FRM.ISOC.ZS} - Internationally-recognized quality certification (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5274,7 +5274,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.LBRG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.LBRG.ZS:IC.FRM.LBRG.ZS} - `"Labor regulations (% of firms identifying this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.LBRG.ZS:IC.FRM.LBRG.ZS} - Labor regulations (% of firms identifying this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5286,7 +5286,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.LBSK.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.LBSK.ZS:IC.FRM.LBSK.ZS} - `"Labor skill level (% of firms identifying this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.LBSK.ZS:IC.FRM.LBSK.ZS} - Labor skill level (% of firms identifying this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5298,7 +5298,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.LIC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.LIC.ZS:IC.FRM.LIC.ZS} - `"Business Licensing and Permits (% of firms Identifying this as major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.LIC.ZS:IC.FRM.LIC.ZS} - Business Licensing and Permits (% of firms Identifying this as major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5310,7 +5310,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.MGR.EXP}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.MGR.EXP:IC.FRM.MGR.EXP} - `"Years of experience of the Top Manager working in the firm's sector"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.MGR.EXP:IC.FRM.MGR.EXP} - Years of experience of the Top Manager working in the firm's sector}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5322,7 +5322,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OWN.GOV.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OWN.GOV.ZS:IC.FRM.OWN.GOV.ZS} - `"Enterprise ownership - Government/state (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OWN.GOV.ZS:IC.FRM.OWN.GOV.ZS} - Enterprise ownership - Government/state (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5334,7 +5334,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OWN.PFOR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OWN.PFOR.ZS:IC.FRM.OWN.PFOR.ZS} - `"Enterprise ownership - Private Foreign (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OWN.PFOR.ZS:IC.FRM.OWN.PFOR.ZS} - Enterprise ownership - Private Foreign (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5346,7 +5346,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OWN.PLOC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OWN.PLOC.ZS:IC.FRM.OWN.PLOC.ZS} - `"Enterprise ownership - Private Domestic (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OWN.PLOC.ZS:IC.FRM.OWN.PLOC.ZS} - Enterprise ownership - Private Domestic (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5358,7 +5358,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OWN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OWN.ZS:IC.FRM.OWN.ZS} - `"Largest shareholder ownership (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OWN.ZS:IC.FRM.OWN.ZS} - Largest shareholder ownership (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5370,7 +5370,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.PROC}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.PROC:IC.FRM.PROC} - `"Dealing with construction, procedures (number)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.PROC:IC.FRM.PROC} - Dealing with construction, procedures (number)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5382,7 +5382,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.REG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.ZS:IC.FRM.REG.ZS} - `"Firms Formally Registered when Started Operations in the Country (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.ZS:IC.FRM.REG.ZS} - Firms Formally Registered when Started Operations in the Country (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5394,7 +5394,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.SEC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.SEC.ZS:IC.FRM.SEC.ZS} - `"Firms Paying for Security (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.SEC.ZS:IC.FRM.SEC.ZS} - Firms Paying for Security (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5406,7 +5406,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.SECR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.SECR.ZS:IC.FRM.SECR.ZS} - `"Security costs (% of sales)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.SECR.ZS:IC.FRM.SECR.ZS} - Security costs (% of sales)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5418,7 +5418,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.TAXAD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TAXAD.ZS:IC.FRM.TAXAD.ZS} - `"Tax Administration (% of firms identifying this as major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TAXAD.ZS:IC.FRM.TAXAD.ZS} - Tax Administration (% of firms identifying this as major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5430,7 +5430,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.TAXR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TAXR.ZS:IC.FRM.TAXR.ZS} - `"Tax rates (% of firms identifying this as major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TAXR.ZS:IC.FRM.TAXR.ZS} - Tax rates (% of firms identifying this as major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5442,7 +5442,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.TECH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TECH.ZS:IC.FRM.TECH.ZS} - `"Firms using technology licensed from foreign companies (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TECH.ZS:IC.FRM.TECH.ZS} - Firms using technology licensed from foreign companies (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5454,7 +5454,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.TIME}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TIME:IC.FRM.TIME} - `"Time required to deal with construction permits (days)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TIME:IC.FRM.TIME} - Time required to deal with construction permits (days)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5467,7 +5467,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.TRSP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRSP.ZS:IC.FRM.TRSP.ZS} - `"Transportation (% of firms identifying this as a major constraint)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRSP.ZS:IC.FRM.TRSP.ZS} - Transportation (% of firms identifying this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5479,7 +5479,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.WEB.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.WEB.ZS:IC.FRM.WEB.ZS} - `"Firms using its own website (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.WEB.ZS:IC.FRM.WEB.ZS} - Firms using its own website (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5491,7 +5491,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.WTLIC.DURS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.WTLIC.DURS:IC.FRM.WTLIC.DURS} - `"Number of years firms operated without formal registration"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.WTLIC.DURS:IC.FRM.WTLIC.DURS} - Number of years firms operated without formal registration}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5503,7 +5503,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.XQ:IC.FRM.XQ} - `"Dealing with construction permits (rank)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.XQ:IC.FRM.XQ} - Dealing with construction permits (rank)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5515,7 +5515,7 @@
 
 {synoptline}
 {marker sourceid_IC.GCON.GIFT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.GCON.GIFT.ZS:IC.GCON.GIFT.ZS} - `"Expected to give gifts to secure a Government contract (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.GCON.GIFT.ZS:IC.GCON.GIFT.ZS} - Expected to give gifts to secure a Government contract (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5527,7 +5527,7 @@
 
 {synoptline}
 {marker sourceid_IC.GRAFT.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.GRAFT.XQ:IC.GRAFT.XQ} - `"Incidence of Graft index"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.GRAFT.XQ:IC.GRAFT.XQ} - Incidence of Graft index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5539,7 +5539,7 @@
 
 {synoptline}
 {marker sourceid_IC.IMP.GIFT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.IMP.GIFT.ZS:IC.IMP.GIFT.ZS} - `"Expected to give gifts to get an Import License (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.IMP.GIFT.ZS:IC.IMP.GIFT.ZS} - Expected to give gifts to get an Import License (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5551,7 +5551,7 @@
 
 {synoptline}
 {marker sourceid_IC.LGL.CONT.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.LGL.CONT.XQ:IC.LGL.CONT.XQ} - `"Enforcing contracts (rank)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.LGL.CONT.XQ:IC.LGL.CONT.XQ} - Enforcing contracts (rank)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5563,7 +5563,7 @@
 
 {synoptline}
 {marker sourceid_IC.LGL.COST.DEBT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.LGL.COST.DEBT.ZS:IC.LGL.COST.DEBT.ZS} - `"Enforcing contracts, cost (% of claim)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.LGL.COST.DEBT.ZS:IC.LGL.COST.DEBT.ZS} - Enforcing contracts, cost (% of claim)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5575,7 +5575,7 @@
 
 {synoptline}
 {marker sourceid_IC.LOAN.COL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.LOAN.COL.ZS:IC.LOAN.COL.ZS} - `"Loans requiring collateral (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.LOAN.COL.ZS:IC.LOAN.COL.ZS} - Loans requiring collateral (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5587,7 +5587,7 @@
 
 {synoptline}
 {marker sourceid_IC.OPER.GIFT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.OPER.GIFT.ZS:IC.OPER.GIFT.ZS} - `"Expected to give gifts to get an Operating License (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.OPER.GIFT.ZS:IC.OPER.GIFT.ZS} - Expected to give gifts to get an Operating License (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5599,7 +5599,7 @@
 
 {synoptline}
 {marker sourceid_IC.PRP.COST.PROP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.PRP.COST.PROP.ZS:IC.PRP.COST.PROP.ZS} - `"Cost of registering property (% of property value)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.PRP.COST.PROP.ZS:IC.PRP.COST.PROP.ZS} - Cost of registering property (% of property value)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5611,7 +5611,7 @@
 
 {synoptline}
 {marker sourceid_IC.PRP.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.PRP.XQ:IC.PRP.XQ} - `"Registering property (rank)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.PRP.XQ:IC.PRP.XQ} - Registering property (rank)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5623,7 +5623,7 @@
 
 {synoptline}
 {marker sourceid_IC.REG.CAP.PC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.REG.CAP.PC.ZS:IC.REG.CAP.PC.ZS} - `"Minimum capital for starting a business  (% of income per capita)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.CAP.PC.ZS:IC.REG.CAP.PC.ZS} - Minimum capital for starting a business  (% of income per capita)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5635,7 +5635,7 @@
 
 {synoptline}
 {marker sourceid_IC.REG.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.REG.XQ:IC.REG.XQ} - `"Starting a business (rank)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.XQ:IC.REG.XQ} - Starting a business (rank)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5647,7 +5647,7 @@
 
 {synoptline}
 {marker sourceid_IC.SALE.DOM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.SALE.DOM.ZS:IC.SALE.DOM.ZS} - `"Domestic Sales (% sales)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.SALE.DOM.ZS:IC.SALE.DOM.ZS} - Domestic Sales (% sales)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5659,7 +5659,7 @@
 
 {synoptline}
 {marker sourceid_IC.TAX.LBR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.TAX.LBR.ZS:IC.TAX.LBR.ZS} - `"Paying taxes, labor tax and contributions (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.TAX.LBR.ZS:IC.TAX.LBR.ZS} - Paying taxes, labor tax and contributions (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5671,7 +5671,7 @@
 
 {synoptline}
 {marker sourceid_IC.TAX.OTH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.TAX.OTH.ZS:IC.TAX.OTH.ZS} - `"Paying taxes, other taxes (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.TAX.OTH.ZS:IC.TAX.OTH.ZS} - Paying taxes, other taxes (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5683,7 +5683,7 @@
 
 {synoptline}
 {marker sourceid_IC.TAX.PFT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.TAX.PFT.ZS:IC.TAX.PFT.ZS} - `"Paying taxes, profit tax (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.TAX.PFT.ZS:IC.TAX.PFT.ZS} - Paying taxes, profit tax (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5695,7 +5695,7 @@
 
 {synoptline}
 {marker sourceid_IC.TAX.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.TAX.XQ:IC.TAX.XQ} - `"Paying taxes (rank)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.TAX.XQ:IC.TAX.XQ} - Paying taxes (rank)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5707,7 +5707,7 @@
 
 {synoptline}
 {marker sourceid_IC.TEL.DURS}
-{synopt:{bf:{help wbopendata_sourceid##IC.TEL.DURS:IC.TEL.DURS} - `"Delay in obtaining a mainline telephone connection (days)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.TEL.DURS:IC.TEL.DURS} - Delay in obtaining a mainline telephone connection (days)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5719,7 +5719,7 @@
 
 {synoptline}
 {marker sourceid_IC.TEL.GIFT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.TEL.GIFT.ZS:IC.TEL.GIFT.ZS} - `"Expected to give gifts to get a phone connection (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.TEL.GIFT.ZS:IC.TEL.GIFT.ZS} - Expected to give gifts to get a phone connection (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5731,7 +5731,7 @@
 
 {synoptline}
 {marker sourceid_IC.TRD.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.TRD.XQ:IC.TRD.XQ} - `"Trading across borders (rank)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.TRD.XQ:IC.TRD.XQ} - Trading across borders (rank)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5743,7 +5743,7 @@
 
 {synoptline}
 {marker sourceid_IC.VAL.COL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.VAL.COL.ZS:IC.VAL.COL.ZS} - `"Value of collateral needed for a loan (% of the loan amount)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.VAL.COL.ZS:IC.VAL.COL.ZS} - Value of collateral needed for a loan (% of the loan amount)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5755,7 +5755,7 @@
 
 {synoptline}
 {marker sourceid_IC.VALG.GIFT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.VALG.GIFT.ZS:IC.VALG.GIFT.ZS} - `"Value of gift expected to secure Government Contract (% of Contract)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.VALG.GIFT.ZS:IC.VALG.GIFT.ZS} - Value of gift expected to secure Government Contract (% of Contract)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5767,7 +5767,7 @@
 
 {synoptline}
 {marker sourceid_IC.WAT.DURS}
-{synopt:{bf:{help wbopendata_sourceid##IC.WAT.DURS:IC.WAT.DURS} - `"Delay in obtaining a water connections (days)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.WAT.DURS:IC.WAT.DURS} - Delay in obtaining a water connections (days)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5779,7 +5779,7 @@
 
 {synoptline}
 {marker sourceid_IC.WAT.GIFT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.WAT.GIFT.ZS:IC.WAT.GIFT.ZS} - `"Expected to give gifts to get a water connection (% of firms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IC.WAT.GIFT.ZS:IC.WAT.GIFT.ZS} - Expected to give gifts to get a water connection (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5791,7 +5791,7 @@
 
 {synoptline}
 {marker sourceid_IE.ICT.PCAP.CD}
-{synopt:{bf:{help wbopendata_sourceid##IE.ICT.PCAP.CD:IE.ICT.PCAP.CD} - `"Information and communication technology expenditure per capita (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IE.ICT.PCAP.CD:IE.ICT.PCAP.CD} - Information and communication technology expenditure per capita (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5804,7 +5804,7 @@
 
 {synoptline}
 {marker sourceid_IE.ICT.TOTL.CD}
-{synopt:{bf:{help wbopendata_sourceid##IE.ICT.TOTL.CD:IE.ICT.TOTL.CD} - `"Information and communication technology expenditure (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IE.ICT.TOTL.CD:IE.ICT.TOTL.CD} - Information and communication technology expenditure (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5817,7 +5817,7 @@
 
 {synoptline}
 {marker sourceid_IE.ICT.TOTL.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IE.ICT.TOTL.GD.ZS:IE.ICT.TOTL.GD.ZS} - `"Information and communication technology expenditure (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IE.ICT.TOTL.GD.ZS:IE.ICT.TOTL.GD.ZS} - Information and communication technology expenditure (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5830,7 +5830,7 @@
 
 {synoptline}
 {marker sourceid_IS.ROD.DNST.K2}
-{synopt:{bf:{help wbopendata_sourceid##IS.ROD.DNST.K2:IS.ROD.DNST.K2} - `"Road density (km of road per 100 sq. km of land area)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IS.ROD.DNST.K2:IS.ROD.DNST.K2} - Road density (km of road per 100 sq. km of land area)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5843,7 +5843,7 @@
 
 {synoptline}
 {marker sourceid_IS.ROD.GOOD.MT.K6}
-{synopt:{bf:{help wbopendata_sourceid##IS.ROD.GOOD.MT.K6:IS.ROD.GOOD.MT.K6} - `"Roads, goods transported (million ton-km)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IS.ROD.GOOD.MT.K6:IS.ROD.GOOD.MT.K6} - Roads, goods transported (million ton-km)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5856,7 +5856,7 @@
 
 {synoptline}
 {marker sourceid_IS.ROD.PAVE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IS.ROD.PAVE.ZS:IS.ROD.PAVE.ZS} - `"Roads, paved (% of total roads)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IS.ROD.PAVE.ZS:IS.ROD.PAVE.ZS} - Roads, paved (% of total roads)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5869,7 +5869,7 @@
 
 {synoptline}
 {marker sourceid_IS.ROD.PSGR.K6}
-{synopt:{bf:{help wbopendata_sourceid##IS.ROD.PSGR.K6:IS.ROD.PSGR.K6} - `"Roads, passengers carried (million passenger-km)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IS.ROD.PSGR.K6:IS.ROD.PSGR.K6} - Roads, passengers carried (million passenger-km)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5882,7 +5882,7 @@
 
 {synoptline}
 {marker sourceid_IS.ROD.TOTL.KM}
-{synopt:{bf:{help wbopendata_sourceid##IS.ROD.TOTL.KM:IS.ROD.TOTL.KM} - `"Roads, total network (km)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IS.ROD.TOTL.KM:IS.ROD.TOTL.KM} - Roads, total network (km)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5895,7 +5895,7 @@
 
 {synoptline}
 {marker sourceid_IS.VEH.NVEH.P3}
-{synopt:{bf:{help wbopendata_sourceid##IS.VEH.NVEH.P3:IS.VEH.NVEH.P3} - `"Motor vehicles (per 1,000 people)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IS.VEH.NVEH.P3:IS.VEH.NVEH.P3} - Motor vehicles (per 1,000 people)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5908,7 +5908,7 @@
 
 {synoptline}
 {marker sourceid_IS.VEH.PCAR.P3}
-{synopt:{bf:{help wbopendata_sourceid##IS.VEH.PCAR.P3:IS.VEH.PCAR.P3} - `"Passenger cars (per 1,000 people)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IS.VEH.PCAR.P3:IS.VEH.PCAR.P3} - Passenger cars (per 1,000 people)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5921,7 +5921,7 @@
 
 {synoptline}
 {marker sourceid_IS.VEH.ROAD.K1}
-{synopt:{bf:{help wbopendata_sourceid##IS.VEH.ROAD.K1:IS.VEH.ROAD.K1} - `"Vehicles (per km of road)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IS.VEH.ROAD.K1:IS.VEH.ROAD.K1} - Vehicles (per km of road)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5934,7 +5934,7 @@
 
 {synoptline}
 {marker sourceid_IT.CEL.SETS.P3}
-{synopt:{bf:{help wbopendata_sourceid##IT.CEL.SETS.P3:IT.CEL.SETS.P3} - `"Mobile phone subscribers (per 1,000 people)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.CEL.SETS.P3:IT.CEL.SETS.P3} - Mobile phone subscribers (per 1,000 people)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5946,7 +5946,7 @@
 
 {synoptline}
 {marker sourceid_IT.CELL.3MIN.CD.OP}
-{synopt:{bf:{help wbopendata_sourceid##IT.CELL.3MIN.CD.OP:IT.CELL.3MIN.CD.OP} - `"Mobile cellular - price of 3-minute local call (off-peak rate - current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.CELL.3MIN.CD.OP:IT.CELL.3MIN.CD.OP} - Mobile cellular - price of 3-minute local call (off-peak rate - current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5958,7 +5958,7 @@
 
 {synoptline}
 {marker sourceid_IT.CELL.3MIN.CD.PK}
-{synopt:{bf:{help wbopendata_sourceid##IT.CELL.3MIN.CD.PK:IT.CELL.3MIN.CD.PK} - `"Mobile cellular - price of 3-minute local call (peak rate - current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.CELL.3MIN.CD.PK:IT.CELL.3MIN.CD.PK} - Mobile cellular - price of 3-minute local call (peak rate - current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5970,7 +5970,7 @@
 
 {synoptline}
 {marker sourceid_IT.CELL.3MIN.CN.OP}
-{synopt:{bf:{help wbopendata_sourceid##IT.CELL.3MIN.CN.OP:IT.CELL.3MIN.CN.OP} - `"Mobile cellular - price of 3-minute local call (off-peak rate - current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.CELL.3MIN.CN.OP:IT.CELL.3MIN.CN.OP} - Mobile cellular - price of 3-minute local call (off-peak rate - current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5982,7 +5982,7 @@
 
 {synoptline}
 {marker sourceid_IT.CELL.3MIN.CN.PK}
-{synopt:{bf:{help wbopendata_sourceid##IT.CELL.3MIN.CN.PK:IT.CELL.3MIN.CN.PK} - `"Mobile cellular - price of 3-minute local call (peak rate - current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.CELL.3MIN.CN.PK:IT.CELL.3MIN.CN.PK} - Mobile cellular - price of 3-minute local call (peak rate - current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5994,7 +5994,7 @@
 
 {synoptline}
 {marker sourceid_IT.CELL.MSUB.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.CELL.MSUB.CD:IT.CELL.MSUB.CD} - `"Mobile cellular monthly subscription (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.CELL.MSUB.CD:IT.CELL.MSUB.CD} - Mobile cellular monthly subscription (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6006,7 +6006,7 @@
 
 {synoptline}
 {marker sourceid_IT.CELL.MSUB.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.CELL.MSUB.CN:IT.CELL.MSUB.CN} - `"Mobile cellular monthly subscription (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.CELL.MSUB.CN:IT.CELL.MSUB.CN} - Mobile cellular monthly subscription (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6018,7 +6018,7 @@
 
 {synoptline}
 {marker sourceid_IT.CELL.PO.CONN.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.CELL.PO.CONN.CD:IT.CELL.PO.CONN.CD} - `"Mobile cellular postpaid connection charge (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.CELL.PO.CONN.CD:IT.CELL.PO.CONN.CD} - Mobile cellular postpaid connection charge (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6030,7 +6030,7 @@
 
 {synoptline}
 {marker sourceid_IT.CELL.PO.CONN.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.CELL.PO.CONN.CN:IT.CELL.PO.CONN.CN} - `"Mobile cellular postpaid connection charge (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.CELL.PO.CONN.CN:IT.CELL.PO.CONN.CN} - Mobile cellular postpaid connection charge (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6042,7 +6042,7 @@
 
 {synoptline}
 {marker sourceid_IT.CELL.PR.CONN.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.CELL.PR.CONN.CD:IT.CELL.PR.CONN.CD} - `"Mobile cellular prepaid connection charge (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.CELL.PR.CONN.CD:IT.CELL.PR.CONN.CD} - Mobile cellular prepaid connection charge (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6054,7 +6054,7 @@
 
 {synoptline}
 {marker sourceid_IT.CELL.PR.CONN.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.CELL.PR.CONN.CN:IT.CELL.PR.CONN.CN} - `"Mobile cellular prepaid connection charge (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.CELL.PR.CONN.CN:IT.CELL.PR.CONN.CN} - Mobile cellular prepaid connection charge (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6066,7 +6066,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.3MIN.CD.OP}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.3MIN.CD.OP:IT.MLT.3MIN.CD.OP} - `"Price of a 3-minute fixed telephone local call (off-peak rate - current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.3MIN.CD.OP:IT.MLT.3MIN.CD.OP} - Price of a 3-minute fixed telephone local call (off-peak rate - current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6078,7 +6078,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.3MIN.CD.PK}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.3MIN.CD.PK:IT.MLT.3MIN.CD.PK} - `"Price of a 3-minute fixed telephone local call (peak rate - current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.3MIN.CD.PK:IT.MLT.3MIN.CD.PK} - Price of a 3-minute fixed telephone local call (peak rate - current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6090,7 +6090,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.3MIN.CD.US}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.3MIN.CD.US:IT.MLT.3MIN.CD.US} - `"Telephone average cost of call to US (US$ per three minutes)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.3MIN.CD.US:IT.MLT.3MIN.CD.US} - Telephone average cost of call to US (US$ per three minutes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6102,7 +6102,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.3MIN.CN.OP}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.3MIN.CN.OP:IT.MLT.3MIN.CN.OP} - `"Price of a 3-minute fixed telephone local call (off-peak rate - current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.3MIN.CN.OP:IT.MLT.3MIN.CN.OP} - Price of a 3-minute fixed telephone local call (off-peak rate - current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6114,7 +6114,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.3MIN.CN.PK}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.3MIN.CN.PK:IT.MLT.3MIN.CN.PK} - `"Price of a 3-minute fixed telephone local call (peak rate - current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.3MIN.CN.PK:IT.MLT.3MIN.CN.PK} - Price of a 3-minute fixed telephone local call (peak rate - current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6126,7 +6126,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.BCONN.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.BCONN.CD:IT.MLT.BCONN.CD} - `"Business telephone connection charge (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.BCONN.CD:IT.MLT.BCONN.CD} - Business telephone connection charge (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6138,7 +6138,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.BCONN.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.BCONN.CN:IT.MLT.BCONN.CN} - `"Business telephone connection charge (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.BCONN.CN:IT.MLT.BCONN.CN} - Business telephone connection charge (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6150,7 +6150,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.BSUB.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.BSUB.CD:IT.MLT.BSUB.CD} - `"Business telephone monthly subscription (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.BSUB.CD:IT.MLT.BSUB.CD} - Business telephone monthly subscription (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6162,7 +6162,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.BSUB.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.BSUB.CN:IT.MLT.BSUB.CN} - `"Business telephone monthly subscription (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.BSUB.CN:IT.MLT.BSUB.CN} - Business telephone monthly subscription (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6174,7 +6174,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.CONN.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.CONN.CD:IT.MLT.CONN.CD} - `"Residential telephone connection charge (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.CONN.CD:IT.MLT.CONN.CD} - Residential telephone connection charge (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6186,7 +6186,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.CONN.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.CONN.CN:IT.MLT.CONN.CN} - `"Residential telephone connection charge (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.CONN.CN:IT.MLT.CONN.CN} - Residential telephone connection charge (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6198,7 +6198,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.FALT.CL}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.FALT.CL:IT.MLT.FALT.CL} - `"Telephone faults cleared by next working day (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.FALT.CL:IT.MLT.FALT.CL} - Telephone faults cleared by next working day (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6210,7 +6210,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.FALT.M2}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.FALT.M2:IT.MLT.FALT.M2} - `"Telephone faults (per 100 mainlines)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.FALT.M2:IT.MLT.FALT.M2} - Telephone faults (per 100 mainlines)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6222,7 +6222,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.INVS.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.INVS.CD:IT.MLT.INVS.CD} - `"Fixed telephone service investment (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.INVS.CD:IT.MLT.INVS.CD} - Fixed telephone service investment (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6234,7 +6234,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.INVS.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.INVS.CN:IT.MLT.INVS.CN} - `"Fixed telephone service investment (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.INVS.CN:IT.MLT.INVS.CN} - Fixed telephone service investment (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6246,7 +6246,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.MAIN.P3}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.MAIN.P3:IT.MLT.MAIN.P3} - `"Telephone mainlines (per 1,000 people)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.MAIN.P3:IT.MLT.MAIN.P3} - Telephone mainlines (per 1,000 people)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6258,7 +6258,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.REVN.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.REVN.CD:IT.MLT.REVN.CD} - `"Revenue from fixed telephone service (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.REVN.CD:IT.MLT.REVN.CD} - Revenue from fixed telephone service (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6270,7 +6270,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.REVN.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.REVN.CN:IT.MLT.REVN.CN} - `"Revenue from fixed telephone service (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.REVN.CN:IT.MLT.REVN.CN} - Revenue from fixed telephone service (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6282,7 +6282,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.RSUB.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.RSUB.CD:IT.MLT.RSUB.CD} - `"Residential monthly telephone subscription (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.RSUB.CD:IT.MLT.RSUB.CD} - Residential monthly telephone subscription (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6294,7 +6294,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.RSUB.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.RSUB.CN:IT.MLT.RSUB.CN} - `"Residential monthly telephone subscription (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.RSUB.CN:IT.MLT.RSUB.CN} - Residential monthly telephone subscription (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6306,7 +6306,7 @@
 
 {synoptline}
 {marker sourceid_IT.MOB.COV.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IT.MOB.COV.ZS:IT.MOB.COV.ZS} - `"Population coverage of mobile cellular telephony (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MOB.COV.ZS:IT.MOB.COV.ZS} - Population coverage of mobile cellular telephony (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6318,7 +6318,7 @@
 
 {synoptline}
 {marker sourceid_IT.MOB.INVS.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.MOB.INVS.CD:IT.MOB.INVS.CD} - `"Mobile communication investment (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MOB.INVS.CD:IT.MOB.INVS.CD} - Mobile communication investment (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6330,7 +6330,7 @@
 
 {synoptline}
 {marker sourceid_IT.MOB.INVS.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.MOB.INVS.CN:IT.MOB.INVS.CN} - `"Mobile communication investment (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MOB.INVS.CN:IT.MOB.INVS.CN} - Mobile communication investment (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6342,7 +6342,7 @@
 
 {synoptline}
 {marker sourceid_IT.MOB.REVN.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.MOB.REVN.CD:IT.MOB.REVN.CD} - `"Revenue from mobile communication (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MOB.REVN.CD:IT.MOB.REVN.CD} - Revenue from mobile communication (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6354,7 +6354,7 @@
 
 {synoptline}
 {marker sourceid_IT.MOB.REVN.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.MOB.REVN.CN:IT.MOB.REVN.CN} - `"Revenue from mobile communication (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MOB.REVN.CN:IT.MOB.REVN.CN} - Revenue from mobile communication (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6366,7 +6366,7 @@
 
 {synoptline}
 {marker sourceid_IT.NET.BBND.P3}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.BBND.P3:IT.NET.BBND.P3} - `"Broadband subscribers (per 1,000 people)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.BBND.P3:IT.NET.BBND.P3} - Broadband subscribers (per 1,000 people)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6378,7 +6378,7 @@
 
 {synoptline}
 {marker sourceid_IT.NET.BNDW}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.BNDW:IT.NET.BNDW} - `"International Internet bandwidth (Mbps)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.BNDW:IT.NET.BNDW} - International Internet bandwidth (Mbps)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6391,7 +6391,7 @@
 
 {synoptline}
 {marker sourceid_IT.NET.BNDW.PC}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.BNDW.PC:IT.NET.BNDW.PC} - `"International Internet bandwidth (bits per person)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.BNDW.PC:IT.NET.BNDW.PC} - International Internet bandwidth (bits per person)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6404,7 +6404,7 @@
 
 {synoptline}
 {marker sourceid_IT.NET.CONN.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.CONN.CD:IT.NET.CONN.CD} - `"Fixed broadband Internet connection charge (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.CONN.CD:IT.NET.CONN.CD} - Fixed broadband Internet connection charge (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6416,7 +6416,7 @@
 
 {synoptline}
 {marker sourceid_IT.NET.CONN.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.CONN.CN:IT.NET.CONN.CN} - `"Fixed broadband Internet connection charge (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.CONN.CN:IT.NET.CONN.CN} - Fixed broadband Internet connection charge (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6428,7 +6428,7 @@
 
 {synoptline}
 {marker sourceid_IT.NET.SUB.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.SUB.CD:IT.NET.SUB.CD} - `"Fixed broadband Internet monthly subscription (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.SUB.CD:IT.NET.SUB.CD} - Fixed broadband Internet monthly subscription (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6440,7 +6440,7 @@
 
 {synoptline}
 {marker sourceid_IT.NET.SUB.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.SUB.CN:IT.NET.SUB.CN} - `"Fixed broadband Internet monthly subscription (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.SUB.CN:IT.NET.SUB.CN} - Fixed broadband Internet monthly subscription (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6452,7 +6452,7 @@
 
 {synoptline}
 {marker sourceid_IT.NET.USER}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.USER:IT.NET.USER} - `"Internet users"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.USER:IT.NET.USER} - Internet users}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6464,7 +6464,7 @@
 
 {synoptline}
 {marker sourceid_IT.NET.USER.P3}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.USER.P3:IT.NET.USER.P3} - `"Internet users (per 1,000 people)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.USER.P3:IT.NET.USER.P3} - Internet users (per 1,000 people)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6476,7 +6476,7 @@
 
 {synoptline}
 {marker sourceid_IT.PAY.PHONES}
-{synopt:{bf:{help wbopendata_sourceid##IT.PAY.PHONES:IT.PAY.PHONES} - `"Public payphones"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.PAY.PHONES:IT.PAY.PHONES} - Public payphones}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6488,7 +6488,7 @@
 
 {synoptline}
 {marker sourceid_IT.PAY.PHONES.P3}
-{synopt:{bf:{help wbopendata_sourceid##IT.PAY.PHONES.P3:IT.PAY.PHONES.P3} - `"Public payphones (per 1,000 people)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.PAY.PHONES.P3:IT.PAY.PHONES.P3} - Public payphones (per 1,000 people)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6500,7 +6500,7 @@
 
 {synoptline}
 {marker sourceid_IT.PC.HOUS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IT.PC.HOUS.ZS:IT.PC.HOUS.ZS} - `"Homes with a personal computer (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.PC.HOUS.ZS:IT.PC.HOUS.ZS} - Homes with a personal computer (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6512,7 +6512,7 @@
 
 {synoptline}
 {marker sourceid_IT.RAD.HOUS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IT.RAD.HOUS.ZS:IT.RAD.HOUS.ZS} - `"Households with a radio (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.RAD.HOUS.ZS:IT.RAD.HOUS.ZS} - Households with a radio (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6524,7 +6524,7 @@
 
 {synoptline}
 {marker sourceid_IT.RAD.SETS}
-{synopt:{bf:{help wbopendata_sourceid##IT.RAD.SETS:IT.RAD.SETS} - `"Number of radio sets"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.RAD.SETS:IT.RAD.SETS} - Number of radio sets}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6536,7 +6536,7 @@
 
 {synoptline}
 {marker sourceid_IT.RAD.SETS.P3}
-{synopt:{bf:{help wbopendata_sourceid##IT.RAD.SETS.P3:IT.RAD.SETS.P3} - `"Radio sets (per 1,000 people)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.RAD.SETS.P3:IT.RAD.SETS.P3} - Radio sets (per 1,000 people)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6548,7 +6548,7 @@
 
 {synoptline}
 {marker sourceid_IT.TEL.HOUS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IT.TEL.HOUS.ZS:IT.TEL.HOUS.ZS} - `"Households with a telephone (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TEL.HOUS.ZS:IT.TEL.HOUS.ZS} - Households with a telephone (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6560,7 +6560,7 @@
 
 {synoptline}
 {marker sourceid_IT.TEL.INVS.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.TEL.INVS.CD:IT.TEL.INVS.CD} - `"Total annual investment in telecom (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TEL.INVS.CD:IT.TEL.INVS.CD} - Total annual investment in telecom (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6572,7 +6572,7 @@
 
 {synoptline}
 {marker sourceid_IT.TEL.INVS.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.TEL.INVS.CN:IT.TEL.INVS.CN} - `"Telecommunications investment (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TEL.INVS.CN:IT.TEL.INVS.CN} - Telecommunications investment (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6585,7 +6585,7 @@
 
 {synoptline}
 {marker sourceid_IT.TEL.INVS.RV.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IT.TEL.INVS.RV.ZS:IT.TEL.INVS.RV.ZS} - `"Telecommunications investment (% of revenue)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TEL.INVS.RV.ZS:IT.TEL.INVS.RV.ZS} - Telecommunications investment (% of revenue)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6598,7 +6598,7 @@
 
 {synoptline}
 {marker sourceid_IT.TEL.REVN.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.TEL.REVN.CD:IT.TEL.REVN.CD} - `"Total revenue from all telecommunication services (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TEL.REVN.CD:IT.TEL.REVN.CD} - Total revenue from all telecommunication services (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6610,7 +6610,7 @@
 
 {synoptline}
 {marker sourceid_IT.TEL.REVN.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.TEL.REVN.CN:IT.TEL.REVN.CN} - `"Telecommunications revenue (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TEL.REVN.CN:IT.TEL.REVN.CN} - Telecommunications revenue (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6623,7 +6623,7 @@
 
 {synoptline}
 {marker sourceid_IT.TEL.REVN.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IT.TEL.REVN.GD.ZS:IT.TEL.REVN.GD.ZS} - `"Telecommunications revenue (% GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TEL.REVN.GD.ZS:IT.TEL.REVN.GD.ZS} - Telecommunications revenue (% GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6636,7 +6636,7 @@
 
 {synoptline}
 {marker sourceid_IT.TEL.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##IT.TEL.TOTL:IT.TEL.TOTL} - `"Mobile and fixed-line telephone subscribers"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TEL.TOTL:IT.TEL.TOTL} - Mobile and fixed-line telephone subscribers}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6649,7 +6649,7 @@
 
 {synoptline}
 {marker sourceid_IT.TEL.TOTL.P2}
-{synopt:{bf:{help wbopendata_sourceid##IT.TEL.TOTL.P2:IT.TEL.TOTL.P2} - `"Fixed line and mobile cellular subscriptions (per 100 people)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TEL.TOTL.P2:IT.TEL.TOTL.P2} - Fixed line and mobile cellular subscriptions (per 100 people)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6662,7 +6662,7 @@
 
 {synoptline}
 {marker sourceid_IT.TEL.TOTL.P3}
-{synopt:{bf:{help wbopendata_sourceid##IT.TEL.TOTL.P3:IT.TEL.TOTL.P3} - `"Telephone (mainlines and mobile phone) subscribers (per 1,000 people)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TEL.TOTL.P3:IT.TEL.TOTL.P3} - Telephone (mainlines and mobile phone) subscribers (per 1,000 people)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6674,7 +6674,7 @@
 
 {synoptline}
 {marker sourceid_IT.TEL.UNMT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IT.TEL.UNMT.ZS:IT.TEL.UNMT.ZS} - `"Unmet demand (% of waiting list to number main fixed telephone lines in operation)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TEL.UNMT.ZS:IT.TEL.UNMT.ZS} - Unmet demand (% of waiting list to number main fixed telephone lines in operation)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6686,7 +6686,7 @@
 
 {synoptline}
 {marker sourceid_IT.TELC.IM.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.TELC.IM.CD:IT.TELC.IM.CD} - `"Telecommunication equipment - import (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TELC.IM.CD:IT.TELC.IM.CD} - Telecommunication equipment - import (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6698,7 +6698,7 @@
 
 {synoptline}
 {marker sourceid_IT.TELC.XP.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.TELC.XP.CD:IT.TELC.XP.CD} - `"Telecommunication equipment - export (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TELC.XP.CD:IT.TELC.XP.CD} - Telecommunication equipment - export (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6710,7 +6710,7 @@
 
 {synoptline}
 {marker sourceid_IT.TVS.HOUS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IT.TVS.HOUS.ZS:IT.TVS.HOUS.ZS} - `"Households with television (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TVS.HOUS.ZS:IT.TVS.HOUS.ZS} - Households with television (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6723,7 +6723,7 @@
 
 {synoptline}
 {marker sourceid_MO.INDEX.ECON.XQ}
-{synopt:{bf:{help wbopendata_sourceid##MO.INDEX.ECON.XQ:MO.INDEX.ECON.XQ} - `"Sustainable Economic Opportunity"'}}
+{synopt:{bf:{help wbopendata_sourceid##MO.INDEX.ECON.XQ:MO.INDEX.ECON.XQ} - Sustainable Economic Opportunity}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6735,7 +6735,7 @@
 
 {synoptline}
 {marker sourceid_MO.INDEX.HDEV.XQ}
-{synopt:{bf:{help wbopendata_sourceid##MO.INDEX.HDEV.XQ:MO.INDEX.HDEV.XQ} - `"Human Development"'}}
+{synopt:{bf:{help wbopendata_sourceid##MO.INDEX.HDEV.XQ:MO.INDEX.HDEV.XQ} - Human Development}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6747,7 +6747,7 @@
 
 {synoptline}
 {marker sourceid_MO.INDEX.PHR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##MO.INDEX.PHR.XQ:MO.INDEX.PHR.XQ} - `"Participation and Human Rights"'}}
+{synopt:{bf:{help wbopendata_sourceid##MO.INDEX.PHR.XQ:MO.INDEX.PHR.XQ} - Participation and Human Rights}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6759,7 +6759,7 @@
 
 {synoptline}
 {marker sourceid_MO.INDEX.SRLW.XQ}
-{synopt:{bf:{help wbopendata_sourceid##MO.INDEX.SRLW.XQ:MO.INDEX.SRLW.XQ} - `"Safety and Rule of Law"'}}
+{synopt:{bf:{help wbopendata_sourceid##MO.INDEX.SRLW.XQ:MO.INDEX.SRLW.XQ} - Safety and Rule of Law}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6771,7 +6771,7 @@
 
 {synoptline}
 {marker sourceid_MO.INDEX.XQ}
-{synopt:{bf:{help wbopendata_sourceid##MO.INDEX.XQ:MO.INDEX.XQ} - `"Overall Mo Ibrahim index"'}}
+{synopt:{bf:{help wbopendata_sourceid##MO.INDEX.XQ:MO.INDEX.XQ} - Overall Mo Ibrahim index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6783,7 +6783,7 @@
 
 {synoptline}
 {marker sourceid_NE.CON.PCAP.CD}
-{synopt:{bf:{help wbopendata_sourceid##NE.CON.PCAP.CD:NE.CON.PCAP.CD} - `"Final consumption expenditure plus discrepancy, per capita (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.CON.PCAP.CD:NE.CON.PCAP.CD} - Final consumption expenditure plus discrepancy, per capita (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6795,7 +6795,7 @@
 
 {synoptline}
 {marker sourceid_NE.EXP.GNFS.KN.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NE.EXP.GNFS.KN.ZG:NE.EXP.GNFS.KN.ZG} - `"Exports of goods and non-financial services, growth (%, constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.EXP.GNFS.KN.ZG:NE.EXP.GNFS.KN.ZG} - Exports of goods and non-financial services, growth (%, constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6807,7 +6807,7 @@
 
 {synoptline}
 {marker sourceid_NE.EXP.GNFS.XN}
-{synopt:{bf:{help wbopendata_sourceid##NE.EXP.GNFS.XN:NE.EXP.GNFS.XN} - `"Export price index (goods and services, 2000=100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.EXP.GNFS.XN:NE.EXP.GNFS.XN} - Export price index (goods and services, 2000=100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6819,7 +6819,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FCGV.CD}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FCGV.CD:NE.GDI.FCGV.CD} - `"GDFI - central government (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FCGV.CD:NE.GDI.FCGV.CD} - GDFI - central government (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6831,7 +6831,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FCGV.CN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FCGV.CN:NE.GDI.FCGV.CN} - `"GDFI - central government (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FCGV.CN:NE.GDI.FCGV.CN} - GDFI - central government (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6843,7 +6843,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FCGV.KD}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FCGV.KD:NE.GDI.FCGV.KD} - `"GDFI - central government (constant 2000 US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FCGV.KD:NE.GDI.FCGV.KD} - GDFI - central government (constant 2000 US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6855,7 +6855,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FCGV.KN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FCGV.KN:NE.GDI.FCGV.KN} - `"GDFI - central government (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FCGV.KN:NE.GDI.FCGV.KN} - GDFI - central government (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6867,7 +6867,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FGOV.CD}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FGOV.CD:NE.GDI.FGOV.CD} - `"GDFI - general government (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FGOV.CD:NE.GDI.FGOV.CD} - GDFI - general government (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6879,7 +6879,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FGOV.CN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FGOV.CN:NE.GDI.FGOV.CN} - `"GDFI - general government (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FGOV.CN:NE.GDI.FGOV.CN} - GDFI - general government (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6891,7 +6891,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FGOV.KD}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FGOV.KD:NE.GDI.FGOV.KD} - `"GDFI - general government (constant 2000 US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FGOV.KD:NE.GDI.FGOV.KD} - GDFI - general government (constant 2000 US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6903,7 +6903,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FGOV.KN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FGOV.KN:NE.GDI.FGOV.KN} - `"GDFI - general government (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FGOV.KN:NE.GDI.FGOV.KN} - GDFI - general government (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6915,7 +6915,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FLGV.CD}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FLGV.CD:NE.GDI.FLGV.CD} - `"GDFI - state and local government (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FLGV.CD:NE.GDI.FLGV.CD} - GDFI - state and local government (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6927,7 +6927,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FLGV.CN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FLGV.CN:NE.GDI.FLGV.CN} - `"GDFI - state and local government (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FLGV.CN:NE.GDI.FLGV.CN} - GDFI - state and local government (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6939,7 +6939,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FLGV.KN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FLGV.KN:NE.GDI.FLGV.KN} - `"GDFI - state and local government (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FLGV.KN:NE.GDI.FLGV.KN} - GDFI - state and local government (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6951,7 +6951,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FPBE.CD}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPBE.CD:NE.GDI.FPBE.CD} - `"GDFI - public enterprises (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPBE.CD:NE.GDI.FPBE.CD} - GDFI - public enterprises (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6963,7 +6963,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FPBE.CN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPBE.CN:NE.GDI.FPBE.CN} - `"GDFI - public enterprises (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPBE.CN:NE.GDI.FPBE.CN} - GDFI - public enterprises (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6975,7 +6975,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FPBE.KN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPBE.KN:NE.GDI.FPBE.KN} - `"GDFI - public enterprises (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPBE.KN:NE.GDI.FPBE.KN} - GDFI - public enterprises (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6987,7 +6987,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FPRV.CD}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPRV.CD:NE.GDI.FPRV.CD} - `"GDFI - private (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPRV.CD:NE.GDI.FPRV.CD} - GDFI - private (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6999,7 +6999,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FPRV.KD}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPRV.KD:NE.GDI.FPRV.KD} - `"GDFI - private sector (constant 2000 US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPRV.KD:NE.GDI.FPRV.KD} - GDFI - private sector (constant 2000 US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7011,7 +7011,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FPRV.KN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPRV.KN:NE.GDI.FPRV.KN} - `"GDFI - private sector (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPRV.KN:NE.GDI.FPRV.KN} - GDFI - private sector (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7023,7 +7023,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FPUB.CD}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPUB.CD:NE.GDI.FPUB.CD} - `"GDFI - public sector (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPUB.CD:NE.GDI.FPUB.CD} - GDFI - public sector (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7035,7 +7035,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FPUB.CN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPUB.CN:NE.GDI.FPUB.CN} - `"Gross fixed capital formation, public sector (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPUB.CN:NE.GDI.FPUB.CN} - Gross fixed capital formation, public sector (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7047,7 +7047,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FPUB.KD}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPUB.KD:NE.GDI.FPUB.KD} - `"GDFI - public sector (constant 2000 US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPUB.KD:NE.GDI.FPUB.KD} - GDFI - public sector (constant 2000 US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7059,7 +7059,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FPUB.KN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPUB.KN:NE.GDI.FPUB.KN} - `"GDFI - public sector (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPUB.KN:NE.GDI.FPUB.KN} - GDFI - public sector (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7071,7 +7071,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FPUB.ZS}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPUB.ZS:NE.GDI.FPUB.ZS} - `"Gross public investment (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPUB.ZS:NE.GDI.FPUB.ZS} - Gross public investment (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7083,7 +7083,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.STPB.CD}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STPB.CD:NE.GDI.STPB.CD} - `"Change in stocks public sector (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STPB.CD:NE.GDI.STPB.CD} - Change in stocks public sector (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7095,7 +7095,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.STPB.CN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STPB.CN:NE.GDI.STPB.CN} - `"Change in stocks public sector (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STPB.CN:NE.GDI.STPB.CN} - Change in stocks public sector (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7107,7 +7107,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.STPB.KN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STPB.KN:NE.GDI.STPB.KN} - `"Change in stocks, public sector (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STPB.KN:NE.GDI.STPB.KN} - Change in stocks, public sector (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7119,7 +7119,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.STPV.CD}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STPV.CD:NE.GDI.STPV.CD} - `"Change in stocks, private sector (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STPV.CD:NE.GDI.STPV.CD} - Change in stocks, private sector (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7131,7 +7131,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.STPV.CN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STPV.CN:NE.GDI.STPV.CN} - `"Change in stocks, private sector (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STPV.CN:NE.GDI.STPV.CN} - Change in stocks, private sector (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7143,7 +7143,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.STPV.KN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STPV.KN:NE.GDI.STPV.KN} - `"Change in stocks, private sector (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STPV.KN:NE.GDI.STPV.KN} - Change in stocks, private sector (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7155,7 +7155,7 @@
 
 {synoptline}
 {marker sourceid_NE.IMP.GNFS.XN}
-{synopt:{bf:{help wbopendata_sourceid##NE.IMP.GNFS.XN:NE.IMP.GNFS.XN} - `"Import price index (goods and services 2000=100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.IMP.GNFS.XN:NE.IMP.GNFS.XN} - Import price index (goods and services 2000=100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7167,7 +7167,7 @@
 
 {synoptline}
 {marker sourceid_NE.MRCH.GDP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##NE.MRCH.GDP.ZS:NE.MRCH.GDP.ZS} - `"Merchandise trade to GDP ratio (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.MRCH.GDP.ZS:NE.MRCH.GDP.ZS} - Merchandise trade to GDP ratio (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7179,7 +7179,7 @@
 
 {synoptline}
 {marker sourceid_NE.TRD.GNFS.CD}
-{synopt:{bf:{help wbopendata_sourceid##NE.TRD.GNFS.CD:NE.TRD.GNFS.CD} - `"Trade of goods and services (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.TRD.GNFS.CD:NE.TRD.GNFS.CD} - Trade of goods and services (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7191,7 +7191,7 @@
 
 {synoptline}
 {marker sourceid_NE.TRM.TRAD.XN}
-{synopt:{bf:{help wbopendata_sourceid##NE.TRM.TRAD.XN:NE.TRM.TRAD.XN} - `"Terms of trade index (2000=100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.TRM.TRAD.XN:NE.TRM.TRAD.XN} - Terms of trade index (2000=100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7203,7 +7203,7 @@
 
 {synoptline}
 {marker sourceid_NE.TRM.TRAD.XU}
-{synopt:{bf:{help wbopendata_sourceid##NE.TRM.TRAD.XU:NE.TRM.TRAD.XU} - `"Terms of trade (goods and services, 2000 = 100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NE.TRM.TRAD.XU:NE.TRM.TRAD.XU} - Terms of trade (goods and services, 2000 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7215,7 +7215,7 @@
 
 {synoptline}
 {marker sourceid_NV.AGR.PCAP.KD.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NV.AGR.PCAP.KD.ZG:NV.AGR.PCAP.KD.ZG} - `"Real agricultural GDP per capita growth rate (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.AGR.PCAP.KD.ZG:NV.AGR.PCAP.KD.ZG} - Real agricultural GDP per capita growth rate (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7227,7 +7227,7 @@
 
 {synoptline}
 {marker sourceid_NV.AGR.TOTL.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NV.AGR.TOTL.ZG:NV.AGR.TOTL.ZG} - `"Real agricultural GDP growth rates (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.AGR.TOTL.ZG:NV.AGR.TOTL.ZG} - Real agricultural GDP growth rates (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7239,7 +7239,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.CNST.CD}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.CNST.CD:NV.IND.CNST.CD} - `"Construction, value added (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.CNST.CD:NV.IND.CNST.CD} - Construction, value added (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7251,7 +7251,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.CNST.CN}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.CNST.CN:NV.IND.CNST.CN} - `"Construction, value added (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.CNST.CN:NV.IND.CNST.CN} - Construction, value added (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7263,7 +7263,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.CNST.KN}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.CNST.KN:NV.IND.CNST.KN} - `"Construction, value added (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.CNST.KN:NV.IND.CNST.KN} - Construction, value added (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7275,7 +7275,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.GELW.CD}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.GELW.CD:NV.IND.GELW.CD} - `"Electricity, gas and water supply, value added (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.GELW.CD:NV.IND.GELW.CD} - Electricity, gas and water supply, value added (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7287,7 +7287,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.GELW.CN}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.GELW.CN:NV.IND.GELW.CN} - `"Electricity, gas and water supply, value added (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.GELW.CN:NV.IND.GELW.CN} - Electricity, gas and water supply, value added (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7299,7 +7299,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.GELW.KN}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.GELW.KN:NV.IND.GELW.KN} - `"Electricity, gas and water supply, value added (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.GELW.KN:NV.IND.GELW.KN} - Electricity, gas and water supply, value added (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7311,7 +7311,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.MANF.KN.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.MANF.KN.ZG:NV.IND.MANF.KN.ZG} - `"Value added, manufacturing growth rate (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.MANF.KN.ZG:NV.IND.MANF.KN.ZG} - Value added, manufacturing growth rate (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7323,7 +7323,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.MINQ.CD}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.MINQ.CD:NV.IND.MINQ.CD} - `"Mining and quarrying, value added (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.MINQ.CD:NV.IND.MINQ.CD} - Mining and quarrying, value added (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7335,7 +7335,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.MINQ.CN}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.MINQ.CN:NV.IND.MINQ.CN} - `"Mining and quarrying, value added (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.MINQ.CN:NV.IND.MINQ.CN} - Mining and quarrying, value added (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7347,7 +7347,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.MINQ.KD}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.MINQ.KD:NV.IND.MINQ.KD} - `"Value added, mining and quarrying (constant 2000 US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.MINQ.KD:NV.IND.MINQ.KD} - Value added, mining and quarrying (constant 2000 US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7359,7 +7359,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.MINQ.KN}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.MINQ.KN:NV.IND.MINQ.KN} - `"Mining and quarrying, value added (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.MINQ.KN:NV.IND.MINQ.KN} - Mining and quarrying, value added (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7371,7 +7371,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.ADMN.CD}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.ADMN.CD:NV.SRV.ADMN.CD} - `"Public administration and defence, value added (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.ADMN.CD:NV.SRV.ADMN.CD} - Public administration and defence, value added (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7383,7 +7383,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.ADMN.CN}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.ADMN.CN:NV.SRV.ADMN.CN} - `"Public administration and defence, value added (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.ADMN.CN:NV.SRV.ADMN.CN} - Public administration and defence, value added (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7395,7 +7395,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.ADMN.KN}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.ADMN.KN:NV.SRV.ADMN.KN} - `"Public administration and defence, value added (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.ADMN.KN:NV.SRV.ADMN.KN} - Public administration and defence, value added (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7407,7 +7407,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.BNKG.CD}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.BNKG.CD:NV.SRV.BNKG.CD} - `"Financial and insurance activities (banking), value added (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.BNKG.CD:NV.SRV.BNKG.CD} - Financial and insurance activities (banking), value added (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7419,7 +7419,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.BNKG.CN}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.BNKG.CN:NV.SRV.BNKG.CN} - `"Financial and insurance activities (banking), value added (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.BNKG.CN:NV.SRV.BNKG.CN} - Financial and insurance activities (banking), value added (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7431,7 +7431,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.BNKG.KN}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.BNKG.KN:NV.SRV.BNKG.KN} - `"Financial and insurance activities (banking), value added (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.BNKG.KN:NV.SRV.BNKG.KN} - Financial and insurance activities (banking), value added (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7443,7 +7443,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.DISC.CD}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.DISC.CD:NV.SRV.DISC.CD} - `"Discrepancy in GDP, value added (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.DISC.CD:NV.SRV.DISC.CD} - Discrepancy in GDP, value added (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7455,7 +7455,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.DISC.CN}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.DISC.CN:NV.SRV.DISC.CN} - `"Discrepancy in GDP, value added (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.DISC.CN:NV.SRV.DISC.CN} - Discrepancy in GDP, value added (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7467,7 +7467,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.DISC.KN}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.DISC.KN:NV.SRV.DISC.KN} - `"Discrepancy in GDP, value added (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.DISC.KN:NV.SRV.DISC.KN} - Discrepancy in GDP, value added (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7479,7 +7479,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.DWEL.CD}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.DWEL.CD:NV.SRV.DWEL.CD} - `"Ownership of dwellings, value added (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.DWEL.CD:NV.SRV.DWEL.CD} - Ownership of dwellings, value added (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7491,7 +7491,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.DWEL.CN}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.DWEL.CN:NV.SRV.DWEL.CN} - `"Ownership of dwellings, value added (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.DWEL.CN:NV.SRV.DWEL.CN} - Ownership of dwellings, value added (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7503,7 +7503,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.DWEL.KN}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.DWEL.KN:NV.SRV.DWEL.KN} - `"Ownership of dwellings, value added (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.DWEL.KN:NV.SRV.DWEL.KN} - Ownership of dwellings, value added (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7515,7 +7515,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.OTHR.CD}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.OTHR.CD:NV.SRV.OTHR.CD} - `"Other services, value added (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.OTHR.CD:NV.SRV.OTHR.CD} - Other services, value added (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7527,7 +7527,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.OTHR.CN}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.OTHR.CN:NV.SRV.OTHR.CN} - `"Other services, value added (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.OTHR.CN:NV.SRV.OTHR.CN} - Other services, value added (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7539,7 +7539,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.OTHR.KN}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.OTHR.KN:NV.SRV.OTHR.KN} - `"Other services, value added (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.OTHR.KN:NV.SRV.OTHR.KN} - Other services, value added (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7551,7 +7551,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.TETC.KN.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TETC.KN.ZG:NV.SRV.TETC.KN.ZG} - `"Value added, services and etc growth rate (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TETC.KN.ZG:NV.SRV.TETC.KN.ZG} - Value added, services and etc growth rate (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7563,7 +7563,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.TRAD.CD}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TRAD.CD:NV.SRV.TRAD.CD} - `"Wholesale and retail trade, value added (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TRAD.CD:NV.SRV.TRAD.CD} - Wholesale and retail trade, value added (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7575,7 +7575,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.TRAD.CN}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TRAD.CN:NV.SRV.TRAD.CN} - `"Wholesale and retail trade, value added (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TRAD.CN:NV.SRV.TRAD.CN} - Wholesale and retail trade, value added (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7587,7 +7587,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.TRAD.KN}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TRAD.KN:NV.SRV.TRAD.KN} - `"Wholesale and retail trade, value added (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TRAD.KN:NV.SRV.TRAD.KN} - Wholesale and retail trade, value added (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7599,7 +7599,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.TRAN.CD}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TRAN.CD:NV.SRV.TRAN.CD} - `"Transportation, storage and communication, value added (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TRAN.CD:NV.SRV.TRAN.CD} - Transportation, storage and communication, value added (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7611,7 +7611,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.TRAN.CN}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TRAN.CN:NV.SRV.TRAN.CN} - `"Transportation, storage and communication, value added (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TRAN.CN:NV.SRV.TRAN.CN} - Transportation, storage and communication, value added (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7623,7 +7623,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.TRAN.KN}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TRAN.KN:NV.SRV.TRAN.KN} - `"Transportation, storage and communication, value added (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TRAN.KN:NV.SRV.TRAN.KN} - Transportation, storage and communication, value added (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7635,7 +7635,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDP.DISC.CD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDP.DISC.CD:NY.GDP.DISC.CD} - `"Discrepancy in expenditure estimate of GDP (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDP.DISC.CD:NY.GDP.DISC.CD} - Discrepancy in expenditure estimate of GDP (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7647,7 +7647,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDP.MKTP.CD.XD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDP.MKTP.CD.XD:NY.GDP.MKTP.CD.XD} - `"GDP deflator, index (2000=100; US$ series)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDP.MKTP.CD.XD:NY.GDP.MKTP.CD.XD} - GDP deflator, index (2000=100; US$ series)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7659,7 +7659,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDP.MKTP.CN.XD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDP.MKTP.CN.XD:NY.GDP.MKTP.CN.XD} - `"GDP deflator, period average (LCU index 2000=100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDP.MKTP.CN.XD:NY.GDP.MKTP.CN.XD} - GDP deflator, period average (LCU index 2000=100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7671,7 +7671,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDP.MKTP.XU.E}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDP.MKTP.XU.E:NY.GDP.MKTP.XU.E} - `"GDP deflator, end period (base year varies by country)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDP.MKTP.XU.E:NY.GDP.MKTP.XU.E} - GDP deflator, end period (base year varies by country)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7683,7 +7683,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDP.PCAP.PP.KD.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDP.PCAP.PP.KD.ZG:NY.GDP.PCAP.PP.KD.ZG} - `"GDP per capita, PPP annual growth (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDP.PCAP.PP.KD.ZG:NY.GDP.PCAP.PP.KD.ZG} - GDP per capita, PPP annual growth (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7695,7 +7695,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDS.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDS.PRVT.CD:NY.GDS.PRVT.CD} - `"Gross domestic savings, private (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDS.PRVT.CD:NY.GDS.PRVT.CD} - Gross domestic savings, private (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7707,7 +7707,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDS.PRVT.CN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDS.PRVT.CN:NY.GDS.PRVT.CN} - `"Gross domestic savings, private (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDS.PRVT.CN:NY.GDS.PRVT.CN} - Gross domestic savings, private (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7719,7 +7719,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDS.PRVT.KN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDS.PRVT.KN:NY.GDS.PRVT.KN} - `"Gross domestic savings, private (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDS.PRVT.KN:NY.GDS.PRVT.KN} - Gross domestic savings, private (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7731,7 +7731,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDS.PUBL.CD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDS.PUBL.CD:NY.GDS.PUBL.CD} - `"Gross domestic savings, public (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDS.PUBL.CD:NY.GDS.PUBL.CD} - Gross domestic savings, public (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7743,7 +7743,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDS.PUBL.CN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDS.PUBL.CN:NY.GDS.PUBL.CN} - `"Gross domestic savings, public (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDS.PUBL.CN:NY.GDS.PUBL.CN} - Gross domestic savings, public (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7755,7 +7755,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDS.PUBL.KN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDS.PUBL.KN:NY.GDS.PUBL.KN} - `"Gross domestic savings, public (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDS.PUBL.KN:NY.GDS.PUBL.KN} - Gross domestic savings, public (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7767,7 +7767,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDS.TOTL.KD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDS.TOTL.KD:NY.GDS.TOTL.KD} - `"Gross domestic savings, total (constant 2000 US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDS.TOTL.KD:NY.GDS.TOTL.KD} - Gross domestic savings, total (constant 2000 US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7779,7 +7779,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNS.ICTR.KD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNS.ICTR.KD:NY.GNS.ICTR.KD} - `"Gross national savings, including net current transfers (constant 2000 US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNS.ICTR.KD:NY.GNS.ICTR.KD} - Gross national savings, including net current transfers (constant 2000 US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7791,7 +7791,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNS.ICTR.KN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNS.ICTR.KN:NY.GNS.ICTR.KN} - `"Gross national savings, including net current transfers (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNS.ICTR.KN:NY.GNS.ICTR.KN} - Gross national savings, including net current transfers (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7803,7 +7803,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNS.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNS.PRVT.CD:NY.GNS.PRVT.CD} - `"Gross national savings, private (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNS.PRVT.CD:NY.GNS.PRVT.CD} - Gross national savings, private (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7815,7 +7815,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNS.PRVT.CN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNS.PRVT.CN:NY.GNS.PRVT.CN} - `"Gross national savings, private (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNS.PRVT.CN:NY.GNS.PRVT.CN} - Gross national savings, private (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7827,7 +7827,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNS.PRVT.KN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNS.PRVT.KN:NY.GNS.PRVT.KN} - `"Gross national savings, private (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNS.PRVT.KN:NY.GNS.PRVT.KN} - Gross national savings, private (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7839,7 +7839,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNS.PUBL.CD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNS.PUBL.CD:NY.GNS.PUBL.CD} - `"Gross national savings, public (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNS.PUBL.CD:NY.GNS.PUBL.CD} - Gross national savings, public (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7851,7 +7851,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNS.PUBL.CN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNS.PUBL.CN:NY.GNS.PUBL.CN} - `"Gross national savings, public (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNS.PUBL.CN:NY.GNS.PUBL.CN} - Gross national savings, public (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7863,7 +7863,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNS.PUBL.KN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNS.PUBL.KN:NY.GNS.PUBL.KN} - `"Gross national savings, public (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNS.PUBL.KN:NY.GNS.PUBL.KN} - Gross national savings, public (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7875,7 +7875,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNY.TOTL.CN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNY.TOTL.CN:NY.GNY.TOTL.CN} - `"Gross national disposable income (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNY.TOTL.CN:NY.GNY.TOTL.CN} - Gross national disposable income (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7887,7 +7887,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNY.TOTL.KD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNY.TOTL.KD:NY.GNY.TOTL.KD} - `"Gross national income (constant 2000 US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNY.TOTL.KD:NY.GNY.TOTL.KD} - Gross national income (constant 2000 US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7899,7 +7899,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNY.TOTL.KN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNY.TOTL.KN:NY.GNY.TOTL.KN} - `"Gross national income (constant LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNY.TOTL.KN:NY.GNY.TOTL.KN} - Gross national income (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7912,7 +7912,7 @@
 
 {synoptline}
 {marker sourceid_NY.TAX.IDRT.CD}
-{synopt:{bf:{help wbopendata_sourceid##NY.TAX.IDRT.CD:NY.TAX.IDRT.CD} - `"Indirect taxes (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.TAX.IDRT.CD:NY.TAX.IDRT.CD} - Indirect taxes (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7924,7 +7924,7 @@
 
 {synoptline}
 {marker sourceid_NY.TAX.IDRT.CN}
-{synopt:{bf:{help wbopendata_sourceid##NY.TAX.IDRT.CN:NY.TAX.IDRT.CN} - `"Indirect taxes (current LCU)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.TAX.IDRT.CN:NY.TAX.IDRT.CN} - Indirect taxes (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7936,7 +7936,7 @@
 
 {synoptline}
 {marker sourceid_NY.TAX.SUBS.CD}
-{synopt:{bf:{help wbopendata_sourceid##NY.TAX.SUBS.CD:NY.TAX.SUBS.CD} - `"Subsidies (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.TAX.SUBS.CD:NY.TAX.SUBS.CD} - Subsidies (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7948,7 +7948,7 @@
 
 {synoptline}
 {marker sourceid_NY.TAX.SUBS.CN}
-{synopt:{bf:{help wbopendata_sourceid##NY.TAX.SUBS.CN:NY.TAX.SUBS.CN} - `"Subsidies (current LCU; from SNA)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.TAX.SUBS.CN:NY.TAX.SUBS.CN} - Subsidies (current LCU; from SNA)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7960,7 +7960,7 @@
 
 {synoptline}
 {marker sourceid_PE.NUS.FCAE}
-{synopt:{bf:{help wbopendata_sourceid##PE.NUS.FCAE:PE.NUS.FCAE} - `"Official exchange rate (LCU per US$, end period)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PE.NUS.FCAE:PE.NUS.FCAE} - Official exchange rate (LCU per US$, end period)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7972,7 +7972,7 @@
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND1.IDX}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND1.IDX:PRT.PDCL.IND1.IDX} - `"PDI-1 Country with operational national development strategies (rating)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND1.IDX:PRT.PDCL.IND1.IDX} - PDI-1 Country with operational national development strategies (rating)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7984,7 +7984,7 @@
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND10A.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND10A.ALLD.ZS:PRT.PDCL.IND10A.ALLD.ZS} - `"PDI-10a Donor missions co-ordinated (percent)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND10A.ALLD.ZS:PRT.PDCL.IND10A.ALLD.ZS} - PDI-10a Donor missions co-ordinated (percent)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7996,7 +7996,7 @@
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND10B.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND10B.ALLD.ZS:PRT.PDCL.IND10B.ALLD.ZS} - `"PDI-10b Country-analysis co-ordinated (percent)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND10B.ALLD.ZS:PRT.PDCL.IND10B.ALLD.ZS} - PDI-10b Country-analysis co-ordinated (percent)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8008,7 +8008,7 @@
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND11.IDX}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND11.IDX:PRT.PDCL.IND11.IDX} - `"PDI-11 Existence of a monitorable performance assessment framework (rating)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND11.IDX:PRT.PDCL.IND11.IDX} - PDI-11 Existence of a monitorable performance assessment framework (rating)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8020,7 +8020,7 @@
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND12.IDX}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND12.IDX:PRT.PDCL.IND12.IDX} - `"PDI-12 Existence of a mutual accountability review (rating)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND12.IDX:PRT.PDCL.IND12.IDX} - PDI-12 Existence of a mutual accountability review (rating)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8032,7 +8032,7 @@
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND2A.IDX}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND2A.IDX:PRT.PDCL.IND2A.IDX} - `"PDI-2a Country financial management systems reliability (rating)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND2A.IDX:PRT.PDCL.IND2A.IDX} - PDI-2a Country financial management systems reliability (rating)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8044,7 +8044,7 @@
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND2B.IDX}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND2B.IDX:PRT.PDCL.IND2B.IDX} - `"PDI-2b Country procurement systems reliability (rating)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND2B.IDX:PRT.PDCL.IND2B.IDX} - PDI-2b Country procurement systems reliability (rating)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8056,7 +8056,7 @@
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND3.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND3.ALLD.ZS:PRT.PDCL.IND3.ALLD.ZS} - `"PDI-3 Government budget estimates comprehensive and realistic (percent)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND3.ALLD.ZS:PRT.PDCL.IND3.ALLD.ZS} - PDI-3 Government budget estimates comprehensive and realistic (percent)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8068,7 +8068,7 @@
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND4.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND4.ALLD.ZS:PRT.PDCL.IND4.ALLD.ZS} - `"PDI-4 Technical assistance aligned and co-ordinated with country programmes (percent)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND4.ALLD.ZS:PRT.PDCL.IND4.ALLD.ZS} - PDI-4 Technical assistance aligned and co-ordinated with country programmes (percent)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8080,7 +8080,7 @@
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND5A.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND5A.ALLD.ZS:PRT.PDCL.IND5A.ALLD.ZS} - `"PDI-5a Aid for government sectors uses country public finanacial management systems (percent)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND5A.ALLD.ZS:PRT.PDCL.IND5A.ALLD.ZS} - PDI-5a Aid for government sectors uses country public finanacial management systems (percent)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8092,7 +8092,7 @@
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND5B.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND5B.ALLD.ZS:PRT.PDCL.IND5B.ALLD.ZS} - `"PDI-5b Aid for government sectors uses country procurement systems (percent)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND5B.ALLD.ZS:PRT.PDCL.IND5B.ALLD.ZS} - PDI-5b Aid for government sectors uses country procurement systems (percent)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8104,7 +8104,7 @@
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND6.ALLD.NUM}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND6.ALLD.NUM:PRT.PDCL.IND6.ALLD.NUM} - `"PDI-6 Project implementation units parallel to country structures (number)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND6.ALLD.NUM:PRT.PDCL.IND6.ALLD.NUM} - PDI-6 Project implementation units parallel to country structures (number)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8116,7 +8116,7 @@
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND7.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND7.ALLD.ZS:PRT.PDCL.IND7.ALLD.ZS} - `"PDI-7 Aid disbursements on schedule and recorded by government (percent)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND7.ALLD.ZS:PRT.PDCL.IND7.ALLD.ZS} - PDI-7 Aid disbursements on schedule and recorded by government (percent)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8128,7 +8128,7 @@
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND8.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND8.ALLD.ZS:PRT.PDCL.IND8.ALLD.ZS} - `"PDI-8 Bilateral aid that is untied (percent)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND8.ALLD.ZS:PRT.PDCL.IND8.ALLD.ZS} - PDI-8 Bilateral aid that is untied (percent)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8140,7 +8140,7 @@
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND9.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND9.ALLD.ZS:PRT.PDCL.IND9.ALLD.ZS} - `"PDI-9 Aid provided in the framework of programme-based appproaches (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND9.ALLD.ZS:PRT.PDCL.IND9.ALLD.ZS} - PDI-9 Aid provided in the framework of programme-based appproaches (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8152,7 +8152,7 @@
 
 {synoptline}
 {marker sourceid_PX.MUV.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##PX.MUV.TOTL:PX.MUV.TOTL} - `"Manufactures value index"'}}
+{synopt:{bf:{help wbopendata_sourceid##PX.MUV.TOTL:PX.MUV.TOTL} - Manufactures value index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8164,7 +8164,7 @@
 
 {synoptline}
 {marker sourceid_PX.MUV.TOTL.XU}
-{synopt:{bf:{help wbopendata_sourceid##PX.MUV.TOTL.XU:PX.MUV.TOTL.XU} - `"Manufactured exports unit value (MUV) index (% change)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PX.MUV.TOTL.XU:PX.MUV.TOTL.XU} - Manufactured exports unit value (MUV) index (% change)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8176,7 +8176,7 @@
 
 {synoptline}
 {marker sourceid_PX.REC.REER}
-{synopt:{bf:{help wbopendata_sourceid##PX.REC.REER:PX.REC.REER} - `"Real effective exchange rate index (line rec, 2005 = 100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##PX.REC.REER:PX.REC.REER} - Real effective exchange rate index (line rec, 2005 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8188,7 +8188,7 @@
 
 {synoptline}
 {marker sourceid_SE.XPD.PTCH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.PTCH.ZS:SE.XPD.PTCH.ZS} - `"Spending on teaching materials, primary (% of primary expenditure)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SE.XPD.PTCH.ZS:SE.XPD.PTCH.ZS} - Spending on teaching materials, primary (% of primary expenditure)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8201,7 +8201,7 @@
 
 {synoptline}
 {marker sourceid_SE.XPD.STCH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.STCH.ZS:SE.XPD.STCH.ZS} - `"Spending on teaching materials, secondary (% of secondary expenditure)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SE.XPD.STCH.ZS:SE.XPD.STCH.ZS} - Spending on teaching materials, secondary (% of secondary expenditure)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8214,7 +8214,7 @@
 
 {synoptline}
 {marker sourceid_SE.XPD.TCHR.XC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.TCHR.XC.ZS:SE.XPD.TCHR.XC.ZS} - `"Teachers' salaries (% of current education expenditure)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SE.XPD.TCHR.XC.ZS:SE.XPD.TCHR.XC.ZS} - Teachers' salaries (% of current education expenditure)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8227,7 +8227,7 @@
 
 {synoptline}
 {marker sourceid_SH.DYN.AIDS.HG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.AIDS.HG.ZS:SH.DYN.AIDS.HG.ZS} - `"HIV prevalence rate, adult 15-49 years (%; high estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.DYN.AIDS.HG.ZS:SH.DYN.AIDS.HG.ZS} - HIV prevalence rate, adult 15-49 years (%; high estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8239,7 +8239,7 @@
 
 {synoptline}
 {marker sourceid_SH.DYN.AIDS.LW.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.AIDS.LW.ZS:SH.DYN.AIDS.LW.ZS} - `"HIV prevalence rate, adult 15-49 years (%; low estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.DYN.AIDS.LW.ZS:SH.DYN.AIDS.LW.ZS} - HIV prevalence rate, adult 15-49 years (%; low estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8251,7 +8251,7 @@
 
 {synoptline}
 {marker sourceid_SH.DYN.CHLD.FE}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.CHLD.FE:SH.DYN.CHLD.FE} - `"Mortality rate, female child (per 1,000 female children age one)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.DYN.CHLD.FE:SH.DYN.CHLD.FE} - Mortality rate, female child (per 1,000 female children age one)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8264,11 +8264,11 @@
 
 {synoptline}
 {marker sourceid_SH.DYN.CHLD.MA}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.CHLD.MA:SH.DYN.CHLD.MA} - `"Mortality rate, male child (per 1,000 male children age one)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.DYN.CHLD.MA:SH.DYN.CHLD.MA} - Mortality rate, male child (per 1,000 male children age one)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Child mortality rate is the probability of dying between the exact ages of one and five, if subject to current age-specific mortality rates. The probability is expressed as a rate per 1,000.{p_end}
 
@@ -8277,7 +8277,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.1524.FE.HG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.1524.FE.HG.ZS:SH.HIV.1524.FE.HG.ZS} - `"Prevalence of HIV, young women 15-24 years (%; high estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.1524.FE.HG.ZS:SH.HIV.1524.FE.HG.ZS} - Prevalence of HIV, young women 15-24 years (%; high estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8289,7 +8289,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.1524.FE.LW.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.1524.FE.LW.ZS:SH.HIV.1524.FE.LW.ZS} - `"Prevalence of HIV, young women 15-24 years (%; low estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.1524.FE.LW.ZS:SH.HIV.1524.FE.LW.ZS} - Prevalence of HIV, young women 15-24 years (%; low estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8301,7 +8301,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.1524.MA.HG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.1524.MA.HG.ZS:SH.HIV.1524.MA.HG.ZS} - `"Prevalence of HIV, young men 15-24 years (%; high estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.1524.MA.HG.ZS:SH.HIV.1524.MA.HG.ZS} - Prevalence of HIV, young men 15-24 years (%; high estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8313,7 +8313,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.1524.MA.LW.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.1524.MA.LW.ZS:SH.HIV.1524.MA.LW.ZS} - `"Prevalence of HIV, young men 15-24 years (%; low estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.1524.MA.LW.ZS:SH.HIV.1524.MA.LW.ZS} - Prevalence of HIV, young men 15-24 years (%; low estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8325,7 +8325,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.DTS.HG.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.DTS.HG.NUM:SH.HIV.DTS.HG.NUM} - `"AIDS deaths in adults and children (high estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.DTS.HG.NUM:SH.HIV.DTS.HG.NUM} - AIDS deaths in adults and children (high estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8337,7 +8337,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.DTS.LW.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.DTS.LW.NUM:SH.HIV.DTS.LW.NUM} - `"AIDS deaths in adults and children (low estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.DTS.LW.NUM:SH.HIV.DTS.LW.NUM} - AIDS deaths in adults and children (low estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8349,7 +8349,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.DTS.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.DTS.NUM:SH.HIV.DTS.NUM} - `"AIDS deaths in adults and children"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.DTS.NUM:SH.HIV.DTS.NUM} - AIDS deaths in adults and children}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8361,7 +8361,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.NEW.0014.HG.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.NEW.0014.HG.NUM:SH.HIV.NEW.0014.HG.NUM} - `"New HIV infections (0-14 years), high estimate"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.NEW.0014.HG.NUM:SH.HIV.NEW.0014.HG.NUM} - New HIV infections (0-14 years), high estimate}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8373,7 +8373,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.NEW.0014.LW.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.NEW.0014.LW.NUM:SH.HIV.NEW.0014.LW.NUM} - `"New HIV infections (0-14 years), low estimate"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.NEW.0014.LW.NUM:SH.HIV.NEW.0014.LW.NUM} - New HIV infections (0-14 years), low estimate}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8385,7 +8385,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.NEW.0014.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.NEW.0014.NUM:SH.HIV.NEW.0014.NUM} - `"New HIV infections (0-14 years)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.NEW.0014.NUM:SH.HIV.NEW.0014.NUM} - New HIV infections (0-14 years)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8397,7 +8397,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.NEW.TOTL.HG.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.NEW.TOTL.HG.NUM:SH.HIV.NEW.TOTL.HG.NUM} - `"New HIV infections, high estimate"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.NEW.TOTL.HG.NUM:SH.HIV.NEW.TOTL.HG.NUM} - New HIV infections, high estimate}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8409,7 +8409,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.NEW.TOTL.LW.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.NEW.TOTL.LW.NUM:SH.HIV.NEW.TOTL.LW.NUM} - `"New HIV infections, low estimate"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.NEW.TOTL.LW.NUM:SH.HIV.NEW.TOTL.LW.NUM} - New HIV infections, low estimate}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8421,7 +8421,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.NEW.TOTL.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.NEW.TOTL.NUM:SH.HIV.NEW.TOTL.NUM} - `"New HIV infections"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.NEW.TOTL.NUM:SH.HIV.NEW.TOTL.NUM} - New HIV infections}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8433,7 +8433,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.ORP.HG.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.ORP.HG.NUM:SH.HIV.ORP.HG.NUM} - `"Orphans 0-17 years currently living (high estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.ORP.HG.NUM:SH.HIV.ORP.HG.NUM} - Orphans 0-17 years currently living (high estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8445,7 +8445,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.ORP.LW.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.ORP.LW.NUM:SH.HIV.ORP.LW.NUM} - `"Orphans 0-17 years currently living (low estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.ORP.LW.NUM:SH.HIV.ORP.LW.NUM} - Orphans 0-17 years currently living (low estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8457,7 +8457,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.ORP.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.ORP.NUM:SH.HIV.ORP.NUM} - `"Orphans 0-17 years currently living"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.ORP.NUM:SH.HIV.ORP.NUM} - Orphans 0-17 years currently living}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8469,7 +8469,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.PREG.VIRALS.HG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.PREG.VIRALS.HG.ZS:SH.HIV.PREG.VIRALS.HG.ZS} - `"HIV positive pregnant women receiving antiretrovirals, using WHO/UNAIDS methodology (%; high estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.PREG.VIRALS.HG.ZS:SH.HIV.PREG.VIRALS.HG.ZS} - HIV positive pregnant women receiving antiretrovirals, using WHO/UNAIDS methodology (%; high estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8481,7 +8481,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.PREG.VIRALS.LW.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.PREG.VIRALS.LW.ZS:SH.HIV.PREG.VIRALS.LW.ZS} - `"HIV positive pregnant women receiving antiretrovirals, using WHO/UNAIDS methodology (%; low estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.PREG.VIRALS.LW.ZS:SH.HIV.PREG.VIRALS.LW.ZS} - HIV positive pregnant women receiving antiretrovirals, using WHO/UNAIDS methodology (%; low estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8493,7 +8493,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.PREG.VIRALS.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.PREG.VIRALS.NUM:SH.HIV.PREG.VIRALS.NUM} - `"Number of HIV positive pregnant women receiving antiretrovirals"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.PREG.VIRALS.NUM:SH.HIV.PREG.VIRALS.NUM} - Number of HIV positive pregnant women receiving antiretrovirals}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8505,7 +8505,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.PREG.VIRALS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.PREG.VIRALS.ZS:SH.HIV.PREG.VIRALS.ZS} - `"HIV positive pregnant women receiving antiretrovirals, using WHO/UNAIDS methodology (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.PREG.VIRALS.ZS:SH.HIV.PREG.VIRALS.ZS} - HIV positive pregnant women receiving antiretrovirals, using WHO/UNAIDS methodology (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8517,7 +8517,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.TOTL.HG.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.TOTL.HG.NUM:SH.HIV.TOTL.HG.NUM} - `"People living with HIV/AIDS, total (high estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.TOTL.HG.NUM:SH.HIV.TOTL.HG.NUM} - People living with HIV/AIDS, total (high estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8529,7 +8529,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.TOTL.LW.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.TOTL.LW.NUM:SH.HIV.TOTL.LW.NUM} - `"People living with HIV/AIDS, total (low estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.TOTL.LW.NUM:SH.HIV.TOTL.LW.NUM} - People living with HIV/AIDS, total (low estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8541,7 +8541,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.TOTL.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.TOTL.NUM:SH.HIV.TOTL.NUM} - `"People living with HIV/AIDS, total"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.TOTL.NUM:SH.HIV.TOTL.NUM} - People living with HIV/AIDS, total}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8553,7 +8553,7 @@
 
 {synoptline}
 {marker sourceid_SH.MLR.CSES.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##SH.MLR.CSES.TOTL:SH.MLR.CSES.TOTL} - `"Reported clinical malaria cases (total)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.MLR.CSES.TOTL:SH.MLR.CSES.TOTL} - Reported clinical malaria cases (total)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8565,7 +8565,7 @@
 
 {synoptline}
 {marker sourceid_SH.MLR.DTHS.CHLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.MLR.DTHS.CHLD.ZS:SH.MLR.DTHS.CHLD.ZS} - `"Deaths among children under five years of age due to malaria (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.MLR.DTHS.CHLD.ZS:SH.MLR.DTHS.CHLD.ZS} - Deaths among children under five years of age due to malaria (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8577,7 +8577,7 @@
 
 {synoptline}
 {marker sourceid_SH.MLR.DTHS.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##SH.MLR.DTHS.TOTL:SH.MLR.DTHS.TOTL} - `"Reported malaria deaths (total)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.MLR.DTHS.TOTL:SH.MLR.DTHS.TOTL} - Reported malaria deaths (total)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8589,7 +8589,7 @@
 
 {synoptline}
 {marker sourceid_SH.MLR.ITN.1HH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.MLR.ITN.1HH.ZS:SH.MLR.ITN.1HH.ZS} - `"Households with one or more insect-treated mosquito net (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.MLR.ITN.1HH.ZS:SH.MLR.ITN.1HH.ZS} - Households with one or more insect-treated mosquito net (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8601,7 +8601,7 @@
 
 {synoptline}
 {marker sourceid_SH.MLR.PREG.2IPT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.MLR.PREG.2IPT.ZS:SH.MLR.PREG.2IPT.ZS} - `"Pregnant women who took at least 2 doses of intermittent preventative treatment (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.MLR.PREG.2IPT.ZS:SH.MLR.PREG.2IPT.ZS} - Pregnant women who took at least 2 doses of intermittent preventative treatment (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8613,7 +8613,7 @@
 
 {synoptline}
 {marker sourceid_SH.TBS.INCD.HG}
-{synopt:{bf:{help wbopendata_sourceid##SH.TBS.INCD.HG:SH.TBS.INCD.HG} - `"Incidence of tuberculosis, high uncertainty bound (per 100,000 people)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.TBS.INCD.HG:SH.TBS.INCD.HG} - Incidence of tuberculosis, high uncertainty bound (per 100,000 people)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8625,7 +8625,7 @@
 
 {synoptline}
 {marker sourceid_SH.TBS.INCD.LW}
-{synopt:{bf:{help wbopendata_sourceid##SH.TBS.INCD.LW:SH.TBS.INCD.LW} - `"Incidence of tuberculosis, low uncertainty bound (per 100,000 people)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.TBS.INCD.LW:SH.TBS.INCD.LW} - Incidence of tuberculosis, low uncertainty bound (per 100,000 people)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8637,7 +8637,7 @@
 
 {synoptline}
 {marker sourceid_SH.TBS.MORT.HG}
-{synopt:{bf:{help wbopendata_sourceid##SH.TBS.MORT.HG:SH.TBS.MORT.HG} - `"Deaths due to tuberculosis among HIV-negative people, high uncertainty bound (per 100,000 population)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.TBS.MORT.HG:SH.TBS.MORT.HG} - Deaths due to tuberculosis among HIV-negative people, high uncertainty bound (per 100,000 population)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8649,7 +8649,7 @@
 
 {synoptline}
 {marker sourceid_SH.TBS.MORT.LW}
-{synopt:{bf:{help wbopendata_sourceid##SH.TBS.MORT.LW:SH.TBS.MORT.LW} - `"Deaths due to tuberculosis among HIV-negative people, low uncertainty bound (per 100,000 population)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.TBS.MORT.LW:SH.TBS.MORT.LW} - Deaths due to tuberculosis among HIV-negative people, low uncertainty bound (per 100,000 population)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8661,7 +8661,7 @@
 
 {synoptline}
 {marker sourceid_SH.TBS.PREV}
-{synopt:{bf:{help wbopendata_sourceid##SH.TBS.PREV:SH.TBS.PREV} - `"Tuberculosis prevalence rate (per 1000,000 population, WHO)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.TBS.PREV:SH.TBS.PREV} - Tuberculosis prevalence rate (per 1000,000 population, WHO)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8673,7 +8673,7 @@
 
 {synoptline}
 {marker sourceid_SH.TBS.PREV.HG}
-{synopt:{bf:{help wbopendata_sourceid##SH.TBS.PREV.HG:SH.TBS.PREV.HG} - `"Tuberculosis prevalence rate, high uncertainty bound (per 1000,000 population, WHO)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.TBS.PREV.HG:SH.TBS.PREV.HG} - Tuberculosis prevalence rate, high uncertainty bound (per 1000,000 population, WHO)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8685,7 +8685,7 @@
 
 {synoptline}
 {marker sourceid_SH.TBS.PREV.LW}
-{synopt:{bf:{help wbopendata_sourceid##SH.TBS.PREV.LW:SH.TBS.PREV.LW} - `"Tuberculosis prevalence rate, low uncertainty bound (per 1000,000 population, WHO)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.TBS.PREV.LW:SH.TBS.PREV.LW} - Tuberculosis prevalence rate, low uncertainty bound (per 1000,000 population, WHO)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8697,7 +8697,7 @@
 
 {synoptline}
 {marker sourceid_SH.XPD.PCAP.GX}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PCAP.GX:SH.XPD.PCAP.GX} - `"Government health expenditure per capita (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PCAP.GX:SH.XPD.PCAP.GX} - Government health expenditure per capita (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8709,7 +8709,7 @@
 
 {synoptline}
 {marker sourceid_SH.XPD.PRIV}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PRIV:SH.XPD.PRIV} - `"Health expenditure, private (% of total health expenditure)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PRIV:SH.XPD.PRIV} - Health expenditure, private (% of total health expenditure)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8722,7 +8722,7 @@
 
 {synoptline}
 {marker sourceid_SH.XPD.PRIV.PRPP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PRIV.PRPP.ZS:SH.XPD.PRIV.PRPP.ZS} - `"Private prepaid plans (% of private expenditure on health)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PRIV.PRPP.ZS:SH.XPD.PRIV.PRPP.ZS} - Private prepaid plans (% of private expenditure on health)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8734,7 +8734,7 @@
 
 {synoptline}
 {marker sourceid_SH.XPD.SOSE.GX.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.SOSE.GX.ZS:SH.XPD.SOSE.GX.ZS} - `"Social Security expenditure on health (% government expenditure on health)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.XPD.SOSE.GX.ZS:SH.XPD.SOSE.GX.ZS} - Social Security expenditure on health (% government expenditure on health)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8746,7 +8746,7 @@
 
 {synoptline}
 {marker sourceid_SH.XPD.TOTL.CD}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.TOTL.CD:SH.XPD.TOTL.CD} - `"Health expenditure (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.XPD.TOTL.CD:SH.XPD.TOTL.CD} - Health expenditure (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8758,7 +8758,7 @@
 
 {synoptline}
 {marker sourceid_SL.EMP.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.TOTL:SL.EMP.TOTL} - `"Number of people employed"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.EMP.TOTL:SL.EMP.TOTL} - Number of people employed}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8770,7 +8770,7 @@
 
 {synoptline}
 {marker sourceid_SL.EMP.TOTL.FE}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.TOTL.FE:SL.EMP.TOTL.FE} - `"Total employment, female (ages 15+)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.EMP.TOTL.FE:SL.EMP.TOTL.FE} - Total employment, female (ages 15+)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8782,7 +8782,7 @@
 
 {synoptline}
 {marker sourceid_SL.EMP.TOTL.MA}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.TOTL.MA:SL.EMP.TOTL.MA} - `"Total employment, male (ages 15+)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.EMP.TOTL.MA:SL.EMP.TOTL.MA} - Total employment, male (ages 15+)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8794,7 +8794,7 @@
 
 {synoptline}
 {marker sourceid_SL.GDP.PCAP.EM.KD.ZG}
-{synopt:{bf:{help wbopendata_sourceid##SL.GDP.PCAP.EM.KD.ZG:SL.GDP.PCAP.EM.KD.ZG} - `"GDP per person employed (annual % growth)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.GDP.PCAP.EM.KD.ZG:SL.GDP.PCAP.EM.KD.ZG} - GDP per person employed (annual % growth)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8806,7 +8806,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.1524.FE.IN}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1524.FE.IN:SL.TLF.1524.FE.IN} - `"Labor force (15-24 years), female"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1524.FE.IN:SL.TLF.1524.FE.IN} - Labor force (15-24 years), female}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8818,7 +8818,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.1524.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1524.FE.ZS:SL.TLF.1524.FE.ZS} - `"Labor force (15-24 years), female (% of total labor force 15-24 years)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1524.FE.ZS:SL.TLF.1524.FE.ZS} - Labor force (15-24 years), female (% of total labor force 15-24 years)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8830,7 +8830,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.1524.IN}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1524.IN:SL.TLF.1524.IN} - `"Labor force (15-24 years), total"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1524.IN:SL.TLF.1524.IN} - Labor force (15-24 years), total}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8842,7 +8842,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.1524.MA.IN}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1524.MA.IN:SL.TLF.1524.MA.IN} - `"Labor force (15-24 years), male"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1524.MA.IN:SL.TLF.1524.MA.IN} - Labor force (15-24 years), male}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8854,7 +8854,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.1524.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1524.MA.ZS:SL.TLF.1524.MA.ZS} - `"Labor force (15-24 years), male (% of total labor force 15-24 years)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1524.MA.ZS:SL.TLF.1524.MA.ZS} - Labor force (15-24 years), male (% of total labor force 15-24 years)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8866,7 +8866,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.1564.FE.IN}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1564.FE.IN:SL.TLF.1564.FE.IN} - `"Labor force (15-64 years), female"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1564.FE.IN:SL.TLF.1564.FE.IN} - Labor force (15-64 years), female}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8879,7 +8879,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.1564.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1564.FE.ZS:SL.TLF.1564.FE.ZS} - `"Labor force (15-64 years), female (% of total labor force 15-64 years)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1564.FE.ZS:SL.TLF.1564.FE.ZS} - Labor force (15-64 years), female (% of total labor force 15-64 years)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8892,7 +8892,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.1564.IN}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1564.IN:SL.TLF.1564.IN} - `"Labor force (15-64 years), total"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1564.IN:SL.TLF.1564.IN} - Labor force (15-64 years), total}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8905,7 +8905,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.1564.MA.IN}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1564.MA.IN:SL.TLF.1564.MA.IN} - `"Labor force (15-64 years), male"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1564.MA.IN:SL.TLF.1564.MA.IN} - Labor force (15-64 years), male}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8918,7 +8918,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.1564.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1564.MA.ZS:SL.TLF.1564.MA.ZS} - `"Labor force (15-64 years), male (% of total labor force 15-64 years)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1564.MA.ZS:SL.TLF.1564.MA.ZS} - Labor force (15-64 years), male (% of total labor force 15-64 years)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8931,7 +8931,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.2534.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.2534.FE.ZS:SL.TLF.CACT.2534.FE.ZS} - `"Labor participation rate, female (% of female population ages 25-34)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.2534.FE.ZS:SL.TLF.CACT.2534.FE.ZS} - Labor participation rate, female (% of female population ages 25-34)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8943,7 +8943,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.2534.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.2534.MA.ZS:SL.TLF.CACT.2534.MA.ZS} - `"Labor participation rate, male (% of male population ages 25-34)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.2534.MA.ZS:SL.TLF.CACT.2534.MA.ZS} - Labor participation rate, male (% of male population ages 25-34)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8955,7 +8955,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.2534.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.2534.ZS:SL.TLF.CACT.2534.ZS} - `"Labor participation rate, total (% of total population ages 25-34)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.2534.ZS:SL.TLF.CACT.2534.ZS} - Labor participation rate, total (% of total population ages 25-34)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8967,7 +8967,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.2554.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.2554.FE.ZS:SL.TLF.CACT.2554.FE.ZS} - `"Labor participation rate, female (% of female population ages 25-54)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.2554.FE.ZS:SL.TLF.CACT.2554.FE.ZS} - Labor participation rate, female (% of female population ages 25-54)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8979,7 +8979,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.2554.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.2554.MA.ZS:SL.TLF.CACT.2554.MA.ZS} - `"Labor participation rate, male (% of male population ages 25-54)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.2554.MA.ZS:SL.TLF.CACT.2554.MA.ZS} - Labor participation rate, male (% of male population ages 25-54)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8991,7 +8991,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.2554.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.2554.ZS:SL.TLF.CACT.2554.ZS} - `"Labor participation rate, total (% of total population ages 25-54)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.2554.ZS:SL.TLF.CACT.2554.ZS} - Labor participation rate, total (% of total population ages 25-54)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9003,7 +9003,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.3554.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.3554.FE.ZS:SL.TLF.CACT.3554.FE.ZS} - `"Labor participation rate, female (% of female population ages 35-54)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.3554.FE.ZS:SL.TLF.CACT.3554.FE.ZS} - Labor participation rate, female (% of female population ages 35-54)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9015,7 +9015,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.3554.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.3554.MA.ZS:SL.TLF.CACT.3554.MA.ZS} - `"Labor participation rate, male (% of male population ages 35-54)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.3554.MA.ZS:SL.TLF.CACT.3554.MA.ZS} - Labor participation rate, male (% of male population ages 35-54)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9027,7 +9027,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.3554.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.3554.ZS:SL.TLF.CACT.3554.ZS} - `"Labor participation rate, total (% of total population ages 35-54)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.3554.ZS:SL.TLF.CACT.3554.ZS} - Labor participation rate, total (% of total population ages 35-54)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9039,7 +9039,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.5564.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.5564.FE.ZS:SL.TLF.CACT.5564.FE.ZS} - `"Labor participation rate, female (% of female population ages 55-64)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.5564.FE.ZS:SL.TLF.CACT.5564.FE.ZS} - Labor participation rate, female (% of female population ages 55-64)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9051,7 +9051,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.5564.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.5564.MA.ZS:SL.TLF.CACT.5564.MA.ZS} - `"Labor participation rate, male (% of male population ages 55-64)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.5564.MA.ZS:SL.TLF.CACT.5564.MA.ZS} - Labor participation rate, male (% of male population ages 55-64)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9063,7 +9063,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.5564.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.5564.ZS:SL.TLF.CACT.5564.ZS} - `"Labor participation rate, total (% of total population ages 55-64)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.5564.ZS:SL.TLF.CACT.5564.ZS} - Labor participation rate, total (% of total population ages 55-64)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9075,7 +9075,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.65UP.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.65UP.FE.ZS:SL.TLF.CACT.65UP.FE.ZS} - `"Labor participation rate, female (% of female population ages 65+)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.65UP.FE.ZS:SL.TLF.CACT.65UP.FE.ZS} - Labor participation rate, female (% of female population ages 65+)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9087,7 +9087,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.65UP.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.65UP.MA.ZS:SL.TLF.CACT.65UP.MA.ZS} - `"Labor participation rate, male (% of male population ages 65+)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.65UP.MA.ZS:SL.TLF.CACT.65UP.MA.ZS} - Labor participation rate, male (% of male population ages 65+)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9099,7 +9099,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.65UP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.65UP.ZS:SL.TLF.CACT.65UP.ZS} - `"Labor participation rate, total (% of total population ages 65+)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.65UP.ZS:SL.TLF.CACT.65UP.ZS} - Labor participation rate, total (% of total population ages 65+)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9111,7 +9111,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.TOTL.MA.IN}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.TOTL.MA.IN:SL.TLF.TOTL.MA.IN} - `"Labor force, male"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.TOTL.MA.IN:SL.TLF.TOTL.MA.IN} - Labor force, male}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9123,7 +9123,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.TOTL.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.TOTL.MA.ZS:SL.TLF.TOTL.MA.ZS} - `"Labor force, male (% of total labor force)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.TOTL.MA.ZS:SL.TLF.TOTL.MA.ZS} - Labor force, male (% of total labor force)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9135,7 +9135,7 @@
 
 {synoptline}
 {marker sourceid_SL.UEM.SECO.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.SECO.ZS:SL.UEM.SECO.ZS} - `"Unemployment with secondary education (% of total unemployment)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.UEM.SECO.ZS:SL.UEM.SECO.ZS} - Unemployment with secondary education (% of total unemployment)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9148,7 +9148,7 @@
 
 {synoptline}
 {marker sourceid_SL.UEM.TERT.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.TERT.MA.ZS:SL.UEM.TERT.MA.ZS} - `"Unemployment with tertiary education, male (% of male unemployment)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.UEM.TERT.MA.ZS:SL.UEM.TERT.MA.ZS} - Unemployment with tertiary education, male (% of male unemployment)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9161,7 +9161,7 @@
 
 {synoptline}
 {marker sourceid_SN.ITK.DEFC.POP}
-{synopt:{bf:{help wbopendata_sourceid##SN.ITK.DEFC.POP:SN.ITK.DEFC.POP} - `"Prevalence of undernourishment (population)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SN.ITK.DEFC.POP:SN.ITK.DEFC.POP} - Prevalence of undernourishment (population)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9173,7 +9173,7 @@
 
 {synoptline}
 {marker sourceid_SN.ITK.DPTH}
-{synopt:{bf:{help wbopendata_sourceid##SN.ITK.DPTH:SN.ITK.DPTH} - `"Depth of hunger (kilocalories per person per day)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SN.ITK.DPTH:SN.ITK.DPTH} - Depth of hunger (kilocalories per person per day)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9186,7 +9186,7 @@
 
 {synoptline}
 {marker sourceid_SP.DYN.1ANTE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.1ANTE.ZS:SP.DYN.1ANTE.ZS} - `"Antenatal care coverage provided by a skilled health provider, at least one visit (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SP.DYN.1ANTE.ZS:SP.DYN.1ANTE.ZS} - Antenatal care coverage provided by a skilled health provider, at least one visit (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9198,7 +9198,7 @@
 
 {synoptline}
 {marker sourceid_SP.DYN.4ANTE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.4ANTE.ZS:SP.DYN.4ANTE.ZS} - `"Antenatal care coverage provided by any provider (skilled or unskilled), at least four visits (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SP.DYN.4ANTE.ZS:SP.DYN.4ANTE.ZS} - Antenatal care coverage provided by any provider (skilled or unskilled), at least four visits (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9210,7 +9210,7 @@
 
 {synoptline}
 {marker sourceid_SP.DYN.CONU.CDM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.CONU.CDM.ZS:SP.DYN.CONU.CDM.ZS} - `"Contraceptive use among married women 15-49 years old, condom (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SP.DYN.CONU.CDM.ZS:SP.DYN.CONU.CDM.ZS} - Contraceptive use among married women 15-49 years old, condom (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9222,7 +9222,7 @@
 
 {synoptline}
 {marker sourceid_SP.DYN.CONU.MDN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.CONU.MDN.ZS:SP.DYN.CONU.MDN.ZS} - `"Contraceptive use among married women 15-49 years old, modern method (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SP.DYN.CONU.MDN.ZS:SP.DYN.CONU.MDN.ZS} - Contraceptive use among married women 15-49 years old, modern method (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9234,7 +9234,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.0024.TO.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.0024.TO.ZS:SP.POP.0024.TO.ZS} - `"Population 0-24 (% of total population)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.0024.TO.ZS:SP.POP.0024.TO.ZS} - Population 0-24 (% of total population)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9246,7 +9246,7 @@
 
 {synoptline}
 {marker sourceid_SS.H2O.FAIL.DY}
-{synopt:{bf:{help wbopendata_sourceid##SS.H2O.FAIL.DY:SS.H2O.FAIL.DY} - `"Water supply failure for firms receiving water (average days/year)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SS.H2O.FAIL.DY:SS.H2O.FAIL.DY} - Water supply failure for firms receiving water (average days/year)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9258,7 +9258,7 @@
 
 {synoptline}
 {marker sourceid_TM.CONC.DIV.NO}
-{synopt:{bf:{help wbopendata_sourceid##TM.CONC.DIV.NO:TM.CONC.DIV.NO} - `"Number of product (imports)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.CONC.DIV.NO:TM.CONC.DIV.NO} - Number of product (imports)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9270,7 +9270,7 @@
 
 {synoptline}
 {marker sourceid_TM.CONC.IND.XQ}
-{synopt:{bf:{help wbopendata_sourceid##TM.CONC.IND.XQ:TM.CONC.IND.XQ} - `"Import product concentration index"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.CONC.IND.XQ:TM.CONC.IND.XQ} - Import product concentration index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9282,7 +9282,7 @@
 
 {synoptline}
 {marker sourceid_TM.DIV.IND.XQ}
-{synopt:{bf:{help wbopendata_sourceid##TM.DIV.IND.XQ:TM.DIV.IND.XQ} - `"Import product diversification index"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.DIV.IND.XQ:TM.DIV.IND.XQ} - Import product diversification index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9294,7 +9294,7 @@
 
 {synoptline}
 {marker sourceid_TM.GATS.XD}
-{synopt:{bf:{help wbopendata_sourceid##TM.GATS.XD:TM.GATS.XD} - `"General Agreement on Trade in Services (GATS) Commitments Index, all service sectors (0 least liberal to 100 most liberal)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.GATS.XD:TM.GATS.XD} - General Agreement on Trade in Services (GATS) Commitments Index, all service sectors (0 least liberal to 100 most liberal)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9306,7 +9306,7 @@
 
 {synoptline}
 {marker sourceid_TM.PRI.MRCH.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.PRI.MRCH.XD.WB:TM.PRI.MRCH.XD.WB} - `"Merchandise import price index"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.PRI.MRCH.XD.WB:TM.PRI.MRCH.XD.WB} - Merchandise import price index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9318,7 +9318,7 @@
 
 {synoptline}
 {marker sourceid_TM.PRI.NFSV.XU}
-{synopt:{bf:{help wbopendata_sourceid##TM.PRI.NFSV.XU:TM.PRI.NFSV.XU} - `"Import price index, (nonfactor) services"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.PRI.NFSV.XU:TM.PRI.NFSV.XU} - Import price index, (nonfactor) services}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9330,7 +9330,7 @@
 
 {synoptline}
 {marker sourceid_TM.QTY.ENGY.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.QTY.ENGY.XD.WB:TM.QTY.ENGY.XD.WB} - `"Import volume index, POL and other energy"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.QTY.ENGY.XD.WB:TM.QTY.ENGY.XD.WB} - Import volume index, POL and other energy}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9342,7 +9342,7 @@
 
 {synoptline}
 {marker sourceid_TM.QTY.FOOD.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.QTY.FOOD.XD.WB:TM.QTY.FOOD.XD.WB} - `"Import volume index, food"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.QTY.FOOD.XD.WB:TM.QTY.FOOD.XD.WB} - Import volume index, food}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9354,7 +9354,7 @@
 
 {synoptline}
 {marker sourceid_TM.QTY.KGDS.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.QTY.KGDS.XD.WB:TM.QTY.KGDS.XD.WB} - `"Import volume index, capital goods"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.QTY.KGDS.XD.WB:TM.QTY.KGDS.XD.WB} - Import volume index, capital goods}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9366,7 +9366,7 @@
 
 {synoptline}
 {marker sourceid_TM.QTY.MRCH.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.QTY.MRCH.XD.WB:TM.QTY.MRCH.XD.WB} - `"Merchandise import volume index"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.QTY.MRCH.XD.WB:TM.QTY.MRCH.XD.WB} - Merchandise import volume index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9378,7 +9378,7 @@
 
 {synoptline}
 {marker sourceid_TM.QTY.NFCG.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.QTY.NFCG.XD.WB:TM.QTY.NFCG.XD.WB} - `"Import volume index, other consumer goods"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.QTY.NFCG.XD.WB:TM.QTY.NFCG.XD.WB} - Import volume index, other consumer goods}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9390,7 +9390,7 @@
 
 {synoptline}
 {marker sourceid_TM.QTY.NFSV.XD}
-{synopt:{bf:{help wbopendata_sourceid##TM.QTY.NFSV.XD:TM.QTY.NFSV.XD} - `"Import volume index, (nonfactor) services"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.QTY.NFSV.XD:TM.QTY.NFSV.XD} - Import volume index, (nonfactor) services}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9402,7 +9402,7 @@
 
 {synoptline}
 {marker sourceid_TM.QTY.RAWM.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.QTY.RAWM.XD.WB:TM.QTY.RAWM.XD.WB} - `"Import volume index, manufactures"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.QTY.RAWM.XD.WB:TM.QTY.RAWM.XD.WB} - Import volume index, manufactures}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9414,7 +9414,7 @@
 
 {synoptline}
 {marker sourceid_TM.QTY.RAWP.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.QTY.RAWP.XD.WB:TM.QTY.RAWP.XD.WB} - `"Import volume index, primary goods"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.QTY.RAWP.XD.WB:TM.QTY.RAWP.XD.WB} - Import volume index, primary goods}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9426,7 +9426,7 @@
 
 {synoptline}
 {marker sourceid_TM.QTY.RAWT.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.QTY.RAWT.XD.WB:TM.QTY.RAWT.XD.WB} - `"Import volume index, intermediate goods"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.QTY.RAWT.XD.WB:TM.QTY.RAWT.XD.WB} - Import volume index, intermediate goods}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9438,7 +9438,7 @@
 
 {synoptline}
 {marker sourceid_TM.TAX.MANF.B.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.B.ZS:TM.TAX.MANF.B.ZS} - `"Tariff barriers, share of lines bound, manufactured products (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.B.ZS:TM.TAX.MANF.B.ZS} - Tariff barriers, share of lines bound, manufactured products (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9450,7 +9450,7 @@
 
 {synoptline}
 {marker sourceid_TM.TAX.MANF.DM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.DM.ZS:TM.TAX.MANF.DM.ZS} - `"Tariff barriers, dispersion around the mean, manufactured products (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.DM.ZS:TM.TAX.MANF.DM.ZS} - Tariff barriers, dispersion around the mean, manufactured products (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9462,7 +9462,7 @@
 
 {synoptline}
 {marker sourceid_TM.TAX.MANF.DP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.DP.ZS:TM.TAX.MANF.DP.ZS} - `"Tariff barriers, share of lines domestic peaks, manufactured products (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.DP.ZS:TM.TAX.MANF.DP.ZS} - Tariff barriers, share of lines domestic peaks, manufactured products (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9474,7 +9474,7 @@
 
 {synoptline}
 {marker sourceid_TM.TAX.MRCH.B.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MRCH.B.ZS:TM.TAX.MRCH.B.ZS} - `"Tariff barriers, share of lines bound, all products (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MRCH.B.ZS:TM.TAX.MRCH.B.ZS} - Tariff barriers, share of lines bound, all products (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9486,7 +9486,7 @@
 
 {synoptline}
 {marker sourceid_TM.TAX.MRCH.DM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MRCH.DM.ZS:TM.TAX.MRCH.DM.ZS} - `"Tariff barriers, dispersion around the mean, all products (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MRCH.DM.ZS:TM.TAX.MRCH.DM.ZS} - Tariff barriers, dispersion around the mean, all products (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9498,7 +9498,7 @@
 
 {synoptline}
 {marker sourceid_TM.TAX.MRCH.DP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MRCH.DP.ZS:TM.TAX.MRCH.DP.ZS} - `"Tariff barriers, share of lines domestic peaks, all products (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MRCH.DP.ZS:TM.TAX.MRCH.DP.ZS} - Tariff barriers, share of lines domestic peaks, all products (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9510,7 +9510,7 @@
 
 {synoptline}
 {marker sourceid_TM.TAX.TCOM.B.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.B.ZS:TM.TAX.TCOM.B.ZS} - `"Tariff barriers, share of lines bound, primary products (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.B.ZS:TM.TAX.TCOM.B.ZS} - Tariff barriers, share of lines bound, primary products (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9522,7 +9522,7 @@
 
 {synoptline}
 {marker sourceid_TM.TAX.TCOM.DM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.DM.ZS:TM.TAX.TCOM.DM.ZS} - `"Tariff barriers, dispersion around the mean, primary products (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.DM.ZS:TM.TAX.TCOM.DM.ZS} - Tariff barriers, dispersion around the mean, primary products (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9534,7 +9534,7 @@
 
 {synoptline}
 {marker sourceid_TM.TAX.TCOM.DP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.DP.ZS:TM.TAX.TCOM.DP.ZS} - `"Tariff barriers, share of lines domestic peaks, primary (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.DP.ZS:TM.TAX.TCOM.DP.ZS} - Tariff barriers, share of lines domestic peaks, primary (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9546,7 +9546,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.ENGY.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.ENGY.CD.WB:TM.VAL.ENGY.CD.WB} - `"POL and other energy imports (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.ENGY.CD.WB:TM.VAL.ENGY.CD.WB} - POL and other energy imports (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9558,7 +9558,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.ENGY.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.ENGY.KD.WB:TM.VAL.ENGY.KD.WB} - `"POL and other energy imports (constant US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.ENGY.KD.WB:TM.VAL.ENGY.KD.WB} - POL and other energy imports (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9570,7 +9570,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.FOOD.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.FOOD.CD.WB:TM.VAL.FOOD.CD.WB} - `"Food imports (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.FOOD.CD.WB:TM.VAL.FOOD.CD.WB} - Food imports (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9582,7 +9582,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.FOOD.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.FOOD.KD.WB:TM.VAL.FOOD.KD.WB} - `"Food imports (constant US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.FOOD.KD.WB:TM.VAL.FOOD.KD.WB} - Food imports (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9594,7 +9594,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.KGDS.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.KGDS.CD.WB:TM.VAL.KGDS.CD.WB} - `"Capital goods imports (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.KGDS.CD.WB:TM.VAL.KGDS.CD.WB} - Capital goods imports (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9606,7 +9606,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.KGDS.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.KGDS.KD.WB:TM.VAL.KGDS.KD.WB} - `"Capital goods imports (constant US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.KGDS.KD.WB:TM.VAL.KGDS.KD.WB} - Capital goods imports (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9618,7 +9618,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.MRCH.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.CD.WB:TM.VAL.MRCH.CD.WB} - `"Merchandise imports, WB (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.CD.WB:TM.VAL.MRCH.CD.WB} - Merchandise imports, WB (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9630,7 +9630,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.MRCH.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.KD.WB:TM.VAL.MRCH.KD.WB} - `"Merchandise imports (constant US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.KD.WB:TM.VAL.MRCH.KD.WB} - Merchandise imports (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9642,7 +9642,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.NFCG.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.NFCG.CD.WB:TM.VAL.NFCG.CD.WB} - `"Other consumer goods imports (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.NFCG.CD.WB:TM.VAL.NFCG.CD.WB} - Other consumer goods imports (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9654,7 +9654,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.NFCG.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.NFCG.KD.WB:TM.VAL.NFCG.KD.WB} - `"Other consumer goods imports (constant US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.NFCG.KD.WB:TM.VAL.NFCG.KD.WB} - Other consumer goods imports (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9666,7 +9666,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.RAWM.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.RAWM.CD.WB:TM.VAL.RAWM.CD.WB} - `"Intermediate goods imports, manufactures (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.RAWM.CD.WB:TM.VAL.RAWM.CD.WB} - Intermediate goods imports, manufactures (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9678,7 +9678,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.RAWM.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.RAWM.KD.WB:TM.VAL.RAWM.KD.WB} - `"Intermediate goods imports, manufactures (constant US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.RAWM.KD.WB:TM.VAL.RAWM.KD.WB} - Intermediate goods imports, manufactures (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9690,7 +9690,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.RAWP.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.RAWP.CD.WB:TM.VAL.RAWP.CD.WB} - `"Intermediate goods imports, primary (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.RAWP.CD.WB:TM.VAL.RAWP.CD.WB} - Intermediate goods imports, primary (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9702,7 +9702,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.RAWP.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.RAWP.KD.WB:TM.VAL.RAWP.KD.WB} - `"Intermediate goods imports, primary (constant US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.RAWP.KD.WB:TM.VAL.RAWP.KD.WB} - Intermediate goods imports, primary (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9714,7 +9714,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.RAWT.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.RAWT.CD.WB:TM.VAL.RAWT.CD.WB} - `"Intermediate goods imports, total (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.RAWT.CD.WB:TM.VAL.RAWT.CD.WB} - Intermediate goods imports, total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9726,7 +9726,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.RAWT.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.RAWT.KD.WB:TM.VAL.RAWT.KD.WB} - `"Intermediate goods imports, total (constant US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.RAWT.KD.WB:TM.VAL.RAWT.KD.WB} - Intermediate goods imports, total (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9738,7 +9738,7 @@
 
 {synoptline}
 {marker sourceid_TT.PRI.MRCH.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TT.PRI.MRCH.XD.WB:TT.PRI.MRCH.XD.WB} - `"Merchandise Terms of Trade (1987 = 100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TT.PRI.MRCH.XD.WB:TT.PRI.MRCH.XD.WB} - Merchandise Terms of Trade (1987 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9750,7 +9750,7 @@
 
 {synoptline}
 {marker sourceid_TX.CONC.DIV.NO}
-{synopt:{bf:{help wbopendata_sourceid##TX.CONC.DIV.NO:TX.CONC.DIV.NO} - `"Number of product (exports)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.CONC.DIV.NO:TX.CONC.DIV.NO} - Number of product (exports)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9762,7 +9762,7 @@
 
 {synoptline}
 {marker sourceid_TX.CONC.IND.XQ}
-{synopt:{bf:{help wbopendata_sourceid##TX.CONC.IND.XQ:TX.CONC.IND.XQ} - `"Export product concentration index"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.CONC.IND.XQ:TX.CONC.IND.XQ} - Export product concentration index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9774,7 +9774,7 @@
 
 {synoptline}
 {marker sourceid_TX.DIV.IND.XQ}
-{synopt:{bf:{help wbopendata_sourceid##TX.DIV.IND.XQ:TX.DIV.IND.XQ} - `"Export product diversification index"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.DIV.IND.XQ:TX.DIV.IND.XQ} - Export product diversification index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9786,7 +9786,7 @@
 
 {synoptline}
 {marker sourceid_TX.PRI.MRCH.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.PRI.MRCH.XD.WB:TX.PRI.MRCH.XD.WB} - `"Merchandise export price index (1987 = 100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.PRI.MRCH.XD.WB:TX.PRI.MRCH.XD.WB} - Merchandise export price index (1987 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9798,7 +9798,7 @@
 
 {synoptline}
 {marker sourceid_TX.PRI.NFSV.XU}
-{synopt:{bf:{help wbopendata_sourceid##TX.PRI.NFSV.XU:TX.PRI.NFSV.XU} - `"Export price index, (nonfactor) services"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.PRI.NFSV.XU:TX.PRI.NFSV.XU} - Export price index, (nonfactor) services}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9810,7 +9810,7 @@
 
 {synoptline}
 {marker sourceid_TX.QTY.COM1.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.QTY.COM1.XD.WB:TX.QTY.COM1.XD.WB} - `"Exports of commodity 1 (volume index)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.QTY.COM1.XD.WB:TX.QTY.COM1.XD.WB} - Exports of commodity 1 (volume index)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9822,7 +9822,7 @@
 
 {synoptline}
 {marker sourceid_TX.QTY.COM2.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.QTY.COM2.XD.WB:TX.QTY.COM2.XD.WB} - `"Exports of commodity 2 (volume index)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.QTY.COM2.XD.WB:TX.QTY.COM2.XD.WB} - Exports of commodity 2 (volume index)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9834,7 +9834,7 @@
 
 {synoptline}
 {marker sourceid_TX.QTY.COM3.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.QTY.COM3.XD.WB:TX.QTY.COM3.XD.WB} - `"Exports of commodity 3 (volume index)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.QTY.COM3.XD.WB:TX.QTY.COM3.XD.WB} - Exports of commodity 3 (volume index)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9846,7 +9846,7 @@
 
 {synoptline}
 {marker sourceid_TX.QTY.COM4.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.QTY.COM4.XD.WB:TX.QTY.COM4.XD.WB} - `"Exports of commodity 4 (volume index)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.QTY.COM4.XD.WB:TX.QTY.COM4.XD.WB} - Exports of commodity 4 (volume index)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9858,7 +9858,7 @@
 
 {synoptline}
 {marker sourceid_TX.QTY.MANF.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.QTY.MANF.XD.WB:TX.QTY.MANF.XD.WB} - `"Export volume index, manufactures"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.QTY.MANF.XD.WB:TX.QTY.MANF.XD.WB} - Export volume index, manufactures}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9870,7 +9870,7 @@
 
 {synoptline}
 {marker sourceid_TX.QTY.MRCH.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.QTY.MRCH.XD.WB:TX.QTY.MRCH.XD.WB} - `"Merchandise export volume index"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.QTY.MRCH.XD.WB:TX.QTY.MRCH.XD.WB} - Merchandise export volume index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9882,7 +9882,7 @@
 
 {synoptline}
 {marker sourceid_TX.QTY.NFSV.XD}
-{synopt:{bf:{help wbopendata_sourceid##TX.QTY.NFSV.XD:TX.QTY.NFSV.XD} - `"Export volume index, (nonfactor) services"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.QTY.NFSV.XD:TX.QTY.NFSV.XD} - Export volume index, (nonfactor) services}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9894,7 +9894,7 @@
 
 {synoptline}
 {marker sourceid_TX.QTY.OCOM.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.QTY.OCOM.XD.WB:TX.QTY.OCOM.XD.WB} - `"Export volume index, other primary commodities"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.QTY.OCOM.XD.WB:TX.QTY.OCOM.XD.WB} - Export volume index, other primary commodities}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9906,7 +9906,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.COM1.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.COM1.CD.WB:TX.VAL.COM1.CD.WB} - `"Exports of commodity 1 (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.COM1.CD.WB:TX.VAL.COM1.CD.WB} - Exports of commodity 1 (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9918,7 +9918,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.COM1.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.COM1.KD.WB:TX.VAL.COM1.KD.WB} - `"Exports of commodity 1 (constant US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.COM1.KD.WB:TX.VAL.COM1.KD.WB} - Exports of commodity 1 (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9930,7 +9930,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.COM2.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.COM2.CD.WB:TX.VAL.COM2.CD.WB} - `"Exports of commodity 2 (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.COM2.CD.WB:TX.VAL.COM2.CD.WB} - Exports of commodity 2 (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9942,7 +9942,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.COM2.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.COM2.KD.WB:TX.VAL.COM2.KD.WB} - `"Exports of commodity 2 (constant US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.COM2.KD.WB:TX.VAL.COM2.KD.WB} - Exports of commodity 2 (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9954,7 +9954,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.COM3.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.COM3.CD.WB:TX.VAL.COM3.CD.WB} - `"Exports of commodity 3 (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.COM3.CD.WB:TX.VAL.COM3.CD.WB} - Exports of commodity 3 (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9966,7 +9966,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.COM3.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.COM3.KD.WB:TX.VAL.COM3.KD.WB} - `"Exports of commodity 3 (constant US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.COM3.KD.WB:TX.VAL.COM3.KD.WB} - Exports of commodity 3 (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9978,7 +9978,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.COM4.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.COM4.CD.WB:TX.VAL.COM4.CD.WB} - `"Exports of commodity 4 (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.COM4.CD.WB:TX.VAL.COM4.CD.WB} - Exports of commodity 4 (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9990,7 +9990,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.COM4.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.COM4.KD.WB:TX.VAL.COM4.KD.WB} - `"Exports of commodity 4 (constant US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.COM4.KD.WB:TX.VAL.COM4.KD.WB} - Exports of commodity 4 (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10002,7 +10002,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.MANF.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MANF.CD.WB:TX.VAL.MANF.CD.WB} - `"Manufactures exports (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MANF.CD.WB:TX.VAL.MANF.CD.WB} - Manufactures exports (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10014,7 +10014,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.MANF.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MANF.KD.WB:TX.VAL.MANF.KD.WB} - `"Manufactures exports (constant US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MANF.KD.WB:TX.VAL.MANF.KD.WB} - Manufactures exports (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10026,7 +10026,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.MRCH.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.CD.WB:TX.VAL.MRCH.CD.WB} - `"Merchandise exports, WB (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.CD.WB:TX.VAL.MRCH.CD.WB} - Merchandise exports, WB (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10038,7 +10038,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.MRCH.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.KD.WB:TX.VAL.MRCH.KD.WB} - `"Merchandise exports (constant US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.KD.WB:TX.VAL.MRCH.KD.WB} - Merchandise exports (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10050,7 +10050,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.OCOM.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.OCOM.CD.WB:TX.VAL.OCOM.CD.WB} - `"Other primary commodities exports (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.OCOM.CD.WB:TX.VAL.OCOM.CD.WB} - Other primary commodities exports (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10062,7 +10062,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.OCOM.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.OCOM.KD.WB:TX.VAL.OCOM.KD.WB} - `"Other primary commodities exports (constant US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.OCOM.KD.WB:TX.VAL.OCOM.KD.WB} - Other primary commodities exports (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10074,7 +10074,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.TCOM.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.TCOM.CD.WB:TX.VAL.TCOM.CD.WB} - `"Primary commodities exports (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.TCOM.CD.WB:TX.VAL.TCOM.CD.WB} - Primary commodities exports (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10086,7 +10086,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.TCOM.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.TCOM.KD.WB:TX.VAL.TCOM.KD.WB} - `"Primary commodities exports (constant US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.TCOM.KD.WB:TX.VAL.TCOM.KD.WB} - Primary commodities exports (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10098,7 +10098,7 @@
 
 {synoptline}
 {marker sourceid_UNDP.HDI.XD}
-{synopt:{bf:{help wbopendata_sourceid##UNDP.HDI.XD:UNDP.HDI.XD} - `"Human development index (HDI)"'}}
+{synopt:{bf:{help wbopendata_sourceid##UNDP.HDI.XD:UNDP.HDI.XD} - Human development index (HDI)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10110,7 +10110,7 @@
 
 {synoptline}
 {marker sourceid_UPP.COM.POL.XQ}
-{synopt:{bf:{help wbopendata_sourceid##UPP.COM.POL.XQ:UPP.COM.POL.XQ} - `"Combined polity score"'}}
+{synopt:{bf:{help wbopendata_sourceid##UPP.COM.POL.XQ:UPP.COM.POL.XQ} - Combined polity score}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10122,7 +10122,7 @@
 
 {synoptline}
 {marker sourceid_UPP.INS.AUTO.XQ}
-{synopt:{bf:{help wbopendata_sourceid##UPP.INS.AUTO.XQ:UPP.INS.AUTO.XQ} - `"Institutionalized autocracy"'}}
+{synopt:{bf:{help wbopendata_sourceid##UPP.INS.AUTO.XQ:UPP.INS.AUTO.XQ} - Institutionalized autocracy}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10134,7 +10134,7 @@
 
 {synoptline}
 {marker sourceid_UPP.INS.DEMO.XQ}
-{synopt:{bf:{help wbopendata_sourceid##UPP.INS.DEMO.XQ:UPP.INS.DEMO.XQ} - `"Institutionalized democracy"'}}
+{synopt:{bf:{help wbopendata_sourceid##UPP.INS.DEMO.XQ:UPP.INS.DEMO.XQ} - Institutionalized democracy}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10146,7 +10146,7 @@
 
 {synoptline}
 {marker sourceid_UPP.REV.POL.XQ}
-{synopt:{bf:{help wbopendata_sourceid##UPP.REV.POL.XQ:UPP.REV.POL.XQ} - `"Revised Combined Polity Score"'}}
+{synopt:{bf:{help wbopendata_sourceid##UPP.REV.POL.XQ:UPP.REV.POL.XQ} - Revised Combined Polity Score}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10158,7 +10158,7 @@
 
 {synoptline}
 {marker sourceid_VC.IDP.TOTL.HE}
-{synopt:{bf:{help wbopendata_sourceid##VC.IDP.TOTL.HE:VC.IDP.TOTL.HE} - `"Internally displaced persons (number, high estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##VC.IDP.TOTL.HE:VC.IDP.TOTL.HE} - Internally displaced persons (number, high estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10171,7 +10171,7 @@
 
 {synoptline}
 {marker sourceid_VC.IDP.TOTL.LE}
-{synopt:{bf:{help wbopendata_sourceid##VC.IDP.TOTL.LE:VC.IDP.TOTL.LE} - `"Internally displaced persons (number, low estimate)"'}}
+{synopt:{bf:{help wbopendata_sourceid##VC.IDP.TOTL.LE:VC.IDP.TOTL.LE} - Internally displaced persons (number, low estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10183,4 +10183,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
