@@ -70,7 +70,7 @@
 {marker sourceid_LP.LPI.CUST.RK}
 {synopt:{bf:{help wbopendata_sourceid##LP.LPI.CUST.RK:LP.LPI.CUST.RK} - `"Efficiency of the clearance process, rank (1=highest performer)"'}}
 
-{synopt:{opt Source}}`"66 Logistics Performance Index"'{p_end}
+{synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
 
 {synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on six components. The component Efficiency of the clearance process includes results from the survey question Rate the efficiency of the clearance{p_end}
@@ -82,7 +82,7 @@
 {marker sourceid_LP.LPI.INFR.RK}
 {synopt:{bf:{help wbopendata_sourceid##LP.LPI.INFR.RK:LP.LPI.INFR.RK} - `"Quality- of trade and transport-related infrastructure, rank (1=highest performer)"'}}
 
-{synopt:{opt Source}}`"66 Logistics Performance Index"'{p_end}
+{synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
 
 {synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on six components. The component Quality of trade- and transport-related infrastructure includes results from the survey question Evaluate the quali{p_end}
@@ -94,7 +94,7 @@
 {marker sourceid_LP.LPI.ITRN.RK}
 {synopt:{bf:{help wbopendata_sourceid##LP.LPI.ITRN.RK:LP.LPI.ITRN.RK} - `"Ease of arranging competitively priced international shipments, rank (1=highest performer)"'}}
 
-{synopt:{opt Source}}`"66 Logistics Performance Index"'{p_end}
+{synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
 
 {synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on six components. The component Ease of arranging competitively priced international shipments includes results from the survey question Assess the{p_end}
@@ -106,7 +106,7 @@
 {marker sourceid_LP.LPI.LOGS.RK}
 {synopt:{bf:{help wbopendata_sourceid##LP.LPI.LOGS.RK:LP.LPI.LOGS.RK} - `"Competence and quality of logistics services, rank (1=highest performer)"'}}
 
-{synopt:{opt Source}}`"66 Logistics Performance Index"'{p_end}
+{synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
 
 {synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on six components. The component Competence and quality of logistics services includes results from the survey question Evaluate the overall level o{p_end}
@@ -118,7 +118,7 @@
 {marker sourceid_LP.LPI.OVRL.RK}
 {synopt:{bf:{help wbopendata_sourceid##LP.LPI.OVRL.RK:LP.LPI.OVRL.RK} - `"Logistics performance index: Overall rank (1=highest performance)"'}}
 
-{synopt:{opt Source}}`"66 Logistics Performance Index"'{p_end}
+{synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
 
 {synopt:{opt Source Notes}}The Logistics Performance Index overall rank reflects perceptions of a countrys logistics performance based on the efficiency of the customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competiti{p_end}
@@ -130,7 +130,7 @@
 {marker sourceid_LP.LPI.OVRL.RK.LB}
 {synopt:{bf:{help wbopendata_sourceid##LP.LPI.OVRL.RK.LB:LP.LPI.OVRL.RK.LB} - `"Logistics performance index: Overall rank (1=highest performance), lower bound"'}}
 
-{synopt:{opt Source}}`"66 Logistics Performance Index"'{p_end}
+{synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
 
 {synopt:{opt Source Notes}}The Logistics Performance Index overall rank reflects perceptions of a countrys logistics performance based on the efficiency of the customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competiti{p_end}
@@ -142,7 +142,7 @@
 {marker sourceid_LP.LPI.OVRL.RK.UB}
 {synopt:{bf:{help wbopendata_sourceid##LP.LPI.OVRL.RK.UB:LP.LPI.OVRL.RK.UB} - `"Logistics performance index: Overall rank (1=highest performance), upper bound"'}}
 
-{synopt:{opt Source}}`"66 Logistics Performance Index"'{p_end}
+{synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
 
 {synopt:{opt Source Notes}}The Logistics Performance Index overall rank reflects perceptions of a countrys logistics performance based on the efficiency of the customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competiti{p_end}
@@ -154,7 +154,7 @@
 {marker sourceid_LP.LPI.OVRL.RK.ZS}
 {synopt:{bf:{help wbopendata_sourceid##LP.LPI.OVRL.RK.ZS:LP.LPI.OVRL.RK.ZS} - `"Logistics performance index: Percent of highest performer)"'}}
 
-{synopt:{opt Source}}`"66 Logistics Performance Index"'{p_end}
+{synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
 
 {synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on the efficiency of the customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competitively priced i{p_end}
@@ -166,7 +166,7 @@
 {marker sourceid_LP.LPI.OVRL.XQ.LB}
 {synopt:{bf:{help wbopendata_sourceid##LP.LPI.OVRL.XQ.LB:LP.LPI.OVRL.XQ.LB} - `"Logistics performance index: Overall score (1=low to 5=high), lower bound"'}}
 
-{synopt:{opt Source}}`"66 Logistics Performance Index"'{p_end}
+{synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
 
 {synopt:{opt Source Notes}}The Logistics Performance Index overall score reflects perceptions of a countrys logistics performance based on the efficiency of the customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competit{p_end}
@@ -178,7 +178,7 @@
 {marker sourceid_LP.LPI.OVRL.XQ.UB}
 {synopt:{bf:{help wbopendata_sourceid##LP.LPI.OVRL.XQ.UB:LP.LPI.OVRL.XQ.UB} - `"Logistics performance index: Overall score (1=low to 5=high), upper bound"'}}
 
-{synopt:{opt Source}}`"66 Logistics Performance Index"'{p_end}
+{synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
 
 {synopt:{opt Source Notes}}The Logistics Performance Index overall score reflects perceptions of a countrys logistics performance based on the efficiency of the customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competit{p_end}
@@ -190,7 +190,7 @@
 {marker sourceid_LP.LPI.TIME.RK}
 {synopt:{bf:{help wbopendata_sourceid##LP.LPI.TIME.RK:LP.LPI.TIME.RK} - `"Frequency with which shipments reach consignee within scheduled or expected time, rank (1=highest performer)"'}}
 
-{synopt:{opt Source}}`"66 Logistics Performance Index"'{p_end}
+{synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
 
 {synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on six components. The component Frequency with which shipments reach consignee within scheduled or expected time includes results from the survey q{p_end}
@@ -202,7 +202,7 @@
 {marker sourceid_LP.LPI.TRAC.RK}
 {synopt:{bf:{help wbopendata_sourceid##LP.LPI.TRAC.RK:LP.LPI.TRAC.RK} - `"Ability to track and trace consignments, rank (1=highest performer)"'}}
 
-{synopt:{opt Source}}`"66 Logistics Performance Index"'{p_end}
+{synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
 
 {synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on six components. The component Ability to track and trace consignments includes results from the survey question Rate the ability to track and tra{p_end}

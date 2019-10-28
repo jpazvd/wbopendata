@@ -70,7 +70,7 @@
 {marker sourceid_HD.HCI.AMRT}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.AMRT:HD.HCI.AMRT} - `"Survival Rate from Age 15-60"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Adult Survival Rate is calculated by subtracting the mortality rate for 15-60 year-olds from 1. Most recent estimates are used.  Year of most recent estimate shown in data notes.{p_end}
@@ -82,7 +82,7 @@
 {marker sourceid_HD.HCI.AMRT.FE}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.AMRT.FE:HD.HCI.AMRT.FE} - `"Survival Rate from Age 15-60, Female"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Adult Survival Rate is calculated by subtracting the mortality rate for 15-60 year-olds from 1. Most recent estimates are used.  Year of most recent estimate shown in data notes.{p_end}
@@ -94,7 +94,7 @@
 {marker sourceid_HD.HCI.AMRT.MA}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.AMRT.MA:HD.HCI.AMRT.MA} - `"Survival Rate from Age 15-60, Male"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Adult Survival Rate is calculated by subtracting the mortality rate for 15-60 year-olds from 1. Most recent estimates are used.  Year of most recent estimate shown in data notes.{p_end}
@@ -106,7 +106,7 @@
 {marker sourceid_HD.HCI.EYRS}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.EYRS:HD.HCI.EYRS} - `"Expected Years of School"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Expected Years of School is calculated as the sum of age-specific enrollment rates between ages 4 and 17. Age-specific enrollment rates are approximated using school enrollment rates at different levels: pre-primary enrollment rates approximat{p_end}
@@ -118,7 +118,7 @@
 {marker sourceid_HD.HCI.EYRS.FE}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.EYRS.FE:HD.HCI.EYRS.FE} - `"Expected Years of School, Female"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Expected Years of School is calculated as the sum of age-specific enrollment rates between ages 4 and 17. Age-specific enrollment rates are approximated using school enrollment rates at different levels: pre-primary enrollment rates approximat{p_end}
@@ -130,7 +130,7 @@
 {marker sourceid_HD.HCI.EYRS.MA}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.EYRS.MA:HD.HCI.EYRS.MA} - `"Expected Years of School, Male"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Expected Years of School is calculated as the sum of age-specific enrollment rates between ages 4 and 17. Age-specific enrollment rates are approximated using school enrollment rates at different levels: pre-primary enrollment rates approximat{p_end}
@@ -142,7 +142,7 @@
 {marker sourceid_HD.HCI.HLOS}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.HLOS:HD.HCI.HLOS} - `"Harmonized Test Scores"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Harmonized Test Scores from major international student achievement testing programs. They are measured in TIMMS-equivalent units, where 300 is minimal attainment and 625 is advanced attainment. Most recent estimates are used. The year of the{p_end}
@@ -154,7 +154,7 @@
 {marker sourceid_HD.HCI.HLOS.FE}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.HLOS.FE:HD.HCI.HLOS.FE} - `"Harmonized Test Scores, Female"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Harmonized Test Scores from major international student achievement testing programs. They are measured in TIMMS-equivalent units, where 300 is minimal attainment and 625 is advanced attainment. Most recent estimates are used. The year of the{p_end}
@@ -166,7 +166,7 @@
 {marker sourceid_HD.HCI.HLOS.MA}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.HLOS.MA:HD.HCI.HLOS.MA} - `"Harmonized Test Scores, Male"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Harmonized Test Scores from major international student achievement testing programs. They are measured in TIMMS-equivalent units, where 300 is minimal attainment and 625 is advanced attainment. Most recent estimates are used. The year of the{p_end}
@@ -178,7 +178,7 @@
 {marker sourceid_HD.HCI.LAYS}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.LAYS:HD.HCI.LAYS} - `"Learning-Adjusted Years of School"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Learning-Adjusted Years of School are calculated by multiplying the estimates of Expected Years of School by the ratio of most recent Harmonized Test Score to 625, where 625 corresponds to advancement attainment on the TIMSS (Trends in Interna{p_end}
@@ -190,7 +190,7 @@
 {marker sourceid_HD.HCI.LAYS.FE}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.LAYS.FE:HD.HCI.LAYS.FE} - `"Learning-Adjusted Years of School, Female"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Learning-Adjusted Years of School are calculated by multiplying the estimates of Expected Years of School by the ratio of most recent Harmonized Test Score to 625, where 625 corresponds to advancement attainment on the TIMSS (Trends in Interna{p_end}
@@ -202,7 +202,7 @@
 {marker sourceid_HD.HCI.LAYS.MA}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.LAYS.MA:HD.HCI.LAYS.MA} - `"Learning-Adjusted Years of School, Male"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Learning-Adjusted Years of School are calculated by multiplying the estimates of Expected Years of School by the ratio of most recent Harmonized Test Score to 625, where 625 corresponds to advancement attainment on the TIMSS (Trends in Interna{p_end}
@@ -214,7 +214,7 @@
 {marker sourceid_HD.HCI.MORT}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.MORT:HD.HCI.MORT} - `"Probability of Survival to Age 5"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Probability of Survival to Age 5 is calculated by subtracting the under-5 mortality rate from 1. Most recent estimates are used.  Year of most recent estimate shown in data notes.{p_end}
@@ -226,7 +226,7 @@
 {marker sourceid_HD.HCI.MORT.FE}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.MORT.FE:HD.HCI.MORT.FE} - `"Probability of Survival to Age 5, Female"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Probability of Survival to Age 5 is calculated by subtracting the under-5 mortality rate from 1. Most recent estimates are used.  Year of most recent estimate shown in data notes.{p_end}
@@ -238,7 +238,7 @@
 {marker sourceid_HD.HCI.MORT.MA}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.MORT.MA:HD.HCI.MORT.MA} - `"Probability of Survival to Age 5, Male"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Probability of Survival to Age 5 is calculated by subtracting the under-5 mortality rate from 1. Most recent estimates are used.  Year of most recent estimate shown in data notes.{p_end}
@@ -250,7 +250,7 @@
 {marker sourceid_HD.HCI.OVRL}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.OVRL:HD.HCI.OVRL} - `"Human Capital Index (HCI) (scale 0-1)"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}The HCI calculates the contributions of health and education to worker productivity. The final index score ranges from zero to one and measures the productivity as a future worker of child born today relative to the benchmark of full health an{p_end}
@@ -262,7 +262,7 @@
 {marker sourceid_HD.HCI.OVRL.FE}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.OVRL.FE:HD.HCI.OVRL.FE} - `"Human Capital Index (HCI), Female (scale 0-1)"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}The HCI calculates the contributions of health and education to worker productivity. The final index score ranges from zero to one and measures the productivity as a future worker of child born today relative to the benchmark of full health an{p_end}
@@ -274,7 +274,7 @@
 {marker sourceid_HD.HCI.OVRL.LB}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.OVRL.LB:HD.HCI.OVRL.LB} - `"Human Capital Index (HCI), Lower Bound (scale 0-1)"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}The HCI lower bound reflects uncertainty in the measurement of the components and the overall index. It is obtained by recalculating the HCI using estimates of the lower bounds of each of the components of the HCI. The range between the upper{p_end}
@@ -286,7 +286,7 @@
 {marker sourceid_HD.HCI.OVRL.LB.FE}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.OVRL.LB.FE:HD.HCI.OVRL.LB.FE} - `"Human Capital Index (HCI), Female, Lower Bound (scale 0-1)"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}The HCI lower bound reflects uncertainty in the measurement of the components and the overall index. It is obtained by recalculating the HCI using estimates of the lower bounds of each of the components of the HCI. The range between the upper{p_end}
@@ -298,7 +298,7 @@
 {marker sourceid_HD.HCI.OVRL.LB.MA}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.OVRL.LB.MA:HD.HCI.OVRL.LB.MA} - `"Human Capital Index (HCI), Male, Lower Bound (scale 0-1)"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}The HCI lower bound reflects uncertainty in the measurement of the components and the overall index. It is obtained by recalculating the HCI using estimates of the lower bounds of each of the components of the HCI. The range between the upper{p_end}
@@ -310,7 +310,7 @@
 {marker sourceid_HD.HCI.OVRL.MA}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.OVRL.MA:HD.HCI.OVRL.MA} - `"Human Capital Index (HCI), Male (scale 0-1)"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}The HCI calculates the contributions of health and education to worker productivity. The final index score ranges from zero to one and measures the productivity as a future worker of child born today relative to the benchmark of full health an{p_end}
@@ -322,7 +322,7 @@
 {marker sourceid_HD.HCI.OVRL.UB}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.OVRL.UB:HD.HCI.OVRL.UB} - `"Human Capital Index (HCI), Upper Bound (scale 0-1)"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}The HCI upper bound reflects uncertainty in the measurement of the components and the overall index. It is obtained by recalculating the HCI using estimates of the upper bounds of each of the components of the HCI. The range between the upper{p_end}
@@ -334,7 +334,7 @@
 {marker sourceid_HD.HCI.OVRL.UB.FE}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.OVRL.UB.FE:HD.HCI.OVRL.UB.FE} - `"Human Capital Index (HCI), Female, Upper Bound (scale 0-1)"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}The HCI upper bound reflects uncertainty in the measurement of the components and the overall index. It is obtained by recalculating the HCI using estimates of the upper bounds of each of the components of the HCI. The range between the upper{p_end}
@@ -346,7 +346,7 @@
 {marker sourceid_HD.HCI.OVRL.UB.MA}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.OVRL.UB.MA:HD.HCI.OVRL.UB.MA} - `"Human Capital Index (HCI), Male, Upper Bound (scale 0-1)"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}The HCI upper bound reflects uncertainty in the measurement of the components and the overall index. It is obtained by recalculating the HCI using estimates of the upper bounds of each of the components of the HCI. The range between the upper{p_end}
@@ -358,7 +358,7 @@
 {marker sourceid_HD.HCI.STNT}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.STNT:HD.HCI.STNT} - `"Fraction of Children Under 5 Not Stunted"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Fraction of Children Under 5 Not Stunted is calculated by subtracting stunting rates from 1. Most recent estimates are used.  Year of most recent estimate shown in data notes.{p_end}
@@ -370,7 +370,7 @@
 {marker sourceid_HD.HCI.STNT.FE}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.STNT.FE:HD.HCI.STNT.FE} - `"Fraction of Children Under 5 Not Stunted, Female"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Fraction of Children Under 5 Not Stunted is calculated by subtracting stunting rates from 1. Most recent estimates are used.  Year of most recent estimate shown in data notes.{p_end}
@@ -382,7 +382,7 @@
 {marker sourceid_HD.HCI.STNT.MA}
 {synopt:{bf:{help wbopendata_sourceid##HD.HCI.STNT.MA:HD.HCI.STNT.MA} - `"Fraction of Children Under 5 Not Stunted, Male"'}}
 
-{synopt:{opt Source}}`"63 Human Capital Index"'{p_end}
+{synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
 {synopt:{opt Source Notes}}Fraction of Children Under 5 Not Stunted is calculated by subtracting stunting rates from 1. Most recent estimates are used.  Year of most recent estimate shown in data notes.{p_end}

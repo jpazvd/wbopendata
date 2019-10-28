@@ -70,7 +70,7 @@
 {marker sourceid_EF.EFM.OVRL.XD}
 {synopt:{bf:{help wbopendata_sourceid##EF.EFM.OVRL.XD:EF.EFM.OVRL.XD} - `"Economic Fitness Metric"'}}
 
-{synopt:{opt Source}}`"60 Economic Fitness"'{p_end}
+{synopt:{opt Source}}60 Economic Fitness{p_end}
 
 
 {synopt:{opt Source Notes}}Economic Fitness (EF) is both a measure of a country’s diversification and ability to produce complex goods on a globally competitive basis.  Countries with the highest levels of EF have capabilities to produce a diverse portfolio of product{p_end}
@@ -82,7 +82,7 @@
 {marker sourceid_EF.EFM.RANK.XD}
 {synopt:{bf:{help wbopendata_sourceid##EF.EFM.RANK.XD:EF.EFM.RANK.XD} - `"Economic Fitness Ranking (1 = high, 149 = low)"'}}
 
-{synopt:{opt Source}}`"60 Economic Fitness"'{p_end}
+{synopt:{opt Source}}60 Economic Fitness{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}

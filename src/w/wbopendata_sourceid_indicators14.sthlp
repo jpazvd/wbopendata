@@ -70,7 +70,7 @@
 {marker sourceid_SE.TER.GRAD.FE.SI.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.SI.ZS:SE.TER.GRAD.FE.SI.ZS} - `"Female share of graduates from Science, Technology, Engineering and Mathematics (STEM) programmes, tertiary (%)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -82,7 +82,7 @@
 {marker sourceid_SG.COK.CHCO.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.COK.CHCO.ZS:SG.COK.CHCO.ZS} - `"Main cooking fuel: charcoal (% of households)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -95,7 +95,7 @@
 {marker sourceid_SG.COK.CROP.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.COK.CROP.ZS:SG.COK.CROP.ZS} - `"Main cooking fuel: agricultural crop (% of households)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -108,7 +108,7 @@
 {marker sourceid_SG.COK.DUNG.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.COK.DUNG.ZS:SG.COK.DUNG.ZS} - `"Main cooking fuel: dung (% of households)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -121,7 +121,7 @@
 {marker sourceid_SG.COK.ELEC.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.COK.ELEC.ZS:SG.COK.ELEC.ZS} - `"Main cooking fuel: electricity  (% of households)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -134,7 +134,7 @@
 {marker sourceid_SG.COK.HOUS.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.COK.HOUS.ZS:SG.COK.HOUS.ZS} - `"Location of cooking: inside the house (% of households)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -147,7 +147,7 @@
 {marker sourceid_SG.COK.LPGN.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.COK.LPGN.ZS:SG.COK.LPGN.ZS} - `"Main cooking fuel: LPG/natural gas/biogas (% of households)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -160,7 +160,7 @@
 {marker sourceid_SG.COK.OTHR.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.COK.OTHR.ZS:SG.COK.OTHR.ZS} - `"Location of cooking: other places (% of households)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -173,7 +173,7 @@
 {marker sourceid_SG.COK.OUTD.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.COK.OUTD.ZS:SG.COK.OUTD.ZS} - `"Location of cooking: outdoors (% of households)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -186,7 +186,7 @@
 {marker sourceid_SG.COK.SBLD.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.COK.SBLD.ZS:SG.COK.SBLD.ZS} - `"Location of cooking: separate building (% of households)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -199,7 +199,7 @@
 {marker sourceid_SG.COK.STRW.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.COK.STRW.ZS:SG.COK.STRW.ZS} - `"Main cooking fuel: straw/shrubs/grass (% of households)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -212,7 +212,7 @@
 {marker sourceid_SG.COK.WOOD.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.COK.WOOD.ZS:SG.COK.WOOD.ZS} - `"Main cooking fuel: wood (% of households)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -225,7 +225,7 @@
 {marker sourceid_SG.CRT.TSTM.WT}
 {synopt:{bf:{help wbopendata_sourceid##SG.CRT.TSTM.WT:SG.CRT.TSTM.WT} - `"Woman's testimony carries the same evidentiary weight in court as a man's (1=yes; 0=no)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Woman's testimony carries the same evidentiary weight in court as a man's is whether the law differentiates between the evidentiary value of a woman’s testimony in a court and that of a man. It covers all types of court cases.{p_end}
@@ -237,7 +237,7 @@
 {marker sourceid_SG.DMK.DPCH.FN.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.DPCH.FN.ZS:SG.DMK.DPCH.FN.ZS} - `"Women participating in making daily purchase decisions (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -250,7 +250,7 @@
 {marker sourceid_SG.DMK.FOOD.FN.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.FOOD.FN.ZS:SG.DMK.FOOD.FN.ZS} - `"Women participating in decision of what food to cook daily (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -263,7 +263,7 @@
 {marker sourceid_SG.DMK.HLTH.FN.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.HLTH.FN.ZS:SG.DMK.HLTH.FN.ZS} - `"Women participating in own health care decisions (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -276,7 +276,7 @@
 {marker sourceid_SG.DMK.HLTH.HB.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.HLTH.HB.ZS:SG.DMK.HLTH.HB.ZS} - `"Decision maker about a woman's own health care: mainly husband (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -289,7 +289,7 @@
 {marker sourceid_SG.DMK.HLTH.OT.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.HLTH.OT.ZS:SG.DMK.HLTH.OT.ZS} - `"Decision maker about a woman's own health care: other (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -302,7 +302,7 @@
 {marker sourceid_SG.DMK.HLTH.SE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.HLTH.SE.ZS:SG.DMK.HLTH.SE.ZS} - `"Decision maker about a woman's own health care: someone else (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -315,7 +315,7 @@
 {marker sourceid_SG.DMK.HLTH.WF.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.HLTH.WF.ZS:SG.DMK.HLTH.WF.ZS} - `"Decision maker about a woman's own health care: mainly wife (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -328,7 +328,7 @@
 {marker sourceid_SG.DMK.HLTH.WH.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.HLTH.WH.ZS:SG.DMK.HLTH.WH.ZS} - `"Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -341,7 +341,7 @@
 {marker sourceid_SG.DMK.NONE.FN.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.NONE.FN.ZS:SG.DMK.NONE.FN.ZS} - `"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -354,7 +354,7 @@
 {marker sourceid_SG.DMK.PRCH.FN.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.PRCH.FN.ZS:SG.DMK.PRCH.FN.ZS} - `"Women participating in making major household purchase decisions (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -367,7 +367,7 @@
 {marker sourceid_SG.DMK.PRCH.HB.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.PRCH.HB.ZS:SG.DMK.PRCH.HB.ZS} - `"Decision maker about major household purchases: mainly husband (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -380,7 +380,7 @@
 {marker sourceid_SG.DMK.PRCH.OT.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.PRCH.OT.ZS:SG.DMK.PRCH.OT.ZS} - `"Decision maker about major household purchases: other (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -393,7 +393,7 @@
 {marker sourceid_SG.DMK.PRCH.SE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.PRCH.SE.ZS:SG.DMK.PRCH.SE.ZS} - `"Decision maker about major household purchases: someone else (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -406,7 +406,7 @@
 {marker sourceid_SG.DMK.PRCH.WF.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.PRCH.WF.ZS:SG.DMK.PRCH.WF.ZS} - `"Decision maker about major household purchases: mainly wife (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -419,7 +419,7 @@
 {marker sourceid_SG.DMK.PRCH.WH.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.PRCH.WH.ZS:SG.DMK.PRCH.WH.ZS} - `"Decision maker about major household purchases: wife and husband jointly (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -432,7 +432,7 @@
 {marker sourceid_SG.DMK.VISI.FN.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.VISI.FN.ZS:SG.DMK.VISI.FN.ZS} - `"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -445,7 +445,7 @@
 {marker sourceid_SG.DMK.VISI.HB.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.VISI.HB.ZS:SG.DMK.VISI.HB.ZS} - `"Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -458,7 +458,7 @@
 {marker sourceid_SG.DMK.VISI.OT.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.VISI.OT.ZS:SG.DMK.VISI.OT.ZS} - `"Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -471,7 +471,7 @@
 {marker sourceid_SG.DMK.VISI.SE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.VISI.SE.ZS:SG.DMK.VISI.SE.ZS} - `"Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -484,7 +484,7 @@
 {marker sourceid_SG.DMK.VISI.WF.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.VISI.WF.ZS:SG.DMK.VISI.WF.ZS} - `"Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -497,7 +497,7 @@
 {marker sourceid_SG.DMK.VISI.WH.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.DMK.VISI.WH.ZS:SG.DMK.VISI.WH.ZS} - `"Decision maker about Visits to her family or relatives: wife and husband jointly (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -510,7 +510,7 @@
 {marker sourceid_SG.GEN.MNST.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.GEN.MNST.ZS:SG.GEN.MNST.ZS} - `"Proportion of women in ministerial level positions (%)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -523,7 +523,7 @@
 {marker sourceid_SG.GEN.TECH.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.GEN.TECH.ZS:SG.GEN.TECH.ZS} - `"Female professional and technical workers (% of total)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -536,7 +536,7 @@
 {marker sourceid_SG.H2O.PRMS.HH.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.H2O.PRMS.HH.ZS:SG.H2O.PRMS.HH.ZS} - `"Households with water on the premises (%)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -549,7 +549,7 @@
 {marker sourceid_SG.H2O.TL30.HH.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.H2O.TL30.HH.ZS:SG.H2O.TL30.HH.ZS} - `"Households with water less than 30 minutes away round trip (%)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -562,7 +562,7 @@
 {marker sourceid_SG.H2O.TM30.HH.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.H2O.TM30.HH.ZS:SG.H2O.TM30.HH.ZS} - `"Households with water 30 minutes or longer away round trip (%)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -575,7 +575,7 @@
 {marker sourceid_SG.IND.WORK.EQ}
 {synopt:{bf:{help wbopendata_sourceid##SG.IND.WORK.EQ:SG.IND.WORK.EQ} - `"Women are able to work in the same industries as men (1=yes; 0=no)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women are able to work in the same industries as men indicates whether there are no (full or partial) restrictions on women working in mining, construction, manufacturing, energy, water, agriculture and transportation sectors.{p_end}
@@ -587,7 +587,7 @@
 {marker sourceid_SG.LAW.OBHB.MR}
 {synopt:{bf:{help wbopendata_sourceid##SG.LAW.OBHB.MR:SG.LAW.OBHB.MR} - `"Married women are required by law to obey their husbands (1=yes; 0=no)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -600,7 +600,7 @@
 {marker sourceid_SG.LEG.MRRP}
 {synopt:{bf:{help wbopendata_sourceid##SG.LEG.MRRP:SG.LEG.MRRP} - `"Legislation explicitly criminalizes marital rape (1=yes; 0=no)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -613,7 +613,7 @@
 {marker sourceid_SG.LEG.SXHR}
 {synopt:{bf:{help wbopendata_sourceid##SG.LEG.SXHR:SG.LEG.SXHR} - `"Legislation specifically addresses sexual harassment (1=yes; 0=no)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -626,7 +626,7 @@
 {marker sourceid_SG.LEG.SXHR.EM}
 {synopt:{bf:{help wbopendata_sourceid##SG.LEG.SXHR.EM:SG.LEG.SXHR.EM} - `"Legislation exists on sexual harassment in employment (1=yes; 0=no)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Legislation exists on sexual harassment in employment is whether there is a law or provision that specifically protects against sexual harassment in the workplace or in employment, including unwelcome sexual advances, requests for sexual favor{p_end}
@@ -638,7 +638,7 @@
 {marker sourceid_SG.OBT.IDCD.MR}
 {synopt:{bf:{help wbopendata_sourceid##SG.OBT.IDCD.MR:SG.OBT.IDCD.MR} - `"Married women can obtain a national ID card in the same way as married men (1=yes; 0=no)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -651,7 +651,7 @@
 {marker sourceid_SG.OWN.HSAJ.FE.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAJ.FE.Q1.ZS:SG.OWN.HSAJ.FE.Q1.ZS} - `"Women who own a house both alone and jointly (% of women age 15-49): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house both alone and jointly (% of women age 15-49): Q1 (lowest) is the percentage of women age 15-49 who alone as well as jointly with someone else own a house which is legally registered with their name or cannot be sold withou{p_end}
@@ -663,7 +663,7 @@
 {marker sourceid_SG.OWN.HSAJ.FE.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAJ.FE.Q2.ZS:SG.OWN.HSAJ.FE.Q2.ZS} - `"Women who own a house both alone and jointly (% of women age 15-49): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house both alone and jointly (% of women age 15-49): Q2 is the percentage of women age 15-49 who alone as well as jointly with someone else own a house which is legally registered with their name or cannot be sold without their s{p_end}
@@ -675,7 +675,7 @@
 {marker sourceid_SG.OWN.HSAJ.FE.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAJ.FE.Q3.ZS:SG.OWN.HSAJ.FE.Q3.ZS} - `"Women who own a house both alone and jointly (% of women age 15-49): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house both alone and jointly (% of women age 15-49): Q3 is the percentage of women age 15-49 who alone as well as jointly with someone else own a house which is legally registered with their name or cannot be sold without their s{p_end}
@@ -687,7 +687,7 @@
 {marker sourceid_SG.OWN.HSAJ.FE.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAJ.FE.Q4.ZS:SG.OWN.HSAJ.FE.Q4.ZS} - `"Women who own a house both alone and jointly (% of women age 15-49): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house both alone and jointly (% of women age 15-49): Q4 is the percentage of women age 15-49 who alone as well as jointly with someone else own a house which is legally registered with their name or cannot be sold without their s{p_end}
@@ -699,7 +699,7 @@
 {marker sourceid_SG.OWN.HSAJ.FE.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAJ.FE.Q5.ZS:SG.OWN.HSAJ.FE.Q5.ZS} - `"Women who own a house both alone and jointly (% of women age 15-49): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house both alone and jointly (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who alone as well as jointly with someone else own a house which is legally registered with their name or cannot be sold witho{p_end}
@@ -711,7 +711,7 @@
 {marker sourceid_SG.OWN.HSAJ.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAJ.FE.ZS:SG.OWN.HSAJ.FE.ZS} - `"Women who own a house both alone and jointly (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house both alone and jointly (% of women age 15-49) is the percentage of women age 15-49 who alone as well as jointly with someone else own a house which is legally registered with their name or cannot be sold without their signa{p_end}
@@ -723,7 +723,7 @@
 {marker sourceid_SG.OWN.HSAJ.MA.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAJ.MA.Q1.ZS:SG.OWN.HSAJ.MA.Q1.ZS} - `"Men who own a house both alone and jointly (% of men): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house both alone and jointly (% of men): Q1 (lowest) is the percentage of men who both solely and jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alo{p_end}
@@ -735,7 +735,7 @@
 {marker sourceid_SG.OWN.HSAJ.MA.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAJ.MA.Q2.ZS:SG.OWN.HSAJ.MA.Q2.ZS} - `"Men who own a house both alone and jointly (% of men): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house both alone and jointly (% of men): Q2 is the percentage of men who both solely and jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jo{p_end}
@@ -747,7 +747,7 @@
 {marker sourceid_SG.OWN.HSAJ.MA.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAJ.MA.Q3.ZS:SG.OWN.HSAJ.MA.Q3.ZS} - `"Men who own a house both alone and jointly (% of men): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house both alone and jointly (% of men): Q3 is the percentage of men who both solely and jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jo{p_end}
@@ -759,7 +759,7 @@
 {marker sourceid_SG.OWN.HSAJ.MA.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAJ.MA.Q4.ZS:SG.OWN.HSAJ.MA.Q4.ZS} - `"Men who own a house both alone and jointly (% of men): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house both alone and jointly (% of men): Q4 is the percentage of men who both solely and jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jo{p_end}
@@ -771,7 +771,7 @@
 {marker sourceid_SG.OWN.HSAJ.MA.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAJ.MA.Q5.ZS:SG.OWN.HSAJ.MA.Q5.ZS} - `"Men who own a house both alone and jointly (% of men): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house both alone and jointly (% of men): Q5 (highest) is the percentage of men who both solely and jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both al{p_end}
@@ -783,7 +783,7 @@
 {marker sourceid_SG.OWN.HSAJ.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAJ.MA.ZS:SG.OWN.HSAJ.MA.ZS} - `"Men who own a house both alone and jointly (% of men)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house both alone and jointly (% of men) is the percentage of men who both solely and jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jointl{p_end}
@@ -795,7 +795,7 @@
 {marker sourceid_SG.OWN.HSAL.FE.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAL.FE.Q1.ZS:SG.OWN.HSAL.FE.Q1.ZS} - `"Women who own a house alone (% of women age 15-49): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house alone (% of women age 15-49): Q1 (lowest) is the percentage of women age 15-49 who only own a house, which legally registered with their name or cannot be sold without their signature, alone (don't share ownership with anyo{p_end}
@@ -807,7 +807,7 @@
 {marker sourceid_SG.OWN.HSAL.FE.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAL.FE.Q2.ZS:SG.OWN.HSAL.FE.Q2.ZS} - `"Women who own a house alone (% of women age 15-49): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house alone (% of women age 15-49): Q2 is the percentage of women age 15-49 who only own a house, which legally registered with their name or cannot be sold without their signature, alone (don't share ownership with anyone). Each{p_end}
@@ -819,7 +819,7 @@
 {marker sourceid_SG.OWN.HSAL.FE.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAL.FE.Q3.ZS:SG.OWN.HSAL.FE.Q3.ZS} - `"Women who own a house alone (% of women age 15-49): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house alone (% of women age 15-49): Q3 is the percentage of women age 15-49 who only own a house, which legally registered with their name or cannot be sold without their signature, alone (don't share ownership with anyone). Each{p_end}
@@ -831,7 +831,7 @@
 {marker sourceid_SG.OWN.HSAL.FE.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAL.FE.Q4.ZS:SG.OWN.HSAL.FE.Q4.ZS} - `"Women who own a house alone (% of women age 15-49): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house alone (% of women age 15-49): Q4 is the percentage of women age 15-49 who only own a house, which legally registered with their name or cannot be sold without their signature, alone (don't share ownership with anyone). Each{p_end}
@@ -843,7 +843,7 @@
 {marker sourceid_SG.OWN.HSAL.FE.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAL.FE.Q5.ZS:SG.OWN.HSAL.FE.Q5.ZS} - `"Women who own a house alone (% of women age 15-49): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house alone (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who only own a house, which legally registered with their name or cannot be sold without their signature, alone (don't share ownership with any{p_end}
@@ -855,7 +855,7 @@
 {marker sourceid_SG.OWN.HSAL.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAL.FE.ZS:SG.OWN.HSAL.FE.ZS} - `"Women who own a house alone (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house alone (% of women age 15-49) is the percentage of women age 15-49 who only own a house, which legally registered with their name or cannot be sold without their signature, alone (don't share ownership with anyone).{p_end}
@@ -867,7 +867,7 @@
 {marker sourceid_SG.OWN.HSAL.MA.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAL.MA.Q1.ZS:SG.OWN.HSAL.MA.Q1.ZS} - `"Men who own a house alone (% of men): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house alone (% of men): Q1 (lowest) is the percentage of men who only solely own a house which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households{p_end}
@@ -879,7 +879,7 @@
 {marker sourceid_SG.OWN.HSAL.MA.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAL.MA.Q2.ZS:SG.OWN.HSAL.MA.Q2.ZS} - `"Men who own a house alone (% of men): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house alone (% of men): Q2 is the percentage of men who only solely own a house which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with qui{p_end}
@@ -891,7 +891,7 @@
 {marker sourceid_SG.OWN.HSAL.MA.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAL.MA.Q3.ZS:SG.OWN.HSAL.MA.Q3.ZS} - `"Men who own a house alone (% of men): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house alone (% of men): Q3 is the percentage of men who only solely own a house which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with qui{p_end}
@@ -903,7 +903,7 @@
 {marker sourceid_SG.OWN.HSAL.MA.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAL.MA.Q4.ZS:SG.OWN.HSAL.MA.Q4.ZS} - `"Men who own a house alone (% of men): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house alone (% of men): Q4 is the percentage of men who only solely own a house which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with qui{p_end}
@@ -915,7 +915,7 @@
 {marker sourceid_SG.OWN.HSAL.MA.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAL.MA.Q5.ZS:SG.OWN.HSAL.MA.Q5.ZS} - `"Men who own a house alone (% of men): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house alone (% of men): Q5 (highest) is the percentage of men who only solely own a house which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of household{p_end}
@@ -927,7 +927,7 @@
 {marker sourceid_SG.OWN.HSAL.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSAL.MA.ZS:SG.OWN.HSAL.MA.ZS} - `"Men who own a house alone (% of men)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house alone (% of men) is the percentage of men who only solely own a house which is legally registered with their name or cannot be sold without their signature.{p_end}
@@ -939,7 +939,7 @@
 {marker sourceid_SG.OWN.HSJT.FE.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSJT.FE.Q1.ZS:SG.OWN.HSJT.FE.Q1.ZS} - `"Women who own a house jointly (% of women age 15-49): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house jointly (% of women age 15-49): Q1 (lowest) is the percentage of women age 15-49 who only jointly own a house, which is legally registered with their name or cannot be sold without their signature, with someone else. Only j{p_end}
@@ -951,7 +951,7 @@
 {marker sourceid_SG.OWN.HSJT.FE.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSJT.FE.Q2.ZS:SG.OWN.HSJT.FE.Q2.ZS} - `"Women who own a house jointly (% of women age 15-49): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house jointly (% of women age 15-49): Q2 is the percentage of women age 15-49 who only jointly own a house, which is legally registered with their name or cannot be sold without their signature, with someone else. Only jointly im{p_end}
@@ -963,7 +963,7 @@
 {marker sourceid_SG.OWN.HSJT.FE.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSJT.FE.Q3.ZS:SG.OWN.HSJT.FE.Q3.ZS} - `"Women who own a house jointly (% of women age 15-49): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house jointly (% of women age 15-49): Q3 is the percentage of women age 15-49 who only jointly own a house, which is legally registered with their name or cannot be sold without their signature, with someone else. Only jointly im{p_end}
@@ -975,7 +975,7 @@
 {marker sourceid_SG.OWN.HSJT.FE.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSJT.FE.Q4.ZS:SG.OWN.HSJT.FE.Q4.ZS} - `"Women who own a house jointly (% of women age 15-49): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house jointly (% of women age 15-49): Q4 is the percentage of women age 15-49 who only jointly own a house, which is legally registered with their name or cannot be sold without their signature, with someone else. Only jointly im{p_end}
@@ -987,7 +987,7 @@
 {marker sourceid_SG.OWN.HSJT.FE.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSJT.FE.Q5.ZS:SG.OWN.HSJT.FE.Q5.ZS} - `"Women who own a house jointly (% of women age 15-49): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house jointly (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who only jointly own a house, which is legally registered with their name or cannot be sold without their signature, with someone else. Only{p_end}
@@ -999,7 +999,7 @@
 {marker sourceid_SG.OWN.HSJT.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSJT.FE.ZS:SG.OWN.HSJT.FE.ZS} - `"Women who own a house jointly (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own house jointly (% of women age 15-49) is the percentage of women age 15-49 who only jointly own a house, which is legally registered with their name or cannot be sold without their signature, with someone else.  Only jointly impli{p_end}
@@ -1011,7 +1011,7 @@
 {marker sourceid_SG.OWN.HSJT.MA.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSJT.MA.Q1.ZS:SG.OWN.HSJT.MA.Q1.ZS} - `"Men who own a house jointly (% of men): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house jointly (% of men): Q1 (lowest) is the percentage of men who only jointly own a house, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn�{p_end}
@@ -1023,7 +1023,7 @@
 {marker sourceid_SG.OWN.HSJT.MA.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSJT.MA.Q2.ZS:SG.OWN.HSJT.MA.Q2.ZS} - `"Men who own a house jointly (% of men): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house jointly (% of men): Q2 is the percentage of men who only jointly own a house, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a{p_end}
@@ -1035,7 +1035,7 @@
 {marker sourceid_SG.OWN.HSJT.MA.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSJT.MA.Q3.ZS:SG.OWN.HSJT.MA.Q3.ZS} - `"Men who own a house jointly (% of men): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house jointly (% of men): Q3 is the percentage of men who only jointly own a house, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a{p_end}
@@ -1047,7 +1047,7 @@
 {marker sourceid_SG.OWN.HSJT.MA.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSJT.MA.Q4.ZS:SG.OWN.HSJT.MA.Q4.ZS} - `"Men who own a house jointly (% of men): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house jointly (% of men): Q4 is the percentage of men who only jointly own a house, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a{p_end}
@@ -1059,7 +1059,7 @@
 {marker sourceid_SG.OWN.HSJT.MA.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSJT.MA.Q5.ZS:SG.OWN.HSJT.MA.Q5.ZS} - `"Men who own a house jointly (% of men): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house jointly (% of men): Q5 (highest) is the percentage of men who only jointly own a house, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn{p_end}
@@ -1071,7 +1071,7 @@
 {marker sourceid_SG.OWN.HSJT.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSJT.MA.ZS:SG.OWN.HSJT.MA.ZS} - `"Men who own a house jointly (% of men)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own house jointly (% of men) is the percentage of men who only jointly own a house, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a hou{p_end}
@@ -1083,7 +1083,7 @@
 {marker sourceid_SG.OWN.HSNO.FE.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSNO.FE.Q1.ZS:SG.OWN.HSNO.FE.Q1.ZS} - `"Women who do not own a house (% of women age 15-49): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who do not own house (% of women age 15-49): Q1 (lowest) is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with so{p_end}
@@ -1095,7 +1095,7 @@
 {marker sourceid_SG.OWN.HSNO.FE.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSNO.FE.Q2.ZS:SG.OWN.HSNO.FE.Q2.ZS} - `"Women who do not own a house (% of women age 15-49): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who do not own house (% of women age 15-49): Q2 is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone els{p_end}
@@ -1107,7 +1107,7 @@
 {marker sourceid_SG.OWN.HSNO.FE.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSNO.FE.Q3.ZS:SG.OWN.HSNO.FE.Q3.ZS} - `"Women who do not own a house (% of women age 15-49): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who do not own house (% of women age 15-49): Q3 is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone els{p_end}
@@ -1119,7 +1119,7 @@
 {marker sourceid_SG.OWN.HSNO.FE.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSNO.FE.Q4.ZS:SG.OWN.HSNO.FE.Q4.ZS} - `"Women who do not own a house (% of women age 15-49): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who do not own house (% of women age 15-49): Q4 is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone els{p_end}
@@ -1131,7 +1131,7 @@
 {marker sourceid_SG.OWN.HSNO.FE.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSNO.FE.Q5.ZS:SG.OWN.HSNO.FE.Q5.ZS} - `"Women who do not own a house (% of women age 15-49): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who do not own house (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with s{p_end}
@@ -1143,7 +1143,7 @@
 {marker sourceid_SG.OWN.HSNO.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSNO.FE.ZS:SG.OWN.HSNO.FE.ZS} - `"Women who do not own a house (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who do not own house (% of women age 15-49) is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or{p_end}
@@ -1155,7 +1155,7 @@
 {marker sourceid_SG.OWN.HSNO.MA.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSNO.MA.Q1.ZS:SG.OWN.HSNO.MA.Q1.ZS} - `"Men who do not own a house (% of men): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who do not own house (% of men): Q1 (lowest) is the percentage of men who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each w{p_end}
@@ -1167,7 +1167,7 @@
 {marker sourceid_SG.OWN.HSNO.MA.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSNO.MA.Q2.ZS:SG.OWN.HSNO.MA.Q2.ZS} - `"Men who do not own a house (% of men): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who do not own house (% of men): Q2 is the percentage of men who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth qui{p_end}
@@ -1179,7 +1179,7 @@
 {marker sourceid_SG.OWN.HSNO.MA.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSNO.MA.Q3.ZS:SG.OWN.HSNO.MA.Q3.ZS} - `"Men who do not own a house (% of men): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who do not own house (% of men): Q3 is the percentage of men who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth qui{p_end}
@@ -1191,7 +1191,7 @@
 {marker sourceid_SG.OWN.HSNO.MA.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSNO.MA.Q4.ZS:SG.OWN.HSNO.MA.Q4.ZS} - `"Men who do not own a house (% of men): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who do not own house (% of men): Q4 is the percentage of men who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth qui{p_end}
@@ -1203,7 +1203,7 @@
 {marker sourceid_SG.OWN.HSNO.MA.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSNO.MA.Q5.ZS:SG.OWN.HSNO.MA.Q5.ZS} - `"Men who do not own a house (% of men): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who do not own house (% of men): Q5 (highest) is the percentage of men who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each{p_end}
@@ -1215,7 +1215,7 @@
 {marker sourceid_SG.OWN.HSNO.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.HSNO.MA.ZS:SG.OWN.HSNO.MA.ZS} - `"Men who do not own a house (% of men)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who do not own house (% of men) is the percentage of men who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both.{p_end}
@@ -1227,7 +1227,7 @@
 {marker sourceid_SG.OWN.LDAJ.FE.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAJ.FE.Q1.ZS:SG.OWN.LDAJ.FE.Q1.ZS} - `"Women who own land both alone and jointly (% of women age 15-49): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land both alone and jointly (% of women age 15-49): Q1 (lowest) is the percentage of women age 15-49 who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without t{p_end}
@@ -1239,7 +1239,7 @@
 {marker sourceid_SG.OWN.LDAJ.FE.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAJ.FE.Q2.ZS:SG.OWN.LDAJ.FE.Q2.ZS} - `"Women who own land both alone and jointly (% of women age 15-49): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land both alone and jointly (% of women age 15-49): Q2 is the percentage of women age 15-49 who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their sign{p_end}
@@ -1251,7 +1251,7 @@
 {marker sourceid_SG.OWN.LDAJ.FE.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAJ.FE.Q3.ZS:SG.OWN.LDAJ.FE.Q3.ZS} - `"Women who own land both alone and jointly (% of women age 15-49): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land both alone and jointly (% of women age 15-49): Q3 is the percentage of women age 15-49 who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their sign{p_end}
@@ -1263,7 +1263,7 @@
 {marker sourceid_SG.OWN.LDAJ.FE.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAJ.FE.Q4.ZS:SG.OWN.LDAJ.FE.Q4.ZS} - `"Women who own land both alone and jointly (% of women age 15-49): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land both alone and jointly (% of women age 15-49): Q4 is the percentage of women age 15-49 who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their sign{p_end}
@@ -1275,7 +1275,7 @@
 {marker sourceid_SG.OWN.LDAJ.FE.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAJ.FE.Q5.ZS:SG.OWN.LDAJ.FE.Q5.ZS} - `"Women who own land both alone and jointly (% of women age 15-49): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land both alone and jointly (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without{p_end}
@@ -1287,7 +1287,7 @@
 {marker sourceid_SG.OWN.LDAJ.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAJ.FE.ZS:SG.OWN.LDAJ.FE.ZS} - `"Women who own land both alone and jointly (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land both alone and jointly (% of women age 15-49) is the percentage of women age 15-49 who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signatur{p_end}
@@ -1299,7 +1299,7 @@
 {marker sourceid_SG.OWN.LDAJ.MA.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAJ.MA.Q1.ZS:SG.OWN.LDAJ.MA.Q1.ZS} - `"Men who own land both alone and jointly (% of men): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land both alone and jointly (% of men): Q1 (lowest) is the percentage of men who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alone{p_end}
@@ -1311,7 +1311,7 @@
 {marker sourceid_SG.OWN.LDAJ.MA.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAJ.MA.Q2.ZS:SG.OWN.LDAJ.MA.Q2.ZS} - `"Men who own land both alone and jointly (% of men): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land both alone and jointly (% of men): Q2 is the percentage of men who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alone and join{p_end}
@@ -1323,7 +1323,7 @@
 {marker sourceid_SG.OWN.LDAJ.MA.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAJ.MA.Q3.ZS:SG.OWN.LDAJ.MA.Q3.ZS} - `"Men who own land both alone and jointly (% of men): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land both alone and jointly (% of men): Q3 is the percentage of men who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alone and join{p_end}
@@ -1335,7 +1335,7 @@
 {marker sourceid_SG.OWN.LDAJ.MA.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAJ.MA.Q4.ZS:SG.OWN.LDAJ.MA.Q4.ZS} - `"Men who own land both alone and jointly (% of men): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land both alone and jointly (% of men): Q4 is the percentage of men who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alone and join{p_end}
@@ -1347,7 +1347,7 @@
 {marker sourceid_SG.OWN.LDAJ.MA.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAJ.MA.Q5.ZS:SG.OWN.LDAJ.MA.Q5.ZS} - `"Men who own land both alone and jointly (% of men): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land both alone and jointly (% of men): Q5 (highest) is the percentage of men who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alon{p_end}
@@ -1359,7 +1359,7 @@
 {marker sourceid_SG.OWN.LDAJ.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAJ.MA.ZS:SG.OWN.LDAJ.MA.ZS} - `"Men who own land both alone and jointly (% of men)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land both alone and jointly (% of men) is the percentage of men who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alone and jointly{p_end}
@@ -1371,7 +1371,7 @@
 {marker sourceid_SG.OWN.LDAL.FE.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAL.FE.Q1.ZS:SG.OWN.LDAL.FE.Q1.ZS} - `"Women who own land alone (% of women age 15-49): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land alone (% of women age 15-49): Q1 (lowest) is the percentage of women age 15-49 who only solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents{p_end}
@@ -1383,7 +1383,7 @@
 {marker sourceid_SG.OWN.LDAL.FE.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAL.FE.Q2.ZS:SG.OWN.LDAL.FE.Q2.ZS} - `"Women who own land alone (% of women age 15-49): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land alone (% of women age 15-49): Q2 is the percentage of women age 15-49 who only solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fift{p_end}
@@ -1395,7 +1395,7 @@
 {marker sourceid_SG.OWN.LDAL.FE.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAL.FE.Q3.ZS:SG.OWN.LDAL.FE.Q3.ZS} - `"Women who own land alone (% of women age 15-49): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land alone (% of women age 15-49): Q3 is the percentage of women age 15-49 who only solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fift{p_end}
@@ -1407,7 +1407,7 @@
 {marker sourceid_SG.OWN.LDAL.FE.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAL.FE.Q4.ZS:SG.OWN.LDAL.FE.Q4.ZS} - `"Women who own land alone (% of women age 15-49): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land alone (% of women age 15-49): Q4 is the percentage of women age 15-49 who only solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fift{p_end}
@@ -1419,7 +1419,7 @@
 {marker sourceid_SG.OWN.LDAL.FE.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAL.FE.Q5.ZS:SG.OWN.LDAL.FE.Q5.ZS} - `"Women who own land alone (% of women age 15-49): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land alone (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who only solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represent{p_end}
@@ -1431,7 +1431,7 @@
 {marker sourceid_SG.OWN.LDAL.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAL.FE.ZS:SG.OWN.LDAL.FE.ZS} - `"Women who own land alone (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land alone (% of women age 15-49) is the percentage of women age 15-49 who only solely own a land which is legally registered with their name or cannot be sold without their signature.{p_end}
@@ -1443,7 +1443,7 @@
 {marker sourceid_SG.OWN.LDAL.MA.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAL.MA.Q1.ZS:SG.OWN.LDAL.MA.Q1.ZS} - `"Men who own land alone (% of men): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land alone (% of men): Q1 (lowest) is the percentage of men who solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with q{p_end}
@@ -1455,7 +1455,7 @@
 {marker sourceid_SG.OWN.LDAL.MA.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAL.MA.Q2.ZS:SG.OWN.LDAL.MA.Q2.ZS} - `"Men who own land alone (% of men): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land alone (% of men): Q2 is the percentage of men who solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with quintile 1{p_end}
@@ -1467,7 +1467,7 @@
 {marker sourceid_SG.OWN.LDAL.MA.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAL.MA.Q3.ZS:SG.OWN.LDAL.MA.Q3.ZS} - `"Men who own land alone (% of men): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land alone (% of men): Q3 is the percentage of men who solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with quintile 1{p_end}
@@ -1479,7 +1479,7 @@
 {marker sourceid_SG.OWN.LDAL.MA.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAL.MA.Q4.ZS:SG.OWN.LDAL.MA.Q4.ZS} - `"Men who own land alone (% of men): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land alone (% of men): Q4 is the percentage of men who solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with quintile 1{p_end}
@@ -1491,7 +1491,7 @@
 {marker sourceid_SG.OWN.LDAL.MA.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAL.MA.Q5.ZS:SG.OWN.LDAL.MA.Q5.ZS} - `"Men who own land alone (% of men): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land alone (% of men): Q5 (highest) is the percentage of men who solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with{p_end}
@@ -1503,7 +1503,7 @@
 {marker sourceid_SG.OWN.LDAL.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDAL.MA.ZS:SG.OWN.LDAL.MA.ZS} - `"Men who own land alone (% of men)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land alone (% of men) is the percentage of men who solely own a land which is legally registered with their name or cannot be sold without their signature.{p_end}
@@ -1515,7 +1515,7 @@
 {marker sourceid_SG.OWN.LDJT.FE.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDJT.FE.Q1.ZS:SG.OWN.LDJT.FE.Q1.ZS} - `"Women who own land jointly (% of women age 15-49): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land jointly (% of women age 15-49): Q1 (lowest) is the percentage of women age 15-49 who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointl{p_end}
@@ -1527,7 +1527,7 @@
 {marker sourceid_SG.OWN.LDJT.FE.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDJT.FE.Q2.ZS:SG.OWN.LDJT.FE.Q2.ZS} - `"Women who own land jointly (% of women age 15-49): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land jointly (% of women age 15-49): Q2 is the percentage of women age 15-49 who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies{p_end}
@@ -1539,7 +1539,7 @@
 {marker sourceid_SG.OWN.LDJT.FE.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDJT.FE.Q3.ZS:SG.OWN.LDJT.FE.Q3.ZS} - `"Women who own land jointly (% of women age 15-49): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land jointly (% of women age 15-49): Q3 is the percentage of women age 15-49 who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies{p_end}
@@ -1551,7 +1551,7 @@
 {marker sourceid_SG.OWN.LDJT.FE.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDJT.FE.Q4.ZS:SG.OWN.LDJT.FE.Q4.ZS} - `"Women who own land jointly (% of women age 15-49): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land jointly (% of women age 15-49): Q4 is the percentage of women age 15-49 who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies{p_end}
@@ -1563,7 +1563,7 @@
 {marker sourceid_SG.OWN.LDJT.FE.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDJT.FE.Q5.ZS:SG.OWN.LDJT.FE.Q5.ZS} - `"Women who own land jointly (% of women age 15-49): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land jointly (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only joint{p_end}
@@ -1575,7 +1575,7 @@
 {marker sourceid_SG.OWN.LDJT.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDJT.FE.ZS:SG.OWN.LDJT.FE.ZS} - `"Women who own land jointly (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who own land jointly (% of women age 15-49) is the percentage of women age 15-49 who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the{p_end}
@@ -1587,7 +1587,7 @@
 {marker sourceid_SG.OWN.LDJT.MA.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDJT.MA.Q1.ZS:SG.OWN.LDJT.MA.Q1.ZS} - `"Men who own land jointly (% of men): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land jointly (% of men): Q1 (lowest) is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’{p_end}
@@ -1599,7 +1599,7 @@
 {marker sourceid_SG.OWN.LDJT.MA.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDJT.MA.Q2.ZS:SG.OWN.LDJT.MA.Q2.ZS} - `"Men who own land jointly (% of men): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land jointly (% of men): Q2 is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a l{p_end}
@@ -1611,7 +1611,7 @@
 {marker sourceid_SG.OWN.LDJT.MA.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDJT.MA.Q3.ZS:SG.OWN.LDJT.MA.Q3.ZS} - `"Men who own land jointly (% of men): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land jointly (% of men): Q3 is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a l{p_end}
@@ -1623,7 +1623,7 @@
 {marker sourceid_SG.OWN.LDJT.MA.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDJT.MA.Q4.ZS:SG.OWN.LDJT.MA.Q4.ZS} - `"Men who own land jointly (% of men): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land jointly (% of men): Q4 is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a l{p_end}
@@ -1635,7 +1635,7 @@
 {marker sourceid_SG.OWN.LDJT.MA.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDJT.MA.Q5.ZS:SG.OWN.LDJT.MA.Q5.ZS} - `"Men who own land jointly (% of men): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land jointly (% of men): Q5 (highest) is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn�{p_end}
@@ -1647,7 +1647,7 @@
 {marker sourceid_SG.OWN.LDJT.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDJT.MA.ZS:SG.OWN.LDJT.MA.ZS} - `"Men who own land jointly (% of men)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who own land jointly (% of men) is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a land{p_end}
@@ -1659,7 +1659,7 @@
 {marker sourceid_SG.OWN.LDNO.FE.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDNO.FE.Q1.ZS:SG.OWN.LDNO.FE.Q1.ZS} - `"Women who do not own land (% of women age 15-49): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who do not own land (% of women age 15-49): Q1 (lowest) is the percentage of women age 15-49 who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with some{p_end}
@@ -1671,7 +1671,7 @@
 {marker sourceid_SG.OWN.LDNO.FE.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDNO.FE.Q2.ZS:SG.OWN.LDNO.FE.Q2.ZS} - `"Women who do not own land (% of women age 15-49): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who do not own land (% of women age 15-49): Q2 is the percentage of women age 15-49 who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else{p_end}
@@ -1683,7 +1683,7 @@
 {marker sourceid_SG.OWN.LDNO.FE.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDNO.FE.Q3.ZS:SG.OWN.LDNO.FE.Q3.ZS} - `"Women who do not own land (% of women age 15-49): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who do not own land (% of women age 15-49): Q3 is the percentage of women age 15-49 who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else{p_end}
@@ -1695,7 +1695,7 @@
 {marker sourceid_SG.OWN.LDNO.FE.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDNO.FE.Q4.ZS:SG.OWN.LDNO.FE.Q4.ZS} - `"Women who do not own land (% of women age 15-49): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who do not own land (% of women age 15-49): Q4 is the percentage of women age 15-49 who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else{p_end}
@@ -1707,7 +1707,7 @@
 {marker sourceid_SG.OWN.LDNO.FE.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDNO.FE.Q5.ZS:SG.OWN.LDNO.FE.Q5.ZS} - `"Women who do not own land (% of women age 15-49): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who do not own land (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with som{p_end}
@@ -1719,7 +1719,7 @@
 {marker sourceid_SG.OWN.LDNO.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDNO.FE.ZS:SG.OWN.LDNO.FE.ZS} - `"Women who do not own land (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Women who do not own land (% of women age 15-49) is the percentage of women age 15-49 who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or b{p_end}
@@ -1731,7 +1731,7 @@
 {marker sourceid_SG.OWN.LDNO.MA.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDNO.MA.Q1.ZS:SG.OWN.LDNO.MA.Q1.ZS} - `"Men who do not own land (% of men): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who do not own land (% of men): Q1 (lowest) is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wea{p_end}
@@ -1743,7 +1743,7 @@
 {marker sourceid_SG.OWN.LDNO.MA.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDNO.MA.Q2.ZS:SG.OWN.LDNO.MA.Q2.ZS} - `"Men who do not own land (% of men): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who do not own land (% of men): Q2 is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quint{p_end}
@@ -1755,7 +1755,7 @@
 {marker sourceid_SG.OWN.LDNO.MA.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDNO.MA.Q3.ZS:SG.OWN.LDNO.MA.Q3.ZS} - `"Men who do not own land (% of men): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who do not own land (% of men): Q3 is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quint{p_end}
@@ -1767,7 +1767,7 @@
 {marker sourceid_SG.OWN.LDNO.MA.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDNO.MA.Q4.ZS:SG.OWN.LDNO.MA.Q4.ZS} - `"Men who do not own land (% of men): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who do not own land (% of men): Q4 is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quint{p_end}
@@ -1779,7 +1779,7 @@
 {marker sourceid_SG.OWN.LDNO.MA.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDNO.MA.Q5.ZS:SG.OWN.LDNO.MA.Q5.ZS} - `"Men who do not own land (% of men): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who do not own land (% of men): Q5 (highest) is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each we{p_end}
@@ -1791,7 +1791,7 @@
 {marker sourceid_SG.OWN.LDNO.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.LDNO.MA.ZS:SG.OWN.LDNO.MA.ZS} - `"Men who do not own land (% of men)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Men who do not own land (% of men) is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both.{p_end}
@@ -1803,7 +1803,7 @@
 {marker sourceid_SG.OWN.PRRT.MR}
 {synopt:{bf:{help wbopendata_sourceid##SG.OWN.PRRT.MR:SG.OWN.PRRT.MR} - `"Married men and married women have equal ownership rights to property (1=yes; 0=no)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -1816,7 +1816,7 @@
 {marker sourceid_SG.POP.MIGR.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.POP.MIGR.FE.ZS:SG.POP.MIGR.FE.ZS} - `"Female migrants (% of international migrant stock)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -1829,7 +1829,7 @@
 {marker sourceid_SG.RSX.BRTH.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.BRTH.Q1.ZS:SG.RSX.BRTH.Q1.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she has recently given birth. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent{p_end}
@@ -1841,7 +1841,7 @@
 {marker sourceid_SG.RSX.BRTH.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.BRTH.Q2.ZS:SG.RSX.BRTH.Q2.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she has recently given birth. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent{p_end}
@@ -1853,7 +1853,7 @@
 {marker sourceid_SG.RSX.BRTH.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.BRTH.Q3.ZS:SG.RSX.BRTH.Q3.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she has recently given birth. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent{p_end}
@@ -1865,7 +1865,7 @@
 {marker sourceid_SG.RSX.BRTH.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.BRTH.Q4.ZS:SG.RSX.BRTH.Q4.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she has recently given birth. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent{p_end}
@@ -1877,7 +1877,7 @@
 {marker sourceid_SG.RSX.BRTH.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.BRTH.Q5.ZS:SG.RSX.BRTH.Q5.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she has recently given birth. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent{p_end}
@@ -1889,7 +1889,7 @@
 {marker sourceid_SG.RSX.BRTH.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.BRTH.ZS:SG.RSX.BRTH.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -1902,7 +1902,7 @@
 {marker sourceid_SG.RSX.NORS.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.NORS.Q1.ZS:SG.RSX.NORS.Q1.ZS} - `"Women who believe a wife is justified refusing sex with her husband for none of the reasons (%): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband for none of the reasons: husband has sexually transmitted disease, husband has sex with other women, recently given birth, tired or no{p_end}
@@ -1914,7 +1914,7 @@
 {marker sourceid_SG.RSX.NORS.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.NORS.Q2.ZS:SG.RSX.NORS.Q2.ZS} - `"Women who believe a wife is justified refusing sex with her husband for none of the reasons (%): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband for none of the reasons: husband has sexually transmitted disease, husband has sex with other women, recently given birth, tired or no{p_end}
@@ -1926,7 +1926,7 @@
 {marker sourceid_SG.RSX.NORS.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.NORS.Q3.ZS:SG.RSX.NORS.Q3.ZS} - `"Women who believe a wife is justified refusing sex with her husband for none of the reasons (%): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband for none of the reasons: husband has sexually transmitted disease, husband has sex with other women, recently given birth, tired or no{p_end}
@@ -1938,7 +1938,7 @@
 {marker sourceid_SG.RSX.NORS.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.NORS.Q4.ZS:SG.RSX.NORS.Q4.ZS} - `"Women who believe a wife is justified refusing sex with her husband for none of the reasons (%): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband for none of the reasons: husband has sexually transmitted disease, husband has sex with other women, recently given birth, tired or no{p_end}
@@ -1950,7 +1950,7 @@
 {marker sourceid_SG.RSX.NORS.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.NORS.Q5.ZS:SG.RSX.NORS.Q5.ZS} - `"Women who believe a wife is justified refusing sex with her husband for none of the reasons (%): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband for none of the reasons: husband has sexually transmitted disease, husband has sex with other women, recently given birth, tired or no{p_end}
@@ -1962,7 +1962,7 @@
 {marker sourceid_SG.RSX.NORS.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.NORS.ZS:SG.RSX.NORS.ZS} - `"Women who believe a wife is justified refusing sex with her husband for none of the reasons (%)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -1975,7 +1975,7 @@
 {marker sourceid_SG.RSX.REAS.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.REAS.Q1.ZS:SG.RSX.REAS.Q1.ZS} - `"Women who believe a wife is justified refusing sex with her husband for all of the reasons (%): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband for all of the reasons: husband has sexually transmitted disease, husband has sex with other women, recently given birth, tired or not{p_end}
@@ -1987,7 +1987,7 @@
 {marker sourceid_SG.RSX.REAS.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.REAS.Q2.ZS:SG.RSX.REAS.Q2.ZS} - `"Women who believe a wife is justified refusing sex with her husband for all of the reasons (%): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband for all of the reasons: husband has sexually transmitted disease, husband has sex with other women, recently given birth, tired or not{p_end}
@@ -1999,7 +1999,7 @@
 {marker sourceid_SG.RSX.REAS.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.REAS.Q3.ZS:SG.RSX.REAS.Q3.ZS} - `"Women who believe a wife is justified refusing sex with her husband for all of the reasons (%): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband for all of the reasons: husband has sexually transmitted disease, husband has sex with other women, recently given birth, tired or not{p_end}
@@ -2011,7 +2011,7 @@
 {marker sourceid_SG.RSX.REAS.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.REAS.Q4.ZS:SG.RSX.REAS.Q4.ZS} - `"Women who believe a wife is justified refusing sex with her husband for all of the reasons (%): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband for all of the reasons: husband has sexually transmitted disease, husband has sex with other women, recently given birth, tired or not{p_end}
@@ -2023,7 +2023,7 @@
 {marker sourceid_SG.RSX.REAS.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.REAS.Q5.ZS:SG.RSX.REAS.Q5.ZS} - `"Women who believe a wife is justified refusing sex with her husband for all of the reasons (%): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband for all of the reasons: husband has sexually transmitted disease, husband has sex with other women, recently given birth, tired or not{p_end}
@@ -2035,7 +2035,7 @@
 {marker sourceid_SG.RSX.REAS.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.REAS.ZS:SG.RSX.REAS.ZS} - `"Women who believe a wife is justified refusing sex with her husband for all of the reasons (%)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2048,7 +2048,7 @@
 {marker sourceid_SG.RSX.SXOT.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.SXOT.Q1.ZS:SG.RSX.SXOT.Q1.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she knows husband has sex with other women. Each wealth quintile represents one fifth of households with quintile 1 being the poore{p_end}
@@ -2060,7 +2060,7 @@
 {marker sourceid_SG.RSX.SXOT.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.SXOT.Q2.ZS:SG.RSX.SXOT.Q2.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she knows husband has sex with other women. Each wealth quintile represents one fifth of households with quintile 1 being the poore{p_end}
@@ -2072,7 +2072,7 @@
 {marker sourceid_SG.RSX.SXOT.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.SXOT.Q3.ZS:SG.RSX.SXOT.Q3.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she knows husband has sex with other women. Each wealth quintile represents one fifth of households with quintile 1 being the poore{p_end}
@@ -2084,7 +2084,7 @@
 {marker sourceid_SG.RSX.SXOT.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.SXOT.Q4.ZS:SG.RSX.SXOT.Q4.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she knows husband has sex with other women. Each wealth quintile represents one fifth of households with quintile 1 being the poore{p_end}
@@ -2096,7 +2096,7 @@
 {marker sourceid_SG.RSX.SXOT.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.SXOT.Q5.ZS:SG.RSX.SXOT.Q5.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she knows husband has sex with other women. Each wealth quintile represents one fifth of households with quintile 1 being the poore{p_end}
@@ -2108,7 +2108,7 @@
 {marker sourceid_SG.RSX.SXOT.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.SXOT.ZS:SG.RSX.SXOT.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2121,7 +2121,7 @@
 {marker sourceid_SG.RSX.TIRD.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.TIRD.Q1.ZS:SG.RSX.TIRD.Q1.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she is tired or not in the mood. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 perce{p_end}
@@ -2133,7 +2133,7 @@
 {marker sourceid_SG.RSX.TIRD.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.TIRD.Q2.ZS:SG.RSX.TIRD.Q2.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she is tired or not in the mood. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 perce{p_end}
@@ -2145,7 +2145,7 @@
 {marker sourceid_SG.RSX.TIRD.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.TIRD.Q3.ZS:SG.RSX.TIRD.Q3.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she is tired or not in the mood. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 perce{p_end}
@@ -2157,7 +2157,7 @@
 {marker sourceid_SG.RSX.TIRD.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.TIRD.Q4.ZS:SG.RSX.TIRD.Q4.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she is tired or not in the mood. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 perce{p_end}
@@ -2169,7 +2169,7 @@
 {marker sourceid_SG.RSX.TIRD.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.TIRD.Q5.ZS:SG.RSX.TIRD.Q5.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she is tired or not in the mood. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 perce{p_end}
@@ -2181,7 +2181,7 @@
 {marker sourceid_SG.RSX.TIRD.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.TIRD.ZS:SG.RSX.TIRD.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2194,7 +2194,7 @@
 {marker sourceid_SG.RSX.TMDS.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.TMDS.Q1.ZS:SG.RSX.TMDS.Q1.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she knows husband has sexually transmitted disease. Each wealth quintile represents one fifth of households with quintile 1 being t{p_end}
@@ -2206,7 +2206,7 @@
 {marker sourceid_SG.RSX.TMDS.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.TMDS.Q2.ZS:SG.RSX.TMDS.Q2.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she knows husband has sexually transmitted disease. Each wealth quintile represents one fifth of households with quintile 1 being t{p_end}
@@ -2218,7 +2218,7 @@
 {marker sourceid_SG.RSX.TMDS.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.TMDS.Q3.ZS:SG.RSX.TMDS.Q3.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she knows husband has sexually transmitted disease. Each wealth quintile represents one fifth of households with quintile 1 being t{p_end}
@@ -2230,7 +2230,7 @@
 {marker sourceid_SG.RSX.TMDS.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.TMDS.Q4.ZS:SG.RSX.TMDS.Q4.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she knows husband has sexually transmitted disease. Each wealth quintile represents one fifth of households with quintile 1 being t{p_end}
@@ -2242,7 +2242,7 @@
 {marker sourceid_SG.RSX.TMDS.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.TMDS.Q5.ZS:SG.RSX.TMDS.Q5.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she knows husband has sexually transmitted disease. Each wealth quintile represents one fifth of households with quintile 1 being t{p_end}
@@ -2254,7 +2254,7 @@
 {marker sourceid_SG.RSX.TMDS.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.RSX.TMDS.ZS:SG.RSX.TMDS.ZS} - `"Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2267,7 +2267,7 @@
 {marker sourceid_SG.VAW.ARGU.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.ARGU.Q1.ZS:SG.VAW.ARGU.Q1.ZS} - `"Women who believe a husband is justified in beating his wife when she argues with him (%): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she argues with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of{p_end}
@@ -2279,7 +2279,7 @@
 {marker sourceid_SG.VAW.ARGU.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.ARGU.Q2.ZS:SG.VAW.ARGU.Q2.ZS} - `"Women who believe a husband is justified in beating his wife when she argues with him (%): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she argues with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of{p_end}
@@ -2291,7 +2291,7 @@
 {marker sourceid_SG.VAW.ARGU.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.ARGU.Q3.ZS:SG.VAW.ARGU.Q3.ZS} - `"Women who believe a husband is justified in beating his wife when she argues with him (%): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she argues with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of{p_end}
@@ -2303,7 +2303,7 @@
 {marker sourceid_SG.VAW.ARGU.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.ARGU.Q4.ZS:SG.VAW.ARGU.Q4.ZS} - `"Women who believe a husband is justified in beating his wife when she argues with him (%): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she argues with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of{p_end}
@@ -2315,7 +2315,7 @@
 {marker sourceid_SG.VAW.ARGU.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.ARGU.Q5.ZS:SG.VAW.ARGU.Q5.ZS} - `"Women who believe a husband is justified in beating his wife when she argues with him (%): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she argues with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of{p_end}
@@ -2327,7 +2327,7 @@
 {marker sourceid_SG.VAW.BURN.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.BURN.Q1.ZS:SG.VAW.BURN.Q1.ZS} - `"Women who believe a husband is justified in beating his wife when she burns the food (%): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she burns the food. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of h{p_end}
@@ -2339,7 +2339,7 @@
 {marker sourceid_SG.VAW.BURN.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.BURN.Q2.ZS:SG.VAW.BURN.Q2.ZS} - `"Women who believe a husband is justified in beating his wife when she burns the food (%): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she burns the food. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of h{p_end}
@@ -2351,7 +2351,7 @@
 {marker sourceid_SG.VAW.BURN.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.BURN.Q3.ZS:SG.VAW.BURN.Q3.ZS} - `"Women who believe a husband is justified in beating his wife when she burns the food (%): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she burns the food. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of h{p_end}
@@ -2363,7 +2363,7 @@
 {marker sourceid_SG.VAW.BURN.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.BURN.Q4.ZS:SG.VAW.BURN.Q4.ZS} - `"Women who believe a husband is justified in beating his wife when she burns the food (%): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she burns the food. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of h{p_end}
@@ -2375,7 +2375,7 @@
 {marker sourceid_SG.VAW.BURN.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.BURN.Q5.ZS:SG.VAW.BURN.Q5.ZS} - `"Women who believe a husband is justified in beating his wife when she burns the food (%): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she burns the food. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of h{p_end}
@@ -2387,7 +2387,7 @@
 {marker sourceid_SG.VAW.GOES.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.GOES.Q1.ZS:SG.VAW.GOES.Q1.ZS} - `"Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 2{p_end}
@@ -2399,7 +2399,7 @@
 {marker sourceid_SG.VAW.GOES.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.GOES.Q2.ZS:SG.VAW.GOES.Q2.ZS} - `"Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 2{p_end}
@@ -2411,7 +2411,7 @@
 {marker sourceid_SG.VAW.GOES.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.GOES.Q3.ZS:SG.VAW.GOES.Q3.ZS} - `"Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 2{p_end}
@@ -2423,7 +2423,7 @@
 {marker sourceid_SG.VAW.GOES.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.GOES.Q4.ZS:SG.VAW.GOES.Q4.ZS} - `"Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 2{p_end}
@@ -2435,7 +2435,7 @@
 {marker sourceid_SG.VAW.GOES.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.GOES.Q5.ZS:SG.VAW.GOES.Q5.ZS} - `"Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 2{p_end}
@@ -2447,7 +2447,7 @@
 {marker sourceid_SG.VAW.NEGL.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.NEGL.Q1.ZS:SG.VAW.NEGL.Q1.ZS} - `"Women who believe a husband is justified in beating his wife when she neglects the children (%): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she neglects the children. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 perce{p_end}
@@ -2459,7 +2459,7 @@
 {marker sourceid_SG.VAW.NEGL.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.NEGL.Q2.ZS:SG.VAW.NEGL.Q2.ZS} - `"Women who believe a husband is justified in beating his wife when she neglects the children (%): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she neglects the children. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 perce{p_end}
@@ -2471,7 +2471,7 @@
 {marker sourceid_SG.VAW.NEGL.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.NEGL.Q3.ZS:SG.VAW.NEGL.Q3.ZS} - `"Women who believe a husband is justified in beating his wife when she neglects the children (%): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she neglects the children. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 perce{p_end}
@@ -2483,7 +2483,7 @@
 {marker sourceid_SG.VAW.NEGL.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.NEGL.Q4.ZS:SG.VAW.NEGL.Q4.ZS} - `"Women who believe a husband is justified in beating his wife when she neglects the children (%): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she neglects the children. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 perce{p_end}
@@ -2495,7 +2495,7 @@
 {marker sourceid_SG.VAW.NEGL.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.NEGL.Q5.ZS:SG.VAW.NEGL.Q5.ZS} - `"Women who believe a husband is justified in beating his wife when she neglects the children (%): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she neglects the children. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 perce{p_end}
@@ -2507,7 +2507,7 @@
 {marker sourceid_SG.VAW.REAS.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.REAS.Q1.ZS:SG.VAW.REAS.Q1.ZS} - `"Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when{p_end}
@@ -2519,7 +2519,7 @@
 {marker sourceid_SG.VAW.REAS.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.REAS.Q2.ZS:SG.VAW.REAS.Q2.ZS} - `"Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when{p_end}
@@ -2531,7 +2531,7 @@
 {marker sourceid_SG.VAW.REAS.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.REAS.Q3.ZS:SG.VAW.REAS.Q3.ZS} - `"Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when{p_end}
@@ -2543,7 +2543,7 @@
 {marker sourceid_SG.VAW.REAS.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.REAS.Q4.ZS:SG.VAW.REAS.Q4.ZS} - `"Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when{p_end}
@@ -2555,7 +2555,7 @@
 {marker sourceid_SG.VAW.REAS.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.REAS.Q5.ZS:SG.VAW.REAS.Q5.ZS} - `"Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when{p_end}
@@ -2567,7 +2567,7 @@
 {marker sourceid_SG.VAW.REFU.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.REFU.Q1.ZS:SG.VAW.REFU.Q1.ZS} - `"Women who believe a husband is justified in beating his wife when she refuses sex with him (%): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she refuses sex with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percen{p_end}
@@ -2579,7 +2579,7 @@
 {marker sourceid_SG.VAW.REFU.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.REFU.Q2.ZS:SG.VAW.REFU.Q2.ZS} - `"Women who believe a husband is justified in beating his wife when she refuses sex with him (%): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she refuses sex with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percen{p_end}
@@ -2591,7 +2591,7 @@
 {marker sourceid_SG.VAW.REFU.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.REFU.Q3.ZS:SG.VAW.REFU.Q3.ZS} - `"Women who believe a husband is justified in beating his wife when she refuses sex with him (%): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she refuses sex with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percen{p_end}
@@ -2603,7 +2603,7 @@
 {marker sourceid_SG.VAW.REFU.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.REFU.Q4.ZS:SG.VAW.REFU.Q4.ZS} - `"Women who believe a husband is justified in beating his wife when she refuses sex with him (%): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she refuses sex with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percen{p_end}
@@ -2615,7 +2615,7 @@
 {marker sourceid_SG.VAW.REFU.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.REFU.Q5.ZS:SG.VAW.REFU.Q5.ZS} - `"Women who believe a husband is justified in beating his wife when she refuses sex with him (%): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she refuses sex with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percen{p_end}
@@ -2627,7 +2627,7 @@
 {marker sourceid_SH.DTH.COMM.1534.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.1534.FE.ZS:SH.DTH.COMM.1534.FE.ZS} - `"Cause of death, by communicable diseases, ages 15-34, female (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2640,7 +2640,7 @@
 {marker sourceid_SH.DTH.COMM.1534.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.1534.MA.ZS:SH.DTH.COMM.1534.MA.ZS} - `"Cause of death, by communicable diseases, ages 15-34, male (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2653,7 +2653,7 @@
 {marker sourceid_SH.DTH.COMM.3559.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.3559.FE.ZS:SH.DTH.COMM.3559.FE.ZS} - `"Cause of death, by communicable diseases, ages 35-59, female (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2666,7 +2666,7 @@
 {marker sourceid_SH.DTH.COMM.3559.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.3559.MA.ZS:SH.DTH.COMM.3559.MA.ZS} - `"Cause of death, by communicable diseases, ages 35-59, male (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2679,7 +2679,7 @@
 {marker sourceid_SH.DTH.INJR.1534.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.1534.FE.ZS:SH.DTH.INJR.1534.FE.ZS} - `"Cause of death, by injury, ages 15-34, female  (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2692,7 +2692,7 @@
 {marker sourceid_SH.DTH.INJR.1534.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.1534.MA.ZS:SH.DTH.INJR.1534.MA.ZS} - `"Cause of death, by injury, ages 15-34, male (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2705,7 +2705,7 @@
 {marker sourceid_SH.DTH.INJR.3559.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.3559.FE.ZS:SH.DTH.INJR.3559.FE.ZS} - `"Cause of death, by injury, ages 35-59, female (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2718,7 +2718,7 @@
 {marker sourceid_SH.DTH.INJR.3559.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.3559.MA.ZS:SH.DTH.INJR.3559.MA.ZS} - `"Cause of death, by injury, ages 35-59, male (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2731,7 +2731,7 @@
 {marker sourceid_SH.DTH.NCOM.1534.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.1534.FE.ZS:SH.DTH.NCOM.1534.FE.ZS} - `"Cause of death, by non-communicable diseases, ages 15-34, female (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2744,7 +2744,7 @@
 {marker sourceid_SH.DTH.NCOM.1534.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.1534.MA.ZS:SH.DTH.NCOM.1534.MA.ZS} - `"Cause of death, by non-communicable diseases, ages 15-34, male (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2757,7 +2757,7 @@
 {marker sourceid_SH.DTH.NCOM.3559.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.3559.FE.ZS:SH.DTH.NCOM.3559.FE.ZS} - `"Cause of death, by non-communicable diseases, ages 35-59, female (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2770,7 +2770,7 @@
 {marker sourceid_SH.DTH.NCOM.3559.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.3559.MA.ZS:SH.DTH.NCOM.3559.MA.ZS} - `"Cause of death, by non-communicable diseases, ages 35-59, male (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2783,7 +2783,7 @@
 {marker sourceid_SH.HIV.ARTC.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.HIV.ARTC.FE.ZS:SH.HIV.ARTC.FE.ZS} - `"Access to anti-retroviral drugs, female (%)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2796,7 +2796,7 @@
 {marker sourceid_SH.HIV.ARTC.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.HIV.ARTC.MA.ZS:SH.HIV.ARTC.MA.ZS} - `"Access to anti-retroviral drugs, male (%)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2809,7 +2809,7 @@
 {marker sourceid_SH.MMR.LEVE}
 {synopt:{bf:{help wbopendata_sourceid##SH.MMR.LEVE:SH.MMR.LEVE} - `"Maternity leave (days paid)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2822,7 +2822,7 @@
 {marker sourceid_SH.MMR.WAGE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.MMR.WAGE.ZS:SH.MMR.WAGE.ZS} - `"Maternity leave benefits (% of wages paid)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2835,7 +2835,7 @@
 {marker sourceid_SH.STA.FGMS.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.STA.FGMS.Q1.ZS:SH.STA.FGMS.Q1.ZS} - `"Female genital mutilation prevalence (%): Q1 (lowest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15–49 who have gone through partial or total removal of the female external genitalia or other injury to the female genital organs for cultural or other non-therapeutic reasons. Each wealth quintile represents one fi{p_end}
@@ -2847,7 +2847,7 @@
 {marker sourceid_SH.STA.FGMS.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.STA.FGMS.Q2.ZS:SH.STA.FGMS.Q2.ZS} - `"Female genital mutilation prevalence (%): Q2"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15–49 who have gone through partial or total removal of the female external genitalia or other injury to the female genital organs for cultural or other non-therapeutic reasons. Each wealth quintile represents one fi{p_end}
@@ -2859,7 +2859,7 @@
 {marker sourceid_SH.STA.FGMS.Q3.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.STA.FGMS.Q3.ZS:SH.STA.FGMS.Q3.ZS} - `"Female genital mutilation prevalence (%): Q3"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15–49 who have gone through partial or total removal of the female external genitalia or other injury to the female genital organs for cultural or other non-therapeutic reasons. Each wealth quintile represents one fi{p_end}
@@ -2871,7 +2871,7 @@
 {marker sourceid_SH.STA.FGMS.Q4.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.STA.FGMS.Q4.ZS:SH.STA.FGMS.Q4.ZS} - `"Female genital mutilation prevalence (%): Q4"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15–49 who have gone through partial or total removal of the female external genitalia or other injury to the female genital organs for cultural or other non-therapeutic reasons. Each wealth quintile represents one fi{p_end}
@@ -2883,7 +2883,7 @@
 {marker sourceid_SH.STA.FGMS.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.STA.FGMS.Q5.ZS:SH.STA.FGMS.Q5.ZS} - `"Female genital mutilation prevalence (%): Q5 (highest)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Percentage of women aged 15–49 who have gone through partial or total removal of the female external genitalia or other injury to the female genital organs for cultural or other non-therapeutic reasons. Each wealth quintile represents one fi{p_end}
@@ -2895,7 +2895,7 @@
 {marker sourceid_SH.STA.OB18.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.STA.OB18.FE.ZS:SH.STA.OB18.FE.ZS} - `"Prevalence of obesity, female (% of female population ages 18+)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2908,7 +2908,7 @@
 {marker sourceid_SH.STA.OB18.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.STA.OB18.MA.ZS:SH.STA.OB18.MA.ZS} - `"Prevalence of obesity, male (% of male population ages 18+)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2921,7 +2921,7 @@
 {marker sourceid_SL.EMP.OWAC.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SL.EMP.OWAC.FE.ZS:SL.EMP.OWAC.FE.ZS} - `"Own-account workers, female (% of female employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2934,7 +2934,7 @@
 {marker sourceid_SL.EMP.OWAC.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SL.EMP.OWAC.MA.ZS:SL.EMP.OWAC.MA.ZS} - `"Own-account workers, male (% of male employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2947,7 +2947,7 @@
 {marker sourceid_SL.EMP.UNDR.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SL.EMP.UNDR.FE.ZS:SL.EMP.UNDR.FE.ZS} - `"Time-related underemployment, female (% of employment)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2960,7 +2960,7 @@
 {marker sourceid_SL.EMP.UNDR.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SL.EMP.UNDR.MA.ZS:SL.EMP.UNDR.MA.ZS} - `"Time-related underemployment, male (% of employment)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2973,7 +2973,7 @@
 {marker sourceid_SL.TLF.TOTL.FE.IN}
 {synopt:{bf:{help wbopendata_sourceid##SL.TLF.TOTL.FE.IN:SL.TLF.TOTL.FE.IN} - `"Labor force, female"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2986,7 +2986,7 @@
 {marker sourceid_SL.UEM.1524.FM.NE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SL.UEM.1524.FM.NE.ZS:SL.UEM.1524.FM.NE.ZS} - `"Ratio of female to male youth unemployment rate (%) (national estimate)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -2999,7 +2999,7 @@
 {marker sourceid_SL.UEM.1524.FM.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SL.UEM.1524.FM.ZS:SL.UEM.1524.FM.ZS} - `"Ratio of female to male youth unemployment rate (% ages 15-24) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -3012,7 +3012,7 @@
 {marker sourceid_SP.DYN.LE60.FE.IN}
 {synopt:{bf:{help wbopendata_sourceid##SP.DYN.LE60.FE.IN:SP.DYN.LE60.FE.IN} - `"Life expectancy at age 60, female (years)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -3025,7 +3025,7 @@
 {marker sourceid_SP.DYN.LE60.MA.IN}
 {synopt:{bf:{help wbopendata_sourceid##SP.DYN.LE60.MA.IN:SP.DYN.LE60.MA.IN} - `"Life expectancy at age 60, male (years)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -3038,7 +3038,7 @@
 {marker sourceid_SP.DYN.SMAM.FE}
 {synopt:{bf:{help wbopendata_sourceid##SP.DYN.SMAM.FE:SP.DYN.SMAM.FE} - `"Age at first marriage, female"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -3051,7 +3051,7 @@
 {marker sourceid_SP.RUR.TOTL.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SP.RUR.TOTL.FE.ZS:SP.RUR.TOTL.FE.ZS} - `"Rural population, female (% of total)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -3064,7 +3064,7 @@
 {marker sourceid_SP.RUR.TOTL.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SP.RUR.TOTL.MA.ZS:SP.RUR.TOTL.MA.ZS} - `"Rural population, male (% of total)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -3077,7 +3077,7 @@
 {marker sourceid_SP.URB.TOTL.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SP.URB.TOTL.FE.ZS:SP.URB.TOTL.FE.ZS} - `"Urban population, female (% of total)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -3090,7 +3090,7 @@
 {marker sourceid_SP.URB.TOTL.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SP.URB.TOTL.MA.ZS:SP.URB.TOTL.MA.ZS} - `"Urban population, male (% of total)"'}}
 
-{synopt:{opt Source}}`"14 Gender Statistics"'{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 

@@ -70,7 +70,7 @@
 {marker sourceid_SN.SH.STA.MALN.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.MALN.ZS:SN.SH.STA.MALN.ZS} - `"Sub-National Malnutrition prevalence, weight for age (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"05 Subnational Malnutrition Database"'{p_end}
+{synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
 
 {synopt:{opt Source Notes}}Prevalence of child malnutrition is the percentage of children under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's{p_end}
@@ -82,7 +82,7 @@
 {marker sourceid_SN.SH.STA.OWGH.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.OWGH.ZS:SN.SH.STA.OWGH.ZS} - `"Sub-National Prevalence of overweight (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"05 Subnational Malnutrition Database"'{p_end}
+{synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
 
 {synopt:{opt Source Notes}}Prevalence of overweight children is the percentage of children under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the{p_end}
@@ -94,7 +94,7 @@
 {marker sourceid_SN.SH.STA.STNT.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.STNT.ZS:SN.SH.STA.STNT.ZS} - `"Sub-National Malnutrition prevalence, height for age (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"05 Subnational Malnutrition Database"'{p_end}
+{synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
 
 {synopt:{opt Source Notes}}Prevalence of child malnutrition is the percentage of children under age 5 whose height for age (stunting) is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to tw{p_end}
@@ -106,7 +106,7 @@
 {marker sourceid_SN.SH.STA.WAST.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.WAST.ZS:SN.SH.STA.WAST.ZS} - `"Sub-National Prevalence of wasting (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"05 Subnational Malnutrition Database"'{p_end}
+{synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
 
 {synopt:{opt Source Notes}}Wasting prevalence is the proportion of children under five whose weight for height is more than two standard deviations below the median for the international reference population ages 0-59.{p_end}
@@ -118,7 +118,7 @@
 {marker sourceid_SN.SH.SVR.WAST.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SN.SH.SVR.WAST.ZS:SN.SH.SVR.WAST.ZS} - `"Sub-National Prevalence of severe wasting, weight for height (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"05 Subnational Malnutrition Database"'{p_end}
+{synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
 
 {synopt:{opt Source Notes}}Yet to receive metadata{p_end}

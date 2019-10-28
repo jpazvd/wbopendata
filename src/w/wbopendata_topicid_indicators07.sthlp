@@ -42,7 +42,7 @@
 {marker topicid_BM.KLT.DINV.CD.WD}
 {synopt:{bf:{help wbopendata_topicid##BM.KLT.DINV.CD.WD:BM.KLT.DINV.CD.WD} - `"Foreign direct investment, net outflows (BoP, current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -55,7 +55,7 @@
 {marker topicid_BM.KLT.DINV.WD.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##BM.KLT.DINV.WD.GD.ZS:BM.KLT.DINV.WD.GD.ZS} - `"Foreign direct investment, net outflows (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -68,7 +68,7 @@
 {marker topicid_BM.TRF.PWKR.CD.DT}
 {synopt:{bf:{help wbopendata_topicid##BM.TRF.PWKR.CD.DT:BM.TRF.PWKR.CD.DT} - `"Personal remittances, paid (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -81,7 +81,7 @@
 {marker topicid_BN.KLT.DINV.CD}
 {synopt:{bf:{help wbopendata_topicid##BN.KLT.DINV.CD:BN.KLT.DINV.CD} - `"Foreign direct investment, net (BoP, current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -94,7 +94,7 @@
 {marker topicid_BN.KLT.PTXL.CD}
 {synopt:{bf:{help wbopendata_topicid##BN.KLT.PTXL.CD:BN.KLT.PTXL.CD} - `"Portfolio Investment, net (BoP, current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -107,7 +107,7 @@
 {marker topicid_BX.KLT.DINV.CD.WD}
 {synopt:{bf:{help wbopendata_topicid##BX.KLT.DINV.CD.WD:BX.KLT.DINV.CD.WD} - `"Foreign direct investment, net inflows (BoP, current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -120,7 +120,7 @@
 {marker topicid_BX.KLT.DINV.WD.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##BX.KLT.DINV.WD.GD.ZS:BX.KLT.DINV.WD.GD.ZS} - `"Foreign direct investment, net inflows (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -133,7 +133,7 @@
 {marker topicid_BX.KLT.DREM.CD.DT}
 {synopt:{bf:{help wbopendata_topicid##BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT} - `"Primary income on FDI, payments (current US$)"'}}
 
-{synopt:{opt Source}}`"06 International Debt Statistics"'{p_end}
+{synopt:{opt Source}}06 International Debt Statistics{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -146,7 +146,7 @@
 {marker topicid_BX.PEF.TOTL.CD.WD}
 {synopt:{bf:{help wbopendata_topicid##BX.PEF.TOTL.CD.WD:BX.PEF.TOTL.CD.WD} - `"Portfolio equity, net inflows (BoP, current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -159,7 +159,7 @@
 {marker topicid_BX.TRF.PWKR.CD}
 {synopt:{bf:{help wbopendata_topicid##BX.TRF.PWKR.CD:BX.TRF.PWKR.CD} - `"Personal transfers, receipts (BoP, current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -172,7 +172,7 @@
 {marker topicid_BX.TRF.PWKR.CD.DT}
 {synopt:{bf:{help wbopendata_topicid##BX.TRF.PWKR.CD.DT:BX.TRF.PWKR.CD.DT} - `"Personal remittances, received (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -185,7 +185,7 @@
 {marker topicid_BX.TRF.PWKR.DT.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##BX.TRF.PWKR.DT.GD.ZS:BX.TRF.PWKR.DT.GD.ZS} - `"Personal remittances, received (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -198,7 +198,7 @@
 {marker topicid_CM.MKT.INDX.ZG}
 {synopt:{bf:{help wbopendata_topicid##CM.MKT.INDX.ZG:CM.MKT.INDX.ZG} - `"S&amp;P Global Equity Indices (annual % change)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -211,7 +211,7 @@
 {marker topicid_CM.MKT.LCAP.CD}
 {synopt:{bf:{help wbopendata_topicid##CM.MKT.LCAP.CD:CM.MKT.LCAP.CD} - `"Market capitalization of listed domestic companies (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -224,7 +224,7 @@
 {marker topicid_CM.MKT.LCAP.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##CM.MKT.LCAP.GD.ZS:CM.MKT.LCAP.GD.ZS} - `"Market capitalization of listed domestic companies (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -237,7 +237,7 @@
 {marker topicid_CM.MKT.LDOM.NO}
 {synopt:{bf:{help wbopendata_topicid##CM.MKT.LDOM.NO:CM.MKT.LDOM.NO} - `"Listed domestic companies, total"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -250,7 +250,7 @@
 {marker topicid_CM.MKT.TRAD.CD}
 {synopt:{bf:{help wbopendata_topicid##CM.MKT.TRAD.CD:CM.MKT.TRAD.CD} - `"Stocks traded, total value (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -263,7 +263,7 @@
 {marker topicid_CM.MKT.TRAD.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##CM.MKT.TRAD.GD.ZS:CM.MKT.TRAD.GD.ZS} - `"Stocks traded, total value (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -276,7 +276,7 @@
 {marker topicid_CM.MKT.TRNR}
 {synopt:{bf:{help wbopendata_topicid##CM.MKT.TRNR:CM.MKT.TRNR} - `"Stocks traded, turnover ratio of domestic shares (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -289,7 +289,7 @@
 {marker topicid_DT.NFL.BOND.CD}
 {synopt:{bf:{help wbopendata_topicid##DT.NFL.BOND.CD:DT.NFL.BOND.CD} - `"Portfolio investment, bonds (PPG + PNG) (NFL, current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -302,7 +302,7 @@
 {marker topicid_FB.AST.LOAN.CB.P3}
 {synopt:{bf:{help wbopendata_topicid##FB.AST.LOAN.CB.P3:FB.AST.LOAN.CB.P3} - `"Loan accounts, commercial banks (per 1,000 adults)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -315,7 +315,7 @@
 {marker topicid_FB.AST.LOAN.MF.P3}
 {synopt:{bf:{help wbopendata_topicid##FB.AST.LOAN.MF.P3:FB.AST.LOAN.MF.P3} - `"Loan accounts, microfinance institutions (per 1,000 adults)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -328,7 +328,7 @@
 {marker topicid_FB.AST.NPER.ZS}
 {synopt:{bf:{help wbopendata_topicid##FB.AST.NPER.ZS:FB.AST.NPER.ZS} - `"Bank nonperforming loans to total gross loans (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -341,7 +341,7 @@
 {marker topicid_FB.ATM.TOTL.P5}
 {synopt:{bf:{help wbopendata_topicid##FB.ATM.TOTL.P5:FB.ATM.TOTL.P5} - `"Automated teller machines (ATMs) (per 100,000 adults)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -354,7 +354,7 @@
 {marker topicid_FB.BNK.CAPA.ZS}
 {synopt:{bf:{help wbopendata_topicid##FB.BNK.CAPA.ZS:FB.BNK.CAPA.ZS} - `"Bank capital to assets ratio (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -367,7 +367,7 @@
 {marker topicid_FB.CBK.BRCH.P5}
 {synopt:{bf:{help wbopendata_topicid##FB.CBK.BRCH.P5:FB.CBK.BRCH.P5} - `"Commercial bank branches (per 100,000 adults)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -380,7 +380,7 @@
 {marker topicid_FB.CBK.BRWR.P3}
 {synopt:{bf:{help wbopendata_topicid##FB.CBK.BRWR.P3:FB.CBK.BRWR.P3} - `"Borrowers from commercial banks (per 1,000 adults)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -393,7 +393,7 @@
 {marker topicid_FB.CBK.DPTR.P3}
 {synopt:{bf:{help wbopendata_topicid##FB.CBK.DPTR.P3:FB.CBK.DPTR.P3} - `"Depositors with commercial banks (per 1,000 adults)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -406,7 +406,7 @@
 {marker topicid_FB.POS.TOTL.P5}
 {synopt:{bf:{help wbopendata_topicid##FB.POS.TOTL.P5:FB.POS.TOTL.P5} - `"Point-of-sale terminals (per 100,000 adults)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -419,7 +419,7 @@
 {marker topicid_FD.AST.PRVT.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##FD.AST.PRVT.GD.ZS:FD.AST.PRVT.GD.ZS} - `"Domestic credit to private sector by banks (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -432,7 +432,7 @@
 {marker topicid_FD.RES.LIQU.AS.ZS}
 {synopt:{bf:{help wbopendata_topicid##FD.RES.LIQU.AS.ZS:FD.RES.LIQU.AS.ZS} - `"Bank liquid reserves to bank assets ratio (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -445,7 +445,7 @@
 {marker topicid_FI.RES.TOTL.CD}
 {synopt:{bf:{help wbopendata_topicid##FI.RES.TOTL.CD:FI.RES.TOTL.CD} - `"Total reserves (includes gold, current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -458,7 +458,7 @@
 {marker topicid_FI.RES.TOTL.DT.ZS}
 {synopt:{bf:{help wbopendata_topicid##FI.RES.TOTL.DT.ZS:FI.RES.TOTL.DT.ZS} - `"Total reserves (% of total external debt)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -471,7 +471,7 @@
 {marker topicid_FI.RES.TOTL.MO}
 {synopt:{bf:{help wbopendata_topicid##FI.RES.TOTL.MO:FI.RES.TOTL.MO} - `"Total reserves in months of imports"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -484,7 +484,7 @@
 {marker topicid_FI.RES.XGLD.CD}
 {synopt:{bf:{help wbopendata_topicid##FI.RES.XGLD.CD:FI.RES.XGLD.CD} - `"Total reserves minus gold (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -497,7 +497,7 @@
 {marker topicid_FM.AST.CGOV.ZG.M3}
 {synopt:{bf:{help wbopendata_topicid##FM.AST.CGOV.ZG.M3:FM.AST.CGOV.ZG.M3} - `"Claims on central government (annual growth as % of broad money)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -510,7 +510,7 @@
 {marker topicid_FM.AST.DOMO.ZG.M3}
 {synopt:{bf:{help wbopendata_topicid##FM.AST.DOMO.ZG.M3:FM.AST.DOMO.ZG.M3} - `"Claims on other sectors of the domestic economy (annual growth as % of broad money)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -523,7 +523,7 @@
 {marker topicid_FM.AST.DOMS.CN}
 {synopt:{bf:{help wbopendata_topicid##FM.AST.DOMS.CN:FM.AST.DOMS.CN} - `"Net domestic credit (current LCU)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -536,7 +536,7 @@
 {marker topicid_FM.AST.GOVT.CN}
 {synopt:{bf:{help wbopendata_topicid##FM.AST.GOVT.CN:FM.AST.GOVT.CN} - `"Claims on governments and other public entities (current LCU)"'}}
 
-{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -549,7 +549,7 @@
 {marker topicid_FM.AST.GOVT.ZG.M2}
 {synopt:{bf:{help wbopendata_topicid##FM.AST.GOVT.ZG.M2:FM.AST.GOVT.ZG.M2} - `"Claims on governments, etc. (annual growth as % of M2)"'}}
 
-{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -562,7 +562,7 @@
 {marker topicid_FM.AST.NFRG.CN}
 {synopt:{bf:{help wbopendata_topicid##FM.AST.NFRG.CN:FM.AST.NFRG.CN} - `"Net foreign assets (current LCU)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -575,7 +575,7 @@
 {marker topicid_FM.AST.PRVT.ZG.M2}
 {synopt:{bf:{help wbopendata_topicid##FM.AST.PRVT.ZG.M2:FM.AST.PRVT.ZG.M2} - `"Claims on private sector (annual growth as % of M2)"'}}
 
-{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -588,7 +588,7 @@
 {marker topicid_FM.AST.PRVT.ZG.M3}
 {synopt:{bf:{help wbopendata_topicid##FM.AST.PRVT.ZG.M3:FM.AST.PRVT.ZG.M3} - `"Claims on private sector (annual growth as % of broad money)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -601,7 +601,7 @@
 {marker topicid_FM.LBL.BMNY.CN}
 {synopt:{bf:{help wbopendata_topicid##FM.LBL.BMNY.CN:FM.LBL.BMNY.CN} - `"Broad money (current LCU)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -614,7 +614,7 @@
 {marker topicid_FM.LBL.BMNY.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##FM.LBL.BMNY.GD.ZS:FM.LBL.BMNY.GD.ZS} - `"Broad money (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -627,7 +627,7 @@
 {marker topicid_FM.LBL.BMNY.IR.ZS}
 {synopt:{bf:{help wbopendata_topicid##FM.LBL.BMNY.IR.ZS:FM.LBL.BMNY.IR.ZS} - `"Broad money to total reserves ratio"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -640,7 +640,7 @@
 {marker topicid_FM.LBL.BMNY.ZG}
 {synopt:{bf:{help wbopendata_topicid##FM.LBL.BMNY.ZG:FM.LBL.BMNY.ZG} - `"Broad money growth (annual %)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -653,7 +653,7 @@
 {marker topicid_FP.CPI.TOTL}
 {synopt:{bf:{help wbopendata_topicid##FP.CPI.TOTL:FP.CPI.TOTL} - `"Consumer price index (2010 = 100)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -666,7 +666,7 @@
 {marker topicid_FP.CPI.TOTL.ZG}
 {synopt:{bf:{help wbopendata_topicid##FP.CPI.TOTL.ZG:FP.CPI.TOTL.ZG} - `"Inflation, consumer prices (annual %)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -679,7 +679,7 @@
 {marker topicid_FP.WPI.TOTL}
 {synopt:{bf:{help wbopendata_topicid##FP.WPI.TOTL:FP.WPI.TOTL} - `"Wholesale price index (2010 = 100)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -692,7 +692,7 @@
 {marker topicid_FR.INR.DPST}
 {synopt:{bf:{help wbopendata_topicid##FR.INR.DPST:FR.INR.DPST} - `"Deposit interest rate (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -705,7 +705,7 @@
 {marker topicid_FR.INR.LEND}
 {synopt:{bf:{help wbopendata_topicid##FR.INR.LEND:FR.INR.LEND} - `"Lending interest rate (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -718,7 +718,7 @@
 {marker topicid_FR.INR.LNDP}
 {synopt:{bf:{help wbopendata_topicid##FR.INR.LNDP:FR.INR.LNDP} - `"Interest rate spread (lending rate minus deposit rate, %)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -731,7 +731,7 @@
 {marker topicid_FR.INR.RINR}
 {synopt:{bf:{help wbopendata_topicid##FR.INR.RINR:FR.INR.RINR} - `"Real interest rate (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -744,7 +744,7 @@
 {marker topicid_FR.INR.RISK}
 {synopt:{bf:{help wbopendata_topicid##FR.INR.RISK:FR.INR.RISK} - `"Risk premium on lending (lending rate minus treasury bill rate, %)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -757,7 +757,7 @@
 {marker topicid_FS.AST.CGOV.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##FS.AST.CGOV.GD.ZS:FS.AST.CGOV.GD.ZS} - `"Claims on central government, etc. (% GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -770,7 +770,7 @@
 {marker topicid_FS.AST.DOMO.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##FS.AST.DOMO.GD.ZS:FS.AST.DOMO.GD.ZS} - `"Claims on other sectors of the domestic economy (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -783,7 +783,7 @@
 {marker topicid_FS.AST.DOMS.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##FS.AST.DOMS.GD.ZS:FS.AST.DOMS.GD.ZS} - `"Domestic credit provided by financial sector (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -796,7 +796,7 @@
 {marker topicid_FS.AST.PRVT.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##FS.AST.PRVT.GD.ZS:FS.AST.PRVT.GD.ZS} - `"Domestic credit to private sector (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -809,7 +809,7 @@
 {marker topicid_GFDD.AI.01}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.01:GFDD.AI.01} - `"Bank accounts per 1,000 adults"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -822,7 +822,7 @@
 {marker topicid_GFDD.AI.02}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.02:GFDD.AI.02} - `"Bank branches per 100,000 adults"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -835,7 +835,7 @@
 {marker topicid_GFDD.AI.03}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.03:GFDD.AI.03} - `"Firms with a bank loan or line of credit (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -848,7 +848,7 @@
 {marker topicid_GFDD.AI.04}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.04:GFDD.AI.04} - `"Small firms with a bank loan or line of credit (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -861,7 +861,7 @@
 {marker topicid_GFDD.AI.05}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.05:GFDD.AI.05} - `"Account at a formal financial institution (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -874,7 +874,7 @@
 {marker topicid_GFDD.AI.06}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.06:GFDD.AI.06} - `"Saved at a financial institution in the past year (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -887,7 +887,7 @@
 {marker topicid_GFDD.AI.07}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.07:GFDD.AI.07} - `"Loan from a financial institution in the past year (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -900,7 +900,7 @@
 {marker topicid_GFDD.AI.08}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.08:GFDD.AI.08} - `"Account used for business purposes (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -913,7 +913,7 @@
 {marker topicid_GFDD.AI.09}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.09:GFDD.AI.09} - `"Account used to receive government payments (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -926,7 +926,7 @@
 {marker topicid_GFDD.AI.10}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.10:GFDD.AI.10} - `"Account used to receive remittances (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -939,7 +939,7 @@
 {marker topicid_GFDD.AI.11}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.11:GFDD.AI.11} - `"Account used to receive wages (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -952,7 +952,7 @@
 {marker topicid_GFDD.AI.12}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.12:GFDD.AI.12} - `"Saved any money in the past year (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -965,7 +965,7 @@
 {marker topicid_GFDD.AI.13}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.13:GFDD.AI.13} - `"Saved using a savings club in the past year (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -978,7 +978,7 @@
 {marker topicid_GFDD.AI.14}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.14:GFDD.AI.14} - `"Loan in the past year (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -991,7 +991,7 @@
 {marker topicid_GFDD.AI.15}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.15:GFDD.AI.15} - `"Loan from a private lender in the past year (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1004,7 +1004,7 @@
 {marker topicid_GFDD.AI.16}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.16:GFDD.AI.16} - `"Loan from an employer in the past year (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1017,7 +1017,7 @@
 {marker topicid_GFDD.AI.17}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.17:GFDD.AI.17} - `"Loan through store credit in the past year (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1030,7 +1030,7 @@
 {marker topicid_GFDD.AI.18}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.18:GFDD.AI.18} - `"Loan from family or friends in the past year (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1043,7 +1043,7 @@
 {marker topicid_GFDD.AI.19}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.19:GFDD.AI.19} - `"Checks used to make payments (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1056,7 +1056,7 @@
 {marker topicid_GFDD.AI.20}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.20:GFDD.AI.20} - `"Credit card (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1069,7 +1069,7 @@
 {marker topicid_GFDD.AI.21}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.21:GFDD.AI.21} - `"Debit card (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1082,7 +1082,7 @@
 {marker topicid_GFDD.AI.22}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.22:GFDD.AI.22} - `"Electronic payments used to make payments (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1095,7 +1095,7 @@
 {marker topicid_GFDD.AI.23}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.23:GFDD.AI.23} - `"Mobile phone used to pay bills (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1108,7 +1108,7 @@
 {marker topicid_GFDD.AI.24}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.24:GFDD.AI.24} - `"Mobile phone used to send money (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1121,7 +1121,7 @@
 {marker topicid_GFDD.AI.25}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.25:GFDD.AI.25} - `"ATMs per 100,000 adults"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1134,7 +1134,7 @@
 {marker topicid_GFDD.AI.26}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.26:GFDD.AI.26} - `"Depositing/withdrawing at least once in a typical month (% age 15+)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1147,7 +1147,7 @@
 {marker topicid_GFDD.AI.27}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.27:GFDD.AI.27} - `"Firms with a checking or savings account (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1160,7 +1160,7 @@
 {marker topicid_GFDD.AI.28}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.28:GFDD.AI.28} - `"Firms using banks to finance investments (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1173,7 +1173,7 @@
 {marker topicid_GFDD.AI.29}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.29:GFDD.AI.29} - `"Firms using banks to finance working capital (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1186,7 +1186,7 @@
 {marker topicid_GFDD.AI.30}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.30:GFDD.AI.30} - `"Loans requiring collateral (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1199,7 +1199,7 @@
 {marker topicid_GFDD.AI.31}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.31:GFDD.AI.31} - `"Value of collateral needed for a loan (% of the loan amount)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1212,7 +1212,7 @@
 {marker topicid_GFDD.AI.32}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.32:GFDD.AI.32} - `"Firms not needing a loan (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1225,7 +1225,7 @@
 {marker topicid_GFDD.AI.33}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.33:GFDD.AI.33} - `"Firms whose recent loan application was rejected (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1238,7 +1238,7 @@
 {marker topicid_GFDD.AI.34}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.34:GFDD.AI.34} - `"Investments financed by banks (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1251,7 +1251,7 @@
 {marker topicid_GFDD.AI.35}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.35:GFDD.AI.35} - `"Working capital financed by banks (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1264,7 +1264,7 @@
 {marker topicid_GFDD.AI.36}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AI.36:GFDD.AI.36} - `"Firms identifying access to finance as a major constraint (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1277,7 +1277,7 @@
 {marker topicid_GFDD.AM.01}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AM.01:GFDD.AM.01} - `"Value traded excluding top 10 traded companies to total value traded (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1290,7 +1290,7 @@
 {marker topicid_GFDD.AM.02}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AM.02:GFDD.AM.02} - `"Market capitalization excluding top 10 companies to total market capitalization (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1303,7 +1303,7 @@
 {marker topicid_GFDD.AM.03}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AM.03:GFDD.AM.03} - `"Nonfinancial corporate bonds to total bonds and notes outstanding (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1316,7 +1316,7 @@
 {marker topicid_GFDD.AM.04}
 {synopt:{bf:{help wbopendata_topicid##GFDD.AM.04:GFDD.AM.04} - `"Investments financed by equity or stock sales (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1329,7 +1329,7 @@
 {marker topicid_GFDD.DI.01}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DI.01:GFDD.DI.01} - `"Private credit by deposit money banks to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1342,7 +1342,7 @@
 {marker topicid_GFDD.DI.02}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DI.02:GFDD.DI.02} - `"Deposit money banks'' assets to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1355,7 +1355,7 @@
 {marker topicid_GFDD.DI.03}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DI.03:GFDD.DI.03} - `"Nonbank financial institutions’ assets to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1368,7 +1368,7 @@
 {marker topicid_GFDD.DI.04}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DI.04:GFDD.DI.04} - `"Deposit money bank assets to deposit money bank assets and central bank assets (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1381,7 +1381,7 @@
 {marker topicid_GFDD.DI.05}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DI.05:GFDD.DI.05} - `"Liquid liabilities to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1394,7 +1394,7 @@
 {marker topicid_GFDD.DI.06}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DI.06:GFDD.DI.06} - `"Central bank assets to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1407,7 +1407,7 @@
 {marker topicid_GFDD.DI.07}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DI.07:GFDD.DI.07} - `"Mutual fund assets to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1420,7 +1420,7 @@
 {marker topicid_GFDD.DI.08}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DI.08:GFDD.DI.08} - `"Financial system deposits to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1433,7 +1433,7 @@
 {marker topicid_GFDD.DI.09}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DI.09:GFDD.DI.09} - `"Life insurance premium volume to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1446,7 +1446,7 @@
 {marker topicid_GFDD.DI.10}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DI.10:GFDD.DI.10} - `"Non-life insurance premium volume to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1459,7 +1459,7 @@
 {marker topicid_GFDD.DI.11}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DI.11:GFDD.DI.11} - `"Insurance company assets to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1472,7 +1472,7 @@
 {marker topicid_GFDD.DI.12}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DI.12:GFDD.DI.12} - `"Private credit by deposit money banks and other financial institutions to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1485,7 +1485,7 @@
 {marker topicid_GFDD.DI.13}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DI.13:GFDD.DI.13} - `"Pension fund assets to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1498,7 +1498,7 @@
 {marker topicid_GFDD.DI.14}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DI.14:GFDD.DI.14} - `"Domestic credit to private sector (% of GDP)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1511,7 +1511,7 @@
 {marker topicid_GFDD.DM.01}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DM.01:GFDD.DM.01} - `"Stock market capitalization to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1524,7 +1524,7 @@
 {marker topicid_GFDD.DM.02}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DM.02:GFDD.DM.02} - `"Stock market total value traded to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1537,7 +1537,7 @@
 {marker topicid_GFDD.DM.03}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DM.03:GFDD.DM.03} - `"Outstanding domestic private debt securities to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1550,7 +1550,7 @@
 {marker topicid_GFDD.DM.04}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DM.04:GFDD.DM.04} - `"Outstanding domestic public debt securities to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1563,7 +1563,7 @@
 {marker topicid_GFDD.DM.05}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DM.05:GFDD.DM.05} - `"Outstanding international private debt securities to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1576,7 +1576,7 @@
 {marker topicid_GFDD.DM.06}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DM.06:GFDD.DM.06} - `"Outstanding international public debt securities to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1589,7 +1589,7 @@
 {marker topicid_GFDD.DM.07}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DM.07:GFDD.DM.07} - `"International debt issues to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1602,7 +1602,7 @@
 {marker topicid_GFDD.DM.08}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DM.08:GFDD.DM.08} - `"Gross portfolio equity liabilities to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1615,7 +1615,7 @@
 {marker topicid_GFDD.DM.09}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DM.09:GFDD.DM.09} - `"Gross portfolio equity assets to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1628,7 +1628,7 @@
 {marker topicid_GFDD.DM.10}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DM.10:GFDD.DM.10} - `"Gross portfolio debt liabilities to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1641,7 +1641,7 @@
 {marker topicid_GFDD.EI.01}
 {synopt:{bf:{help wbopendata_topicid##GFDD.EI.01:GFDD.EI.01} - `"Bank net interest margin (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1654,7 +1654,7 @@
 {marker topicid_GFDD.EI.02}
 {synopt:{bf:{help wbopendata_topicid##GFDD.EI.02:GFDD.EI.02} - `"Bank lending-deposit spread"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1667,7 +1667,7 @@
 {marker topicid_GFDD.EI.03}
 {synopt:{bf:{help wbopendata_topicid##GFDD.EI.03:GFDD.EI.03} - `"Bank noninterest income to total income (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1680,7 +1680,7 @@
 {marker topicid_GFDD.EI.04}
 {synopt:{bf:{help wbopendata_topicid##GFDD.EI.04:GFDD.EI.04} - `"Bank overhead costs to total assets (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1693,7 +1693,7 @@
 {marker topicid_GFDD.EI.05}
 {synopt:{bf:{help wbopendata_topicid##GFDD.EI.05:GFDD.EI.05} - `"Bank return on assets (%, after tax)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1706,7 +1706,7 @@
 {marker topicid_GFDD.EI.06}
 {synopt:{bf:{help wbopendata_topicid##GFDD.EI.06:GFDD.EI.06} - `"Bank return on equity (%, after tax)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1719,7 +1719,7 @@
 {marker topicid_GFDD.EI.07}
 {synopt:{bf:{help wbopendata_topicid##GFDD.EI.07:GFDD.EI.07} - `"Bank cost to income ratio (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1732,7 +1732,7 @@
 {marker topicid_GFDD.EI.08}
 {synopt:{bf:{help wbopendata_topicid##GFDD.EI.08:GFDD.EI.08} - `"Credit to government and state-owned enterprises to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1745,7 +1745,7 @@
 {marker topicid_GFDD.EI.09}
 {synopt:{bf:{help wbopendata_topicid##GFDD.EI.09:GFDD.EI.09} - `"Bank return on assets (%, before tax)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1758,7 +1758,7 @@
 {marker topicid_GFDD.EI.10}
 {synopt:{bf:{help wbopendata_topicid##GFDD.EI.10:GFDD.EI.10} - `"Bank return on equity (%, before tax)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1771,7 +1771,7 @@
 {marker topicid_GFDD.EM.01}
 {synopt:{bf:{help wbopendata_topicid##GFDD.EM.01:GFDD.EM.01} - `"Stock market turnover ratio (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1784,7 +1784,7 @@
 {marker topicid_GFDD.OI.01}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.01:GFDD.OI.01} - `"Bank concentration (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1797,7 +1797,7 @@
 {marker topicid_GFDD.OI.02}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.02:GFDD.OI.02} - `"Bank deposits to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1810,7 +1810,7 @@
 {marker topicid_GFDD.OI.03}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.03:GFDD.OI.03} - `"H-statistic"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1823,7 +1823,7 @@
 {marker topicid_GFDD.OI.04}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.04:GFDD.OI.04} - `"Lerner index"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1836,7 +1836,7 @@
 {marker topicid_GFDD.OI.05}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.05:GFDD.OI.05} - `"Boone indicator"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1849,7 +1849,7 @@
 {marker topicid_GFDD.OI.06}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.06:GFDD.OI.06} - `"5-bank asset concentration"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1862,7 +1862,7 @@
 {marker topicid_GFDD.OI.07}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.07:GFDD.OI.07} - `"Liquid liabilities in millions USD (2000 constant)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1875,7 +1875,7 @@
 {marker topicid_GFDD.OI.08}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.08:GFDD.OI.08} - `"Loans from nonresident banks (net) to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1888,7 +1888,7 @@
 {marker topicid_GFDD.OI.09}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.09:GFDD.OI.09} - `"Loans from nonresident banks (amounts outstanding) to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1901,7 +1901,7 @@
 {marker topicid_GFDD.OI.10}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.10:GFDD.OI.10} - `"External loans and deposits of reporting banks vis-à-vis the banking sector (% of domestic bank deposits)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1914,7 +1914,7 @@
 {marker topicid_GFDD.OI.11}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.11:GFDD.OI.11} - `"External loans and deposits of reporting banks vis-à-vis the nonbanking sectors (% of domestic bank deposits)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1927,7 +1927,7 @@
 {marker topicid_GFDD.OI.12}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.12:GFDD.OI.12} - `"External loans and deposits of reporting banks vis-à-vis all sectors (% of domestic bank deposits)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1940,7 +1940,7 @@
 {marker topicid_GFDD.OI.13}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.13:GFDD.OI.13} - `"Remittance inflows to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1953,7 +1953,7 @@
 {marker topicid_GFDD.OI.14}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.14:GFDD.OI.14} - `"Consolidated foreign claims of BIS reporting banks to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1966,7 +1966,7 @@
 {marker topicid_GFDD.OI.15}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.15:GFDD.OI.15} - `"Foreign banks among total banks (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1979,7 +1979,7 @@
 {marker topicid_GFDD.OI.16}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.16:GFDD.OI.16} - `"Foreign bank assets among total bank assets (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -1992,7 +1992,7 @@
 {marker topicid_GFDD.OI.17}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.17:GFDD.OI.17} - `"Global leasing volume to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2005,7 +2005,7 @@
 {marker topicid_GFDD.OI.18}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.18:GFDD.OI.18} - `"Total factoring volume to GDP (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2018,7 +2018,7 @@
 {marker topicid_GFDD.OI.19}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.19:GFDD.OI.19} - `"Banking crisis dummy (1=banking crisis, 0=none)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2031,7 +2031,7 @@
 {marker topicid_GFDD.OM.01}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OM.01:GFDD.OM.01} - `"Number of listed companies per 1,000,000 people"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2044,7 +2044,7 @@
 {marker topicid_GFDD.OM.02}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OM.02:GFDD.OM.02} - `"Stock market return (%, year-on-year)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2057,7 +2057,7 @@
 {marker topicid_GFDD.SI.01}
 {synopt:{bf:{help wbopendata_topicid##GFDD.SI.01:GFDD.SI.01} - `"Bank Z-score"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2070,7 +2070,7 @@
 {marker topicid_GFDD.SI.02}
 {synopt:{bf:{help wbopendata_topicid##GFDD.SI.02:GFDD.SI.02} - `"Bank non-performing loans to gross loans (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2083,7 +2083,7 @@
 {marker topicid_GFDD.SI.03}
 {synopt:{bf:{help wbopendata_topicid##GFDD.SI.03:GFDD.SI.03} - `"Bank capital to total assets (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2096,7 +2096,7 @@
 {marker topicid_GFDD.SI.04}
 {synopt:{bf:{help wbopendata_topicid##GFDD.SI.04:GFDD.SI.04} - `"Bank credit to bank deposits (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2109,7 +2109,7 @@
 {marker topicid_GFDD.SI.05}
 {synopt:{bf:{help wbopendata_topicid##GFDD.SI.05:GFDD.SI.05} - `"Bank regulatory capital to risk-weighted assets (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2122,7 +2122,7 @@
 {marker topicid_GFDD.SI.06}
 {synopt:{bf:{help wbopendata_topicid##GFDD.SI.06:GFDD.SI.06} - `"Liquid assets to deposits and short term funding (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2135,7 +2135,7 @@
 {marker topicid_GFDD.SI.07}
 {synopt:{bf:{help wbopendata_topicid##GFDD.SI.07:GFDD.SI.07} - `"Provisions to nonperforming loans (%)"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2148,7 +2148,7 @@
 {marker topicid_GFDD.SM.01}
 {synopt:{bf:{help wbopendata_topicid##GFDD.SM.01:GFDD.SM.01} - `"Stock price volatility"'}}
 
-{synopt:{opt Source}}`"32 Global Financial Development"'{p_end}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2161,7 +2161,7 @@
 {marker topicid_IC.CRD.INFO.XQ}
 {synopt:{bf:{help wbopendata_topicid##IC.CRD.INFO.XQ:IC.CRD.INFO.XQ} - `"Depth of credit information index (0=low to 8=high)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2174,7 +2174,7 @@
 {marker topicid_IC.CRD.PRVT.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.CRD.PRVT.ZS:IC.CRD.PRVT.ZS} - `"Private credit bureau coverage (% of adults)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2187,7 +2187,7 @@
 {marker topicid_IC.CRD.PUBL.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.CRD.PUBL.ZS:IC.CRD.PUBL.ZS} - `"Public credit registry coverage (% of adults)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2200,7 +2200,7 @@
 {marker topicid_IC.LGL.CRED.XQ}
 {synopt:{bf:{help wbopendata_topicid##IC.LGL.CRED.XQ:IC.LGL.CRED.XQ} - `"Strength of legal rights index (0=weak to 12=strong)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2213,7 +2213,7 @@
 {marker topicid_NY.GDP.DEFL.KD.ZG.AD}
 {synopt:{bf:{help wbopendata_topicid##NY.GDP.DEFL.KD.ZG.AD:NY.GDP.DEFL.KD.ZG.AD} - `"Inflation, GDP deflator: linked series (annual %)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2226,7 +2226,7 @@
 {marker topicid_NY.GDP.DEFL.ZS.AD}
 {synopt:{bf:{help wbopendata_topicid##NY.GDP.DEFL.ZS.AD:NY.GDP.DEFL.ZS.AD} - `"GDP deflator: linked series (base year varies by country)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2239,7 +2239,7 @@
 {marker topicid_PA.NUS.ATLS}
 {synopt:{bf:{help wbopendata_topicid##PA.NUS.ATLS:PA.NUS.ATLS} - `"DEC alternative conversion factor (LCU per US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2252,7 +2252,7 @@
 {marker topicid_PA.NUS.FCRF}
 {synopt:{bf:{help wbopendata_topicid##PA.NUS.FCRF:PA.NUS.FCRF} - `"Official exchange rate (LCU per US$, period average)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2265,7 +2265,7 @@
 {marker topicid_PX.REX.REER}
 {synopt:{bf:{help wbopendata_topicid##PX.REX.REER:PX.REX.REER} - `"Real effective exchange rate index (2010 = 100)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2278,7 +2278,7 @@
 {marker topicid_SM.EMI.TERT.ZS}
 {synopt:{bf:{help wbopendata_topicid##SM.EMI.TERT.ZS:SM.EMI.TERT.ZS} - `"Emigration rate of tertiary educated (% of total tertiary educated population)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2291,7 +2291,7 @@
 {marker topicid_SM.POP.NETM}
 {synopt:{bf:{help wbopendata_topicid##SM.POP.NETM:SM.POP.NETM} - `"Net migration"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2304,7 +2304,7 @@
 {marker topicid_SM.POP.TOTL}
 {synopt:{bf:{help wbopendata_topicid##SM.POP.TOTL:SM.POP.TOTL} - `"International migrant stock, total"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2317,7 +2317,7 @@
 {marker topicid_SM.POP.TOTL.ZS}
 {synopt:{bf:{help wbopendata_topicid##SM.POP.TOTL.ZS:SM.POP.TOTL.ZS} - `"International migrant stock (% of population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2330,7 +2330,7 @@
 {marker topicid_WP15163_4.1}
 {synopt:{bf:{help wbopendata_topicid##WP15163_4.1:WP15163_4.1} - `"Mobile account (% age 15+)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2343,7 +2343,7 @@
 {marker topicid_WP15163_4.2}
 {synopt:{bf:{help wbopendata_topicid##WP15163_4.2:WP15163_4.2} - `"Mobile account, male (% age 15+)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2356,7 +2356,7 @@
 {marker topicid_WP15163_4.3}
 {synopt:{bf:{help wbopendata_topicid##WP15163_4.3:WP15163_4.3} - `"Mobile account, female (% age 15+)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2369,7 +2369,7 @@
 {marker topicid_WP15163_4.8}
 {synopt:{bf:{help wbopendata_topicid##WP15163_4.8:WP15163_4.8} - `"Mobile account, income, poorest 40% (% ages 15+)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2382,7 +2382,7 @@
 {marker topicid_WP15163_4.9}
 {synopt:{bf:{help wbopendata_topicid##WP15163_4.9:WP15163_4.9} - `"Mobile account, income, richest 60% (% ages 15+)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2395,7 +2395,7 @@
 {marker topicid_WP_time_01.1}
 {synopt:{bf:{help wbopendata_topicid##WP_time_01.1:WP_time_01.1} - `"Account at a financial institution (% age 15+)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2408,7 +2408,7 @@
 {marker topicid_WP_time_01.2}
 {synopt:{bf:{help wbopendata_topicid##WP_time_01.2:WP_time_01.2} - `"Account at a financial institution, male (% age 15+)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2421,7 +2421,7 @@
 {marker topicid_WP_time_01.3}
 {synopt:{bf:{help wbopendata_topicid##WP_time_01.3:WP_time_01.3} - `"Account at a financial institution, female (% age 15+)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2434,7 +2434,7 @@
 {marker topicid_WP_time_01.8}
 {synopt:{bf:{help wbopendata_topicid##WP_time_01.8:WP_time_01.8} - `"Account at a financial institution, income, poorest 40% (% ages 15+)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2447,7 +2447,7 @@
 {marker topicid_WP_time_01.9}
 {synopt:{bf:{help wbopendata_topicid##WP_time_01.9:WP_time_01.9} - `"Account at a financial institution, income, richest 60% (% ages 15+)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2460,7 +2460,7 @@
 {marker topicid_WP_time_10.1}
 {synopt:{bf:{help wbopendata_topicid##WP_time_10.1:WP_time_10.1} - `"Account (% age 15+) [ts]"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2473,7 +2473,7 @@
 {marker topicid_WP_time_10.2}
 {synopt:{bf:{help wbopendata_topicid##WP_time_10.2:WP_time_10.2} - `"Account, male (% age 15+) [ts]"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2486,7 +2486,7 @@
 {marker topicid_WP_time_10.3}
 {synopt:{bf:{help wbopendata_topicid##WP_time_10.3:WP_time_10.3} - `"Account, female (% age 15+) [ts]"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2499,7 +2499,7 @@
 {marker topicid_WP_time_10.4}
 {synopt:{bf:{help wbopendata_topicid##WP_time_10.4:WP_time_10.4} - `"Account, young adults (% ages 15-24) [ts]"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2512,7 +2512,7 @@
 {marker topicid_WP_time_10.5}
 {synopt:{bf:{help wbopendata_topicid##WP_time_10.5:WP_time_10.5} - `"Account, older adults (% ages 25+) [ts]"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2525,7 +2525,7 @@
 {marker topicid_WP_time_10.6}
 {synopt:{bf:{help wbopendata_topicid##WP_time_10.6:WP_time_10.6} - `"Account, primary education or less (% ages 15+) [ts]"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2538,7 +2538,7 @@
 {marker topicid_WP_time_10.7}
 {synopt:{bf:{help wbopendata_topicid##WP_time_10.7:WP_time_10.7} - `"Account, secondary education or more (% ages 15+) [ts]"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2551,7 +2551,7 @@
 {marker topicid_WP_time_10.8}
 {synopt:{bf:{help wbopendata_topicid##WP_time_10.8:WP_time_10.8} - `"Account, income, poorest 40% (% ages 15+) [ts]"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2564,7 +2564,7 @@
 {marker topicid_WP_time_10.9}
 {synopt:{bf:{help wbopendata_topicid##WP_time_10.9:WP_time_10.9} - `"Account, income, richest 60% (% ages 15+) [ts]"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 

@@ -70,7 +70,7 @@
 {marker sourceid_SP.POP.TOTL.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.ZS:SP.POP.TOTL.ZS} - `"Population (% of total)"'}}
 
-{synopt:{opt Source}}`"50 Subnational Population"'{p_end}
+{synopt:{opt Source}}50 Subnational Population{p_end}
 
 
 {synopt:{opt Source Notes}}Population Percentage of total is the share of first level administrative division (Admin 1 level) de facto mid-year population to total population.{p_end}

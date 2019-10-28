@@ -42,7 +42,7 @@
 {marker topicid_EG.EGY.PRIM.PP.KD}
 {synopt:{bf:{help wbopendata_topicid##EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD} - `"Energy intensity level of primary energy (MJ/$2011 PPP GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -55,7 +55,7 @@
 {marker topicid_EG.ELC.ACCS.RU.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.ACCS.RU.ZS:EG.ELC.ACCS.RU.ZS} - `"Access to electricity, rural (% of rural population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -68,7 +68,7 @@
 {marker topicid_EG.ELC.ACCS.UR.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.ACCS.UR.ZS:EG.ELC.ACCS.UR.ZS} - `"Access to electricity, urban (% of urban population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -81,7 +81,7 @@
 {marker topicid_EG.ELC.ACCS.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.ACCS.ZS:EG.ELC.ACCS.ZS} - `"Access to electricity (% of population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -94,7 +94,7 @@
 {marker topicid_EG.ELC.COAL.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.COAL.ZS:EG.ELC.COAL.ZS} - `"Electricity production from coal sources (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -107,7 +107,7 @@
 {marker topicid_EG.ELC.FOSL.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.FOSL.ZS:EG.ELC.FOSL.ZS} - `"Electricity production from oil, gas and coal sources (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -120,7 +120,7 @@
 {marker topicid_EG.ELC.HYRO.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.HYRO.ZS:EG.ELC.HYRO.ZS} - `"Electricity production from hydroelectric sources (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -133,7 +133,7 @@
 {marker topicid_EG.ELC.LOSS.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.LOSS.ZS:EG.ELC.LOSS.ZS} - `"Electric power transmission and distribution losses (% of output)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -146,7 +146,7 @@
 {marker topicid_EG.ELC.NGAS.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.NGAS.ZS:EG.ELC.NGAS.ZS} - `"Electricity production from natural gas sources (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -159,7 +159,7 @@
 {marker topicid_EG.ELC.NUCL.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.NUCL.ZS:EG.ELC.NUCL.ZS} - `"Electricity production from nuclear sources (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -172,7 +172,7 @@
 {marker topicid_EG.ELC.PETR.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.PETR.ZS:EG.ELC.PETR.ZS} - `"Electricity production from oil sources (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -185,7 +185,7 @@
 {marker topicid_EG.ELC.RNEW.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.RNEW.ZS:EG.ELC.RNEW.ZS} - `"Renewable electricity output (% of total electricity output)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -198,7 +198,7 @@
 {marker topicid_EG.ELC.RNWX.KH}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.RNWX.KH:EG.ELC.RNWX.KH} - `"Electricity production from renewable sources, excluding hydroelectric (kWh)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -211,7 +211,7 @@
 {marker topicid_EG.ELC.RNWX.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.RNWX.ZS:EG.ELC.RNWX.ZS} - `"Electricity production from renewable sources, excluding hydroelectric (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -224,7 +224,7 @@
 {marker topicid_EG.FEC.RNEW.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.FEC.RNEW.ZS:EG.FEC.RNEW.ZS} - `"Renewable energy consumption (% of total final energy consumption)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -237,7 +237,7 @@
 {marker topicid_EG.GDP.PUSE.KO.PP}
 {synopt:{bf:{help wbopendata_topicid##EG.GDP.PUSE.KO.PP:EG.GDP.PUSE.KO.PP} - `"GDP per unit of energy use (PPP $ per kg of oil equivalent)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -250,7 +250,7 @@
 {marker topicid_EG.GDP.PUSE.KO.PP.KD}
 {synopt:{bf:{help wbopendata_topicid##EG.GDP.PUSE.KO.PP.KD:EG.GDP.PUSE.KO.PP.KD} - `"GDP per unit of energy use (constant 2011 PPP $ per kg of oil equivalent)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -263,7 +263,7 @@
 {marker topicid_EG.IMP.CONS.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.IMP.CONS.ZS:EG.IMP.CONS.ZS} - `"Energy imports, net (% of energy use)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -276,7 +276,7 @@
 {marker topicid_EG.NSF.ACCS.RU.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.NSF.ACCS.RU.ZS:EG.NSF.ACCS.RU.ZS} - `"Access to non-solid fuel, rural (% of rural population)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -289,7 +289,7 @@
 {marker topicid_EG.NSF.ACCS.UR.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.NSF.ACCS.UR.ZS:EG.NSF.ACCS.UR.ZS} - `"Access to non-solid fuel, urban (% of urban population)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -302,7 +302,7 @@
 {marker topicid_EG.NSF.ACCS.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.NSF.ACCS.ZS:EG.NSF.ACCS.ZS} - `"Access to non-solid fuel (% of population)"'}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -315,7 +315,7 @@
 {marker topicid_EG.USE.COMM.CL.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.USE.COMM.CL.ZS:EG.USE.COMM.CL.ZS} - `"Alternative and nuclear energy (% of total energy use)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -328,7 +328,7 @@
 {marker topicid_EG.USE.COMM.FO.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.USE.COMM.FO.ZS:EG.USE.COMM.FO.ZS} - `"Fossil fuel energy consumption (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -341,7 +341,7 @@
 {marker topicid_EG.USE.COMM.GD.PP.KD}
 {synopt:{bf:{help wbopendata_topicid##EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD} - `"Energy use (kg of oil equivalent) per $1,000 GDP (constant 2011 PPP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -354,7 +354,7 @@
 {marker topicid_EG.USE.CRNW.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.USE.CRNW.ZS:EG.USE.CRNW.ZS} - `"Combustible renewables and waste (% of total energy)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -367,7 +367,7 @@
 {marker topicid_EG.USE.ELEC.KH.PC}
 {synopt:{bf:{help wbopendata_topicid##EG.USE.ELEC.KH.PC:EG.USE.ELEC.KH.PC} - `"Electric power consumption (kWh per capita)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -380,7 +380,7 @@
 {marker topicid_EG.USE.PCAP.KG.OE}
 {synopt:{bf:{help wbopendata_topicid##EG.USE.PCAP.KG.OE:EG.USE.PCAP.KG.OE} - `"Energy use (kg of oil equivalent per capita)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -393,7 +393,7 @@
 {marker topicid_EN.ATM.CO2E.GF.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS} - `"CO2 emissions from gaseous fuel consumption (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -406,7 +406,7 @@
 {marker topicid_EN.ATM.CO2E.LF.KT}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.LF.KT:EN.ATM.CO2E.LF.KT} - `"CO2 emissions from liquid fuel consumption (kt)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -419,7 +419,7 @@
 {marker topicid_EN.ATM.METH.EG.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.EG.KT.CE:EN.ATM.METH.EG.KT.CE} - `"Methane emissions in energy sector (thousand metric tons of CO2 equivalent)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -432,7 +432,7 @@
 {marker topicid_EN.ATM.METH.EG.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.EG.ZS:EN.ATM.METH.EG.ZS} - `"Energy related methane emissions (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -445,7 +445,7 @@
 {marker topicid_EN.ATM.NOXE.EG.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.EG.KT.CE:EN.ATM.NOXE.EG.KT.CE} - `"Nitrous oxide emissions in energy sector (thousand metric tons of CO2 equivalent)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -458,7 +458,7 @@
 {marker topicid_EN.ATM.NOXE.EG.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.EG.ZS:EN.ATM.NOXE.EG.ZS} - `"Nitrous oxide emissions in energy sector (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -471,7 +471,7 @@
 {marker topicid_EP.PMP.DESL.CD}
 {synopt:{bf:{help wbopendata_topicid##EP.PMP.DESL.CD:EP.PMP.DESL.CD} - `"Pump price for diesel fuel (US$ per liter)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -484,7 +484,7 @@
 {marker topicid_EP.PMP.SGAS.CD}
 {synopt:{bf:{help wbopendata_topicid##EP.PMP.SGAS.CD:EP.PMP.SGAS.CD} - `"Pump price for gasoline (US$ per liter)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -497,7 +497,7 @@
 {marker topicid_IC.ELC.DURS}
 {synopt:{bf:{help wbopendata_topicid##IC.ELC.DURS:IC.ELC.DURS} - `"Time to obtain an electrical connection (days)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -510,7 +510,7 @@
 {marker topicid_IC.ELC.TIME}
 {synopt:{bf:{help wbopendata_topicid##IC.ELC.TIME:IC.ELC.TIME} - `"Getting electricity: Time (days)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -523,7 +523,7 @@
 {marker topicid_IC.FRM.BNKS.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.FRM.BNKS.ZS:IC.FRM.BNKS.ZS} - `"Firms using banks to finance investment (% of firms)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -536,7 +536,7 @@
 {marker topicid_IC.FRM.OUTG.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.FRM.OUTG.ZS:IC.FRM.OUTG.ZS} - `"Value lost due to electrical outages (% of sales for affected firms)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -549,7 +549,7 @@
 {marker topicid_IE.PPI.ENGY.CD}
 {synopt:{bf:{help wbopendata_topicid##IE.PPI.ENGY.CD:IE.PPI.ENGY.CD} - `"Investment in energy with private participation (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -562,7 +562,7 @@
 {marker topicid_NY.ADJ.DMIN.CD}
 {synopt:{bf:{help wbopendata_topicid##NY.ADJ.DMIN.CD:NY.ADJ.DMIN.CD} - `"Adjusted savings: mineral depletion (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -575,7 +575,7 @@
 {marker topicid_NY.ADJ.DMIN.GN.ZS}
 {synopt:{bf:{help wbopendata_topicid##NY.ADJ.DMIN.GN.ZS:NY.ADJ.DMIN.GN.ZS} - `"Adjusted savings: mineral depletion (% of GNI)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -588,7 +588,7 @@
 {marker topicid_NY.ADJ.DNGY.CD}
 {synopt:{bf:{help wbopendata_topicid##NY.ADJ.DNGY.CD:NY.ADJ.DNGY.CD} - `"Adjusted savings: energy depletion (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -601,7 +601,7 @@
 {marker topicid_NY.ADJ.DNGY.GN.ZS}
 {synopt:{bf:{help wbopendata_topicid##NY.ADJ.DNGY.GN.ZS:NY.ADJ.DNGY.GN.ZS} - `"Adjusted savings: energy depletion (% of GNI)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -614,7 +614,7 @@
 {marker topicid_NY.ADJ.DRES.GN.ZS}
 {synopt:{bf:{help wbopendata_topicid##NY.ADJ.DRES.GN.ZS:NY.ADJ.DRES.GN.ZS} - `"Adjusted savings: natural resources depletion (% of GNI)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -627,7 +627,7 @@
 {marker topicid_NY.GDP.MINR.RT.ZS}
 {synopt:{bf:{help wbopendata_topicid##NY.GDP.MINR.RT.ZS:NY.GDP.MINR.RT.ZS} - `"Mineral rents (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -640,7 +640,7 @@
 {marker topicid_NY.GDP.NGAS.RT.ZS}
 {synopt:{bf:{help wbopendata_topicid##NY.GDP.NGAS.RT.ZS:NY.GDP.NGAS.RT.ZS} - `"Natural gas rents (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -653,7 +653,7 @@
 {marker topicid_NY.GDP.PETR.RT.ZS}
 {synopt:{bf:{help wbopendata_topicid##NY.GDP.PETR.RT.ZS:NY.GDP.PETR.RT.ZS} - `"Oil rents (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -666,7 +666,7 @@
 {marker topicid_NY.GDP.TOTL.RT.ZS}
 {synopt:{bf:{help wbopendata_topicid##NY.GDP.TOTL.RT.ZS:NY.GDP.TOTL.RT.ZS} - `"Total natural resources rents (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -679,7 +679,7 @@
 {marker topicid_TM.VAL.FUEL.ZS.UN}
 {synopt:{bf:{help wbopendata_topicid##TM.VAL.FUEL.ZS.UN:TM.VAL.FUEL.ZS.UN} - `"Fuel imports (% of merchandise imports)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -692,7 +692,7 @@
 {marker topicid_TM.VAL.MMTL.ZS.UN}
 {synopt:{bf:{help wbopendata_topicid##TM.VAL.MMTL.ZS.UN:TM.VAL.MMTL.ZS.UN} - `"Ores and metals imports (% of merchandise imports)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -705,7 +705,7 @@
 {marker topicid_TX.VAL.FUEL.ZS.UN}
 {synopt:{bf:{help wbopendata_topicid##TX.VAL.FUEL.ZS.UN:TX.VAL.FUEL.ZS.UN} - `"Fuel exports (% of merchandise exports)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
@@ -718,7 +718,7 @@
 {marker topicid_TX.VAL.MMTL.ZS.UN}
 {synopt:{bf:{help wbopendata_topicid##TX.VAL.MMTL.ZS.UN:TX.VAL.MMTL.ZS.UN} - `"Ores and metals exports (% of merchandise exports)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
