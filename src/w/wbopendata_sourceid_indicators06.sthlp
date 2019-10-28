@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:06 International Debt Statistics}}}
 {synoptline}
 {marker sourceid_BX.GRT.EXTA.CD.DT}
-{synopt:{bf:{help wbopendata_sourceid##BX.GRT.EXTA.CD.DT:BX.GRT.EXTA.CD.DT} - `"Grants, excluding technical cooperation (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.GRT.EXTA.CD.DT:BX.GRT.EXTA.CD.DT} - Grants, excluding technical cooperation (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -81,7 +81,7 @@
 
 {synoptline}
 {marker sourceid_BX.GRT.TECH.CD.DT}
-{synopt:{bf:{help wbopendata_sourceid##BX.GRT.TECH.CD.DT:BX.GRT.TECH.CD.DT} - `"Technical cooperation grants (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.GRT.TECH.CD.DT:BX.GRT.TECH.CD.DT} - Technical cooperation grants (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -94,7 +94,7 @@
 
 {synoptline}
 {marker sourceid_BX.KLT.DINV.CD.DT}
-{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DINV.CD.DT:BX.KLT.DINV.CD.DT} - `"Foreign direct investment, net inflows in reporting economy (DRS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DINV.CD.DT:BX.KLT.DINV.CD.DT} - Foreign direct investment, net inflows in reporting economy (DRS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -107,11 +107,11 @@
 
 {synoptline}
 {marker sourceid_BX.KLT.DREM.CD.DT}
-{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT} - `"Primary income on FDI, payments (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT} - Primary income on FDI, payments (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Primary income on foreign direct investment covers payments of direct investment income (debit side), which consist of income on equity (dividends, branch profits, and reinvested earnings) and income on the intercompany debt (interest). Data a{p_end}
 
@@ -120,7 +120,7 @@
 
 {synoptline}
 {marker sourceid_BX.PEF.TOTL.CD.DT}
-{synopt:{bf:{help wbopendata_sourceid##BX.PEF.TOTL.CD.DT:BX.PEF.TOTL.CD.DT} - `"Portfolio investment, equity (DRS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##BX.PEF.TOTL.CD.DT:BX.PEF.TOTL.CD.DT} - Portfolio investment, equity (DRS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -133,7 +133,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.BLAT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLAT.CD:DT.AMT.BLAT.CD} - `"PPG, bilateral (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLAT.CD:DT.AMT.BLAT.CD} - PPG, bilateral (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -146,7 +146,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.BLAT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLAT.GG.CD:DT.AMT.BLAT.GG.CD} - `"GG, bilateral (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLAT.GG.CD:DT.AMT.BLAT.GG.CD} - GG, bilateral (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -159,7 +159,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.BLAT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLAT.OPS.CD:DT.AMT.BLAT.OPS.CD} - `"OPS, bilateral (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLAT.OPS.CD:DT.AMT.BLAT.OPS.CD} - OPS, bilateral (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -172,7 +172,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.BLAT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLAT.PRVG.CD:DT.AMT.BLAT.PRVG.CD} - `"PRVG, bilateral (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLAT.PRVG.CD:DT.AMT.BLAT.PRVG.CD} - PRVG, bilateral (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -185,7 +185,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.BLAT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLAT.PS.CD:DT.AMT.BLAT.PS.CD} - `"PS, bilateral (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLAT.PS.CD:DT.AMT.BLAT.PS.CD} - PS, bilateral (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -198,7 +198,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.BLTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLTC.CD:DT.AMT.BLTC.CD} - `"PPG, bilateral concessional (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLTC.CD:DT.AMT.BLTC.CD} - PPG, bilateral concessional (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -211,7 +211,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.BLTC.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLTC.GG.CD:DT.AMT.BLTC.GG.CD} - `"GG, bilateral concessional (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLTC.GG.CD:DT.AMT.BLTC.GG.CD} - GG, bilateral concessional (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -224,7 +224,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.BLTC.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLTC.OPS.CD:DT.AMT.BLTC.OPS.CD} - `"OPS, bilateral concessional (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLTC.OPS.CD:DT.AMT.BLTC.OPS.CD} - OPS, bilateral concessional (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -237,7 +237,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.BLTC.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLTC.PRVG.CD:DT.AMT.BLTC.PRVG.CD} - `"PRVG, bilateral concessional (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLTC.PRVG.CD:DT.AMT.BLTC.PRVG.CD} - PRVG, bilateral concessional (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -250,7 +250,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.BLTC.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLTC.PS.CD:DT.AMT.BLTC.PS.CD} - `"PS, bilateral concessional (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLTC.PS.CD:DT.AMT.BLTC.PS.CD} - PS, bilateral concessional (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -263,7 +263,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DEGG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DEGG.CD:DT.AMT.DEGG.CD} - `"Principal repayments on external debt, general government sector (PPG) (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DEGG.CD:DT.AMT.DEGG.CD} - Principal repayments on external debt, general government sector (PPG) (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -276,7 +276,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DEPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DEPS.CD:DT.AMT.DEPS.CD} - `"Principal repayments on external debt, public sector (PPG) (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DEPS.CD:DT.AMT.DEPS.CD} - Principal repayments on external debt, public sector (PPG) (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -289,7 +289,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DIMF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DIMF.CD:DT.AMT.DIMF.CD} - `"IMF repurchases (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DIMF.CD:DT.AMT.DIMF.CD} - IMF repurchases (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -302,7 +302,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTF.CD:DT.AMT.DLTF.CD} - `"Principal repayments on external debt, long-term + IMF (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTF.CD:DT.AMT.DLTF.CD} - Principal repayments on external debt, long-term + IMF (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -315,7 +315,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLXF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLXF.CD:DT.AMT.DLXF.CD} - `"Principal repayments on external debt, long-term (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLXF.CD:DT.AMT.DLXF.CD} - Principal repayments on external debt, long-term (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -328,7 +328,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DOPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DOPS.CD:DT.AMT.DOPS.CD} - `"Principal repayments on external debt, other public sector (PPG) (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DOPS.CD:DT.AMT.DOPS.CD} - Principal repayments on external debt, other public sector (PPG) (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -341,7 +341,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DPNG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DPNG.CD:DT.AMT.DPNG.CD} - `"Principal repayments on external debt, private nonguaranteed (PNG) (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DPNG.CD:DT.AMT.DPNG.CD} - Principal repayments on external debt, private nonguaranteed (PNG) (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -354,7 +354,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DPPG.CD:DT.AMT.DPPG.CD} - `"Principal repayments on external debt, public and publicly guaranteed (PPG) (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DPPG.CD:DT.AMT.DPPG.CD} - Principal repayments on external debt, public and publicly guaranteed (PPG) (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -367,7 +367,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.MIBR.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MIBR.CD:DT.AMT.MIBR.CD} - `"PPG, IBRD (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MIBR.CD:DT.AMT.MIBR.CD} - PPG, IBRD (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -380,7 +380,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.MIDA.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MIDA.CD:DT.AMT.MIDA.CD} - `"PPG, IDA (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MIDA.CD:DT.AMT.MIDA.CD} - PPG, IDA (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -393,7 +393,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.MLAT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLAT.CD:DT.AMT.MLAT.CD} - `"PPG, multilateral (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLAT.CD:DT.AMT.MLAT.CD} - PPG, multilateral (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -406,7 +406,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.MLAT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLAT.GG.CD:DT.AMT.MLAT.GG.CD} - `"GG, multilateral (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLAT.GG.CD:DT.AMT.MLAT.GG.CD} - GG, multilateral (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -419,7 +419,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.MLAT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLAT.OPS.CD:DT.AMT.MLAT.OPS.CD} - `"OPS, multilateral (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLAT.OPS.CD:DT.AMT.MLAT.OPS.CD} - OPS, multilateral (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -432,7 +432,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.MLAT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLAT.PRVG.CD:DT.AMT.MLAT.PRVG.CD} - `"PRVG, multilateral (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLAT.PRVG.CD:DT.AMT.MLAT.PRVG.CD} - PRVG, multilateral (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -445,7 +445,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.MLAT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLAT.PS.CD:DT.AMT.MLAT.PS.CD} - `"PS, multilateral (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLAT.PS.CD:DT.AMT.MLAT.PS.CD} - PS, multilateral (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -458,7 +458,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.MLTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLTC.CD:DT.AMT.MLTC.CD} - `"PPG, multilateral concessional (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLTC.CD:DT.AMT.MLTC.CD} - PPG, multilateral concessional (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -471,7 +471,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.MLTC.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLTC.GG.CD:DT.AMT.MLTC.GG.CD} - `"GG, multilateral concessional (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLTC.GG.CD:DT.AMT.MLTC.GG.CD} - GG, multilateral concessional (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -484,7 +484,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.MLTC.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLTC.OPS.CD:DT.AMT.MLTC.OPS.CD} - `"OPS, multilateral concessional (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLTC.OPS.CD:DT.AMT.MLTC.OPS.CD} - OPS, multilateral concessional (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -497,7 +497,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.MLTC.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLTC.PRVG.CD:DT.AMT.MLTC.PRVG.CD} - `"PRVG, multilateral concessional (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLTC.PRVG.CD:DT.AMT.MLTC.PRVG.CD} - PRVG, multilateral concessional (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -510,7 +510,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.MLTC.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLTC.PS.CD:DT.AMT.MLTC.PS.CD} - `"PS, multilateral concessional (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLTC.PS.CD:DT.AMT.MLTC.PS.CD} - PS, multilateral concessional (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -523,7 +523,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.OFFT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.OFFT.CD:DT.AMT.OFFT.CD} - `"PPG, official creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.OFFT.CD:DT.AMT.OFFT.CD} - PPG, official creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -536,7 +536,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.OFFT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.OFFT.GG.CD:DT.AMT.OFFT.GG.CD} - `"GG, official creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.OFFT.GG.CD:DT.AMT.OFFT.GG.CD} - GG, official creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -549,7 +549,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.OFFT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.OFFT.OPS.CD:DT.AMT.OFFT.OPS.CD} - `"OPS, official creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.OFFT.OPS.CD:DT.AMT.OFFT.OPS.CD} - OPS, official creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -562,7 +562,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.OFFT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.OFFT.PRVG.CD:DT.AMT.OFFT.PRVG.CD} - `"PRVG, official creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.OFFT.PRVG.CD:DT.AMT.OFFT.PRVG.CD} - PRVG, official creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -575,7 +575,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.OFFT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.OFFT.PS.CD:DT.AMT.OFFT.PS.CD} - `"PS, official creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.OFFT.PS.CD:DT.AMT.OFFT.PS.CD} - PS, official creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -588,7 +588,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PBND.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PBND.CD:DT.AMT.PBND.CD} - `"PPG, bonds (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PBND.CD:DT.AMT.PBND.CD} - PPG, bonds (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -601,7 +601,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PBND.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PBND.GG.CD:DT.AMT.PBND.GG.CD} - `"GG, bonds (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PBND.GG.CD:DT.AMT.PBND.GG.CD} - GG, bonds (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -614,7 +614,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PBND.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PBND.OPS.CD:DT.AMT.PBND.OPS.CD} - `"OPS, bonds (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PBND.OPS.CD:DT.AMT.PBND.OPS.CD} - OPS, bonds (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -627,7 +627,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PBND.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PBND.PRVG.CD:DT.AMT.PBND.PRVG.CD} - `"PRVG, bonds (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PBND.PRVG.CD:DT.AMT.PBND.PRVG.CD} - PRVG, bonds (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -640,7 +640,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PBND.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PBND.PS.CD:DT.AMT.PBND.PS.CD} - `"PS, bonds (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PBND.PS.CD:DT.AMT.PBND.PS.CD} - PS, bonds (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -653,7 +653,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PCBK.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PCBK.CD:DT.AMT.PCBK.CD} - `"PPG, commercial banks (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PCBK.CD:DT.AMT.PCBK.CD} - PPG, commercial banks (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -666,7 +666,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PCBK.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PCBK.GG.CD:DT.AMT.PCBK.GG.CD} - `"GG, commercial banks (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PCBK.GG.CD:DT.AMT.PCBK.GG.CD} - GG, commercial banks (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -679,7 +679,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PCBK.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PCBK.OPS.CD:DT.AMT.PCBK.OPS.CD} - `"OPS, commercial banks (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PCBK.OPS.CD:DT.AMT.PCBK.OPS.CD} - OPS, commercial banks (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -692,7 +692,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PCBK.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PCBK.PRVG.CD:DT.AMT.PCBK.PRVG.CD} - `"PRVG, commercial banks (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PCBK.PRVG.CD:DT.AMT.PCBK.PRVG.CD} - PRVG, commercial banks (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -705,7 +705,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PCBK.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PCBK.PS.CD:DT.AMT.PCBK.PS.CD} - `"PS, commercial banks (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PCBK.PS.CD:DT.AMT.PCBK.PS.CD} - PS, commercial banks (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -718,7 +718,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PNGB.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PNGB.CD:DT.AMT.PNGB.CD} - `"PNG, bonds (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PNGB.CD:DT.AMT.PNGB.CD} - PNG, bonds (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -731,7 +731,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PNGC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PNGC.CD:DT.AMT.PNGC.CD} - `"PNG, commercial banks and other creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PNGC.CD:DT.AMT.PNGC.CD} - PNG, commercial banks and other creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -744,7 +744,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PROP.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PROP.CD:DT.AMT.PROP.CD} - `"PPG, other private creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PROP.CD:DT.AMT.PROP.CD} - PPG, other private creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -757,7 +757,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PROP.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PROP.GG.CD:DT.AMT.PROP.GG.CD} - `"GG, other private creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PROP.GG.CD:DT.AMT.PROP.GG.CD} - GG, other private creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -770,7 +770,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PROP.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PROP.OPS.CD:DT.AMT.PROP.OPS.CD} - `"OPS, other private creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PROP.OPS.CD:DT.AMT.PROP.OPS.CD} - OPS, other private creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -783,7 +783,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PROP.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PROP.PRVG.CD:DT.AMT.PROP.PRVG.CD} - `"PRVG, other private creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PROP.PRVG.CD:DT.AMT.PROP.PRVG.CD} - PRVG, other private creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -796,7 +796,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PROP.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PROP.PS.CD:DT.AMT.PROP.PS.CD} - `"PS, other private creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PROP.PS.CD:DT.AMT.PROP.PS.CD} - PS, other private creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -809,7 +809,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PRPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRPG.CD:DT.AMT.PRPG.CD} - `"Principal repayments on external debt, private guaranteed by public sector (PPG) (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRPG.CD:DT.AMT.PRPG.CD} - Principal repayments on external debt, private guaranteed by public sector (PPG) (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -822,7 +822,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVT.CD:DT.AMT.PRVT.CD} - `"PPG, private creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVT.CD:DT.AMT.PRVT.CD} - PPG, private creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -835,7 +835,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVT.GG.CD:DT.AMT.PRVT.GG.CD} - `"GG, private creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVT.GG.CD:DT.AMT.PRVT.GG.CD} - GG, private creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -848,7 +848,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVT.OPS.CD:DT.AMT.PRVT.OPS.CD} - `"OPS, private creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVT.OPS.CD:DT.AMT.PRVT.OPS.CD} - OPS, private creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -861,7 +861,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVT.PRVG.CD:DT.AMT.PRVT.PRVG.CD} - `"PRVG, private creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVT.PRVG.CD:DT.AMT.PRVT.PRVG.CD} - PRVG, private creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -874,7 +874,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVT.PS.CD:DT.AMT.PRVT.PS.CD} - `"PS, private creditors (AMT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVT.PS.CD:DT.AMT.PRVT.PS.CD} - PS, private creditors (AMT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -887,7 +887,7 @@
 
 {synoptline}
 {marker sourceid_DT.AXA.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AXA.DPPG.CD:DT.AXA.DPPG.CD} - `"Principal arrears, long-term DOD (US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AXA.DPPG.CD:DT.AXA.DPPG.CD} - Principal arrears, long-term DOD (US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -900,7 +900,7 @@
 
 {synoptline}
 {marker sourceid_DT.AXA.OFFT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AXA.OFFT.CD:DT.AXA.OFFT.CD} - `"Principal arrears, official creditors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AXA.OFFT.CD:DT.AXA.OFFT.CD} - Principal arrears, official creditors (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -913,7 +913,7 @@
 
 {synoptline}
 {marker sourceid_DT.AXA.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AXA.PRVT.CD:DT.AXA.PRVT.CD} - `"Principal arrears, private creditors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AXA.PRVT.CD:DT.AXA.PRVT.CD} - Principal arrears, private creditors (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -926,7 +926,7 @@
 
 {synoptline}
 {marker sourceid_DT.AXF.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AXF.DPPG.CD:DT.AXF.DPPG.CD} - `"Principal forgiven (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AXF.DPPG.CD:DT.AXF.DPPG.CD} - Principal forgiven (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -939,7 +939,7 @@
 
 {synoptline}
 {marker sourceid_DT.AXR.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AXR.DPPG.CD:DT.AXR.DPPG.CD} - `"Principal rescheduled (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AXR.DPPG.CD:DT.AXR.DPPG.CD} - Principal rescheduled (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -952,7 +952,7 @@
 
 {synoptline}
 {marker sourceid_DT.AXR.OFFT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AXR.OFFT.CD:DT.AXR.OFFT.CD} - `"Principal rescheduled, official (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AXR.OFFT.CD:DT.AXR.OFFT.CD} - Principal rescheduled, official (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -965,7 +965,7 @@
 
 {synoptline}
 {marker sourceid_DT.AXR.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AXR.PRVT.CD:DT.AXR.PRVT.CD} - `"Principal rescheduled, private (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AXR.PRVT.CD:DT.AXR.PRVT.CD} - Principal rescheduled, private (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -978,7 +978,7 @@
 
 {synoptline}
 {marker sourceid_DT.COM.BLAT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.COM.BLAT.CD:DT.COM.BLAT.CD} - `"Commitments, bilateral creditors (COM, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.COM.BLAT.CD:DT.COM.BLAT.CD} - Commitments, bilateral creditors (COM, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -991,7 +991,7 @@
 
 {synoptline}
 {marker sourceid_DT.COM.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.COM.DPPG.CD:DT.COM.DPPG.CD} - `"Commitments, public and publicly guaranteed (COM, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.COM.DPPG.CD:DT.COM.DPPG.CD} - Commitments, public and publicly guaranteed (COM, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1004,7 +1004,7 @@
 
 {synoptline}
 {marker sourceid_DT.COM.MIBR.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.COM.MIBR.CD:DT.COM.MIBR.CD} - `"Commitments, IBRD (COM, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.COM.MIBR.CD:DT.COM.MIBR.CD} - Commitments, IBRD (COM, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1017,7 +1017,7 @@
 
 {synoptline}
 {marker sourceid_DT.COM.MIDA.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.COM.MIDA.CD:DT.COM.MIDA.CD} - `"Commitments, IDA (COM, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.COM.MIDA.CD:DT.COM.MIDA.CD} - Commitments, IDA (COM, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1030,7 +1030,7 @@
 
 {synoptline}
 {marker sourceid_DT.COM.MLAT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.COM.MLAT.CD:DT.COM.MLAT.CD} - `"Commitments, multilateral creditors (COM, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.COM.MLAT.CD:DT.COM.MLAT.CD} - Commitments, multilateral creditors (COM, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1043,7 +1043,7 @@
 
 {synoptline}
 {marker sourceid_DT.COM.OFFT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.COM.OFFT.CD:DT.COM.OFFT.CD} - `"Commitments, official creditors (COM, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.COM.OFFT.CD:DT.COM.OFFT.CD} - Commitments, official creditors (COM, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1056,7 +1056,7 @@
 
 {synoptline}
 {marker sourceid_DT.COM.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.COM.PRVT.CD:DT.COM.PRVT.CD} - `"Commitments, private creditors (COM, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.COM.PRVT.CD:DT.COM.PRVT.CD} - Commitments, private creditors (COM, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1069,7 +1069,7 @@
 
 {synoptline}
 {marker sourceid_DT.CUR.DMAK.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.CUR.DMAK.ZS:DT.CUR.DMAK.ZS} - `"Currency composition of PPG debt, Deutsche mark (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.CUR.DMAK.ZS:DT.CUR.DMAK.ZS} - Currency composition of PPG debt, Deutsche mark (%)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1082,7 +1082,7 @@
 
 {synoptline}
 {marker sourceid_DT.CUR.EURO.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.CUR.EURO.ZS:DT.CUR.EURO.ZS} - `"Currency composition of PPG debt, Euro (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.CUR.EURO.ZS:DT.CUR.EURO.ZS} - Currency composition of PPG debt, Euro (%)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1095,7 +1095,7 @@
 
 {synoptline}
 {marker sourceid_DT.CUR.FFRC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.CUR.FFRC.ZS:DT.CUR.FFRC.ZS} - `"Currency composition of PPG debt, French franc (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.CUR.FFRC.ZS:DT.CUR.FFRC.ZS} - Currency composition of PPG debt, French franc (%)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1108,7 +1108,7 @@
 
 {synoptline}
 {marker sourceid_DT.CUR.JYEN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.CUR.JYEN.ZS:DT.CUR.JYEN.ZS} - `"Currency composition of PPG debt, Japanese yen (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.CUR.JYEN.ZS:DT.CUR.JYEN.ZS} - Currency composition of PPG debt, Japanese yen (%)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1121,7 +1121,7 @@
 
 {synoptline}
 {marker sourceid_DT.CUR.MULC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.CUR.MULC.ZS:DT.CUR.MULC.ZS} - `"Currency composition of PPG debt, Multiple currencies (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.CUR.MULC.ZS:DT.CUR.MULC.ZS} - Currency composition of PPG debt, Multiple currencies (%)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1134,7 +1134,7 @@
 
 {synoptline}
 {marker sourceid_DT.CUR.OTHC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.CUR.OTHC.ZS:DT.CUR.OTHC.ZS} - `"Currency composition of PPG debt, all other currencies (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.CUR.OTHC.ZS:DT.CUR.OTHC.ZS} - Currency composition of PPG debt, all other currencies (%)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1147,7 +1147,7 @@
 
 {synoptline}
 {marker sourceid_DT.CUR.SDRW.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.CUR.SDRW.ZS:DT.CUR.SDRW.ZS} - `"Currency composition of PPG debt, SDR (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.CUR.SDRW.ZS:DT.CUR.SDRW.ZS} - Currency composition of PPG debt, SDR (%)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1160,7 +1160,7 @@
 
 {synoptline}
 {marker sourceid_DT.CUR.SWFR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.CUR.SWFR.ZS:DT.CUR.SWFR.ZS} - `"Currency composition of PPG debt, Swiss franc (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.CUR.SWFR.ZS:DT.CUR.SWFR.ZS} - Currency composition of PPG debt, Swiss franc (%)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1173,7 +1173,7 @@
 
 {synoptline}
 {marker sourceid_DT.CUR.UKPS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.CUR.UKPS.ZS:DT.CUR.UKPS.ZS} - `"Currency composition of PPG debt, Pound sterling (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.CUR.UKPS.ZS:DT.CUR.UKPS.ZS} - Currency composition of PPG debt, Pound sterling (%)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1186,7 +1186,7 @@
 
 {synoptline}
 {marker sourceid_DT.CUR.USDL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.CUR.USDL.ZS:DT.CUR.USDL.ZS} - `"Currency composition of PPG debt, U.S. dollars (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.CUR.USDL.ZS:DT.CUR.USDL.ZS} - Currency composition of PPG debt, U.S. dollars (%)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1199,7 +1199,7 @@
 
 {synoptline}
 {marker sourceid_DT.DFR.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DFR.DPPG.CD:DT.DFR.DPPG.CD} - `"Debt forgiveness or reduction (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DFR.DPPG.CD:DT.DFR.DPPG.CD} - Debt forgiveness or reduction (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1212,7 +1212,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.BLAT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLAT.CD:DT.DIS.BLAT.CD} - `"PPG, bilateral (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLAT.CD:DT.DIS.BLAT.CD} - PPG, bilateral (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1225,7 +1225,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.BLAT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLAT.GG.CD:DT.DIS.BLAT.GG.CD} - `"GG, bilateral (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLAT.GG.CD:DT.DIS.BLAT.GG.CD} - GG, bilateral (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1238,7 +1238,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.BLAT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLAT.OPS.CD:DT.DIS.BLAT.OPS.CD} - `"OPS, bilateral (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLAT.OPS.CD:DT.DIS.BLAT.OPS.CD} - OPS, bilateral (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1251,7 +1251,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.BLAT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLAT.PRVG.CD:DT.DIS.BLAT.PRVG.CD} - `"PRVG, bilateral (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLAT.PRVG.CD:DT.DIS.BLAT.PRVG.CD} - PRVG, bilateral (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1264,7 +1264,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.BLAT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLAT.PS.CD:DT.DIS.BLAT.PS.CD} - `"PS, bilateral (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLAT.PS.CD:DT.DIS.BLAT.PS.CD} - PS, bilateral (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1277,7 +1277,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.BLTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLTC.CD:DT.DIS.BLTC.CD} - `"PPG, bilateral concessional (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLTC.CD:DT.DIS.BLTC.CD} - PPG, bilateral concessional (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1290,7 +1290,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.BLTC.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLTC.GG.CD:DT.DIS.BLTC.GG.CD} - `"GG, bilateral concessional (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLTC.GG.CD:DT.DIS.BLTC.GG.CD} - GG, bilateral concessional (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1303,7 +1303,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.BLTC.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLTC.OPS.CD:DT.DIS.BLTC.OPS.CD} - `"OPS, bilateral concessional (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLTC.OPS.CD:DT.DIS.BLTC.OPS.CD} - OPS, bilateral concessional (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1316,7 +1316,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.BLTC.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLTC.PRVG.CD:DT.DIS.BLTC.PRVG.CD} - `"PRVG, bilateral concessional (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLTC.PRVG.CD:DT.DIS.BLTC.PRVG.CD} - PRVG, bilateral concessional (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1329,7 +1329,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.BLTC.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLTC.PS.CD:DT.DIS.BLTC.PS.CD} - `"PS, bilateral concessional (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLTC.PS.CD:DT.DIS.BLTC.PS.CD} - PS, bilateral concessional (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1342,7 +1342,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.DEGG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DEGG.CD:DT.DIS.DEGG.CD} - `"Disbursements on external debt, general government sector (PPG) (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DEGG.CD:DT.DIS.DEGG.CD} - Disbursements on external debt, general government sector (PPG) (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1355,7 +1355,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.DEPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DEPS.CD:DT.DIS.DEPS.CD} - `"Disbursements on external debt, public sector (PPG) (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DEPS.CD:DT.DIS.DEPS.CD} - Disbursements on external debt, public sector (PPG) (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1368,7 +1368,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.DIMF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DIMF.CD:DT.DIS.DIMF.CD} - `"IMF purchases (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DIMF.CD:DT.DIS.DIMF.CD} - IMF purchases (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1381,7 +1381,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.DLTF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DLTF.CD:DT.DIS.DLTF.CD} - `"Disbursements on external debt, long-term + IMF (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DLTF.CD:DT.DIS.DLTF.CD} - Disbursements on external debt, long-term + IMF (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1394,7 +1394,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.DLXF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DLXF.CD:DT.DIS.DLXF.CD} - `"Disbursements on external debt, long-term (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DLXF.CD:DT.DIS.DLXF.CD} - Disbursements on external debt, long-term (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1407,7 +1407,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.DOPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DOPS.CD:DT.DIS.DOPS.CD} - `"Disbursements on external debt, other public sector (PPG) (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DOPS.CD:DT.DIS.DOPS.CD} - Disbursements on external debt, other public sector (PPG) (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1420,7 +1420,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.DPNG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DPNG.CD:DT.DIS.DPNG.CD} - `"Disbursements on external debt, private nonguaranteed (PNG) (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DPNG.CD:DT.DIS.DPNG.CD} - Disbursements on external debt, private nonguaranteed (PNG) (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1433,7 +1433,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DPPG.CD:DT.DIS.DPPG.CD} - `"Disbursements on external debt, public and publicly guaranteed (PPG) (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DPPG.CD:DT.DIS.DPPG.CD} - Disbursements on external debt, public and publicly guaranteed (PPG) (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1446,11 +1446,11 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.IDAG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.IDAG.CD:DT.DIS.IDAG.CD} - `"IDA grants (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.IDAG.CD:DT.DIS.IDAG.CD} - IDA grants (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
 {synopt:{opt Source Notes}}IDA grants are net disbursements of grants from the International Development Association (IDA). Data are in current U.S. dollars. Regional allocations are included in aggregate data.{p_end}
 
@@ -1459,7 +1459,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.MIBR.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MIBR.CD:DT.DIS.MIBR.CD} - `"PPG, IBRD (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MIBR.CD:DT.DIS.MIBR.CD} - PPG, IBRD (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1472,7 +1472,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.MIDA.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MIDA.CD:DT.DIS.MIDA.CD} - `"PPG, IDA (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MIDA.CD:DT.DIS.MIDA.CD} - PPG, IDA (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1485,7 +1485,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.MLAT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLAT.CD:DT.DIS.MLAT.CD} - `"PPG, multilateral (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLAT.CD:DT.DIS.MLAT.CD} - PPG, multilateral (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1498,7 +1498,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.MLAT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLAT.GG.CD:DT.DIS.MLAT.GG.CD} - `"GG, multilateral (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLAT.GG.CD:DT.DIS.MLAT.GG.CD} - GG, multilateral (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1511,7 +1511,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.MLAT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLAT.OPS.CD:DT.DIS.MLAT.OPS.CD} - `"OPS, multilateral (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLAT.OPS.CD:DT.DIS.MLAT.OPS.CD} - OPS, multilateral (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1524,7 +1524,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.MLAT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLAT.PRVG.CD:DT.DIS.MLAT.PRVG.CD} - `"PRVG, multilateral (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLAT.PRVG.CD:DT.DIS.MLAT.PRVG.CD} - PRVG, multilateral (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1537,7 +1537,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.MLAT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLAT.PS.CD:DT.DIS.MLAT.PS.CD} - `"PS, multilateral (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLAT.PS.CD:DT.DIS.MLAT.PS.CD} - PS, multilateral (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1550,7 +1550,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.MLTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLTC.CD:DT.DIS.MLTC.CD} - `"PPG, multilateral concessional (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLTC.CD:DT.DIS.MLTC.CD} - PPG, multilateral concessional (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1563,7 +1563,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.MLTC.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLTC.GG.CD:DT.DIS.MLTC.GG.CD} - `"GG, multilateral concessional (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLTC.GG.CD:DT.DIS.MLTC.GG.CD} - GG, multilateral concessional (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1576,7 +1576,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.MLTC.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLTC.OPS.CD:DT.DIS.MLTC.OPS.CD} - `"OPS, multilateral concessional (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLTC.OPS.CD:DT.DIS.MLTC.OPS.CD} - OPS, multilateral concessional (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1589,7 +1589,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.MLTC.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLTC.PRVG.CD:DT.DIS.MLTC.PRVG.CD} - `"PRVG, multilateral concessional (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLTC.PRVG.CD:DT.DIS.MLTC.PRVG.CD} - PRVG, multilateral concessional (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1602,7 +1602,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.MLTC.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLTC.PS.CD:DT.DIS.MLTC.PS.CD} - `"PS, multilateral concessional (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLTC.PS.CD:DT.DIS.MLTC.PS.CD} - PS, multilateral concessional (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1615,7 +1615,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.OFFT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.OFFT.CD:DT.DIS.OFFT.CD} - `"PPG, official creditors (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.OFFT.CD:DT.DIS.OFFT.CD} - PPG, official creditors (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1628,7 +1628,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.OFFT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.OFFT.GG.CD:DT.DIS.OFFT.GG.CD} - `"GG, official creditors (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.OFFT.GG.CD:DT.DIS.OFFT.GG.CD} - GG, official creditors (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1641,7 +1641,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.OFFT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.OFFT.OPS.CD:DT.DIS.OFFT.OPS.CD} - `"OPS, official creditors (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.OFFT.OPS.CD:DT.DIS.OFFT.OPS.CD} - OPS, official creditors (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1654,7 +1654,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.OFFT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.OFFT.PRVG.CD:DT.DIS.OFFT.PRVG.CD} - `"PRVG, official creditors (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.OFFT.PRVG.CD:DT.DIS.OFFT.PRVG.CD} - PRVG, official creditors (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1667,7 +1667,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.OFFT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.OFFT.PS.CD:DT.DIS.OFFT.PS.CD} - `"PS, official creditors (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.OFFT.PS.CD:DT.DIS.OFFT.PS.CD} - PS, official creditors (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1680,7 +1680,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PBND.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PBND.CD:DT.DIS.PBND.CD} - `"PPG, bonds (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PBND.CD:DT.DIS.PBND.CD} - PPG, bonds (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1693,7 +1693,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PBND.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PBND.GG.CD:DT.DIS.PBND.GG.CD} - `"GG, bonds (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PBND.GG.CD:DT.DIS.PBND.GG.CD} - GG, bonds (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1706,7 +1706,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PBND.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PBND.OPS.CD:DT.DIS.PBND.OPS.CD} - `"OPS, bonds (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PBND.OPS.CD:DT.DIS.PBND.OPS.CD} - OPS, bonds (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1719,7 +1719,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PBND.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PBND.PRVG.CD:DT.DIS.PBND.PRVG.CD} - `"PRVG, bonds (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PBND.PRVG.CD:DT.DIS.PBND.PRVG.CD} - PRVG, bonds (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1732,7 +1732,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PBND.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PBND.PS.CD:DT.DIS.PBND.PS.CD} - `"PS, bonds (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PBND.PS.CD:DT.DIS.PBND.PS.CD} - PS, bonds (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1745,7 +1745,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PCBK.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PCBK.CD:DT.DIS.PCBK.CD} - `"PPG, commercial banks (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PCBK.CD:DT.DIS.PCBK.CD} - PPG, commercial banks (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1758,7 +1758,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PCBK.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PCBK.GG.CD:DT.DIS.PCBK.GG.CD} - `"GG, commercial banks (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PCBK.GG.CD:DT.DIS.PCBK.GG.CD} - GG, commercial banks (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1771,7 +1771,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PCBK.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PCBK.OPS.CD:DT.DIS.PCBK.OPS.CD} - `"OPS, commercial banks (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PCBK.OPS.CD:DT.DIS.PCBK.OPS.CD} - OPS, commercial banks (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1784,7 +1784,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PCBK.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PCBK.PRVG.CD:DT.DIS.PCBK.PRVG.CD} - `"PRVG, commercial banks (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PCBK.PRVG.CD:DT.DIS.PCBK.PRVG.CD} - PRVG, commercial banks (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1797,7 +1797,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PCBK.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PCBK.PS.CD:DT.DIS.PCBK.PS.CD} - `"PS, commercial banks (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PCBK.PS.CD:DT.DIS.PCBK.PS.CD} - PS, commercial banks (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1810,7 +1810,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PNGB.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PNGB.CD:DT.DIS.PNGB.CD} - `"PNG, bonds (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PNGB.CD:DT.DIS.PNGB.CD} - PNG, bonds (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1823,7 +1823,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PNGC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PNGC.CD:DT.DIS.PNGC.CD} - `"PNG, commercial banks and other creditors (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PNGC.CD:DT.DIS.PNGC.CD} - PNG, commercial banks and other creditors (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1836,7 +1836,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PROP.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PROP.CD:DT.DIS.PROP.CD} - `"PPG, other private creditors (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PROP.CD:DT.DIS.PROP.CD} - PPG, other private creditors (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1849,7 +1849,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PROP.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PROP.GG.CD:DT.DIS.PROP.GG.CD} - `"GG, other private creditors (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PROP.GG.CD:DT.DIS.PROP.GG.CD} - GG, other private creditors (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1862,7 +1862,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PROP.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PROP.OPS.CD:DT.DIS.PROP.OPS.CD} - `"OPS, other private creditors (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PROP.OPS.CD:DT.DIS.PROP.OPS.CD} - OPS, other private creditors (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1875,7 +1875,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PROP.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PROP.PRVG.CD:DT.DIS.PROP.PRVG.CD} - `"PRVG, other private creditors (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PROP.PRVG.CD:DT.DIS.PROP.PRVG.CD} - PRVG, other private creditors (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1888,7 +1888,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PROP.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PROP.PS.CD:DT.DIS.PROP.PS.CD} - `"PS, other private creditors (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PROP.PS.CD:DT.DIS.PROP.PS.CD} - PS, other private creditors (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1901,7 +1901,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PRPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PRPG.CD:DT.DIS.PRPG.CD} - `"Disbursements on external debt, private guaranteed by public sector (PPG) (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PRPG.CD:DT.DIS.PRPG.CD} - Disbursements on external debt, private guaranteed by public sector (PPG) (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1914,7 +1914,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PRVT.CD:DT.DIS.PRVT.CD} - `"PPG, private creditors (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PRVT.CD:DT.DIS.PRVT.CD} - PPG, private creditors (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1927,7 +1927,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PRVT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PRVT.GG.CD:DT.DIS.PRVT.GG.CD} - `"GG, private creditors (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PRVT.GG.CD:DT.DIS.PRVT.GG.CD} - GG, private creditors (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1940,7 +1940,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PRVT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PRVT.OPS.CD:DT.DIS.PRVT.OPS.CD} - `"OPS, private creditors (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PRVT.OPS.CD:DT.DIS.PRVT.OPS.CD} - OPS, private creditors (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1953,7 +1953,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PRVT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PRVT.PRVG.CD:DT.DIS.PRVT.PRVG.CD} - `"PRVG, private creditors (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PRVT.PRVG.CD:DT.DIS.PRVT.PRVG.CD} - PRVG, private creditors (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1966,7 +1966,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PRVT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PRVT.PS.CD:DT.DIS.PRVT.PS.CD} - `"PS, private creditors (DIS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PRVT.PS.CD:DT.DIS.PRVT.PS.CD} - PS, private creditors (DIS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1979,7 +1979,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.ALLC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLC.CD:DT.DOD.ALLC.CD} - `"External debt stocks, concessional (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLC.CD:DT.DOD.ALLC.CD} - External debt stocks, concessional (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -1992,7 +1992,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.ALLC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLC.ZS:DT.DOD.ALLC.ZS} - `"Concessional debt (% of total external debt)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLC.ZS:DT.DOD.ALLC.ZS} - Concessional debt (% of total external debt)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2005,7 +2005,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.BLAT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLAT.CD:DT.DOD.BLAT.CD} - `"PPG, bilateral (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLAT.CD:DT.DOD.BLAT.CD} - PPG, bilateral (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2018,7 +2018,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.BLAT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLAT.GG.CD:DT.DOD.BLAT.GG.CD} - `"GG, bilateral (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLAT.GG.CD:DT.DOD.BLAT.GG.CD} - GG, bilateral (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2031,7 +2031,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.BLAT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLAT.OPS.CD:DT.DOD.BLAT.OPS.CD} - `"OPS, bilateral (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLAT.OPS.CD:DT.DOD.BLAT.OPS.CD} - OPS, bilateral (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2044,7 +2044,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.BLAT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLAT.PRVG.CD:DT.DOD.BLAT.PRVG.CD} - `"PRVG, bilateral (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLAT.PRVG.CD:DT.DOD.BLAT.PRVG.CD} - PRVG, bilateral (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2057,7 +2057,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.BLAT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLAT.PS.CD:DT.DOD.BLAT.PS.CD} - `"PS, bilateral (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLAT.PS.CD:DT.DOD.BLAT.PS.CD} - PS, bilateral (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2070,7 +2070,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.BLTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTC.CD:DT.DOD.BLTC.CD} - `"PPG, bilateral concessional (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTC.CD:DT.DOD.BLTC.CD} - PPG, bilateral concessional (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2083,7 +2083,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.BLTC.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTC.GG.CD:DT.DOD.BLTC.GG.CD} - `"GG, bilateral concessional (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTC.GG.CD:DT.DOD.BLTC.GG.CD} - GG, bilateral concessional (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2096,7 +2096,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.BLTC.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTC.OPS.CD:DT.DOD.BLTC.OPS.CD} - `"OPS, bilateral concessional (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTC.OPS.CD:DT.DOD.BLTC.OPS.CD} - OPS, bilateral concessional (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2109,7 +2109,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.BLTC.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTC.PRVG.CD:DT.DOD.BLTC.PRVG.CD} - `"PRVG, bilateral concessional (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTC.PRVG.CD:DT.DOD.BLTC.PRVG.CD} - PRVG, bilateral concessional (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2122,7 +2122,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.BLTC.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTC.PS.CD:DT.DOD.BLTC.PS.CD} - `"PS, bilateral concessional (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTC.PS.CD:DT.DOD.BLTC.PS.CD} - PS, bilateral concessional (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2135,7 +2135,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.CG}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.CG:DT.DOD.DECT.CD.CG} - `"Total change in external debt stocks (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.CG:DT.DOD.DECT.CD.CG} - Total change in external debt stocks (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2148,7 +2148,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.EX.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.EX.ZS:DT.DOD.DECT.EX.ZS} - `"External debt stocks (% of exports of goods, services and primary income)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.EX.ZS:DT.DOD.DECT.EX.ZS} - External debt stocks (% of exports of goods, services and primary income)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2161,7 +2161,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DEGG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DEGG.CD:DT.DOD.DEGG.CD} - `"External debt stocks, general government sector (PPG) (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DEGG.CD:DT.DOD.DEGG.CD} - External debt stocks, general government sector (PPG) (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2174,7 +2174,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DEPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DEPS.CD:DT.DOD.DEPS.CD} - `"External debt stocks, public sector (PPG) (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DEPS.CD:DT.DOD.DEPS.CD} - External debt stocks, public sector (PPG) (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2187,7 +2187,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DOPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DOPS.CD:DT.DOD.DOPS.CD} - `"External debt stocks, other public sector (PPG) (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DOPS.CD:DT.DOD.DOPS.CD} - External debt stocks, other public sector (PPG) (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2200,7 +2200,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSDR.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSDR.CD:DT.DOD.DSDR.CD} - `"Use of IMF credit, SDR allocations (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSDR.CD:DT.DOD.DSDR.CD} - Use of IMF credit, SDR allocations (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2213,11 +2213,11 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.MDRI.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MDRI.CD:DT.DOD.MDRI.CD} - `"Debt forgiveness grants (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MDRI.CD:DT.DOD.MDRI.CD} - Debt forgiveness grants (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
 {synopt:{opt Source Notes}}Debt forgiveness grants data cover both debt cancelled by agreement between debtor and creditor and a reduction in the net present value of non-ODA debt achieved by concessional rescheduling or refinancing. The  data are on a disbursement basi{p_end}
 
@@ -2226,7 +2226,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.MLAT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLAT.CD:DT.DOD.MLAT.CD} - `"PPG, multilateral (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLAT.CD:DT.DOD.MLAT.CD} - PPG, multilateral (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2239,7 +2239,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.MLAT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLAT.GG.CD:DT.DOD.MLAT.GG.CD} - `"GG, multilateral (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLAT.GG.CD:DT.DOD.MLAT.GG.CD} - GG, multilateral (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2252,7 +2252,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.MLAT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLAT.OPS.CD:DT.DOD.MLAT.OPS.CD} - `"OPS, multilateral (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLAT.OPS.CD:DT.DOD.MLAT.OPS.CD} - OPS, multilateral (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2265,7 +2265,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.MLAT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLAT.PRVG.CD:DT.DOD.MLAT.PRVG.CD} - `"PRVG, multilateral (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLAT.PRVG.CD:DT.DOD.MLAT.PRVG.CD} - PRVG, multilateral (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2278,7 +2278,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.MLAT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLAT.PS.CD:DT.DOD.MLAT.PS.CD} - `"PS, multilateral (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLAT.PS.CD:DT.DOD.MLAT.PS.CD} - PS, multilateral (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2291,7 +2291,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.MLAT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLAT.ZS:DT.DOD.MLAT.ZS} - `"Multilateral debt (% of total external debt)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLAT.ZS:DT.DOD.MLAT.ZS} - Multilateral debt (% of total external debt)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2304,7 +2304,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.MLTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLTC.CD:DT.DOD.MLTC.CD} - `"PPG, multilateral concessional (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLTC.CD:DT.DOD.MLTC.CD} - PPG, multilateral concessional (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2317,7 +2317,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.MLTC.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLTC.GG.CD:DT.DOD.MLTC.GG.CD} - `"GG, multilateral concessional (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLTC.GG.CD:DT.DOD.MLTC.GG.CD} - GG, multilateral concessional (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2330,7 +2330,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.MLTC.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLTC.OPS.CD:DT.DOD.MLTC.OPS.CD} - `"OPS, multilateral concessional (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLTC.OPS.CD:DT.DOD.MLTC.OPS.CD} - OPS, multilateral concessional (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2343,7 +2343,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.MLTC.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLTC.PRVG.CD:DT.DOD.MLTC.PRVG.CD} - `"PRVG, multilateral concessional (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLTC.PRVG.CD:DT.DOD.MLTC.PRVG.CD} - PRVG, multilateral concessional (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2356,7 +2356,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.MLTC.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLTC.PS.CD:DT.DOD.MLTC.PS.CD} - `"PS, multilateral concessional (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLTC.PS.CD:DT.DOD.MLTC.PS.CD} - PS, multilateral concessional (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2369,7 +2369,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.OFFT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.CD:DT.DOD.OFFT.CD} - `"PPG, official creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.CD:DT.DOD.OFFT.CD} - PPG, official creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2382,7 +2382,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.OFFT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.GG.CD:DT.DOD.OFFT.GG.CD} - `"GG, official creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.GG.CD:DT.DOD.OFFT.GG.CD} - GG, official creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2395,7 +2395,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.OFFT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.OPS.CD:DT.DOD.OFFT.OPS.CD} - `"OPS, official creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.OPS.CD:DT.DOD.OFFT.OPS.CD} - OPS, official creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2408,7 +2408,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.OFFT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.PRVG.CD:DT.DOD.OFFT.PRVG.CD} - `"PRVG, official creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.PRVG.CD:DT.DOD.OFFT.PRVG.CD} - PRVG, official creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2421,7 +2421,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.OFFT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.PS.CD:DT.DOD.OFFT.PS.CD} - `"PS, official creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.PS.CD:DT.DOD.OFFT.PS.CD} - PS, official creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2434,7 +2434,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PBND.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PBND.CD:DT.DOD.PBND.CD} - `"PPG, bonds (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PBND.CD:DT.DOD.PBND.CD} - PPG, bonds (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2447,7 +2447,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PBND.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PBND.GG.CD:DT.DOD.PBND.GG.CD} - `"GG, bonds (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PBND.GG.CD:DT.DOD.PBND.GG.CD} - GG, bonds (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2460,7 +2460,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PBND.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PBND.OPS.CD:DT.DOD.PBND.OPS.CD} - `"OPS, bonds (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PBND.OPS.CD:DT.DOD.PBND.OPS.CD} - OPS, bonds (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2473,7 +2473,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PBND.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PBND.PRVG.CD:DT.DOD.PBND.PRVG.CD} - `"PRVG, bonds (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PBND.PRVG.CD:DT.DOD.PBND.PRVG.CD} - PRVG, bonds (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2486,7 +2486,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PBND.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PBND.PS.CD:DT.DOD.PBND.PS.CD} - `"PS, bonds (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PBND.PS.CD:DT.DOD.PBND.PS.CD} - PS, bonds (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2499,7 +2499,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PCBK.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCBK.CD:DT.DOD.PCBK.CD} - `"PPG, commercial banks (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCBK.CD:DT.DOD.PCBK.CD} - PPG, commercial banks (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2512,7 +2512,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PCBK.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCBK.GG.CD:DT.DOD.PCBK.GG.CD} - `"GG, commercial banks (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCBK.GG.CD:DT.DOD.PCBK.GG.CD} - GG, commercial banks (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2525,7 +2525,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PCBK.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCBK.OPS.CD:DT.DOD.PCBK.OPS.CD} - `"OPS, commercial banks (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCBK.OPS.CD:DT.DOD.PCBK.OPS.CD} - OPS, commercial banks (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2538,7 +2538,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PCBK.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCBK.PRVG.CD:DT.DOD.PCBK.PRVG.CD} - `"PRVG, commercial banks (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCBK.PRVG.CD:DT.DOD.PCBK.PRVG.CD} - PRVG, commercial banks (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2551,7 +2551,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PCBK.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCBK.PS.CD:DT.DOD.PCBK.PS.CD} - `"PS, commercial banks (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCBK.PS.CD:DT.DOD.PCBK.PS.CD} - PS, commercial banks (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2564,7 +2564,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PNGB.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PNGB.CD:DT.DOD.PNGB.CD} - `"PNG, bonds (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PNGB.CD:DT.DOD.PNGB.CD} - PNG, bonds (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2577,7 +2577,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PNGC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PNGC.CD:DT.DOD.PNGC.CD} - `"PNG, commercial banks and other creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PNGC.CD:DT.DOD.PNGC.CD} - PNG, commercial banks and other creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2590,7 +2590,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PROP.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROP.CD:DT.DOD.PROP.CD} - `"PPG, other private creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROP.CD:DT.DOD.PROP.CD} - PPG, other private creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2603,7 +2603,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PROP.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROP.GG.CD:DT.DOD.PROP.GG.CD} - `"GG, other private creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROP.GG.CD:DT.DOD.PROP.GG.CD} - GG, other private creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2616,7 +2616,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PROP.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROP.OPS.CD:DT.DOD.PROP.OPS.CD} - `"OPS, other private creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROP.OPS.CD:DT.DOD.PROP.OPS.CD} - OPS, other private creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2629,7 +2629,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PROP.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROP.PRVG.CD:DT.DOD.PROP.PRVG.CD} - `"PRVG, other private creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROP.PRVG.CD:DT.DOD.PROP.PRVG.CD} - PRVG, other private creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2642,7 +2642,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PROP.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROP.PS.CD:DT.DOD.PROP.PS.CD} - `"PS, other private creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROP.PS.CD:DT.DOD.PROP.PS.CD} - PS, other private creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2655,7 +2655,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PRPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRPG.CD:DT.DOD.PRPG.CD} - `"External debt stocks, private guaranteed by public sector (PPG) (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRPG.CD:DT.DOD.PRPG.CD} - External debt stocks, private guaranteed by public sector (PPG) (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2668,7 +2668,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.CD:DT.DOD.PRVS.CD} - `"External debt stocks, long-term private sector (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.CD:DT.DOD.PRVS.CD} - External debt stocks, long-term private sector (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2681,7 +2681,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVT.CD:DT.DOD.PRVT.CD} - `"PPG, private creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVT.CD:DT.DOD.PRVT.CD} - PPG, private creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2694,7 +2694,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVT.GG.CD:DT.DOD.PRVT.GG.CD} - `"GG, private creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVT.GG.CD:DT.DOD.PRVT.GG.CD} - GG, private creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2707,7 +2707,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVT.OPS.CD:DT.DOD.PRVT.OPS.CD} - `"OPS, private creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVT.OPS.CD:DT.DOD.PRVT.OPS.CD} - OPS, private creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2720,7 +2720,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVT.PRVG.CD:DT.DOD.PRVT.PRVG.CD} - `"PRVG, private creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVT.PRVG.CD:DT.DOD.PRVT.PRVG.CD} - PRVG, private creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2733,7 +2733,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVT.PS.CD:DT.DOD.PRVT.PS.CD} - `"PS, private creditors (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVT.PS.CD:DT.DOD.PRVT.PS.CD} - PS, private creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2746,7 +2746,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.CD:DT.DOD.PUBS.CD} - `"External debt stocks, long-term public sector (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.CD:DT.DOD.PUBS.CD} - External debt stocks, long-term public sector (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2759,7 +2759,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.RSDL.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.RSDL.CD:DT.DOD.RSDL.CD} - `"Residual, debt stock-flow reconciliation (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.RSDL.CD:DT.DOD.RSDL.CD} - Residual, debt stock-flow reconciliation (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2772,7 +2772,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.VTOT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.VTOT.CD:DT.DOD.VTOT.CD} - `"External debt stocks, variable rate (DOD, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.VTOT.CD:DT.DOD.VTOT.CD} - External debt stocks, variable rate (DOD, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2785,7 +2785,7 @@
 
 {synoptline}
 {marker sourceid_DT.DSB.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DSB.DPPG.CD:DT.DSB.DPPG.CD} - `"Debt buyback (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DSB.DPPG.CD:DT.DSB.DPPG.CD} - Debt buyback (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2798,7 +2798,7 @@
 
 {synoptline}
 {marker sourceid_DT.DSF.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DSF.DPPG.CD:DT.DSF.DPPG.CD} - `"Debt stock reduction (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DSF.DPPG.CD:DT.DSF.DPPG.CD} - Debt stock reduction (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2811,7 +2811,7 @@
 
 {synoptline}
 {marker sourceid_DT.DXR.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DXR.DPPG.CD:DT.DXR.DPPG.CD} - `"Debt stock rescheduled (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DXR.DPPG.CD:DT.DXR.DPPG.CD} - Debt stock rescheduled (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2824,7 +2824,7 @@
 
 {synoptline}
 {marker sourceid_DT.GPA.DPPG}
-{synopt:{bf:{help wbopendata_sourceid##DT.GPA.DPPG:DT.GPA.DPPG} - `"Average grace period on new external debt commitments (years)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.GPA.DPPG:DT.GPA.DPPG} - Average grace period on new external debt commitments (years)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2837,7 +2837,7 @@
 
 {synoptline}
 {marker sourceid_DT.GPA.OFFT}
-{synopt:{bf:{help wbopendata_sourceid##DT.GPA.OFFT:DT.GPA.OFFT} - `"Average grace period on new external debt commitments, official (years)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.GPA.OFFT:DT.GPA.OFFT} - Average grace period on new external debt commitments, official (years)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2850,7 +2850,7 @@
 
 {synoptline}
 {marker sourceid_DT.GPA.PRVT}
-{synopt:{bf:{help wbopendata_sourceid##DT.GPA.PRVT:DT.GPA.PRVT} - `"Average grace period on new external debt commitments, private (years)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.GPA.PRVT:DT.GPA.PRVT} - Average grace period on new external debt commitments, private (years)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2863,7 +2863,7 @@
 
 {synoptline}
 {marker sourceid_DT.GRE.DPPG}
-{synopt:{bf:{help wbopendata_sourceid##DT.GRE.DPPG:DT.GRE.DPPG} - `"Average grant element on new external debt commitments (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.GRE.DPPG:DT.GRE.DPPG} - Average grant element on new external debt commitments (%)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2876,7 +2876,7 @@
 
 {synoptline}
 {marker sourceid_DT.GRE.OFFT}
-{synopt:{bf:{help wbopendata_sourceid##DT.GRE.OFFT:DT.GRE.OFFT} - `"Average grant element on new external debt commitments, official (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.GRE.OFFT:DT.GRE.OFFT} - Average grant element on new external debt commitments, official (%)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2889,7 +2889,7 @@
 
 {synoptline}
 {marker sourceid_DT.GRE.PRVT}
-{synopt:{bf:{help wbopendata_sourceid##DT.GRE.PRVT:DT.GRE.PRVT} - `"Average grant element on new external debt commitments, private (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.GRE.PRVT:DT.GRE.PRVT} - Average grant element on new external debt commitments, private (%)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2902,7 +2902,7 @@
 
 {synoptline}
 {marker sourceid_DT.INR.DPPG}
-{synopt:{bf:{help wbopendata_sourceid##DT.INR.DPPG:DT.INR.DPPG} - `"Average interest on new external debt commitments (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DPPG:DT.INR.DPPG} - Average interest on new external debt commitments (%)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2915,7 +2915,7 @@
 
 {synoptline}
 {marker sourceid_DT.INR.OFFT}
-{synopt:{bf:{help wbopendata_sourceid##DT.INR.OFFT:DT.INR.OFFT} - `"Average interest on new external debt commitments, official (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.OFFT:DT.INR.OFFT} - Average interest on new external debt commitments, official (%)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2928,7 +2928,7 @@
 
 {synoptline}
 {marker sourceid_DT.INR.PRVT}
-{synopt:{bf:{help wbopendata_sourceid##DT.INR.PRVT:DT.INR.PRVT} - `"Average interest on new external debt commitments, private (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.PRVT:DT.INR.PRVT} - Average interest on new external debt commitments, private (%)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2941,7 +2941,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.BLAT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLAT.CD:DT.INT.BLAT.CD} - `"PPG, bilateral (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLAT.CD:DT.INT.BLAT.CD} - PPG, bilateral (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2954,7 +2954,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.BLAT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLAT.GG.CD:DT.INT.BLAT.GG.CD} - `"GG, bilateral (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLAT.GG.CD:DT.INT.BLAT.GG.CD} - GG, bilateral (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2967,7 +2967,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.BLAT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLAT.OPS.CD:DT.INT.BLAT.OPS.CD} - `"OPS, bilateral (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLAT.OPS.CD:DT.INT.BLAT.OPS.CD} - OPS, bilateral (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2980,7 +2980,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.BLAT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLAT.PRVG.CD:DT.INT.BLAT.PRVG.CD} - `"PRVG, bilateral (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLAT.PRVG.CD:DT.INT.BLAT.PRVG.CD} - PRVG, bilateral (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2993,7 +2993,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.BLAT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLAT.PS.CD:DT.INT.BLAT.PS.CD} - `"PS, bilateral (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLAT.PS.CD:DT.INT.BLAT.PS.CD} - PS, bilateral (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3006,7 +3006,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.BLTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLTC.CD:DT.INT.BLTC.CD} - `"PPG, bilateral concessional (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLTC.CD:DT.INT.BLTC.CD} - PPG, bilateral concessional (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3019,7 +3019,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.BLTC.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLTC.GG.CD:DT.INT.BLTC.GG.CD} - `"GG, bilateral concessional (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLTC.GG.CD:DT.INT.BLTC.GG.CD} - GG, bilateral concessional (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3032,7 +3032,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.BLTC.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLTC.OPS.CD:DT.INT.BLTC.OPS.CD} - `"OPS, bilateral concessional (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLTC.OPS.CD:DT.INT.BLTC.OPS.CD} - OPS, bilateral concessional (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3045,7 +3045,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.BLTC.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLTC.PRVG.CD:DT.INT.BLTC.PRVG.CD} - `"PRVG, bilateral concessional (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLTC.PRVG.CD:DT.INT.BLTC.PRVG.CD} - PRVG, bilateral concessional (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3058,7 +3058,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.BLTC.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLTC.PS.CD:DT.INT.BLTC.PS.CD} - `"PS, bilateral concessional (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLTC.PS.CD:DT.INT.BLTC.PS.CD} - PS, bilateral concessional (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3071,7 +3071,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD:DT.INT.DECT.CD} - `"Interest payments on external debt, total (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD:DT.INT.DECT.CD} - Interest payments on external debt, total (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3084,7 +3084,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.EX.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.EX.ZS:DT.INT.DECT.EX.ZS} - `"Interest payments on external debt (% of exports of goods, services and primary income)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.EX.ZS:DT.INT.DECT.EX.ZS} - Interest payments on external debt (% of exports of goods, services and primary income)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3097,11 +3097,11 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.GN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.GN.ZS:DT.INT.DECT.GN.ZS} - `"Interest payments on external debt (% of GNI)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.GN.ZS:DT.INT.DECT.GN.ZS} - Interest payments on external debt (% of GNI)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Total interest payments to gross national income.{p_end}
 
@@ -3110,7 +3110,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DEGG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DEGG.CD:DT.INT.DEGG.CD} - `"Interest payments on external debt, general government sector (PPG) (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DEGG.CD:DT.INT.DEGG.CD} - Interest payments on external debt, general government sector (PPG) (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3123,7 +3123,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DEPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DEPS.CD:DT.INT.DEPS.CD} - `"Interest payments on external debt, public sector (PPG) (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DEPS.CD:DT.INT.DEPS.CD} - Interest payments on external debt, public sector (PPG) (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3136,7 +3136,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DIMF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DIMF.CD:DT.INT.DIMF.CD} - `"IMF charges (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DIMF.CD:DT.INT.DIMF.CD} - IMF charges (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3149,7 +3149,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLXF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLXF.CD:DT.INT.DLXF.CD} - `"Interest payments on external debt, long-term (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLXF.CD:DT.INT.DLXF.CD} - Interest payments on external debt, long-term (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3162,7 +3162,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DOPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DOPS.CD:DT.INT.DOPS.CD} - `"Interest payments on external debt, other public sector (PPG) (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DOPS.CD:DT.INT.DOPS.CD} - Interest payments on external debt, other public sector (PPG) (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3175,7 +3175,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DPNG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DPNG.CD:DT.INT.DPNG.CD} - `"Interest payments on external debt, private nonguaranteed (PNG) (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DPNG.CD:DT.INT.DPNG.CD} - Interest payments on external debt, private nonguaranteed (PNG) (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3188,7 +3188,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DPPG.CD:DT.INT.DPPG.CD} - `"Interest payments on external debt, public and publicly guaranteed (PPG) (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DPPG.CD:DT.INT.DPPG.CD} - Interest payments on external debt, public and publicly guaranteed (PPG) (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3201,7 +3201,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DSTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DSTC.CD:DT.INT.DSTC.CD} - `"Interest payments on external debt, short-term (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DSTC.CD:DT.INT.DSTC.CD} - Interest payments on external debt, short-term (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3214,7 +3214,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.MIBR.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.MIBR.CD:DT.INT.MIBR.CD} - `"PPG, IBRD (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.MIBR.CD:DT.INT.MIBR.CD} - PPG, IBRD (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3227,7 +3227,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.MIDA.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.MIDA.CD:DT.INT.MIDA.CD} - `"PPG, IDA (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.MIDA.CD:DT.INT.MIDA.CD} - PPG, IDA (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3240,7 +3240,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.MLAT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLAT.CD:DT.INT.MLAT.CD} - `"PPG, multilateral (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLAT.CD:DT.INT.MLAT.CD} - PPG, multilateral (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3253,7 +3253,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.MLAT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLAT.GG.CD:DT.INT.MLAT.GG.CD} - `"GG, multilateral (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLAT.GG.CD:DT.INT.MLAT.GG.CD} - GG, multilateral (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3266,7 +3266,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.MLAT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLAT.OPS.CD:DT.INT.MLAT.OPS.CD} - `"OPS, multilateral (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLAT.OPS.CD:DT.INT.MLAT.OPS.CD} - OPS, multilateral (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3279,7 +3279,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.MLAT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLAT.PRVG.CD:DT.INT.MLAT.PRVG.CD} - `"PRVG, multilateral (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLAT.PRVG.CD:DT.INT.MLAT.PRVG.CD} - PRVG, multilateral (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3292,7 +3292,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.MLAT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLAT.PS.CD:DT.INT.MLAT.PS.CD} - `"PS, multilateral (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLAT.PS.CD:DT.INT.MLAT.PS.CD} - PS, multilateral (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3305,7 +3305,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.MLTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLTC.CD:DT.INT.MLTC.CD} - `"PPG, multilateral concessional (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLTC.CD:DT.INT.MLTC.CD} - PPG, multilateral concessional (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3318,7 +3318,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.MLTC.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLTC.GG.CD:DT.INT.MLTC.GG.CD} - `"GG, multilateral concessional (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLTC.GG.CD:DT.INT.MLTC.GG.CD} - GG, multilateral concessional (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3331,7 +3331,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.MLTC.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLTC.OPS.CD:DT.INT.MLTC.OPS.CD} - `"OPS, multilateral concessional (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLTC.OPS.CD:DT.INT.MLTC.OPS.CD} - OPS, multilateral concessional (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3344,7 +3344,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.MLTC.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLTC.PRVG.CD:DT.INT.MLTC.PRVG.CD} - `"PRVG, multilateral concessional (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLTC.PRVG.CD:DT.INT.MLTC.PRVG.CD} - PRVG, multilateral concessional (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3357,7 +3357,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.MLTC.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLTC.PS.CD:DT.INT.MLTC.PS.CD} - `"PS, multilateral concessional (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLTC.PS.CD:DT.INT.MLTC.PS.CD} - PS, multilateral concessional (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3370,7 +3370,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.OFFT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.OFFT.CD:DT.INT.OFFT.CD} - `"PPG, official creditors (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.OFFT.CD:DT.INT.OFFT.CD} - PPG, official creditors (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3383,7 +3383,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.OFFT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.OFFT.GG.CD:DT.INT.OFFT.GG.CD} - `"GG, official creditors (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.OFFT.GG.CD:DT.INT.OFFT.GG.CD} - GG, official creditors (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3396,7 +3396,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.OFFT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.OFFT.OPS.CD:DT.INT.OFFT.OPS.CD} - `"OPS, official creditors (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.OFFT.OPS.CD:DT.INT.OFFT.OPS.CD} - OPS, official creditors (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3409,7 +3409,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.OFFT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.OFFT.PRVG.CD:DT.INT.OFFT.PRVG.CD} - `"PRVG, official creditors (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.OFFT.PRVG.CD:DT.INT.OFFT.PRVG.CD} - PRVG, official creditors (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3422,7 +3422,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.OFFT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.OFFT.PS.CD:DT.INT.OFFT.PS.CD} - `"PS, official creditors (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.OFFT.PS.CD:DT.INT.OFFT.PS.CD} - PS, official creditors (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3435,7 +3435,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PBND.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PBND.CD:DT.INT.PBND.CD} - `"PPG, bonds (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PBND.CD:DT.INT.PBND.CD} - PPG, bonds (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3448,7 +3448,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PBND.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PBND.GG.CD:DT.INT.PBND.GG.CD} - `"GG, bonds (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PBND.GG.CD:DT.INT.PBND.GG.CD} - GG, bonds (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3461,7 +3461,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PBND.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PBND.OPS.CD:DT.INT.PBND.OPS.CD} - `"OPS, bonds (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PBND.OPS.CD:DT.INT.PBND.OPS.CD} - OPS, bonds (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3474,7 +3474,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PBND.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PBND.PRVG.CD:DT.INT.PBND.PRVG.CD} - `"PRVG, bonds (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PBND.PRVG.CD:DT.INT.PBND.PRVG.CD} - PRVG, bonds (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3487,7 +3487,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PBND.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PBND.PS.CD:DT.INT.PBND.PS.CD} - `"PS, bonds (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PBND.PS.CD:DT.INT.PBND.PS.CD} - PS, bonds (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3500,7 +3500,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PCBK.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PCBK.CD:DT.INT.PCBK.CD} - `"PPG, commercial banks (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PCBK.CD:DT.INT.PCBK.CD} - PPG, commercial banks (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3513,7 +3513,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PCBK.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PCBK.GG.CD:DT.INT.PCBK.GG.CD} - `"GG, commercial banks (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PCBK.GG.CD:DT.INT.PCBK.GG.CD} - GG, commercial banks (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3526,7 +3526,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PCBK.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PCBK.OPS.CD:DT.INT.PCBK.OPS.CD} - `"OPS, commercial banks (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PCBK.OPS.CD:DT.INT.PCBK.OPS.CD} - OPS, commercial banks (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3539,7 +3539,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PCBK.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PCBK.PRVG.CD:DT.INT.PCBK.PRVG.CD} - `"PRVG, commercial banks (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PCBK.PRVG.CD:DT.INT.PCBK.PRVG.CD} - PRVG, commercial banks (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3552,7 +3552,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PCBK.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PCBK.PS.CD:DT.INT.PCBK.PS.CD} - `"PS, commercial banks (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PCBK.PS.CD:DT.INT.PCBK.PS.CD} - PS, commercial banks (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3565,7 +3565,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PNGB.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PNGB.CD:DT.INT.PNGB.CD} - `"PNG, bonds (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PNGB.CD:DT.INT.PNGB.CD} - PNG, bonds (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3578,7 +3578,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PNGC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PNGC.CD:DT.INT.PNGC.CD} - `"PNG, commercial banks and other creditors (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PNGC.CD:DT.INT.PNGC.CD} - PNG, commercial banks and other creditors (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3591,7 +3591,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PROP.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PROP.CD:DT.INT.PROP.CD} - `"PPG, other private creditors (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PROP.CD:DT.INT.PROP.CD} - PPG, other private creditors (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3604,7 +3604,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PROP.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PROP.GG.CD:DT.INT.PROP.GG.CD} - `"GG, other private creditors (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PROP.GG.CD:DT.INT.PROP.GG.CD} - GG, other private creditors (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3617,7 +3617,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PROP.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PROP.OPS.CD:DT.INT.PROP.OPS.CD} - `"OPS, other private creditors (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PROP.OPS.CD:DT.INT.PROP.OPS.CD} - OPS, other private creditors (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3630,7 +3630,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PROP.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PROP.PRVG.CD:DT.INT.PROP.PRVG.CD} - `"PRVG, other private creditors (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PROP.PRVG.CD:DT.INT.PROP.PRVG.CD} - PRVG, other private creditors (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3643,7 +3643,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PROP.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PROP.PS.CD:DT.INT.PROP.PS.CD} - `"PS, other private creditors (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PROP.PS.CD:DT.INT.PROP.PS.CD} - PS, other private creditors (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3656,7 +3656,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PRPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRPG.CD:DT.INT.PRPG.CD} - `"Interest payments on external debt, private guaranteed by public sector (PPG) (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRPG.CD:DT.INT.PRPG.CD} - Interest payments on external debt, private guaranteed by public sector (PPG) (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3669,7 +3669,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVT.CD:DT.INT.PRVT.CD} - `"PPG, private creditors (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVT.CD:DT.INT.PRVT.CD} - PPG, private creditors (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3682,7 +3682,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PRVT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVT.GG.CD:DT.INT.PRVT.GG.CD} - `"GG, private creditors (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVT.GG.CD:DT.INT.PRVT.GG.CD} - GG, private creditors (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3695,7 +3695,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PRVT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVT.OPS.CD:DT.INT.PRVT.OPS.CD} - `"OPS, private creditors (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVT.OPS.CD:DT.INT.PRVT.OPS.CD} - OPS, private creditors (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3708,7 +3708,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PRVT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVT.PRVG.CD:DT.INT.PRVT.PRVG.CD} - `"PRVG, private creditors (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVT.PRVG.CD:DT.INT.PRVT.PRVG.CD} - PRVG, private creditors (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3721,7 +3721,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PRVT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVT.PS.CD:DT.INT.PRVT.PS.CD} - `"PS, private creditors (INT, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVT.PS.CD:DT.INT.PRVT.PS.CD} - PS, private creditors (INT, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3734,7 +3734,7 @@
 
 {synoptline}
 {marker sourceid_DT.IXA.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.IXA.DPPG.CD:DT.IXA.DPPG.CD} - `"Interest arrears, long-term DOD (US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.IXA.DPPG.CD:DT.IXA.DPPG.CD} - Interest arrears, long-term DOD (US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3747,7 +3747,7 @@
 
 {synoptline}
 {marker sourceid_DT.IXA.DPPG.CD.CG}
-{synopt:{bf:{help wbopendata_sourceid##DT.IXA.DPPG.CD.CG:DT.IXA.DPPG.CD.CG} - `"Net change in interest arrears (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.IXA.DPPG.CD.CG:DT.IXA.DPPG.CD.CG} - Net change in interest arrears (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3760,7 +3760,7 @@
 
 {synoptline}
 {marker sourceid_DT.IXA.OFFT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.IXA.OFFT.CD:DT.IXA.OFFT.CD} - `"Interest arrears, official creditors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.IXA.OFFT.CD:DT.IXA.OFFT.CD} - Interest arrears, official creditors (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3773,7 +3773,7 @@
 
 {synoptline}
 {marker sourceid_DT.IXA.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.IXA.PRVT.CD:DT.IXA.PRVT.CD} - `"Interest arrears, private creditors (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.IXA.PRVT.CD:DT.IXA.PRVT.CD} - Interest arrears, private creditors (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3786,7 +3786,7 @@
 
 {synoptline}
 {marker sourceid_DT.IXF.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.IXF.DPPG.CD:DT.IXF.DPPG.CD} - `"Interest forgiven (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.IXF.DPPG.CD:DT.IXF.DPPG.CD} - Interest forgiven (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3799,7 +3799,7 @@
 
 {synoptline}
 {marker sourceid_DT.IXR.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.IXR.DPPG.CD:DT.IXR.DPPG.CD} - `"Interest rescheduled (capitalized) (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.IXR.DPPG.CD:DT.IXR.DPPG.CD} - Interest rescheduled (capitalized) (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3812,7 +3812,7 @@
 
 {synoptline}
 {marker sourceid_DT.IXR.OFFT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.IXR.OFFT.CD:DT.IXR.OFFT.CD} - `"Interest rescheduled, official (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.IXR.OFFT.CD:DT.IXR.OFFT.CD} - Interest rescheduled, official (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3825,7 +3825,7 @@
 
 {synoptline}
 {marker sourceid_DT.IXR.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.IXR.PRVT.CD:DT.IXR.PRVT.CD} - `"Interest rescheduled, private (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.IXR.PRVT.CD:DT.IXR.PRVT.CD} - Interest rescheduled, private (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3838,7 +3838,7 @@
 
 {synoptline}
 {marker sourceid_DT.MAT.DPPG}
-{synopt:{bf:{help wbopendata_sourceid##DT.MAT.DPPG:DT.MAT.DPPG} - `"Average maturity on new external debt commitments (years)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.MAT.DPPG:DT.MAT.DPPG} - Average maturity on new external debt commitments (years)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3851,7 +3851,7 @@
 
 {synoptline}
 {marker sourceid_DT.MAT.OFFT}
-{synopt:{bf:{help wbopendata_sourceid##DT.MAT.OFFT:DT.MAT.OFFT} - `"Average maturity on new external debt commitments, official (years)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.MAT.OFFT:DT.MAT.OFFT} - Average maturity on new external debt commitments, official (years)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3864,7 +3864,7 @@
 
 {synoptline}
 {marker sourceid_DT.MAT.PRVT}
-{synopt:{bf:{help wbopendata_sourceid##DT.MAT.PRVT:DT.MAT.PRVT} - `"Average maturity on new external debt commitments, private (years)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.MAT.PRVT:DT.MAT.PRVT} - Average maturity on new external debt commitments, private (years)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3877,7 +3877,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.BLAT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLAT.GG.CD:DT.NFL.BLAT.GG.CD} - `"GG, bilateral (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLAT.GG.CD:DT.NFL.BLAT.GG.CD} - GG, bilateral (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3890,7 +3890,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.BLAT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLAT.OPS.CD:DT.NFL.BLAT.OPS.CD} - `"OPS, bilateral (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLAT.OPS.CD:DT.NFL.BLAT.OPS.CD} - OPS, bilateral (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3903,7 +3903,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.BLAT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLAT.PRVG.CD:DT.NFL.BLAT.PRVG.CD} - `"PRVG, bilateral (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLAT.PRVG.CD:DT.NFL.BLAT.PRVG.CD} - PRVG, bilateral (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3916,7 +3916,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.BLAT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLAT.PS.CD:DT.NFL.BLAT.PS.CD} - `"PS, bilateral (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLAT.PS.CD:DT.NFL.BLAT.PS.CD} - PS, bilateral (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3929,7 +3929,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.BLTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLTC.CD:DT.NFL.BLTC.CD} - `"PPG, bilateral concessional (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLTC.CD:DT.NFL.BLTC.CD} - PPG, bilateral concessional (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3942,7 +3942,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.BLTC.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLTC.GG.CD:DT.NFL.BLTC.GG.CD} - `"GG, bilateral concessional (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLTC.GG.CD:DT.NFL.BLTC.GG.CD} - GG, bilateral concessional (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3955,7 +3955,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.BLTC.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLTC.OPS.CD:DT.NFL.BLTC.OPS.CD} - `"OPS, bilateral concessional (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLTC.OPS.CD:DT.NFL.BLTC.OPS.CD} - OPS, bilateral concessional (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3968,7 +3968,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.BLTC.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLTC.PRVG.CD:DT.NFL.BLTC.PRVG.CD} - `"PRVG, bilateral concessional (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLTC.PRVG.CD:DT.NFL.BLTC.PRVG.CD} - PRVG, bilateral concessional (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3981,7 +3981,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.BLTC.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLTC.PS.CD:DT.NFL.BLTC.PS.CD} - `"PS, bilateral concessional (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLTC.PS.CD:DT.NFL.BLTC.PS.CD} - PS, bilateral concessional (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3994,7 +3994,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.DECT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DECT.CD:DT.NFL.DECT.CD} - `"Net flows on external debt, total (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DECT.CD:DT.NFL.DECT.CD} - Net flows on external debt, total (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4007,7 +4007,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.DEGG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DEGG.CD:DT.NFL.DEGG.CD} - `"Net flows on external debt, general government sector (PPG) (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DEGG.CD:DT.NFL.DEGG.CD} - Net flows on external debt, general government sector (PPG) (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4020,7 +4020,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.DEPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DEPS.CD:DT.NFL.DEPS.CD} - `"Net flows on external debt, public sector (PPG) (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DEPS.CD:DT.NFL.DEPS.CD} - Net flows on external debt, public sector (PPG) (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4033,7 +4033,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.DLXF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DLXF.CD:DT.NFL.DLXF.CD} - `"Net flows on external debt, long-term (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DLXF.CD:DT.NFL.DLXF.CD} - Net flows on external debt, long-term (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4046,7 +4046,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.DOPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DOPS.CD:DT.NFL.DOPS.CD} - `"Net flows on external debt, other public sector (PPG) (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DOPS.CD:DT.NFL.DOPS.CD} - Net flows on external debt, other public sector (PPG) (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4059,7 +4059,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DPPG.CD:DT.NFL.DPPG.CD} - `"Net flows on external debt, public and publicly guaranteed (PPG) (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DPPG.CD:DT.NFL.DPPG.CD} - Net flows on external debt, public and publicly guaranteed (PPG) (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4072,7 +4072,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.DSTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DSTC.CD:DT.NFL.DSTC.CD} - `"Net flows on external debt, short-term (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DSTC.CD:DT.NFL.DSTC.CD} - Net flows on external debt, short-term (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4085,7 +4085,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.MLAT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLAT.GG.CD:DT.NFL.MLAT.GG.CD} - `"GG, multilateral (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLAT.GG.CD:DT.NFL.MLAT.GG.CD} - GG, multilateral (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4098,7 +4098,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.MLAT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLAT.OPS.CD:DT.NFL.MLAT.OPS.CD} - `"OPS, multilateral (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLAT.OPS.CD:DT.NFL.MLAT.OPS.CD} - OPS, multilateral (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4111,7 +4111,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.MLAT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLAT.PRVG.CD:DT.NFL.MLAT.PRVG.CD} - `"PRVG, multilateral (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLAT.PRVG.CD:DT.NFL.MLAT.PRVG.CD} - PRVG, multilateral (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4124,7 +4124,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.MLAT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLAT.PS.CD:DT.NFL.MLAT.PS.CD} - `"PS, multilateral (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLAT.PS.CD:DT.NFL.MLAT.PS.CD} - PS, multilateral (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4137,7 +4137,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.MLTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLTC.CD:DT.NFL.MLTC.CD} - `"PPG, multilateral concessional (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLTC.CD:DT.NFL.MLTC.CD} - PPG, multilateral concessional (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4150,7 +4150,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.MLTC.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLTC.GG.CD:DT.NFL.MLTC.GG.CD} - `"GG, multilateral concessional (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLTC.GG.CD:DT.NFL.MLTC.GG.CD} - GG, multilateral concessional (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4163,7 +4163,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.MLTC.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLTC.OPS.CD:DT.NFL.MLTC.OPS.CD} - `"OPS, multilateral concessional (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLTC.OPS.CD:DT.NFL.MLTC.OPS.CD} - OPS, multilateral concessional (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4176,7 +4176,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.MLTC.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLTC.PRVG.CD:DT.NFL.MLTC.PRVG.CD} - `"PRVG, multilateral concessional (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLTC.PRVG.CD:DT.NFL.MLTC.PRVG.CD} - PRVG, multilateral concessional (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4189,7 +4189,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.MLTC.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLTC.PS.CD:DT.NFL.MLTC.PS.CD} - `"PS, multilateral concessional (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLTC.PS.CD:DT.NFL.MLTC.PS.CD} - PS, multilateral concessional (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4202,7 +4202,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.NEBR.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.NEBR.CD:DT.NFL.NEBR.CD} - `"EBRD, private nonguaranteed (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.NEBR.CD:DT.NFL.NEBR.CD} - EBRD, private nonguaranteed (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4215,7 +4215,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.OFFT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.OFFT.GG.CD:DT.NFL.OFFT.GG.CD} - `"GG, official creditors (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.OFFT.GG.CD:DT.NFL.OFFT.GG.CD} - GG, official creditors (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4228,7 +4228,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.OFFT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.OFFT.OPS.CD:DT.NFL.OFFT.OPS.CD} - `"OPS, official creditors (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.OFFT.OPS.CD:DT.NFL.OFFT.OPS.CD} - OPS, official creditors (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4241,7 +4241,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.OFFT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.OFFT.PRVG.CD:DT.NFL.OFFT.PRVG.CD} - `"PRVG, official creditors (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.OFFT.PRVG.CD:DT.NFL.OFFT.PRVG.CD} - PRVG, official creditors (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4254,7 +4254,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.OFFT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.OFFT.PS.CD:DT.NFL.OFFT.PS.CD} - `"PS, official creditors (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.OFFT.PS.CD:DT.NFL.OFFT.PS.CD} - PS, official creditors (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4267,7 +4267,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PBND.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PBND.GG.CD:DT.NFL.PBND.GG.CD} - `"GG, bonds (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PBND.GG.CD:DT.NFL.PBND.GG.CD} - GG, bonds (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4280,7 +4280,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PBND.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PBND.OPS.CD:DT.NFL.PBND.OPS.CD} - `"OPS, bonds (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PBND.OPS.CD:DT.NFL.PBND.OPS.CD} - OPS, bonds (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4293,7 +4293,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PBND.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PBND.PRVG.CD:DT.NFL.PBND.PRVG.CD} - `"PRVG, bonds (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PBND.PRVG.CD:DT.NFL.PBND.PRVG.CD} - PRVG, bonds (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4306,7 +4306,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PBND.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PBND.PS.CD:DT.NFL.PBND.PS.CD} - `"PS, bonds (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PBND.PS.CD:DT.NFL.PBND.PS.CD} - PS, bonds (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4319,7 +4319,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PCBK.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PCBK.GG.CD:DT.NFL.PCBK.GG.CD} - `"GG, commercial banks (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PCBK.GG.CD:DT.NFL.PCBK.GG.CD} - GG, commercial banks (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4332,7 +4332,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PCBK.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PCBK.OPS.CD:DT.NFL.PCBK.OPS.CD} - `"OPS, commercial banks (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PCBK.OPS.CD:DT.NFL.PCBK.OPS.CD} - OPS, commercial banks (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4345,7 +4345,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PCBK.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PCBK.PRVG.CD:DT.NFL.PCBK.PRVG.CD} - `"PRVG, commercial banks (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PCBK.PRVG.CD:DT.NFL.PCBK.PRVG.CD} - PRVG, commercial banks (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4358,7 +4358,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PCBK.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PCBK.PS.CD:DT.NFL.PCBK.PS.CD} - `"PS, commercial banks (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PCBK.PS.CD:DT.NFL.PCBK.PS.CD} - PS, commercial banks (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4371,7 +4371,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PROP.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PROP.GG.CD:DT.NFL.PROP.GG.CD} - `"GG, other private creditors (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PROP.GG.CD:DT.NFL.PROP.GG.CD} - GG, other private creditors (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4384,7 +4384,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PROP.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PROP.OPS.CD:DT.NFL.PROP.OPS.CD} - `"OPS, other private creditors (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PROP.OPS.CD:DT.NFL.PROP.OPS.CD} - OPS, other private creditors (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4397,7 +4397,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PROP.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PROP.PRVG.CD:DT.NFL.PROP.PRVG.CD} - `"PRVG, other private creditors (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PROP.PRVG.CD:DT.NFL.PROP.PRVG.CD} - PRVG, other private creditors (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4410,7 +4410,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PROP.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PROP.PS.CD:DT.NFL.PROP.PS.CD} - `"PS, other private creditors (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PROP.PS.CD:DT.NFL.PROP.PS.CD} - PS, other private creditors (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4423,7 +4423,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PRPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PRPG.CD:DT.NFL.PRPG.CD} - `"Net flows on external debt, private guaranteed by public sector (PPG) (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PRPG.CD:DT.NFL.PRPG.CD} - Net flows on external debt, private guaranteed by public sector (PPG) (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4436,7 +4436,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PRVT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PRVT.GG.CD:DT.NFL.PRVT.GG.CD} - `"GG, private creditors (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PRVT.GG.CD:DT.NFL.PRVT.GG.CD} - GG, private creditors (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4449,7 +4449,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PRVT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PRVT.OPS.CD:DT.NFL.PRVT.OPS.CD} - `"OPS, private creditors (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PRVT.OPS.CD:DT.NFL.PRVT.OPS.CD} - OPS, private creditors (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4462,7 +4462,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PRVT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PRVT.PRVG.CD:DT.NFL.PRVT.PRVG.CD} - `"PRVG, private creditors (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PRVT.PRVG.CD:DT.NFL.PRVT.PRVG.CD} - PRVG, private creditors (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4475,7 +4475,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PRVT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PRVT.PS.CD:DT.NFL.PRVT.PS.CD} - `"PS, private creditors (NFL, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PRVT.PS.CD:DT.NFL.PRVT.PS.CD} - PS, private creditors (NFL, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4488,7 +4488,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.BLAT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLAT.CD:DT.NTR.BLAT.CD} - `"PPG, bilateral (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLAT.CD:DT.NTR.BLAT.CD} - PPG, bilateral (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4501,7 +4501,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.BLAT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLAT.GG.CD:DT.NTR.BLAT.GG.CD} - `"GG, bilateral (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLAT.GG.CD:DT.NTR.BLAT.GG.CD} - GG, bilateral (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4514,7 +4514,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.BLAT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLAT.OPS.CD:DT.NTR.BLAT.OPS.CD} - `"OPS, bilateral (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLAT.OPS.CD:DT.NTR.BLAT.OPS.CD} - OPS, bilateral (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4527,7 +4527,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.BLAT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLAT.PRVG.CD:DT.NTR.BLAT.PRVG.CD} - `"PRVG, bilateral (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLAT.PRVG.CD:DT.NTR.BLAT.PRVG.CD} - PRVG, bilateral (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4540,7 +4540,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.BLAT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLAT.PS.CD:DT.NTR.BLAT.PS.CD} - `"PS, bilateral (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLAT.PS.CD:DT.NTR.BLAT.PS.CD} - PS, bilateral (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4553,7 +4553,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.BLTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLTC.CD:DT.NTR.BLTC.CD} - `"PPG, bilateral concessional (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLTC.CD:DT.NTR.BLTC.CD} - PPG, bilateral concessional (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4566,7 +4566,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.BLTC.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLTC.GG.CD:DT.NTR.BLTC.GG.CD} - `"GG, bilateral concessional (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLTC.GG.CD:DT.NTR.BLTC.GG.CD} - GG, bilateral concessional (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4579,7 +4579,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.BLTC.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLTC.OPS.CD:DT.NTR.BLTC.OPS.CD} - `"OPS, bilateral concessional (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLTC.OPS.CD:DT.NTR.BLTC.OPS.CD} - OPS, bilateral concessional (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4592,7 +4592,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.BLTC.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLTC.PRVG.CD:DT.NTR.BLTC.PRVG.CD} - `"PRVG, bilateral concessional (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLTC.PRVG.CD:DT.NTR.BLTC.PRVG.CD} - PRVG, bilateral concessional (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4605,7 +4605,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.BLTC.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLTC.PS.CD:DT.NTR.BLTC.PS.CD} - `"PS, bilateral concessional (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLTC.PS.CD:DT.NTR.BLTC.PS.CD} - PS, bilateral concessional (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4618,7 +4618,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.DECT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.DECT.CD:DT.NTR.DECT.CD} - `"Net transfers on external debt, total (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.DECT.CD:DT.NTR.DECT.CD} - Net transfers on external debt, total (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4631,7 +4631,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.DEGG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.DEGG.CD:DT.NTR.DEGG.CD} - `"Net transfers on external debt, general government sector (PPG) (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.DEGG.CD:DT.NTR.DEGG.CD} - Net transfers on external debt, general government sector (PPG) (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4644,7 +4644,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.DEPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.DEPS.CD:DT.NTR.DEPS.CD} - `"Net transfers on external debt, public sector (PPG) (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.DEPS.CD:DT.NTR.DEPS.CD} - Net transfers on external debt, public sector (PPG) (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4657,7 +4657,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.DLXF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.DLXF.CD:DT.NTR.DLXF.CD} - `"Net transfers on external debt, long-term (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.DLXF.CD:DT.NTR.DLXF.CD} - Net transfers on external debt, long-term (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4670,7 +4670,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.DOPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.DOPS.CD:DT.NTR.DOPS.CD} - `"Net transfers on external debt, other public sector (PPG) (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.DOPS.CD:DT.NTR.DOPS.CD} - Net transfers on external debt, other public sector (PPG) (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4683,7 +4683,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.DPNG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.DPNG.CD:DT.NTR.DPNG.CD} - `"Net transfers on external debt, private nonguaranteed (PNG) (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.DPNG.CD:DT.NTR.DPNG.CD} - Net transfers on external debt, private nonguaranteed (PNG) (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4696,7 +4696,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.DPPG.CD:DT.NTR.DPPG.CD} - `"Net transfers on external debt, public and publicly guaranteed (PPG) (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.DPPG.CD:DT.NTR.DPPG.CD} - Net transfers on external debt, public and publicly guaranteed (PPG) (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4709,7 +4709,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.MIBR.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MIBR.CD:DT.NTR.MIBR.CD} - `"PPG, IBRD (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MIBR.CD:DT.NTR.MIBR.CD} - PPG, IBRD (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4722,7 +4722,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.MIDA.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MIDA.CD:DT.NTR.MIDA.CD} - `"PPG, IDA (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MIDA.CD:DT.NTR.MIDA.CD} - PPG, IDA (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4735,7 +4735,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.MLAT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLAT.CD:DT.NTR.MLAT.CD} - `"PPG, multilateral (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLAT.CD:DT.NTR.MLAT.CD} - PPG, multilateral (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4748,7 +4748,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.MLAT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLAT.GG.CD:DT.NTR.MLAT.GG.CD} - `"GG, multilateral (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLAT.GG.CD:DT.NTR.MLAT.GG.CD} - GG, multilateral (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4761,7 +4761,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.MLAT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLAT.OPS.CD:DT.NTR.MLAT.OPS.CD} - `"OPS, multilateral (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLAT.OPS.CD:DT.NTR.MLAT.OPS.CD} - OPS, multilateral (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4774,7 +4774,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.MLAT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLAT.PRVG.CD:DT.NTR.MLAT.PRVG.CD} - `"PRVG, multilateral (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLAT.PRVG.CD:DT.NTR.MLAT.PRVG.CD} - PRVG, multilateral (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4787,7 +4787,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.MLAT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLAT.PS.CD:DT.NTR.MLAT.PS.CD} - `"PS, multilateral (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLAT.PS.CD:DT.NTR.MLAT.PS.CD} - PS, multilateral (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4800,7 +4800,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.MLTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLTC.CD:DT.NTR.MLTC.CD} - `"PPG, multilateral concessional (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLTC.CD:DT.NTR.MLTC.CD} - PPG, multilateral concessional (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4813,7 +4813,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.MLTC.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLTC.GG.CD:DT.NTR.MLTC.GG.CD} - `"GG, multilateral concessional (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLTC.GG.CD:DT.NTR.MLTC.GG.CD} - GG, multilateral concessional (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4826,7 +4826,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.MLTC.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLTC.OPS.CD:DT.NTR.MLTC.OPS.CD} - `"OPS, multilateral concessional (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLTC.OPS.CD:DT.NTR.MLTC.OPS.CD} - OPS, multilateral concessional (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4839,7 +4839,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.MLTC.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLTC.PRVG.CD:DT.NTR.MLTC.PRVG.CD} - `"PRVG, multilateral concessional (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLTC.PRVG.CD:DT.NTR.MLTC.PRVG.CD} - PRVG, multilateral concessional (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4852,7 +4852,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.MLTC.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLTC.PS.CD:DT.NTR.MLTC.PS.CD} - `"PS, multilateral concessional (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLTC.PS.CD:DT.NTR.MLTC.PS.CD} - PS, multilateral concessional (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4865,7 +4865,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.OFFT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.OFFT.CD:DT.NTR.OFFT.CD} - `"PPG, official creditors (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.OFFT.CD:DT.NTR.OFFT.CD} - PPG, official creditors (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4878,7 +4878,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.OFFT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.OFFT.GG.CD:DT.NTR.OFFT.GG.CD} - `"GG, official creditors (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.OFFT.GG.CD:DT.NTR.OFFT.GG.CD} - GG, official creditors (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4891,7 +4891,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.OFFT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.OFFT.OPS.CD:DT.NTR.OFFT.OPS.CD} - `"OPS, official creditors (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.OFFT.OPS.CD:DT.NTR.OFFT.OPS.CD} - OPS, official creditors (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4904,7 +4904,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.OFFT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.OFFT.PRVG.CD:DT.NTR.OFFT.PRVG.CD} - `"PRVG, official creditors (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.OFFT.PRVG.CD:DT.NTR.OFFT.PRVG.CD} - PRVG, official creditors (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4917,7 +4917,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.OFFT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.OFFT.PS.CD:DT.NTR.OFFT.PS.CD} - `"PS, official creditors (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.OFFT.PS.CD:DT.NTR.OFFT.PS.CD} - PS, official creditors (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4930,7 +4930,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PBND.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PBND.CD:DT.NTR.PBND.CD} - `"PPG, bonds (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PBND.CD:DT.NTR.PBND.CD} - PPG, bonds (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4943,7 +4943,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PBND.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PBND.GG.CD:DT.NTR.PBND.GG.CD} - `"GG, bonds (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PBND.GG.CD:DT.NTR.PBND.GG.CD} - GG, bonds (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4956,7 +4956,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PBND.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PBND.OPS.CD:DT.NTR.PBND.OPS.CD} - `"OPS, bonds (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PBND.OPS.CD:DT.NTR.PBND.OPS.CD} - OPS, bonds (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4969,7 +4969,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PBND.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PBND.PRVG.CD:DT.NTR.PBND.PRVG.CD} - `"PRVG, bonds (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PBND.PRVG.CD:DT.NTR.PBND.PRVG.CD} - PRVG, bonds (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4982,7 +4982,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PBND.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PBND.PS.CD:DT.NTR.PBND.PS.CD} - `"PS, bonds (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PBND.PS.CD:DT.NTR.PBND.PS.CD} - PS, bonds (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -4995,7 +4995,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PCBK.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PCBK.CD:DT.NTR.PCBK.CD} - `"PPG, commercial banks (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PCBK.CD:DT.NTR.PCBK.CD} - PPG, commercial banks (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5008,7 +5008,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PCBK.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PCBK.GG.CD:DT.NTR.PCBK.GG.CD} - `"GG, commercial banks (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PCBK.GG.CD:DT.NTR.PCBK.GG.CD} - GG, commercial banks (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5021,7 +5021,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PCBK.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PCBK.OPS.CD:DT.NTR.PCBK.OPS.CD} - `"OPS, commercial banks (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PCBK.OPS.CD:DT.NTR.PCBK.OPS.CD} - OPS, commercial banks (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5034,7 +5034,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PCBK.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PCBK.PRVG.CD:DT.NTR.PCBK.PRVG.CD} - `"PRVG, commercial banks (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PCBK.PRVG.CD:DT.NTR.PCBK.PRVG.CD} - PRVG, commercial banks (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5047,7 +5047,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PCBK.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PCBK.PS.CD:DT.NTR.PCBK.PS.CD} - `"PS, commercial banks (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PCBK.PS.CD:DT.NTR.PCBK.PS.CD} - PS, commercial banks (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5060,7 +5060,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PNGB.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PNGB.CD:DT.NTR.PNGB.CD} - `"PNG, bonds (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PNGB.CD:DT.NTR.PNGB.CD} - PNG, bonds (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5073,7 +5073,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PNGC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PNGC.CD:DT.NTR.PNGC.CD} - `"PNG, commercial banks and other creditors (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PNGC.CD:DT.NTR.PNGC.CD} - PNG, commercial banks and other creditors (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5086,7 +5086,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PROP.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PROP.CD:DT.NTR.PROP.CD} - `"PPG, other private creditors (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PROP.CD:DT.NTR.PROP.CD} - PPG, other private creditors (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5099,7 +5099,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PROP.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PROP.GG.CD:DT.NTR.PROP.GG.CD} - `"GG, other private creditors (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PROP.GG.CD:DT.NTR.PROP.GG.CD} - GG, other private creditors (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5112,7 +5112,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PROP.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PROP.OPS.CD:DT.NTR.PROP.OPS.CD} - `"OPS, other private creditors (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PROP.OPS.CD:DT.NTR.PROP.OPS.CD} - OPS, other private creditors (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5125,7 +5125,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PROP.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PROP.PRVG.CD:DT.NTR.PROP.PRVG.CD} - `"PRVG, other private creditors (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PROP.PRVG.CD:DT.NTR.PROP.PRVG.CD} - PRVG, other private creditors (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5138,7 +5138,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PROP.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PROP.PS.CD:DT.NTR.PROP.PS.CD} - `"PS, other private creditors (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PROP.PS.CD:DT.NTR.PROP.PS.CD} - PS, other private creditors (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5151,7 +5151,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PRPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PRPG.CD:DT.NTR.PRPG.CD} - `"Net transfers on external debt, private guaranteed by public sector (PPG) (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PRPG.CD:DT.NTR.PRPG.CD} - Net transfers on external debt, private guaranteed by public sector (PPG) (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5164,7 +5164,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PRVT.CD:DT.NTR.PRVT.CD} - `"PPG, private creditors (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PRVT.CD:DT.NTR.PRVT.CD} - PPG, private creditors (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5177,7 +5177,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PRVT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PRVT.GG.CD:DT.NTR.PRVT.GG.CD} - `"GG, private creditors (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PRVT.GG.CD:DT.NTR.PRVT.GG.CD} - GG, private creditors (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5190,7 +5190,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PRVT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PRVT.OPS.CD:DT.NTR.PRVT.OPS.CD} - `"OPS, private creditors (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PRVT.OPS.CD:DT.NTR.PRVT.OPS.CD} - OPS, private creditors (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5203,7 +5203,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PRVT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PRVT.PRVG.CD:DT.NTR.PRVT.PRVG.CD} - `"PRVG, private creditors (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PRVT.PRVG.CD:DT.NTR.PRVT.PRVG.CD} - PRVG, private creditors (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5216,7 +5216,7 @@
 
 {synoptline}
 {marker sourceid_DT.NTR.PRVT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PRVT.PS.CD:DT.NTR.PRVT.PS.CD} - `"PS, private creditors (NTR, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PRVT.PS.CD:DT.NTR.PRVT.PS.CD} - PS, private creditors (NTR, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5229,7 +5229,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.BLAT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLAT.CD:DT.TDS.BLAT.CD} - `"PPG, bilateral (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLAT.CD:DT.TDS.BLAT.CD} - PPG, bilateral (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5242,7 +5242,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.BLAT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLAT.GG.CD:DT.TDS.BLAT.GG.CD} - `"GG, bilateral (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLAT.GG.CD:DT.TDS.BLAT.GG.CD} - GG, bilateral (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5255,7 +5255,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.BLAT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLAT.OPS.CD:DT.TDS.BLAT.OPS.CD} - `"OPS, bilateral (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLAT.OPS.CD:DT.TDS.BLAT.OPS.CD} - OPS, bilateral (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5268,7 +5268,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.BLAT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLAT.PRVG.CD:DT.TDS.BLAT.PRVG.CD} - `"PRVG, bilateral (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLAT.PRVG.CD:DT.TDS.BLAT.PRVG.CD} - PRVG, bilateral (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5281,7 +5281,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.BLAT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLAT.PS.CD:DT.TDS.BLAT.PS.CD} - `"PS, bilateral (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLAT.PS.CD:DT.TDS.BLAT.PS.CD} - PS, bilateral (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5294,7 +5294,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.BLTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLTC.CD:DT.TDS.BLTC.CD} - `"PPG, bilateral concessional (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLTC.CD:DT.TDS.BLTC.CD} - PPG, bilateral concessional (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5307,7 +5307,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.BLTC.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLTC.GG.CD:DT.TDS.BLTC.GG.CD} - `"GG, bilateral concessional (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLTC.GG.CD:DT.TDS.BLTC.GG.CD} - GG, bilateral concessional (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5320,7 +5320,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.BLTC.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLTC.OPS.CD:DT.TDS.BLTC.OPS.CD} - `"OPS, bilateral concessional (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLTC.OPS.CD:DT.TDS.BLTC.OPS.CD} - OPS, bilateral concessional (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5333,7 +5333,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.BLTC.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLTC.PRVG.CD:DT.TDS.BLTC.PRVG.CD} - `"PRVG, bilateral concessional (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLTC.PRVG.CD:DT.TDS.BLTC.PRVG.CD} - PRVG, bilateral concessional (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5346,7 +5346,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.BLTC.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLTC.PS.CD:DT.TDS.BLTC.PS.CD} - `"PS, bilateral concessional (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLTC.PS.CD:DT.TDS.BLTC.PS.CD} - PS, bilateral concessional (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5359,7 +5359,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DEGG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEGG.CD:DT.TDS.DEGG.CD} - `"Debt service on external debt, general government sector (PPG) (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEGG.CD:DT.TDS.DEGG.CD} - Debt service on external debt, general government sector (PPG) (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5372,7 +5372,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DEPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEPS.CD:DT.TDS.DEPS.CD} - `"Debt service on external debt, public sector (PPG) (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEPS.CD:DT.TDS.DEPS.CD} - Debt service on external debt, public sector (PPG) (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5385,7 +5385,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLXF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLXF.CD:DT.TDS.DLXF.CD} - `"Debt service on external debt, long-term (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLXF.CD:DT.TDS.DLXF.CD} - Debt service on external debt, long-term (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5398,7 +5398,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DOPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DOPS.CD:DT.TDS.DOPS.CD} - `"Debt service on external debt, other public sector (PPG) (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DOPS.CD:DT.TDS.DOPS.CD} - Debt service on external debt, other public sector (PPG) (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5411,7 +5411,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DPNG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DPNG.CD:DT.TDS.DPNG.CD} - `"Debt service on external debt, private nonguaranteed (PNG) (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DPNG.CD:DT.TDS.DPNG.CD} - Debt service on external debt, private nonguaranteed (PNG) (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5424,7 +5424,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.MIBR.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MIBR.CD:DT.TDS.MIBR.CD} - `"PPG, IBRD (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MIBR.CD:DT.TDS.MIBR.CD} - PPG, IBRD (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5437,7 +5437,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.MIDA.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MIDA.CD:DT.TDS.MIDA.CD} - `"PPG, IDA (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MIDA.CD:DT.TDS.MIDA.CD} - PPG, IDA (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5450,7 +5450,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.MLAT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLAT.GG.CD:DT.TDS.MLAT.GG.CD} - `"GG, multilateral (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLAT.GG.CD:DT.TDS.MLAT.GG.CD} - GG, multilateral (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5463,7 +5463,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.MLAT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLAT.OPS.CD:DT.TDS.MLAT.OPS.CD} - `"OPS, multilateral (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLAT.OPS.CD:DT.TDS.MLAT.OPS.CD} - OPS, multilateral (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5476,7 +5476,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.MLAT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLAT.PRVG.CD:DT.TDS.MLAT.PRVG.CD} - `"PRVG, multilateral (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLAT.PRVG.CD:DT.TDS.MLAT.PRVG.CD} - PRVG, multilateral (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5489,7 +5489,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.MLAT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLAT.PS.CD:DT.TDS.MLAT.PS.CD} - `"PS, multilateral (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLAT.PS.CD:DT.TDS.MLAT.PS.CD} - PS, multilateral (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5502,7 +5502,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.MLTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLTC.CD:DT.TDS.MLTC.CD} - `"PPG, multilateral concessional (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLTC.CD:DT.TDS.MLTC.CD} - PPG, multilateral concessional (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5515,7 +5515,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.MLTC.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLTC.GG.CD:DT.TDS.MLTC.GG.CD} - `"GG, multilateral concessional (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLTC.GG.CD:DT.TDS.MLTC.GG.CD} - GG, multilateral concessional (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5528,7 +5528,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.MLTC.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLTC.OPS.CD:DT.TDS.MLTC.OPS.CD} - `"OPS, multilateral concessional (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLTC.OPS.CD:DT.TDS.MLTC.OPS.CD} - OPS, multilateral concessional (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5541,7 +5541,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.MLTC.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLTC.PRVG.CD:DT.TDS.MLTC.PRVG.CD} - `"PRVG, multilateral concessional (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLTC.PRVG.CD:DT.TDS.MLTC.PRVG.CD} - PRVG, multilateral concessional (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5554,7 +5554,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.MLTC.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLTC.PS.CD:DT.TDS.MLTC.PS.CD} - `"PS, multilateral concessional (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLTC.PS.CD:DT.TDS.MLTC.PS.CD} - PS, multilateral concessional (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5567,7 +5567,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.OFFT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.OFFT.CD:DT.TDS.OFFT.CD} - `"PPG, official creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.OFFT.CD:DT.TDS.OFFT.CD} - PPG, official creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5580,7 +5580,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.OFFT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.OFFT.GG.CD:DT.TDS.OFFT.GG.CD} - `"GG, official creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.OFFT.GG.CD:DT.TDS.OFFT.GG.CD} - GG, official creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5593,7 +5593,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.OFFT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.OFFT.OPS.CD:DT.TDS.OFFT.OPS.CD} - `"OPS, official creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.OFFT.OPS.CD:DT.TDS.OFFT.OPS.CD} - OPS, official creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5606,7 +5606,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.OFFT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.OFFT.PRVG.CD:DT.TDS.OFFT.PRVG.CD} - `"PRVG, official creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.OFFT.PRVG.CD:DT.TDS.OFFT.PRVG.CD} - PRVG, official creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5619,7 +5619,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.OFFT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.OFFT.PS.CD:DT.TDS.OFFT.PS.CD} - `"PS, official creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.OFFT.PS.CD:DT.TDS.OFFT.PS.CD} - PS, official creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5632,7 +5632,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PBND.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PBND.CD:DT.TDS.PBND.CD} - `"PPG, bonds (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PBND.CD:DT.TDS.PBND.CD} - PPG, bonds (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5645,7 +5645,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PBND.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PBND.GG.CD:DT.TDS.PBND.GG.CD} - `"GG, bonds (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PBND.GG.CD:DT.TDS.PBND.GG.CD} - GG, bonds (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5658,7 +5658,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PBND.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PBND.OPS.CD:DT.TDS.PBND.OPS.CD} - `"OPS, bonds (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PBND.OPS.CD:DT.TDS.PBND.OPS.CD} - OPS, bonds (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5671,7 +5671,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PBND.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PBND.PRVG.CD:DT.TDS.PBND.PRVG.CD} - `"PRVG, bonds (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PBND.PRVG.CD:DT.TDS.PBND.PRVG.CD} - PRVG, bonds (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5684,7 +5684,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PBND.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PBND.PS.CD:DT.TDS.PBND.PS.CD} - `"PS, bonds (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PBND.PS.CD:DT.TDS.PBND.PS.CD} - PS, bonds (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5697,7 +5697,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PCBK.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PCBK.CD:DT.TDS.PCBK.CD} - `"PPG, commercial banks (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PCBK.CD:DT.TDS.PCBK.CD} - PPG, commercial banks (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5710,7 +5710,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PCBK.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PCBK.GG.CD:DT.TDS.PCBK.GG.CD} - `"GG, commercial banks (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PCBK.GG.CD:DT.TDS.PCBK.GG.CD} - GG, commercial banks (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5723,7 +5723,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PCBK.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PCBK.OPS.CD:DT.TDS.PCBK.OPS.CD} - `"OPS, commercial banks (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PCBK.OPS.CD:DT.TDS.PCBK.OPS.CD} - OPS, commercial banks (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5736,7 +5736,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PCBK.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PCBK.PRVG.CD:DT.TDS.PCBK.PRVG.CD} - `"PRVG, commercial banks (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PCBK.PRVG.CD:DT.TDS.PCBK.PRVG.CD} - PRVG, commercial banks (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5749,7 +5749,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PCBK.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PCBK.PS.CD:DT.TDS.PCBK.PS.CD} - `"PS, commercial banks (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PCBK.PS.CD:DT.TDS.PCBK.PS.CD} - PS, commercial banks (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5762,7 +5762,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PNGB.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PNGB.CD:DT.TDS.PNGB.CD} - `"PNG, bonds (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PNGB.CD:DT.TDS.PNGB.CD} - PNG, bonds (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5775,7 +5775,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PNGC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PNGC.CD:DT.TDS.PNGC.CD} - `"PNG, commercial banks and other creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PNGC.CD:DT.TDS.PNGC.CD} - PNG, commercial banks and other creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5788,7 +5788,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PROP.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PROP.CD:DT.TDS.PROP.CD} - `"PPG, other private creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PROP.CD:DT.TDS.PROP.CD} - PPG, other private creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5801,7 +5801,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PROP.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PROP.GG.CD:DT.TDS.PROP.GG.CD} - `"GG, other private creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PROP.GG.CD:DT.TDS.PROP.GG.CD} - GG, other private creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5814,7 +5814,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PROP.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PROP.OPS.CD:DT.TDS.PROP.OPS.CD} - `"OPS, other private creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PROP.OPS.CD:DT.TDS.PROP.OPS.CD} - OPS, other private creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5827,7 +5827,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PROP.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PROP.PRVG.CD:DT.TDS.PROP.PRVG.CD} - `"PRVG, other private creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PROP.PRVG.CD:DT.TDS.PROP.PRVG.CD} - PRVG, other private creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5840,7 +5840,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PROP.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PROP.PS.CD:DT.TDS.PROP.PS.CD} - `"PS, other private creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PROP.PS.CD:DT.TDS.PROP.PS.CD} - PS, other private creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5853,7 +5853,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PRPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRPG.CD:DT.TDS.PRPG.CD} - `"Debt service on external debt, private guaranteed by public sector (PPG) (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRPG.CD:DT.TDS.PRPG.CD} - Debt service on external debt, private guaranteed by public sector (PPG) (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5866,7 +5866,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVT.CD:DT.TDS.PRVT.CD} - `"PPG, private creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVT.CD:DT.TDS.PRVT.CD} - PPG, private creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5879,7 +5879,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVT.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVT.GG.CD:DT.TDS.PRVT.GG.CD} - `"GG, private creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVT.GG.CD:DT.TDS.PRVT.GG.CD} - GG, private creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5892,7 +5892,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVT.OPS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVT.OPS.CD:DT.TDS.PRVT.OPS.CD} - `"OPS, private creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVT.OPS.CD:DT.TDS.PRVT.OPS.CD} - OPS, private creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5905,7 +5905,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVT.PRVG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVT.PRVG.CD:DT.TDS.PRVT.PRVG.CD} - `"PRVG, private creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVT.PRVG.CD:DT.TDS.PRVT.PRVG.CD} - PRVG, private creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5918,7 +5918,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVT.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVT.PS.CD:DT.TDS.PRVT.PS.CD} - `"PS, private creditors (TDS, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVT.PS.CD:DT.TDS.PRVT.PS.CD} - PS, private creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5931,7 +5931,7 @@
 
 {synoptline}
 {marker sourceid_DT.TXR.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TXR.DPPG.CD:DT.TXR.DPPG.CD} - `"Total amount of debt rescheduled (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TXR.DPPG.CD:DT.TXR.DPPG.CD} - Total amount of debt rescheduled (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5944,7 +5944,7 @@
 
 {synoptline}
 {marker sourceid_DT.UND.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.UND.DPPG.CD:DT.UND.DPPG.CD} - `"Undisbursed external debt, total (UND, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.UND.DPPG.CD:DT.UND.DPPG.CD} - Undisbursed external debt, total (UND, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5957,7 +5957,7 @@
 
 {synoptline}
 {marker sourceid_DT.UND.OFFT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.UND.OFFT.CD:DT.UND.OFFT.CD} - `"Undisbursed external debt, official creditors (UND, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.UND.OFFT.CD:DT.UND.OFFT.CD} - Undisbursed external debt, official creditors (UND, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5970,7 +5970,7 @@
 
 {synoptline}
 {marker sourceid_DT.UND.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.UND.PRVT.CD:DT.UND.PRVT.CD} - `"Undisbursed external debt, private creditors (UND, current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.UND.PRVT.CD:DT.UND.PRVT.CD} - Undisbursed external debt, private creditors (UND, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -5982,4 +5982,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

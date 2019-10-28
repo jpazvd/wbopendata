@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,7 +40,7 @@
 {syntab:{title:{bf:12 Private Sector}}}
 {synoptline}
 {marker topicid_BG.GSR.NFSV.GD.ZS}
-{synopt:{bf:{help wbopendata_topicid##BG.GSR.NFSV.GD.ZS:BG.GSR.NFSV.GD.ZS} - `"Trade in services (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_topicid##BG.GSR.NFSV.GD.ZS:BG.GSR.NFSV.GD.ZS} - Trade in services (% of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -53,7 +53,7 @@
 
 {synoptline}
 {marker topicid_BM.GSR.INSF.ZS}
-{synopt:{bf:{help wbopendata_topicid##BM.GSR.INSF.ZS:BM.GSR.INSF.ZS} - `"Insurance and financial services (% of service imports, BoP)"'}}
+{synopt:{bf:{help wbopendata_topicid##BM.GSR.INSF.ZS:BM.GSR.INSF.ZS} - Insurance and financial services (% of service imports, BoP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -66,7 +66,7 @@
 
 {synoptline}
 {marker topicid_BX.GSR.INSF.ZS}
-{synopt:{bf:{help wbopendata_topicid##BX.GSR.INSF.ZS:BX.GSR.INSF.ZS} - `"Insurance and financial services (% of service exports, BoP)"'}}
+{synopt:{bf:{help wbopendata_topicid##BX.GSR.INSF.ZS:BX.GSR.INSF.ZS} - Insurance and financial services (% of service exports, BoP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -79,7 +79,7 @@
 
 {synoptline}
 {marker topicid_FS.AST.PRVT.GD.ZS}
-{synopt:{bf:{help wbopendata_topicid##FS.AST.PRVT.GD.ZS:FS.AST.PRVT.GD.ZS} - `"Domestic credit to private sector (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_topicid##FS.AST.PRVT.GD.ZS:FS.AST.PRVT.GD.ZS} - Domestic credit to private sector (% of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -92,7 +92,7 @@
 
 {synoptline}
 {marker topicid_IC.BUS.DFRN.XQ}
-{synopt:{bf:{help wbopendata_topicid##IC.BUS.DFRN.XQ:IC.BUS.DFRN.XQ} - `"Distance to frontier score (0=lowest performance to 100=frontier)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.BUS.DFRN.XQ:IC.BUS.DFRN.XQ} - Ease of doing business score (0 = lowest performance to 100 = best performance)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -105,7 +105,7 @@
 
 {synoptline}
 {marker topicid_IC.BUS.DISC.XQ}
-{synopt:{bf:{help wbopendata_topicid##IC.BUS.DISC.XQ:IC.BUS.DISC.XQ} - `"Business extent of disclosure index (0=less disclosure to 10=more disclosure)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.BUS.DISC.XQ:IC.BUS.DISC.XQ} - Business extent of disclosure index (0=less disclosure to 10=more disclosure)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -118,7 +118,7 @@
 
 {synoptline}
 {marker topicid_IC.BUS.EASE.XQ}
-{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - `"Rank: Ease of doing business index (1=most business-friendly regulations)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Ease of doing business index (1=most business-friendly regulations)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -131,7 +131,7 @@
 
 {synoptline}
 {marker topicid_IC.BUS.NDNS.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.BUS.NDNS.ZS:IC.BUS.NDNS.ZS} - `"New business density (new registrations per 1,000 people ages 15-64)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.BUS.NDNS.ZS:IC.BUS.NDNS.ZS} - New business density (new registrations per 1,000 people ages 15-64)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -144,7 +144,7 @@
 
 {synoptline}
 {marker topicid_IC.BUS.NREG}
-{synopt:{bf:{help wbopendata_topicid##IC.BUS.NREG:IC.BUS.NREG} - `"New businesses registered (number)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.BUS.NREG:IC.BUS.NREG} - New businesses registered (number)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -157,7 +157,7 @@
 
 {synoptline}
 {marker topicid_IC.CRD.INFO.XQ}
-{synopt:{bf:{help wbopendata_topicid##IC.CRD.INFO.XQ:IC.CRD.INFO.XQ} - `"Depth of credit information index (0=low to 8=high)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.CRD.INFO.XQ:IC.CRD.INFO.XQ} - Depth of credit information index (0=low to 8=high)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -170,7 +170,7 @@
 
 {synoptline}
 {marker topicid_IC.CRD.PRVT.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.CRD.PRVT.ZS:IC.CRD.PRVT.ZS} - `"Private credit bureau coverage (% of adults)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.CRD.PRVT.ZS:IC.CRD.PRVT.ZS} - Private credit bureau coverage (% of adults)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -183,7 +183,7 @@
 
 {synoptline}
 {marker topicid_IC.CRD.PUBL.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.CRD.PUBL.ZS:IC.CRD.PUBL.ZS} - `"Public credit registry coverage (% of adults)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.CRD.PUBL.ZS:IC.CRD.PUBL.ZS} - Public credit registry coverage (% of adults)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -196,7 +196,7 @@
 
 {synoptline}
 {marker topicid_IC.CUS.DURS.EX}
-{synopt:{bf:{help wbopendata_topicid##IC.CUS.DURS.EX:IC.CUS.DURS.EX} - `"Average time to clear exports through customs (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.CUS.DURS.EX:IC.CUS.DURS.EX} - Average time to clear exports through customs (days)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -209,7 +209,7 @@
 
 {synoptline}
 {marker topicid_IC.ELC.DURS}
-{synopt:{bf:{help wbopendata_topicid##IC.ELC.DURS:IC.ELC.DURS} - `"Time to obtain an electrical connection (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.ELC.DURS:IC.ELC.DURS} - Time to obtain an electrical connection (days)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -222,7 +222,7 @@
 
 {synoptline}
 {marker topicid_IC.ELC.OUTG}
-{synopt:{bf:{help wbopendata_topicid##IC.ELC.OUTG:IC.ELC.OUTG} - `"Power outages in firms in a typical month (number)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.ELC.OUTG:IC.ELC.OUTG} - Power outages in firms in a typical month (number)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -235,7 +235,7 @@
 
 {synoptline}
 {marker topicid_IC.ELC.TIME}
-{synopt:{bf:{help wbopendata_topicid##IC.ELC.TIME:IC.ELC.TIME} - `"Getting electricity: Time (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.ELC.TIME:IC.ELC.TIME} - Time required to get electricity (days)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -248,7 +248,7 @@
 
 {synoptline}
 {marker topicid_IC.ELEC.COST.PC.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.ELEC.COST.PC.ZS:IC.ELEC.COST.PC.ZS} - `"Cost to get electricity connection (% of income per capita)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.ELEC.COST.PC.ZS:IC.ELEC.COST.PC.ZS} - Cost to get electricity connection (% of income per capita)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -261,7 +261,7 @@
 
 {synoptline}
 {marker topicid_IC.ELEC.PROC}
-{synopt:{bf:{help wbopendata_topicid##IC.ELEC.PROC:IC.ELEC.PROC} - `"Procedures required to get electricity (number)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.ELEC.PROC:IC.ELEC.PROC} - Procedures required to get electricity (number)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -274,7 +274,7 @@
 
 {synoptline}
 {marker topicid_IC.ELEC.TIME}
-{synopt:{bf:{help wbopendata_topicid##IC.ELEC.TIME:IC.ELEC.TIME} - `"Time required to get electricity (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.ELEC.TIME:IC.ELEC.TIME} - Time required to get electricity (days)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -287,7 +287,7 @@
 
 {synoptline}
 {marker topicid_IC.ELEC.XQ}
-{synopt:{bf:{help wbopendata_topicid##IC.ELEC.XQ:IC.ELEC.XQ} - `"Getting electricity (rank)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.ELEC.XQ:IC.ELEC.XQ} - Getting electricity (rank)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -300,7 +300,7 @@
 
 {synoptline}
 {marker topicid_IC.EXP.COST.CD}
-{synopt:{bf:{help wbopendata_topicid##IC.EXP.COST.CD:IC.EXP.COST.CD} - `"Cost to export (US$ per container)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.EXP.COST.CD:IC.EXP.COST.CD} - Cost to export (US$ per container)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -313,7 +313,7 @@
 
 {synoptline}
 {marker topicid_IC.EXP.CSBC.CD}
-{synopt:{bf:{help wbopendata_topicid##IC.EXP.CSBC.CD:IC.EXP.CSBC.CD} - `"Cost to export, border compliance (US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.EXP.CSBC.CD:IC.EXP.CSBC.CD} - Cost to export, border compliance (US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -326,7 +326,7 @@
 
 {synoptline}
 {marker topicid_IC.EXP.CSDC.CD}
-{synopt:{bf:{help wbopendata_topicid##IC.EXP.CSDC.CD:IC.EXP.CSDC.CD} - `"Cost to export, documentary compliance (US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.EXP.CSDC.CD:IC.EXP.CSDC.CD} - Cost to export, documentary compliance (US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -339,7 +339,7 @@
 
 {synoptline}
 {marker topicid_IC.EXP.DOCS}
-{synopt:{bf:{help wbopendata_topicid##IC.EXP.DOCS:IC.EXP.DOCS} - `"Documents to export (number)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.EXP.DOCS:IC.EXP.DOCS} - Documents to export (number)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -352,7 +352,7 @@
 
 {synoptline}
 {marker topicid_IC.EXP.DURS}
-{synopt:{bf:{help wbopendata_topicid##IC.EXP.DURS:IC.EXP.DURS} - `"Time to export (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.EXP.DURS:IC.EXP.DURS} - Time to export (days)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -365,7 +365,7 @@
 
 {synoptline}
 {marker topicid_IC.EXP.TMBC}
-{synopt:{bf:{help wbopendata_topicid##IC.EXP.TMBC:IC.EXP.TMBC} - `"Time to export, border compliance (hours)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.EXP.TMBC:IC.EXP.TMBC} - Time to export, border compliance (hours)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -378,7 +378,7 @@
 
 {synoptline}
 {marker topicid_IC.EXP.TMDC}
-{synopt:{bf:{help wbopendata_topicid##IC.EXP.TMDC:IC.EXP.TMDC} - `"Time to export, documentary compliance (hours)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.EXP.TMDC:IC.EXP.TMDC} - Time to export, documentary compliance (hours)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -391,7 +391,7 @@
 
 {synoptline}
 {marker topicid_IC.FRM.BKWC.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.FRM.BKWC.ZS:IC.FRM.BKWC.ZS} - `"Firms using banks to finance working capital (% of firms)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.BKWC.ZS:IC.FRM.BKWC.ZS} - Firms using banks to finance working capital (% of firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -404,7 +404,7 @@
 
 {synoptline}
 {marker topicid_IC.FRM.BNKS.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.FRM.BNKS.ZS:IC.FRM.BNKS.ZS} - `"Firms using banks to finance investment (% of firms)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.BNKS.ZS:IC.FRM.BNKS.ZS} - Firms using banks to finance investment (% of firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -417,7 +417,7 @@
 
 {synoptline}
 {marker topicid_IC.FRM.BRIB.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.FRM.BRIB.ZS:IC.FRM.BRIB.ZS} - `"Bribery incidence (% of firms experiencing at least one bribe payment request)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.BRIB.ZS:IC.FRM.BRIB.ZS} - Bribery incidence (% of firms experiencing at least one bribe payment request)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -430,7 +430,7 @@
 
 {synoptline}
 {marker topicid_IC.FRM.CMPU.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.FRM.CMPU.ZS:IC.FRM.CMPU.ZS} - `"Firms competing against unregistered firms (% of firms)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.CMPU.ZS:IC.FRM.CMPU.ZS} - Firms competing against unregistered firms (% of firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -443,7 +443,7 @@
 
 {synoptline}
 {marker topicid_IC.FRM.CORR.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.FRM.CORR.ZS:IC.FRM.CORR.ZS} - `"Informal payments to public officials (% of firms)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.CORR.ZS:IC.FRM.CORR.ZS} - Informal payments to public officials (% of firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -456,7 +456,7 @@
 
 {synoptline}
 {marker topicid_IC.FRM.CRIM.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.FRM.CRIM.ZS:IC.FRM.CRIM.ZS} - `"Losses due to theft and vandalism (% of annual sales of affected firms)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.CRIM.ZS:IC.FRM.CRIM.ZS} - Losses due to theft and vandalism (% of annual sales of affected firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -469,7 +469,7 @@
 
 {synoptline}
 {marker topicid_IC.FRM.DURS}
-{synopt:{bf:{help wbopendata_topicid##IC.FRM.DURS:IC.FRM.DURS} - `"Time required to obtain an operating license (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.DURS:IC.FRM.DURS} - Time required to obtain an operating license (days)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -482,7 +482,7 @@
 
 {synoptline}
 {marker topicid_IC.FRM.FEMM.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.FRM.FEMM.ZS:IC.FRM.FEMM.ZS} - `"Firms with female top manager (% of firms)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.FEMM.ZS:IC.FRM.FEMM.ZS} - Firms with female top manager (% of firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -495,7 +495,7 @@
 
 {synoptline}
 {marker topicid_IC.FRM.FEMO.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.FRM.FEMO.ZS:IC.FRM.FEMO.ZS} - `"Firms with female participation in ownership (% of firms)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.FEMO.ZS:IC.FRM.FEMO.ZS} - Firms with female participation in ownership (% of firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -508,7 +508,7 @@
 
 {synoptline}
 {marker topicid_IC.FRM.FREG.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.FRM.FREG.ZS:IC.FRM.FREG.ZS} - `"Firms formally registered when operations started (% of firms)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.FREG.ZS:IC.FRM.FREG.ZS} - Firms formally registered when operations started (% of firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -521,7 +521,7 @@
 
 {synoptline}
 {marker topicid_IC.FRM.INFM.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.FRM.INFM.ZS:IC.FRM.INFM.ZS} - `"Firms that do not report all sales for tax purposes (% of firms)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.INFM.ZS:IC.FRM.INFM.ZS} - Firms that do not report all sales for tax purposes (% of firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -534,7 +534,7 @@
 
 {synoptline}
 {marker topicid_IC.FRM.ISOC.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.FRM.ISOC.ZS:IC.FRM.ISOC.ZS} - `"Internationally-recognized quality certification (% of firms)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.ISOC.ZS:IC.FRM.ISOC.ZS} - Internationally-recognized quality certification (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -547,7 +547,7 @@
 
 {synoptline}
 {marker topicid_IC.FRM.OUTG.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.FRM.OUTG.ZS:IC.FRM.OUTG.ZS} - `"Value lost due to electrical outages (% of sales for affected firms)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.OUTG.ZS:IC.FRM.OUTG.ZS} - Value lost due to electrical outages (% of sales for affected firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -560,7 +560,7 @@
 
 {synoptline}
 {marker topicid_IC.FRM.TIME}
-{synopt:{bf:{help wbopendata_topicid##IC.FRM.TIME:IC.FRM.TIME} - `"Time required to deal with construction permits (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.TIME:IC.FRM.TIME} - Time required to deal with construction permits (days)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -573,7 +573,7 @@
 
 {synoptline}
 {marker topicid_IC.FRM.TRNG.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.FRM.TRNG.ZS:IC.FRM.TRNG.ZS} - `"Firms offering formal training (% of firms)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.TRNG.ZS:IC.FRM.TRNG.ZS} - Firms offering formal training (% of firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -586,7 +586,7 @@
 
 {synoptline}
 {marker topicid_IC.GOV.DURS.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.GOV.DURS.ZS:IC.GOV.DURS.ZS} - `"Time spent dealing with the requirements of government regulations (% of senior management time)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.GOV.DURS.ZS:IC.GOV.DURS.ZS} - Time spent dealing with the requirements of government regulations (% of senior management time)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -599,7 +599,7 @@
 
 {synoptline}
 {marker topicid_IC.IMP.COST.CD}
-{synopt:{bf:{help wbopendata_topicid##IC.IMP.COST.CD:IC.IMP.COST.CD} - `"Cost to import (US$ per container)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.IMP.COST.CD:IC.IMP.COST.CD} - Cost to import (US$ per container)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -612,7 +612,7 @@
 
 {synoptline}
 {marker topicid_IC.IMP.CSBC.CD}
-{synopt:{bf:{help wbopendata_topicid##IC.IMP.CSBC.CD:IC.IMP.CSBC.CD} - `"Cost to import, border compliance (US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.IMP.CSBC.CD:IC.IMP.CSBC.CD} - Cost to import, border compliance (US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -625,7 +625,7 @@
 
 {synoptline}
 {marker topicid_IC.IMP.CSDC.CD}
-{synopt:{bf:{help wbopendata_topicid##IC.IMP.CSDC.CD:IC.IMP.CSDC.CD} - `"Cost to import, documentary compliance (US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.IMP.CSDC.CD:IC.IMP.CSDC.CD} - Cost to import, documentary compliance (US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -638,7 +638,7 @@
 
 {synoptline}
 {marker topicid_IC.IMP.DOCS}
-{synopt:{bf:{help wbopendata_topicid##IC.IMP.DOCS:IC.IMP.DOCS} - `"Documents to import (number)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.IMP.DOCS:IC.IMP.DOCS} - Documents to import (number)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -651,7 +651,7 @@
 
 {synoptline}
 {marker topicid_IC.IMP.DURS}
-{synopt:{bf:{help wbopendata_topicid##IC.IMP.DURS:IC.IMP.DURS} - `"Time to import (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.IMP.DURS:IC.IMP.DURS} - Time to import (days)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -664,7 +664,7 @@
 
 {synoptline}
 {marker topicid_IC.IMP.TMBC}
-{synopt:{bf:{help wbopendata_topicid##IC.IMP.TMBC:IC.IMP.TMBC} - `"Time to import, border compliance (hours)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.IMP.TMBC:IC.IMP.TMBC} - Time to import, border compliance (hours)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -677,7 +677,7 @@
 
 {synoptline}
 {marker topicid_IC.IMP.TMDC}
-{synopt:{bf:{help wbopendata_topicid##IC.IMP.TMDC:IC.IMP.TMDC} - `"Time to import, documentary compliance (hours)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.IMP.TMDC:IC.IMP.TMDC} - Time to import, documentary compliance (hours)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -690,7 +690,7 @@
 
 {synoptline}
 {marker topicid_IC.ISV.DURS}
-{synopt:{bf:{help wbopendata_topicid##IC.ISV.DURS:IC.ISV.DURS} - `"Time to resolve insolvency (years)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.ISV.DURS:IC.ISV.DURS} - Time to resolve insolvency (years)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -703,7 +703,7 @@
 
 {synoptline}
 {marker topicid_IC.LGL.CRED.XQ}
-{synopt:{bf:{help wbopendata_topicid##IC.LGL.CRED.XQ:IC.LGL.CRED.XQ} - `"Strength of legal rights index (0=weak to 12=strong)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.LGL.CRED.XQ:IC.LGL.CRED.XQ} - Strength of legal rights index (0=weak to 12=strong)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -716,7 +716,7 @@
 
 {synoptline}
 {marker topicid_IC.LGL.DURS}
-{synopt:{bf:{help wbopendata_topicid##IC.LGL.DURS:IC.LGL.DURS} - `"Time required to enforce a contract (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.LGL.DURS:IC.LGL.DURS} - Time required to enforce a contract (days)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -729,7 +729,7 @@
 
 {synoptline}
 {marker topicid_IC.PRP.DURS}
-{synopt:{bf:{help wbopendata_topicid##IC.PRP.DURS:IC.PRP.DURS} - `"Time required to register property (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.PRP.DURS:IC.PRP.DURS} - Time required to register property (days)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -742,7 +742,7 @@
 
 {synoptline}
 {marker topicid_IC.PRP.PROC}
-{synopt:{bf:{help wbopendata_topicid##IC.PRP.PROC:IC.PRP.PROC} - `"Procedures to register property (number)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.PRP.PROC:IC.PRP.PROC} - Procedures to register property (number)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -755,7 +755,7 @@
 
 {synoptline}
 {marker topicid_IC.REG.COST.PC.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.REG.COST.PC.FE.ZS:IC.REG.COST.PC.FE.ZS} - `"Starting a business: Cost - Women (% of income per capita)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.REG.COST.PC.FE.ZS:IC.REG.COST.PC.FE.ZS} - Cost of business start-up procedures, female (% of GNI per capita)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -768,7 +768,7 @@
 
 {synoptline}
 {marker topicid_IC.REG.COST.PC.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.REG.COST.PC.MA.ZS:IC.REG.COST.PC.MA.ZS} - `"Starting a business: Cost - Men (% of income per capita)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.REG.COST.PC.MA.ZS:IC.REG.COST.PC.MA.ZS} - Cost of business start-up procedures, male (% of GNI per capita)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -781,7 +781,7 @@
 
 {synoptline}
 {marker topicid_IC.REG.COST.PC.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.REG.COST.PC.ZS:IC.REG.COST.PC.ZS} - `"Cost of business start-up procedures (% of GNI per capita)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.REG.COST.PC.ZS:IC.REG.COST.PC.ZS} - Cost of business start-up procedures (% of GNI per capita)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -794,7 +794,7 @@
 
 {synoptline}
 {marker topicid_IC.REG.DURS}
-{synopt:{bf:{help wbopendata_topicid##IC.REG.DURS:IC.REG.DURS} - `"Time required to start a business (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.REG.DURS:IC.REG.DURS} - Time required to start a business (days)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -807,7 +807,7 @@
 
 {synoptline}
 {marker topicid_IC.REG.DURS.FE}
-{synopt:{bf:{help wbopendata_topicid##IC.REG.DURS.FE:IC.REG.DURS.FE} - `"Time required to start a business, female (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.REG.DURS.FE:IC.REG.DURS.FE} - Time required to start a business, female (days)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -820,7 +820,7 @@
 
 {synoptline}
 {marker topicid_IC.REG.DURS.MA}
-{synopt:{bf:{help wbopendata_topicid##IC.REG.DURS.MA:IC.REG.DURS.MA} - `"Time required to start a business, male (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.REG.DURS.MA:IC.REG.DURS.MA} - Time required to start a business, male (days)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -833,7 +833,7 @@
 
 {synoptline}
 {marker topicid_IC.REG.PROC}
-{synopt:{bf:{help wbopendata_topicid##IC.REG.PROC:IC.REG.PROC} - `"Start-up procedures to register a business (number)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.REG.PROC:IC.REG.PROC} - Start-up procedures to register a business (number)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -846,7 +846,7 @@
 
 {synoptline}
 {marker topicid_IC.REG.PROC.FE}
-{synopt:{bf:{help wbopendata_topicid##IC.REG.PROC.FE:IC.REG.PROC.FE} - `"Start-up procedures to register a business, female (number)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.REG.PROC.FE:IC.REG.PROC.FE} - Start-up procedures to register a business, female (number)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -859,7 +859,7 @@
 
 {synoptline}
 {marker topicid_IC.REG.PROC.MA}
-{synopt:{bf:{help wbopendata_topicid##IC.REG.PROC.MA:IC.REG.PROC.MA} - `"Start-up procedures to register a business, male (number)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.REG.PROC.MA:IC.REG.PROC.MA} - Start-up procedures to register a business, male (number)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -872,7 +872,7 @@
 
 {synoptline}
 {marker topicid_IC.TAX.DURS}
-{synopt:{bf:{help wbopendata_topicid##IC.TAX.DURS:IC.TAX.DURS} - `"Time to prepare and pay taxes (hours)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.TAX.DURS:IC.TAX.DURS} - Time to prepare and pay taxes (hours)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -885,7 +885,7 @@
 
 {synoptline}
 {marker topicid_IC.TAX.GIFT.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.TAX.GIFT.ZS:IC.TAX.GIFT.ZS} - `"Firms expected to give gifts in meetings with tax officials (% of firms)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.TAX.GIFT.ZS:IC.TAX.GIFT.ZS} - Firms expected to give gifts in meetings with tax officials (% of firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -898,7 +898,7 @@
 
 {synoptline}
 {marker topicid_IC.TAX.LABR.CP.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.TAX.LABR.CP.ZS:IC.TAX.LABR.CP.ZS} - `"Labor tax and contributions (% of commercial profits)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.TAX.LABR.CP.ZS:IC.TAX.LABR.CP.ZS} - Labor tax and contributions (% of commercial profits)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -911,7 +911,7 @@
 
 {synoptline}
 {marker topicid_IC.TAX.METG}
-{synopt:{bf:{help wbopendata_topicid##IC.TAX.METG:IC.TAX.METG} - `"Average number of visits or required meetings with tax officials (for affected firms)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.TAX.METG:IC.TAX.METG} - Average number of visits or required meetings with tax officials (for affected firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -924,7 +924,7 @@
 
 {synoptline}
 {marker topicid_IC.TAX.OTHR.CP.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.TAX.OTHR.CP.ZS:IC.TAX.OTHR.CP.ZS} - `"Other taxes payable by businesses (% of commercial profits)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.TAX.OTHR.CP.ZS:IC.TAX.OTHR.CP.ZS} - Other taxes payable by businesses (% of commercial profits)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -937,7 +937,7 @@
 
 {synoptline}
 {marker topicid_IC.TAX.PAYM}
-{synopt:{bf:{help wbopendata_topicid##IC.TAX.PAYM:IC.TAX.PAYM} - `"Tax payments (number)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.TAX.PAYM:IC.TAX.PAYM} - Tax payments (number)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -950,7 +950,7 @@
 
 {synoptline}
 {marker topicid_IC.TAX.PRFT.CP.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.TAX.PRFT.CP.ZS:IC.TAX.PRFT.CP.ZS} - `"Profit tax (% of commercial profits)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.TAX.PRFT.CP.ZS:IC.TAX.PRFT.CP.ZS} - Profit tax (% of commercial profits)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -963,7 +963,7 @@
 
 {synoptline}
 {marker topicid_IC.TAX.TOTL.CP.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.TAX.TOTL.CP.ZS:IC.TAX.TOTL.CP.ZS} - `"Total tax and contribution rate (% of profit)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.TAX.TOTL.CP.ZS:IC.TAX.TOTL.CP.ZS} - Total tax and contribution rate (% of profit)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -976,7 +976,7 @@
 
 {synoptline}
 {marker topicid_IC.WRH.DURS}
-{synopt:{bf:{help wbopendata_topicid##IC.WRH.DURS:IC.WRH.DURS} - `"Time required to build a warehouse (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.WRH.DURS:IC.WRH.DURS} - Time required to build a warehouse (days)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -989,7 +989,7 @@
 
 {synoptline}
 {marker topicid_IC.WRH.PROC}
-{synopt:{bf:{help wbopendata_topicid##IC.WRH.PROC:IC.WRH.PROC} - `"Procedures to build a warehouse (number)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.WRH.PROC:IC.WRH.PROC} - Procedures to build a warehouse (number)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1002,7 +1002,7 @@
 
 {synoptline}
 {marker topicid_IE.PPI.ENGY.CD}
-{synopt:{bf:{help wbopendata_topicid##IE.PPI.ENGY.CD:IE.PPI.ENGY.CD} - `"Investment in energy with private participation (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##IE.PPI.ENGY.CD:IE.PPI.ENGY.CD} - Investment in energy with private participation (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1015,7 +1015,7 @@
 
 {synoptline}
 {marker topicid_IE.PPI.TELE.CD}
-{synopt:{bf:{help wbopendata_topicid##IE.PPI.TELE.CD:IE.PPI.TELE.CD} - `"Investment in telecoms with private participation (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##IE.PPI.TELE.CD:IE.PPI.TELE.CD} - Investment in telecoms with private participation (current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1028,7 +1028,7 @@
 
 {synoptline}
 {marker topicid_IE.PPI.TRAN.CD}
-{synopt:{bf:{help wbopendata_topicid##IE.PPI.TRAN.CD:IE.PPI.TRAN.CD} - `"Investment in transport with private participation (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##IE.PPI.TRAN.CD:IE.PPI.TRAN.CD} - Investment in transport with private participation (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1041,7 +1041,7 @@
 
 {synoptline}
 {marker topicid_IE.PPI.WATR.CD}
-{synopt:{bf:{help wbopendata_topicid##IE.PPI.WATR.CD:IE.PPI.WATR.CD} - `"Investment in water and sanitation with private participation (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##IE.PPI.WATR.CD:IE.PPI.WATR.CD} - Investment in water and sanitation with private participation (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1054,7 +1054,7 @@
 
 {synoptline}
 {marker topicid_IQ.WEF.CUST.XQ}
-{synopt:{bf:{help wbopendata_topicid##IQ.WEF.CUST.XQ:IQ.WEF.CUST.XQ} - `"Burden of customs procedure, WEF (1=extremely inefficient to 7=extremely efficient)"'}}
+{synopt:{bf:{help wbopendata_topicid##IQ.WEF.CUST.XQ:IQ.WEF.CUST.XQ} - Burden of customs procedure, WEF (1=extremely inefficient to 7=extremely efficient)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1067,7 +1067,7 @@
 
 {synoptline}
 {marker topicid_LP.EXP.DURS.MD}
-{synopt:{bf:{help wbopendata_topicid##LP.EXP.DURS.MD:LP.EXP.DURS.MD} - `"Lead time to export, median case (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##LP.EXP.DURS.MD:LP.EXP.DURS.MD} - Lead time to export, median case (days)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1080,7 +1080,7 @@
 
 {synoptline}
 {marker topicid_LP.IMP.DURS.MD}
-{synopt:{bf:{help wbopendata_topicid##LP.IMP.DURS.MD:LP.IMP.DURS.MD} - `"Lead time to import, median case (days)"'}}
+{synopt:{bf:{help wbopendata_topicid##LP.IMP.DURS.MD:LP.IMP.DURS.MD} - Lead time to import, median case (days)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1093,7 +1093,7 @@
 
 {synoptline}
 {marker topicid_LP.LPI.CUST.XQ}
-{synopt:{bf:{help wbopendata_topicid##LP.LPI.CUST.XQ:LP.LPI.CUST.XQ} - `"Logistics performance index: Efficiency of customs clearance process (1=low to 5=high)"'}}
+{synopt:{bf:{help wbopendata_topicid##LP.LPI.CUST.XQ:LP.LPI.CUST.XQ} - Logistics performance index: Efficiency of customs clearance process (1=low to 5=high)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1106,7 +1106,7 @@
 
 {synoptline}
 {marker topicid_LP.LPI.INFR.XQ}
-{synopt:{bf:{help wbopendata_topicid##LP.LPI.INFR.XQ:LP.LPI.INFR.XQ} - `"Logistics performance index: Quality of trade and transport-related infrastructure (1=low to 5=high)"'}}
+{synopt:{bf:{help wbopendata_topicid##LP.LPI.INFR.XQ:LP.LPI.INFR.XQ} - Logistics performance index: Quality of trade and transport-related infrastructure (1=low to 5=high)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1119,7 +1119,7 @@
 
 {synoptline}
 {marker topicid_LP.LPI.ITRN.XQ}
-{synopt:{bf:{help wbopendata_topicid##LP.LPI.ITRN.XQ:LP.LPI.ITRN.XQ} - `"Logistics performance index: Ease of arranging competitively priced shipments (1=low to 5=high)"'}}
+{synopt:{bf:{help wbopendata_topicid##LP.LPI.ITRN.XQ:LP.LPI.ITRN.XQ} - Logistics performance index: Ease of arranging competitively priced shipments (1=low to 5=high)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1132,7 +1132,7 @@
 
 {synoptline}
 {marker topicid_LP.LPI.LOGS.XQ}
-{synopt:{bf:{help wbopendata_topicid##LP.LPI.LOGS.XQ:LP.LPI.LOGS.XQ} - `"Logistics performance index: Competence and quality of logistics services (1=low to 5=high)"'}}
+{synopt:{bf:{help wbopendata_topicid##LP.LPI.LOGS.XQ:LP.LPI.LOGS.XQ} - Logistics performance index: Competence and quality of logistics services (1=low to 5=high)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1145,7 +1145,7 @@
 
 {synoptline}
 {marker topicid_LP.LPI.OVRL.XQ}
-{synopt:{bf:{help wbopendata_topicid##LP.LPI.OVRL.XQ:LP.LPI.OVRL.XQ} - `"Logistics performance index: Overall (1=low to 5=high)"'}}
+{synopt:{bf:{help wbopendata_topicid##LP.LPI.OVRL.XQ:LP.LPI.OVRL.XQ} - Logistics performance index: Overall (1=low to 5=high)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1158,7 +1158,7 @@
 
 {synoptline}
 {marker topicid_LP.LPI.TIME.XQ}
-{synopt:{bf:{help wbopendata_topicid##LP.LPI.TIME.XQ:LP.LPI.TIME.XQ} - `"Logistics performance index: Frequency with which shipments reach consignee within scheduled or expected time (1=low to 5=high)"'}}
+{synopt:{bf:{help wbopendata_topicid##LP.LPI.TIME.XQ:LP.LPI.TIME.XQ} - Logistics performance index: Frequency with which shipments reach consignee within scheduled or expected time (1=low to 5=high)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1171,7 +1171,7 @@
 
 {synoptline}
 {marker topicid_LP.LPI.TRAC.XQ}
-{synopt:{bf:{help wbopendata_topicid##LP.LPI.TRAC.XQ:LP.LPI.TRAC.XQ} - `"Logistics performance index: Ability to track and trace consignments (1=low to 5=high)"'}}
+{synopt:{bf:{help wbopendata_topicid##LP.LPI.TRAC.XQ:LP.LPI.TRAC.XQ} - Logistics performance index: Ability to track and trace consignments (1=low to 5=high)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1184,7 +1184,7 @@
 
 {synoptline}
 {marker topicid_ST.INT.ARVL}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.ARVL:ST.INT.ARVL} - `"International tourism, number of arrivals"'}}
+{synopt:{bf:{help wbopendata_topicid##ST.INT.ARVL:ST.INT.ARVL} - International tourism, number of arrivals}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1197,7 +1197,7 @@
 
 {synoptline}
 {marker topicid_ST.INT.DPRT}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.DPRT:ST.INT.DPRT} - `"International tourism, number of departures"'}}
+{synopt:{bf:{help wbopendata_topicid##ST.INT.DPRT:ST.INT.DPRT} - International tourism, number of departures}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1210,7 +1210,7 @@
 
 {synoptline}
 {marker topicid_ST.INT.RCPT.CD}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.RCPT.CD:ST.INT.RCPT.CD} - `"International tourism, receipts (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##ST.INT.RCPT.CD:ST.INT.RCPT.CD} - International tourism, receipts (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1223,7 +1223,7 @@
 
 {synoptline}
 {marker topicid_ST.INT.RCPT.XP.ZS}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.RCPT.XP.ZS:ST.INT.RCPT.XP.ZS} - `"International tourism, receipts (% of total exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##ST.INT.RCPT.XP.ZS:ST.INT.RCPT.XP.ZS} - International tourism, receipts (% of total exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1236,7 +1236,7 @@
 
 {synoptline}
 {marker topicid_ST.INT.TRNR.CD}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.TRNR.CD:ST.INT.TRNR.CD} - `"International tourism, receipts for passenger transport items (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##ST.INT.TRNR.CD:ST.INT.TRNR.CD} - International tourism, receipts for passenger transport items (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1249,7 +1249,7 @@
 
 {synoptline}
 {marker topicid_ST.INT.TRNX.CD}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.TRNX.CD:ST.INT.TRNX.CD} - `"International tourism, expenditures for passenger transport items (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##ST.INT.TRNX.CD:ST.INT.TRNX.CD} - International tourism, expenditures for passenger transport items (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1262,7 +1262,7 @@
 
 {synoptline}
 {marker topicid_ST.INT.TVLR.CD}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.TVLR.CD:ST.INT.TVLR.CD} - `"International tourism, receipts for travel items (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##ST.INT.TVLR.CD:ST.INT.TVLR.CD} - International tourism, receipts for travel items (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1275,7 +1275,7 @@
 
 {synoptline}
 {marker topicid_ST.INT.TVLX.CD}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.TVLX.CD:ST.INT.TVLX.CD} - `"International tourism, expenditures for travel items (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##ST.INT.TVLX.CD:ST.INT.TVLX.CD} - International tourism, expenditures for travel items (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1288,7 +1288,7 @@
 
 {synoptline}
 {marker topicid_ST.INT.XPND.CD}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.XPND.CD:ST.INT.XPND.CD} - `"International tourism, expenditures (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##ST.INT.XPND.CD:ST.INT.XPND.CD} - International tourism, expenditures (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1301,7 +1301,7 @@
 
 {synoptline}
 {marker topicid_ST.INT.XPND.MP.ZS}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.XPND.MP.ZS:ST.INT.XPND.MP.ZS} - `"International tourism, expenditures (% of total imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##ST.INT.XPND.MP.ZS:ST.INT.XPND.MP.ZS} - International tourism, expenditures (% of total imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1314,7 +1314,7 @@
 
 {synoptline}
 {marker topicid_TG.VAL.TOTL.GD.ZS}
-{synopt:{bf:{help wbopendata_topicid##TG.VAL.TOTL.GD.ZS:TG.VAL.TOTL.GD.ZS} - `"Merchandise trade (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_topicid##TG.VAL.TOTL.GD.ZS:TG.VAL.TOTL.GD.ZS} - Merchandise trade (% of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1327,7 +1327,7 @@
 
 {synoptline}
 {marker topicid_TM.QTY.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_topicid##TM.QTY.MRCH.XD.WD:TM.QTY.MRCH.XD.WD} - `"Import volume index (2000 = 100)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.QTY.MRCH.XD.WD:TM.QTY.MRCH.XD.WD} - Import volume index (2000 = 100)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1340,7 +1340,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.MANF.BC.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.BC.ZS:TM.TAX.MANF.BC.ZS} - `"Binding coverage, manufactured products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.BC.ZS:TM.TAX.MANF.BC.ZS} - Binding coverage, manufactured products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1353,7 +1353,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.MANF.BR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.BR.ZS:TM.TAX.MANF.BR.ZS} - `"Bound rate, simple mean, manufactured products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.BR.ZS:TM.TAX.MANF.BR.ZS} - Bound rate, simple mean, manufactured products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1366,7 +1366,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.MANF.IP.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.IP.ZS:TM.TAX.MANF.IP.ZS} - `"Share of tariff lines with international peaks, manufactured products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.IP.ZS:TM.TAX.MANF.IP.ZS} - Share of tariff lines with international peaks, manufactured products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1379,7 +1379,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.MANF.SM.AR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.SM.AR.ZS:TM.TAX.MANF.SM.AR.ZS} - `"Tariff rate, applied, simple mean, manufactured products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.SM.AR.ZS:TM.TAX.MANF.SM.AR.ZS} - Tariff rate, applied, simple mean, manufactured products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1392,7 +1392,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.MANF.SM.FN.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.SM.FN.ZS:TM.TAX.MANF.SM.FN.ZS} - `"Tariff rate, most favored nation, simple mean, manufactured products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.SM.FN.ZS:TM.TAX.MANF.SM.FN.ZS} - Tariff rate, most favored nation, simple mean, manufactured products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1405,7 +1405,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.MANF.SR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.SR.ZS:TM.TAX.MANF.SR.ZS} - `"Share of tariff lines with specific rates, manufactured products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.SR.ZS:TM.TAX.MANF.SR.ZS} - Share of tariff lines with specific rates, manufactured products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1418,7 +1418,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.MANF.WM.AR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.WM.AR.ZS:TM.TAX.MANF.WM.AR.ZS} - `"Tariff rate, applied, weighted mean, manufactured products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.WM.AR.ZS:TM.TAX.MANF.WM.AR.ZS} - Tariff rate, applied, weighted mean, manufactured products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1431,7 +1431,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.MANF.WM.FN.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.WM.FN.ZS:TM.TAX.MANF.WM.FN.ZS} - `"Tariff rate, most favored nation, weighted mean, manufactured products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.WM.FN.ZS:TM.TAX.MANF.WM.FN.ZS} - Tariff rate, most favored nation, weighted mean, manufactured products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1444,7 +1444,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.MRCH.BC.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.BC.ZS:TM.TAX.MRCH.BC.ZS} - `"Binding coverage, all products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.BC.ZS:TM.TAX.MRCH.BC.ZS} - Binding coverage, all products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1457,7 +1457,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.MRCH.BR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.BR.ZS:TM.TAX.MRCH.BR.ZS} - `"Bound rate, simple mean, all products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.BR.ZS:TM.TAX.MRCH.BR.ZS} - Bound rate, simple mean, all products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1470,7 +1470,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.MRCH.IP.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.IP.ZS:TM.TAX.MRCH.IP.ZS} - `"Share of tariff lines with international peaks, all products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.IP.ZS:TM.TAX.MRCH.IP.ZS} - Share of tariff lines with international peaks, all products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1483,7 +1483,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.MRCH.SM.AR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.SM.AR.ZS:TM.TAX.MRCH.SM.AR.ZS} - `"Tariff rate, applied, simple mean, all products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.SM.AR.ZS:TM.TAX.MRCH.SM.AR.ZS} - Tariff rate, applied, simple mean, all products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1496,7 +1496,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.MRCH.SM.FN.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.SM.FN.ZS:TM.TAX.MRCH.SM.FN.ZS} - `"Tariff rate, most favored nation, simple mean, all products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.SM.FN.ZS:TM.TAX.MRCH.SM.FN.ZS} - Tariff rate, most favored nation, simple mean, all products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1509,7 +1509,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.MRCH.SR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.SR.ZS:TM.TAX.MRCH.SR.ZS} - `"Share of tariff lines with specific rates, all products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.SR.ZS:TM.TAX.MRCH.SR.ZS} - Share of tariff lines with specific rates, all products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1522,7 +1522,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.MRCH.WM.AR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.WM.AR.ZS:TM.TAX.MRCH.WM.AR.ZS} - `"Tariff rate, applied, weighted mean, all products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.WM.AR.ZS:TM.TAX.MRCH.WM.AR.ZS} - Tariff rate, applied, weighted mean, all products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1535,7 +1535,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.MRCH.WM.FN.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.WM.FN.ZS:TM.TAX.MRCH.WM.FN.ZS} - `"Tariff rate, most favored nation, weighted mean, all products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.WM.FN.ZS:TM.TAX.MRCH.WM.FN.ZS} - Tariff rate, most favored nation, weighted mean, all products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1548,7 +1548,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.TCOM.BC.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.BC.ZS:TM.TAX.TCOM.BC.ZS} - `"Binding coverage, primary products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.BC.ZS:TM.TAX.TCOM.BC.ZS} - Binding coverage, primary products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1561,7 +1561,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.TCOM.BR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.BR.ZS:TM.TAX.TCOM.BR.ZS} - `"Bound rate, simple mean, primary products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.BR.ZS:TM.TAX.TCOM.BR.ZS} - Bound rate, simple mean, primary products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1574,7 +1574,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.TCOM.IP.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.IP.ZS:TM.TAX.TCOM.IP.ZS} - `"Share of tariff lines with international peaks, primary products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.IP.ZS:TM.TAX.TCOM.IP.ZS} - Share of tariff lines with international peaks, primary products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1587,7 +1587,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.TCOM.SM.AR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.SM.AR.ZS:TM.TAX.TCOM.SM.AR.ZS} - `"Tariff rate, applied, simple mean, primary products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.SM.AR.ZS:TM.TAX.TCOM.SM.AR.ZS} - Tariff rate, applied, simple mean, primary products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1600,7 +1600,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.TCOM.SM.FN.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.SM.FN.ZS:TM.TAX.TCOM.SM.FN.ZS} - `"Tariff rate, most favored nation, simple mean, primary products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.SM.FN.ZS:TM.TAX.TCOM.SM.FN.ZS} - Tariff rate, most favored nation, simple mean, primary products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1613,7 +1613,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.TCOM.SR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.SR.ZS:TM.TAX.TCOM.SR.ZS} - `"Share of tariff lines with specific rates, primary products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.SR.ZS:TM.TAX.TCOM.SR.ZS} - Share of tariff lines with specific rates, primary products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1626,7 +1626,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.TCOM.WM.AR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.WM.AR.ZS:TM.TAX.TCOM.WM.AR.ZS} - `"Tariff rate, applied, weighted mean, primary products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.WM.AR.ZS:TM.TAX.TCOM.WM.AR.ZS} - Tariff rate, applied, weighted mean, primary products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1639,7 +1639,7 @@
 
 {synoptline}
 {marker topicid_TM.TAX.TCOM.WM.FN.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.WM.FN.ZS:TM.TAX.TCOM.WM.FN.ZS} - `"Tariff rate, most favored nation, weighted mean, primary products (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.WM.FN.ZS:TM.TAX.TCOM.WM.FN.ZS} - Tariff rate, most favored nation, weighted mean, primary products (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1652,7 +1652,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.AGRI.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.AGRI.ZS.UN:TM.VAL.AGRI.ZS.UN} - `"Agricultural raw materials imports (% of merchandise imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.AGRI.ZS.UN:TM.VAL.AGRI.ZS.UN} - Agricultural raw materials imports (% of merchandise imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1665,7 +1665,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.FOOD.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.FOOD.ZS.UN:TM.VAL.FOOD.ZS.UN} - `"Food imports (% of merchandise imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.FOOD.ZS.UN:TM.VAL.FOOD.ZS.UN} - Food imports (% of merchandise imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1678,7 +1678,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.FUEL.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.FUEL.ZS.UN:TM.VAL.FUEL.ZS.UN} - `"Fuel imports (% of merchandise imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.FUEL.ZS.UN:TM.VAL.FUEL.ZS.UN} - Fuel imports (% of merchandise imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1691,7 +1691,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.ICTG.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.ICTG.ZS.UN:TM.VAL.ICTG.ZS.UN} - `"ICT goods imports (% total goods imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.ICTG.ZS.UN:TM.VAL.ICTG.ZS.UN} - ICT goods imports (% total goods imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1704,7 +1704,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.INSF.ZS.WT}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.INSF.ZS.WT:TM.VAL.INSF.ZS.WT} - `"Insurance and financial services (% of commercial service imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.INSF.ZS.WT:TM.VAL.INSF.ZS.WT} - Insurance and financial services (% of commercial service imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1717,7 +1717,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MANF.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MANF.ZS.UN:TM.VAL.MANF.ZS.UN} - `"Manufactures imports (% of merchandise imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MANF.ZS.UN:TM.VAL.MANF.ZS.UN} - Manufactures imports (% of merchandise imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1730,7 +1730,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MMTL.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MMTL.ZS.UN:TM.VAL.MMTL.ZS.UN} - `"Ores and metals imports (% of merchandise imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MMTL.ZS.UN:TM.VAL.MMTL.ZS.UN} - Ores and metals imports (% of merchandise imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1743,7 +1743,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MRCH.AL.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.AL.ZS:TM.VAL.MRCH.AL.ZS} - `"Merchandise imports from economies in the Arab World (% of total merchandise imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.AL.ZS:TM.VAL.MRCH.AL.ZS} - Merchandise imports from economies in the Arab World (% of total merchandise imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1756,7 +1756,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MRCH.CD.WT}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.CD.WT:TM.VAL.MRCH.CD.WT} - `"Merchandise imports (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.CD.WT:TM.VAL.MRCH.CD.WT} - Merchandise imports (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1769,7 +1769,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MRCH.HI.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.HI.ZS:TM.VAL.MRCH.HI.ZS} - `"Merchandise imports from high-income economies (% of total merchandise imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.HI.ZS:TM.VAL.MRCH.HI.ZS} - Merchandise imports from high-income economies (% of total merchandise imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1782,7 +1782,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MRCH.OR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.OR.ZS:TM.VAL.MRCH.OR.ZS} - `"Merchandise imports from low- and middle-income economies outside region (% of total merchandise imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.OR.ZS:TM.VAL.MRCH.OR.ZS} - Merchandise imports from low- and middle-income economies outside region (% of total merchandise imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1795,7 +1795,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MRCH.R1.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R1.ZS:TM.VAL.MRCH.R1.ZS} - `"Merchandise imports from low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R1.ZS:TM.VAL.MRCH.R1.ZS} - Merchandise imports from low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1808,7 +1808,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MRCH.R2.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R2.ZS:TM.VAL.MRCH.R2.ZS} - `"Merchandise imports from low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R2.ZS:TM.VAL.MRCH.R2.ZS} - Merchandise imports from low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1821,7 +1821,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MRCH.R3.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R3.ZS:TM.VAL.MRCH.R3.ZS} - `"Merchandise imports from low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R3.ZS:TM.VAL.MRCH.R3.ZS} - Merchandise imports from low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1834,7 +1834,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MRCH.R4.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R4.ZS:TM.VAL.MRCH.R4.ZS} - `"Merchandise imports from low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R4.ZS:TM.VAL.MRCH.R4.ZS} - Merchandise imports from low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1847,7 +1847,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MRCH.R5.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R5.ZS:TM.VAL.MRCH.R5.ZS} - `"Merchandise imports from low- and middle-income economies in South Asia (% of total merchandise imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R5.ZS:TM.VAL.MRCH.R5.ZS} - Merchandise imports from low- and middle-income economies in South Asia (% of total merchandise imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1860,7 +1860,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MRCH.R6.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R6.ZS:TM.VAL.MRCH.R6.ZS} - `"Merchandise imports from low- and middle-income economies in Sub-Saharan Africa (% of total merchandise imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R6.ZS:TM.VAL.MRCH.R6.ZS} - Merchandise imports from low- and middle-income economies in Sub-Saharan Africa (% of total merchandise imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1873,7 +1873,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MRCH.RS.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.RS.ZS:TM.VAL.MRCH.RS.ZS} - `"Merchandise imports by the reporting economy, residual (% of total merchandise imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.RS.ZS:TM.VAL.MRCH.RS.ZS} - Merchandise imports by the reporting economy, residual (% of total merchandise imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1886,7 +1886,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MRCH.WL.CD}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.WL.CD:TM.VAL.MRCH.WL.CD} - `"Merchandise imports by the reporting economy (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.WL.CD:TM.VAL.MRCH.WL.CD} - Merchandise imports by the reporting economy (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1899,7 +1899,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MRCH.WR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.WR.ZS:TM.VAL.MRCH.WR.ZS} - `"Merchandise imports from low- and middle-income economies within region (% of total merchandise imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.WR.ZS:TM.VAL.MRCH.WR.ZS} - Merchandise imports from low- and middle-income economies within region (% of total merchandise imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1912,7 +1912,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.XD.WD:TM.VAL.MRCH.XD.WD} - `"Import value index (2000 = 100)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.XD.WD:TM.VAL.MRCH.XD.WD} - Import value index (2000 = 100)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1925,7 +1925,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.OTHR.ZS.WT}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.OTHR.ZS.WT:TM.VAL.OTHR.ZS.WT} - `"Computer, communications and other services (% of commercial service imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.OTHR.ZS.WT:TM.VAL.OTHR.ZS.WT} - Computer, communications and other services (% of commercial service imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1938,7 +1938,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.SERV.CD.WT}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.SERV.CD.WT:TM.VAL.SERV.CD.WT} - `"Commercial service imports (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.SERV.CD.WT:TM.VAL.SERV.CD.WT} - Commercial service imports (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1951,7 +1951,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.TRAN.ZS.WT}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.TRAN.ZS.WT:TM.VAL.TRAN.ZS.WT} - `"Transport services (% of commercial service imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.TRAN.ZS.WT:TM.VAL.TRAN.ZS.WT} - Transport services (% of commercial service imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1964,7 +1964,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.TRVL.ZS.WT}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.TRVL.ZS.WT:TM.VAL.TRVL.ZS.WT} - `"Travel services (% of commercial service imports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.TRVL.ZS.WT:TM.VAL.TRVL.ZS.WT} - Travel services (% of commercial service imports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1977,7 +1977,7 @@
 
 {synoptline}
 {marker topicid_TT.PRI.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_topicid##TT.PRI.MRCH.XD.WD:TT.PRI.MRCH.XD.WD} - `"Net barter terms of trade index (2000 = 100)"'}}
+{synopt:{bf:{help wbopendata_topicid##TT.PRI.MRCH.XD.WD:TT.PRI.MRCH.XD.WD} - Net barter terms of trade index (2000 = 100)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1990,7 +1990,7 @@
 
 {synoptline}
 {marker topicid_TX.QTY.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_topicid##TX.QTY.MRCH.XD.WD:TX.QTY.MRCH.XD.WD} - `"Export volume index (2000 = 100)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.QTY.MRCH.XD.WD:TX.QTY.MRCH.XD.WD} - Export volume index (2000 = 100)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2003,7 +2003,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.AGRI.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.AGRI.ZS.UN:TX.VAL.AGRI.ZS.UN} - `"Agricultural raw materials exports (% of merchandise exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.AGRI.ZS.UN:TX.VAL.AGRI.ZS.UN} - Agricultural raw materials exports (% of merchandise exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2016,7 +2016,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.FOOD.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.FOOD.ZS.UN:TX.VAL.FOOD.ZS.UN} - `"Food exports (% of merchandise exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.FOOD.ZS.UN:TX.VAL.FOOD.ZS.UN} - Food exports (% of merchandise exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2029,7 +2029,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.FUEL.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.FUEL.ZS.UN:TX.VAL.FUEL.ZS.UN} - `"Fuel exports (% of merchandise exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.FUEL.ZS.UN:TX.VAL.FUEL.ZS.UN} - Fuel exports (% of merchandise exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2042,7 +2042,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.ICTG.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.ICTG.ZS.UN:TX.VAL.ICTG.ZS.UN} - `"ICT goods exports (% of total goods exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.ICTG.ZS.UN:TX.VAL.ICTG.ZS.UN} - ICT goods exports (% of total goods exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2055,7 +2055,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.INSF.ZS.WT}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.INSF.ZS.WT:TX.VAL.INSF.ZS.WT} - `"Insurance and financial services (% of commercial service exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.INSF.ZS.WT:TX.VAL.INSF.ZS.WT} - Insurance and financial services (% of commercial service exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2068,7 +2068,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.MANF.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MANF.ZS.UN:TX.VAL.MANF.ZS.UN} - `"Manufactures exports (% of merchandise exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.MANF.ZS.UN:TX.VAL.MANF.ZS.UN} - Manufactures exports (% of merchandise exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2081,7 +2081,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.MMTL.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MMTL.ZS.UN:TX.VAL.MMTL.ZS.UN} - `"Ores and metals exports (% of merchandise exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.MMTL.ZS.UN:TX.VAL.MMTL.ZS.UN} - Ores and metals exports (% of merchandise exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2094,7 +2094,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.MRCH.AL.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.AL.ZS:TX.VAL.MRCH.AL.ZS} - `"Merchandise exports to economies in the Arab World (% of total merchandise exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.AL.ZS:TX.VAL.MRCH.AL.ZS} - Merchandise exports to economies in the Arab World (% of total merchandise exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2107,7 +2107,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.MRCH.CD.WT}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.CD.WT:TX.VAL.MRCH.CD.WT} - `"Merchandise exports (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.CD.WT:TX.VAL.MRCH.CD.WT} - Merchandise exports (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2120,7 +2120,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.MRCH.HI.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.HI.ZS:TX.VAL.MRCH.HI.ZS} - `"Merchandise exports to high-income economies (% of total merchandise exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.HI.ZS:TX.VAL.MRCH.HI.ZS} - Merchandise exports to high-income economies (% of total merchandise exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2133,7 +2133,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.MRCH.OR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.OR.ZS:TX.VAL.MRCH.OR.ZS} - `"Merchandise exports to low- and middle-income economies outside region (% of total merchandise exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.OR.ZS:TX.VAL.MRCH.OR.ZS} - Merchandise exports to low- and middle-income economies outside region (% of total merchandise exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2146,7 +2146,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.MRCH.R1.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R1.ZS:TX.VAL.MRCH.R1.ZS} - `"Merchandise exports to low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R1.ZS:TX.VAL.MRCH.R1.ZS} - Merchandise exports to low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2159,7 +2159,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.MRCH.R2.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R2.ZS:TX.VAL.MRCH.R2.ZS} - `"Merchandise exports to low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R2.ZS:TX.VAL.MRCH.R2.ZS} - Merchandise exports to low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2172,7 +2172,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.MRCH.R3.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R3.ZS:TX.VAL.MRCH.R3.ZS} - `"Merchandise exports to low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R3.ZS:TX.VAL.MRCH.R3.ZS} - Merchandise exports to low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2185,7 +2185,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.MRCH.R4.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R4.ZS:TX.VAL.MRCH.R4.ZS} - `"Merchandise exports to low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R4.ZS:TX.VAL.MRCH.R4.ZS} - Merchandise exports to low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2198,7 +2198,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.MRCH.R5.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R5.ZS:TX.VAL.MRCH.R5.ZS} - `"Merchandise exports to low- and middle-income economies in South Asia (% of total merchandise exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R5.ZS:TX.VAL.MRCH.R5.ZS} - Merchandise exports to low- and middle-income economies in South Asia (% of total merchandise exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2211,7 +2211,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.MRCH.R6.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R6.ZS:TX.VAL.MRCH.R6.ZS} - `"Merchandise exports to low- and middle-income economies in Sub-Saharan Africa (% of total merchandise exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R6.ZS:TX.VAL.MRCH.R6.ZS} - Merchandise exports to low- and middle-income economies in Sub-Saharan Africa (% of total merchandise exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2224,7 +2224,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.MRCH.RS.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.RS.ZS:TX.VAL.MRCH.RS.ZS} - `"Merchandise exports by the reporting economy, residual (% of total merchandise exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.RS.ZS:TX.VAL.MRCH.RS.ZS} - Merchandise exports by the reporting economy, residual (% of total merchandise exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2237,7 +2237,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.MRCH.WL.CD}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.WL.CD:TX.VAL.MRCH.WL.CD} - `"Merchandise exports by the reporting economy (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.WL.CD:TX.VAL.MRCH.WL.CD} - Merchandise exports by the reporting economy (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2250,7 +2250,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.MRCH.WR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.WR.ZS:TX.VAL.MRCH.WR.ZS} - `"Merchandise exports to low- and middle-income economies within region (% of total merchandise exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.WR.ZS:TX.VAL.MRCH.WR.ZS} - Merchandise exports to low- and middle-income economies within region (% of total merchandise exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2263,7 +2263,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.XD.WD:TX.VAL.MRCH.XD.WD} - `"Export value index (2000 = 100)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.XD.WD:TX.VAL.MRCH.XD.WD} - Export value index (2000 = 100)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2276,7 +2276,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.OTHR.ZS.WT}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.OTHR.ZS.WT:TX.VAL.OTHR.ZS.WT} - `"Computer, communications and other services (% of commercial service exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.OTHR.ZS.WT:TX.VAL.OTHR.ZS.WT} - Computer, communications and other services (% of commercial service exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2289,7 +2289,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.SERV.CD.WT}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.SERV.CD.WT:TX.VAL.SERV.CD.WT} - `"Commercial service exports (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.SERV.CD.WT:TX.VAL.SERV.CD.WT} - Commercial service exports (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2302,7 +2302,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.TECH.CD}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.TECH.CD:TX.VAL.TECH.CD} - `"High-technology exports (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.TECH.CD:TX.VAL.TECH.CD} - High-technology exports (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2315,7 +2315,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.TECH.MF.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.TECH.MF.ZS:TX.VAL.TECH.MF.ZS} - `"High-technology exports (% of manufactured exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.TECH.MF.ZS:TX.VAL.TECH.MF.ZS} - High-technology exports (% of manufactured exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2328,7 +2328,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.TRAN.ZS.WT}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.TRAN.ZS.WT:TX.VAL.TRAN.ZS.WT} - `"Transport services (% of commercial service exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.TRAN.ZS.WT:TX.VAL.TRAN.ZS.WT} - Transport services (% of commercial service exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2341,7 +2341,7 @@
 
 {synoptline}
 {marker topicid_TX.VAL.TRVL.ZS.WT}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.TRVL.ZS.WT:TX.VAL.TRVL.ZS.WT} - `"Travel services (% of commercial service exports)"'}}
+{synopt:{bf:{help wbopendata_topicid##TX.VAL.TRVL.ZS.WT:TX.VAL.TRVL.ZS.WT} - Travel services (% of commercial service exports)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2353,4 +2353,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

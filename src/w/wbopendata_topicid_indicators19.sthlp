@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,7 +40,7 @@
 {syntab:{title:{bf:19 Climate Change}}}
 {synoptline}
 {marker topicid_AG.LND.AGRI.K2}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.AGRI.K2:AG.LND.AGRI.K2} - `"Agricultural land (sq. km)"'}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.AGRI.K2:AG.LND.AGRI.K2} - Agricultural land (sq. km)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -53,7 +53,7 @@
 
 {synoptline}
 {marker topicid_AG.LND.AGRI.ZS}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.AGRI.ZS:AG.LND.AGRI.ZS} - `"Agricultural land (% of land area)"'}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.AGRI.ZS:AG.LND.AGRI.ZS} - Agricultural land (% of land area)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -66,7 +66,7 @@
 
 {synoptline}
 {marker topicid_AG.LND.ARBL.ZS}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.ARBL.ZS:AG.LND.ARBL.ZS} - `"Arable land (% of land area)"'}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.ARBL.ZS:AG.LND.ARBL.ZS} - Arable land (% of land area)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -79,7 +79,7 @@
 
 {synoptline}
 {marker topicid_AG.LND.EL5M.RU.K2}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.RU.K2:AG.LND.EL5M.RU.K2} - `"Rural land area where elevation is below 5 meters (sq. km)"'}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.RU.K2:AG.LND.EL5M.RU.K2} - Rural land area where elevation is below 5 meters (sq. km)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -92,7 +92,7 @@
 
 {synoptline}
 {marker topicid_AG.LND.EL5M.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.RU.ZS:AG.LND.EL5M.RU.ZS} - `"Rural land area where elevation is below 5 meters (% of total land area)"'}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.RU.ZS:AG.LND.EL5M.RU.ZS} - Rural land area where elevation is below 5 meters (% of total land area)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -105,7 +105,7 @@
 
 {synoptline}
 {marker topicid_AG.LND.EL5M.UR.K2}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.UR.K2:AG.LND.EL5M.UR.K2} - `"Urban land area where elevation is below 5 meters (sq. km)"'}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.UR.K2:AG.LND.EL5M.UR.K2} - Urban land area where elevation is below 5 meters (sq. km)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -118,7 +118,7 @@
 
 {synoptline}
 {marker topicid_AG.LND.EL5M.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.UR.ZS:AG.LND.EL5M.UR.ZS} - `"Urban land area where elevation is below 5 meters (% of total land area)"'}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.UR.ZS:AG.LND.EL5M.UR.ZS} - Urban land area where elevation is below 5 meters (% of total land area)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -131,7 +131,7 @@
 
 {synoptline}
 {marker topicid_AG.LND.EL5M.ZS}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.ZS:AG.LND.EL5M.ZS} - `"Land area where elevation is below 5 meters (% of total land area)"'}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.ZS:AG.LND.EL5M.ZS} - Land area where elevation is below 5 meters (% of total land area)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -144,7 +144,7 @@
 
 {synoptline}
 {marker topicid_AG.LND.FRST.K2}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.FRST.K2:AG.LND.FRST.K2} - `"Forest area (sq. km)"'}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.FRST.K2:AG.LND.FRST.K2} - Forest area (sq. km)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -157,7 +157,7 @@
 
 {synoptline}
 {marker topicid_AG.LND.FRST.ZS}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.FRST.ZS:AG.LND.FRST.ZS} - `"Forest area (% of land area)"'}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.FRST.ZS:AG.LND.FRST.ZS} - Forest area (% of land area)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -170,7 +170,7 @@
 
 {synoptline}
 {marker topicid_AG.LND.IRIG.AG.ZS}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.IRIG.AG.ZS:AG.LND.IRIG.AG.ZS} - `"Agricultural irrigated land (% of total agricultural land)"'}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.IRIG.AG.ZS:AG.LND.IRIG.AG.ZS} - Agricultural irrigated land (% of total agricultural land)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -183,7 +183,7 @@
 
 {synoptline}
 {marker topicid_AG.LND.PRCP.MM}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.PRCP.MM:AG.LND.PRCP.MM} - `"Average precipitation in depth (mm per year)"'}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.PRCP.MM:AG.LND.PRCP.MM} - Average precipitation in depth (mm per year)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -196,7 +196,7 @@
 
 {synoptline}
 {marker topicid_AG.YLD.CREL.KG}
-{synopt:{bf:{help wbopendata_topicid##AG.YLD.CREL.KG:AG.YLD.CREL.KG} - `"Cereal yield (kg per hectare)"'}}
+{synopt:{bf:{help wbopendata_topicid##AG.YLD.CREL.KG:AG.YLD.CREL.KG} - Cereal yield (kg per hectare)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -209,7 +209,7 @@
 
 {synoptline}
 {marker topicid_BX.KLT.DINV.WD.GD.ZS}
-{synopt:{bf:{help wbopendata_topicid##BX.KLT.DINV.WD.GD.ZS:BX.KLT.DINV.WD.GD.ZS} - `"Foreign direct investment, net inflows (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_topicid##BX.KLT.DINV.WD.GD.ZS:BX.KLT.DINV.WD.GD.ZS} - Foreign direct investment, net inflows (% of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -222,7 +222,7 @@
 
 {synoptline}
 {marker topicid_EG.ELC.ACCS.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.ELC.ACCS.ZS:EG.ELC.ACCS.ZS} - `"Access to electricity (% of population)"'}}
+{synopt:{bf:{help wbopendata_topicid##EG.ELC.ACCS.ZS:EG.ELC.ACCS.ZS} - Access to electricity (% of population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -235,7 +235,7 @@
 
 {synoptline}
 {marker topicid_EG.ELC.COAL.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.ELC.COAL.ZS:EG.ELC.COAL.ZS} - `"Electricity production from coal sources (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##EG.ELC.COAL.ZS:EG.ELC.COAL.ZS} - Electricity production from coal sources (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -248,7 +248,7 @@
 
 {synoptline}
 {marker topicid_EG.ELC.HYRO.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.ELC.HYRO.ZS:EG.ELC.HYRO.ZS} - `"Electricity production from hydroelectric sources (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##EG.ELC.HYRO.ZS:EG.ELC.HYRO.ZS} - Electricity production from hydroelectric sources (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -261,7 +261,7 @@
 
 {synoptline}
 {marker topicid_EG.ELC.NGAS.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.ELC.NGAS.ZS:EG.ELC.NGAS.ZS} - `"Electricity production from natural gas sources (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##EG.ELC.NGAS.ZS:EG.ELC.NGAS.ZS} - Electricity production from natural gas sources (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -274,7 +274,7 @@
 
 {synoptline}
 {marker topicid_EG.ELC.NUCL.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.ELC.NUCL.ZS:EG.ELC.NUCL.ZS} - `"Electricity production from nuclear sources (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##EG.ELC.NUCL.ZS:EG.ELC.NUCL.ZS} - Electricity production from nuclear sources (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -287,7 +287,7 @@
 
 {synoptline}
 {marker topicid_EG.ELC.PETR.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.ELC.PETR.ZS:EG.ELC.PETR.ZS} - `"Electricity production from oil sources (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##EG.ELC.PETR.ZS:EG.ELC.PETR.ZS} - Electricity production from oil sources (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -300,7 +300,7 @@
 
 {synoptline}
 {marker topicid_EG.ELC.RNEW.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.ELC.RNEW.ZS:EG.ELC.RNEW.ZS} - `"Renewable electricity output (% of total electricity output)"'}}
+{synopt:{bf:{help wbopendata_topicid##EG.ELC.RNEW.ZS:EG.ELC.RNEW.ZS} - Renewable electricity output (% of total electricity output)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -313,7 +313,7 @@
 
 {synoptline}
 {marker topicid_EG.ELC.RNWX.KH}
-{synopt:{bf:{help wbopendata_topicid##EG.ELC.RNWX.KH:EG.ELC.RNWX.KH} - `"Electricity production from renewable sources, excluding hydroelectric (kWh)"'}}
+{synopt:{bf:{help wbopendata_topicid##EG.ELC.RNWX.KH:EG.ELC.RNWX.KH} - Electricity production from renewable sources, excluding hydroelectric (kWh)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -326,7 +326,7 @@
 
 {synoptline}
 {marker topicid_EG.ELC.RNWX.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.ELC.RNWX.ZS:EG.ELC.RNWX.ZS} - `"Electricity production from renewable sources, excluding hydroelectric (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##EG.ELC.RNWX.ZS:EG.ELC.RNWX.ZS} - Electricity production from renewable sources, excluding hydroelectric (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -339,7 +339,7 @@
 
 {synoptline}
 {marker topicid_EG.FEC.RNEW.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.FEC.RNEW.ZS:EG.FEC.RNEW.ZS} - `"Renewable energy consumption (% of total final energy consumption)"'}}
+{synopt:{bf:{help wbopendata_topicid##EG.FEC.RNEW.ZS:EG.FEC.RNEW.ZS} - Renewable energy consumption (% of total final energy consumption)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -352,7 +352,7 @@
 
 {synoptline}
 {marker topicid_EG.USE.COMM.GD.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD} - `"Energy use (kg of oil equivalent) per $1,000 GDP (constant 2011 PPP)"'}}
+{synopt:{bf:{help wbopendata_topicid##EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD} - Energy use (kg of oil equivalent) per $1,000 GDP (constant 2011 PPP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -365,7 +365,7 @@
 
 {synoptline}
 {marker topicid_EG.USE.ELEC.KH.PC}
-{synopt:{bf:{help wbopendata_topicid##EG.USE.ELEC.KH.PC:EG.USE.ELEC.KH.PC} - `"Electric power consumption (kWh per capita)"'}}
+{synopt:{bf:{help wbopendata_topicid##EG.USE.ELEC.KH.PC:EG.USE.ELEC.KH.PC} - Electric power consumption (kWh per capita)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -378,7 +378,7 @@
 
 {synoptline}
 {marker topicid_EG.USE.PCAP.KG.OE}
-{synopt:{bf:{help wbopendata_topicid##EG.USE.PCAP.KG.OE:EG.USE.PCAP.KG.OE} - `"Energy use (kg of oil equivalent per capita)"'}}
+{synopt:{bf:{help wbopendata_topicid##EG.USE.PCAP.KG.OE:EG.USE.PCAP.KG.OE} - Energy use (kg of oil equivalent per capita)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -391,7 +391,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.EG.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.EG.ZS:EN.ATM.CO2E.EG.ZS} - `"CO2 intensity (kg per kg of oil equivalent energy use)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.EG.ZS:EN.ATM.CO2E.EG.ZS} - CO2 intensity (kg per kg of oil equivalent energy use)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -404,7 +404,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.GF.KT}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.GF.KT:EN.ATM.CO2E.GF.KT} - `"CO2 emissions from gaseous fuel consumption (kt)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.GF.KT:EN.ATM.CO2E.GF.KT} - CO2 emissions from gaseous fuel consumption (kt)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -417,7 +417,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.GF.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS} - `"CO2 emissions from gaseous fuel consumption (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS} - CO2 emissions from gaseous fuel consumption (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -430,7 +430,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.KD.GD}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD} - `"CO2 emissions (kg per 2010 US$ of GDP)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD} - CO2 emissions (kg per 2010 US$ of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -443,7 +443,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.KT}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KT:EN.ATM.CO2E.KT} - `"CO2 emissions (kt)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KT:EN.ATM.CO2E.KT} - CO2 emissions (kt)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -456,7 +456,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.LF.KT}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.LF.KT:EN.ATM.CO2E.LF.KT} - `"CO2 emissions from liquid fuel consumption (kt)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.LF.KT:EN.ATM.CO2E.LF.KT} - CO2 emissions from liquid fuel consumption (kt)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -469,7 +469,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.LF.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.LF.ZS:EN.ATM.CO2E.LF.ZS} - `"CO2 emissions from liquid fuel consumption (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.LF.ZS:EN.ATM.CO2E.LF.ZS} - CO2 emissions from liquid fuel consumption (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -482,7 +482,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.PC}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PC:EN.ATM.CO2E.PC} - `"CO2 emissions (metric tons per capita)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PC:EN.ATM.CO2E.PC} - CO2 emissions (metric tons per capita)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -495,7 +495,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.PP.GD}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD:EN.ATM.CO2E.PP.GD} - `"CO2 emissions (kg per PPP $ of GDP)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD:EN.ATM.CO2E.PP.GD} - CO2 emissions (kg per PPP $ of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -508,7 +508,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.PP.GD.KD}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - `"CO2 emissions (kg per 2011 PPP $ of GDP)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - CO2 emissions (kg per 2011 PPP $ of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -521,7 +521,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.SF.KT}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.SF.KT:EN.ATM.CO2E.SF.KT} - `"CO2 emissions from solid fuel consumption (kt)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.SF.KT:EN.ATM.CO2E.SF.KT} - CO2 emissions from solid fuel consumption (kt)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -534,7 +534,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.SF.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.SF.ZS:EN.ATM.CO2E.SF.ZS} - `"CO2 emissions from solid fuel consumption (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.SF.ZS:EN.ATM.CO2E.SF.ZS} - CO2 emissions from solid fuel consumption (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -547,7 +547,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.GHGO.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGO.KT.CE:EN.ATM.GHGO.KT.CE} - `"Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGO.KT.CE:EN.ATM.GHGO.KT.CE} - Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -560,7 +560,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.GHGO.ZG}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGO.ZG:EN.ATM.GHGO.ZG} - `"Other greenhouse gas emissions (% change from 1990)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGO.ZG:EN.ATM.GHGO.ZG} - Other greenhouse gas emissions (% change from 1990)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -573,7 +573,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.GHGT.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGT.KT.CE:EN.ATM.GHGT.KT.CE} - `"Total greenhouse gas emissions (kt of CO2 equivalent)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGT.KT.CE:EN.ATM.GHGT.KT.CE} - Total greenhouse gas emissions (kt of CO2 equivalent)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -586,7 +586,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.GHGT.ZG}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGT.ZG:EN.ATM.GHGT.ZG} - `"Total greenhouse gas emissions (% change from 1990)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGT.ZG:EN.ATM.GHGT.ZG} - Total greenhouse gas emissions (% change from 1990)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -599,7 +599,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.HFCG.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.HFCG.KT.CE:EN.ATM.HFCG.KT.CE} - `"HFC gas emissions (thousand metric tons of CO2 equivalent)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.HFCG.KT.CE:EN.ATM.HFCG.KT.CE} - HFC gas emissions (thousand metric tons of CO2 equivalent)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -612,7 +612,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.METH.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.KT.CE:EN.ATM.METH.KT.CE} - `"Methane emissions (kt of CO2 equivalent)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.KT.CE:EN.ATM.METH.KT.CE} - Methane emissions (kt of CO2 equivalent)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -625,7 +625,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.METH.ZG}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.ZG:EN.ATM.METH.ZG} - `"Methane emissions (% change from 1990)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.ZG:EN.ATM.METH.ZG} - Methane emissions (% change from 1990)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -638,7 +638,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.NOXE.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.KT.CE:EN.ATM.NOXE.KT.CE} - `"Nitrous oxide emissions (thousand metric tons of CO2 equivalent)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.KT.CE:EN.ATM.NOXE.KT.CE} - Nitrous oxide emissions (thousand metric tons of CO2 equivalent)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -651,7 +651,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.NOXE.ZG}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.ZG:EN.ATM.NOXE.ZG} - `"Nitrous oxide emissions (% change from 1990)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.ZG:EN.ATM.NOXE.ZG} - Nitrous oxide emissions (% change from 1990)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -664,7 +664,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.PFCG.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.PFCG.KT.CE:EN.ATM.PFCG.KT.CE} - `"PFC gas emissions (thousand metric tons of CO2 equivalent)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.PFCG.KT.CE:EN.ATM.PFCG.KT.CE} - PFC gas emissions (thousand metric tons of CO2 equivalent)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -677,7 +677,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.SF6G.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.SF6G.KT.CE:EN.ATM.SF6G.KT.CE} - `"SF6 gas emissions (thousand metric tons of CO2 equivalent)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.SF6G.KT.CE:EN.ATM.SF6G.KT.CE} - SF6 gas emissions (thousand metric tons of CO2 equivalent)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -690,7 +690,7 @@
 
 {synoptline}
 {marker topicid_EN.CLC.DRSK.XQ}
-{synopt:{bf:{help wbopendata_topicid##EN.CLC.DRSK.XQ:EN.CLC.DRSK.XQ} - `"Disaster risk reduction progress score (1-5 scale; 5=best)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.CLC.DRSK.XQ:EN.CLC.DRSK.XQ} - Disaster risk reduction progress score (1-5 scale; 5=best)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -703,7 +703,7 @@
 
 {synoptline}
 {marker topicid_EN.CLC.GHGR.MT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.CLC.GHGR.MT.CE:EN.CLC.GHGR.MT.CE} - `"GHG net emissions/removals by LUCF (Mt of CO2 equivalent)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.CLC.GHGR.MT.CE:EN.CLC.GHGR.MT.CE} - GHG net emissions/removals by LUCF (Mt of CO2 equivalent)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -716,7 +716,7 @@
 
 {synoptline}
 {marker topicid_EN.CLC.MDAT.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.CLC.MDAT.ZS:EN.CLC.MDAT.ZS} - `"Droughts, floods, extreme temperatures (% of population, average 1990-2009)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.CLC.MDAT.ZS:EN.CLC.MDAT.ZS} - Droughts, floods, extreme temperatures (% of population, average 1990-2009)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -729,7 +729,7 @@
 
 {synoptline}
 {marker topicid_EN.POP.EL5M.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.POP.EL5M.RU.ZS:EN.POP.EL5M.RU.ZS} - `"Rural population living in areas where elevation is below 5 meters (% of total population)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.POP.EL5M.RU.ZS:EN.POP.EL5M.RU.ZS} - Rural population living in areas where elevation is below 5 meters (% of total population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -742,7 +742,7 @@
 
 {synoptline}
 {marker topicid_EN.POP.EL5M.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.POP.EL5M.UR.ZS:EN.POP.EL5M.UR.ZS} - `"Urban population living in areas where elevation is below 5 meters (% of total population)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.POP.EL5M.UR.ZS:EN.POP.EL5M.UR.ZS} - Urban population living in areas where elevation is below 5 meters (% of total population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -755,7 +755,7 @@
 
 {synoptline}
 {marker topicid_EN.POP.EL5M.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.POP.EL5M.ZS:EN.POP.EL5M.ZS} - `"Population living in areas where elevation is below 5 meters (% of total population)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.POP.EL5M.ZS:EN.POP.EL5M.ZS} - Population living in areas where elevation is below 5 meters (% of total population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -768,7 +768,7 @@
 
 {synoptline}
 {marker topicid_EN.URB.MCTY.TL.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.URB.MCTY.TL.ZS:EN.URB.MCTY.TL.ZS} - `"Population in urban agglomerations of more than 1 million (% of total population)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.URB.MCTY.TL.ZS:EN.URB.MCTY.TL.ZS} - Population in urban agglomerations of more than 1 million (% of total population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -781,7 +781,7 @@
 
 {synoptline}
 {marker topicid_ER.H2O.FWTL.K3}
-{synopt:{bf:{help wbopendata_topicid##ER.H2O.FWTL.K3:ER.H2O.FWTL.K3} - `"Annual freshwater withdrawals, total (billion cubic meters)"'}}
+{synopt:{bf:{help wbopendata_topicid##ER.H2O.FWTL.K3:ER.H2O.FWTL.K3} - Annual freshwater withdrawals, total (billion cubic meters)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -794,7 +794,7 @@
 
 {synoptline}
 {marker topicid_ER.H2O.FWTL.ZS}
-{synopt:{bf:{help wbopendata_topicid##ER.H2O.FWTL.ZS:ER.H2O.FWTL.ZS} - `"Annual freshwater withdrawals, total (% of internal resources)"'}}
+{synopt:{bf:{help wbopendata_topicid##ER.H2O.FWTL.ZS:ER.H2O.FWTL.ZS} - Annual freshwater withdrawals, total (% of internal resources)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -807,7 +807,7 @@
 
 {synoptline}
 {marker topicid_ER.LND.PTLD.ZS}
-{synopt:{bf:{help wbopendata_topicid##ER.LND.PTLD.ZS:ER.LND.PTLD.ZS} - `"Terrestrial protected areas (% of total land area)"'}}
+{synopt:{bf:{help wbopendata_topicid##ER.LND.PTLD.ZS:ER.LND.PTLD.ZS} - Terrestrial protected areas (% of total land area)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -820,7 +820,7 @@
 
 {synoptline}
 {marker topicid_ER.MRN.PTMR.ZS}
-{synopt:{bf:{help wbopendata_topicid##ER.MRN.PTMR.ZS:ER.MRN.PTMR.ZS} - `"Marine protected areas (% of territorial waters)"'}}
+{synopt:{bf:{help wbopendata_topicid##ER.MRN.PTMR.ZS:ER.MRN.PTMR.ZS} - Marine protected areas (% of territorial waters)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -833,7 +833,7 @@
 
 {synoptline}
 {marker topicid_ER.PTD.TOTL.ZS}
-{synopt:{bf:{help wbopendata_topicid##ER.PTD.TOTL.ZS:ER.PTD.TOTL.ZS} - `"Terrestrial and marine protected areas (% of total territorial area)"'}}
+{synopt:{bf:{help wbopendata_topicid##ER.PTD.TOTL.ZS:ER.PTD.TOTL.ZS} - Terrestrial and marine protected areas (% of total territorial area)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -846,7 +846,7 @@
 
 {synoptline}
 {marker topicid_IC.BUS.EASE.XQ}
-{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - `"Rank: Ease of doing business index (1=most business-friendly regulations)"'}}
+{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Ease of doing business index (1=most business-friendly regulations)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -859,7 +859,7 @@
 
 {synoptline}
 {marker topicid_IQ.CPA.PUBS.XQ}
-{synopt:{bf:{help wbopendata_topicid##IQ.CPA.PUBS.XQ:IQ.CPA.PUBS.XQ} - `"CPIA public sector management and institutions cluster average (1=low to 6=high)"'}}
+{synopt:{bf:{help wbopendata_topicid##IQ.CPA.PUBS.XQ:IQ.CPA.PUBS.XQ} - CPIA public sector management and institutions cluster average (1=low to 6=high)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -872,7 +872,7 @@
 
 {synoptline}
 {marker topicid_IS.ROD.PAVE.ZS}
-{synopt:{bf:{help wbopendata_topicid##IS.ROD.PAVE.ZS:IS.ROD.PAVE.ZS} - `"Roads, paved (% of total roads)"'}}
+{synopt:{bf:{help wbopendata_topicid##IS.ROD.PAVE.ZS:IS.ROD.PAVE.ZS} - Roads, paved (% of total roads)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -885,7 +885,7 @@
 
 {synoptline}
 {marker topicid_NV.AGR.TOTL.ZS}
-{synopt:{bf:{help wbopendata_topicid##NV.AGR.TOTL.ZS:NV.AGR.TOTL.ZS} - `"Agriculture, forestry, and fishing, value added (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_topicid##NV.AGR.TOTL.ZS:NV.AGR.TOTL.ZS} - Agriculture, forestry, and fishing, value added (% of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -898,7 +898,7 @@
 
 {synoptline}
 {marker topicid_SE.ENR.PRSC.FM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.ENR.PRSC.FM.ZS:SE.ENR.PRSC.FM.ZS} - `"School enrollment, primary and secondary (gross), gender parity index (GPI)"'}}
+{synopt:{bf:{help wbopendata_topicid##SE.ENR.PRSC.FM.ZS:SE.ENR.PRSC.FM.ZS} - School enrollment, primary and secondary (gross), gender parity index (GPI)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -911,7 +911,7 @@
 
 {synoptline}
 {marker topicid_SE.PRM.CMPT.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.PRM.CMPT.ZS:SE.PRM.CMPT.ZS} - `"Primary completion rate, total (% of relevant age group)"'}}
+{synopt:{bf:{help wbopendata_topicid##SE.PRM.CMPT.ZS:SE.PRM.CMPT.ZS} - Primary completion rate, total (% of relevant age group)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -924,7 +924,7 @@
 
 {synoptline}
 {marker topicid_SH.DYN.MORT}
-{synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT:SH.DYN.MORT} - `"Mortality rate, under-5 (per 1,000 live births)"'}}
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT:SH.DYN.MORT} - Mortality rate, under-5 (per 1,000 live births)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -937,7 +937,7 @@
 
 {synoptline}
 {marker topicid_SH.H2O.SAFE.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.RU.ZS:SH.H2O.SAFE.RU.ZS} - `"Improved water source, rural (% of rural population with access)"'}}
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.RU.ZS:SH.H2O.SAFE.RU.ZS} - Improved water source, rural (% of rural population with access)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -950,7 +950,7 @@
 
 {synoptline}
 {marker topicid_SH.H2O.SAFE.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.UR.ZS:SH.H2O.SAFE.UR.ZS} - `"Improved water source, urban (% of urban population with access)"'}}
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.UR.ZS:SH.H2O.SAFE.UR.ZS} - Improved water source, urban (% of urban population with access)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -963,7 +963,7 @@
 
 {synoptline}
 {marker topicid_SH.H2O.SAFE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.ZS:SH.H2O.SAFE.ZS} - `"Improved water source (% of population with access)"'}}
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.ZS:SH.H2O.SAFE.ZS} - Improved water source (% of population with access)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -976,7 +976,7 @@
 
 {synoptline}
 {marker topicid_SH.MED.CMHW.P3}
-{synopt:{bf:{help wbopendata_topicid##SH.MED.CMHW.P3:SH.MED.CMHW.P3} - `"Community health workers (per 1,000 people)"'}}
+{synopt:{bf:{help wbopendata_topicid##SH.MED.CMHW.P3:SH.MED.CMHW.P3} - Community health workers (per 1,000 people)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -989,7 +989,7 @@
 
 {synoptline}
 {marker topicid_SH.MLR.INCD}
-{synopt:{bf:{help wbopendata_topicid##SH.MLR.INCD:SH.MLR.INCD} - `"Notified cases of malaria (per 100,000 people)"'}}
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.INCD:SH.MLR.INCD} - Notified cases of malaria (per 100,000 people)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1002,7 +1002,7 @@
 
 {synoptline}
 {marker topicid_SH.STA.ACSN}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.ACSN:SH.STA.ACSN} - `"Improved sanitation facilities (% of population with access)"'}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ACSN:SH.STA.ACSN} - Improved sanitation facilities (% of population with access)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1015,7 +1015,7 @@
 
 {synoptline}
 {marker topicid_SH.STA.MALN.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.ZS:SH.STA.MALN.ZS} - `"Prevalence of underweight, weight for age (% of children under 5)"'}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.ZS:SH.STA.MALN.ZS} - Prevalence of underweight, weight for age (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1028,7 +1028,7 @@
 
 {synoptline}
 {marker topicid_SI.POV.DDAY}
-{synopt:{bf:{help wbopendata_topicid##SI.POV.DDAY:SI.POV.DDAY} - `"Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)"'}}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.DDAY:SI.POV.DDAY} - Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1041,7 +1041,7 @@
 
 {synoptline}
 {marker topicid_SP.POP.GROW}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.GROW:SP.POP.GROW} - `"Population growth (annual %)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.GROW:SP.POP.GROW} - Population growth (annual %)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1054,7 +1054,7 @@
 
 {synoptline}
 {marker topicid_SP.POP.TOTL}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL:SP.POP.TOTL} - `"Population, total"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL:SP.POP.TOTL} - Population, total}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1067,7 +1067,7 @@
 
 {synoptline}
 {marker topicid_SP.URB.GROW}
-{synopt:{bf:{help wbopendata_topicid##SP.URB.GROW:SP.URB.GROW} - `"Urban population growth (annual %)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.URB.GROW:SP.URB.GROW} - Urban population growth (annual %)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1080,7 +1080,7 @@
 
 {synoptline}
 {marker topicid_SP.URB.TOTL}
-{synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL:SP.URB.TOTL} - `"Urban population"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL:SP.URB.TOTL} - Urban population}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1093,7 +1093,7 @@
 
 {synoptline}
 {marker topicid_SP.URB.TOTL.IN.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL.IN.ZS:SP.URB.TOTL.IN.ZS} - `"Urban population (% of total population)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL.IN.ZS:SP.URB.TOTL.IN.ZS} - Urban population (% of total population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1105,4 +1105,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

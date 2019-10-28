@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:25 Jobs}}}
 {synoptline}
 {marker sourceid_SL.EMP.OWAC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.OWAC.ZS:SL.EMP.OWAC.ZS} - `"Own-account workers, total (% of total employment)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SL.EMP.OWAC.ZS:SL.EMP.OWAC.ZS} - Own-account workers, total (% of total employment)}}
 
 {synopt:{opt Source}}25 Jobs{p_end}
 
@@ -79,4 +79,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

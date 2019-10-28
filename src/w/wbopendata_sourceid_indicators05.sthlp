@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:05 Subnational Malnutrition Database}}}
 {synoptline}
 {marker sourceid_SN.SH.STA.MALN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.MALN.ZS:SN.SH.STA.MALN.ZS} - `"Sub-National Malnutrition prevalence, weight for age (% of children under 5)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.MALN.ZS:SN.SH.STA.MALN.ZS} - Sub-National Malnutrition prevalence, weight for age (% of children under 5)}}
 
 {synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
@@ -80,7 +80,7 @@
 
 {synoptline}
 {marker sourceid_SN.SH.STA.OWGH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.OWGH.ZS:SN.SH.STA.OWGH.ZS} - `"Sub-National Prevalence of overweight (% of children under 5)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.OWGH.ZS:SN.SH.STA.OWGH.ZS} - Sub-National Prevalence of overweight (% of children under 5)}}
 
 {synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
@@ -92,7 +92,7 @@
 
 {synoptline}
 {marker sourceid_SN.SH.STA.STNT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.STNT.ZS:SN.SH.STA.STNT.ZS} - `"Sub-National Malnutrition prevalence, height for age (% of children under 5)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.STNT.ZS:SN.SH.STA.STNT.ZS} - Sub-National Malnutrition prevalence, height for age (% of children under 5)}}
 
 {synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
@@ -104,7 +104,7 @@
 
 {synoptline}
 {marker sourceid_SN.SH.STA.WAST.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.WAST.ZS:SN.SH.STA.WAST.ZS} - `"Sub-National Prevalence of wasting (% of children under 5)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.WAST.ZS:SN.SH.STA.WAST.ZS} - Sub-National Prevalence of wasting (% of children under 5)}}
 
 {synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
@@ -116,7 +116,7 @@
 
 {synoptline}
 {marker sourceid_SN.SH.SVR.WAST.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SN.SH.SVR.WAST.ZS:SN.SH.SVR.WAST.ZS} - `"Sub-National Prevalence of severe wasting, weight for height (% of children under 5)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SN.SH.SVR.WAST.ZS:SN.SH.SVR.WAST.ZS} - Sub-National Prevalence of severe wasting, weight for height (% of children under 5)}}
 
 {synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
@@ -127,4 +127,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,7 +40,7 @@
 {syntab:{title:{bf:15 Social Development}}}
 {synoptline}
 {marker topicid_SE.ADT.1524.LT.FM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.ADT.1524.LT.FM.ZS:SE.ADT.1524.LT.FM.ZS} - `"Literacy rate, youth (ages 15-24), gender parity index (GPI)"'}}
+{synopt:{bf:{help wbopendata_topicid##SE.ADT.1524.LT.FM.ZS:SE.ADT.1524.LT.FM.ZS} - Literacy rate, youth (ages 15-24), gender parity index (GPI)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -53,7 +53,7 @@
 
 {synoptline}
 {marker topicid_SE.ENR.PRIM.FM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.ENR.PRIM.FM.ZS:SE.ENR.PRIM.FM.ZS} - `"School enrollment, primary (gross), gender parity index (GPI)"'}}
+{synopt:{bf:{help wbopendata_topicid##SE.ENR.PRIM.FM.ZS:SE.ENR.PRIM.FM.ZS} - School enrollment, primary (gross), gender parity index (GPI)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -66,7 +66,7 @@
 
 {synoptline}
 {marker topicid_SE.ENR.PRSC.FM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.ENR.PRSC.FM.ZS:SE.ENR.PRSC.FM.ZS} - `"School enrollment, primary and secondary (gross), gender parity index (GPI)"'}}
+{synopt:{bf:{help wbopendata_topicid##SE.ENR.PRSC.FM.ZS:SE.ENR.PRSC.FM.ZS} - School enrollment, primary and secondary (gross), gender parity index (GPI)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -79,7 +79,7 @@
 
 {synoptline}
 {marker topicid_SE.ENR.SECO.FM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.ENR.SECO.FM.ZS:SE.ENR.SECO.FM.ZS} - `"School enrollment, secondary (gross), gender parity index (GPI)"'}}
+{synopt:{bf:{help wbopendata_topicid##SE.ENR.SECO.FM.ZS:SE.ENR.SECO.FM.ZS} - School enrollment, secondary (gross), gender parity index (GPI)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -92,7 +92,7 @@
 
 {synoptline}
 {marker topicid_SE.ENR.TERT.FM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.ENR.TERT.FM.ZS:SE.ENR.TERT.FM.ZS} - `"School enrollment, tertiary (gross), gender parity index (GPI)"'}}
+{synopt:{bf:{help wbopendata_topicid##SE.ENR.TERT.FM.ZS:SE.ENR.TERT.FM.ZS} - School enrollment, tertiary (gross), gender parity index (GPI)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -105,7 +105,7 @@
 
 {synoptline}
 {marker topicid_SG.GEN.PARL.ZS}
-{synopt:{bf:{help wbopendata_topicid##SG.GEN.PARL.ZS:SG.GEN.PARL.ZS} - `"Proportion of seats held by women in national parliaments (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##SG.GEN.PARL.ZS:SG.GEN.PARL.ZS} - Proportion of seats held by women in national parliaments (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -118,7 +118,7 @@
 
 {synoptline}
 {marker topicid_SH.HIV.1524.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.HIV.1524.FE.ZS:SH.HIV.1524.FE.ZS} - `"Prevalence of HIV, female (% ages 15-24)"'}}
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.1524.FE.ZS:SH.HIV.1524.FE.ZS} - Prevalence of HIV, female (% ages 15-24)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -131,7 +131,7 @@
 
 {synoptline}
 {marker topicid_SH.HIV.1524.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.HIV.1524.MA.ZS:SH.HIV.1524.MA.ZS} - `"Prevalence of HIV, male (% ages 15-24)"'}}
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.1524.MA.ZS:SH.HIV.1524.MA.ZS} - Prevalence of HIV, male (% ages 15-24)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -144,7 +144,7 @@
 
 {synoptline}
 {marker topicid_SL.EMP.INSV.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.INSV.FE.ZS:SL.EMP.INSV.FE.ZS} - `"Share of women in wage employment in the nonagricultural sector (% of total nonagricultural employment)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.EMP.INSV.FE.ZS:SL.EMP.INSV.FE.ZS} - Share of women in wage employment in the nonagricultural sector (% of total nonagricultural employment)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -157,7 +157,7 @@
 
 {synoptline}
 {marker topicid_SL.EMP.VULN.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.VULN.FE.ZS:SL.EMP.VULN.FE.ZS} - `"Vulnerable employment, female (% of female employment) (modeled ILO estimate)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.EMP.VULN.FE.ZS:SL.EMP.VULN.FE.ZS} - Vulnerable employment, female (% of female employment) (modeled ILO estimate)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -170,7 +170,7 @@
 
 {synoptline}
 {marker topicid_SL.EMP.VULN.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.VULN.MA.ZS:SL.EMP.VULN.MA.ZS} - `"Vulnerable employment, male (% of male employment) (modeled ILO estimate)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.EMP.VULN.MA.ZS:SL.EMP.VULN.MA.ZS} - Vulnerable employment, male (% of male employment) (modeled ILO estimate)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -183,7 +183,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.0714.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.FE.ZS:SL.TLF.0714.FE.ZS} - `"Children in employment, female (% of female children ages 7-14)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.FE.ZS:SL.TLF.0714.FE.ZS} - Children in employment, female (% of female children ages 7-14)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -196,7 +196,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.0714.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.MA.ZS:SL.TLF.0714.MA.ZS} - `"Children in employment, male (% of male children ages 7-14)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.MA.ZS:SL.TLF.0714.MA.ZS} - Children in employment, male (% of male children ages 7-14)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -209,7 +209,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.0714.SW.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.FE.ZS:SL.TLF.0714.SW.FE.ZS} - `"Children in employment, study and work, female (% of female children in employment, ages 7-14)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.FE.ZS:SL.TLF.0714.SW.FE.ZS} - Children in employment, study and work, female (% of female children in employment, ages 7-14)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -222,7 +222,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.0714.SW.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.MA.ZS:SL.TLF.0714.SW.MA.ZS} - `"Children in employment, study and work, male (% of male children in employment, ages 7-14)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.MA.ZS:SL.TLF.0714.SW.MA.ZS} - Children in employment, study and work, male (% of male children in employment, ages 7-14)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -235,7 +235,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.0714.SW.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.ZS:SL.TLF.0714.SW.ZS} - `"Children in employment, study and work (% of children in employment, ages 7-14)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.ZS:SL.TLF.0714.SW.ZS} - Children in employment, study and work (% of children in employment, ages 7-14)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -248,7 +248,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.0714.WK.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.FE.ZS:SL.TLF.0714.WK.FE.ZS} - `"Children in employment, work only, female (% of female children in employment, ages 7-14)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.FE.ZS:SL.TLF.0714.WK.FE.ZS} - Children in employment, work only, female (% of female children in employment, ages 7-14)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -261,7 +261,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.0714.WK.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.MA.ZS:SL.TLF.0714.WK.MA.ZS} - `"Children in employment, work only, male (% of male children in employment, ages 7-14)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.MA.ZS:SL.TLF.0714.WK.MA.ZS} - Children in employment, work only, male (% of male children in employment, ages 7-14)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -274,7 +274,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.0714.WK.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.ZS:SL.TLF.0714.WK.ZS} - `"Children in employment, work only (% of children in employment, ages 7-14)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.ZS:SL.TLF.0714.WK.ZS} - Children in employment, work only (% of children in employment, ages 7-14)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -287,7 +287,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.0714.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.ZS:SL.TLF.0714.ZS} - `"Children in employment, total (% of children ages 7-14)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.ZS:SL.TLF.0714.ZS} - Children in employment, total (% of children ages 7-14)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -300,7 +300,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.ACTI.1524.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.FE.ZS:SL.TLF.ACTI.1524.FE.ZS} - `"Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.FE.ZS:SL.TLF.ACTI.1524.FE.ZS} - Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -313,7 +313,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.ACTI.1524.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.MA.ZS:SL.TLF.ACTI.1524.MA.ZS} - `"Labor force participation rate for ages 15-24, male (%) (modeled ILO estimate)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.MA.ZS:SL.TLF.ACTI.1524.MA.ZS} - Labor force participation rate for ages 15-24, male (%) (modeled ILO estimate)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -326,7 +326,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.ACTI.1524.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.ZS:SL.TLF.ACTI.1524.ZS} - `"Labor force participation rate for ages 15-24, total (%) (modeled ILO estimate)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.ZS:SL.TLF.ACTI.1524.ZS} - Labor force participation rate for ages 15-24, total (%) (modeled ILO estimate)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -339,7 +339,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.ACTI.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.FE.ZS:SL.TLF.ACTI.FE.ZS} - `"Labor force participation rate, female (% of female population ages 15-64) (modeled ILO estimate)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.FE.ZS:SL.TLF.ACTI.FE.ZS} - Labor force participation rate, female (% of female population ages 15-64) (modeled ILO estimate)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -352,7 +352,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.ACTI.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.MA.ZS:SL.TLF.ACTI.MA.ZS} - `"Labor force participation rate, male (% of male population ages 15-64) (modeled ILO estimate)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.MA.ZS:SL.TLF.ACTI.MA.ZS} - Labor force participation rate, male (% of male population ages 15-64) (modeled ILO estimate)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -365,7 +365,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.ACTI.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.ZS:SL.TLF.ACTI.ZS} - `"Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.ZS:SL.TLF.ACTI.ZS} - Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -378,7 +378,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.CACT.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.FE.ZS:SL.TLF.CACT.FE.ZS} - `"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.FE.ZS:SL.TLF.CACT.FE.ZS} - Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -391,7 +391,7 @@
 
 {synoptline}
 {marker topicid_SL.TLF.CACT.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.MA.ZS:SL.TLF.CACT.MA.ZS} - `"Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.MA.ZS:SL.TLF.CACT.MA.ZS} - Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -404,7 +404,7 @@
 
 {synoptline}
 {marker topicid_SL.UEM.TOTL.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.FE.ZS:SL.UEM.TOTL.FE.ZS} - `"Unemployment, female (% of female labor force) (modeled ILO estimate)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.FE.ZS:SL.UEM.TOTL.FE.ZS} - Unemployment, female (% of female labor force) (modeled ILO estimate)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -417,7 +417,7 @@
 
 {synoptline}
 {marker topicid_SL.UEM.TOTL.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.MA.ZS:SL.UEM.TOTL.MA.ZS} - `"Unemployment, male (% of male labor force) (modeled ILO estimate)"'}}
+{synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.MA.ZS:SL.UEM.TOTL.MA.ZS} - Unemployment, male (% of male labor force) (modeled ILO estimate)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -430,7 +430,7 @@
 
 {synoptline}
 {marker topicid_SM.POP.REFG}
-{synopt:{bf:{help wbopendata_topicid##SM.POP.REFG:SM.POP.REFG} - `"Refugee population by country or territory of asylum"'}}
+{synopt:{bf:{help wbopendata_topicid##SM.POP.REFG:SM.POP.REFG} - Refugee population by country or territory of asylum}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -443,7 +443,7 @@
 
 {synoptline}
 {marker topicid_SM.POP.REFG.OR}
-{synopt:{bf:{help wbopendata_topicid##SM.POP.REFG.OR:SM.POP.REFG.OR} - `"Refugee population by country or territory of origin"'}}
+{synopt:{bf:{help wbopendata_topicid##SM.POP.REFG.OR:SM.POP.REFG.OR} - Refugee population by country or territory of origin}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -456,7 +456,7 @@
 
 {synoptline}
 {marker topicid_SP.ADO.TFRT}
-{synopt:{bf:{help wbopendata_topicid##SP.ADO.TFRT:SP.ADO.TFRT} - `"Adolescent fertility rate (births per 1,000 women ages 15-19)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.ADO.TFRT:SP.ADO.TFRT} - Adolescent fertility rate (births per 1,000 women ages 15-19)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -469,7 +469,7 @@
 
 {synoptline}
 {marker topicid_SP.DYN.LE00.FE.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN} - `"Life expectancy at birth, female (years)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN} - Life expectancy at birth, female (years)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -482,7 +482,7 @@
 
 {synoptline}
 {marker topicid_SP.DYN.LE00.MA.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.MA.IN:SP.DYN.LE00.MA.IN} - `"Life expectancy at birth, male (years)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.MA.IN:SP.DYN.LE00.MA.IN} - Life expectancy at birth, male (years)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -494,4 +494,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

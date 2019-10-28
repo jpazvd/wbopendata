@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:50 Subnational Population}}}
 {synoptline}
 {marker sourceid_SP.POP.TOTL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.ZS:SP.POP.TOTL.ZS} - `"Population (% of total)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.ZS:SP.POP.TOTL.ZS} - Population (% of total)}}
 
 {synopt:{opt Source}}50 Subnational Population{p_end}
 
@@ -79,4 +79,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

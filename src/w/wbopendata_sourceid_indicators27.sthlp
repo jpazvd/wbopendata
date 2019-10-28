@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:27 Global Economic Prospects}}}
 {synoptline}
 {marker sourceid_NYGDPMKTPKDZ}
-{synopt:{bf:{help wbopendata_sourceid##NYGDPMKTPKDZ:NYGDPMKTPKDZ} - `"Annual percentage growth rate of GDP at market prices based on constant 2010 US Dollars."'}}
+{synopt:{bf:{help wbopendata_sourceid##NYGDPMKTPKDZ:NYGDPMKTPKDZ} - Annual percentage growth rate of GDP at market prices based on constant 2010 US Dollars.}}
 
 {synopt:{opt Source}}27 Global Economic Prospects{p_end}
 
@@ -79,4 +79,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

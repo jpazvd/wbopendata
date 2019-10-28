@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:35 Sustainable Energy for All}}}
 {synoptline}
 {marker sourceid_1.1_ACCESS.ELECTRICITY.TOT}
-{synopt:{bf:{help wbopendata_sourceid##1.1_ACCESS.ELECTRICITY.TOT:1.1_ACCESS.ELECTRICITY.TOT} - `"Access to electricity (% of total population)"'}}
+{synopt:{bf:{help wbopendata_sourceid##1.1_ACCESS.ELECTRICITY.TOT:1.1_ACCESS.ELECTRICITY.TOT} - Access to electricity (% of total population)}}
 
 {synopt:{opt Source}}35 Sustainable Energy for All{p_end}
 
@@ -80,7 +80,7 @@
 
 {synoptline}
 {marker sourceid_1.1_TOTAL.FINAL.ENERGY.CONSUM}
-{synopt:{bf:{help wbopendata_sourceid##1.1_TOTAL.FINAL.ENERGY.CONSUM:1.1_TOTAL.FINAL.ENERGY.CONSUM} - `"Total final energy consumption (TFEC)"'}}
+{synopt:{bf:{help wbopendata_sourceid##1.1_TOTAL.FINAL.ENERGY.CONSUM:1.1_TOTAL.FINAL.ENERGY.CONSUM} - Total final energy consumption (TFEC)}}
 
 {synopt:{opt Source}}35 Sustainable Energy for All{p_end}
 
@@ -92,7 +92,7 @@
 
 {synoptline}
 {marker sourceid_1.2_ACCESS.ELECTRICITY.RURAL}
-{synopt:{bf:{help wbopendata_sourceid##1.2_ACCESS.ELECTRICITY.RURAL:1.2_ACCESS.ELECTRICITY.RURAL} - `"Access to electricity (% of rural population)"'}}
+{synopt:{bf:{help wbopendata_sourceid##1.2_ACCESS.ELECTRICITY.RURAL:1.2_ACCESS.ELECTRICITY.RURAL} - Access to electricity (% of rural population)}}
 
 {synopt:{opt Source}}35 Sustainable Energy for All{p_end}
 
@@ -104,7 +104,7 @@
 
 {synoptline}
 {marker sourceid_1.3_ACCESS.ELECTRICITY.URBAN}
-{synopt:{bf:{help wbopendata_sourceid##1.3_ACCESS.ELECTRICITY.URBAN:1.3_ACCESS.ELECTRICITY.URBAN} - `"Access to electricity (% of urban population)"'}}
+{synopt:{bf:{help wbopendata_sourceid##1.3_ACCESS.ELECTRICITY.URBAN:1.3_ACCESS.ELECTRICITY.URBAN} - Access to electricity (% of urban population)}}
 
 {synopt:{opt Source}}35 Sustainable Energy for All{p_end}
 
@@ -116,7 +116,7 @@
 
 {synoptline}
 {marker sourceid_2.1_ACCESS.CFT.TOT}
-{synopt:{bf:{help wbopendata_sourceid##2.1_ACCESS.CFT.TOT:2.1_ACCESS.CFT.TOT} - `"Access to Clean Fuels and Technologies for cooking (% of total population)"'}}
+{synopt:{bf:{help wbopendata_sourceid##2.1_ACCESS.CFT.TOT:2.1_ACCESS.CFT.TOT} - Access to Clean Fuels and Technologies for cooking (% of total population)}}
 
 {synopt:{opt Source}}35 Sustainable Energy for All{p_end}
 
@@ -128,7 +128,7 @@
 
 {synoptline}
 {marker sourceid_2.1_SHARE.TOTAL.RE.IN.TFEC}
-{synopt:{bf:{help wbopendata_sourceid##2.1_SHARE.TOTAL.RE.IN.TFEC:2.1_SHARE.TOTAL.RE.IN.TFEC} - `"Renewable energy consumption(% in TFEC)"'}}
+{synopt:{bf:{help wbopendata_sourceid##2.1_SHARE.TOTAL.RE.IN.TFEC:2.1_SHARE.TOTAL.RE.IN.TFEC} - Renewable energy consumption(% in TFEC)}}
 
 {synopt:{opt Source}}35 Sustainable Energy for All{p_end}
 
@@ -140,7 +140,7 @@
 
 {synoptline}
 {marker sourceid_3.1_RE.CONSUMPTION}
-{synopt:{bf:{help wbopendata_sourceid##3.1_RE.CONSUMPTION:3.1_RE.CONSUMPTION} - `"Renewable energy consumption (TJ)"'}}
+{synopt:{bf:{help wbopendata_sourceid##3.1_RE.CONSUMPTION:3.1_RE.CONSUMPTION} - Renewable energy consumption (TJ)}}
 
 {synopt:{opt Source}}35 Sustainable Energy for All{p_end}
 
@@ -152,7 +152,7 @@
 
 {synoptline}
 {marker sourceid_4.1.1_TOTAL.ELECTRICITY.OUTPUT}
-{synopt:{bf:{help wbopendata_sourceid##4.1.1_TOTAL.ELECTRICITY.OUTPUT:4.1.1_TOTAL.ELECTRICITY.OUTPUT} - `"Total electricity output (GWh)"'}}
+{synopt:{bf:{help wbopendata_sourceid##4.1.1_TOTAL.ELECTRICITY.OUTPUT:4.1.1_TOTAL.ELECTRICITY.OUTPUT} - Total electricity output (GWh)}}
 
 {synopt:{opt Source}}35 Sustainable Energy for All{p_end}
 
@@ -164,7 +164,7 @@
 
 {synoptline}
 {marker sourceid_4.1.2_REN.ELECTRICITY.OUTPUT}
-{synopt:{bf:{help wbopendata_sourceid##4.1.2_REN.ELECTRICITY.OUTPUT:4.1.2_REN.ELECTRICITY.OUTPUT} - `"Renewable energy electricity output (GWh)"'}}
+{synopt:{bf:{help wbopendata_sourceid##4.1.2_REN.ELECTRICITY.OUTPUT:4.1.2_REN.ELECTRICITY.OUTPUT} - Renewable energy electricity output (GWh)}}
 
 {synopt:{opt Source}}35 Sustainable Energy for All{p_end}
 
@@ -176,7 +176,7 @@
 
 {synoptline}
 {marker sourceid_4.1_SHARE.RE.IN.ELECTRICITY}
-{synopt:{bf:{help wbopendata_sourceid##4.1_SHARE.RE.IN.ELECTRICITY:4.1_SHARE.RE.IN.ELECTRICITY} - `"Renewable electricity (% in total electricity output)"'}}
+{synopt:{bf:{help wbopendata_sourceid##4.1_SHARE.RE.IN.ELECTRICITY:4.1_SHARE.RE.IN.ELECTRICITY} - Renewable electricity (% in total electricity output)}}
 
 {synopt:{opt Source}}35 Sustainable Energy for All{p_end}
 
@@ -188,7 +188,7 @@
 
 {synoptline}
 {marker sourceid_6.1_PRIMARY.ENERGY.INTENSITY}
-{synopt:{bf:{help wbopendata_sourceid##6.1_PRIMARY.ENERGY.INTENSITY:6.1_PRIMARY.ENERGY.INTENSITY} - `"Energy intensity level of primary energy (MJ/$2005 PPP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##6.1_PRIMARY.ENERGY.INTENSITY:6.1_PRIMARY.ENERGY.INTENSITY} - Energy intensity level of primary energy (MJ/$2005 PPP)}}
 
 {synopt:{opt Source}}35 Sustainable Energy for All{p_end}
 
@@ -199,4 +199,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

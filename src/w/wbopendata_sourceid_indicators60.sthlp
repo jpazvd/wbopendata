@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:60 Economic Fitness}}}
 {synoptline}
 {marker sourceid_EF.EFM.OVRL.XD}
-{synopt:{bf:{help wbopendata_sourceid##EF.EFM.OVRL.XD:EF.EFM.OVRL.XD} - `"Economic Fitness Metric"'}}
+{synopt:{bf:{help wbopendata_sourceid##EF.EFM.OVRL.XD:EF.EFM.OVRL.XD} - Economic Fitness Metric}}
 
 {synopt:{opt Source}}60 Economic Fitness{p_end}
 
@@ -80,7 +80,7 @@
 
 {synoptline}
 {marker sourceid_EF.EFM.RANK.XD}
-{synopt:{bf:{help wbopendata_sourceid##EF.EFM.RANK.XD:EF.EFM.RANK.XD} - `"Economic Fitness Ranking (1 = high, 149 = low)"'}}
+{synopt:{bf:{help wbopendata_sourceid##EF.EFM.RANK.XD:EF.EFM.RANK.XD} - Economic Fitness Ranking (1 = high, 149 = low)}}
 
 {synopt:{opt Source}}60 Economic Fitness{p_end}
 
@@ -91,4 +91,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:36 Statistical Capacity Indicators}}}
 {synoptline}
 {marker sourceid_2.01.01.02.nabase}
-{synopt:{bf:{help wbopendata_sourceid##2.01.01.02.nabase:2.01.01.02.nabase} - `"National accounts base year"'}}
+{synopt:{bf:{help wbopendata_sourceid##2.01.01.02.nabase:2.01.01.02.nabase} - National accounts base year}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -80,7 +80,7 @@
 
 {synoptline}
 {marker sourceid_2.01.03.01.prcpbase}
-{synopt:{bf:{help wbopendata_sourceid##2.01.03.01.prcpbase:2.01.03.01.prcpbase} - `"Consumer price index base year"'}}
+{synopt:{bf:{help wbopendata_sourceid##2.01.03.01.prcpbase:2.01.03.01.prcpbase} - Consumer price index base year}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -92,7 +92,7 @@
 
 {synoptline}
 {marker sourceid_2.04.01.01.excncpt}
-{synopt:{bf:{help wbopendata_sourceid##2.04.01.01.excncpt:2.04.01.01.excncpt} - `"Balance of payments manual in use"'}}
+{synopt:{bf:{help wbopendata_sourceid##2.04.01.01.excncpt:2.04.01.01.excncpt} - Balance of payments manual in use}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -104,7 +104,7 @@
 
 {synoptline}
 {marker sourceid_3.01.04.01.agcen}
-{synopt:{bf:{help wbopendata_sourceid##3.01.04.01.agcen:3.01.04.01.agcen} - `"Agricultural census"'}}
+{synopt:{bf:{help wbopendata_sourceid##3.01.04.01.agcen:3.01.04.01.agcen} - Agricultural census}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -116,7 +116,7 @@
 
 {synoptline}
 {marker sourceid_3.02.01.02.fscov}
-{synopt:{bf:{help wbopendata_sourceid##3.02.01.02.fscov:3.02.01.02.fscov} - `"Government finance accounting"'}}
+{synopt:{bf:{help wbopendata_sourceid##3.02.01.02.fscov:3.02.01.02.fscov} - Government finance accounting}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -128,7 +128,7 @@
 
 {synoptline}
 {marker sourceid_3.11.01.01.popcen}
-{synopt:{bf:{help wbopendata_sourceid##3.11.01.01.popcen:3.11.01.01.popcen} - `"Population census"'}}
+{synopt:{bf:{help wbopendata_sourceid##3.11.01.01.popcen:3.11.01.01.popcen} - Population census}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -140,7 +140,7 @@
 
 {synoptline}
 {marker sourceid_3.11.01.03.popreg}
-{synopt:{bf:{help wbopendata_sourceid##3.11.01.03.popreg:3.11.01.03.popreg} - `"Vital registration system coverage"'}}
+{synopt:{bf:{help wbopendata_sourceid##3.11.01.03.popreg:3.11.01.03.popreg} - Vital registration system coverage}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -152,7 +152,7 @@
 
 {synoptline}
 {marker sourceid_5.01.01.01.indust}
-{synopt:{bf:{help wbopendata_sourceid##5.01.01.01.indust:5.01.01.01.indust} - `"Industrial production index"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.01.01.01.indust:5.01.01.01.indust} - Industrial production index}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -164,7 +164,7 @@
 
 {synoptline}
 {marker sourceid_5.04.01.01.exdebt}
-{synopt:{bf:{help wbopendata_sourceid##5.04.01.01.exdebt:5.04.01.01.exdebt} - `"External debt reporting status"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.04.01.01.exdebt:5.04.01.01.exdebt} - External debt reporting status}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -176,7 +176,7 @@
 
 {synoptline}
 {marker sourceid_5.04.01.02.impexp}
-{synopt:{bf:{help wbopendata_sourceid##5.04.01.02.impexp:5.04.01.02.impexp} - `"Import and export price indexes"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.04.01.02.impexp:5.04.01.02.impexp} - Import and export price indexes}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -188,7 +188,7 @@
 
 {synoptline}
 {marker sourceid_5.12.01.01.unesco}
-{synopt:{bf:{help wbopendata_sourceid##5.12.01.01.unesco:5.12.01.01.unesco} - `"UNESCO reporting"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.12.01.01.unesco:5.12.01.01.unesco} - UNESCO reporting}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -200,7 +200,7 @@
 
 {synoptline}
 {marker sourceid_5.13.01.01.hlthsurv}
-{synopt:{bf:{help wbopendata_sourceid##5.13.01.01.hlthsurv:5.13.01.01.hlthsurv} - `"Health survey"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.13.01.01.hlthsurv:5.13.01.01.hlthsurv} - Health survey}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -212,7 +212,7 @@
 
 {synoptline}
 {marker sourceid_5.13.01.01.who}
-{synopt:{bf:{help wbopendata_sourceid##5.13.01.01.who:5.13.01.01.who} - `"National immunization coverage"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.13.01.01.who:5.13.01.01.who} - National immunization coverage}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -224,7 +224,7 @@
 
 {synoptline}
 {marker sourceid_5.14.01.01.povsurv}
-{synopt:{bf:{help wbopendata_sourceid##5.14.01.01.povsurv:5.14.01.01.povsurv} - `"Poverty survey"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.14.01.01.povsurv:5.14.01.01.povsurv} - Poverty survey}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -236,7 +236,7 @@
 
 {synoptline}
 {marker sourceid_5.21.01.01.sdds}
-{synopt:{bf:{help wbopendata_sourceid##5.21.01.01.sdds:5.21.01.01.sdds} - `"Special Data Dissemination Standard"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.21.01.01.sdds:5.21.01.01.sdds} - Special Data Dissemination Standard}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -248,7 +248,7 @@
 
 {synoptline}
 {marker sourceid_5.51.01.01.poverty}
-{synopt:{bf:{help wbopendata_sourceid##5.51.01.01.poverty:5.51.01.01.poverty} - `"Income poverty"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.51.01.01.poverty:5.51.01.01.poverty} - Income poverty}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -260,7 +260,7 @@
 
 {synoptline}
 {marker sourceid_5.51.01.02.malnut}
-{synopt:{bf:{help wbopendata_sourceid##5.51.01.02.malnut:5.51.01.02.malnut} - `"Child malnutrition"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.51.01.02.malnut:5.51.01.02.malnut} - Child malnutrition}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -272,7 +272,7 @@
 
 {synoptline}
 {marker sourceid_5.51.01.03.mortal}
-{synopt:{bf:{help wbopendata_sourceid##5.51.01.03.mortal:5.51.01.03.mortal} - `"Child mortality"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.51.01.03.mortal:5.51.01.03.mortal} - Child mortality}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -284,7 +284,7 @@
 
 {synoptline}
 {marker sourceid_5.51.01.04.immun}
-{synopt:{bf:{help wbopendata_sourceid##5.51.01.04.immun:5.51.01.04.immun} - `"Immunization"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.51.01.04.immun:5.51.01.04.immun} - Immunization}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -296,7 +296,7 @@
 
 {synoptline}
 {marker sourceid_5.51.01.05.hiv}
-{synopt:{bf:{help wbopendata_sourceid##5.51.01.05.hiv:5.51.01.05.hiv} - `"HIV/AIDS"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.51.01.05.hiv:5.51.01.05.hiv} - HIV/AIDS}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -308,7 +308,7 @@
 
 {synoptline}
 {marker sourceid_5.51.01.06.matern}
-{synopt:{bf:{help wbopendata_sourceid##5.51.01.06.matern:5.51.01.06.matern} - `"Maternal health"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.51.01.06.matern:5.51.01.06.matern} - Maternal health}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -320,7 +320,7 @@
 
 {synoptline}
 {marker sourceid_5.51.01.07.gender}
-{synopt:{bf:{help wbopendata_sourceid##5.51.01.07.gender:5.51.01.07.gender} - `"Gender equality"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.51.01.07.gender:5.51.01.07.gender} - Gender equality}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -332,7 +332,7 @@
 
 {synoptline}
 {marker sourceid_5.51.01.08.primcomp}
-{synopt:{bf:{help wbopendata_sourceid##5.51.01.08.primcomp:5.51.01.08.primcomp} - `"Primary completion"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.51.01.08.primcomp:5.51.01.08.primcomp} - Primary completion}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -344,7 +344,7 @@
 
 {synoptline}
 {marker sourceid_5.51.01.09.water}
-{synopt:{bf:{help wbopendata_sourceid##5.51.01.09.water:5.51.01.09.water} - `"Access to water"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.51.01.09.water:5.51.01.09.water} - Access to water}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -356,7 +356,7 @@
 
 {synoptline}
 {marker sourceid_5.51.01.10.gdp}
-{synopt:{bf:{help wbopendata_sourceid##5.51.01.10.gdp:5.51.01.10.gdp} - `"Per capita GDP growth"'}}
+{synopt:{bf:{help wbopendata_sourceid##5.51.01.10.gdp:5.51.01.10.gdp} - Per capita GDP growth}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -367,4 +367,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
