@@ -6848,13 +6848,13 @@ HOU.XPD.HE.PC.CR - Monthly Per Capita Household Health Expenditure (in IDR)
 HOU.XPD.PC.CR - Household per capita expenditure (in IDR)
 HOU.XPD.TOTL.20POOR.CR - Monthly Per Capita TOTAL Household Expenditure for The Poorest 20 percent (in IDR)
 IBP.OBI.XQ - Open Budget Index Overall Country Score
-IC.BUS.DFRN.XQ - Distance to frontier score (0=lowest performance to 100=frontier)
+IC.BUS.DFRN.XQ - Ease of doing business score (0 = lowest performance to 100 = best performance)
 IC.BUS.DIR.XQ - Protecting investors, director liability index
 IC.BUS.DISC.XQ - Business extent of disclosure index (0=less disclosure to 10=more disclosure)
 IC.BUS.EASE.DFRN.DB1014 - Global: Ease of doing business score (DB10-14 methodology)
 IC.BUS.EASE.DFRN.DB16 - Global: Ease of doing business score (DB15 methodology)
 IC.BUS.EASE.DFRN.XQ.DB1719 - Global: Ease of doing business score (DB17-20 methodology)
-IC.BUS.EASE.XQ - Rank: Ease of doing business index (1=most business-friendly regulations)
+IC.BUS.EASE.XQ - Ease of doing business index (1=most business-friendly regulations)
 IC.BUS.INVS.XQ - Protecting investors, investor protection index
 IC.BUS.NDNS.ZS - New business density (new registrations per 1,000 people ages 15-64)
 IC.BUS.NREG - New businesses registered (number)
@@ -6955,7 +6955,7 @@ IC.ELC.RSTT.XD.08.DB1619 - Getting electricity: Reliability of supply and transp
 IC.ELC.RSTT.XD.08.DFRN.DB1619 - Getting electricity: Reliability of supply and transparency of tariff index (0-8) (DB16-20 methodology) - Score
 IC.ELC.SAID.XD.DB1619 - Getting electricity: System average interruption duration index (SAIDI) (DB16-20 methodology)
 IC.ELC.SAIF.XD.DB1619 - Getting electricity: System average interruption frequency index (SAIFI) (DB16-20 methodology)
-IC.ELC.TIME - Getting electricity: Time (days)
+IC.ELC.TIME - Time required to get electricity (days)
 IC.ELC.TIME.DFRN - Getting electricity: Time (days) - Score
 IC.ELEC.COST.PC.ZS - Cost to get electricity connection (% of income per capita)
 IC.ELEC.PROC - Procedures required to get electricity (number)
@@ -7142,9 +7142,9 @@ IC.PRP.DURS - Time required to register property (days)
 IC.PRP.PROC - Procedures to register property (number)
 IC.PRP.XQ - Registering property (rank)
 IC.REG.CAP.PC.ZS - Minimum capital for starting a business  (% of income per capita)
-IC.REG.COST.PC.FE.ZS - Starting a business: Cost - Women (% of income per capita)
+IC.REG.COST.PC.FE.ZS - Cost of business start-up procedures, female (% of GNI per capita)
 IC.REG.COST.PC.FE.ZS.DRFN - Starting a business: Cost - Women (% of income per capita) - Score
-IC.REG.COST.PC.MA.ZS - Starting a business: Cost - Men (% of income per capita)
+IC.REG.COST.PC.MA.ZS - Cost of business start-up procedures, male (% of GNI per capita)
 IC.REG.COST.PC.MA.ZS.DFRN - Starting a business: Cost - Men (% of income per capita) - Score
 IC.REG.COST.PC.ZS - Cost of business start-up procedures (% of GNI per capita)
 IC.REG.DFRN.PC.DFRN - Starting a business: Paid-in Minimum capital (% of income per capita) - Score

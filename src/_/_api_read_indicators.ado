@@ -242,7 +242,7 @@ program define _api_read_indicators, rclass
 	}
 
 *	noi di in smcl in g ""
-	noi di in smcl in g "{bf: Preparing indicator data for `what'... COMPLETED!}"
+	noi di in smcl in g "{bf: Preparing indicator data for `what'...COMPLETED!}"
 	noi di in smcl in g ""
 
 	

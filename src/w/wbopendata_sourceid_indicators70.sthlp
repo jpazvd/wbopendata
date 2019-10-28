@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:70 Economic Fitness 2}}}
 {synoptline}
 {marker sourceid_EF.EFM.PROD.XD}
-{synopt:{bf:{help wbopendata_sourceid##EF.EFM.PROD.XD:EF.EFM.PROD.XD} - `"Economic Fitness Metric"'}}
+{synopt:{bf:{help wbopendata_sourceid##EF.EFM.PROD.XD:EF.EFM.PROD.XD} - Economic Fitness Metric}}
 
 {synopt:{opt Source}}70 Economic Fitness 2{p_end}
 
@@ -80,7 +80,7 @@
 
 {synoptline}
 {marker sourceid_EF.EFM.UNIV.XD}
-{synopt:{bf:{help wbopendata_sourceid##EF.EFM.UNIV.XD:EF.EFM.UNIV.XD} - `"Universal Economic Fitness Metric"'}}
+{synopt:{bf:{help wbopendata_sourceid##EF.EFM.UNIV.XD:EF.EFM.UNIV.XD} - Universal Economic Fitness Metric}}
 
 {synopt:{opt Source}}70 Economic Fitness 2{p_end}
 
@@ -91,4 +91,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

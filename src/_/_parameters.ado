@@ -1,4 +1,4 @@
-*! _parameters <27 Oct 2019 : 18:08:02>    João Pedro Azevedo 
+*! _parameters <28 Oct 2019 : 18:07:06>    João Pedro Azevedo 
 
 program define _parameters, rclass
 
@@ -9,6 +9,11 @@ version 9
 
              return local total = 17298 
 
+             return local sourceid01 = 190 
+             return local sourceid02 = 1422 
+             return local sourceid03 = 36 
+             return local sourceid05 = 5 
+             return local sourceid06 = 455 
              return local sourceid11 = 838 
              return local sourceid12 = 3643 
              return local sourceid13 = 89 
@@ -75,23 +80,23 @@ version 9
              return local topicid20 = 516 
              return local topicid21 = 152 
 
-             return local sourcereturn  "sourceid11 sourceid12 sourceid13 sourceid14 sourceid15 sourceid16 sourceid18 sourceid19 sourceid20 sourceid22 sourceid23 sourceid24 sourceid25 sourceid27 sourceid28 sourceid29 sourceid30 sourceid32 sourceid33 sourceid34 sourceid35 sourceid36 sourceid37 sourceid39 sourceid41 sourceid45 sourceid46 sourceid50 sourceid54 sourceid57 sourceid59 sourceid60 sourceid61 sourceid62 sourceid63 sourceid64 sourceid65 sourceid66 sourceid67 sourceid69 sourceid70 sourceid71 sourceid73 sourceid75" 
+             return local sourcereturn  "sourceid01 sourceid02 sourceid03 sourceid05 sourceid06 sourceid11 sourceid12 sourceid13 sourceid14 sourceid15 sourceid16 sourceid18 sourceid19 sourceid20 sourceid22 sourceid23 sourceid24 sourceid25 sourceid27 sourceid28 sourceid29 sourceid30 sourceid32 sourceid33 sourceid34 sourceid35 sourceid36 sourceid37 sourceid39 sourceid41 sourceid45 sourceid46 sourceid50 sourceid54 sourceid57 sourceid59 sourceid60 sourceid61 sourceid62 sourceid63 sourceid64 sourceid65 sourceid66 sourceid67 sourceid69 sourceid70 sourceid71 sourceid73 sourceid75" 
 
              return local topicreturn  "topicid01 topicid02 topicid03 topicid04 topicid05 topicid06 topicid07 topicid08 topicid09 topicid10 topicid11 topicid12 topicid13 topicid14 topicid15 topicid16 topicid17 topicid18 topicid19 topicid20 topicid21" 
 
-             return local sourceid   `"`"11 Africa Development Indicators"' `"12 Education Statistics"' `"13 Enterprise Surveys"' `"14 Gender Statistics"' `"15 Global Economic Monitor"' `"16 Health Nutrition and Population Statistics"' `"18 IDA Results Measurement System"' `"19 Millennium Development Goals"' `"20 Quarterly Public Sector Debt"' `"22 Quarterly External Debt Statistics SDDS"' `"23 Quarterly External Debt Statistics GDDS"' `"24 Poverty and Equity"' `"25 Jobs"' `"27 Global Economic Prospects"' `"28 Global Financial Inclusion"' `"29 The Atlas of Social Protection: Indicators of Resilience and Equity"' `"30 Exporter Dynamics Database – Indicators at Country-Year Level"' `"32 Global Financial Development"' `"33 G20 Financial Inclusion Indicators"' `"34 Global Partnership for Education"' `"35 Sustainable Energy for All"' `"36 Statistical Capacity Indicators"' `"37 LAC Equity Lab"' `"39 Health Nutrition and Population Statistics by Wealth Quintile"' `"41 Country Partnership Strategy for India (FY2013 - 17)"' `"45 Indonesia Database for Policy and Economic Research"' `"46 Sustainable Development Goals"' `"50 Subnational Population"' `"54 Joint External Debt Hub"' `"57 WDI Database Archives"' `"59 Wealth Accounts"' `"60 Economic Fitness"' `"61 PPPs Regulatory Quality"' `"62 International Comparison Program (ICP) 2011"' `"63 Human Capital Index"' `"64 Worldwide Bureaucracy Indicators"' `"65 Health Equity and Financial Protection Indicators"' `"66 Logistics Performance Index"' `"67 PEFA 2011"' `"69 Global Financial Inclusion and Consumer Protection Survey"' `"70 Economic Fitness 2"' `"71 International Comparison Program (ICP) 2005"' `"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"' `"75 Environment, Social and Governance (ESG) Data"'"'  
+             return local sourceid  `"01 Doing Business"' `"02 World Development Indicators"' `"03 Worldwide Governance Indicators"' `"05 Subnational Malnutrition Database"' `"06 International Debt Statistics"' `"11 Africa Development Indicators"' `"12 Education Statistics"' `"13 Enterprise Surveys"' `"14 Gender Statistics"' `"15 Global Economic Monitor"' `"16 Health Nutrition and Population Statistics"' `"18 IDA Results Measurement System"' `"19 Millennium Development Goals"' `"20 Quarterly Public Sector Debt"' `"22 Quarterly External Debt Statistics SDDS"' `"23 Quarterly External Debt Statistics GDDS"' `"24 Poverty and Equity"' `"25 Jobs"' `"27 Global Economic Prospects"' `"28 Global Financial Inclusion"' `"29 The Atlas of Social Protection: Indicators of Resilience and Equity"' `"30 Exporter Dynamics Database – Indicators at Country-Year Level"' `"32 Global Financial Development"' `"33 G20 Financial Inclusion Indicators"' `"34 Global Partnership for Education"' `"35 Sustainable Energy for All"' `"36 Statistical Capacity Indicators"' `"37 LAC Equity Lab"' `"39 Health Nutrition and Population Statistics by Wealth Quintile"' `"41 Country Partnership Strategy for India (FY2013 - 17)"' `"45 Indonesia Database for Policy and Economic Research"' `"46 Sustainable Development Goals"' `"50 Subnational Population"' `"54 Joint External Debt Hub"' `"57 WDI Database Archives"' `"59 Wealth Accounts"' `"60 Economic Fitness"' `"61 PPPs Regulatory Quality"' `"62 International Comparison Program (ICP) 2011"' `"63 Human Capital Index"' `"64 Worldwide Bureaucracy Indicators"' `"65 Health Equity and Financial Protection Indicators"' `"66 Logistics Performance Index"' `"67 PEFA 2011"' `"69 Global Financial Inclusion and Consumer Protection Survey"' `"70 Economic Fitness 2"' `"71 International Comparison Program (ICP) 2005"' `"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"' `"75 Environment, Social and Governance (ESG) Data"' 
 
-             return local topicid   `"`"01 Agriculture and Rural Development"' `"02 Aid Effectiveness"' `"03 Economy and Growth"' `"04 Education"' `"05 Energy and Mining"' `"06 Environment"' `"07 Financial Sector"' `"08 Health"' `"09 Infrastructure"' `"10 Social Protection and Labor"' `"11 Poverty"' `"12 Private Sector"' `"13 Public Sector"' `"14 Science and Technology"' `"15 Social Development"' `"16 Urban Development"' `"17 Gender"' `"18 Millenium development goals"' `"19 Climate Change"' `"20 External Debt"' `"21 Trade"'"'  
+             return local topicid  `"01 Agriculture and Rural Development"' `"02 Aid Effectiveness"' `"03 Economy and Growth"' `"04 Education"' `"05 Energy and Mining"' `"06 Environment"' `"07 Financial Sector"' `"08 Health"' `"09 Infrastructure"' `"10 Social Protection and Labor"' `"11 Poverty"' `"12 Private Sector"' `"13 Public Sector"' `"14 Science and Technology"' `"15 Social Development"' `"16 Urban Development"' `"17 Gender"' `"18 Millenium development goals"' `"19 Climate Change"' `"20 External Debt"' `"21 Trade"' 
 
 
 
              return local number_indicators = 17299
-             return local dt_update "27 Oct 2019 18:08:02" 
-             return local dt_lastcheck  "27 Oct 2019 18:08:02" 
+             return local dt_update "28 Oct 2019 18:07:06" 
+             return local dt_lastcheck  "28 Oct 2019 18:07:06" 
 
              return local ctrymetadata = 304
-             return local dt_ctrylastupdate  "27 Oct 2019 17:17:46" 
-             return local dt_ctrylastcheck   "27 Oct 2019 18:08:02" 
-             return local dt_ctryupdate  "27 Oct 2019 18:10:17" 
+             return local dt_ctrylastupdate  "28 Oct 2019 18:03:19" 
+             return local dt_ctrylastcheck   "28 Oct 2019 18:07:06" 
+             return local dt_ctryupdate  "28 Oct 2019 18:09:42" 
 
 end

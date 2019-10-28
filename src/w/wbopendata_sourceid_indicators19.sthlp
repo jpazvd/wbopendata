@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:19 Millennium Development Goals}}}
 {synoptline}
 {marker sourceid_DC.ODA.COMM.CD}
-{synopt:{bf:{help wbopendata_sourceid##DC.ODA.COMM.CD:DC.ODA.COMM.CD} - `"Total bilateral ODA commitments (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DC.ODA.COMM.CD:DC.ODA.COMM.CD} - Total bilateral ODA commitments (current US$)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -81,7 +81,7 @@
 
 {synoptline}
 {marker sourceid_DC.ODA.COMM.SA.CD}
-{synopt:{bf:{help wbopendata_sourceid##DC.ODA.COMM.SA.CD:DC.ODA.COMM.SA.CD} - `"Total bilateral sector allocable ODA commitments (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DC.ODA.COMM.SA.CD:DC.ODA.COMM.SA.CD} - Total bilateral sector allocable ODA commitments (current US$)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -94,7 +94,7 @@
 
 {synoptline}
 {marker sourceid_DC.ODA.SOCL.CD}
-{synopt:{bf:{help wbopendata_sourceid##DC.ODA.SOCL.CD:DC.ODA.SOCL.CD} - `"Bilateral, sector-allocable ODA to basic social services (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DC.ODA.SOCL.CD:DC.ODA.SOCL.CD} - Bilateral, sector-allocable ODA to basic social services (current US$)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -107,7 +107,7 @@
 
 {synoptline}
 {marker sourceid_DC.ODA.SOCL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DC.ODA.SOCL.ZS:DC.ODA.SOCL.ZS} - `"Bilateral, sector-allocable ODA to basic social services (% of bilateral ODA commitments)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DC.ODA.SOCL.ZS:DC.ODA.SOCL.ZS} - Bilateral, sector-allocable ODA to basic social services (% of bilateral ODA commitments)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -120,7 +120,7 @@
 
 {synoptline}
 {marker sourceid_DC.ODA.UNTD.CD}
-{synopt:{bf:{help wbopendata_sourceid##DC.ODA.UNTD.CD:DC.ODA.UNTD.CD} - `"Bilateral ODA commitments that is untied (current US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DC.ODA.UNTD.CD:DC.ODA.UNTD.CD} - Bilateral ODA commitments that is untied (current US$)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -133,7 +133,7 @@
 
 {synoptline}
 {marker sourceid_DC.ODA.UNTD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DC.ODA.UNTD.ZS:DC.ODA.UNTD.ZS} - `"Bilateral ODA commitments that is untied (% of bilateral ODA commitments)"'}}
+{synopt:{bf:{help wbopendata_sourceid##DC.ODA.UNTD.ZS:DC.ODA.UNTD.ZS} - Bilateral ODA commitments that is untied (% of bilateral ODA commitments)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -146,7 +146,7 @@
 
 {synoptline}
 {marker sourceid_DT.HPC.COMR.PV}
-{synopt:{bf:{help wbopendata_sourceid##DT.HPC.COMR.PV:DT.HPC.COMR.PV} - `"Debt relief committed under HIPC initiative, cumulative US$ in end-2012 NPV terms"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.HPC.COMR.PV:DT.HPC.COMR.PV} - Debt relief committed under HIPC initiative, cumulative US$ in end-2012 NPV terms}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -159,7 +159,7 @@
 
 {synoptline}
 {marker sourceid_DT.HPC.MDRI.PV}
-{synopt:{bf:{help wbopendata_sourceid##DT.HPC.MDRI.PV:DT.HPC.MDRI.PV} - `"Debt relief delivered in full under MDRI initiative, cumulative US$ in end-2012 NPV terms"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.HPC.MDRI.PV:DT.HPC.MDRI.PV} - Debt relief delivered in full under MDRI initiative, cumulative US$ in end-2012 NPV terms}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -172,7 +172,7 @@
 
 {synoptline}
 {marker sourceid_DT.HPC.STTS}
-{synopt:{bf:{help wbopendata_sourceid##DT.HPC.STTS:DT.HPC.STTS} - `"Status under enhanced HIPC initiative"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.HPC.STTS:DT.HPC.STTS} - Status under enhanced HIPC initiative}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -185,7 +185,7 @@
 
 {synoptline}
 {marker sourceid_DT.HPC.TOTL.PV}
-{synopt:{bf:{help wbopendata_sourceid##DT.HPC.TOTL.PV:DT.HPC.TOTL.PV} - `"Debt relief committed under HIPC and MDRI initiatives, cumulative US$ in end-2012 NPV terms"'}}
+{synopt:{bf:{help wbopendata_sourceid##DT.HPC.TOTL.PV:DT.HPC.TOTL.PV} - Debt relief committed under HIPC and MDRI initiatives, cumulative US$ in end-2012 NPV terms}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -198,7 +198,7 @@
 
 {synoptline}
 {marker sourceid_NY.AGR.SUBS.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##NY.AGR.SUBS.GD.ZS:NY.AGR.SUBS.GD.ZS} - `"Agricultural support estimate (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##NY.AGR.SUBS.GD.ZS:NY.AGR.SUBS.GD.ZS} - Agricultural support estimate (% of GDP)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -211,7 +211,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.KNOW.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.KNOW.FE.ZS:SH.HIV.KNOW.FE.ZS} - `"% of females having comprehensive correct knowledge about HIV (2 prevent ways and reject 3 misconceptions)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.KNOW.FE.ZS:SH.HIV.KNOW.FE.ZS} - % of females having comprehensive correct knowledge about HIV (2 prevent ways and reject 3 misconceptions)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -223,7 +223,7 @@
 
 {synoptline}
 {marker sourceid_TM.MRC.NOTX.DV.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.MRC.NOTX.DV.ZS:TM.MRC.NOTX.DV.ZS} - `"Goods (excluding arms) admitted free of tariffs from developing countries (% total merchandise imports excluding arms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.MRC.NOTX.DV.ZS:TM.MRC.NOTX.DV.ZS} - Goods (excluding arms) admitted free of tariffs from developing countries (% total merchandise imports excluding arms)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -236,7 +236,7 @@
 
 {synoptline}
 {marker sourceid_TM.MRC.NOTX.LD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.MRC.NOTX.LD.ZS:TM.MRC.NOTX.LD.ZS} - `"Goods (excluding arms) admitted free of tariffs from least developed countries (% total merchandise imports excluding arms)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.MRC.NOTX.LD.ZS:TM.MRC.NOTX.LD.ZS} - Goods (excluding arms) admitted free of tariffs from least developed countries (% total merchandise imports excluding arms)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -249,7 +249,7 @@
 
 {synoptline}
 {marker sourceid_TM.TAX.AGRI.CD.DV}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.AGRI.CD.DV:TM.TAX.AGRI.CD.DV} - `"Average tariffs imposed by developed countries on agricultural products from developing countries (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.AGRI.CD.DV:TM.TAX.AGRI.CD.DV} - Average tariffs imposed by developed countries on agricultural products from developing countries (%)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -262,7 +262,7 @@
 
 {synoptline}
 {marker sourceid_TM.TAX.AGRI.CD.LD}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.AGRI.CD.LD:TM.TAX.AGRI.CD.LD} - `"Average tariffs imposed by developed countries on agricultural products from least developed countries (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.AGRI.CD.LD:TM.TAX.AGRI.CD.LD} - Average tariffs imposed by developed countries on agricultural products from least developed countries (%)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -275,7 +275,7 @@
 
 {synoptline}
 {marker sourceid_TM.TAX.CLTH.CD.DV}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.CLTH.CD.DV:TM.TAX.CLTH.CD.DV} - `"Average tariffs imposed by developed countries on clothing products from developing countries (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.CLTH.CD.DV:TM.TAX.CLTH.CD.DV} - Average tariffs imposed by developed countries on clothing products from developing countries (%)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -288,7 +288,7 @@
 
 {synoptline}
 {marker sourceid_TM.TAX.CLTH.CD.LD}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.CLTH.CD.LD:TM.TAX.CLTH.CD.LD} - `"Average tariffs imposed by developed countries on clothing products from least developed countries (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.CLTH.CD.LD:TM.TAX.CLTH.CD.LD} - Average tariffs imposed by developed countries on clothing products from least developed countries (%)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -301,7 +301,7 @@
 
 {synoptline}
 {marker sourceid_TM.TAX.TXTL.CD.DV}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TXTL.CD.DV:TM.TAX.TXTL.CD.DV} - `"Average tariffs imposed by developed countries on textile products from developing countries (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TXTL.CD.DV:TM.TAX.TXTL.CD.DV} - Average tariffs imposed by developed countries on textile products from developing countries (%)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -314,7 +314,7 @@
 
 {synoptline}
 {marker sourceid_TM.TAX.TXTL.CD.LD}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TXTL.CD.LD:TM.TAX.TXTL.CD.LD} - `"Average tariffs imposed by developed countries on textile products from least developed countries (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TXTL.CD.LD:TM.TAX.TXTL.CD.LD} - Average tariffs imposed by developed countries on textile products from least developed countries (%)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
@@ -326,4 +326,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

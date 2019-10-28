@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,7 +68,7 @@
 {syntab:{title:{bf:61 PPPs Regulatory Quality}}}
 {synoptline}
 {marker sourceid_IQ.PPN.REGQ.S0}
-{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S0:IQ.PPN.REGQ.S0} - `"Assessment of country’s adherence to the best regulatory practices at the preparation stage of PPP project (scale 1-100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S0:IQ.PPN.REGQ.S0} - Assessment of country’s adherence to the best regulatory practices at the preparation stage of PPP project (scale 1-100)}}
 
 {synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
 
@@ -80,7 +80,7 @@
 
 {synoptline}
 {marker sourceid_IQ.PPN.REGQ.S1}
-{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S1:IQ.PPN.REGQ.S1} - `"Assessment of country’s adherence to the best regulatory practices at the procurement stage of PPP project (scale 1-100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S1:IQ.PPN.REGQ.S1} - Assessment of country’s adherence to the best regulatory practices at the procurement stage of PPP project (scale 1-100)}}
 
 {synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
 
@@ -92,7 +92,7 @@
 
 {synoptline}
 {marker sourceid_IQ.PPN.REGQ.S2}
-{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S2:IQ.PPN.REGQ.S2} - `"Assessment of country’s adherence to the best regulatory practices at the management stage of PPP project (scale 1-100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S2:IQ.PPN.REGQ.S2} - Assessment of country’s adherence to the best regulatory practices at the management stage of PPP project (scale 1-100)}}
 
 {synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
 
@@ -104,7 +104,7 @@
 
 {synoptline}
 {marker sourceid_IQ.PPN.REGQ.S3}
-{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S3:IQ.PPN.REGQ.S3} - `"Assessment of country’s adherence to the best regulatory practices, procurement of unsolicited proposals (scale 1-100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S3:IQ.PPN.REGQ.S3} - Assessment of country’s adherence to the best regulatory practices, procurement of unsolicited proposals (scale 1-100)}}
 
 {synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
 
@@ -115,4 +115,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
