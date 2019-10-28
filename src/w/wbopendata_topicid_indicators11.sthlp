@@ -1433,7 +1433,7 @@
 {marker topicid_EN.POP.SLUM.UR.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.POP.SLUM.UR.ZS:EN.POP.SLUM.UR.ZS} - `"Population living in slums (% of urban population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1446,7 +1446,7 @@
 {marker topicid_SI.DST.02ND.20}
 {synopt:{bf:{help wbopendata_topicid##SI.DST.02ND.20:SI.DST.02ND.20} - `"Income share held by second 20%"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1459,7 +1459,7 @@
 {marker topicid_SI.DST.03RD.20}
 {synopt:{bf:{help wbopendata_topicid##SI.DST.03RD.20:SI.DST.03RD.20} - `"Income share held by third 20%"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1472,7 +1472,7 @@
 {marker topicid_SI.DST.04TH.20}
 {synopt:{bf:{help wbopendata_topicid##SI.DST.04TH.20:SI.DST.04TH.20} - `"Income share held by fourth 20%"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1485,7 +1485,7 @@
 {marker topicid_SI.DST.05TH.20}
 {synopt:{bf:{help wbopendata_topicid##SI.DST.05TH.20:SI.DST.05TH.20} - `"Income share held by highest 20%"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1498,7 +1498,7 @@
 {marker topicid_SI.DST.10TH.10}
 {synopt:{bf:{help wbopendata_topicid##SI.DST.10TH.10:SI.DST.10TH.10} - `"Income share held by highest 10%"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1511,7 +1511,7 @@
 {marker topicid_SI.DST.FRST.10}
 {synopt:{bf:{help wbopendata_topicid##SI.DST.FRST.10:SI.DST.FRST.10} - `"Income share held by lowest 10%"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1524,7 +1524,7 @@
 {marker topicid_SI.DST.FRST.20}
 {synopt:{bf:{help wbopendata_topicid##SI.DST.FRST.20:SI.DST.FRST.20} - `"Income share held by lowest 20%"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1550,7 +1550,7 @@
 {marker topicid_SI.POV.DDAY}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.DDAY:SI.POV.DDAY} - `"Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1576,7 +1576,7 @@
 {marker topicid_SI.POV.GAPS}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.GAPS:SI.POV.GAPS} - `"Poverty gap at $1.90 a day (2011 PPP) (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1589,7 +1589,7 @@
 {marker topicid_SI.POV.GINI}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.GINI:SI.POV.GINI} - `"GINI index (World Bank estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1602,7 +1602,7 @@
 {marker topicid_SI.POV.LMIC}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.LMIC:SI.POV.LMIC} - `"Poverty headcount ratio at $3.20 a day (2011 PPP) (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1615,7 +1615,7 @@
 {marker topicid_SI.POV.LMIC.GP}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.LMIC.GP:SI.POV.LMIC.GP} - `"Poverty gap at $3.20 a day (2011 PPP) (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1628,7 +1628,7 @@
 {marker topicid_SI.POV.NAGP}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.NAGP:SI.POV.NAGP} - `"Poverty gap at national poverty lines (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1641,7 +1641,7 @@
 {marker topicid_SI.POV.NAHC}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.NAHC:SI.POV.NAHC} - `"Poverty headcount ratio at national poverty lines (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1654,7 +1654,7 @@
 {marker topicid_SI.POV.RUGP}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.RUGP:SI.POV.RUGP} - `"Rural poverty gap at national poverty lines (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1667,7 +1667,7 @@
 {marker topicid_SI.POV.RUHC}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.RUHC:SI.POV.RUHC} - `"Rural poverty headcount ratio at national poverty lines (% of rural population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1680,7 +1680,7 @@
 {marker topicid_SI.POV.UMIC}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.UMIC:SI.POV.UMIC} - `"Poverty headcount ratio at $5.50 a day (2011 PPP) (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1693,7 +1693,7 @@
 {marker topicid_SI.POV.UMIC.GP}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.UMIC.GP:SI.POV.UMIC.GP} - `"Poverty gap at $5.50 a day (2011 PPP) (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1706,7 +1706,7 @@
 {marker topicid_SI.POV.URGP}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.URGP:SI.POV.URGP} - `"Urban poverty gap at national poverty lines (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1719,7 +1719,7 @@
 {marker topicid_SI.POV.URHC}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.URHC:SI.POV.URHC} - `"Urban poverty headcount ratio at national poverty lines (% of urban population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1732,7 +1732,7 @@
 {marker topicid_SI.SPR.PC40}
 {synopt:{bf:{help wbopendata_topicid##SI.SPR.PC40:SI.SPR.PC40} - `"Survey mean consumption or income per capita, bottom 40% of population (2011 PPP $ per day)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1758,7 +1758,7 @@
 {marker topicid_SI.SPR.PC40.ZG}
 {synopt:{bf:{help wbopendata_topicid##SI.SPR.PC40.ZG:SI.SPR.PC40.ZG} - `"Annualized average growth rate in per capita real survey mean consumption or income, bottom 40% of population (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1771,7 +1771,7 @@
 {marker topicid_SI.SPR.PCAP}
 {synopt:{bf:{help wbopendata_topicid##SI.SPR.PCAP:SI.SPR.PCAP} - `"Survey mean consumption or income per capita, total population (2011 PPP $ per day)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1797,7 +1797,7 @@
 {marker topicid_SI.SPR.PCAP.ZG}
 {synopt:{bf:{help wbopendata_topicid##SI.SPR.PCAP.ZG:SI.SPR.PCAP.ZG} - `"Annualized average growth rate in per capita real survey mean consumption or income, total population (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 

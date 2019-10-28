@@ -33,6 +33,9 @@ version 9
 				CHECK					///
 				QUERY					///
 				NOIsily					///
+				NAME(string)			///
+				SAVE					///
+				REPLACE					///
 			] 			
 						 
 
@@ -65,8 +68,11 @@ quietly {
 
 	insheet using `file2', delimiter("#") clear name
 
+*	noi di "save tmptmp"
+*	save tmptmp, replace
+	
 	* drop cases in which SOURCEID does not stata with a numeric CODE
-	drop if real(substr(sourceid,1,2))==. & !missing(sourceid)
+	drop if real(substr(sourceid,1,1))==. & !missing(sourceid)
 	
 	gen seq = _n
 
@@ -167,6 +173,18 @@ if ("`nosthlp1'" == "") {
 		tempname hlp`variable'  dups`variable'  seq2`variable' seq3`variable' code`variable'
 
 		use `tmp', clear
+		
+		
+		if ("`save'" != "") {
+		
+			if ("`name'" == "") {
+				local name "indicators"
+			}
+		
+			save `name'.dta, `replace'
+			noi di in y "`name'.dta saved `replace'"
+			noi di ""
+		}
 		
 		keep if `variable' != ""
 		sort `variable' indicatorcode

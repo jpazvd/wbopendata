@@ -42,7 +42,7 @@
 {marker topicid_BM.KLT.DINV.CD.WD}
 {synopt:{bf:{help wbopendata_topicid##BM.KLT.DINV.CD.WD:BM.KLT.DINV.CD.WD} - `"Foreign direct investment, net outflows (BoP, current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -55,7 +55,7 @@
 {marker topicid_BM.KLT.DINV.WD.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##BM.KLT.DINV.WD.GD.ZS:BM.KLT.DINV.WD.GD.ZS} - `"Foreign direct investment, net outflows (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -68,7 +68,7 @@
 {marker topicid_BM.TRF.PWKR.CD.DT}
 {synopt:{bf:{help wbopendata_topicid##BM.TRF.PWKR.CD.DT:BM.TRF.PWKR.CD.DT} - `"Personal remittances, paid (current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -81,7 +81,7 @@
 {marker topicid_BN.KLT.DINV.CD}
 {synopt:{bf:{help wbopendata_topicid##BN.KLT.DINV.CD:BN.KLT.DINV.CD} - `"Foreign direct investment, net (BoP, current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -94,7 +94,7 @@
 {marker topicid_BN.KLT.PTXL.CD}
 {synopt:{bf:{help wbopendata_topicid##BN.KLT.PTXL.CD:BN.KLT.PTXL.CD} - `"Portfolio Investment, net (BoP, current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -107,7 +107,7 @@
 {marker topicid_BX.KLT.DINV.CD.WD}
 {synopt:{bf:{help wbopendata_topicid##BX.KLT.DINV.CD.WD:BX.KLT.DINV.CD.WD} - `"Foreign direct investment, net inflows (BoP, current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -120,7 +120,7 @@
 {marker topicid_BX.KLT.DINV.WD.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##BX.KLT.DINV.WD.GD.ZS:BX.KLT.DINV.WD.GD.ZS} - `"Foreign direct investment, net inflows (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -133,7 +133,7 @@
 {marker topicid_BX.KLT.DREM.CD.DT}
 {synopt:{bf:{help wbopendata_topicid##BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT} - `"Primary income on FDI, payments (current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"06 International Debt Statistics"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -146,7 +146,7 @@
 {marker topicid_BX.PEF.TOTL.CD.WD}
 {synopt:{bf:{help wbopendata_topicid##BX.PEF.TOTL.CD.WD:BX.PEF.TOTL.CD.WD} - `"Portfolio equity, net inflows (BoP, current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -159,7 +159,7 @@
 {marker topicid_BX.TRF.PWKR.CD}
 {synopt:{bf:{help wbopendata_topicid##BX.TRF.PWKR.CD:BX.TRF.PWKR.CD} - `"Personal transfers, receipts (BoP, current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -172,7 +172,7 @@
 {marker topicid_BX.TRF.PWKR.CD.DT}
 {synopt:{bf:{help wbopendata_topicid##BX.TRF.PWKR.CD.DT:BX.TRF.PWKR.CD.DT} - `"Personal remittances, received (current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -185,7 +185,7 @@
 {marker topicid_BX.TRF.PWKR.DT.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##BX.TRF.PWKR.DT.GD.ZS:BX.TRF.PWKR.DT.GD.ZS} - `"Personal remittances, received (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -198,7 +198,7 @@
 {marker topicid_CM.MKT.INDX.ZG}
 {synopt:{bf:{help wbopendata_topicid##CM.MKT.INDX.ZG:CM.MKT.INDX.ZG} - `"S&amp;P Global Equity Indices (annual % change)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -211,7 +211,7 @@
 {marker topicid_CM.MKT.LCAP.CD}
 {synopt:{bf:{help wbopendata_topicid##CM.MKT.LCAP.CD:CM.MKT.LCAP.CD} - `"Market capitalization of listed domestic companies (current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -224,7 +224,7 @@
 {marker topicid_CM.MKT.LCAP.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##CM.MKT.LCAP.GD.ZS:CM.MKT.LCAP.GD.ZS} - `"Market capitalization of listed domestic companies (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -237,7 +237,7 @@
 {marker topicid_CM.MKT.LDOM.NO}
 {synopt:{bf:{help wbopendata_topicid##CM.MKT.LDOM.NO:CM.MKT.LDOM.NO} - `"Listed domestic companies, total"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -250,7 +250,7 @@
 {marker topicid_CM.MKT.TRAD.CD}
 {synopt:{bf:{help wbopendata_topicid##CM.MKT.TRAD.CD:CM.MKT.TRAD.CD} - `"Stocks traded, total value (current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -263,7 +263,7 @@
 {marker topicid_CM.MKT.TRAD.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##CM.MKT.TRAD.GD.ZS:CM.MKT.TRAD.GD.ZS} - `"Stocks traded, total value (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -276,7 +276,7 @@
 {marker topicid_CM.MKT.TRNR}
 {synopt:{bf:{help wbopendata_topicid##CM.MKT.TRNR:CM.MKT.TRNR} - `"Stocks traded, turnover ratio of domestic shares (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -289,7 +289,7 @@
 {marker topicid_DT.NFL.BOND.CD}
 {synopt:{bf:{help wbopendata_topicid##DT.NFL.BOND.CD:DT.NFL.BOND.CD} - `"Portfolio investment, bonds (PPG + PNG) (NFL, current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -328,7 +328,7 @@
 {marker topicid_FB.AST.NPER.ZS}
 {synopt:{bf:{help wbopendata_topicid##FB.AST.NPER.ZS:FB.AST.NPER.ZS} - `"Bank nonperforming loans to total gross loans (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -341,7 +341,7 @@
 {marker topicid_FB.ATM.TOTL.P5}
 {synopt:{bf:{help wbopendata_topicid##FB.ATM.TOTL.P5:FB.ATM.TOTL.P5} - `"Automated teller machines (ATMs) (per 100,000 adults)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -354,7 +354,7 @@
 {marker topicid_FB.BNK.CAPA.ZS}
 {synopt:{bf:{help wbopendata_topicid##FB.BNK.CAPA.ZS:FB.BNK.CAPA.ZS} - `"Bank capital to assets ratio (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -367,7 +367,7 @@
 {marker topicid_FB.CBK.BRCH.P5}
 {synopt:{bf:{help wbopendata_topicid##FB.CBK.BRCH.P5:FB.CBK.BRCH.P5} - `"Commercial bank branches (per 100,000 adults)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -380,7 +380,7 @@
 {marker topicid_FB.CBK.BRWR.P3}
 {synopt:{bf:{help wbopendata_topicid##FB.CBK.BRWR.P3:FB.CBK.BRWR.P3} - `"Borrowers from commercial banks (per 1,000 adults)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -393,7 +393,7 @@
 {marker topicid_FB.CBK.DPTR.P3}
 {synopt:{bf:{help wbopendata_topicid##FB.CBK.DPTR.P3:FB.CBK.DPTR.P3} - `"Depositors with commercial banks (per 1,000 adults)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -419,7 +419,7 @@
 {marker topicid_FD.AST.PRVT.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##FD.AST.PRVT.GD.ZS:FD.AST.PRVT.GD.ZS} - `"Domestic credit to private sector by banks (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -432,7 +432,7 @@
 {marker topicid_FD.RES.LIQU.AS.ZS}
 {synopt:{bf:{help wbopendata_topicid##FD.RES.LIQU.AS.ZS:FD.RES.LIQU.AS.ZS} - `"Bank liquid reserves to bank assets ratio (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -445,7 +445,7 @@
 {marker topicid_FI.RES.TOTL.CD}
 {synopt:{bf:{help wbopendata_topicid##FI.RES.TOTL.CD:FI.RES.TOTL.CD} - `"Total reserves (includes gold, current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -458,7 +458,7 @@
 {marker topicid_FI.RES.TOTL.DT.ZS}
 {synopt:{bf:{help wbopendata_topicid##FI.RES.TOTL.DT.ZS:FI.RES.TOTL.DT.ZS} - `"Total reserves (% of total external debt)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -471,7 +471,7 @@
 {marker topicid_FI.RES.TOTL.MO}
 {synopt:{bf:{help wbopendata_topicid##FI.RES.TOTL.MO:FI.RES.TOTL.MO} - `"Total reserves in months of imports"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -484,7 +484,7 @@
 {marker topicid_FI.RES.XGLD.CD}
 {synopt:{bf:{help wbopendata_topicid##FI.RES.XGLD.CD:FI.RES.XGLD.CD} - `"Total reserves minus gold (current US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -497,7 +497,7 @@
 {marker topicid_FM.AST.CGOV.ZG.M3}
 {synopt:{bf:{help wbopendata_topicid##FM.AST.CGOV.ZG.M3:FM.AST.CGOV.ZG.M3} - `"Claims on central government (annual growth as % of broad money)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -510,7 +510,7 @@
 {marker topicid_FM.AST.DOMO.ZG.M3}
 {synopt:{bf:{help wbopendata_topicid##FM.AST.DOMO.ZG.M3:FM.AST.DOMO.ZG.M3} - `"Claims on other sectors of the domestic economy (annual growth as % of broad money)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -523,7 +523,7 @@
 {marker topicid_FM.AST.DOMS.CN}
 {synopt:{bf:{help wbopendata_topicid##FM.AST.DOMS.CN:FM.AST.DOMS.CN} - `"Net domestic credit (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -562,7 +562,7 @@
 {marker topicid_FM.AST.NFRG.CN}
 {synopt:{bf:{help wbopendata_topicid##FM.AST.NFRG.CN:FM.AST.NFRG.CN} - `"Net foreign assets (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -588,7 +588,7 @@
 {marker topicid_FM.AST.PRVT.ZG.M3}
 {synopt:{bf:{help wbopendata_topicid##FM.AST.PRVT.ZG.M3:FM.AST.PRVT.ZG.M3} - `"Claims on private sector (annual growth as % of broad money)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -601,7 +601,7 @@
 {marker topicid_FM.LBL.BMNY.CN}
 {synopt:{bf:{help wbopendata_topicid##FM.LBL.BMNY.CN:FM.LBL.BMNY.CN} - `"Broad money (current LCU)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -614,7 +614,7 @@
 {marker topicid_FM.LBL.BMNY.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##FM.LBL.BMNY.GD.ZS:FM.LBL.BMNY.GD.ZS} - `"Broad money (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -627,7 +627,7 @@
 {marker topicid_FM.LBL.BMNY.IR.ZS}
 {synopt:{bf:{help wbopendata_topicid##FM.LBL.BMNY.IR.ZS:FM.LBL.BMNY.IR.ZS} - `"Broad money to total reserves ratio"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -640,7 +640,7 @@
 {marker topicid_FM.LBL.BMNY.ZG}
 {synopt:{bf:{help wbopendata_topicid##FM.LBL.BMNY.ZG:FM.LBL.BMNY.ZG} - `"Broad money growth (annual %)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -653,7 +653,7 @@
 {marker topicid_FP.CPI.TOTL}
 {synopt:{bf:{help wbopendata_topicid##FP.CPI.TOTL:FP.CPI.TOTL} - `"Consumer price index (2010 = 100)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -666,7 +666,7 @@
 {marker topicid_FP.CPI.TOTL.ZG}
 {synopt:{bf:{help wbopendata_topicid##FP.CPI.TOTL.ZG:FP.CPI.TOTL.ZG} - `"Inflation, consumer prices (annual %)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -679,7 +679,7 @@
 {marker topicid_FP.WPI.TOTL}
 {synopt:{bf:{help wbopendata_topicid##FP.WPI.TOTL:FP.WPI.TOTL} - `"Wholesale price index (2010 = 100)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -692,7 +692,7 @@
 {marker topicid_FR.INR.DPST}
 {synopt:{bf:{help wbopendata_topicid##FR.INR.DPST:FR.INR.DPST} - `"Deposit interest rate (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -705,7 +705,7 @@
 {marker topicid_FR.INR.LEND}
 {synopt:{bf:{help wbopendata_topicid##FR.INR.LEND:FR.INR.LEND} - `"Lending interest rate (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -718,7 +718,7 @@
 {marker topicid_FR.INR.LNDP}
 {synopt:{bf:{help wbopendata_topicid##FR.INR.LNDP:FR.INR.LNDP} - `"Interest rate spread (lending rate minus deposit rate, %)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -731,7 +731,7 @@
 {marker topicid_FR.INR.RINR}
 {synopt:{bf:{help wbopendata_topicid##FR.INR.RINR:FR.INR.RINR} - `"Real interest rate (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -744,7 +744,7 @@
 {marker topicid_FR.INR.RISK}
 {synopt:{bf:{help wbopendata_topicid##FR.INR.RISK:FR.INR.RISK} - `"Risk premium on lending (lending rate minus treasury bill rate, %)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -757,7 +757,7 @@
 {marker topicid_FS.AST.CGOV.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##FS.AST.CGOV.GD.ZS:FS.AST.CGOV.GD.ZS} - `"Claims on central government, etc. (% GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -770,7 +770,7 @@
 {marker topicid_FS.AST.DOMO.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##FS.AST.DOMO.GD.ZS:FS.AST.DOMO.GD.ZS} - `"Claims on other sectors of the domestic economy (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -783,7 +783,7 @@
 {marker topicid_FS.AST.DOMS.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##FS.AST.DOMS.GD.ZS:FS.AST.DOMS.GD.ZS} - `"Domestic credit provided by financial sector (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -796,7 +796,7 @@
 {marker topicid_FS.AST.PRVT.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##FS.AST.PRVT.GD.ZS:FS.AST.PRVT.GD.ZS} - `"Domestic credit to private sector (% of GDP)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2161,7 +2161,7 @@
 {marker topicid_IC.CRD.INFO.XQ}
 {synopt:{bf:{help wbopendata_topicid##IC.CRD.INFO.XQ:IC.CRD.INFO.XQ} - `"Depth of credit information index (0=low to 8=high)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2174,7 +2174,7 @@
 {marker topicid_IC.CRD.PRVT.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.CRD.PRVT.ZS:IC.CRD.PRVT.ZS} - `"Private credit bureau coverage (% of adults)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2187,7 +2187,7 @@
 {marker topicid_IC.CRD.PUBL.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.CRD.PUBL.ZS:IC.CRD.PUBL.ZS} - `"Public credit registry coverage (% of adults)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2200,7 +2200,7 @@
 {marker topicid_IC.LGL.CRED.XQ}
 {synopt:{bf:{help wbopendata_topicid##IC.LGL.CRED.XQ:IC.LGL.CRED.XQ} - `"Strength of legal rights index (0=weak to 12=strong)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2213,7 +2213,7 @@
 {marker topicid_NY.GDP.DEFL.KD.ZG.AD}
 {synopt:{bf:{help wbopendata_topicid##NY.GDP.DEFL.KD.ZG.AD:NY.GDP.DEFL.KD.ZG.AD} - `"Inflation, GDP deflator: linked series (annual %)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2226,7 +2226,7 @@
 {marker topicid_NY.GDP.DEFL.ZS.AD}
 {synopt:{bf:{help wbopendata_topicid##NY.GDP.DEFL.ZS.AD:NY.GDP.DEFL.ZS.AD} - `"GDP deflator: linked series (base year varies by country)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2239,7 +2239,7 @@
 {marker topicid_PA.NUS.ATLS}
 {synopt:{bf:{help wbopendata_topicid##PA.NUS.ATLS:PA.NUS.ATLS} - `"DEC alternative conversion factor (LCU per US$)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2252,7 +2252,7 @@
 {marker topicid_PA.NUS.FCRF}
 {synopt:{bf:{help wbopendata_topicid##PA.NUS.FCRF:PA.NUS.FCRF} - `"Official exchange rate (LCU per US$, period average)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2265,7 +2265,7 @@
 {marker topicid_PX.REX.REER}
 {synopt:{bf:{help wbopendata_topicid##PX.REX.REER:PX.REX.REER} - `"Real effective exchange rate index (2010 = 100)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2291,7 +2291,7 @@
 {marker topicid_SM.POP.NETM}
 {synopt:{bf:{help wbopendata_topicid##SM.POP.NETM:SM.POP.NETM} - `"Net migration"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2304,7 +2304,7 @@
 {marker topicid_SM.POP.TOTL}
 {synopt:{bf:{help wbopendata_topicid##SM.POP.TOTL:SM.POP.TOTL} - `"International migrant stock, total"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2317,7 +2317,7 @@
 {marker topicid_SM.POP.TOTL.ZS}
 {synopt:{bf:{help wbopendata_topicid##SM.POP.TOTL.ZS:SM.POP.TOTL.ZS} - `"International migrant stock (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
