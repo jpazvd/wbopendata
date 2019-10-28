@@ -50,10 +50,12 @@
 !/src/*.ado
 !/src/*.sthlp
 !/src/*.dta
+!/src/*.txt
 !/src/**/*.do
 !/src/**/*.ado
 !/src/**/*.sthlp
 !/src/**/*.dta
+!/src/**/*.txt
 
 
 # csv files in selected input folders

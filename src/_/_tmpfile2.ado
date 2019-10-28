@@ -1,7 +1,7 @@
-*! _wbod_tmpfile2 <27 Oct 2019 : 20:24:57>                 by João Pedro Azevedo
+*! _tmpfile2 <26 Oct 2019 : 16:11:22>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
- program define _wbod_tmpfile2 
+ program define _tmpfile2 
   
      syntax , match(varname) [  adminregion adminregion_iso2 adminregionname incomelevel incomelevel_iso2 incomelevelname  ] 
   
