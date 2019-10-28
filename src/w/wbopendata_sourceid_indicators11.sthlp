@@ -10,6 +10,11 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
+{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
+{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
+{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
+{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
+{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -5894,7 +5899,7 @@
 
 {synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Motor vehicles include cars, buses, and freight vehicles but do not include two-wheelers. Population refers to midyear population in the year for which data are available.{p_end}
 
@@ -5907,7 +5912,7 @@
 
 {synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Passenger cars refer to road motor vehicles, other than two-wheelers, intended for the carriage of passengers and designed to seat no more than nine people (including the driver).{p_end}
 
@@ -5920,7 +5925,7 @@
 
 {synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Vehicles per kilometer of road include cars, buses, and freight vehicles but do not include two-wheelers. Roads refer to motorways, highways, main or national roads, secondary or regional roads, and other roads. A motorway is a road specially{p_end}
 
@@ -8250,7 +8255,7 @@
 
 {synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Child mortality rate is the probability of dying between the exact ages of one and five, if subject to current age-specific mortality rates. The probability is expressed as a rate per 1,000.{p_end}
 
@@ -9147,7 +9152,7 @@
 
 {synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Male unemployment with tertiary education is the share of the male unemployed who attained or completed tertiary education as the highest level.{p_end}
 

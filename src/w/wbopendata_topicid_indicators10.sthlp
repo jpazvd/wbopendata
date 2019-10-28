@@ -1134,7 +1134,7 @@
 {marker topicid_SL.AGR.0714.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.AGR.0714.FE.ZS:SL.AGR.0714.FE.ZS} - `"Child employment in agriculture, female (% of female economically active children ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1147,7 +1147,7 @@
 {marker topicid_SL.AGR.0714.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.AGR.0714.MA.ZS:SL.AGR.0714.MA.ZS} - `"Child employment in agriculture, male (% of male economically active children ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1160,7 +1160,7 @@
 {marker topicid_SL.AGR.0714.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.AGR.0714.ZS:SL.AGR.0714.ZS} - `"Child employment in agriculture (% of economically active children ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1173,7 +1173,7 @@
 {marker topicid_SL.AGR.EMPL.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.AGR.EMPL.FE.ZS:SL.AGR.EMPL.FE.ZS} - `"Employment in agriculture, female (% of female employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1186,7 +1186,7 @@
 {marker topicid_SL.AGR.EMPL.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.AGR.EMPL.MA.ZS:SL.AGR.EMPL.MA.ZS} - `"Employment in agriculture, male (% of male employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1199,7 +1199,7 @@
 {marker topicid_SL.AGR.EMPL.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.AGR.EMPL.ZS:SL.AGR.EMPL.ZS} - `"Employment in agriculture (% of total employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1212,7 +1212,7 @@
 {marker topicid_SL.EMP.1524.SP.FE.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.1524.SP.FE.NE.ZS:SL.EMP.1524.SP.FE.NE.ZS} - `"Employment to population ratio, ages 15-24, female (%) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1225,7 +1225,7 @@
 {marker topicid_SL.EMP.1524.SP.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.1524.SP.FE.ZS:SL.EMP.1524.SP.FE.ZS} - `"Employment to population ratio, ages 15-24, female (%) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1238,7 +1238,7 @@
 {marker topicid_SL.EMP.1524.SP.MA.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.1524.SP.MA.NE.ZS:SL.EMP.1524.SP.MA.NE.ZS} - `"Employment to population ratio, ages 15-24, male (%) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1251,7 +1251,7 @@
 {marker topicid_SL.EMP.1524.SP.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.1524.SP.MA.ZS:SL.EMP.1524.SP.MA.ZS} - `"Employment to population ratio, ages 15-24, male (%) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1264,7 +1264,7 @@
 {marker topicid_SL.EMP.1524.SP.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.1524.SP.NE.ZS:SL.EMP.1524.SP.NE.ZS} - `"Employment to population ratio, ages 15-24, total (%) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1277,7 +1277,7 @@
 {marker topicid_SL.EMP.1524.SP.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.1524.SP.ZS:SL.EMP.1524.SP.ZS} - `"Employment to population ratio, ages 15-24, total (%) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1303,7 +1303,7 @@
 {marker topicid_SL.EMP.MPYR.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.MPYR.FE.ZS:SL.EMP.MPYR.FE.ZS} - `"Employers, female (% of female employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1316,7 +1316,7 @@
 {marker topicid_SL.EMP.MPYR.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.MPYR.MA.ZS:SL.EMP.MPYR.MA.ZS} - `"Employers, male (% of male employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1329,7 +1329,7 @@
 {marker topicid_SL.EMP.MPYR.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.MPYR.ZS:SL.EMP.MPYR.ZS} - `"Employers, total (% of total employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1342,7 +1342,7 @@
 {marker topicid_SL.EMP.SELF.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.SELF.FE.ZS:SL.EMP.SELF.FE.ZS} - `"Self-employed, female (% of female employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1355,7 +1355,7 @@
 {marker topicid_SL.EMP.SELF.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.SELF.MA.ZS:SL.EMP.SELF.MA.ZS} - `"Self-employed, male (% of male employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1368,7 +1368,7 @@
 {marker topicid_SL.EMP.SELF.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.SELF.ZS:SL.EMP.SELF.ZS} - `"Self-employed, total (% of total employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1381,7 +1381,7 @@
 {marker topicid_SL.EMP.SMGT.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.SMGT.FE.ZS:SL.EMP.SMGT.FE.ZS} - `"Female share of employment in senior and middle management (%)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1394,7 +1394,7 @@
 {marker topicid_SL.EMP.TOTL.SP.FE.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.TOTL.SP.FE.NE.ZS:SL.EMP.TOTL.SP.FE.NE.ZS} - `"Employment to population ratio, 15+, female (%) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1407,7 +1407,7 @@
 {marker topicid_SL.EMP.TOTL.SP.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.TOTL.SP.FE.ZS:SL.EMP.TOTL.SP.FE.ZS} - `"Employment to population ratio, 15+, female (%) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1420,7 +1420,7 @@
 {marker topicid_SL.EMP.TOTL.SP.MA.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.TOTL.SP.MA.NE.ZS:SL.EMP.TOTL.SP.MA.NE.ZS} - `"Employment to population ratio, 15+, male (%) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1433,7 +1433,7 @@
 {marker topicid_SL.EMP.TOTL.SP.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.TOTL.SP.MA.ZS:SL.EMP.TOTL.SP.MA.ZS} - `"Employment to population ratio, 15+, male (%) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1446,7 +1446,7 @@
 {marker topicid_SL.EMP.TOTL.SP.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.TOTL.SP.NE.ZS:SL.EMP.TOTL.SP.NE.ZS} - `"Employment to population ratio, 15+, total (%) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1459,7 +1459,7 @@
 {marker topicid_SL.EMP.TOTL.SP.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.TOTL.SP.ZS:SL.EMP.TOTL.SP.ZS} - `"Employment to population ratio, 15+, total (%) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1472,7 +1472,7 @@
 {marker topicid_SL.EMP.VULN.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.VULN.FE.ZS:SL.EMP.VULN.FE.ZS} - `"Vulnerable employment, female (% of female employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1485,7 +1485,7 @@
 {marker topicid_SL.EMP.VULN.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.VULN.MA.ZS:SL.EMP.VULN.MA.ZS} - `"Vulnerable employment, male (% of male employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1498,7 +1498,7 @@
 {marker topicid_SL.EMP.VULN.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.VULN.ZS:SL.EMP.VULN.ZS} - `"Vulnerable employment, total (% of total employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1511,7 +1511,7 @@
 {marker topicid_SL.EMP.WORK.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.WORK.FE.ZS:SL.EMP.WORK.FE.ZS} - `"Wage and salaried workers, female (% of female employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1524,7 +1524,7 @@
 {marker topicid_SL.EMP.WORK.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.WORK.MA.ZS:SL.EMP.WORK.MA.ZS} - `"Wage and salaried workers, male (% of male employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1537,7 +1537,7 @@
 {marker topicid_SL.EMP.WORK.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.WORK.ZS:SL.EMP.WORK.ZS} - `"Wage and salaried workers, total (% of total employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1550,7 +1550,7 @@
 {marker topicid_SL.FAM.0714.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.FAM.0714.FE.ZS:SL.FAM.0714.FE.ZS} - `"Children in employment, unpaid family workers, female (% of female children in employment, ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1563,7 +1563,7 @@
 {marker topicid_SL.FAM.0714.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.FAM.0714.MA.ZS:SL.FAM.0714.MA.ZS} - `"Children in employment, unpaid family workers, male (% of male children in employment, ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1576,7 +1576,7 @@
 {marker topicid_SL.FAM.0714.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.FAM.0714.ZS:SL.FAM.0714.ZS} - `"Children in employment, unpaid family workers (% of children in employment, ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1589,7 +1589,7 @@
 {marker topicid_SL.FAM.WORK.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.FAM.WORK.FE.ZS:SL.FAM.WORK.FE.ZS} - `"Contributing family workers, female (% of female employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1602,7 +1602,7 @@
 {marker topicid_SL.FAM.WORK.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.FAM.WORK.MA.ZS:SL.FAM.WORK.MA.ZS} - `"Contributing family workers, male (% of male employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1615,7 +1615,7 @@
 {marker topicid_SL.FAM.WORK.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.FAM.WORK.ZS:SL.FAM.WORK.ZS} - `"Contributing family workers, total (% of total employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1628,7 +1628,7 @@
 {marker topicid_SL.GDP.PCAP.EM.KD}
 {synopt:{bf:{help wbopendata_topicid##SL.GDP.PCAP.EM.KD:SL.GDP.PCAP.EM.KD} - `"GDP per person employed (constant 2011 PPP $)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1641,7 +1641,7 @@
 {marker topicid_SL.IND.EMPL.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.IND.EMPL.FE.ZS:SL.IND.EMPL.FE.ZS} - `"Employment in industry, female (% of female employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1654,7 +1654,7 @@
 {marker topicid_SL.IND.EMPL.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.IND.EMPL.MA.ZS:SL.IND.EMPL.MA.ZS} - `"Employment in industry, male (% of male employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1667,7 +1667,7 @@
 {marker topicid_SL.IND.EMPL.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.IND.EMPL.ZS:SL.IND.EMPL.ZS} - `"Employment in industry (% of total employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1680,7 +1680,7 @@
 {marker topicid_SL.ISV.IFRM.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.ISV.IFRM.FE.ZS:SL.ISV.IFRM.FE.ZS} - `"Informal employment, female (% of total non-agricultural employment)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1693,7 +1693,7 @@
 {marker topicid_SL.ISV.IFRM.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.ISV.IFRM.MA.ZS:SL.ISV.IFRM.MA.ZS} - `"Informal employment, male (% of total non-agricultural employment)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1706,7 +1706,7 @@
 {marker topicid_SL.ISV.IFRM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.ISV.IFRM.ZS:SL.ISV.IFRM.ZS} - `"Informal employment (% of total non-agricultural employment)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1719,7 +1719,7 @@
 {marker topicid_SL.MNF.0714.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.MNF.0714.FE.ZS:SL.MNF.0714.FE.ZS} - `"Child employment in manufacturing, female (% of female economically active children ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1732,7 +1732,7 @@
 {marker topicid_SL.MNF.0714.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.MNF.0714.MA.ZS:SL.MNF.0714.MA.ZS} - `"Child employment in manufacturing, male (% of male economically active children ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1745,7 +1745,7 @@
 {marker topicid_SL.MNF.0714.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.MNF.0714.ZS:SL.MNF.0714.ZS} - `"Child employment in manufacturing (% of economically active children ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1771,7 +1771,7 @@
 {marker topicid_SL.SLF.0714.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.SLF.0714.FE.ZS:SL.SLF.0714.FE.ZS} - `"Children in employment, self-employed, female (% of female children in employment, ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1784,7 +1784,7 @@
 {marker topicid_SL.SLF.0714.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.SLF.0714.MA.ZS:SL.SLF.0714.MA.ZS} - `"Children in employment, self-employed, male (% of male children in employment, ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1797,7 +1797,7 @@
 {marker topicid_SL.SLF.0714.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.SLF.0714.ZS:SL.SLF.0714.ZS} - `"Children in employment, self-employed (% of children in employment, ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1810,7 +1810,7 @@
 {marker topicid_SL.SRV.0714.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.SRV.0714.FE.ZS:SL.SRV.0714.FE.ZS} - `"Child employment in services, female (% of female economically active children ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1823,7 +1823,7 @@
 {marker topicid_SL.SRV.0714.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.SRV.0714.MA.ZS:SL.SRV.0714.MA.ZS} - `"Child employment in services, male (% of male economically active children ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1836,7 +1836,7 @@
 {marker topicid_SL.SRV.0714.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.SRV.0714.ZS:SL.SRV.0714.ZS} - `"Child employment in services (% of economically active children ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1849,7 +1849,7 @@
 {marker topicid_SL.SRV.EMPL.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.SRV.EMPL.FE.ZS:SL.SRV.EMPL.FE.ZS} - `"Employment in services, female (% of female employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1862,7 +1862,7 @@
 {marker topicid_SL.SRV.EMPL.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.SRV.EMPL.MA.ZS:SL.SRV.EMPL.MA.ZS} - `"Employment in services, male (% of male employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1875,7 +1875,7 @@
 {marker topicid_SL.SRV.EMPL.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.SRV.EMPL.ZS:SL.SRV.EMPL.ZS} - `"Employment in services (% of total employment) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1888,7 +1888,7 @@
 {marker topicid_SL.TLF.0714.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.FE.ZS:SL.TLF.0714.FE.ZS} - `"Children in employment, female (% of female children ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1901,7 +1901,7 @@
 {marker topicid_SL.TLF.0714.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.MA.ZS:SL.TLF.0714.MA.ZS} - `"Children in employment, male (% of male children ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1914,7 +1914,7 @@
 {marker topicid_SL.TLF.0714.SW.FE.TM}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.FE.TM:SL.TLF.0714.SW.FE.TM} - `"Average working hours of children, study and work, female, ages 7-14 (hours per week)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1927,7 +1927,7 @@
 {marker topicid_SL.TLF.0714.SW.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.FE.ZS:SL.TLF.0714.SW.FE.ZS} - `"Children in employment, study and work, female (% of female children in employment, ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1940,7 +1940,7 @@
 {marker topicid_SL.TLF.0714.SW.MA.TM}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.MA.TM:SL.TLF.0714.SW.MA.TM} - `"Average working hours of children, study and work, male, ages 7-14 (hours per week)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1953,7 +1953,7 @@
 {marker topicid_SL.TLF.0714.SW.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.MA.ZS:SL.TLF.0714.SW.MA.ZS} - `"Children in employment, study and work, male (% of male children in employment, ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1966,7 +1966,7 @@
 {marker topicid_SL.TLF.0714.SW.TM}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.TM:SL.TLF.0714.SW.TM} - `"Average working hours of children, study and work, ages 7-14 (hours per week)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1979,7 +1979,7 @@
 {marker topicid_SL.TLF.0714.SW.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.ZS:SL.TLF.0714.SW.ZS} - `"Children in employment, study and work (% of children in employment, ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -1992,7 +1992,7 @@
 {marker topicid_SL.TLF.0714.WK.FE.TM}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.FE.TM:SL.TLF.0714.WK.FE.TM} - `"Average working hours of children, working only, female, ages 7-14 (hours per week)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2005,7 +2005,7 @@
 {marker topicid_SL.TLF.0714.WK.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.FE.ZS:SL.TLF.0714.WK.FE.ZS} - `"Children in employment, work only, female (% of female children in employment, ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2018,7 +2018,7 @@
 {marker topicid_SL.TLF.0714.WK.MA.TM}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.MA.TM:SL.TLF.0714.WK.MA.TM} - `"Average working hours of children, working only, male, ages 7-14 (hours per week)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2031,7 +2031,7 @@
 {marker topicid_SL.TLF.0714.WK.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.MA.ZS:SL.TLF.0714.WK.MA.ZS} - `"Children in employment, work only, male (% of male children in employment, ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2044,7 +2044,7 @@
 {marker topicid_SL.TLF.0714.WK.TM}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.TM:SL.TLF.0714.WK.TM} - `"Average working hours of children, working only, ages 7-14 (hours per week)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2057,7 +2057,7 @@
 {marker topicid_SL.TLF.0714.WK.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.ZS:SL.TLF.0714.WK.ZS} - `"Children in employment, work only (% of children in employment, ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2070,7 +2070,7 @@
 {marker topicid_SL.TLF.0714.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.ZS:SL.TLF.0714.ZS} - `"Children in employment, total (% of children ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2148,7 +2148,7 @@
 {marker topicid_SL.TLF.ACTI.1524.FE.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.FE.NE.ZS:SL.TLF.ACTI.1524.FE.NE.ZS} - `"Labor force participation rate for ages 15-24, female (%) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2161,7 +2161,7 @@
 {marker topicid_SL.TLF.ACTI.1524.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.FE.ZS:SL.TLF.ACTI.1524.FE.ZS} - `"Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2174,7 +2174,7 @@
 {marker topicid_SL.TLF.ACTI.1524.MA.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.MA.NE.ZS:SL.TLF.ACTI.1524.MA.NE.ZS} - `"Labor force participation rate for ages 15-24, male (%) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2187,7 +2187,7 @@
 {marker topicid_SL.TLF.ACTI.1524.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.MA.ZS:SL.TLF.ACTI.1524.MA.ZS} - `"Labor force participation rate for ages 15-24, male (%) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2200,7 +2200,7 @@
 {marker topicid_SL.TLF.ACTI.1524.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.NE.ZS:SL.TLF.ACTI.1524.NE.ZS} - `"Labor force participation rate for ages 15-24, total (%) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2213,7 +2213,7 @@
 {marker topicid_SL.TLF.ACTI.1524.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.ZS:SL.TLF.ACTI.1524.ZS} - `"Labor force participation rate for ages 15-24, total (%) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2226,7 +2226,7 @@
 {marker topicid_SL.TLF.ACTI.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.FE.ZS:SL.TLF.ACTI.FE.ZS} - `"Labor force participation rate, female (% of female population ages 15-64) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2239,7 +2239,7 @@
 {marker topicid_SL.TLF.ACTI.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.MA.ZS:SL.TLF.ACTI.MA.ZS} - `"Labor force participation rate, male (% of male population ages 15-64) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2252,7 +2252,7 @@
 {marker topicid_SL.TLF.ACTI.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.ZS:SL.TLF.ACTI.ZS} - `"Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2265,7 +2265,7 @@
 {marker topicid_SL.TLF.ADVN.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.ADVN.FE.ZS:SL.TLF.ADVN.FE.ZS} - `"Labor force with advanced education, female (% of female working-age population with advanced education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2278,7 +2278,7 @@
 {marker topicid_SL.TLF.ADVN.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.ADVN.MA.ZS:SL.TLF.ADVN.MA.ZS} - `"Labor force with advanced education, male (% of male working-age population with advanced education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2291,7 +2291,7 @@
 {marker topicid_SL.TLF.ADVN.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.ADVN.ZS:SL.TLF.ADVN.ZS} - `"Labor force with advanced education (% of total working-age population with advanced education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2304,7 +2304,7 @@
 {marker topicid_SL.TLF.BASC.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.BASC.FE.ZS:SL.TLF.BASC.FE.ZS} - `"Labor force with basic education, female (% of female working-age population with basic education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2317,7 +2317,7 @@
 {marker topicid_SL.TLF.BASC.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.BASC.MA.ZS:SL.TLF.BASC.MA.ZS} - `"Labor force with basic education, male (% of male working-age population with basic education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2330,7 +2330,7 @@
 {marker topicid_SL.TLF.BASC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.BASC.ZS:SL.TLF.BASC.ZS} - `"Labor force with basic education (% of total working-age population with basic education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2343,7 +2343,7 @@
 {marker topicid_SL.TLF.CACT.FE.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.FE.NE.ZS:SL.TLF.CACT.FE.NE.ZS} - `"Labor force participation rate, female (% of female population ages 15+) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2356,7 +2356,7 @@
 {marker topicid_SL.TLF.CACT.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.FE.ZS:SL.TLF.CACT.FE.ZS} - `"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2369,7 +2369,7 @@
 {marker topicid_SL.TLF.CACT.FM.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.FM.NE.ZS:SL.TLF.CACT.FM.NE.ZS} - `"Ratio of female to male labor force participation rate (%) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2382,7 +2382,7 @@
 {marker topicid_SL.TLF.CACT.FM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.FM.ZS:SL.TLF.CACT.FM.ZS} - `"Ratio of female to male labor force participation rate (%) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2395,7 +2395,7 @@
 {marker topicid_SL.TLF.CACT.MA.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.MA.NE.ZS:SL.TLF.CACT.MA.NE.ZS} - `"Labor force participation rate, male (% of male population ages 15+) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2408,7 +2408,7 @@
 {marker topicid_SL.TLF.CACT.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.MA.ZS:SL.TLF.CACT.MA.ZS} - `"Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2421,7 +2421,7 @@
 {marker topicid_SL.TLF.CACT.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.NE.ZS:SL.TLF.CACT.NE.ZS} - `"Labor force participation rate, total (% of total population ages 15+) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2434,7 +2434,7 @@
 {marker topicid_SL.TLF.CACT.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.ZS:SL.TLF.CACT.ZS} - `"Labor force participation rate, total (% of total population ages 15+) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2447,7 +2447,7 @@
 {marker topicid_SL.TLF.INTM.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.INTM.FE.ZS:SL.TLF.INTM.FE.ZS} - `"Labor force with intermediate education, female (% of female working-age population with intermediate education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2460,7 +2460,7 @@
 {marker topicid_SL.TLF.INTM.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.INTM.MA.ZS:SL.TLF.INTM.MA.ZS} - `"Labor force with intermediate education, male (% of male working-age population with intermediate education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2473,7 +2473,7 @@
 {marker topicid_SL.TLF.INTM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.INTM.ZS:SL.TLF.INTM.ZS} - `"Labor force with intermediate education (% of total working-age population with intermediate education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2486,7 +2486,7 @@
 {marker topicid_SL.TLF.PART.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.PART.FE.ZS:SL.TLF.PART.FE.ZS} - `"Part time employment, female (% of total female employment)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2499,7 +2499,7 @@
 {marker topicid_SL.TLF.PART.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.PART.MA.ZS:SL.TLF.PART.MA.ZS} - `"Part time employment, male (% of total male employment)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2525,7 +2525,7 @@
 {marker topicid_SL.TLF.PART.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.PART.ZS:SL.TLF.PART.ZS} - `"Part time employment, total (% of total employment)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2655,7 +2655,7 @@
 {marker topicid_SL.TLF.TOTL.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.TOTL.FE.ZS:SL.TLF.TOTL.FE.ZS} - `"Labor force, female (% of total labor force)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2668,7 +2668,7 @@
 {marker topicid_SL.TLF.TOTL.IN}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.TOTL.IN:SL.TLF.TOTL.IN} - `"Labor force, total"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2681,7 +2681,7 @@
 {marker topicid_SL.UEM.1524.FE.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.1524.FE.NE.ZS:SL.UEM.1524.FE.NE.ZS} - `"Unemployment, youth female (% of female labor force ages 15-24) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2694,7 +2694,7 @@
 {marker topicid_SL.UEM.1524.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.1524.FE.ZS:SL.UEM.1524.FE.ZS} - `"Unemployment, youth female (% of female labor force ages 15-24) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2707,7 +2707,7 @@
 {marker topicid_SL.UEM.1524.MA.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.1524.MA.NE.ZS:SL.UEM.1524.MA.NE.ZS} - `"Unemployment, youth male (% of male labor force ages 15-24) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2720,7 +2720,7 @@
 {marker topicid_SL.UEM.1524.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.1524.MA.ZS:SL.UEM.1524.MA.ZS} - `"Unemployment, youth male (% of male labor force ages 15-24) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2733,7 +2733,7 @@
 {marker topicid_SL.UEM.1524.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.1524.NE.ZS:SL.UEM.1524.NE.ZS} - `"Unemployment, youth total (% of total labor force ages 15-24) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2746,7 +2746,7 @@
 {marker topicid_SL.UEM.1524.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.1524.ZS:SL.UEM.1524.ZS} - `"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2759,7 +2759,7 @@
 {marker topicid_SL.UEM.ADVN.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.ADVN.FE.ZS:SL.UEM.ADVN.FE.ZS} - `"Unemployment with advanced education, female (% of female labor force with advanced education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2772,7 +2772,7 @@
 {marker topicid_SL.UEM.ADVN.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.ADVN.MA.ZS:SL.UEM.ADVN.MA.ZS} - `"Unemployment with advanced education, male (% of male labor force with advanced education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2785,7 +2785,7 @@
 {marker topicid_SL.UEM.ADVN.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.ADVN.ZS:SL.UEM.ADVN.ZS} - `"Unemployment with advanced education (% of total labor force with advanced education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2798,7 +2798,7 @@
 {marker topicid_SL.UEM.BASC.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.BASC.FE.ZS:SL.UEM.BASC.FE.ZS} - `"Unemployment with basic education, female (% of female labor force with basic education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2811,7 +2811,7 @@
 {marker topicid_SL.UEM.BASC.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.BASC.MA.ZS:SL.UEM.BASC.MA.ZS} - `"Unemployment with basic education, male (% of male labor force with basic education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2824,7 +2824,7 @@
 {marker topicid_SL.UEM.BASC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.BASC.ZS:SL.UEM.BASC.ZS} - `"Unemployment with basic education (% of total labor force with basic education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2837,7 +2837,7 @@
 {marker topicid_SL.UEM.INTM.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.INTM.FE.ZS:SL.UEM.INTM.FE.ZS} - `"Unemployment with intermediate education, female (% of female labor force with intermediate education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2850,7 +2850,7 @@
 {marker topicid_SL.UEM.INTM.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.INTM.MA.ZS:SL.UEM.INTM.MA.ZS} - `"Unemployment with intermediate education, male (% of male labor force with intermediate education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2863,7 +2863,7 @@
 {marker topicid_SL.UEM.INTM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.INTM.ZS:SL.UEM.INTM.ZS} - `"Unemployment with intermediate education (% of total labor force with intermediate education)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2915,7 +2915,7 @@
 {marker topicid_SL.UEM.NEET.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.NEET.FE.ZS:SL.UEM.NEET.FE.ZS} - `"Share of youth not in education, employment or training, female (% of female youth population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2928,7 +2928,7 @@
 {marker topicid_SL.UEM.NEET.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.NEET.MA.ZS:SL.UEM.NEET.MA.ZS} - `"Share of youth not in education, employment or training, male (% of male youth population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -2941,7 +2941,7 @@
 {marker topicid_SL.UEM.NEET.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.NEET.ZS:SL.UEM.NEET.ZS} - `"Share of youth not in education, employment or training, total (% of youth population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -3071,7 +3071,7 @@
 {marker topicid_SL.UEM.TOTL.FE.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.FE.NE.ZS:SL.UEM.TOTL.FE.NE.ZS} - `"Unemployment, female (% of female labor force) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -3084,7 +3084,7 @@
 {marker topicid_SL.UEM.TOTL.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.FE.ZS:SL.UEM.TOTL.FE.ZS} - `"Unemployment, female (% of female labor force) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -3097,7 +3097,7 @@
 {marker topicid_SL.UEM.TOTL.MA.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.MA.NE.ZS:SL.UEM.TOTL.MA.NE.ZS} - `"Unemployment, male (% of male labor force) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -3110,7 +3110,7 @@
 {marker topicid_SL.UEM.TOTL.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.MA.ZS:SL.UEM.TOTL.MA.ZS} - `"Unemployment, male (% of male labor force) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -3123,7 +3123,7 @@
 {marker topicid_SL.UEM.TOTL.NE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.NE.ZS:SL.UEM.TOTL.NE.ZS} - `"Unemployment, total (% of total labor force) (national estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -3136,7 +3136,7 @@
 {marker topicid_SL.UEM.TOTL.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.ZS:SL.UEM.TOTL.ZS} - `"Unemployment, total (% of total labor force) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -3149,7 +3149,7 @@
 {marker topicid_SL.WAG.0714.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.WAG.0714.FE.ZS:SL.WAG.0714.FE.ZS} - `"Children in employment, wage workers, female (% of female children in employment, ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -3162,7 +3162,7 @@
 {marker topicid_SL.WAG.0714.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.WAG.0714.MA.ZS:SL.WAG.0714.MA.ZS} - `"Children in employment, wage workers, male (% of male children in employment, ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -3175,7 +3175,7 @@
 {marker topicid_SL.WAG.0714.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.WAG.0714.ZS:SL.WAG.0714.ZS} - `"Children in employment, wage workers (% of children in employment, ages 7-14)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -3240,7 +3240,7 @@
 {marker topicid_per_allsp.adq_pop_tot}
 {synopt:{bf:{help wbopendata_topicid##per_allsp.adq_pop_tot:per_allsp.adq_pop_tot} - `"Adequacy of social protection and labor programs (% of total welfare of beneficiary households)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -3916,7 +3916,7 @@
 {marker topicid_per_allsp.ben_q1_tot}
 {synopt:{bf:{help wbopendata_topicid##per_allsp.ben_q1_tot:per_allsp.ben_q1_tot} - `"Benefit incidence of social protection and labor programs to poorest quintile (% of total SPL benefits)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -4566,7 +4566,7 @@
 {marker topicid_per_allsp.cov_pop_tot}
 {synopt:{bf:{help wbopendata_topicid##per_allsp.cov_pop_tot:per_allsp.cov_pop_tot} - `"Coverage of social protection and labor programs (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -6984,7 +6984,7 @@
 {marker topicid_per_lm_alllm.adq_pop_tot}
 {synopt:{bf:{help wbopendata_topicid##per_lm_alllm.adq_pop_tot:per_lm_alllm.adq_pop_tot} - `"Adequacy of unemployment benefits and ALMP (% of total welfare of beneficiary households)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -7660,7 +7660,7 @@
 {marker topicid_per_lm_alllm.ben_q1_tot}
 {synopt:{bf:{help wbopendata_topicid##per_lm_alllm.ben_q1_tot:per_lm_alllm.ben_q1_tot} - `"Benefit incidence of unemployment benefits and ALMP to poorest quintile (% of total U/ALMP benefits)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -8310,7 +8310,7 @@
 {marker topicid_per_lm_alllm.cov_pop_tot}
 {synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cov_pop_tot:per_lm_alllm.cov_pop_tot} - `"Coverage of unemployment benefits and ALMP (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -8362,7 +8362,7 @@
 {marker topicid_per_lm_alllm.cov_q1_tot}
 {synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cov_q1_tot:per_lm_alllm.cov_q1_tot} - `"Coverage of unemployment benefits and ALMP in poorest quintile (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -8414,7 +8414,7 @@
 {marker topicid_per_lm_alllm.cov_q2_tot}
 {synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cov_q2_tot:per_lm_alllm.cov_q2_tot} - `"Coverage of unemployment benefits and ALMP in 2nd quintile (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -8466,7 +8466,7 @@
 {marker topicid_per_lm_alllm.cov_q3_tot}
 {synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cov_q3_tot:per_lm_alllm.cov_q3_tot} - `"Coverage of unemployment benefits and ALMP in 3rd quintile (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -8518,7 +8518,7 @@
 {marker topicid_per_lm_alllm.cov_q4_tot}
 {synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cov_q4_tot:per_lm_alllm.cov_q4_tot} - `"Coverage of unemployment benefits and ALMP in 4th quintile (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -8570,7 +8570,7 @@
 {marker topicid_per_lm_alllm.cov_q5_tot}
 {synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cov_q5_tot:per_lm_alllm.cov_q5_tot} - `"Coverage of unemployment benefits and ALMP in richest quintile (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -13380,7 +13380,7 @@
 {marker topicid_per_sa_allsa.adq_pop_tot}
 {synopt:{bf:{help wbopendata_topicid##per_sa_allsa.adq_pop_tot:per_sa_allsa.adq_pop_tot} - `"Adequacy of social safety net programs (% of total welfare of beneficiary households)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -14056,7 +14056,7 @@
 {marker topicid_per_sa_allsa.ben_q1_tot}
 {synopt:{bf:{help wbopendata_topicid##per_sa_allsa.ben_q1_tot:per_sa_allsa.ben_q1_tot} - `"Benefit incidence of social safety net programs to poorest quintile (% of total safety net benefits)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -14706,7 +14706,7 @@
 {marker topicid_per_sa_allsa.cov_pop_tot}
 {synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cov_pop_tot:per_sa_allsa.cov_pop_tot} - `"Coverage of social safety net programs (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -14758,7 +14758,7 @@
 {marker topicid_per_sa_allsa.cov_q1_tot}
 {synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cov_q1_tot:per_sa_allsa.cov_q1_tot} - `"Coverage of social safety net programs in poorest quintile (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -14810,7 +14810,7 @@
 {marker topicid_per_sa_allsa.cov_q2_tot}
 {synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cov_q2_tot:per_sa_allsa.cov_q2_tot} - `"Coverage of social safety net programs in 2nd quintile (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -14862,7 +14862,7 @@
 {marker topicid_per_sa_allsa.cov_q3_tot}
 {synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cov_q3_tot:per_sa_allsa.cov_q3_tot} - `"Coverage of social safety net programs in 3rd quintile (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -14914,7 +14914,7 @@
 {marker topicid_per_sa_allsa.cov_q4_tot}
 {synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cov_q4_tot:per_sa_allsa.cov_q4_tot} - `"Coverage of social safety net programs in 4th quintile (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -14966,7 +14966,7 @@
 {marker topicid_per_sa_allsa.cov_q5_tot}
 {synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cov_q5_tot:per_sa_allsa.cov_q5_tot} - `"Coverage of social safety net programs in richest quintile (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -24872,7 +24872,7 @@
 {marker topicid_per_si_allsi.adq_pop_tot}
 {synopt:{bf:{help wbopendata_topicid##per_si_allsi.adq_pop_tot:per_si_allsi.adq_pop_tot} - `"Adequacy of social insurance programs (% of total welfare of beneficiary households)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -25548,7 +25548,7 @@
 {marker topicid_per_si_allsi.ben_q1_tot}
 {synopt:{bf:{help wbopendata_topicid##per_si_allsi.ben_q1_tot:per_si_allsi.ben_q1_tot} - `"Benefit incidence of social insurance programs to poorest quintile (% of total social insurance benefits)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -26198,7 +26198,7 @@
 {marker topicid_per_si_allsi.cov_pop_tot}
 {synopt:{bf:{help wbopendata_topicid##per_si_allsi.cov_pop_tot:per_si_allsi.cov_pop_tot} - `"Coverage of social insurance programs (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -26250,7 +26250,7 @@
 {marker topicid_per_si_allsi.cov_q1_tot}
 {synopt:{bf:{help wbopendata_topicid##per_si_allsi.cov_q1_tot:per_si_allsi.cov_q1_tot} - `"Coverage of social insurance programs in poorest quintile (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -26302,7 +26302,7 @@
 {marker topicid_per_si_allsi.cov_q2_tot}
 {synopt:{bf:{help wbopendata_topicid##per_si_allsi.cov_q2_tot:per_si_allsi.cov_q2_tot} - `"Coverage of social insurance programs in 2nd quintile (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -26354,7 +26354,7 @@
 {marker topicid_per_si_allsi.cov_q3_tot}
 {synopt:{bf:{help wbopendata_topicid##per_si_allsi.cov_q3_tot:per_si_allsi.cov_q3_tot} - `"Coverage of social insurance programs in 3rd quintile (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -26406,7 +26406,7 @@
 {marker topicid_per_si_allsi.cov_q4_tot}
 {synopt:{bf:{help wbopendata_topicid##per_si_allsi.cov_q4_tot:per_si_allsi.cov_q4_tot} - `"Coverage of social insurance programs in 4th quintile (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
@@ -26458,7 +26458,7 @@
 {marker topicid_per_si_allsi.cov_q5_tot}
 {synopt:{bf:{help wbopendata_topicid##per_si_allsi.cov_q5_tot:per_si_allsi.cov_q5_tot} - `"Coverage of social insurance programs in richest quintile (% of population)"'}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 

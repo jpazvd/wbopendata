@@ -10,6 +10,11 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
+{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
+{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
+{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
+{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
+{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -4034,7 +4039,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearan{p_end}
 
@@ -4047,7 +4052,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}All documents required per shipment to export goods are recorded. It is assumed that the contract has already been agreed upon and signed by both parties. Documents required for clearance by government ministries, customs authorities, port and{p_end}
 
@@ -4073,7 +4078,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearan{p_end}
 
@@ -4099,7 +4104,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Time to import is the time necessary to comply with all procedures required to import goods. Time is recorded in calendar days. The time calculation for a procedure starts from the moment it is initiated and runs until it is completed. If a pr{p_end}
 
@@ -7728,7 +7733,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source refers to the percentage of the population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the use{p_end}
 
@@ -7778,7 +7783,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Access to improved sanitation facilities refers to the percentage of the population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include{p_end}
 
@@ -7791,7 +7796,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Access to improved sanitation facilities, rural, refers to the percentage of the rural population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact{p_end}
 
@@ -7804,7 +7809,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Access to improved sanitation facilities, urban, refers to the percentage of the urban population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact{p_end}
 
@@ -8194,7 +8199,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural secto{p_end}
 
@@ -8256,7 +8261,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
@@ -8282,7 +8287,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with primary education is the share of the male labor force that attained or completed primary education as the highest level of education.{p_end}
 
@@ -8308,7 +8313,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Female labor force with secondary education is the share of the female labor force that attained or completed secondary education as the highest level of education.{p_end}
 
@@ -8321,7 +8326,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with secondary education is the share of the male labor force that attained or completed secondary education as the highest level of education.{p_end}
 
@@ -8347,7 +8352,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Female labor force with tertiary education is the share of the female labor force that attained or completed tertiary education as the highest level of education.{p_end}
 
@@ -8360,7 +8365,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with tertiary education is the share of the male labor force that attained or completed tertiary education as the highest level of education.{p_end}
 
@@ -8501,7 +8506,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Male unemployment with secondary education is the share of the male unemployed who attained or completed secondary education as the highest level.{p_end}
 
@@ -8540,7 +8545,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Emigration rate of tertiary educated shows the stock of emigrants ages 25 and older, residing in an OECD country other than that in which they were born, with at least one year of tertiary education as a percentage of the population age 25 and{p_end}
 
@@ -9779,7 +9784,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or receiving wages, g{p_end}
 
@@ -9857,7 +9862,7 @@
 
 {synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (female, % age 15+). [ts: data are{p_end}
 

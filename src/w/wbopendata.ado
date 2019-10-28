@@ -44,6 +44,7 @@ version 9.0
 						 FORCE						///
 						 SHORT						///
 						 DETAIL						///
+						 CTRYLIST					///
 						 MATCH(string)				///
 							ISO					///
 							REGIONS				///
@@ -94,7 +95,7 @@ version 9.0
 			
 		if ("`update'" != "") & wordcount("`query' `check' `countrymetadata' `all'")== 1 {
 
-			noi _update_wbopendata, update `query' `check'	`countrymetadata' `all' `force' `short' `detail' 
+			noi _update_wbopendata, update `query' `check'	`countrymetadata' `all' `force' `short' `detail' `ctrylist'
 			break
 					
 		}

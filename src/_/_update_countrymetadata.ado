@@ -77,7 +77,6 @@ quietly {
 				nopreserve ///
 				parameter( country?id iso2Code name region?id adminregion?id incomeLevel?id lendingType?id iso2code capitalCity latitude longitude )
 
-				noi di in smcl in g ""
 				noi di in smcl in g "{bf: Downloading country metadata... COMPLETED!}"
 				noi di in smcl in g ""
 				noi di in smcl in g "{bf: Processing country metadata...}"
@@ -392,7 +391,6 @@ quietly {
 
 	}
 			
-		noi di in smcl in g ""
 		noi di in smcl in g "{bf: Processing country metadata... COMPLETED!}"
 		noi di in smcl in g ""
 		tempfile tmp
@@ -435,7 +433,6 @@ quietly {
 				copy `tmpCTRYtmp' `indicator'
 			}
 			
-			noi di in smcl in g ""
 			noi di in smcl in g "{bf: Processing country list... COMPLETED!}"
 			noi di in smcl in g ""
 
@@ -545,7 +542,6 @@ quietly {
 		
 		*******************************************************************************
 
-		noi di in smcl in g ""
 		noi di in smcl in g "{bf: Processing country documentation... COMPLETED!}"
 
 		
