@@ -111,7 +111,7 @@
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Primary income on foreign direct investment covers payments of direct investment income (debit side), which consist of income on equity (dividends, branch profits, and reinvested earnings) and income on the intercompany debt (interest). Data a{p_end}
 
@@ -1450,7 +1450,7 @@
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}IDA grants are net disbursements of grants from the International Development Association (IDA). Data are in current U.S. dollars. Regional allocations are included in aggregate data.{p_end}
 
@@ -2217,7 +2217,7 @@
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
 {synopt:{opt Source Notes}}Debt forgiveness grants data cover both debt cancelled by agreement between debtor and creditor and a reduction in the net present value of non-ODA debt achieved by concessional rescheduling or refinancing. The  data are on a disbursement basi{p_end}
 
@@ -3101,7 +3101,7 @@
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Total interest payments to gross national income.{p_end}
 
