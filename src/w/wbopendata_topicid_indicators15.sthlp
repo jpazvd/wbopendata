@@ -471,7 +471,7 @@
 {marker topicid_SP.DYN.LE00.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN} - Life expectancy at birth, female (years)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}15 Social Development{p_end}
 
@@ -484,7 +484,7 @@
 {marker topicid_SP.DYN.LE00.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.MA.IN:SP.DYN.LE00.MA.IN} - Life expectancy at birth, male (years)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}15 Social Development{p_end}
 

@@ -1,9 +1,7 @@
 *******************************************************************************
-* _query                                                                      
-*! v 15.1  	04Mar2019               by Joao Pedro Azevedo                     
-*	_countrydata.ado
-*	error 21, 22 no longer break if no metadata is found
-*	error 23 added to diferentiate from regular error 20: data not found, moved to archive
+* _query   
+*! v 16.0   29Oct2019				by Joao Pedro Azevedo
+*	support to HPP population projections
 *******************************************************************************
 
 program def _query, rclass
@@ -17,18 +15,17 @@ version 9.0
                          TOPICS(string)             ///
                          INDICATOR(string)          ///
                          YEAR(string)               ///
+						 DATE(string)				///
                          LONG                       ///
                          CLEAR                      ///
                          LATEST                     ///
                          NOMETADATA                 ///
+						 PROJECTION					///	
+						 SOURCE(string)				///
                  ]
 
 
 quietly {
-
-	if ("`year'" == "") {
-		local year `date'
-	}
 
     if ("`language'" == "") {
         local language "en"
@@ -70,13 +67,23 @@ quietly {
         if ("`indicator2'" == "") {
             local indicator2 "`indicator1'"
         }
-        if ("`year'" != "") {
+        if ("`projection'" != "") {
+			local source "source=40&"
+		}
+		if ("`date'" != "") {
+			local date1 "&date=`date'"
+		}
+		else {
+			local date1 ""
+		}
+		if ("`year'" != "") {
 			local year1	"&date=`year'"
 		}
 		else {
 			local year1 	""
 		}
-        local parameter "Indicators/`indicator1'?downloadformat=CSV&HREQ=N&filetype=data`year1'"
+		
+        local parameter "Indicators/`indicator1'?`source'downloadformat=CSV&HREQ=N&filetype=data`year1'`date1'"
         local id " countryname countrycode "
     }
 
@@ -105,7 +112,10 @@ quietly {
         di  as err "latest option can only be used for the selection of specific indicators in the long format. Please try again."
         exit 198
     }
-
+	if ("`year'" != "") & ("`date'" != "") {
+		di  as err "only YEAR or DATE can be specified at once. Please try again."
+		exit 198
+	}
     if ("`country'" == "") & ("`indicator'" != "") {
         local country2 "all"
     }
@@ -393,26 +403,40 @@ end
 
 *******************************************************************************
 * _query                                                                      *
+* v 15.1  	04Mar2019               by Joao Pedro Azevedo                     
+*	_countrydata.ado
+*	error 21, 22 no longer break if no metadata is found
+*	error 23 added to diferentiate from regular error 20: data not found, moved to archive
+*******************************************************************************
 *  v 14.1  	18Jan2019               by Joao Pedro Azevedo                     
+*******************************************************************************
 *  v 14  	07/01/2014               by Joao Pedro Azevedo                        *
 *		API update version 2
+*******************************************************************************
 *  v 13.4  01jul2014               by Joao Pedro Azevedo                        *
 *       long reshape
+*******************************************************************************
 *  v 13.3  30june2014               by Joao Pedro Azevedo                        *
 *       new error control (clear option)
+*******************************************************************************
 *  v 13.2  24june2014               by Joao Pedro Azevedo                        *
 *       new error control
+*******************************************************************************
 * v 13.1  23june2014               by Joao Pedro Azevedo                        *
 *       regional code, name and iso2code
+*******************************************************************************
 * v 13  20june2014               by Joao Pedro Azevedo                        *
 * 		fix the dups problem                                                    *
 *       improve the error messages                                              *
 *       update the list of indicators to 9960                                 *
+*******************************************************************************
 * v 12  03jan2013               by Joao Pedro Azevedo                         *
 *   update to 7349 indicators
 *   return list include variable name and label
+*******************************************************************************
 * v 11  24jul2012               by Joao Pedro Azevedo                       *
 *   multiple indicators
+*******************************************************************************
 * v 10  22jan2012               by Joao Pedro Azevedo                       *
 *   changes on the dialogue box
 *   changes to incorporate API update from December 15th 2011
@@ -420,35 +444,51 @@ end
 *   incorporates Metadata
 *   hyperlinks from metadata are not valid within Stata
 *   terms of use of the data are now referenced in the hlp file
+*******************************************************************************
 * v 9.2  30aug2011               by Joao Pedro Azevedo                       *
 *   changes to incorporate API update from July 28th 2011
+*******************************************************************************
 * v 9.1  07jul2011               by Joao Pedro Azevedo                       *
 *   year option on indicators query fixed
+*******************************************************************************
 * v 9.0  27jun2011               by Joao Pedro Azevedo                       *
 *   list of indicators updated 4073
+*******************************************************************************
 * v 8.0   22fev2011               by Joao Pedro Azevedo                       *
 *   new server and query structure for indicators search                        *
 *   latest; year(year1:year2) options included                                  *
+*******************************************************************************
 * v 7.0   08fev2011               by Joao Pedro Azevedo                       *
 *   change ado file name                                                        *
+*******************************************************************************
 * v 6.5   04fev2011               by Joao Pedro Azevedo                      *
 *   replace _pecats.ado by _pecats2.ado
+*******************************************************************************
 * v 6.4   03fev2011               by Joao Pedro Azevedo                      *
 *   change error codes
+*******************************************************************************
 * v 6.3   01fev2011               by Joao Pedro Azevedo                      *
 *   region, regioinname, country iso2code now included
+*******************************************************************************
 * v 6.0   31jan2011               by Joao Pedro Azevedo                      *
 *   api server open to the Stata community
+*******************************************************************************
 * v 5.0   12jan2011                 by Joao Pedro Azevedo                     *
 *   change variable name in long format
+*******************************************************************************
 * v 4.0   20dez2010                 by Joao Pedro Azevedo                     *
 *   full list of countries and indicators
+*******************************************************************************
 * v 3.0   15dez2010                 by Joao Pedro Azevedo                     *
 *   rename wdi to wbopendata
+*******************************************************************************
 * v 2.2   14dez2010                 by Joao Pedro Azevedo                     *
 *   dialogue
+*******************************************************************************
 * v 2.1   10dez2010                 by Joao Pedro Azevedo                     *
 *   long option
+*******************************************************************************
 * v 2.0   09dez2010                 by Joao Pedro Azevedo                     *
+*******************************************************************************
 * v 1.0   02nov2010                 by Joao Pedro Azevedo                     *
 *******************************************************************************
