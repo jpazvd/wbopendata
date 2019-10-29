@@ -1,12 +1,11 @@
-v 15.2
+v 16.0
 d 'WBOPENDATA'
 d 
-d Distribution-Date: 21Mar2019
+d Distribution-Date: 28Oct2019
 d License: MIT
 d 
 F src/c/country.txt
 F src/i/indicators.txt
-F src/w/wbopendata
 F src/w/wbopendata.ado
 F src/w/wbopendata.dlg
 F src/w/wbopendata.sthlp
@@ -47,6 +46,7 @@ F src/w/wbopendata_sourceid_indicators35.sthlp
 F src/w/wbopendata_sourceid_indicators36.sthlp
 F src/w/wbopendata_sourceid_indicators37.sthlp
 F src/w/wbopendata_sourceid_indicators39.sthlp
+F src/w/wbopendata_sourceid_indicators40.sthlp
 F src/w/wbopendata_sourceid_indicators41.sthlp
 F src/w/wbopendata_sourceid_indicators45.sthlp
 F src/w/wbopendata_sourceid_indicators46.sthlp
@@ -61,6 +61,13 @@ F src/w/wbopendata_sourceid_indicators63.sthlp
 F src/w/wbopendata_sourceid_indicators64.sthlp
 F src/w/wbopendata_sourceid_indicators65.sthlp
 F src/w/wbopendata_sourceid_indicators66.sthlp
+F src/w/wbopendata_sourceid_indicators67.sthlp
+F src/w/wbopendata_sourceid_indicators69.sthlp
+F src/w/wbopendata_sourceid_indicators70.sthlp
+F src/w/wbopendata_sourceid_indicators71.sthlp
+F src/w/wbopendata_sourceid_indicators73.sthlp
+F src/w/wbopendata_sourceid_indicators74.sthlp
+F src/w/wbopendata_sourceid_indicators75.sthlp
 F src/w/wbopendata_topicid.sthlp
 F src/w/wbopendata_topicid_indicators01.sthlp
 F src/w/wbopendata_topicid_indicators02.sthlp
@@ -85,35 +92,18 @@ F src/w/wbopendata_topicid_indicators20.sthlp
 F src/w/wbopendata_topicid_indicators21.sthlp
 F src/w/world-c.dta
 F src/w/world-d.dta
-F src/_/_adminregion.ado
-F src/_/_adminregionname.ado
-F src/_/_adminregion_iso2.ado
 F src/_/_api_read.ado
 F src/_/_api_read_indicators.ado
-F src/_/_capital.ado
-F src/_/_countrycode_iso2.ado
 F src/_/_countrymetadata.ado
-F src/_/_countryname.ado
-F src/_/_incomelevel.ado
-F src/_/_incomelevelname.ado
-F src/_/_incomelevel_iso2.ado
-F src/_/_indicators.ado
-F src/_/_latitude.ado
-F src/_/_lendingtype.ado
-F src/_/_lendingtypename.ado
-F src/_/_lendingtype_iso2.ado
-F src/_/_longitude.ado
 F src/_/_parameters.ado
-F src/_/_pecats2.ado
 F src/_/_query.ado
-F src/_/_query_countrymetadata.ado
 F src/_/_query_indicators.ado
 F src/_/_query_metadata.ado
-F src/_/_region.ado
-F src/_/_regionname.ado
-F src/_/_region_iso2.ado
 F src/_/_tknz.ado
 F src/_/_update_countrymetadata.ado
 F src/_/_update_indicators.ado
-F src/_/_wbopendata.ado
+F src/_/_update_wbopendata.ado
+F src/_/_wbod_tmpfile1.ado
+F src/_/_wbod_tmpfile2.ado
+F src/_/_wbod_tmpfile3.ado
 F src/_/_website.ado
