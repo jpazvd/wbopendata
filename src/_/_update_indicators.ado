@@ -1,24 +1,9 @@
 *******************************************************************************
 * _update_indicators                                                                   
-*! v 16.0   20Oct2019				by João Pedro Azevedo
-*		initial commit
-/*******************************************************************************
+*! v 16.0   27Oct2019				by João Pedro Azevedo
+*		fix macros
+*******************************************************************************
 
-cd "C:\GitHub_myados\wbopendata\src"
-
-! git checkout dev
-
-discard
-
-_api_read_indicators, update preserveout file2(file2.txt)
-
-_update_indicators, file(file2.txt) nosthlp1 nosthlp2
-
-return list
-
-	insheet using file1.txt, delimiter("#") clear name
-
-*******************************************************************************/
 
 program define _update_indicators, rclass
 
@@ -33,6 +18,9 @@ version 9
 				CHECK					///
 				QUERY					///
 				NOIsily					///
+				NAME(string)			///
+				SAVE					///
+				REPLACE					///
 			] 			
 						 
 
@@ -65,8 +53,11 @@ quietly {
 
 	insheet using `file2', delimiter("#") clear name
 
+*	noi di "save tmptmp"
+*	save tmptmp, replace
+	
 	* drop cases in which SOURCEID does not stata with a numeric CODE
-	drop if real(substr(sourceid,1,2))==. & !missing(sourceid)
+	drop if real(substr(sourceid,1,1))==. & !missing(sourceid)
 	
 	gen seq = _n
 
@@ -90,7 +81,7 @@ quietly {
 	foreach var in topicid sourceid {
 		replace `var' = subinstr(`var',"&amp;","and",.) 
 		replace `var' = subinstr(`var',">"," ",.) 
-		replace `var' = string(0)+`var' if length(word(`var',1))==1
+		replace `var' = "0"+`var' if real(substr(`var',1,2))<=9 & real(substr(`var',1,1)) !=.
 	}
 
 	* Indentify multiple entries for the same indicator	
@@ -127,7 +118,7 @@ if ("`noindlist'" == "") {
 	bysort indicatorcode : gen seq = _n
 	keep if seq == 1
 	drop seq
-	sort indicatorcode
+	sort indicatorcode 
 	gen export = indicatorcode + " - " + indicatorname
 	keep export
 	sort export
@@ -145,7 +136,7 @@ if ("`noindlist'" == "") {
 *noi gen length = length(sourcenote)
 *noi sum
 	
-	noi di in smcl in g "{bf: Processing indicators list... COMPLETED!}"
+	noi di in smcl in g "{bf: Processing indicators list...COMPLETED!}"
 
 }
 
@@ -168,11 +159,23 @@ if ("`nosthlp1'" == "") {
 
 		use `tmp', clear
 		
+		
+		if ("`save'" != "") {
+		
+			if ("`name'" == "") {
+				local name "indicators"
+			}
+		
+			save `name'.dta, `replace'
+			noi di in y "`name'.dta saved `replace'"
+			noi di ""
+		}
+		
 		keep if `variable' != ""
 		sort `variable' indicatorcode
 		bysort `variable' indicatorcode : gen `dups`variable'' = _n
 		keep if `dups`variable'' == 1
-		sort `dups`variable'' `variable' indicatorcode
+		sort `dups`variable'' `variable' indicatorcode topicid
 		bysort `dups`variable'' `variable' indicatorcode : gen `seq2`variable'' = _n
 		keep if  `seq2`variable'' == 1
 		sort `variable' `countryname'
@@ -268,7 +271,7 @@ if ("`nosthlp1'" == "") {
 	}		
 	
 	noi di in smcl in g ""
-	noi di in smcl in g "{bf: Processing indicators by source and topic... COMPLETED!}"
+	noi di in smcl in g "{bf: Processing indicators by source and topic...COMPLETED!}"
 	noi di in smcl in g ""
 
 }
@@ -293,7 +296,7 @@ if ("`nosthlp2'" == "") {
 		use `tmp', clear
 		
 		keep if `variable' != ""
-		sort `type' indicatorcode
+		sort `type' indicatorcode topicid
 		bysort `variable' indicatorcode : gen `dups`variable'' = _n
 		keep if `dups`variable'' == 1
 		sort `dups`variable'' `variable' indicatorcode
@@ -338,6 +341,9 @@ if ("`nosthlp2'" == "") {
 			
 			file open `hlp`variable'`tc0''		using 	`help`variable'`tc0'' , write text replace
 
+				********************************************
+				*** Header of Help file
+
 				file write `hlp`variable'`tc0'' "{smcl}" 					_n
 				file write `hlp`variable'`tc0'' "{right:(as of `date')}" 							_n
 				file write `hlp`variable'`tc0'' "" 							_n
@@ -347,6 +353,7 @@ if ("`nosthlp2'" == "") {
 				file write `hlp`variable'`tc0'' "" 							_n
 
 				********************************************
+				*** Help file ToC
 
 				file write `hlp`variable'`tc0'' "{marker toc}" 	_n
 				file write `hlp`variable'`tc0'' "{p 40 20 2}(Go up to {it:{help wbopendata##`variable':`title'}}){p_end}" 	_n
@@ -354,6 +361,7 @@ if ("`nosthlp2'" == "") {
 				file write `hlp`variable'`tc0'' "{synopthdr:`title' Code}" _n
 				file write `hlp`variable'`tc0'' "{synoptline}" 				_n
 
+				********************************************
 				/* begin TOC */
 				foreach topic2 in `levelsof2'   {
 					
@@ -363,10 +371,14 @@ if ("`nosthlp2'" == "") {
 					file write `hlp`variable'`tc0''  `"{synopt:{opt `var1code'}}  {help wbopendata_`variable'_indicators`var1code'##`variable'_`var1code':`var1name'}{p_end}"' _n
 				}
 				/* end TOC */
+				********************************************
 				
 				file write `hlp`variable'`tc0'' "" 				_n
 				file write `hlp`variable'`tc0'' "" 				_n
-				
+
+				********************************************
+				*** begin Footer of ToC
+					
 					sum `seq3`variable'' if `variable' == "`topic1'"
 					local min = r(min)
 					local max = r(max)
@@ -381,24 +393,30 @@ if ("`nosthlp2'" == "") {
 					file write `hlp`variable'`tc0'' "{synoptset 25 tabbed}{...}" 	_n
 					file write `hlp`variable'`tc0'' "{syntab:{title:{bf:`topicode1'}}}" _n
 					*file write `hlp`variable'`tc0'' "{synoptline}" 				_n
+
+				*** end Footer of ToC
+				********************************************
 		
-		
+				********************************************
+				*** begin Indicator loop
 					levelsof indicatorcode if `variable' == "`topic1'"
 					
 					foreach indicator in `r(levels)' {
 					
 						`noi' di "`variable' : `topic1' :  `indicator'"
 
+					*** Indicator metadata
 						local indicatorcode 		"`indicator'"
 						levelsof indicatorname if indicatorcode == "`indicator'"
-						local indicatorname 		"`r(levels)'"
+						local indicatorname 	`r(levels)'
 						levelsof sourceid if indicatorcode == "`indicator'"
-						local sourceid 				"`r(levels)'"
+						local sourceid 				`r(levels)'
 						levelsof sourceorganization if indicatorcode == "`indicator'"
 						local sourceorganization	"`r(levels)'"
 						levelsof sourcenote if indicatorcode == "`indicator'"
 						local sourcenote			"`r(levels)'"
 						
+					*** Adjust websites
 						cap: _website, text(`sourceorganization')
 						if _rc == 0 {
 							local sourceorganization = r(text)
@@ -409,6 +427,7 @@ if ("`nosthlp2'" == "") {
 							local sourcenote = r(text)
 						}
 						
+					*** Header of indicator metadata
 						file write `hlp`variable'`tc0''  "{synoptline}" _n
 						file write `hlp`variable'`tc0''  `"{marker `variable'_`indicatorcode'}"' _n
 						file write `hlp`variable'`tc0''  `"{synopt:{bf:{help wbopendata_`variable'##`indicatorcode':`indicatorcode'} - `indicatorname'}}"' _n 
@@ -416,6 +435,7 @@ if ("`nosthlp2'" == "") {
 						file write `hlp`variable'`tc0''  `"{synopt:{opt Source}}`sourceid'{p_end}"'  _n
 						file write `hlp`variable'`tc0''  "" _n
 
+					*** Loop to add multiple topics in single indicator documentation
 						local ccc = 1
 						levelsof topicid 		if indicatorcode == "`indicator'"
 						foreach topic4 in `r(levels)' {
@@ -427,21 +447,36 @@ if ("`nosthlp2'" == "") {
 								file write `hlp`variable'`tc0''  `"{synopt:    }`topic4'{p_end}"'  _n
 							}
 						}
-
+						local ccc = 0
+					
+					*** Source Notes
 						file write `hlp`variable'`tc0''  "" _n
 						file write `hlp`variable'`tc0''  `"{synopt:{opt Source Notes}}`sourcenote'{p_end}"'  _n
 						file write `hlp`variable'`tc0''  "" _n
+
+					*** Source Organization
 						file write `hlp`variable'`tc0''  `"{synopt:{opt Source Organization}}`sourceorganization'{p_end}"'  _n
 						file write `hlp`variable'`tc0''  "" _n
 						file write `hlp`variable'`tc0''  "" _n
 						
 					}
 				
+				*** end Indicator loop
+				********************************************
+
 					file write `hlp`variable'`tc0''  `""' _n
 					file write `hlp`variable'`tc0'' "{right:(as of `date')}" 							_n
 
+				*** generation date
+				********************************************
+
 			file close `hlp`variable'`tc0''
+
+			*** close file
+			********************************************
 				
+			********************************************
+			*** move file
 			cap: findfile wbopendata_`variable'_indicators`tc0'.sthlp , `path'
 			
 			if _rc == 0 {
@@ -451,6 +486,8 @@ if ("`nosthlp2'" == "") {
 				copy `help`variable'`tc0'' wbopendata_`variable'_indicators`tc0'.sthlp
 			}
 					
+			********************************************
+			*** display file
 			noi di in g in smcl "	See {bf:{help wbopendata_`variable'_indicators`tc0'##`toc':`title' `tc0'}}"
 			
 		}
@@ -458,7 +495,7 @@ if ("`nosthlp2'" == "") {
 	}		
 	
 	noi di in smcl in g ""
-	noi di in smcl in g "{bf: Processing indicators metadata by source and topic... COMPLETED!}"
+	noi di in smcl in g "{bf: Processing indicators metadata by source and topic...COMPLETED!}"
 	noi di in smcl in g ""
 		
 }
@@ -482,7 +519,7 @@ if ("`nosthlp2'" == "") {
 		tab sourceid, m
 		
 		levelsof sourceid
-		return local sourceid  " `"`r(levels)'"' "
+		return local sourceid  `"`r(levels)'"' 
 		
 		foreach varvalue in `r(levels)' {
 			di `"`varvalue'"'
@@ -510,7 +547,8 @@ if ("`nosthlp2'" == "") {
 		tab topicid, m
 	
 		levelsof topicid
-		return local topicid " `"`r(levels)'"' "
+		return local topicid `"`r(levels)'"'
+		
 		foreach varvalue in `r(levels)' {
 			di `"`varvalue'"'
 			sum if topicid == "`varvalue'" & topicid != ""
@@ -547,3 +585,4 @@ end
 *******************************************************************************
 * _indicators                                                                     *
 *! v 15.1   10Mar2019				by João Pedro Azevedo
+*******************************************************************************

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 20oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -10,6 +10,11 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
+{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
+{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
+{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
+{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
+{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -34,6 +39,7 @@
 {synopt:{opt 36}}  {help wbopendata_sourceid_indicators36##sourceid_36:Statistical Capacity Indicators}{p_end}
 {synopt:{opt 37}}  {help wbopendata_sourceid_indicators37##sourceid_37:LAC Equity Lab}{p_end}
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
+{synopt:{opt 40}}  {help wbopendata_sourceid_indicators40##sourceid_40:Population estimates and projections}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
@@ -53,7 +59,6 @@
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
-{synopt:{opt 74}}  {help wbopendata_sourceid_indicators74##sourceid_74:Macro Poverty Outlook External}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
@@ -64,9 +69,9 @@
 {syntab:{title:{bf:24 Poverty and Equity}}}
 {synoptline}
 {marker sourceid_SI.POV.ATTM.MI}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.ATTM.MI:SI.POV.ATTM.MI} - `"Multidimensional poverty, Educational attainment (% of population deprived)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.ATTM.MI:SI.POV.ATTM.MI} - Multidimensional poverty, Educational attainment (% of population deprived)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Multidimensional poverty, educational attainment (% of population deprived) is percentage of population deprived of primary educational attainment. A household is deprived if no adult (grade 9 equivalent age or above) has completed primary edu{p_end}
@@ -76,9 +81,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.14}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.14:SI.POV.DDAY.14} - `"Poverty headcount ratio at $1.90 a day, age 0-14  (2011 PPP) (% of population age 0-14)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.14:SI.POV.DDAY.14} - Poverty headcount ratio at $1.90 a day, age 0-14  (2011 PPP) (% of population age 0-14)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day, age 0-14 is the percentage of population age 0-14 living on less than $1.90 a day at 2011 international prices.{p_end}
@@ -88,9 +93,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.1564}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.1564:SI.POV.DDAY.1564} - `"Poverty headcount ratio at $1.90 a day, age 15-64 (2011 PPP) (% of population age 15-64)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.1564:SI.POV.DDAY.1564} - Poverty headcount ratio at $1.90 a day, age 15-64 (2011 PPP) (% of population age 15-64)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day, age 15-64 is the percentage of population age 15-64 living on less than $1.90 a day at 2011 international prices.{p_end}
@@ -100,9 +105,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.16.PL}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.16.PL:SI.POV.DDAY.16.PL} - `"Poverty headcount ratio at $1.90 a day, without education (2011 PPP) (% of population age 16+ without education)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.16.PL:SI.POV.DDAY.16.PL} - Poverty headcount ratio at $1.90 a day, without education (2011 PPP) (% of population age 16+ without education)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day, without education is the percentage of population age 16 and over without education living on less than $1.90 a day at 2011 international prices.{p_end}
@@ -112,9 +117,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.16.PR}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.16.PR:SI.POV.DDAY.16.PR} - `"Poverty headcount ratio at $1.90 a day, with primary education (2011 PPP) (% of population age 16+ with primary education)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.16.PR:SI.POV.DDAY.16.PR} - Poverty headcount ratio at $1.90 a day, with primary education (2011 PPP) (% of population age 16+ with primary education)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day, with primary education is the percentage of population age 16 and over with primary education living on less than $1.90 a day at 2011 international prices.{p_end}
@@ -124,9 +129,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.16.SG}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.16.SG:SI.POV.DDAY.16.SG} - `"Poverty headcount ratio at $1.90 a day, with secondary education (2011 PPP) (% of population age 16+ with secondary education)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.16.SG:SI.POV.DDAY.16.SG} - Poverty headcount ratio at $1.90 a day, with secondary education (2011 PPP) (% of population age 16+ with secondary education)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day, with secondary education is the percentage of population age 16 and over with secondary education living on less than $1.90 a day at 2011 international prices.{p_end}
@@ -136,9 +141,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.16.ST}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.16.ST:SI.POV.DDAY.16.ST} - `"Poverty headcount ratio at $1.90 a day,  with Tertiary/post-secondary education (2011 PPP) (% of population age 16+ with Tertiary/post-secondary education)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.16.ST:SI.POV.DDAY.16.ST} - Poverty headcount ratio at $1.90 a day,  with Tertiary/post-secondary education (2011 PPP) (% of population age 16+ with Tertiary/post-secondary education)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day, with Tertiary/post-secondary education is the percentage of population age 16 and over with Tertiary/post-secondary education living on less than $1.90 a day at 2011 international prices.{p_end}
@@ -148,9 +153,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.65}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.65:SI.POV.DDAY.65} - `"Poverty headcount ratio at $1.90 a day, age 65+ (2011 PPP) (% of population age 65+)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.65:SI.POV.DDAY.65} - Poverty headcount ratio at $1.90 a day, age 65+ (2011 PPP) (% of population age 65+)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day, age 65+ is the percentage of population age 65 and over living on less than $1.90 a day at 2011 international prices.{p_end}
@@ -160,9 +165,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.FE}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.FE:SI.POV.DDAY.FE} - `"Poverty headcount ratio at $1.90 a day, Female (2011 PPP) (% of female population)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.FE:SI.POV.DDAY.FE} - Poverty headcount ratio at $1.90 a day, Female (2011 PPP) (% of female population)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day, female is the percentage of female population living on less than $1.90 a day at 2011 international prices.{p_end}
@@ -172,9 +177,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.GR}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.GR:SI.POV.DDAY.GR} - `"Growth component of change in poverty at $1.90 a day (2011 PPP) (% of change)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.GR:SI.POV.DDAY.GR} - Growth component of change in poverty at $1.90 a day (2011 PPP) (% of change)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -184,9 +189,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.MA}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.MA:SI.POV.DDAY.MA} - `"Poverty headcount ratio at $1.90 a day, Male  (2011 PPP) (% of male population)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.MA:SI.POV.DDAY.MA} - Poverty headcount ratio at $1.90 a day, Male  (2011 PPP) (% of male population)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day, male is the percentage of male population living on less than $1.90 a day at 2011 international prices.{p_end}
@@ -196,9 +201,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.MI}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.MI:SI.POV.DDAY.MI} - `"Multidimensional poverty, Monetary poverty (% of population deprived)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.MI:SI.POV.DDAY.MI} - Multidimensional poverty, Monetary poverty (% of population deprived)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Multidimensional poverty, Monetary poverty (% of population deprived) is the percentage of the population living on less than $1.90 a day at 2011 international prices. A household is deprived if income or expenditure, in 2011 purchasing power{p_end}
@@ -208,9 +213,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.RE}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.RE:SI.POV.DDAY.RE} - `"Redistribution component of change in poverty at $1.90 a day (2011 PPP) (% of change)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.RE:SI.POV.DDAY.RE} - Redistribution component of change in poverty at $1.90 a day (2011 PPP) (% of change)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -220,9 +225,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.RU}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.RU:SI.POV.DDAY.RU} - `"Poverty headcount ratio at $1.90 a day, rural (2011 PPP) (% of rural population)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.RU:SI.POV.DDAY.RU} - Poverty headcount ratio at $1.90 a day, rural (2011 PPP) (% of rural population)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day, rural is the percentage of rural population living on less than $1.90 a day at 2011 international prices.{p_end}
@@ -232,9 +237,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.UR}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.UR:SI.POV.DDAY.UR} - `"Poverty headcount ratio at $1.90 a day, urban (2011 PPP) (% of urban population)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.UR:SI.POV.DDAY.UR} - Poverty headcount ratio at $1.90 a day, urban (2011 PPP) (% of urban population)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day, urban is the percentage of urban population living on less than $1.90 a day at 2011 international prices.{p_end}
@@ -244,9 +249,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.ELEC.MI}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.ELEC.MI:SI.POV.ELEC.MI} - `"Multidimensional poverty, Electricity (% of population deprived)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.ELEC.MI:SI.POV.ELEC.MI} - Multidimensional poverty, Electricity (% of population deprived)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Multidimensional poverty, electricity (% of population deprived) is percentage of population deprived of electricity. A household is deprived if it does not have access to electricity.{p_end}
@@ -256,9 +261,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.ENRL.MI}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.ENRL.MI:SI.POV.ENRL.MI} - `"Multidimensional poverty, Educational enrollment (% of population deprived)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.ENRL.MI:SI.POV.ENRL.MI} - Multidimensional poverty, Educational enrollment (% of population deprived)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Multidimensional poverty, educational enrollment (% of population deprived) is percentage of population deprived of school enrollment. A household is deprived if at least one child (grade 8 equivalent age or below) is not enrolled in school.{p_end}
@@ -268,9 +273,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.HCRT.MI}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.HCRT.MI:SI.POV.HCRT.MI} - `"Multidimensional poverty, Headcount ratio (% of population)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.HCRT.MI:SI.POV.HCRT.MI} - Multidimensional poverty, Headcount ratio (% of population)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Multidimensional poverty, headcount ratio (% of population) is the share of people who are considered multidimensionally deprived. It is estimated on the basis of three dimensions—monetary, education, and basic infrastructure access and an o{p_end}
@@ -280,9 +285,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.LMIC.GR}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.LMIC.GR:SI.POV.LMIC.GR} - `"Growth component of change in poverty at $3.20 a day (2011 PPP) (% of change)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.LMIC.GR:SI.POV.LMIC.GR} - Growth component of change in poverty at $3.20 a day (2011 PPP) (% of change)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -292,9 +297,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.LMIC.NO}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.LMIC.NO:SI.POV.LMIC.NO} - `"Number of poor at $3.20 a day (2011 PPP) (millions)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.LMIC.NO:SI.POV.LMIC.NO} - Number of poor at $3.20 a day (2011 PPP) (millions)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -304,9 +309,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.LMIC.RE}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.LMIC.RE:SI.POV.LMIC.RE} - `"Redistribution component of change in poverty at $3.20 a day (2011 PPP) (% of change)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.LMIC.RE:SI.POV.LMIC.RE} - Redistribution component of change in poverty at $3.20 a day (2011 PPP) (% of change)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -316,9 +321,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.NAGP.NC}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.NAGP.NC:SI.POV.NAGP.NC} - `"Poverty gap at national poverty lines (%), including noncomparable values"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.NAGP.NC:SI.POV.NAGP.NC} - Poverty gap at national poverty lines (%), including noncomparable values}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -328,9 +333,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.NAHC.NC}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.NAHC.NC:SI.POV.NAHC.NC} - `"Poverty headcount ratio at national poverty lines (% of population), including noncomparable values"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.NAHC.NC:SI.POV.NAHC.NC} - Poverty headcount ratio at national poverty lines (% of population), including noncomparable values}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -340,9 +345,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.NOP1}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.NOP1:SI.POV.NOP1} - `"Number of poor at $1.90 a day (2011 PPP) (millions)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.NOP1:SI.POV.NOP1} - Number of poor at $1.90 a day (2011 PPP) (millions)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}The number of people (millions) living on less than $1.90 a day (2011 PPP){p_end}
@@ -352,9 +357,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.RUGP.NC}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.RUGP.NC:SI.POV.RUGP.NC} - `"Rural poverty gap at national poverty lines (%), including noncomparable values"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.RUGP.NC:SI.POV.RUGP.NC} - Rural poverty gap at national poverty lines (%), including noncomparable values}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -364,9 +369,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.RUHC.NC}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.RUHC.NC:SI.POV.RUHC.NC} - `"Rural poverty headcount ratio at national poverty lines (% of rural population), including noncomparable values"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.RUHC.NC:SI.POV.RUHC.NC} - Rural poverty headcount ratio at national poverty lines (% of rural population), including noncomparable values}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -376,9 +381,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.SANI.MI}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.SANI.MI:SI.POV.SANI.MI} - `"Multidimensional poverty, Sanitation (% of population deprived)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.SANI.MI:SI.POV.SANI.MI} - Multidimensional poverty, Sanitation (% of population deprived)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Multidimensional poverty, sanitation (% of population deprived) is percentage of population deprived of sanitation. A household is deprived if it does not have access to even a limited standard of sanitation.{p_end}
@@ -388,9 +393,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.UMIC.GR}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.UMIC.GR:SI.POV.UMIC.GR} - `"Growth component of change in poverty at $5.50 a day (2011 PPP) (% of change)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.UMIC.GR:SI.POV.UMIC.GR} - Growth component of change in poverty at $5.50 a day (2011 PPP) (% of change)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -400,9 +405,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.UMIC.NO}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.UMIC.NO:SI.POV.UMIC.NO} - `"Number of poor at $5.50 a day (2011 PPP) (millions)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.UMIC.NO:SI.POV.UMIC.NO} - Number of poor at $5.50 a day (2011 PPP) (millions)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -412,9 +417,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.UMIC.RE}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.UMIC.RE:SI.POV.UMIC.RE} - `"Redistribution component of change in poverty at $5.50 a day (2011 PPP) (% of change)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.UMIC.RE:SI.POV.UMIC.RE} - Redistribution component of change in poverty at $5.50 a day (2011 PPP) (% of change)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -424,9 +429,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.URGP.NC}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.URGP.NC:SI.POV.URGP.NC} - `"Urban poverty gap at national poverty lines (%), including noncomparable values"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.URGP.NC:SI.POV.URGP.NC} - Urban poverty gap at national poverty lines (%), including noncomparable values}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -436,9 +441,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.URHC.NC}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.URHC.NC:SI.POV.URHC.NC} - `"Urban poverty headcount ratio at national poverty lines (% of urban population), including noncomparable values"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.URHC.NC:SI.POV.URHC.NC} - Urban poverty headcount ratio at national poverty lines (% of urban population), including noncomparable values}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -448,9 +453,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.WATR.MI}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.WATR.MI:SI.POV.WATR.MI} - `"Multidimensional poverty, Drinking water (% of population deprived)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.WATR.MI:SI.POV.WATR.MI} - Multidimensional poverty, Drinking water (% of population deprived)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Multidimensional poverty, drinking water (% of population deprived) is percentage of population deprived of drinking water. A household is deprived if it does not have access to even a limited standard of drinking water.{p_end}
@@ -460,9 +465,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.XPND.MD}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.XPND.MD:SI.POV.XPND.MD} - `"Median daily per capita income or consumption expenditure (2011 PPP)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.XPND.MD:SI.POV.XPND.MD} - Median daily per capita income or consumption expenditure (2011 PPP)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}Median daily per capita income or consumption expenditure (2011 PPP) is computed as the median of per capita household income or consumption from household surveys. The median is the 50th percentile of per capita household income/consumption d{p_end}
@@ -472,9 +477,9 @@
 
 {synoptline}
 {marker sourceid_SI.POV.XPND.MD.ZG}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.XPND.MD.ZG:SI.POV.XPND.MD.ZG} - `"Annualized growth in per capita real survey median income or consumption expenditure (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.XPND.MD.ZG:SI.POV.XPND.MD.ZG} - Annualized growth in per capita real survey median income or consumption expenditure (%)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}The growth rate in the welfare aggregate of median (50th percentile) is computed as the annualized growth in per capita real income or consumption of the median (50th percentile) of the income distribution in a country from household surveys o{p_end}
@@ -484,9 +489,9 @@
 
 {synoptline}
 {marker sourceid_SI.SPR.PT10}
-{synopt:{bf:{help wbopendata_sourceid##SI.SPR.PT10:SI.SPR.PT10} - `"Survey mean consumption or income per capita, top 10% (2011 PPP $ per day)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.SPR.PT10:SI.SPR.PT10} - Survey mean consumption or income per capita, top 10% (2011 PPP $ per day)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -496,9 +501,9 @@
 
 {synoptline}
 {marker sourceid_SI.SPR.PT10.ZG}
-{synopt:{bf:{help wbopendata_sourceid##SI.SPR.PT10.ZG:SI.SPR.PT10.ZG} - `"Annualized growth in per capita real survey mean consumption or income, top 10% (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.SPR.PT10.ZG:SI.SPR.PT10.ZG} - Annualized growth in per capita real survey mean consumption or income, top 10% (%)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -508,9 +513,9 @@
 
 {synoptline}
 {marker sourceid_SI.SPR.PT60}
-{synopt:{bf:{help wbopendata_sourceid##SI.SPR.PT60:SI.SPR.PT60} - `"Survey mean consumption or income per capita, top 60% (2011 PPP $ per day)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.SPR.PT60:SI.SPR.PT60} - Survey mean consumption or income per capita, top 60% (2011 PPP $ per day)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -520,9 +525,9 @@
 
 {synoptline}
 {marker sourceid_SI.SPR.PT60.ZG}
-{synopt:{bf:{help wbopendata_sourceid##SI.SPR.PT60.ZG:SI.SPR.PT60.ZG} - `"Annualized growth in per capita real survey mean consumption or income, top 60% (%)"'}}
+{synopt:{bf:{help wbopendata_sourceid##SI.SPR.PT60.ZG:SI.SPR.PT60.ZG} - Annualized growth in per capita real survey mean consumption or income, top 60% (%)}}
 
-{synopt:{opt Source}}`"24 Poverty and Equity"'{p_end}
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -531,4 +536,4 @@
 
 
 
-{right:(as of 20oct2019)}
+{right:(as of 28oct2019)}

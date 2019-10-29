@@ -1,10 +1,7 @@
 *******************************************************************************
-*! v 15.2  	3Mar2019               by Joao Pedro Azevedo   
-*
-* _update_countrymetadata 
-*! v 15.3  	28Sept2019					by Joao Pedro Azevedo   
-*
-* 	add countrycode 
+*! v 16.0  	27Oct2019					by Joao Pedro Azevedo  
+* 	generate only three files
+*	change dataflow
 *******************************************************************************
 
 program define _update_countrymetadata , rclass
@@ -19,6 +16,7 @@ program define _update_countrymetadata , rclass
 				SAVE			///
 				REPLACE			///
 				NOCTRYREFRESH	///
+				CTRYLIST		///
 		  ]
 	
 
@@ -79,7 +77,6 @@ quietly {
 				nopreserve ///
 				parameter( country?id iso2Code name region?id adminregion?id incomeLevel?id lendingType?id iso2code capitalCity latitude longitude )
 
-				noi di in smcl in g ""
 				noi di in smcl in g "{bf: Downloading country metadata... COMPLETED!}"
 				noi di in smcl in g ""
 				noi di in smcl in g "{bf: Processing country metadata...}"
@@ -175,6 +172,8 @@ quietly {
 
 		}
 
+		tempfile tmpCTRYtmp_dta
+		
 		*******************************************************************************
 		* create countrymetadata ado files
 		*******************************************************************************
@@ -186,6 +185,8 @@ quietly {
 		drop dups
 		drop if countrycode == ""
 
+		save `tmpCTRYtmp_dta'
+		
 		replace adminregionname = regionname + " (excluding high income)" if adminregionname != "" & incomelevel != "HIC"
 		
 		compress
@@ -208,7 +209,7 @@ quietly {
 			foreach varname of varlist countrycode_iso2 - latitude {
 				rename `varname' values_`varname'
 			}
-			
+						
 			reshape long values_ , i(countrycode) j(variable) string
 
 			drop if values_ == ""
@@ -220,17 +221,23 @@ quietly {
 			local datef = c(current_date)
 			local time = c(current_time)
 
-			levelsof variable
+			
+		**********************************************************************	
+			
+			local list1 " countrycode_iso2 countryname region region_iso2 regionname "
+			local list2 " adminregion adminregion_iso2 adminregionname incomelevel incomelevel_iso2 incomelevelname "
+			local list3 " lendingtype lendingtype_iso2 lendingtypename capital longitude latitude "
 
-			foreach variable in `r(levels)' {
-
-
+						
+		******************************  Header for ******************************  
+		
+		forvalues l = 1(1)3 {
+			
+				local variable wbod_tmpfile`l'
+				
 				tempfile tmp`variable'
-
 				tempname out_`variable'
-
 				file open `out_`variable'' using `tmp`variable'' , text write replace
-
 
 				di "`variable'"
 
@@ -238,155 +245,208 @@ quietly {
 				file write `out_`variable'' `"*			auto generated and updated using _update_countrymetadata.ado "' _n
 				file write `out_`variable''  "	" _n
 
-				
 				file write `out_`variable''  " program define _`variable' " _n
 				file write `out_`variable''  "	" _n
-				file write `out_`variable''  "	   syntax , match(varname) " _n
+				file write `out_`variable''  "	   syntax , match(varname) [ `list`l'' ] " _n
 				file write `out_`variable''  "	" _n
-
-				if (strmatch("latitude longitude","*`variable'*") == 0)  {
 				
-					
-					file write `out_`variable''  "*********************" _n
-					file write `out_`variable''  "	" _n
-					file write `out_`variable''  `"		gen `variable' = ""  "' _n
+		******************************  
 
-					sum seq if variable == "`variable'"
-					local min = r(min)
-					local max = r(max)
-					
-					forvalues ctry = `min'(1)`max'  {
+				foreach varname2 in `list`l'' {
 
-						local value = values_  			in `ctry'
-						local ctrycode = countrycode 	in `ctry'
+					if (strmatch("latitude longitude","*`varname2'*") == 0)  {
 					
-						file write `out_`variable''  `"		replace `variable' = "`value'"	if \`match' == "`ctrycode'"  "' _n
 						
+						file write `out_`variable''  " ******************  Values: `varname2' ****************** " _n
+						file write `out_`variable''  "	" _n
+						file write `out_`variable''  `" qui if ("\``varname2''" == "`varname2'") {	"' _n
+						file write `out_`variable''  "	" _n
+						file write `out_`variable''  `"		gen `varname2' = ""  "' _n
+
+						sum seq if variable == "`varname2'"
+						local min = r(min)
+						local max = r(max)
+						
+						forvalues ctry = `min'(1)`max'  {
+
+							local value = values_  			in `ctry'
+							local ctrycode = countrycode 	in `ctry'
+						
+							file write `out_`variable''  `"		replace `varname2' = "`value'"	if \`match' == "`ctrycode'"  "' _n
+							
+						}
+
+					}
+					
+					if (strmatch("latitude longitude","*`varname2'*") == 1)   {
+					
+						
+						file write `out_`variable''  " ******************  Values: `varname2' ****************** " _n
+						file write `out_`variable''  "	" _n
+						file write `out_`variable''  `" qui if ("\``varname2''" == "`varname2'") {	"' _n
+						file write `out_`variable''  "	" _n
+						file write `out_`variable''  `"		gen  double `varname2' = .  "' _n
+						
+						sum seq if variable == "`varname2'"
+						local min = r(min)
+						local max = r(max)
+						
+						forvalues ctry = `min'(1)`max'  {
+						
+							local value = values_  			in `ctry'
+							local ctrycode = countrycode 	in `ctry'
+						
+							file write `out_`variable''  `"		replace `varname2' = real("`value'")	if \`match' == "`ctrycode'"  "' _n
+							
+						}
+
 					}
 
-				}
-				
-				if (strmatch("latitude longitude","*`variable'*") == 1)   {
-				
-					
 					file write `out_`variable''  "	" _n
+					file write `out_`variable''  "******************  Lable: `varname2' ******************" _n
 					file write `out_`variable''  "	" _n
-					file write `out_`variable''  `"		gen  double `variable' = .  "' _n
-					
-					sum seq if variable == "`variable'"
-					local min = r(min)
-					local max = r(max)
-					
-					forvalues ctry = `min'(1)`max'  {
-					
-						local value = values_  			in `ctry'
-						local ctrycode = countrycode 	in `ctry'
-					
-						file write `out_`variable''  `"		replace `variable' = real("`value'")	if \`match' == "`ctrycode'"  "' _n
-						
+
+					******************************************************
+					if ("`varname2'" == "countryname") {
+						file write `out_`variable''  `"	    lab var countryname			"Country Name" "' _n
 					}
-
-				}
-
-				file write `out_`variable''  "	" _n
-				file write `out_`variable''  "*********************" _n
-				file write `out_`variable''  "	" _n
-
-				******************************************************
-				if ("`variable'" == "countryname") {
-					file write `out_`variable''  `"	lab var countryname			"Country Name" "' _n
-				}
-				if ("`variable'" == "countrycode_iso2") {
-					file write `out_`variable''  `"	lab var countrycode_iso2    "Country Code (ISO 2 digits)" "' _n
-				}
-				if ("`variable'" == "region") {
-					file write `out_`variable''  `"	lab var region  			"Region Code" "' _n
-				}
-				if ("`variable'" == "region_iso2") {
-					file write `out_`variable''  `"	lab var region_iso2			"Region Code (ISO 2 digits)" "' _n
-				}
-				if ("`variable'" == "regionname") {
-					file write `out_`variable''  `"	lab var regionname      	"Region Name" "' _n
-				}
-				if ("`variable'" == "adminregion") {
-					file write `out_`variable''  `"	lab var adminregion  		"Administrative Region Code" "' _n
-				}
-				if ("`variable'" == "adminregion_iso2") {
-					file write `out_`variable''  `"	lab var adminregion_iso2	"Administrative Region Code (ISO 2 digits)" "' _n
-				}
-				if ("`variable'" == "adminregionname") {
-					file write `out_`variable''  `"	lab var adminregionname	    "Administrative Region Name" "' _n
-				}
-				if ("`variable'" == "incomelevel") {
-					file write `out_`variable''  `"	lab var incomelevel  		"Income Level Code" "' _n
-				}
-				if ("`variable'" == "incomelevel_iso2") {
-					file write `out_`variable''  `"	lab var incomelevel_iso2	"Income Level Code (ISO 2 digits)" "' _n
-				}
-				if ("`variable'" == "incomelevelname") {
-					file write `out_`variable''  `"	lab var incomelevelname    	"Income Level Name" "' _n
-				}
-				if ("`variable'" == "lendingtype") {
-					file write `out_`variable''  `"	lab var lendingtype  		"Lending Type Code" "' _n
-				}
-				if ("`variable'" == "lendingtype_iso2") {
-					file write `out_`variable''  `"	lab var lendingtype_iso2	"Lending Type Code (ISO 2 digits)" "' _n
-				}
-				if ("`variable'" == "lendingtypename") {
-					file write `out_`variable''  `"	lab var lendingtypename    	"Lending Type Name" "' _n
-				}
-				if ("`variable'" == "capital") {
-					file write `out_`variable''  `"	lab var capital		  		"Capital Name" "' _n
-				}
-				if ("`variable'" == "latitude") {
-					file write `out_`variable''  `"	lab var latitude			"Capital Latitude" "' _n
-				}
-				if ("`variable'" == "longitude") {
-					file write `out_`variable''  `"	lab var longitude	      	"Capital Longitude" "' _n
-				}
-				
-				******************************************************
-				
-				file write `out_`variable''  "	" _n
-				file write `out_`variable''  "*********************" _n
-				file write `out_`variable''  "	" _n
-				file write `out_`variable''  " end " _n
-
-				file close `out_`variable''
-
-				******************************************************
-				
-				cap: findfile _`variable'.ado, `path'
-				if _rc == 0 {
-					copy  `tmp`variable''  `r(fn)' , replace
-				}
-				else {
-					copy `tmp`variable'' _`variable'.ado
-				}
+					if ("`varname2'" == "countrycode_iso2") {
+						file write `out_`variable''  `"	    lab var countrycode_iso2    "Country Code (ISO 2 digits)" "' _n
+					}
+					if ("`varname2'" == "region") {
+						file write `out_`variable''  `"	    lab var region  			"Region Code" "' _n
+					}
+					if ("`varname2'" == "region_iso2") {
+						file write `out_`variable''  `"	    lab var region_iso2			"Region Code (ISO 2 digits)" "' _n
+					}
+					if ("`varname2'" == "regionname") {
+						file write `out_`variable''  `"	    lab var regionname      	"Region Name" "' _n
+					}
+					if ("`varname2'" == "adminregion") {
+						file write `out_`variable''  `"	    lab var adminregion  		"Administrative Region Code" "' _n
+					}
+					if ("`varname2'" == "adminregion_iso2") {
+						file write `out_`variable''  `"	    lab var adminregion_iso2	"Administrative Region Code (ISO 2 digits)" "' _n
+					}
+					if ("`varname2'" == "adminregionname") {
+						file write `out_`variable''  `"	    lab var adminregionname	    "Administrative Region Name" "' _n
+					}
+					if ("`varname2'" == "incomelevel") {
+						file write `out_`variable''  `"	    lab var incomelevel  		"Income Level Code" "' _n
+					}
+					if ("`varname2'" == "incomelevel_iso2") {
+						file write `out_`variable''  `"	    lab var incomelevel_iso2	"Income Level Code (ISO 2 digits)" "' _n
+					}
+					if ("`varname2'" == "incomelevelname") {
+						file write `out_`variable''  `"	    lab var incomelevelname    	"Income Level Name" "' _n
+					}
+					if ("`varname2'" == "lendingtype") {
+						file write `out_`variable''  `"	    lab var lendingtype  		"Lending Type Code" "' _n
+					}
+					if ("`varname2'" == "lendingtype_iso2") {
+						file write `out_`variable''  `"	    lab var lendingtype_iso2	"Lending Type Code (ISO 2 digits)" "' _n
+					}
+					if ("`varname2'" == "lendingtypename") {
+						file write `out_`variable''  `"	    lab var lendingtypename    	"Lending Type Name" "' _n
+					}
+					if ("`varname2'" == "capital") {
+						file write `out_`variable''  `"	    lab var capital		  		"Capital Name" "' _n
+					}
+					if ("`varname2'" == "latitude") {
+						file write `out_`variable''  `"	    lab var latitude			"Capital Latitude" "' _n
+					}
+					if ("`varname2'" == "longitude") {
+						file write `out_`variable''  `"	    lab var longitude	      	"Capital Longitude" "' _n
+					}
+					
+					******************************************************
+					
+					file write `out_`variable''  " }	" _n
+					file write `out_`variable''  "	" _n
+					file write `out_`variable''  " ****************************************************** " _n
+					file write `out_`variable''  "	" _n
 
 			}
-		}
-
-		noi di in smcl in g ""
-		noi di in smcl in g "{bf: Processing country metadata... COMPLETED!}"
-		noi di in smcl in g ""
-		noi di in smcl in g "{bf: Processing country documentation...}"
-		noi di in smcl in g ""
-
-		******************************************************************************
-		* create country txt files
-		*******************************************************************************
 
 		
+
+			
+			******************************************************
+				
+			file write `out_`variable''  " end " _n
+
+			file close `out_`variable''
+
+			******************************************************
+					
+			cap: findfile _`variable'.ado, `path'
+			if _rc == 0 {
+				copy  `tmp`variable''  `r(fn)' , replace
+			}
+			else {
+				copy `tmp`variable'' _`variable'.ado
+			}
+			
+		}
+
+	}
+			
+		noi di in smcl in g "{bf: Processing country metadata... COMPLETED!}"
+		noi di in smcl in g ""
+		tempfile tmp
+		
+		save `tmp'
+			
+		******************************************************************************
+		* udpate country txt files
+		*******************************************************************************
+
+				
+
+		if ("`ctrylist'" == "ctrylist") {
+
+			noi di in smcl in g "{bf: Processing country list...}"
+
+			local country country.txt
+			
+			tempfile  tmpCTRYtmp
+			
+			use `tmpCTRYtmp_dta'
+
+			bysort countrycode : gen dups = _n
+			keep if dups == 1
+			drop dups
+			drop if countrycode == ""
+			
+			sort countrycode
+			gen export = countrycode + " - " + countryname
+			keep export
+			sort export
+			outsheet using `tmpCTRYtmp', replace noquote nolabel nonames
+			
+			cap: findfile `country' , `path'
+					
+			if _rc == 0 {
+				copy `tmpCTRYtmp'  `r(fn)' , replace
+			}
+			else {
+				copy `tmpCTRYtmp' `indicator'
+			}
+			
+			noi di in smcl in g "{bf: Processing country list... COMPLETED!}"
+			noi di in smcl in g ""
+
+		}
+
 		
 		*******************************************************************************
 		* create country sthlp files
 		*******************************************************************************
+		
+		noi di in smcl in g "{bf: Processing country documentation...}"
+		noi di in smcl in g ""
 
-		tempfile tmp
-		
-		save `tmp'
-		
+		use `tmp', clear
 		
 		foreach variable in region adminregion incomelevel lendingtype {
 		
@@ -482,7 +542,6 @@ quietly {
 		
 		*******************************************************************************
 
-		noi di in smcl in g ""
 		noi di in smcl in g "{bf: Processing country documentation... COMPLETED!}"
 
 		
@@ -501,10 +560,12 @@ end
 
 
 *******************************************************************************
-* v 15.1  	3Mar2019               by Joao Pedro Azevedo   
-*	initial commit
+* v 15.3  	28Sept2019					by Joao Pedro Azevedo   
+* 	add countrycode 
 *******************************************************************************
-*! v 15.1  	3Mar2019               by Joao Pedro Azevedo   
-*
+* v 15.2  	3Mar2019               by Joao Pedro Azevedo   
+* _update_countrymetadata 
+*******************************************************************************
+* v 15.1  	3Mar2019               by Joao Pedro Azevedo   
 *	initial commit
 *******************************************************************************

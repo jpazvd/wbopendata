@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 20oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -10815,7 +10815,7 @@
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_FS.AST.PRVT.GD.ZS:FS.AST.PRVT.GD.ZS{marker FS.AST.PRVT.GD.ZS}}}Domestic credit to private sector (% of GDP){p_end}
 
-{synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.DFRN.XQ:IC.BUS.DFRN.XQ{marker IC.BUS.DFRN.XQ}}}Distance to frontier score (0=lowest performance to 100=frontier){p_end}
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.DFRN.XQ:IC.BUS.DFRN.XQ{marker IC.BUS.DFRN.XQ}}}Ease of doing business score (0 = lowest performance to 100 = best performance){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.DISC.XQ:IC.BUS.DISC.XQ{marker IC.BUS.DISC.XQ}}}Business extent of disclosure index (0=less disclosure to 10=more disclosure){p_end}
 
@@ -13695,4 +13695,4 @@
 {synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.TRVL.ZS.WT:TX.VAL.TRVL.ZS.WT{marker TX.VAL.TRVL.ZS.WT}}}Travel services (% of commercial service exports){p_end}
 {synoptline}
 
-{right:(as of 20oct2019)}
+{right:(as of 28oct2019)}

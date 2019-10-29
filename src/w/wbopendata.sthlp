@@ -1,6 +1,6 @@
 {smcl}
 {hline}
-{* 20Oct2019 }{...}
+{* 28Oct2019 }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
 {right: {bf:version 16.0}}
@@ -39,6 +39,7 @@
 {synopt :{opt update query}} query the current vintage of indicators and country metadata available.{p_end}
 {synopt :{opt update check}} checks the availability of new indicators and country metadata available for download.{p_end}
 {synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
+{synopt :{opt projection}} World Bank Population estimates and projections (HPP).{p_end}
 {synoptline}
 {p 4 6 2}
 {cmd:wbopendata} requires a connection to the internet and supports the Stata dialogue function ({dialog wbopendata}).{p_end}
@@ -155,7 +156,11 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
 
+{synopt :{opt projection}} World Bank staff population projection. estimates using the World Bank's total population and
+    age/sex distributions of the United Nations Population Division's World Population Prospects:
+    2019 Revision.{p_end}
 
+	
 {marker attributes}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
 {title:List Country attributes currently supported}
@@ -237,47 +242,58 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {marker sourceid}{...}    
 {synoptset 33 tabbed}{...}
-{synopthdr:Source Code}
+{synopthdr:Source Code}{it:{help wbopendata_sourceid_indicators01##:  (Source TOC)}}
 {synoptline}
-{synopt:{opt 01}}  {help wbopendata_sourceid##sourceid_01:Doing Business}{p_end}
-{synopt:{opt 02}}  {help wbopendata_sourceid##sourceid_02:World Development Indicators}{p_end}
-{synopt:{opt 03}}  {help wbopendata_sourceid##sourceid_03:Worldwide Governance Indicators}{p_end}
-{synopt:{opt 05}}  {help wbopendata_sourceid##sourceid_05:Subnational Malnutrition Database}{p_end}
-{synopt:{opt 06}}  {help wbopendata_sourceid##sourceid_06:International Debt Statistics}{p_end}
-{synopt:{opt 11}}  {help wbopendata_sourceid##sourceid_11:Africa Development Indicators}{p_end}
-{synopt:{opt 12}}  {help wbopendata_sourceid##sourceid_12:Education Statistics}{p_end}
-{synopt:{opt 13}}  {help wbopendata_sourceid##sourceid_13:Enterprise Surveys}{p_end}
-{synopt:{opt 14}}  {help wbopendata_sourceid##sourceid_14:Gender Statistics}{p_end}
-{synopt:{opt 15}}  {help wbopendata_sourceid##sourceid_15:Global Economic Monitor}{p_end}
-{synopt:{opt 16}}  {help wbopendata_sourceid##sourceid_16:Health Nutrition and Population Statistics}{p_end}
-{synopt:{opt 18}}  {help wbopendata_sourceid##sourceid_18:IDA Results Measurement System}{p_end}
-{synopt:{opt 19}}  {help wbopendata_sourceid##sourceid_19:Millennium Development Goals}{p_end}
-{synopt:{opt 20}}  {help wbopendata_sourceid##sourceid_20:Quarterly Public Sector Debt}{p_end}
-{synopt:{opt 22}}  {help wbopendata_sourceid##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
-{synopt:{opt 23}}  {help wbopendata_sourceid##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
-{synopt:{opt 24}}  {help wbopendata_sourceid##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 28}}  {help wbopendata_sourceid##sourceid_28:Global Financial Inclusion}{p_end}
-{synopt:{opt 29}}  {help wbopendata_sourceid##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
-{synopt:{opt 30}}  {help wbopendata_sourceid##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
-{synopt:{opt 32}}  {help wbopendata_sourceid##sourceid_32:Global Financial Development}{p_end}
-{synopt:{opt 33}}  {help wbopendata_sourceid##sourceid_33:G20 Financial Inclusion Indicators}{p_end}
-{synopt:{opt 34}}  {help wbopendata_sourceid##sourceid_34:Global Partnership for Education}{p_end}
-{synopt:{opt 35}}  {help wbopendata_sourceid##sourceid_35:Sustainable Energy for All}{p_end}
-{synopt:{opt 36}}  {help wbopendata_sourceid##sourceid_36:Statistical Capacity Indicators}{p_end}
-{synopt:{opt 37}}  {help wbopendata_sourceid##sourceid_37:LAC Equity Lab}{p_end}
-{synopt:{opt 39}}  {help wbopendata_sourceid##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
-{synopt:{opt 41}}  {help wbopendata_sourceid##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
-{synopt:{opt 45}}  {help wbopendata_sourceid##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
-{synopt:{opt 54}}  {help wbopendata_sourceid##sourceid_54:Joint External Debt Hub}{p_end}
-{synopt:{opt 57}}  {help wbopendata_sourceid##sourceid_57:WDI Database Archives}{p_end}
-{synopt:{opt 59}}  {help wbopendata_sourceid##sourceid_59:Wealth Accounts}{p_end}
-{synopt:{opt 60}}  {help wbopendata_sourceid##sourceid_60:Economic Fitness}{p_end}
-{synopt:{opt 61}}  {help wbopendata_sourceid##sourceid_61:PPPs Regulatory Quality}{p_end}
-{synopt:{opt 62}}  {help wbopendata_sourceid##sourceid_62:International Comparison Program (ICP) 2011}{p_end}
-{synopt:{opt 63}}  {help wbopendata_sourceid##sourceid_63:Human Capital Index}{p_end}
-{synopt:{opt 64}}  {help wbopendata_sourceid##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
-{synopt:{opt 65}}  {help wbopendata_sourceid##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
-{synopt:{opt 66}}  {help wbopendata_sourceid##sourceid_66:Logistics Performance Index}{p_end}
+{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
+{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
+{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
+{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
+{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
+{synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
+{synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
+{synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
+{synopt:{opt 14}}  {help wbopendata_sourceid_indicators14##sourceid_14:Gender Statistics}{p_end}
+{synopt:{opt 15}}  {help wbopendata_sourceid_indicators15##sourceid_15:Global Economic Monitor}{p_end}
+{synopt:{opt 16}}  {help wbopendata_sourceid_indicators16##sourceid_16:Health Nutrition and Population Statistics}{p_end}
+{synopt:{opt 18}}  {help wbopendata_sourceid_indicators18##sourceid_18:IDA Results Measurement System}{p_end}
+{synopt:{opt 19}}  {help wbopendata_sourceid_indicators19##sourceid_19:Millennium Development Goals}{p_end}
+{synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
+{synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
+{synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
+{synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
+{synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
+{synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
+{synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
+{synopt:{opt 32}}  {help wbopendata_sourceid_indicators32##sourceid_32:Global Financial Development}{p_end}
+{synopt:{opt 33}}  {help wbopendata_sourceid_indicators33##sourceid_33:G20 Financial Inclusion Indicators}{p_end}
+{synopt:{opt 34}}  {help wbopendata_sourceid_indicators34##sourceid_34:Global Partnership for Education}{p_end}
+{synopt:{opt 35}}  {help wbopendata_sourceid_indicators35##sourceid_35:Sustainable Energy for All}{p_end}
+{synopt:{opt 36}}  {help wbopendata_sourceid_indicators36##sourceid_36:Statistical Capacity Indicators}{p_end}
+{synopt:{opt 37}}  {help wbopendata_sourceid_indicators37##sourceid_37:LAC Equity Lab}{p_end}
+{synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
+{synopt:{opt 40}}  {help wbopendata_sourceid_indicators40##sourceid_40:Population estimates and projections}{p_end}
+{synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
+{synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
+{synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
+{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
+{synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
+{synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
+{synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
+{synopt:{opt 60}}  {help wbopendata_sourceid_indicators60##sourceid_60:Economic Fitness}{p_end}
+{synopt:{opt 61}}  {help wbopendata_sourceid_indicators61##sourceid_61:PPPs Regulatory Quality}{p_end}
+{synopt:{opt 62}}  {help wbopendata_sourceid_indicators62##sourceid_62:International Comparison Program (ICP) 2011}{p_end}
+{synopt:{opt 63}}  {help wbopendata_sourceid_indicators63##sourceid_63:Human Capital Index}{p_end}
+{synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
+{synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
+{synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
+{synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
+{synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
+{synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
+{synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
+{synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
+{synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 {synoptline}
 
 
@@ -354,6 +370,8 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {p 8 12}{stata "wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) long clear" :. wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) long clear}{p_end}
 
 {p 8 12}{stata "wbopendata, country(ago;bdi;chi;dnk;esp) indicator(sp.pop.0610.fe.un) clear" :. wbopendata, country(ago;bdi;chi;dnk;esp) indicator(sp.pop.0610.fe.un) clear}{p_end}
+
+{p 8 12}{stata "wbopendata, indicator(SP.POP.1014.FE; SP.POP.1014.MA) year(1990:2050) projection clear" :. wbopendata, indicator(SP.POP.1014.FE; SP.POP.1014.MA) year(1990:2050) projection clear}{p_end}
 
 {p 8 12}{stata "wbopendata, indicator(si.pov.dday; ny.gdp.pcap.pp.kd) clear long": . wbopendata, indicator(si.pov.dday; ny.gdp.pcap.pp.kd) clear long}{p_end}
  

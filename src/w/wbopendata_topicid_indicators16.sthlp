@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 20oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,9 +40,9 @@
 {syntab:{title:{bf:16 Urban Development}}}
 {synoptline}
 {marker topicid_AG.LND.EL5M.UR.K2}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.UR.K2:AG.LND.EL5M.UR.K2} - `"Urban land area where elevation is below 5 meters (sq. km)"'}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.UR.K2:AG.LND.EL5M.UR.K2} - Urban land area where elevation is below 5 meters (sq. km)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -53,9 +53,9 @@
 
 {synoptline}
 {marker topicid_AG.LND.EL5M.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.UR.ZS:AG.LND.EL5M.UR.ZS} - `"Urban land area where elevation is below 5 meters (% of total land area)"'}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.UR.ZS:AG.LND.EL5M.UR.ZS} - Urban land area where elevation is below 5 meters (% of total land area)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -66,9 +66,9 @@
 
 {synoptline}
 {marker topicid_AG.LND.TOTL.UR.K2}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.TOTL.UR.K2:AG.LND.TOTL.UR.K2} - `"Urban land area (sq. km)"'}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.TOTL.UR.K2:AG.LND.TOTL.UR.K2} - Urban land area (sq. km)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -79,9 +79,9 @@
 
 {synoptline}
 {marker topicid_EG.ELC.ACCS.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.ELC.ACCS.UR.ZS:EG.ELC.ACCS.UR.ZS} - `"Access to electricity, urban (% of urban population)"'}}
+{synopt:{bf:{help wbopendata_topicid##EG.ELC.ACCS.UR.ZS:EG.ELC.ACCS.UR.ZS} - Access to electricity, urban (% of urban population)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -92,9 +92,9 @@
 
 {synoptline}
 {marker topicid_EG.NSF.ACCS.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.NSF.ACCS.UR.ZS:EG.NSF.ACCS.UR.ZS} - `"Access to non-solid fuel, urban (% of urban population)"'}}
+{synopt:{bf:{help wbopendata_topicid##EG.NSF.ACCS.UR.ZS:EG.NSF.ACCS.UR.ZS} - Access to non-solid fuel, urban (% of urban population)}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -105,9 +105,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.PM25.MC.M3}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.PM25.MC.M3:EN.ATM.PM25.MC.M3} - `"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.PM25.MC.M3:EN.ATM.PM25.MC.M3} - PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -118,9 +118,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.PM25.MC.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.PM25.MC.ZS:EN.ATM.PM25.MC.ZS} - `"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.PM25.MC.ZS:EN.ATM.PM25.MC.ZS} - PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -131,9 +131,9 @@
 
 {synoptline}
 {marker topicid_EN.POP.DNST}
-{synopt:{bf:{help wbopendata_topicid##EN.POP.DNST:EN.POP.DNST} - `"Population density (people per sq. km of land area)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.POP.DNST:EN.POP.DNST} - Population density (people per sq. km of land area)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -144,9 +144,9 @@
 
 {synoptline}
 {marker topicid_EN.POP.EL5M.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.POP.EL5M.UR.ZS:EN.POP.EL5M.UR.ZS} - `"Urban population living in areas where elevation is below 5 meters (% of total population)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.POP.EL5M.UR.ZS:EN.POP.EL5M.UR.ZS} - Urban population living in areas where elevation is below 5 meters (% of total population)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -157,9 +157,9 @@
 
 {synoptline}
 {marker topicid_EN.POP.SLUM.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.POP.SLUM.UR.ZS:EN.POP.SLUM.UR.ZS} - `"Population living in slums (% of urban population)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.POP.SLUM.UR.ZS:EN.POP.SLUM.UR.ZS} - Population living in slums (% of urban population)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -170,9 +170,9 @@
 
 {synoptline}
 {marker topicid_EN.URB.LCTY}
-{synopt:{bf:{help wbopendata_topicid##EN.URB.LCTY:EN.URB.LCTY} - `"Population in largest city"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.URB.LCTY:EN.URB.LCTY} - Population in largest city}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -183,9 +183,9 @@
 
 {synoptline}
 {marker topicid_EN.URB.LCTY.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.URB.LCTY.UR.ZS:EN.URB.LCTY.UR.ZS} - `"Population in the largest city (% of urban population)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.URB.LCTY.UR.ZS:EN.URB.LCTY.UR.ZS} - Population in the largest city (% of urban population)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -196,9 +196,9 @@
 
 {synoptline}
 {marker topicid_EN.URB.MCTY}
-{synopt:{bf:{help wbopendata_topicid##EN.URB.MCTY:EN.URB.MCTY} - `"Population in urban agglomerations of more than 1 million"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.URB.MCTY:EN.URB.MCTY} - Population in urban agglomerations of more than 1 million}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -209,9 +209,9 @@
 
 {synoptline}
 {marker topicid_EN.URB.MCTY.TL.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.URB.MCTY.TL.ZS:EN.URB.MCTY.TL.ZS} - `"Population in urban agglomerations of more than 1 million (% of total population)"'}}
+{synopt:{bf:{help wbopendata_topicid##EN.URB.MCTY.TL.ZS:EN.URB.MCTY.TL.ZS} - Population in urban agglomerations of more than 1 million (% of total population)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -222,9 +222,9 @@
 
 {synoptline}
 {marker topicid_EP.PMP.DESL.CD}
-{synopt:{bf:{help wbopendata_topicid##EP.PMP.DESL.CD:EP.PMP.DESL.CD} - `"Pump price for diesel fuel (US$ per liter)"'}}
+{synopt:{bf:{help wbopendata_topicid##EP.PMP.DESL.CD:EP.PMP.DESL.CD} - Pump price for diesel fuel (US$ per liter)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -235,9 +235,9 @@
 
 {synoptline}
 {marker topicid_EP.PMP.SGAS.CD}
-{synopt:{bf:{help wbopendata_topicid##EP.PMP.SGAS.CD:EP.PMP.SGAS.CD} - `"Pump price for gasoline (US$ per liter)"'}}
+{synopt:{bf:{help wbopendata_topicid##EP.PMP.SGAS.CD:EP.PMP.SGAS.CD} - Pump price for gasoline (US$ per liter)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -248,9 +248,9 @@
 
 {synoptline}
 {marker topicid_IS.VEH.NVEH.P3}
-{synopt:{bf:{help wbopendata_topicid##IS.VEH.NVEH.P3:IS.VEH.NVEH.P3} - `"Motor vehicles (per 1,000 people)"'}}
+{synopt:{bf:{help wbopendata_topicid##IS.VEH.NVEH.P3:IS.VEH.NVEH.P3} - Motor vehicles (per 1,000 people)}}
 
-{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -261,9 +261,9 @@
 
 {synoptline}
 {marker topicid_IS.VEH.PCAR.P3}
-{synopt:{bf:{help wbopendata_topicid##IS.VEH.PCAR.P3:IS.VEH.PCAR.P3} - `"Passenger cars (per 1,000 people)"'}}
+{synopt:{bf:{help wbopendata_topicid##IS.VEH.PCAR.P3:IS.VEH.PCAR.P3} - Passenger cars (per 1,000 people)}}
 
-{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -274,9 +274,9 @@
 
 {synoptline}
 {marker topicid_IS.VEH.ROAD.K1}
-{synopt:{bf:{help wbopendata_topicid##IS.VEH.ROAD.K1:IS.VEH.ROAD.K1} - `"Vehicles (per km of road)"'}}
+{synopt:{bf:{help wbopendata_topicid##IS.VEH.ROAD.K1:IS.VEH.ROAD.K1} - Vehicles (per km of road)}}
 
-{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -287,9 +287,9 @@
 
 {synoptline}
 {marker topicid_SH.H2O.SAFE.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.UR.ZS:SH.H2O.SAFE.UR.ZS} - `"Improved water source, urban (% of urban population with access)"'}}
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.UR.ZS:SH.H2O.SAFE.UR.ZS} - Improved water source, urban (% of urban population with access)}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -300,9 +300,9 @@
 
 {synoptline}
 {marker topicid_SH.STA.ACSN.UR}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.ACSN.UR:SH.STA.ACSN.UR} - `"Improved sanitation facilities, urban (% of urban population with access)"'}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ACSN.UR:SH.STA.ACSN.UR} - Improved sanitation facilities, urban (% of urban population with access)}}
 
-{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -313,9 +313,9 @@
 
 {synoptline}
 {marker topicid_SH.STA.TRAF.P5}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.TRAF.P5:SH.STA.TRAF.P5} - `"Mortality caused by road traffic injury (per 100,000 people)"'}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.TRAF.P5:SH.STA.TRAF.P5} - Mortality caused by road traffic injury (per 100,000 people)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -326,9 +326,9 @@
 
 {synoptline}
 {marker topicid_SI.POV.URGP}
-{synopt:{bf:{help wbopendata_topicid##SI.POV.URGP:SI.POV.URGP} - `"Urban poverty gap at national poverty lines (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.URGP:SI.POV.URGP} - Urban poverty gap at national poverty lines (%)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -339,9 +339,9 @@
 
 {synoptline}
 {marker topicid_SI.POV.URHC}
-{synopt:{bf:{help wbopendata_topicid##SI.POV.URHC:SI.POV.URHC} - `"Urban poverty headcount ratio at national poverty lines (% of urban population)"'}}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.URHC:SI.POV.URHC} - Urban poverty headcount ratio at national poverty lines (% of urban population)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -352,9 +352,9 @@
 
 {synoptline}
 {marker topicid_SP.URB.GROW}
-{synopt:{bf:{help wbopendata_topicid##SP.URB.GROW:SP.URB.GROW} - `"Urban population growth (annual %)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.URB.GROW:SP.URB.GROW} - Urban population growth (annual %)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -365,9 +365,9 @@
 
 {synoptline}
 {marker topicid_SP.URB.TOTL}
-{synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL:SP.URB.TOTL} - `"Urban population"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL:SP.URB.TOTL} - Urban population}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -378,9 +378,9 @@
 
 {synoptline}
 {marker topicid_SP.URB.TOTL.IN.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL.IN.ZS:SP.URB.TOTL.IN.ZS} - `"Urban population (% of total population)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL.IN.ZS:SP.URB.TOTL.IN.ZS} - Urban population (% of total population)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -390,4 +390,4 @@
 
 
 
-{right:(as of 20oct2019)}
+{right:(as of 28oct2019)}
