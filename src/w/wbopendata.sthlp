@@ -39,7 +39,8 @@
 {synopt :{opt update query}} query the current vintage of indicators and country metadata available.{p_end}
 {synopt :{opt update check}} checks the availability of new indicators and country metadata available for download.{p_end}
 {synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
-{synopt :{opt projection}} World Bank Population estimates and projections (HPP).{p_end}
+{synopt :{opt match(varname)}} mergue {help wbopendata##attributes:country attributes} using WDI countrycodes.{p_end}
+{synopt :{opt projection}} World Bank {help wbopendata_sourceid_indicators40##sourceid_40:population estimates and projections} (HPP) .{p_end}
 {synoptline}
 {p 4 6 2}
 {cmd:wbopendata} requires a connection to the internet and supports the Stata dialogue function ({dialog wbopendata}).{p_end}
@@ -71,7 +72,7 @@ Sections are presented under the following headings:
 {title:Description}
 {pstd}
 
-{p 4 4 2}{cmd:wbopendata} allows Stata users to download over 16,000 indicators from the World Bank databases, including: Development 
+{p 4 4 2}{cmd:wbopendata} allows Stata users to download over 17,000 indicators from the World Bank databases, including: Development 
 Africa Development Indicators; Doing Business; Education Statistics; Enterprise Surveys; Global Development Finance; 
 Gender Statistics; Health Nutrition and Population Statistics; International Development Association - Results Measurement System; 
 Millennium Development Goals; World Development Indicators; Worldwide Governance Indicators; and LAC Equity Lab. These indicators include information 
@@ -83,9 +84,9 @@ from over 256 countries and regions, since 1960.{p_end}
 
 {synopt:{opt country}} over 1,000 indicators for all selected years for a single country (WDI Catalogue).{p_end}
 {synopt:{opt topics}} WDI indicators within a specific topic, for all selected years and all countries (WDI Catalogue).{p_end}
-{synopt:{opt indicator}} all selected years for all countries for a single indicator (from any of the catalogues: 16,000+ series).{p_end}
-{synopt:{opt indicator and country}}  all selected years for selected countries for a single indicator (from any of the catalogues: 16,000+ series).{p_end}
-{synopt:{opt multiple indicator}} all selected years for selected indicators separated by ; (from any of the catalogues: 16,000+ series).{p_end}
+{synopt:{opt indicator}} all selected years for all countries for a single indicator (from any of the catalogues: 17,000+ series).{p_end}
+{synopt:{opt indicator and country}}  all selected years for selected countries for a single indicator (from any of the catalogues: 17,000+ series).{p_end}
+{synopt:{opt multiple indicator}} all selected years for selected indicators separated by ; (from any of the catalogues: 17,000+ series).{p_end}
 
 {p 4 4 2}Users can also choose to have the data displayed in either the {cmd:wide} or {cmd:long} format (wide is the default option).
 Note that the reshape is the local machine, so it will require the appropriate amount of RAM to work properly.{p_end}
@@ -132,12 +133,10 @@ RAM to complete this operation.{p_end}
 
 {synopt:{opt latest}} keep only the latest available value of a single indicator (it only work if the data in the long format).{p_end}
 
-{synopt:{opt nometadata}} omits the display of the metadata information from the series. Metadata information is only available when downloading 
-specific series (indicator option). The metadata available include information on the name of the series, the source, a detailed description 
+{synopt:{opt nometadata}} omits the display of the metadata information from the series. Metadata information is only available when downloading specific series (indicator option). The metadata available include information on the name of the series, the source, a detailed description 
 of the indicator, and the organization responsible for compiling this indicator.{p_end}
 
-{synopt:{opt year:(date1:date2)}} allow users to select a specific time interval. Date1=Initial date; Date2=Final date. For most indicators Date 
-should be expressed in yearly format, however for specific series quartely and montly series will be supported. Please check data documentation 
+{synopt:{opt year:(date1:date2)}} allow users to select a specific time interval. Date1=Initial date; Date2=Final date. For most indicators Date should be expressed in yearly format, however for specific series quartely and montly series will be supported. Please check data documentation 
 at the World Bank Data website to identify which format is supported.{p_end}
            
 {synopt:{opt language(option)}}three languages are supported: The default language is English.{p_end}
@@ -156,9 +155,9 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
 
-{synopt :{opt projection}} World Bank staff population projection. estimates using the World Bank's total population and
-    age/sex distributions of the United Nations Population Division's World Population Prospects:
-    2019 Revision.{p_end}
+{synopt :{opt match(varname)}} mergue {it:{help wbopendata##attributes:country attributes}} using WDI countrycodes.{p_end}
+
+{synopt :{opt projection}} World Bank staff {help wbopendata_sourceid_indicators40##sourceid_40:population projection estimates} using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end} 
 
 	
 {marker attributes}{...}
