@@ -57,6 +57,10 @@
 !/src/**/*.dta
 !/src/**/*.txt
 
+# Documentation
+!/doc/*.md
+!/doc/*.log
+!/doc/*.png
 
 # csv files in selected input folders
 !qa/*.csv
