@@ -11833,7 +11833,7 @@
 {marker topicid_SP.POP.0014.TO.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.TO.ZS:SP.POP.0014.TO.ZS} - Population ages 0-14 (% of total population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -13172,7 +13172,7 @@
 {marker topicid_SP.POP.1564.TO.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.TO.ZS:SP.POP.1564.TO.ZS} - Population ages 15-64 (% of total population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
