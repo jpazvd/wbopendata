@@ -1445,7 +1445,6 @@ BAR.TER.SCHL.7074 - Barro-Lee: Average years of tertiary schooling, age 70-74, t
 BAR.TER.SCHL.7074.FE - Barro-Lee: Average years of tertiary schooling, age 70-74, female
 BAR.TER.SCHL.75UP - Barro-Lee: Average years of tertiary schooling, age 75+, total
 BAR.TER.SCHL.75UP.FE - Barro-Lee: Average years of tertiary schooling, age 75+, female
-BFCAFFFDICD__EXT - Net Foreign Direct Investment, % GDP
 BG.GSR.NFSV.GD.ZS - Trade in services (% of GDP)
 BG.KAC.FNEI.GD.PP.ZS - Gross private capital flows (% of GDP, PPP)
 BG.KAC.FNEI.GD.ZS - Gross private capital flows (% of GDP)
@@ -1634,7 +1633,6 @@ BN.TRF.PWKR.CD - Workers' remittances, net (BoP, current US$)
 BN.TRF.PWKR.CD.DT - Personal remittances, net (current US$)
 BN.TRF.XOKA.CD - Private current transfers, net (BoP, US$)
 BN.TRN.KOGT.CD - Grants (disbursements) from new commitments (BoP, current US$)
-BNCABFUNDCD__EXT - Current Account Balance, % GDP
 BPK.AUD.SUBN - BPK Audit Report on Sub-National Budget
 BX.AG.AGR.TRAC.CD - Agricultural tractors, imports (FAO, current US$)
 BX.AG.AGR.TRAC.NO - Agricultural tractors, imports
@@ -5319,31 +5317,27 @@ EN.URB.LCTY - Population in largest city
 EN.URB.LCTY.UR.ZS - Population in the largest city (% of urban population)
 EN.URB.MCTY - Population in urban agglomerations of more than 1 million
 EN.URB.MCTY.TL.ZS - Population in urban agglomerations of more than 1 million (% of total population)
-ENF.CONT.COEN.ATDR - Enforcing contracts: Alternative dispute resolution (0-3) (DB16-19 methodology)
+ENF.CONT.COEN.ATDR - Enforcing contracts: Alternative dispute resolution (0-3) (DB16-20 methodology)
 ENF.CONT.COEN.ATFE.PR - Enforcing contracts: Attorney fees (% of claim)
 ENF.CONT.COEN.COST.ZS - Enforcing contracts: Cost (% of claim)
 ENF.CONT.COEN.COST.ZS.DFRN - Enforcing contracts: Cost (% of claim) - Score
-ENF.CONT.COEN.CSMG - Enforcing contracts: Case management (0-6) (DB16-19 methodology)
-ENF.CONT.COEN.CTAU - Enforcing contracts: Court automation (0-4) (DB16-19 methodology)
+ENF.CONT.COEN.CSMG - Enforcing contracts: Case management (0-6) (DB16-20 methodology)
+ENF.CONT.COEN.CTAU - Enforcing contracts: Court automation (0-4) (DB17-20 methodology)
 ENF.CONT.COEN.CTFE.PR - Enforcing contracts: Court fees (% of claim)
-ENF.CONT.COEN.CTSP.DB16 - Enforcing contracts: Court structure and proceedings (0-5) (DB16 methodology)
-ENF.CONT.COEN.CTSP.DB1719 - Enforcing contracts: Court structure and proceedings (0-5) (DB17-19 methodology)
+ENF.CONT.COEN.CTSP.DB1719 - Enforcing contracts: Court structure and proceedings (0-5) (DB17-20 methodology)
 ENF.CONT.COEN.DB0415.DFRN - Enforcing contracts (DB04-15 methodology) - Score
-ENF.CONT.COEN.DB16.DFRN - Enforcing contracts (DB16 methodology) - Score
-ENF.CONT.COEN.DB1719.DFRN - Enforcing contracts (DB17-19 methodology) - Score
+ENF.CONT.COEN.DB1719.DFRN - Enforcing contracts (DB17-20 methodology) - Score
 ENF.CONT.COEN.ENFE.PR - Enforcing contracts: Enforcement fees (% of claim)
 ENF.CONT.COEN.ENJU.DY - Enforcing contracts: Enforcement of judgment (days)
 ENF.CONT.COEN.FLSR.DY - Enforcing contracts: Filing and service (days)
 ENF.CONT.COEN.PROC.NO - Enforcing contracts: Procedures (number)
 ENF.CONT.COEN.PROC.NO.DFRN - Enforcing contracts: Procedures (number) - Score
-ENF.CONT.COEN.QUJP.DB16.DFRN - Enforcing contracts: Quality of the judicial processes index (0-19) (DB16 methodology) - Score
-ENF.CONT.COEN.QUJP.DB1719.DFRN - Enforcing contracts: Quality of the judicial processes index (0-19) (DB17-19 methodology) - Score
-ENF.CONT.COEN.QUJP.XD - Enforcing contracts: Quality of the judicial processes index (0-18) (DB16 methodology)
-ENF.CONT.COEN.RK.DB19 - Rank: Enforcing contracts (1=most business-friendly regulations) (DB19 methodology)
+ENF.CONT.COEN.QUJP.DB16.DFRN - Enforcing contracts: Quality of the judicial processes index (0-19) (DB17-20 methodology) - Score
+ENF.CONT.COEN.QUJP.XD - Enforcing contracts: Quality of the judicial processes index (0-18) (DB17-20 methodology)
+ENF.CONT.COEN.RK.DB19 - Rank: Enforcing contracts (1=most business-friendly regulations)
 ENF.CONT.COEN.TRJU.DY - Enforcing contracts: Trial and judgment (days)
 ENF.CONT.DURS.DY - Enforcing contracts: Time (days)
 ENF.CONT.DURS.DY.DFRN - Enforcing contracts: Time (days) - Score
-ENF.CONT.EC.QJPI - Enforcing contracts: Quality of the judicial administration index (0-18) (DB17-19 methodology)
 EP.CPI.1996 - Consumer Price Index in 42 cities base 1996
 EP.CPI.2002 - Consumer Price Index in 45 cities base 2002
 EP.CPI.2007 - Consumer Price Index in 66 cities base 2007
@@ -5869,7 +5863,6 @@ FP.FPI.TOTL - Food price index (2000 = 100)
 FP.FPI.TOTL.ZG - Inflation, food prices (annual %)
 FP.WPI.TOTL - Wholesale price index (2010 = 100)
 FP.WPI.TOTL.ZG - Inflation, wholesale prices (annual %)
-FPCPITOTLXN__EXT - Consumer Price Index, annual change (%)
 FR.INR.DPST - Deposit interest rate (%)
 FR.INR.DPST.DP - Real deposit interest rate (%)
 FR.INR.GBND - Bond interest rate (%)
@@ -6219,9 +6212,6 @@ GFDD.SI.05 - Bank regulatory capital to risk-weighted assets (%)
 GFDD.SI.06 - Liquid assets to deposits and short term funding (%)
 GFDD.SI.07 - Provisions to nonperforming loans (%)
 GFDD.SM.01 - Stock price volatility
-GGBALOVRLCN__EXT - Overall General Government Balance, LCU mn, % of GDP
-GGBALPRIMCN__EXT - General Government primary balance, LCU mn, %GDP
-GGDBTTOTLCN__EXT - General government gross debt, %GDP
 GPFI1_TOTL - Financial knowledge score (0-3)
 GPFI2 - Disclosure index (0-5)
 GPFI3 - Dispute resolution index (0-1)
@@ -6858,13 +6848,12 @@ HOU.XPD.HE.PC.CR - Monthly Per Capita Household Health Expenditure (in IDR)
 HOU.XPD.PC.CR - Household per capita expenditure (in IDR)
 HOU.XPD.TOTL.20POOR.CR - Monthly Per Capita TOTAL Household Expenditure for The Poorest 20 percent (in IDR)
 IBP.OBI.XQ - Open Budget Index Overall Country Score
-IC.BUS.DFRN.XQ - Distance to frontier score (0=lowest performance to 100=frontier)
+IC.BUS.DFRN.XQ - Ease of doing business score (0 = lowest performance to 100 = best performance)
 IC.BUS.DIR.XQ - Protecting investors, director liability index
 IC.BUS.DISC.XQ - Business extent of disclosure index (0=less disclosure to 10=more disclosure)
 IC.BUS.EASE.DFRN.DB1014 - Global: Ease of doing business score (DB10-14 methodology)
-IC.BUS.EASE.DFRN.DB15 - Global: Ease of doing business score (DB15 methodology)
-IC.BUS.EASE.DFRN.DB16 - Global: Ease of doing business score (DB16 methodology)
-IC.BUS.EASE.DFRN.XQ.DB1719 - Global: Ease of doing business score (DB17-19 methodology)
+IC.BUS.EASE.DFRN.DB16 - Global: Ease of doing business score (DB15 methodology)
+IC.BUS.EASE.DFRN.XQ.DB1719 - Global: Ease of doing business score (DB17-20 methodology)
 IC.BUS.EASE.XQ - Ease of doing business index (1=most business-friendly regulations)
 IC.BUS.INVS.XQ - Protecting investors, investor protection index
 IC.BUS.NDNS.ZS - New business density (new registrations per 1,000 people ages 15-64)
@@ -6896,20 +6885,20 @@ IC.CNS.TAXAD.ZS - Tax administration (% of managers surveyed ranking this as a m
 IC.CNS.TAXR.ZS - Tax rates (% of managers surveyed ranking this as a major constraint)
 IC.CNS.TRAD.ZS - Customs &amp; trade regulations (% of managers surveyed ranking this as a major constraint)
 IC.CNS.TRSP.ZS - Transportation (% of managers surveyed ranking this as a major constraint)
-IC.CNST.LIR.XD.02.DB1619 - Dealing with construction permits: Liability and insurance regimes index (0-2) (DB16-19 methodology)
-IC.CNST.PC.XD.04.DB1619 - Dealing with construction permits: Professional certifications index (0-4) (DB16-19 methodology)
-IC.CNST.PRMT.BQCI.015.DB1619.DFRN - Dealing with construction permits: Building quality control index (0-15) (DB16-19 methodology) - Score
+IC.CNST.LIR.XD.02.DB1619 - Dealing with construction permits: Liability and insurance regimes index (0-2) (DB16-20 methodology)
+IC.CNST.PC.XD.04.DB1619 - Dealing with construction permits: Professional certifications index (0-4) (DB16-20 methodology)
+IC.CNST.PRMT.BQCI.015.DB1619.DFRN - Dealing with construction permits: Building quality control index (0-15) (DB16-20 methodology) - Score
 IC.CNST.PRMT.COST.WRH.VAL - Dealing with construction permits: Cost (% of Warehouse value)
 IC.CNST.PRMT.COST.WRH.VAL.DFRN - Dealing with construction permits: Cost (% of Warehouse value) - Score
 IC.CNST.PRMT.DFRN.DB0615 - Dealing with construction permits (DB06-15 methodology) - Score
-IC.CNST.PRMT.DFRN.DB1619 - Dealing with construction permits (DB16-19 methodology) - Score
+IC.CNST.PRMT.DFRN.DB1619 - Dealing with construction permits (DB16-20 methodology) - Score
 IC.CNST.PRMT.PROC.NO - Dealing with construction permits: Procedures (number)
 IC.CNST.PRMT.PROC.NO.DFRN - Dealing with construction permits: Procedures (number) - Score
-IC.CNST.PRMT.QBR.XD.02.DB1619 - Dealing with construction permits: Quality of building regulations index (0-2) (DB16-19 methodology)
-IC.CNST.PRMT.QCAC.XD.DB1619 - Dealing with construction permits: Quality control after construction index (0-3) (DB16-19 methodology)
-IC.CNST.PRMT.QCBC.XD.01.DB1619 - Dealing with construction permits: Quality control before construction index (0-1) (DB16-19 methodology)
-IC.CNST.PRMT.QCDC.XD.03.DB1619 - Dealing with construction permits: Quality control during construction index (0-3) (DB16-19 methodology)
-IC.CNST.PRMT.RK - Rank: Dealing with construction permits  (DB19 methodology) (1=most business-friendly regulations)
+IC.CNST.PRMT.QBR.XD.02.DB1619 - Dealing with construction permits: Quality of building regulations index (0-2) (DB16-20 methodology)
+IC.CNST.PRMT.QCAC.XD.DB1619 - Dealing with construction permits: Quality control after construction index (0-3) (DB16-20 methodology)
+IC.CNST.PRMT.QCBC.XD.01.DB1619 - Dealing with construction permits: Quality control before construction index (0-1) (DB16-20 methodology)
+IC.CNST.PRMT.QCDC.XD.03.DB1619 - Dealing with construction permits: Quality control during construction index (0-3) (DB16-20 methodology)
+IC.CNST.PRMT.RK - Rank: Dealing with construction permits (1=most business-friendly regulations)
 IC.CNST.PRMT.TM.DY - Dealing with construction permits: Time (days)
 IC.CNST.PRMT.TM.DY.DFRN - Dealing with construction permits: Time (days)  - Score
 IC.CON.GIFT.ZS - Expected to give gifts to get a Construction Permit (% of firms)
@@ -6921,51 +6910,51 @@ IC.CRD.PUBL.P3 - Public credit registry coverage (borrowers per 1,000 adults)
 IC.CRD.PUBL.ZS - Public credit registry coverage (% of adults)
 IC.CRD.XQ - Getting credit (rank)
 IC.CRED.ACC.ACES.DB0514 - Getting Credit total score (DB05-14 methodology)
-IC.CRED.ACC.ACES.DB1519 - Getting Credit total score (DB15-19 methodology)
+IC.CRED.ACC.ACES.DB1519 - Getting Credit total score (DB15-20 methodology)
 IC.CRED.ACC.CRD.DB0514.DFRN - Getting credit (DB05-14 methodology) - Score
-IC.CRED.ACC.CRD.DB1519.DFRN - Getting credit (DB15-19 methodology) - Score
-IC.CRED.ACC.CRD.RK - Rank: Getting credit  (DB19 methodology) (1=most business-friendly regulations)
+IC.CRED.ACC.CRD.DB1519.DFRN - Getting credit (DB15-20 methodology) - Score
+IC.CRED.ACC.CRD.RK - Rank: Getting credit (1=most business-friendly regulations)
 IC.CRED.ACC.DPTH.CISI.XD.06.DB0514 - Getting credit: Depth of credit information index (0-6) (DB05-14 methodology)
 IC.CRED.ACC.DPTH.CISI.XD.06.DB0514.DFRN - Getting credit: Depth of credit information index (0-6) (DB05-14 methodology) - Score
-IC.CRED.ACC.DPTH.CISI.XD.08.DB1519 - Getting credit: Depth of credit information index (0-8) (DB15-19 methodology)
-IC.CRED.ACC.DPTH.CISI.XD.08.DB1519.DFRN - Getting credit: Depth of credit information index (0-8) (DB15-19 methodology) - Score
+IC.CRED.ACC.DPTH.CISI.XD.08.DB1519 - Getting credit: Depth of credit information index (0-8) (DB15-20 methodology)
+IC.CRED.ACC.DPTH.CISI.XD.08.DB1519.DFRN - Getting credit: Depth of credit information index (0-8) (DB15-20 methodology) - Score
 IC.CRED.ACC.LGL.RGHT.010.XD.DB0514.DFRN - Getting credit: Strength of legal rights index (0-10) (DB05-14 methodology) - Score
-IC.CRED.ACC.LGL.RGHT.012.XD.DB1519.DFRN - Getting credit: Strength of legal rights index (0-12) (DB15-19 methodology) - Score
+IC.CRED.ACC.LGL.RGHT.012.XD.DB1519.DFRN - Getting credit: Strength of legal rights index (0-12) (DB15-20 methodology) - Score
 IC.CRED.ACC.LGL.RGHT.XD.010.DB0514 - Getting credit: Strength of legal rights index (0-10) (DB05-14 methodology)
-IC.CRED.ACC.LGL.RGHT.XD.012.DB1519 - Getting credit: Strength of legal rights index (0-12) (DB15-19 methodology)
+IC.CRED.ACC.LGL.RGHT.XD.012.DB1519 - Getting credit: Strength of legal rights index (0-12) (DB15-20 methodology)
 IC.CRED.ACC.PRVT.CRD.ZS - Getting credit: Credit bureau coverage (% of adults)
 IC.CRED.ACC.PUBL.CRD.REG.COVR.ZS - Getting credit: Credit registry coverage (% of adults)
 IC.CUS.DURS.EX - Average time to clear exports through customs (days)
 IC.CUS.DURS.IM - Average time to clear imports from customs (days)
-IC.DCP.BQC.XD.015.DB1619 - Dealing with construction permits: Building quality control index (0-15) (DB16-19 methodology)
+IC.DCP.BQC.XD.015.DB1619 - Dealing with construction permits: Building quality control index (0-15) (DB16-20 methodology)
 IC.DMKT.BRK.ZS - Products shipped to supply domestic markets lost due to breakage or spoilage (%)
 IC.DMKT.LOSS.ZS - Products shipped to supply domestic markets lost due to theft (%)
 IC.ELC.ACES.DFRN.DB1015 - Getting electricity (DB10-15 methodology) - Score
-IC.ELC.ACES.DFRN.DB1619 - Getting electricity (DB16-19 methodology) - Score
-IC.ELC.ACES.RK DB19 - Rank: Getting electricity (1=most business-friendly regulations) (DB19 methodology)
+IC.ELC.ACES.DFRN.DB1619 - Getting electricity (DB16-20 methodology) - Score
+IC.ELC.ACES.RK DB19 - Rank: Getting electricity (1=most business-friendly regulations)
 IC.ELC.ACS.COST - Getting electricity: Cost to get electricity (% of income per capita)
 IC.ELC.ACS.COST.DFRN - Getting electricity: Cost to get electricity (% of income per capita) - Score
-IC.ELC.COMM.TRFF.CG.01.DB1619 - Getting electricity: Communication of tariffs and tariff changes (0-1) (DB16-19 methodology)
+IC.ELC.COMM.TRFF.CG.01.DB1619 - Getting electricity: Communication of tariffs and tariff changes (0-1) (DB16-20 methodology)
 IC.ELC.DURS - Time to obtain an electrical connection (days)
 IC.ELC.GEN.ZS - Electricity from Generator (%)
 IC.ELC.GIFT.ZS - Expected to give gifts to get an electrical connection (% of firms)
-IC.ELC.LMTG.OUTG.01.DB1619 - Getting electricity: Financial deterrents aimed at limiting outages (0-1) (DB16-19 methodology)
-IC.ELC.MONT.OUTG.01.DB1619 - Getting electricity: Mechanisms for monitoring outages (0-1) (DB16-19 methodology)
+IC.ELC.LMTG.OUTG.01.DB1619 - Getting electricity: Financial deterrents aimed at limiting outages (0-1) (DB16-20 methodology)
+IC.ELC.MONT.OUTG.01.DB1619 - Getting electricity: Mechanisms for monitoring outages (0-1) (DB16-20 methodology)
 IC.ELC.OUTG - Power outages in firms in a typical month (number)
 IC.ELC.OUTG.DY - Electrical outages (days)
-IC.ELC.OUTG.FREQ.DURS.03.DB1619 - Getting electricity: Total duration and frequency of outages per customer a year (0-3) (DB16-19 methodology)
+IC.ELC.OUTG.FREQ.DURS.03.DB1619 - Getting electricity: Total duration and frequency of outages per customer a year (0-3) (DB16-20 methodology)
 IC.ELC.OUTG.HR - Average duration of power outages (hours)
-IC.ELC.OUTG.MN.DB1619 - Getting electricity: Minimum outage time (in minutes)  (DB16-19 methodology)
+IC.ELC.OUTG.MN.DB1619 - Getting electricity: Minimum outage time (in minutes)  (DB16-20 methodology)
 IC.ELC.OUTG.ZS - Firms experiencing electrical outages (% of firms)
-IC.ELC.PRI.KH.DB1619 - Getting electricity: Price of electricity (US cents per kWh) (DB16-19 methodology)
+IC.ELC.PRI.KH.DB1619 - Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology)
 IC.ELC.PROC.NO - Getting electricity: Procedures (number)
 IC.ELC.PROC.NO.DFRN - Getting electricity: Procedures (number) - Score
-IC.ELC.REGU.MONT.01.DB1619 - Getting electricity: Regulatory monitoring (0-1) (DB16-19 methodology)
-IC.ELC.RSTOR.01.DB1619 - Getting electricity: Mechanisms for restoring service (0-1) (DB16-19 methodology)
-IC.ELC.RSTT.XD.08.DB1619 - Getting electricity: Reliability of supply and transparency of tariff index (0-8) (DB16-19 methodology)
-IC.ELC.RSTT.XD.08.DFRN.DB1619 - Getting electricity: Reliability of supply and transparency of tariff index (0-8) (DB16-19 methodology) - Score
-IC.ELC.SAID.XD.DB1619 - Getting electricity: System average interruption duration index (SAIDI) (DB16-19 methodology)
-IC.ELC.SAIF.XD.DB1619 - Getting electricity: System average interruption frequency index (SAIFI) (DB16-19 methodology)
+IC.ELC.REGU.MONT.01.DB1619 - Getting electricity: Regulatory monitoring (0-1) (DB16-20 methodology)
+IC.ELC.RSTOR.01.DB1619 - Getting electricity: Mechanisms for restoring service (0-1) (DB16-20 methodology)
+IC.ELC.RSTT.XD.08.DB1619 - Getting electricity: Reliability of supply and transparency of tariff index (0-8) (DB16-20 methodology)
+IC.ELC.RSTT.XD.08.DFRN.DB1619 - Getting electricity: Reliability of supply and transparency of tariff index (0-8) (DB16-20 methodology) - Score
+IC.ELC.SAID.XD.DB1619 - Getting electricity: System average interruption duration index (SAIDI) (DB16-20 methodology)
+IC.ELC.SAIF.XD.DB1619 - Getting electricity: System average interruption frequency index (SAIFI) (DB16-20 methodology)
 IC.ELC.TIME - Time required to get electricity (days)
 IC.ELC.TIME.DFRN - Getting electricity: Time (days) - Score
 IC.ELEC.COST.PC.ZS - Cost to get electricity connection (% of income per capita)
@@ -7177,24 +7166,21 @@ IC.REG.PROC.MA.NO.DFRN - Starting a business: Procedures required - Men (number)
 IC.REG.PRRT.COST.PRT.VAL - Registering property: Cost (% of property value)
 IC.REG.PRRT.COST.PRT.VAL.DFRN - Registering property: Cost (% of property value) - Score
 IC.REG.PRRT.DFRN.DB0515 - Registering property (DB05-15 methodology) - Score
-IC.REG.PRRT.DFRN.DB16 - Registering property (DB16 methodology) - Score
-IC.REG.PRRT.DFRN.DB1719 - Registering property (DB17-19 methodology) - Score
+IC.REG.PRRT.DFRN.DB1719 - Registering property (DB17-20 methodology) - Score
 IC.REG.PRRT.DURS.TM - Registering property: Time (days)
 IC.REG.PRRT.DURS.TM.DRFN - Registering property: Time (days) - Score
-IC.REG.PRRT.EQACCS.XD.08.DB1619 - Registering property: Equal access to property rights index (-2-0) (DB17-19 methodology)
-IC.REG.PRRT.GEO.COVR.XD.08.DB1619 - Registering property: Geographic coverage index (0-8) (DB16-19 methodology)
-IC.REG.PRRT.LAND.DISP.XD.08.DB1619 - Registering property: Land dispute resolution index (0-8) (DB16-19 methodology)
-IC.REG.PRRT.LNDADM.GEN.XD.030.DB1719.DFRN - Registering property: Quality of land administration index with Gender (0-30) (DB17-19 methodology) - Score
+IC.REG.PRRT.EQACCS.XD.08.DB1619 - Registering property: Equal access to property rights index (-2-0) (DB17-20 methodology)
+IC.REG.PRRT.GEO.COVR.XD.08.DB1619 - Registering property: Geographic coverage index (0-8) (DB16-20 methodology)
+IC.REG.PRRT.LAND.DISP.XD.08.DB1619 - Registering property: Land dispute resolution index (0-8) (DB16-20 methodology)
 IC.REG.PRRT.PROC.NO - Registering property: Procedures (number)
 IC.REG.PRRT.PROC.NO.DFRN - Registering property: Procedures (number) - Score
-IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16 - Registering property: Quality of land administration index (0-30) (DB16 methodology)
-IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16.DFRN - Registering property: Quality of land administration index (0-30) (DB16 methodology) - Score
-IC.REG.PRRT.QUAL.LNDADM.XD.030.DB1719 - Registering property: Quality of land administration index (0-30) (DB17-19 methodology)
-IC.REG.PRRT.REG.RK.DB19 - Rank: Registering property (1=most business-friendly regulations)  (DB19 methodology)
-IC.REG.PRRT.RELI.INFR.XD.09.DB1619 - Registering property: Reliability of infrastructure index (0-8) (DB16-19 methodology)
-IC.REG.PRRT.TRAP.INFO.XD.06.DB1619 - Registering property: Transparency of information index (0-6) (DB16-19 methodology)
+IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16 - Registering property: Quality of land administration index (0-30) (DB17-20 methodology)
+IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16.DFRN - Registering property: Quality of land administration index (0-30) (DB17-20 methodology) - Score
+IC.REG.PRRT.REG.RK.DB19 - Rank: Registering property (1=most business-friendly regulations)
+IC.REG.PRRT.RELI.INFR.XD.09.DB1619 - Registering property: Reliability of infrastructure index (0-8) (DB16-20 methodology)
+IC.REG.PRRT.TRAP.INFO.XD.06.DB1619 - Registering property: Transparency of information index (0-6) (DB16-20 methodology)
 IC.REG.STRT.BUS.DFRN - Starting a business - Score
-IC.REG.STRT.BUS.RK.DB19 - Rank: Starting a business (DB19 methodology)
+IC.REG.STRT.BUS.RK.DB19 - Rank: Starting a business (1=most business-friendly regulations)
 IC.REG.XQ - Starting a business (rank)
 IC.SALE.DOM.ZS - Domestic Sales (% sales)
 IC.SME.EMPL.ZS - MSME employment (% of total employment)
@@ -8910,12 +8896,7 @@ NE.TRD.GNFS.CD - Trade of goods and services (current US$)
 NE.TRD.GNFS.ZS - Trade (% of GDP)
 NE.TRM.TRAD.XN - Terms of trade index (2000=100)
 NE.TRM.TRAD.XU - Terms of trade (goods and services, 2000 = 100)
-NECONGOVTKN__EXT - Government Consumption, Real LCU mn, annual growth rate (%)
-NECONPRVTKN__EXT - Private Consumption, annual growth rate (%)
 NEER - Nominal Effecive Exchange Rate
-NEEXPGNFSKN__EXT - Exports, GNFS (NIA), annual growth rate %
-NEGDIFTOTKN__EXT - Fixed Domestic Investment, annual growth rate %
-NEIMPGNFSKN__EXT - Imports,  GNFS (NIA), Real LCU mn, annual growth rate %
 NP.AGR.TOTL.CN - Agriculture, value added (local)  (Curr. Price)
 NP.AGR.TOTL.IN - Agricultural Value Added Deflator
 NP.AGR.TOTL.KN - Agriculture, value added (local) (Const. Price)
@@ -9034,9 +9015,6 @@ NV.SRV.TRAD.KN - Wholesale and retail trade, value added (constant LCU)
 NV.SRV.TRAN.CD - Transportation, storage and communication, value added (current US$)
 NV.SRV.TRAN.CN - Transportation, storage and communication, value added (current LCU)
 NV.SRV.TRAN.KN - Transportation, storage and communication, value added (constant LCU)
-NVAGRTOTLKN__EXT - Value Added Agriculture, LCU mn, annual growth rate %
-NVINDTOTLKN__EXT - Value Added Industry, Real LCU mn, annual growth rate %
-NVSRVTOTLKN__EXT - Value Added Services, Real LCU mn, annual growth rate %
 NW.HCA.PC - Human capital per capita (constant 2014 US$)
 NW.HCA.TO - Human capital (constant 2014 US$)
 NW.NCA.AGRI.PC - Natural capital per capita, agricultural land (constant 2014 US$)
@@ -9265,9 +9243,7 @@ NY.TTF.GNFS.KD.87 - Terms of trade adjustment (constant 1987 US$)
 NY.TTF.GNFS.KN - Terms of trade adjustment (constant LCU)
 NY.TTF.GNFS.KN.87 - Terms of trade adjustment (constant 1987 LCU)
 NY.TTF.MRCH.KN - Terms of Trade Adjustment (local) (Const. Price)
-NYGDPFCSTKN__EXT - GDP Factor Cost, Real LCU mn , annual change %
 NYGDPMKTPKDZ - Annual percentage growth rate of GDP at market prices based on constant 2010 US Dollars.
-NYGDPMKTPKN__EXT - GDP, Market Prices, Real LCU mn, annual growth rate (%)
 NYGDPMKTPSACD - GDP,current US$,millions,seas. adj.,
 NYGDPMKTPSACN - GDP,current LCU,millions,seas. adj.,
 NYGDPMKTPSAKD - GDP,constant 2010 US$,millions,seas. adj.,
@@ -9317,26 +9293,26 @@ PALM.PRD.TOTL - Palm Production: Total (in Tons)
 PALM.YLD.PRVT - Palm Oil Yield by type of ownership: Private (in Kg/Ha)
 PALM.YLD.SMHD - Palm Oil Yield by type of ownership: Smallholder (in Kg/Ha)
 PALM.YLD.SOE - Palm Oil Yield by type of ownership: State Owned Enterprise (in Kg/Ha)
-PAY.TAX.COIT.AU.HRS.DB1719 - Paying taxes: Time to comply with corporate income tax correction (hours) (DB17-19 methodology)
-PAY.TAX.COIT.AU.HRS.TM.DB1719.DFRN - Paying taxes: Time to comply with corporate income tax correction (hours) (DB17-19 methodology) - Score
-PAY.TAX.COIT.AU.WKS.DB1719 - Paying taxes: Time to complete a corporate income tax correction (weeks) (DB17-19 methodology)
-PAY.TAX.COIT.WKS.TM.DB1719.DFRN - Paying taxes: Time to complete a corporate income tax correction (weeks) (DB17-19 methodology) - Score
+PAY.TAX.COIT.AU.HRS.DB1719 - Paying taxes: Time to comply with corporate income tax correction (hours) (DB17-20 methodology)
+PAY.TAX.COIT.AU.HRS.TM.DB1719.DFRN - Paying taxes: Time to comply with corporate income tax correction (hours) (DB17-20 methodology) - Score
+PAY.TAX.COIT.AU.WKS.DB1719 - Paying taxes: Time to complete a corporate income tax correction (weeks) (DB17-20 methodology)
+PAY.TAX.COIT.WKS.TM.DB1719.DFRN - Paying taxes: Time to complete a corporate income tax correction (weeks) (DB17-20 methodology) - Score
 PAY.TAX.DB0616.DFRN - Paying taxes (DB06-16 methodology) - Score
-PAY.TAX.DB1719.DRFN - Paying taxes (DB17-19 methodology) - Score
-PAY.TAX.LABR.TAX.CONTR.ZS - Paying taxes: Labor tax and contributions (% of commercial profits)
-PAY.TAX.POST.FIL.XD.0100.DB1719.DFRN - Paying taxes: Postfiling index (0-100) (DB17-19 methodology) - Score
+PAY.TAX.DB1719.DRFN - Paying taxes (DB17-20 methodology) - Score
+PAY.TAX.LABR.TAX.CONTR.ZS - Paying taxes: Labor tax and contributions (% of profits)
+PAY.TAX.POST.FIL.XD.0100.DB1719.DFRN - Paying taxes: Postfiling index (0-100) (DB17-20 methodology) - Score
 PAY.TAX.PRFT.CP.ZS - Paying taxes: Profit tax (% of profits)
 PAY.TAX.PYMT.FREQ.NO - Paying taxes: Payments (number per year)
-PAY.TAX.PYMT.NO.DFRN - Paying taxes: Tax payments per year (number) - Score
-PAY.TAX.RK.DB19 - Rank: Paying taxes (1=most business-friendly regulations) (DB19 methodology)
+PAY.TAX.PYMT.NO.DFRN - Paying taxes: Payments per year (number per year) - Score
+PAY.TAX.RK.DB19 - Rank: Paying taxes (1=most business-friendly regulations)
 PAY.TAX.TM - Paying taxes: Time (hours per year)
 PAY.TAX.TM.DFRN - Paying taxes: Time (hours per year) - Score
-PAY.TAX.TOT.TAX.RT.ZS - Paying taxes: Total tax rate (% of profit)
-PAY.TAX.TOT.TAX.RT.ZS.DRFRN - Paying taxes: Total tax rate (% of profit) - Score
-PAY.TAX.VAT.REF.OBT.WKS.TM.DB1719 - Paying taxes: Time to obtain VAT refund (weeks) (DB17-19 methodology)
-PAY.TAX.VAT.REF.OBT.WKS.TM.DB1719.DFRN - Paying taxes: Time to obtain VAT refund (weeks) (DB17-19 methodology) - Score
-PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719 - Paying taxes: Time to comply with VAT refund (hours) (DB17-19 methodology)
-PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719.DFRN - Paying taxes: Time to comply with VAT refund (hours) (DB17-19 methodology) - Score
+PAY.TAX.TOT.TAX.RT.ZS - Paying taxes: Total tax and contribution rate (% of profit)
+PAY.TAX.TOT.TAX.RT.ZS.DRFRN - Paying taxes: Total tax and contribution rate (% of profit) - Score
+PAY.TAX.VAT.REF.OBT.WKS.TM.DB1719 - Paying taxes: Time to obtain VAT refund (weeks) (DB17-20 methodology)
+PAY.TAX.VAT.REF.OBT.WKS.TM.DB1719.DFRN - Paying taxes: Time to obtain VAT refund (weeks) (DB17-20 methodology) - Score
+PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719 - Paying taxes: Time to comply with VAT refund (hours) (DB17-20 methodology)
+PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719.DFRN - Paying taxes: Time to comply with VAT refund (hours) (DB17-20 methodology) - Score
 PC.CD - Expenditures per capita (current US$, XR term)
 PC.PP.CD - Expenditures per capita (current international $, PPP term)
 PC.US.PP.ZX - Expenditures per capita (index, US=100, PPP term)
@@ -9753,26 +9729,24 @@ PRJ.POP.ALL.S1.FE - Wittgenstein Projection: Population in thousands by highest 
 PRJ.POP.ALL.S1.MA - Wittgenstein Projection: Population in thousands by highest level of educational attainment. Incomplete Primary. Male
 PRJ.POP.ALL.S1.MF - Wittgenstein Projection: Population in thousands by highest level of educational attainment. Incomplete Primary. Total
 PROT.MINOR.INV.DFRN.DB0614 - Protecting minority investors (DB06-14 methodology) - Score
-PROT.MINOR.INV.DFRN.DB1519 - Protecting minority investors (DB15-19 methodology) - Score
+PROT.MINOR.INV.DFRN.DB1519 - Protecting minority investors (DB15-20 methodology) - Score
 PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB0614 - Protecting minority investors: Ease of shareholder suits index (0-10) (DB06-14 methodology)
-PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB1519 - Protecting minority investors: Ease of shareholder suits index (0-10) (DB15-19 methodology)
+PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB1519 - Protecting minority investors: Ease of shareholder suits index (0-10) (DB15-20 methodology)
 PROT.MINOR.INV.EASE.SSI.XD.0010.DB0614.DFRN - Protecting minority investors: Ease of shareholder suits index (0-10) (DB06-14 methodology) - Score
-PROT.MINOR.INV.EASE.SSI.XD.0010.DB1519.DFRN - Protecting minority investors: Ease of shareholder suits index (0-10) (DB15-19 methodology) - Score
+PROT.MINOR.INV.EASE.SSI.XD.0010.DB1519.DFRN - Protecting minority investors: Ease of shareholder suits index (0-10) (DB15-20 methodology) - Score
 PROT.MINOR.INV.EXT.BUS.DISC.010.XD - Protecting minority investors: Extent of disclosure index (0-10)
-PROT.MINOR.INV.EXT.CONFL.INTER.XD.010.DB1519 - Protecting minority investors: Extent of conflict of interest regulation index (0-10) (DB15-19 methodology)
-PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519 - Protecting minority investors: Extent of corporate transparency index (0-10) (DB15-19 methodology)
-PROT.MINOR.INV.EXT.CORP.TRANS.XD.010.DB1519.DFRN - Protecting minority investors: Extent of corporate transparency index (0-10) (DB15-19 methodology) - Score
+PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519 - Protecting minority investors: Extent of corporate transparency index (0-7) (DB15-20 methodology)
+PROT.MINOR.INV.EXT.CORP.TRANS.XD.010.DB1519.DFRN - Protecting minority investors: Extent of corporate transparency index (0-7) (DB15-20 methodology) - Score
 PROT.MINOR.INV.EXT.DIR.LBL.010.XD.DFRN - Protecting minority investors: Extent of director liability index (0-10) - Score
 PROT.MINOR.INV.EXT.DISC.010.XD.DFRN - Protecting minority investors: Extent of disclosure index (0-10) - Score
-PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519 - Protecting minority investors: Extent of ownership and control index (0-10) (DB15-19 methodology)
-PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN - Protecting minority investors: Extent of ownership and control index (0-10) (DB15-19 methodology) - Score
-PROT.MINOR.INV.EXT.SHARE.GOV.XD.010.DB1519 - Protecting minority investors: Extent of shareholder governance index (0-10) (DB15-19 methodology)
-PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519 - Protecting minority investors: Extent of shareholder rights index (0-10) (DB15-19 methodology)
-PROT.MINOR.INV.EXT.SHRHLD.RGT.XD.0010.DB1519.DRFN - Protecting minority investors: Extent of shareholder rights index (0-10) (DB15-19 methodology) - Score
+PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519 - Protecting minority investors: Extent of ownership and control index (0-7) (DB15-20 methodology)
+PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN - Protecting minority investors: Extent of ownership and control index (0-7) (DB15-20 methodology) - Score
+PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519 - Protecting minority investors: Extent of shareholder rights index (0-6) (DB15-20 methodology)
+PROT.MINOR.INV.EXT.SHRHLD.RGT.XD.0010.DB1519.DRFN - Protecting minority investors: Extent of shareholder rights index (0-6) (DB15-20 methodology) - Score
 PROT.MINOR.INV.IC.PRIN.EXT.DIR.LGL.010.XD - Protecting minority investors: Extent of director liability index (0-10)
-PROT.MINOR.INV.IC.PRIN.MINOR.RK - Rank: Protecting minority investors (1=most business-friendly regulations)  (DB19 methodology)
+PROT.MINOR.INV.IC.PRIN.MINOR.RK - Rank: Protecting minority investors (1=most business-friendly regulations)
 PROT.MINOR.INV.STRENG.INV.PROT.XD.010.DB0614 - Protecting minority investors: Strength of investor protection index (0-10) (DB06-14 methodology)
-PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614 - Protecting minority investors: Strength of minority investor protection index (0-10) (DB15-19 methodology)
+PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614 - Protecting minority investors: Strength of minority investor protection index (0-50) (DB15-20 methodology)
 PRT.PDCL.IND1.IDX - PDI-1 Country with operational national development strategies (rating)
 PRT.PDCL.IND10A.ALLD.ZS - PDI-10a Donor missions co-ordinated (percent)
 PRT.PDCL.IND10B.ALLD.ZS - PDI-10b Country-analysis co-ordinated (percent)
@@ -9830,20 +9804,19 @@ Q.8A0.5B0.C.5A.ALL.IECE.1.ALL.MX.TO1.ALL - 09_Insured export credit exposures, B
 Q.8A0.5B0.C.5A.ALL.IECE.1.STR.MX.TO1.ALL - 10_Insured export credit exposures, short term (BU)
 REER - Real Effective Exchange Rate
 RES.DPST.CBK - Outstanding Deposits of Commercial Banks owned by Regional Government (Province Level, in IDR Million)
-RESLV.ISV.COPR.03.XD.DB1519 - Resolving insolvency: Commencement of proceedings index (0-3) (DB15-19 methodology)
+RESLV.ISV.COPR.03.XD.DB1519 - Resolving insolvency: Commencement of proceedings index (0-3) (DB15-20 methodology)
 RESLV.ISV.COST.ZS - Resolving insolvency: Cost (% of estate)
-RESLV.ISV.CPI.04.XD.DB1519 - Resolving insolvency: Creditor participation index (0-4) (DB15-19 methodology)
-RESLV.ISV.DB0414.DFRN - Resolving insolvency (DB04-14 methodology) - Score
-RESLV.ISV.DB1519.DFRN - Resolving insolvency (DB15-19 methodology) - Score
+RESLV.ISV.CPI.04.XD.DB1519 - Resolving insolvency: Creditor participation index (0-4) (DB15-20 methodology)
+RESLV.ISV.DB1519.DFRN - Resolving insolvency - Score
 RESLV.ISV.DFRN.RCOV.RT - Resolving insolvency: Recovery rate (cents on the dollar) - Score
-RESLV.ISV.DURS.YR - Resolving insolvency: Time (years)
-RESLV.ISV.MGDA.XD.DB1519 - Resolving insolvency: Management of debtor's assets index (0-6) (DB15-19 methodology)
+RESLV.ISV.DURS - Resolving insolvency: Time (years)
+RESLV.ISV.MGDA.XD.DB1519 - Resolving insolvency: Management of debtor's assets index (0-6) (DB15-20 methodology)
 RESLV.ISV.OTCM - Resolving insolvency: Outcome (0 as piecemeal sale and 1 as going concern)
 RESLV.ISV.RCOV.RT - Resolving insolvency: Recovery rate (cents on the dollar)
-RESLV.ISV.RCOV.RT.016.DB1519.DFRN - Resolving insolvency: Strength of insolvency framework index (0-16) (DB15-19 methodology) - Score
-RESLV.ISV.RK.DB19 - Rank: Resolving insolvency  (DB19 methodology)
-RESLV.ISV.ROPC.03.XD.DB1519 - Reorganization proceedings index (0-3) (DB15-19 methodology)
-RESLV.ISV.SOIF.06.DB1519 - Resolving insolvency: Strength of insolvency framework index (0-16) (DB15-19 methodology)
+RESLV.ISV.RCOV.RT.016.DB1519.DFRN - Resolving insolvency: Strength of insolvency framework index (0-16) - Score
+RESLV.ISV.RK.DB19 - Rank: Resolving insolvency (1=most business-friendly regulations)
+RESLV.ISV.ROPC.03.XD.DB1519 - Reorganization proceedings index (0-3) (DB15-20 methodology)
+RESLV.ISV.SOIF.06.DB1519 - Resolving insolvency: Strength of insolvency framework index (0-16)
 RETSALESSA - Retail Sales Volume,Index,,,
 REV.DAK.CR - Total Special Allocation Grant/DAK (in IDR)
 REV.DAU.CR - Total General Allocation Grant/DAU (in IDR)
@@ -12256,36 +12229,36 @@ TRAD.IMPT.MTRN - Import: Machinery and transport equipment (province Level, in U
 TRAD.IMPT.OLFTW - Import: Animals and vegetable oil, fat and waxes (province Level, in USD)
 TRAD.IMPT.OTHR - Import: Commodities and transaction not elsewhere classified (province Level, in USD)
 TRD.ACRS.BRDR.DB0615.DFRN - Trading across borders (DB06-15 methodology) - Score
-TRD.ACRS.BRDR.DB1619.DFRN - Trading across borders (DB16-19 methodology) - Score
-TRD.ACRS.BRDR.DOC.COMP.HR.DB1619 - Time to export: Documentary compliance (hours) (DB16-19 methodology)
+TRD.ACRS.BRDR.DB1619.DFRN - Trading across borders (DB16-20 methodology) - Score
+TRD.ACRS.BRDR.DOC.COMP.HR.DB1619 - Time to export: Documentary compliance (hours) (DB16-20 methodology)
 TRD.ACRS.BRDR.DOCS.EXPT.NO.DB0615 - Trading across borders: Documents to export (number) (DB06-15 methodology)
 TRD.ACRS.BRDR.DOCS.EXPT.NO.DB0615.DFRN - Trading across borders: Documents to export (number) (DB06-15 methodology) - Score
 TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615 - Trading across borders: Documents to import (number) (DB06-15 methodology)
 TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615.DFRN - Trading across borders: Documents to import (number) (DB06-15 methodology) - Score
-TRD.ACRS.BRDR.EXPT.BRDR.COMP.HR.DB1619 - Time to export: Border compliance (hours) (DB16-19 methodology)
-TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619 - Trading across borders: Cost to export: Border compliance (USD) (DB16-19 methodology)
-TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619.DFRN - Trading across borders: Cost to export: Border compliance (USD) (DB16-19 methodology) - Score
+TRD.ACRS.BRDR.EXPT.BRDR.COMP.HR.DB1619 - Time to export: Border compliance (hours) (DB16-20 methodology)
+TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619 - Trading across borders: Cost to export: Border compliance (USD) (DB16-20 methodology)
+TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619.DFRN - Trading across borders: Cost to export: Border compliance (USD) (DB16-20 methodology) - Score
 TRD.ACRS.BRDR.EXPT.COST.CD.DB0615 - Trading across borders: Cost to export (US$ per container deflated) (DB06-15 methodology)
 TRD.ACRS.BRDR.EXPT.COST.CD.DB0615.DFRN - Trading across borders: Cost to export (US$ per container) (DB06-15 methodology) - Score
-TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619 - Trading across borders: Cost to export: Documentary compliance (USD) (DB16-19 methodology)
-TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619.DFRN - Trading across borders: Cost to export: Documentary compliance (USD) (DB16-19 methodology) - Score
+TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619 - Trading across borders: Cost to export: Documentary compliance (USD) (DB16-20 methodology)
+TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619.DFRN - Trading across borders: Cost to export: Documentary compliance (USD) (DB16-20 methodology) - Score
 TRD.ACRS.BRDR.EXPT.DURS.DY.DB0615 - Time to export (days) (DB06-15 methodology)
-TRD.ACRS.BRDR.EXPT.TM.BRDR.COMP.HR.DB1619.DFRN - Trading across borders: Time to export: Border compliance (hours) (DB16-19 methodology) - Score
-TRD.ACRS.BRDR.EXPT.TM.DOC.COMP.HR.DB1619.DFRN - Trading across borders: Time to export: Documentary compliance (hours) (DB16-19 methodology) - Score
+TRD.ACRS.BRDR.EXPT.TM.BRDR.COMP.HR.DB1619.DFRN - Trading across borders: Time to export: Border compliance (hours) (DB16-20 methodology) - Score
+TRD.ACRS.BRDR.EXPT.TM.DOC.COMP.HR.DB1619.DFRN - Trading across borders: Time to export: Documentary compliance (hours) (DB16-20 methodology) - Score
 TRD.ACRS.BRDR.EXPT.TM.DY.DB0615.DFRN - Trading across borders: Time to export (days) (DB06-15 methodology) - Score
-TRD.ACRS.BRDR.IMP.BRDR.COMP.HR.DB1619 - Time to import: Border compliance (hours) (DB16-19 methodology)
-TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619 - Trading across borders: Cost to import: Border compliance (USD) (DB16-19 methodology)
-TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619.DFRN - Trading across borders: Cost to import: Border compliance (USD) (DB16-19 methodology) - Score
+TRD.ACRS.BRDR.IMP.BRDR.COMP.HR.DB1619 - Time to import: Border compliance (hours) (DB16-20 methodology)
+TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619 - Trading across borders: Cost to import: Border compliance (USD) (DB16-20 methodology)
+TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619.DFRN - Trading across borders: Cost to import: Border compliance (USD) (DB16-20 methodology) - Score
 TRD.ACRS.BRDR.IMP.COST.CD.DB0615 - Trading across borders: Cost to import (US$ per container deflated)(DB06-15 methodology)
 TRD.ACRS.BRDR.IMP.COST.CD.DB0615.DFRN - Trading across borders: Cost to import (US$ per container)(DB06-15 methodology) - Score
-TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619 - Trading across borders: Cost to import: Documentary compliance (USD) (DB16-19 methodology)
-TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619.DFRN - Trading across borders: Cost to import: Documentary compliance (USD) (DB16-19 methodology) - Score
-TRD.ACRS.BRDR.IMP.DOC.COMP.HR.DB1619 - Time to import: Documentary compliance (hours) (DB16-19 methodology)
+TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619 - Trading across borders: Cost to import: Documentary compliance (USD) (DB16-20 methodology)
+TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619.DFRN - Trading across borders: Cost to import: Documentary compliance (USD) (DB16-20 methodology) - Score
+TRD.ACRS.BRDR.IMP.DOC.COMP.HR.DB1619 - Time to import: Documentary compliance (hours) (DB16-20 methodology)
 TRD.ACRS.BRDR.IMP.DURS.DY.DB0615 - Time to import (days) (DB06-15 methodology)
-TRD.ACRS.BRDR.IMP.TM.BRDR.COMP.HR.DB1619.DFRN - Trading across borders: Time to import: Border compliance (hours) (DB16-19 methodology) - Score
-TRD.ACRS.BRDR.IMP.TM.DOC.COMP.HR.DB1619.DFRN - Trading across borders: Time to import: Documentary compliance (hours) (DB16-19 methodology) - Score
+TRD.ACRS.BRDR.IMP.TM.BRDR.COMP.HR.DB1619.DFRN - Trading across borders: Time to import: Border compliance (hours) (DB16-20 methodology) - Score
+TRD.ACRS.BRDR.IMP.TM.DOC.COMP.HR.DB1619.DFRN - Trading across borders: Time to import: Documentary compliance (hours) (DB16-20 methodology) - Score
 TRD.ACRS.BRDR.IMP.TM.DY.DB0615.DFRN - Trading across borders: Time to import (days) (DB06-15 methodology) - Score
-TRD.ACRS.BRDR.RK.DB19 - Rank: Trading across borders (1=most business-friendly regulations) (DB19 methodology)
+TRD.ACRS.BRDR.RK.DB19 - Rank: Trading across borders (1=most business-friendly regulations)
 TT.INC.MRCH.XD.UN - Income terms of trade (1987 = 100)
 TT.PRI.MRCH.XD - Terms of Trade Index (1987=100,US$-based)
 TT.PRI.MRCH.XD.UN - Net barter terms of trade (1987 = 100)

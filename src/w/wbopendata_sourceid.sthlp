@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 20oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -10,6 +10,11 @@
 {synoptset 40 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
+{synopt:{opt 01}}  {help wbopendata_sourceid##sourceid_01:Doing Business}{p_end}
+{synopt:{opt 02}}  {help wbopendata_sourceid##sourceid_02:World Development Indicators}{p_end}
+{synopt:{opt 03}}  {help wbopendata_sourceid##sourceid_03:Worldwide Governance Indicators}{p_end}
+{synopt:{opt 05}}  {help wbopendata_sourceid##sourceid_05:Subnational Malnutrition Database}{p_end}
+{synopt:{opt 06}}  {help wbopendata_sourceid##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid##sourceid_13:Enterprise Surveys}{p_end}
@@ -34,6 +39,7 @@
 {synopt:{opt 36}}  {help wbopendata_sourceid##sourceid_36:Statistical Capacity Indicators}{p_end}
 {synopt:{opt 37}}  {help wbopendata_sourceid##sourceid_37:LAC Equity Lab}{p_end}
 {synopt:{opt 39}}  {help wbopendata_sourceid##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
+{synopt:{opt 40}}  {help wbopendata_sourceid##sourceid_40:Population estimates and projections}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid##sourceid_46:Sustainable Development Goals}{p_end}
@@ -53,10 +59,4260 @@
 {synopt:{opt 70}}  {help wbopendata_sourceid##sourceid_70:Economic Fitness 2}{p_end}
 {synopt:{opt 71}}  {help wbopendata_sourceid##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
 {synopt:{opt 73}}  {help wbopendata_sourceid##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
-{synopt:{opt 74}}  {help wbopendata_sourceid##sourceid_74:Macro Poverty Outlook External}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 {synoptline}
 
+
+{marker sourceid_01}
+{p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_01:Source}} or {it:{help wbopendata_sourceid_indicators01##:TOC}}){p_end}
+{synoptset 40 tabbed}{...}
+{synopthdr:01 Doing Business}
+{synoptline}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.ATDR:ENF.CONT.COEN.ATDR{marker ENF.CONT.COEN.ATDR}}}Enforcing contracts: Alternative dispute resolution (0-3) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.ATFE.PR:ENF.CONT.COEN.ATFE.PR{marker ENF.CONT.COEN.ATFE.PR}}}Enforcing contracts: Attorney fees (% of claim){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.COST.ZS:ENF.CONT.COEN.COST.ZS{marker ENF.CONT.COEN.COST.ZS}}}Enforcing contracts: Cost (% of claim){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.COST.ZS.DFRN:ENF.CONT.COEN.COST.ZS.DFRN{marker ENF.CONT.COEN.COST.ZS.DFRN}}}Enforcing contracts: Cost (% of claim) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.CSMG:ENF.CONT.COEN.CSMG{marker ENF.CONT.COEN.CSMG}}}Enforcing contracts: Case management (0-6) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.CTAU:ENF.CONT.COEN.CTAU{marker ENF.CONT.COEN.CTAU}}}Enforcing contracts: Court automation (0-4) (DB17-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.CTFE.PR:ENF.CONT.COEN.CTFE.PR{marker ENF.CONT.COEN.CTFE.PR}}}Enforcing contracts: Court fees (% of claim){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.CTSP.DB1719:ENF.CONT.COEN.CTSP.DB1719{marker ENF.CONT.COEN.CTSP.DB1719}}}Enforcing contracts: Court structure and proceedings (0-5) (DB17-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.DB0415.DFRN:ENF.CONT.COEN.DB0415.DFRN{marker ENF.CONT.COEN.DB0415.DFRN}}}Enforcing contracts (DB04-15 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.DB1719.DFRN:ENF.CONT.COEN.DB1719.DFRN{marker ENF.CONT.COEN.DB1719.DFRN}}}Enforcing contracts (DB17-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.ENFE.PR:ENF.CONT.COEN.ENFE.PR{marker ENF.CONT.COEN.ENFE.PR}}}Enforcing contracts: Enforcement fees (% of claim){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.ENJU.DY:ENF.CONT.COEN.ENJU.DY{marker ENF.CONT.COEN.ENJU.DY}}}Enforcing contracts: Enforcement of judgment (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.FLSR.DY:ENF.CONT.COEN.FLSR.DY{marker ENF.CONT.COEN.FLSR.DY}}}Enforcing contracts: Filing and service (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.PROC.NO:ENF.CONT.COEN.PROC.NO{marker ENF.CONT.COEN.PROC.NO}}}Enforcing contracts: Procedures (number){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.PROC.NO.DFRN:ENF.CONT.COEN.PROC.NO.DFRN{marker ENF.CONT.COEN.PROC.NO.DFRN}}}Enforcing contracts: Procedures (number) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.QUJP.DB16.DFRN:ENF.CONT.COEN.QUJP.DB16.DFRN{marker ENF.CONT.COEN.QUJP.DB16.DFRN}}}Enforcing contracts: Quality of the judicial processes index (0-19) (DB17-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.QUJP.XD:ENF.CONT.COEN.QUJP.XD{marker ENF.CONT.COEN.QUJP.XD}}}Enforcing contracts: Quality of the judicial processes index (0-18) (DB17-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.RK.DB19:ENF.CONT.COEN.RK.DB19{marker ENF.CONT.COEN.RK.DB19}}}Rank: Enforcing contracts (1=most business-friendly regulations){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.TRJU.DY:ENF.CONT.COEN.TRJU.DY{marker ENF.CONT.COEN.TRJU.DY}}}Enforcing contracts: Trial and judgment (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.DURS.DY:ENF.CONT.DURS.DY{marker ENF.CONT.DURS.DY}}}Enforcing contracts: Time (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.DURS.DY.DFRN:ENF.CONT.DURS.DY.DFRN{marker ENF.CONT.DURS.DY.DFRN}}}Enforcing contracts: Time (days) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.BUS.EASE.DFRN.DB1014:IC.BUS.EASE.DFRN.DB1014{marker IC.BUS.EASE.DFRN.DB1014}}}Global: Ease of doing business score (DB10-14 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.BUS.EASE.DFRN.DB16:IC.BUS.EASE.DFRN.DB16{marker IC.BUS.EASE.DFRN.DB16}}}Global: Ease of doing business score (DB15 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.BUS.EASE.DFRN.XQ.DB1719:IC.BUS.EASE.DFRN.XQ.DB1719{marker IC.BUS.EASE.DFRN.XQ.DB1719}}}Global: Ease of doing business score (DB17-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CNST.LIR.XD.02.DB1619:IC.CNST.LIR.XD.02.DB1619{marker IC.CNST.LIR.XD.02.DB1619}}}Dealing with construction permits: Liability and insurance regimes index (0-2) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CNST.PC.XD.04.DB1619:IC.CNST.PC.XD.04.DB1619{marker IC.CNST.PC.XD.04.DB1619}}}Dealing with construction permits: Professional certifications index (0-4) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CNST.PRMT.BQCI.015.DB1619.DFRN:IC.CNST.PRMT.BQCI.015.DB1619.DFRN{marker IC.CNST.PRMT.BQCI.015.DB1619.DFRN}}}Dealing with construction permits: Building quality control index (0-15) (DB16-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CNST.PRMT.COST.WRH.VAL:IC.CNST.PRMT.COST.WRH.VAL{marker IC.CNST.PRMT.COST.WRH.VAL}}}Dealing with construction permits: Cost (% of Warehouse value){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CNST.PRMT.COST.WRH.VAL.DFRN:IC.CNST.PRMT.COST.WRH.VAL.DFRN{marker IC.CNST.PRMT.COST.WRH.VAL.DFRN}}}Dealing with construction permits: Cost (% of Warehouse value) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CNST.PRMT.DFRN.DB0615:IC.CNST.PRMT.DFRN.DB0615{marker IC.CNST.PRMT.DFRN.DB0615}}}Dealing with construction permits (DB06-15 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CNST.PRMT.DFRN.DB1619:IC.CNST.PRMT.DFRN.DB1619{marker IC.CNST.PRMT.DFRN.DB1619}}}Dealing with construction permits (DB16-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CNST.PRMT.PROC.NO:IC.CNST.PRMT.PROC.NO{marker IC.CNST.PRMT.PROC.NO}}}Dealing with construction permits: Procedures (number){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CNST.PRMT.PROC.NO.DFRN:IC.CNST.PRMT.PROC.NO.DFRN{marker IC.CNST.PRMT.PROC.NO.DFRN}}}Dealing with construction permits: Procedures (number) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CNST.PRMT.QBR.XD.02.DB1619:IC.CNST.PRMT.QBR.XD.02.DB1619{marker IC.CNST.PRMT.QBR.XD.02.DB1619}}}Dealing with construction permits: Quality of building regulations index (0-2) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CNST.PRMT.QCAC.XD.DB1619:IC.CNST.PRMT.QCAC.XD.DB1619{marker IC.CNST.PRMT.QCAC.XD.DB1619}}}Dealing with construction permits: Quality control after construction index (0-3) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CNST.PRMT.QCBC.XD.01.DB1619:IC.CNST.PRMT.QCBC.XD.01.DB1619{marker IC.CNST.PRMT.QCBC.XD.01.DB1619}}}Dealing with construction permits: Quality control before construction index (0-1) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CNST.PRMT.QCDC.XD.03.DB1619:IC.CNST.PRMT.QCDC.XD.03.DB1619{marker IC.CNST.PRMT.QCDC.XD.03.DB1619}}}Dealing with construction permits: Quality control during construction index (0-3) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CNST.PRMT.RK:IC.CNST.PRMT.RK{marker IC.CNST.PRMT.RK}}}Rank: Dealing with construction permits (1=most business-friendly regulations){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CNST.PRMT.TM.DY:IC.CNST.PRMT.TM.DY{marker IC.CNST.PRMT.TM.DY}}}Dealing with construction permits: Time (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CNST.PRMT.TM.DY.DFRN:IC.CNST.PRMT.TM.DY.DFRN{marker IC.CNST.PRMT.TM.DY.DFRN}}}Dealing with construction permits: Time (days)  - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CRED.ACC.ACES.DB0514:IC.CRED.ACC.ACES.DB0514{marker IC.CRED.ACC.ACES.DB0514}}}Getting Credit total score (DB05-14 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CRED.ACC.ACES.DB1519:IC.CRED.ACC.ACES.DB1519{marker IC.CRED.ACC.ACES.DB1519}}}Getting Credit total score (DB15-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CRED.ACC.CRD.DB0514.DFRN:IC.CRED.ACC.CRD.DB0514.DFRN{marker IC.CRED.ACC.CRD.DB0514.DFRN}}}Getting credit (DB05-14 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CRED.ACC.CRD.DB1519.DFRN:IC.CRED.ACC.CRD.DB1519.DFRN{marker IC.CRED.ACC.CRD.DB1519.DFRN}}}Getting credit (DB15-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CRED.ACC.CRD.RK:IC.CRED.ACC.CRD.RK{marker IC.CRED.ACC.CRD.RK}}}Rank: Getting credit (1=most business-friendly regulations){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CRED.ACC.DPTH.CISI.XD.06.DB0514:IC.CRED.ACC.DPTH.CISI.XD.06.DB0514{marker IC.CRED.ACC.DPTH.CISI.XD.06.DB0514}}}Getting credit: Depth of credit information index (0-6) (DB05-14 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CRED.ACC.DPTH.CISI.XD.06.DB0514.DFRN:IC.CRED.ACC.DPTH.CISI.XD.06.DB0514.DFRN{marker IC.CRED.ACC.DPTH.CISI.XD.06.DB0514.DFRN}}}Getting credit: Depth of credit information index (0-6) (DB05-14 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CRED.ACC.DPTH.CISI.XD.08.DB1519:IC.CRED.ACC.DPTH.CISI.XD.08.DB1519{marker IC.CRED.ACC.DPTH.CISI.XD.08.DB1519}}}Getting credit: Depth of credit information index (0-8) (DB15-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CRED.ACC.DPTH.CISI.XD.08.DB1519.DFRN:IC.CRED.ACC.DPTH.CISI.XD.08.DB1519.DFRN{marker IC.CRED.ACC.DPTH.CISI.XD.08.DB1519.DFRN}}}Getting credit: Depth of credit information index (0-8) (DB15-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CRED.ACC.LGL.RGHT.010.XD.DB0514.DFRN:IC.CRED.ACC.LGL.RGHT.010.XD.DB0514.DFRN{marker IC.CRED.ACC.LGL.RGHT.010.XD.DB0514.DFRN}}}Getting credit: Strength of legal rights index (0-10) (DB05-14 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CRED.ACC.LGL.RGHT.012.XD.DB1519.DFRN:IC.CRED.ACC.LGL.RGHT.012.XD.DB1519.DFRN{marker IC.CRED.ACC.LGL.RGHT.012.XD.DB1519.DFRN}}}Getting credit: Strength of legal rights index (0-12) (DB15-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CRED.ACC.LGL.RGHT.XD.010.DB0514:IC.CRED.ACC.LGL.RGHT.XD.010.DB0514{marker IC.CRED.ACC.LGL.RGHT.XD.010.DB0514}}}Getting credit: Strength of legal rights index (0-10) (DB05-14 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CRED.ACC.LGL.RGHT.XD.012.DB1519:IC.CRED.ACC.LGL.RGHT.XD.012.DB1519{marker IC.CRED.ACC.LGL.RGHT.XD.012.DB1519}}}Getting credit: Strength of legal rights index (0-12) (DB15-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CRED.ACC.PRVT.CRD.ZS:IC.CRED.ACC.PRVT.CRD.ZS{marker IC.CRED.ACC.PRVT.CRD.ZS}}}Getting credit: Credit bureau coverage (% of adults){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.CRED.ACC.PUBL.CRD.REG.COVR.ZS:IC.CRED.ACC.PUBL.CRD.REG.COVR.ZS{marker IC.CRED.ACC.PUBL.CRD.REG.COVR.ZS}}}Getting credit: Credit registry coverage (% of adults){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.DCP.BQC.XD.015.DB1619:IC.DCP.BQC.XD.015.DB1619{marker IC.DCP.BQC.XD.015.DB1619}}}Dealing with construction permits: Building quality control index (0-15) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.ACES.DFRN.DB1015:IC.ELC.ACES.DFRN.DB1015{marker IC.ELC.ACES.DFRN.DB1015}}}Getting electricity (DB10-15 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.ACES.DFRN.DB1619:IC.ELC.ACES.DFRN.DB1619{marker IC.ELC.ACES.DFRN.DB1619}}}Getting electricity (DB16-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.ACES.RK DB19:IC.ELC.ACES.RK DB19{marker IC.ELC.ACES.RK DB19}}}Rank: Getting electricity (1=most business-friendly regulations){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.ACS.COST:IC.ELC.ACS.COST{marker IC.ELC.ACS.COST}}}Getting electricity: Cost to get electricity (% of income per capita){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.ACS.COST.DFRN:IC.ELC.ACS.COST.DFRN{marker IC.ELC.ACS.COST.DFRN}}}Getting electricity: Cost to get electricity (% of income per capita) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.COMM.TRFF.CG.01.DB1619:IC.ELC.COMM.TRFF.CG.01.DB1619{marker IC.ELC.COMM.TRFF.CG.01.DB1619}}}Getting electricity: Communication of tariffs and tariff changes (0-1) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.LMTG.OUTG.01.DB1619:IC.ELC.LMTG.OUTG.01.DB1619{marker IC.ELC.LMTG.OUTG.01.DB1619}}}Getting electricity: Financial deterrents aimed at limiting outages (0-1) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.MONT.OUTG.01.DB1619:IC.ELC.MONT.OUTG.01.DB1619{marker IC.ELC.MONT.OUTG.01.DB1619}}}Getting electricity: Mechanisms for monitoring outages (0-1) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.OUTG.FREQ.DURS.03.DB1619:IC.ELC.OUTG.FREQ.DURS.03.DB1619{marker IC.ELC.OUTG.FREQ.DURS.03.DB1619}}}Getting electricity: Total duration and frequency of outages per customer a year (0-3) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.OUTG.MN.DB1619:IC.ELC.OUTG.MN.DB1619{marker IC.ELC.OUTG.MN.DB1619}}}Getting electricity: Minimum outage time (in minutes)  (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.PRI.KH.DB1619:IC.ELC.PRI.KH.DB1619{marker IC.ELC.PRI.KH.DB1619}}}Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.PROC.NO:IC.ELC.PROC.NO{marker IC.ELC.PROC.NO}}}Getting electricity: Procedures (number){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.PROC.NO.DFRN:IC.ELC.PROC.NO.DFRN{marker IC.ELC.PROC.NO.DFRN}}}Getting electricity: Procedures (number) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.REGU.MONT.01.DB1619:IC.ELC.REGU.MONT.01.DB1619{marker IC.ELC.REGU.MONT.01.DB1619}}}Getting electricity: Regulatory monitoring (0-1) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.RSTOR.01.DB1619:IC.ELC.RSTOR.01.DB1619{marker IC.ELC.RSTOR.01.DB1619}}}Getting electricity: Mechanisms for restoring service (0-1) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.RSTT.XD.08.DB1619:IC.ELC.RSTT.XD.08.DB1619{marker IC.ELC.RSTT.XD.08.DB1619}}}Getting electricity: Reliability of supply and transparency of tariff index (0-8) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.RSTT.XD.08.DFRN.DB1619:IC.ELC.RSTT.XD.08.DFRN.DB1619{marker IC.ELC.RSTT.XD.08.DFRN.DB1619}}}Getting electricity: Reliability of supply and transparency of tariff index (0-8) (DB16-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.SAID.XD.DB1619:IC.ELC.SAID.XD.DB1619{marker IC.ELC.SAID.XD.DB1619}}}Getting electricity: System average interruption duration index (SAIDI) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.SAIF.XD.DB1619:IC.ELC.SAIF.XD.DB1619{marker IC.ELC.SAIF.XD.DB1619}}}Getting electricity: System average interruption frequency index (SAIFI) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.ELC.TIME.DFRN:IC.ELC.TIME.DFRN{marker IC.ELC.TIME.DFRN}}}Getting electricity: Time (days) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.COST.PC.FE.ZS.DRFN:IC.REG.COST.PC.FE.ZS.DRFN{marker IC.REG.COST.PC.FE.ZS.DRFN}}}Starting a business: Cost - Women (% of income per capita) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.COST.PC.MA.ZS.DFRN:IC.REG.COST.PC.MA.ZS.DFRN{marker IC.REG.COST.PC.MA.ZS.DFRN}}}Starting a business: Cost - Men (% of income per capita) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.DFRN.PC.DFRN:IC.REG.DFRN.PC.DFRN{marker IC.REG.DFRN.PC.DFRN}}}Starting a business: Paid-in Minimum capital (% of income per capita) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.DURS.FE.DY:IC.REG.DURS.FE.DY{marker IC.REG.DURS.FE.DY}}}Starting a business: Time - Women (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.DURS.FE.DY.DRFN:IC.REG.DURS.FE.DY.DRFN{marker IC.REG.DURS.FE.DY.DRFN}}}Starting a business: Time - Women (days)- Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.DURS.MA.DY:IC.REG.DURS.MA.DY{marker IC.REG.DURS.MA.DY}}}Starting a business: Time - Men (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.DURS.MA.DY.DFRN:IC.REG.DURS.MA.DY.DFRN{marker IC.REG.DURS.MA.DY.DFRN}}}Starting a business: Time - Men (days) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.MIN.CAP:IC.REG.MIN.CAP{marker IC.REG.MIN.CAP}}}Starting a business: Minimum capital (% of income per capita){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PROC.FE.NO:IC.REG.PROC.FE.NO{marker IC.REG.PROC.FE.NO}}}Starting a business: Procedures required - Women (number){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PROC.FE.NO.DFRN:IC.REG.PROC.FE.NO.DFRN{marker IC.REG.PROC.FE.NO.DFRN}}}Starting a business: Procedures required - Women (number) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PROC.MA.NO:IC.REG.PROC.MA.NO{marker IC.REG.PROC.MA.NO}}}Starting a business: Procedures required - Men (number){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PROC.MA.NO.DFRN:IC.REG.PROC.MA.NO.DFRN{marker IC.REG.PROC.MA.NO.DFRN}}}Starting a business: Procedures required - Men (number) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.COST.PRT.VAL:IC.REG.PRRT.COST.PRT.VAL{marker IC.REG.PRRT.COST.PRT.VAL}}}Registering property: Cost (% of property value){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.COST.PRT.VAL.DFRN:IC.REG.PRRT.COST.PRT.VAL.DFRN{marker IC.REG.PRRT.COST.PRT.VAL.DFRN}}}Registering property: Cost (% of property value) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.DFRN.DB0515:IC.REG.PRRT.DFRN.DB0515{marker IC.REG.PRRT.DFRN.DB0515}}}Registering property (DB05-15 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.DFRN.DB1719:IC.REG.PRRT.DFRN.DB1719{marker IC.REG.PRRT.DFRN.DB1719}}}Registering property (DB17-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.DURS.TM:IC.REG.PRRT.DURS.TM{marker IC.REG.PRRT.DURS.TM}}}Registering property: Time (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.DURS.TM.DRFN:IC.REG.PRRT.DURS.TM.DRFN{marker IC.REG.PRRT.DURS.TM.DRFN}}}Registering property: Time (days) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.EQACCS.XD.08.DB1619:IC.REG.PRRT.EQACCS.XD.08.DB1619{marker IC.REG.PRRT.EQACCS.XD.08.DB1619}}}Registering property: Equal access to property rights index (-2-0) (DB17-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.GEO.COVR.XD.08.DB1619:IC.REG.PRRT.GEO.COVR.XD.08.DB1619{marker IC.REG.PRRT.GEO.COVR.XD.08.DB1619}}}Registering property: Geographic coverage index (0-8) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.LAND.DISP.XD.08.DB1619:IC.REG.PRRT.LAND.DISP.XD.08.DB1619{marker IC.REG.PRRT.LAND.DISP.XD.08.DB1619}}}Registering property: Land dispute resolution index (0-8) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.PROC.NO:IC.REG.PRRT.PROC.NO{marker IC.REG.PRRT.PROC.NO}}}Registering property: Procedures (number){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.PROC.NO.DFRN:IC.REG.PRRT.PROC.NO.DFRN{marker IC.REG.PRRT.PROC.NO.DFRN}}}Registering property: Procedures (number) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16:IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16{marker IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16}}}Registering property: Quality of land administration index (0-30) (DB17-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16.DFRN:IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16.DFRN{marker IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16.DFRN}}}Registering property: Quality of land administration index (0-30) (DB17-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.REG.RK.DB19:IC.REG.PRRT.REG.RK.DB19{marker IC.REG.PRRT.REG.RK.DB19}}}Rank: Registering property (1=most business-friendly regulations){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.RELI.INFR.XD.09.DB1619:IC.REG.PRRT.RELI.INFR.XD.09.DB1619{marker IC.REG.PRRT.RELI.INFR.XD.09.DB1619}}}Registering property: Reliability of infrastructure index (0-8) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.TRAP.INFO.XD.06.DB1619:IC.REG.PRRT.TRAP.INFO.XD.06.DB1619{marker IC.REG.PRRT.TRAP.INFO.XD.06.DB1619}}}Registering property: Transparency of information index (0-6) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.STRT.BUS.DFRN:IC.REG.STRT.BUS.DFRN{marker IC.REG.STRT.BUS.DFRN}}}Starting a business - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.STRT.BUS.RK.DB19:IC.REG.STRT.BUS.RK.DB19{marker IC.REG.STRT.BUS.RK.DB19}}}Rank: Starting a business (1=most business-friendly regulations){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_OTHR.TAX.PAID.ZS:OTHR.TAX.PAID.ZS{marker OTHR.TAX.PAID.ZS}}}Other taxes (% of profits){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.COIT.AU.HRS.DB1719:PAY.TAX.COIT.AU.HRS.DB1719{marker PAY.TAX.COIT.AU.HRS.DB1719}}}Paying taxes: Time to comply with corporate income tax correction (hours) (DB17-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.COIT.AU.HRS.TM.DB1719.DFRN:PAY.TAX.COIT.AU.HRS.TM.DB1719.DFRN{marker PAY.TAX.COIT.AU.HRS.TM.DB1719.DFRN}}}Paying taxes: Time to comply with corporate income tax correction (hours) (DB17-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.COIT.AU.WKS.DB1719:PAY.TAX.COIT.AU.WKS.DB1719{marker PAY.TAX.COIT.AU.WKS.DB1719}}}Paying taxes: Time to complete a corporate income tax correction (weeks) (DB17-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.COIT.WKS.TM.DB1719.DFRN:PAY.TAX.COIT.WKS.TM.DB1719.DFRN{marker PAY.TAX.COIT.WKS.TM.DB1719.DFRN}}}Paying taxes: Time to complete a corporate income tax correction (weeks) (DB17-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.DB0616.DFRN:PAY.TAX.DB0616.DFRN{marker PAY.TAX.DB0616.DFRN}}}Paying taxes (DB06-16 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.DB1719.DRFN:PAY.TAX.DB1719.DRFN{marker PAY.TAX.DB1719.DRFN}}}Paying taxes (DB17-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.LABR.TAX.CONTR.ZS:PAY.TAX.LABR.TAX.CONTR.ZS{marker PAY.TAX.LABR.TAX.CONTR.ZS}}}Paying taxes: Labor tax and contributions (% of profits){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.POST.FIL.XD.0100.DB1719.DFRN:PAY.TAX.POST.FIL.XD.0100.DB1719.DFRN{marker PAY.TAX.POST.FIL.XD.0100.DB1719.DFRN}}}Paying taxes: Postfiling index (0-100) (DB17-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.PRFT.CP.ZS:PAY.TAX.PRFT.CP.ZS{marker PAY.TAX.PRFT.CP.ZS}}}Paying taxes: Profit tax (% of profits){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.PYMT.FREQ.NO:PAY.TAX.PYMT.FREQ.NO{marker PAY.TAX.PYMT.FREQ.NO}}}Paying taxes: Payments (number per year){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.PYMT.NO.DFRN:PAY.TAX.PYMT.NO.DFRN{marker PAY.TAX.PYMT.NO.DFRN}}}Paying taxes: Payments per year (number per year) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.RK.DB19:PAY.TAX.RK.DB19{marker PAY.TAX.RK.DB19}}}Rank: Paying taxes (1=most business-friendly regulations){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.TM:PAY.TAX.TM{marker PAY.TAX.TM}}}Paying taxes: Time (hours per year){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.TM.DFRN:PAY.TAX.TM.DFRN{marker PAY.TAX.TM.DFRN}}}Paying taxes: Time (hours per year) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.TOT.TAX.RT.ZS:PAY.TAX.TOT.TAX.RT.ZS{marker PAY.TAX.TOT.TAX.RT.ZS}}}Paying taxes: Total tax and contribution rate (% of profit){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.TOT.TAX.RT.ZS.DRFRN:PAY.TAX.TOT.TAX.RT.ZS.DRFRN{marker PAY.TAX.TOT.TAX.RT.ZS.DRFRN}}}Paying taxes: Total tax and contribution rate (% of profit) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.VAT.REF.OBT.WKS.TM.DB1719:PAY.TAX.VAT.REF.OBT.WKS.TM.DB1719{marker PAY.TAX.VAT.REF.OBT.WKS.TM.DB1719}}}Paying taxes: Time to obtain VAT refund (weeks) (DB17-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.VAT.REF.OBT.WKS.TM.DB1719.DFRN:PAY.TAX.VAT.REF.OBT.WKS.TM.DB1719.DFRN{marker PAY.TAX.VAT.REF.OBT.WKS.TM.DB1719.DFRN}}}Paying taxes: Time to obtain VAT refund (weeks) (DB17-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719:PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719{marker PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719}}}Paying taxes: Time to comply with VAT refund (hours) (DB17-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719.DFRN:PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719.DFRN{marker PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719.DFRN}}}Paying taxes: Time to comply with VAT refund (hours) (DB17-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.DFRN.DB0614:PROT.MINOR.INV.DFRN.DB0614{marker PROT.MINOR.INV.DFRN.DB0614}}}Protecting minority investors (DB06-14 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.DFRN.DB1519:PROT.MINOR.INV.DFRN.DB1519{marker PROT.MINOR.INV.DFRN.DB1519}}}Protecting minority investors (DB15-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB0614:PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB0614{marker PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB0614}}}Protecting minority investors: Ease of shareholder suits index (0-10) (DB06-14 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB1519:PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB1519{marker PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB1519}}}Protecting minority investors: Ease of shareholder suits index (0-10) (DB15-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EASE.SSI.XD.0010.DB0614.DFRN:PROT.MINOR.INV.EASE.SSI.XD.0010.DB0614.DFRN{marker PROT.MINOR.INV.EASE.SSI.XD.0010.DB0614.DFRN}}}Protecting minority investors: Ease of shareholder suits index (0-10) (DB06-14 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EASE.SSI.XD.0010.DB1519.DFRN:PROT.MINOR.INV.EASE.SSI.XD.0010.DB1519.DFRN{marker PROT.MINOR.INV.EASE.SSI.XD.0010.DB1519.DFRN}}}Protecting minority investors: Ease of shareholder suits index (0-10) (DB15-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.BUS.DISC.010.XD:PROT.MINOR.INV.EXT.BUS.DISC.010.XD{marker PROT.MINOR.INV.EXT.BUS.DISC.010.XD}}}Protecting minority investors: Extent of disclosure index (0-10){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519:PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519{marker PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519}}}Protecting minority investors: Extent of corporate transparency index (0-7) (DB15-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.CORP.TRANS.XD.010.DB1519.DFRN:PROT.MINOR.INV.EXT.CORP.TRANS.XD.010.DB1519.DFRN{marker PROT.MINOR.INV.EXT.CORP.TRANS.XD.010.DB1519.DFRN}}}Protecting minority investors: Extent of corporate transparency index (0-7) (DB15-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.DIR.LBL.010.XD.DFRN:PROT.MINOR.INV.EXT.DIR.LBL.010.XD.DFRN{marker PROT.MINOR.INV.EXT.DIR.LBL.010.XD.DFRN}}}Protecting minority investors: Extent of director liability index (0-10) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.DISC.010.XD.DFRN:PROT.MINOR.INV.EXT.DISC.010.XD.DFRN{marker PROT.MINOR.INV.EXT.DISC.010.XD.DFRN}}}Protecting minority investors: Extent of disclosure index (0-10) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519:PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519{marker PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519}}}Protecting minority investors: Extent of ownership and control index (0-7) (DB15-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN:PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN{marker PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN}}}Protecting minority investors: Extent of ownership and control index (0-7) (DB15-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519:PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519{marker PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519}}}Protecting minority investors: Extent of shareholder rights index (0-6) (DB15-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.SHRHLD.RGT.XD.0010.DB1519.DRFN:PROT.MINOR.INV.EXT.SHRHLD.RGT.XD.0010.DB1519.DRFN{marker PROT.MINOR.INV.EXT.SHRHLD.RGT.XD.0010.DB1519.DRFN}}}Protecting minority investors: Extent of shareholder rights index (0-6) (DB15-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.IC.PRIN.EXT.DIR.LGL.010.XD:PROT.MINOR.INV.IC.PRIN.EXT.DIR.LGL.010.XD{marker PROT.MINOR.INV.IC.PRIN.EXT.DIR.LGL.010.XD}}}Protecting minority investors: Extent of director liability index (0-10){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.IC.PRIN.MINOR.RK:PROT.MINOR.INV.IC.PRIN.MINOR.RK{marker PROT.MINOR.INV.IC.PRIN.MINOR.RK}}}Rank: Protecting minority investors (1=most business-friendly regulations){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.STRENG.INV.PROT.XD.010.DB0614:PROT.MINOR.INV.STRENG.INV.PROT.XD.010.DB0614{marker PROT.MINOR.INV.STRENG.INV.PROT.XD.010.DB0614}}}Protecting minority investors: Strength of investor protection index (0-10) (DB06-14 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614:PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614{marker PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614}}}Protecting minority investors: Strength of minority investor protection index (0-50) (DB15-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.COPR.03.XD.DB1519:RESLV.ISV.COPR.03.XD.DB1519{marker RESLV.ISV.COPR.03.XD.DB1519}}}Resolving insolvency: Commencement of proceedings index (0-3) (DB15-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.COST.ZS:RESLV.ISV.COST.ZS{marker RESLV.ISV.COST.ZS}}}Resolving insolvency: Cost (% of estate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.CPI.04.XD.DB1519:RESLV.ISV.CPI.04.XD.DB1519{marker RESLV.ISV.CPI.04.XD.DB1519}}}Resolving insolvency: Creditor participation index (0-4) (DB15-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.DB1519.DFRN:RESLV.ISV.DB1519.DFRN{marker RESLV.ISV.DB1519.DFRN}}}Resolving insolvency - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.DFRN.RCOV.RT:RESLV.ISV.DFRN.RCOV.RT{marker RESLV.ISV.DFRN.RCOV.RT}}}Resolving insolvency: Recovery rate (cents on the dollar) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.DURS:RESLV.ISV.DURS{marker RESLV.ISV.DURS}}}Resolving insolvency: Time (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.MGDA.XD.DB1519:RESLV.ISV.MGDA.XD.DB1519{marker RESLV.ISV.MGDA.XD.DB1519}}}Resolving insolvency: Management of debtor's assets index (0-6) (DB15-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.OTCM:RESLV.ISV.OTCM{marker RESLV.ISV.OTCM}}}Resolving insolvency: Outcome (0 as piecemeal sale and 1 as going concern){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.RCOV.RT:RESLV.ISV.RCOV.RT{marker RESLV.ISV.RCOV.RT}}}Resolving insolvency: Recovery rate (cents on the dollar){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.RCOV.RT.016.DB1519.DFRN:RESLV.ISV.RCOV.RT.016.DB1519.DFRN{marker RESLV.ISV.RCOV.RT.016.DB1519.DFRN}}}Resolving insolvency: Strength of insolvency framework index (0-16) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.RK.DB19:RESLV.ISV.RK.DB19{marker RESLV.ISV.RK.DB19}}}Rank: Resolving insolvency (1=most business-friendly regulations){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.ROPC.03.XD.DB1519:RESLV.ISV.ROPC.03.XD.DB1519{marker RESLV.ISV.ROPC.03.XD.DB1519}}}Reorganization proceedings index (0-3) (DB15-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.SOIF.06.DB1519:RESLV.ISV.SOIF.06.DB1519{marker RESLV.ISV.SOIF.06.DB1519}}}Resolving insolvency: Strength of insolvency framework index (0-16){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.DB0615.DFRN:TRD.ACRS.BRDR.DB0615.DFRN{marker TRD.ACRS.BRDR.DB0615.DFRN}}}Trading across borders (DB06-15 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.DB1619.DFRN:TRD.ACRS.BRDR.DB1619.DFRN{marker TRD.ACRS.BRDR.DB1619.DFRN}}}Trading across borders (DB16-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.DOC.COMP.HR.DB1619:TRD.ACRS.BRDR.DOC.COMP.HR.DB1619{marker TRD.ACRS.BRDR.DOC.COMP.HR.DB1619}}}Time to export: Documentary compliance (hours) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.DOCS.EXPT.NO.DB0615:TRD.ACRS.BRDR.DOCS.EXPT.NO.DB0615{marker TRD.ACRS.BRDR.DOCS.EXPT.NO.DB0615}}}Trading across borders: Documents to export (number) (DB06-15 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.DOCS.EXPT.NO.DB0615.DFRN:TRD.ACRS.BRDR.DOCS.EXPT.NO.DB0615.DFRN{marker TRD.ACRS.BRDR.DOCS.EXPT.NO.DB0615.DFRN}}}Trading across borders: Documents to export (number) (DB06-15 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615:TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615{marker TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615}}}Trading across borders: Documents to import (number) (DB06-15 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615.DFRN:TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615.DFRN{marker TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615.DFRN}}}Trading across borders: Documents to import (number) (DB06-15 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.EXPT.BRDR.COMP.HR.DB1619:TRD.ACRS.BRDR.EXPT.BRDR.COMP.HR.DB1619{marker TRD.ACRS.BRDR.EXPT.BRDR.COMP.HR.DB1619}}}Time to export: Border compliance (hours) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619:TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619{marker TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619}}}Trading across borders: Cost to export: Border compliance (USD) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619.DFRN:TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619.DFRN{marker TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619.DFRN}}}Trading across borders: Cost to export: Border compliance (USD) (DB16-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.EXPT.COST.CD.DB0615:TRD.ACRS.BRDR.EXPT.COST.CD.DB0615{marker TRD.ACRS.BRDR.EXPT.COST.CD.DB0615}}}Trading across borders: Cost to export (US$ per container deflated) (DB06-15 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.EXPT.COST.CD.DB0615.DFRN:TRD.ACRS.BRDR.EXPT.COST.CD.DB0615.DFRN{marker TRD.ACRS.BRDR.EXPT.COST.CD.DB0615.DFRN}}}Trading across borders: Cost to export (US$ per container) (DB06-15 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619:TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619{marker TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619}}}Trading across borders: Cost to export: Documentary compliance (USD) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619.DFRN:TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619.DFRN{marker TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619.DFRN}}}Trading across borders: Cost to export: Documentary compliance (USD) (DB16-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.EXPT.DURS.DY.DB0615:TRD.ACRS.BRDR.EXPT.DURS.DY.DB0615{marker TRD.ACRS.BRDR.EXPT.DURS.DY.DB0615}}}Time to export (days) (DB06-15 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.EXPT.TM.BRDR.COMP.HR.DB1619.DFRN:TRD.ACRS.BRDR.EXPT.TM.BRDR.COMP.HR.DB1619.DFRN{marker TRD.ACRS.BRDR.EXPT.TM.BRDR.COMP.HR.DB1619.DFRN}}}Trading across borders: Time to export: Border compliance (hours) (DB16-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.EXPT.TM.DOC.COMP.HR.DB1619.DFRN:TRD.ACRS.BRDR.EXPT.TM.DOC.COMP.HR.DB1619.DFRN{marker TRD.ACRS.BRDR.EXPT.TM.DOC.COMP.HR.DB1619.DFRN}}}Trading across borders: Time to export: Documentary compliance (hours) (DB16-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.EXPT.TM.DY.DB0615.DFRN:TRD.ACRS.BRDR.EXPT.TM.DY.DB0615.DFRN{marker TRD.ACRS.BRDR.EXPT.TM.DY.DB0615.DFRN}}}Trading across borders: Time to export (days) (DB06-15 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.IMP.BRDR.COMP.HR.DB1619:TRD.ACRS.BRDR.IMP.BRDR.COMP.HR.DB1619{marker TRD.ACRS.BRDR.IMP.BRDR.COMP.HR.DB1619}}}Time to import: Border compliance (hours) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619:TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619{marker TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619}}}Trading across borders: Cost to import: Border compliance (USD) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619.DFRN:TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619.DFRN{marker TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619.DFRN}}}Trading across borders: Cost to import: Border compliance (USD) (DB16-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.IMP.COST.CD.DB0615:TRD.ACRS.BRDR.IMP.COST.CD.DB0615{marker TRD.ACRS.BRDR.IMP.COST.CD.DB0615}}}Trading across borders: Cost to import (US$ per container deflated)(DB06-15 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.IMP.COST.CD.DB0615.DFRN:TRD.ACRS.BRDR.IMP.COST.CD.DB0615.DFRN{marker TRD.ACRS.BRDR.IMP.COST.CD.DB0615.DFRN}}}Trading across borders: Cost to import (US$ per container)(DB06-15 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619:TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619{marker TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619}}}Trading across borders: Cost to import: Documentary compliance (USD) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619.DFRN:TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619.DFRN{marker TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619.DFRN}}}Trading across borders: Cost to import: Documentary compliance (USD) (DB16-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.IMP.DOC.COMP.HR.DB1619:TRD.ACRS.BRDR.IMP.DOC.COMP.HR.DB1619{marker TRD.ACRS.BRDR.IMP.DOC.COMP.HR.DB1619}}}Time to import: Documentary compliance (hours) (DB16-20 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.IMP.DURS.DY.DB0615:TRD.ACRS.BRDR.IMP.DURS.DY.DB0615{marker TRD.ACRS.BRDR.IMP.DURS.DY.DB0615}}}Time to import (days) (DB06-15 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.IMP.TM.BRDR.COMP.HR.DB1619.DFRN:TRD.ACRS.BRDR.IMP.TM.BRDR.COMP.HR.DB1619.DFRN{marker TRD.ACRS.BRDR.IMP.TM.BRDR.COMP.HR.DB1619.DFRN}}}Trading across borders: Time to import: Border compliance (hours) (DB16-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.IMP.TM.DOC.COMP.HR.DB1619.DFRN:TRD.ACRS.BRDR.IMP.TM.DOC.COMP.HR.DB1619.DFRN{marker TRD.ACRS.BRDR.IMP.TM.DOC.COMP.HR.DB1619.DFRN}}}Trading across borders: Time to import: Documentary compliance (hours) (DB16-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.IMP.TM.DY.DB0615.DFRN:TRD.ACRS.BRDR.IMP.TM.DY.DB0615.DFRN{marker TRD.ACRS.BRDR.IMP.TM.DY.DB0615.DFRN}}}Trading across borders: Time to import (days) (DB06-15 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_TRD.ACRS.BRDR.RK.DB19:TRD.ACRS.BRDR.RK.DB19{marker TRD.ACRS.BRDR.RK.DB19}}}Rank: Trading across borders (1=most business-friendly regulations){p_end}
+{synoptline}
+
+{marker sourceid_02}
+{p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_02:Source}} or {it:{help wbopendata_sourceid_indicators02##:TOC}}){p_end}
+{synoptset 40 tabbed}{...}
+{synopthdr:02 World Development Indicators}
+{synoptline}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.AGR.TRAC.NO:AG.AGR.TRAC.NO{marker AG.AGR.TRAC.NO}}}Agricultural machinery, tractors{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.CON.FERT.PT.ZS:AG.CON.FERT.PT.ZS{marker AG.CON.FERT.PT.ZS}}}Fertilizer consumption (% of fertilizer production){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.CON.FERT.ZS:AG.CON.FERT.ZS{marker AG.CON.FERT.ZS}}}Fertilizer consumption (kilograms per hectare of arable land){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.AGRI.K2:AG.LND.AGRI.K2{marker AG.LND.AGRI.K2}}}Agricultural land (sq. km){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.AGRI.ZS:AG.LND.AGRI.ZS{marker AG.LND.AGRI.ZS}}}Agricultural land (% of land area){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.ARBL.HA:AG.LND.ARBL.HA{marker AG.LND.ARBL.HA}}}Arable land (hectares){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.ARBL.HA.PC:AG.LND.ARBL.HA.PC{marker AG.LND.ARBL.HA.PC}}}Arable land (hectares per person){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.ARBL.ZS:AG.LND.ARBL.ZS{marker AG.LND.ARBL.ZS}}}Arable land (% of land area){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.CREL.HA:AG.LND.CREL.HA{marker AG.LND.CREL.HA}}}Land under cereal production (hectares){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.CROP.ZS:AG.LND.CROP.ZS{marker AG.LND.CROP.ZS}}}Permanent cropland (% of land area){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.EL5M.RU.K2:AG.LND.EL5M.RU.K2{marker AG.LND.EL5M.RU.K2}}}Rural land area where elevation is below 5 meters (sq. km){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.EL5M.RU.ZS:AG.LND.EL5M.RU.ZS{marker AG.LND.EL5M.RU.ZS}}}Rural land area where elevation is below 5 meters (% of total land area){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.EL5M.UR.K2:AG.LND.EL5M.UR.K2{marker AG.LND.EL5M.UR.K2}}}Urban land area where elevation is below 5 meters (sq. km){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.EL5M.UR.ZS:AG.LND.EL5M.UR.ZS{marker AG.LND.EL5M.UR.ZS}}}Urban land area where elevation is below 5 meters (% of total land area){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.EL5M.ZS:AG.LND.EL5M.ZS{marker AG.LND.EL5M.ZS}}}Land area where elevation is below 5 meters (% of total land area){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.FRST.K2:AG.LND.FRST.K2{marker AG.LND.FRST.K2}}}Forest area (sq. km){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.FRST.ZS:AG.LND.FRST.ZS{marker AG.LND.FRST.ZS}}}Forest area (% of land area){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.IRIG.AG.ZS:AG.LND.IRIG.AG.ZS{marker AG.LND.IRIG.AG.ZS}}}Agricultural irrigated land (% of total agricultural land){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.PRCP.MM:AG.LND.PRCP.MM{marker AG.LND.PRCP.MM}}}Average precipitation in depth (mm per year){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.TOTL.K2:AG.LND.TOTL.K2{marker AG.LND.TOTL.K2}}}Land area (sq. km){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.TOTL.RU.K2:AG.LND.TOTL.RU.K2{marker AG.LND.TOTL.RU.K2}}}Rural land area (sq. km){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.TOTL.UR.K2:AG.LND.TOTL.UR.K2{marker AG.LND.TOTL.UR.K2}}}Urban land area (sq. km){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.LND.TRAC.ZS:AG.LND.TRAC.ZS{marker AG.LND.TRAC.ZS}}}Agricultural machinery, tractors per 100 sq. km of arable land{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.PRD.CREL.MT:AG.PRD.CREL.MT{marker AG.PRD.CREL.MT}}}Cereal production (metric tons){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.PRD.CROP.XD:AG.PRD.CROP.XD{marker AG.PRD.CROP.XD}}}Crop production index (2004-2006 = 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.PRD.FOOD.XD:AG.PRD.FOOD.XD{marker AG.PRD.FOOD.XD}}}Food production index (2004-2006 = 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.PRD.LVSK.XD:AG.PRD.LVSK.XD{marker AG.PRD.LVSK.XD}}}Livestock production index (2004-2006 = 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.SRF.TOTL.K2:AG.SRF.TOTL.K2{marker AG.SRF.TOTL.K2}}}Surface area (sq. km){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_AG.YLD.CREL.KG:AG.YLD.CREL.KG{marker AG.YLD.CREL.KG}}}Cereal yield (kg per hectare){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BG.GSR.NFSV.GD.ZS:BG.GSR.NFSV.GD.ZS{marker BG.GSR.NFSV.GD.ZS}}}Trade in services (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BM.GSR.CMCP.ZS:BM.GSR.CMCP.ZS{marker BM.GSR.CMCP.ZS}}}Communications, computer, etc. (% of service imports, BoP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BM.GSR.FCTY.CD:BM.GSR.FCTY.CD{marker BM.GSR.FCTY.CD}}}Primary income payments (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BM.GSR.GNFS.CD:BM.GSR.GNFS.CD{marker BM.GSR.GNFS.CD}}}Imports of goods and services (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BM.GSR.INSF.ZS:BM.GSR.INSF.ZS{marker BM.GSR.INSF.ZS}}}Insurance and financial services (% of service imports, BoP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BM.GSR.MRCH.CD:BM.GSR.MRCH.CD{marker BM.GSR.MRCH.CD}}}Goods imports (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BM.GSR.NFSV.CD:BM.GSR.NFSV.CD{marker BM.GSR.NFSV.CD}}}Service imports (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BM.GSR.ROYL.CD:BM.GSR.ROYL.CD{marker BM.GSR.ROYL.CD}}}Charges for the use of intellectual property, payments (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BM.GSR.TOTL.CD:BM.GSR.TOTL.CD{marker BM.GSR.TOTL.CD}}}Imports of goods, services and primary income (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BM.GSR.TRAN.ZS:BM.GSR.TRAN.ZS{marker BM.GSR.TRAN.ZS}}}Transport services (% of service imports, BoP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BM.GSR.TRVL.ZS:BM.GSR.TRVL.ZS{marker BM.GSR.TRVL.ZS}}}Travel services (% of service imports, BoP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BM.KLT.DINV.CD.WD:BM.KLT.DINV.CD.WD{marker BM.KLT.DINV.CD.WD}}}Foreign direct investment, net outflows (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BM.KLT.DINV.WD.GD.ZS:BM.KLT.DINV.WD.GD.ZS{marker BM.KLT.DINV.WD.GD.ZS}}}Foreign direct investment, net outflows (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BM.TRF.PRVT.CD:BM.TRF.PRVT.CD{marker BM.TRF.PRVT.CD}}}Secondary income, other sectors, payments (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BM.TRF.PWKR.CD.DT:BM.TRF.PWKR.CD.DT{marker BM.TRF.PWKR.CD.DT}}}Personal remittances, paid (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BN.CAB.XOKA.CD:BN.CAB.XOKA.CD{marker BN.CAB.XOKA.CD}}}Current account balance (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BN.CAB.XOKA.GD.ZS:BN.CAB.XOKA.GD.ZS{marker BN.CAB.XOKA.GD.ZS}}}Current account balance (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BN.FIN.TOTL.CD:BN.FIN.TOTL.CD{marker BN.FIN.TOTL.CD}}}Net financial account (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BN.GSR.FCTY.CD:BN.GSR.FCTY.CD{marker BN.GSR.FCTY.CD}}}Net primary income (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BN.GSR.GNFS.CD:BN.GSR.GNFS.CD{marker BN.GSR.GNFS.CD}}}Net trade in goods and services (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BN.GSR.MRCH.CD:BN.GSR.MRCH.CD{marker BN.GSR.MRCH.CD}}}Net trade in goods (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BN.KAC.EOMS.CD:BN.KAC.EOMS.CD{marker BN.KAC.EOMS.CD}}}Net errors and omissions (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BN.KLT.DINV.CD:BN.KLT.DINV.CD{marker BN.KLT.DINV.CD}}}Foreign direct investment, net (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BN.KLT.PTXL.CD:BN.KLT.PTXL.CD{marker BN.KLT.PTXL.CD}}}Portfolio Investment, net (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BN.RES.INCL.CD:BN.RES.INCL.CD{marker BN.RES.INCL.CD}}}Reserves and related items (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BN.TRF.CURR.CD:BN.TRF.CURR.CD{marker BN.TRF.CURR.CD}}}Net secondary income (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BN.TRF.KOGT.CD:BN.TRF.KOGT.CD{marker BN.TRF.KOGT.CD}}}Net capital account (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.GRT.EXTA.CD.WD:BX.GRT.EXTA.CD.WD{marker BX.GRT.EXTA.CD.WD}}}Grants, excluding technical cooperation (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.GRT.TECH.CD.WD:BX.GRT.TECH.CD.WD{marker BX.GRT.TECH.CD.WD}}}Technical cooperation grants (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.GSR.CCIS.CD:BX.GSR.CCIS.CD{marker BX.GSR.CCIS.CD}}}ICT service exports (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.GSR.CCIS.ZS:BX.GSR.CCIS.ZS{marker BX.GSR.CCIS.ZS}}}ICT service exports (% of service exports, BoP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.GSR.CMCP.ZS:BX.GSR.CMCP.ZS{marker BX.GSR.CMCP.ZS}}}Communications, computer, etc. (% of service exports, BoP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.GSR.FCTY.CD:BX.GSR.FCTY.CD{marker BX.GSR.FCTY.CD}}}Primary income receipts (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.GSR.GNFS.CD:BX.GSR.GNFS.CD{marker BX.GSR.GNFS.CD}}}Exports of goods and services (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.GSR.INSF.ZS:BX.GSR.INSF.ZS{marker BX.GSR.INSF.ZS}}}Insurance and financial services (% of service exports, BoP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.GSR.MRCH.CD:BX.GSR.MRCH.CD{marker BX.GSR.MRCH.CD}}}Goods exports (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.GSR.NFSV.CD:BX.GSR.NFSV.CD{marker BX.GSR.NFSV.CD}}}Service exports (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.GSR.ROYL.CD:BX.GSR.ROYL.CD{marker BX.GSR.ROYL.CD}}}Charges for the use of intellectual property, receipts (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.GSR.TOTL.CD:BX.GSR.TOTL.CD{marker BX.GSR.TOTL.CD}}}Exports of goods, services and primary income (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.GSR.TRAN.ZS:BX.GSR.TRAN.ZS{marker BX.GSR.TRAN.ZS}}}Transport services (% of service exports, BoP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.GSR.TRVL.ZS:BX.GSR.TRVL.ZS{marker BX.GSR.TRVL.ZS}}}Travel services (% of service exports, BoP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.KLT.DINV.CD.WD:BX.KLT.DINV.CD.WD{marker BX.KLT.DINV.CD.WD}}}Foreign direct investment, net inflows (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.KLT.DINV.WD.GD.ZS:BX.KLT.DINV.WD.GD.ZS{marker BX.KLT.DINV.WD.GD.ZS}}}Foreign direct investment, net inflows (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.PEF.TOTL.CD.WD:BX.PEF.TOTL.CD.WD{marker BX.PEF.TOTL.CD.WD}}}Portfolio equity, net inflows (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.TRF.CURR.CD:BX.TRF.CURR.CD{marker BX.TRF.CURR.CD}}}Secondary income receipts (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.TRF.PWKR.CD:BX.TRF.PWKR.CD{marker BX.TRF.PWKR.CD}}}Personal transfers, receipts (BoP, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.TRF.PWKR.CD.DT:BX.TRF.PWKR.CD.DT{marker BX.TRF.PWKR.CD.DT}}}Personal remittances, received (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_BX.TRF.PWKR.DT.GD.ZS:BX.TRF.PWKR.DT.GD.ZS{marker BX.TRF.PWKR.DT.GD.ZS}}}Personal remittances, received (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_CM.MKT.INDX.ZG:CM.MKT.INDX.ZG{marker CM.MKT.INDX.ZG}}}S&amp;P Global Equity Indices (annual % change){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_CM.MKT.LCAP.CD:CM.MKT.LCAP.CD{marker CM.MKT.LCAP.CD}}}Market capitalization of listed domestic companies (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_CM.MKT.LCAP.GD.ZS:CM.MKT.LCAP.GD.ZS{marker CM.MKT.LCAP.GD.ZS}}}Market capitalization of listed domestic companies (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_CM.MKT.LDOM.NO:CM.MKT.LDOM.NO{marker CM.MKT.LDOM.NO}}}Listed domestic companies, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_CM.MKT.TRAD.CD:CM.MKT.TRAD.CD{marker CM.MKT.TRAD.CD}}}Stocks traded, total value (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_CM.MKT.TRAD.GD.ZS:CM.MKT.TRAD.GD.ZS{marker CM.MKT.TRAD.GD.ZS}}}Stocks traded, total value (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_CM.MKT.TRNR:CM.MKT.TRNR{marker CM.MKT.TRNR}}}Stocks traded, turnover ratio of domestic shares (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.AUSL.CD:DC.DAC.AUSL.CD{marker DC.DAC.AUSL.CD}}}Net bilateral aid flows from DAC donors, Australia (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.AUTL.CD:DC.DAC.AUTL.CD{marker DC.DAC.AUTL.CD}}}Net bilateral aid flows from DAC donors, Austria (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.BELL.CD:DC.DAC.BELL.CD{marker DC.DAC.BELL.CD}}}Net bilateral aid flows from DAC donors, Belgium (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.CANL.CD:DC.DAC.CANL.CD{marker DC.DAC.CANL.CD}}}Net bilateral aid flows from DAC donors, Canada (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.CECL.CD:DC.DAC.CECL.CD{marker DC.DAC.CECL.CD}}}Net bilateral aid flows from DAC donors, European Union institutions (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.CHEL.CD:DC.DAC.CHEL.CD{marker DC.DAC.CHEL.CD}}}Net bilateral aid flows from DAC donors, Switzerland (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.CZEL.CD:DC.DAC.CZEL.CD{marker DC.DAC.CZEL.CD}}}Net bilateral aid flows from DAC donors, Czech Republic (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.DEUL.CD:DC.DAC.DEUL.CD{marker DC.DAC.DEUL.CD}}}Net bilateral aid flows from DAC donors, Germany (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.DNKL.CD:DC.DAC.DNKL.CD{marker DC.DAC.DNKL.CD}}}Net bilateral aid flows from DAC donors, Denmark (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.ESPL.CD:DC.DAC.ESPL.CD{marker DC.DAC.ESPL.CD}}}Net bilateral aid flows from DAC donors, Spain (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.FINL.CD:DC.DAC.FINL.CD{marker DC.DAC.FINL.CD}}}Net bilateral aid flows from DAC donors, Finland (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.FRAL.CD:DC.DAC.FRAL.CD{marker DC.DAC.FRAL.CD}}}Net bilateral aid flows from DAC donors, France (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.GBRL.CD:DC.DAC.GBRL.CD{marker DC.DAC.GBRL.CD}}}Net bilateral aid flows from DAC donors, United Kingdom (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.GRCL.CD:DC.DAC.GRCL.CD{marker DC.DAC.GRCL.CD}}}Net bilateral aid flows from DAC donors, Greece (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.IRLL.CD:DC.DAC.IRLL.CD{marker DC.DAC.IRLL.CD}}}Net bilateral aid flows from DAC donors, Ireland (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.ISLL.CD:DC.DAC.ISLL.CD{marker DC.DAC.ISLL.CD}}}Net bilateral aid flows from DAC donors, Iceland (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.ITAL.CD:DC.DAC.ITAL.CD{marker DC.DAC.ITAL.CD}}}Net bilateral aid flows from DAC donors, Italy (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.JPNL.CD:DC.DAC.JPNL.CD{marker DC.DAC.JPNL.CD}}}Net bilateral aid flows from DAC donors, Japan (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.KORL.CD:DC.DAC.KORL.CD{marker DC.DAC.KORL.CD}}}Net bilateral aid flows from DAC donors, Korea, Rep. (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.LUXL.CD:DC.DAC.LUXL.CD{marker DC.DAC.LUXL.CD}}}Net bilateral aid flows from DAC donors, Luxembourg (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.NLDL.CD:DC.DAC.NLDL.CD{marker DC.DAC.NLDL.CD}}}Net bilateral aid flows from DAC donors, Netherlands (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.NORL.CD:DC.DAC.NORL.CD{marker DC.DAC.NORL.CD}}}Net bilateral aid flows from DAC donors, Norway (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.NZLL.CD:DC.DAC.NZLL.CD{marker DC.DAC.NZLL.CD}}}Net bilateral aid flows from DAC donors, New Zealand (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.POLL.CD:DC.DAC.POLL.CD{marker DC.DAC.POLL.CD}}}Net bilateral aid flows from DAC donors, Poland (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.PRTL.CD:DC.DAC.PRTL.CD{marker DC.DAC.PRTL.CD}}}Net bilateral aid flows from DAC donors, Portugal (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.SVKL.CD:DC.DAC.SVKL.CD{marker DC.DAC.SVKL.CD}}}Net bilateral aid flows from DAC donors, Slovak Republic (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.SVNL.CD:DC.DAC.SVNL.CD{marker DC.DAC.SVNL.CD}}}Net bilateral aid flows from DAC donors, Slovenia (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.SWEL.CD:DC.DAC.SWEL.CD{marker DC.DAC.SWEL.CD}}}Net bilateral aid flows from DAC donors, Sweden (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.TOTL.CD:DC.DAC.TOTL.CD{marker DC.DAC.TOTL.CD}}}Net bilateral aid flows from DAC donors, Total (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.USAL.CD:DC.DAC.USAL.CD{marker DC.DAC.USAL.CD}}}Net bilateral aid flows from DAC donors, United States (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.ODA.TLDC.CD:DC.ODA.TLDC.CD{marker DC.ODA.TLDC.CD}}}Net ODA provided, to the least developed countries (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.ODA.TLDC.GN.ZS:DC.ODA.TLDC.GN.ZS{marker DC.ODA.TLDC.GN.ZS}}}Net ODA provided to the least developed countries (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.ODA.TOTL.CD:DC.ODA.TOTL.CD{marker DC.ODA.TOTL.CD}}}Net ODA provided, total (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.ODA.TOTL.GN.ZS:DC.ODA.TOTL.GN.ZS{marker DC.ODA.TOTL.GN.ZS}}}Net ODA provided, total (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.ODA.TOTL.KD:DC.ODA.TOTL.KD{marker DC.ODA.TOTL.KD}}}Net ODA provided, total (constant 2015 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.DOD.DECT.CD:DT.DOD.DECT.CD{marker DT.DOD.DECT.CD}}}External debt stocks, total (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.DOD.DECT.GN.ZS:DT.DOD.DECT.GN.ZS{marker DT.DOD.DECT.GN.ZS}}}External debt stocks (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.DOD.DIMF.CD:DT.DOD.DIMF.CD{marker DT.DOD.DIMF.CD}}}Use of IMF credit (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.DOD.DLXF.CD:DT.DOD.DLXF.CD{marker DT.DOD.DLXF.CD}}}External debt stocks, long-term (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.DOD.DPNG.CD:DT.DOD.DPNG.CD{marker DT.DOD.DPNG.CD}}}External debt stocks, private nonguaranteed (PNG) (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.DOD.DPPG.CD:DT.DOD.DPPG.CD{marker DT.DOD.DPPG.CD}}}External debt stocks, public and publicly guaranteed (PPG) (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.DOD.DSTC.CD:DT.DOD.DSTC.CD{marker DT.DOD.DSTC.CD}}}External debt stocks, short-term (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.DOD.DSTC.IR.ZS:DT.DOD.DSTC.IR.ZS{marker DT.DOD.DSTC.IR.ZS}}}Short-term debt (% of total reserves){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.DOD.DSTC.XP.ZS:DT.DOD.DSTC.XP.ZS{marker DT.DOD.DSTC.XP.ZS}}}Short-term debt (% of exports of goods, services and primary income){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.DOD.DSTC.ZS:DT.DOD.DSTC.ZS{marker DT.DOD.DSTC.ZS}}}Short-term debt (% of total external debt){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.DOD.MIBR.CD:DT.DOD.MIBR.CD{marker DT.DOD.MIBR.CD}}}PPG, IBRD (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.DOD.MIDA.CD:DT.DOD.MIDA.CD{marker DT.DOD.MIDA.CD}}}PPG, IDA (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.DOD.MWBG.CD:DT.DOD.MWBG.CD{marker DT.DOD.MWBG.CD}}}IBRD loans and IDA credits (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.DOD.PVLX.CD:DT.DOD.PVLX.CD{marker DT.DOD.PVLX.CD}}}Present value of external debt (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.DOD.PVLX.EX.ZS:DT.DOD.PVLX.EX.ZS{marker DT.DOD.PVLX.EX.ZS}}}Present value of external debt (% of exports of goods, services and primary income){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.DOD.PVLX.GN.ZS:DT.DOD.PVLX.GN.ZS{marker DT.DOD.PVLX.GN.ZS}}}Present value of external debt (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.BLAT.CD:DT.NFL.BLAT.CD{marker DT.NFL.BLAT.CD}}}Net financial flows, bilateral (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.BOND.CD:DT.NFL.BOND.CD{marker DT.NFL.BOND.CD}}}Portfolio investment, bonds (PPG + PNG) (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.DPNG.CD:DT.NFL.DPNG.CD{marker DT.NFL.DPNG.CD}}}Net flows on external debt, private nonguaranteed (PNG) (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.FAOG.CD:DT.NFL.FAOG.CD{marker DT.NFL.FAOG.CD}}}Net official flows from UN agencies, FAO (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.IAEA.CD:DT.NFL.IAEA.CD{marker DT.NFL.IAEA.CD}}}Net official flows from UN agencies, IAEA (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.IFAD.CD:DT.NFL.IFAD.CD{marker DT.NFL.IFAD.CD}}}Net official flows from UN agencies, IFAD (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.ILOG.CD:DT.NFL.ILOG.CD{marker DT.NFL.ILOG.CD}}}Net official flows from UN agencies, ILO (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.IMFC.CD:DT.NFL.IMFC.CD{marker DT.NFL.IMFC.CD}}}Net financial flows, IMF concessional (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.IMFN.CD:DT.NFL.IMFN.CD{marker DT.NFL.IMFN.CD}}}Net financial flows, IMF nonconcessional (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.MIBR.CD:DT.NFL.MIBR.CD{marker DT.NFL.MIBR.CD}}}Net financial flows, IBRD (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.MIDA.CD:DT.NFL.MIDA.CD{marker DT.NFL.MIDA.CD}}}Net financial flows, IDA (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.MLAT.CD:DT.NFL.MLAT.CD{marker DT.NFL.MLAT.CD}}}Net financial flows, multilateral (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.MOTH.CD:DT.NFL.MOTH.CD{marker DT.NFL.MOTH.CD}}}Net financial flows, others (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.NIFC.CD:DT.NFL.NIFC.CD{marker DT.NFL.NIFC.CD}}}IFC, private nonguaranteed (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.OFFT.CD:DT.NFL.OFFT.CD{marker DT.NFL.OFFT.CD}}}PPG, official creditors (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.PBND.CD:DT.NFL.PBND.CD{marker DT.NFL.PBND.CD}}}PPG, bonds (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.PCBK.CD:DT.NFL.PCBK.CD{marker DT.NFL.PCBK.CD}}}PPG, commercial banks (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.PCBO.CD:DT.NFL.PCBO.CD{marker DT.NFL.PCBO.CD}}}Commercial banks and other lending (PPG + PNG) (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.PNGB.CD:DT.NFL.PNGB.CD{marker DT.NFL.PNGB.CD}}}PNG, bonds (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.PNGC.CD:DT.NFL.PNGC.CD{marker DT.NFL.PNGC.CD}}}PNG, commercial banks and other creditors (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.PROP.CD:DT.NFL.PROP.CD{marker DT.NFL.PROP.CD}}}PPG, other private creditors (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.PRVT.CD:DT.NFL.PRVT.CD{marker DT.NFL.PRVT.CD}}}PPG, private creditors (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.RDBC.CD:DT.NFL.RDBC.CD{marker DT.NFL.RDBC.CD}}}Net financial flows, RDB concessional (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.RDBN.CD:DT.NFL.RDBN.CD{marker DT.NFL.RDBN.CD}}}Net financial flows, RDB nonconcessional (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.UNAI.CD:DT.NFL.UNAI.CD{marker DT.NFL.UNAI.CD}}}Net official flows from UN agencies, UNAIDS (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.UNCF.CD:DT.NFL.UNCF.CD{marker DT.NFL.UNCF.CD}}}Net official flows from UN agencies, UNICEF (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.UNCR.CD:DT.NFL.UNCR.CD{marker DT.NFL.UNCR.CD}}}Net official flows from UN agencies, UNHCR (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.UNDP.CD:DT.NFL.UNDP.CD{marker DT.NFL.UNDP.CD}}}Net official flows from UN agencies, UNDP (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.UNEC.CD:DT.NFL.UNEC.CD{marker DT.NFL.UNEC.CD}}}Net official flows from UN agencies, UNECE (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.UNFP.CD:DT.NFL.UNFP.CD{marker DT.NFL.UNFP.CD}}}Net official flows from UN agencies, UNFPA (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.UNPB.CD:DT.NFL.UNPB.CD{marker DT.NFL.UNPB.CD}}}Net official flows from UN agencies, UNPBF (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.UNRW.CD:DT.NFL.UNRW.CD{marker DT.NFL.UNRW.CD}}}Net official flows from UN agencies, UNRWA (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.UNTA.CD:DT.NFL.UNTA.CD{marker DT.NFL.UNTA.CD}}}Net official flows from UN agencies, UNTA (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.UNWT.CD:DT.NFL.UNWT.CD{marker DT.NFL.UNWT.CD}}}Net official flows from UN agencies, UNWTO (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.WFPG.CD:DT.NFL.WFPG.CD{marker DT.NFL.WFPG.CD}}}Net official flows from UN agencies, WFP (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.WHOL.CD:DT.NFL.WHOL.CD{marker DT.NFL.WHOL.CD}}}Net official flows from UN agencies, WHO (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.ODA.ALLD.CD:DT.ODA.ALLD.CD{marker DT.ODA.ALLD.CD}}}Net official development assistance and official aid received (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.ODA.ALLD.KD:DT.ODA.ALLD.KD{marker DT.ODA.ALLD.KD}}}Net official development assistance and official aid received (constant 2015 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.ODA.OATL.CD:DT.ODA.OATL.CD{marker DT.ODA.OATL.CD}}}Net official aid received (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.ODA.OATL.KD:DT.ODA.OATL.KD{marker DT.ODA.OATL.KD}}}Net official aid received (constant 2015 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.ODA.ODAT.CD:DT.ODA.ODAT.CD{marker DT.ODA.ODAT.CD}}}Net official development assistance received (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.ODA.ODAT.GI.ZS:DT.ODA.ODAT.GI.ZS{marker DT.ODA.ODAT.GI.ZS}}}Net ODA received (% of gross capital formation){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.ODA.ODAT.GN.ZS:DT.ODA.ODAT.GN.ZS{marker DT.ODA.ODAT.GN.ZS}}}Net ODA received (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.ODA.ODAT.KD:DT.ODA.ODAT.KD{marker DT.ODA.ODAT.KD}}}Net official development assistance received (constant 2015 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.ODA.ODAT.MP.ZS:DT.ODA.ODAT.MP.ZS{marker DT.ODA.ODAT.MP.ZS}}}Net ODA received (% of imports of goods, services and primary income){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.ODA.ODAT.PC.ZS:DT.ODA.ODAT.PC.ZS{marker DT.ODA.ODAT.PC.ZS}}}Net ODA received per capita (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.ODA.ODAT.XP.ZS:DT.ODA.ODAT.XP.ZS{marker DT.ODA.ODAT.XP.ZS}}}Net ODA received (% of central government expense){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.TDS.DECT.CD:DT.TDS.DECT.CD{marker DT.TDS.DECT.CD}}}Debt service on external debt, total (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.TDS.DECT.EX.ZS:DT.TDS.DECT.EX.ZS{marker DT.TDS.DECT.EX.ZS}}}Total debt service (% of exports of goods, services and primary income){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.TDS.DECT.GN.ZS:DT.TDS.DECT.GN.ZS{marker DT.TDS.DECT.GN.ZS}}}Total debt service (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.TDS.DIMF.CD:DT.TDS.DIMF.CD{marker DT.TDS.DIMF.CD}}}IMF repurchases and charges (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.TDS.DPPF.XP.ZS:DT.TDS.DPPF.XP.ZS{marker DT.TDS.DPPF.XP.ZS}}}Debt service (PPG and IMF only, % of exports of goods, services and primary income){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.TDS.DPPG.CD:DT.TDS.DPPG.CD{marker DT.TDS.DPPG.CD}}}Debt service on external debt, public and publicly guaranteed (PPG) (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.TDS.DPPG.GN.ZS:DT.TDS.DPPG.GN.ZS{marker DT.TDS.DPPG.GN.ZS}}}Public and publicly guaranteed debt service (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.TDS.DPPG.XP.ZS:DT.TDS.DPPG.XP.ZS{marker DT.TDS.DPPG.XP.ZS}}}Public and publicly guaranteed debt service (% of exports of goods, services and primary income){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.TDS.MLAT.CD:DT.TDS.MLAT.CD{marker DT.TDS.MLAT.CD}}}Multilateral debt service (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.TDS.MLAT.PG.ZS:DT.TDS.MLAT.PG.ZS{marker DT.TDS.MLAT.PG.ZS}}}Multilateral debt service (% of public and publicly guaranteed debt service){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.CFT.ACCS.ZS:EG.CFT.ACCS.ZS{marker EG.CFT.ACCS.ZS}}}Access to clean fuels and technologies for cooking (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD{marker EG.EGY.PRIM.PP.KD}}}Energy intensity level of primary energy (MJ/$2011 PPP GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.ELC.ACCS.RU.ZS:EG.ELC.ACCS.RU.ZS{marker EG.ELC.ACCS.RU.ZS}}}Access to electricity, rural (% of rural population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.ELC.ACCS.UR.ZS:EG.ELC.ACCS.UR.ZS{marker EG.ELC.ACCS.UR.ZS}}}Access to electricity, urban (% of urban population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.ELC.ACCS.ZS:EG.ELC.ACCS.ZS{marker EG.ELC.ACCS.ZS}}}Access to electricity (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.ELC.COAL.ZS:EG.ELC.COAL.ZS{marker EG.ELC.COAL.ZS}}}Electricity production from coal sources (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.ELC.FOSL.ZS:EG.ELC.FOSL.ZS{marker EG.ELC.FOSL.ZS}}}Electricity production from oil, gas and coal sources (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.ELC.HYRO.ZS:EG.ELC.HYRO.ZS{marker EG.ELC.HYRO.ZS}}}Electricity production from hydroelectric sources (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.ELC.LOSS.ZS:EG.ELC.LOSS.ZS{marker EG.ELC.LOSS.ZS}}}Electric power transmission and distribution losses (% of output){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.ELC.NGAS.ZS:EG.ELC.NGAS.ZS{marker EG.ELC.NGAS.ZS}}}Electricity production from natural gas sources (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.ELC.NUCL.ZS:EG.ELC.NUCL.ZS{marker EG.ELC.NUCL.ZS}}}Electricity production from nuclear sources (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.ELC.PETR.ZS:EG.ELC.PETR.ZS{marker EG.ELC.PETR.ZS}}}Electricity production from oil sources (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.ELC.RNEW.ZS:EG.ELC.RNEW.ZS{marker EG.ELC.RNEW.ZS}}}Renewable electricity output (% of total electricity output){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.ELC.RNWX.KH:EG.ELC.RNWX.KH{marker EG.ELC.RNWX.KH}}}Electricity production from renewable sources, excluding hydroelectric (kWh){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.ELC.RNWX.ZS:EG.ELC.RNWX.ZS{marker EG.ELC.RNWX.ZS}}}Electricity production from renewable sources, excluding hydroelectric (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.FEC.RNEW.ZS:EG.FEC.RNEW.ZS{marker EG.FEC.RNEW.ZS}}}Renewable energy consumption (% of total final energy consumption){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.GDP.PUSE.KO.PP:EG.GDP.PUSE.KO.PP{marker EG.GDP.PUSE.KO.PP}}}GDP per unit of energy use (PPP $ per kg of oil equivalent){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.GDP.PUSE.KO.PP.KD:EG.GDP.PUSE.KO.PP.KD{marker EG.GDP.PUSE.KO.PP.KD}}}GDP per unit of energy use (constant 2011 PPP $ per kg of oil equivalent){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.IMP.CONS.ZS:EG.IMP.CONS.ZS{marker EG.IMP.CONS.ZS}}}Energy imports, net (% of energy use){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.USE.COMM.CL.ZS:EG.USE.COMM.CL.ZS{marker EG.USE.COMM.CL.ZS}}}Alternative and nuclear energy (% of total energy use){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.USE.COMM.FO.ZS:EG.USE.COMM.FO.ZS{marker EG.USE.COMM.FO.ZS}}}Fossil fuel energy consumption (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD{marker EG.USE.COMM.GD.PP.KD}}}Energy use (kg of oil equivalent) per $1,000 GDP (constant 2011 PPP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.USE.CRNW.ZS:EG.USE.CRNW.ZS{marker EG.USE.CRNW.ZS}}}Combustible renewables and waste (% of total energy){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.USE.ELEC.KH.PC:EG.USE.ELEC.KH.PC{marker EG.USE.ELEC.KH.PC}}}Electric power consumption (kWh per capita){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.USE.PCAP.KG.OE:EG.USE.PCAP.KG.OE{marker EG.USE.PCAP.KG.OE}}}Energy use (kg of oil equivalent per capita){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.EG.ZS:EN.ATM.CO2E.EG.ZS{marker EN.ATM.CO2E.EG.ZS}}}CO2 intensity (kg per kg of oil equivalent energy use){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.GF.KT:EN.ATM.CO2E.GF.KT{marker EN.ATM.CO2E.GF.KT}}}CO2 emissions from gaseous fuel consumption (kt){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS{marker EN.ATM.CO2E.GF.ZS}}}CO2 emissions from gaseous fuel consumption (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD{marker EN.ATM.CO2E.KD.GD}}}CO2 emissions (kg per 2010 US$ of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.KT:EN.ATM.CO2E.KT{marker EN.ATM.CO2E.KT}}}CO2 emissions (kt){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.LF.KT:EN.ATM.CO2E.LF.KT{marker EN.ATM.CO2E.LF.KT}}}CO2 emissions from liquid fuel consumption (kt){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.LF.ZS:EN.ATM.CO2E.LF.ZS{marker EN.ATM.CO2E.LF.ZS}}}CO2 emissions from liquid fuel consumption (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.PC:EN.ATM.CO2E.PC{marker EN.ATM.CO2E.PC}}}CO2 emissions (metric tons per capita){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.PP.GD:EN.ATM.CO2E.PP.GD{marker EN.ATM.CO2E.PP.GD}}}CO2 emissions (kg per PPP $ of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD{marker EN.ATM.CO2E.PP.GD.KD}}}CO2 emissions (kg per 2011 PPP $ of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.SF.KT:EN.ATM.CO2E.SF.KT{marker EN.ATM.CO2E.SF.KT}}}CO2 emissions from solid fuel consumption (kt){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.SF.ZS:EN.ATM.CO2E.SF.ZS{marker EN.ATM.CO2E.SF.ZS}}}CO2 emissions from solid fuel consumption (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.GHGO.KT.CE:EN.ATM.GHGO.KT.CE{marker EN.ATM.GHGO.KT.CE}}}Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.GHGO.ZG:EN.ATM.GHGO.ZG{marker EN.ATM.GHGO.ZG}}}Other greenhouse gas emissions (% change from 1990){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.GHGT.KT.CE:EN.ATM.GHGT.KT.CE{marker EN.ATM.GHGT.KT.CE}}}Total greenhouse gas emissions (kt of CO2 equivalent){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.GHGT.ZG:EN.ATM.GHGT.ZG{marker EN.ATM.GHGT.ZG}}}Total greenhouse gas emissions (% change from 1990){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.HFCG.KT.CE:EN.ATM.HFCG.KT.CE{marker EN.ATM.HFCG.KT.CE}}}HFC gas emissions (thousand metric tons of CO2 equivalent){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.METH.AG.KT.CE:EN.ATM.METH.AG.KT.CE{marker EN.ATM.METH.AG.KT.CE}}}Agricultural methane emissions (thousand metric tons of CO2 equivalent){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.METH.AG.ZS:EN.ATM.METH.AG.ZS{marker EN.ATM.METH.AG.ZS}}}Agricultural methane emissions (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.METH.EG.KT.CE:EN.ATM.METH.EG.KT.CE{marker EN.ATM.METH.EG.KT.CE}}}Methane emissions in energy sector (thousand metric tons of CO2 equivalent){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.METH.EG.ZS:EN.ATM.METH.EG.ZS{marker EN.ATM.METH.EG.ZS}}}Energy related methane emissions (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.METH.KT.CE:EN.ATM.METH.KT.CE{marker EN.ATM.METH.KT.CE}}}Methane emissions (kt of CO2 equivalent){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.METH.ZG:EN.ATM.METH.ZG{marker EN.ATM.METH.ZG}}}Methane emissions (% change from 1990){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.NOXE.AG.KT.CE:EN.ATM.NOXE.AG.KT.CE{marker EN.ATM.NOXE.AG.KT.CE}}}Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.NOXE.AG.ZS:EN.ATM.NOXE.AG.ZS{marker EN.ATM.NOXE.AG.ZS}}}Agricultural nitrous oxide emissions (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.NOXE.EG.KT.CE:EN.ATM.NOXE.EG.KT.CE{marker EN.ATM.NOXE.EG.KT.CE}}}Nitrous oxide emissions in energy sector (thousand metric tons of CO2 equivalent){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.NOXE.EG.ZS:EN.ATM.NOXE.EG.ZS{marker EN.ATM.NOXE.EG.ZS}}}Nitrous oxide emissions in energy sector (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.NOXE.KT.CE:EN.ATM.NOXE.KT.CE{marker EN.ATM.NOXE.KT.CE}}}Nitrous oxide emissions (thousand metric tons of CO2 equivalent){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.NOXE.ZG:EN.ATM.NOXE.ZG{marker EN.ATM.NOXE.ZG}}}Nitrous oxide emissions (% change from 1990){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.PFCG.KT.CE:EN.ATM.PFCG.KT.CE{marker EN.ATM.PFCG.KT.CE}}}PFC gas emissions (thousand metric tons of CO2 equivalent){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.PM25.MC.M3:EN.ATM.PM25.MC.M3{marker EN.ATM.PM25.MC.M3}}}PM2.5 air pollution, mean annual exposure (micrograms per cubic meter){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.PM25.MC.T1.ZS:EN.ATM.PM25.MC.T1.ZS{marker EN.ATM.PM25.MC.T1.ZS}}}PM2.5 pollution, population exposed to levels exceeding WHO Interim Target-1 value (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.PM25.MC.T2.ZS:EN.ATM.PM25.MC.T2.ZS{marker EN.ATM.PM25.MC.T2.ZS}}}PM2.5 pollution, population exposed to levels exceeding WHO Interim Target-2 value (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.PM25.MC.T3.ZS:EN.ATM.PM25.MC.T3.ZS{marker EN.ATM.PM25.MC.T3.ZS}}}PM2.5 pollution, population exposed to levels exceeding WHO Interim Target-3 value (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.PM25.MC.ZS:EN.ATM.PM25.MC.ZS{marker EN.ATM.PM25.MC.ZS}}}PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.SF6G.KT.CE:EN.ATM.SF6G.KT.CE{marker EN.ATM.SF6G.KT.CE}}}SF6 gas emissions (thousand metric tons of CO2 equivalent){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.BIR.THRD.NO:EN.BIR.THRD.NO{marker EN.BIR.THRD.NO}}}Bird species, threatened{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.CLC.DRSK.XQ:EN.CLC.DRSK.XQ{marker EN.CLC.DRSK.XQ}}}Disaster risk reduction progress score (1-5 scale; 5=best){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.CLC.GHGR.MT.CE:EN.CLC.GHGR.MT.CE{marker EN.CLC.GHGR.MT.CE}}}GHG net emissions/removals by LUCF (Mt of CO2 equivalent){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.CLC.MDAT.ZS:EN.CLC.MDAT.ZS{marker EN.CLC.MDAT.ZS}}}Droughts, floods, extreme temperatures (% of population, average 1990-2009){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.CO2.BLDG.ZS:EN.CO2.BLDG.ZS{marker EN.CO2.BLDG.ZS}}}CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.CO2.ETOT.ZS:EN.CO2.ETOT.ZS{marker EN.CO2.ETOT.ZS}}}CO2 emissions from electricity and heat production, total (% of total fuel combustion){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.CO2.MANF.ZS:EN.CO2.MANF.ZS{marker EN.CO2.MANF.ZS}}}CO2 emissions from manufacturing industries and construction (% of total fuel combustion){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.CO2.OTHX.ZS:EN.CO2.OTHX.ZS{marker EN.CO2.OTHX.ZS}}}CO2 emissions from other sectors, excluding residential buildings and commercial and public services (% of total fuel combustion){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.CO2.TRAN.ZS:EN.CO2.TRAN.ZS{marker EN.CO2.TRAN.ZS}}}CO2 emissions from transport (% of total fuel combustion){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.FSH.THRD.NO:EN.FSH.THRD.NO{marker EN.FSH.THRD.NO}}}Fish species, threatened{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.HPT.THRD.NO:EN.HPT.THRD.NO{marker EN.HPT.THRD.NO}}}Plant species (higher), threatened{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.MAM.THRD.NO:EN.MAM.THRD.NO{marker EN.MAM.THRD.NO}}}Mammal species, threatened{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.POP.DNST:EN.POP.DNST{marker EN.POP.DNST}}}Population density (people per sq. km of land area){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.POP.EL5M.RU.ZS:EN.POP.EL5M.RU.ZS{marker EN.POP.EL5M.RU.ZS}}}Rural population living in areas where elevation is below 5 meters (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.POP.EL5M.UR.ZS:EN.POP.EL5M.UR.ZS{marker EN.POP.EL5M.UR.ZS}}}Urban population living in areas where elevation is below 5 meters (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.POP.EL5M.ZS:EN.POP.EL5M.ZS{marker EN.POP.EL5M.ZS}}}Population living in areas where elevation is below 5 meters (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.POP.SLUM.UR.ZS:EN.POP.SLUM.UR.ZS{marker EN.POP.SLUM.UR.ZS}}}Population living in slums (% of urban population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.URB.LCTY:EN.URB.LCTY{marker EN.URB.LCTY}}}Population in largest city{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.URB.LCTY.UR.ZS:EN.URB.LCTY.UR.ZS{marker EN.URB.LCTY.UR.ZS}}}Population in the largest city (% of urban population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.URB.MCTY:EN.URB.MCTY{marker EN.URB.MCTY}}}Population in urban agglomerations of more than 1 million{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.URB.MCTY.TL.ZS:EN.URB.MCTY.TL.ZS{marker EN.URB.MCTY.TL.ZS}}}Population in urban agglomerations of more than 1 million (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EP.PMP.DESL.CD:EP.PMP.DESL.CD{marker EP.PMP.DESL.CD}}}Pump price for diesel fuel (US$ per liter){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EP.PMP.SGAS.CD:EP.PMP.SGAS.CD{marker EP.PMP.SGAS.CD}}}Pump price for gasoline (US$ per liter){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ER.FSH.AQUA.MT:ER.FSH.AQUA.MT{marker ER.FSH.AQUA.MT}}}Aquaculture production (metric tons){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ER.FSH.CAPT.MT:ER.FSH.CAPT.MT{marker ER.FSH.CAPT.MT}}}Capture fisheries production (metric tons){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ER.FSH.PROD.MT:ER.FSH.PROD.MT{marker ER.FSH.PROD.MT}}}Total fisheries production (metric tons){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ER.GDP.FWTL.M3.KD:ER.GDP.FWTL.M3.KD{marker ER.GDP.FWTL.M3.KD}}}Water productivity, total (constant 2010 US$ GDP per cubic meter of total freshwater withdrawal){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ER.H2O.FWAG.ZS:ER.H2O.FWAG.ZS{marker ER.H2O.FWAG.ZS}}}Annual freshwater withdrawals, agriculture (% of total freshwater withdrawal){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ER.H2O.FWDM.ZS:ER.H2O.FWDM.ZS{marker ER.H2O.FWDM.ZS}}}Annual freshwater withdrawals, domestic (% of total freshwater withdrawal){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ER.H2O.FWIN.ZS:ER.H2O.FWIN.ZS{marker ER.H2O.FWIN.ZS}}}Annual freshwater withdrawals, industry (% of total freshwater withdrawal){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ER.H2O.FWST.ZS:ER.H2O.FWST.ZS{marker ER.H2O.FWST.ZS}}}Level of water stress: freshwater withdrawal as a proportion of available freshwater resources{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ER.H2O.FWTL.K3:ER.H2O.FWTL.K3{marker ER.H2O.FWTL.K3}}}Annual freshwater withdrawals, total (billion cubic meters){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ER.H2O.FWTL.ZS:ER.H2O.FWTL.ZS{marker ER.H2O.FWTL.ZS}}}Annual freshwater withdrawals, total (% of internal resources){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ER.H2O.INTR.K3:ER.H2O.INTR.K3{marker ER.H2O.INTR.K3}}}Renewable internal freshwater resources, total (billion cubic meters){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ER.H2O.INTR.PC:ER.H2O.INTR.PC{marker ER.H2O.INTR.PC}}}Renewable internal freshwater resources per capita (cubic meters){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ER.LND.PTLD.ZS:ER.LND.PTLD.ZS{marker ER.LND.PTLD.ZS}}}Terrestrial protected areas (% of total land area){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ER.MRN.PTMR.ZS:ER.MRN.PTMR.ZS{marker ER.MRN.PTMR.ZS}}}Marine protected areas (% of territorial waters){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ER.PTD.TOTL.ZS:ER.PTD.TOTL.ZS{marker ER.PTD.TOTL.ZS}}}Terrestrial and marine protected areas (% of total territorial area){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FB.AST.NPER.ZS:FB.AST.NPER.ZS{marker FB.AST.NPER.ZS}}}Bank nonperforming loans to total gross loans (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FB.ATM.TOTL.P5:FB.ATM.TOTL.P5{marker FB.ATM.TOTL.P5}}}Automated teller machines (ATMs) (per 100,000 adults){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FB.BNK.CAPA.ZS:FB.BNK.CAPA.ZS{marker FB.BNK.CAPA.ZS}}}Bank capital to assets ratio (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FB.CBK.BRCH.P5:FB.CBK.BRCH.P5{marker FB.CBK.BRCH.P5}}}Commercial bank branches (per 100,000 adults){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FB.CBK.BRWR.P3:FB.CBK.BRWR.P3{marker FB.CBK.BRWR.P3}}}Borrowers from commercial banks (per 1,000 adults){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FB.CBK.DPTR.P3:FB.CBK.DPTR.P3{marker FB.CBK.DPTR.P3}}}Depositors with commercial banks (per 1,000 adults){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FD.AST.PRVT.GD.ZS:FD.AST.PRVT.GD.ZS{marker FD.AST.PRVT.GD.ZS}}}Domestic credit to private sector by banks (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FD.RES.LIQU.AS.ZS:FD.RES.LIQU.AS.ZS{marker FD.RES.LIQU.AS.ZS}}}Bank liquid reserves to bank assets ratio (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FI.RES.TOTL.CD:FI.RES.TOTL.CD{marker FI.RES.TOTL.CD}}}Total reserves (includes gold, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FI.RES.TOTL.DT.ZS:FI.RES.TOTL.DT.ZS{marker FI.RES.TOTL.DT.ZS}}}Total reserves (% of total external debt){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FI.RES.TOTL.MO:FI.RES.TOTL.MO{marker FI.RES.TOTL.MO}}}Total reserves in months of imports{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FI.RES.XGLD.CD:FI.RES.XGLD.CD{marker FI.RES.XGLD.CD}}}Total reserves minus gold (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FM.AST.CGOV.ZG.M3:FM.AST.CGOV.ZG.M3{marker FM.AST.CGOV.ZG.M3}}}Claims on central government (annual growth as % of broad money){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FM.AST.DOMO.ZG.M3:FM.AST.DOMO.ZG.M3{marker FM.AST.DOMO.ZG.M3}}}Claims on other sectors of the domestic economy (annual growth as % of broad money){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FM.AST.DOMS.CN:FM.AST.DOMS.CN{marker FM.AST.DOMS.CN}}}Net domestic credit (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FM.AST.NFRG.CN:FM.AST.NFRG.CN{marker FM.AST.NFRG.CN}}}Net foreign assets (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FM.AST.PRVT.ZG.M3:FM.AST.PRVT.ZG.M3{marker FM.AST.PRVT.ZG.M3}}}Claims on private sector (annual growth as % of broad money){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FM.LBL.BMNY.CN:FM.LBL.BMNY.CN{marker FM.LBL.BMNY.CN}}}Broad money (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FM.LBL.BMNY.GD.ZS:FM.LBL.BMNY.GD.ZS{marker FM.LBL.BMNY.GD.ZS}}}Broad money (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FM.LBL.BMNY.IR.ZS:FM.LBL.BMNY.IR.ZS{marker FM.LBL.BMNY.IR.ZS}}}Broad money to total reserves ratio{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FM.LBL.BMNY.ZG:FM.LBL.BMNY.ZG{marker FM.LBL.BMNY.ZG}}}Broad money growth (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FP.CPI.TOTL:FP.CPI.TOTL{marker FP.CPI.TOTL}}}Consumer price index (2010 = 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FP.CPI.TOTL.ZG:FP.CPI.TOTL.ZG{marker FP.CPI.TOTL.ZG}}}Inflation, consumer prices (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FP.WPI.TOTL:FP.WPI.TOTL{marker FP.WPI.TOTL}}}Wholesale price index (2010 = 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FR.INR.DPST:FR.INR.DPST{marker FR.INR.DPST}}}Deposit interest rate (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FR.INR.LEND:FR.INR.LEND{marker FR.INR.LEND}}}Lending interest rate (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FR.INR.LNDP:FR.INR.LNDP{marker FR.INR.LNDP}}}Interest rate spread (lending rate minus deposit rate, %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FR.INR.RINR:FR.INR.RINR{marker FR.INR.RINR}}}Real interest rate (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FR.INR.RISK:FR.INR.RISK{marker FR.INR.RISK}}}Risk premium on lending (lending rate minus treasury bill rate, %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FS.AST.CGOV.GD.ZS:FS.AST.CGOV.GD.ZS{marker FS.AST.CGOV.GD.ZS}}}Claims on central government, etc. (% GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FS.AST.DOMO.GD.ZS:FS.AST.DOMO.GD.ZS{marker FS.AST.DOMO.GD.ZS}}}Claims on other sectors of the domestic economy (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FS.AST.DOMS.GD.ZS:FS.AST.DOMS.GD.ZS{marker FS.AST.DOMS.GD.ZS}}}Domestic credit provided by financial sector (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FS.AST.PRVT.GD.ZS:FS.AST.PRVT.GD.ZS{marker FS.AST.PRVT.GD.ZS}}}Domestic credit to private sector (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FX.OWN.TOTL.40.ZS:FX.OWN.TOTL.40.ZS{marker FX.OWN.TOTL.40.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, poorest 40% (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FX.OWN.TOTL.60.ZS:FX.OWN.TOTL.60.ZS{marker FX.OWN.TOTL.60.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, richest 60% (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FX.OWN.TOTL.FE.ZS:FX.OWN.TOTL.FE.ZS{marker FX.OWN.TOTL.FE.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, female (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FX.OWN.TOTL.MA.ZS:FX.OWN.TOTL.MA.ZS{marker FX.OWN.TOTL.MA.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, male (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FX.OWN.TOTL.OL.ZS:FX.OWN.TOTL.OL.ZS{marker FX.OWN.TOTL.OL.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, older adults (% of population ages 25+){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FX.OWN.TOTL.PL.ZS:FX.OWN.TOTL.PL.ZS{marker FX.OWN.TOTL.PL.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, primary education or less (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FX.OWN.TOTL.SO.ZS:FX.OWN.TOTL.SO.ZS{marker FX.OWN.TOTL.SO.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, secondary education or more (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FX.OWN.TOTL.YG.ZS:FX.OWN.TOTL.YG.ZS{marker FX.OWN.TOTL.YG.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, young adults (% of population ages 15-24){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_FX.OWN.TOTL.ZS:FX.OWN.TOTL.ZS{marker FX.OWN.TOTL.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GB.XPD.RSDV.GD.ZS:GB.XPD.RSDV.GD.ZS{marker GB.XPD.RSDV.GD.ZS}}}Research and development expenditure (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.AST.TOTL.CN:GC.AST.TOTL.CN{marker GC.AST.TOTL.CN}}}Net acquisition of financial assets (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.AST.TOTL.GD.ZS:GC.AST.TOTL.GD.ZS{marker GC.AST.TOTL.GD.ZS}}}Net acquisition of financial assets (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.DOD.TOTL.CN:GC.DOD.TOTL.CN{marker GC.DOD.TOTL.CN}}}Central government debt, total (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.DOD.TOTL.GD.ZS:GC.DOD.TOTL.GD.ZS{marker GC.DOD.TOTL.GD.ZS}}}Central government debt, total (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.LBL.TOTL.CN:GC.LBL.TOTL.CN{marker GC.LBL.TOTL.CN}}}Net incurrence of liabilities, total (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.LBL.TOTL.GD.ZS:GC.LBL.TOTL.GD.ZS{marker GC.LBL.TOTL.GD.ZS}}}Net incurrence of liabilities, total (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.NFN.TOTL.CN:GC.NFN.TOTL.CN{marker GC.NFN.TOTL.CN}}}Net investment in nonfinancial assets (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.NFN.TOTL.GD.ZS:GC.NFN.TOTL.GD.ZS{marker GC.NFN.TOTL.GD.ZS}}}Net investment in nonfinancial assets (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.NLD.TOTL.CN:GC.NLD.TOTL.CN{marker GC.NLD.TOTL.CN}}}Net lending (+) / net borrowing (-) (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.NLD.TOTL.GD.ZS:GC.NLD.TOTL.GD.ZS{marker GC.NLD.TOTL.GD.ZS}}}Net lending (+) / net borrowing (-) (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.REV.GOTR.CN:GC.REV.GOTR.CN{marker GC.REV.GOTR.CN}}}Grants and other revenue (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.REV.GOTR.ZS:GC.REV.GOTR.ZS{marker GC.REV.GOTR.ZS}}}Grants and other revenue (% of revenue){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.REV.SOCL.CN:GC.REV.SOCL.CN{marker GC.REV.SOCL.CN}}}Social contributions (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.REV.SOCL.ZS:GC.REV.SOCL.ZS{marker GC.REV.SOCL.ZS}}}Social contributions (% of revenue){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.REV.XGRT.CN:GC.REV.XGRT.CN{marker GC.REV.XGRT.CN}}}Revenue, excluding grants (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.REV.XGRT.GD.ZS:GC.REV.XGRT.GD.ZS{marker GC.REV.XGRT.GD.ZS}}}Revenue, excluding grants (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.TAX.EXPT.CN:GC.TAX.EXPT.CN{marker GC.TAX.EXPT.CN}}}Taxes on exports (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.TAX.EXPT.ZS:GC.TAX.EXPT.ZS{marker GC.TAX.EXPT.ZS}}}Taxes on exports (% of tax revenue){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.TAX.GSRV.CN:GC.TAX.GSRV.CN{marker GC.TAX.GSRV.CN}}}Taxes on goods and services (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.TAX.GSRV.RV.ZS:GC.TAX.GSRV.RV.ZS{marker GC.TAX.GSRV.RV.ZS}}}Taxes on goods and services (% of revenue){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.TAX.GSRV.VA.ZS:GC.TAX.GSRV.VA.ZS{marker GC.TAX.GSRV.VA.ZS}}}Taxes on goods and services (% value added of industry and services){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.TAX.IMPT.CN:GC.TAX.IMPT.CN{marker GC.TAX.IMPT.CN}}}Customs and other import duties (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.TAX.IMPT.ZS:GC.TAX.IMPT.ZS{marker GC.TAX.IMPT.ZS}}}Customs and other import duties (% of tax revenue){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.TAX.INTT.CN:GC.TAX.INTT.CN{marker GC.TAX.INTT.CN}}}Taxes on international trade (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.TAX.INTT.RV.ZS:GC.TAX.INTT.RV.ZS{marker GC.TAX.INTT.RV.ZS}}}Taxes on international trade (% of revenue){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.TAX.OTHR.CN:GC.TAX.OTHR.CN{marker GC.TAX.OTHR.CN}}}Other taxes (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.TAX.OTHR.RV.ZS:GC.TAX.OTHR.RV.ZS{marker GC.TAX.OTHR.RV.ZS}}}Other taxes (% of revenue){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.TAX.TOTL.CN:GC.TAX.TOTL.CN{marker GC.TAX.TOTL.CN}}}Tax revenue (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.TAX.TOTL.GD.ZS:GC.TAX.TOTL.GD.ZS{marker GC.TAX.TOTL.GD.ZS}}}Tax revenue (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.TAX.YPKG.CN:GC.TAX.YPKG.CN{marker GC.TAX.YPKG.CN}}}Taxes on income, profits and capital gains (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.TAX.YPKG.RV.ZS:GC.TAX.YPKG.RV.ZS{marker GC.TAX.YPKG.RV.ZS}}}Taxes on income, profits and capital gains (% of revenue){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.TAX.YPKG.ZS:GC.TAX.YPKG.ZS{marker GC.TAX.YPKG.ZS}}}Taxes on income, profits and capital gains (% of total taxes){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.XPN.COMP.CN:GC.XPN.COMP.CN{marker GC.XPN.COMP.CN}}}Compensation of employees (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.XPN.COMP.ZS:GC.XPN.COMP.ZS{marker GC.XPN.COMP.ZS}}}Compensation of employees (% of expense){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.XPN.GSRV.CN:GC.XPN.GSRV.CN{marker GC.XPN.GSRV.CN}}}Goods and services expense (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.XPN.GSRV.ZS:GC.XPN.GSRV.ZS{marker GC.XPN.GSRV.ZS}}}Goods and services expense (% of expense){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.XPN.INTP.CN:GC.XPN.INTP.CN{marker GC.XPN.INTP.CN}}}Interest payments (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.XPN.INTP.RV.ZS:GC.XPN.INTP.RV.ZS{marker GC.XPN.INTP.RV.ZS}}}Interest payments (% of revenue){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.XPN.INTP.ZS:GC.XPN.INTP.ZS{marker GC.XPN.INTP.ZS}}}Interest payments (% of expense){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.XPN.OTHR.CN:GC.XPN.OTHR.CN{marker GC.XPN.OTHR.CN}}}Other expense (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.XPN.OTHR.ZS:GC.XPN.OTHR.ZS{marker GC.XPN.OTHR.ZS}}}Other expense (% of expense){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.XPN.TOTL.CN:GC.XPN.TOTL.CN{marker GC.XPN.TOTL.CN}}}Expense (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.XPN.TOTL.GD.ZS:GC.XPN.TOTL.GD.ZS{marker GC.XPN.TOTL.GD.ZS}}}Expense (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.XPN.TRFT.CN:GC.XPN.TRFT.CN{marker GC.XPN.TRFT.CN}}}Subsidies and other transfers (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GC.XPN.TRFT.ZS:GC.XPN.TRFT.ZS{marker GC.XPN.TRFT.ZS}}}Subsidies and other transfers (% of expense){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_GF.XPD.BUDG.ZS:GF.XPD.BUDG.ZS{marker GF.XPD.BUDG.ZS}}}Primary government expenditures as a proportion of original approved budget (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.BUS.DFRN.XQ:IC.BUS.DFRN.XQ{marker IC.BUS.DFRN.XQ}}}Ease of doing business score (0 = lowest performance to 100 = best performance){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.BUS.DISC.XQ:IC.BUS.DISC.XQ{marker IC.BUS.DISC.XQ}}}Business extent of disclosure index (0=less disclosure to 10=more disclosure){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Ease of doing business index (1=most business-friendly regulations){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.BUS.NDNS.ZS:IC.BUS.NDNS.ZS{marker IC.BUS.NDNS.ZS}}}New business density (new registrations per 1,000 people ages 15-64){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.BUS.NREG:IC.BUS.NREG{marker IC.BUS.NREG}}}New businesses registered (number){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.CRD.INFO.XQ:IC.CRD.INFO.XQ{marker IC.CRD.INFO.XQ}}}Depth of credit information index (0=low to 8=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.CRD.PRVT.ZS:IC.CRD.PRVT.ZS{marker IC.CRD.PRVT.ZS}}}Private credit bureau coverage (% of adults){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.CRD.PUBL.ZS:IC.CRD.PUBL.ZS{marker IC.CRD.PUBL.ZS}}}Public credit registry coverage (% of adults){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.CUS.DURS.EX:IC.CUS.DURS.EX{marker IC.CUS.DURS.EX}}}Average time to clear exports through customs (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.ELC.DURS:IC.ELC.DURS{marker IC.ELC.DURS}}}Time to obtain an electrical connection (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.ELC.OUTG:IC.ELC.OUTG{marker IC.ELC.OUTG}}}Power outages in firms in a typical month (number){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.ELC.OUTG.ZS:IC.ELC.OUTG.ZS{marker IC.ELC.OUTG.ZS}}}Firms experiencing electrical outages (% of firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.ELC.TIME:IC.ELC.TIME{marker IC.ELC.TIME}}}Time required to get electricity (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.EXP.CSBC.CD:IC.EXP.CSBC.CD{marker IC.EXP.CSBC.CD}}}Cost to export, border compliance (US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.EXP.CSDC.CD:IC.EXP.CSDC.CD{marker IC.EXP.CSDC.CD}}}Cost to export, documentary compliance (US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.EXP.TMBC:IC.EXP.TMBC{marker IC.EXP.TMBC}}}Time to export, border compliance (hours){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.EXP.TMDC:IC.EXP.TMDC{marker IC.EXP.TMDC}}}Time to export, documentary compliance (hours){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.FRM.BKWC.ZS:IC.FRM.BKWC.ZS{marker IC.FRM.BKWC.ZS}}}Firms using banks to finance working capital (% of firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.FRM.BNKS.ZS:IC.FRM.BNKS.ZS{marker IC.FRM.BNKS.ZS}}}Firms using banks to finance investment (% of firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.FRM.BRIB.ZS:IC.FRM.BRIB.ZS{marker IC.FRM.BRIB.ZS}}}Bribery incidence (% of firms experiencing at least one bribe payment request){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.FRM.CMPU.ZS:IC.FRM.CMPU.ZS{marker IC.FRM.CMPU.ZS}}}Firms competing against unregistered firms (% of firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.FRM.CORR.ZS:IC.FRM.CORR.ZS{marker IC.FRM.CORR.ZS}}}Informal payments to public officials (% of firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.FRM.CRIM.ZS:IC.FRM.CRIM.ZS{marker IC.FRM.CRIM.ZS}}}Losses due to theft and vandalism (% of annual sales of affected firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.FRM.DURS:IC.FRM.DURS{marker IC.FRM.DURS}}}Time required to obtain an operating license (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.FRM.FEMM.ZS:IC.FRM.FEMM.ZS{marker IC.FRM.FEMM.ZS}}}Firms with female top manager (% of firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.FRM.FEMO.ZS:IC.FRM.FEMO.ZS{marker IC.FRM.FEMO.ZS}}}Firms with female participation in ownership (% of firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.FRM.FREG.ZS:IC.FRM.FREG.ZS{marker IC.FRM.FREG.ZS}}}Firms formally registered when operations started (% of firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.FRM.INFM.ZS:IC.FRM.INFM.ZS{marker IC.FRM.INFM.ZS}}}Firms that do not report all sales for tax purposes (% of firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.FRM.METG.ZS:IC.FRM.METG.ZS{marker IC.FRM.METG.ZS}}}Firms visited or required meetings with tax officials (% of firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.FRM.OUTG.ZS:IC.FRM.OUTG.ZS{marker IC.FRM.OUTG.ZS}}}Value lost due to electrical outages (% of sales for affected firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.FRM.RSDV.ZS:IC.FRM.RSDV.ZS{marker IC.FRM.RSDV.ZS}}}Firms that spend on R&amp;D (% of firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.FRM.THEV.ZS:IC.FRM.THEV.ZS{marker IC.FRM.THEV.ZS}}}Firms experiencing losses due to theft and vandalism (% of firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.FRM.TRNG.ZS:IC.FRM.TRNG.ZS{marker IC.FRM.TRNG.ZS}}}Firms offering formal training (% of firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.GOV.DURS.ZS:IC.GOV.DURS.ZS{marker IC.GOV.DURS.ZS}}}Time spent dealing with the requirements of government regulations (% of senior management time){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.IMP.CSBC.CD:IC.IMP.CSBC.CD{marker IC.IMP.CSBC.CD}}}Cost to import, border compliance (US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.IMP.CSDC.CD:IC.IMP.CSDC.CD{marker IC.IMP.CSDC.CD}}}Cost to import, documentary compliance (US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.IMP.TMBC:IC.IMP.TMBC{marker IC.IMP.TMBC}}}Time to import, border compliance (hours){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.IMP.TMDC:IC.IMP.TMDC{marker IC.IMP.TMDC}}}Time to import, documentary compliance (hours){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.ISV.DURS:IC.ISV.DURS{marker IC.ISV.DURS}}}Time to resolve insolvency (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.LGL.CRED.XQ:IC.LGL.CRED.XQ{marker IC.LGL.CRED.XQ}}}Strength of legal rights index (0=weak to 12=strong){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.LGL.DURS:IC.LGL.DURS{marker IC.LGL.DURS}}}Time required to enforce a contract (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.PRP.DURS:IC.PRP.DURS{marker IC.PRP.DURS}}}Time required to register property (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.PRP.PROC:IC.PRP.PROC{marker IC.PRP.PROC}}}Procedures to register property (number){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.REG.COST.PC.FE.ZS:IC.REG.COST.PC.FE.ZS{marker IC.REG.COST.PC.FE.ZS}}}Cost of business start-up procedures, female (% of GNI per capita){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.REG.COST.PC.MA.ZS:IC.REG.COST.PC.MA.ZS{marker IC.REG.COST.PC.MA.ZS}}}Cost of business start-up procedures, male (% of GNI per capita){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.REG.COST.PC.ZS:IC.REG.COST.PC.ZS{marker IC.REG.COST.PC.ZS}}}Cost of business start-up procedures (% of GNI per capita){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.REG.DURS:IC.REG.DURS{marker IC.REG.DURS}}}Time required to start a business (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.REG.DURS.FE:IC.REG.DURS.FE{marker IC.REG.DURS.FE}}}Time required to start a business, female (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.REG.DURS.MA:IC.REG.DURS.MA{marker IC.REG.DURS.MA}}}Time required to start a business, male (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.REG.PROC:IC.REG.PROC{marker IC.REG.PROC}}}Start-up procedures to register a business (number){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.REG.PROC.FE:IC.REG.PROC.FE{marker IC.REG.PROC.FE}}}Start-up procedures to register a business, female (number){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.REG.PROC.MA:IC.REG.PROC.MA{marker IC.REG.PROC.MA}}}Start-up procedures to register a business, male (number){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.TAX.DURS:IC.TAX.DURS{marker IC.TAX.DURS}}}Time to prepare and pay taxes (hours){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.TAX.GIFT.ZS:IC.TAX.GIFT.ZS{marker IC.TAX.GIFT.ZS}}}Firms expected to give gifts in meetings with tax officials (% of firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.TAX.LABR.CP.ZS:IC.TAX.LABR.CP.ZS{marker IC.TAX.LABR.CP.ZS}}}Labor tax and contributions (% of commercial profits){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.TAX.METG:IC.TAX.METG{marker IC.TAX.METG}}}Average number of visits or required meetings with tax officials (for affected firms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.TAX.OTHR.CP.ZS:IC.TAX.OTHR.CP.ZS{marker IC.TAX.OTHR.CP.ZS}}}Other taxes payable by businesses (% of commercial profits){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.TAX.PAYM:IC.TAX.PAYM{marker IC.TAX.PAYM}}}Tax payments (number){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.TAX.PRFT.CP.ZS:IC.TAX.PRFT.CP.ZS{marker IC.TAX.PRFT.CP.ZS}}}Profit tax (% of commercial profits){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.TAX.TOTL.CP.ZS:IC.TAX.TOTL.CP.ZS{marker IC.TAX.TOTL.CP.ZS}}}Total tax and contribution rate (% of profit){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.WRH.DURS:IC.WRH.DURS{marker IC.WRH.DURS}}}Time required to build a warehouse (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IC.WRH.PROC:IC.WRH.PROC{marker IC.WRH.PROC}}}Procedures to build a warehouse (number){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IE.PPI.ENGY.CD:IE.PPI.ENGY.CD{marker IE.PPI.ENGY.CD}}}Investment in energy with private participation (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IE.PPI.ICTI.CD:IE.PPI.ICTI.CD{marker IE.PPI.ICTI.CD}}}Investment in ICT with private participation (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IE.PPI.TRAN.CD:IE.PPI.TRAN.CD{marker IE.PPI.TRAN.CD}}}Investment in transport with private participation (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IE.PPI.WATR.CD:IE.PPI.WATR.CD{marker IE.PPI.WATR.CD}}}Investment in water and sanitation with private participation (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IE.PPN.ENGY.CD:IE.PPN.ENGY.CD{marker IE.PPN.ENGY.CD}}}Public private partnerships investment in energy (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IE.PPN.ICTI.CD:IE.PPN.ICTI.CD{marker IE.PPN.ICTI.CD}}}Public private partnerships investment in ICT (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IE.PPN.TRAN.CD:IE.PPN.TRAN.CD{marker IE.PPN.TRAN.CD}}}Public private partnerships investment in transport (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IE.PPN.WATR.CD:IE.PPN.WATR.CD{marker IE.PPN.WATR.CD}}}Public private partnerships investment in water and sanitation (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IP.IDS.NRCT:IP.IDS.NRCT{marker IP.IDS.NRCT}}}Industrial design applications, nonresident, by count{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IP.IDS.RSCT:IP.IDS.RSCT{marker IP.IDS.RSCT}}}Industrial design applications, resident, by count{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IP.JRN.ARTC.SC:IP.JRN.ARTC.SC{marker IP.JRN.ARTC.SC}}}Scientific and technical journal articles{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IP.PAT.NRES:IP.PAT.NRES{marker IP.PAT.NRES}}}Patent applications, nonresidents{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IP.PAT.RESD:IP.PAT.RESD{marker IP.PAT.RESD}}}Patent applications, residents{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IP.TMK.NRCT:IP.TMK.NRCT{marker IP.TMK.NRCT}}}Trademark applications, nonresident, by count{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IP.TMK.NRES:IP.TMK.NRES{marker IP.TMK.NRES}}}Trademark applications, direct nonresident{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IP.TMK.RESD:IP.TMK.RESD{marker IP.TMK.RESD}}}Trademark applications, direct resident{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IP.TMK.RSCT:IP.TMK.RSCT{marker IP.TMK.RSCT}}}Trademark applications, resident, by count{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IP.TMK.TOTL:IP.TMK.TOTL{marker IP.TMK.TOTL}}}Trademark applications, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.BREG.XQ:IQ.CPA.BREG.XQ{marker IQ.CPA.BREG.XQ}}}CPIA business regulatory environment rating (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.DEBT.XQ:IQ.CPA.DEBT.XQ{marker IQ.CPA.DEBT.XQ}}}CPIA debt policy rating (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.ECON.XQ:IQ.CPA.ECON.XQ{marker IQ.CPA.ECON.XQ}}}CPIA economic management cluster average (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.ENVR.XQ:IQ.CPA.ENVR.XQ{marker IQ.CPA.ENVR.XQ}}}CPIA policy and institutions for environmental sustainability rating (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.FINQ.XQ:IQ.CPA.FINQ.XQ{marker IQ.CPA.FINQ.XQ}}}CPIA quality of budgetary and financial management rating (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.FINS.XQ:IQ.CPA.FINS.XQ{marker IQ.CPA.FINS.XQ}}}CPIA financial sector rating (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.FISP.XQ:IQ.CPA.FISP.XQ{marker IQ.CPA.FISP.XQ}}}CPIA fiscal policy rating (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.GNDR.XQ:IQ.CPA.GNDR.XQ{marker IQ.CPA.GNDR.XQ}}}CPIA gender equality rating (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.HRES.XQ:IQ.CPA.HRES.XQ{marker IQ.CPA.HRES.XQ}}}CPIA building human resources rating (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.IRAI.XQ:IQ.CPA.IRAI.XQ{marker IQ.CPA.IRAI.XQ}}}IDA resource allocation index (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.MACR.XQ:IQ.CPA.MACR.XQ{marker IQ.CPA.MACR.XQ}}}CPIA macroeconomic management rating (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.PADM.XQ:IQ.CPA.PADM.XQ{marker IQ.CPA.PADM.XQ}}}CPIA quality of public administration rating (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.PRES.XQ:IQ.CPA.PRES.XQ{marker IQ.CPA.PRES.XQ}}}CPIA equity of public resource use rating (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.PROP.XQ:IQ.CPA.PROP.XQ{marker IQ.CPA.PROP.XQ}}}CPIA property rights and rule-based governance rating (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.PROT.XQ:IQ.CPA.PROT.XQ{marker IQ.CPA.PROT.XQ}}}CPIA social protection rating (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.PUBS.XQ:IQ.CPA.PUBS.XQ{marker IQ.CPA.PUBS.XQ}}}CPIA public sector management and institutions cluster average (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.REVN.XQ:IQ.CPA.REVN.XQ{marker IQ.CPA.REVN.XQ}}}CPIA efficiency of revenue mobilization rating (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.SOCI.XQ:IQ.CPA.SOCI.XQ{marker IQ.CPA.SOCI.XQ}}}CPIA policies for social inclusion/equity cluster average (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.STRC.XQ:IQ.CPA.STRC.XQ{marker IQ.CPA.STRC.XQ}}}CPIA structural policies cluster average (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.TRAD.XQ:IQ.CPA.TRAD.XQ{marker IQ.CPA.TRAD.XQ}}}CPIA trade rating (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.CPA.TRAN.XQ:IQ.CPA.TRAN.XQ{marker IQ.CPA.TRAN.XQ}}}CPIA transparency, accountability, and corruption in the public sector rating (1=low to 6=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.SCI.MTHD:IQ.SCI.MTHD{marker IQ.SCI.MTHD}}}Methodology assessment of statistical capacity (scale 0 - 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.SCI.OVRL:IQ.SCI.OVRL{marker IQ.SCI.OVRL}}}Statistical Capacity score (Overall average){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.SCI.PRDC:IQ.SCI.PRDC{marker IQ.SCI.PRDC}}}Periodicity and timeliness assessment of statistical capacity (scale 0 - 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.SCI.SRCE:IQ.SCI.SRCE{marker IQ.SCI.SRCE}}}Source data assessment of statistical capacity (scale 0 - 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.WEF.CUST.XQ:IQ.WEF.CUST.XQ{marker IQ.WEF.CUST.XQ}}}Burden of customs procedure, WEF (1=extremely inefficient to 7=extremely efficient){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IQ.WEF.PORT.XQ:IQ.WEF.PORT.XQ{marker IQ.WEF.PORT.XQ}}}Quality of port infrastructure, WEF (1=extremely underdeveloped to 7=well developed and efficient by international standards){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IS.AIR.DPRT:IS.AIR.DPRT{marker IS.AIR.DPRT}}}Air transport, registered carrier departures worldwide{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IS.AIR.GOOD.MT.K1:IS.AIR.GOOD.MT.K1{marker IS.AIR.GOOD.MT.K1}}}Air transport, freight (million ton-km){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IS.AIR.PSGR:IS.AIR.PSGR{marker IS.AIR.PSGR}}}Air transport, passengers carried{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IS.RRS.GOOD.MT.K6:IS.RRS.GOOD.MT.K6{marker IS.RRS.GOOD.MT.K6}}}Railways, goods transported (million ton-km){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IS.RRS.PASG.KM:IS.RRS.PASG.KM{marker IS.RRS.PASG.KM}}}Railways, passengers carried (million passenger-km){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IS.RRS.TOTL.KM:IS.RRS.TOTL.KM{marker IS.RRS.TOTL.KM}}}Rail lines (total route-km){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IS.SHP.GCNW.XQ:IS.SHP.GCNW.XQ{marker IS.SHP.GCNW.XQ}}}Liner shipping connectivity index (maximum value in 2004 = 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IS.SHP.GOOD.TU:IS.SHP.GOOD.TU{marker IS.SHP.GOOD.TU}}}Container port traffic (TEU: 20 foot equivalent units){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IT.CEL.SETS:IT.CEL.SETS{marker IT.CEL.SETS}}}Mobile cellular subscriptions{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IT.CEL.SETS.P2:IT.CEL.SETS.P2{marker IT.CEL.SETS.P2}}}Mobile cellular subscriptions (per 100 people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IT.MLT.MAIN:IT.MLT.MAIN{marker IT.MLT.MAIN}}}Fixed telephone subscriptions{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IT.MLT.MAIN.P2:IT.MLT.MAIN.P2{marker IT.MLT.MAIN.P2}}}Fixed telephone subscriptions (per 100 people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IT.NET.BBND:IT.NET.BBND{marker IT.NET.BBND}}}Fixed broadband subscriptions{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IT.NET.BBND.P2:IT.NET.BBND.P2{marker IT.NET.BBND.P2}}}Fixed broadband subscriptions (per 100 people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IT.NET.SECR:IT.NET.SECR{marker IT.NET.SECR}}}Secure Internet servers{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IT.NET.SECR.P6:IT.NET.SECR.P6{marker IT.NET.SECR.P6}}}Secure Internet servers (per 1 million people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_IT.NET.USER.ZS:IT.NET.USER.ZS{marker IT.NET.USER.ZS}}}Individuals using the Internet (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_LP.EXP.DURS.MD:LP.EXP.DURS.MD{marker LP.EXP.DURS.MD}}}Lead time to export, median case (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_LP.IMP.DURS.MD:LP.IMP.DURS.MD{marker LP.IMP.DURS.MD}}}Lead time to import, median case (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_LP.LPI.CUST.XQ:LP.LPI.CUST.XQ{marker LP.LPI.CUST.XQ}}}Logistics performance index: Efficiency of customs clearance process (1=low to 5=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_LP.LPI.INFR.XQ:LP.LPI.INFR.XQ{marker LP.LPI.INFR.XQ}}}Logistics performance index: Quality of trade and transport-related infrastructure (1=low to 5=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_LP.LPI.ITRN.XQ:LP.LPI.ITRN.XQ{marker LP.LPI.ITRN.XQ}}}Logistics performance index: Ease of arranging competitively priced shipments (1=low to 5=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_LP.LPI.LOGS.XQ:LP.LPI.LOGS.XQ{marker LP.LPI.LOGS.XQ}}}Logistics performance index: Competence and quality of logistics services (1=low to 5=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_LP.LPI.OVRL.XQ:LP.LPI.OVRL.XQ{marker LP.LPI.OVRL.XQ}}}Logistics performance index: Overall (1=low to 5=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_LP.LPI.TIME.XQ:LP.LPI.TIME.XQ{marker LP.LPI.TIME.XQ}}}Logistics performance index: Frequency with which shipments reach consignee within scheduled or expected time (1=low to 5=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_LP.LPI.TRAC.XQ:LP.LPI.TRAC.XQ{marker LP.LPI.TRAC.XQ}}}Logistics performance index: Ability to track and trace consignments (1=low to 5=high){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_MS.MIL.MPRT.KD:MS.MIL.MPRT.KD{marker MS.MIL.MPRT.KD}}}Arms imports (SIPRI trend indicator values){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_MS.MIL.TOTL.P1:MS.MIL.TOTL.P1{marker MS.MIL.TOTL.P1}}}Armed forces personnel, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_MS.MIL.TOTL.TF.ZS:MS.MIL.TOTL.TF.ZS{marker MS.MIL.TOTL.TF.ZS}}}Armed forces personnel (% of total labor force){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_MS.MIL.XPND.CD:MS.MIL.XPND.CD{marker MS.MIL.XPND.CD}}}Military expenditure (current USD){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_MS.MIL.XPND.CN:MS.MIL.XPND.CN{marker MS.MIL.XPND.CN}}}Military expenditure (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_MS.MIL.XPND.GD.ZS:MS.MIL.XPND.GD.ZS{marker MS.MIL.XPND.GD.ZS}}}Military expenditure (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_MS.MIL.XPND.ZS:MS.MIL.XPND.ZS{marker MS.MIL.XPND.ZS}}}Military expenditure (% of general government expenditure){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_MS.MIL.XPRT.KD:MS.MIL.XPRT.KD{marker MS.MIL.XPRT.KD}}}Arms exports (SIPRI trend indicator values){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.GOVT.CD:NE.CON.GOVT.CD{marker NE.CON.GOVT.CD}}}General government final consumption expenditure (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.GOVT.CN:NE.CON.GOVT.CN{marker NE.CON.GOVT.CN}}}General government final consumption expenditure (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.GOVT.KD:NE.CON.GOVT.KD{marker NE.CON.GOVT.KD}}}General government final consumption expenditure (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.GOVT.KD.ZG:NE.CON.GOVT.KD.ZG{marker NE.CON.GOVT.KD.ZG}}}General government final consumption expenditure (annual % growth){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.GOVT.KN:NE.CON.GOVT.KN{marker NE.CON.GOVT.KN}}}General government final consumption expenditure (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.GOVT.ZS:NE.CON.GOVT.ZS{marker NE.CON.GOVT.ZS}}}General government final consumption expenditure (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.CD:NE.CON.PRVT.CD{marker NE.CON.PRVT.CD}}}Households and NPISHs Final consumption expenditure (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.CN:NE.CON.PRVT.CN{marker NE.CON.PRVT.CN}}}Households and NPISHs Final consumption expenditure (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.KD:NE.CON.PRVT.KD{marker NE.CON.PRVT.KD}}}Households and NPISHs Final consumption expenditure (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.KD.ZG:NE.CON.PRVT.KD.ZG{marker NE.CON.PRVT.KD.ZG}}}Households and NPISHs Final consumption expenditure (annual % growth){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.KN:NE.CON.PRVT.KN{marker NE.CON.PRVT.KN}}}Households and NPISHs Final consumption expenditure (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.PC.KD:NE.CON.PRVT.PC.KD{marker NE.CON.PRVT.PC.KD}}}Households and NPISHs Final consumption expenditure per capita (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.PC.KD.ZG:NE.CON.PRVT.PC.KD.ZG{marker NE.CON.PRVT.PC.KD.ZG}}}Households and NPISHs Final consumption expenditure per capita growth (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.PP.CD:NE.CON.PRVT.PP.CD{marker NE.CON.PRVT.PP.CD}}}Households and NPISHs Final consumption expenditure, PPP (current international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.PP.KD:NE.CON.PRVT.PP.KD{marker NE.CON.PRVT.PP.KD}}}Households and NPISHs Final consumption expenditure, PPP (constant 2011 international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.ZS:NE.CON.PRVT.ZS{marker NE.CON.PRVT.ZS}}}Households and NPISHs final consumption expenditure (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.TOTL.CD:NE.CON.TOTL.CD{marker NE.CON.TOTL.CD}}}Final consumption expenditure (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.TOTL.CN:NE.CON.TOTL.CN{marker NE.CON.TOTL.CN}}}Final consumption expenditure (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.TOTL.KD:NE.CON.TOTL.KD{marker NE.CON.TOTL.KD}}}Final consumption expenditure (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.TOTL.KD.ZG:NE.CON.TOTL.KD.ZG{marker NE.CON.TOTL.KD.ZG}}}Final consumption expenditure (annual % growth){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.TOTL.KN:NE.CON.TOTL.KN{marker NE.CON.TOTL.KN}}}Final consumption expenditure (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.TOTL.ZS:NE.CON.TOTL.ZS{marker NE.CON.TOTL.ZS}}}Final consumption expenditure (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.DAB.DEFL.ZS:NE.DAB.DEFL.ZS{marker NE.DAB.DEFL.ZS}}}Gross national expenditure deflator (base year varies by country){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.DAB.TOTL.CD:NE.DAB.TOTL.CD{marker NE.DAB.TOTL.CD}}}Gross national expenditure (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.DAB.TOTL.CN:NE.DAB.TOTL.CN{marker NE.DAB.TOTL.CN}}}Gross national expenditure (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.DAB.TOTL.KD:NE.DAB.TOTL.KD{marker NE.DAB.TOTL.KD}}}Gross national expenditure (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.DAB.TOTL.KN:NE.DAB.TOTL.KN{marker NE.DAB.TOTL.KN}}}Gross national expenditure (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.DAB.TOTL.ZS:NE.DAB.TOTL.ZS{marker NE.DAB.TOTL.ZS}}}Gross national expenditure (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.EXP.GNFS.CD:NE.EXP.GNFS.CD{marker NE.EXP.GNFS.CD}}}Exports of goods and services (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.EXP.GNFS.CN:NE.EXP.GNFS.CN{marker NE.EXP.GNFS.CN}}}Exports of goods and services (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.EXP.GNFS.KD:NE.EXP.GNFS.KD{marker NE.EXP.GNFS.KD}}}Exports of goods and services (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.EXP.GNFS.KD.ZG:NE.EXP.GNFS.KD.ZG{marker NE.EXP.GNFS.KD.ZG}}}Exports of goods and services (annual % growth){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.EXP.GNFS.KN:NE.EXP.GNFS.KN{marker NE.EXP.GNFS.KN}}}Exports of goods and services (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.EXP.GNFS.ZS:NE.EXP.GNFS.ZS{marker NE.EXP.GNFS.ZS}}}Exports of goods and services (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.FPRV.CN:NE.GDI.FPRV.CN{marker NE.GDI.FPRV.CN}}}Gross fixed capital formation, private sector (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.FPRV.ZS:NE.GDI.FPRV.ZS{marker NE.GDI.FPRV.ZS}}}Gross fixed capital formation, private sector (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.FTOT.CD:NE.GDI.FTOT.CD{marker NE.GDI.FTOT.CD}}}Gross fixed capital formation (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.FTOT.CN:NE.GDI.FTOT.CN{marker NE.GDI.FTOT.CN}}}Gross fixed capital formation (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.FTOT.KD:NE.GDI.FTOT.KD{marker NE.GDI.FTOT.KD}}}Gross fixed capital formation (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.FTOT.KD.ZG:NE.GDI.FTOT.KD.ZG{marker NE.GDI.FTOT.KD.ZG}}}Gross fixed capital formation (annual % growth){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.FTOT.KN:NE.GDI.FTOT.KN{marker NE.GDI.FTOT.KN}}}Gross fixed capital formation (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.FTOT.ZS:NE.GDI.FTOT.ZS{marker NE.GDI.FTOT.ZS}}}Gross fixed capital formation (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.STKB.CD:NE.GDI.STKB.CD{marker NE.GDI.STKB.CD}}}Changes in inventories (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.STKB.CN:NE.GDI.STKB.CN{marker NE.GDI.STKB.CN}}}Changes in inventories (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.STKB.KN:NE.GDI.STKB.KN{marker NE.GDI.STKB.KN}}}Changes in inventories (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.TOTL.CD:NE.GDI.TOTL.CD{marker NE.GDI.TOTL.CD}}}Gross capital formation (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.TOTL.CN:NE.GDI.TOTL.CN{marker NE.GDI.TOTL.CN}}}Gross capital formation (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.TOTL.KD:NE.GDI.TOTL.KD{marker NE.GDI.TOTL.KD}}}Gross capital formation (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.TOTL.KD.ZG:NE.GDI.TOTL.KD.ZG{marker NE.GDI.TOTL.KD.ZG}}}Gross capital formation (annual % growth){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.TOTL.KN:NE.GDI.TOTL.KN{marker NE.GDI.TOTL.KN}}}Gross capital formation (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.GDI.TOTL.ZS:NE.GDI.TOTL.ZS{marker NE.GDI.TOTL.ZS}}}Gross capital formation (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.IMP.GNFS.CD:NE.IMP.GNFS.CD{marker NE.IMP.GNFS.CD}}}Imports of goods and services (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.IMP.GNFS.CN:NE.IMP.GNFS.CN{marker NE.IMP.GNFS.CN}}}Imports of goods and services (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.IMP.GNFS.KD:NE.IMP.GNFS.KD{marker NE.IMP.GNFS.KD}}}Imports of goods and services (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.IMP.GNFS.KD.ZG:NE.IMP.GNFS.KD.ZG{marker NE.IMP.GNFS.KD.ZG}}}Imports of goods and services (annual % growth){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.IMP.GNFS.KN:NE.IMP.GNFS.KN{marker NE.IMP.GNFS.KN}}}Imports of goods and services (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.IMP.GNFS.ZS:NE.IMP.GNFS.ZS{marker NE.IMP.GNFS.ZS}}}Imports of goods and services (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.RSB.GNFS.CD:NE.RSB.GNFS.CD{marker NE.RSB.GNFS.CD}}}External balance on goods and services (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.RSB.GNFS.CN:NE.RSB.GNFS.CN{marker NE.RSB.GNFS.CN}}}External balance on goods and services (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.RSB.GNFS.KN:NE.RSB.GNFS.KN{marker NE.RSB.GNFS.KN}}}External balance on goods and services (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.RSB.GNFS.ZS:NE.RSB.GNFS.ZS{marker NE.RSB.GNFS.ZS}}}External balance on goods and services (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.TRD.GNFS.ZS:NE.TRD.GNFS.ZS{marker NE.TRD.GNFS.ZS}}}Trade (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.AGR.EMPL.KD:NV.AGR.EMPL.KD{marker NV.AGR.EMPL.KD}}}Agriculture, forestry, and fishing, value added per worker (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.AGR.TOTL.CD:NV.AGR.TOTL.CD{marker NV.AGR.TOTL.CD}}}Agriculture, forestry, and fishing, value added (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.AGR.TOTL.CN:NV.AGR.TOTL.CN{marker NV.AGR.TOTL.CN}}}Agriculture, forestry, and fishing, value added (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.AGR.TOTL.KD:NV.AGR.TOTL.KD{marker NV.AGR.TOTL.KD}}}Agriculture, forestry, and fishing, value added (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.AGR.TOTL.KD.ZG:NV.AGR.TOTL.KD.ZG{marker NV.AGR.TOTL.KD.ZG}}}Agriculture, forestry, and fishing, value added (annual % growth){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.AGR.TOTL.KN:NV.AGR.TOTL.KN{marker NV.AGR.TOTL.KN}}}Agriculture, forestry, and fishing, value added (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.AGR.TOTL.ZS:NV.AGR.TOTL.ZS{marker NV.AGR.TOTL.ZS}}}Agriculture, forestry, and fishing, value added (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.FSM.TOTL.CN:NV.FSM.TOTL.CN{marker NV.FSM.TOTL.CN}}}Financial intermediary services indirectly Measured (FISIM) (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.FSM.TOTL.KN:NV.FSM.TOTL.KN{marker NV.FSM.TOTL.KN}}}Financial intermediary services indirectly Measured (FISIM) (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.IND.EMPL.KD:NV.IND.EMPL.KD{marker NV.IND.EMPL.KD}}}Industry (including construction), value added per worker (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.IND.MANF.CD:NV.IND.MANF.CD{marker NV.IND.MANF.CD}}}Manufacturing, value added (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.IND.MANF.CN:NV.IND.MANF.CN{marker NV.IND.MANF.CN}}}Manufacturing, value added (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.IND.MANF.KD:NV.IND.MANF.KD{marker NV.IND.MANF.KD}}}Manufacturing, value added (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.IND.MANF.KD.ZG:NV.IND.MANF.KD.ZG{marker NV.IND.MANF.KD.ZG}}}Manufacturing, value added (annual % growth){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.IND.MANF.KN:NV.IND.MANF.KN{marker NV.IND.MANF.KN}}}Manufacturing, value added (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.IND.MANF.ZS:NV.IND.MANF.ZS{marker NV.IND.MANF.ZS}}}Manufacturing, value added (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.IND.TOTL.CD:NV.IND.TOTL.CD{marker NV.IND.TOTL.CD}}}Industry (including construction), value added (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.IND.TOTL.CN:NV.IND.TOTL.CN{marker NV.IND.TOTL.CN}}}Industry (including construction), value added (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.IND.TOTL.KD:NV.IND.TOTL.KD{marker NV.IND.TOTL.KD}}}Industry (including construction), value added (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.IND.TOTL.KD.ZG:NV.IND.TOTL.KD.ZG{marker NV.IND.TOTL.KD.ZG}}}Industry (including construction), value added (annual % growth){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.IND.TOTL.KN:NV.IND.TOTL.KN{marker NV.IND.TOTL.KN}}}Industry (including construction), value added (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.IND.TOTL.ZS:NV.IND.TOTL.ZS{marker NV.IND.TOTL.ZS}}}Industry (including construction), value added (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.MNF.CHEM.ZS.UN:NV.MNF.CHEM.ZS.UN{marker NV.MNF.CHEM.ZS.UN}}}Chemicals (% of value added in manufacturing){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.MNF.FBTO.ZS.UN:NV.MNF.FBTO.ZS.UN{marker NV.MNF.FBTO.ZS.UN}}}Food, beverages and tobacco (% of value added in manufacturing){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.MNF.MTRN.ZS.UN:NV.MNF.MTRN.ZS.UN{marker NV.MNF.MTRN.ZS.UN}}}Machinery and transport equipment (% of value added in manufacturing){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.MNF.OTHR.ZS.UN:NV.MNF.OTHR.ZS.UN{marker NV.MNF.OTHR.ZS.UN}}}Other manufacturing (% of value added in manufacturing){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.MNF.TECH.ZS.UN:NV.MNF.TECH.ZS.UN{marker NV.MNF.TECH.ZS.UN}}}Medium and high-tech Industry (including construction) (% manufacturing value added){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.MNF.TXTL.ZS.UN:NV.MNF.TXTL.ZS.UN{marker NV.MNF.TXTL.ZS.UN}}}Textiles and clothing (% of value added in manufacturing){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.SRV.EMPL.KD:NV.SRV.EMPL.KD{marker NV.SRV.EMPL.KD}}}Services, value added per worker (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.SRV.TOTL.CD:NV.SRV.TOTL.CD{marker NV.SRV.TOTL.CD}}}Services, value added (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.SRV.TOTL.CN:NV.SRV.TOTL.CN{marker NV.SRV.TOTL.CN}}}Services, value added (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.SRV.TOTL.KD:NV.SRV.TOTL.KD{marker NV.SRV.TOTL.KD}}}Services, value added (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.SRV.TOTL.KD.ZG:NV.SRV.TOTL.KD.ZG{marker NV.SRV.TOTL.KD.ZG}}}Services, value added (annual % growth){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.SRV.TOTL.KN:NV.SRV.TOTL.KN{marker NV.SRV.TOTL.KN}}}Services, value added (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NV.SRV.TOTL.ZS:NV.SRV.TOTL.ZS{marker NV.SRV.TOTL.ZS}}}Services, value added (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.AEDU.CD:NY.ADJ.AEDU.CD{marker NY.ADJ.AEDU.CD}}}Adjusted savings: education expenditure (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.AEDU.GN.ZS:NY.ADJ.AEDU.GN.ZS{marker NY.ADJ.AEDU.GN.ZS}}}Adjusted savings: education expenditure (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.DCO2.CD:NY.ADJ.DCO2.CD{marker NY.ADJ.DCO2.CD}}}Adjusted savings: carbon dioxide damage (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.DCO2.GN.ZS:NY.ADJ.DCO2.GN.ZS{marker NY.ADJ.DCO2.GN.ZS}}}Adjusted savings: carbon dioxide damage (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.DFOR.CD:NY.ADJ.DFOR.CD{marker NY.ADJ.DFOR.CD}}}Adjusted savings: net forest depletion (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.DFOR.GN.ZS:NY.ADJ.DFOR.GN.ZS{marker NY.ADJ.DFOR.GN.ZS}}}Adjusted savings: net forest depletion (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.DKAP.CD:NY.ADJ.DKAP.CD{marker NY.ADJ.DKAP.CD}}}Adjusted savings: consumption of fixed capital (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.DKAP.GN.ZS:NY.ADJ.DKAP.GN.ZS{marker NY.ADJ.DKAP.GN.ZS}}}Adjusted savings: consumption of fixed capital (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.DMIN.CD:NY.ADJ.DMIN.CD{marker NY.ADJ.DMIN.CD}}}Adjusted savings: mineral depletion (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.DMIN.GN.ZS:NY.ADJ.DMIN.GN.ZS{marker NY.ADJ.DMIN.GN.ZS}}}Adjusted savings: mineral depletion (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.DNGY.CD:NY.ADJ.DNGY.CD{marker NY.ADJ.DNGY.CD}}}Adjusted savings: energy depletion (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.DNGY.GN.ZS:NY.ADJ.DNGY.GN.ZS{marker NY.ADJ.DNGY.GN.ZS}}}Adjusted savings: energy depletion (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.DPEM.CD:NY.ADJ.DPEM.CD{marker NY.ADJ.DPEM.CD}}}Adjusted savings: particulate emission damage (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.DPEM.GN.ZS:NY.ADJ.DPEM.GN.ZS{marker NY.ADJ.DPEM.GN.ZS}}}Adjusted savings: particulate emission damage (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.DRES.GN.ZS:NY.ADJ.DRES.GN.ZS{marker NY.ADJ.DRES.GN.ZS}}}Adjusted savings: natural resources depletion (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.ICTR.GN.ZS:NY.ADJ.ICTR.GN.ZS{marker NY.ADJ.ICTR.GN.ZS}}}Adjusted savings: gross savings (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.NNAT.CD:NY.ADJ.NNAT.CD{marker NY.ADJ.NNAT.CD}}}Adjusted savings: net national savings (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.NNAT.GN.ZS:NY.ADJ.NNAT.GN.ZS{marker NY.ADJ.NNAT.GN.ZS}}}Adjusted savings: net national savings (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.NNTY.CD:NY.ADJ.NNTY.CD{marker NY.ADJ.NNTY.CD}}}Adjusted net national income (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.NNTY.KD:NY.ADJ.NNTY.KD{marker NY.ADJ.NNTY.KD}}}Adjusted net national income (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.NNTY.KD.ZG:NY.ADJ.NNTY.KD.ZG{marker NY.ADJ.NNTY.KD.ZG}}}Adjusted net national income (annual % growth){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.NNTY.PC.CD:NY.ADJ.NNTY.PC.CD{marker NY.ADJ.NNTY.PC.CD}}}Adjusted net national income per capita (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.NNTY.PC.KD:NY.ADJ.NNTY.PC.KD{marker NY.ADJ.NNTY.PC.KD}}}Adjusted net national income per capita (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.NNTY.PC.KD.ZG:NY.ADJ.NNTY.PC.KD.ZG{marker NY.ADJ.NNTY.PC.KD.ZG}}}Adjusted net national income per capita (annual % growth){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.SVNG.CD:NY.ADJ.SVNG.CD{marker NY.ADJ.SVNG.CD}}}Adjusted net savings, including particulate emission damage (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.SVNG.GN.ZS:NY.ADJ.SVNG.GN.ZS{marker NY.ADJ.SVNG.GN.ZS}}}Adjusted net savings, including particulate emission damage (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.SVNX.CD:NY.ADJ.SVNX.CD{marker NY.ADJ.SVNX.CD}}}Adjusted net savings, excluding particulate emission damage (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.ADJ.SVNX.GN.ZS:NY.ADJ.SVNX.GN.ZS{marker NY.ADJ.SVNX.GN.ZS}}}Adjusted net savings, excluding particulate emission damage (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.EXP.CAPM.KN:NY.EXP.CAPM.KN{marker NY.EXP.CAPM.KN}}}Exports as a capacity to import (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.COAL.RT.ZS:NY.GDP.COAL.RT.ZS{marker NY.GDP.COAL.RT.ZS}}}Coal rents (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.DEFL.KD.ZG:NY.GDP.DEFL.KD.ZG{marker NY.GDP.DEFL.KD.ZG}}}Inflation, GDP deflator (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.DEFL.KD.ZG.AD:NY.GDP.DEFL.KD.ZG.AD{marker NY.GDP.DEFL.KD.ZG.AD}}}Inflation, GDP deflator: linked series (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.DEFL.ZS:NY.GDP.DEFL.ZS{marker NY.GDP.DEFL.ZS}}}GDP deflator (base year varies by country){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.DEFL.ZS.AD:NY.GDP.DEFL.ZS.AD{marker NY.GDP.DEFL.ZS.AD}}}GDP deflator: linked series (base year varies by country){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.DISC.CN:NY.GDP.DISC.CN{marker NY.GDP.DISC.CN}}}Discrepancy in expenditure estimate of GDP (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.DISC.KN:NY.GDP.DISC.KN{marker NY.GDP.DISC.KN}}}Discrepancy in expenditure estimate of GDP (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.FCST.CD:NY.GDP.FCST.CD{marker NY.GDP.FCST.CD}}}Gross value added at basic prices (GVA) (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.FCST.CN:NY.GDP.FCST.CN{marker NY.GDP.FCST.CN}}}Gross value added at basic prices (GVA) (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.FCST.KD:NY.GDP.FCST.KD{marker NY.GDP.FCST.KD}}}Gross value added at basic prices (GVA) (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.FCST.KN:NY.GDP.FCST.KN{marker NY.GDP.FCST.KN}}}Gross value added at basic prices (GVA) (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.FRST.RT.ZS:NY.GDP.FRST.RT.ZS{marker NY.GDP.FRST.RT.ZS}}}Forest rents (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.MINR.RT.ZS:NY.GDP.MINR.RT.ZS{marker NY.GDP.MINR.RT.ZS}}}Mineral rents (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.MKTP.CD:NY.GDP.MKTP.CD{marker NY.GDP.MKTP.CD}}}GDP (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.MKTP.CN:NY.GDP.MKTP.CN{marker NY.GDP.MKTP.CN}}}GDP (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.MKTP.CN.AD:NY.GDP.MKTP.CN.AD{marker NY.GDP.MKTP.CN.AD}}}GDP: linked series (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.MKTP.KD:NY.GDP.MKTP.KD{marker NY.GDP.MKTP.KD}}}GDP (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.MKTP.KD.ZG:NY.GDP.MKTP.KD.ZG{marker NY.GDP.MKTP.KD.ZG}}}GDP growth (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.MKTP.KN:NY.GDP.MKTP.KN{marker NY.GDP.MKTP.KN}}}GDP (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.MKTP.PP.CD:NY.GDP.MKTP.PP.CD{marker NY.GDP.MKTP.PP.CD}}}GDP, PPP (current international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.MKTP.PP.KD:NY.GDP.MKTP.PP.KD{marker NY.GDP.MKTP.PP.KD}}}GDP, PPP (constant 2011 international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.NGAS.RT.ZS:NY.GDP.NGAS.RT.ZS{marker NY.GDP.NGAS.RT.ZS}}}Natural gas rents (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.PCAP.CD:NY.GDP.PCAP.CD{marker NY.GDP.PCAP.CD}}}GDP per capita (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.PCAP.CN:NY.GDP.PCAP.CN{marker NY.GDP.PCAP.CN}}}GDP per capita (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.PCAP.KD:NY.GDP.PCAP.KD{marker NY.GDP.PCAP.KD}}}GDP per capita (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.PCAP.KD.ZG:NY.GDP.PCAP.KD.ZG{marker NY.GDP.PCAP.KD.ZG}}}GDP per capita growth (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.PCAP.KN:NY.GDP.PCAP.KN{marker NY.GDP.PCAP.KN}}}GDP per capita (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.PCAP.PP.CD:NY.GDP.PCAP.PP.CD{marker NY.GDP.PCAP.PP.CD}}}GDP per capita, PPP (current international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.PCAP.PP.KD:NY.GDP.PCAP.PP.KD{marker NY.GDP.PCAP.PP.KD}}}GDP per capita, PPP (constant 2011 international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.PETR.RT.ZS:NY.GDP.PETR.RT.ZS{marker NY.GDP.PETR.RT.ZS}}}Oil rents (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.TOTL.RT.ZS:NY.GDP.TOTL.RT.ZS{marker NY.GDP.TOTL.RT.ZS}}}Total natural resources rents (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDS.TOTL.CD:NY.GDS.TOTL.CD{marker NY.GDS.TOTL.CD}}}Gross domestic savings (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDS.TOTL.CN:NY.GDS.TOTL.CN{marker NY.GDS.TOTL.CN}}}Gross domestic savings (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDS.TOTL.ZS:NY.GDS.TOTL.ZS{marker NY.GDS.TOTL.ZS}}}Gross domestic savings (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDY.TOTL.KN:NY.GDY.TOTL.KN{marker NY.GDY.TOTL.KN}}}Gross domestic income (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.ATLS.CD:NY.GNP.ATLS.CD{marker NY.GNP.ATLS.CD}}}GNI, Atlas method (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.MKTP.CD:NY.GNP.MKTP.CD{marker NY.GNP.MKTP.CD}}}GNI (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.MKTP.CN:NY.GNP.MKTP.CN{marker NY.GNP.MKTP.CN}}}GNI (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.MKTP.KD:NY.GNP.MKTP.KD{marker NY.GNP.MKTP.KD}}}GNI (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.MKTP.KD.ZG:NY.GNP.MKTP.KD.ZG{marker NY.GNP.MKTP.KD.ZG}}}GNI growth (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.MKTP.KN:NY.GNP.MKTP.KN{marker NY.GNP.MKTP.KN}}}GNI (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.MKTP.PP.CD:NY.GNP.MKTP.PP.CD{marker NY.GNP.MKTP.PP.CD}}}GNI, PPP (current international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.MKTP.PP.KD:NY.GNP.MKTP.PP.KD{marker NY.GNP.MKTP.PP.KD}}}GNI, PPP (constant 2011 international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.PCAP.CD:NY.GNP.PCAP.CD{marker NY.GNP.PCAP.CD}}}GNI per capita, Atlas method (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.PCAP.CN:NY.GNP.PCAP.CN{marker NY.GNP.PCAP.CN}}}GNI per capita (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.PCAP.KD:NY.GNP.PCAP.KD{marker NY.GNP.PCAP.KD}}}GNI per capita (constant 2010 US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.PCAP.KD.ZG:NY.GNP.PCAP.KD.ZG{marker NY.GNP.PCAP.KD.ZG}}}GNI per capita growth (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.PCAP.KN:NY.GNP.PCAP.KN{marker NY.GNP.PCAP.KN}}}GNI per capita (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.PCAP.PP.CD:NY.GNP.PCAP.PP.CD{marker NY.GNP.PCAP.PP.CD}}}GNI per capita, PPP (current international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.PCAP.PP.KD:NY.GNP.PCAP.PP.KD{marker NY.GNP.PCAP.PP.KD}}}GNI per capita, PPP (constant 2011 international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNS.ICTR.CD:NY.GNS.ICTR.CD{marker NY.GNS.ICTR.CD}}}Gross savings (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNS.ICTR.CN:NY.GNS.ICTR.CN{marker NY.GNS.ICTR.CN}}}Gross savings (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNS.ICTR.GN.ZS:NY.GNS.ICTR.GN.ZS{marker NY.GNS.ICTR.GN.ZS}}}Gross savings (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNS.ICTR.ZS:NY.GNS.ICTR.ZS{marker NY.GNS.ICTR.ZS}}}Gross savings (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GSR.NFCY.CD:NY.GSR.NFCY.CD{marker NY.GSR.NFCY.CD}}}Net primary income (Net income from abroad) (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GSR.NFCY.CN:NY.GSR.NFCY.CN{marker NY.GSR.NFCY.CN}}}Net primary income (Net income from abroad) (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GSR.NFCY.KN:NY.GSR.NFCY.KN{marker NY.GSR.NFCY.KN}}}Net primary income (Net income from abroad) (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.TAX.NIND.CD:NY.TAX.NIND.CD{marker NY.TAX.NIND.CD}}}Taxes less subsidies on products (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.TAX.NIND.CN:NY.TAX.NIND.CN{marker NY.TAX.NIND.CN}}}Taxes less subsidies on products (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.TAX.NIND.KN:NY.TAX.NIND.KN{marker NY.TAX.NIND.KN}}}Taxes less subsidies on products (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.TRF.NCTR.CD:NY.TRF.NCTR.CD{marker NY.TRF.NCTR.CD}}}Net secondary income (Net current transfers from abroad) (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.TRF.NCTR.CN:NY.TRF.NCTR.CN{marker NY.TRF.NCTR.CN}}}Net secondary income (Net current transfers from abroad) (current LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.TRF.NCTR.KN:NY.TRF.NCTR.KN{marker NY.TRF.NCTR.KN}}}Net secondary income (Net current transfers from abroad) (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.TTF.GNFS.KN:NY.TTF.GNFS.KN{marker NY.TTF.GNFS.KN}}}Terms of trade adjustment (constant LCU){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_PA.NUS.ATLS:PA.NUS.ATLS{marker PA.NUS.ATLS}}}DEC alternative conversion factor (LCU per US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_PA.NUS.FCRF:PA.NUS.FCRF{marker PA.NUS.FCRF}}}Official exchange rate (LCU per US$, period average){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_PA.NUS.PPP:PA.NUS.PPP{marker PA.NUS.PPP}}}PPP conversion factor, GDP (LCU per international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_PA.NUS.PPP.05:PA.NUS.PPP.05{marker PA.NUS.PPP.05}}}2005 PPP conversion factor, GDP (LCU per international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_PA.NUS.PPPC.RF:PA.NUS.PPPC.RF{marker PA.NUS.PPPC.RF}}}Price level ratio of PPP conversion factor (GDP) to market exchange rate{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_PA.NUS.PRVT.PP:PA.NUS.PRVT.PP{marker PA.NUS.PRVT.PP}}}PPP conversion factor, private consumption (LCU per international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_PA.NUS.PRVT.PP.05:PA.NUS.PRVT.PP.05{marker PA.NUS.PRVT.PP.05}}}2005 PPP conversion factor, private consumption (LCU per international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_PX.REX.REER:PX.REX.REER{marker PX.REX.REER}}}Real effective exchange rate index (2010 = 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.ADT.1524.LT.FE.ZS:SE.ADT.1524.LT.FE.ZS{marker SE.ADT.1524.LT.FE.ZS}}}Literacy rate, youth female (% of females ages 15-24){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.ADT.1524.LT.FM.ZS:SE.ADT.1524.LT.FM.ZS{marker SE.ADT.1524.LT.FM.ZS}}}Literacy rate, youth (ages 15-24), gender parity index (GPI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.ADT.1524.LT.MA.ZS:SE.ADT.1524.LT.MA.ZS{marker SE.ADT.1524.LT.MA.ZS}}}Literacy rate, youth male (% of males ages 15-24){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.ADT.1524.LT.ZS:SE.ADT.1524.LT.ZS{marker SE.ADT.1524.LT.ZS}}}Literacy rate, youth total (% of people ages 15-24){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.ADT.LITR.FE.ZS:SE.ADT.LITR.FE.ZS{marker SE.ADT.LITR.FE.ZS}}}Literacy rate, adult female (% of females ages 15 and above){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.ADT.LITR.MA.ZS:SE.ADT.LITR.MA.ZS{marker SE.ADT.LITR.MA.ZS}}}Literacy rate, adult male (% of males ages 15 and above){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.ADT.LITR.ZS:SE.ADT.LITR.ZS{marker SE.ADT.LITR.ZS}}}Literacy rate, adult total (% of people ages 15 and above){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.COM.DURS:SE.COM.DURS{marker SE.COM.DURS}}}Compulsory education, duration (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.ENR.PRIM.FM.ZS:SE.ENR.PRIM.FM.ZS{marker SE.ENR.PRIM.FM.ZS}}}School enrollment, primary (gross), gender parity index (GPI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.ENR.PRSC.FM.ZS:SE.ENR.PRSC.FM.ZS{marker SE.ENR.PRSC.FM.ZS}}}School enrollment, primary and secondary (gross), gender parity index (GPI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.ENR.SECO.FM.ZS:SE.ENR.SECO.FM.ZS{marker SE.ENR.SECO.FM.ZS}}}School enrollment, secondary (gross), gender parity index (GPI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.ENR.TERT.FM.ZS:SE.ENR.TERT.FM.ZS{marker SE.ENR.TERT.FM.ZS}}}School enrollment, tertiary (gross), gender parity index (GPI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRE.DURS:SE.PRE.DURS{marker SE.PRE.DURS}}}Preprimary education, duration (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRE.ENRL.TC.ZS:SE.PRE.ENRL.TC.ZS{marker SE.PRE.ENRL.TC.ZS}}}Pupil-teacher ratio, preprimary{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRE.ENRR:SE.PRE.ENRR{marker SE.PRE.ENRR}}}School enrollment, preprimary (% gross){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRE.ENRR.FE:SE.PRE.ENRR.FE{marker SE.PRE.ENRR.FE}}}School enrollment, preprimary, female (% gross){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRE.ENRR.MA:SE.PRE.ENRR.MA{marker SE.PRE.ENRR.MA}}}School enrollment, preprimary, male (% gross){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRE.TCAQ.FE.ZS:SE.PRE.TCAQ.FE.ZS{marker SE.PRE.TCAQ.FE.ZS}}}Trained teachers in preprimary education, female (% of female teachers){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRE.TCAQ.MA.ZS:SE.PRE.TCAQ.MA.ZS{marker SE.PRE.TCAQ.MA.ZS}}}Trained teachers in preprimary education, male (% of male teachers){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRE.TCAQ.ZS:SE.PRE.TCAQ.ZS{marker SE.PRE.TCAQ.ZS}}}Trained teachers in preprimary education (% of total teachers){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.AGES:SE.PRM.AGES{marker SE.PRM.AGES}}}Primary school starting age (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.CMPT.FE.ZS:SE.PRM.CMPT.FE.ZS{marker SE.PRM.CMPT.FE.ZS}}}Primary completion rate, female (% of relevant age group){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.CMPT.MA.ZS:SE.PRM.CMPT.MA.ZS{marker SE.PRM.CMPT.MA.ZS}}}Primary completion rate, male (% of relevant age group){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.CMPT.ZS:SE.PRM.CMPT.ZS{marker SE.PRM.CMPT.ZS}}}Primary completion rate, total (% of relevant age group){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.CUAT.FE.ZS:SE.PRM.CUAT.FE.ZS{marker SE.PRM.CUAT.FE.ZS}}}Educational attainment, at least completed primary, population 25+ years, female (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.CUAT.MA.ZS:SE.PRM.CUAT.MA.ZS{marker SE.PRM.CUAT.MA.ZS}}}Educational attainment, at least completed primary, population 25+ years, male (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.CUAT.ZS:SE.PRM.CUAT.ZS{marker SE.PRM.CUAT.ZS}}}Educational attainment, at least completed primary, population 25+ years, total (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.DURS:SE.PRM.DURS{marker SE.PRM.DURS}}}Primary education, duration (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.ENRL:SE.PRM.ENRL{marker SE.PRM.ENRL}}}Primary education, pupils{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.ENRL.FE.ZS:SE.PRM.ENRL.FE.ZS{marker SE.PRM.ENRL.FE.ZS}}}Primary education, pupils (% female){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.ENRL.TC.ZS:SE.PRM.ENRL.TC.ZS{marker SE.PRM.ENRL.TC.ZS}}}Pupil-teacher ratio, primary{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.ENRR:SE.PRM.ENRR{marker SE.PRM.ENRR}}}School enrollment, primary (% gross){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.ENRR.FE:SE.PRM.ENRR.FE{marker SE.PRM.ENRR.FE}}}School enrollment, primary, female (% gross){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.ENRR.MA:SE.PRM.ENRR.MA{marker SE.PRM.ENRR.MA}}}School enrollment, primary, male (% gross){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.GINT.FE.ZS:SE.PRM.GINT.FE.ZS{marker SE.PRM.GINT.FE.ZS}}}Gross intake ratio in first grade of primary education, female (% of relevant age group){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.GINT.MA.ZS:SE.PRM.GINT.MA.ZS{marker SE.PRM.GINT.MA.ZS}}}Gross intake ratio in first grade of primary education, male (% of relevant age group){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.GINT.ZS:SE.PRM.GINT.ZS{marker SE.PRM.GINT.ZS}}}Gross intake ratio in first grade of primary education, total (% of relevant age group){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.NENR:SE.PRM.NENR{marker SE.PRM.NENR}}}School enrollment, primary (% net){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.NENR.FE:SE.PRM.NENR.FE{marker SE.PRM.NENR.FE}}}School enrollment, primary, female (% net){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.NENR.MA:SE.PRM.NENR.MA{marker SE.PRM.NENR.MA}}}School enrollment, primary, male (% net){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.NINT.FE.ZS:SE.PRM.NINT.FE.ZS{marker SE.PRM.NINT.FE.ZS}}}Net intake rate in grade 1, female (% of official school-age population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.NINT.MA.ZS:SE.PRM.NINT.MA.ZS{marker SE.PRM.NINT.MA.ZS}}}Net intake rate in grade 1, male (% of official school-age population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.NINT.ZS:SE.PRM.NINT.ZS{marker SE.PRM.NINT.ZS}}}Net intake rate in grade 1 (% of official school-age population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.OENR.FE.ZS:SE.PRM.OENR.FE.ZS{marker SE.PRM.OENR.FE.ZS}}}Over-age students, primary, female (% of female enrollment){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.OENR.MA.ZS:SE.PRM.OENR.MA.ZS{marker SE.PRM.OENR.MA.ZS}}}Over-age students, primary, male (% of male enrollment){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.OENR.ZS:SE.PRM.OENR.ZS{marker SE.PRM.OENR.ZS}}}Over-age students, primary (% of enrollment){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.PRIV.ZS:SE.PRM.PRIV.ZS{marker SE.PRM.PRIV.ZS}}}School enrollment, primary, private (% of total primary){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.PRS5.FE.ZS:SE.PRM.PRS5.FE.ZS{marker SE.PRM.PRS5.FE.ZS}}}Persistence to grade 5, female (% of cohort){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.PRS5.MA.ZS:SE.PRM.PRS5.MA.ZS{marker SE.PRM.PRS5.MA.ZS}}}Persistence to grade 5, male (% of cohort){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.PRS5.ZS:SE.PRM.PRS5.ZS{marker SE.PRM.PRS5.ZS}}}Persistence to grade 5, total (% of cohort){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.PRSL.FE.ZS:SE.PRM.PRSL.FE.ZS{marker SE.PRM.PRSL.FE.ZS}}}Persistence to last grade of primary, female (% of cohort){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.PRSL.MA.ZS:SE.PRM.PRSL.MA.ZS{marker SE.PRM.PRSL.MA.ZS}}}Persistence to last grade of primary, male (% of cohort){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.PRSL.ZS:SE.PRM.PRSL.ZS{marker SE.PRM.PRSL.ZS}}}Persistence to last grade of primary, total (% of cohort){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.REPT.FE.ZS:SE.PRM.REPT.FE.ZS{marker SE.PRM.REPT.FE.ZS}}}Repeaters, primary, female (% of female enrollment){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.REPT.MA.ZS:SE.PRM.REPT.MA.ZS{marker SE.PRM.REPT.MA.ZS}}}Repeaters, primary, male (% of male enrollment){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.REPT.ZS:SE.PRM.REPT.ZS{marker SE.PRM.REPT.ZS}}}Repeaters, primary, total (% of total enrollment){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.TCAQ.FE.ZS:SE.PRM.TCAQ.FE.ZS{marker SE.PRM.TCAQ.FE.ZS}}}Trained teachers in primary education, female (% of female teachers){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.TCAQ.MA.ZS:SE.PRM.TCAQ.MA.ZS{marker SE.PRM.TCAQ.MA.ZS}}}Trained teachers in primary education, male (% of male teachers){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.TCAQ.ZS:SE.PRM.TCAQ.ZS{marker SE.PRM.TCAQ.ZS}}}Trained teachers in primary education (% of total teachers){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.TCHR:SE.PRM.TCHR{marker SE.PRM.TCHR}}}Primary education, teachers{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.TCHR.FE.ZS:SE.PRM.TCHR.FE.ZS{marker SE.PRM.TCHR.FE.ZS}}}Primary education, teachers (% female){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.TENR:SE.PRM.TENR{marker SE.PRM.TENR}}}Adjusted net enrollment rate, primary (% of primary school age children){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.TENR.FE:SE.PRM.TENR.FE{marker SE.PRM.TENR.FE}}}Adjusted net enrollment rate, primary, female (% of primary school age children){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.TENR.MA:SE.PRM.TENR.MA{marker SE.PRM.TENR.MA}}}Adjusted net enrollment rate, primary, male (% of primary school age children){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.UNER:SE.PRM.UNER{marker SE.PRM.UNER}}}Children out of school, primary{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.UNER.FE:SE.PRM.UNER.FE{marker SE.PRM.UNER.FE}}}Children out of school, primary, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.UNER.FE.ZS:SE.PRM.UNER.FE.ZS{marker SE.PRM.UNER.FE.ZS}}}Children out of school, female (% of female primary school age){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.UNER.MA:SE.PRM.UNER.MA{marker SE.PRM.UNER.MA}}}Children out of school, primary, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.UNER.MA.ZS:SE.PRM.UNER.MA.ZS{marker SE.PRM.UNER.MA.ZS}}}Children out of school, male (% of male primary school age){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.PRM.UNER.ZS:SE.PRM.UNER.ZS{marker SE.PRM.UNER.ZS}}}Children out of school (% of primary school age){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.AGES:SE.SEC.AGES{marker SE.SEC.AGES}}}Lower secondary school starting age (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.CMPT.LO.FE.ZS:SE.SEC.CMPT.LO.FE.ZS{marker SE.SEC.CMPT.LO.FE.ZS}}}Lower secondary completion rate, female (% of relevant age group){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.CMPT.LO.MA.ZS:SE.SEC.CMPT.LO.MA.ZS{marker SE.SEC.CMPT.LO.MA.ZS}}}Lower secondary completion rate, male (% of relevant age group){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.CMPT.LO.ZS:SE.SEC.CMPT.LO.ZS{marker SE.SEC.CMPT.LO.ZS}}}Lower secondary completion rate, total (% of relevant age group){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.CUAT.LO.FE.ZS:SE.SEC.CUAT.LO.FE.ZS{marker SE.SEC.CUAT.LO.FE.ZS}}}Educational attainment, at least completed lower secondary, population 25+, female (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.CUAT.LO.MA.ZS:SE.SEC.CUAT.LO.MA.ZS{marker SE.SEC.CUAT.LO.MA.ZS}}}Educational attainment, at least completed lower secondary, population 25+, male (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.CUAT.LO.ZS:SE.SEC.CUAT.LO.ZS{marker SE.SEC.CUAT.LO.ZS}}}Educational attainment, at least completed lower secondary, population 25+, total (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.CUAT.PO.FE.ZS:SE.SEC.CUAT.PO.FE.ZS{marker SE.SEC.CUAT.PO.FE.ZS}}}Educational attainment, at least completed post-secondary, population 25+, female (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.CUAT.PO.MA.ZS:SE.SEC.CUAT.PO.MA.ZS{marker SE.SEC.CUAT.PO.MA.ZS}}}Educational attainment, at least completed post-secondary, population 25+, male (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.CUAT.PO.ZS:SE.SEC.CUAT.PO.ZS{marker SE.SEC.CUAT.PO.ZS}}}Educational attainment, at least completed post-secondary, population 25+, total (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.CUAT.UP.FE.ZS:SE.SEC.CUAT.UP.FE.ZS{marker SE.SEC.CUAT.UP.FE.ZS}}}Educational attainment, at least completed upper secondary, population 25+, female (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.CUAT.UP.MA.ZS:SE.SEC.CUAT.UP.MA.ZS{marker SE.SEC.CUAT.UP.MA.ZS}}}Educational attainment, at least completed upper secondary, population 25+, male (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.CUAT.UP.ZS:SE.SEC.CUAT.UP.ZS{marker SE.SEC.CUAT.UP.ZS}}}Educational attainment, at least completed upper secondary, population 25+, total (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.DURS:SE.SEC.DURS{marker SE.SEC.DURS}}}Secondary education, duration (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.ENRL:SE.SEC.ENRL{marker SE.SEC.ENRL}}}Secondary education, pupils{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.ENRL.FE.ZS:SE.SEC.ENRL.FE.ZS{marker SE.SEC.ENRL.FE.ZS}}}Secondary education, pupils (% female){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.ENRL.GC:SE.SEC.ENRL.GC{marker SE.SEC.ENRL.GC}}}Secondary education, general pupils{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.ENRL.GC.FE.ZS:SE.SEC.ENRL.GC.FE.ZS{marker SE.SEC.ENRL.GC.FE.ZS}}}Secondary education, general pupils (% female){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.ENRL.LO.TC.ZS:SE.SEC.ENRL.LO.TC.ZS{marker SE.SEC.ENRL.LO.TC.ZS}}}Pupil-teacher ratio, lower secondary{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.ENRL.TC.ZS:SE.SEC.ENRL.TC.ZS{marker SE.SEC.ENRL.TC.ZS}}}Pupil-teacher ratio, secondary{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.ENRL.UP.TC.ZS:SE.SEC.ENRL.UP.TC.ZS{marker SE.SEC.ENRL.UP.TC.ZS}}}Pupil-teacher ratio, upper secondary{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.ENRL.VO:SE.SEC.ENRL.VO{marker SE.SEC.ENRL.VO}}}Secondary education, vocational pupils{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.ENRL.VO.FE.ZS:SE.SEC.ENRL.VO.FE.ZS{marker SE.SEC.ENRL.VO.FE.ZS}}}Secondary education, vocational pupils (% female){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.ENRR:SE.SEC.ENRR{marker SE.SEC.ENRR}}}School enrollment, secondary (% gross){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.ENRR.FE:SE.SEC.ENRR.FE{marker SE.SEC.ENRR.FE}}}School enrollment, secondary, female (% gross){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.ENRR.MA:SE.SEC.ENRR.MA{marker SE.SEC.ENRR.MA}}}School enrollment, secondary, male (% gross){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.NENR:SE.SEC.NENR{marker SE.SEC.NENR}}}School enrollment, secondary (% net){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.NENR.FE:SE.SEC.NENR.FE{marker SE.SEC.NENR.FE}}}School enrollment, secondary, female (% net){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.NENR.MA:SE.SEC.NENR.MA{marker SE.SEC.NENR.MA}}}School enrollment, secondary, male (% net){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.PRIV.ZS:SE.SEC.PRIV.ZS{marker SE.SEC.PRIV.ZS}}}School enrollment, secondary, private (% of total secondary){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.PROG.FE.ZS:SE.SEC.PROG.FE.ZS{marker SE.SEC.PROG.FE.ZS}}}Progression to secondary school, female (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.PROG.MA.ZS:SE.SEC.PROG.MA.ZS{marker SE.SEC.PROG.MA.ZS}}}Progression to secondary school, male (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.PROG.ZS:SE.SEC.PROG.ZS{marker SE.SEC.PROG.ZS}}}Progression to secondary school (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.TCAQ.FE.ZS:SE.SEC.TCAQ.FE.ZS{marker SE.SEC.TCAQ.FE.ZS}}}Trained teachers in secondary education, female (% of female teachers){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.TCAQ.LO.FE.ZS:SE.SEC.TCAQ.LO.FE.ZS{marker SE.SEC.TCAQ.LO.FE.ZS}}}Trained teachers in lower secondary education, female (% of female teachers){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.TCAQ.LO.MA.ZS:SE.SEC.TCAQ.LO.MA.ZS{marker SE.SEC.TCAQ.LO.MA.ZS}}}Trained teachers in lower secondary education, male (% of male teachers){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.TCAQ.LO.ZS:SE.SEC.TCAQ.LO.ZS{marker SE.SEC.TCAQ.LO.ZS}}}Trained teachers in lower secondary education (% of total teachers){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.TCAQ.MA.ZS:SE.SEC.TCAQ.MA.ZS{marker SE.SEC.TCAQ.MA.ZS}}}Trained teachers in secondary education, male (% of male teachers){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.TCAQ.UP.FE.ZS:SE.SEC.TCAQ.UP.FE.ZS{marker SE.SEC.TCAQ.UP.FE.ZS}}}Trained teachers in upper secondary education, female (% of female teachers){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.TCAQ.UP.MA.ZS:SE.SEC.TCAQ.UP.MA.ZS{marker SE.SEC.TCAQ.UP.MA.ZS}}}Trained teachers in upper secondary education, male (% of male teachers){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.TCAQ.UP.ZS:SE.SEC.TCAQ.UP.ZS{marker SE.SEC.TCAQ.UP.ZS}}}Trained teachers in upper secondary education (% of total teachers){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.TCAQ.ZS:SE.SEC.TCAQ.ZS{marker SE.SEC.TCAQ.ZS}}}Trained teachers in secondary education (% of total teachers){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.TCHR:SE.SEC.TCHR{marker SE.SEC.TCHR}}}Secondary education, teachers{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.TCHR.FE:SE.SEC.TCHR.FE{marker SE.SEC.TCHR.FE}}}Secondary education, teachers, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.TCHR.FE.ZS:SE.SEC.TCHR.FE.ZS{marker SE.SEC.TCHR.FE.ZS}}}Secondary education, teachers (% female){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.UNER.LO.FE.ZS:SE.SEC.UNER.LO.FE.ZS{marker SE.SEC.UNER.LO.FE.ZS}}}Adolescents out of school, female (% of female lower secondary school age){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.UNER.LO.MA.ZS:SE.SEC.UNER.LO.MA.ZS{marker SE.SEC.UNER.LO.MA.ZS}}}Adolescents out of school, male (% of male lower secondary school age){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.UNER.LO.ZS:SE.SEC.UNER.LO.ZS{marker SE.SEC.UNER.LO.ZS}}}Adolescents out of school (% of lower secondary school age){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.BA.FE.ZS:SE.TER.CUAT.BA.FE.ZS{marker SE.TER.CUAT.BA.FE.ZS}}}Educational attainment, at least Bachelor's or equivalent, population 25+, female (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.BA.MA.ZS:SE.TER.CUAT.BA.MA.ZS{marker SE.TER.CUAT.BA.MA.ZS}}}Educational attainment, at least Bachelor's or equivalent, population 25+, male (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.BA.ZS:SE.TER.CUAT.BA.ZS{marker SE.TER.CUAT.BA.ZS}}}Educational attainment, at least Bachelor's or equivalent, population 25+, total (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.DO.FE.ZS:SE.TER.CUAT.DO.FE.ZS{marker SE.TER.CUAT.DO.FE.ZS}}}Educational attainment, Doctoral or equivalent, population 25+, female (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.DO.MA.ZS:SE.TER.CUAT.DO.MA.ZS{marker SE.TER.CUAT.DO.MA.ZS}}}Educational attainment, Doctoral or equivalent, population 25+, male (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.DO.ZS:SE.TER.CUAT.DO.ZS{marker SE.TER.CUAT.DO.ZS}}}Educational attainment, Doctoral or equivalent, population 25+, total (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.MS.FE.ZS:SE.TER.CUAT.MS.FE.ZS{marker SE.TER.CUAT.MS.FE.ZS}}}Educational attainment, at least Master's or equivalent, population 25+, female (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.MS.MA.ZS:SE.TER.CUAT.MS.MA.ZS{marker SE.TER.CUAT.MS.MA.ZS}}}Educational attainment, at least Master's or equivalent, population 25+, male (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.MS.ZS:SE.TER.CUAT.MS.ZS{marker SE.TER.CUAT.MS.ZS}}}Educational attainment, at least Master's or equivalent, population 25+, total (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.ST.FE.ZS:SE.TER.CUAT.ST.FE.ZS{marker SE.TER.CUAT.ST.FE.ZS}}}Educational attainment, at least completed short-cycle tertiary, population 25+, female (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.ST.MA.ZS:SE.TER.CUAT.ST.MA.ZS{marker SE.TER.CUAT.ST.MA.ZS}}}Educational attainment, at least completed short-cycle tertiary, population 25+, male (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.ST.ZS:SE.TER.CUAT.ST.ZS{marker SE.TER.CUAT.ST.ZS}}}Educational attainment, at least completed short-cycle tertiary, population 25+, total (%) (cumulative){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.ENRL.TC.ZS:SE.TER.ENRL.TC.ZS{marker SE.TER.ENRL.TC.ZS}}}Pupil-teacher ratio, tertiary{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.ENRR:SE.TER.ENRR{marker SE.TER.ENRR}}}School enrollment, tertiary (% gross){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.ENRR.FE:SE.TER.ENRR.FE{marker SE.TER.ENRR.FE}}}School enrollment, tertiary, female (% gross){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.ENRR.MA:SE.TER.ENRR.MA{marker SE.TER.ENRR.MA}}}School enrollment, tertiary, male (% gross){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.TCHR.FE.ZS:SE.TER.TCHR.FE.ZS{marker SE.TER.TCHR.FE.ZS}}}Tertiary education, academic staff (% female){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.XPD.CPRM.ZS:SE.XPD.CPRM.ZS{marker SE.XPD.CPRM.ZS}}}Current education expenditure, primary (% of total expenditure in primary public institutions){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.XPD.CSEC.ZS:SE.XPD.CSEC.ZS{marker SE.XPD.CSEC.ZS}}}Current education expenditure, secondary (% of total expenditure in secondary public institutions){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.XPD.CTER.ZS:SE.XPD.CTER.ZS{marker SE.XPD.CTER.ZS}}}Current education expenditure, tertiary (% of total expenditure in tertiary public institutions){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.XPD.CTOT.ZS:SE.XPD.CTOT.ZS{marker SE.XPD.CTOT.ZS}}}Current education expenditure, total (% of total expenditure in public institutions){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.XPD.PRIM.PC.ZS:SE.XPD.PRIM.PC.ZS{marker SE.XPD.PRIM.PC.ZS}}}Government expenditure per student, primary (% of GDP per capita){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.XPD.PRIM.ZS:SE.XPD.PRIM.ZS{marker SE.XPD.PRIM.ZS}}}Expenditure on primary education (% of government expenditure on education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.XPD.SECO.PC.ZS:SE.XPD.SECO.PC.ZS{marker SE.XPD.SECO.PC.ZS}}}Government expenditure per student, secondary (% of GDP per capita){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.XPD.SECO.ZS:SE.XPD.SECO.ZS{marker SE.XPD.SECO.ZS}}}Expenditure on secondary education (% of government expenditure on education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.XPD.TERT.PC.ZS:SE.XPD.TERT.PC.ZS{marker SE.XPD.TERT.PC.ZS}}}Government expenditure per student, tertiary (% of GDP per capita){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.XPD.TERT.ZS:SE.XPD.TERT.ZS{marker SE.XPD.TERT.ZS}}}Expenditure on tertiary education (% of government expenditure on education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.XPD.TOTL.GB.ZS:SE.XPD.TOTL.GB.ZS{marker SE.XPD.TOTL.GB.ZS}}}Government expenditure on education, total (% of government expenditure){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.XPD.TOTL.GD.ZS:SE.XPD.TOTL.GD.ZS{marker SE.XPD.TOTL.GD.ZS}}}Government expenditure on education, total (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.DMK.ALLD.FN.ZS:SG.DMK.ALLD.FN.ZS{marker SG.DMK.ALLD.FN.ZS}}}Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.DMK.SRCR.FN.ZS:SG.DMK.SRCR.FN.ZS{marker SG.DMK.SRCR.FN.ZS}}}Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.GEN.PARL.ZS:SG.GEN.PARL.ZS{marker SG.GEN.PARL.ZS}}}Proportion of seats held by women in national parliaments (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.JOB.NOPN.EQ:SG.JOB.NOPN.EQ{marker SG.JOB.NOPN.EQ}}}Nonpregnant and nonnursing women can do the same jobs as men (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.LAW.CHMR:SG.LAW.CHMR{marker SG.LAW.CHMR}}}Law prohibits or invalidates child or early marriage (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.LAW.EQRM.WK:SG.LAW.EQRM.WK{marker SG.LAW.EQRM.WK}}}Law mandates equal remuneration for females and males for work of equal value (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.LAW.LEVE.PU:SG.LAW.LEVE.PU{marker SG.LAW.LEVE.PU}}}Law mandates paid or unpaid maternity leave (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.LAW.NODC.HR:SG.LAW.NODC.HR{marker SG.LAW.NODC.HR}}}Law mandates nondiscrimination based on gender in hiring (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.LEG.DVAW:SG.LEG.DVAW{marker SG.LEG.DVAW}}}Legislation exists on domestic violence (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.MMR.LEVE.EP:SG.MMR.LEVE.EP{marker SG.MMR.LEVE.EP}}}Mothers are guaranteed an equivalent position after maternity leave (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.NOD.CONS:SG.NOD.CONS{marker SG.NOD.CONS}}}Nondiscrimination clause mentions gender in the constitution (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.TIM.UWRK.FE:SG.TIM.UWRK.FE{marker SG.TIM.UWRK.FE}}}Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.TIM.UWRK.MA:SG.TIM.UWRK.MA{marker SG.TIM.UWRK.MA}}}Proportion of time spent on unpaid domestic and care work, male (% of 24 hour day){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.VAW.1549.ZS:SG.VAW.1549.ZS{marker SG.VAW.1549.ZS}}}Proportion of women subjected to physical and/or sexual violence in the last 12 months (% of women age 15-49){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.VAW.ARGU.ZS:SG.VAW.ARGU.ZS{marker SG.VAW.ARGU.ZS}}}Women who believe a husband is justified in beating his wife when she argues with him (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.VAW.BURN.ZS:SG.VAW.BURN.ZS{marker SG.VAW.BURN.ZS}}}Women who believe a husband is justified in beating his wife when she burns the food (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.VAW.GOES.ZS:SG.VAW.GOES.ZS{marker SG.VAW.GOES.ZS}}}Women who believe a husband is justified in beating his wife when she goes out without telling him (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.VAW.NEGL.ZS:SG.VAW.NEGL.ZS{marker SG.VAW.NEGL.ZS}}}Women who believe a husband is justified in beating his wife when she neglects the children (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.VAW.REAS.ZS:SG.VAW.REAS.ZS{marker SG.VAW.REAS.ZS}}}Women who believe a husband is justified in beating his wife (any of five reasons) (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.VAW.REFU.ZS:SG.VAW.REFU.ZS{marker SG.VAW.REFU.ZS}}}Women who believe a husband is justified in beating his wife when she refuses sex with him (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.ALC.PCAP.FE.LI:SH.ALC.PCAP.FE.LI{marker SH.ALC.PCAP.FE.LI}}}Total alcohol consumption per capita, female (liters of pure alcohol, projected estimates, female 15+ years of age){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.ALC.PCAP.LI:SH.ALC.PCAP.LI{marker SH.ALC.PCAP.LI}}}Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.ALC.PCAP.MA.LI:SH.ALC.PCAP.MA.LI{marker SH.ALC.PCAP.MA.LI}}}Total alcohol consumption per capita, male (liters of pure alcohol, projected estimates, male 15+ years of age){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.ANM.ALLW.ZS:SH.ANM.ALLW.ZS{marker SH.ANM.ALLW.ZS}}}Prevalence of anemia among women of reproductive age (% of women ages 15-49){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.ANM.CHLD.ZS:SH.ANM.CHLD.ZS{marker SH.ANM.CHLD.ZS}}}Prevalence of anemia among children (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.ANM.NPRG.ZS:SH.ANM.NPRG.ZS{marker SH.ANM.NPRG.ZS}}}Prevalence of anemia among non-pregnant women (% of women ages 15-49){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.CON.1524.FE.ZS:SH.CON.1524.FE.ZS{marker SH.CON.1524.FE.ZS}}}Condom use, population ages 15-24, female (% of females ages 15-24){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.CON.1524.MA.ZS:SH.CON.1524.MA.ZS{marker SH.CON.1524.MA.ZS}}}Condom use, population ages 15-24, male (% of males ages 15-24){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DTH.0514:SH.DTH.0514{marker SH.DTH.0514}}}Number of deaths ages 5-14 years{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DTH.COMM.ZS:SH.DTH.COMM.ZS{marker SH.DTH.COMM.ZS}}}Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DTH.IMRT:SH.DTH.IMRT{marker SH.DTH.IMRT}}}Number of infant deaths{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DTH.INJR.ZS:SH.DTH.INJR.ZS{marker SH.DTH.INJR.ZS}}}Cause of death, by injury (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DTH.MORT:SH.DTH.MORT{marker SH.DTH.MORT}}}Number of under-five deaths{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DTH.NCOM.ZS:SH.DTH.NCOM.ZS{marker SH.DTH.NCOM.ZS}}}Cause of death, by non-communicable diseases (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DTH.NMRT:SH.DTH.NMRT{marker SH.DTH.NMRT}}}Number of neonatal deaths{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DYN.0514:SH.DYN.0514{marker SH.DYN.0514}}}Probability of dying at age 5-14 years (per 1,000 children age 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DYN.AIDS.FE.ZS:SH.DYN.AIDS.FE.ZS{marker SH.DYN.AIDS.FE.ZS}}}Women's share of population ages 15+ living with HIV (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DYN.AIDS.ZS:SH.DYN.AIDS.ZS{marker SH.DYN.AIDS.ZS}}}Prevalence of HIV, total (% of population ages 15-49){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DYN.MORT:SH.DYN.MORT{marker SH.DYN.MORT}}}Mortality rate, under-5 (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DYN.MORT.FE:SH.DYN.MORT.FE{marker SH.DYN.MORT.FE}}}Mortality rate, under-5, female (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DYN.MORT.MA:SH.DYN.MORT.MA{marker SH.DYN.MORT.MA}}}Mortality rate, under-5, male (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DYN.NCOM.FE.ZS:SH.DYN.NCOM.FE.ZS{marker SH.DYN.NCOM.FE.ZS}}}Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70, female (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DYN.NCOM.MA.ZS:SH.DYN.NCOM.MA.ZS{marker SH.DYN.NCOM.MA.ZS}}}Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70, male (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DYN.NCOM.ZS:SH.DYN.NCOM.ZS{marker SH.DYN.NCOM.ZS}}}Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.DYN.NMRT:SH.DYN.NMRT{marker SH.DYN.NMRT}}}Mortality rate, neonatal (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.FPL.SATM.ZS:SH.FPL.SATM.ZS{marker SH.FPL.SATM.ZS}}}Demand for family planning satisfied by modern methods (% of married women with demand for family planning){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.H2O.BASW.RU.ZS:SH.H2O.BASW.RU.ZS{marker SH.H2O.BASW.RU.ZS}}}People using at least basic drinking water services, rural (% of rural population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.H2O.BASW.UR.ZS:SH.H2O.BASW.UR.ZS{marker SH.H2O.BASW.UR.ZS}}}People using at least basic drinking water services, urban (% of urban population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.H2O.BASW.ZS:SH.H2O.BASW.ZS{marker SH.H2O.BASW.ZS}}}People using at least basic drinking water services (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.H2O.SMDW.RU.ZS:SH.H2O.SMDW.RU.ZS{marker SH.H2O.SMDW.RU.ZS}}}People using safely managed drinking water services, rural (% of rural population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.H2O.SMDW.UR.ZS:SH.H2O.SMDW.UR.ZS{marker SH.H2O.SMDW.UR.ZS}}}People using safely managed drinking water services, urban (% of urban population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.H2O.SMDW.ZS:SH.H2O.SMDW.ZS{marker SH.H2O.SMDW.ZS}}}People using safely managed drinking water services (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.HIV.0014:SH.HIV.0014{marker SH.HIV.0014}}}Children (0-14) living with HIV{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.HIV.1524.FE.ZS:SH.HIV.1524.FE.ZS{marker SH.HIV.1524.FE.ZS}}}Prevalence of HIV, female (% ages 15-24){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.HIV.1524.MA.ZS:SH.HIV.1524.MA.ZS{marker SH.HIV.1524.MA.ZS}}}Prevalence of HIV, male (% ages 15-24){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.HIV.ARTC.ZS:SH.HIV.ARTC.ZS{marker SH.HIV.ARTC.ZS}}}Antiretroviral therapy coverage (% of people living with HIV){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.HIV.INCD:SH.HIV.INCD{marker SH.HIV.INCD}}}Adults (ages 15+) newly infected with HIV{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.HIV.INCD.14:SH.HIV.INCD.14{marker SH.HIV.INCD.14}}}Children (ages 0-14) newly infected with HIV{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.HIV.INCD.TL:SH.HIV.INCD.TL{marker SH.HIV.INCD.TL}}}Adults (ages 15+) and children (ages 0-14) newly infected with HIV{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.HIV.INCD.ZS:SH.HIV.INCD.ZS{marker SH.HIV.INCD.ZS}}}Incidence of HIV (per 1,000 uninfected population ages 15-49){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.HIV.PMTC.ZS:SH.HIV.PMTC.ZS{marker SH.HIV.PMTC.ZS}}}Antiretroviral therapy coverage for PMTCT (% of pregnant women living with HIV){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.IMM.HEPB:SH.IMM.HEPB{marker SH.IMM.HEPB}}}Immunization, HepB3 (% of one-year-old children){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.IMM.IDPT:SH.IMM.IDPT{marker SH.IMM.IDPT}}}Immunization, DPT (% of children ages 12-23 months){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.IMM.MEAS:SH.IMM.MEAS{marker SH.IMM.MEAS}}}Immunization, measles (% of children ages 12-23 months){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.MED.BEDS.ZS:SH.MED.BEDS.ZS{marker SH.MED.BEDS.ZS}}}Hospital beds (per 1,000 people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.MED.CMHW.P3:SH.MED.CMHW.P3{marker SH.MED.CMHW.P3}}}Community health workers (per 1,000 people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.MED.NUMW.P3:SH.MED.NUMW.P3{marker SH.MED.NUMW.P3}}}Nurses and midwives (per 1,000 people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.MED.PHYS.ZS:SH.MED.PHYS.ZS{marker SH.MED.PHYS.ZS}}}Physicians (per 1,000 people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.MED.SAOP.P5:SH.MED.SAOP.P5{marker SH.MED.SAOP.P5}}}Specialist surgical workforce (per 100,000 population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.MLR.INCD.P3:SH.MLR.INCD.P3{marker SH.MLR.INCD.P3}}}Incidence of malaria (per 1,000 population at risk){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.MLR.NETS.ZS:SH.MLR.NETS.ZS{marker SH.MLR.NETS.ZS}}}Use of insecticide-treated bed nets (% of under-5 population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.MLR.TRET.ZS:SH.MLR.TRET.ZS{marker SH.MLR.TRET.ZS}}}Children with fever receiving antimalarial drugs (% of children under age 5 with fever){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.MMR.DTHS:SH.MMR.DTHS{marker SH.MMR.DTHS}}}Number of maternal deaths{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.MMR.RISK:SH.MMR.RISK{marker SH.MMR.RISK}}}Lifetime risk of maternal death (1 in: rate varies by country){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.MMR.RISK.ZS:SH.MMR.RISK.ZS{marker SH.MMR.RISK.ZS}}}Lifetime risk of maternal death (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.PRG.ANEM:SH.PRG.ANEM{marker SH.PRG.ANEM}}}Prevalence of anemia among pregnant women (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.PRV.SMOK:SH.PRV.SMOK{marker SH.PRV.SMOK}}}Smoking prevalence, total (ages 15+){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.PRV.SMOK.FE:SH.PRV.SMOK.FE{marker SH.PRV.SMOK.FE}}}Smoking prevalence, females (% of adults){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.PRV.SMOK.MA:SH.PRV.SMOK.MA{marker SH.PRV.SMOK.MA}}}Smoking prevalence, males (% of adults){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.SGR.CRSK.ZS:SH.SGR.CRSK.ZS{marker SH.SGR.CRSK.ZS}}}Risk of catastrophic expenditure for surgical care (% of people at risk){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.SGR.IRSK.ZS:SH.SGR.IRSK.ZS{marker SH.SGR.IRSK.ZS}}}Risk of impoverishing expenditure for surgical care (% of people at risk){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.SGR.PROC.P5:SH.SGR.PROC.P5{marker SH.SGR.PROC.P5}}}Number of surgical procedures (per 100,000 population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.AIRP.FE.P5:SH.STA.AIRP.FE.P5{marker SH.STA.AIRP.FE.P5}}}Mortality rate attributed to household and ambient air pollution, age-standardized, female (per 100,000 female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.AIRP.MA.P5:SH.STA.AIRP.MA.P5{marker SH.STA.AIRP.MA.P5}}}Mortality rate attributed to household and ambient air pollution, age-standardized, male (per 100,000 male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.AIRP.P5:SH.STA.AIRP.P5{marker SH.STA.AIRP.P5}}}Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.ANVC.ZS:SH.STA.ANVC.ZS{marker SH.STA.ANVC.ZS}}}Pregnant women receiving prenatal care (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.ARIC.ZS:SH.STA.ARIC.ZS{marker SH.STA.ARIC.ZS}}}ARI treatment (% of children under 5 taken to a health provider){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.BASS.RU.ZS:SH.STA.BASS.RU.ZS{marker SH.STA.BASS.RU.ZS}}}People using at least basic sanitation services, rural (% of rural population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.BASS.UR.ZS:SH.STA.BASS.UR.ZS{marker SH.STA.BASS.UR.ZS}}}People using at least basic sanitation services, urban (% of urban population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.BASS.ZS:SH.STA.BASS.ZS{marker SH.STA.BASS.ZS}}}People using at least basic sanitation services (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.BFED.ZS:SH.STA.BFED.ZS{marker SH.STA.BFED.ZS}}}Exclusive breastfeeding (% of children under 6 months){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.BRTC.ZS:SH.STA.BRTC.ZS{marker SH.STA.BRTC.ZS}}}Births attended by skilled health staff (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.BRTW.ZS:SH.STA.BRTW.ZS{marker SH.STA.BRTW.ZS}}}Low-birthweight babies (% of births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.DIAB.ZS:SH.STA.DIAB.ZS{marker SH.STA.DIAB.ZS}}}Diabetes prevalence (% of population ages 20 to 79){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.FGMS.ZS:SH.STA.FGMS.ZS{marker SH.STA.FGMS.ZS}}}Female genital mutilation prevalence (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.HYGN.RU.ZS:SH.STA.HYGN.RU.ZS{marker SH.STA.HYGN.RU.ZS}}}People with basic handwashing facilities including soap and water, rural (% of rural population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.HYGN.UR.ZS:SH.STA.HYGN.UR.ZS{marker SH.STA.HYGN.UR.ZS}}}People with basic handwashing facilities including soap and water, urban (% of urban population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.HYGN.ZS:SH.STA.HYGN.ZS{marker SH.STA.HYGN.ZS}}}People with basic handwashing facilities including soap and water (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.MALN.FE.ZS:SH.STA.MALN.FE.ZS{marker SH.STA.MALN.FE.ZS}}}Prevalence of underweight, weight for age, female (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.MALN.MA.ZS:SH.STA.MALN.MA.ZS{marker SH.STA.MALN.MA.ZS}}}Prevalence of underweight, weight for age, male (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.MALN.ZS:SH.STA.MALN.ZS{marker SH.STA.MALN.ZS}}}Prevalence of underweight, weight for age (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.MMRT:SH.STA.MMRT{marker SH.STA.MMRT}}}Maternal mortality ratio (modeled estimate, per 100,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.MMRT.NE:SH.STA.MMRT.NE{marker SH.STA.MMRT.NE}}}Maternal mortality ratio (national estimate, per 100,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.ODFC.RU.ZS:SH.STA.ODFC.RU.ZS{marker SH.STA.ODFC.RU.ZS}}}People practicing open defecation, rural (% of rural population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.ODFC.UR.ZS:SH.STA.ODFC.UR.ZS{marker SH.STA.ODFC.UR.ZS}}}People practicing open defecation, urban (% of urban population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.ODFC.ZS:SH.STA.ODFC.ZS{marker SH.STA.ODFC.ZS}}}People practicing open defecation (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.ORCF.ZS:SH.STA.ORCF.ZS{marker SH.STA.ORCF.ZS}}}Diarrhea treatment (% of children under 5 receiving oral rehydration and continued feeding){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.ORTH:SH.STA.ORTH{marker SH.STA.ORTH}}}Diarrhea treatment (% of children under 5 who received ORS packet){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.OWGH.FE.ZS:SH.STA.OWGH.FE.ZS{marker SH.STA.OWGH.FE.ZS}}}Prevalence of overweight, weight for height, female (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.OWGH.MA.ZS:SH.STA.OWGH.MA.ZS{marker SH.STA.OWGH.MA.ZS}}}Prevalence of overweight, weight for height, male (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.OWGH.ZS:SH.STA.OWGH.ZS{marker SH.STA.OWGH.ZS}}}Prevalence of overweight, weight for height (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.POIS.P5:SH.STA.POIS.P5{marker SH.STA.POIS.P5}}}Mortality rate attributed to unintentional poisoning (per 100,000 population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.POIS.P5.FE:SH.STA.POIS.P5.FE{marker SH.STA.POIS.P5.FE}}}Mortality rate attributed to unintentional poisoning, female (per 100,000 female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.POIS.P5.MA:SH.STA.POIS.P5.MA{marker SH.STA.POIS.P5.MA}}}Mortality rate attributed to unintentional poisoning, male (per 100,000 male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.SMSS.RU.ZS:SH.STA.SMSS.RU.ZS{marker SH.STA.SMSS.RU.ZS}}}People using safely managed sanitation services, rural (% of rural population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.SMSS.UR.ZS:SH.STA.SMSS.UR.ZS{marker SH.STA.SMSS.UR.ZS}}}People using safely managed sanitation services, urban (% of urban population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.SMSS.ZS:SH.STA.SMSS.ZS{marker SH.STA.SMSS.ZS}}}People using safely managed sanitation services (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.STNT.FE.ZS:SH.STA.STNT.FE.ZS{marker SH.STA.STNT.FE.ZS}}}Prevalence of stunting, height for age, female (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.STNT.MA.ZS:SH.STA.STNT.MA.ZS{marker SH.STA.STNT.MA.ZS}}}Prevalence of stunting, height for age, male (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.STNT.ZS:SH.STA.STNT.ZS{marker SH.STA.STNT.ZS}}}Prevalence of stunting, height for age (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.SUIC.FE.P5:SH.STA.SUIC.FE.P5{marker SH.STA.SUIC.FE.P5}}}Suicide mortality rate, female (per 100,000 female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.SUIC.MA.P5:SH.STA.SUIC.MA.P5{marker SH.STA.SUIC.MA.P5}}}Suicide mortality rate, male (per 100,000 male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.SUIC.P5:SH.STA.SUIC.P5{marker SH.STA.SUIC.P5}}}Suicide mortality rate (per 100,000 population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.TRAF.P5:SH.STA.TRAF.P5{marker SH.STA.TRAF.P5}}}Mortality caused by road traffic injury (per 100,000 people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.WASH.P5:SH.STA.WASH.P5{marker SH.STA.WASH.P5}}}Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (per 100,000 population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.WAST.FE.ZS:SH.STA.WAST.FE.ZS{marker SH.STA.WAST.FE.ZS}}}Prevalence of wasting, weight for height, female (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.WAST.MA.ZS:SH.STA.WAST.MA.ZS{marker SH.STA.WAST.MA.ZS}}}Prevalence of wasting, weight for height, male (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.STA.WAST.ZS:SH.STA.WAST.ZS{marker SH.STA.WAST.ZS}}}Prevalence of wasting, weight for height (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.SVR.WAST.FE.ZS:SH.SVR.WAST.FE.ZS{marker SH.SVR.WAST.FE.ZS}}}Prevalence of severe wasting, weight for height, female (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.SVR.WAST.MA.ZS:SH.SVR.WAST.MA.ZS{marker SH.SVR.WAST.MA.ZS}}}Prevalence of severe wasting, weight for height, male (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.SVR.WAST.ZS:SH.SVR.WAST.ZS{marker SH.SVR.WAST.ZS}}}Prevalence of severe wasting, weight for height (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.TBS.CURE.ZS:SH.TBS.CURE.ZS{marker SH.TBS.CURE.ZS}}}Tuberculosis treatment success rate (% of new cases){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.TBS.DTEC.ZS:SH.TBS.DTEC.ZS{marker SH.TBS.DTEC.ZS}}}Tuberculosis case detection rate (%, all forms){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.TBS.INCD:SH.TBS.INCD{marker SH.TBS.INCD}}}Incidence of tuberculosis (per 100,000 people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP1.CG:SH.UHC.NOP1.CG{marker SH.UHC.NOP1.CG}}}Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP1.TO:SH.UHC.NOP1.TO{marker SH.UHC.NOP1.TO}}}Number of people pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP1.ZG:SH.UHC.NOP1.ZG{marker SH.UHC.NOP1.ZG}}}Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP1.ZS:SH.UHC.NOP1.ZS{marker SH.UHC.NOP1.ZS}}}Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP2.CG:SH.UHC.NOP2.CG{marker SH.UHC.NOP2.CG}}}Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP2.TO:SH.UHC.NOP2.TO{marker SH.UHC.NOP2.TO}}}Number of people pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP2.ZG:SH.UHC.NOP2.ZG{marker SH.UHC.NOP2.ZG}}}Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP2.ZS:SH.UHC.NOP2.ZS{marker SH.UHC.NOP2.ZS}}}Proportion of population pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.OOPC.10.TO:SH.UHC.OOPC.10.TO{marker SH.UHC.OOPC.10.TO}}}Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.OOPC.10.ZS:SH.UHC.OOPC.10.ZS{marker SH.UHC.OOPC.10.ZS}}}Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.OOPC.25.TO:SH.UHC.OOPC.25.TO{marker SH.UHC.OOPC.25.TO}}}Number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.OOPC.25.ZS:SH.UHC.OOPC.25.ZS{marker SH.UHC.OOPC.25.ZS}}}Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.SRVS.CV.XD:SH.UHC.SRVS.CV.XD{marker SH.UHC.SRVS.CV.XD}}}UHC service coverage index{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.VAC.TTNS.ZS:SH.VAC.TTNS.ZS{marker SH.VAC.TTNS.ZS}}}Newborns protected against tetanus (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.CHEX.GD.ZS:SH.XPD.CHEX.GD.ZS{marker SH.XPD.CHEX.GD.ZS}}}Current health expenditure (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.CHEX.PC.CD:SH.XPD.CHEX.PC.CD{marker SH.XPD.CHEX.PC.CD}}}Current health expenditure per capita (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.CHEX.PP.CD:SH.XPD.CHEX.PP.CD{marker SH.XPD.CHEX.PP.CD}}}Current health expenditure per capita, PPP (current international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.EHEX.CH.ZS:SH.XPD.EHEX.CH.ZS{marker SH.XPD.EHEX.CH.ZS}}}External health expenditure (% of current health expenditure){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.EHEX.PC.CD:SH.XPD.EHEX.PC.CD{marker SH.XPD.EHEX.PC.CD}}}External health expenditure per capita (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.EHEX.PP.CD:SH.XPD.EHEX.PP.CD{marker SH.XPD.EHEX.PP.CD}}}External health expenditure per capita, PPP (current international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.GHED.CH.ZS:SH.XPD.GHED.CH.ZS{marker SH.XPD.GHED.CH.ZS}}}Domestic general government health expenditure (% of current health expenditure){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.GHED.GD.ZS:SH.XPD.GHED.GD.ZS{marker SH.XPD.GHED.GD.ZS}}}Domestic general government health expenditure (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.GHED.GE.ZS:SH.XPD.GHED.GE.ZS{marker SH.XPD.GHED.GE.ZS}}}Domestic general government health expenditure (% of general government expenditure){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.GHED.PC.CD:SH.XPD.GHED.PC.CD{marker SH.XPD.GHED.PC.CD}}}Domestic general government health expenditure per capita (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.GHED.PP.CD:SH.XPD.GHED.PP.CD{marker SH.XPD.GHED.PP.CD}}}Domestic general government health expenditure per capita, PPP (current international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.OOPC.CH.ZS:SH.XPD.OOPC.CH.ZS{marker SH.XPD.OOPC.CH.ZS}}}Out-of-pocket expenditure (% of current health expenditure){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.OOPC.PC.CD:SH.XPD.OOPC.PC.CD{marker SH.XPD.OOPC.PC.CD}}}Out-of-pocket expenditure per capita (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.OOPC.PP.CD:SH.XPD.OOPC.PP.CD{marker SH.XPD.OOPC.PP.CD}}}Out-of-pocket expenditure per capita, PPP (current international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.PVTD.CH.ZS:SH.XPD.PVTD.CH.ZS{marker SH.XPD.PVTD.CH.ZS}}}Domestic private health expenditure (% of current health expenditure){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.PVTD.PC.CD:SH.XPD.PVTD.PC.CD{marker SH.XPD.PVTD.PC.CD}}}Domestic private health expenditure per capita (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.XPD.PVTD.PP.CD:SH.XPD.PVTD.PP.CD{marker SH.XPD.PVTD.PP.CD}}}Domestic private health expenditure per capita, PPP (current international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.DST.02ND.20:SI.DST.02ND.20{marker SI.DST.02ND.20}}}Income share held by second 20%{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.DST.03RD.20:SI.DST.03RD.20{marker SI.DST.03RD.20}}}Income share held by third 20%{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.DST.04TH.20:SI.DST.04TH.20{marker SI.DST.04TH.20}}}Income share held by fourth 20%{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.DST.05TH.20:SI.DST.05TH.20{marker SI.DST.05TH.20}}}Income share held by highest 20%{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.DST.10TH.10:SI.DST.10TH.10{marker SI.DST.10TH.10}}}Income share held by highest 10%{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.DST.FRST.10:SI.DST.FRST.10{marker SI.DST.FRST.10}}}Income share held by lowest 10%{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.DST.FRST.20:SI.DST.FRST.20{marker SI.DST.FRST.20}}}Income share held by lowest 20%{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.DDAY:SI.POV.DDAY{marker SI.POV.DDAY}}}Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.GAPS:SI.POV.GAPS{marker SI.POV.GAPS}}}Poverty gap at $1.90 a day (2011 PPP) (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.GINI:SI.POV.GINI{marker SI.POV.GINI}}}GINI index (World Bank estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.LMIC:SI.POV.LMIC{marker SI.POV.LMIC}}}Poverty headcount ratio at $3.20 a day (2011 PPP) (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.LMIC.GP:SI.POV.LMIC.GP{marker SI.POV.LMIC.GP}}}Poverty gap at $3.20 a day (2011 PPP) (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.NAGP:SI.POV.NAGP{marker SI.POV.NAGP}}}Poverty gap at national poverty lines (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.NAHC:SI.POV.NAHC{marker SI.POV.NAHC}}}Poverty headcount ratio at national poverty lines (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.RUGP:SI.POV.RUGP{marker SI.POV.RUGP}}}Rural poverty gap at national poverty lines (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.RUHC:SI.POV.RUHC{marker SI.POV.RUHC}}}Rural poverty headcount ratio at national poverty lines (% of rural population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.UMIC:SI.POV.UMIC{marker SI.POV.UMIC}}}Poverty headcount ratio at $5.50 a day (2011 PPP) (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.UMIC.GP:SI.POV.UMIC.GP{marker SI.POV.UMIC.GP}}}Poverty gap at $5.50 a day (2011 PPP) (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.URGP:SI.POV.URGP{marker SI.POV.URGP}}}Urban poverty gap at national poverty lines (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.URHC:SI.POV.URHC{marker SI.POV.URHC}}}Urban poverty headcount ratio at national poverty lines (% of urban population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.RMT.COST.IB.ZS:SI.RMT.COST.IB.ZS{marker SI.RMT.COST.IB.ZS}}}Average transaction cost of sending remittances to a specific country (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.RMT.COST.OB.ZS:SI.RMT.COST.OB.ZS{marker SI.RMT.COST.OB.ZS}}}Average transaction cost of sending remittances from a specific country (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.SPR.PC40:SI.SPR.PC40{marker SI.SPR.PC40}}}Survey mean consumption or income per capita, bottom 40% of population (2011 PPP $ per day){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.SPR.PC40.ZG:SI.SPR.PC40.ZG{marker SI.SPR.PC40.ZG}}}Annualized average growth rate in per capita real survey mean consumption or income, bottom 40% of population (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.SPR.PCAP:SI.SPR.PCAP{marker SI.SPR.PCAP}}}Survey mean consumption or income per capita, total population (2011 PPP $ per day){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.SPR.PCAP.ZG:SI.SPR.PCAP.ZG{marker SI.SPR.PCAP.ZG}}}Annualized average growth rate in per capita real survey mean consumption or income, total population (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.AGR.0714.FE.ZS:SL.AGR.0714.FE.ZS{marker SL.AGR.0714.FE.ZS}}}Child employment in agriculture, female (% of female economically active children ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.AGR.0714.MA.ZS:SL.AGR.0714.MA.ZS{marker SL.AGR.0714.MA.ZS}}}Child employment in agriculture, male (% of male economically active children ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.AGR.0714.ZS:SL.AGR.0714.ZS{marker SL.AGR.0714.ZS}}}Child employment in agriculture (% of economically active children ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.AGR.EMPL.FE.ZS:SL.AGR.EMPL.FE.ZS{marker SL.AGR.EMPL.FE.ZS}}}Employment in agriculture, female (% of female employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.AGR.EMPL.MA.ZS:SL.AGR.EMPL.MA.ZS{marker SL.AGR.EMPL.MA.ZS}}}Employment in agriculture, male (% of male employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.AGR.EMPL.ZS:SL.AGR.EMPL.ZS{marker SL.AGR.EMPL.ZS}}}Employment in agriculture (% of total employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.1524.SP.FE.NE.ZS:SL.EMP.1524.SP.FE.NE.ZS{marker SL.EMP.1524.SP.FE.NE.ZS}}}Employment to population ratio, ages 15-24, female (%) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.1524.SP.FE.ZS:SL.EMP.1524.SP.FE.ZS{marker SL.EMP.1524.SP.FE.ZS}}}Employment to population ratio, ages 15-24, female (%) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.1524.SP.MA.NE.ZS:SL.EMP.1524.SP.MA.NE.ZS{marker SL.EMP.1524.SP.MA.NE.ZS}}}Employment to population ratio, ages 15-24, male (%) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.1524.SP.MA.ZS:SL.EMP.1524.SP.MA.ZS{marker SL.EMP.1524.SP.MA.ZS}}}Employment to population ratio, ages 15-24, male (%) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.1524.SP.NE.ZS:SL.EMP.1524.SP.NE.ZS{marker SL.EMP.1524.SP.NE.ZS}}}Employment to population ratio, ages 15-24, total (%) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.1524.SP.ZS:SL.EMP.1524.SP.ZS{marker SL.EMP.1524.SP.ZS}}}Employment to population ratio, ages 15-24, total (%) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.MPYR.FE.ZS:SL.EMP.MPYR.FE.ZS{marker SL.EMP.MPYR.FE.ZS}}}Employers, female (% of female employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.MPYR.MA.ZS:SL.EMP.MPYR.MA.ZS{marker SL.EMP.MPYR.MA.ZS}}}Employers, male (% of male employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.MPYR.ZS:SL.EMP.MPYR.ZS{marker SL.EMP.MPYR.ZS}}}Employers, total (% of total employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.SELF.FE.ZS:SL.EMP.SELF.FE.ZS{marker SL.EMP.SELF.FE.ZS}}}Self-employed, female (% of female employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.SELF.MA.ZS:SL.EMP.SELF.MA.ZS{marker SL.EMP.SELF.MA.ZS}}}Self-employed, male (% of male employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.SELF.ZS:SL.EMP.SELF.ZS{marker SL.EMP.SELF.ZS}}}Self-employed, total (% of total employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.SMGT.FE.ZS:SL.EMP.SMGT.FE.ZS{marker SL.EMP.SMGT.FE.ZS}}}Female share of employment in senior and middle management (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.TOTL.SP.FE.NE.ZS:SL.EMP.TOTL.SP.FE.NE.ZS{marker SL.EMP.TOTL.SP.FE.NE.ZS}}}Employment to population ratio, 15+, female (%) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.TOTL.SP.FE.ZS:SL.EMP.TOTL.SP.FE.ZS{marker SL.EMP.TOTL.SP.FE.ZS}}}Employment to population ratio, 15+, female (%) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.TOTL.SP.MA.NE.ZS:SL.EMP.TOTL.SP.MA.NE.ZS{marker SL.EMP.TOTL.SP.MA.NE.ZS}}}Employment to population ratio, 15+, male (%) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.TOTL.SP.MA.ZS:SL.EMP.TOTL.SP.MA.ZS{marker SL.EMP.TOTL.SP.MA.ZS}}}Employment to population ratio, 15+, male (%) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.TOTL.SP.NE.ZS:SL.EMP.TOTL.SP.NE.ZS{marker SL.EMP.TOTL.SP.NE.ZS}}}Employment to population ratio, 15+, total (%) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.TOTL.SP.ZS:SL.EMP.TOTL.SP.ZS{marker SL.EMP.TOTL.SP.ZS}}}Employment to population ratio, 15+, total (%) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.VULN.FE.ZS:SL.EMP.VULN.FE.ZS{marker SL.EMP.VULN.FE.ZS}}}Vulnerable employment, female (% of female employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.VULN.MA.ZS:SL.EMP.VULN.MA.ZS{marker SL.EMP.VULN.MA.ZS}}}Vulnerable employment, male (% of male employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.VULN.ZS:SL.EMP.VULN.ZS{marker SL.EMP.VULN.ZS}}}Vulnerable employment, total (% of total employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.WORK.FE.ZS:SL.EMP.WORK.FE.ZS{marker SL.EMP.WORK.FE.ZS}}}Wage and salaried workers, female (% of female employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.WORK.MA.ZS:SL.EMP.WORK.MA.ZS{marker SL.EMP.WORK.MA.ZS}}}Wage and salaried workers, male (% of male employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.EMP.WORK.ZS:SL.EMP.WORK.ZS{marker SL.EMP.WORK.ZS}}}Wage and salaried workers, total (% of total employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.FAM.0714.FE.ZS:SL.FAM.0714.FE.ZS{marker SL.FAM.0714.FE.ZS}}}Children in employment, unpaid family workers, female (% of female children in employment, ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.FAM.0714.MA.ZS:SL.FAM.0714.MA.ZS{marker SL.FAM.0714.MA.ZS}}}Children in employment, unpaid family workers, male (% of male children in employment, ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.FAM.0714.ZS:SL.FAM.0714.ZS{marker SL.FAM.0714.ZS}}}Children in employment, unpaid family workers (% of children in employment, ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.FAM.WORK.FE.ZS:SL.FAM.WORK.FE.ZS{marker SL.FAM.WORK.FE.ZS}}}Contributing family workers, female (% of female employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.FAM.WORK.MA.ZS:SL.FAM.WORK.MA.ZS{marker SL.FAM.WORK.MA.ZS}}}Contributing family workers, male (% of male employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.FAM.WORK.ZS:SL.FAM.WORK.ZS{marker SL.FAM.WORK.ZS}}}Contributing family workers, total (% of total employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.GDP.PCAP.EM.KD:SL.GDP.PCAP.EM.KD{marker SL.GDP.PCAP.EM.KD}}}GDP per person employed (constant 2011 PPP $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.IND.EMPL.FE.ZS:SL.IND.EMPL.FE.ZS{marker SL.IND.EMPL.FE.ZS}}}Employment in industry, female (% of female employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.IND.EMPL.MA.ZS:SL.IND.EMPL.MA.ZS{marker SL.IND.EMPL.MA.ZS}}}Employment in industry, male (% of male employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.IND.EMPL.ZS:SL.IND.EMPL.ZS{marker SL.IND.EMPL.ZS}}}Employment in industry (% of total employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.ISV.IFRM.FE.ZS:SL.ISV.IFRM.FE.ZS{marker SL.ISV.IFRM.FE.ZS}}}Informal employment, female (% of total non-agricultural employment){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.ISV.IFRM.MA.ZS:SL.ISV.IFRM.MA.ZS{marker SL.ISV.IFRM.MA.ZS}}}Informal employment, male (% of total non-agricultural employment){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.ISV.IFRM.ZS:SL.ISV.IFRM.ZS{marker SL.ISV.IFRM.ZS}}}Informal employment (% of total non-agricultural employment){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.MNF.0714.FE.ZS:SL.MNF.0714.FE.ZS{marker SL.MNF.0714.FE.ZS}}}Child employment in manufacturing, female (% of female economically active children ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.MNF.0714.MA.ZS:SL.MNF.0714.MA.ZS{marker SL.MNF.0714.MA.ZS}}}Child employment in manufacturing, male (% of male economically active children ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.MNF.0714.ZS:SL.MNF.0714.ZS{marker SL.MNF.0714.ZS}}}Child employment in manufacturing (% of economically active children ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.SLF.0714.FE.ZS:SL.SLF.0714.FE.ZS{marker SL.SLF.0714.FE.ZS}}}Children in employment, self-employed, female (% of female children in employment, ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.SLF.0714.MA.ZS:SL.SLF.0714.MA.ZS{marker SL.SLF.0714.MA.ZS}}}Children in employment, self-employed, male (% of male children in employment, ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.SLF.0714.ZS:SL.SLF.0714.ZS{marker SL.SLF.0714.ZS}}}Children in employment, self-employed (% of children in employment, ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.SRV.0714.FE.ZS:SL.SRV.0714.FE.ZS{marker SL.SRV.0714.FE.ZS}}}Child employment in services, female (% of female economically active children ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.SRV.0714.MA.ZS:SL.SRV.0714.MA.ZS{marker SL.SRV.0714.MA.ZS}}}Child employment in services, male (% of male economically active children ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.SRV.0714.ZS:SL.SRV.0714.ZS{marker SL.SRV.0714.ZS}}}Child employment in services (% of economically active children ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.SRV.EMPL.FE.ZS:SL.SRV.EMPL.FE.ZS{marker SL.SRV.EMPL.FE.ZS}}}Employment in services, female (% of female employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.SRV.EMPL.MA.ZS:SL.SRV.EMPL.MA.ZS{marker SL.SRV.EMPL.MA.ZS}}}Employment in services, male (% of male employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.SRV.EMPL.ZS:SL.SRV.EMPL.ZS{marker SL.SRV.EMPL.ZS}}}Employment in services (% of total employment) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.0714.FE.ZS:SL.TLF.0714.FE.ZS{marker SL.TLF.0714.FE.ZS}}}Children in employment, female (% of female children ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.0714.MA.ZS:SL.TLF.0714.MA.ZS{marker SL.TLF.0714.MA.ZS}}}Children in employment, male (% of male children ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.0714.SW.FE.TM:SL.TLF.0714.SW.FE.TM{marker SL.TLF.0714.SW.FE.TM}}}Average working hours of children, study and work, female, ages 7-14 (hours per week){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.0714.SW.FE.ZS:SL.TLF.0714.SW.FE.ZS{marker SL.TLF.0714.SW.FE.ZS}}}Children in employment, study and work, female (% of female children in employment, ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.0714.SW.MA.TM:SL.TLF.0714.SW.MA.TM{marker SL.TLF.0714.SW.MA.TM}}}Average working hours of children, study and work, male, ages 7-14 (hours per week){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.0714.SW.MA.ZS:SL.TLF.0714.SW.MA.ZS{marker SL.TLF.0714.SW.MA.ZS}}}Children in employment, study and work, male (% of male children in employment, ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.0714.SW.TM:SL.TLF.0714.SW.TM{marker SL.TLF.0714.SW.TM}}}Average working hours of children, study and work, ages 7-14 (hours per week){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.0714.SW.ZS:SL.TLF.0714.SW.ZS{marker SL.TLF.0714.SW.ZS}}}Children in employment, study and work (% of children in employment, ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.0714.WK.FE.TM:SL.TLF.0714.WK.FE.TM{marker SL.TLF.0714.WK.FE.TM}}}Average working hours of children, working only, female, ages 7-14 (hours per week){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.0714.WK.FE.ZS:SL.TLF.0714.WK.FE.ZS{marker SL.TLF.0714.WK.FE.ZS}}}Children in employment, work only, female (% of female children in employment, ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.0714.WK.MA.TM:SL.TLF.0714.WK.MA.TM{marker SL.TLF.0714.WK.MA.TM}}}Average working hours of children, working only, male, ages 7-14 (hours per week){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.0714.WK.MA.ZS:SL.TLF.0714.WK.MA.ZS{marker SL.TLF.0714.WK.MA.ZS}}}Children in employment, work only, male (% of male children in employment, ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.0714.WK.TM:SL.TLF.0714.WK.TM{marker SL.TLF.0714.WK.TM}}}Average working hours of children, working only, ages 7-14 (hours per week){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.0714.WK.ZS:SL.TLF.0714.WK.ZS{marker SL.TLF.0714.WK.ZS}}}Children in employment, work only (% of children in employment, ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.0714.ZS:SL.TLF.0714.ZS{marker SL.TLF.0714.ZS}}}Children in employment, total (% of children ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.ACTI.1524.FE.NE.ZS:SL.TLF.ACTI.1524.FE.NE.ZS{marker SL.TLF.ACTI.1524.FE.NE.ZS}}}Labor force participation rate for ages 15-24, female (%) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.ACTI.1524.FE.ZS:SL.TLF.ACTI.1524.FE.ZS{marker SL.TLF.ACTI.1524.FE.ZS}}}Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.ACTI.1524.MA.NE.ZS:SL.TLF.ACTI.1524.MA.NE.ZS{marker SL.TLF.ACTI.1524.MA.NE.ZS}}}Labor force participation rate for ages 15-24, male (%) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.ACTI.1524.MA.ZS:SL.TLF.ACTI.1524.MA.ZS{marker SL.TLF.ACTI.1524.MA.ZS}}}Labor force participation rate for ages 15-24, male (%) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.ACTI.1524.NE.ZS:SL.TLF.ACTI.1524.NE.ZS{marker SL.TLF.ACTI.1524.NE.ZS}}}Labor force participation rate for ages 15-24, total (%) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.ACTI.1524.ZS:SL.TLF.ACTI.1524.ZS{marker SL.TLF.ACTI.1524.ZS}}}Labor force participation rate for ages 15-24, total (%) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.ACTI.FE.ZS:SL.TLF.ACTI.FE.ZS{marker SL.TLF.ACTI.FE.ZS}}}Labor force participation rate, female (% of female population ages 15-64) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.ACTI.MA.ZS:SL.TLF.ACTI.MA.ZS{marker SL.TLF.ACTI.MA.ZS}}}Labor force participation rate, male (% of male population ages 15-64) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.ACTI.ZS:SL.TLF.ACTI.ZS{marker SL.TLF.ACTI.ZS}}}Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.ADVN.FE.ZS:SL.TLF.ADVN.FE.ZS{marker SL.TLF.ADVN.FE.ZS}}}Labor force with advanced education, female (% of female working-age population with advanced education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.ADVN.MA.ZS:SL.TLF.ADVN.MA.ZS{marker SL.TLF.ADVN.MA.ZS}}}Labor force with advanced education, male (% of male working-age population with advanced education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.ADVN.ZS:SL.TLF.ADVN.ZS{marker SL.TLF.ADVN.ZS}}}Labor force with advanced education (% of total working-age population with advanced education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.BASC.FE.ZS:SL.TLF.BASC.FE.ZS{marker SL.TLF.BASC.FE.ZS}}}Labor force with basic education, female (% of female working-age population with basic education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.BASC.MA.ZS:SL.TLF.BASC.MA.ZS{marker SL.TLF.BASC.MA.ZS}}}Labor force with basic education, male (% of male working-age population with basic education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.BASC.ZS:SL.TLF.BASC.ZS{marker SL.TLF.BASC.ZS}}}Labor force with basic education (% of total working-age population with basic education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.CACT.FE.NE.ZS:SL.TLF.CACT.FE.NE.ZS{marker SL.TLF.CACT.FE.NE.ZS}}}Labor force participation rate, female (% of female population ages 15+) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.CACT.FE.ZS:SL.TLF.CACT.FE.ZS{marker SL.TLF.CACT.FE.ZS}}}Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.CACT.FM.NE.ZS:SL.TLF.CACT.FM.NE.ZS{marker SL.TLF.CACT.FM.NE.ZS}}}Ratio of female to male labor force participation rate (%) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.CACT.FM.ZS:SL.TLF.CACT.FM.ZS{marker SL.TLF.CACT.FM.ZS}}}Ratio of female to male labor force participation rate (%) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.CACT.MA.NE.ZS:SL.TLF.CACT.MA.NE.ZS{marker SL.TLF.CACT.MA.NE.ZS}}}Labor force participation rate, male (% of male population ages 15+) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.CACT.MA.ZS:SL.TLF.CACT.MA.ZS{marker SL.TLF.CACT.MA.ZS}}}Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.CACT.NE.ZS:SL.TLF.CACT.NE.ZS{marker SL.TLF.CACT.NE.ZS}}}Labor force participation rate, total (% of total population ages 15+) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.CACT.ZS:SL.TLF.CACT.ZS{marker SL.TLF.CACT.ZS}}}Labor force participation rate, total (% of total population ages 15+) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.INTM.FE.ZS:SL.TLF.INTM.FE.ZS{marker SL.TLF.INTM.FE.ZS}}}Labor force with intermediate education, female (% of female working-age population with intermediate education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.INTM.MA.ZS:SL.TLF.INTM.MA.ZS{marker SL.TLF.INTM.MA.ZS}}}Labor force with intermediate education, male (% of male working-age population with intermediate education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.INTM.ZS:SL.TLF.INTM.ZS{marker SL.TLF.INTM.ZS}}}Labor force with intermediate education (% of total working-age population with intermediate education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.PART.FE.ZS:SL.TLF.PART.FE.ZS{marker SL.TLF.PART.FE.ZS}}}Part time employment, female (% of total female employment){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.PART.MA.ZS:SL.TLF.PART.MA.ZS{marker SL.TLF.PART.MA.ZS}}}Part time employment, male (% of total male employment){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.PART.ZS:SL.TLF.PART.ZS{marker SL.TLF.PART.ZS}}}Part time employment, total (% of total employment){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.TOTL.FE.ZS:SL.TLF.TOTL.FE.ZS{marker SL.TLF.TOTL.FE.ZS}}}Labor force, female (% of total labor force){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.TLF.TOTL.IN:SL.TLF.TOTL.IN{marker SL.TLF.TOTL.IN}}}Labor force, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.1524.FE.NE.ZS:SL.UEM.1524.FE.NE.ZS{marker SL.UEM.1524.FE.NE.ZS}}}Unemployment, youth female (% of female labor force ages 15-24) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.1524.FE.ZS:SL.UEM.1524.FE.ZS{marker SL.UEM.1524.FE.ZS}}}Unemployment, youth female (% of female labor force ages 15-24) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.1524.MA.NE.ZS:SL.UEM.1524.MA.NE.ZS{marker SL.UEM.1524.MA.NE.ZS}}}Unemployment, youth male (% of male labor force ages 15-24) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.1524.MA.ZS:SL.UEM.1524.MA.ZS{marker SL.UEM.1524.MA.ZS}}}Unemployment, youth male (% of male labor force ages 15-24) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.1524.NE.ZS:SL.UEM.1524.NE.ZS{marker SL.UEM.1524.NE.ZS}}}Unemployment, youth total (% of total labor force ages 15-24) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.1524.ZS:SL.UEM.1524.ZS{marker SL.UEM.1524.ZS}}}Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.ADVN.FE.ZS:SL.UEM.ADVN.FE.ZS{marker SL.UEM.ADVN.FE.ZS}}}Unemployment with advanced education, female (% of female labor force with advanced education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.ADVN.MA.ZS:SL.UEM.ADVN.MA.ZS{marker SL.UEM.ADVN.MA.ZS}}}Unemployment with advanced education, male (% of male labor force with advanced education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.ADVN.ZS:SL.UEM.ADVN.ZS{marker SL.UEM.ADVN.ZS}}}Unemployment with advanced education (% of total labor force with advanced education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.BASC.FE.ZS:SL.UEM.BASC.FE.ZS{marker SL.UEM.BASC.FE.ZS}}}Unemployment with basic education, female (% of female labor force with basic education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.BASC.MA.ZS:SL.UEM.BASC.MA.ZS{marker SL.UEM.BASC.MA.ZS}}}Unemployment with basic education, male (% of male labor force with basic education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.BASC.ZS:SL.UEM.BASC.ZS{marker SL.UEM.BASC.ZS}}}Unemployment with basic education (% of total labor force with basic education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.INTM.FE.ZS:SL.UEM.INTM.FE.ZS{marker SL.UEM.INTM.FE.ZS}}}Unemployment with intermediate education, female (% of female labor force with intermediate education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.INTM.MA.ZS:SL.UEM.INTM.MA.ZS{marker SL.UEM.INTM.MA.ZS}}}Unemployment with intermediate education, male (% of male labor force with intermediate education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.INTM.ZS:SL.UEM.INTM.ZS{marker SL.UEM.INTM.ZS}}}Unemployment with intermediate education (% of total labor force with intermediate education){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.NEET.FE.ZS:SL.UEM.NEET.FE.ZS{marker SL.UEM.NEET.FE.ZS}}}Share of youth not in education, employment or training, female (% of female youth population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.NEET.MA.ZS:SL.UEM.NEET.MA.ZS{marker SL.UEM.NEET.MA.ZS}}}Share of youth not in education, employment or training, male (% of male youth population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.NEET.ZS:SL.UEM.NEET.ZS{marker SL.UEM.NEET.ZS}}}Share of youth not in education, employment or training, total (% of youth population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.TOTL.FE.NE.ZS:SL.UEM.TOTL.FE.NE.ZS{marker SL.UEM.TOTL.FE.NE.ZS}}}Unemployment, female (% of female labor force) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.TOTL.FE.ZS:SL.UEM.TOTL.FE.ZS{marker SL.UEM.TOTL.FE.ZS}}}Unemployment, female (% of female labor force) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.TOTL.MA.NE.ZS:SL.UEM.TOTL.MA.NE.ZS{marker SL.UEM.TOTL.MA.NE.ZS}}}Unemployment, male (% of male labor force) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.TOTL.MA.ZS:SL.UEM.TOTL.MA.ZS{marker SL.UEM.TOTL.MA.ZS}}}Unemployment, male (% of male labor force) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.TOTL.NE.ZS:SL.UEM.TOTL.NE.ZS{marker SL.UEM.TOTL.NE.ZS}}}Unemployment, total (% of total labor force) (national estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.UEM.TOTL.ZS:SL.UEM.TOTL.ZS{marker SL.UEM.TOTL.ZS}}}Unemployment, total (% of total labor force) (modeled ILO estimate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.WAG.0714.FE.ZS:SL.WAG.0714.FE.ZS{marker SL.WAG.0714.FE.ZS}}}Children in employment, wage workers, female (% of female children in employment, ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.WAG.0714.MA.ZS:SL.WAG.0714.MA.ZS{marker SL.WAG.0714.MA.ZS}}}Children in employment, wage workers, male (% of male children in employment, ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.WAG.0714.ZS:SL.WAG.0714.ZS{marker SL.WAG.0714.ZS}}}Children in employment, wage workers (% of children in employment, ages 7-14){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SM.POP.NETM:SM.POP.NETM{marker SM.POP.NETM}}}Net migration{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SM.POP.REFG:SM.POP.REFG{marker SM.POP.REFG}}}Refugee population by country or territory of asylum{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SM.POP.REFG.OR:SM.POP.REFG.OR{marker SM.POP.REFG.OR}}}Refugee population by country or territory of origin{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SM.POP.TOTL:SM.POP.TOTL{marker SM.POP.TOTL}}}International migrant stock, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SM.POP.TOTL.ZS:SM.POP.TOTL.ZS{marker SM.POP.TOTL.ZS}}}International migrant stock (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SN.ITK.DEFC.ZS:SN.ITK.DEFC.ZS{marker SN.ITK.DEFC.ZS}}}Prevalence of undernourishment (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SN.ITK.SALT.ZS:SN.ITK.SALT.ZS{marker SN.ITK.SALT.ZS}}}Consumption of iodized salt (% of households){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SN.ITK.VITA.ZS:SN.ITK.VITA.ZS{marker SN.ITK.VITA.ZS}}}Vitamin A supplementation coverage rate (% of children ages 6-59 months){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.ADO.TFRT:SP.ADO.TFRT{marker SP.ADO.TFRT}}}Adolescent fertility rate (births per 1,000 women ages 15-19){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DTH.INFR.ZS:SP.DTH.INFR.ZS{marker SP.DTH.INFR.ZS}}}Completeness of infant death reporting (% of reported infant deaths to estimated infant deaths){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DTH.REPT.ZS:SP.DTH.REPT.ZS{marker SP.DTH.REPT.ZS}}}Completeness of total death reporting (% of reported total deaths to estimated total deaths){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.AMRT.FE:SP.DYN.AMRT.FE{marker SP.DYN.AMRT.FE}}}Mortality rate, adult, female (per 1,000 female adults){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.AMRT.MA:SP.DYN.AMRT.MA{marker SP.DYN.AMRT.MA}}}Mortality rate, adult, male (per 1,000 male adults){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.CBRT.IN:SP.DYN.CBRT.IN{marker SP.DYN.CBRT.IN}}}Birth rate, crude (per 1,000 people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.CDRT.IN:SP.DYN.CDRT.IN{marker SP.DYN.CDRT.IN}}}Death rate, crude (per 1,000 people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.CONM.ZS:SP.DYN.CONM.ZS{marker SP.DYN.CONM.ZS}}}Contraceptive prevalence, modern methods (% of women ages 15-49){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.CONU.ZS:SP.DYN.CONU.ZS{marker SP.DYN.CONU.ZS}}}Contraceptive prevalence, any methods (% of women ages 15-49){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.IMRT.FE.IN:SP.DYN.IMRT.FE.IN{marker SP.DYN.IMRT.FE.IN}}}Mortality rate, infant, female (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.IMRT.IN:SP.DYN.IMRT.IN{marker SP.DYN.IMRT.IN}}}Mortality rate, infant (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.IMRT.MA.IN:SP.DYN.IMRT.MA.IN{marker SP.DYN.IMRT.MA.IN}}}Mortality rate, infant, male (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN{marker SP.DYN.LE00.FE.IN}}}Life expectancy at birth, female (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.LE00.IN:SP.DYN.LE00.IN{marker SP.DYN.LE00.IN}}}Life expectancy at birth, total (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.LE00.MA.IN:SP.DYN.LE00.MA.IN{marker SP.DYN.LE00.MA.IN}}}Life expectancy at birth, male (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.TFRT.IN:SP.DYN.TFRT.IN{marker SP.DYN.TFRT.IN}}}Fertility rate, total (births per woman){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.TO65.FE.ZS:SP.DYN.TO65.FE.ZS{marker SP.DYN.TO65.FE.ZS}}}Survival to age 65, female (% of cohort){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.TO65.MA.ZS:SP.DYN.TO65.MA.ZS{marker SP.DYN.TO65.MA.ZS}}}Survival to age 65, male (% of cohort){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.WFRT:SP.DYN.WFRT{marker SP.DYN.WFRT}}}Wanted fertility rate (births per woman){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.HOU.FEMA.ZS:SP.HOU.FEMA.ZS{marker SP.HOU.FEMA.ZS}}}Female headed households (% of households with a female head){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.M15.2024.FE.ZS:SP.M15.2024.FE.ZS{marker SP.M15.2024.FE.ZS}}}Women who were first married by age 15 (% of women ages 20-24){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.M18.2024.FE.ZS:SP.M18.2024.FE.ZS{marker SP.M18.2024.FE.ZS}}}Women who were first married by age 18 (% of women ages 20-24){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.MTR.1519.ZS:SP.MTR.1519.ZS{marker SP.MTR.1519.ZS}}}Teenage mothers (% of women ages 15-19 who have had children or are currently pregnant){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.0004.FE.5Y:SP.POP.0004.FE.5Y{marker SP.POP.0004.FE.5Y}}}Population ages 00-04, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.0004.MA.5Y:SP.POP.0004.MA.5Y{marker SP.POP.0004.MA.5Y}}}Population ages 00-04, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.0014.FE.IN:SP.POP.0014.FE.IN{marker SP.POP.0014.FE.IN}}}Population ages 0-14, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.0014.FE.ZS:SP.POP.0014.FE.ZS{marker SP.POP.0014.FE.ZS}}}Population ages 0-14, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.0014.MA.IN:SP.POP.0014.MA.IN{marker SP.POP.0014.MA.IN}}}Population ages 0-14, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.0014.MA.ZS:SP.POP.0014.MA.ZS{marker SP.POP.0014.MA.ZS}}}Population ages 0-14, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.0014.TO:SP.POP.0014.TO{marker SP.POP.0014.TO}}}Population ages 0-14, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.0014.TO.ZS:SP.POP.0014.TO.ZS{marker SP.POP.0014.TO.ZS}}}Population ages 0-14 (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.0509.FE.5Y:SP.POP.0509.FE.5Y{marker SP.POP.0509.FE.5Y}}}Population ages 05-09, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.0509.MA.5Y:SP.POP.0509.MA.5Y{marker SP.POP.0509.MA.5Y}}}Population ages 05-09, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.1014.FE.5Y:SP.POP.1014.FE.5Y{marker SP.POP.1014.FE.5Y}}}Population ages 10-14, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.1014.MA.5Y:SP.POP.1014.MA.5Y{marker SP.POP.1014.MA.5Y}}}Population ages 10-14, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.1519.FE.5Y:SP.POP.1519.FE.5Y{marker SP.POP.1519.FE.5Y}}}Population ages 15-19, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.1519.MA.5Y:SP.POP.1519.MA.5Y{marker SP.POP.1519.MA.5Y}}}Population ages 15-19, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.1564.FE.IN:SP.POP.1564.FE.IN{marker SP.POP.1564.FE.IN}}}Population ages 15-64, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.1564.FE.ZS:SP.POP.1564.FE.ZS{marker SP.POP.1564.FE.ZS}}}Population ages 15-64, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.1564.MA.IN:SP.POP.1564.MA.IN{marker SP.POP.1564.MA.IN}}}Population ages 15-64, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.1564.MA.ZS:SP.POP.1564.MA.ZS{marker SP.POP.1564.MA.ZS}}}Population ages 15-64, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.1564.TO:SP.POP.1564.TO{marker SP.POP.1564.TO}}}Population ages 15-64, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.1564.TO.ZS:SP.POP.1564.TO.ZS{marker SP.POP.1564.TO.ZS}}}Population ages 15-64 (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.2024.FE.5Y:SP.POP.2024.FE.5Y{marker SP.POP.2024.FE.5Y}}}Population ages 20-24, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.2024.MA.5Y:SP.POP.2024.MA.5Y{marker SP.POP.2024.MA.5Y}}}Population ages 20-24, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.2529.FE.5Y:SP.POP.2529.FE.5Y{marker SP.POP.2529.FE.5Y}}}Population ages 25-29, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.2529.MA.5Y:SP.POP.2529.MA.5Y{marker SP.POP.2529.MA.5Y}}}Population ages 25-29, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.3034.FE.5Y:SP.POP.3034.FE.5Y{marker SP.POP.3034.FE.5Y}}}Population ages 30-34, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.3034.MA.5Y:SP.POP.3034.MA.5Y{marker SP.POP.3034.MA.5Y}}}Population ages 30-34, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.3539.FE.5Y:SP.POP.3539.FE.5Y{marker SP.POP.3539.FE.5Y}}}Population ages 35-39, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.3539.MA.5Y:SP.POP.3539.MA.5Y{marker SP.POP.3539.MA.5Y}}}Population ages 35-39, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.4044.FE.5Y:SP.POP.4044.FE.5Y{marker SP.POP.4044.FE.5Y}}}Population ages 40-44, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.4044.MA.5Y:SP.POP.4044.MA.5Y{marker SP.POP.4044.MA.5Y}}}Population ages 40-44, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.4549.FE.5Y:SP.POP.4549.FE.5Y{marker SP.POP.4549.FE.5Y}}}Population ages 45-49, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.4549.MA.5Y:SP.POP.4549.MA.5Y{marker SP.POP.4549.MA.5Y}}}Population ages 45-49, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.5054.FE.5Y:SP.POP.5054.FE.5Y{marker SP.POP.5054.FE.5Y}}}Population ages 50-54, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.5054.MA.5Y:SP.POP.5054.MA.5Y{marker SP.POP.5054.MA.5Y}}}Population ages 50-54, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.5559.FE.5Y:SP.POP.5559.FE.5Y{marker SP.POP.5559.FE.5Y}}}Population ages 55-59, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.5559.MA.5Y:SP.POP.5559.MA.5Y{marker SP.POP.5559.MA.5Y}}}Population ages 55-59, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.6064.FE.5Y:SP.POP.6064.FE.5Y{marker SP.POP.6064.FE.5Y}}}Population ages 60-64, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.6064.MA.5Y:SP.POP.6064.MA.5Y{marker SP.POP.6064.MA.5Y}}}Population ages 60-64, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.6569.FE.5Y:SP.POP.6569.FE.5Y{marker SP.POP.6569.FE.5Y}}}Population ages 65-69, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.6569.MA.5Y:SP.POP.6569.MA.5Y{marker SP.POP.6569.MA.5Y}}}Population ages 65-69, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.65UP.FE.IN:SP.POP.65UP.FE.IN{marker SP.POP.65UP.FE.IN}}}Population ages 65 and above, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.65UP.FE.ZS:SP.POP.65UP.FE.ZS{marker SP.POP.65UP.FE.ZS}}}Population ages 65 and above, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.65UP.MA.IN:SP.POP.65UP.MA.IN{marker SP.POP.65UP.MA.IN}}}Population ages 65 and above, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.65UP.MA.ZS:SP.POP.65UP.MA.ZS{marker SP.POP.65UP.MA.ZS}}}Population ages 65 and above, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.65UP.TO:SP.POP.65UP.TO{marker SP.POP.65UP.TO}}}Population ages 65 and above, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.65UP.TO.ZS:SP.POP.65UP.TO.ZS{marker SP.POP.65UP.TO.ZS}}}Population ages 65 and above (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.7074.FE.5Y:SP.POP.7074.FE.5Y{marker SP.POP.7074.FE.5Y}}}Population ages 70-74, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.7074.MA.5Y:SP.POP.7074.MA.5Y{marker SP.POP.7074.MA.5Y}}}Population ages 70-74, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.7579.FE.5Y:SP.POP.7579.FE.5Y{marker SP.POP.7579.FE.5Y}}}Population ages 75-79, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.7579.MA.5Y:SP.POP.7579.MA.5Y{marker SP.POP.7579.MA.5Y}}}Population ages 75-79, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.80UP.FE.5Y:SP.POP.80UP.FE.5Y{marker SP.POP.80UP.FE.5Y}}}Population ages 80 and above, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.80UP.MA.5Y:SP.POP.80UP.MA.5Y{marker SP.POP.80UP.MA.5Y}}}Population ages 80 and above, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.BRTH.MF:SP.POP.BRTH.MF{marker SP.POP.BRTH.MF}}}Sex ratio at birth (male births per female births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.DPND:SP.POP.DPND{marker SP.POP.DPND}}}Age dependency ratio (% of working-age population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.DPND.OL:SP.POP.DPND.OL{marker SP.POP.DPND.OL}}}Age dependency ratio, old (% of working-age population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.DPND.YG:SP.POP.DPND.YG{marker SP.POP.DPND.YG}}}Age dependency ratio, young (% of working-age population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.GROW:SP.POP.GROW{marker SP.POP.GROW}}}Population growth (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.SCIE.RD.P6:SP.POP.SCIE.RD.P6{marker SP.POP.SCIE.RD.P6}}}Researchers in R&amp;D (per million people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.TECH.RD.P6:SP.POP.TECH.RD.P6{marker SP.POP.TECH.RD.P6}}}Technicians in R&amp;D (per million people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.TOTL:SP.POP.TOTL{marker SP.POP.TOTL}}}Population, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.TOTL.FE.IN:SP.POP.TOTL.FE.IN{marker SP.POP.TOTL.FE.IN}}}Population, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.TOTL.FE.ZS:SP.POP.TOTL.FE.ZS{marker SP.POP.TOTL.FE.ZS}}}Population, female (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.TOTL.MA.IN:SP.POP.TOTL.MA.IN{marker SP.POP.TOTL.MA.IN}}}Population, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.POP.TOTL.MA.ZS:SP.POP.TOTL.MA.ZS{marker SP.POP.TOTL.MA.ZS}}}Population, male (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.REG.BRTH.FE.ZS:SP.REG.BRTH.FE.ZS{marker SP.REG.BRTH.FE.ZS}}}Completeness of birth registration, female (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.REG.BRTH.MA.ZS:SP.REG.BRTH.MA.ZS{marker SP.REG.BRTH.MA.ZS}}}Completeness of birth registration, male (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.REG.BRTH.RU.ZS:SP.REG.BRTH.RU.ZS{marker SP.REG.BRTH.RU.ZS}}}Completeness of birth registration, rural (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.REG.BRTH.UR.ZS:SP.REG.BRTH.UR.ZS{marker SP.REG.BRTH.UR.ZS}}}Completeness of birth registration, urban (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.REG.BRTH.ZS:SP.REG.BRTH.ZS{marker SP.REG.BRTH.ZS}}}Completeness of birth registration (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.REG.DTHS.ZS:SP.REG.DTHS.ZS{marker SP.REG.DTHS.ZS}}}Completeness of death registration with cause-of-death information (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.RUR.TOTL:SP.RUR.TOTL{marker SP.RUR.TOTL}}}Rural population{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.RUR.TOTL.ZG:SP.RUR.TOTL.ZG{marker SP.RUR.TOTL.ZG}}}Rural population growth (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.RUR.TOTL.ZS:SP.RUR.TOTL.ZS{marker SP.RUR.TOTL.ZS}}}Rural population (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.URB.GROW:SP.URB.GROW{marker SP.URB.GROW}}}Urban population growth (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.URB.TOTL:SP.URB.TOTL{marker SP.URB.TOTL}}}Urban population{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.URB.TOTL.IN.ZS:SP.URB.TOTL.IN.ZS{marker SP.URB.TOTL.IN.ZS}}}Urban population (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.UWT.TFRT:SP.UWT.TFRT{marker SP.UWT.TFRT}}}Unmet need for contraception (% of married women ages 15-49){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ST.INT.ARVL:ST.INT.ARVL{marker ST.INT.ARVL}}}International tourism, number of arrivals{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ST.INT.DPRT:ST.INT.DPRT{marker ST.INT.DPRT}}}International tourism, number of departures{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ST.INT.RCPT.CD:ST.INT.RCPT.CD{marker ST.INT.RCPT.CD}}}International tourism, receipts (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ST.INT.RCPT.XP.ZS:ST.INT.RCPT.XP.ZS{marker ST.INT.RCPT.XP.ZS}}}International tourism, receipts (% of total exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ST.INT.TRNR.CD:ST.INT.TRNR.CD{marker ST.INT.TRNR.CD}}}International tourism, receipts for passenger transport items (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ST.INT.TRNX.CD:ST.INT.TRNX.CD{marker ST.INT.TRNX.CD}}}International tourism, expenditures for passenger transport items (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ST.INT.TVLR.CD:ST.INT.TVLR.CD{marker ST.INT.TVLR.CD}}}International tourism, receipts for travel items (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ST.INT.TVLX.CD:ST.INT.TVLX.CD{marker ST.INT.TVLX.CD}}}International tourism, expenditures for travel items (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ST.INT.XPND.CD:ST.INT.XPND.CD{marker ST.INT.XPND.CD}}}International tourism, expenditures (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_ST.INT.XPND.MP.ZS:ST.INT.XPND.MP.ZS{marker ST.INT.XPND.MP.ZS}}}International tourism, expenditures (% of total imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TG.VAL.TOTL.GD.ZS:TG.VAL.TOTL.GD.ZS{marker TG.VAL.TOTL.GD.ZS}}}Merchandise trade (% of GDP){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.QTY.MRCH.XD.WD:TM.QTY.MRCH.XD.WD{marker TM.QTY.MRCH.XD.WD}}}Import volume index (2000 = 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.MANF.BC.ZS:TM.TAX.MANF.BC.ZS{marker TM.TAX.MANF.BC.ZS}}}Binding coverage, manufactured products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.MANF.BR.ZS:TM.TAX.MANF.BR.ZS{marker TM.TAX.MANF.BR.ZS}}}Bound rate, simple mean, manufactured products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.MANF.IP.ZS:TM.TAX.MANF.IP.ZS{marker TM.TAX.MANF.IP.ZS}}}Share of tariff lines with international peaks, manufactured products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.MANF.SM.AR.ZS:TM.TAX.MANF.SM.AR.ZS{marker TM.TAX.MANF.SM.AR.ZS}}}Tariff rate, applied, simple mean, manufactured products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.MANF.SM.FN.ZS:TM.TAX.MANF.SM.FN.ZS{marker TM.TAX.MANF.SM.FN.ZS}}}Tariff rate, most favored nation, simple mean, manufactured products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.MANF.SR.ZS:TM.TAX.MANF.SR.ZS{marker TM.TAX.MANF.SR.ZS}}}Share of tariff lines with specific rates, manufactured products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.MANF.WM.AR.ZS:TM.TAX.MANF.WM.AR.ZS{marker TM.TAX.MANF.WM.AR.ZS}}}Tariff rate, applied, weighted mean, manufactured products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.MANF.WM.FN.ZS:TM.TAX.MANF.WM.FN.ZS{marker TM.TAX.MANF.WM.FN.ZS}}}Tariff rate, most favored nation, weighted mean, manufactured products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.MRCH.BC.ZS:TM.TAX.MRCH.BC.ZS{marker TM.TAX.MRCH.BC.ZS}}}Binding coverage, all products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.MRCH.BR.ZS:TM.TAX.MRCH.BR.ZS{marker TM.TAX.MRCH.BR.ZS}}}Bound rate, simple mean, all products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.MRCH.IP.ZS:TM.TAX.MRCH.IP.ZS{marker TM.TAX.MRCH.IP.ZS}}}Share of tariff lines with international peaks, all products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.MRCH.SM.AR.ZS:TM.TAX.MRCH.SM.AR.ZS{marker TM.TAX.MRCH.SM.AR.ZS}}}Tariff rate, applied, simple mean, all products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.MRCH.SM.FN.ZS:TM.TAX.MRCH.SM.FN.ZS{marker TM.TAX.MRCH.SM.FN.ZS}}}Tariff rate, most favored nation, simple mean, all products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.MRCH.SR.ZS:TM.TAX.MRCH.SR.ZS{marker TM.TAX.MRCH.SR.ZS}}}Share of tariff lines with specific rates, all products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.MRCH.WM.AR.ZS:TM.TAX.MRCH.WM.AR.ZS{marker TM.TAX.MRCH.WM.AR.ZS}}}Tariff rate, applied, weighted mean, all products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.MRCH.WM.FN.ZS:TM.TAX.MRCH.WM.FN.ZS{marker TM.TAX.MRCH.WM.FN.ZS}}}Tariff rate, most favored nation, weighted mean, all products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.TCOM.BC.ZS:TM.TAX.TCOM.BC.ZS{marker TM.TAX.TCOM.BC.ZS}}}Binding coverage, primary products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.TCOM.BR.ZS:TM.TAX.TCOM.BR.ZS{marker TM.TAX.TCOM.BR.ZS}}}Bound rate, simple mean, primary products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.TCOM.IP.ZS:TM.TAX.TCOM.IP.ZS{marker TM.TAX.TCOM.IP.ZS}}}Share of tariff lines with international peaks, primary products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.TCOM.SM.AR.ZS:TM.TAX.TCOM.SM.AR.ZS{marker TM.TAX.TCOM.SM.AR.ZS}}}Tariff rate, applied, simple mean, primary products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.TCOM.SM.FN.ZS:TM.TAX.TCOM.SM.FN.ZS{marker TM.TAX.TCOM.SM.FN.ZS}}}Tariff rate, most favored nation, simple mean, primary products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.TCOM.SR.ZS:TM.TAX.TCOM.SR.ZS{marker TM.TAX.TCOM.SR.ZS}}}Share of tariff lines with specific rates, primary products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.TCOM.WM.AR.ZS:TM.TAX.TCOM.WM.AR.ZS{marker TM.TAX.TCOM.WM.AR.ZS}}}Tariff rate, applied, weighted mean, primary products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.TAX.TCOM.WM.FN.ZS:TM.TAX.TCOM.WM.FN.ZS{marker TM.TAX.TCOM.WM.FN.ZS}}}Tariff rate, most favored nation, weighted mean, primary products (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.UVI.MRCH.XD.WD:TM.UVI.MRCH.XD.WD{marker TM.UVI.MRCH.XD.WD}}}Import unit value index (2000 = 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.AGRI.ZS.UN:TM.VAL.AGRI.ZS.UN{marker TM.VAL.AGRI.ZS.UN}}}Agricultural raw materials imports (% of merchandise imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.FOOD.ZS.UN:TM.VAL.FOOD.ZS.UN{marker TM.VAL.FOOD.ZS.UN}}}Food imports (% of merchandise imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.FUEL.ZS.UN:TM.VAL.FUEL.ZS.UN{marker TM.VAL.FUEL.ZS.UN}}}Fuel imports (% of merchandise imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.ICTG.ZS.UN:TM.VAL.ICTG.ZS.UN{marker TM.VAL.ICTG.ZS.UN}}}ICT goods imports (% total goods imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.INSF.ZS.WT:TM.VAL.INSF.ZS.WT{marker TM.VAL.INSF.ZS.WT}}}Insurance and financial services (% of commercial service imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.MANF.ZS.UN:TM.VAL.MANF.ZS.UN{marker TM.VAL.MANF.ZS.UN}}}Manufactures imports (% of merchandise imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.MMTL.ZS.UN:TM.VAL.MMTL.ZS.UN{marker TM.VAL.MMTL.ZS.UN}}}Ores and metals imports (% of merchandise imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.MRCH.AL.ZS:TM.VAL.MRCH.AL.ZS{marker TM.VAL.MRCH.AL.ZS}}}Merchandise imports from economies in the Arab World (% of total merchandise imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.MRCH.CD.WT:TM.VAL.MRCH.CD.WT{marker TM.VAL.MRCH.CD.WT}}}Merchandise imports (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.MRCH.HI.ZS:TM.VAL.MRCH.HI.ZS{marker TM.VAL.MRCH.HI.ZS}}}Merchandise imports from high-income economies (% of total merchandise imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.MRCH.OR.ZS:TM.VAL.MRCH.OR.ZS{marker TM.VAL.MRCH.OR.ZS}}}Merchandise imports from low- and middle-income economies outside region (% of total merchandise imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.MRCH.R1.ZS:TM.VAL.MRCH.R1.ZS{marker TM.VAL.MRCH.R1.ZS}}}Merchandise imports from low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.MRCH.R2.ZS:TM.VAL.MRCH.R2.ZS{marker TM.VAL.MRCH.R2.ZS}}}Merchandise imports from low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.MRCH.R3.ZS:TM.VAL.MRCH.R3.ZS{marker TM.VAL.MRCH.R3.ZS}}}Merchandise imports from low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.MRCH.R4.ZS:TM.VAL.MRCH.R4.ZS{marker TM.VAL.MRCH.R4.ZS}}}Merchandise imports from low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.MRCH.R5.ZS:TM.VAL.MRCH.R5.ZS{marker TM.VAL.MRCH.R5.ZS}}}Merchandise imports from low- and middle-income economies in South Asia (% of total merchandise imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.MRCH.R6.ZS:TM.VAL.MRCH.R6.ZS{marker TM.VAL.MRCH.R6.ZS}}}Merchandise imports from low- and middle-income economies in Sub-Saharan Africa (% of total merchandise imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.MRCH.RS.ZS:TM.VAL.MRCH.RS.ZS{marker TM.VAL.MRCH.RS.ZS}}}Merchandise imports by the reporting economy, residual (% of total merchandise imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.MRCH.WL.CD:TM.VAL.MRCH.WL.CD{marker TM.VAL.MRCH.WL.CD}}}Merchandise imports by the reporting economy (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.MRCH.WR.ZS:TM.VAL.MRCH.WR.ZS{marker TM.VAL.MRCH.WR.ZS}}}Merchandise imports from low- and middle-income economies within region (% of total merchandise imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.MRCH.XD.WD:TM.VAL.MRCH.XD.WD{marker TM.VAL.MRCH.XD.WD}}}Import value index (2000 = 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.OTHR.ZS.WT:TM.VAL.OTHR.ZS.WT{marker TM.VAL.OTHR.ZS.WT}}}Computer, communications and other services (% of commercial service imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.SERV.CD.WT:TM.VAL.SERV.CD.WT{marker TM.VAL.SERV.CD.WT}}}Commercial service imports (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.TRAN.ZS.WT:TM.VAL.TRAN.ZS.WT{marker TM.VAL.TRAN.ZS.WT}}}Transport services (% of commercial service imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TM.VAL.TRVL.ZS.WT:TM.VAL.TRVL.ZS.WT{marker TM.VAL.TRVL.ZS.WT}}}Travel services (% of commercial service imports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TT.PRI.MRCH.XD.WD:TT.PRI.MRCH.XD.WD{marker TT.PRI.MRCH.XD.WD}}}Net barter terms of trade index (2000 = 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.MNF.TECH.ZS.UN:TX.MNF.TECH.ZS.UN{marker TX.MNF.TECH.ZS.UN}}}Medium and high-tech exports (% manufactured exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.QTY.MRCH.XD.WD:TX.QTY.MRCH.XD.WD{marker TX.QTY.MRCH.XD.WD}}}Export volume index (2000 = 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.UVI.MRCH.XD.WD:TX.UVI.MRCH.XD.WD{marker TX.UVI.MRCH.XD.WD}}}Export unit value index (2000 = 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.AGRI.ZS.UN:TX.VAL.AGRI.ZS.UN{marker TX.VAL.AGRI.ZS.UN}}}Agricultural raw materials exports (% of merchandise exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.FOOD.ZS.UN:TX.VAL.FOOD.ZS.UN{marker TX.VAL.FOOD.ZS.UN}}}Food exports (% of merchandise exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.FUEL.ZS.UN:TX.VAL.FUEL.ZS.UN{marker TX.VAL.FUEL.ZS.UN}}}Fuel exports (% of merchandise exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.ICTG.ZS.UN:TX.VAL.ICTG.ZS.UN{marker TX.VAL.ICTG.ZS.UN}}}ICT goods exports (% of total goods exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.INSF.ZS.WT:TX.VAL.INSF.ZS.WT{marker TX.VAL.INSF.ZS.WT}}}Insurance and financial services (% of commercial service exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.MANF.ZS.UN:TX.VAL.MANF.ZS.UN{marker TX.VAL.MANF.ZS.UN}}}Manufactures exports (% of merchandise exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.MMTL.ZS.UN:TX.VAL.MMTL.ZS.UN{marker TX.VAL.MMTL.ZS.UN}}}Ores and metals exports (% of merchandise exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.MRCH.AL.ZS:TX.VAL.MRCH.AL.ZS{marker TX.VAL.MRCH.AL.ZS}}}Merchandise exports to economies in the Arab World (% of total merchandise exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.MRCH.CD.WT:TX.VAL.MRCH.CD.WT{marker TX.VAL.MRCH.CD.WT}}}Merchandise exports (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.MRCH.HI.ZS:TX.VAL.MRCH.HI.ZS{marker TX.VAL.MRCH.HI.ZS}}}Merchandise exports to high-income economies (% of total merchandise exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.MRCH.OR.ZS:TX.VAL.MRCH.OR.ZS{marker TX.VAL.MRCH.OR.ZS}}}Merchandise exports to low- and middle-income economies outside region (% of total merchandise exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.MRCH.R1.ZS:TX.VAL.MRCH.R1.ZS{marker TX.VAL.MRCH.R1.ZS}}}Merchandise exports to low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.MRCH.R2.ZS:TX.VAL.MRCH.R2.ZS{marker TX.VAL.MRCH.R2.ZS}}}Merchandise exports to low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.MRCH.R3.ZS:TX.VAL.MRCH.R3.ZS{marker TX.VAL.MRCH.R3.ZS}}}Merchandise exports to low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.MRCH.R4.ZS:TX.VAL.MRCH.R4.ZS{marker TX.VAL.MRCH.R4.ZS}}}Merchandise exports to low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.MRCH.R5.ZS:TX.VAL.MRCH.R5.ZS{marker TX.VAL.MRCH.R5.ZS}}}Merchandise exports to low- and middle-income economies in South Asia (% of total merchandise exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.MRCH.R6.ZS:TX.VAL.MRCH.R6.ZS{marker TX.VAL.MRCH.R6.ZS}}}Merchandise exports to low- and middle-income economies in Sub-Saharan Africa (% of total merchandise exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.MRCH.RS.ZS:TX.VAL.MRCH.RS.ZS{marker TX.VAL.MRCH.RS.ZS}}}Merchandise exports by the reporting economy, residual (% of total merchandise exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.MRCH.WL.CD:TX.VAL.MRCH.WL.CD{marker TX.VAL.MRCH.WL.CD}}}Merchandise exports by the reporting economy (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.MRCH.WR.ZS:TX.VAL.MRCH.WR.ZS{marker TX.VAL.MRCH.WR.ZS}}}Merchandise exports to low- and middle-income economies within region (% of total merchandise exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.MRCH.XD.WD:TX.VAL.MRCH.XD.WD{marker TX.VAL.MRCH.XD.WD}}}Export value index (2000 = 100){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.OTHR.ZS.WT:TX.VAL.OTHR.ZS.WT{marker TX.VAL.OTHR.ZS.WT}}}Computer, communications and other services (% of commercial service exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.SERV.CD.WT:TX.VAL.SERV.CD.WT{marker TX.VAL.SERV.CD.WT}}}Commercial service exports (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.TECH.CD:TX.VAL.TECH.CD{marker TX.VAL.TECH.CD}}}High-technology exports (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.TECH.MF.ZS:TX.VAL.TECH.MF.ZS{marker TX.VAL.TECH.MF.ZS}}}High-technology exports (% of manufactured exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.TRAN.ZS.WT:TX.VAL.TRAN.ZS.WT{marker TX.VAL.TRAN.ZS.WT}}}Transport services (% of commercial service exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_TX.VAL.TRVL.ZS.WT:TX.VAL.TRVL.ZS.WT{marker TX.VAL.TRVL.ZS.WT}}}Travel services (% of commercial service exports){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_VC.BTL.DETH:VC.BTL.DETH{marker VC.BTL.DETH}}}Battle-related deaths (number of people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_VC.IDP.NWCV:VC.IDP.NWCV{marker VC.IDP.NWCV}}}Internally displaced persons, new displacement associated with conflict and violence (number of cases){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_VC.IDP.NWDS:VC.IDP.NWDS{marker VC.IDP.NWDS}}}Internally displaced persons, new displacement associated with disasters (number of cases){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_VC.IDP.TOCV:VC.IDP.TOCV{marker VC.IDP.TOCV}}}Internally displaced persons, total displaced by conflict and violence (number of people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_VC.IHR.PSRC.FE.P5:VC.IHR.PSRC.FE.P5{marker VC.IHR.PSRC.FE.P5}}}Intentional homicides, female (per 100,000 female){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_VC.IHR.PSRC.MA.P5:VC.IHR.PSRC.MA.P5{marker VC.IHR.PSRC.MA.P5}}}Intentional homicides, male (per 100,000 male){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_VC.IHR.PSRC.P5:VC.IHR.PSRC.P5{marker VC.IHR.PSRC.P5}}}Intentional homicides (per 100,000 people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_VC.PKP.TOTL.UN:VC.PKP.TOTL.UN{marker VC.PKP.TOTL.UN}}}Presence of peace keepers (number of troops, police, and military observers in mandate){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_allsp.adq_pop_tot:per_allsp.adq_pop_tot{marker per_allsp.adq_pop_tot}}}Adequacy of social protection and labor programs (% of total welfare of beneficiary households){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_allsp.ben_q1_tot:per_allsp.ben_q1_tot{marker per_allsp.ben_q1_tot}}}Benefit incidence of social protection and labor programs to poorest quintile (% of total SPL benefits){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_allsp.cov_pop_tot:per_allsp.cov_pop_tot{marker per_allsp.cov_pop_tot}}}Coverage of social protection and labor programs (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_lm_alllm.adq_pop_tot:per_lm_alllm.adq_pop_tot{marker per_lm_alllm.adq_pop_tot}}}Adequacy of unemployment benefits and ALMP (% of total welfare of beneficiary households){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_lm_alllm.ben_q1_tot:per_lm_alllm.ben_q1_tot{marker per_lm_alllm.ben_q1_tot}}}Benefit incidence of unemployment benefits and ALMP to poorest quintile (% of total U/ALMP benefits){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_lm_alllm.cov_pop_tot:per_lm_alllm.cov_pop_tot{marker per_lm_alllm.cov_pop_tot}}}Coverage of unemployment benefits and ALMP (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_lm_alllm.cov_q1_tot:per_lm_alllm.cov_q1_tot{marker per_lm_alllm.cov_q1_tot}}}Coverage of unemployment benefits and ALMP in poorest quintile (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_lm_alllm.cov_q2_tot:per_lm_alllm.cov_q2_tot{marker per_lm_alllm.cov_q2_tot}}}Coverage of unemployment benefits and ALMP in 2nd quintile (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_lm_alllm.cov_q3_tot:per_lm_alllm.cov_q3_tot{marker per_lm_alllm.cov_q3_tot}}}Coverage of unemployment benefits and ALMP in 3rd quintile (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_lm_alllm.cov_q4_tot:per_lm_alllm.cov_q4_tot{marker per_lm_alllm.cov_q4_tot}}}Coverage of unemployment benefits and ALMP in 4th quintile (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_lm_alllm.cov_q5_tot:per_lm_alllm.cov_q5_tot{marker per_lm_alllm.cov_q5_tot}}}Coverage of unemployment benefits and ALMP in richest quintile (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_sa_allsa.adq_pop_tot:per_sa_allsa.adq_pop_tot{marker per_sa_allsa.adq_pop_tot}}}Adequacy of social safety net programs (% of total welfare of beneficiary households){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_sa_allsa.ben_q1_tot:per_sa_allsa.ben_q1_tot{marker per_sa_allsa.ben_q1_tot}}}Benefit incidence of social safety net programs to poorest quintile (% of total safety net benefits){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_sa_allsa.cov_pop_tot:per_sa_allsa.cov_pop_tot{marker per_sa_allsa.cov_pop_tot}}}Coverage of social safety net programs (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_sa_allsa.cov_q1_tot:per_sa_allsa.cov_q1_tot{marker per_sa_allsa.cov_q1_tot}}}Coverage of social safety net programs in poorest quintile (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_sa_allsa.cov_q2_tot:per_sa_allsa.cov_q2_tot{marker per_sa_allsa.cov_q2_tot}}}Coverage of social safety net programs in 2nd quintile (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_sa_allsa.cov_q3_tot:per_sa_allsa.cov_q3_tot{marker per_sa_allsa.cov_q3_tot}}}Coverage of social safety net programs in 3rd quintile (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_sa_allsa.cov_q4_tot:per_sa_allsa.cov_q4_tot{marker per_sa_allsa.cov_q4_tot}}}Coverage of social safety net programs in 4th quintile (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_sa_allsa.cov_q5_tot:per_sa_allsa.cov_q5_tot{marker per_sa_allsa.cov_q5_tot}}}Coverage of social safety net programs in richest quintile (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_si_allsi.adq_pop_tot:per_si_allsi.adq_pop_tot{marker per_si_allsi.adq_pop_tot}}}Adequacy of social insurance programs (% of total welfare of beneficiary households){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_si_allsi.ben_q1_tot:per_si_allsi.ben_q1_tot{marker per_si_allsi.ben_q1_tot}}}Benefit incidence of social insurance programs to poorest quintile (% of total social insurance benefits){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_si_allsi.cov_pop_tot:per_si_allsi.cov_pop_tot{marker per_si_allsi.cov_pop_tot}}}Coverage of social insurance programs (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_si_allsi.cov_q1_tot:per_si_allsi.cov_q1_tot{marker per_si_allsi.cov_q1_tot}}}Coverage of social insurance programs in poorest quintile (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_si_allsi.cov_q2_tot:per_si_allsi.cov_q2_tot{marker per_si_allsi.cov_q2_tot}}}Coverage of social insurance programs in 2nd quintile (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_si_allsi.cov_q3_tot:per_si_allsi.cov_q3_tot{marker per_si_allsi.cov_q3_tot}}}Coverage of social insurance programs in 3rd quintile (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_si_allsi.cov_q4_tot:per_si_allsi.cov_q4_tot{marker per_si_allsi.cov_q4_tot}}}Coverage of social insurance programs in 4th quintile (% of population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_per_si_allsi.cov_q5_tot:per_si_allsi.cov_q5_tot{marker per_si_allsi.cov_q5_tot}}}Coverage of social insurance programs in richest quintile (% of population){p_end}
+{synoptline}
+
+{marker sourceid_03}
+{p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_03:Source}} or {it:{help wbopendata_sourceid_indicators03##:TOC}}){p_end}
+{synoptset 40 tabbed}{...}
+{synopthdr:03 Worldwide Governance Indicators}
+{synoptline}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_CC.EST:CC.EST{marker CC.EST}}}Control of Corruption: Estimate{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_CC.NO.SRC:CC.NO.SRC{marker CC.NO.SRC}}}Control of Corruption: Number of Sources{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_CC.PER.RNK:CC.PER.RNK{marker CC.PER.RNK}}}Control of Corruption: Percentile Rank{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_CC.PER.RNK.LOWER:CC.PER.RNK.LOWER{marker CC.PER.RNK.LOWER}}}Control of Corruption: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_CC.PER.RNK.UPPER:CC.PER.RNK.UPPER{marker CC.PER.RNK.UPPER}}}Control of Corruption: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_CC.STD.ERR:CC.STD.ERR{marker CC.STD.ERR}}}Control of Corruption: Standard Error{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_GE.EST:GE.EST{marker GE.EST}}}Government Effectiveness: Estimate{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_GE.NO.SRC:GE.NO.SRC{marker GE.NO.SRC}}}Government Effectiveness: Number of Sources{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_GE.PER.RNK:GE.PER.RNK{marker GE.PER.RNK}}}Government Effectiveness: Percentile Rank{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_GE.PER.RNK.LOWER:GE.PER.RNK.LOWER{marker GE.PER.RNK.LOWER}}}Government Effectiveness: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_GE.PER.RNK.UPPER:GE.PER.RNK.UPPER{marker GE.PER.RNK.UPPER}}}Government Effectiveness: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_GE.STD.ERR:GE.STD.ERR{marker GE.STD.ERR}}}Government Effectiveness: Standard Error{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_PV.EST:PV.EST{marker PV.EST}}}Political Stability and Absence of Violence/Terrorism: Estimate{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_PV.NO.SRC:PV.NO.SRC{marker PV.NO.SRC}}}Political Stability and Absence of Violence/Terrorism: Number of Sources{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_PV.PER.RNK:PV.PER.RNK{marker PV.PER.RNK}}}Political Stability and Absence of Violence/Terrorism: Percentile Rank{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_PV.PER.RNK.LOWER:PV.PER.RNK.LOWER{marker PV.PER.RNK.LOWER}}}Political Stability and Absence of Violence/Terrorism: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_PV.PER.RNK.UPPER:PV.PER.RNK.UPPER{marker PV.PER.RNK.UPPER}}}Political Stability and Absence of Violence/Terrorism: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_PV.STD.ERR:PV.STD.ERR{marker PV.STD.ERR}}}Political Stability and Absence of Violence/Terrorism: Standard Error{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_RL.EST:RL.EST{marker RL.EST}}}Rule of Law: Estimate{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_RL.NO.SRC:RL.NO.SRC{marker RL.NO.SRC}}}Rule of Law: Number of Sources{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_RL.PER.RNK:RL.PER.RNK{marker RL.PER.RNK}}}Rule of Law: Percentile Rank{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_RL.PER.RNK.LOWER:RL.PER.RNK.LOWER{marker RL.PER.RNK.LOWER}}}Rule of Law: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_RL.PER.RNK.UPPER:RL.PER.RNK.UPPER{marker RL.PER.RNK.UPPER}}}Rule of Law: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_RL.STD.ERR:RL.STD.ERR{marker RL.STD.ERR}}}Rule of Law: Standard Error{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_RQ.EST:RQ.EST{marker RQ.EST}}}Regulatory Quality: Estimate{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_RQ.NO.SRC:RQ.NO.SRC{marker RQ.NO.SRC}}}Regulatory Quality: Number of Sources{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_RQ.PER.RNK:RQ.PER.RNK{marker RQ.PER.RNK}}}Regulatory Quality: Percentile Rank{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_RQ.PER.RNK.LOWER:RQ.PER.RNK.LOWER{marker RQ.PER.RNK.LOWER}}}Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_RQ.PER.RNK.UPPER:RQ.PER.RNK.UPPER{marker RQ.PER.RNK.UPPER}}}Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_RQ.STD.ERR:RQ.STD.ERR{marker RQ.STD.ERR}}}Regulatory Quality: Standard Error{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_VA.EST:VA.EST{marker VA.EST}}}Voice and Accountability: Estimate{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_VA.NO.SRC:VA.NO.SRC{marker VA.NO.SRC}}}Voice and Accountability: Number of Sources{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_VA.PER.RNK:VA.PER.RNK{marker VA.PER.RNK}}}Voice and Accountability: Percentile Rank{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_VA.PER.RNK.LOWER:VA.PER.RNK.LOWER{marker VA.PER.RNK.LOWER}}}Voice and Accountability: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_VA.PER.RNK.UPPER:VA.PER.RNK.UPPER{marker VA.PER.RNK.UPPER}}}Voice and Accountability: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators03##sourceid_VA.STD.ERR:VA.STD.ERR{marker VA.STD.ERR}}}Voice and Accountability: Standard Error{p_end}
+{synoptline}
+
+{marker sourceid_05}
+{p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_05:Source}} or {it:{help wbopendata_sourceid_indicators05##:TOC}}){p_end}
+{synoptset 40 tabbed}{...}
+{synopthdr:05 Subnational Malnutrition Database}
+{synoptline}
+
+{synopt:{help wbopendata_sourceid_indicators05##sourceid_SN.SH.STA.MALN.ZS:SN.SH.STA.MALN.ZS{marker SN.SH.STA.MALN.ZS}}}Sub-National Malnutrition prevalence, weight for age (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators05##sourceid_SN.SH.STA.OWGH.ZS:SN.SH.STA.OWGH.ZS{marker SN.SH.STA.OWGH.ZS}}}Sub-National Prevalence of overweight (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators05##sourceid_SN.SH.STA.STNT.ZS:SN.SH.STA.STNT.ZS{marker SN.SH.STA.STNT.ZS}}}Sub-National Malnutrition prevalence, height for age (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators05##sourceid_SN.SH.STA.WAST.ZS:SN.SH.STA.WAST.ZS{marker SN.SH.STA.WAST.ZS}}}Sub-National Prevalence of wasting (% of children under 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators05##sourceid_SN.SH.SVR.WAST.ZS:SN.SH.SVR.WAST.ZS{marker SN.SH.SVR.WAST.ZS}}}Sub-National Prevalence of severe wasting, weight for height (% of children under 5){p_end}
+{synoptline}
+
+{marker sourceid_06}
+{p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_06:Source}} or {it:{help wbopendata_sourceid_indicators06##:TOC}}){p_end}
+{synoptset 40 tabbed}{...}
+{synopthdr:06 International Debt Statistics}
+{synoptline}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_BX.GRT.EXTA.CD.DT:BX.GRT.EXTA.CD.DT{marker BX.GRT.EXTA.CD.DT}}}Grants, excluding technical cooperation (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_BX.GRT.TECH.CD.DT:BX.GRT.TECH.CD.DT{marker BX.GRT.TECH.CD.DT}}}Technical cooperation grants (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_BX.KLT.DINV.CD.DT:BX.KLT.DINV.CD.DT{marker BX.KLT.DINV.CD.DT}}}Foreign direct investment, net inflows in reporting economy (DRS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT{marker BX.KLT.DREM.CD.DT}}}Primary income on FDI, payments (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_BX.PEF.TOTL.CD.DT:BX.PEF.TOTL.CD.DT{marker BX.PEF.TOTL.CD.DT}}}Portfolio investment, equity (DRS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.BLAT.CD:DT.AMT.BLAT.CD{marker DT.AMT.BLAT.CD}}}PPG, bilateral (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.BLAT.GG.CD:DT.AMT.BLAT.GG.CD{marker DT.AMT.BLAT.GG.CD}}}GG, bilateral (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.BLAT.OPS.CD:DT.AMT.BLAT.OPS.CD{marker DT.AMT.BLAT.OPS.CD}}}OPS, bilateral (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.BLAT.PRVG.CD:DT.AMT.BLAT.PRVG.CD{marker DT.AMT.BLAT.PRVG.CD}}}PRVG, bilateral (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.BLAT.PS.CD:DT.AMT.BLAT.PS.CD{marker DT.AMT.BLAT.PS.CD}}}PS, bilateral (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.BLTC.CD:DT.AMT.BLTC.CD{marker DT.AMT.BLTC.CD}}}PPG, bilateral concessional (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.BLTC.GG.CD:DT.AMT.BLTC.GG.CD{marker DT.AMT.BLTC.GG.CD}}}GG, bilateral concessional (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.BLTC.OPS.CD:DT.AMT.BLTC.OPS.CD{marker DT.AMT.BLTC.OPS.CD}}}OPS, bilateral concessional (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.BLTC.PRVG.CD:DT.AMT.BLTC.PRVG.CD{marker DT.AMT.BLTC.PRVG.CD}}}PRVG, bilateral concessional (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.BLTC.PS.CD:DT.AMT.BLTC.PS.CD{marker DT.AMT.BLTC.PS.CD}}}PS, bilateral concessional (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.DEGG.CD:DT.AMT.DEGG.CD{marker DT.AMT.DEGG.CD}}}Principal repayments on external debt, general government sector (PPG) (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.DEPS.CD:DT.AMT.DEPS.CD{marker DT.AMT.DEPS.CD}}}Principal repayments on external debt, public sector (PPG) (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.DIMF.CD:DT.AMT.DIMF.CD{marker DT.AMT.DIMF.CD}}}IMF repurchases (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.DLTF.CD:DT.AMT.DLTF.CD{marker DT.AMT.DLTF.CD}}}Principal repayments on external debt, long-term + IMF (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.DLXF.CD:DT.AMT.DLXF.CD{marker DT.AMT.DLXF.CD}}}Principal repayments on external debt, long-term (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.DOPS.CD:DT.AMT.DOPS.CD{marker DT.AMT.DOPS.CD}}}Principal repayments on external debt, other public sector (PPG) (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.DPNG.CD:DT.AMT.DPNG.CD{marker DT.AMT.DPNG.CD}}}Principal repayments on external debt, private nonguaranteed (PNG) (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.DPPG.CD:DT.AMT.DPPG.CD{marker DT.AMT.DPPG.CD}}}Principal repayments on external debt, public and publicly guaranteed (PPG) (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.MIBR.CD:DT.AMT.MIBR.CD{marker DT.AMT.MIBR.CD}}}PPG, IBRD (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.MIDA.CD:DT.AMT.MIDA.CD{marker DT.AMT.MIDA.CD}}}PPG, IDA (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.MLAT.CD:DT.AMT.MLAT.CD{marker DT.AMT.MLAT.CD}}}PPG, multilateral (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.MLAT.GG.CD:DT.AMT.MLAT.GG.CD{marker DT.AMT.MLAT.GG.CD}}}GG, multilateral (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.MLAT.OPS.CD:DT.AMT.MLAT.OPS.CD{marker DT.AMT.MLAT.OPS.CD}}}OPS, multilateral (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.MLAT.PRVG.CD:DT.AMT.MLAT.PRVG.CD{marker DT.AMT.MLAT.PRVG.CD}}}PRVG, multilateral (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.MLAT.PS.CD:DT.AMT.MLAT.PS.CD{marker DT.AMT.MLAT.PS.CD}}}PS, multilateral (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.MLTC.CD:DT.AMT.MLTC.CD{marker DT.AMT.MLTC.CD}}}PPG, multilateral concessional (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.MLTC.GG.CD:DT.AMT.MLTC.GG.CD{marker DT.AMT.MLTC.GG.CD}}}GG, multilateral concessional (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.MLTC.OPS.CD:DT.AMT.MLTC.OPS.CD{marker DT.AMT.MLTC.OPS.CD}}}OPS, multilateral concessional (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.MLTC.PRVG.CD:DT.AMT.MLTC.PRVG.CD{marker DT.AMT.MLTC.PRVG.CD}}}PRVG, multilateral concessional (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.MLTC.PS.CD:DT.AMT.MLTC.PS.CD{marker DT.AMT.MLTC.PS.CD}}}PS, multilateral concessional (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.OFFT.CD:DT.AMT.OFFT.CD{marker DT.AMT.OFFT.CD}}}PPG, official creditors (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.OFFT.GG.CD:DT.AMT.OFFT.GG.CD{marker DT.AMT.OFFT.GG.CD}}}GG, official creditors (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.OFFT.OPS.CD:DT.AMT.OFFT.OPS.CD{marker DT.AMT.OFFT.OPS.CD}}}OPS, official creditors (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.OFFT.PRVG.CD:DT.AMT.OFFT.PRVG.CD{marker DT.AMT.OFFT.PRVG.CD}}}PRVG, official creditors (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.OFFT.PS.CD:DT.AMT.OFFT.PS.CD{marker DT.AMT.OFFT.PS.CD}}}PS, official creditors (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PBND.CD:DT.AMT.PBND.CD{marker DT.AMT.PBND.CD}}}PPG, bonds (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PBND.GG.CD:DT.AMT.PBND.GG.CD{marker DT.AMT.PBND.GG.CD}}}GG, bonds (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PBND.OPS.CD:DT.AMT.PBND.OPS.CD{marker DT.AMT.PBND.OPS.CD}}}OPS, bonds (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PBND.PRVG.CD:DT.AMT.PBND.PRVG.CD{marker DT.AMT.PBND.PRVG.CD}}}PRVG, bonds (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PBND.PS.CD:DT.AMT.PBND.PS.CD{marker DT.AMT.PBND.PS.CD}}}PS, bonds (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PCBK.CD:DT.AMT.PCBK.CD{marker DT.AMT.PCBK.CD}}}PPG, commercial banks (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PCBK.GG.CD:DT.AMT.PCBK.GG.CD{marker DT.AMT.PCBK.GG.CD}}}GG, commercial banks (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PCBK.OPS.CD:DT.AMT.PCBK.OPS.CD{marker DT.AMT.PCBK.OPS.CD}}}OPS, commercial banks (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PCBK.PRVG.CD:DT.AMT.PCBK.PRVG.CD{marker DT.AMT.PCBK.PRVG.CD}}}PRVG, commercial banks (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PCBK.PS.CD:DT.AMT.PCBK.PS.CD{marker DT.AMT.PCBK.PS.CD}}}PS, commercial banks (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PNGB.CD:DT.AMT.PNGB.CD{marker DT.AMT.PNGB.CD}}}PNG, bonds (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PNGC.CD:DT.AMT.PNGC.CD{marker DT.AMT.PNGC.CD}}}PNG, commercial banks and other creditors (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PROP.CD:DT.AMT.PROP.CD{marker DT.AMT.PROP.CD}}}PPG, other private creditors (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PROP.GG.CD:DT.AMT.PROP.GG.CD{marker DT.AMT.PROP.GG.CD}}}GG, other private creditors (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PROP.OPS.CD:DT.AMT.PROP.OPS.CD{marker DT.AMT.PROP.OPS.CD}}}OPS, other private creditors (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PROP.PRVG.CD:DT.AMT.PROP.PRVG.CD{marker DT.AMT.PROP.PRVG.CD}}}PRVG, other private creditors (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PROP.PS.CD:DT.AMT.PROP.PS.CD{marker DT.AMT.PROP.PS.CD}}}PS, other private creditors (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PRPG.CD:DT.AMT.PRPG.CD{marker DT.AMT.PRPG.CD}}}Principal repayments on external debt, private guaranteed by public sector (PPG) (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PRVT.CD:DT.AMT.PRVT.CD{marker DT.AMT.PRVT.CD}}}PPG, private creditors (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PRVT.GG.CD:DT.AMT.PRVT.GG.CD{marker DT.AMT.PRVT.GG.CD}}}GG, private creditors (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PRVT.OPS.CD:DT.AMT.PRVT.OPS.CD{marker DT.AMT.PRVT.OPS.CD}}}OPS, private creditors (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PRVT.PRVG.CD:DT.AMT.PRVT.PRVG.CD{marker DT.AMT.PRVT.PRVG.CD}}}PRVG, private creditors (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AMT.PRVT.PS.CD:DT.AMT.PRVT.PS.CD{marker DT.AMT.PRVT.PS.CD}}}PS, private creditors (AMT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AXA.DPPG.CD:DT.AXA.DPPG.CD{marker DT.AXA.DPPG.CD}}}Principal arrears, long-term DOD (US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AXA.OFFT.CD:DT.AXA.OFFT.CD{marker DT.AXA.OFFT.CD}}}Principal arrears, official creditors (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AXA.PRVT.CD:DT.AXA.PRVT.CD{marker DT.AXA.PRVT.CD}}}Principal arrears, private creditors (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AXF.DPPG.CD:DT.AXF.DPPG.CD{marker DT.AXF.DPPG.CD}}}Principal forgiven (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AXR.DPPG.CD:DT.AXR.DPPG.CD{marker DT.AXR.DPPG.CD}}}Principal rescheduled (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AXR.OFFT.CD:DT.AXR.OFFT.CD{marker DT.AXR.OFFT.CD}}}Principal rescheduled, official (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.AXR.PRVT.CD:DT.AXR.PRVT.CD{marker DT.AXR.PRVT.CD}}}Principal rescheduled, private (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.COM.BLAT.CD:DT.COM.BLAT.CD{marker DT.COM.BLAT.CD}}}Commitments, bilateral creditors (COM, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.COM.DPPG.CD:DT.COM.DPPG.CD{marker DT.COM.DPPG.CD}}}Commitments, public and publicly guaranteed (COM, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.COM.MIBR.CD:DT.COM.MIBR.CD{marker DT.COM.MIBR.CD}}}Commitments, IBRD (COM, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.COM.MIDA.CD:DT.COM.MIDA.CD{marker DT.COM.MIDA.CD}}}Commitments, IDA (COM, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.COM.MLAT.CD:DT.COM.MLAT.CD{marker DT.COM.MLAT.CD}}}Commitments, multilateral creditors (COM, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.COM.OFFT.CD:DT.COM.OFFT.CD{marker DT.COM.OFFT.CD}}}Commitments, official creditors (COM, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.COM.PRVT.CD:DT.COM.PRVT.CD{marker DT.COM.PRVT.CD}}}Commitments, private creditors (COM, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.CUR.DMAK.ZS:DT.CUR.DMAK.ZS{marker DT.CUR.DMAK.ZS}}}Currency composition of PPG debt, Deutsche mark (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.CUR.EURO.ZS:DT.CUR.EURO.ZS{marker DT.CUR.EURO.ZS}}}Currency composition of PPG debt, Euro (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.CUR.FFRC.ZS:DT.CUR.FFRC.ZS{marker DT.CUR.FFRC.ZS}}}Currency composition of PPG debt, French franc (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.CUR.JYEN.ZS:DT.CUR.JYEN.ZS{marker DT.CUR.JYEN.ZS}}}Currency composition of PPG debt, Japanese yen (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.CUR.MULC.ZS:DT.CUR.MULC.ZS{marker DT.CUR.MULC.ZS}}}Currency composition of PPG debt, Multiple currencies (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.CUR.OTHC.ZS:DT.CUR.OTHC.ZS{marker DT.CUR.OTHC.ZS}}}Currency composition of PPG debt, all other currencies (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.CUR.SDRW.ZS:DT.CUR.SDRW.ZS{marker DT.CUR.SDRW.ZS}}}Currency composition of PPG debt, SDR (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.CUR.SWFR.ZS:DT.CUR.SWFR.ZS{marker DT.CUR.SWFR.ZS}}}Currency composition of PPG debt, Swiss franc (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.CUR.UKPS.ZS:DT.CUR.UKPS.ZS{marker DT.CUR.UKPS.ZS}}}Currency composition of PPG debt, Pound sterling (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.CUR.USDL.ZS:DT.CUR.USDL.ZS{marker DT.CUR.USDL.ZS}}}Currency composition of PPG debt, U.S. dollars (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DFR.DPPG.CD:DT.DFR.DPPG.CD{marker DT.DFR.DPPG.CD}}}Debt forgiveness or reduction (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.BLAT.CD:DT.DIS.BLAT.CD{marker DT.DIS.BLAT.CD}}}PPG, bilateral (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.BLAT.GG.CD:DT.DIS.BLAT.GG.CD{marker DT.DIS.BLAT.GG.CD}}}GG, bilateral (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.BLAT.OPS.CD:DT.DIS.BLAT.OPS.CD{marker DT.DIS.BLAT.OPS.CD}}}OPS, bilateral (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.BLAT.PRVG.CD:DT.DIS.BLAT.PRVG.CD{marker DT.DIS.BLAT.PRVG.CD}}}PRVG, bilateral (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.BLAT.PS.CD:DT.DIS.BLAT.PS.CD{marker DT.DIS.BLAT.PS.CD}}}PS, bilateral (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.BLTC.CD:DT.DIS.BLTC.CD{marker DT.DIS.BLTC.CD}}}PPG, bilateral concessional (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.BLTC.GG.CD:DT.DIS.BLTC.GG.CD{marker DT.DIS.BLTC.GG.CD}}}GG, bilateral concessional (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.BLTC.OPS.CD:DT.DIS.BLTC.OPS.CD{marker DT.DIS.BLTC.OPS.CD}}}OPS, bilateral concessional (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.BLTC.PRVG.CD:DT.DIS.BLTC.PRVG.CD{marker DT.DIS.BLTC.PRVG.CD}}}PRVG, bilateral concessional (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.BLTC.PS.CD:DT.DIS.BLTC.PS.CD{marker DT.DIS.BLTC.PS.CD}}}PS, bilateral concessional (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.DEGG.CD:DT.DIS.DEGG.CD{marker DT.DIS.DEGG.CD}}}Disbursements on external debt, general government sector (PPG) (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.DEPS.CD:DT.DIS.DEPS.CD{marker DT.DIS.DEPS.CD}}}Disbursements on external debt, public sector (PPG) (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.DIMF.CD:DT.DIS.DIMF.CD{marker DT.DIS.DIMF.CD}}}IMF purchases (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.DLTF.CD:DT.DIS.DLTF.CD{marker DT.DIS.DLTF.CD}}}Disbursements on external debt, long-term + IMF (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.DLXF.CD:DT.DIS.DLXF.CD{marker DT.DIS.DLXF.CD}}}Disbursements on external debt, long-term (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.DOPS.CD:DT.DIS.DOPS.CD{marker DT.DIS.DOPS.CD}}}Disbursements on external debt, other public sector (PPG) (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.DPNG.CD:DT.DIS.DPNG.CD{marker DT.DIS.DPNG.CD}}}Disbursements on external debt, private nonguaranteed (PNG) (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.DPPG.CD:DT.DIS.DPPG.CD{marker DT.DIS.DPPG.CD}}}Disbursements on external debt, public and publicly guaranteed (PPG) (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.IDAG.CD:DT.DIS.IDAG.CD{marker DT.DIS.IDAG.CD}}}IDA grants (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.MIBR.CD:DT.DIS.MIBR.CD{marker DT.DIS.MIBR.CD}}}PPG, IBRD (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.MIDA.CD:DT.DIS.MIDA.CD{marker DT.DIS.MIDA.CD}}}PPG, IDA (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.MLAT.CD:DT.DIS.MLAT.CD{marker DT.DIS.MLAT.CD}}}PPG, multilateral (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.MLAT.GG.CD:DT.DIS.MLAT.GG.CD{marker DT.DIS.MLAT.GG.CD}}}GG, multilateral (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.MLAT.OPS.CD:DT.DIS.MLAT.OPS.CD{marker DT.DIS.MLAT.OPS.CD}}}OPS, multilateral (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.MLAT.PRVG.CD:DT.DIS.MLAT.PRVG.CD{marker DT.DIS.MLAT.PRVG.CD}}}PRVG, multilateral (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.MLAT.PS.CD:DT.DIS.MLAT.PS.CD{marker DT.DIS.MLAT.PS.CD}}}PS, multilateral (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.MLTC.CD:DT.DIS.MLTC.CD{marker DT.DIS.MLTC.CD}}}PPG, multilateral concessional (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.MLTC.GG.CD:DT.DIS.MLTC.GG.CD{marker DT.DIS.MLTC.GG.CD}}}GG, multilateral concessional (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.MLTC.OPS.CD:DT.DIS.MLTC.OPS.CD{marker DT.DIS.MLTC.OPS.CD}}}OPS, multilateral concessional (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.MLTC.PRVG.CD:DT.DIS.MLTC.PRVG.CD{marker DT.DIS.MLTC.PRVG.CD}}}PRVG, multilateral concessional (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.MLTC.PS.CD:DT.DIS.MLTC.PS.CD{marker DT.DIS.MLTC.PS.CD}}}PS, multilateral concessional (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.OFFT.CD:DT.DIS.OFFT.CD{marker DT.DIS.OFFT.CD}}}PPG, official creditors (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.OFFT.GG.CD:DT.DIS.OFFT.GG.CD{marker DT.DIS.OFFT.GG.CD}}}GG, official creditors (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.OFFT.OPS.CD:DT.DIS.OFFT.OPS.CD{marker DT.DIS.OFFT.OPS.CD}}}OPS, official creditors (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.OFFT.PRVG.CD:DT.DIS.OFFT.PRVG.CD{marker DT.DIS.OFFT.PRVG.CD}}}PRVG, official creditors (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.OFFT.PS.CD:DT.DIS.OFFT.PS.CD{marker DT.DIS.OFFT.PS.CD}}}PS, official creditors (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PBND.CD:DT.DIS.PBND.CD{marker DT.DIS.PBND.CD}}}PPG, bonds (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PBND.GG.CD:DT.DIS.PBND.GG.CD{marker DT.DIS.PBND.GG.CD}}}GG, bonds (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PBND.OPS.CD:DT.DIS.PBND.OPS.CD{marker DT.DIS.PBND.OPS.CD}}}OPS, bonds (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PBND.PRVG.CD:DT.DIS.PBND.PRVG.CD{marker DT.DIS.PBND.PRVG.CD}}}PRVG, bonds (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PBND.PS.CD:DT.DIS.PBND.PS.CD{marker DT.DIS.PBND.PS.CD}}}PS, bonds (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PCBK.CD:DT.DIS.PCBK.CD{marker DT.DIS.PCBK.CD}}}PPG, commercial banks (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PCBK.GG.CD:DT.DIS.PCBK.GG.CD{marker DT.DIS.PCBK.GG.CD}}}GG, commercial banks (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PCBK.OPS.CD:DT.DIS.PCBK.OPS.CD{marker DT.DIS.PCBK.OPS.CD}}}OPS, commercial banks (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PCBK.PRVG.CD:DT.DIS.PCBK.PRVG.CD{marker DT.DIS.PCBK.PRVG.CD}}}PRVG, commercial banks (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PCBK.PS.CD:DT.DIS.PCBK.PS.CD{marker DT.DIS.PCBK.PS.CD}}}PS, commercial banks (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PNGB.CD:DT.DIS.PNGB.CD{marker DT.DIS.PNGB.CD}}}PNG, bonds (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PNGC.CD:DT.DIS.PNGC.CD{marker DT.DIS.PNGC.CD}}}PNG, commercial banks and other creditors (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PROP.CD:DT.DIS.PROP.CD{marker DT.DIS.PROP.CD}}}PPG, other private creditors (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PROP.GG.CD:DT.DIS.PROP.GG.CD{marker DT.DIS.PROP.GG.CD}}}GG, other private creditors (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PROP.OPS.CD:DT.DIS.PROP.OPS.CD{marker DT.DIS.PROP.OPS.CD}}}OPS, other private creditors (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PROP.PRVG.CD:DT.DIS.PROP.PRVG.CD{marker DT.DIS.PROP.PRVG.CD}}}PRVG, other private creditors (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PROP.PS.CD:DT.DIS.PROP.PS.CD{marker DT.DIS.PROP.PS.CD}}}PS, other private creditors (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PRPG.CD:DT.DIS.PRPG.CD{marker DT.DIS.PRPG.CD}}}Disbursements on external debt, private guaranteed by public sector (PPG) (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PRVT.CD:DT.DIS.PRVT.CD{marker DT.DIS.PRVT.CD}}}PPG, private creditors (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PRVT.GG.CD:DT.DIS.PRVT.GG.CD{marker DT.DIS.PRVT.GG.CD}}}GG, private creditors (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PRVT.OPS.CD:DT.DIS.PRVT.OPS.CD{marker DT.DIS.PRVT.OPS.CD}}}OPS, private creditors (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PRVT.PRVG.CD:DT.DIS.PRVT.PRVG.CD{marker DT.DIS.PRVT.PRVG.CD}}}PRVG, private creditors (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DIS.PRVT.PS.CD:DT.DIS.PRVT.PS.CD{marker DT.DIS.PRVT.PS.CD}}}PS, private creditors (DIS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.ALLC.CD:DT.DOD.ALLC.CD{marker DT.DOD.ALLC.CD}}}External debt stocks, concessional (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.ALLC.ZS:DT.DOD.ALLC.ZS{marker DT.DOD.ALLC.ZS}}}Concessional debt (% of total external debt){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.BLAT.CD:DT.DOD.BLAT.CD{marker DT.DOD.BLAT.CD}}}PPG, bilateral (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.BLAT.GG.CD:DT.DOD.BLAT.GG.CD{marker DT.DOD.BLAT.GG.CD}}}GG, bilateral (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.BLAT.OPS.CD:DT.DOD.BLAT.OPS.CD{marker DT.DOD.BLAT.OPS.CD}}}OPS, bilateral (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.BLAT.PRVG.CD:DT.DOD.BLAT.PRVG.CD{marker DT.DOD.BLAT.PRVG.CD}}}PRVG, bilateral (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.BLAT.PS.CD:DT.DOD.BLAT.PS.CD{marker DT.DOD.BLAT.PS.CD}}}PS, bilateral (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.BLTC.CD:DT.DOD.BLTC.CD{marker DT.DOD.BLTC.CD}}}PPG, bilateral concessional (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.BLTC.GG.CD:DT.DOD.BLTC.GG.CD{marker DT.DOD.BLTC.GG.CD}}}GG, bilateral concessional (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.BLTC.OPS.CD:DT.DOD.BLTC.OPS.CD{marker DT.DOD.BLTC.OPS.CD}}}OPS, bilateral concessional (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.BLTC.PRVG.CD:DT.DOD.BLTC.PRVG.CD{marker DT.DOD.BLTC.PRVG.CD}}}PRVG, bilateral concessional (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.BLTC.PS.CD:DT.DOD.BLTC.PS.CD{marker DT.DOD.BLTC.PS.CD}}}PS, bilateral concessional (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.DECT.CD.CG:DT.DOD.DECT.CD.CG{marker DT.DOD.DECT.CD.CG}}}Total change in external debt stocks (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.DECT.EX.ZS:DT.DOD.DECT.EX.ZS{marker DT.DOD.DECT.EX.ZS}}}External debt stocks (% of exports of goods, services and primary income){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.DEGG.CD:DT.DOD.DEGG.CD{marker DT.DOD.DEGG.CD}}}External debt stocks, general government sector (PPG) (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.DEPS.CD:DT.DOD.DEPS.CD{marker DT.DOD.DEPS.CD}}}External debt stocks, public sector (PPG) (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.DOPS.CD:DT.DOD.DOPS.CD{marker DT.DOD.DOPS.CD}}}External debt stocks, other public sector (PPG) (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.DSDR.CD:DT.DOD.DSDR.CD{marker DT.DOD.DSDR.CD}}}Use of IMF credit, SDR allocations (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.MDRI.CD:DT.DOD.MDRI.CD{marker DT.DOD.MDRI.CD}}}Debt forgiveness grants (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.MLAT.CD:DT.DOD.MLAT.CD{marker DT.DOD.MLAT.CD}}}PPG, multilateral (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.MLAT.GG.CD:DT.DOD.MLAT.GG.CD{marker DT.DOD.MLAT.GG.CD}}}GG, multilateral (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.MLAT.OPS.CD:DT.DOD.MLAT.OPS.CD{marker DT.DOD.MLAT.OPS.CD}}}OPS, multilateral (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.MLAT.PRVG.CD:DT.DOD.MLAT.PRVG.CD{marker DT.DOD.MLAT.PRVG.CD}}}PRVG, multilateral (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.MLAT.PS.CD:DT.DOD.MLAT.PS.CD{marker DT.DOD.MLAT.PS.CD}}}PS, multilateral (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.MLAT.ZS:DT.DOD.MLAT.ZS{marker DT.DOD.MLAT.ZS}}}Multilateral debt (% of total external debt){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.MLTC.CD:DT.DOD.MLTC.CD{marker DT.DOD.MLTC.CD}}}PPG, multilateral concessional (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.MLTC.GG.CD:DT.DOD.MLTC.GG.CD{marker DT.DOD.MLTC.GG.CD}}}GG, multilateral concessional (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.MLTC.OPS.CD:DT.DOD.MLTC.OPS.CD{marker DT.DOD.MLTC.OPS.CD}}}OPS, multilateral concessional (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.MLTC.PRVG.CD:DT.DOD.MLTC.PRVG.CD{marker DT.DOD.MLTC.PRVG.CD}}}PRVG, multilateral concessional (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.MLTC.PS.CD:DT.DOD.MLTC.PS.CD{marker DT.DOD.MLTC.PS.CD}}}PS, multilateral concessional (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.OFFT.CD:DT.DOD.OFFT.CD{marker DT.DOD.OFFT.CD}}}PPG, official creditors (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.OFFT.GG.CD:DT.DOD.OFFT.GG.CD{marker DT.DOD.OFFT.GG.CD}}}GG, official creditors (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.OFFT.OPS.CD:DT.DOD.OFFT.OPS.CD{marker DT.DOD.OFFT.OPS.CD}}}OPS, official creditors (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.OFFT.PRVG.CD:DT.DOD.OFFT.PRVG.CD{marker DT.DOD.OFFT.PRVG.CD}}}PRVG, official creditors (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.OFFT.PS.CD:DT.DOD.OFFT.PS.CD{marker DT.DOD.OFFT.PS.CD}}}PS, official creditors (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PBND.CD:DT.DOD.PBND.CD{marker DT.DOD.PBND.CD}}}PPG, bonds (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PBND.GG.CD:DT.DOD.PBND.GG.CD{marker DT.DOD.PBND.GG.CD}}}GG, bonds (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PBND.OPS.CD:DT.DOD.PBND.OPS.CD{marker DT.DOD.PBND.OPS.CD}}}OPS, bonds (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PBND.PRVG.CD:DT.DOD.PBND.PRVG.CD{marker DT.DOD.PBND.PRVG.CD}}}PRVG, bonds (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PBND.PS.CD:DT.DOD.PBND.PS.CD{marker DT.DOD.PBND.PS.CD}}}PS, bonds (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PCBK.CD:DT.DOD.PCBK.CD{marker DT.DOD.PCBK.CD}}}PPG, commercial banks (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PCBK.GG.CD:DT.DOD.PCBK.GG.CD{marker DT.DOD.PCBK.GG.CD}}}GG, commercial banks (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PCBK.OPS.CD:DT.DOD.PCBK.OPS.CD{marker DT.DOD.PCBK.OPS.CD}}}OPS, commercial banks (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PCBK.PRVG.CD:DT.DOD.PCBK.PRVG.CD{marker DT.DOD.PCBK.PRVG.CD}}}PRVG, commercial banks (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PCBK.PS.CD:DT.DOD.PCBK.PS.CD{marker DT.DOD.PCBK.PS.CD}}}PS, commercial banks (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PNGB.CD:DT.DOD.PNGB.CD{marker DT.DOD.PNGB.CD}}}PNG, bonds (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PNGC.CD:DT.DOD.PNGC.CD{marker DT.DOD.PNGC.CD}}}PNG, commercial banks and other creditors (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PROP.CD:DT.DOD.PROP.CD{marker DT.DOD.PROP.CD}}}PPG, other private creditors (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PROP.GG.CD:DT.DOD.PROP.GG.CD{marker DT.DOD.PROP.GG.CD}}}GG, other private creditors (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PROP.OPS.CD:DT.DOD.PROP.OPS.CD{marker DT.DOD.PROP.OPS.CD}}}OPS, other private creditors (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PROP.PRVG.CD:DT.DOD.PROP.PRVG.CD{marker DT.DOD.PROP.PRVG.CD}}}PRVG, other private creditors (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PROP.PS.CD:DT.DOD.PROP.PS.CD{marker DT.DOD.PROP.PS.CD}}}PS, other private creditors (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PRPG.CD:DT.DOD.PRPG.CD{marker DT.DOD.PRPG.CD}}}External debt stocks, private guaranteed by public sector (PPG) (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PRVS.CD:DT.DOD.PRVS.CD{marker DT.DOD.PRVS.CD}}}External debt stocks, long-term private sector (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PRVT.CD:DT.DOD.PRVT.CD{marker DT.DOD.PRVT.CD}}}PPG, private creditors (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PRVT.GG.CD:DT.DOD.PRVT.GG.CD{marker DT.DOD.PRVT.GG.CD}}}GG, private creditors (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PRVT.OPS.CD:DT.DOD.PRVT.OPS.CD{marker DT.DOD.PRVT.OPS.CD}}}OPS, private creditors (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PRVT.PRVG.CD:DT.DOD.PRVT.PRVG.CD{marker DT.DOD.PRVT.PRVG.CD}}}PRVG, private creditors (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PRVT.PS.CD:DT.DOD.PRVT.PS.CD{marker DT.DOD.PRVT.PS.CD}}}PS, private creditors (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.PUBS.CD:DT.DOD.PUBS.CD{marker DT.DOD.PUBS.CD}}}External debt stocks, long-term public sector (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.RSDL.CD:DT.DOD.RSDL.CD{marker DT.DOD.RSDL.CD}}}Residual, debt stock-flow reconciliation (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DOD.VTOT.CD:DT.DOD.VTOT.CD{marker DT.DOD.VTOT.CD}}}External debt stocks, variable rate (DOD, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DSB.DPPG.CD:DT.DSB.DPPG.CD{marker DT.DSB.DPPG.CD}}}Debt buyback (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DSF.DPPG.CD:DT.DSF.DPPG.CD{marker DT.DSF.DPPG.CD}}}Debt stock reduction (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.DXR.DPPG.CD:DT.DXR.DPPG.CD{marker DT.DXR.DPPG.CD}}}Debt stock rescheduled (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.GPA.DPPG:DT.GPA.DPPG{marker DT.GPA.DPPG}}}Average grace period on new external debt commitments (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.GPA.OFFT:DT.GPA.OFFT{marker DT.GPA.OFFT}}}Average grace period on new external debt commitments, official (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.GPA.PRVT:DT.GPA.PRVT{marker DT.GPA.PRVT}}}Average grace period on new external debt commitments, private (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.GRE.DPPG:DT.GRE.DPPG{marker DT.GRE.DPPG}}}Average grant element on new external debt commitments (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.GRE.OFFT:DT.GRE.OFFT{marker DT.GRE.OFFT}}}Average grant element on new external debt commitments, official (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.GRE.PRVT:DT.GRE.PRVT{marker DT.GRE.PRVT}}}Average grant element on new external debt commitments, private (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INR.DPPG:DT.INR.DPPG{marker DT.INR.DPPG}}}Average interest on new external debt commitments (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INR.OFFT:DT.INR.OFFT{marker DT.INR.OFFT}}}Average interest on new external debt commitments, official (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INR.PRVT:DT.INR.PRVT{marker DT.INR.PRVT}}}Average interest on new external debt commitments, private (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.BLAT.CD:DT.INT.BLAT.CD{marker DT.INT.BLAT.CD}}}PPG, bilateral (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.BLAT.GG.CD:DT.INT.BLAT.GG.CD{marker DT.INT.BLAT.GG.CD}}}GG, bilateral (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.BLAT.OPS.CD:DT.INT.BLAT.OPS.CD{marker DT.INT.BLAT.OPS.CD}}}OPS, bilateral (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.BLAT.PRVG.CD:DT.INT.BLAT.PRVG.CD{marker DT.INT.BLAT.PRVG.CD}}}PRVG, bilateral (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.BLAT.PS.CD:DT.INT.BLAT.PS.CD{marker DT.INT.BLAT.PS.CD}}}PS, bilateral (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.BLTC.CD:DT.INT.BLTC.CD{marker DT.INT.BLTC.CD}}}PPG, bilateral concessional (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.BLTC.GG.CD:DT.INT.BLTC.GG.CD{marker DT.INT.BLTC.GG.CD}}}GG, bilateral concessional (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.BLTC.OPS.CD:DT.INT.BLTC.OPS.CD{marker DT.INT.BLTC.OPS.CD}}}OPS, bilateral concessional (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.BLTC.PRVG.CD:DT.INT.BLTC.PRVG.CD{marker DT.INT.BLTC.PRVG.CD}}}PRVG, bilateral concessional (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.BLTC.PS.CD:DT.INT.BLTC.PS.CD{marker DT.INT.BLTC.PS.CD}}}PS, bilateral concessional (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.DECT.CD:DT.INT.DECT.CD{marker DT.INT.DECT.CD}}}Interest payments on external debt, total (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.DECT.EX.ZS:DT.INT.DECT.EX.ZS{marker DT.INT.DECT.EX.ZS}}}Interest payments on external debt (% of exports of goods, services and primary income){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.DECT.GN.ZS:DT.INT.DECT.GN.ZS{marker DT.INT.DECT.GN.ZS}}}Interest payments on external debt (% of GNI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.DEGG.CD:DT.INT.DEGG.CD{marker DT.INT.DEGG.CD}}}Interest payments on external debt, general government sector (PPG) (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.DEPS.CD:DT.INT.DEPS.CD{marker DT.INT.DEPS.CD}}}Interest payments on external debt, public sector (PPG) (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.DIMF.CD:DT.INT.DIMF.CD{marker DT.INT.DIMF.CD}}}IMF charges (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.DLXF.CD:DT.INT.DLXF.CD{marker DT.INT.DLXF.CD}}}Interest payments on external debt, long-term (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.DOPS.CD:DT.INT.DOPS.CD{marker DT.INT.DOPS.CD}}}Interest payments on external debt, other public sector (PPG) (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.DPNG.CD:DT.INT.DPNG.CD{marker DT.INT.DPNG.CD}}}Interest payments on external debt, private nonguaranteed (PNG) (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.DPPG.CD:DT.INT.DPPG.CD{marker DT.INT.DPPG.CD}}}Interest payments on external debt, public and publicly guaranteed (PPG) (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.DSTC.CD:DT.INT.DSTC.CD{marker DT.INT.DSTC.CD}}}Interest payments on external debt, short-term (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.MIBR.CD:DT.INT.MIBR.CD{marker DT.INT.MIBR.CD}}}PPG, IBRD (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.MIDA.CD:DT.INT.MIDA.CD{marker DT.INT.MIDA.CD}}}PPG, IDA (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.MLAT.CD:DT.INT.MLAT.CD{marker DT.INT.MLAT.CD}}}PPG, multilateral (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.MLAT.GG.CD:DT.INT.MLAT.GG.CD{marker DT.INT.MLAT.GG.CD}}}GG, multilateral (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.MLAT.OPS.CD:DT.INT.MLAT.OPS.CD{marker DT.INT.MLAT.OPS.CD}}}OPS, multilateral (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.MLAT.PRVG.CD:DT.INT.MLAT.PRVG.CD{marker DT.INT.MLAT.PRVG.CD}}}PRVG, multilateral (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.MLAT.PS.CD:DT.INT.MLAT.PS.CD{marker DT.INT.MLAT.PS.CD}}}PS, multilateral (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.MLTC.CD:DT.INT.MLTC.CD{marker DT.INT.MLTC.CD}}}PPG, multilateral concessional (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.MLTC.GG.CD:DT.INT.MLTC.GG.CD{marker DT.INT.MLTC.GG.CD}}}GG, multilateral concessional (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.MLTC.OPS.CD:DT.INT.MLTC.OPS.CD{marker DT.INT.MLTC.OPS.CD}}}OPS, multilateral concessional (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.MLTC.PRVG.CD:DT.INT.MLTC.PRVG.CD{marker DT.INT.MLTC.PRVG.CD}}}PRVG, multilateral concessional (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.MLTC.PS.CD:DT.INT.MLTC.PS.CD{marker DT.INT.MLTC.PS.CD}}}PS, multilateral concessional (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.OFFT.CD:DT.INT.OFFT.CD{marker DT.INT.OFFT.CD}}}PPG, official creditors (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.OFFT.GG.CD:DT.INT.OFFT.GG.CD{marker DT.INT.OFFT.GG.CD}}}GG, official creditors (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.OFFT.OPS.CD:DT.INT.OFFT.OPS.CD{marker DT.INT.OFFT.OPS.CD}}}OPS, official creditors (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.OFFT.PRVG.CD:DT.INT.OFFT.PRVG.CD{marker DT.INT.OFFT.PRVG.CD}}}PRVG, official creditors (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.OFFT.PS.CD:DT.INT.OFFT.PS.CD{marker DT.INT.OFFT.PS.CD}}}PS, official creditors (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PBND.CD:DT.INT.PBND.CD{marker DT.INT.PBND.CD}}}PPG, bonds (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PBND.GG.CD:DT.INT.PBND.GG.CD{marker DT.INT.PBND.GG.CD}}}GG, bonds (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PBND.OPS.CD:DT.INT.PBND.OPS.CD{marker DT.INT.PBND.OPS.CD}}}OPS, bonds (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PBND.PRVG.CD:DT.INT.PBND.PRVG.CD{marker DT.INT.PBND.PRVG.CD}}}PRVG, bonds (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PBND.PS.CD:DT.INT.PBND.PS.CD{marker DT.INT.PBND.PS.CD}}}PS, bonds (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PCBK.CD:DT.INT.PCBK.CD{marker DT.INT.PCBK.CD}}}PPG, commercial banks (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PCBK.GG.CD:DT.INT.PCBK.GG.CD{marker DT.INT.PCBK.GG.CD}}}GG, commercial banks (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PCBK.OPS.CD:DT.INT.PCBK.OPS.CD{marker DT.INT.PCBK.OPS.CD}}}OPS, commercial banks (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PCBK.PRVG.CD:DT.INT.PCBK.PRVG.CD{marker DT.INT.PCBK.PRVG.CD}}}PRVG, commercial banks (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PCBK.PS.CD:DT.INT.PCBK.PS.CD{marker DT.INT.PCBK.PS.CD}}}PS, commercial banks (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PNGB.CD:DT.INT.PNGB.CD{marker DT.INT.PNGB.CD}}}PNG, bonds (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PNGC.CD:DT.INT.PNGC.CD{marker DT.INT.PNGC.CD}}}PNG, commercial banks and other creditors (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PROP.CD:DT.INT.PROP.CD{marker DT.INT.PROP.CD}}}PPG, other private creditors (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PROP.GG.CD:DT.INT.PROP.GG.CD{marker DT.INT.PROP.GG.CD}}}GG, other private creditors (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PROP.OPS.CD:DT.INT.PROP.OPS.CD{marker DT.INT.PROP.OPS.CD}}}OPS, other private creditors (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PROP.PRVG.CD:DT.INT.PROP.PRVG.CD{marker DT.INT.PROP.PRVG.CD}}}PRVG, other private creditors (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PROP.PS.CD:DT.INT.PROP.PS.CD{marker DT.INT.PROP.PS.CD}}}PS, other private creditors (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PRPG.CD:DT.INT.PRPG.CD{marker DT.INT.PRPG.CD}}}Interest payments on external debt, private guaranteed by public sector (PPG) (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PRVT.CD:DT.INT.PRVT.CD{marker DT.INT.PRVT.CD}}}PPG, private creditors (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PRVT.GG.CD:DT.INT.PRVT.GG.CD{marker DT.INT.PRVT.GG.CD}}}GG, private creditors (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PRVT.OPS.CD:DT.INT.PRVT.OPS.CD{marker DT.INT.PRVT.OPS.CD}}}OPS, private creditors (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PRVT.PRVG.CD:DT.INT.PRVT.PRVG.CD{marker DT.INT.PRVT.PRVG.CD}}}PRVG, private creditors (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.INT.PRVT.PS.CD:DT.INT.PRVT.PS.CD{marker DT.INT.PRVT.PS.CD}}}PS, private creditors (INT, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.IXA.DPPG.CD:DT.IXA.DPPG.CD{marker DT.IXA.DPPG.CD}}}Interest arrears, long-term DOD (US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.IXA.DPPG.CD.CG:DT.IXA.DPPG.CD.CG{marker DT.IXA.DPPG.CD.CG}}}Net change in interest arrears (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.IXA.OFFT.CD:DT.IXA.OFFT.CD{marker DT.IXA.OFFT.CD}}}Interest arrears, official creditors (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.IXA.PRVT.CD:DT.IXA.PRVT.CD{marker DT.IXA.PRVT.CD}}}Interest arrears, private creditors (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.IXF.DPPG.CD:DT.IXF.DPPG.CD{marker DT.IXF.DPPG.CD}}}Interest forgiven (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.IXR.DPPG.CD:DT.IXR.DPPG.CD{marker DT.IXR.DPPG.CD}}}Interest rescheduled (capitalized) (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.IXR.OFFT.CD:DT.IXR.OFFT.CD{marker DT.IXR.OFFT.CD}}}Interest rescheduled, official (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.IXR.PRVT.CD:DT.IXR.PRVT.CD{marker DT.IXR.PRVT.CD}}}Interest rescheduled, private (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.MAT.DPPG:DT.MAT.DPPG{marker DT.MAT.DPPG}}}Average maturity on new external debt commitments (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.MAT.OFFT:DT.MAT.OFFT{marker DT.MAT.OFFT}}}Average maturity on new external debt commitments, official (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.MAT.PRVT:DT.MAT.PRVT{marker DT.MAT.PRVT}}}Average maturity on new external debt commitments, private (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.BLAT.GG.CD:DT.NFL.BLAT.GG.CD{marker DT.NFL.BLAT.GG.CD}}}GG, bilateral (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.BLAT.OPS.CD:DT.NFL.BLAT.OPS.CD{marker DT.NFL.BLAT.OPS.CD}}}OPS, bilateral (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.BLAT.PRVG.CD:DT.NFL.BLAT.PRVG.CD{marker DT.NFL.BLAT.PRVG.CD}}}PRVG, bilateral (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.BLAT.PS.CD:DT.NFL.BLAT.PS.CD{marker DT.NFL.BLAT.PS.CD}}}PS, bilateral (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.BLTC.CD:DT.NFL.BLTC.CD{marker DT.NFL.BLTC.CD}}}PPG, bilateral concessional (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.BLTC.GG.CD:DT.NFL.BLTC.GG.CD{marker DT.NFL.BLTC.GG.CD}}}GG, bilateral concessional (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.BLTC.OPS.CD:DT.NFL.BLTC.OPS.CD{marker DT.NFL.BLTC.OPS.CD}}}OPS, bilateral concessional (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.BLTC.PRVG.CD:DT.NFL.BLTC.PRVG.CD{marker DT.NFL.BLTC.PRVG.CD}}}PRVG, bilateral concessional (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.BLTC.PS.CD:DT.NFL.BLTC.PS.CD{marker DT.NFL.BLTC.PS.CD}}}PS, bilateral concessional (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.DECT.CD:DT.NFL.DECT.CD{marker DT.NFL.DECT.CD}}}Net flows on external debt, total (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.DEGG.CD:DT.NFL.DEGG.CD{marker DT.NFL.DEGG.CD}}}Net flows on external debt, general government sector (PPG) (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.DEPS.CD:DT.NFL.DEPS.CD{marker DT.NFL.DEPS.CD}}}Net flows on external debt, public sector (PPG) (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.DLXF.CD:DT.NFL.DLXF.CD{marker DT.NFL.DLXF.CD}}}Net flows on external debt, long-term (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.DOPS.CD:DT.NFL.DOPS.CD{marker DT.NFL.DOPS.CD}}}Net flows on external debt, other public sector (PPG) (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.DPPG.CD:DT.NFL.DPPG.CD{marker DT.NFL.DPPG.CD}}}Net flows on external debt, public and publicly guaranteed (PPG) (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.DSTC.CD:DT.NFL.DSTC.CD{marker DT.NFL.DSTC.CD}}}Net flows on external debt, short-term (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.MLAT.GG.CD:DT.NFL.MLAT.GG.CD{marker DT.NFL.MLAT.GG.CD}}}GG, multilateral (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.MLAT.OPS.CD:DT.NFL.MLAT.OPS.CD{marker DT.NFL.MLAT.OPS.CD}}}OPS, multilateral (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.MLAT.PRVG.CD:DT.NFL.MLAT.PRVG.CD{marker DT.NFL.MLAT.PRVG.CD}}}PRVG, multilateral (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.MLAT.PS.CD:DT.NFL.MLAT.PS.CD{marker DT.NFL.MLAT.PS.CD}}}PS, multilateral (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.MLTC.CD:DT.NFL.MLTC.CD{marker DT.NFL.MLTC.CD}}}PPG, multilateral concessional (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.MLTC.GG.CD:DT.NFL.MLTC.GG.CD{marker DT.NFL.MLTC.GG.CD}}}GG, multilateral concessional (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.MLTC.OPS.CD:DT.NFL.MLTC.OPS.CD{marker DT.NFL.MLTC.OPS.CD}}}OPS, multilateral concessional (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.MLTC.PRVG.CD:DT.NFL.MLTC.PRVG.CD{marker DT.NFL.MLTC.PRVG.CD}}}PRVG, multilateral concessional (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.MLTC.PS.CD:DT.NFL.MLTC.PS.CD{marker DT.NFL.MLTC.PS.CD}}}PS, multilateral concessional (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.NEBR.CD:DT.NFL.NEBR.CD{marker DT.NFL.NEBR.CD}}}EBRD, private nonguaranteed (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.OFFT.GG.CD:DT.NFL.OFFT.GG.CD{marker DT.NFL.OFFT.GG.CD}}}GG, official creditors (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.OFFT.OPS.CD:DT.NFL.OFFT.OPS.CD{marker DT.NFL.OFFT.OPS.CD}}}OPS, official creditors (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.OFFT.PRVG.CD:DT.NFL.OFFT.PRVG.CD{marker DT.NFL.OFFT.PRVG.CD}}}PRVG, official creditors (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.OFFT.PS.CD:DT.NFL.OFFT.PS.CD{marker DT.NFL.OFFT.PS.CD}}}PS, official creditors (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PBND.GG.CD:DT.NFL.PBND.GG.CD{marker DT.NFL.PBND.GG.CD}}}GG, bonds (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PBND.OPS.CD:DT.NFL.PBND.OPS.CD{marker DT.NFL.PBND.OPS.CD}}}OPS, bonds (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PBND.PRVG.CD:DT.NFL.PBND.PRVG.CD{marker DT.NFL.PBND.PRVG.CD}}}PRVG, bonds (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PBND.PS.CD:DT.NFL.PBND.PS.CD{marker DT.NFL.PBND.PS.CD}}}PS, bonds (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PCBK.GG.CD:DT.NFL.PCBK.GG.CD{marker DT.NFL.PCBK.GG.CD}}}GG, commercial banks (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PCBK.OPS.CD:DT.NFL.PCBK.OPS.CD{marker DT.NFL.PCBK.OPS.CD}}}OPS, commercial banks (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PCBK.PRVG.CD:DT.NFL.PCBK.PRVG.CD{marker DT.NFL.PCBK.PRVG.CD}}}PRVG, commercial banks (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PCBK.PS.CD:DT.NFL.PCBK.PS.CD{marker DT.NFL.PCBK.PS.CD}}}PS, commercial banks (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PROP.GG.CD:DT.NFL.PROP.GG.CD{marker DT.NFL.PROP.GG.CD}}}GG, other private creditors (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PROP.OPS.CD:DT.NFL.PROP.OPS.CD{marker DT.NFL.PROP.OPS.CD}}}OPS, other private creditors (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PROP.PRVG.CD:DT.NFL.PROP.PRVG.CD{marker DT.NFL.PROP.PRVG.CD}}}PRVG, other private creditors (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PROP.PS.CD:DT.NFL.PROP.PS.CD{marker DT.NFL.PROP.PS.CD}}}PS, other private creditors (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PRPG.CD:DT.NFL.PRPG.CD{marker DT.NFL.PRPG.CD}}}Net flows on external debt, private guaranteed by public sector (PPG) (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PRVT.GG.CD:DT.NFL.PRVT.GG.CD{marker DT.NFL.PRVT.GG.CD}}}GG, private creditors (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PRVT.OPS.CD:DT.NFL.PRVT.OPS.CD{marker DT.NFL.PRVT.OPS.CD}}}OPS, private creditors (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PRVT.PRVG.CD:DT.NFL.PRVT.PRVG.CD{marker DT.NFL.PRVT.PRVG.CD}}}PRVG, private creditors (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NFL.PRVT.PS.CD:DT.NFL.PRVT.PS.CD{marker DT.NFL.PRVT.PS.CD}}}PS, private creditors (NFL, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.BLAT.CD:DT.NTR.BLAT.CD{marker DT.NTR.BLAT.CD}}}PPG, bilateral (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.BLAT.GG.CD:DT.NTR.BLAT.GG.CD{marker DT.NTR.BLAT.GG.CD}}}GG, bilateral (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.BLAT.OPS.CD:DT.NTR.BLAT.OPS.CD{marker DT.NTR.BLAT.OPS.CD}}}OPS, bilateral (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.BLAT.PRVG.CD:DT.NTR.BLAT.PRVG.CD{marker DT.NTR.BLAT.PRVG.CD}}}PRVG, bilateral (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.BLAT.PS.CD:DT.NTR.BLAT.PS.CD{marker DT.NTR.BLAT.PS.CD}}}PS, bilateral (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.BLTC.CD:DT.NTR.BLTC.CD{marker DT.NTR.BLTC.CD}}}PPG, bilateral concessional (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.BLTC.GG.CD:DT.NTR.BLTC.GG.CD{marker DT.NTR.BLTC.GG.CD}}}GG, bilateral concessional (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.BLTC.OPS.CD:DT.NTR.BLTC.OPS.CD{marker DT.NTR.BLTC.OPS.CD}}}OPS, bilateral concessional (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.BLTC.PRVG.CD:DT.NTR.BLTC.PRVG.CD{marker DT.NTR.BLTC.PRVG.CD}}}PRVG, bilateral concessional (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.BLTC.PS.CD:DT.NTR.BLTC.PS.CD{marker DT.NTR.BLTC.PS.CD}}}PS, bilateral concessional (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.DECT.CD:DT.NTR.DECT.CD{marker DT.NTR.DECT.CD}}}Net transfers on external debt, total (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.DEGG.CD:DT.NTR.DEGG.CD{marker DT.NTR.DEGG.CD}}}Net transfers on external debt, general government sector (PPG) (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.DEPS.CD:DT.NTR.DEPS.CD{marker DT.NTR.DEPS.CD}}}Net transfers on external debt, public sector (PPG) (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.DLXF.CD:DT.NTR.DLXF.CD{marker DT.NTR.DLXF.CD}}}Net transfers on external debt, long-term (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.DOPS.CD:DT.NTR.DOPS.CD{marker DT.NTR.DOPS.CD}}}Net transfers on external debt, other public sector (PPG) (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.DPNG.CD:DT.NTR.DPNG.CD{marker DT.NTR.DPNG.CD}}}Net transfers on external debt, private nonguaranteed (PNG) (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.DPPG.CD:DT.NTR.DPPG.CD{marker DT.NTR.DPPG.CD}}}Net transfers on external debt, public and publicly guaranteed (PPG) (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.MIBR.CD:DT.NTR.MIBR.CD{marker DT.NTR.MIBR.CD}}}PPG, IBRD (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.MIDA.CD:DT.NTR.MIDA.CD{marker DT.NTR.MIDA.CD}}}PPG, IDA (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.MLAT.CD:DT.NTR.MLAT.CD{marker DT.NTR.MLAT.CD}}}PPG, multilateral (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.MLAT.GG.CD:DT.NTR.MLAT.GG.CD{marker DT.NTR.MLAT.GG.CD}}}GG, multilateral (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.MLAT.OPS.CD:DT.NTR.MLAT.OPS.CD{marker DT.NTR.MLAT.OPS.CD}}}OPS, multilateral (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.MLAT.PRVG.CD:DT.NTR.MLAT.PRVG.CD{marker DT.NTR.MLAT.PRVG.CD}}}PRVG, multilateral (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.MLAT.PS.CD:DT.NTR.MLAT.PS.CD{marker DT.NTR.MLAT.PS.CD}}}PS, multilateral (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.MLTC.CD:DT.NTR.MLTC.CD{marker DT.NTR.MLTC.CD}}}PPG, multilateral concessional (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.MLTC.GG.CD:DT.NTR.MLTC.GG.CD{marker DT.NTR.MLTC.GG.CD}}}GG, multilateral concessional (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.MLTC.OPS.CD:DT.NTR.MLTC.OPS.CD{marker DT.NTR.MLTC.OPS.CD}}}OPS, multilateral concessional (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.MLTC.PRVG.CD:DT.NTR.MLTC.PRVG.CD{marker DT.NTR.MLTC.PRVG.CD}}}PRVG, multilateral concessional (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.MLTC.PS.CD:DT.NTR.MLTC.PS.CD{marker DT.NTR.MLTC.PS.CD}}}PS, multilateral concessional (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.OFFT.CD:DT.NTR.OFFT.CD{marker DT.NTR.OFFT.CD}}}PPG, official creditors (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.OFFT.GG.CD:DT.NTR.OFFT.GG.CD{marker DT.NTR.OFFT.GG.CD}}}GG, official creditors (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.OFFT.OPS.CD:DT.NTR.OFFT.OPS.CD{marker DT.NTR.OFFT.OPS.CD}}}OPS, official creditors (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.OFFT.PRVG.CD:DT.NTR.OFFT.PRVG.CD{marker DT.NTR.OFFT.PRVG.CD}}}PRVG, official creditors (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.OFFT.PS.CD:DT.NTR.OFFT.PS.CD{marker DT.NTR.OFFT.PS.CD}}}PS, official creditors (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PBND.CD:DT.NTR.PBND.CD{marker DT.NTR.PBND.CD}}}PPG, bonds (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PBND.GG.CD:DT.NTR.PBND.GG.CD{marker DT.NTR.PBND.GG.CD}}}GG, bonds (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PBND.OPS.CD:DT.NTR.PBND.OPS.CD{marker DT.NTR.PBND.OPS.CD}}}OPS, bonds (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PBND.PRVG.CD:DT.NTR.PBND.PRVG.CD{marker DT.NTR.PBND.PRVG.CD}}}PRVG, bonds (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PBND.PS.CD:DT.NTR.PBND.PS.CD{marker DT.NTR.PBND.PS.CD}}}PS, bonds (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PCBK.CD:DT.NTR.PCBK.CD{marker DT.NTR.PCBK.CD}}}PPG, commercial banks (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PCBK.GG.CD:DT.NTR.PCBK.GG.CD{marker DT.NTR.PCBK.GG.CD}}}GG, commercial banks (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PCBK.OPS.CD:DT.NTR.PCBK.OPS.CD{marker DT.NTR.PCBK.OPS.CD}}}OPS, commercial banks (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PCBK.PRVG.CD:DT.NTR.PCBK.PRVG.CD{marker DT.NTR.PCBK.PRVG.CD}}}PRVG, commercial banks (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PCBK.PS.CD:DT.NTR.PCBK.PS.CD{marker DT.NTR.PCBK.PS.CD}}}PS, commercial banks (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PNGB.CD:DT.NTR.PNGB.CD{marker DT.NTR.PNGB.CD}}}PNG, bonds (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PNGC.CD:DT.NTR.PNGC.CD{marker DT.NTR.PNGC.CD}}}PNG, commercial banks and other creditors (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PROP.CD:DT.NTR.PROP.CD{marker DT.NTR.PROP.CD}}}PPG, other private creditors (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PROP.GG.CD:DT.NTR.PROP.GG.CD{marker DT.NTR.PROP.GG.CD}}}GG, other private creditors (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PROP.OPS.CD:DT.NTR.PROP.OPS.CD{marker DT.NTR.PROP.OPS.CD}}}OPS, other private creditors (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PROP.PRVG.CD:DT.NTR.PROP.PRVG.CD{marker DT.NTR.PROP.PRVG.CD}}}PRVG, other private creditors (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PROP.PS.CD:DT.NTR.PROP.PS.CD{marker DT.NTR.PROP.PS.CD}}}PS, other private creditors (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PRPG.CD:DT.NTR.PRPG.CD{marker DT.NTR.PRPG.CD}}}Net transfers on external debt, private guaranteed by public sector (PPG) (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PRVT.CD:DT.NTR.PRVT.CD{marker DT.NTR.PRVT.CD}}}PPG, private creditors (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PRVT.GG.CD:DT.NTR.PRVT.GG.CD{marker DT.NTR.PRVT.GG.CD}}}GG, private creditors (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PRVT.OPS.CD:DT.NTR.PRVT.OPS.CD{marker DT.NTR.PRVT.OPS.CD}}}OPS, private creditors (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PRVT.PRVG.CD:DT.NTR.PRVT.PRVG.CD{marker DT.NTR.PRVT.PRVG.CD}}}PRVG, private creditors (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.NTR.PRVT.PS.CD:DT.NTR.PRVT.PS.CD{marker DT.NTR.PRVT.PS.CD}}}PS, private creditors (NTR, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.BLAT.CD:DT.TDS.BLAT.CD{marker DT.TDS.BLAT.CD}}}PPG, bilateral (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.BLAT.GG.CD:DT.TDS.BLAT.GG.CD{marker DT.TDS.BLAT.GG.CD}}}GG, bilateral (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.BLAT.OPS.CD:DT.TDS.BLAT.OPS.CD{marker DT.TDS.BLAT.OPS.CD}}}OPS, bilateral (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.BLAT.PRVG.CD:DT.TDS.BLAT.PRVG.CD{marker DT.TDS.BLAT.PRVG.CD}}}PRVG, bilateral (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.BLAT.PS.CD:DT.TDS.BLAT.PS.CD{marker DT.TDS.BLAT.PS.CD}}}PS, bilateral (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.BLTC.CD:DT.TDS.BLTC.CD{marker DT.TDS.BLTC.CD}}}PPG, bilateral concessional (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.BLTC.GG.CD:DT.TDS.BLTC.GG.CD{marker DT.TDS.BLTC.GG.CD}}}GG, bilateral concessional (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.BLTC.OPS.CD:DT.TDS.BLTC.OPS.CD{marker DT.TDS.BLTC.OPS.CD}}}OPS, bilateral concessional (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.BLTC.PRVG.CD:DT.TDS.BLTC.PRVG.CD{marker DT.TDS.BLTC.PRVG.CD}}}PRVG, bilateral concessional (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.BLTC.PS.CD:DT.TDS.BLTC.PS.CD{marker DT.TDS.BLTC.PS.CD}}}PS, bilateral concessional (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.DEGG.CD:DT.TDS.DEGG.CD{marker DT.TDS.DEGG.CD}}}Debt service on external debt, general government sector (PPG) (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.DEPS.CD:DT.TDS.DEPS.CD{marker DT.TDS.DEPS.CD}}}Debt service on external debt, public sector (PPG) (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.DLXF.CD:DT.TDS.DLXF.CD{marker DT.TDS.DLXF.CD}}}Debt service on external debt, long-term (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.DOPS.CD:DT.TDS.DOPS.CD{marker DT.TDS.DOPS.CD}}}Debt service on external debt, other public sector (PPG) (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.DPNG.CD:DT.TDS.DPNG.CD{marker DT.TDS.DPNG.CD}}}Debt service on external debt, private nonguaranteed (PNG) (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.MIBR.CD:DT.TDS.MIBR.CD{marker DT.TDS.MIBR.CD}}}PPG, IBRD (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.MIDA.CD:DT.TDS.MIDA.CD{marker DT.TDS.MIDA.CD}}}PPG, IDA (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.MLAT.GG.CD:DT.TDS.MLAT.GG.CD{marker DT.TDS.MLAT.GG.CD}}}GG, multilateral (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.MLAT.OPS.CD:DT.TDS.MLAT.OPS.CD{marker DT.TDS.MLAT.OPS.CD}}}OPS, multilateral (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.MLAT.PRVG.CD:DT.TDS.MLAT.PRVG.CD{marker DT.TDS.MLAT.PRVG.CD}}}PRVG, multilateral (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.MLAT.PS.CD:DT.TDS.MLAT.PS.CD{marker DT.TDS.MLAT.PS.CD}}}PS, multilateral (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.MLTC.CD:DT.TDS.MLTC.CD{marker DT.TDS.MLTC.CD}}}PPG, multilateral concessional (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.MLTC.GG.CD:DT.TDS.MLTC.GG.CD{marker DT.TDS.MLTC.GG.CD}}}GG, multilateral concessional (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.MLTC.OPS.CD:DT.TDS.MLTC.OPS.CD{marker DT.TDS.MLTC.OPS.CD}}}OPS, multilateral concessional (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.MLTC.PRVG.CD:DT.TDS.MLTC.PRVG.CD{marker DT.TDS.MLTC.PRVG.CD}}}PRVG, multilateral concessional (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.MLTC.PS.CD:DT.TDS.MLTC.PS.CD{marker DT.TDS.MLTC.PS.CD}}}PS, multilateral concessional (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.OFFT.CD:DT.TDS.OFFT.CD{marker DT.TDS.OFFT.CD}}}PPG, official creditors (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.OFFT.GG.CD:DT.TDS.OFFT.GG.CD{marker DT.TDS.OFFT.GG.CD}}}GG, official creditors (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.OFFT.OPS.CD:DT.TDS.OFFT.OPS.CD{marker DT.TDS.OFFT.OPS.CD}}}OPS, official creditors (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.OFFT.PRVG.CD:DT.TDS.OFFT.PRVG.CD{marker DT.TDS.OFFT.PRVG.CD}}}PRVG, official creditors (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.OFFT.PS.CD:DT.TDS.OFFT.PS.CD{marker DT.TDS.OFFT.PS.CD}}}PS, official creditors (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PBND.CD:DT.TDS.PBND.CD{marker DT.TDS.PBND.CD}}}PPG, bonds (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PBND.GG.CD:DT.TDS.PBND.GG.CD{marker DT.TDS.PBND.GG.CD}}}GG, bonds (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PBND.OPS.CD:DT.TDS.PBND.OPS.CD{marker DT.TDS.PBND.OPS.CD}}}OPS, bonds (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PBND.PRVG.CD:DT.TDS.PBND.PRVG.CD{marker DT.TDS.PBND.PRVG.CD}}}PRVG, bonds (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PBND.PS.CD:DT.TDS.PBND.PS.CD{marker DT.TDS.PBND.PS.CD}}}PS, bonds (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PCBK.CD:DT.TDS.PCBK.CD{marker DT.TDS.PCBK.CD}}}PPG, commercial banks (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PCBK.GG.CD:DT.TDS.PCBK.GG.CD{marker DT.TDS.PCBK.GG.CD}}}GG, commercial banks (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PCBK.OPS.CD:DT.TDS.PCBK.OPS.CD{marker DT.TDS.PCBK.OPS.CD}}}OPS, commercial banks (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PCBK.PRVG.CD:DT.TDS.PCBK.PRVG.CD{marker DT.TDS.PCBK.PRVG.CD}}}PRVG, commercial banks (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PCBK.PS.CD:DT.TDS.PCBK.PS.CD{marker DT.TDS.PCBK.PS.CD}}}PS, commercial banks (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PNGB.CD:DT.TDS.PNGB.CD{marker DT.TDS.PNGB.CD}}}PNG, bonds (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PNGC.CD:DT.TDS.PNGC.CD{marker DT.TDS.PNGC.CD}}}PNG, commercial banks and other creditors (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PROP.CD:DT.TDS.PROP.CD{marker DT.TDS.PROP.CD}}}PPG, other private creditors (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PROP.GG.CD:DT.TDS.PROP.GG.CD{marker DT.TDS.PROP.GG.CD}}}GG, other private creditors (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PROP.OPS.CD:DT.TDS.PROP.OPS.CD{marker DT.TDS.PROP.OPS.CD}}}OPS, other private creditors (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PROP.PRVG.CD:DT.TDS.PROP.PRVG.CD{marker DT.TDS.PROP.PRVG.CD}}}PRVG, other private creditors (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PROP.PS.CD:DT.TDS.PROP.PS.CD{marker DT.TDS.PROP.PS.CD}}}PS, other private creditors (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PRPG.CD:DT.TDS.PRPG.CD{marker DT.TDS.PRPG.CD}}}Debt service on external debt, private guaranteed by public sector (PPG) (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PRVT.CD:DT.TDS.PRVT.CD{marker DT.TDS.PRVT.CD}}}PPG, private creditors (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PRVT.GG.CD:DT.TDS.PRVT.GG.CD{marker DT.TDS.PRVT.GG.CD}}}GG, private creditors (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PRVT.OPS.CD:DT.TDS.PRVT.OPS.CD{marker DT.TDS.PRVT.OPS.CD}}}OPS, private creditors (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PRVT.PRVG.CD:DT.TDS.PRVT.PRVG.CD{marker DT.TDS.PRVT.PRVG.CD}}}PRVG, private creditors (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TDS.PRVT.PS.CD:DT.TDS.PRVT.PS.CD{marker DT.TDS.PRVT.PS.CD}}}PS, private creditors (TDS, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.TXR.DPPG.CD:DT.TXR.DPPG.CD{marker DT.TXR.DPPG.CD}}}Total amount of debt rescheduled (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.UND.DPPG.CD:DT.UND.DPPG.CD{marker DT.UND.DPPG.CD}}}Undisbursed external debt, total (UND, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.UND.OFFT.CD:DT.UND.OFFT.CD{marker DT.UND.OFFT.CD}}}Undisbursed external debt, official creditors (UND, current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_DT.UND.PRVT.CD:DT.UND.PRVT.CD{marker DT.UND.PRVT.CD}}}Undisbursed external debt, private creditors (UND, current US$){p_end}
+{synoptline}
 
 {marker sourceid_11}
 {p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_11:Source}} or {it:{help wbopendata_sourceid_indicators11##:TOC}}){p_end}
@@ -26066,6 +30322,363 @@
 {synopt:{help wbopendata_sourceid_indicators39##sourceid_SP.UWT.TFRT.Q5.ZS:SP.UWT.TFRT.Q5.ZS{marker SP.UWT.TFRT.Q5.ZS}}}Unmet need for family planning (total) (% of married women): Q5 (highest){p_end}
 {synoptline}
 
+{marker sourceid_40}
+{p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_40:Source}} or {it:{help wbopendata_sourceid_indicators40##:TOC}}){p_end}
+{synoptset 40 tabbed}{...}
+{synopthdr:40 Population estimates and projections}
+{synoptline}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DTH.0514:SH.DTH.0514{marker SH.DTH.0514}}}Number of deaths ages 5-14 years{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DTH.IMRT:SH.DTH.IMRT{marker SH.DTH.IMRT}}}Number of infant deaths{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DTH.MORT:SH.DTH.MORT{marker SH.DTH.MORT}}}Number of under-five deaths{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DTH.NMRT:SH.DTH.NMRT{marker SH.DTH.NMRT}}}Number of neonatal deaths{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DYN.0514:SH.DYN.0514{marker SH.DYN.0514}}}Probability of dying at age 5-14 years (per 1,000 children age 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DYN.MORT:SH.DYN.MORT{marker SH.DYN.MORT}}}Mortality rate, under-5 (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DYN.MORT.FE:SH.DYN.MORT.FE{marker SH.DYN.MORT.FE}}}Mortality rate, under-5, female (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DYN.MORT.MA:SH.DYN.MORT.MA{marker SH.DYN.MORT.MA}}}Mortality rate, under-5, male (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DYN.NMRT:SH.DYN.NMRT{marker SH.DYN.NMRT}}}Mortality rate, neonatal (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SM.POP.NETM:SM.POP.NETM{marker SM.POP.NETM}}}Net migration{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.AMRT.FE:SP.DYN.AMRT.FE{marker SP.DYN.AMRT.FE}}}Mortality rate, adult, female (per 1,000 female adults){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.AMRT.MA:SP.DYN.AMRT.MA{marker SP.DYN.AMRT.MA}}}Mortality rate, adult, male (per 1,000 male adults){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.CBRT.IN:SP.DYN.CBRT.IN{marker SP.DYN.CBRT.IN}}}Birth rate, crude (per 1,000 people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.CDRT.IN:SP.DYN.CDRT.IN{marker SP.DYN.CDRT.IN}}}Death rate, crude (per 1,000 people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.IMRT.FE.IN:SP.DYN.IMRT.FE.IN{marker SP.DYN.IMRT.FE.IN}}}Mortality rate, infant, female (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.IMRT.IN:SP.DYN.IMRT.IN{marker SP.DYN.IMRT.IN}}}Mortality rate, infant (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.IMRT.MA.IN:SP.DYN.IMRT.MA.IN{marker SP.DYN.IMRT.MA.IN}}}Mortality rate, infant, male (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN{marker SP.DYN.LE00.FE.IN}}}Life expectancy at birth, female (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.LE00.IN:SP.DYN.LE00.IN{marker SP.DYN.LE00.IN}}}Life expectancy at birth, total (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.LE00.MA.IN:SP.DYN.LE00.MA.IN{marker SP.DYN.LE00.MA.IN}}}Life expectancy at birth, male (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.TFRT.IN:SP.DYN.TFRT.IN{marker SP.DYN.TFRT.IN}}}Fertility rate, total (births per woman){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0004.FE:SP.POP.0004.FE{marker SP.POP.0004.FE}}}Population ages 00-04, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0004.FE.5Y:SP.POP.0004.FE.5Y{marker SP.POP.0004.FE.5Y}}}Population ages 00-04, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0004.MA:SP.POP.0004.MA{marker SP.POP.0004.MA}}}Population ages 00-04, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0004.MA.5Y:SP.POP.0004.MA.5Y{marker SP.POP.0004.MA.5Y}}}Population ages 00-04, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0014.FE.IN:SP.POP.0014.FE.IN{marker SP.POP.0014.FE.IN}}}Population ages 0-14, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0014.FE.ZS:SP.POP.0014.FE.ZS{marker SP.POP.0014.FE.ZS}}}Population ages 0-14, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0014.MA.IN:SP.POP.0014.MA.IN{marker SP.POP.0014.MA.IN}}}Population ages 0-14, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0014.MA.ZS:SP.POP.0014.MA.ZS{marker SP.POP.0014.MA.ZS}}}Population ages 0-14, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0014.TO:SP.POP.0014.TO{marker SP.POP.0014.TO}}}Population ages 0-14, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0014.TO.ZS:SP.POP.0014.TO.ZS{marker SP.POP.0014.TO.ZS}}}Population ages 0-14 (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0509.FE:SP.POP.0509.FE{marker SP.POP.0509.FE}}}Population ages 05-09, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0509.FE.5Y:SP.POP.0509.FE.5Y{marker SP.POP.0509.FE.5Y}}}Population ages 05-09, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0509.MA:SP.POP.0509.MA{marker SP.POP.0509.MA}}}Population ages 05-09, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0509.MA.5Y:SP.POP.0509.MA.5Y{marker SP.POP.0509.MA.5Y}}}Population ages 05-09, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1014.FE:SP.POP.1014.FE{marker SP.POP.1014.FE}}}Female population 10-14{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1014.FE.5Y:SP.POP.1014.FE.5Y{marker SP.POP.1014.FE.5Y}}}Population ages 10-14, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1014.MA:SP.POP.1014.MA{marker SP.POP.1014.MA}}}Male population 10-14{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1014.MA.5Y:SP.POP.1014.MA.5Y{marker SP.POP.1014.MA.5Y}}}Population ages 10-14, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1519.FE:SP.POP.1519.FE{marker SP.POP.1519.FE}}}Female population 15-19{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1519.FE.5Y:SP.POP.1519.FE.5Y{marker SP.POP.1519.FE.5Y}}}Population ages 15-19, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1519.MA:SP.POP.1519.MA{marker SP.POP.1519.MA}}}Male population 15-19{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1519.MA.5Y:SP.POP.1519.MA.5Y{marker SP.POP.1519.MA.5Y}}}Population ages 15-19, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1564.FE.IN:SP.POP.1564.FE.IN{marker SP.POP.1564.FE.IN}}}Population ages 15-64, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1564.FE.ZS:SP.POP.1564.FE.ZS{marker SP.POP.1564.FE.ZS}}}Population ages 15-64, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1564.MA.IN:SP.POP.1564.MA.IN{marker SP.POP.1564.MA.IN}}}Population ages 15-64, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1564.MA.ZS:SP.POP.1564.MA.ZS{marker SP.POP.1564.MA.ZS}}}Population ages 15-64, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1564.TO:SP.POP.1564.TO{marker SP.POP.1564.TO}}}Population ages 15-64, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1564.TO.ZS:SP.POP.1564.TO.ZS{marker SP.POP.1564.TO.ZS}}}Population ages 15-64 (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.2024.FE:SP.POP.2024.FE{marker SP.POP.2024.FE}}}Female population 20-24{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.2024.FE.5Y:SP.POP.2024.FE.5Y{marker SP.POP.2024.FE.5Y}}}Population ages 20-24, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.2024.MA:SP.POP.2024.MA{marker SP.POP.2024.MA}}}Male population 20-24{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.2024.MA.5Y:SP.POP.2024.MA.5Y{marker SP.POP.2024.MA.5Y}}}Population ages 20-24, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.2529.FE:SP.POP.2529.FE{marker SP.POP.2529.FE}}}Female population 25-29{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.2529.FE.5Y:SP.POP.2529.FE.5Y{marker SP.POP.2529.FE.5Y}}}Population ages 25-29, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.2529.MA:SP.POP.2529.MA{marker SP.POP.2529.MA}}}Male population 25-29{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.2529.MA.5Y:SP.POP.2529.MA.5Y{marker SP.POP.2529.MA.5Y}}}Population ages 25-29, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.3034.FE:SP.POP.3034.FE{marker SP.POP.3034.FE}}}Female population 30-34{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.3034.FE.5Y:SP.POP.3034.FE.5Y{marker SP.POP.3034.FE.5Y}}}Population ages 30-34, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.3034.MA:SP.POP.3034.MA{marker SP.POP.3034.MA}}}Male population 30-34{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.3034.MA.5Y:SP.POP.3034.MA.5Y{marker SP.POP.3034.MA.5Y}}}Population ages 30-34, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.3539.FE:SP.POP.3539.FE{marker SP.POP.3539.FE}}}Female population 35-39{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.3539.FE.5Y:SP.POP.3539.FE.5Y{marker SP.POP.3539.FE.5Y}}}Population ages 35-39, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.3539.MA:SP.POP.3539.MA{marker SP.POP.3539.MA}}}Male population 35-39{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.3539.MA.5Y:SP.POP.3539.MA.5Y{marker SP.POP.3539.MA.5Y}}}Population ages 35-39, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.4044.FE:SP.POP.4044.FE{marker SP.POP.4044.FE}}}Female population 40-44{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.4044.FE.5Y:SP.POP.4044.FE.5Y{marker SP.POP.4044.FE.5Y}}}Population ages 40-44, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.4044.MA:SP.POP.4044.MA{marker SP.POP.4044.MA}}}Male population 40-44{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.4044.MA.5Y:SP.POP.4044.MA.5Y{marker SP.POP.4044.MA.5Y}}}Population ages 40-44, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.4549.FE:SP.POP.4549.FE{marker SP.POP.4549.FE}}}Female population 45-49{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.4549.FE.5Y:SP.POP.4549.FE.5Y{marker SP.POP.4549.FE.5Y}}}Population ages 45-49, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.4549.MA:SP.POP.4549.MA{marker SP.POP.4549.MA}}}Male population 45-49{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.4549.MA.5Y:SP.POP.4549.MA.5Y{marker SP.POP.4549.MA.5Y}}}Population ages 45-49, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.5054.FE:SP.POP.5054.FE{marker SP.POP.5054.FE}}}Female population 50-54{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.5054.FE.5Y:SP.POP.5054.FE.5Y{marker SP.POP.5054.FE.5Y}}}Population ages 50-54, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.5054.MA:SP.POP.5054.MA{marker SP.POP.5054.MA}}}Male population 50-54{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.5054.MA.5Y:SP.POP.5054.MA.5Y{marker SP.POP.5054.MA.5Y}}}Population ages 50-54, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.5559.FE:SP.POP.5559.FE{marker SP.POP.5559.FE}}}Female population 55-59{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.5559.FE.5Y:SP.POP.5559.FE.5Y{marker SP.POP.5559.FE.5Y}}}Population ages 55-59, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.5559.MA:SP.POP.5559.MA{marker SP.POP.5559.MA}}}Male population 55-59{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.5559.MA.5Y:SP.POP.5559.MA.5Y{marker SP.POP.5559.MA.5Y}}}Population ages 55-59, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.6064.FE:SP.POP.6064.FE{marker SP.POP.6064.FE}}}Female population 60-64{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.6064.FE.5Y:SP.POP.6064.FE.5Y{marker SP.POP.6064.FE.5Y}}}Population ages 60-64, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.6064.MA:SP.POP.6064.MA{marker SP.POP.6064.MA}}}Male population 60-64{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.6064.MA.5Y:SP.POP.6064.MA.5Y{marker SP.POP.6064.MA.5Y}}}Population ages 60-64, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.6569.FE:SP.POP.6569.FE{marker SP.POP.6569.FE}}}Female population 65-69{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.6569.FE.5Y:SP.POP.6569.FE.5Y{marker SP.POP.6569.FE.5Y}}}Population ages 65-69, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.6569.MA:SP.POP.6569.MA{marker SP.POP.6569.MA}}}Male population 65-69{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.6569.MA.5Y:SP.POP.6569.MA.5Y{marker SP.POP.6569.MA.5Y}}}Population ages 65-69, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.65UP.FE.IN:SP.POP.65UP.FE.IN{marker SP.POP.65UP.FE.IN}}}Population ages 65 and above, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.65UP.FE.ZS:SP.POP.65UP.FE.ZS{marker SP.POP.65UP.FE.ZS}}}Population ages 65 and above, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.65UP.MA.IN:SP.POP.65UP.MA.IN{marker SP.POP.65UP.MA.IN}}}Population ages 65 and above, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.65UP.MA.ZS:SP.POP.65UP.MA.ZS{marker SP.POP.65UP.MA.ZS}}}Population ages 65 and above, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.65UP.TO:SP.POP.65UP.TO{marker SP.POP.65UP.TO}}}Population ages 65 and above, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.65UP.TO.ZS:SP.POP.65UP.TO.ZS{marker SP.POP.65UP.TO.ZS}}}Population ages 65 and above (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.7074.FE:SP.POP.7074.FE{marker SP.POP.7074.FE}}}Female population 70-74{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.7074.FE.5Y:SP.POP.7074.FE.5Y{marker SP.POP.7074.FE.5Y}}}Population ages 70-74, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.7074.MA:SP.POP.7074.MA{marker SP.POP.7074.MA}}}Male population 70-74{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.7074.MA.5Y:SP.POP.7074.MA.5Y{marker SP.POP.7074.MA.5Y}}}Population ages 70-74, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.7579.FE:SP.POP.7579.FE{marker SP.POP.7579.FE}}}Female population 75-79{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.7579.FE.5Y:SP.POP.7579.FE.5Y{marker SP.POP.7579.FE.5Y}}}Population ages 75-79, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.7579.MA:SP.POP.7579.MA{marker SP.POP.7579.MA}}}Male population 75-79{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.7579.MA.5Y:SP.POP.7579.MA.5Y{marker SP.POP.7579.MA.5Y}}}Population ages 75-79, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.80UP.FE:SP.POP.80UP.FE{marker SP.POP.80UP.FE}}}Female population 80+{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.80UP.FE.5Y:SP.POP.80UP.FE.5Y{marker SP.POP.80UP.FE.5Y}}}Population ages 80 and above, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.80UP.MA:SP.POP.80UP.MA{marker SP.POP.80UP.MA}}}Male population 80+{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.80UP.MA.5Y:SP.POP.80UP.MA.5Y{marker SP.POP.80UP.MA.5Y}}}Population ages 80 and above, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG00.FE.IN:SP.POP.AG00.FE.IN{marker SP.POP.AG00.FE.IN}}}Age population, age 00, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG00.MA.IN:SP.POP.AG00.MA.IN{marker SP.POP.AG00.MA.IN}}}Age population, age 00, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG01.FE.IN:SP.POP.AG01.FE.IN{marker SP.POP.AG01.FE.IN}}}Age population, age 01, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG01.MA.IN:SP.POP.AG01.MA.IN{marker SP.POP.AG01.MA.IN}}}Age population, age 01, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG02.FE.IN:SP.POP.AG02.FE.IN{marker SP.POP.AG02.FE.IN}}}Age population, age 02, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG02.MA.IN:SP.POP.AG02.MA.IN{marker SP.POP.AG02.MA.IN}}}Age population, age 02, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG03.FE.IN:SP.POP.AG03.FE.IN{marker SP.POP.AG03.FE.IN}}}Age population, age 03, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG03.MA.IN:SP.POP.AG03.MA.IN{marker SP.POP.AG03.MA.IN}}}Age population, age 03, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG04.FE.IN:SP.POP.AG04.FE.IN{marker SP.POP.AG04.FE.IN}}}Age population, age 04, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG04.MA.IN:SP.POP.AG04.MA.IN{marker SP.POP.AG04.MA.IN}}}Age population, age 04, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG05.FE.IN:SP.POP.AG05.FE.IN{marker SP.POP.AG05.FE.IN}}}Age population, age 05, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG05.MA.IN:SP.POP.AG05.MA.IN{marker SP.POP.AG05.MA.IN}}}Age population, age 05, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG06.FE.IN:SP.POP.AG06.FE.IN{marker SP.POP.AG06.FE.IN}}}Age population, age 06, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG06.MA.IN:SP.POP.AG06.MA.IN{marker SP.POP.AG06.MA.IN}}}Age population, age 06, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG07.FE.IN:SP.POP.AG07.FE.IN{marker SP.POP.AG07.FE.IN}}}Age population, age 07, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG07.MA.IN:SP.POP.AG07.MA.IN{marker SP.POP.AG07.MA.IN}}}Age population, age 07, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG08.FE.IN:SP.POP.AG08.FE.IN{marker SP.POP.AG08.FE.IN}}}Age population, age 08, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG08.MA.IN:SP.POP.AG08.MA.IN{marker SP.POP.AG08.MA.IN}}}Age population, age 08, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG09.FE.IN:SP.POP.AG09.FE.IN{marker SP.POP.AG09.FE.IN}}}Age population, age 09, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG09.MA.IN:SP.POP.AG09.MA.IN{marker SP.POP.AG09.MA.IN}}}Age population, age 09, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG10.FE.IN:SP.POP.AG10.FE.IN{marker SP.POP.AG10.FE.IN}}}Age population, age 10, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG10.MA.IN:SP.POP.AG10.MA.IN{marker SP.POP.AG10.MA.IN}}}Age population, age 10, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG11.FE.IN:SP.POP.AG11.FE.IN{marker SP.POP.AG11.FE.IN}}}Age population, age 11, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG11.MA.IN:SP.POP.AG11.MA.IN{marker SP.POP.AG11.MA.IN}}}Age population, age 11, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG12.FE.IN:SP.POP.AG12.FE.IN{marker SP.POP.AG12.FE.IN}}}Age population, age 12, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG12.MA.IN:SP.POP.AG12.MA.IN{marker SP.POP.AG12.MA.IN}}}Age population, age 12, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG13.FE.IN:SP.POP.AG13.FE.IN{marker SP.POP.AG13.FE.IN}}}Age population, age 13, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG13.MA.IN:SP.POP.AG13.MA.IN{marker SP.POP.AG13.MA.IN}}}Age population, age 13, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG14.FE.IN:SP.POP.AG14.FE.IN{marker SP.POP.AG14.FE.IN}}}Age population, age 14, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG14.MA.IN:SP.POP.AG14.MA.IN{marker SP.POP.AG14.MA.IN}}}Age population, age 14, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG15.FE.IN:SP.POP.AG15.FE.IN{marker SP.POP.AG15.FE.IN}}}Age population, age 15, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG15.MA.IN:SP.POP.AG15.MA.IN{marker SP.POP.AG15.MA.IN}}}Age population, age 15, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG16.FE.IN:SP.POP.AG16.FE.IN{marker SP.POP.AG16.FE.IN}}}Age population, age 16, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG16.MA.IN:SP.POP.AG16.MA.IN{marker SP.POP.AG16.MA.IN}}}Age population, age 16, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG17.FE.IN:SP.POP.AG17.FE.IN{marker SP.POP.AG17.FE.IN}}}Age population, age 17, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG17.MA.IN:SP.POP.AG17.MA.IN{marker SP.POP.AG17.MA.IN}}}Age population, age 17, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG18.FE.IN:SP.POP.AG18.FE.IN{marker SP.POP.AG18.FE.IN}}}Age population, age 18, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG18.MA.IN:SP.POP.AG18.MA.IN{marker SP.POP.AG18.MA.IN}}}Age population, age 18, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG19.FE.IN:SP.POP.AG19.FE.IN{marker SP.POP.AG19.FE.IN}}}Age population, age 19, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG19.MA.IN:SP.POP.AG19.MA.IN{marker SP.POP.AG19.MA.IN}}}Age population, age 19, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG20.FE.IN:SP.POP.AG20.FE.IN{marker SP.POP.AG20.FE.IN}}}Age population, age 20, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG20.MA.IN:SP.POP.AG20.MA.IN{marker SP.POP.AG20.MA.IN}}}Age population, age 20, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG21.FE.IN:SP.POP.AG21.FE.IN{marker SP.POP.AG21.FE.IN}}}Age population, age 21, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG21.MA.IN:SP.POP.AG21.MA.IN{marker SP.POP.AG21.MA.IN}}}Age population, age 21, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG22.FE.IN:SP.POP.AG22.FE.IN{marker SP.POP.AG22.FE.IN}}}Age population, age 22, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG22.MA.IN:SP.POP.AG22.MA.IN{marker SP.POP.AG22.MA.IN}}}Age population, age 22, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG23.FE.IN:SP.POP.AG23.FE.IN{marker SP.POP.AG23.FE.IN}}}Age population, age 23, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG23.MA.IN:SP.POP.AG23.MA.IN{marker SP.POP.AG23.MA.IN}}}Age population, age 23, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG24.FE.IN:SP.POP.AG24.FE.IN{marker SP.POP.AG24.FE.IN}}}Age population, age 24, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG24.MA.IN:SP.POP.AG24.MA.IN{marker SP.POP.AG24.MA.IN}}}Age population, age 24, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG25.FE.IN:SP.POP.AG25.FE.IN{marker SP.POP.AG25.FE.IN}}}Age population, age 25, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG25.MA.IN:SP.POP.AG25.MA.IN{marker SP.POP.AG25.MA.IN}}}Age population, age 25, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.BRTH.MF:SP.POP.BRTH.MF{marker SP.POP.BRTH.MF}}}Sex ratio at birth (male births per female births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.DPND:SP.POP.DPND{marker SP.POP.DPND}}}Age dependency ratio (% of working-age population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.DPND.OL:SP.POP.DPND.OL{marker SP.POP.DPND.OL}}}Age dependency ratio, old (% of working-age population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.DPND.YG:SP.POP.DPND.YG{marker SP.POP.DPND.YG}}}Age dependency ratio, young (% of working-age population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.GROW:SP.POP.GROW{marker SP.POP.GROW}}}Population growth (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.TOTL:SP.POP.TOTL{marker SP.POP.TOTL}}}Population, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.TOTL.FE.IN:SP.POP.TOTL.FE.IN{marker SP.POP.TOTL.FE.IN}}}Population, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.TOTL.FE.ZS:SP.POP.TOTL.FE.ZS{marker SP.POP.TOTL.FE.ZS}}}Population, female (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.TOTL.MA.IN:SP.POP.TOTL.MA.IN{marker SP.POP.TOTL.MA.IN}}}Population, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.TOTL.MA.ZS:SP.POP.TOTL.MA.ZS{marker SP.POP.TOTL.MA.ZS}}}Population, male (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.RUR.TOTL:SP.RUR.TOTL{marker SP.RUR.TOTL}}}Rural population{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.RUR.TOTL.ZG:SP.RUR.TOTL.ZG{marker SP.RUR.TOTL.ZG}}}Rural population growth (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.RUR.TOTL.ZS:SP.RUR.TOTL.ZS{marker SP.RUR.TOTL.ZS}}}Rural population (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.URB.GROW:SP.URB.GROW{marker SP.URB.GROW}}}Urban population growth (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.URB.TOTL:SP.URB.TOTL{marker SP.URB.TOTL}}}Urban population{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.URB.TOTL.IN.ZS:SP.URB.TOTL.IN.ZS{marker SP.URB.TOTL.IN.ZS}}}Urban population (% of total population){p_end}
+{synoptline}
+
 {marker sourceid_41}
 {p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_41:Source}} or {it:{help wbopendata_sourceid_indicators41##:TOC}}){p_end}
 {synoptset 40 tabbed}{...}
@@ -30731,45 +35344,6 @@
 {synopt:{help wbopendata_sourceid_indicators73##sourceid_FB.INC.INST.OD.LN.WL:FB.INC.INST.OD.LN.WL{marker FB.INC.INST.OD.LN.WL}}}{p_end}
 {synoptline}
 
-{marker sourceid_74}
-{p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_74:Source}} or {it:{help wbopendata_sourceid_indicators74##:TOC}}){p_end}
-{synoptset 40 tabbed}{...}
-{synopthdr:74 Macro Poverty Outlook External}
-{synoptline}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_BFCAFFFDICD__EXT:BFCAFFFDICD__EXT{marker BFCAFFFDICD__EXT}}}Net Foreign Direct Investment, % GDP{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_BNCABFUNDCD__EXT:BNCABFUNDCD__EXT{marker BNCABFUNDCD__EXT}}}Current Account Balance, % GDP{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_FPCPITOTLXN__EXT:FPCPITOTLXN__EXT{marker FPCPITOTLXN__EXT}}}Consumer Price Index, annual change (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_GGBALOVRLCN__EXT:GGBALOVRLCN__EXT{marker GGBALOVRLCN__EXT}}}Overall General Government Balance, LCU mn, % of GDP{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_GGBALPRIMCN__EXT:GGBALPRIMCN__EXT{marker GGBALPRIMCN__EXT}}}General Government primary balance, LCU mn, %GDP{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_GGDBTTOTLCN__EXT:GGDBTTOTLCN__EXT{marker GGDBTTOTLCN__EXT}}}General government gross debt, %GDP{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NECONGOVTKN__EXT:NECONGOVTKN__EXT{marker NECONGOVTKN__EXT}}}Government Consumption, Real LCU mn, annual growth rate (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NECONPRVTKN__EXT:NECONPRVTKN__EXT{marker NECONPRVTKN__EXT}}}Private Consumption, annual growth rate (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NEEXPGNFSKN__EXT:NEEXPGNFSKN__EXT{marker NEEXPGNFSKN__EXT}}}Exports, GNFS (NIA), annual growth rate %{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NEGDIFTOTKN__EXT:NEGDIFTOTKN__EXT{marker NEGDIFTOTKN__EXT}}}Fixed Domestic Investment, annual growth rate %{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NEIMPGNFSKN__EXT:NEIMPGNFSKN__EXT{marker NEIMPGNFSKN__EXT}}}Imports,  GNFS (NIA), Real LCU mn, annual growth rate %{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NVAGRTOTLKN__EXT:NVAGRTOTLKN__EXT{marker NVAGRTOTLKN__EXT}}}Value Added Agriculture, LCU mn, annual growth rate %{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NVINDTOTLKN__EXT:NVINDTOTLKN__EXT{marker NVINDTOTLKN__EXT}}}Value Added Industry, Real LCU mn, annual growth rate %{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NVSRVTOTLKN__EXT:NVSRVTOTLKN__EXT{marker NVSRVTOTLKN__EXT}}}Value Added Services, Real LCU mn, annual growth rate %{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NYGDPFCSTKN__EXT:NYGDPFCSTKN__EXT{marker NYGDPFCSTKN__EXT}}}GDP Factor Cost, Real LCU mn , annual change %{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators74##sourceid_NYGDPMKTPKN__EXT:NYGDPMKTPKN__EXT{marker NYGDPMKTPKN__EXT}}}GDP, Market Prices, Real LCU mn, annual growth rate (%){p_end}
-{synoptline}
-
 {marker sourceid_75}
 {p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_75:Source}} or {it:{help wbopendata_sourceid_indicators75##:TOC}}){p_end}
 {synoptset 40 tabbed}{...}
@@ -30785,4 +35359,4 @@
 {synopt:{help wbopendata_sourceid_indicators75##sourceid_EN.CLC.SPEI.XD:EN.CLC.SPEI.XD{marker EN.CLC.SPEI.XD}}}Mean Drought Index (SPEI){p_end}
 {synoptline}
 
-{right:(as of 20oct2019)}
+{right:(as of 28oct2019)}

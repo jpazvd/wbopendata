@@ -1,10 +1,10 @@
 **********************************************************
-*! version 16.0 			<20Oct2019>		JPAzevedo
+*! version 16.0 			<28Oct2019>		JPAzevedo
 *
 *	change indicators update; function _update_indicators.ado replace  
 *   _indicators.ado increase the return list stored under parameter 
 *	add report tables with SOURCE adn TOPIC labels
-*
+*   add the update of the CTRYLIST
 **********************************************************
 
 program define _update_wbopendata, rclass
@@ -24,6 +24,7 @@ syntax , 								///
 				SHORT					///
 				DETAIL					///
 				NOHLP					///
+				CTRYLIST				///
 		  ]
 
 	return add
@@ -60,20 +61,20 @@ syntax , 								///
 	local dt_ctrylastcheck 	= r(dt_ctrycheck)
 
 		
-	local	oldsourcereturn "`r(sourcereturn)'" 
-	local	oldtopicreturn  "`r(topicreturn)'"
+	local	oldsourcereturn `"`r(sourcereturn)'"'
+	local	oldtopicreturn  `"`r(topicreturn)'"'
 	local	oldsourceid	 	`"`r(sourceid)'"'
 	local	oldtopicid		`"`r(topicid)'"'
 	
-	foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
+	*** OLD TOPIC and SOURCE values ****
+	foreach returnname in `oldsourcereturn' `oldtopicreturn' {
 		local old`returnname'  = r(`returnname')
 	}
 	
 	*** Generate TOPIC and SOURCE Labels ******
-	* Source IDs
-	local tmp1 `"`r(sourceid)'"'
+	* OLD Source IDs
 	* Extract Labels for SourceIDs
-	foreach name in `tmp1'  {
+	foreach name in `"`oldsourceid'"' {
 		local t1 = substr("`name'",1,2)
 		local name = subinstr("`name'","(","[",.)
 		local name = subinstr("`name'",")","]",.)
@@ -83,13 +84,12 @@ syntax , 								///
 			local name = substr("`name'",1,38)
 			local name "`name'..."
 		}
-		local label_sourceid`t1' "`name'"
+		local oldlabel_sourceid`t1' "`name'"
 	}
 	
-	* Topic IDs	
-	local tmp2 `"`r(topicid)'"'
+	* OLD Topic IDs	
 	* Extract Labels for Topic IDs
-	foreach name in `tmp2' {
+	foreach name in `"`oldtopicid'"' {
 		local t1 = substr("`name'",1,2)
 		local name = subinstr("`name'","(","[",.)
 		local name = subinstr("`name'",")","]",.)
@@ -98,15 +98,16 @@ syntax , 								///
 			local name = substr("`name'",1,38)
 			local name "`name'..."
 		}
-		local label_topicid`t1' "`name'"
+		local oldlabel_topicid`t1' "`name'"
 	}
 		
-	**********************************************
+	
+	**********************************************/
 	* QUERY DETAIL
 	**********************************************
 
 	
-	qui if ("`query'" != "") & ("`check'" == "") & ("`update'" != "") {
+	qui if ("`query'" != "") & ("`check'" == "") & (("`all'" == "") | ("`force'" == "")) {
 	
 		if ("`nodisplay'" == "")  {
 
@@ -127,7 +128,7 @@ syntax , 								///
 
 			qui if ("`detail'" != "") {
 				
-				* Display SOURCE results on screen
+				* Display OLD SOURCE results on screen
 				/* Source */
 				
 				noi di in g in smcl "{synoptset 45 tabbed} "
@@ -135,17 +136,19 @@ syntax , 								///
 				noi di in g in smcl "{synopt:{opt Source}}  Number of indicators {p_end}"
 				noi di in g in smcl "{synoptline}"
 				
-				qui foreach name in `r(sourcereturn)' {
+				qui foreach name in `oldsourcereturn' {
 				
 					local checkvalue `""  in y  "		(NOCHECK) {p_end}""'
 
-					noi di in g in smcl "{synopt:{opt `label_`name''}}`r(`name')'`checkvalue'"
+					noi di in g in smcl "{synopt:{opt `oldlabel_`name''}}`r(`name')'`checkvalue'"
 				}
 				
 				noi di in g in smcl "{synoptline}"
 				noi di in smcl ""
+				noi di in smcl ""
+				noi di in smcl ""
 			
-				* Display TOPIC results on screen
+				* Display OLD TOPIC results on screen
 				/* Topic */
 				
 				noi di in g in smcl "{synoptset 45 tabbed} "
@@ -153,11 +156,11 @@ syntax , 								///
 				noi di in g in smcl "{synopt:{opt Topics}}  Number of indicators {p_end}"
 				noi di in g in smcl "{synoptline}"
 				
-				qui foreach name in `r(topicreturn)' {
+				qui foreach name in `oldtopicreturn' {
 				
 					local checkvalue `""  in y  "		(NOCHECK) {p_end}""'
 
-					noi di in g in smcl "{synopt:{opt `label_`name''}}`r(`name')'`checkvalue'"
+					noi di in g in smcl "{synopt:{opt `oldlabel_`name''}}`r(`name')'`checkvalue'"
 				}
 				
 				noi di in g in smcl "{synoptline}"
@@ -181,7 +184,7 @@ syntax , 								///
 	* QUERY DETAIL with CHECK and UPDATE
 	**********************************************
 
-	qui if ("`query'" == "") & ("`check'" != "") & ("`update'" != "") {
+	qui if ("`query'" == "") & ("`check'" != "") & ("`update'" != "") & (("`all'" == "") | ("`force'" == ""))  {
 
 		_api_read,  parameter(total)
 		local newnumber = r(total1) 
@@ -224,18 +227,20 @@ syntax , 								///
 			qui if ("`detail'" != "") {
 				
 				noi _update_indicators, noindlist nosthlp1 nosthlp2 `query' `check'
+				local newsourceid = r(sourceid)
+				local newtopicid = r(topicid)
+				local newsourcereturn = r(sourcereturn)
+				local newtopicreturn  = r(topicreturn)
 
-				noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
-
+			*** NEW TOPIC and SOURCE values ****
+				noi foreach returnname in `newsourcereturn' `newtopicreturn' {
 					local `returnname' = `r(`returnname')'  	
-					
 				}
 				
 			*** Update TOPIC and SOURCE Labels ******
-				* Source IDs
-				local tmp1 "`r(sourceid)'"
+				* NEW Source IDs
 				* Extract Labels for SourceIDs
-				foreach name in `"`tmp1'"'  {
+				foreach name in `newsourceid'  {
 					local t1 = substr("`name'",1,2)
 					local name = subinstr("`name'","(","[",.)
 					local name = subinstr("`name'",")","]",.)
@@ -245,13 +250,12 @@ syntax , 								///
 						local name = substr("`name'",1,38)
 						local name "`name'..."
 					}
-					local label_sourceid`t1' "`name'"
+					local newlabel_sourceid`t1' "`name'"
 				}
 				
-				* Topic IDs	
-				local tmp2 "`r(topicid)'"
+				* NEW Topic IDs	
 				* Extract Labels for Topic IDs
-				foreach name in `"`tmp1'"' {
+				foreach name in `newtopicid' {
 					local t1 = substr("`name'",1,2)
 					local name = subinstr("`name'","(","[",.)
 					local name = subinstr("`name'",")","]",.)
@@ -260,7 +264,7 @@ syntax , 								///
 						local name = substr("`name'",1,38)
 						local name "`name'..."
 					}
-					local label_topicid`t1' "`name'"
+					local newlabel_topicid`t1' "`name'"
 				}
 
 			*************************************
@@ -273,7 +277,7 @@ syntax , 								///
 				noi di in g in smcl "{synopt:{opt Source}}  Number of indicators {p_end}"
 				noi di in g in smcl "{synoptline}"
 				
-				qui foreach name in `r(sourcereturn)' {
+				qui foreach name in `newsourcereturn' {
 
 					*check if sourceID alreayd existed
 					if strmatch("`oldsourcereturn'","*`name'*") == 1 {
@@ -293,7 +297,7 @@ syntax , 								///
 						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}" "'
 					}
 
-					noi di in g in smcl "{synopt:{opt `label_`name''}}`r(`name')' `checkvalue' "
+					noi di in g in smcl "{synopt:{opt `newlabel_`name''}}`r(`name')' `checkvalue' "
 				}
 				
 				noi di in g in smcl "{synoptline}"
@@ -306,7 +310,7 @@ syntax , 								///
 				noi di in g in smcl "{synopt:{opt Topics}}  Number of indicators {p_end}"
 				noi di in g in smcl "{synoptline}"
 				
-				qui foreach name in `r(topicreturn)' {
+				qui foreach name in `newtopicreturn' {
 				
 					*check if topicID alreayd existed
 					if strmatch("`oldtopicreturn'","*`name'*") == 1 {
@@ -326,7 +330,7 @@ syntax , 								///
 						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}" "'
 					}
 
-					noi di in g in smcl "{synopt:{opt `label_`name''}}`r(`name')' `checkvalue' "
+					noi di in g in smcl "{synopt:{opt `newlabel_`name''}}`r(`name')' `checkvalue' "
 				}
 				
 				noi di in g in smcl "{synoptline}"
@@ -377,12 +381,14 @@ syntax , 								///
 		file write `out' `"		return local total = `total' "' 							_n 
 		file write `out' `""' 																_n
 
-		noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
-
-			file write `out' `"		return local `returnname' = `old`returnname'' "' 		_n
-					
+		noi foreach returnname in `oldsourcereturn' `oldtopicreturn' {
+			if (`old`returnname'' != .) {
+				file write `out' `"		return local `returnname' = `old`returnname'' "' 		_n
+			}
+			else {
+				file write `out' `"		return local `returnname' = . "' 		_n
+			}
 		}
-
 			
 		file write `out' `""' 																_n
 		file write `out' `"		return local sourcereturn  "`oldsourcereturn'" "' 			_n
@@ -422,7 +428,7 @@ syntax , 								///
 	* QUERY DETAIL with UPDATE + ALL or FORCE
 	**********************************************
 
-	qui if ("`query'" == "") & ("`check'" == "") & ("`update'" != "") & ("`all'" != "") | ("`force'" != "") {
+	qui if ("`query'" == "") & ("`update'" != "") & (("`all'" != "") | ("`force'" != "")) {
 
 		_api_read,  parameter(total)
 		local newnumber = r(total1) 
@@ -474,17 +480,20 @@ syntax , 								///
 					
 					* call _update_indicators.ado
 					noi _update_indicators, `query' `check' `nohlp2'
+					local newsourceid = r(sourceid)
+					local newtopicid = r(topicid)
+					local newsourcereturn = r(sourcereturn)
+					local newtopicreturn  = r(topicreturn)
 
-					noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
+				*** NEW TOPIC and SOURCE values ****
+					noi foreach returnname in `newsourcereturn' `newtopicreturn' {
 						local `returnname' = `r(`returnname')'  	
 					}
-									
-
-					*** Update TOPIC and SOURCE Labels ******
-					* Source IDs
-					local tmp1 `"`r(sourceid)'"'
+					
+				*** Update TOPIC and SOURCE Labels ******
+					* NEW Source IDs
 					* Extract Labels for SourceIDs
-					foreach name in `"`tmp1'"'  {
+					foreach name in `newsourceid'  {
 						local t1 = substr("`name'",1,2)
 						local name = subinstr("`name'","(","[",.)
 						local name = subinstr("`name'",")","]",.)
@@ -494,13 +503,12 @@ syntax , 								///
 							local name = substr("`name'",1,38)
 							local name "`name'..."
 						}
-						local label_sourceid`t1' "`name'"
+						local newlabel_sourceid`t1' "`name'"
 					}
 					
-					* Topic IDs	
-					local tmp2 `"`r(topicid)'"'
+					* NEW Topic IDs	
 					* Extract Labels for Topic IDs
-					foreach name in `"`tmp2'"' {
+					foreach name in `newtopicid' {
 						local t1 = substr("`name'",1,2)
 						local name = subinstr("`name'","(","[",.)
 						local name = subinstr("`name'",")","]",.)
@@ -509,7 +517,7 @@ syntax , 								///
 							local name = substr("`name'",1,38)
 							local name "`name'..."
 						}
-						local label_topicid`t1' "`name'"
+						local newlabel_topicid`t1' "`name'"
 					}
 					
 					*************************************
@@ -521,7 +529,7 @@ syntax , 								///
 					noi di in g in smcl "{synopt:{opt Source}}  Number of indicators {p_end}"
 					noi di in g in smcl "{synoptline}"
 					
-					qui foreach name in `r(sourcereturn)' {
+					qui foreach name in `newsourcereturn' {
 					
 						*check if sourceID alreayd existed
 						if strmatch("`oldsourcereturn'","*`name'*") == 1 {
@@ -540,7 +548,7 @@ syntax , 								///
 							local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
 						}
 
-						noi di in g in smcl "{synopt:{opt `label_`name''}}`r(`name')'`checkvalue'"
+						noi di in g in smcl "{synopt:{opt `newlabel_`name''}}`r(`name')'`checkvalue'"
 					}
 					
 					noi di in g in smcl "{synoptline}"
@@ -553,7 +561,7 @@ syntax , 								///
 					noi di in g in smcl "{synopt:{opt Topics}}  Number of indicators {p_end}"
 					noi di in g in smcl "{synoptline}"
 					
-					qui foreach name in `r(topicreturn)' {
+					qui foreach name in `newtopicreturn' {
 						
 						*check if topicID alreayd existed
 						if strmatch("`oldtopicreturn'","*`name'*") == 1 {
@@ -574,7 +582,7 @@ syntax , 								///
 							local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
 						}
 
-						noi di in g in smcl "{synopt:{opt `label_`name''}}`r(`name')'`checkvalue'"
+						noi di in g in smcl "{synopt:{opt `newlabel_`name''}}`r(`name')'`checkvalue'"
 					}
 					
 					noi di in g in smcl "{synoptline}"
@@ -606,7 +614,7 @@ syntax , 								///
 			file write `out' `"		return local total = `r(total)' "' 						_n 
 			file write `out' `""' 															_n
 
-			noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
+			noi foreach returnname in `newsourcereturn' `newtopicreturn' {
 
 				file write `out' `"		return local `returnname' = `r(`returnname')' "' 	_n
 				
@@ -627,7 +635,7 @@ syntax , 								///
 			
 			noi di in smcl ""
 				
-			noi _update_countrymetadata 
+			noi _update_countrymetadata , `ctrylist'
 			local newctrymeta 		= r(ctrymeta)
 			local newctrylastcheck	= r(dt_ctrylastcheck)
 			local newctryupdate		= r(dt_ctryupdate)

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 20oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,9 +40,9 @@
 {syntab:{title:{bf:18 Millenium development goals}}}
 {synoptline}
 {marker topicid_DC.ODA.COMM.CD}
-{synopt:{bf:{help wbopendata_topicid##DC.ODA.COMM.CD:DC.ODA.COMM.CD} - `"Total bilateral ODA commitments (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##DC.ODA.COMM.CD:DC.ODA.COMM.CD} - Total bilateral ODA commitments (current US$)}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -53,9 +53,9 @@
 
 {synoptline}
 {marker topicid_DC.ODA.COMM.SA.CD}
-{synopt:{bf:{help wbopendata_topicid##DC.ODA.COMM.SA.CD:DC.ODA.COMM.SA.CD} - `"Total bilateral sector allocable ODA commitments (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##DC.ODA.COMM.SA.CD:DC.ODA.COMM.SA.CD} - Total bilateral sector allocable ODA commitments (current US$)}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -66,9 +66,9 @@
 
 {synoptline}
 {marker topicid_DC.ODA.SOCL.CD}
-{synopt:{bf:{help wbopendata_topicid##DC.ODA.SOCL.CD:DC.ODA.SOCL.CD} - `"Bilateral, sector-allocable ODA to basic social services (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##DC.ODA.SOCL.CD:DC.ODA.SOCL.CD} - Bilateral, sector-allocable ODA to basic social services (current US$)}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -79,9 +79,9 @@
 
 {synoptline}
 {marker topicid_DC.ODA.SOCL.ZS}
-{synopt:{bf:{help wbopendata_topicid##DC.ODA.SOCL.ZS:DC.ODA.SOCL.ZS} - `"Bilateral, sector-allocable ODA to basic social services (% of bilateral ODA commitments)"'}}
+{synopt:{bf:{help wbopendata_topicid##DC.ODA.SOCL.ZS:DC.ODA.SOCL.ZS} - Bilateral, sector-allocable ODA to basic social services (% of bilateral ODA commitments)}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -92,9 +92,9 @@
 
 {synoptline}
 {marker topicid_DC.ODA.TLDC.CD}
-{synopt:{bf:{help wbopendata_topicid##DC.ODA.TLDC.CD:DC.ODA.TLDC.CD} - `"Net ODA provided, to the least developed countries (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##DC.ODA.TLDC.CD:DC.ODA.TLDC.CD} - Net ODA provided, to the least developed countries (current US$)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -105,9 +105,9 @@
 
 {synoptline}
 {marker topicid_DC.ODA.TLDC.GN.ZS}
-{synopt:{bf:{help wbopendata_topicid##DC.ODA.TLDC.GN.ZS:DC.ODA.TLDC.GN.ZS} - `"Net ODA provided to the least developed countries (% of GNI)"'}}
+{synopt:{bf:{help wbopendata_topicid##DC.ODA.TLDC.GN.ZS:DC.ODA.TLDC.GN.ZS} - Net ODA provided to the least developed countries (% of GNI)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -118,9 +118,9 @@
 
 {synoptline}
 {marker topicid_DC.ODA.TOTL.CD}
-{synopt:{bf:{help wbopendata_topicid##DC.ODA.TOTL.CD:DC.ODA.TOTL.CD} - `"Net ODA provided, total (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##DC.ODA.TOTL.CD:DC.ODA.TOTL.CD} - Net ODA provided, total (current US$)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -131,9 +131,9 @@
 
 {synoptline}
 {marker topicid_DC.ODA.TOTL.GN.ZS}
-{synopt:{bf:{help wbopendata_topicid##DC.ODA.TOTL.GN.ZS:DC.ODA.TOTL.GN.ZS} - `"Net ODA provided, total (% of GNI)"'}}
+{synopt:{bf:{help wbopendata_topicid##DC.ODA.TOTL.GN.ZS:DC.ODA.TOTL.GN.ZS} - Net ODA provided, total (% of GNI)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -144,9 +144,9 @@
 
 {synoptline}
 {marker topicid_DC.ODA.TOTL.KD}
-{synopt:{bf:{help wbopendata_topicid##DC.ODA.TOTL.KD:DC.ODA.TOTL.KD} - `"Net ODA provided, total (constant 2015 US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##DC.ODA.TOTL.KD:DC.ODA.TOTL.KD} - Net ODA provided, total (constant 2015 US$)}}
 
-{synopt:{opt Source}}{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -157,9 +157,9 @@
 
 {synoptline}
 {marker topicid_DC.ODA.UNTD.CD}
-{synopt:{bf:{help wbopendata_topicid##DC.ODA.UNTD.CD:DC.ODA.UNTD.CD} - `"Bilateral ODA commitments that is untied (current US$)"'}}
+{synopt:{bf:{help wbopendata_topicid##DC.ODA.UNTD.CD:DC.ODA.UNTD.CD} - Bilateral ODA commitments that is untied (current US$)}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -170,9 +170,9 @@
 
 {synoptline}
 {marker topicid_DC.ODA.UNTD.ZS}
-{synopt:{bf:{help wbopendata_topicid##DC.ODA.UNTD.ZS:DC.ODA.UNTD.ZS} - `"Bilateral ODA commitments that is untied (% of bilateral ODA commitments)"'}}
+{synopt:{bf:{help wbopendata_topicid##DC.ODA.UNTD.ZS:DC.ODA.UNTD.ZS} - Bilateral ODA commitments that is untied (% of bilateral ODA commitments)}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -183,9 +183,9 @@
 
 {synoptline}
 {marker topicid_DT.HPC.COMR.PV}
-{synopt:{bf:{help wbopendata_topicid##DT.HPC.COMR.PV:DT.HPC.COMR.PV} - `"Debt relief committed under HIPC initiative, cumulative US$ in end-2012 NPV terms"'}}
+{synopt:{bf:{help wbopendata_topicid##DT.HPC.COMR.PV:DT.HPC.COMR.PV} - Debt relief committed under HIPC initiative, cumulative US$ in end-2012 NPV terms}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -196,9 +196,9 @@
 
 {synoptline}
 {marker topicid_DT.HPC.MDRI.PV}
-{synopt:{bf:{help wbopendata_topicid##DT.HPC.MDRI.PV:DT.HPC.MDRI.PV} - `"Debt relief delivered in full under MDRI initiative, cumulative US$ in end-2012 NPV terms"'}}
+{synopt:{bf:{help wbopendata_topicid##DT.HPC.MDRI.PV:DT.HPC.MDRI.PV} - Debt relief delivered in full under MDRI initiative, cumulative US$ in end-2012 NPV terms}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -209,9 +209,9 @@
 
 {synoptline}
 {marker topicid_DT.HPC.STTS}
-{synopt:{bf:{help wbopendata_topicid##DT.HPC.STTS:DT.HPC.STTS} - `"Status under enhanced HIPC initiative"'}}
+{synopt:{bf:{help wbopendata_topicid##DT.HPC.STTS:DT.HPC.STTS} - Status under enhanced HIPC initiative}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -222,9 +222,9 @@
 
 {synoptline}
 {marker topicid_DT.HPC.TOTL.PV}
-{synopt:{bf:{help wbopendata_topicid##DT.HPC.TOTL.PV:DT.HPC.TOTL.PV} - `"Debt relief committed under HIPC and MDRI initiatives, cumulative US$ in end-2012 NPV terms"'}}
+{synopt:{bf:{help wbopendata_topicid##DT.HPC.TOTL.PV:DT.HPC.TOTL.PV} - Debt relief committed under HIPC and MDRI initiatives, cumulative US$ in end-2012 NPV terms}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -235,9 +235,9 @@
 
 {synoptline}
 {marker topicid_NY.AGR.SUBS.GD.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.AGR.SUBS.GD.ZS:NY.AGR.SUBS.GD.ZS} - `"Agricultural support estimate (% of GDP)"'}}
+{synopt:{bf:{help wbopendata_topicid##NY.AGR.SUBS.GD.ZS:NY.AGR.SUBS.GD.ZS} - Agricultural support estimate (% of GDP)}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -248,9 +248,9 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETS.Q1.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETS.Q1.ZS:SH.MLR.NETS.Q1.ZS} - `"Malaria prevention, use of bed nets (% of under-5 children in the poorest quintile)"'}}
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETS.Q1.ZS:SH.MLR.NETS.Q1.ZS} - Malaria prevention, use of bed nets (% of under-5 children in the poorest quintile)}}
 
-{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+{synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -261,9 +261,9 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETS.Q5.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETS.Q5.ZS:SH.MLR.NETS.Q5.ZS} - `"Malaria prevention, use of bed nets (% of under-5 children in the richest quintile)"'}}
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETS.Q5.ZS:SH.MLR.NETS.Q5.ZS} - Malaria prevention, use of bed nets (% of under-5 children in the richest quintile)}}
 
-{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+{synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -274,9 +274,9 @@
 
 {synoptline}
 {marker topicid_TM.MRC.NOTX.DV.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.MRC.NOTX.DV.ZS:TM.MRC.NOTX.DV.ZS} - `"Goods (excluding arms) admitted free of tariffs from developing countries (% total merchandise imports excluding arms)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.MRC.NOTX.DV.ZS:TM.MRC.NOTX.DV.ZS} - Goods (excluding arms) admitted free of tariffs from developing countries (% total merchandise imports excluding arms)}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -287,9 +287,9 @@
 
 {synoptline}
 {marker topicid_TM.MRC.NOTX.LD.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.MRC.NOTX.LD.ZS:TM.MRC.NOTX.LD.ZS} - `"Goods (excluding arms) admitted free of tariffs from least developed countries (% total merchandise imports excluding arms)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.MRC.NOTX.LD.ZS:TM.MRC.NOTX.LD.ZS} - Goods (excluding arms) admitted free of tariffs from least developed countries (% total merchandise imports excluding arms)}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -300,9 +300,9 @@
 
 {synoptline}
 {marker topicid_TM.TAX.AGRI.CD.DV}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.AGRI.CD.DV:TM.TAX.AGRI.CD.DV} - `"Average tariffs imposed by developed countries on agricultural products from developing countries (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.AGRI.CD.DV:TM.TAX.AGRI.CD.DV} - Average tariffs imposed by developed countries on agricultural products from developing countries (%)}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -313,9 +313,9 @@
 
 {synoptline}
 {marker topicid_TM.TAX.AGRI.CD.LD}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.AGRI.CD.LD:TM.TAX.AGRI.CD.LD} - `"Average tariffs imposed by developed countries on agricultural products from least developed countries (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.AGRI.CD.LD:TM.TAX.AGRI.CD.LD} - Average tariffs imposed by developed countries on agricultural products from least developed countries (%)}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -326,9 +326,9 @@
 
 {synoptline}
 {marker topicid_TM.TAX.CLTH.CD.DV}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.CLTH.CD.DV:TM.TAX.CLTH.CD.DV} - `"Average tariffs imposed by developed countries on clothing products from developing countries (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.CLTH.CD.DV:TM.TAX.CLTH.CD.DV} - Average tariffs imposed by developed countries on clothing products from developing countries (%)}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -339,9 +339,9 @@
 
 {synoptline}
 {marker topicid_TM.TAX.CLTH.CD.LD}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.CLTH.CD.LD:TM.TAX.CLTH.CD.LD} - `"Average tariffs imposed by developed countries on clothing products from least developed countries (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.CLTH.CD.LD:TM.TAX.CLTH.CD.LD} - Average tariffs imposed by developed countries on clothing products from least developed countries (%)}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -352,9 +352,9 @@
 
 {synoptline}
 {marker topicid_TM.TAX.TXTL.CD.DV}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TXTL.CD.DV:TM.TAX.TXTL.CD.DV} - `"Average tariffs imposed by developed countries on textile products from developing countries (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.TXTL.CD.DV:TM.TAX.TXTL.CD.DV} - Average tariffs imposed by developed countries on textile products from developing countries (%)}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -365,9 +365,9 @@
 
 {synoptline}
 {marker topicid_TM.TAX.TXTL.CD.LD}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TXTL.CD.LD:TM.TAX.TXTL.CD.LD} - `"Average tariffs imposed by developed countries on textile products from least developed countries (%)"'}}
+{synopt:{bf:{help wbopendata_topicid##TM.TAX.TXTL.CD.LD:TM.TAX.TXTL.CD.LD} - Average tariffs imposed by developed countries on textile products from least developed countries (%)}}
 
-{synopt:{opt Source}}`"19 Millennium Development Goals"'{p_end}
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
@@ -377,4 +377,4 @@
 
 
 
-{right:(as of 20oct2019)}
+{right:(as of 28oct2019)}

@@ -62,21 +62,21 @@
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
-{marker sourceid_27}
-{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators27##:TOC}}){p_end}
+{marker sourceid_50}
+{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators50##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{syntab:{title:{bf:27 Global Economic Prospects}}}
+{syntab:{title:{bf:50 Subnational Population}}}
 {synoptline}
-{marker sourceid_NYGDPMKTPKDZ}
-{synopt:{bf:{help wbopendata_sourceid##NYGDPMKTPKDZ:NYGDPMKTPKDZ} - Annual percentage growth rate of GDP at market prices based on constant 2010 US Dollars.}}
+{marker sourceid_SP.POP.TOTL.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.ZS:SP.POP.TOTL.ZS} - Population (% of total)}}
 
-{synopt:{opt Source}}27 Global Economic Prospects{p_end}
+{synopt:{opt Source}}50 Subnational Population{p_end}
 
 
-{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated as{p_end}
+{synopt:{opt Source Notes}}Population Percentage of total is the share of first level administrative division (Admin 1 level) de facto mid-year population to total population.{p_end}
 
-{synopt:{opt Source Organization}}The World Bank{p_end}
+{synopt:{opt Source Organization}}1. Census reports and statistical databases from national statistical offices 2. Estimates from the Center for International Earth Science Information Network (CIESIN), The Earth Institute at Columbia University{p_end}
 
 
 
