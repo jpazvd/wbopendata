@@ -261,7 +261,7 @@ quietly {
 						file write `out_`variable''  "	" _n
 						file write `out_`variable''  `" qui if ("\``varname2''" == "`varname2'") {	"' _n
 						file write `out_`variable''  "	" _n
-						file write `out_`variable''  `"		gen `varname2' = ""  "' _n
+						file write `out_`variable''  `"		cap: gen `varname2' = ""  "' _n
 
 						sum seq if variable == "`varname2'"
 						local min = r(min)
@@ -272,7 +272,7 @@ quietly {
 							local value = values_  			in `ctry'
 							local ctrycode = countrycode 	in `ctry'
 						
-							file write `out_`variable''  `"		replace `varname2' = "`value'"	if \`match' == "`ctrycode'"  "' _n
+							file write `out_`variable''  `"		cap: replace `varname2' = "`value'"	if \`match' == "`ctrycode'"  "' _n
 							
 						}
 
@@ -285,7 +285,7 @@ quietly {
 						file write `out_`variable''  "	" _n
 						file write `out_`variable''  `" qui if ("\``varname2''" == "`varname2'") {	"' _n
 						file write `out_`variable''  "	" _n
-						file write `out_`variable''  `"		gen  double `varname2' = .  "' _n
+						file write `out_`variable''  `"		cap: gen  double `varname2' = .  "' _n
 						
 						sum seq if variable == "`varname2'"
 						local min = r(min)
@@ -296,7 +296,7 @@ quietly {
 							local value = values_  			in `ctry'
 							local ctrycode = countrycode 	in `ctry'
 						
-							file write `out_`variable''  `"		replace `varname2' = real("`value'")	if \`match' == "`ctrycode'"  "' _n
+							file write `out_`variable''  `"		cap: replace `varname2' = real("`value'")	if \`match' == "`ctrycode'"  "' _n
 							
 						}
 
