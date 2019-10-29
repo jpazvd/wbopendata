@@ -926,7 +926,7 @@
 {marker topicid_SH.DYN.MORT}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT:SH.DYN.MORT} - Mortality rate, under-5 (per 1,000 live births)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -1043,7 +1043,7 @@
 {marker topicid_SP.POP.GROW}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.GROW:SP.POP.GROW} - Population growth (annual %)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -1056,7 +1056,7 @@
 {marker topicid_SP.POP.TOTL}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL:SP.POP.TOTL} - Population, total}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -1082,7 +1082,7 @@
 {marker topicid_SP.URB.TOTL}
 {synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL:SP.URB.TOTL} - Urban population}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 

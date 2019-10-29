@@ -39,6 +39,7 @@
 {synopt:{opt 36}}  {help wbopendata_sourceid##sourceid_36:Statistical Capacity Indicators}{p_end}
 {synopt:{opt 37}}  {help wbopendata_sourceid##sourceid_37:LAC Equity Lab}{p_end}
 {synopt:{opt 39}}  {help wbopendata_sourceid##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
+{synopt:{opt 40}}  {help wbopendata_sourceid##sourceid_40:Population estimates and projections}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid##sourceid_46:Sustainable Development Goals}{p_end}
@@ -30319,6 +30320,363 @@
 {synopt:{help wbopendata_sourceid_indicators39##sourceid_SP.UWT.TFRT.Q4.ZS:SP.UWT.TFRT.Q4.ZS{marker SP.UWT.TFRT.Q4.ZS}}}Unmet need for family planning (total) (% of married women): Q4{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators39##sourceid_SP.UWT.TFRT.Q5.ZS:SP.UWT.TFRT.Q5.ZS{marker SP.UWT.TFRT.Q5.ZS}}}Unmet need for family planning (total) (% of married women): Q5 (highest){p_end}
+{synoptline}
+
+{marker sourceid_40}
+{p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_40:Source}} or {it:{help wbopendata_sourceid_indicators40##:TOC}}){p_end}
+{synoptset 40 tabbed}{...}
+{synopthdr:40 Population estimates and projections}
+{synoptline}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DTH.0514:SH.DTH.0514{marker SH.DTH.0514}}}Number of deaths ages 5-14 years{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DTH.IMRT:SH.DTH.IMRT{marker SH.DTH.IMRT}}}Number of infant deaths{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DTH.MORT:SH.DTH.MORT{marker SH.DTH.MORT}}}Number of under-five deaths{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DTH.NMRT:SH.DTH.NMRT{marker SH.DTH.NMRT}}}Number of neonatal deaths{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DYN.0514:SH.DYN.0514{marker SH.DYN.0514}}}Probability of dying at age 5-14 years (per 1,000 children age 5){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DYN.MORT:SH.DYN.MORT{marker SH.DYN.MORT}}}Mortality rate, under-5 (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DYN.MORT.FE:SH.DYN.MORT.FE{marker SH.DYN.MORT.FE}}}Mortality rate, under-5, female (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DYN.MORT.MA:SH.DYN.MORT.MA{marker SH.DYN.MORT.MA}}}Mortality rate, under-5, male (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SH.DYN.NMRT:SH.DYN.NMRT{marker SH.DYN.NMRT}}}Mortality rate, neonatal (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SM.POP.NETM:SM.POP.NETM{marker SM.POP.NETM}}}Net migration{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.AMRT.FE:SP.DYN.AMRT.FE{marker SP.DYN.AMRT.FE}}}Mortality rate, adult, female (per 1,000 female adults){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.AMRT.MA:SP.DYN.AMRT.MA{marker SP.DYN.AMRT.MA}}}Mortality rate, adult, male (per 1,000 male adults){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.CBRT.IN:SP.DYN.CBRT.IN{marker SP.DYN.CBRT.IN}}}Birth rate, crude (per 1,000 people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.CDRT.IN:SP.DYN.CDRT.IN{marker SP.DYN.CDRT.IN}}}Death rate, crude (per 1,000 people){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.IMRT.FE.IN:SP.DYN.IMRT.FE.IN{marker SP.DYN.IMRT.FE.IN}}}Mortality rate, infant, female (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.IMRT.IN:SP.DYN.IMRT.IN{marker SP.DYN.IMRT.IN}}}Mortality rate, infant (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.IMRT.MA.IN:SP.DYN.IMRT.MA.IN{marker SP.DYN.IMRT.MA.IN}}}Mortality rate, infant, male (per 1,000 live births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN{marker SP.DYN.LE00.FE.IN}}}Life expectancy at birth, female (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.LE00.IN:SP.DYN.LE00.IN{marker SP.DYN.LE00.IN}}}Life expectancy at birth, total (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.LE00.MA.IN:SP.DYN.LE00.MA.IN{marker SP.DYN.LE00.MA.IN}}}Life expectancy at birth, male (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.DYN.TFRT.IN:SP.DYN.TFRT.IN{marker SP.DYN.TFRT.IN}}}Fertility rate, total (births per woman){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0004.FE:SP.POP.0004.FE{marker SP.POP.0004.FE}}}Population ages 00-04, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0004.FE.5Y:SP.POP.0004.FE.5Y{marker SP.POP.0004.FE.5Y}}}Population ages 00-04, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0004.MA:SP.POP.0004.MA{marker SP.POP.0004.MA}}}Population ages 00-04, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0004.MA.5Y:SP.POP.0004.MA.5Y{marker SP.POP.0004.MA.5Y}}}Population ages 00-04, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0014.FE.IN:SP.POP.0014.FE.IN{marker SP.POP.0014.FE.IN}}}Population ages 0-14, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0014.FE.ZS:SP.POP.0014.FE.ZS{marker SP.POP.0014.FE.ZS}}}Population ages 0-14, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0014.MA.IN:SP.POP.0014.MA.IN{marker SP.POP.0014.MA.IN}}}Population ages 0-14, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0014.MA.ZS:SP.POP.0014.MA.ZS{marker SP.POP.0014.MA.ZS}}}Population ages 0-14, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0014.TO:SP.POP.0014.TO{marker SP.POP.0014.TO}}}Population ages 0-14, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0014.TO.ZS:SP.POP.0014.TO.ZS{marker SP.POP.0014.TO.ZS}}}Population ages 0-14 (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0509.FE:SP.POP.0509.FE{marker SP.POP.0509.FE}}}Population ages 05-09, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0509.FE.5Y:SP.POP.0509.FE.5Y{marker SP.POP.0509.FE.5Y}}}Population ages 05-09, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0509.MA:SP.POP.0509.MA{marker SP.POP.0509.MA}}}Population ages 05-09, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.0509.MA.5Y:SP.POP.0509.MA.5Y{marker SP.POP.0509.MA.5Y}}}Population ages 05-09, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1014.FE:SP.POP.1014.FE{marker SP.POP.1014.FE}}}Female population 10-14{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1014.FE.5Y:SP.POP.1014.FE.5Y{marker SP.POP.1014.FE.5Y}}}Population ages 10-14, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1014.MA:SP.POP.1014.MA{marker SP.POP.1014.MA}}}Male population 10-14{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1014.MA.5Y:SP.POP.1014.MA.5Y{marker SP.POP.1014.MA.5Y}}}Population ages 10-14, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1519.FE:SP.POP.1519.FE{marker SP.POP.1519.FE}}}Female population 15-19{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1519.FE.5Y:SP.POP.1519.FE.5Y{marker SP.POP.1519.FE.5Y}}}Population ages 15-19, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1519.MA:SP.POP.1519.MA{marker SP.POP.1519.MA}}}Male population 15-19{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1519.MA.5Y:SP.POP.1519.MA.5Y{marker SP.POP.1519.MA.5Y}}}Population ages 15-19, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1564.FE.IN:SP.POP.1564.FE.IN{marker SP.POP.1564.FE.IN}}}Population ages 15-64, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1564.FE.ZS:SP.POP.1564.FE.ZS{marker SP.POP.1564.FE.ZS}}}Population ages 15-64, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1564.MA.IN:SP.POP.1564.MA.IN{marker SP.POP.1564.MA.IN}}}Population ages 15-64, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1564.MA.ZS:SP.POP.1564.MA.ZS{marker SP.POP.1564.MA.ZS}}}Population ages 15-64, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1564.TO:SP.POP.1564.TO{marker SP.POP.1564.TO}}}Population ages 15-64, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.1564.TO.ZS:SP.POP.1564.TO.ZS{marker SP.POP.1564.TO.ZS}}}Population ages 15-64 (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.2024.FE:SP.POP.2024.FE{marker SP.POP.2024.FE}}}Female population 20-24{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.2024.FE.5Y:SP.POP.2024.FE.5Y{marker SP.POP.2024.FE.5Y}}}Population ages 20-24, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.2024.MA:SP.POP.2024.MA{marker SP.POP.2024.MA}}}Male population 20-24{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.2024.MA.5Y:SP.POP.2024.MA.5Y{marker SP.POP.2024.MA.5Y}}}Population ages 20-24, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.2529.FE:SP.POP.2529.FE{marker SP.POP.2529.FE}}}Female population 25-29{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.2529.FE.5Y:SP.POP.2529.FE.5Y{marker SP.POP.2529.FE.5Y}}}Population ages 25-29, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.2529.MA:SP.POP.2529.MA{marker SP.POP.2529.MA}}}Male population 25-29{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.2529.MA.5Y:SP.POP.2529.MA.5Y{marker SP.POP.2529.MA.5Y}}}Population ages 25-29, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.3034.FE:SP.POP.3034.FE{marker SP.POP.3034.FE}}}Female population 30-34{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.3034.FE.5Y:SP.POP.3034.FE.5Y{marker SP.POP.3034.FE.5Y}}}Population ages 30-34, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.3034.MA:SP.POP.3034.MA{marker SP.POP.3034.MA}}}Male population 30-34{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.3034.MA.5Y:SP.POP.3034.MA.5Y{marker SP.POP.3034.MA.5Y}}}Population ages 30-34, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.3539.FE:SP.POP.3539.FE{marker SP.POP.3539.FE}}}Female population 35-39{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.3539.FE.5Y:SP.POP.3539.FE.5Y{marker SP.POP.3539.FE.5Y}}}Population ages 35-39, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.3539.MA:SP.POP.3539.MA{marker SP.POP.3539.MA}}}Male population 35-39{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.3539.MA.5Y:SP.POP.3539.MA.5Y{marker SP.POP.3539.MA.5Y}}}Population ages 35-39, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.4044.FE:SP.POP.4044.FE{marker SP.POP.4044.FE}}}Female population 40-44{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.4044.FE.5Y:SP.POP.4044.FE.5Y{marker SP.POP.4044.FE.5Y}}}Population ages 40-44, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.4044.MA:SP.POP.4044.MA{marker SP.POP.4044.MA}}}Male population 40-44{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.4044.MA.5Y:SP.POP.4044.MA.5Y{marker SP.POP.4044.MA.5Y}}}Population ages 40-44, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.4549.FE:SP.POP.4549.FE{marker SP.POP.4549.FE}}}Female population 45-49{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.4549.FE.5Y:SP.POP.4549.FE.5Y{marker SP.POP.4549.FE.5Y}}}Population ages 45-49, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.4549.MA:SP.POP.4549.MA{marker SP.POP.4549.MA}}}Male population 45-49{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.4549.MA.5Y:SP.POP.4549.MA.5Y{marker SP.POP.4549.MA.5Y}}}Population ages 45-49, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.5054.FE:SP.POP.5054.FE{marker SP.POP.5054.FE}}}Female population 50-54{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.5054.FE.5Y:SP.POP.5054.FE.5Y{marker SP.POP.5054.FE.5Y}}}Population ages 50-54, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.5054.MA:SP.POP.5054.MA{marker SP.POP.5054.MA}}}Male population 50-54{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.5054.MA.5Y:SP.POP.5054.MA.5Y{marker SP.POP.5054.MA.5Y}}}Population ages 50-54, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.5559.FE:SP.POP.5559.FE{marker SP.POP.5559.FE}}}Female population 55-59{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.5559.FE.5Y:SP.POP.5559.FE.5Y{marker SP.POP.5559.FE.5Y}}}Population ages 55-59, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.5559.MA:SP.POP.5559.MA{marker SP.POP.5559.MA}}}Male population 55-59{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.5559.MA.5Y:SP.POP.5559.MA.5Y{marker SP.POP.5559.MA.5Y}}}Population ages 55-59, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.6064.FE:SP.POP.6064.FE{marker SP.POP.6064.FE}}}Female population 60-64{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.6064.FE.5Y:SP.POP.6064.FE.5Y{marker SP.POP.6064.FE.5Y}}}Population ages 60-64, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.6064.MA:SP.POP.6064.MA{marker SP.POP.6064.MA}}}Male population 60-64{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.6064.MA.5Y:SP.POP.6064.MA.5Y{marker SP.POP.6064.MA.5Y}}}Population ages 60-64, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.6569.FE:SP.POP.6569.FE{marker SP.POP.6569.FE}}}Female population 65-69{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.6569.FE.5Y:SP.POP.6569.FE.5Y{marker SP.POP.6569.FE.5Y}}}Population ages 65-69, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.6569.MA:SP.POP.6569.MA{marker SP.POP.6569.MA}}}Male population 65-69{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.6569.MA.5Y:SP.POP.6569.MA.5Y{marker SP.POP.6569.MA.5Y}}}Population ages 65-69, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.65UP.FE.IN:SP.POP.65UP.FE.IN{marker SP.POP.65UP.FE.IN}}}Population ages 65 and above, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.65UP.FE.ZS:SP.POP.65UP.FE.ZS{marker SP.POP.65UP.FE.ZS}}}Population ages 65 and above, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.65UP.MA.IN:SP.POP.65UP.MA.IN{marker SP.POP.65UP.MA.IN}}}Population ages 65 and above, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.65UP.MA.ZS:SP.POP.65UP.MA.ZS{marker SP.POP.65UP.MA.ZS}}}Population ages 65 and above, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.65UP.TO:SP.POP.65UP.TO{marker SP.POP.65UP.TO}}}Population ages 65 and above, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.65UP.TO.ZS:SP.POP.65UP.TO.ZS{marker SP.POP.65UP.TO.ZS}}}Population ages 65 and above (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.7074.FE:SP.POP.7074.FE{marker SP.POP.7074.FE}}}Female population 70-74{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.7074.FE.5Y:SP.POP.7074.FE.5Y{marker SP.POP.7074.FE.5Y}}}Population ages 70-74, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.7074.MA:SP.POP.7074.MA{marker SP.POP.7074.MA}}}Male population 70-74{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.7074.MA.5Y:SP.POP.7074.MA.5Y{marker SP.POP.7074.MA.5Y}}}Population ages 70-74, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.7579.FE:SP.POP.7579.FE{marker SP.POP.7579.FE}}}Female population 75-79{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.7579.FE.5Y:SP.POP.7579.FE.5Y{marker SP.POP.7579.FE.5Y}}}Population ages 75-79, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.7579.MA:SP.POP.7579.MA{marker SP.POP.7579.MA}}}Male population 75-79{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.7579.MA.5Y:SP.POP.7579.MA.5Y{marker SP.POP.7579.MA.5Y}}}Population ages 75-79, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.80UP.FE:SP.POP.80UP.FE{marker SP.POP.80UP.FE}}}Female population 80+{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.80UP.FE.5Y:SP.POP.80UP.FE.5Y{marker SP.POP.80UP.FE.5Y}}}Population ages 80 and above, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.80UP.MA:SP.POP.80UP.MA{marker SP.POP.80UP.MA}}}Male population 80+{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.80UP.MA.5Y:SP.POP.80UP.MA.5Y{marker SP.POP.80UP.MA.5Y}}}Population ages 80 and above, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG00.FE.IN:SP.POP.AG00.FE.IN{marker SP.POP.AG00.FE.IN}}}Age population, age 00, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG00.MA.IN:SP.POP.AG00.MA.IN{marker SP.POP.AG00.MA.IN}}}Age population, age 00, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG01.FE.IN:SP.POP.AG01.FE.IN{marker SP.POP.AG01.FE.IN}}}Age population, age 01, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG01.MA.IN:SP.POP.AG01.MA.IN{marker SP.POP.AG01.MA.IN}}}Age population, age 01, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG02.FE.IN:SP.POP.AG02.FE.IN{marker SP.POP.AG02.FE.IN}}}Age population, age 02, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG02.MA.IN:SP.POP.AG02.MA.IN{marker SP.POP.AG02.MA.IN}}}Age population, age 02, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG03.FE.IN:SP.POP.AG03.FE.IN{marker SP.POP.AG03.FE.IN}}}Age population, age 03, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG03.MA.IN:SP.POP.AG03.MA.IN{marker SP.POP.AG03.MA.IN}}}Age population, age 03, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG04.FE.IN:SP.POP.AG04.FE.IN{marker SP.POP.AG04.FE.IN}}}Age population, age 04, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG04.MA.IN:SP.POP.AG04.MA.IN{marker SP.POP.AG04.MA.IN}}}Age population, age 04, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG05.FE.IN:SP.POP.AG05.FE.IN{marker SP.POP.AG05.FE.IN}}}Age population, age 05, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG05.MA.IN:SP.POP.AG05.MA.IN{marker SP.POP.AG05.MA.IN}}}Age population, age 05, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG06.FE.IN:SP.POP.AG06.FE.IN{marker SP.POP.AG06.FE.IN}}}Age population, age 06, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG06.MA.IN:SP.POP.AG06.MA.IN{marker SP.POP.AG06.MA.IN}}}Age population, age 06, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG07.FE.IN:SP.POP.AG07.FE.IN{marker SP.POP.AG07.FE.IN}}}Age population, age 07, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG07.MA.IN:SP.POP.AG07.MA.IN{marker SP.POP.AG07.MA.IN}}}Age population, age 07, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG08.FE.IN:SP.POP.AG08.FE.IN{marker SP.POP.AG08.FE.IN}}}Age population, age 08, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG08.MA.IN:SP.POP.AG08.MA.IN{marker SP.POP.AG08.MA.IN}}}Age population, age 08, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG09.FE.IN:SP.POP.AG09.FE.IN{marker SP.POP.AG09.FE.IN}}}Age population, age 09, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG09.MA.IN:SP.POP.AG09.MA.IN{marker SP.POP.AG09.MA.IN}}}Age population, age 09, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG10.FE.IN:SP.POP.AG10.FE.IN{marker SP.POP.AG10.FE.IN}}}Age population, age 10, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG10.MA.IN:SP.POP.AG10.MA.IN{marker SP.POP.AG10.MA.IN}}}Age population, age 10, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG11.FE.IN:SP.POP.AG11.FE.IN{marker SP.POP.AG11.FE.IN}}}Age population, age 11, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG11.MA.IN:SP.POP.AG11.MA.IN{marker SP.POP.AG11.MA.IN}}}Age population, age 11, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG12.FE.IN:SP.POP.AG12.FE.IN{marker SP.POP.AG12.FE.IN}}}Age population, age 12, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG12.MA.IN:SP.POP.AG12.MA.IN{marker SP.POP.AG12.MA.IN}}}Age population, age 12, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG13.FE.IN:SP.POP.AG13.FE.IN{marker SP.POP.AG13.FE.IN}}}Age population, age 13, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG13.MA.IN:SP.POP.AG13.MA.IN{marker SP.POP.AG13.MA.IN}}}Age population, age 13, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG14.FE.IN:SP.POP.AG14.FE.IN{marker SP.POP.AG14.FE.IN}}}Age population, age 14, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG14.MA.IN:SP.POP.AG14.MA.IN{marker SP.POP.AG14.MA.IN}}}Age population, age 14, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG15.FE.IN:SP.POP.AG15.FE.IN{marker SP.POP.AG15.FE.IN}}}Age population, age 15, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG15.MA.IN:SP.POP.AG15.MA.IN{marker SP.POP.AG15.MA.IN}}}Age population, age 15, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG16.FE.IN:SP.POP.AG16.FE.IN{marker SP.POP.AG16.FE.IN}}}Age population, age 16, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG16.MA.IN:SP.POP.AG16.MA.IN{marker SP.POP.AG16.MA.IN}}}Age population, age 16, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG17.FE.IN:SP.POP.AG17.FE.IN{marker SP.POP.AG17.FE.IN}}}Age population, age 17, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG17.MA.IN:SP.POP.AG17.MA.IN{marker SP.POP.AG17.MA.IN}}}Age population, age 17, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG18.FE.IN:SP.POP.AG18.FE.IN{marker SP.POP.AG18.FE.IN}}}Age population, age 18, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG18.MA.IN:SP.POP.AG18.MA.IN{marker SP.POP.AG18.MA.IN}}}Age population, age 18, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG19.FE.IN:SP.POP.AG19.FE.IN{marker SP.POP.AG19.FE.IN}}}Age population, age 19, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG19.MA.IN:SP.POP.AG19.MA.IN{marker SP.POP.AG19.MA.IN}}}Age population, age 19, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG20.FE.IN:SP.POP.AG20.FE.IN{marker SP.POP.AG20.FE.IN}}}Age population, age 20, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG20.MA.IN:SP.POP.AG20.MA.IN{marker SP.POP.AG20.MA.IN}}}Age population, age 20, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG21.FE.IN:SP.POP.AG21.FE.IN{marker SP.POP.AG21.FE.IN}}}Age population, age 21, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG21.MA.IN:SP.POP.AG21.MA.IN{marker SP.POP.AG21.MA.IN}}}Age population, age 21, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG22.FE.IN:SP.POP.AG22.FE.IN{marker SP.POP.AG22.FE.IN}}}Age population, age 22, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG22.MA.IN:SP.POP.AG22.MA.IN{marker SP.POP.AG22.MA.IN}}}Age population, age 22, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG23.FE.IN:SP.POP.AG23.FE.IN{marker SP.POP.AG23.FE.IN}}}Age population, age 23, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG23.MA.IN:SP.POP.AG23.MA.IN{marker SP.POP.AG23.MA.IN}}}Age population, age 23, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG24.FE.IN:SP.POP.AG24.FE.IN{marker SP.POP.AG24.FE.IN}}}Age population, age 24, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG24.MA.IN:SP.POP.AG24.MA.IN{marker SP.POP.AG24.MA.IN}}}Age population, age 24, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG25.FE.IN:SP.POP.AG25.FE.IN{marker SP.POP.AG25.FE.IN}}}Age population, age 25, female, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.AG25.MA.IN:SP.POP.AG25.MA.IN{marker SP.POP.AG25.MA.IN}}}Age population, age 25, male, interpolated{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.BRTH.MF:SP.POP.BRTH.MF{marker SP.POP.BRTH.MF}}}Sex ratio at birth (male births per female births){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.DPND:SP.POP.DPND{marker SP.POP.DPND}}}Age dependency ratio (% of working-age population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.DPND.OL:SP.POP.DPND.OL{marker SP.POP.DPND.OL}}}Age dependency ratio, old (% of working-age population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.DPND.YG:SP.POP.DPND.YG{marker SP.POP.DPND.YG}}}Age dependency ratio, young (% of working-age population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.GROW:SP.POP.GROW{marker SP.POP.GROW}}}Population growth (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.TOTL:SP.POP.TOTL{marker SP.POP.TOTL}}}Population, total{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.TOTL.FE.IN:SP.POP.TOTL.FE.IN{marker SP.POP.TOTL.FE.IN}}}Population, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.TOTL.FE.ZS:SP.POP.TOTL.FE.ZS{marker SP.POP.TOTL.FE.ZS}}}Population, female (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.TOTL.MA.IN:SP.POP.TOTL.MA.IN{marker SP.POP.TOTL.MA.IN}}}Population, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.POP.TOTL.MA.ZS:SP.POP.TOTL.MA.ZS{marker SP.POP.TOTL.MA.ZS}}}Population, male (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.RUR.TOTL:SP.RUR.TOTL{marker SP.RUR.TOTL}}}Rural population{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.RUR.TOTL.ZG:SP.RUR.TOTL.ZG{marker SP.RUR.TOTL.ZG}}}Rural population growth (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.RUR.TOTL.ZS:SP.RUR.TOTL.ZS{marker SP.RUR.TOTL.ZS}}}Rural population (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.URB.GROW:SP.URB.GROW{marker SP.URB.GROW}}}Urban population growth (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.URB.TOTL:SP.URB.TOTL{marker SP.URB.TOTL}}}Urban population{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators40##sourceid_SP.URB.TOTL.IN.ZS:SP.URB.TOTL.IN.ZS{marker SP.URB.TOTL.IN.ZS}}}Urban population (% of total population){p_end}
 {synoptline}
 
 {marker sourceid_41}

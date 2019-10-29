@@ -354,7 +354,7 @@
 {marker topicid_SP.URB.GROW}
 {synopt:{bf:{help wbopendata_topicid##SP.URB.GROW:SP.URB.GROW} - Urban population growth (annual %)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -367,7 +367,7 @@
 {marker topicid_SP.URB.TOTL}
 {synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL:SP.URB.TOTL} - Urban population}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -380,7 +380,7 @@
 {marker topicid_SP.URB.TOTL.IN.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL.IN.ZS:SP.URB.TOTL.IN.ZS} - Urban population (% of total population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
