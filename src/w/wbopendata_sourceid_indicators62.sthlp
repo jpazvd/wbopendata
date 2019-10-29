@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -39,6 +39,7 @@
 {synopt:{opt 36}}  {help wbopendata_sourceid_indicators36##sourceid_36:Statistical Capacity Indicators}{p_end}
 {synopt:{opt 37}}  {help wbopendata_sourceid_indicators37##sourceid_37:LAC Equity Lab}{p_end}
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
+{synopt:{opt 40}}  {help wbopendata_sourceid_indicators40##sourceid_40:Population estimates and projections}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
@@ -68,7 +69,7 @@
 {syntab:{title:{bf:62 International Comparison Program (ICP) 2011}}}
 {synoptline}
 {marker sourceid_S01}
-{synopt:{bf:{help wbopendata_sourceid##S01:S01} - `"EXPENDITURES (National currency units, billions)"'}}
+{synopt:{bf:{help wbopendata_sourceid##S01:S01} - EXPENDITURES (National currency units, billions)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -80,7 +81,7 @@
 
 {synoptline}
 {marker sourceid_S02}
-{synopt:{bf:{help wbopendata_sourceid##S02:S02} - `"EXPENDITURE SHARES (GDP=100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##S02:S02} - EXPENDITURE SHARES (GDP=100)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -92,7 +93,7 @@
 
 {synoptline}
 {marker sourceid_S03}
-{synopt:{bf:{help wbopendata_sourceid##S03:S03} - `"PPPs (US$=1)"'}}
+{synopt:{bf:{help wbopendata_sourceid##S03:S03} - PPPs (US$=1)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -104,7 +105,7 @@
 
 {synoptline}
 {marker sourceid_S04}
-{synopt:{bf:{help wbopendata_sourceid##S04:S04} - `"REAL EXPENDITURES (US$, billions)"'}}
+{synopt:{bf:{help wbopendata_sourceid##S04:S04} - REAL EXPENDITURES (US$, billions)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -116,7 +117,7 @@
 
 {synoptline}
 {marker sourceid_S05}
-{synopt:{bf:{help wbopendata_sourceid##S05:S05} - `"REAL EXPENDITURES: COUNTRY AND REGIONAL SHARES (World=100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##S05:S05} - REAL EXPENDITURES: COUNTRY AND REGIONAL SHARES (World=100)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -128,7 +129,7 @@
 
 {synoptline}
 {marker sourceid_S06}
-{synopt:{bf:{help wbopendata_sourceid##S06:S06} - `"REAL EXPENDITURES PER CAPITA (US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##S06:S06} - REAL EXPENDITURES PER CAPITA (US$)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -140,7 +141,7 @@
 
 {synoptline}
 {marker sourceid_S07}
-{synopt:{bf:{help wbopendata_sourceid##S07:S07} - `"INDEX OF REAL EXPENDITURES PER CAPITA (World=100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##S07:S07} - INDEX OF REAL EXPENDITURES PER CAPITA (World=100)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -152,7 +153,7 @@
 
 {synoptline}
 {marker sourceid_S08}
-{synopt:{bf:{help wbopendata_sourceid##S08:S08} - `"PRICE LEVEL INDEX (World = 100)"'}}
+{synopt:{bf:{help wbopendata_sourceid##S08:S08} - PRICE LEVEL INDEX (World = 100)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -164,7 +165,7 @@
 
 {synoptline}
 {marker sourceid_S09}
-{synopt:{bf:{help wbopendata_sourceid##S09:S09} - `"NOMINAL EXPENDITURES (US$, billions)"'}}
+{synopt:{bf:{help wbopendata_sourceid##S09:S09} - NOMINAL EXPENDITURES (US$, billions)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -176,7 +177,7 @@
 
 {synoptline}
 {marker sourceid_S10}
-{synopt:{bf:{help wbopendata_sourceid##S10:S10} - `"NOMINAL EXPENDITURES PER CAPITA (US$)"'}}
+{synopt:{bf:{help wbopendata_sourceid##S10:S10} - NOMINAL EXPENDITURES PER CAPITA (US$)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -188,7 +189,7 @@
 
 {synoptline}
 {marker sourceid_S11}
-{synopt:{bf:{help wbopendata_sourceid##S11:S11} - `"EXCHANGE RATE (US$ = 1.000)"'}}
+{synopt:{bf:{help wbopendata_sourceid##S11:S11} - EXCHANGE RATE (US$ = 1.000)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -200,7 +201,7 @@
 
 {synoptline}
 {marker sourceid_S12}
-{synopt:{bf:{help wbopendata_sourceid##S12:S12} - `"POPULATION (millions)"'}}
+{synopt:{bf:{help wbopendata_sourceid##S12:S12} - POPULATION (millions)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -211,4 +212,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -39,6 +39,7 @@
 {synopt:{opt 36}}  {help wbopendata_sourceid_indicators36##sourceid_36:Statistical Capacity Indicators}{p_end}
 {synopt:{opt 37}}  {help wbopendata_sourceid_indicators37##sourceid_37:LAC Equity Lab}{p_end}
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
+{synopt:{opt 40}}  {help wbopendata_sourceid_indicators40##sourceid_40:Population estimates and projections}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
@@ -80,7 +81,7 @@
 
 {synoptline}
 {marker sourceid_FB.CAP.INST.ST.MS.AL}
-{synopt:{bf:{help wbopendata_sourceid##FB.CAP.INST.ST.MS.AL:FB.CAP.INST.ST.MS.AL} - `"660_Does government, industry, and NGOs participate in the multi-stakeholder structure to promote and coordinate financial education?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.CAP.INST.ST.MS.AL:FB.CAP.INST.ST.MS.AL} - 660_Does government, industry, and NGOs participate in the multi-stakeholder structure to promote and coordinate financial education?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -92,7 +93,7 @@
 
 {synoptline}
 {marker sourceid_FB.CAP.INST.ST.MS.GI}
-{synopt:{bf:{help wbopendata_sourceid##FB.CAP.INST.ST.MS.GI:FB.CAP.INST.ST.MS.GI} - `"659_Does government and industry only participate in the multi-stakeholder structure to promote and coordinate financial education?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.CAP.INST.ST.MS.GI:FB.CAP.INST.ST.MS.GI} - 659_Does government and industry only participate in the multi-stakeholder structure to promote and coordinate financial education?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -104,7 +105,7 @@
 
 {synoptline}
 {marker sourceid_FB.CAP.INST.ST.MS.GP}
-{synopt:{bf:{help wbopendata_sourceid##FB.CAP.INST.ST.MS.GP:FB.CAP.INST.ST.MS.GP} - `"657_Does government participate in the multi-stakeholder structure to promote and coordinate financial education?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.CAP.INST.ST.MS.GP:FB.CAP.INST.ST.MS.GP} - 657_Does government participate in the multi-stakeholder structure to promote and coordinate financial education?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -116,7 +117,7 @@
 
 {synoptline}
 {marker sourceid_FB.CAP.INST.ST.MS.IO}
-{synopt:{bf:{help wbopendata_sourceid##FB.CAP.INST.ST.MS.IO:FB.CAP.INST.ST.MS.IO} - `"658_Does industry only participate in the multi-stakeholder structure to promote and coordinate financial education?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.CAP.INST.ST.MS.IO:FB.CAP.INST.ST.MS.IO} - 658_Does industry only participate in the multi-stakeholder structure to promote and coordinate financial education?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -188,7 +189,7 @@
 
 {synoptline}
 {marker sourceid_FB.CAP.POLI.GL.AP}
-{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.GL.AP:FB.CAP.POLI.GL.AP} - `"669_Has the government issued written guidelines directed to all providers of financial education on content and/or methodology?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.GL.AP:FB.CAP.POLI.GL.AP} - 669_Has the government issued written guidelines directed to all providers of financial education on content and/or methodology?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -200,7 +201,7 @@
 
 {synoptline}
 {marker sourceid_FB.CAP.POLI.GL.SP}
-{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.GL.SP:FB.CAP.POLI.GL.SP} - `"668_Has the government issued written guidelines directed to a limited set of providers of financial education on content and/or methodology?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.GL.SP:FB.CAP.POLI.GL.SP} - 668_Has the government issued written guidelines directed to a limited set of providers of financial education on content and/or methodology?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -368,7 +369,7 @@
 
 {synoptline}
 {marker sourceid_FB.CAP.POLI.RE.AP}
-{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.RE.AP:FB.CAP.POLI.RE.AP} - `"672_Does the government explicitly require all financial service providers to offer financial education?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.RE.AP:FB.CAP.POLI.RE.AP} - 672_Does the government explicitly require all financial service providers to offer financial education?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -380,7 +381,7 @@
 
 {synoptline}
 {marker sourceid_FB.CAP.POLI.RE.SP}
-{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.RE.SP:FB.CAP.POLI.RE.SP} - `"671_Does the government explicitly require a limited set of financial service providers to offer financial education?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.RE.SP:FB.CAP.POLI.RE.SP} - 671_Does the government explicitly require a limited set of financial service providers to offer financial education?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -392,7 +393,7 @@
 
 {synoptline}
 {marker sourceid_FB.CAP.POLI.RG.DC.AP}
-{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.RG.DC.AP:FB.CAP.POLI.RG.DC.AP} - `"664_Does the government regularly collect data from all known providers of financial education on the reach of their programs?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.RG.DC.AP:FB.CAP.POLI.RG.DC.AP} - 664_Does the government regularly collect data from all known providers of financial education on the reach of their programs?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -404,7 +405,7 @@
 
 {synoptline}
 {marker sourceid_FB.CAP.POLI.RG.DC.SP}
-{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.RG.DC.SP:FB.CAP.POLI.RG.DC.SP} - `"663_Does the government regularly collect data from a limited set of providers of financial education on the reach of their programs?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.RG.DC.SP:FB.CAP.POLI.RG.DC.SP} - 663_Does the government regularly collect data from a limited set of providers of financial education on the reach of their programs?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -1592,7 +1593,7 @@
 
 {synoptline}
 {marker sourceid_FB.FCP.INST.ES.AF.10}
-{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ES.AF.10:FB.FCP.INST.ES.AF.10} - `"313_Was the financial consumer protection (FCP) unit in this country established after the year 2010?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ES.AF.10:FB.FCP.INST.ES.AF.10} - 313_Was the financial consumer protection (FCP) unit in this country established after the year 2010?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -1604,7 +1605,7 @@
 
 {synoptline}
 {marker sourceid_FB.FCP.INST.ES.BF.2K}
-{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ES.BF.2K:FB.FCP.INST.ES.BF.2K} - `"311_Was the financial consumer protection (FCP) unit in this country established before the year 2000?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ES.BF.2K:FB.FCP.INST.ES.BF.2K} - 311_Was the financial consumer protection (FCP) unit in this country established before the year 2000?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -1616,7 +1617,7 @@
 
 {synoptline}
 {marker sourceid_FB.FCP.INST.ES.BW.01}
-{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ES.BW.01:FB.FCP.INST.ES.BW.01} - `"312_Was the financial consumer protection (FCP) unit in this country established between the years 2000 and 2010?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ES.BW.01:FB.FCP.INST.ES.BW.01} - 312_Was the financial consumer protection (FCP) unit in this country established between the years 2000 and 2010?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -1664,7 +1665,7 @@
 
 {synoptline}
 {marker sourceid_FB.FCP.INST.NS.BW.LC}
-{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.NS.BW.LC:FB.FCP.INST.NS.BW.LC} - `"317_Does the financial consumer protection (FCP) unit in this country have the staff of between 50 and 99 people?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.NS.BW.LC:FB.FCP.INST.NS.BW.LC} - 317_Does the financial consumer protection (FCP) unit in this country have the staff of between 50 and 99 people?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -1676,7 +1677,7 @@
 
 {synoptline}
 {marker sourceid_FB.FCP.INST.NS.BW.XL}
-{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.NS.BW.XL:FB.FCP.INST.NS.BW.XL} - `"316_Does the financial consumer protection (FCP) unit in this country have the staff of between 10 and 49 people?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.NS.BW.XL:FB.FCP.INST.NS.BW.XL} - 316_Does the financial consumer protection (FCP) unit in this country have the staff of between 10 and 49 people?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -1688,7 +1689,7 @@
 
 {synoptline}
 {marker sourceid_FB.FCP.INST.NS.LS.XP}
-{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.NS.LS.XP:FB.FCP.INST.NS.LS.XP} - `"315_Does the financial consumer protection (FCP) unit in this country have the staff of less than 10 people?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.NS.LS.XP:FB.FCP.INST.NS.LS.XP} - 315_Does the financial consumer protection (FCP) unit in this country have the staff of less than 10 people?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -1700,7 +1701,7 @@
 
 {synoptline}
 {marker sourceid_FB.FCP.INST.NS.MT.CM}
-{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.NS.MT.CM:FB.FCP.INST.NS.MT.CM} - `"318_Does the financial consumer protection (FCP) unit in this country have the staff of 100 or more people?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.NS.MT.CM:FB.FCP.INST.NS.MT.CM} - 318_Does the financial consumer protection (FCP) unit in this country have the staff of 100 or more people?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -1880,7 +1881,7 @@
 
 {synoptline}
 {marker sourceid_FB.FCP.INST.ST.RS.DP}
-{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ST.RS.DP:FB.FCP.INST.ST.RS.DP} - `"302_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have a dedicated financial consumer protection authority model?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ST.RS.DP:FB.FCP.INST.ST.RS.DP} - 302_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have a dedicated financial consumer protection authority model?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -1892,7 +1893,7 @@
 
 {synoptline}
 {marker sourceid_FB.FCP.INST.ST.RS.GP}
-{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ST.RS.GP:FB.FCP.INST.ST.RS.GP} - `"303_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have a general consumer protection authority model?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ST.RS.GP:FB.FCP.INST.ST.RS.GP} - 303_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have a general consumer protection authority model?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -1904,7 +1905,7 @@
 
 {synoptline}
 {marker sourceid_FB.FCP.INST.ST.RS.IA}
-{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ST.RS.IA:FB.FCP.INST.ST.RS.IA} - `"300_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have an integrated single financial sector authority model?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ST.RS.IA:FB.FCP.INST.ST.RS.IA} - 300_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have an integrated single financial sector authority model?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -1916,7 +1917,7 @@
 
 {synoptline}
 {marker sourceid_FB.FCP.INST.ST.RS.IS}
-{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ST.RS.IS:FB.FCP.INST.ST.RS.IS} - `"301_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have an integrated sectoral financial sector authority model?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ST.RS.IS:FB.FCP.INST.ST.RS.IS} - 301_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have an integrated sectoral financial sector authority model?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -1928,7 +1929,7 @@
 
 {synoptline}
 {marker sourceid_FB.FCP.INST.ST.RS.SH}
-{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ST.RS.SH:FB.FCP.INST.ST.RS.SH} - `"304_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have a shared financial and general consumer protection authority model?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ST.RS.SH:FB.FCP.INST.ST.RS.SH} - 304_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have a shared financial and general consumer protection authority model?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2240,7 +2241,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.EMNY.SP.IF.AM}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.EMNY.SP.IF.AM:FB.INC.EMNY.SP.IF.AM} - `"220_Are 100% of customers' e-money funds required to be separated from e-money issuer's funds and kept at more than one prudentially regulated financial institution, possibly the central bank and othe"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.EMNY.SP.IF.AM:FB.INC.EMNY.SP.IF.AM} - 220_Are 100% of customers' e-money funds required to be separated from e-money issuer's funds and kept at more than one prudentially regulated financial institution, possibly the central bank and othe}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2252,7 +2253,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.EMNY.SP.IF.AO}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.EMNY.SP.IF.AO:FB.INC.EMNY.SP.IF.AO} - `"219_Are 100% of customers' e-money funds required to be separated from e-money issuer's funds and kept at a single prudentially regulated financial institution, possibly the central bank?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.EMNY.SP.IF.AO:FB.INC.EMNY.SP.IF.AO} - 219_Are 100% of customers' e-money funds required to be separated from e-money issuer's funds and kept at a single prudentially regulated financial institution, possibly the central bank?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2264,7 +2265,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.EMNY.SP.IF.NR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.EMNY.SP.IF.NR:FB.INC.EMNY.SP.IF.NR} - `"222_Is it not required that customers' e-money funds are separated from e-money issuer's funds?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.EMNY.SP.IF.NR:FB.INC.EMNY.SP.IF.NR} - 222_Is it not required that customers' e-money funds are separated from e-money issuer's funds?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2276,7 +2277,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.EMNY.SP.IF.SM}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.EMNY.SP.IF.SM:FB.INC.EMNY.SP.IF.SM} - `"221_Is only a fraction of customers' e-money funds required to be separated from e-money issuer's funds and kept at one or more prudentially regulated financial institutions, possibly the central bank"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.EMNY.SP.IF.SM:FB.INC.EMNY.SP.IF.SM} - 221_Is only a fraction of customers' e-money funds required to be separated from e-money issuer's funds and kept at one or more prudentially regulated financial institutions, possibly the central bank}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2288,7 +2289,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.CB.AU.AR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.AU.AR:FB.INC.INST.CB.AU.AR} - `"192_For commercial banks, is authorization of new or modified financial products always explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.AU.AR:FB.INC.INST.CB.AU.AR} - 192_For commercial banks, is authorization of new or modified financial products always explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2300,7 +2301,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.CB.AU.NR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.AU.NR:FB.INC.INST.CB.AU.NR} - `"194_For commercial banks, is authorization of new or modified financial products never explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.AU.NR:FB.INC.INST.CB.AU.NR} - 194_For commercial banks, is authorization of new or modified financial products never explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2312,7 +2313,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.CB.AU.SR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.AU.SR:FB.INC.INST.CB.AU.SR} - `"193_For commercial banks, is authorization of new or modified financial products only in some cases explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.AU.SR:FB.INC.INST.CB.AU.SR} - 193_For commercial banks, is authorization of new or modified financial products only in some cases explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2348,7 +2349,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.CB.LN.AL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.LN.AL:FB.INC.INST.CB.LN.AL} - `"168_For commercial banks, is all lending subject to interest rate caps or pricing limits?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.LN.AL:FB.INC.INST.CB.LN.AL} - 168_For commercial banks, is all lending subject to interest rate caps or pricing limits?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2360,7 +2361,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.CB.LN.NL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.LN.NL:FB.INC.INST.CB.LN.NL} - `"169_For commercial banks, are there no interest rate caps or pricing limits?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.LN.NL:FB.INC.INST.CB.LN.NL} - 169_For commercial banks, are there no interest rate caps or pricing limits?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2372,7 +2373,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.CB.LN.SL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.LN.SL:FB.INC.INST.CB.LN.SL} - `"170_For commercial banks, are there some interest rate caps or pricing limits that apply to certain products or segments?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.LN.SL:FB.INC.INST.CB.LN.SL} - 170_For commercial banks, are there some interest rate caps or pricing limits that apply to certain products or segments?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2444,7 +2445,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.FC.AU.AR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.AU.AR:FB.INC.INST.FC.AU.AR} - `"200_For financial cooperatives, is authorization of new or modified financial products always explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.AU.AR:FB.INC.INST.FC.AU.AR} - 200_For financial cooperatives, is authorization of new or modified financial products always explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2456,7 +2457,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.FC.AU.NR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.AU.NR:FB.INC.INST.FC.AU.NR} - `"202_For financial cooperatives, is authorization of new or modified financial products never explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.AU.NR:FB.INC.INST.FC.AU.NR} - 202_For financial cooperatives, is authorization of new or modified financial products never explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2468,7 +2469,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.FC.AU.SR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.AU.SR:FB.INC.INST.FC.AU.SR} - `"201_For financial cooperatives, is authorization of new or modified financial products only in some cases explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.AU.SR:FB.INC.INST.FC.AU.SR} - 201_For financial cooperatives, is authorization of new or modified financial products only in some cases explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2504,7 +2505,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.FC.LN.AL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.LN.AL:FB.INC.INST.FC.LN.AL} - `"176_For financial cooperatives, is all lending subject to interest rate caps or pricing limits?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.LN.AL:FB.INC.INST.FC.LN.AL} - 176_For financial cooperatives, is all lending subject to interest rate caps or pricing limits?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2516,7 +2517,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.FC.LN.NL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.LN.NL:FB.INC.INST.FC.LN.NL} - `"177_For financial cooperatives, are there no interest rate caps or pricing limits?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.LN.NL:FB.INC.INST.FC.LN.NL} - 177_For financial cooperatives, are there no interest rate caps or pricing limits?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2528,7 +2529,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.FC.LN.SL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.LN.SL:FB.INC.INST.FC.LN.SL} - `"178_For financial cooperatives, are there some interest rate caps or pricing limits that apply to certain products or segments?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.LN.SL:FB.INC.INST.FC.LN.SL} - 178_For financial cooperatives, are there some interest rate caps or pricing limits that apply to certain products or segments?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2708,7 +2709,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.MC.AU.AR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.AU.AR:FB.INC.INST.MC.AU.AR} - `"208_For microcredit institutions (MCIs), is authorization of new or modified financial products always explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.AU.AR:FB.INC.INST.MC.AU.AR} - 208_For microcredit institutions (MCIs), is authorization of new or modified financial products always explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2720,7 +2721,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.MC.AU.NR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.AU.NR:FB.INC.INST.MC.AU.NR} - `"210_For microcredit institutions (MCIs), is authorization of new or modified financial products never explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.AU.NR:FB.INC.INST.MC.AU.NR} - 210_For microcredit institutions (MCIs), is authorization of new or modified financial products never explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2732,7 +2733,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.MC.AU.SR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.AU.SR:FB.INC.INST.MC.AU.SR} - `"209_For microcredit institutions (MCIs), is authorization of new or modified financial products only in some cases explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.AU.SR:FB.INC.INST.MC.AU.SR} - 209_For microcredit institutions (MCIs), is authorization of new or modified financial products only in some cases explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2756,7 +2757,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.MC.LN.AL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.LN.AL:FB.INC.INST.MC.LN.AL} - `"184_For microcredit institutions (MCIs), is all lending subject to interest rate caps or pricing limits?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.LN.AL:FB.INC.INST.MC.LN.AL} - 184_For microcredit institutions (MCIs), is all lending subject to interest rate caps or pricing limits?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2768,7 +2769,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.MC.LN.NL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.LN.NL:FB.INC.INST.MC.LN.NL} - `"185_For microcredit institutions (MCIs), are there no interest rate caps or pricing limits?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.LN.NL:FB.INC.INST.MC.LN.NL} - 185_For microcredit institutions (MCIs), are there no interest rate caps or pricing limits?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2780,7 +2781,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.MC.LN.SL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.LN.SL:FB.INC.INST.MC.LN.SL} - `"186_For microcredit institutions (MCIs), are there some interest rate caps or pricing limits that apply to certain products or segments?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.LN.SL:FB.INC.INST.MC.LN.SL} - 186_For microcredit institutions (MCIs), are there some interest rate caps or pricing limits that apply to certain products or segments?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2804,7 +2805,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.NB.AU.AR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.NB.AU.AR:FB.INC.INST.NB.AU.AR} - `"212_For non-bank e-money issuers (NBEIs), is authorization of new or modified financial products always explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.NB.AU.AR:FB.INC.INST.NB.AU.AR} - 212_For non-bank e-money issuers (NBEIs), is authorization of new or modified financial products always explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2816,7 +2817,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.NB.AU.NR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.NB.AU.NR:FB.INC.INST.NB.AU.NR} - `"214_For non-bank e-money issuers (NBEIs), is authorization of new or modified financial products never explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.NB.AU.NR:FB.INC.INST.NB.AU.NR} - 214_For non-bank e-money issuers (NBEIs), is authorization of new or modified financial products never explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2828,7 +2829,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.NB.AU.SR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.NB.AU.SR:FB.INC.INST.NB.AU.SR} - `"213_For non-bank e-money issuers (NBEIs), is authorization of new or modified financial products only in some cases explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.NB.AU.SR:FB.INC.INST.NB.AU.SR} - 213_For non-bank e-money issuers (NBEIs), is authorization of new or modified financial products only in some cases explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2864,7 +2865,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.OB.AU.AR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.AU.AR:FB.INC.INST.OB.AU.AR} - `"196_For other banks, is authorization of new or modified financial products always explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.AU.AR:FB.INC.INST.OB.AU.AR} - 196_For other banks, is authorization of new or modified financial products always explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2876,7 +2877,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.OB.AU.NR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.AU.NR:FB.INC.INST.OB.AU.NR} - `"198_For other banks, is authorization of new or modified financial products never explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.AU.NR:FB.INC.INST.OB.AU.NR} - 198_For other banks, is authorization of new or modified financial products never explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2888,7 +2889,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.OB.AU.SR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.AU.SR:FB.INC.INST.OB.AU.SR} - `"197_For other banks, is authorization of new or modified financial products only in some cases explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.AU.SR:FB.INC.INST.OB.AU.SR} - 197_For other banks, is authorization of new or modified financial products only in some cases explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2924,7 +2925,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.OB.LN.AL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.LN.AL:FB.INC.INST.OB.LN.AL} - `"172_For other banks, is all lending subject to interest rate caps or pricing limits?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.LN.AL:FB.INC.INST.OB.LN.AL} - 172_For other banks, is all lending subject to interest rate caps or pricing limits?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2936,7 +2937,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.OB.LN.NL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.LN.NL:FB.INC.INST.OB.LN.NL} - `"173_For other banks, are there no interest rate caps or pricing limits?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.LN.NL:FB.INC.INST.OB.LN.NL} - 173_For other banks, are there no interest rate caps or pricing limits?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -2948,7 +2949,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.OB.LN.SL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.LN.SL:FB.INC.INST.OB.LN.SL} - `"174_For other banks, are there some interest rate caps or pricing limits that apply to certain products or segments?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.LN.SL:FB.INC.INST.OB.LN.SL} - 174_For other banks, are there some interest rate caps or pricing limits that apply to certain products or segments?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -3020,7 +3021,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.OD.AU.AR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.AU.AR:FB.INC.INST.OD.AU.AR} - `"204_For other deposit taking institutions (ODTIs), is authorization of new or modified financial products always explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.AU.AR:FB.INC.INST.OD.AU.AR} - 204_For other deposit taking institutions (ODTIs), is authorization of new or modified financial products always explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -3032,7 +3033,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.OD.AU.NR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.AU.NR:FB.INC.INST.OD.AU.NR} - `"206_For other deposit taking institutions (ODTIs), is authorization of new or modified financial products never explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.AU.NR:FB.INC.INST.OD.AU.NR} - 206_For other deposit taking institutions (ODTIs), is authorization of new or modified financial products never explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -3044,7 +3045,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.OD.AU.SR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.AU.SR:FB.INC.INST.OD.AU.SR} - `"205_For other deposit taking institutions (ODTIs), is authorization of new or modified financial products only in some cases explicitly required?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.AU.SR:FB.INC.INST.OD.AU.SR} - 205_For other deposit taking institutions (ODTIs), is authorization of new or modified financial products only in some cases explicitly required?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -3080,7 +3081,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.OD.LN.AL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.LN.AL:FB.INC.INST.OD.LN.AL} - `"180_For other deposit taking institutions (ODTIs), is all lending subject to interest rate caps or pricing limits?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.LN.AL:FB.INC.INST.OD.LN.AL} - 180_For other deposit taking institutions (ODTIs), is all lending subject to interest rate caps or pricing limits?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -3092,7 +3093,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.OD.LN.NL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.LN.NL:FB.INC.INST.OD.LN.NL} - `"181_For other deposit taking institutions (ODTIs), are there no interest rate caps or pricing limits?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.LN.NL:FB.INC.INST.OD.LN.NL} - 181_For other deposit taking institutions (ODTIs), are there no interest rate caps or pricing limits?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -3104,7 +3105,7 @@
 
 {synoptline}
 {marker sourceid_FB.INC.INST.OD.LN.SL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.LN.SL:FB.INC.INST.OD.LN.SL} - `"182_For other deposit taking institutions (ODTIs), are there some interest rate caps or pricing limits that apply to certain products or segments?"'}}
+{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.LN.SL:FB.INC.INST.OD.LN.SL} - 182_For other deposit taking institutions (ODTIs), are there some interest rate caps or pricing limits that apply to certain products or segments?}}
 
 {synopt:{opt Source}}69 Global Financial Inclusion and Consumer Protection Survey{p_end}
 
@@ -4231,4 +4232,4 @@
 
 
 
-{right:(as of 27oct2019)}
+{right:(as of 28oct2019)}

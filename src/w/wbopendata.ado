@@ -13,6 +13,7 @@
  * _wbopendata.ado: renamned _update_wbopendata
  * _indicator: renamed _update_indicators
  * _update_wbopendata.ado: now checks for changes at the SOURCE or TOPIC level
+ * fixed return list when multiple indicators are selected
  * updated help file to allow for the search of indicators by Source and Topics
 *******************************************************************************
 
@@ -27,6 +28,9 @@ version 9.0
                          TOPICS(string)             ///
                          INDICATOR(string)          ///
                          YEAR(string)               ///
+						 DATE(string)				///
+						 SOURCE(string)				///
+ 						 PROJECTION					///						 
                          LONG                       ///
                          CLEAR                      ///
                          LATEST                     ///
@@ -125,13 +129,16 @@ version 9.0
 
 				   tempfile file`f'
 
-				   noi _query ,       language("`language'")       ///
-										 country("`country'")         ///
-										 topics("`topics'")           ///
+				   noi _query ,       language("`language'")      		///
+										 country("`country'")         	///
+										 topics("`topics'")           	///
 										 indicator("``i''")             ///
-										 year("`year'")               ///
-										 `long'                       ///
-										 `clear'                      ///
+										 year("`year'")               	///
+										 date("`date'")					///
+										 source("`source'")				///
+										`projection'					///
+										 `long'                       	///
+										 `clear'                      	///
 										 `nometadata'
 					local time  "`r(time)'"
 					local namek "`r(name)'"
@@ -153,9 +160,6 @@ version 9.0
 
 					local w1 = word("``i''",1)
 					return local varname`f'     = trim(lower(subinstr(word("`w1'",1),".","_",.)))
-					if ("`name'" != "") {
-						return local varname`f' "`name'"
-					}
 					return local indicator`f'  "`w1'"
 					return local topics`f'     "`topics'"
 					return local year`f'       "`year'"
@@ -185,15 +189,18 @@ version 9.0
 
 			if ("`update'" == "") & ("`match'" == "") {
 			 
-				noi _query , language("`language'")       ///
-								  country("`country'")         ///
-								  topics("`topics'")           ///
-								  indicator("``i''")             ///
-								  year("`year'")               ///
-								  `long'                       ///
-								  `clear'                      ///
-								  `latest'                     ///
-								  `nometadata'
+				noi _query , language("`language'")       	///
+									country("`country'")    ///
+									topics("`topics'")      ///
+									indicator("``i''")      ///
+									year("`year'")          ///
+									date("`date'")			///
+									source("`source'")		///
+									`projection'			///
+									`long'                  ///
+									`clear'                 ///
+									`latest'                ///
+									`nometadata'
 				local time  "`r(time)'"
 				local name "`r(name)'"
 
@@ -216,9 +223,6 @@ version 9.0
 
 			local w1 = word("`indicator'",1)
 			return local varname1     = trim(lower(subinstr(word("`w1'",1),".","_",.)))
-			if ("`name'" != "") {
-				return local varname1 "`name'"
-			}
 			return local indicator1  "`w1'"
 			return local country1    "`country'"
 			return local topics1     "`topics'"
@@ -263,6 +267,11 @@ version 9.0
 
 	}
 	
+	local nametmp  = "`indicator'"
+	local nametmp = lower("`nametmp'")
+	local nametmp = subinstr("`nametmp'",";"," ",.)	
+	local nametmp = subinstr("`nametmp'",".","_",.) 
+	return local name "`nametmp'"
 	
 **********************************************************************************
 	
