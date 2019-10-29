@@ -28,6 +28,9 @@ version 9.0
                          TOPICS(string)             ///
                          INDICATOR(string)          ///
                          YEAR(string)               ///
+						 DATE(string)				///
+						 SOURCE(string)				///
+ 						 PROJECTION					///						 
                          LONG                       ///
                          CLEAR                      ///
                          LATEST                     ///
@@ -126,13 +129,16 @@ version 9.0
 
 				   tempfile file`f'
 
-				   noi _query ,       language("`language'")       ///
-										 country("`country'")         ///
-										 topics("`topics'")           ///
+				   noi _query ,       language("`language'")      		///
+										 country("`country'")         	///
+										 topics("`topics'")           	///
 										 indicator("``i''")             ///
-										 year("`year'")               ///
-										 `long'                       ///
-										 `clear'                      ///
+										 year("`year'")               	///
+										 date("`date'")					///
+										 source("`source'")				///
+										`projection'					///
+										 `long'                       	///
+										 `clear'                      	///
 										 `nometadata'
 					local time  "`r(time)'"
 					local namek "`r(name)'"
@@ -183,15 +189,18 @@ version 9.0
 
 			if ("`update'" == "") & ("`match'" == "") {
 			 
-				noi _query , language("`language'")       ///
-								  country("`country'")         ///
-								  topics("`topics'")           ///
-								  indicator("``i''")             ///
-								  year("`year'")               ///
-								  `long'                       ///
-								  `clear'                      ///
-								  `latest'                     ///
-								  `nometadata'
+				noi _query , language("`language'")       	///
+									country("`country'")    ///
+									topics("`topics'")      ///
+									indicator("``i''")      ///
+									year("`year'")          ///
+									date("`date'")			///
+									source("`source'")		///
+									`projection'			///
+									`long'                  ///
+									`clear'                 ///
+									`latest'                ///
+									`nometadata'
 				local time  "`r(time)'"
 				local name "`r(name)'"
 

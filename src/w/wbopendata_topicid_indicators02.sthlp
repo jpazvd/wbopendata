@@ -861,7 +861,7 @@
 {marker topicid_SH.DYN.MORT}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT:SH.DYN.MORT} - Mortality rate, under-5 (per 1,000 live births)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
@@ -978,7 +978,7 @@
 {marker topicid_SM.POP.NETM}
 {synopt:{bf:{help wbopendata_topicid##SM.POP.NETM:SM.POP.NETM} - Net migration}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
