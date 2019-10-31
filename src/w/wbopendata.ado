@@ -26,7 +26,7 @@ version 9.0
                          LANGUAGE(string)           ///
                          COUNTRY(string)            ///
                          TOPICS(string)             ///
-                         INDICATOR(string)          ///
+                         INDICATORs(string)         ///
                          YEAR(string)               ///
 						 DATE(string)				///
 						 SOURCE(string)				///
@@ -82,6 +82,9 @@ version 9.0
 	
 	
 **********************************************************************************
+
+local indicator `indicators'
+
 
 		if ("`query'" != "") & ("`check'" != "") {
 			noi di  as err "update query and update check options cannot be selected at the same time."
