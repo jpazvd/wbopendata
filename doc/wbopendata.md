@@ -1,8 +1,8 @@
-        ### Version Control
-	
+# Examples
+## Version Control [(back)](master/README.md#examples)
 <pre id="stlog-1" class="stlog"><samp>. which wbopendata
 .\w\wbopendata.ado
-*!  v 16.0          28Oct2019               by Joao Pedro Azevedo 
+*!  v 16.0.1    31Oct2019               by Joao Pedro Azevedo 
 
 . which _query
 .\_\_query.ado
@@ -11,10 +11,8 @@
 . which wbopendata.sthlp
 .\w\wbopendata.sthlp
 </samp></pre>
-        ### Example 1
-
-        Download all WDI indiators for a single country (i.e. China)
-
+## Example 1  [(back)](master/README.md#examples)
+### Download all WDI indiators for a single country (i.e. China)
 <pre id="stlog-2" class="stlog"><samp>. wbopendata, country(chn - China) clear
 
 . tab indicatorcode in 1/10
@@ -34,10 +32,8 @@
 --------------------------+-----------------------------------
                     Total |         10      100.00
 </samp></pre>
-        ### Example 2
-
-       Download all WDI indicators of particular topic
-		
+## Example 2 [(back)](master/README.md#examples)
+### Download all WDI indicators of particular topic
 <pre id="stlog-3" class="stlog"><samp>. wbopendata, language(en - English) topics(2 - Aid Effectiveness) clear
 
 . tab indicatorcode in 1/10
@@ -57,39 +53,38 @@
 ------------------+-----------------------------------
             Total |         10      100.00
 </samp></pre>
-        ### Example 3
-
-        Download specific indicator [ag.agr.trac.no]
-
+## Example 3 [(back)](master/README.md#examples)
+### Download specific indicator [ag.agr.trac.no]
 <pre id="stlog-4" class="stlog"><samp>. wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) clear
 
 
 
 Metadata: ag.agr.trac.no
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
     
     Name: Agricultural machinery, tractors
  
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------------------------------
     
     Source: World Development Indicators
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
-    Source Note: Agricultural machinery refers to the number of wheel and crawler tractors (excluding garden tractors) in use in agriculture at the end of the calendar year specified or during the
-    first quarter of the following year.
+    Source Note: Agricultural machinery refers to the number of wheel and crawler tractors (excluding
+    garden tractors) in use in agriculture at the end of the calendar year specified or during the first
+    quarter of the following year.
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
     Source Organization: Food and Agriculture Organization, electronic files and web site.
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
       
     Topics: Agriculture &amp; Rural Development
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 
 
@@ -110,39 +105,38 @@ Metadata: ag.agr.trac.no
 ----------------------------------------+-----------------------------------
                                   Total |         10      100.00
 </samp></pre>
-        ### Example 4
-
-        Download specific indicator and report in long format [ag.agr.trac.no]
-
+## Example 4  [(back)](master/README.md#examples)
+### Download specific indicator and report in long format [ag.agr.trac.no]
 <pre id="stlog-5" class="stlog"><samp>. wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) long clear
 
 
 
 Metadata: ag.agr.trac.no
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
     
     Name: Agricultural machinery, tractors
  
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------------------------------
     
     Source: World Development Indicators
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
-    Source Note: Agricultural machinery refers to the number of wheel and crawler tractors (excluding garden tractors) in use in agriculture at the end of the calendar year specified or during the
-    first quarter of the following year.
+    Source Note: Agricultural machinery refers to the number of wheel and crawler tractors (excluding
+    garden tractors) in use in agriculture at the end of the calendar year specified or during the first
+    quarter of the following year.
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
     Source Organization: Food and Agriculture Organization, electronic files and web site.
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
       
     Topics: Agriculture &amp; Rural Development
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 
 
@@ -163,39 +157,37 @@ Metadata: ag.agr.trac.no
 ------------+-----------------------------------
       Total |         10      100.00
 </samp></pre>
-        ### Example 5
-
-        Download specific indicator for specific countries, and report in long 
+## Example 5  [(back)](master/README.md#examples)
+### Download specific indicator for specific countries, and report in long 
 		format [ag.agr.trac.no]
-
 <pre id="stlog-6" class="stlog"><samp>. wbopendata, country(ago;bdi;chi;dnk;esp) indicator(sp.pop.0610.fe.un) clear
 
 
 
 Metadata: sp.pop.0610.fe.un
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
     
     Name: Population, ages 6-10, female
  
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------------------------------
     
     Source: Education Statistics
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
     Source Note: Population, ages 6-10, female is the total number of females age 6-10.
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
     Source Organization: UNESCO Institute for Statistics (Derived)
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
       
     Topics: Education
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 
 
@@ -211,11 +203,9 @@ Channel Islands |          1       20.00       60.00
 ----------------+-----------------------------------
           Total |          5      100.00
 </samp></pre>
-        ### Example 6
-
-        Download specific indicator, for specific countries and year, and report 
+## Example 6  [(back)](master/README.md#examples)
+### Download specific indicator, for specific countries and year, and report 
 		in long format [ag.agr.trac.no]
-
 <pre id="stlog-7" class="stlog"><samp>. wbopendata, country(ago;bdi;chi;dnk;esp) indicator(sp.pop.0610.fe.un) ///
 &gt;                         year(2000:2010) clear  long
 
@@ -223,28 +213,28 @@ Channel Islands |          1       20.00       60.00
 
 Metadata: sp.pop.0610.fe.un
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
     
     Name: Population, ages 6-10, female
  
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------------------------------
     
     Source: Education Statistics
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
     Source Note: Population, ages 6-10, female is the total number of females age 6-10.
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
     Source Organization: UNESCO Institute for Statistics (Derived)
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
       
     Topics: Education
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 
 
@@ -286,10 +276,8 @@ Metadata: sp.pop.0610.fe.un
 -----------+--------------------------------------------+----------
      Total |        11         11         11         11 |        44 
 </samp></pre>
-        ### Example 7
-
-        Map latest values of global mobile phone coverage
-
+## Example 7  [(back)](master/README.md#examples)
+### Map latest values of global mobile phone coverage
 <pre id="stlog-8" class="stlog"><samp>.    qui tempfile tmp
 
 . wbopendata, language(en - English) indicator(it.cel.sets.p2) long clear latest
@@ -298,31 +286,35 @@ Metadata: sp.pop.0610.fe.un
 
 Metadata: it.cel.sets.p2
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
     
     Name: Mobile cellular subscriptions (per 100 people)
  
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------------------------------
     
     Source: World Development Indicators
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
-    Source Note: Mobile cellular telephone subscriptions are subscriptions to a public mobile telephone service that provide access to the PSTN using cellular technology. The indicator includes
-    (and is split into) the number of postpaid subscriptions, and the number of active prepaid accounts (i.e. that have been used during the last three months"}). The indicator applies to all
-    mobile cellular subscriptions that offer voice communications. It excludes subscriptions via data cards or USB modems, subscriptions to public mobile data services, private trunked mobile
-    radio, telepoint, radio paging and telemetry services.
+    Source Note: Mobile cellular telephone subscriptions are subscriptions to a public mobile telephone
+    service that provide access to the PSTN using cellular technology. The indicator includes (and is split
+    into) the number of postpaid subscriptions, and the number of active prepaid accounts (i.e. that have
+    been used during the last three months"}). The indicator applies to all mobile cellular subscriptions
+    that offer voice communications. It excludes subscriptions via data cards or USB modems, subscriptions
+    to public mobile data services, private trunked mobile radio, telepoint, radio paging and telemetry
+    services.
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
-    Source Organization: International Telecommunication Union, World Telecommunication/ICT Development Report and database.
+    Source Organization: International Telecommunication Union, World Telecommunication/ICT Development
+    Report and database.
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
       
     Topics: Infrastructure
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 
 
@@ -331,8 +323,8 @@ Metadata: it.cel.sets.p2
 . sort countrycode
 
 . save `tmp', replace
-(note: file C:\Users\wb255520\AppData\Local\Temp\ST_c6a8_000003.tmp not found)
-file C:\Users\wb255520\AppData\Local\Temp\ST_c6a8_000003.tmp saved
+(note: file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000003.tmp not found)
+file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000003.tmp saved
 
 . qui sysuse world-d, clear
 
@@ -346,56 +338,57 @@ file C:\Users\wb255520\AppData\Local\Temp\ST_c6a8_000003.tmp saved
 &gt;                 clnumber(20) fcolor(Reds2) ocolor(none ..)                                  ///
 &gt;                 title("`labelvar'", size(*1.2))         ///
 &gt;                 legstyle(3) legend(ring(1) position(3))                                     ///
-&gt;                 note("Source: World Development Indicators (latest available year: `avg') using  Azevedo, J.P. (2011) wbopendata: Stata module to " "access World Bank databases, Statistical Softwa
-&gt; re Components S457234 Boston College Department of Economics.")
+&gt;                 note("Source: World Development Indicators (latest available year: `avg') using  Azevedo, J
+&gt; .P. (2011) wbopendata: Stata module to " "access World Bank databases, Statistical Software Components S457
+&gt; 234 Boston College Department of Economics.")
 </samp></pre>
 <figure id="fig-8">
 <a href="wbopendata_8.png"><img alt="wbopendata_8.png" src="wbopendata_8.png"/></a>
 </figure>
-        ### Example 8
-
-        Bencharmk latest poverty levels by percapital income, highlighting single 
+## Example 8 [(back)](master/README.md#examples)
+### Bencharmk latest poverty levels by percapital income, highlighting single 
 		country
-
 <pre id="stlog-9" class="stlog"><samp>. wbopendata, indicator(si.pov.dday; ny.gdp.pcap.pp.kd) clear long latest
 
 
 
 Metadata: si.pov.dday
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
     
     Name: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
  
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------------------------------
     
     Source: World Development Indicators
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
-    Source Note: Poverty headcount ratio at $1.90 a day is the percentage of the population living on less than $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange
-    rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions.
+    Source Note: Poverty headcount ratio at $1.90 a day is the percentage of the population living on less
+    than $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty
+    rates for individual countries cannot be compared with poverty rates reported in earlier editions.
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
-    Source Organization: World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments.
-    Data for high-income economies are from the Luxembourg Income Study database. For more information and methodology, please see PovcalNet
-    (http://iresearch.worldbank.org/PovcalNet/index.htm"}"}).
+    Source Organization: World Bank, Development Research Group. Data are based on primary household survey
+    data obtained from government statistical agencies and World Bank country departments. Data for
+    high-income economies are from the Luxembourg Income Study database. For more information and
+    methodology, please see PovcalNet (http://iresearch.worldbank.org/PovcalNet/index.htm"}"}).
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
       
     Topics: Poverty
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
       
     Topics: Aid Effectiveness
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
       
     Topics: Climate Change
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 
 
@@ -403,31 +396,34 @@ Metadata: si.pov.dday
 
 Metadata: ny.gdp.pcap.pp.kd
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
     
     Name: GDP per capita, PPP (constant 2011 international $)
  
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------------------------------
     
     Source: World Development Indicators
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
-    Source Note: GDP per capita based on purchasing power parity (PPP"}). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international
-    dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy
-    plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and
-    degradation of natural resources. Data are in constant 2011 international dollars.
+    Source Note: GDP per capita based on purchasing power parity (PPP"}). PPP GDP is gross domestic product
+    converted to international dollars using purchasing power parity rates. An international dollar has the
+    same purchasing power over GDP as the U.S. dollar has in the United States. GDP at purchaser's prices
+    is the sum of gross value added by all resident producers in the economy plus any product taxes and
+    minus any subsidies not included in the value of the products. It is calculated without making
+    deductions for depreciation of fabricated assets or for depletion and degradation of natural resources.
+    Data are in constant 2011 international dollars.
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
     Source Organization: World Bank, International Comparison Program database.
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
       
     Topics: Economy &amp; Growth
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 
 
@@ -449,50 +445,49 @@ Metadata: ny.gdp.pcap.pp.kd
 <figure id="fig-9">
 <a href="wbopendata_9.png"><img alt="wbopendata_9.png" src="wbopendata_9.png"/></a>
 </figure>
-
-        ### Example  9
-
-        Benchmark epsiodes of poveryt reduction by Region
-
+## Example  9  [(back)](master/README.md#examples)
+### Benchmark epsiodes of poveryt reduction by Region
 <pre id="stlog-10" class="stlog"><samp>. wbopendata, indicator(si.pov.dday ) clear long
 
 
 
 Metadata: si.pov.dday
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
     
     Name: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
  
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------------------------------
     
     Source: World Development Indicators
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
-    Source Note: Poverty headcount ratio at $1.90 a day is the percentage of the population living on less than $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange
-    rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions.
+    Source Note: Poverty headcount ratio at $1.90 a day is the percentage of the population living on less
+    than $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty
+    rates for individual countries cannot be compared with poverty rates reported in earlier editions.
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
-    Source Organization: World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments.
-    Data for high-income economies are from the Luxembourg Income Study database. For more information and methodology, please see PovcalNet
-    (http://iresearch.worldbank.org/PovcalNet/index.htm"}"}).
+    Source Organization: World Bank, Development Research Group. Data are based on primary household survey
+    data obtained from government statistical agencies and World Bank country departments. Data for
+    high-income economies are from the Luxembourg Income Study database. For more information and
+    methodology, please see PovcalNet (http://iresearch.worldbank.org/PovcalNet/index.htm"}"}).
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
       
     Topics: Poverty
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
       
     Topics: Aid Effectiveness
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
       
     Topics: Climate Change
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 
 
@@ -512,58 +507,59 @@ Metadata: si.pov.dday
 (1,475 observations deleted)
 
 .    alorenz diff_pov, gp points(20) xdecrease markvar(reg2)                    ///
-&gt;        ytitle("Change in Poverty (p.p.)") xtitle("Proportion of regional episodes of poverty reduction (%)")   ///
+&gt;        ytitle("Change in Poverty (p.p.)") xtitle("Proportion of regional episodes of poverty reduction (%)"
+&gt; )   ///
 &gt;        legend(off) title("Poverty Reduction")                                            ///
-&gt;        legend(off) note("Source: World Development Indicators using Azevedo, J.P. (2011) wbopendata: Stata module to " "access World Bank databases, Statistical Software Components S457234 Boston 
-&gt; College Department of Economics.", size(*.7))
+&gt;        legend(off) note("Source: World Development Indicators using Azevedo, J.P. (2011) wbopendata: Stata 
+&gt; module to " "access World Bank databases, Statistical Software Components S457234 Boston College Department
+&gt;  of Economics.", size(*.7))
 </samp></pre>
 <figure id="fig-10">
 <a href="wbopendata_10.png"><img alt="wbopendata_10.png" src="wbopendata_10.png"/></a>
 </figure>
-
-        ### Example  10
-
-        Benchmark MDG progress using 2008 as cutoff value
-
+## Example  10 [(back)](master/README.md#examples)
+### Benchmark MDG progress using 2008 as cutoff value
 <pre id="stlog-11" class="stlog"><samp>. wbopendata, indicator(si.pov.dday ) clear long
 
 
 
 Metadata: si.pov.dday
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
     
     Name: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
  
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------------------------------
     
     Source: World Development Indicators
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
-    Source Note: Poverty headcount ratio at $1.90 a day is the percentage of the population living on less than $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange
-    rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions.
+    Source Note: Poverty headcount ratio at $1.90 a day is the percentage of the population living on less
+    than $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty
+    rates for individual countries cannot be compared with poverty rates reported in earlier editions.
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
-    Source Organization: World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments.
-    Data for high-income economies are from the Luxembourg Income Study database. For more information and methodology, please see PovcalNet
-    (http://iresearch.worldbank.org/PovcalNet/index.htm"}"}).
+    Source Organization: World Bank, Development Research Group. Data are based on primary household survey
+    data obtained from government statistical agencies and World Bank country departments. Data for
+    high-income economies are from the Luxembourg Income Study database. For more information and
+    methodology, please see PovcalNet (http://iresearch.worldbank.org/PovcalNet/index.htm"}"}).
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
       
     Topics: Poverty
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
       
     Topics: Aid Effectiveness
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
       
     Topics: Climate Change
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 
 
@@ -625,57 +621,57 @@ Metadata: si.pov.dday
 &gt;        (line  angle45y angel45x ),                                         ///
 &gt;            legend(off) xtitle("Target for 2008")  ytitle(Present)          ///
 &gt;            title("MDG 1 - 1.9 USD")                                         ///
-&gt;            note("Source: World Development Indicators (latest available year: 2008) using Azevedo, J.P. (2011) wbopendata: Stata module to " "access World Bank databases, Statistical Software Comp
-&gt; onents S457234 Boston College Department of Economics.", size(*.7))
+&gt;            note("Source: World Development Indicators (latest available year: 2008) using Azevedo, J.P. (20
+&gt; 11) wbopendata: Stata module to " "access World Bank databases, Statistical Software Components S457234 Bos
+&gt; ton College Department of Economics.", size(*.7))
 </samp></pre>
 <figure id="fig-11">
 <a href="wbopendata_11.png"><img alt="wbopendata_11.png" src="wbopendata_11.png"/></a>
 </figure>
-
-        ### Example  11
-
-        Bencharmk latest poverty levels by percapital income, highlighting regional 
+## Example  11 [(back)](master/README.md#examples)
+### Bencharmk latest poverty levels by percapital income, highlighting regional 
 		averages
-
 <pre id="stlog-12" class="stlog"><samp>. wbopendata, indicator(si.pov.dday; ny.gdp.pcap.pp.kd) clear long latest
 
 
 
 Metadata: si.pov.dday
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
     
     Name: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
  
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------------------------------
     
     Source: World Development Indicators
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
-    Source Note: Poverty headcount ratio at $1.90 a day is the percentage of the population living on less than $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange
-    rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions.
+    Source Note: Poverty headcount ratio at $1.90 a day is the percentage of the population living on less
+    than $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty
+    rates for individual countries cannot be compared with poverty rates reported in earlier editions.
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
-    Source Organization: World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments.
-    Data for high-income economies are from the Luxembourg Income Study database. For more information and methodology, please see PovcalNet
-    (http://iresearch.worldbank.org/PovcalNet/index.htm"}"}).
+    Source Organization: World Bank, Development Research Group. Data are based on primary household survey
+    data obtained from government statistical agencies and World Bank country departments. Data for
+    high-income economies are from the Luxembourg Income Study database. For more information and
+    methodology, please see PovcalNet (http://iresearch.worldbank.org/PovcalNet/index.htm"}"}).
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
       
     Topics: Poverty
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
       
     Topics: Aid Effectiveness
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
       
     Topics: Climate Change
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 
 
@@ -683,31 +679,34 @@ Metadata: si.pov.dday
 
 Metadata: ny.gdp.pcap.pp.kd
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
     
     Name: GDP per capita, PPP (constant 2011 international $)
  
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------------------------------
     
     Source: World Development Indicators
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
-    Source Note: GDP per capita based on purchasing power parity (PPP"}). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international
-    dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy
-    plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and
-    degradation of natural resources. Data are in constant 2011 international dollars.
+    Source Note: GDP per capita based on purchasing power parity (PPP"}). PPP GDP is gross domestic product
+    converted to international dollars using purchasing power parity rates. An international dollar has the
+    same purchasing power over GDP as the U.S. dollar has in the United States. GDP at purchaser's prices
+    is the sum of gross value added by all resident producers in the economy plus any product taxes and
+    minus any subsidies not included in the value of the products. It is calculated without making
+    deductions for depreciation of fabricated assets or for depletion and degradation of natural resources.
+    Data are in constant 2011 international dollars.
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
     Source Organization: World Bank, International Comparison Program database.
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
     
       
     Topics: Economy &amp; Growth
  
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 
 
@@ -722,35 +721,34 @@ Metadata: ny.gdp.pcap.pp.kd
 . 
 . graph twoway ///
 &gt;         (scatter si_pov_dday ny_gdp_pcap_pp_kd, msize(*.3)) ///
-&gt;         (scatter si_pov_dday ny_gdp_pcap_pp_kd if regionname == "Aggregates", msize(*.8) mlabel(countryname)  mlabsize(*.8)  mlabangle(25)) ///
+&gt;         (scatter si_pov_dday ny_gdp_pcap_pp_kd if regionname == "Aggregates", msize(*.8) mlabel(countryname
+&gt; )  mlabsize(*.8)  mlabangle(25)) ///
 &gt;         (lowess si_pov_dday ny_gdp_pcap_pp_kd) , ///
 &gt;                 legend(off) ///
 &gt;                 xtitle("`r(xlabel1)'" "`r(xlabel2)'" "`r(xlabel3)'") ///
 &gt;                 ytitle("`r(ylabel1)'" "`r(ylabel2)'" "`r(ylabel3)'") ///                
-&gt;                 note("Source: World Development Indicators (latest available year as off `time') using Azevedo, J.P. (2011) wbopendata: Stata" "module to access World Bank databases, Statistical S
-&gt; oftware Components S457234 Boston College Department of Economics.", size(*.7))
+&gt;                 note("Source: World Development Indicators (latest available year as off `time') using Azev
+&gt; edo, J.P. (2011) wbopendata: Stata" "module to access World Bank databases, Statistical Software Components
+&gt;  S457234 Boston College Department of Economics.", size(*.7))
 </samp></pre>
 <figure id="fig-12">
 <a href="wbopendata_12.png"><img alt="wbopendata_12.png" src="wbopendata_12.png"/></a>
 </figure>
-
-        ### Example  12
-
-        WBOPENDATA update query
-
+## Example  12 [(back)](master/README.md#examples)
+### WBOPENDATA update query
 <pre id="stlog-13" class="stlog"><samp>. wbopendata, update query
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
 
 Indicators update status
 
    Existing Number of Indicators:  17299
-   Last check for updates:         29 Oct 2019 10:22:08
-   New update available:           none      (as of 29 Oct 2019 10:22:08)
+   Last check for updates:         29 Oct 2019 10:22:58
+   New update available:           none      (as of 29 Oct 2019 10:22:58)
    Current update level:           29 Oct 2019 09:52:40
 
    Country metadata:               304
-   Last country check:             29 Oct 2019 10:22:08
+   Last country check:             29 Oct 2019 10:22:58
    Current country update level:   29 Oct 2019 09:54:45
 
 Possible actions
@@ -760,56 +758,23 @@ Possible actions
    See current documentation on indicators list, Regions, 
    Administrative Regions, Income Levels, and Lending Types
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
 </samp></pre>
-
-        ### Example  12
-
-        WBOPENDATA update check
-
+## Example  12 [(back)](master/README.md#examples)
+### WBOPENDATA update check
 <pre id="stlog-14" class="stlog"><samp>. wbopendata, update check
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Indicators update status
-
-   Existing Number of Indicators:  17299
-   Last check for updates:         29 Oct 2019 10:22:08
-   New update available:           none      (as of 29 Oct 2019 10:22:58}
-   Current update level:           29 Oct 2019 09:52:40
-
-   Country metadata:               304
-   New update available:           none      (as of 29 Oct 2019 10:22:58}
-   Last country check:             29 Oct 2019 10:22:08
-   Current country update level:   29 Oct 2019 09:54:45
-
-Possible actions
-
-   Do nothing; all files are up to date.
-
-   See current documentation on indicators list, Regions, 
-   Administrative Regions, Income Levels, and Lending Types
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-</samp></pre>
-
-        ### Example  13
-
-        WBOPENDATA update check
-
-<pre id="stlog-15" class="stlog"><samp>. wbopendata, update all
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
 
 Indicators update status
 
    Existing Number of Indicators:  17299
    Last check for updates:         29 Oct 2019 10:22:58
-   New update available:           none      (as of 29 Oct 2019 10:22:58}
+   New update available:           none      (as of 2 Nov 2019 14:34:59}
    Current update level:           29 Oct 2019 09:52:40
 
    Country metadata:               304
-   New update available:           none      (as of 29 Oct 2019 10:22:58}
+   New update available:           none      (as of 2 Nov 2019 14:34:59}
    Last country check:             29 Oct 2019 10:22:58
    Current country update level:   29 Oct 2019 09:54:45
 
@@ -820,5 +785,107 @@ Possible actions
    See current documentation on indicators list, Regions, 
    Administrative Regions, Income Levels, and Lending Types
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
 </samp></pre>
+## Example  13 [(back)](master/README.md#examples)
+### WBOPENDATA update check
+<pre id="stlog-15" class="stlog"><samp>. wbopendata, update all
+
+-------------------------------------------------------------------------------------------------------------
+
+Indicators update status
+
+   Existing Number of Indicators:  17299
+   Last check for updates:         2 Nov 2019 14:34:59
+   New update available:           none      (as of 2 Nov 2019 14:35:01}
+   Current update level:           29 Oct 2019 09:52:40
+
+   Country metadata:               304
+   New update available:           none      (as of 2 Nov 2019 14:35:01}
+   Last country check:             2 Nov 2019 14:34:59
+   Current country update level:   29 Oct 2019 09:54:45
+
+Possible actions
+
+   Do nothing; all files are up to date.
+
+   See current documentation on indicators list, Regions, 
+   Administrative Regions, Income Levels, and Lending Types
+
+-------------------------------------------------------------------------------------------------------------
+</samp></pre>
+## Example  14 [(back)](master/README.md#examples)
+### WBOPENDATA update check
+<pre id="stlog-16" class="stlog"><samp>. tempfile tmp
+
+. 
+. wbopendata, language(en - English) indicator(SE.LPV.PRIM) long clear latest
+
+
+
+Metadata: SE.LPV.PRIM
+
+-------------------------------------------------------------------------------------------------------------
+    
+    Name: Learning poverty: Share of Children at the End-of-Primary age below minimum reading proficiency
+    adjusted by Out-of-School Children (%)
+ 
+  -----------------------------------------------------------------------------------------------------------
+    
+    Source: Education Statistics
+ 
+ ------------------------------------------------------------------------------------------------------------
+    
+    Source Note: This indicator brings together schooling and learning. It starts with the share of 
+    children who haven't achieved minimum reading proficiency and adjusts it by the proportion of children
+    who are out of school. The data used to calculate Learning Poverty has been made possible thanks to the
+    work of the Global Alliance to Monitor Learning led by the UNESCO Institute for Statistics (UIS), which
+    established Minimum Proficiency Levels (MPLs) that enable countries to benchmark learning across
+    different cross-national and national assessments. For more information please see [CITE WORKING
+    PAPER].
+ 
+ ------------------------------------------------------------------------------------------------------------
+    
+    Source Organization: Word Bank and UIS
+ 
+ ------------------------------------------------------------------------------------------------------------
+
+
+
+. 
+. sort countrycode
+
+. save `tmp', replace
+(note: file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000004.tmp not found)
+file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000004.tmp saved
+
+. sysuse world-d, clear
+
+. merge countrycode using `tmp'
+(note: you are using old merge syntax; see [D] merge for new syntax)
+
+. sum year
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+        year |        136    2013.787    3.216642       2001       2017
+
+. local avg = string(`r(mean)',"%16.1f")
+
+. 
+. spmap  se_lpv_prim using "world-c.dta", id(_ID)                         ///
+&gt;                 clnumber(9) fcolor(PuOr) ocolor(none ..)  clmethod(kmeans)  opattern(solid ...)         ///
+&gt;                  ndocolor(dark)  ndsize(thin)  ///
+&gt;                 title("Learning poverty: Share of Children at the End-of-Primary" "age below minimum readin
+&gt; g proficiency adjusted by Out-of-School Children", size(*1))                         ///
+&gt;                 legstyle(3) legend(ring(1) position(3)) legorder(hilo)                          ///
+&gt;                 note("Source: EdStats; SE.LPV.PRIM dowladed using Azevedo, J.P. (2011) wbopendata: Stata mo
+&gt; dule to access World Bank databases, Statistical Software Components" "S457234 Boston College Department of
+&gt;  Economics.", size(*.7)) ///
+&gt;                 mocolor(black) mosize(thin)
+(note:  named style dark not found in class color, default attributes used)
+(note:  named style dark not found in class color, default attributes used)
+</samp></pre>
+<figure id="fig-16">
+<a href="wbopendata_16.png"><img alt="wbopendata_16.png" src="wbopendata_16.png"/></a>
+</figure>

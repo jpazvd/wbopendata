@@ -1,17 +1,17 @@
 . wbopendata, update all
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
 
 Indicators update status
 
    Existing Number of Indicators:  17299
-   Last check for updates:         29 Oct 2019 10:22:58
-   New update available:           none      (as of 29 Oct 2019 10:22:58}
+   Last check for updates:         2 Nov 2019 14:34:59
+   New update available:           none      (as of 2 Nov 2019 14:35:01}
    Current update level:           29 Oct 2019 09:52:40
 
    Country metadata:               304
-   New update available:           none      (as of 29 Oct 2019 10:22:58}
-   Last country check:             29 Oct 2019 10:22:58
+   New update available:           none      (as of 2 Nov 2019 14:35:01}
+   Last country check:             2 Nov 2019 14:34:59
    Current country update level:   29 Oct 2019 09:54:45
 
 Possible actions
@@ -21,4 +21,4 @@ Possible actions
    See current documentation on indicators list, Regions, 
    Administrative Regions, Income Levels, and Lending Types
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
