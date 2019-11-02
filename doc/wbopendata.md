@@ -751,12 +751,12 @@ Metadata: ny.gdp.pcap.pp.kd
 Indicators update status
 
    Existing Number of Indicators:  17299
-   Last check for updates:         2 Nov 2019 14:35:01
-   New update available:           none      (as of 2 Nov 2019 14:35:01)
+   Last check for updates:         2 Nov 2019 16:27:14
+   New update available:           none      (as of 2 Nov 2019 16:27:14)
    Current update level:           29 Oct 2019 09:52:40
 
    Country metadata:               304
-   Last country check:             2 Nov 2019 14:35:01
+   Last country check:             2 Nov 2019 16:27:14
    Current country update level:   29 Oct 2019 09:54:45
 
 Possible actions
@@ -780,13 +780,13 @@ Possible actions
 Indicators update status
 
    Existing Number of Indicators:  17299
-   Last check for updates:         2 Nov 2019 14:35:01
-   New update available:           none      (as of 2 Nov 2019 16:27:13}
+   Last check for updates:         2 Nov 2019 16:27:14
+   New update available:           none      (as of 2 Nov 2019 16:31:58}
    Current update level:           29 Oct 2019 09:52:40
 
    Country metadata:               304
-   New update available:           none      (as of 2 Nov 2019 16:27:13}
-   Last country check:             2 Nov 2019 14:35:01
+   New update available:           none      (as of 2 Nov 2019 16:31:58}
+   Last country check:             2 Nov 2019 16:27:14
    Current country update level:   29 Oct 2019 09:54:45
 
 Possible actions
@@ -810,13 +810,13 @@ Possible actions
 Indicators update status
 
    Existing Number of Indicators:  17299
-   Last check for updates:         2 Nov 2019 16:27:13
-   New update available:           none      (as of 2 Nov 2019 16:27:14}
+   Last check for updates:         2 Nov 2019 16:31:58
+   New update available:           none      (as of 2 Nov 2019 16:31:59}
    Current update level:           29 Oct 2019 09:52:40
 
    Country metadata:               304
-   New update available:           none      (as of 2 Nov 2019 16:27:14}
-   Last country check:             2 Nov 2019 16:27:13
+   New update available:           none      (as of 2 Nov 2019 16:31:59}
+   Last country check:             2 Nov 2019 16:31:58
    Current country update level:   29 Oct 2019 09:54:45
 
 Possible actions
