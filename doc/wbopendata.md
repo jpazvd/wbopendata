@@ -13,7 +13,7 @@
 . which wbopendata.sthlp
 .\w\wbopendata.sthlp
 </samp></pre>
-        ### Example 1
+## Example 1
 
         Download all WDI indiators for a single country (i.e. China)
 
