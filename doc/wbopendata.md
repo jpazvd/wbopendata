@@ -15,7 +15,7 @@
 </samp></pre>
 ## Example 1
 
-        Download all WDI indiators for a single country (i.e. China)
+### Download all WDI indiators for a single country (i.e. China)
 
 <pre id="stlog-2" class="stlog"><samp>. wbopendata, country(chn - China) clear
 
