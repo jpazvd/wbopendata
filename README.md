@@ -60,6 +60,11 @@ The terms of use of the APIs is governed by the [World Bank Terms and Conditions
 
 [World Bank’s open data policy and -wbopendata- (posted on 10 February 2011 by Mitch Abdon)](http://statadaily.com/tag/wbopendata/)
 
+
+## Examples
+
+!()[https://github.com/jpazvd/wbopendata/blob/master/doc/wbopendata.md]
+
 ## Suggested Citation
 
 [Joao Pedro Azevedo, 2011. "WBOPENDATA: Stata module to access World Bank databases," Statistical Software Components S457234, Boston College Department of Economics, revised 10 Feb 2016.](https://ideas.repec.org/c/boc/bocode/s457234.html)
