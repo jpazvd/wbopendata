@@ -7,30 +7,29 @@
 
 Metadata: SE.LPV.PRIM
 
--------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
     
-    Name: Learning poverty: Share of Children at the End-of-Primary age below minimum reading proficiency
-    adjusted by Out-of-School Children (%)
+    Name: Learning poverty: Share of Children at the End-of-Primary age below minimum reading proficiency adjusted by
+    Out-of-School Children (%)
  
-  -----------------------------------------------------------------------------------------------------------
+  -------------------------------------------------------------------------------------------------------------------------------
     
     Source: Education Statistics
  
- ------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------------
     
-    Source Note: This indicator brings together schooling and learning. It starts with the share of 
-    children who haven't achieved minimum reading proficiency and adjusts it by the proportion of children
-    who are out of school. The data used to calculate Learning Poverty has been made possible thanks to the
-    work of the Global Alliance to Monitor Learning led by the UNESCO Institute for Statistics (UIS), which
-    established Minimum Proficiency Levels (MPLs) that enable countries to benchmark learning across
-    different cross-national and national assessments. For more information please see [CITE WORKING
+    Source Note: This indicator brings together schooling and learning. It starts with the share of  children who haven't
+    achieved minimum reading proficiency and adjusts it by the proportion of children who are out of school. The data used to
+    calculate Learning Poverty has been made possible thanks to the work of the Global Alliance to Monitor Learning led by the
+    UNESCO Institute for Statistics (UIS), which established Minimum Proficiency Levels (MPLs) that enable countries to
+    benchmark learning across different cross-national and national assessments. For more information please see [CITE WORKING
     PAPER].
  
- ------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------------
     
     Source Organization: Word Bank and UIS
  
- ------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -58,12 +57,11 @@ file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000004.tmp saved
 . spmap  se_lpv_prim using "world-c.dta", id(_ID)                         ///
 &gt;                 clnumber(9) fcolor(PuOr) ocolor(none ..)  clmethod(kmeans)  opattern(solid ...)         ///
 &gt;                  ndocolor(dark)  ndsize(thin)  ///
-&gt;                 title("Learning poverty: Share of Children at the End-of-Primary" "age below minimum readin
-&gt; g proficiency adjusted by Out-of-School Children", size(*1))                         ///
+&gt;                 title("Learning poverty: Share of Children at the End-of-Primary" "age below minimum reading proficiency adjust
+&gt; ed by Out-of-School Children", size(*1))                         ///
 &gt;                 legstyle(3) legend(ring(1) position(3)) legorder(hilo)                          ///
-&gt;                 note("Source: EdStats; SE.LPV.PRIM dowladed using Azevedo, J.P. (2011) wbopendata: Stata mo
-&gt; dule to access World Bank databases, Statistical Software Components" "S457234 Boston College Department of
-&gt;  Economics.", size(*.7)) ///
+&gt;                 note("Source: EdStats; SE.LPV.PRIM dowladed using Azevedo, J.P. (2011) wbopendata: Stata module to access World
+&gt;  Bank databases, Statistical Software Components" "S457234 Boston College Department of Economics.", size(*.7)) ///
 &gt;                 mocolor(black) mosize(thin)
 (note:  named style dark not found in class color, default attributes used)
 (note:  named style dark not found in class color, default attributes used)
