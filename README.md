@@ -63,7 +63,7 @@ The terms of use of the APIs is governed by the [World Bank Terms and Conditions
 
 ## Examples
 
-**[Examples of code and output](https://github.com/jpazvd/wbopendata/blob/master/doc/wbopendata.md)**
+**[Examples of code and output](doc/wbopendata.md)**
 
 ## Suggested Citation
 
