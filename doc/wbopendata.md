@@ -1,5 +1,6 @@
 # Examples
-## Version Control [(back)](master/README.md#examples)
+
+## Version Control [(back)](wbopendata#examples)
 <pre id="stlog-1" class="stlog"><samp>. which wbopendata
 .\w\wbopendata.ado
 *!  v 16.0.1    31Oct2019               by Joao Pedro Azevedo 
@@ -11,7 +12,7 @@
 . which wbopendata.sthlp
 .\w\wbopendata.sthlp
 </samp></pre>
-## Example 1  [(back)](master/README.md#examples)
+## Example 1  [(back)](wbopendata#examples)
 ### Download all WDI indiators for a single country (i.e. China)
 <pre id="stlog-2" class="stlog"><samp>. wbopendata, country(chn - China) clear
 
