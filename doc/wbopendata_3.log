@@ -1,5 +1,4 @@
-. wbopendata, language(en - English) topics(2 - Aid Effectiveness
-&gt; ) clear
+. wbopendata, language(en - English) topics(2 - Aid Effectiveness) clear
 
 . tab indicatorcode in 1/10
 

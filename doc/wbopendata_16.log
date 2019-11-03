@@ -1,42 +1,37 @@
 . qui tempfile tmp
 
 . 
-. wbopendata, language(en - English) indicator(SE.LPV.PRIM) long 
-&gt; clear latest
+. wbopendata, language(en - English) indicator(SE.LPV.PRIM) long clear latest
 
 
 
 Metadata: SE.LPV.PRIM
 
------------------------------------------------------------------
+---------------------------------------------------------------------------------------
     
-    Name: Learning poverty: Share of Children at the
-    End-of-Primary age below minimum reading proficiency
-    adjusted by Out-of-School Children (%)
+    Name: Learning poverty: Share of Children at the End-of-Primary age below minimum
+    reading proficiency adjusted by Out-of-School Children (%)
  
-  ---------------------------------------------------------------
+  -------------------------------------------------------------------------------------
     
     Source: Education Statistics
  
- ----------------------------------------------------------------
+ --------------------------------------------------------------------------------------
     
-    Source Note: This indicator brings together schooling and
-    learning. It starts with the share of  children who haven't
-    achieved minimum reading proficiency and adjusts it by the
-    proportion of children who are out of school. The data used
-    to calculate Learning Poverty has been made possible thanks
-    to the work of the Global Alliance to Monitor Learning led
-    by the UNESCO Institute for Statistics (UIS), which
-    established Minimum Proficiency Levels (MPLs) that enable
-    countries to benchmark learning across different
-    cross-national and national assessments. For more
-    information please see [CITE WORKING PAPER].
+    Source Note: This indicator brings together schooling and learning. It starts
+    with the share of  children who haven't achieved minimum reading proficiency and
+    adjusts it by the proportion of children who are out of school. The data used to
+    calculate Learning Poverty has been made possible thanks to the work of the
+    Global Alliance to Monitor Learning led by the UNESCO Institute for Statistics
+    (UIS), which established Minimum Proficiency Levels (MPLs) that enable countries
+    to benchmark learning across different cross-national and national assessments.
+    For more information please see [CITE WORKING PAPER].
  
- ----------------------------------------------------------------
+ --------------------------------------------------------------------------------------
     
     Source Organization: Word Bank and UIS
  
- ----------------------------------------------------------------
+ --------------------------------------------------------------------------------------
 
 
 
@@ -44,10 +39,8 @@ Metadata: SE.LPV.PRIM
 . sort countrycode
 
 . save `tmp', replace
-(note: file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000004.t
-&gt; mp not found)
-file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000004.tmp save
-&gt; d
+(note: file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000004.tmp not found)
+file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000004.tmp saved
 
 . 
 . local labelvar "`r(varlabel1)'"
@@ -61,10 +54,9 @@ file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000004.tmp save
 . local xlabel3 "`r(xlabel3)'"
 
 . 
-.    local sourcek "Source: World Development Indicators using  A
-&gt; zevedo, J.P. (2011) wbopendata: Stata module to access World Ba
-&gt; nk databases, Statistical Software Components S457234 Boston Co
-&gt; llege Department of Economics."
+.    local sourcek "Source: World Development Indicators using  Azevedo, J.P. (2011) wb
+&gt; opendata: Stata module to access World Bank databases, Statistical Software Component
+&gt; s S457234 Boston College Department of Economics."
 
 . linewrap , longstring("`sourcek'") maxlength(180) name(sourcek)
 
@@ -80,13 +72,10 @@ file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000004.tmp save
 
 . qui merge countrycode using `tmp'
 
-. spmap  se_lpv_prim using "world-c.dta", id(_ID)                
-&gt;                   ///
-&gt;                 clnumber(9) fcolor(Reds2) ocolor(none ..)      
-&gt;                             ///
-&gt;                 title("`xlabel1'" "`xlabel2'" "`xlabel3'", size
-&gt; (*1))         ///
-&gt;                 legstyle(3) legend(ring(1) position(3))        
-&gt;                              ///
-&gt;                 note("`source1'" "`source2'" "`source3'", size(
-&gt; *.9))
+. spmap  se_lpv_prim using "world-c.dta", id(_ID)                                  ///
+&gt;                 clnumber(9) fcolor(Reds2) ocolor(none ..)                            
+&gt;       ///
+&gt;                 title("`xlabel1'" "`xlabel2'" "`xlabel3'", size(*1))         ///
+&gt;                 legstyle(3) legend(ring(1) position(3))                              
+&gt;        ///
+&gt;                 note("`source1'" "`source2'" "`source3'", size(*.9))
