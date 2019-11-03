@@ -4,7 +4,8 @@
 
 . which _query
 .\_\_query.ado
-*! v 16.0   29Oct2019                           by Joao Pedro Azevedo
+*! v 16.0   29Oct2019                           by Joao Pedro Aze
+&gt; vedo
 
 . which wbopendata.sthlp
 .\w\wbopendata.sthlp

@@ -1,38 +1,46 @@
 .    qui tempfile tmp
 
-. wbopendata, language(en - English) indicator(it.cel.sets.p2) long clear latest
+. wbopendata, language(en - English) indicator(it.cel.sets.p2) lo
+&gt; ng clear latest
 
 
 
 Metadata: it.cel.sets.p2
 
----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------
     
     Name: Mobile cellular subscriptions (per 100 people)
  
-  -------------------------------------------------------------------------------------------------------------------------------
+  ---------------------------------------------------------------
     
     Source: World Development Indicators
  
- --------------------------------------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------
     
-    Source Note: Mobile cellular telephone subscriptions are subscriptions to a public mobile telephone service that provide
-    access to the PSTN using cellular technology. The indicator includes (and is split into) the number of postpaid
-    subscriptions, and the number of active prepaid accounts (i.e. that have been used during the last three months"}). The
-    indicator applies to all mobile cellular subscriptions that offer voice communications. It excludes subscriptions via data
-    cards or USB modems, subscriptions to public mobile data services, private trunked mobile radio, telepoint, radio paging
-    and telemetry services.
+    Source Note: Mobile cellular telephone subscriptions are
+    subscriptions to a public mobile telephone service that
+    provide access to the PSTN using cellular technology. The
+    indicator includes (and is split into) the number of
+    postpaid subscriptions, and the number of active prepaid
+    accounts (i.e. that have been used during the last three
+    months"}). The indicator applies to all mobile cellular
+    subscriptions that offer voice communications. It excludes
+    subscriptions via data cards or USB modems, subscriptions
+    to public mobile data services, private trunked mobile
+    radio, telepoint, radio paging and telemetry services.
  
- --------------------------------------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------
     
-    Source Organization: International Telecommunication Union, World Telecommunication/ICT Development Report and database.
+    Source Organization: International Telecommunication Union,
+    World Telecommunication/ICT Development Report and
+    database.
  
- --------------------------------------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------
     
       
     Topics: Infrastructure
  
- --------------------------------------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------
 
 
 
@@ -41,8 +49,10 @@ Metadata: it.cel.sets.p2
 . sort countrycode
 
 . save `tmp', replace
-(note: file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000003.tmp not found)
-file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000003.tmp saved
+(note: file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000003.t
+&gt; mp not found)
+file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000003.tmp save
+&gt; d
 
 . qui sysuse world-d, clear
 
@@ -52,10 +62,15 @@ file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000003.tmp saved
 
 . local avg = string(`r(mean)',"%16.1f")
 
-. spmap  it_cel_sets_p2 using "world-c.dta", id(_ID)                                  ///
-&gt;                 clnumber(20) fcolor(Reds2) ocolor(none ..)                                  ///
+. spmap  it_cel_sets_p2 using "world-c.dta", id(_ID)             
+&gt;                      ///
+&gt;                 clnumber(20) fcolor(Reds2) ocolor(none ..)     
+&gt;                              ///
 &gt;                 title("`labelvar'", size(*1.2))         ///
-&gt;                 legstyle(3) legend(ring(1) position(3))                                     ///
-&gt;                 note("Source: World Development Indicators (latest available year: `avg') using  Azevedo, J.P. (2011) wbopendat
-&gt; a: Stata module to " "access World Bank databases, Statistical Software Components S457234 Boston College Department of Economi
-&gt; cs.")
+&gt;                 legstyle(3) legend(ring(1) position(3))        
+&gt;                              ///
+&gt;                 note("Source: World Development Indicators (lat
+&gt; est available year: `avg') using  Azevedo, J.P. (2011) wbopenda
+&gt; ta: Stata module to " "access World Bank databases, Statistical
+&gt;  Software Components S457234 Boston College Department of Econo
+&gt; mics.")
