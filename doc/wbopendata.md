@@ -33,7 +33,7 @@
 --------------------------+-----------------------------------
                     Total |         10      100.00
 </samp></pre>
-## Example 2 [(back)](master/README.md#examples)
+## Example 2 [(back)](https://github.com/jpazvd/wbopendata#examples)
 ### Download all WDI indicators of particular topic
 <pre id="stlog-3" class="stlog"><samp>. wbopendata, language(en - English) topics(2 - Aid Effectiveness) clear
 
