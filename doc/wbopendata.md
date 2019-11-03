@@ -1,7 +1,5 @@
 # Examples
 
-{:toc}
-
 ## Version Control [(back)](master/README.md#examples)
 <pre id="stlog-1" class="stlog"><samp>. which wbopendata
 .\w\wbopendata.ado
