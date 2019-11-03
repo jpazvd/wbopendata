@@ -1,6 +1,5 @@
 # Examples
-
-## Version Control [(back)](wbopendata#examples)
+## Version Control [(back)](https://github.com/jpazvd/wbopendata#examples)
 <pre id="stlog-1" class="stlog"><samp>. which wbopendata
 .\w\wbopendata.ado
 *!  v 16.0.1    31Oct2019               by Joao Pedro Azevedo 
@@ -12,7 +11,7 @@
 . which wbopendata.sthlp
 .\w\wbopendata.sthlp
 </samp></pre>
-## Example 1  [(back)](wbopendata#examples)
+## Example 1  [(back)](https://github.com/jpazvd/wbopendata#examples)
 ### Download all WDI indiators for a single country (i.e. China)
 <pre id="stlog-2" class="stlog"><samp>. wbopendata, country(chn - China) clear
 
@@ -33,7 +32,7 @@
 --------------------------+-----------------------------------
                     Total |         10      100.00
 </samp></pre>
-## Example 2 [(back)](master/README.md#examples)
+## Example 2 [(back)](https://github.com/jpazvd/wbopendata#examples)
 ### Download all WDI indicators of particular topic
 <pre id="stlog-3" class="stlog"><samp>. wbopendata, language(en - English) topics(2 - Aid Effectiveness) clear
 
@@ -54,7 +53,7 @@
 ------------------+-----------------------------------
             Total |         10      100.00
 </samp></pre>
-## Example 3 [(back)](master/README.md#examples)
+## Example 3 [(back)](https://github.com/jpazvd/wbopendata#examples)
 ### Download specific indicator [ag.agr.trac.no]
 <pre id="stlog-4" class="stlog"><samp>. wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery,
 &gt;  tractors) clear
@@ -108,7 +107,7 @@ Metadata: ag.agr.trac.no
 ----------------------------------------+-----------------------------------
                                   Total |         10      100.00
 </samp></pre>
-## Example 4  [(back)](master/README.md#examples)
+## Example 4  [(back)](https://github.com/jpazvd/wbopendata#examples)
 ### Download specific indicator and report in long format [ag.agr.trac.no]
 <pre id="stlog-5" class="stlog"><samp>. wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery,
 &gt;  tractors) long clear
@@ -162,7 +161,7 @@ Metadata: ag.agr.trac.no
 ------------+-----------------------------------
       Total |         10      100.00
 </samp></pre>
-## Example 5  [(back)](master/README.md#examples)
+## Example 5  [(back)](https://github.com/jpazvd/wbopendata#examples)
 ### Download specific indicator for specific countries, and report in long 
 		format [ag.agr.trac.no]
 <pre id="stlog-6" class="stlog"><samp>. wbopendata, country(ago;bdi;chi;dnk;esp) indicator(sp.pop.0610.fe.un) clear
@@ -209,7 +208,7 @@ Channel Islands |          1       20.00       60.00
 ----------------+-----------------------------------
           Total |          5      100.00
 </samp></pre>
-## Example 6  [(back)](master/README.md#examples)
+## Example 6  [(back)](https://github.com/jpazvd/wbopendata#examples)
 ### Download specific indicator, for specific countries and year, and report 
 		in long format [ag.agr.trac.no]
 <pre id="stlog-7" class="stlog"><samp>. wbopendata, country(ago;bdi;chi;dnk;esp) indicator(sp.pop.0610.fe.un) ///
@@ -284,7 +283,7 @@ Metadata: sp.pop.0610.fe.un
      Total |        11         11         11         11 |        44 
 </samp></pre>
 
-## Example 7  [(back)](master/README.md#examples)
+## Example 7  [(back)](https://github.com/jpazvd/wbopendata#examples)
 
 ### Map latest values of global mobile phone coverage
 
@@ -362,7 +361,7 @@ file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000003.tmp saved
 </figure>
 
 
-## Example 8 [(back)](master/README.md#examples)
+## Example 8 [(back)](https://github.com/jpazvd/wbopendata#examples)
 
 ### Bencharmk latest poverty levels by percapital income, highlighting single 
 		country
@@ -468,7 +467,7 @@ Metadata: ny.gdp.pcap.pp.kd
 <a href="wbopendata_9.png"><img alt="wbopendata_9.png" src="wbopendata_9.png"/></a>
 </figure>
 
-## Example  9  [(back)](master/README.md#examples)
+## Example  9  [(back)](https://github.com/jpazvd/wbopendata#examples)
 
 ### Benchmark epsiodes of poveryt reduction by Region
 
@@ -547,7 +546,7 @@ Metadata: si.pov.dday
 <a href="wbopendata_10.png"><img alt="wbopendata_10.png" src="wbopendata_10.png"/></a>
 </figure>
 
-## Example  10 [(back)](master/README.md#examples)
+## Example  10 [(back)](https://github.com/jpazvd/wbopendata#examples)
 
 ### Benchmark MDG progress using 2008 as cutoff value
 
@@ -665,7 +664,7 @@ Metadata: si.pov.dday
 <a href="wbopendata_11.png"><img alt="wbopendata_11.png" src="wbopendata_11.png"/></a>
 </figure>
 
-## Example  11 [(back)](master/README.md#examples)
+## Example  11 [(back)](https://github.com/jpazvd/wbopendata#examples)
 
 ### Bencharmk latest poverty levels by percapital income, highlighting regional 
 		averages
@@ -779,7 +778,7 @@ Metadata: ny.gdp.pcap.pp.kd
 <a href="wbopendata_12.png"><img alt="wbopendata_12.png" src="wbopendata_12.png"/></a>
 </figure>
 
-## Example  12 [(back)](master/README.md#examples)
+## Example  12 [(back)](https://github.com/jpazvd/wbopendata#examples)
 
 ### WBOPENDATA update query
 
@@ -790,12 +789,12 @@ Metadata: ny.gdp.pcap.pp.kd
 Indicators update status
 
    Existing Number of Indicators:  17299
-   Last check for updates:         3 Nov 2019 11:18:41
-   New update available:           none      (as of 3 Nov 2019 11:18:41)
+   Last check for updates:         3 Nov 2019 17:11:02
+   New update available:           none      (as of 3 Nov 2019 17:11:02)
    Current update level:           29 Oct 2019 09:52:40
 
    Country metadata:               304
-   Last country check:             3 Nov 2019 11:18:41
+   Last country check:             3 Nov 2019 17:11:02
    Current country update level:   29 Oct 2019 09:54:45
 
 Possible actions
@@ -808,7 +807,7 @@ Possible actions
 ---------------------------------------------------------------------------------------
 </samp></pre>
 
-## Example  12 [(back)](master/README.md#examples)
+## Example  12 [(back)](https://github.com/jpazvd/wbopendata#examples)
 
 ### WBOPENDATA update check
 
@@ -819,13 +818,13 @@ Possible actions
 Indicators update status
 
    Existing Number of Indicators:  17299
-   Last check for updates:         3 Nov 2019 11:18:41
-   New update available:           none      (as of 3 Nov 2019 17:11:01}
+   Last check for updates:         3 Nov 2019 17:11:02
+   New update available:           none      (as of 3 Nov 2019 17:33:25}
    Current update level:           29 Oct 2019 09:52:40
 
    Country metadata:               304
-   New update available:           none      (as of 3 Nov 2019 17:11:01}
-   Last country check:             3 Nov 2019 11:18:41
+   New update available:           none      (as of 3 Nov 2019 17:33:25}
+   Last country check:             3 Nov 2019 17:11:02
    Current country update level:   29 Oct 2019 09:54:45
 
 Possible actions
@@ -838,7 +837,7 @@ Possible actions
 ---------------------------------------------------------------------------------------
 </samp></pre>
 
-## Example  13 [(back)](master/README.md#examples)
+## Example  13 [(back)](https://github.com/jpazvd/wbopendata#examples)
 
 ### WBOPENDATA update check
 
@@ -849,13 +848,13 @@ Possible actions
 Indicators update status
 
    Existing Number of Indicators:  17299
-   Last check for updates:         3 Nov 2019 17:11:01
-   New update available:           none      (as of 3 Nov 2019 17:11:02}
+   Last check for updates:         3 Nov 2019 17:33:25
+   New update available:           none      (as of 3 Nov 2019 17:33:26}
    Current update level:           29 Oct 2019 09:52:40
 
    Country metadata:               304
-   New update available:           none      (as of 3 Nov 2019 17:11:02}
-   Last country check:             3 Nov 2019 17:11:01
+   New update available:           none      (as of 3 Nov 2019 17:33:26}
+   Last country check:             3 Nov 2019 17:33:25
    Current country update level:   29 Oct 2019 09:54:45
 
 Possible actions
@@ -868,7 +867,7 @@ Possible actions
 ---------------------------------------------------------------------------------------
 </samp></pre>
 
-## Example  14 [(back)](master/README.md#examples)
+## Example  14 [(back)](https://github.com/jpazvd/wbopendata#examples)
 
 ### Learning Poverty Around the Globe
 
@@ -958,7 +957,7 @@ file C:\Users\wb255520\AppData\Local\Temp\ST_9474_000004.tmp saved
 <a href="wbopendata_16.png"><img alt="wbopendata_16.png" src="wbopendata_16.png"/></a>
 </figure>
 
-## Example  15 [(back)](master/README.md#examples)
+## Example  15 [(back)](https://github.com/jpazvd/wbopendata#examples)
 
 ### Population Projections
 
