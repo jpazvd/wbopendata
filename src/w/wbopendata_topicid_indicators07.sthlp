@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28oct2019)}
+{right:(as of 12apr2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -131,7 +131,7 @@
 
 {synoptline}
 {marker topicid_BX.KLT.DREM.CD.DT}
-{synopt:{bf:{help wbopendata_topicid##BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT} - Primary income on FDI, payments (current US$)}}
+{synopt:{bf:{help wbopendata_topicid##BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT} - Primary income on FDI (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -2574,4 +2574,4 @@
 
 
 
-{right:(as of 28oct2019)}
+{right:(as of 12apr2020)}
