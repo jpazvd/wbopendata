@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28oct2019)}
+{right:(as of 12apr2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -426,7 +426,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_BX.KLT.DINV.WD.GD.ZS:BX.KLT.DINV.WD.GD.ZS{marker BX.KLT.DINV.WD.GD.ZS}}}Foreign direct investment, net inflows (% of GDP){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT{marker BX.KLT.DREM.CD.DT}}}Primary income on FDI, payments (current US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT{marker BX.KLT.DREM.CD.DT}}}Primary income on FDI (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_BX.PEF.TOTL.CD.WD:BX.PEF.TOTL.CD.WD{marker BX.PEF.TOTL.CD.WD}}}Portfolio equity, net inflows (BoP, current US$){p_end}
 
@@ -1997,17 +1997,17 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.FRE5.FE:LO.PASEC.FRE5.FE{marker LO.PASEC.FRE5.FE}}}PASEC: Mean performance on the French language scale (100 points) for 5th grade students. Female{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.FRE5.HIG:LO.PASEC.FRE5.HIG{marker LO.PASEC.FRE5.HIG}}}PASEC: 5th grade students reaching the Knowledge Base Rate on the French language scale (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.FRE5.HIG:LO.PASEC.FRE5.HIG{marker LO.PASEC.FRE5.HIG}}}PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), total{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.FRE5.HIG.FE:LO.PASEC.FRE5.HIG.FE{marker LO.PASEC.FRE5.HIG.FE}}}PASEC: Female 5th grade students reaching the Knowledge Base Rate on the French language scale (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.FRE5.HIG.FE:LO.PASEC.FRE5.HIG.FE{marker LO.PASEC.FRE5.HIG.FE}}}PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), female{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.FRE5.HIG.MA:LO.PASEC.FRE5.HIG.MA{marker LO.PASEC.FRE5.HIG.MA}}}PASEC: Male 5th grade students reaching the Knowledge Base Rate on the French language scale (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.FRE5.HIG.MA:LO.PASEC.FRE5.HIG.MA{marker LO.PASEC.FRE5.HIG.MA}}}PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), male{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.FRE5.LO:LO.PASEC.FRE5.LO{marker LO.PASEC.FRE5.LO}}}PASEC: 5th grade students below the Failure Rate on the French language scale (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.FRE5.LO:LO.PASEC.FRE5.LO{marker LO.PASEC.FRE5.LO}}}PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), total{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.FRE5.LO.FE:LO.PASEC.FRE5.LO.FE{marker LO.PASEC.FRE5.LO.FE}}}PASEC: Female 5th grade students below the Failure Rate on the French language scale (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.FRE5.LO.FE:LO.PASEC.FRE5.LO.FE{marker LO.PASEC.FRE5.LO.FE}}}PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), female{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.FRE5.LO.MA:LO.PASEC.FRE5.LO.MA{marker LO.PASEC.FRE5.LO.MA}}}PASEC: Male 5th grade students below the Failure Rate on the French language scale (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.FRE5.LO.MA:LO.PASEC.FRE5.LO.MA{marker LO.PASEC.FRE5.LO.MA}}}PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), male{p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.FRE5.MA:LO.PASEC.FRE5.MA{marker LO.PASEC.FRE5.MA}}}PASEC: Mean performance on the French language scale (100 points) for 5th grade students. Male{p_end}
 
@@ -2015,17 +2015,17 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.MAT5.FE:LO.PASEC.MAT5.FE{marker LO.PASEC.MAT5.FE}}}PASEC: Mean performance on the mathematics scale (100 points) for 5th grade students. Female{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.MAT5.HIG:LO.PASEC.MAT5.HIG{marker LO.PASEC.MAT5.HIG}}}PASEC: 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.MAT5.HIG:LO.PASEC.MAT5.HIG{marker LO.PASEC.MAT5.HIG}}}PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), total{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.MAT5.HIG.FE:LO.PASEC.MAT5.HIG.FE{marker LO.PASEC.MAT5.HIG.FE}}}PASEC: Female 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.MAT5.HIG.FE:LO.PASEC.MAT5.HIG.FE{marker LO.PASEC.MAT5.HIG.FE}}}PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), female{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.MAT5.HIG.MA:LO.PASEC.MAT5.HIG.MA{marker LO.PASEC.MAT5.HIG.MA}}}PASEC: Male 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.MAT5.HIG.MA:LO.PASEC.MAT5.HIG.MA{marker LO.PASEC.MAT5.HIG.MA}}}PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), male{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.MAT5.LO:LO.PASEC.MAT5.LO{marker LO.PASEC.MAT5.LO}}}PASEC: 5th grade students below the Failure Rate on the mathematics scale (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.MAT5.LO:LO.PASEC.MAT5.LO{marker LO.PASEC.MAT5.LO}}}PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), total{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.MAT5.LO.FE:LO.PASEC.MAT5.LO.FE{marker LO.PASEC.MAT5.LO.FE}}}PASEC: Female 5th grade students below the Failure Rate on the mathematics scale (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.MAT5.LO.FE:LO.PASEC.MAT5.LO.FE{marker LO.PASEC.MAT5.LO.FE}}}PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), female{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.MAT5.LO.MA:LO.PASEC.MAT5.LO.MA{marker LO.PASEC.MAT5.LO.MA}}}PASEC: Male 5th grade students below the Failure Rate on the mathematics scale (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.MAT5.LO.MA:LO.PASEC.MAT5.LO.MA{marker LO.PASEC.MAT5.LO.MA}}}PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), male{p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_LO.PASEC.MAT5.MA:LO.PASEC.MAT5.MA{marker LO.PASEC.MAT5.MA}}}PASEC: Mean performance on the mathematics scale (100 points) for 5th grade students. Male{p_end}
 
@@ -2252,6 +2252,18 @@
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.ENR.SECO.FM.ZS:SE.ENR.SECO.FM.ZS{marker SE.ENR.SECO.FM.ZS}}}School enrollment, secondary (gross), gender parity index (GPI){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.ENR.TERT.FM.ZS:SE.ENR.TERT.FM.ZS{marker SE.ENR.TERT.FM.ZS}}}School enrollment, tertiary (gross), gender parity index (GPI){p_end}
+
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.LPV.PRIM.BMP.FE:SE.LPV.PRIM.BMP.FE{marker SE.LPV.PRIM.BMP.FE}}}Female pupils below minimum reading proficiency at end of primary (%). Low GAML threshold{p_end}
+
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.LPV.PRIM.BMP.MA:SE.LPV.PRIM.BMP.MA{marker SE.LPV.PRIM.BMP.MA}}}Male pupils below minimum reading proficiency at end of primary (%). Low GAML threshold{p_end}
+
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.LPV.PRIM.FE:SE.LPV.PRIM.FE{marker SE.LPV.PRIM.FE}}}Learning poverty: Share of Female Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%){p_end}
+
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.LPV.PRIM.MA:SE.LPV.PRIM.MA{marker SE.LPV.PRIM.MA}}}Learning poverty: Share of Male Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%){p_end}
+
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.LPV.PRIM.OOS.FE:SE.LPV.PRIM.OOS.FE{marker SE.LPV.PRIM.OOS.FE}}}Female primary school age children out-of-school (%){p_end}
+
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.LPV.PRIM.OOS.MA:SE.LPV.PRIM.OOS.MA{marker SE.LPV.PRIM.OOS.MA}}}Male primary school age children out-of-school (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.DURS:SE.PRE.DURS{marker SE.PRE.DURS}}}Preprimary education, duration (years){p_end}
 
@@ -3069,7 +3081,7 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG24.MA.UN:SP.POP.AG24.MA.UN{marker SP.POP.AG24.MA.UN}}}Population, age 24, male{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG24.TO.UN:SP.POP.AG24.TO.UN{marker SP.POP.AG24.TO.UN}}}Population, age 24, tota{p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG24.TO.UN:SP.POP.AG24.TO.UN{marker SP.POP.AG24.TO.UN}}}Population, age 24, total{p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG25.FE.UN:SP.POP.AG25.FE.UN{marker SP.POP.AG25.FE.UN}}}Population, age 25, female{p_end}
 
@@ -3281,10 +3293,6 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.4.PU.F:UIS.E.4.PU.F{marker UIS.E.4.PU.F}}}Enrolment in post-secondary non-tertiary education, public institutions, female (number){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.5.B:UIS.E.5.B{marker UIS.E.5.B}}}Enrolment in tertiary education, ISCED 5 programmes, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.5.B.F:UIS.E.5.B.F{marker UIS.E.5.B.F}}}Enrolment in tertiary education, ISCED 5 programmes, female (number){p_end}
-
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.6:UIS.E.6{marker UIS.E.6}}}Enrolment in tertiary education, ISCED 6 programmes, both sexes (number){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.6.F:UIS.E.6.F{marker UIS.E.6.F}}}Enrolment in tertiary education, ISCED 6 programmes, female (number){p_end}
@@ -3309,7 +3317,7 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FEP.5.B:UIS.FEP.5.B{marker UIS.FEP.5.B}}}Percentage of students in tertiary ISCED 5 programmes who are female (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FEP.56.FOREIGN:UIS.FEP.56.FOREIGN{marker UIS.FEP.56.FOREIGN}}}Percentage of all inbound internationally mobile students in tertiary education in the host country who are female, (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FEP.56.FOREIGN:UIS.FEP.56.FOREIGN{marker UIS.FEP.56.FOREIGN}}}Percentage of all inbound internationally mobile students in tertiary education in the host country who are female (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FEP.6:UIS.FEP.6{marker UIS.FEP.6}}}Percentage of students in tertiary ISCED 6 programmes who are female (%){p_end}
 
@@ -3437,8 +3445,6 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NE.1.G1.F:UIS.NE.1.G1.F{marker UIS.NE.1.G1.F}}}New entrants to Grade 1 of primary education, female (number){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NER.0.GPI:UIS.NER.0.GPI{marker UIS.NER.0.GPI}}}Net enrolment rate, pre-primary, gender parity index (GPI){p_end}
-
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NER.1.GPI:UIS.NER.1.GPI{marker UIS.NER.1.GPI}}}Net enrolment rate, primary, gender parity index (GPI){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NER.23.GPI:UIS.NER.23.GPI{marker UIS.NER.23.GPI}}}Net enrolment rate, secondary, gender parity index (GPI){p_end}
@@ -3474,12 +3480,6 @@
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OAPP.1.M:UIS.OAPP.1.M{marker UIS.OAPP.1.M}}}Over-age enrolment ratio in primary education, male (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OE.56.40510:UIS.OE.56.40510{marker UIS.OE.56.40510}}}Total outbound internationally mobile tertiary students studying abroad, all countries, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OFSPPT.1:UIS.OFSPPT.1{marker UIS.OFSPPT.1}}}Out-of-school children of primary school age in pre-primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OFSPPT.1.F:UIS.OFSPPT.1.F{marker UIS.OFSPPT.1.F}}}Out-of-school children of primary school age in pre-primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OFSPPT.1.M:UIS.OFSPPT.1.M{marker UIS.OFSPPT.1.M}}}Out-of-school children of primary school age in pre-primary education, male (number){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OFST.2:UIS.OFST.2{marker UIS.OFST.2}}}Out-of-school adolescents of lower secondary school age, both sexes (number){p_end}
 
@@ -3681,12 +3681,6 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G7.M:UIS.REPR.1.G7.M{marker UIS.REPR.1.G7.M}}}Repetition rate in Grade 7 of primary education, male (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFSPPT.1:UIS.ROFSPPT.1{marker UIS.ROFSPPT.1}}}Rate of out-of-school children of primary school age in pre-primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFSPPT.1.F:UIS.ROFSPPT.1.F{marker UIS.ROFSPPT.1.F}}}Rate of out-of-school children of primary school age in pre-primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFSPPT.1.M:UIS.ROFSPPT.1.M{marker UIS.ROFSPPT.1.M}}}Rate of out-of-school children of primary school age in pre-primary education, male (%){p_end}
-
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFST.1:UIS.ROFST.1{marker UIS.ROFST.1}}}Rate of out-of-school children of primary school age, both sexes (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFST.1.F:UIS.ROFST.1.F{marker UIS.ROFST.1.F}}}Rate of out-of-school children of primary school age, female (%){p_end}
@@ -3782,10 +3776,6 @@
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.4:UIS.T.4{marker UIS.T.4}}}Teachers in post-secondary non-tertiary education, both sexes (number){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.4.F:UIS.T.4.F{marker UIS.T.4.F}}}Teachers in post-secondary non-tertiary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.5.B:UIS.T.5.B{marker UIS.T.5.B}}}Teachers in tertiary education ISCED 5 programmes, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.5.B.F:UIS.T.5.B.F{marker UIS.T.5.B.F}}}Teachers in tertiary education ISCED 5 programmes, female (number){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TEP.5.B:UIS.TEP.5.B{marker UIS.TEP.5.B}}}Share of all students in tertiary education enrolled in ISCED 5 (%){p_end}
 
@@ -4278,7 +4268,7 @@
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_BX.KLT.DINV.WD.GD.ZS:BX.KLT.DINV.WD.GD.ZS{marker BX.KLT.DINV.WD.GD.ZS}}}Foreign direct investment, net inflows (% of GDP){p_end}
 
-{synopt:{help wbopendata_topicid_indicators07##topicid_BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT{marker BX.KLT.DREM.CD.DT}}}Primary income on FDI, payments (current US$){p_end}
+{synopt:{help wbopendata_topicid_indicators07##topicid_BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT{marker BX.KLT.DREM.CD.DT}}}Primary income on FDI (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_BX.PEF.TOTL.CD.WD:BX.PEF.TOTL.CD.WD{marker BX.PEF.TOTL.CD.WD}}}Portfolio equity, net inflows (BoP, current US$){p_end}
 
@@ -5513,13 +5503,13 @@
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP1.ZS:SH.UHC.NOP1.ZS{marker SH.UHC.NOP1.ZS}}}Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP2.CG:SH.UHC.NOP2.CG{marker SH.UHC.NOP2.CG}}}Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD){p_end}
+{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP2.CG:SH.UHC.NOP2.CG{marker SH.UHC.NOP2.CG}}}Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD){p_end}
 
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP2.TO:SH.UHC.NOP2.TO{marker SH.UHC.NOP2.TO}}}Number of people pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure{p_end}
+{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP2.TO:SH.UHC.NOP2.TO{marker SH.UHC.NOP2.TO}}}Number of people pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure{p_end}
 
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP2.ZG:SH.UHC.NOP2.ZG{marker SH.UHC.NOP2.ZG}}}Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line){p_end}
+{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP2.ZG:SH.UHC.NOP2.ZG{marker SH.UHC.NOP2.ZG}}}Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line){p_end}
 
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP2.ZS:SH.UHC.NOP2.ZS{marker SH.UHC.NOP2.ZS}}}Proportion of population pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%){p_end}
+{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP2.ZS:SH.UHC.NOP2.ZS{marker SH.UHC.NOP2.ZS}}}Proportion of population pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.OOPC.10.TO:SH.UHC.OOPC.10.TO{marker SH.UHC.OOPC.10.TO}}}Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure{p_end}
 
@@ -12369,7 +12359,7 @@
 
 {synopt:{help wbopendata_topicid_indicators20##topicid_BX.KLT.DINV.CD.WD:BX.KLT.DINV.CD.WD{marker BX.KLT.DINV.CD.WD}}}Foreign direct investment, net inflows (BoP, current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators20##topicid_BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT{marker BX.KLT.DREM.CD.DT}}}Primary income on FDI, payments (current US$){p_end}
+{synopt:{help wbopendata_topicid_indicators20##topicid_BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT{marker BX.KLT.DREM.CD.DT}}}Primary income on FDI (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators20##topicid_BX.PEF.TOTL.CD.DT:BX.PEF.TOTL.CD.DT{marker BX.PEF.TOTL.CD.DT}}}Portfolio investment, equity (DRS, current US$){p_end}
 
@@ -13695,4 +13685,4 @@
 {synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.TRVL.ZS.WT:TX.VAL.TRVL.ZS.WT{marker TX.VAL.TRVL.ZS.WT}}}Travel services (% of commercial service exports){p_end}
 {synoptline}
 
-{right:(as of 28oct2019)}
+{right:(as of 12apr2020)}

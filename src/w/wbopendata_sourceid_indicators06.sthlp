@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28oct2019)}
+{right:(as of 12apr2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -108,7 +108,7 @@
 
 {synoptline}
 {marker sourceid_BX.KLT.DREM.CD.DT}
-{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT} - Primary income on FDI, payments (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT} - Primary income on FDI (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -3089,7 +3089,7 @@
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Total interest payments to exports of goods, services and primary income. Total interest payment is the sum of interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and charges to the IMF.{p_end}
 
@@ -5983,4 +5983,4 @@
 
 
 
-{right:(as of 28oct2019)}
+{right:(as of 12apr2020)}

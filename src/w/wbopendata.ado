@@ -1,20 +1,21 @@
 *******************************************************************************
-* wbopendata                                                                  *
+* wbopendata                                                                  
 *!  v 16.0	    27Oct2019               by Joao Pedro Azevedo 
 * created and tested new functions, namely:
-  * _api_read_indicators.ado : download indicator list from API, for formats output in a Stata readable form
-  * _update_indicators.ado: calls _api_read_indicators.ado, and uses its output to generate several documentation outputs for wbopendata:
-    * dialogue indicator list
-    * sthlp indicator list by Source and Topic
-    * sthlp indicator metadata by Source and Topic
- * match option supported in wbopendata (add countrymetadata matching on MATCH var) 
- * _website.ado : screens a text file and converts and http or www "word" to a SMCL web compatible code.
- * _parameters.ado: now include detailed count of indicators by SOURCE and TOPIC
- * _wbopendata.ado: renamned _update_wbopendata
- * _indicator: renamed _update_indicators
- * _update_wbopendata.ado: now checks for changes at the SOURCE or TOPIC level
- * fixed return list when multiple indicators are selected
- * updated help file to allow for the search of indicators by Source and Topics
+*  _api_read_indicators.ado : download indicator list from API, for formats 
+*    output in a Stata readable form
+*  _update_indicators.ado: calls _api_read_indicators.ado, and uses its output to  *  generate several documentation outputs for wbopendata:
+*     dialogue indicator list
+*     sthlp indicator list by Source and Topic
+*     sthlp indicator metadata by Source and Topic
+*  match option supported in wbopendata (add countrymetadata matching on MATCH var) 
+* _website.ado : screens a text file and converts and http or www "word" to a SMCL *    web compatible code.
+* _parameters.ado: now include detailed count of indicators by SOURCE and TOPIC
+* _wbopendata.ado: renamned _update_wbopendata
+* _indicator: renamed _update_indicators
+* _update_wbopendata.ado: now checks for changes at the SOURCE or TOPIC level
+* fixed return list when multiple indicators are selected
+* updated help file to allow for the search of indicators by Source and Topics
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -83,21 +84,24 @@ version 9.0
 	
 **********************************************************************************
 
-		if ("`query'" != "") & ("`check'" != "") {
+	* query and check can not be selected at the same time
+		if ("`query'" == "query") & ("`check'" == "check") {
 			noi di  as err "update query and update check options cannot be selected at the same time."
 			exit 198
 		}
 	
 		set checksum off
 	
-		if ("`update'" != "") & wordcount("`query' `check' `countrymetadata' `all'")==0 {
+	* update : update query / does not triger the download of any data
+		if ("`update'" == "update") & wordcount("`query' `check' `countrymetadata' `all'")==0 {
 		
 			noi wbopendata, update query
 			break
 		}
 		
-			
-		if ("`update'" != "") & wordcount("`query' `check' `countrymetadata' `all'")== 1 {
+	* update : update query / triger the download of selected data
+	* update : force  - creates new help files and metadata documentation by source and topics
+		if ("`update'" == "update") & wordcount("`query' `check' `countrymetadata' `all'")== 1 {
 
 			noi _update_wbopendata, update `query' `check'	`countrymetadata' `all' `force' `short' `detail' `ctrylist'
 			break
