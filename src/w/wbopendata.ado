@@ -101,6 +101,11 @@ version 9.0
 		
 	* update : update query / triger the download of selected data
 	* update : force  - creates new help files and metadata documentation by source and topics
+	* trigger: _parameters
+	* triggers _update indicators.ado
+	*		refresh Source
+	*		refresh Indicators
+	
 		if ("`update'" == "update") & wordcount("`query' `check' `countrymetadata' `all'")== 1 {
 
 			noi _update_wbopendata, update `query' `check'	`countrymetadata' `all' `force' `short' `detail' `ctrylist'
