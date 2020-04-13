@@ -142,6 +142,8 @@ if ("`noindlist'" == "") {
 
 *******************************************************************************
 * create sthlp files (sourceid and topicid)
+*  creates a single file for sourcid with all indicators by sourceid
+*  creates a single file for topicid with all indicators by topicid
 *******************************************************************************
 
 if ("`nosthlp1'" == "") {
@@ -278,6 +280,8 @@ if ("`nosthlp1'" == "") {
 		
 	*******************************************************************************
 	* create sthlp files (sourceid_indicators and topicid_indicators)
+	* multiple files for sourcid
+	* multiple fiels for topicid
 	*******************************************************************************
 
 if ("`nosthlp2'" == "") {

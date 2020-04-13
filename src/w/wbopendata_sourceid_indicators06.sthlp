@@ -2153,7 +2153,7 @@
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Total external debt stocks to exports of goods, services and primary income.{p_end}
 
@@ -3102,7 +3102,7 @@
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Total interest payments to gross national income.{p_end}
 
