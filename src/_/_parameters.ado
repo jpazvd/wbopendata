@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-*! _parameters <3 Nov 2019 : 17:33:26>    João Pedro Azevedo 
-=======
-<<<<<<< HEAD
-*! _parameters <2 Nov 2019 : 14:35:01>    João Pedro Azevedo 
-=======
-*! _parameters <12 Apr 2020 : 19:34:31>    João Pedro Azevedo 
->>>>>>> check
->>>>>>> develop
+*! _parameters <13 Apr 2020 : 08:58:44>    João Pedro Azevedo 
 
 program define _parameters, rclass
 
@@ -99,23 +91,13 @@ version 9
 
 
 
-<<<<<<< HEAD
-             return local number_indicators = 17299
-             return local dt_update "29 Oct 2019 09:52:40" 
-             return local dt_lastcheck  "3 Nov 2019 17:33:26" 
-
-             return local ctrymetadata = 304
-             return local dt_ctrylastcheck   "3 Nov 2019 17:33:26" 
-             return local dt_ctryupdate  "29 Oct 2019 09:54:45" 
-=======
              return local number_indicators = 17338
-             return local dt_update "12 Apr 2020 19:34:31" 
-             return local dt_lastcheck  "12 Apr 2020 19:34:31" 
+             return local dt_update "13 Apr 2020 08:58:44" 
+             return local dt_lastcheck  "13 Apr 2020 08:58:44" 
 
              return local ctrymetadata = 304
-             return local dt_ctrylastupdate  "12 Apr 2020 19:27:19" 
-             return local dt_ctrylastcheck   "12 Apr 2020 19:34:31" 
-             return local dt_ctryupdate  "12 Apr 2020 19:38:33" 
->>>>>>> check
+             return local dt_ctrylastupdate  "12 Apr 2020 19:38:33" 
+             return local dt_ctrylastcheck   "13 Apr 2020 08:58:44" 
+             return local dt_ctryupdate  "13 Apr 2020 09:02:16" 
 
 end
