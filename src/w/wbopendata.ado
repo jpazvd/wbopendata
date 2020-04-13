@@ -1,7 +1,9 @@
 *******************************************************************************
 * wbopendata             
-*!  v 16.1      12Apr2020 				by Joao Pedro Azevedo
-*	rempve metadata of SOURCID and TOPICSID from the main dissemination package                                                     
+*!  v 16.2      13Apr2020 				by Joao Pedro Azevedo
+*    create option metadataoffline 
+*       generates SORUCEID and TOPICID metadata in local installation
+*       71 sthlp files are generated and 15mb of documentation is created
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -32,6 +34,7 @@ version 9.0
 						 COUNTRYMETADATA			///
 						 ALL						///
 						 BREAKNOMETADATA			///
+						 METADATAOFFLINE			///
 						 FORCE						///
 						 SHORT						///
 						 DETAIL						///
@@ -102,6 +105,15 @@ local indicator `indicators'
 					
 		}
 
+	* metadataoffline options
+	* this option will refress all meatadata and generate 71 files with all metadata indicators by source id and topic id.
+		if ("`metadataoffline'" == "metadataoffline") {
+
+			noi _update_wbopendata, update force all
+			break
+					
+		}
+		
 **********************************************************************************
 * option to match	
 	
@@ -293,6 +305,8 @@ end
 
 
 **********************************************************************************
+*  v 16.1      12Apr2020 				by Joao Pedro Azevedo
+*	rempve metadata of SOURCID and TOPICSID from the main dissemination package                                                     
 *  v 16.0.1    31Oct2019               by Joao Pedro Azevedo 
  * improve a few small functionalities
 *  v 16.0	    27Oct2019               by Joao Pedro Azevedo 
