@@ -306,7 +306,7 @@ end
 
 **********************************************************************************
 *  v 16.1      12Apr2020 				by Joao Pedro Azevedo
-*	rempve metadata of SOURCID and TOPICSID from the main dissemination package                                                     
+*	remove metadata of SOURCID and TOPICSID from the main dissemination package                                                     
 *  v 16.0.1    31Oct2019               by Joao Pedro Azevedo 
  * improve a few small functionalities
 *  v 16.0	    27Oct2019               by Joao Pedro Azevedo 
