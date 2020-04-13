@@ -1,43 +1,9 @@
 *******************************************************************************
-<<<<<<< HEAD
-* wbopendata                                                                  *
-*!  v 16.0.1    31Oct2019               by Joao Pedro Azevedo 
-* created and tested new functions, namely:
-  * _api_read_indicators.ado : download indicator list from API, for formats output in a Stata readable form
-  * _update_indicators.ado: calls _api_read_indicators.ado, and uses its output to generate several documentation outputs for wbopendata:
-    * dialogue indicator list
-    * sthlp indicator list by Source and Topic
-    * sthlp indicator metadata by Source and Topic
- * match option supported in wbopendata (add countrymetadata matching on MATCH var) 
- * _website.ado : screens a text file and converts and http or www "word" to a SMCL web compatible code.
- * _parameters.ado: now include detailed count of indicators by SOURCE and TOPIC
- * _wbopendata.ado: renamned _update_wbopendata
- * _indicator: renamed _update_indicators
- * _update_wbopendata.ado: now checks for changes at the SOURCE or TOPIC level
- * fixed return list when multiple indicators are selected
- * updated help file to allow for the search of indicators by Source and Topics
- * improve a few small functionalities
-=======
 * wbopendata             
-*!  v 16.1      12Apr2020 				by Joao Pedro Azevedo
-*	rempve metadata of SOURCID and TOPICSID from the main dissemination package                                                     
-*!  v 16.0	    27Oct2019               by Joao Pedro Azevedo 
-* created and tested new functions, namely:
-*  _api_read_indicators.ado : download indicator list from API, for formats 
-*    output in a Stata readable form
-*  _update_indicators.ado: calls _api_read_indicators.ado, and uses its output to  *  generate several documentation outputs for wbopendata:
-*     dialogue indicator list
-*     sthlp indicator list by Source and Topic
-*     sthlp indicator metadata by Source and Topic
-*  match option supported in wbopendata (add countrymetadata matching on MATCH var) 
-* _website.ado : screens a text file and converts and http or www "word" to a SMCL *    web compatible code.
-* _parameters.ado: now include detailed count of indicators by SOURCE and TOPIC
-* _wbopendata.ado: renamned _update_wbopendata
-* _indicator: renamed _update_indicators
-* _update_wbopendata.ado: now checks for changes at the SOURCE or TOPIC level
-* fixed return list when multiple indicators are selected
-* updated help file to allow for the search of indicators by Source and Topics
->>>>>>> check
+*!  v 16.2      13Apr2020 				by Joao Pedro Azevedo
+*    create option metadataoffline 
+*       generates SORUCEID and TOPICID metadata in local installation
+*       71 sthlp files are generated and 15mb of documentation is created
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -68,6 +34,7 @@ version 9.0
 						 COUNTRYMETADATA			///
 						 ALL						///
 						 BREAKNOMETADATA			///
+						 METADATAOFFLINE			///
 						 FORCE						///
 						 SHORT						///
 						 DETAIL						///
@@ -106,15 +73,11 @@ version 9.0
 	
 **********************************************************************************
 
-<<<<<<< HEAD
+
 local indicator `indicators'
 
-
-		if ("`query'" != "") & ("`check'" != "") {
-=======
 	* query and check can not be selected at the same time
 		if ("`query'" == "query") & ("`check'" == "check") {
->>>>>>> check
 			noi di  as err "update query and update check options cannot be selected at the same time."
 			exit 198
 		}
@@ -142,6 +105,15 @@ local indicator `indicators'
 					
 		}
 
+	* metadataoffline options
+	* this option will refress all meatadata and generate 71 files with all metadata indicators by source id and topic id.
+		if ("`metadataoffline'" == "metadataoffline") {
+
+			noi _update_wbopendata, update force all
+			break
+					
+		}
+		
 **********************************************************************************
 * option to match	
 	
@@ -333,6 +305,29 @@ end
 
 
 **********************************************************************************
+*  v 16.1      12Apr2020 				by Joao Pedro Azevedo
+*	rempve metadata of SOURCID and TOPICSID from the main dissemination package                                                     
+*  v 16.0.1    31Oct2019               by Joao Pedro Azevedo 
+ * improve a few small functionalities
+*  v 16.0	    27Oct2019               by Joao Pedro Azevedo 
+* created and tested new functions, namely:
+*  _api_read_indicators.ado : download indicator list from API, for formats 
+*    output in a Stata readable form
+*  _update_indicators.ado: calls _api_read_indicators.ado, and uses its output to  
+*  generate additioanl documentation 
+*  outputs for wbopendata:
+*     dialogue indicator list
+*     sthlp indicator list by Source and Topic
+*     sthlp indicator metadata by Source and Topic
+*  match option supported in wbopendata (add countrymetadata matching on MATCH var) 
+* _website.ado : screens a text file and converts and http or www "word" to a SMCL 
+*    web compatible code.
+* _parameters.ado: now include detailed count of indicators by SOURCE and TOPIC
+* _wbopendata.ado: renamned _update_wbopendata
+* _indicator: renamed _update_indicators
+* _update_wbopendata.ado: now checks for changes at the SOURCE or TOPIC level
+* fixed return list when multiple indicators are selected
+* updated help file to allow for the search of indicators by Source and Topics
 *  v 15.1	    04Mar2019               by Joao Pedro Azevedo 
 *	New Features
 *		new error categories to faciliate debuging

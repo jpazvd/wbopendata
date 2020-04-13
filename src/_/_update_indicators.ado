@@ -309,7 +309,7 @@ if ("`nosthlp2'" == "") {
 	
 		* created tempfiles
 		tempfile help`variable' tmp2`variable'
-		create temp variable names
+		* create temp variable names
 		tempname hlp`variable'  dups`variable'  seq2`variable' seq3`variable' code`variable' tot`variable'
 
 		use `tmp', clear
