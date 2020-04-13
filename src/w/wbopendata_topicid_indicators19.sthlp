@@ -1,9 +1,5 @@
 {smcl}
-<<<<<<< HEAD
-{right:(as of 29oct2019)}
-=======
-{right:(as of 12apr2020)}
->>>>>>> check
+{right:(as of 13apr2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1073,7 +1069,7 @@
 {marker topicid_SP.URB.GROW}
 {synopt:{bf:{help wbopendata_topicid##SP.URB.GROW:SP.URB.GROW} - Urban population growth (annual %)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -1086,7 +1082,7 @@
 {marker topicid_SP.URB.TOTL}
 {synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL:SP.URB.TOTL} - Urban population}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -1099,7 +1095,7 @@
 {marker topicid_SP.URB.TOTL.IN.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL.IN.ZS:SP.URB.TOTL.IN.ZS} - Urban population (% of total population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -1109,8 +1105,4 @@
 
 
 
-<<<<<<< HEAD
-{right:(as of 29oct2019)}
-=======
-{right:(as of 12apr2020)}
->>>>>>> check
+{right:(as of 13apr2020)}
