@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-*! _parameters <3 Nov 2019 : 17:33:26>    João Pedro Azevedo 
-=======
-<<<<<<< HEAD
-*! _parameters <2 Nov 2019 : 14:35:01>    João Pedro Azevedo 
-=======
 *! _parameters <12 Apr 2020 : 19:34:31>    João Pedro Azevedo 
->>>>>>> check
->>>>>>> develop
 
 program define _parameters, rclass
 
