@@ -1,9 +1,5 @@
 {smcl}
-<<<<<<< HEAD
-{right:(as of 29oct2019)}
-=======
-{right:(as of 12apr2020)}
->>>>>>> check
+{right:(as of 13apr2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -4236,8 +4232,4 @@
 
 
 
-<<<<<<< HEAD
-{right:(as of 29oct2019)}
-=======
-{right:(as of 12apr2020)}
->>>>>>> check
+{right:(as of 13apr2020)}

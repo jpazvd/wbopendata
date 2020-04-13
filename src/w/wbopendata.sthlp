@@ -1,9 +1,9 @@
 {smcl}
 {hline}
-{* 12Apr2020 }{...}
+{* 13Apr2020 }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
-{right: {bf:version 16.1}}
+{right: {bf:version 16.2}}
 {hline}
 
 {title:Title}
@@ -41,6 +41,7 @@
 {synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
 {synopt :{opt match(varname)}} mergue {help wbopendata##attributes:country attributes} using WDI countrycodes.{p_end}
 {synopt :{opt projection}} World Bank {help wbopendata_sourceid_indicators40##sourceid_40:population estimates and projections} (HPP) .{p_end}
+{synopt :{opt metadataoffline}} download all indicator metadata informaiton and generates 71 sthlp files in your local machine.{p_end}
 {synoptline}
 {p 4 6 2}
 {cmd:wbopendata} requires a connection to the internet and supports the Stata dialogue function ({dialog wbopendata}).{p_end}
@@ -159,6 +160,7 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {synopt :{opt projection}} World Bank staff {help wbopendata_sourceid_indicators40##sourceid_40:population projection estimates} using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end} 
 
+{synopt :{opt metadataoffline}} refresh all metadata information, and generate a local copy of all indicators metadata organized by topics and source. This option creates 71 new help files in your local machine with approximately 15mb of documentation.{p_end}
 	
 {marker attributes}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -360,6 +362,8 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {p 8 12}{stata "wbopendata, update all" :. wbopendata, update all}{p_end}
 
+{p 8 12}{stata "wbopendata, metadataoffline" :. wbopendata, metadataoffline}{p_end}
+
 {p 8 12}{stata "wbopendata, country(chn - China) clear" :. wbopendata, country(chn - China) clear}{p_end}
 
 {p 8 12}{stata "wbopendata, language(en - English) topics(2 - Aid Effectiveness) clear" :. wbopendata, language(en - English) topics(2 - Aid Effectiveness) clear}{p_end}
@@ -491,7 +495,7 @@ The terms of use of the APIs is governed by {browse "http://go.worldbank.org/C09
 {p 8 12 2}Azevedo, J.P. (2011) "wbopendata: Stata module to access World Bank databases," Statistical Software Components S457234, Boston College Department of 
 Economics.{browse "http://ideas.repec.org/c/boc/bocode/s457234.html"}{p_end}
 
-{p 8 12 2}Please make reference to the date when the database was downloaded, as statistics may change.{p_end}
+{p 8 12 2}Please make reference to the date when the database was downloaded, as indicator values and availabiltiy may change.{p_end}
 
 
 {marker references}{...}

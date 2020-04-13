@@ -1,9 +1,5 @@
 {smcl}
-<<<<<<< HEAD
-{right:(as of 29oct2019)}
-=======
-{right:(as of 12apr2020)}
->>>>>>> check
+{right:(as of 13apr2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -852,7 +848,7 @@
 {marker topicid_SH.DYN.0514}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.0514:SH.DYN.0514} - Probability of dying at age 5-14 years (per 1,000 children age 5)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1060,7 +1056,7 @@
 {marker topicid_SH.DYN.NMRT}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.NMRT:SH.DYN.NMRT} - Mortality rate, neonatal (per 1,000 live births)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6169,7 +6165,7 @@
 {marker topicid_SM.POP.NETM}
 {synopt:{bf:{help wbopendata_topicid##SM.POP.NETM:SM.POP.NETM} - Net migration}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6858,7 +6854,7 @@
 {marker topicid_SP.DYN.LE00.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.IN:SP.DYN.LE00.IN} - Life expectancy at birth, total (years)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6871,7 +6867,7 @@
 {marker topicid_SP.DYN.LE00.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.MA.IN:SP.DYN.LE00.MA.IN} - Life expectancy at birth, male (years)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7196,7 +7192,7 @@
 {marker topicid_SP.POP.0004.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0004.MA.5Y:SP.POP.0004.MA.5Y} - Population ages 00-04, male (% of male population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7209,7 +7205,7 @@
 {marker topicid_SP.POP.0014.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.FE.IN:SP.POP.0014.FE.IN} - Population ages 0-14, female}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7222,7 +7218,7 @@
 {marker topicid_SP.POP.0014.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.FE.ZS:SP.POP.0014.FE.ZS} - Population ages 0-14, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7235,7 +7231,7 @@
 {marker topicid_SP.POP.0014.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.MA.IN:SP.POP.0014.MA.IN} - Population ages 0-14, male}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7248,7 +7244,7 @@
 {marker topicid_SP.POP.0014.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.MA.ZS:SP.POP.0014.MA.ZS} - Population ages 0-14, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7261,7 +7257,7 @@
 {marker topicid_SP.POP.0014.TO}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.TO:SP.POP.0014.TO} - Population ages 0-14, total}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7326,7 +7322,7 @@
 {marker topicid_SP.POP.1014.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1014.MA.5Y:SP.POP.1014.MA.5Y} - Population ages 10-14, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7391,7 +7387,7 @@
 {marker topicid_SP.POP.1564.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.MA.IN:SP.POP.1564.MA.IN} - Population ages 15-64, male}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7430,7 +7426,7 @@
 {marker topicid_SP.POP.1564.TO.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.TO.ZS:SP.POP.1564.TO.ZS} - Population ages 15-64 (% of total population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7456,7 +7452,7 @@
 {marker topicid_SP.POP.2024.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.2024.MA.5Y:SP.POP.2024.MA.5Y} - Population ages 20-24, male (% of male population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7521,7 +7517,7 @@
 {marker topicid_SP.POP.3539.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.3539.FE.5Y:SP.POP.3539.FE.5Y} - Population ages 35-39, female (% of female population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7560,7 +7556,7 @@
 {marker topicid_SP.POP.4044.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.4044.MA.5Y:SP.POP.4044.MA.5Y} - Population ages 40-44, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7586,7 +7582,7 @@
 {marker topicid_SP.POP.4549.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.4549.MA.5Y:SP.POP.4549.MA.5Y} - Population ages 45-49, male (% of male population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7612,7 +7608,7 @@
 {marker topicid_SP.POP.5054.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5054.MA.5Y:SP.POP.5054.MA.5Y} - Population ages 50-54, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7625,7 +7621,7 @@
 {marker topicid_SP.POP.5559.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5559.FE.5Y:SP.POP.5559.FE.5Y} - Population ages 55-59, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7638,7 +7634,7 @@
 {marker topicid_SP.POP.5559.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5559.MA.5Y:SP.POP.5559.MA.5Y} - Population ages 55-59, male (% of male population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7651,7 +7647,7 @@
 {marker topicid_SP.POP.6064.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.6064.FE.5Y:SP.POP.6064.FE.5Y} - Population ages 60-64, female (% of female population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7677,7 +7673,7 @@
 {marker topicid_SP.POP.6569.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.6569.FE.5Y:SP.POP.6569.FE.5Y} - Population ages 65-69, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7703,7 +7699,7 @@
 {marker topicid_SP.POP.65UP.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.FE.IN:SP.POP.65UP.FE.IN} - Population ages 65 and above, female}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7820,7 +7816,7 @@
 {marker topicid_SP.POP.7579.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.7579.MA.5Y:SP.POP.7579.MA.5Y} - Population ages 75-79, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7833,7 +7829,7 @@
 {marker topicid_SP.POP.80UP.FE}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.80UP.FE:SP.POP.80UP.FE} - Female population 80+}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7885,7 +7881,7 @@
 {marker topicid_SP.POP.DPND}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.DPND:SP.POP.DPND} - Age dependency ratio (% of working-age population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7911,7 +7907,7 @@
 {marker topicid_SP.POP.DPND.YG}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.DPND.YG:SP.POP.DPND.YG} - Age dependency ratio, young (% of working-age population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7937,7 +7933,7 @@
 {marker topicid_SP.POP.TOTL}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL:SP.POP.TOTL} - Population, total}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7950,7 +7946,7 @@
 {marker topicid_SP.POP.TOTL.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.FE.IN:SP.POP.TOTL.FE.IN} - Population, female}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7963,7 +7959,7 @@
 {marker topicid_SP.POP.TOTL.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.FE.ZS:SP.POP.TOTL.FE.ZS} - Population, female (% of total population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7976,7 +7972,7 @@
 {marker topicid_SP.POP.TOTL.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.MA.IN:SP.POP.TOTL.MA.IN} - Population, male}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -8285,8 +8281,4 @@
 
 
 
-<<<<<<< HEAD
-{right:(as of 29oct2019)}
-=======
-{right:(as of 12apr2020)}
->>>>>>> check
+{right:(as of 13apr2020)}

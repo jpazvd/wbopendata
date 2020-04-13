@@ -1,9 +1,5 @@
 {smcl}
-<<<<<<< HEAD
-{right:(as of 29oct2019)}
-=======
-{right:(as of 12apr2020)}
->>>>>>> check
+{right:(as of 13apr2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -13689,8 +13685,4 @@
 {synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.TRVL.ZS.WT:TX.VAL.TRVL.ZS.WT{marker TX.VAL.TRVL.ZS.WT}}}Travel services (% of commercial service exports){p_end}
 {synoptline}
 
-<<<<<<< HEAD
-{right:(as of 29oct2019)}
-=======
-{right:(as of 12apr2020)}
->>>>>>> check
+{right:(as of 13apr2020)}
