@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -4115,7 +4119,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 1 is the proportion of quintile 1 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 1 is the proportion of quintile 1 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -4128,7 +4132,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 2 is the proportion of quintile 2 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 2 is the proportion of quintile 2 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -4141,7 +4145,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 3 is the proportion of quintile 3 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 3 is the proportion of quintile 3 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -4154,7 +4158,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 4 is the proportion of quintile 4 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 4 is the proportion of quintile 4 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -4167,7 +4171,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 5 is the proportion of quintile 5 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 5 is the proportion of quintile 5 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -5155,7 +5159,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 1 is the proportion of quintile 1 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 1 is the proportion of quintile 1 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -5168,7 +5172,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 2 is the proportion of quintile 2 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 2 is the proportion of quintile 2 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -5181,7 +5185,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 3 is the proportion of quintile 3 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 3 is the proportion of quintile 3 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -5194,7 +5198,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 4 is the proportion of quintile 4 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 4 is the proportion of quintile 4 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -5207,7 +5211,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 5 is the proportion of quintile 5 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 5 is the proportion of quintile 5 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -5285,7 +5289,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 1 is the number of years of formal schooling received, on average, by the quintile 1 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 1 is the number of years of formal schooling received, on average, by the quintile 1 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -5298,7 +5302,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 2 is the number of years of formal schooling received, on average, by the quintile 2 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 2 is the number of years of formal schooling received, on average, by the quintile 2 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -5311,7 +5315,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 3 is the number of years of formal schooling received, on average, by the quintile 3 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 3 is the number of years of formal schooling received, on average, by the quintile 3 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -5324,7 +5328,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 4 is the number of years of formal schooling received, on average, by the quintile 4 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 4 is the number of years of formal schooling received, on average, by the quintile 4 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -5337,7 +5341,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 5 is the number of years of formal schooling received, on average, by the quintile 5 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 5 is the number of years of formal schooling received, on average, by the quintile 5 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -5482,7 +5486,7 @@
 
 {synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 1 is the number of quintile 1 post-secondary school pupils of any age, expressed as a percentage of the quintile 1 population of post-secondary school age. Post-secondary school age is defined as{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5495,7 +5499,7 @@
 
 {synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 2 is the number of quintile 2 post-secondary school pupils of any age, expressed as a percentage of the quintile 2 population of post-secondary school age. Post-secondary school age is defined as{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5508,7 +5512,7 @@
 
 {synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 3 is the number of quintile 3 post-secondary school pupils of any age, expressed as a percentage of the quintile 3 population of post-secondary school age. Post-secondary school age is defined as{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5521,7 +5525,7 @@
 
 {synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 4 is the number of quintile 4 post-secondary school pupils of any age, expressed as a percentage of the quintile 4 population of post-secondary school age. Post-secondary school age is defined as{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5534,7 +5538,7 @@
 
 {synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 5 is the number of quintile 5 post-secondary school pupils of any age, expressed as a percentage of the quintile 5 population of post-secondary school age. Post-secondary school age is defined as{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5612,7 +5616,7 @@
 
 {synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 1 is the proportion of quintile 1 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5625,7 +5629,7 @@
 
 {synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 2 is the proportion of quintile 2 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5638,7 +5642,7 @@
 
 {synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 3 is the proportion of quintile 3 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5651,7 +5655,7 @@
 
 {synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 4 is the proportion of quintile 4 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5664,7 +5668,7 @@
 
 {synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 5 is the proportion of quintile 5 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5740,9 +5744,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 1 is the proportion of quintile 1 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 1 is the proportion of quintile 1 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5753,9 +5757,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 2 is the proportion of quintile 2 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 2 is the proportion of quintile 2 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5766,9 +5770,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 3 is the proportion of quintile 3 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 3 is the proportion of quintile 3 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5779,9 +5783,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 4 is the proportion of quintile 4 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 4 is the proportion of quintile 4 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5792,9 +5796,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 5 is the proportion of quintile 5 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 5 is the proportion of quintile 5 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5872,7 +5876,7 @@
 
 {synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 1 is the number of quintile 1 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 1 children of the offici{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5885,7 +5889,7 @@
 
 {synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 2 is the number of quintile 2 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 2 children of the offici{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5898,7 +5902,7 @@
 
 {synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 3 is the number of quintile 3 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 3 children of the offici{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5911,7 +5915,7 @@
 
 {synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 4 is the number of quintile 4 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 4 children of the offici{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -5924,7 +5928,7 @@
 
 {synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 5 is the number of quintile 5 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 5 children of the offici{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6002,7 +6006,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 1 is the proportion of quintile 1 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6015,7 +6019,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 2 is the proportion of quintile 2 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6028,7 +6032,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 3 is the proportion of quintile 3 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6041,7 +6045,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 4 is the proportion of quintile 4 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6054,7 +6058,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 5 is the proportion of quintile 5 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6132,7 +6136,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 1 is defined as the proportion of quintile 1 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6145,7 +6149,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 2 is defined as the proportion of quintile 2 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6158,7 +6162,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 3 is defined as the proportion of quintile 3 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6171,7 +6175,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 4 is defined as the proportion of quintile 4 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6184,7 +6188,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 5 is defined as the proportion of quintile 5 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6262,7 +6266,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 1 is the percentage of quintile 1 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6275,7 +6279,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 2 is the percentage of quintile 2 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6288,7 +6292,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 3 is the percentage of quintile 3 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6301,7 +6305,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 4 is the percentage of quintile 4 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6314,7 +6318,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 5 is the percentage of quintile 5 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6392,7 +6396,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate. Quintile 1 is the total number of quintile 1 students of any age in the last grade of primary school, minus the number of quintile 1 repeaters in that grade, divided by the number of quintile 1 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6405,7 +6409,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate. Quintile 2 is the total number of quintile 2 students of any age in the last grade of primary school, minus the number of quintile 2 repeaters in that grade, divided by the number of quintile 2 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6418,7 +6422,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate. Quintile 3 is the total number of quintile 3 students of any age in the last grade of primary school, minus the number of quintile 3 repeaters in that grade, divided by the number of quintile 3 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6431,7 +6435,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate. Quintile 4 is the total number of quintile 4 students of any age in the last grade of primary school, minus the number of quintile 4 repeaters in that grade, divided by the number of quintile 4 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6444,7 +6448,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate. Quintile 5 is the total number of quintile 5 students of any age in the last grade of primary school, minus the number of quintile 5 repeaters in that grade, divided by the number of quintile 5 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6522,7 +6526,7 @@
 
 {synopt:{opt Source Notes}}Secondary completion rate. Quintile 1 is the total number of quintile 1 students of any age in last grade of secondary school, minus the number of quintile 1 repeaters in that grade, divided by the number of quintile 1 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6535,7 +6539,7 @@
 
 {synopt:{opt Source Notes}}Secondary completion rate. Quintile 2 is the total number of quintile 2 students of any age in last grade of secondary school, minus the number of quintile 2 repeaters in that grade, divided by the number of quintile 2 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6548,7 +6552,7 @@
 
 {synopt:{opt Source Notes}}Secondary completion rate. Quintile 3 is the total number of quintile 3 students of any age in last grade of secondary school, minus the number of quintile 3 repeaters in that grade, divided by the number of quintile 3 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6561,7 +6565,7 @@
 
 {synopt:{opt Source Notes}}Secondary completion rate. Quintile 4 is the total number of quintile 4 students of any age in last grade of secondary school, minus the number of quintile 4 repeaters in that grade, divided by the number of quintile 4 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6574,7 +6578,7 @@
 
 {synopt:{opt Source Notes}}Secondary completion rate. Quintile 5 is the total number of quintile 5 students of any age in last grade of secondary school, minus the number of quintile 5 repeaters in that grade, divided by the number of quintile 5 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6650,9 +6654,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 1 is the proportion of quintile 1 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 1 is the proportion of quintile 1 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6663,9 +6667,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 2 is the proportion of quintile 2 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 2 is the proportion of quintile 2 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6676,9 +6680,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 3 is the proportion of quintile 3 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 3 is the proportion of quintile 3 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6689,9 +6693,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 4 is the proportion of quintile 4 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 4 is the proportion of quintile 4 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6702,9 +6706,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 5 is the proportion of quintile 5 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 5 is the proportion of quintile 5 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6780,9 +6784,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 1 is the number of years of formal schooling received, on average, by the quintile 1 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 1 is the number of years of formal schooling received, on average, by the quintile 1 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6793,9 +6797,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 2 is the number of years of formal schooling received, on average, by the quintile 2 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 2 is the number of years of formal schooling received, on average, by the quintile 2 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6806,9 +6810,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 3 is the number of years of formal schooling received, on average, by the quintile 3 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 3 is the number of years of formal schooling received, on average, by the quintile 3 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6819,9 +6823,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 4 is the number of years of formal schooling received, on average, by the quintile 4 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 4 is the number of years of formal schooling received, on average, by the quintile 4 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6832,9 +6836,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 5 is the number of years of formal schooling received, on average, by the quintile 5 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 5 is the number of years of formal schooling received, on average, by the quintile 5 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7159,7 +7163,7 @@
 
 {synopt:{opt Source Notes}}Mean percentage correct for 5th grade students on the French language exam. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-2010 data{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -7172,12 +7176,12 @@
 
 {synopt:{opt Source Notes}}Mean percentage correct for 5th grade female students on the French language exam. Average differences are only significant between males and females in Benin, Burkina Faso, Democratic Republic of Congo, and Burundi. Since comparison is sugges{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_LO.PASEC.FRE5.HIG}
-{synopt:{bf:{help wbopendata_topicid##LO.PASEC.FRE5.HIG:LO.PASEC.FRE5.HIG} - PASEC: 5th grade students reaching the Knowledge Base Rate on the French language scale (%)}}
+{synopt:{bf:{help wbopendata_topicid##LO.PASEC.FRE5.HIG:LO.PASEC.FRE5.HIG} - PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -7185,12 +7189,12 @@
 
 {synopt:{opt Source Notes}}Share of students scoring at least 40 percent on the PASEC French language exam. The Knowledge Base Rate is the minimum learning goal based on the programs of the level selected and appropriate to the scale of the tests used. Data reflects cou{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_LO.PASEC.FRE5.HIG.FE}
-{synopt:{bf:{help wbopendata_topicid##LO.PASEC.FRE5.HIG.FE:LO.PASEC.FRE5.HIG.FE} - PASEC: Female 5th grade students reaching the Knowledge Base Rate on the French language scale (%)}}
+{synopt:{bf:{help wbopendata_topicid##LO.PASEC.FRE5.HIG.FE:LO.PASEC.FRE5.HIG.FE} - PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -7198,12 +7202,12 @@
 
 {synopt:{opt Source Notes}}Share of female students scoring at least 40 percent on the PASEC French language exam. The Knowledge Base Rate is the minimum learning goal based on the programs of the level selected and appropriate to the scale of the tests used. Data refle{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_LO.PASEC.FRE5.HIG.MA}
-{synopt:{bf:{help wbopendata_topicid##LO.PASEC.FRE5.HIG.MA:LO.PASEC.FRE5.HIG.MA} - PASEC: Male 5th grade students reaching the Knowledge Base Rate on the French language scale (%)}}
+{synopt:{bf:{help wbopendata_topicid##LO.PASEC.FRE5.HIG.MA:LO.PASEC.FRE5.HIG.MA} - PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -7211,12 +7215,12 @@
 
 {synopt:{opt Source Notes}}Share of male students scoring at least 40 percent on the PASEC French language exam. The Knowledge Base Rate is the minimum learning goal based on the programs of the level selected and appropriate to the scale of the tests used. Data reflect{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_LO.PASEC.FRE5.LO}
-{synopt:{bf:{help wbopendata_topicid##LO.PASEC.FRE5.LO:LO.PASEC.FRE5.LO} - PASEC: 5th grade students below the Failure Rate on the French language scale (%)}}
+{synopt:{bf:{help wbopendata_topicid##LO.PASEC.FRE5.LO:LO.PASEC.FRE5.LO} - PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -7224,12 +7228,12 @@
 
 {synopt:{opt Source Notes}}Share of students scoring less than 25 percent on the PASEC French language exam. The Failure Rate is the score a pupil could obtain by completing the PASEC test randomly. Data reflects country performance in the stated year according to PASEC{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_LO.PASEC.FRE5.LO.FE}
-{synopt:{bf:{help wbopendata_topicid##LO.PASEC.FRE5.LO.FE:LO.PASEC.FRE5.LO.FE} - PASEC: Female 5th grade students below the Failure Rate on the French language scale (%)}}
+{synopt:{bf:{help wbopendata_topicid##LO.PASEC.FRE5.LO.FE:LO.PASEC.FRE5.LO.FE} - PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -7237,12 +7241,12 @@
 
 {synopt:{opt Source Notes}}Share of female students scoring less than 25 percent on the PASEC French language exam. The Failure Rate is the score a pupil could obtain by completing the PASEC test randomly. Data reflects country performance in the stated year according t{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_LO.PASEC.FRE5.LO.MA}
-{synopt:{bf:{help wbopendata_topicid##LO.PASEC.FRE5.LO.MA:LO.PASEC.FRE5.LO.MA} - PASEC: Male 5th grade students below the Failure Rate on the French language scale (%)}}
+{synopt:{bf:{help wbopendata_topicid##LO.PASEC.FRE5.LO.MA:LO.PASEC.FRE5.LO.MA} - PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -7250,7 +7254,7 @@
 
 {synopt:{opt Source Notes}}Share of male students scoring less than 25 percent on the PASEC French language exam. The Failure Rate is the score a pupil could obtain by completing the PASEC test randomly. Data reflects country performance in the stated year according to{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -7263,7 +7267,7 @@
 
 {synopt:{opt Source Notes}}Mean percentage correct for 5th male grade students on the French language exam. Average differences are only significant between males and females in Benin, Burkina Faso, Democratic Republic of Congo and Burundi. Since comparison is suggested{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -7276,7 +7280,7 @@
 
 {synopt:{opt Source Notes}}Mean percentage correct for 5th grade students on the mathematics exam. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-2010 data is{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -7289,12 +7293,12 @@
 
 {synopt:{opt Source Notes}}Mean percentage correct for female 5th grade students on the mathematics exam. Average differences are only significant between males and females in Benin, Gabon, Burkina Faso, Senegal, Burundi, Cote d'Ivoire, Togo and Comoros. Since compariso{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_LO.PASEC.MAT5.HIG}
-{synopt:{bf:{help wbopendata_topicid##LO.PASEC.MAT5.HIG:LO.PASEC.MAT5.HIG} - PASEC: 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%)}}
+{synopt:{bf:{help wbopendata_topicid##LO.PASEC.MAT5.HIG:LO.PASEC.MAT5.HIG} - PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -7302,12 +7306,12 @@
 
 {synopt:{opt Source Notes}}Share of students scoring at least 40 percent on the PASEC mathematics exam. The Knowledge Base Rate is the minimum learning goal based on the programs of the level selected and appropriate to the scale of the tests used. Data reflects country{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_LO.PASEC.MAT5.HIG.FE}
-{synopt:{bf:{help wbopendata_topicid##LO.PASEC.MAT5.HIG.FE:LO.PASEC.MAT5.HIG.FE} - PASEC: Female 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%)}}
+{synopt:{bf:{help wbopendata_topicid##LO.PASEC.MAT5.HIG.FE:LO.PASEC.MAT5.HIG.FE} - PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -7315,12 +7319,12 @@
 
 {synopt:{opt Source Notes}}Share of female students scoring at least 40 percent on the PASEC mathematics exam. The Knowledge Base Rate is the minimum learning goal based on the programs of the level selected and appropriate to the scale of the tests used. Data reflects{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_LO.PASEC.MAT5.HIG.MA}
-{synopt:{bf:{help wbopendata_topicid##LO.PASEC.MAT5.HIG.MA:LO.PASEC.MAT5.HIG.MA} - PASEC: Male 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%)}}
+{synopt:{bf:{help wbopendata_topicid##LO.PASEC.MAT5.HIG.MA:LO.PASEC.MAT5.HIG.MA} - PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -7328,12 +7332,12 @@
 
 {synopt:{opt Source Notes}}Share of male students scoring at least 40 percent on the PASEC mathematics exam. The Knowledge Base Rate is the minimum learning goal based on the programs of the level selected and appropriate to the scale of the tests used. Data reflects co{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_LO.PASEC.MAT5.LO}
-{synopt:{bf:{help wbopendata_topicid##LO.PASEC.MAT5.LO:LO.PASEC.MAT5.LO} - PASEC: 5th grade students below the Failure Rate on the mathematics scale (%)}}
+{synopt:{bf:{help wbopendata_topicid##LO.PASEC.MAT5.LO:LO.PASEC.MAT5.LO} - PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -7341,12 +7345,12 @@
 
 {synopt:{opt Source Notes}}Share of students scoring less than 25 percent on the PASEC mathematics exam. The Failure Rate is the score a pupil could obtain by completing the PASEC test randomly. Data reflects country performance in the stated year according to PASEC. 20{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_LO.PASEC.MAT5.LO.FE}
-{synopt:{bf:{help wbopendata_topicid##LO.PASEC.MAT5.LO.FE:LO.PASEC.MAT5.LO.FE} - PASEC: Female 5th grade students below the Failure Rate on the mathematics scale (%)}}
+{synopt:{bf:{help wbopendata_topicid##LO.PASEC.MAT5.LO.FE:LO.PASEC.MAT5.LO.FE} - PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -7354,12 +7358,12 @@
 
 {synopt:{opt Source Notes}}Share of female students scoring less than 25 percent on the PASEC mathematics exam. The Failure Rate is the score a pupil could obtain by completing the PASEC test randomly. Data reflects country performance in the stated year according to PA{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_LO.PASEC.MAT5.LO.MA}
-{synopt:{bf:{help wbopendata_topicid##LO.PASEC.MAT5.LO.MA:LO.PASEC.MAT5.LO.MA} - PASEC: Male 5th grade students below the Failure Rate on the mathematics scale (%)}}
+{synopt:{bf:{help wbopendata_topicid##LO.PASEC.MAT5.LO.MA:LO.PASEC.MAT5.LO.MA} - PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -7367,7 +7371,7 @@
 
 {synopt:{opt Source Notes}}Share of male students scoring less than 25 percent on the PASEC mathematics exam. The Failure Rate is the score a pupil could obtain by completing the PASEC test randomly. Data reflects country performance in the stated year according to PASE{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -7380,7 +7384,7 @@
 
 {synopt:{opt Source Notes}}Mean percentage correct for male 5th grade students on the mathematics exam. Average differences are only significant between males and females in Benin, Gabon, Burkina Faso, Senegal, Burundi, Cote d'Ivoire, Togo and Comoros. Since comparison{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -7716,7 +7720,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students who did not reach the low international benchmark of mathematics achievement (%) is the share of 4th grade students scoring below 400 on the mathematics assessment. This indicator is calculated by subtracting the s{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students who did not reach the low international benchmark of mathematics achievement (%) is the share of 4th grade students scoring below 400 on the mathematics assessment. The indicator is the percentage of students with{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -7755,7 +7759,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the intermediate international benchmark of mathematics achievement (%) is the share of 4th grade students scoring at least 475 on the mathematics assessment. Students at this benchmark can apply basic mat{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the intermediate international benchmark of mathematics achievement (%) is the share of 4th grade students scoring at least 475 on the mathematics assessment. Students can apply basic mathematical knowledg{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -7768,7 +7772,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the low international benchmark of mathematics achievement (%) is the share of 4th grade students scoring at least 400 on the mathematics assessment. Students at this benchmark have some basic mathematical{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the low international benchmark of mathematics achievement (%) is the share of 4th grade students scoring at least 400 on the mathematics assessment. Students have some basic mathematical knowledge. They c{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -7807,7 +7811,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the advanced international benchmark of mathematics achievement (%) is the share of 8th grade students scoring at least 625 on the mathematics assessment. Students at this benchmark can reason with informa{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the advanced international benchmark of mathematics achievement (%) is the share of 8th grade students scoring at least 625 on the mathematics assessment. Students at this benchmark can apply and reason in{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -7820,7 +7824,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students who did not reach the low international benchmark of mathematics achievement (%) is the share of 8th grade students scoring below 400 on the mathematics assessment. This indicator is calculated by subtracting the s{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students who did not reach the low international benchmark of mathematics achievement (%) is the share of 8th grade students scoring below 400 on the mathematics assessment. It is the percentage of students with achievement{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -7911,7 +7915,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the advanced international benchmark of science achievement (%) is the share of 4th grade students scoring at least 625 on the science assessment. Students reaching this benchmark can apply knowledge and u{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the advanced international benchmark of science achievement (%) is the share of 4th grade students scoring at least 625 on the science assessment. Students communicate understanding of life, physical, and{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -7924,7 +7928,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students who did not reach the low international benchmark of science achievement (%) is the share of 4th grade students scoring below 400 on the science assessment. This indicator is calculated by subtracting the share of{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students who did not reach the low international benchmark of science achievement (%) is the share of 4th grade students scoring below 400 on the science assessment. The indicator is the percentage of students with achievem{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -7950,7 +7954,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the high international benchmark of science achievement (%) is the share of 4th grade students scoring at least 550 on the science assessment. Students reaching this benchmark can apply their knowledge and{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the high international benchmark of science achievement (%) is the share of 4th grade students scoring at least 550 on the science assessment. Students reaching this benchmark can communicate and apply kno{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -7963,7 +7967,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the intermediate international benchmark of science achievement (%) is the share of 4th grade students scoring at least 475 on the science assessment. Students reaching this benchmark have basic knowledge{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the intermediate international benchmark of science achievement (%) is the share of 4th grade students scoring at least 475 on the science assessment. Students reaching this benchmark show basic knowledge{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -7976,7 +7980,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the low international benchmark of science achievement (%) is the share of 4th grade students scoring at least 400 on the science assessment. Students reaching this benchmark show some elementary knowledge{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the low international benchmark of science achievement (%) is the share of 4th grade students scoring at least 400 on the science assessment. Students reaching this benchmark show basic knowledge of life a{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -8015,7 +8019,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the advanced international benchmark of science achievement (%) is the share of 8th grade students scoring at least 625 on the science assessment. Students at this benchmark can communicate an understandin{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the advanced international benchmark of science achievement (%) is the share of 8th grade students scoring at least 625 on the science assessment. Students at this benchmark can communicate understanding o{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -8028,7 +8032,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students who did not reach the low international benchmark of science achievement (%) is the share of 8th grade students scoring below 400 on the science assessment. This indicator is calculated by subtracting the share of{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students who did not reach the low international benchmark of science achievement (%) is the share of 8th grade students scoring below 400 on the science assessment. It is the percentage of students with achievement too low{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -8054,7 +8058,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the high international benchmark of science achievement (%) is the share of 8th grade students scoring at least 550 on the science assessment. Students at this benchmark can demonstrate understanding of co{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the high international benchmark of science achievement (%) is the share of 8th grade students scoring at least 550 on the science assessment. Students at this benchmark can apply and communicate understan{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -8067,7 +8071,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the intermediate international benchmark of science achievement (%) is the share of 8th grade students scoring at least 475 on the science assessment. Students at this benchmark can recognize and apply the{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the intermediate international benchmark of science achievement (%) is the share of 8th grade students scoring at least 475 on the science assessment. Students at this benchmark can demonstrate and apply t{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -8080,7 +8084,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the low international benchmark of science achievement (%) is the share of 8th grade students scoring at least 400 on the science assessment. Students at this benchmark can recognize some basic facts from{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the low international benchmark of science achievement (%) is the share of 8th grade students scoring at least 400 on the science assessment. Students at this benchmark show some basic knowledge of biology{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -8840,6 +8844,84 @@
 
 
 {synoptline}
+{marker topicid_SE.LPV.PRIM.BMP.FE}
+{synopt:{bf:{help wbopendata_topicid##SE.LPV.PRIM.BMP.FE:SE.LPV.PRIM.BMP.FE} - Female pupils below minimum reading proficiency at end of primary (%). Low GAML threshold}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}This indicator uses on Minimum Proficiency Levels (MPLs) defined by the Global Alliance to Monitor Learning led by the UNESCO Institute for Statistics (UIS) in the context of the SDG 4.1.1 monitoring, which established learning benchmarks acro{p_end}
+
+{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+
+
+{synoptline}
+{marker topicid_SE.LPV.PRIM.BMP.MA}
+{synopt:{bf:{help wbopendata_topicid##SE.LPV.PRIM.BMP.MA:SE.LPV.PRIM.BMP.MA} - Male pupils below minimum reading proficiency at end of primary (%). Low GAML threshold}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}This indicator uses on Minimum Proficiency Levels (MPLs) defined by the Global Alliance to Monitor Learning led by the UNESCO Institute for Statistics (UIS) in the context of the SDG 4.1.1 monitoring, which established learning benchmarks acro{p_end}
+
+{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+
+
+{synoptline}
+{marker topicid_SE.LPV.PRIM.FE}
+{synopt:{bf:{help wbopendata_topicid##SE.LPV.PRIM.FE:SE.LPV.PRIM.FE} - Learning poverty: Share of Female Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}This indicator brings together schooling and learning. It starts with the share of children who haven't achieved minimum reading proficiency and adjusts it by the proportion of children who are out of school.{p_end}
+
+{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+
+
+{synoptline}
+{marker topicid_SE.LPV.PRIM.MA}
+{synopt:{bf:{help wbopendata_topicid##SE.LPV.PRIM.MA:SE.LPV.PRIM.MA} - Learning poverty: Share of Male Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}This indicator brings together schooling and learning. It starts with the share of children who haven't achieved minimum reading proficiency and adjusts it by the proportion of children who are out of school.{p_end}
+
+{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+
+
+{synoptline}
+{marker topicid_SE.LPV.PRIM.OOS.FE}
+{synopt:{bf:{help wbopendata_topicid##SE.LPV.PRIM.OOS.FE:SE.LPV.PRIM.OOS.FE} - Female primary school age children out-of-school (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}The Out-of-School adjustment in our Learning Poverty indicator relies on enrollment data. Our preferred definition is the adjusted net primary enrollment as reported by UIS.{p_end}
+
+{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+
+
+{synoptline}
+{marker topicid_SE.LPV.PRIM.OOS.MA}
+{synopt:{bf:{help wbopendata_topicid##SE.LPV.PRIM.OOS.MA:SE.LPV.PRIM.OOS.MA} - Male primary school age children out-of-school (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}The Out-of-School adjustment in our Learning Poverty indicator relies on enrollment data. Our preferred definition is the adjusted net primary enrollment as reported by UIS.{p_end}
+
+{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+
+
+{synoptline}
 {marker topicid_SE.PRE.DURS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRE.DURS:SE.PRE.DURS} - Preprimary education, duration (years)}}
 
@@ -8860,7 +8942,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Total number of students enrolled in public and private pre-primary education institutions regardless of age.{p_end}
+{synopt:{opt Source Notes}}Total number of students enrolled in public and private pre-primary education institutions (ISCED 0.2) regardless of age. Within ISCED 0, early childhood educational development programmes are targeted at children aged 0 to 2 years; and pre-pr{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -8873,7 +8955,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Total number of female students enrolled in public and private pre-primary education institutions regardless of age.{p_end}
+{synopt:{opt Source Notes}}Total number of female students enrolled in public and private pre-primary education institutions (ISCED 0.2) regardless of age. Within ISCED 0, early childhood educational development programmes are targeted at children aged 0 to 2 years; and{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -8886,7 +8968,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Total number of female students at the pre-primary level expressed as a percentage of the total number of students (male and female) at the pre-primary level in a given school year.{p_end}
+{synopt:{opt Source Notes}}Total number of female students at the pre-primary level (ISCED 0.2) expressed as a percentage of the total number of students (male and female) at the pre-primary level in a given school year. Within ISCED 0, early childhood educational devel{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -9094,9 +9176,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Primary completion rate is the percentage of students completing the last year of primary school. The rate based on completers is calculated by taking the total number of completers in the last grade of primary school divided by the total numb{p_end}
+{synopt:{opt Source Notes}}Number of female graduates from the last grade of primary education, regardless of age, expressed as a percentage of the female population at the theoretical graduation age. The ratio can exceed 100% due to over-aged and under-aged children wh{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -9107,9 +9189,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Primary completion rate is the percentage of students completing the last year of primary school. The rate based on completers is calculated by taking the total number of completers in the last grade of primary school divided by the total numb{p_end}
+{synopt:{opt Source Notes}}Number of male graduates from the last grade of primary education, regardless of age, expressed as a percentage of the male population at the theoretical graduation age. The ratio can exceed 100% due to over-aged and under-aged children who en{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -9120,9 +9202,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Primary completion rate is the percentage of students completing the last year of primary school. The rate based on completers is calculated by taking the total number of completers in the last grade of primary school divided by the total numb{p_end}
+{synopt:{opt Source Notes}}Total number of graduates from the last grade of primary education, regardless of age, expressed as a percentage of the population at the theoretical graduation age. The ratio can exceed 100% due to over-aged and under-aged children who enter{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -10641,9 +10723,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of graduates from first degree programmes (at ISCED 6 and 7) expressed as a percentage of the population of the theoretical graduation age of the most common first degree programme.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates from first degree programmes (at ISCED 6 and 7) expressed as a percentage of the female population of the theoretical graduation age of the most common first degree programme.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -10654,9 +10736,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of graduates from first degree programmes (at ISCED 6 and 7) expressed as a percentage of the population of the theoretical graduation age of the most common first degree programme.{p_end}
+{synopt:{opt Source Notes}}Number of male graduates from first degree programmes (at ISCED 6 and 7) expressed as a percentage of the male population of the theoretical graduation age of the most common first degree programme.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -10940,7 +11022,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed agriculture programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed Agriculture, Forestry, Fisheries and Veterinary programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -10953,7 +11035,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Share of all tertiary graduates who completed agriculture programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all tertiary graduates who completed Agriculture, Forestry, Fisheries and Veterinary programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -11031,9 +11113,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in Agriculture, Forestry, Fisheries and Veterinary expressed as a percentage of the total number of tertiary graduates in Agriculture, Forestry, Fisheries and Veterinary.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -11044,9 +11126,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in education expressed as a percentage of the total number of tertiary graduates in education.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -11057,9 +11139,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in engineering, manufacturing and construction expressed as a percentage of the total number of tertiary graduates in engineering, manufacturing and construction.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -11070,9 +11152,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in health and welfare expressed as a percentage of the total number of tertiary graduates in health and welfare.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -11083,9 +11165,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in humanities and arts expressed as a percentage of the total number of tertiary graduates in humanities and arts.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -11096,9 +11178,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in unspecified programmes expressed as a percentage of the total number of graduates in unspecified tertiary programmes.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -11109,9 +11191,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in Natural Sciences, Mathematics and Statistics expressed as a percentage of the total number of tertiary graduates in Natural Sciences, Mathematics and Statistics.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -11122,9 +11204,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in Social Sciences, Journalism and Information expressed as a percentage of the total number of tertiary graduates in Social Sciences, Journalism and Information.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -11135,9 +11217,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates from services programmes expressed as a percentage of the total number of tertiary graduates from services programmes.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -11239,7 +11321,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed science programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed Natural Sciences, Mathematics and Statistics programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -11252,7 +11334,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Share of all tertiary graduates who completed science programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all tertiary graduates who completed Natural Sciences, Mathematics and Statistics programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -11265,7 +11347,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed social sciences, business and law programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed Social Sciences, Journalism and Information programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -11278,7 +11360,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Share of all tertiary graduates who completed social sciences, business and law programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all tertiary graduates who completed Social Sciences, Journalism and Information programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -11761,7 +11843,7 @@
 
 {synopt:{opt Source Notes}}Female labor force as a percentage of the total show the extent to which women are active in the labor force. Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database and World Bank population estimates. Labor data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -11774,7 +11856,7 @@
 
 {synopt:{opt Source Notes}}Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period. It includes people who are currently employed and people who are unemployed but seeking work as well as first-t{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database and World Bank population estimates. Labor data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -11787,7 +11869,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -11800,7 +11882,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -11813,7 +11895,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14145,7 +14227,7 @@
 
 {synoptline}
 {marker topicid_SP.POP.AG24.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG24.TO.UN:SP.POP.AG24.TO.UN} - Population, age 24, tota}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.AG24.TO.UN:SP.POP.AG24.TO.UN} - Population, age 24, total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -14814,7 +14896,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Total number of females enrolled in public pre-primary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is located or{p_end}
+{synopt:{opt Source Notes}}Total number of females enrolled in public early childhood education institutions (ISCED 0) regardless of age. Public education institutions are controlled and managed directly by a public education authority or agency of the country where it{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -15522,32 +15604,6 @@
 
 
 {synoptline}
-{marker topicid_UIS.E.5.B}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.5.B:UIS.E.5.B} - Enrolment in tertiary education, ISCED 5 programmes, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in public and private short-cycle tertiary education programmes (ISCED 5).{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.5.B.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.5.B.F:UIS.E.5.B.F} - Enrolment in tertiary education, ISCED 5 programmes, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in public and private short-cycle tertiary education programmes (ISCED 5).{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.E.6}
 {synopt:{bf:{help wbopendata_topicid##UIS.E.6:UIS.E.6} - Enrolment in tertiary education, ISCED 6 programmes, both sexes (number)}}
 
@@ -15705,7 +15761,7 @@
 
 {synoptline}
 {marker topicid_UIS.FEP.56.FOREIGN}
-{synopt:{bf:{help wbopendata_topicid##UIS.FEP.56.FOREIGN:UIS.FEP.56.FOREIGN} - Percentage of all inbound internationally mobile students in tertiary education in the host country who are female, (%)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.FEP.56.FOREIGN:UIS.FEP.56.FOREIGN} - Percentage of all inbound internationally mobile students in tertiary education in the host country who are female (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -15841,7 +15897,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in social sciences, business and law programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in Social Sciences, Journalism and Information programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -15854,7 +15910,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in social sciences, business and law programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in Social Sciences, Journalism and Information programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -15867,7 +15923,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in science programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in Business, Administration and Law programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -15880,7 +15936,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in science programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in Business, Administration and Law programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -15893,7 +15949,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in engineering, manufacturing and construction programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in Natural Sciences, Mathematics and Statistics programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -15906,7 +15962,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in engineering, manufacturing and construction programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in Natural Sciences, Mathematics and Statistics programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -15919,7 +15975,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in agriculture programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in Information and Communication Technologies programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -15932,7 +15988,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in agriculture programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in Information and Communication Technologies programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -15945,7 +16001,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in health and welfare programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in engineering, manufacturing and construction programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -15958,7 +16014,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in health and welfare programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in engineering, manufacturing and construction programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -15971,7 +16027,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in services programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -15984,7 +16040,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in services programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -16257,7 +16313,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Gross lower secondary graduation ratio. All programmes. Female is the number of female graduates regardless of age in all lower secondary education programmes expressed as a percentage of the female population at the theoretical graduation age{p_end}
+{synopt:{opt Source Notes}}Number of female graduates regardless of age in all lower secondary education programmes expressed as a percentage of the female population at the theoretical graduation age for lower secondary education. The ratio can exceed 100% due to over-{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -16270,7 +16326,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Gross lower secondary graduation ratio. All programmes. Male is the number of male graduates regardless of age in all lower secondary education programmes expressed as a percentage of the male population at the theoretical graduation age for l{p_end}
+{synopt:{opt Source Notes}}Number of male graduates regardless of age in all lower secondary education programmes expressed as a percentage of the male population at the theoretical graduation age for lower secondary education. The ratio can exceed 100% due to over-aged{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -16426,7 +16482,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Share of the adult illiterate population that is female.{p_end}
+{synopt:{opt Source Notes}}Share of the adult illiterate population (age 15+) that is female.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -16531,19 +16587,6 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Number of female pupils entering primary education for the first time during the course of the reference school or academic year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NER.0.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.NER.0.GPI:UIS.NER.0.GPI} - Net enrolment rate, pre-primary, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of female net enrolment rate for pre-primary to the male net enrolment rate for pre-primary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between f{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -16778,45 +16821,6 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Students who have crossed a national or territorial border for the purpose of education and are now enrolled outside their country of origin.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.OFSPPT.1}
-{synopt:{bf:{help wbopendata_topicid##UIS.OFSPPT.1:UIS.OFSPPT.1} - Out-of-school children of primary school age in pre-primary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Children in the official primary school age range who are enrolled in pre-primary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.OFSPPT.1.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.OFSPPT.1.F:UIS.OFSPPT.1.F} - Out-of-school children of primary school age in pre-primary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female children in the official primary school age range who are enrolled in pre-primary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.OFSPPT.1.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.OFSPPT.1.M:UIS.OFSPPT.1.M} - Out-of-school children of primary school age in pre-primary education, male (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Male children in the official primary school age range who are enrolled in pre-primary education.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -18122,45 +18126,6 @@
 
 
 {synoptline}
-{marker topicid_UIS.ROFSPPT.1}
-{synopt:{bf:{help wbopendata_topicid##UIS.ROFSPPT.1:UIS.ROFSPPT.1} - Rate of out-of-school children of primary school age in pre-primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of children of official primary school age who are enrolled in pre-primary education, expressed as a percentage of the population of official primary school age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.ROFSPPT.1.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.ROFSPPT.1.F:UIS.ROFSPPT.1.F} - Rate of out-of-school children of primary school age in pre-primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of female children of official primary school age who are enrolled in pre-primary education, expressed as a percentage of the female population of official primary school age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.ROFSPPT.1.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.ROFSPPT.1.M:UIS.ROFSPPT.1.M} - Rate of out-of-school children of primary school age in pre-primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of male children of official primary school age who are enrolled in pre-primary education, expressed as a percentage of the male population of official primary school age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.ROFST.1}
 {synopt:{bf:{help wbopendata_topicid##UIS.ROFST.1:UIS.ROFST.1} - Rate of out-of-school children of primary school age, both sexes (%)}}
 
@@ -18785,32 +18750,6 @@
 
 
 {synoptline}
-{marker topicid_UIS.T.5.B}
-{synopt:{bf:{help wbopendata_topicid##UIS.T.5.B:UIS.T.5.B} - Teachers in tertiary education ISCED 5 programmes, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of teachers in public and private short-cycle tertiary education institutions (ISCED 5). Teachers are persons employed full time or part time in an official capacity to guide and direct the learning experience of pupils and studen{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.T.5.B.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.T.5.B.F:UIS.T.5.B.F} - Teachers in tertiary education ISCED 5 programmes, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female teachers in public and private short-cycle tertiary education institutions (ISCED 5). Teachers are persons employed full time or part time in an official capacity to guide and direct the learning experience of pupils and{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.TEP.5.B}
 {synopt:{bf:{help wbopendata_topicid##UIS.TEP.5.B:UIS.TEP.5.B} - Share of all students in tertiary education enrolled in ISCED 5 (%)}}
 
@@ -19279,4 +19218,8 @@
 
 
 
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check

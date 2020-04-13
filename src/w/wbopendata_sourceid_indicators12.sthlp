@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -4982,7 +4986,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 1 is the proportion of quintile 1 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 1 is the proportion of quintile 1 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -4995,7 +4999,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 2 is the proportion of quintile 2 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 2 is the proportion of quintile 2 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -5008,7 +5012,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 3 is the proportion of quintile 3 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 3 is the proportion of quintile 3 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -5021,7 +5025,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 4 is the proportion of quintile 4 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 4 is the proportion of quintile 4 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -5034,7 +5038,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 5 is the proportion of quintile 5 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 5 is the proportion of quintile 5 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -6022,7 +6026,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 1 is the proportion of quintile 1 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 1 is the proportion of quintile 1 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -6035,7 +6039,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 2 is the proportion of quintile 2 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 2 is the proportion of quintile 2 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -6048,7 +6052,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 3 is the proportion of quintile 3 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 3 is the proportion of quintile 3 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -6061,7 +6065,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 4 is the proportion of quintile 4 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 4 is the proportion of quintile 4 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -6074,7 +6078,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 5 is the proportion of quintile 5 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 5 is the proportion of quintile 5 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -6152,7 +6156,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 1 is the number of years of formal schooling received, on average, by the quintile 1 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 1 is the number of years of formal schooling received, on average, by the quintile 1 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -6165,7 +6169,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 2 is the number of years of formal schooling received, on average, by the quintile 2 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 2 is the number of years of formal schooling received, on average, by the quintile 2 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -6178,7 +6182,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 3 is the number of years of formal schooling received, on average, by the quintile 3 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 3 is the number of years of formal schooling received, on average, by the quintile 3 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -6191,7 +6195,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 4 is the number of years of formal schooling received, on average, by the quintile 4 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 4 is the number of years of formal schooling received, on average, by the quintile 4 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -6204,7 +6208,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 5 is the number of years of formal schooling received, on average, by the quintile 5 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 5 is the number of years of formal schooling received, on average, by the quintile 5 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -6409,7 +6413,7 @@
 
 {synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 1 is the number of quintile 1 post-secondary school pupils of any age, expressed as a percentage of the quintile 1 population of post-secondary school age. Post-secondary school age is defined as{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6422,7 +6426,7 @@
 
 {synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 2 is the number of quintile 2 post-secondary school pupils of any age, expressed as a percentage of the quintile 2 population of post-secondary school age. Post-secondary school age is defined as{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6435,7 +6439,7 @@
 
 {synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 3 is the number of quintile 3 post-secondary school pupils of any age, expressed as a percentage of the quintile 3 population of post-secondary school age. Post-secondary school age is defined as{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6448,7 +6452,7 @@
 
 {synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 4 is the number of quintile 4 post-secondary school pupils of any age, expressed as a percentage of the quintile 4 population of post-secondary school age. Post-secondary school age is defined as{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6461,7 +6465,7 @@
 
 {synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 5 is the number of quintile 5 post-secondary school pupils of any age, expressed as a percentage of the quintile 5 population of post-secondary school age. Post-secondary school age is defined as{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6539,7 +6543,7 @@
 
 {synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 1 is the proportion of quintile 1 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6552,7 +6556,7 @@
 
 {synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 2 is the proportion of quintile 2 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6565,7 +6569,7 @@
 
 {synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 3 is the proportion of quintile 3 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6578,7 +6582,7 @@
 
 {synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 4 is the proportion of quintile 4 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6591,7 +6595,7 @@
 
 {synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 5 is the proportion of quintile 5 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6667,9 +6671,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 1 is the proportion of quintile 1 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 1 is the proportion of quintile 1 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6680,9 +6684,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 2 is the proportion of quintile 2 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 2 is the proportion of quintile 2 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6693,9 +6697,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 3 is the proportion of quintile 3 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 3 is the proportion of quintile 3 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6706,9 +6710,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 4 is the proportion of quintile 4 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 4 is the proportion of quintile 4 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6719,9 +6723,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 5 is the proportion of quintile 5 children of official secondary school age who are attending secondary school.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 5 is the proportion of quintile 5 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6799,7 +6803,7 @@
 
 {synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 1 is the number of quintile 1 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 1 children of the offici{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6812,7 +6816,7 @@
 
 {synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 2 is the number of quintile 2 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 2 children of the offici{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6825,7 +6829,7 @@
 
 {synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 3 is the number of quintile 3 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 3 children of the offici{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6838,7 +6842,7 @@
 
 {synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 4 is the number of quintile 4 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 4 children of the offici{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6851,7 +6855,7 @@
 
 {synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 5 is the number of quintile 5 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 5 children of the offici{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6929,7 +6933,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 1 is the proportion of quintile 1 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6942,7 +6946,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 2 is the proportion of quintile 2 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6955,7 +6959,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 3 is the proportion of quintile 3 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6968,7 +6972,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 4 is the proportion of quintile 4 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -6981,7 +6985,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 5 is the proportion of quintile 5 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7059,7 +7063,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 1 is defined as the proportion of quintile 1 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7072,7 +7076,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 2 is defined as the proportion of quintile 2 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7085,7 +7089,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 3 is defined as the proportion of quintile 3 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7098,7 +7102,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 4 is defined as the proportion of quintile 4 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7111,7 +7115,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 5 is defined as the proportion of quintile 5 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7189,7 +7193,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 1 is the percentage of quintile 1 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7202,7 +7206,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 2 is the percentage of quintile 2 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7215,7 +7219,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 3 is the percentage of quintile 3 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7228,7 +7232,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 4 is the percentage of quintile 4 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7241,7 +7245,7 @@
 
 {synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 5 is the percentage of quintile 5 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7319,7 +7323,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate. Quintile 1 is the total number of quintile 1 students of any age in the last grade of primary school, minus the number of quintile 1 repeaters in that grade, divided by the number of quintile 1 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7332,7 +7336,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate. Quintile 2 is the total number of quintile 2 students of any age in the last grade of primary school, minus the number of quintile 2 repeaters in that grade, divided by the number of quintile 2 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7345,7 +7349,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate. Quintile 3 is the total number of quintile 3 students of any age in the last grade of primary school, minus the number of quintile 3 repeaters in that grade, divided by the number of quintile 3 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7358,7 +7362,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate. Quintile 4 is the total number of quintile 4 students of any age in the last grade of primary school, minus the number of quintile 4 repeaters in that grade, divided by the number of quintile 4 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7371,7 +7375,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate. Quintile 5 is the total number of quintile 5 students of any age in the last grade of primary school, minus the number of quintile 5 repeaters in that grade, divided by the number of quintile 5 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7449,7 +7453,7 @@
 
 {synopt:{opt Source Notes}}Secondary completion rate. Quintile 1 is the total number of quintile 1 students of any age in last grade of secondary school, minus the number of quintile 1 repeaters in that grade, divided by the number of quintile 1 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7462,7 +7466,7 @@
 
 {synopt:{opt Source Notes}}Secondary completion rate. Quintile 2 is the total number of quintile 2 students of any age in last grade of secondary school, minus the number of quintile 2 repeaters in that grade, divided by the number of quintile 2 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7475,7 +7479,7 @@
 
 {synopt:{opt Source Notes}}Secondary completion rate. Quintile 3 is the total number of quintile 3 students of any age in last grade of secondary school, minus the number of quintile 3 repeaters in that grade, divided by the number of quintile 3 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7488,7 +7492,7 @@
 
 {synopt:{opt Source Notes}}Secondary completion rate. Quintile 4 is the total number of quintile 4 students of any age in last grade of secondary school, minus the number of quintile 4 repeaters in that grade, divided by the number of quintile 4 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7501,7 +7505,7 @@
 
 {synopt:{opt Source Notes}}Secondary completion rate. Quintile 5 is the total number of quintile 5 students of any age in last grade of secondary school, minus the number of quintile 5 repeaters in that grade, divided by the number of quintile 5 children of official gra{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7577,9 +7581,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 1 is the proportion of quintile 1 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 1 is the proportion of quintile 1 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7590,9 +7594,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 2 is the proportion of quintile 2 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 2 is the proportion of quintile 2 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7603,9 +7607,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 3 is the proportion of quintile 3 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 3 is the proportion of quintile 3 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7616,9 +7620,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 4 is the proportion of quintile 4 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 4 is the proportion of quintile 4 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7629,9 +7633,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 5 is the proportion of quintile 5 pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
+{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 5 is the proportion of quintile 5 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7707,9 +7711,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 1 is the number of years of formal schooling received, on average, by the quintile 1 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 1 is the number of years of formal schooling received, on average, by the quintile 1 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7720,9 +7724,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 2 is the number of years of formal schooling received, on average, by the quintile 2 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 2 is the number of years of formal schooling received, on average, by the quintile 2 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7733,9 +7737,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 3 is the number of years of formal schooling received, on average, by the quintile 3 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 3 is the number of years of formal schooling received, on average, by the quintile 3 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7746,9 +7750,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 4 is the number of years of formal schooling received, on average, by the quintile 4 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 4 is the number of years of formal schooling received, on average, by the quintile 4 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7759,9 +7763,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 5 is the number of years of formal schooling received, on average, by the quintile 5 population of the given age group.{p_end}
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 5 is the number of years of formal schooling received, on average, by the quintile 5 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7838,7 +7842,7 @@
 
 {synopt:{opt Source Notes}}Gini coefficient of average years of schooling. Age 15+. Quintile 1 measures the degree of inequality in years of schooling in a society. It is calculated similarly to the Gini coefficient of income or wealth. Results range from 0 to 100 with{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7850,7 +7854,7 @@
 
 {synopt:{opt Source Notes}}Gini coefficient of average years of schooling. Age 15+. Quintile 2 measures the degree of inequality in years of schooling in a society. It is calculated similarly to the Gini coefficient of income or wealth. Results range from 0 to 100 with{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7862,7 +7866,7 @@
 
 {synopt:{opt Source Notes}}Gini coefficient of average years of schooling. Age 15+. Quintile 3 measures the degree of inequality in years of schooling in a society. It is calculated similarly to the Gini coefficient of income or wealth. Results range from 0 to 100 with{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7874,7 +7878,7 @@
 
 {synopt:{opt Source Notes}}Gini coefficient of average years of schooling. Age 15+. Quintile 4 measures the degree of inequality in years of schooling in a society. It is calculated similarly to the Gini coefficient of income or wealth. Results range from 0 to 100 with{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7886,7 +7890,7 @@
 
 {synopt:{opt Source Notes}}Gini coefficient of average years of schooling. Age 15+. Quintile 5 measures the degree of inequality in years of schooling in a society. It is calculated similarly to the Gini coefficient of income or wealth. Results range from 0 to 100 with{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
 
 
 {synoptline}
@@ -7925,7 +7929,7 @@
 
 {synopt:{opt Source Notes}}Personal computers are self-contained computers designed to be used by a single individual.{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database, and World Bank estimates.{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -14314,7 +14318,7 @@
 
 {synopt:{opt Source Notes}}The 5th percentile score is the score below which 5 percent of students scored. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-2010{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -14326,7 +14330,7 @@
 
 {synopt:{opt Source Notes}}The 10th percentile score is the score below which 10 percent of students scored. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-201{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -14338,7 +14342,7 @@
 
 {synopt:{opt Source Notes}}The 25th percentile score is the score below which 25 percent of students scored. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-201{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -14350,7 +14354,7 @@
 
 {synopt:{opt Source Notes}}The 50th percentile score is the score below which 50 percent of students scored. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-201{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -14362,7 +14366,7 @@
 
 {synopt:{opt Source Notes}}The 75th percentile score is the score below which 75 percent of students scored. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-201{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -14374,7 +14378,7 @@
 
 {synopt:{opt Source Notes}}The 90th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-201{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -14386,7 +14390,7 @@
 
 {synopt:{opt Source Notes}}The 95th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-201{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -14399,7 +14403,7 @@
 
 {synopt:{opt Source Notes}}Mean percentage correct for 5th grade students on the French language exam. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-2010 data{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -14412,12 +14416,12 @@
 
 {synopt:{opt Source Notes}}Mean percentage correct for 5th grade female students on the French language exam. Average differences are only significant between males and females in Benin, Burkina Faso, Democratic Republic of Congo, and Burundi. Since comparison is sugges{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_LO.PASEC.FRE5.HIG}
-{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.FRE5.HIG:LO.PASEC.FRE5.HIG} - PASEC: 5th grade students reaching the Knowledge Base Rate on the French language scale (%)}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.FRE5.HIG:LO.PASEC.FRE5.HIG} - PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -14425,12 +14429,12 @@
 
 {synopt:{opt Source Notes}}Share of students scoring at least 40 percent on the PASEC French language exam. The Knowledge Base Rate is the minimum learning goal based on the programs of the level selected and appropriate to the scale of the tests used. Data reflects cou{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_LO.PASEC.FRE5.HIG.FE}
-{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.FRE5.HIG.FE:LO.PASEC.FRE5.HIG.FE} - PASEC: Female 5th grade students reaching the Knowledge Base Rate on the French language scale (%)}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.FRE5.HIG.FE:LO.PASEC.FRE5.HIG.FE} - PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -14438,12 +14442,12 @@
 
 {synopt:{opt Source Notes}}Share of female students scoring at least 40 percent on the PASEC French language exam. The Knowledge Base Rate is the minimum learning goal based on the programs of the level selected and appropriate to the scale of the tests used. Data refle{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_LO.PASEC.FRE5.HIG.MA}
-{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.FRE5.HIG.MA:LO.PASEC.FRE5.HIG.MA} - PASEC: Male 5th grade students reaching the Knowledge Base Rate on the French language scale (%)}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.FRE5.HIG.MA:LO.PASEC.FRE5.HIG.MA} - PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -14451,12 +14455,12 @@
 
 {synopt:{opt Source Notes}}Share of male students scoring at least 40 percent on the PASEC French language exam. The Knowledge Base Rate is the minimum learning goal based on the programs of the level selected and appropriate to the scale of the tests used. Data reflect{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_LO.PASEC.FRE5.LO}
-{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.FRE5.LO:LO.PASEC.FRE5.LO} - PASEC: 5th grade students below the Failure Rate on the French language scale (%)}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.FRE5.LO:LO.PASEC.FRE5.LO} - PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -14464,12 +14468,12 @@
 
 {synopt:{opt Source Notes}}Share of students scoring less than 25 percent on the PASEC French language exam. The Failure Rate is the score a pupil could obtain by completing the PASEC test randomly. Data reflects country performance in the stated year according to PASEC{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_LO.PASEC.FRE5.LO.FE}
-{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.FRE5.LO.FE:LO.PASEC.FRE5.LO.FE} - PASEC: Female 5th grade students below the Failure Rate on the French language scale (%)}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.FRE5.LO.FE:LO.PASEC.FRE5.LO.FE} - PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -14477,12 +14481,12 @@
 
 {synopt:{opt Source Notes}}Share of female students scoring less than 25 percent on the PASEC French language exam. The Failure Rate is the score a pupil could obtain by completing the PASEC test randomly. Data reflects country performance in the stated year according t{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_LO.PASEC.FRE5.LO.MA}
-{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.FRE5.LO.MA:LO.PASEC.FRE5.LO.MA} - PASEC: Male 5th grade students below the Failure Rate on the French language scale (%)}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.FRE5.LO.MA:LO.PASEC.FRE5.LO.MA} - PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -14490,7 +14494,7 @@
 
 {synopt:{opt Source Notes}}Share of male students scoring less than 25 percent on the PASEC French language exam. The Failure Rate is the score a pupil could obtain by completing the PASEC test randomly. Data reflects country performance in the stated year according to{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -14503,7 +14507,7 @@
 
 {synopt:{opt Source Notes}}Mean percentage correct for 5th male grade students on the French language exam. Average differences are only significant between males and females in Benin, Burkina Faso, Democratic Republic of Congo and Burundi. Since comparison is suggested{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -14513,7 +14517,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average score of Grade 2 students on the PASEC mathemathics scale. PASEC performance scales have an international average of 500 points and a standard deviation of 100 points with all countries being given equal weighting. Data were published{p_end}
+{synopt:{opt Source Notes}}Average score of Grade 2 students on the PASEC mathematics scale. PASEC performance scales have an international average of 500 points and a standard deviation of 100 points with all countries being given equal weighting. Data were published f{p_end}
 
 {synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
@@ -14597,7 +14601,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average score of female Grade 2 students on the PASEC mathemathics scale. PASEC performance scales have an international average of 500 points and a standard deviation of 100 points with all countries being given equal weighting. Data were pub{p_end}
+{synopt:{opt Source Notes}}Average score of female Grade 2 students on the PASEC mathematics scale. PASEC performance scales have an international average of 500 points and a standard deviation of 100 points with all countries being given equal weighting. Data were publ{p_end}
 
 {synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
@@ -14609,7 +14613,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 2nd grade students scoring below 400.3 on the PASEC mathematics scale. Pupils belows level 1 do not display the competencies measured by this test. Data were published for this indicator beginning with PASEC 2014. Consult the PAS{p_end}
+{synopt:{opt Source Notes}}Percentage of 2nd grade students scoring below 400.3 on the PASEC mathematics scale. Pupils below level 1 do not display the competencies measured by this test. Data were published for this indicator beginning with PASEC 2014. Consult the PASE{p_end}
 
 {synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
@@ -14657,7 +14661,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average score of male Grade 2 students on the PASEC mathemathics scale. PASEC performance scales have an international average of 500 points and a standard deviation of 100 points with all countries being given equal weighting. Data were publi{p_end}
+{synopt:{opt Source Notes}}Average score of male Grade 2 students on the PASEC mathematics scale. PASEC performance scales have an international average of 500 points and a standard deviation of 100 points with all countries being given equal weighting. Data were publis{p_end}
 
 {synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
@@ -14885,7 +14889,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average score of Grade 6 students on the PASEC mathemathics scale. PASEC performance scales have an international average of 500 points and a standard deviation of 100 points with all countries being given equal weighting. Data were published{p_end}
+{synopt:{opt Source Notes}}Average score of Grade 6 students on the PASEC mathematics scale. PASEC performance scales have an international average of 500 points and a standard deviation of 100 points with all countries being given equal weighting. Data were published f{p_end}
 
 {synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
@@ -14897,7 +14901,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average score of female Grade 6 students on the PASEC mathemathics scale. PASEC performance scales have an international average of 500 points and a standard deviation of 100 points with all countries being given equal weighting. Data were pub{p_end}
+{synopt:{opt Source Notes}}Average score of female Grade 6 students on the PASEC mathematics scale. PASEC performance scales have an international average of 500 points and a standard deviation of 100 points with all countries being given equal weighting. Data were publ{p_end}
 
 {synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
@@ -14957,7 +14961,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average score of male Grade 6 students on the PASEC mathemathics scale. PASEC performance scales have an international average of 500 points and a standard deviation of 100 points with all countries being given equal weighting. Data were publi{p_end}
+{synopt:{opt Source Notes}}Average score of male Grade 6 students on the PASEC mathematics scale. PASEC performance scales have an international average of 500 points and a standard deviation of 100 points with all countries being given equal weighting. Data were publis{p_end}
 
 {synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
@@ -15151,7 +15155,7 @@
 
 {synopt:{opt Source Notes}}The 5th percentile score is the score below which 5 percent of students scored. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-2010{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -15163,7 +15167,7 @@
 
 {synopt:{opt Source Notes}}The 10th percentile score is the score below which 10 percent of students scored. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-201{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -15175,7 +15179,7 @@
 
 {synopt:{opt Source Notes}}The 25th percentile score is the score below which 25 percent of students scored. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-201{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -15187,7 +15191,7 @@
 
 {synopt:{opt Source Notes}}The 50th percentile score is the score below which 50 percent of students scored. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-201{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -15199,7 +15203,7 @@
 
 {synopt:{opt Source Notes}}The 75th percentile score is the score below which 75 percent of students scored. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-201{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -15211,7 +15215,7 @@
 
 {synopt:{opt Source Notes}}The 90th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-201{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -15223,7 +15227,7 @@
 
 {synopt:{opt Source Notes}}The 95th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-201{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -15236,7 +15240,7 @@
 
 {synopt:{opt Source Notes}}Mean percentage correct for 5th grade students on the mathematics exam. Data reflects country performance in the stated year according to PASEC. 2004-2005 PASEC data is only comparable with other country data from 2004-2005. 2006-2010 data is{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -15249,12 +15253,12 @@
 
 {synopt:{opt Source Notes}}Mean percentage correct for female 5th grade students on the mathematics exam. Average differences are only significant between males and females in Benin, Gabon, Burkina Faso, Senegal, Burundi, Cote d'Ivoire, Togo and Comoros. Since compariso{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_LO.PASEC.MAT5.HIG}
-{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.MAT5.HIG:LO.PASEC.MAT5.HIG} - PASEC: 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%)}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.MAT5.HIG:LO.PASEC.MAT5.HIG} - PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -15262,12 +15266,12 @@
 
 {synopt:{opt Source Notes}}Share of students scoring at least 40 percent on the PASEC mathematics exam. The Knowledge Base Rate is the minimum learning goal based on the programs of the level selected and appropriate to the scale of the tests used. Data reflects country{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_LO.PASEC.MAT5.HIG.FE}
-{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.MAT5.HIG.FE:LO.PASEC.MAT5.HIG.FE} - PASEC: Female 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%)}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.MAT5.HIG.FE:LO.PASEC.MAT5.HIG.FE} - PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -15275,12 +15279,12 @@
 
 {synopt:{opt Source Notes}}Share of female students scoring at least 40 percent on the PASEC mathematics exam. The Knowledge Base Rate is the minimum learning goal based on the programs of the level selected and appropriate to the scale of the tests used. Data reflects{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_LO.PASEC.MAT5.HIG.MA}
-{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.MAT5.HIG.MA:LO.PASEC.MAT5.HIG.MA} - PASEC: Male 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%)}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.MAT5.HIG.MA:LO.PASEC.MAT5.HIG.MA} - PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -15288,12 +15292,12 @@
 
 {synopt:{opt Source Notes}}Share of male students scoring at least 40 percent on the PASEC mathematics exam. The Knowledge Base Rate is the minimum learning goal based on the programs of the level selected and appropriate to the scale of the tests used. Data reflects co{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_LO.PASEC.MAT5.LO}
-{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.MAT5.LO:LO.PASEC.MAT5.LO} - PASEC: 5th grade students below the Failure Rate on the mathematics scale (%)}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.MAT5.LO:LO.PASEC.MAT5.LO} - PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -15301,12 +15305,12 @@
 
 {synopt:{opt Source Notes}}Share of students scoring less than 25 percent on the PASEC mathematics exam. The Failure Rate is the score a pupil could obtain by completing the PASEC test randomly. Data reflects country performance in the stated year according to PASEC. 20{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_LO.PASEC.MAT5.LO.FE}
-{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.MAT5.LO.FE:LO.PASEC.MAT5.LO.FE} - PASEC: Female 5th grade students below the Failure Rate on the mathematics scale (%)}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.MAT5.LO.FE:LO.PASEC.MAT5.LO.FE} - PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -15314,12 +15318,12 @@
 
 {synopt:{opt Source Notes}}Share of female students scoring less than 25 percent on the PASEC mathematics exam. The Failure Rate is the score a pupil could obtain by completing the PASEC test randomly. Data reflects country performance in the stated year according to PA{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_LO.PASEC.MAT5.LO.MA}
-{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.MAT5.LO.MA:LO.PASEC.MAT5.LO.MA} - PASEC: Male 5th grade students below the Failure Rate on the mathematics scale (%)}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.MAT5.LO.MA:LO.PASEC.MAT5.LO.MA} - PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -15327,7 +15331,7 @@
 
 {synopt:{opt Source Notes}}Share of male students scoring less than 25 percent on the PASEC mathematics exam. The Failure Rate is the score a pupil could obtain by completing the PASEC test randomly. Data reflects country performance in the stated year according to PASE{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -15340,7 +15344,7 @@
 
 {synopt:{opt Source Notes}}Mean percentage correct for male 5th grade students on the mathematics exam. Average differences are only significant between males and females in Benin, Gabon, Burkina Faso, Senegal, Burundi, Cote d'Ivoire, Togo and Comoros. Since comparison{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
 
 
 {synoptline}
@@ -16154,9 +16158,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of female adults scoring at least 326 on the 0 to 500 point scale. Tasks at level 4 often require respondents to perform multiple-step operations to integrate, interpret, or synthesize information from complex or lengthy continuous,{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
 
 
 {synoptline}
@@ -16250,9 +16254,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of male adults scoring at least 326 on the 0 to 500 point scale. Tasks at level 4 often require respondents to perform multiple-step operations to integrate, interpret, or synthesize information from complex or lengthy continuous, n{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
 
 
 {synoptline}
@@ -16430,9 +16434,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of young adults scoring at least 326 on the 0 to 500 point scale. Tasks at level 4 often require respondents to perform multiple-step operations to integrate, interpret, or synthesize information from complex or lengthy continuous,{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
 
 
 {synoptline}
@@ -16634,9 +16638,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of female adults scoring at least 326 on the 0 to 500 point scale. Tasks at level 4 require the respondent to understand a broad range of mathematical information that may be complex, abstract or embedded in unfamiliar contexts. The{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
 
 
 {synoptline}
@@ -16730,9 +16734,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of male adults scoring at least 326 on the 0 to 500 point scale. Tasks at level 4 require the respondent to understand a broad range of mathematical information that may be complex, abstract or embedded in unfamiliar contexts. These{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
 
 
 {synoptline}
@@ -16910,9 +16914,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of young (age 16-24) adults scoring at least 326 on the 0 to 500 point scale. Tasks at level 4 require the respondent to understand a broad range of mathematical information that may be complex, abstract or embedded in unfamiliar co{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
 
 
 {synoptline}
@@ -17090,9 +17094,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of female adults who either 1) reported having no prior computer experience or 2) had prior computer experience but failed the ICT core test, which assesses basic ICT skills needed to take the computer-based assessment, such as the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
 
 
 {synoptline}
@@ -17186,9 +17190,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of male adults who either 1) reported having no prior computer experience or 2) had prior computer experience but failed the ICT core test, which assesses basic ICT skills needed to take the computer-based assessment, such as the ca{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
 
 
 {synoptline}
@@ -17390,9 +17394,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of young (age 16-24) adults who either 1) reported having no prior computer experience or 2) had prior computer experience but failed the ICT core test, which assesses basic ICT skills needed to take the computer-based assessment, s{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
 
 
 {synoptline}
@@ -17783,7 +17787,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 358 but lower than or equal to 420 points on the PISA mathematics scale. . At Level 1, students can answer questions involving familiar contexts where all relevant information is present a{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 358 but lower than or equal to 420 points on the PISA mathematics scale. At Level 1, students can answer questions involving familiar contexts where all relevant information is present and{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18116,37 +18120,37 @@
 
 
 {synoptline}
-{marker sourceid_LO.PISA.REA.0}
-{synopt:{bf:{help wbopendata_sourceid##LO.PISA.REA.0:LO.PISA.REA.0} - PISA: 15-year-olds by reading proficiency level (%). Below Level 1B}}
+{marker sourceid_LO.PISA.REA.0.B1C}
+{synopt:{bf:{help wbopendata_sourceid##LO.PISA.REA.0.B1C:LO.PISA.REA.0.B1C} - PISA: 15-year-olds by reading proficiency level (%). Below Level 1C}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring students below the lowest proficiency level (1B) on the PISA reading scale. Students with scores below Level 1b (less or equal to 262 points) usually do not succeed at the most basic reading tasks tha{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring students below the lowest proficiency level (1C) on the PISA reading scale. Students with scores below Level 1C (less or equal to 189 points) usually do not succeed at the most basic reading tasks tha{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
 
 {synoptline}
-{marker sourceid_LO.PISA.REA.0.FE}
-{synopt:{bf:{help wbopendata_sourceid##LO.PISA.REA.0.FE:LO.PISA.REA.0.FE} - PISA: Female 15-year-olds by reading proficiency level (%). Below Level 1B}}
+{marker sourceid_LO.PISA.REA.0.B1C.FE}
+{synopt:{bf:{help wbopendata_sourceid##LO.PISA.REA.0.B1C.FE:LO.PISA.REA.0.B1C.FE} - PISA: Female 15-year-olds by reading proficiency level (%). Below Level 1C}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring students below the lowest proficiency level (1B) on the PISA reading scale. Students with scores below Level 1b (less or equal to 262 points) usually do not succeed at the most basic reading ta{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring students below the lowest proficiency level (1C) on the PISA reading scale. Students with scores below Level 1C (less or equal to 189 points) usually do not succeed at the most basic reading ta{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
 
 {synoptline}
-{marker sourceid_LO.PISA.REA.0.MA}
-{synopt:{bf:{help wbopendata_sourceid##LO.PISA.REA.0.MA:LO.PISA.REA.0.MA} - PISA: Male 15-year-olds by reading proficiency level (%). Below Level 1B}}
+{marker sourceid_LO.PISA.REA.0.B1C.MA}
+{synopt:{bf:{help wbopendata_sourceid##LO.PISA.REA.0.B1C.MA:LO.PISA.REA.0.B1C.MA} - PISA: Male 15-year-olds by reading proficiency level (%). Below Level 1C}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring students below the lowest proficiency level (1B) on the PISA reading scale. Students with scores below Level 1b (less or equal to 262 points) usually do not succeed at the most basic reading task{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring students below the lowest proficiency level (1C) on the PISA reading scale. Students with scores below Level 1C (less or equal to 189 points) usually do not succeed at the most basic reading task{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18158,7 +18162,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 335 but lower than or equal to 407 on the PISA reading scale. Tasks at Level 1A require the reader to locate one or more independent pieces of explicitly stated information; to recognize t{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 335 but lower than or equal to 407 on the PISA reading scale. Readers at Level 1a can understand the literal meaning of sentences or short passages. Readers at this level can also recogniz{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18170,7 +18174,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 335 but lower than or equal to 407 on the PISA reading scale. Tasks at Level 1A require the reader to locate one or more independent pieces of explicitly stated information; to reco{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 335 but lower than or equal to 407 on the PISA reading scale. Readers at Level 1a can understand the literal meaning of sentences or short passages. Readers at this level can also r{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18182,7 +18186,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 335 but lower than or equal to 407 on the PISA reading scale. Tasks at Level 1A require the reader to locate one or more independent pieces of explicitly stated information; to recogn{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 335 but lower than or equal to 407 on the PISA reading scale. Readers at Level 1a can understand the literal meaning of sentences or short passages. Readers at this level can also rec{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18194,7 +18198,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 262 but lower than or equal to 335 on the PISA reading scale. Tasks at level 1B require the reader to locate a single piece of explicitly stated information in a prominent position in a sh{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 262 but lower than or equal to 335 on the PISA reading scale. Readers at Level 1b can evaluate the literal meaning of simple sentences. They can also interpret the literal meaning of texts{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18206,7 +18210,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 262 but lower than or equal to 335 on the PISA reading scale. Tasks at level 1B require the reader to locate a single piece of explicitly stated information in a prominent position{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 262 but lower than or equal to 335 on the PISA reading scale. Readers at Level 1b can evaluate the literal meaning of simple sentences. They can also interpret the literal meaning o{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18218,7 +18222,43 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 262 but lower than or equal to 335 on the PISA reading scale. Tasks at level 1B require the reader to locate a single piece of explicitly stated information in a prominent position in{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 262 but lower than or equal to 335 on the PISA reading scale. Readers at Level 1b can evaluate the literal meaning of simple sentences. They can also interpret the literal meaning of{p_end}
+
+{synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
+
+
+{synoptline}
+{marker sourceid_LO.PISA.REA.1C}
+{synopt:{bf:{help wbopendata_sourceid##LO.PISA.REA.1C:LO.PISA.REA.1C} - PISA: 15-year-olds by reading proficiency level (%). Level 1C}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 189 but lower than or equal to 262 on the PISA reading scale. Readers at Level 1C can understand and affirm the meaning of short, syntactically simple sentences on a literal level, and rea{p_end}
+
+{synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
+
+
+{synoptline}
+{marker sourceid_LO.PISA.REA.1C.FE}
+{synopt:{bf:{help wbopendata_sourceid##LO.PISA.REA.1C.FE:LO.PISA.REA.1C.FE} - PISA: Female 15-year-olds by reading proficiency level (%). Level 1C}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 189 but lower than or equal to 262 on the PISA reading scale. Readers at Level 1C can understand and affirm the meaning of short, syntactically simple sentences on a literal level,{p_end}
+
+{synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
+
+
+{synoptline}
+{marker sourceid_LO.PISA.REA.1C.MA}
+{synopt:{bf:{help wbopendata_sourceid##LO.PISA.REA.1C.MA:LO.PISA.REA.1C.MA} - PISA: Male 15-year-olds by reading proficiency level (%). Level 1C}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 189 but lower than or equal to 262 on the PISA reading scale. Readers at Level 1C can understand and affirm the meaning of short, syntactically simple sentences on a literal level, an{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18230,7 +18270,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 407 but lower than or equal to 480 on the PISA reading scale. Some tasks at level 2 require the reader to locate one or more pieces of information, which may need to be inferred and may ne{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 407 but lower than or equal to 480 on the PISA reading scale. Readers at Level 2 can identify the main idea in a piece of text of moderate length. They can understand relationships or cons{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18242,7 +18282,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 407 but lower than or equal to 480 on the PISA reading scale. Some tasks at level 2 require the reader to locate one or more pieces of information, which may need to be inferred and{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 407 but lower than or equal to 480 on the PISA reading scale. Readers at Level 2 can identify the main idea in a piece of text of moderate length. They can understand relationships{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18254,7 +18294,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 407 but lower than or equal to 480 on the PISA reading scale. Some tasks at level 2 require the reader to locate one or more pieces of information, which may need to be inferred and m{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 407 but lower than or equal to 480 on the PISA reading scale. Readers at Level 2 can identify the main idea in a piece of text of moderate length. They can understand relationships or{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18266,7 +18306,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 480 but lower than or equal to 553 on the PISA reading scale. Tasks at level 3 require the reader to locate, and in some cases recognize the relationship between, several pieces of informa{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 480 but lower than or equal to 553 on the PISA reading scale. Readers at Level 3 can represent the literal meaning of single or multiple texts in the absence of explicit content or organiz{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18278,7 +18318,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 480 but lower than or equal to 553 on the PISA reading scale. Tasks at level 3 require the reader to locate, and in some cases recognize the relationship between, several pieces of{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 480 but lower than or equal to 553 on the PISA reading scale. Readers at Level 3 can represent the literal meaning of single or multiple texts in the absence of explicit content or{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18290,7 +18330,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 480 but lower than or equal to 553 on the PISA reading scale. Tasks at level 3 require the reader to locate, and in some cases recognize the relationship between, several pieces of in{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 480 but lower than or equal to 553 on the PISA reading scale. Readers at Level 3 can represent the literal meaning of single or multiple texts in the absence of explicit content or or{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18302,7 +18342,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 553 but lower than or equal to 626 on the PISA reading scale. Tasks at Level 4 involve retrieving information require the reader to locate and organize several pieces of embedded informati{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 553 but lower than or equal to 626 on the PISA reading scale. At Level 4, readers can comprehend extended passages in single or multiple-text settings. They interpret the meaning of nuance{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18314,7 +18354,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 553 but lower than or equal to 626 on the PISA reading scale. Tasks at Level 4 involve retrieving information require the reader to locate and organize several pieces of embedded in{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 553 but lower than or equal to 626 on the PISA reading scale. At Level 4, readers can comprehend extended passages in single or multiple-text settings. They interpret the meaning of{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18326,7 +18366,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 553 but lower than or equal to 626 on the PISA reading scale. Tasks at Level 4 involve retrieving information require the reader to locate and organize several pieces of embedded info{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 553 but lower than or equal to 626 on the PISA reading scale. At Level 4, readers can comprehend extended passages in single or multiple-text settings. They interpret the meaning of n{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18338,7 +18378,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 626 but lower than or equal to 698 on the PISA reading scale. Tasks at level 5 involve retrieving information require the reader to locate and organize several pieces of deeply embedded in{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 626 but lower than or equal to 698 on the PISA reading scale. Readers at Level 5 can comprehend lengthy texts, inferring which information in the text is relevant even though the informati{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18350,7 +18390,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 626 but lower than or equal to 698 on the PISA reading scale. Tasks at level 5 involve retrieving information require the reader to locate and organize several pieces of deeply embe{p_end}
+{synopt:{opt Source Notes}}Percentage of female 15-year-old students scoring higher than 626 but lower than or equal to 698 on the PISA reading scale. Readers at Level 5 can comprehend lengthy texts, inferring which information in the text is relevant even though the in{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18362,7 +18402,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 626 but lower than or equal to 698 on the PISA reading scale. Tasks at level 5 involve retrieving information require the reader to locate and organize several pieces of deeply embedd{p_end}
+{synopt:{opt Source Notes}}Percentage of male 15-year-old students scoring higher than 626 but lower than or equal to 698 on the PISA reading scale. Readers at Level 5 can comprehend lengthy texts, inferring which information in the text is relevant even though the info{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18374,7 +18414,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 698 on the PISA reading scale. Tasks at Level 6 level typically require the reader to make multiple inferences, comparisons and contrasts that are both detailed and precise. They require d{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 698 on the PISA reading scale. Readers at Level 6 can comprehend lengthy and abstract texts in which the information of interest is deeply embedded and only indirectly related to the task.{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18386,7 +18426,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 698 on the PISA reading scale. Tasks at Level 6 level typically require the reader to make multiple inferences, comparisons and contrasts that are both detailed and precise. They re{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 698 on the PISA reading scale. Readers at Level 6 can comprehend lengthy and abstract texts in which the information of interest is deeply embedded and only indirectly related to th{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18398,7 +18438,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 698 on the PISA reading scale. Tasks at Level 6 level typically require the reader to make multiple inferences, comparisons and contrasts that are both detailed and precise. They requ{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 698 on the PISA reading scale. Readers at Level 6 can comprehend lengthy and abstract texts in which the information of interest is deeply embedded and only indirectly related to the{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18533,7 +18573,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring below the lowest proficiency level (less than or equal to 335) on the PISA science scale. Students who score below Level 1 usually do not succeed at the most basic levels of science that PISA measures{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring below the lowest proficiency level (less than or equal to 261) on the PISA science scale. No item in the PISA assessment can indicate what students who perform below Level 1b can do. Students below Le{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18545,7 +18585,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring below the lowest proficiency level (less than or equal to 335) on the PISA science scale. Students who score below Level 1 usually do not succeed at the most basic levels of science that PISA m{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring below the lowest proficiency level (less than or equal to 261) on the PISA science scale. No item in the PISA assessment can indicate what students who perform below Level 1b can do. Students b{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18557,7 +18597,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring below the lowest proficiency level (less than or equal to 335) on the PISA science scale. Students who score below Level 1 usually do not succeed at the most basic levels of science that PISA mea{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring below the lowest proficiency level (less than or equal to 261) on the PISA science scale. No item in the PISA assessment can indicate what students who perform below Level 1b can do. Students bel{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18569,9 +18609,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 335 but less than or equal to 410 on the PISA science scale. At Level 1A, students are able to use basic or everyday content and procedural knowledge to recognise or identify explanations{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
 
 {synoptline}
@@ -18581,9 +18621,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 335 but less than or equal to 410 on the PISA science scale. At Level 1A, students are able to use basic or everyday content and procedural knowledge to recognise or identify explan{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
 
 {synoptline}
@@ -18593,9 +18633,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 335 but less than or equal to 410 on the PISA science scale. At Level 1A, students are able to use basic or everyday content and procedural knowledge to recognise or identify explanat{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
 
 {synoptline}
@@ -18605,9 +18645,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 261 but less than or equal to 335 on the PISA science scale. At Level 1B, students can use basic or everyday scientific knowledge to recognise aspects of familiar or simple phenomenon. The{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
 
 {synoptline}
@@ -18617,9 +18657,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 261 but less than or equal to 335 on the PISA science scale. At Level 1B, students can use basic or everyday scientific knowledge to recognise aspects of familiar or simple phenomen{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
 
 {synoptline}
@@ -18629,9 +18669,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 261 but less than or equal to 335 on the PISA science scale. At Level 1B, students can use basic or everyday scientific knowledge to recognise aspects of familiar or simple phenomenon{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
 
 {synoptline}
@@ -18641,7 +18681,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 409 but less than or equal to 484 on the PISA science scale. At Level 2, students have adequate scientific knowledge to provide possible explanations in familiar contexts or draw conclusio{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 410 but less than or equal to 484 on the PISA science scale. At Level 2, students are able to draw on everyday content knowledge and basic procedural knowledge to identify an appropriate s{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18653,7 +18693,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 409 but less than or equal to 484 on the PISA science scale. At Level 2, students have adequate scientific knowledge to provide possible explanations in familiar contexts or draw co{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 410 but less than or equal to 484 on the PISA science scale. At Level 2, students are able to draw on everyday content knowledge and basic procedural knowledge to identify an approp{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18665,7 +18705,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 409 but less than or equal to 484 on the PISA science scale. At Level 2, students have adequate scientific knowledge to provide possible explanations in familiar contexts or draw conc{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 410 but less than or equal to 484 on the PISA science scale. At Level 2, students are able to draw on everyday content knowledge and basic procedural knowledge to identify an appropri{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18677,7 +18717,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 484 but less than or equal to 559 on the PISA science scale. At Level 3, students can identify clearly described scientific issues in a range of contexts. They can select facts and knowled{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 484 but less than or equal to 559 on the PISA science scale. At Level 3, students can draw upon moderately complex content knowledge to identify or construct explanations of familiar pheno{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18689,7 +18729,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 484 but less than or equal to 559 on the PISA science scale. At Level 3, students can identify clearly described scientific issues in a range of contexts. They can select facts and{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 484 but less than or equal to 559 on the PISA science scale. At Level 3, students can draw upon moderately complex content knowledge to identify or construct explanations of familia{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18701,7 +18741,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 484 but less than or equal to 559 on the PISA science scale. At Level 3, students can identify clearly described scientific issues in a range of contexts. They can select facts and kn{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 484 but less than or equal to 559 on the PISA science scale. At Level 3, students can draw upon moderately complex content knowledge to identify or construct explanations of familiar{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18713,7 +18753,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 559 but less than or equal to 633 on the PISA science scale. At Level 4, students can work effectively with situations and issues that may involve explicit phenomena requiring them to make{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 559 but less than or equal to 633 on the PISA science scale. At Level 4, students can use more complex or more abstract content knowledge, which is either provided or recalled, to construc{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18725,7 +18765,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 559 but less than or equal to 633 on the PISA science scale. At Level 4, students can work effectively with situations and issues that may involve explicit phenomena requiring them{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 559 but less than or equal to 633 on the PISA science scale. At Level 4, students can use more complex or more abstract content knowledge, which is either provided or recalled, to c{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18737,7 +18777,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 559 but less than or equal to 633 on the PISA science scale. At Level 4, students can work effectively with situations and issues that may involve explicit phenomena requiring them to{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 559 but less than or equal to 633 on the PISA science scale. At Level 4, students can use more complex or more abstract content knowledge, which is either provided or recalled, to con{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18749,7 +18789,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 633 but less than or equal to 708 on the PISA science scale. At Level 5, students can identify the scientific components of many complex life situations, apply both scientific concepts and{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 633 but less than or equal to 708 on the PISA science scale. At Level 5, students can use abstract scientific ideas or concepts to explain unfamiliar and more complex phenomena, events and{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18761,7 +18801,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 633 but less than or equal to 708 on the PISA science scale. At Level 5, students can identify the scientific components of many complex life situations, apply both scientific conce{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 633 but less than or equal to 708 on the PISA science scale. At Level 5, students can use abstract scientific ideas or concepts to explain unfamiliar and more complex phenomena, eve{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18773,7 +18813,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 633 but less than or equal to 708 on the PISA science scale. At Level 5, students can identify the scientific components of many complex life situations, apply both scientific concept{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 633 but less than or equal to 708 on the PISA science scale. At Level 5, students can use abstract scientific ideas or concepts to explain unfamiliar and more complex phenomena, event{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18785,7 +18825,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 708 on the PISA science scale. At Level 6, students can consistently identify, explain and apply scientific knowledge and knowledge about science in a variety of complex life situations. T{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring higher than 708 on the PISA science scale. At Level 6, students can draw on a range of interrelated scientific ideas and concepts from the physical, life and earth and space sciences and use content,{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18797,7 +18837,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 708 on the PISA science scale. At Level 6, students can consistently identify, explain and apply scientific knowledge and knowledge about science in a variety of complex life situat{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students scoring higher than 708 on the PISA science scale. At Level 6, students can draw on a range of interrelated scientific ideas and concepts from the physical, life and earth and space sciences and use co{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -18809,7 +18849,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 708 on the PISA science scale. At Level 6, students can consistently identify, explain and apply scientific knowledge and knowledge about science in a variety of complex life situatio{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 708 on the PISA science scale. At Level 6, students can draw on a range of interrelated scientific ideas and concepts from the physical, life and earth and space sciences and use cont{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA){p_end}
 
@@ -19636,7 +19676,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students who did not reach the low international benchmark of mathematics achievement (%) is the share of 4th grade students scoring below 400 on the mathematics assessment. This indicator is calculated by subtracting the s{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students who did not reach the low international benchmark of mathematics achievement (%) is the share of 4th grade students scoring below 400 on the mathematics assessment. The indicator is the percentage of students with{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -19723,7 +19763,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the intermediate international benchmark of mathematics achievement (%) is the share of 4th grade students scoring at least 475 on the mathematics assessment. Students at this benchmark can apply basic mat{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the intermediate international benchmark of mathematics achievement (%) is the share of 4th grade students scoring at least 475 on the mathematics assessment. Students can apply basic mathematical knowledg{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -19760,7 +19800,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the low international benchmark of mathematics achievement (%) is the share of 4th grade students scoring at least 400 on the mathematics assessment. Students at this benchmark have some basic mathematical{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the low international benchmark of mathematics achievement (%) is the share of 4th grade students scoring at least 400 on the mathematics assessment. Students have some basic mathematical knowledge. They c{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -19907,7 +19947,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the advanced international benchmark of mathematics achievement (%) is the share of 8th grade students scoring at least 625 on the mathematics assessment. Students at this benchmark can reason with informa{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the advanced international benchmark of mathematics achievement (%) is the share of 8th grade students scoring at least 625 on the mathematics assessment. Students at this benchmark can apply and reason in{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -19944,7 +19984,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students who did not reach the low international benchmark of mathematics achievement (%) is the share of 8th grade students scoring below 400 on the mathematics assessment. This indicator is calculated by subtracting the s{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students who did not reach the low international benchmark of mathematics achievement (%) is the share of 8th grade students scoring below 400 on the mathematics assessment. It is the percentage of students with achievement{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -20215,7 +20255,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the advanced international benchmark of science achievement (%) is the share of 4th grade students scoring at least 625 on the science assessment. Students reaching this benchmark can apply knowledge and u{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the advanced international benchmark of science achievement (%) is the share of 4th grade students scoring at least 625 on the science assessment. Students communicate understanding of life, physical, and{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -20252,7 +20292,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students who did not reach the low international benchmark of science achievement (%) is the share of 4th grade students scoring below 400 on the science assessment. This indicator is calculated by subtracting the share of{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students who did not reach the low international benchmark of science achievement (%) is the share of 4th grade students scoring below 400 on the science assessment. The indicator is the percentage of students with achievem{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -20302,7 +20342,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the high international benchmark of science achievement (%) is the share of 4th grade students scoring at least 550 on the science assessment. Students reaching this benchmark can apply their knowledge and{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the high international benchmark of science achievement (%) is the share of 4th grade students scoring at least 550 on the science assessment. Students reaching this benchmark can communicate and apply kno{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -20339,7 +20379,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the intermediate international benchmark of science achievement (%) is the share of 4th grade students scoring at least 475 on the science assessment. Students reaching this benchmark have basic knowledge{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the intermediate international benchmark of science achievement (%) is the share of 4th grade students scoring at least 475 on the science assessment. Students reaching this benchmark show basic knowledge{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -20376,7 +20416,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the low international benchmark of science achievement (%) is the share of 4th grade students scoring at least 400 on the science assessment. Students reaching this benchmark show some elementary knowledge{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the low international benchmark of science achievement (%) is the share of 4th grade students scoring at least 400 on the science assessment. Students reaching this benchmark show basic knowledge of life a{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -20523,7 +20563,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the advanced international benchmark of science achievement (%) is the share of 8th grade students scoring at least 625 on the science assessment. Students at this benchmark can communicate an understandin{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the advanced international benchmark of science achievement (%) is the share of 8th grade students scoring at least 625 on the science assessment. Students at this benchmark can communicate understanding o{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -20560,7 +20600,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students who did not reach the low international benchmark of science achievement (%) is the share of 8th grade students scoring below 400 on the science assessment. This indicator is calculated by subtracting the share of{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students who did not reach the low international benchmark of science achievement (%) is the share of 8th grade students scoring below 400 on the science assessment. It is the percentage of students with achievement too low{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -20610,7 +20650,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the high international benchmark of science achievement (%) is the share of 8th grade students scoring at least 550 on the science assessment. Students at this benchmark can demonstrate understanding of co{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the high international benchmark of science achievement (%) is the share of 8th grade students scoring at least 550 on the science assessment. Students at this benchmark can apply and communicate understan{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -20647,7 +20687,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the intermediate international benchmark of science achievement (%) is the share of 8th grade students scoring at least 475 on the science assessment. Students at this benchmark can recognize and apply the{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the intermediate international benchmark of science achievement (%) is the share of 8th grade students scoring at least 475 on the science assessment. Students at this benchmark can demonstrate and apply t{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -20684,7 +20724,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the low international benchmark of science achievement (%) is the share of 8th grade students scoring at least 400 on the science assessment. Students at this benchmark can recognize some basic facts from{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the low international benchmark of science achievement (%) is the share of 8th grade students scoring at least 400 on the science assessment. Students at this benchmark show some basic knowledge of biology{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -24705,9 +24745,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24717,9 +24757,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24729,9 +24769,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24741,9 +24781,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24753,9 +24793,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24765,9 +24805,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24777,9 +24817,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24789,9 +24829,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24801,9 +24841,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24813,9 +24853,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24825,9 +24865,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24837,9 +24877,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24849,9 +24889,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24861,9 +24901,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24873,9 +24913,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24885,9 +24925,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24897,9 +24937,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24909,9 +24949,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24921,9 +24961,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24933,9 +24973,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24945,9 +24985,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24957,9 +24997,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24969,9 +25009,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24981,9 +25021,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -24993,9 +25033,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25005,9 +25045,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25017,9 +25057,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25029,9 +25069,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25041,9 +25081,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25053,9 +25093,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25065,9 +25105,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25077,9 +25117,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25089,9 +25129,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25101,9 +25141,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25113,9 +25153,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25489,9 +25529,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25501,9 +25541,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25513,9 +25553,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25525,9 +25565,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25537,9 +25577,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25549,9 +25589,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25561,9 +25601,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25573,9 +25613,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25585,9 +25625,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25597,9 +25637,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25609,9 +25649,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25621,9 +25661,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25633,9 +25673,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25645,9 +25685,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25657,9 +25697,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25669,9 +25709,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25681,9 +25721,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25693,9 +25733,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25705,9 +25745,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25717,9 +25757,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25729,9 +25769,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25741,9 +25781,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25753,9 +25793,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25765,9 +25805,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25777,9 +25817,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25789,9 +25829,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25801,9 +25841,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25813,9 +25853,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25825,9 +25865,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25837,9 +25877,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25849,9 +25889,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25861,9 +25901,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25873,9 +25913,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25885,9 +25925,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25897,9 +25937,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25909,9 +25949,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25921,9 +25961,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25933,9 +25973,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25945,9 +25985,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25957,9 +25997,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25969,9 +26009,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25981,9 +26021,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -25993,9 +26033,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26005,9 +26045,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26017,9 +26057,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26029,9 +26069,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26041,9 +26081,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26053,9 +26093,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26065,9 +26105,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26077,9 +26117,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26089,9 +26129,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26101,9 +26141,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26113,9 +26153,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26125,9 +26165,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26137,9 +26177,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26149,9 +26189,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26161,9 +26201,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26173,9 +26213,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26185,9 +26225,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26197,21 +26237,21 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_SABER.SCH.ATNM.GOAL5.LVL5}
-{synopt:{bf:{help wbopendata_sourceid##SABER.SCH.ATNM.GOAL5.LVL5:SABER.SCH.ATNM.GOAL5.LVL5} - SABER: (School Autonomy Accountability) Policy Goal 5 Lever 5): Degree of learning accountability}}
+{synopt:{bf:{help wbopendata_sourceid##SABER.SCH.ATNM.GOAL5.LVL5:SABER.SCH.ATNM.GOAL5.LVL5} - SABER: (School Autonomy Accountability) Policy Goal 5 Lever 5: Degree of learning accountability}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26221,9 +26261,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26233,9 +26273,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26245,9 +26285,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26257,9 +26297,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26269,9 +26309,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26281,9 +26321,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26293,9 +26333,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26305,9 +26345,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26317,9 +26357,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26329,9 +26369,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26341,9 +26381,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26353,9 +26393,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26365,9 +26405,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26377,9 +26417,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26389,9 +26429,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26401,9 +26441,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26413,9 +26453,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26425,9 +26465,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26437,9 +26477,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26449,9 +26489,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26461,9 +26501,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26473,9 +26513,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26485,9 +26525,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26497,9 +26537,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26509,9 +26549,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26521,9 +26561,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26533,9 +26573,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26545,9 +26585,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26557,9 +26597,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26569,9 +26609,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26581,9 +26621,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26593,9 +26633,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26605,9 +26645,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26617,9 +26657,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26629,9 +26669,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26641,9 +26681,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26653,9 +26693,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26665,9 +26705,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26677,9 +26717,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26689,9 +26729,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26701,9 +26741,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26713,9 +26753,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26725,9 +26765,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26737,9 +26777,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26749,9 +26789,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26761,9 +26801,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26773,9 +26813,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26785,9 +26825,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26797,9 +26837,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26809,9 +26849,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26821,9 +26861,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26833,9 +26873,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26845,9 +26885,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26857,9 +26897,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26869,9 +26909,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26881,9 +26921,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26893,9 +26933,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26905,9 +26945,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26917,9 +26957,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26929,9 +26969,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26941,9 +26981,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -26953,9 +26993,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -27198,9 +27238,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -27210,9 +27250,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -27222,9 +27262,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -27234,9 +27274,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -27246,9 +27286,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -27258,9 +27298,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -27270,9 +27310,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -27282,9 +27322,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -27294,9 +27334,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -27306,9 +27346,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -27318,9 +27358,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -27330,9 +27370,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}Data Interpretation: 1=Latent; 2=Emerging; 3=Established; 4=Advanced. For additional information, visit the SABER: (website: {browse "http://saber.worldbank.org/index.cfm"}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -27342,7 +27382,19 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}This indicator brings together schooling and learning. It starts with the share of  children who haven't achieved minimum reading proficiency and adjusts it by the proportion of children who are out of school. The data used to calculate Learn{p_end}
+{synopt:{opt Source Notes}}This indicator brings together schooling and learning. It starts with the share of children who haven't achieved minimum reading proficiency and adjusts it by the proportion of children who are out of school.{p_end}
+
+{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM.BMP}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM.BMP:SE.LPV.PRIM.BMP} - Pupils below minimum reading proficiency at end of primary (%). Low GAML threshold}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}This indicator uses on Minimum Proficiency Levels (MPLs) defined by the Global Alliance to Monitor Learning led by the UNESCO Institute for Statistics (UIS) in the context of the SDG 4.1.1 monitoring, which established learning benchmarks acro{p_end}
 
 {synopt:{opt Source Organization}}Word Bank and UIS{p_end}
 
@@ -27353,6 +27405,7 @@
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}This indicator uses on Minimum Proficiency Levels (MPLs) defined by the Global Alliance to Monitor Learning led by the UNESCO Institute for Statistics (UIS) in the context of the SDG 4.1.1 monitoring, which established learning benchmarks acro{p_end}
 
@@ -27365,6 +27418,7 @@
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}This indicator uses on Minimum Proficiency Levels (MPLs) defined by the Global Alliance to Monitor Learning led by the UNESCO Institute for Statistics (UIS) in the context of the SDG 4.1.1 monitoring, which established learning benchmarks acro{p_end}
 
@@ -27377,8 +27431,9 @@
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
+{synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}This indicator brings together schooling and learning. It starts with the share of  children who haven't achieved minimum reading proficiency and adjusts it by the proportion of children who are out of school. The data used to calculate Learn{p_end}
+{synopt:{opt Source Notes}}This indicator brings together schooling and learning. It starts with the share of children who haven't achieved minimum reading proficiency and adjusts it by the proportion of children who are out of school.{p_end}
 
 {synopt:{opt Source Organization}}Word Bank and UIS{p_end}
 
@@ -27389,8 +27444,9 @@
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
+{synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}This indicator brings together schooling and learning. It starts with the share of  children who haven't achieved minimum reading proficiency and adjusts it by the proportion of children who are out of school. The data used to calculate Learn{p_end}
+{synopt:{opt Source Notes}}This indicator brings together schooling and learning. It starts with the share of children who haven't achieved minimum reading proficiency and adjusts it by the proportion of children who are out of school.{p_end}
 
 {synopt:{opt Source Organization}}Word Bank and UIS{p_end}
 
@@ -27402,7 +27458,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}The Out-of-School adjustment in our Learning Poverty indicator relies on enrollment data. Our preferred definition is the adjusted net primary enrollment as reported by UIS. For more information please see Azevedo, Joao Pedro, and others. 2019{p_end}
+{synopt:{opt Source Notes}}The Out-of-School adjustment in our Learning Poverty indicator relies on enrollment data. Our preferred definition is the adjusted net primary enrollment as reported by UIS.{p_end}
 
 {synopt:{opt Source Organization}}Word Bank and UIS{p_end}
 
@@ -27413,8 +27469,9 @@
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
+{synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}The Out-of-School adjustment in our Learning Poverty indicator relies on enrollment data. Our preferred definition is the adjusted net primary enrollment as reported by UIS. For more information please see Azevedo, Joao Pedro, and others. 2019{p_end}
+{synopt:{opt Source Notes}}The Out-of-School adjustment in our Learning Poverty indicator relies on enrollment data. Our preferred definition is the adjusted net primary enrollment as reported by UIS.{p_end}
 
 {synopt:{opt Source Organization}}Word Bank and UIS{p_end}
 
@@ -27425,8 +27482,9 @@
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
+{synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}The Out-of-School adjustment in our Learning Poverty indicator relies on enrollment data. Our preferred definition is the adjusted net primary enrollment as reported by UIS. For more information please see Azevedo, Joao Pedro, and others. 2019{p_end}
+{synopt:{opt Source Notes}}The Out-of-School adjustment in our Learning Poverty indicator relies on enrollment data. Our preferred definition is the adjusted net primary enrollment as reported by UIS.{p_end}
 
 {synopt:{opt Source Organization}}Word Bank and UIS{p_end}
 
@@ -27439,7 +27497,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Total number of students enrolled in public and private pre-primary education institutions regardless of age.{p_end}
+{synopt:{opt Source Notes}}Total number of students enrolled in public and private pre-primary education institutions (ISCED 0.2) regardless of age. Within ISCED 0, early childhood educational development programmes are targeted at children aged 0 to 2 years; and pre-pr{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -27452,7 +27510,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Total number of female students enrolled in public and private pre-primary education institutions regardless of age.{p_end}
+{synopt:{opt Source Notes}}Total number of female students enrolled in public and private pre-primary education institutions (ISCED 0.2) regardless of age. Within ISCED 0, early childhood educational development programmes are targeted at children aged 0 to 2 years; and{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -27465,7 +27523,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Total number of female students at the pre-primary level expressed as a percentage of the total number of students (male and female) at the pre-primary level in a given school year.{p_end}
+{synopt:{opt Source Notes}}Total number of female students at the pre-primary level (ISCED 0.2) expressed as a percentage of the total number of students (male and female) at the pre-primary level in a given school year. Within ISCED 0, early childhood educational devel{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -27569,9 +27627,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Primary completion rate is the percentage of students completing the last year of primary school. The rate based on completers is calculated by taking the total number of completers in the last grade of primary school divided by the total numb{p_end}
+{synopt:{opt Source Notes}}Number of female graduates from the last grade of primary education, regardless of age, expressed as a percentage of the female population at the theoretical graduation age. The ratio can exceed 100% due to over-aged and under-aged children wh{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -27582,9 +27640,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Primary completion rate is the percentage of students completing the last year of primary school. The rate based on completers is calculated by taking the total number of completers in the last grade of primary school divided by the total numb{p_end}
+{synopt:{opt Source Notes}}Number of male graduates from the last grade of primary education, regardless of age, expressed as a percentage of the male population at the theoretical graduation age. The ratio can exceed 100% due to over-aged and under-aged children who en{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -27595,9 +27653,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Primary completion rate is the percentage of students completing the last year of primary school. The rate based on completers is calculated by taking the total number of completers in the last grade of primary school divided by the total numb{p_end}
+{synopt:{opt Source Notes}}Total number of graduates from the last grade of primary education, regardless of age, expressed as a percentage of the population at the theoretical graduation age. The ratio can exceed 100% due to over-aged and under-aged children who enter{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -27685,9 +27743,9 @@
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Expected years of schooling is the number of years a child of school entrance age is expect to spend at school, or university, including years spent on repetition. It is the sum of the age-specific enrolment ratios for primary, secondary, post{p_end}
+{synopt:{opt Source Notes}}Number of years a person of school entrance age can expect to spend within the specified level of education. For a child of a certain age a, the school life expectancy is calculated as the sum of the age specific enrolment rates for the levels{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -27698,9 +27756,9 @@
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Expected years of schooling is the number of years a child of school entrance age is expect to spend at school, or university, including years spent on repetition. It is the sum of the age-specific enrolment ratios for primary, secondary, post{p_end}
+{synopt:{opt Source Notes}}Number of years a person of school entrance age can expect to spend within the specified level of education. For a child of a certain age a, the school life expectancy is calculated as the sum of the age specific enrolment rates for the levels{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -27893,9 +27951,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of graduates from first degree programmes (at ISCED 6 and 7) expressed as a percentage of the population of the theoretical graduation age of the most common first degree programme.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates from first degree programmes (at ISCED 6 and 7) expressed as a percentage of the female population of the theoretical graduation age of the most common first degree programme.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -27906,9 +27964,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of graduates from first degree programmes (at ISCED 6 and 7) expressed as a percentage of the population of the theoretical graduation age of the most common first degree programme.{p_end}
+{synopt:{opt Source Notes}}Number of male graduates from first degree programmes (at ISCED 6 and 7) expressed as a percentage of the male population of the theoretical graduation age of the most common first degree programme.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -27984,7 +28042,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed agriculture programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed Agriculture, Forestry, Fisheries and Veterinary programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -27997,7 +28055,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Share of all tertiary graduates who completed agriculture programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all tertiary graduates who completed Agriculture, Forestry, Fisheries and Veterinary programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -28075,9 +28133,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in Agriculture, Forestry, Fisheries and Veterinary expressed as a percentage of the total number of tertiary graduates in Agriculture, Forestry, Fisheries and Veterinary.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -28088,9 +28146,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in education expressed as a percentage of the total number of tertiary graduates in education.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -28101,9 +28159,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in engineering, manufacturing and construction expressed as a percentage of the total number of tertiary graduates in engineering, manufacturing and construction.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -28114,9 +28172,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in health and welfare expressed as a percentage of the total number of tertiary graduates in health and welfare.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -28127,9 +28185,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in humanities and arts expressed as a percentage of the total number of tertiary graduates in humanities and arts.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -28140,9 +28198,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in unspecified programmes expressed as a percentage of the total number of graduates in unspecified tertiary programmes.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -28153,9 +28211,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in Natural Sciences, Mathematics and Statistics expressed as a percentage of the total number of tertiary graduates in Natural Sciences, Mathematics and Statistics.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -28166,9 +28224,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in Social Sciences, Journalism and Information expressed as a percentage of the total number of tertiary graduates in Social Sciences, Journalism and Information.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -28179,9 +28237,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+{synopt:{opt Source Notes}}Number of female graduates from services programmes expressed as a percentage of the total number of tertiary graduates from services programmes.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -28283,7 +28341,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed science programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed Natural Sciences, Mathematics and Statistics programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -28296,7 +28354,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Share of all tertiary graduates who completed science programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all tertiary graduates who completed Natural Sciences, Mathematics and Statistics programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -28309,7 +28367,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed social sciences, business and law programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed Social Sciences, Journalism and Information programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -28322,7 +28380,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Share of all tertiary graduates who completed social sciences, business and law programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all tertiary graduates who completed Social Sciences, Journalism and Information programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -30708,7 +30766,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.AG24.TO.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG24.TO.UN:SP.POP.AG24.TO.UN} - Population, age 24, tota}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG24.TO.UN:SP.POP.AG24.TO.UN} - Population, age 24, total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -31176,42 +31234,6 @@
 
 
 {synoptline}
-{marker sourceid_UIS.AFR.FNTP.1}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.FNTP.1:UIS.AFR.FNTP.1} - Africa Dataset: Percentage of newly recruited teachers in primary education who are female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of newly recruited public primary school teachers who are female. Newly recruited teachers are teachers entering the teaching profession for the first time in public schools. Data available for African countries only. For more informatio{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.FNTP.2}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.FNTP.2:UIS.AFR.FNTP.2} - Africa Dataset: Percentage of newly recruited teachers in lower secondary education who are female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of newly recruited public lower secondary school teachers who are female. Newly recruited teachers are teachers entering the teaching profession for the first time in public schools. Data available for African countries only. For more in{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.FNTP.3}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.FNTP.3:UIS.AFR.FNTP.3} - Africa Dataset: Percentage of newly recruited teachers in upper secondary education who are female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of newly recruited public upper secondary school teachers who are female. Newly recruited teachers are teachers entering the teaching profession for the first time in public schools. Data available for African countries only. For more in{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker sourceid_UIS.AFR.GTC.1.F}
 {synopt:{bf:{help wbopendata_sourceid##UIS.AFR.GTC.1.F:UIS.AFR.GTC.1.F} - Africa Dataset: Graduates from accredited pre-service primary teacher training programmes, female (number)}}
 
@@ -31327,222 +31349,6 @@
 
 
 {synopt:{opt Source Notes}}Total number of graduates receiving a government recognised teaching qualification (unspecified level) during the reference year through a pre-service teacher training programme. Pre-service teacher training programmes are recognised and organ{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.GTCTR.1.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.GTCTR.1.F:UIS.AFR.GTCTR.1.F} - Africa Dataset: Ratio of teacher training graduates to teachers in primary education, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of newly graduated females from public and private teacher training programmes for primary education, expressed as a percentage of female teachers in service in public and private primary education (including new female graduates from t{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.GTCTR.1.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.GTCTR.1.M:UIS.AFR.GTCTR.1.M} - Africa Dataset: Ratio of teacher training graduates to teachers in primary education, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of newly graduated males from public and private teacher training programmes for primary education, expressed as a percentage of male teachers in service in public and private primary education (including new male graduates from teacher{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.GTCTR.1.T}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.GTCTR.1.T:UIS.AFR.GTCTR.1.T} - Africa Dataset: Ratio of teacher training graduates to teachers in primary education, both sexes}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of new graduates from public and private teacher training programmes for primary education, expressed as a percentage of teachers in service in public and private primary education (including new graduates from teachers training program{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.GTCTR.2.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.GTCTR.2.F:UIS.AFR.GTCTR.2.F} - Africa Dataset: Ratio of teacher training graduates to teachers in lower secondary education, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of newly graduated females from public and private teacher training programmes for lower secondary education, expressed as a percentage of female teachers in service in public and private lower secondary education (including new graduat{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.GTCTR.2.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.GTCTR.2.M:UIS.AFR.GTCTR.2.M} - Africa Dataset: Ratio of teacher training graduates to teachers in lower secondary education, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of newly graduated males from public and private teacher training programmes for lower secondary education, expressed as a percentage of male teachers in service in public and private lower secondary education (including new graduates f{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.GTCTR.2.T}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.GTCTR.2.T:UIS.AFR.GTCTR.2.T} - Africa Dataset: Ratio of teacher training graduates to teachers in lower secondary education, both sexes}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of new graduates from public and private teacher training programmes for lower secondary education, expressed as a percentage of teachers in service in public and private lower secondary education (including new graduates from teachers{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.GTCTR.3.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.GTCTR.3.F:UIS.AFR.GTCTR.3.F} - Africa Dataset: Ratio of teacher training graduates to teachers in upper secondary education, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of newly graduated females from public and private teacher training programmes for upper secondary education, expressed as a percentage of female teachers in service in public and private upper secondary education (including new graduat{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.GTCTR.3.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.GTCTR.3.M:UIS.AFR.GTCTR.3.M} - Africa Dataset: Ratio of teacher training graduates to teachers in upper secondary education, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of newly graduated males from public and private teacher training programmes for upper secondary education, expressed as a percentage of male teachers in service in public and private upper secondary education (including new graduates f{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.GTCTR.3.T}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.GTCTR.3.T:UIS.AFR.GTCTR.3.T} - Africa Dataset: Ratio of teacher training graduates to teachers in upper secondary education, both sexes}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of new graduates from public and private teacher training programmes for upper secondary education, expressed as a percentage of teachers in service in public and private upper secondary education (including new graduates from teachers{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.NTP.1.PU.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.NTP.1.PU.F:UIS.AFR.NTP.1.PU.F} - Africa Dataset: Percentage of female teachers in primary education who are newly recruited, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of newly recruited female teachers in public primary education, expressed as a percentage of female teachers in service in public primary education. Data available for African countries only. For more information, consult the UNESCO Ins{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.NTP.1.PU.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.NTP.1.PU.M:UIS.AFR.NTP.1.PU.M} - Africa Dataset: Percentage of male teachers in primary education who are newly recruited, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of newly recruited male teachers in public primary education, expressed as a percentage of male teachers in service in public primary education. Data available for African countries only. For more information, consult the UNESCO Institu{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.NTP.1.PU.T}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.NTP.1.PU.T:UIS.AFR.NTP.1.PU.T} - Africa Dataset: Percentage of teachers in primary education who are newly recruited, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of newly recruited teachers in public primary education, expressed as a percentage of teachers in service in public primary education. Data available for African countries only. For more information, consult the UNESCO Institute for Sta{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.NTP.2.PU.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.NTP.2.PU.F:UIS.AFR.NTP.2.PU.F} - Africa Dataset: Percentage of female teachers in lower secondary education who are newly recruited, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of newly recruited female teachers in public lower secondary education expressed as a percentage of female teachers in service in public lower secondary education. Data available for African countries only. For more information, consult{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.NTP.2.PU.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.NTP.2.PU.M:UIS.AFR.NTP.2.PU.M} - Africa Dataset: Percentage of male teachers in lower secondary education who are newly recruited, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of newly recruited male teachers in public lower secondary education expressed as a percentage of male teachers in service in public lower secondary education. Data available for African countries only. For more information, consult the{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.NTP.2.PU.T}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.NTP.2.PU.T:UIS.AFR.NTP.2.PU.T} - Africa Dataset: Percentage of teachers in lower secondary education who are newly recruited, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of newly recruited teachers in public lower secondary education expressed as a percentage of teachers in service in public lower secondary education. Data available for African countries only. For more information, consult the UNESCO In{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.NTP.3.PU.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.NTP.3.PU.F:UIS.AFR.NTP.3.PU.F} - Africa Dataset: Percentage of female teachers in upper secondary education who are newly recruited, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of newly recruited female teachers in public upper secondary education, expressed as a percentage of female teachers in service in public upper secondary education. Data available for African countries only. For more information, consul{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.NTP.3.PU.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.NTP.3.PU.M:UIS.AFR.NTP.3.PU.M} - Africa Dataset: Percentage of male teachers in upper secondary education who are newly recruited, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of newly recruited male teachers in public upper secondary education, expressed as a percentage of male teachers in service in public upper secondary education. Data available for African countries only. For more information, consult th{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.NTP.3.PU.T}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.NTP.3.PU.T:UIS.AFR.NTP.3.PU.T} - Africa Dataset: Percentage of teachers in upper secondary education who are newly recruited, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Number of newly recruited teachers in public upper secondary education, expressed as a percentage of teachers in service in public upper secondary education. Data available for African countries only. For more information, consult the UNESCO I{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -31752,18 +31558,6 @@
 
 
 {synoptline}
-{marker sourceid_UIS.AFR.SCHBSP.1.PU.WELEC}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.SCHBSP.1.PU.WELEC:UIS.AFR.SCHBSP.1.PU.WELEC} - Africa Dataset: Proportion of public primary schools with access to electricity (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of public primary schools with access to permanent sources of electrical power (i.e. grid/mains connection, wind, water, solar, permanently fuel-powered generator, etc.). Data available for African countries only. For more information, c{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker sourceid_UIS.AFR.SCHBSP.2.PU.MIXTOIL}
 {synopt:{bf:{help wbopendata_sourceid##UIS.AFR.SCHBSP.2.PU.MIXTOIL:UIS.AFR.SCHBSP.2.PU.MIXTOIL} - Africa Dataset: Percentage of lower secondary schools with mixed-sex toilets (%)}}
 
@@ -31771,18 +31565,6 @@
 
 
 {synopt:{opt Source Notes}}Share of public lower secondary schools without separate girls and boys toilets. Data available for African countries only. For more information, consult the UNESCO Institute for Statistics' Regional Data Collections page.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.SCHBSP.2.PU.WELEC}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.SCHBSP.2.PU.WELEC:UIS.AFR.SCHBSP.2.PU.WELEC} - Africa Dataset: Proportion of public lower secondary schools with access to electricity (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of public lower secondary schools with access to permanent sources of electrical power (i.e. grid/mains connection, wind, water, solar, permanently fuel-powered generator, etc.). Data available for African countries only. For more inform{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -31809,114 +31591,6 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Share of all lower secondary school questionnaires that were returned with at least some usable data and captured in the EMIS system. Data available for African countries only. For more information, consult the UNESCO Institute for Statistics'{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.TRNTP.1.PU.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.TRNTP.1.PU.F:UIS.AFR.TRNTP.1.PU.F} - Africa Dataset: Percentage of female newly recruited teachers in primary education who are trained, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of newly recruited female public primary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required for teachi{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.TRNTP.1.PU.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.TRNTP.1.PU.M:UIS.AFR.TRNTP.1.PU.M} - Africa Dataset: Percentage of male newly recruited teachers in primary education who are trained, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of newly recruited male public primary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required for teaching{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.TRNTP.1.PU.T}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.TRNTP.1.PU.T:UIS.AFR.TRNTP.1.PU.T} - Africa Dataset: Percentage of newly recruited teachers in primary education who are trained, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of newly recruited public primary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required for teaching at t{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.TRNTP.2.PU.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.TRNTP.2.PU.F:UIS.AFR.TRNTP.2.PU.F} - Africa Dataset: Percentage of female newly recruited teachers in lower secondary education who are trained, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of newly recruited female public lower secondary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required fo{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.TRNTP.2.PU.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.TRNTP.2.PU.M:UIS.AFR.TRNTP.2.PU.M} - Africa Dataset: Percentage of male newly recruited teachers in lower secondary education who are trained, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of newly recruited male public lower secondary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required for{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.TRNTP.2.PU.T}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.TRNTP.2.PU.T:UIS.AFR.TRNTP.2.PU.T} - Africa Dataset: Percentage of newly recruited teachers in lower secondary education who are trained, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of newly recruited public lower secondary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required for teach{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.TRNTP.3.PU.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.TRNTP.3.PU.F:UIS.AFR.TRNTP.3.PU.F} - Africa Dataset: Percentage of female newly recruited teachers in upper secondary education who are trained, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of newly recruited female public upper secondary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required fo{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.TRNTP.3.PU.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.TRNTP.3.PU.M:UIS.AFR.TRNTP.3.PU.M} - Africa Dataset: Percentage of male newly recruited teachers in upper secondary education who are trained, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of newly recruited male public upper secondary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required for{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.AFR.TRNTP.3.PU.T}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.TRNTP.3.PU.T:UIS.AFR.TRNTP.3.PU.T} - Africa Dataset: Percentage of newly recruited teachers in upper secondary education who are trained, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of newly recruited public upper secondary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required for teach{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -32480,9 +32154,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of female students enrolled in public and private early childhood education institutions (ISCED 0) regardless of age. Within ISCED 0, early childhood educational development programmes are targeted at children aged 0 to 2 years; a{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -32492,7 +32166,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Total number of females enrolled in private pre-primary education institutions regardless of age. A private education institution is an institution that is controlled and managed by a non-governmental organization (e.g. a church, a trade union{p_end}
+{synopt:{opt Source Notes}}Total number of females enrolled in private early childhood education institutions (ISCED 0) regardless of age. A private education institution is an institution that is controlled and managed by a non-governmental organization (e.g. a church,{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -32504,9 +32178,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of individuals enrolled in private early childhood education institutions (ISCED 0) regardless of age. A private education institution is an institution that is controlled and managed by a non-governmental organization (e.g. a chu{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -32516,9 +32190,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of individuals enrolled in public early childhood education institutions (ISCED 0) regardless of age. Public education institutions are controlled and managed directly by a public education authority or agency of the country where{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -32529,7 +32203,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Total number of females enrolled in public pre-primary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is located or{p_end}
+{synopt:{opt Source Notes}}Total number of females enrolled in public early childhood education institutions (ISCED 0) regardless of age. Public education institutions are controlled and managed directly by a public education authority or agency of the country where it{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -32541,9 +32215,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of students enrolled in public and private early childhood education institutions (ISCED 0) regardless of age. Within ISCED 0, early childhood educational development programmes are targeted at children aged 0 to 2 years; and pre-{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -32553,9 +32227,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of females enrolled in early childhood educational development institutions (ISCED 0.1) regardless of age. Within ISCED 0, early childhood educational development programmes are targeted at children aged 0 to 2 years; and pre-prim{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -32565,9 +32239,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of females enrolled in private early childhood educational development institutions (ISCED 0.1) regardless of age. A private education institution is an institution that is controlled and managed by a non-governmental organization{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -32577,9 +32251,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of individuals enrolled in private early childhood educational development institutions (ISCED 0.1) regardless of age. A private education institution is an institution that is controlled and managed by a non-governmental organiza{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -32589,9 +32263,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of females enrolled in public early childhood educational development institutions (ISCED 0.1) regardless of age. Public education institutions are controlled and managed directly by a public education authority or agency of the c{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -32601,9 +32275,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of individuals enrolled in public early childhood educational development institutions (ISCED 0.1) regardless of age. Public education institutions are controlled and managed directly by a public education authority or agency of t{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -32613,9 +32287,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of children enrolled in early childhood educational development institutions (ISCED 0.1) regardless of age. Within ISCED 0, early childhood educational development programmes are targeted at children aged 0 to 2 years; and pre-pri{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -32625,9 +32299,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of individuals enrolled in private pre-primary education institutions (ISCED 0.2) regardless of age. A private education institution is an institution that is controlled and managed by a non-governmental organization (e.g. a churc{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -32637,9 +32311,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of females enrolled in private pre-primary education institutions (ISCED 0.2) regardless of age. A private education institution is an institution that is controlled and managed by a non-governmental organization (e.g. a church, a{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -32649,9 +32323,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of individuals enrolled in public pre-primary education institutions (ISCED 0.2) regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where i{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -32661,9 +32335,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of females enrolled in public pre-primary education institutions (ISCED 0.2) regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -33114,9 +32788,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of female students enrolled in Grade 6 of lower secondary general education. General education is designed to develop learners’ general knowledge, skills and competencies and literacy and numeracy skills, often to prepare studen{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -33126,9 +32800,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of students enrolled in Grade 6 of lower secondary general education. General education is designed to develop learners’ general knowledge, skills and competencies and literacy and numeracy skills, often to prepare students for{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -33343,9 +33017,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of male students enrolled in public and private upper secondary education institutions regardless of age. For more information, consult the UIS website: {browse "http://www.uis.unesco.org/Education/"}{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -33501,12 +33175,11 @@
 
 
 {synoptline}
-{marker sourceid_UIS.E.5.B}
-{synopt:{bf:{help wbopendata_sourceid##UIS.E.5.B:UIS.E.5.B} - Enrolment in tertiary education, ISCED 5 programmes, both sexes (number)}}
+{marker sourceid_UIS.E.5}
+{synopt:{bf:{help wbopendata_sourceid##UIS.E.5:UIS.E.5} - Enrolment in tertiary education, ISCED 5 programmes, both sexes (number)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Total number of students enrolled in public and private short-cycle tertiary education programmes (ISCED 5).{p_end}
 
@@ -33514,12 +33187,11 @@
 
 
 {synoptline}
-{marker sourceid_UIS.E.5.B.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.E.5.B.F:UIS.E.5.B.F} - Enrolment in tertiary education, ISCED 5 programmes, female (number)}}
+{marker sourceid_UIS.E.5.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.E.5.F:UIS.E.5.F} - Enrolment in tertiary education, ISCED 5 programmes, female (number)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Total number of female students enrolled in public and private short-cycle tertiary education programmes (ISCED 5).{p_end}
 
@@ -33606,7 +33278,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.1.AG25T99}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.1.AG25T99:UIS.EA.1.AG25T99} - UIS: Percentage of population age 25+ with completed primary education. Total}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.1.AG25T99:UIS.EA.1.AG25T99} - UIS: Percentage of population age 25+ whose highest level of education is primary, both sexes}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -33618,7 +33290,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.1.AG25T99.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.1.AG25T99.F:UIS.EA.1.AG25T99.F} - UIS: Percentage of population age 25+ with completed primary education. Female}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.1.AG25T99.F:UIS.EA.1.AG25T99.F} - UIS: Percentage of population age 25+ whose highest level of education is primary, female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -33630,7 +33302,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.1.AG25T99.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.1.AG25T99.M:UIS.EA.1.AG25T99.M} - UIS: Percentage of population age 25+ with completed primary education. Male}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.1.AG25T99.M:UIS.EA.1.AG25T99.M} - UIS: Percentage of population age 25+ whose highest level of education is primary, male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -33690,7 +33362,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.2.AG25T99}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.2.AG25T99:UIS.EA.2.AG25T99} - UIS: Percentage of population age 25+ with completed lower secondary education. Total}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.2.AG25T99:UIS.EA.2.AG25T99} - UIS: Percentage of population age 25+ whose highest level of education is lower secondary, both sexes}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -33702,7 +33374,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.2.AG25T99.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.2.AG25T99.F:UIS.EA.2.AG25T99.F} - UIS: Percentage of population age 25+ with completed lower secondary education. Female}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.2.AG25T99.F:UIS.EA.2.AG25T99.F} - UIS: Percentage of population age 25+ whose highest level of education is lower secondary, female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -33714,7 +33386,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.2.AG25T99.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.2.AG25T99.M:UIS.EA.2.AG25T99.M} - UIS: Percentage of population age 25+ with completed lower secondary education. Male}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.2.AG25T99.M:UIS.EA.2.AG25T99.M} - UIS: Percentage of population age 25+ whose highest level of education is lower secondary, male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -33774,7 +33446,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.3.AG25T99}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.3.AG25T99:UIS.EA.3.AG25T99} - UIS: Percentage of population age 25+ with completed upper secondary education. Total}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.3.AG25T99:UIS.EA.3.AG25T99} - UIS: Percentage of population age 25+ whose highest level of education is upper secondary, both sexes}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -33786,7 +33458,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.3.AG25T99.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.3.AG25T99.F:UIS.EA.3.AG25T99.F} - UIS: Percentage of population age 25+ with completed upper secondary education. Female}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.3.AG25T99.F:UIS.EA.3.AG25T99.F} - UIS: Percentage of population age 25+ whose highest level of education is upper secondary, female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -33798,7 +33470,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.3.AG25T99.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.3.AG25T99.M:UIS.EA.3.AG25T99.M} - UIS: Percentage of population age 25+ with completed upper secondary education. Male}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.3.AG25T99.M:UIS.EA.3.AG25T99.M} - UIS: Percentage of population age 25+ whose highest level of education is upper secondary, male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -33858,7 +33530,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.4.AG25T99}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.4.AG25T99:UIS.EA.4.AG25T99} - UIS: Percentage of population age 25+ with completed post-secondary education. Total}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.4.AG25T99:UIS.EA.4.AG25T99} - UIS: Percentage of population age 25+ whose highest level of education is post-secondary non-tertiary, both sexes}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -33870,7 +33542,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.4.AG25T99.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.4.AG25T99.F:UIS.EA.4.AG25T99.F} - UIS: Percentage of population age 25+ with completed post-secondary education. Female}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.4.AG25T99.F:UIS.EA.4.AG25T99.F} - UIS: Percentage of population age 25+ whose highest level of education is post-secondary non-tertiary, female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -33882,7 +33554,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.4.AG25T99.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.4.AG25T99.M:UIS.EA.4.AG25T99.M} - UIS: Percentage of population age 25+ with completed post-secondary education. Male}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.4.AG25T99.M:UIS.EA.4.AG25T99.M} - UIS: Percentage of population age 25+ whose highest level of education is post-secondary non-tertiary, male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -33942,7 +33614,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.5.AG25T99}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.5.AG25T99:UIS.EA.5.AG25T99} - UIS: Percentage of population age 25+ with a completed short-cycle tertiary degree (ISCED 5). Total}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.5.AG25T99:UIS.EA.5.AG25T99} - UIS: Percentage of population age 25+ whose highest level of education is short cycle tertiary, both sexes}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -33954,7 +33626,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.5.AG25T99.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.5.AG25T99.F:UIS.EA.5.AG25T99.F} - UIS: Percentage of population age 25+ with a completed short-cycle tertiary degree (ISCED 5). Female}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.5.AG25T99.F:UIS.EA.5.AG25T99.F} - UIS: Percentage of population age 25+ whose highest level of education is short cycle tertiary, female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -33966,7 +33638,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.5.AG25T99.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.5.AG25T99.M:UIS.EA.5.AG25T99.M} - UIS: Percentage of population age 25+ with a completed short-cycle tertiary degree (ISCED 5). Male}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.5.AG25T99.M:UIS.EA.5.AG25T99.M} - UIS: Percentage of population age 25+ whose highest level of education is short cycle tertiary, male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34026,7 +33698,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.6.AG25T99}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.6.AG25T99:UIS.EA.6.AG25T99} - UIS: Percentage of population age 25+ with a completed bachelor's or equivalent degree (ISCED 6). Total}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.6.AG25T99:UIS.EA.6.AG25T99} - UIS: Percentage of population age 25+ whose highest level of education is Bachelor's or equivalent (ISCED 6), both sexes}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34038,7 +33710,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.6.AG25T99.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.6.AG25T99.F:UIS.EA.6.AG25T99.F} - UIS: Percentage of population age 25+ with a completed bachelor's or equivalent degree (ISCED 6). Female}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.6.AG25T99.F:UIS.EA.6.AG25T99.F} - UIS: Percentage of population age 25+ whose highest level of education is Bachelor's or equivalent (ISCED 6), female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34050,7 +33722,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.6.AG25T99.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.6.AG25T99.M:UIS.EA.6.AG25T99.M} - UIS: Percentage of population age 25+ with a completed bachelor's or equivalent degree (ISCED 6). Male}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.6.AG25T99.M:UIS.EA.6.AG25T99.M} - UIS: Percentage of population age 25+ whose highest level of education is Bachelor's or equivalent (ISCED 6), male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34110,7 +33782,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.7.AG25T99}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.7.AG25T99:UIS.EA.7.AG25T99} - UIS: Percentage of population age 25+ with a completed master's or equivalent degree (ISCED 7). Total}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.7.AG25T99:UIS.EA.7.AG25T99} - UIS: Percentage of population age 25+ whose highest level of education is Master's or equivalent (ISCED 7), both sexes}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34122,7 +33794,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.7.AG25T99.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.7.AG25T99.F:UIS.EA.7.AG25T99.F} - UIS: Percentage of population age 25+ with a completed master's or equivalent degree (ISCED 7). Female}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.7.AG25T99.F:UIS.EA.7.AG25T99.F} - UIS: Percentage of population age 25+ whose highest level of education is Master's or equivalent (ISCED 7), female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34134,7 +33806,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.7.AG25T99.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.7.AG25T99.M:UIS.EA.7.AG25T99.M} - UIS: Percentage of population age 25+ with a completed master's or equivalent degree (ISCED 7). Male}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.7.AG25T99.M:UIS.EA.7.AG25T99.M} - UIS: Percentage of population age 25+ whose highest level of education is Master's or equivalent (ISCED 7), male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34242,7 +33914,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.MEAN.1T6.AG25T99}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.MEAN.1T6.AG25T99:UIS.EA.MEAN.1T6.AG25T99} - UIS: Mean years of schooling (ISCED 1 or higher) of the population age 25+. Total}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.MEAN.1T6.AG25T99:UIS.EA.MEAN.1T6.AG25T99} - UIS: Mean years of schooling (ISCED 1 or higher), population 25+ years, both sexes}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34254,7 +33926,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.MEAN.1T6.AG25T99.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.MEAN.1T6.AG25T99.F:UIS.EA.MEAN.1T6.AG25T99.F} - UIS: Mean years of schooling (ISCED 1 or higher) of the population age 25+. Female}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.MEAN.1T6.AG25T99.F:UIS.EA.MEAN.1T6.AG25T99.F} - UIS: Mean years of schooling (ISCED 1 or higher), population 25+ years, female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34266,7 +33938,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.MEAN.1T6.AG25T99.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.MEAN.1T6.AG25T99.M:UIS.EA.MEAN.1T6.AG25T99.M} - UIS: Mean years of schooling (ISCED 1 or higher) of the population age 25+. Male}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.MEAN.1T6.AG25T99.M:UIS.EA.MEAN.1T6.AG25T99.M} - UIS: Mean years of schooling (ISCED 1 or higher), population 25+ years, male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34278,7 +33950,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.NS.AG25T99}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.NS.AG25T99:UIS.EA.NS.AG25T99} - UIS: Percentage of population age 25+ with no schooling. Total}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.NS.AG25T99:UIS.EA.NS.AG25T99} - UIS: Percentage of population age 25+ with no schooling, both sexes}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34290,7 +33962,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.NS.AG25T99.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.NS.AG25T99.F:UIS.EA.NS.AG25T99.F} - UIS: Percentage of population age 25+ with no schooling. Female}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.NS.AG25T99.F:UIS.EA.NS.AG25T99.F} - UIS: Percentage of population age 25+ with no schooling, female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34302,7 +33974,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.NS.AG25T99.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.NS.AG25T99.M:UIS.EA.NS.AG25T99.M} - UIS: Percentage of population age 25+ with no schooling. Male}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.NS.AG25T99.M:UIS.EA.NS.AG25T99.M} - UIS: Percentage of population age 25+ with no schooling, male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34314,7 +33986,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.S1.AG25T99}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.S1.AG25T99:UIS.EA.S1.AG25T99} - UIS: Percentage of population age 25+ with some primary education. Total}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.S1.AG25T99:UIS.EA.S1.AG25T99} - UIS: Percentage of population age 25+ whose highest level of education is incomplete primary, both sexes}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34326,7 +33998,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.S1.AG25T99.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.S1.AG25T99.F:UIS.EA.S1.AG25T99.F} - UIS: Percentage of population age 25+ with some primary education. Female}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.S1.AG25T99.F:UIS.EA.S1.AG25T99.F} - UIS: Percentage of population age 25+ whose highest level of education is incomplete primary, female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34338,7 +34010,7 @@
 
 {synoptline}
 {marker sourceid_UIS.EA.S1.AG25T99.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.EA.S1.AG25T99.M:UIS.EA.S1.AG25T99.M} - UIS: Percentage of population age 25+ with some primary education. Male}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.EA.S1.AG25T99.M:UIS.EA.S1.AG25T99.M} - UIS: Percentage of population age 25+ whose highest level of education is incomplete primary, male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34479,9 +34151,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of female students at the early childhood education (ISCED 0) level expressed as a percentage of the total number of students (male and female) at the early childhood education level in a given school year. Within ISCED 0, early c{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -34491,9 +34163,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of female students at the early childhood educational development (ISCED 0.1) level expressed as a percentage of the total number of students (male and female) at the early childhood educational development level in a given school{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -34625,9 +34297,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of female students in a given tertiary education programme, expressed as a percentage of the total number of students enrolled in the given tertiary education programme.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -34733,14 +34405,14 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of female students in a given tertiary education programme, expressed as a percentage of the total number of students enrolled in the given tertiary education programme.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
 {marker sourceid_UIS.FEP.56.FOREIGN}
-{synopt:{bf:{help wbopendata_sourceid##UIS.FEP.56.FOREIGN:UIS.FEP.56.FOREIGN} - Percentage of all inbound internationally mobile students in tertiary education in the host country who are female, (%)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.FEP.56.FOREIGN:UIS.FEP.56.FOREIGN} - Percentage of all inbound internationally mobile students in tertiary education in the host country who are female (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -34821,9 +34493,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in Business, Administration and Law expressed as a percentage of the total number of tertiary graduates in Business, Administration and Law.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -34833,9 +34505,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in Science, Technology, Engineering and Mathematics expressed as a percentage of the total number of tertiary graduates in Science, Technology, Engineering and Mathematics. For more information, consult the UNESCO In{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -34845,9 +34517,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in Information and Communication Technologies expressed as a percentage of the total number of tertiary graduates in Information and Communication Technologies.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -34857,9 +34529,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female graduates in fields other than Science, Technology, Engineering and Mathematics expressed as a percentage of the total number of tertiary graduates in those fields. For more information, consult the UNESCO Institute for Statis{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -34913,6 +34585,42 @@
 
 
 {synoptline}
+{marker sourceid_UIS.FNTP.1}
+{synopt:{bf:{help wbopendata_sourceid##UIS.FNTP.1:UIS.FNTP.1} - Percentage of newly recruited teachers in primary education who are female (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Share of newly recruited public primary school teachers who are female. Newly recruited teachers are teachers entering the teaching profession for the first time in public schools. For more information, consult the UNESCO Institute of Statisti{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.FNTP.2}
+{synopt:{bf:{help wbopendata_sourceid##UIS.FNTP.2:UIS.FNTP.2} - Percentage of newly recruited teachers in lower secondary education who are female (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Share of newly recruited public lower secondary school teachers who are female. Newly recruited teachers are teachers entering the teaching profession for the first time in public schools. For more information, consult the UNESCO Institute of{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.FNTP.3}
+{synopt:{bf:{help wbopendata_sourceid##UIS.FNTP.3:UIS.FNTP.3} - Percentage of newly recruited teachers in upper secondary education who are female (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Share of newly recruited public upper secondary school teachers who are female. Newly recruited teachers are teachers entering the teaching profession for the first time in public schools. For more information, consult the UNESCO Institute of{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
 {marker sourceid_UIS.FOFSTP.1}
 {synopt:{bf:{help wbopendata_sourceid##UIS.FOFSTP.1:UIS.FOFSTP.1} - Out-of-school children of primary school age, percentage female (%)}}
 
@@ -34943,9 +34651,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of female upper secondary school age youth who are not enrolled in upper secondary education as a percentage of the total number of upper secondary school age youth (male and female) who are not enrolled in upper secondary educati{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -34955,9 +34663,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in services programmes.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -34967,9 +34675,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in services programmes.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -34979,9 +34687,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of all male tertiary students who are enrolled in services programmes.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -35068,7 +34776,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in social sciences, business and law programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in Social Sciences, Journalism and Information programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35081,7 +34789,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in social sciences, business and law programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in Social Sciences, Journalism and Information programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35093,7 +34801,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of all male tertiary students who are enrolled in social sciences, business and law programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all male tertiary students who are enrolled in Social Sciences, Journalism and Information programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35106,7 +34814,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in science programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in Business, Administration and Law programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35119,7 +34827,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in science programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in Business, Administration and Law programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35131,7 +34839,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of all male tertiary students who are enrolled in science programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all male tertiary students who are enrolled in Business, Administration and Law programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35144,7 +34852,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in engineering, manufacturing and construction programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in Natural Sciences, Mathematics and Statistics programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35157,7 +34865,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in engineering, manufacturing and construction programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in Natural Sciences, Mathematics and Statistics programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35169,7 +34877,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of all male tertiary students who are enrolled in engineering, manufacturing and construction programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all male tertiary students who are enrolled in Natural Sciences, Mathematics and Statistics programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35182,7 +34890,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in agriculture programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in Information and Communication Technologies programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35195,7 +34903,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in agriculture programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in Information and Communication Technologies programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35207,7 +34915,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of all male tertiary students who are enrolled in agriculture programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all male tertiary students who are enrolled in Information and Communication Technologies programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35220,7 +34928,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in health and welfare programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in engineering, manufacturing and construction programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35233,7 +34941,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in health and welfare programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in engineering, manufacturing and construction programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35245,7 +34953,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of all male tertiary students who are enrolled in health and welfare programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all male tertiary students who are enrolled in engineering, manufacturing and construction programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35258,7 +34966,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in services programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35271,7 +34979,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in services programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35283,7 +34991,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of all male tertiary students who are enrolled in services programmes.{p_end}
+{synopt:{opt Source Notes}}Percentage of all male tertiary students who are enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35295,9 +35003,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in health and welfare programmes.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -35307,9 +35015,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in health and welfare programmes.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -35319,9 +35027,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of all male tertiary students who are enrolled in health and welfare programmes.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -35393,7 +35101,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Share of all male tertiary graduates who completed social sciences, business and law programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all male tertiary graduates who completed Social Sciences, Journalism and Information programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35405,7 +35113,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Share of all male tertiary graduates who completed science programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all male tertiary graduates who completed Business, Administration and Law programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35417,7 +35125,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Share of all male tertiary graduates who completed engineering, manufacturing and construction programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all male tertiary graduates who completed Natural Sciences, Mathematics and Statistics programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35429,7 +35137,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Share of all male tertiary graduates who completed agriculture programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all male tertiary graduates who completed Information and Communication Technologies programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35441,7 +35149,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Share of all male tertiary graduates who completed health and welfare programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all male tertiary graduates who completed engineering, manufacturing and construction programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35453,7 +35161,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Share of all male tertiary graduates who completed services programmes in the reference year.{p_end}
+{synopt:{opt Source Notes}}Share of all male tertiary graduates who completed Agriculture, Forestry, Fisheries and Veterinary programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -35477,9 +35185,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Share of all male tertiary graduates who completed services programmes in the reference year.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -35489,9 +35197,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Share of all tertiary graduates who completed Business, Administration and Law programmes in the reference year.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -35501,9 +35209,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed Business, Administration and Law programmes in the reference year.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -35513,9 +35221,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Share of all tertiary graduates who completed Science, Technology, Engineering and Mathematics in the reference year.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -35525,9 +35233,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed Science, Technology, Engineering and Mathematics programmes in the reference year.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -35537,9 +35245,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Share of all male tertiary graduates who completed Science, Technology, Engineering and Mathematics programmes in the reference year.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -35549,9 +35257,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Share of all tertiary graduates who completed Information and Communication Technologies programmes in the reference year.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -35561,9 +35269,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed Information and Communication Technologies programmes in the reference year.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -35573,9 +35281,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Share of all male tertiary graduates who completed health and welfare programmes in the reference year.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -35585,9 +35293,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Share of all tertiary graduates who completed Science, Technology, Engineering and Mathematics in the reference year.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -35597,9 +35305,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed Science, Technology, Engineering and Mathematics programmes in the reference year.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -35609,9 +35317,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Share of all male tertiary graduates who completed Science, Technology, Engineering and Mathematics programmes in the reference year.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -36000,7 +35708,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Gross lower secondary graduation ratio. All programmes. Female is the number of female graduates regardless of age in all lower secondary education programmes expressed as a percentage of the female population at the theoretical graduation age{p_end}
+{synopt:{opt Source Notes}}Number of female graduates regardless of age in all lower secondary education programmes expressed as a percentage of the female population at the theoretical graduation age for lower secondary education. The ratio can exceed 100% due to over-{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -36025,7 +35733,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Gross lower secondary graduation ratio. All programmes. Male is the number of male graduates regardless of age in all lower secondary education programmes expressed as a percentage of the male population at the theoretical graduation age for l{p_end}
+{synopt:{opt Source Notes}}Number of male graduates regardless of age in all lower secondary education programmes expressed as a percentage of the male population at the theoretical graduation age for lower secondary education. The ratio can exceed 100% due to over-aged{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -36052,6 +35760,114 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Total number of mobile tertiary students coming from a country/region as a percentage of the population of tertiary student age in their home country.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GTCTR.1.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GTCTR.1.F:UIS.GTCTR.1.F} - Ratio of teacher training graduates to teachers in primary education, female}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of newly graduated females from public and private teacher training programmes for primary education, expressed as a percentage of female teachers in service in public and private primary education (including new female graduates from t{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GTCTR.1.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GTCTR.1.M:UIS.GTCTR.1.M} - Ratio of teacher training graduates to teachers in primary education, male}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of newly graduated males from public and private teacher training programmes for primary education, expressed as a percentage of male teachers in service in public and private primary education (including new male graduates from teacher{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GTCTR.1.T}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GTCTR.1.T:UIS.GTCTR.1.T} - Ratio of teacher training graduates to teachers in primary education, both sexes}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of new graduates from public and private teacher training programmes for primary education, expressed as a percentage of teachers in service in public and private primary education (including new graduates from teachers training program{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GTCTR.2.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GTCTR.2.F:UIS.GTCTR.2.F} - Ratio of teacher training graduates to teachers in lower secondary education, female}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of newly graduated females from public and private teacher training programmes for lower secondary education, expressed as a percentage of female teachers in service in public and private lower secondary education (including new graduat{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GTCTR.2.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GTCTR.2.M:UIS.GTCTR.2.M} - Ratio of teacher training graduates to teachers in lower secondary education, male}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of newly graduated males from public and private teacher training programmes for lower secondary education, expressed as a percentage of male teachers in service in public and private lower secondary education (including new graduates f{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GTCTR.2.T}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GTCTR.2.T:UIS.GTCTR.2.T} - Ratio of teacher training graduates to teachers in lower secondary education, both sexes}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of new graduates from public and private teacher training programmes for lower secondary education, expressed as a percentage of teachers in service in public and private lower secondary education (including new graduates from teachers{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GTCTR.3.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GTCTR.3.F:UIS.GTCTR.3.F} - Ratio of teacher training graduates to teachers in upper secondary education, female}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of newly graduated females from public and private teacher training programmes for upper secondary education, expressed as a percentage of female teachers in service in public and private upper secondary education (including new graduat{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GTCTR.3.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GTCTR.3.M:UIS.GTCTR.3.M} - Ratio of teacher training graduates to teachers in upper secondary education, male}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of newly graduated males from public and private teacher training programmes for upper secondary education, expressed as a percentage of male teachers in service in public and private upper secondary education (including new graduates f{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GTCTR.3.T}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GTCTR.3.T:UIS.GTCTR.3.T} - Ratio of teacher training graduates to teachers in upper secondary education, both sexes}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of new graduates from public and private teacher training programmes for upper secondary education, expressed as a percentage of teachers in service in public and private upper secondary education (including new graduates from teachers{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -36317,9 +36133,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of adults from age 25 to age 64 who cannot both read and write with understanding a short simple statement on their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -36329,9 +36145,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of females from age 25 to age 64 who cannot both read and write with understanding a short simple statement on their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -36341,9 +36157,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of males from age 25 to age 64 who cannot both read and write with understanding a short simple statement on their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -36353,9 +36169,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Share of the adult illiterate population (age 25-64) that is female.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -36493,7 +36309,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Share of the adult illiterate population that is female.{p_end}
+{synopt:{opt Source Notes}}Share of the adult illiterate population (age 15+) that is female.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -36530,9 +36346,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of the population between age 25 and age 64 who can, with understanding, read and write a short, simple statement on their everyday life. Generally, ‘literacy’ also encompasses ‘numeracy’, the ability to make simple arithmet{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -36542,9 +36358,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of the female population between age 25 and age 64 who can, with understanding, read and write a short, simple statement on their everyday life. Generally, ‘literacy’ also encompasses ‘numeracy’, the ability to make simple a{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -36554,9 +36370,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Ratio of the female literacy rate (age 25-64) to the male literacy rate (age 25-64). It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between females and mal{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -36566,9 +36382,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Percentage of the male population between age 25 and age 64 who can, with understanding, read and write a short, simple statement on their everyday life. Generally, ‘literacy’ also encompasses ‘numeracy’, the ability to make simple ari{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -36737,9 +36553,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net Attendance Rate is calculated by dividing the number of students attending a given level of education regardless of age by the population of the age group which officially corresponds to the given level of education, and multiply the resul{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -36785,9 +36601,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net Attendance Rate is calculated by dividing the number of students attending a given level of education regardless of age by the population of the age group which officially corresponds to the given level of education, and multiply the resul{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -36833,9 +36649,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net Attendance Rate is calculated by dividing the number of students attending a given level of education regardless of age by the population of the age group which officially corresponds to the given level of education, and multiply the resul{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -36881,9 +36697,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net Attendance Rate is calculated by dividing the number of students attending a given level of education regardless of age by the population of the age group which officially corresponds to the given level of education, and multiply the resul{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -36929,9 +36745,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net Attendance Rate is calculated by dividing the number of students attending a given level of education regardless of age by the population of the age group which officially corresponds to the given level of education, and multiply the resul{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -36977,9 +36793,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net Attendance Rate is calculated by dividing the number of students attending a given level of education regardless of age by the population of the age group which officially corresponds to the given level of education, and multiply the resul{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -37025,9 +36841,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net Attendance Rate is calculated by dividing the number of students attending a given level of education regardless of age by the population of the age group which officially corresponds to the given level of education, and multiply the resul{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -37073,9 +36889,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net Attendance Rate is calculated by dividing the number of students attending a given level of education regardless of age by the population of the age group which officially corresponds to the given level of education, and multiply the resul{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -37121,9 +36937,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net Attendance Rate is calculated by dividing the number of students attending a given level of education regardless of age by the population of the age group which officially corresponds to the given level of education, and multiply the resul{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -37169,9 +36985,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net Attendance Rate is calculated by dividing the number of students attending a given level of education regardless of age by the population of the age group which officially corresponds to the given level of education, and multiply the resul{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -37217,9 +37033,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net Attendance Rate is calculated by dividing the number of students attending a given level of education regardless of age by the population of the age group which officially corresponds to the given level of education, and multiply the resul{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -37265,9 +37081,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net Attendance Rate is calculated by dividing the number of students attending a given level of education regardless of age by the population of the age group which officially corresponds to the given level of education, and multiply the resul{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -37313,9 +37129,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net Attendance Rate is calculated by dividing the number of students attending a given level of education regardless of age by the population of the age group which officially corresponds to the given level of education, and multiply the resul{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -37361,9 +37177,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net Attendance Rate is calculated by dividing the number of students attending a given level of education regardless of age by the population of the age group which officially corresponds to the given level of education, and multiply the resul{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -37409,9 +37225,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net Attendance Rate is calculated by dividing the number of students attending a given level of education regardless of age by the population of the age group which officially corresponds to the given level of education, and multiply the resul{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -37457,9 +37273,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net Attendance Rate is calculated by dividing the number of students attending a given level of education regardless of age by the population of the age group which officially corresponds to the given level of education, and multiply the resul{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -37470,390 +37286,6 @@
 
 
 {synopt:{opt Source Notes}}Total number of students in the theoretical age group for lower secondary education attending that level, expressed as a percentage of the total population in that age group. The UNESCO Institute for Statistics (UIS) calculates household surve{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1:UIS.NARA.1} - UIS: Adjusted net attendance rate, primary, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.F:UIS.NARA.1.F} - UIS: Adjusted net attendance rate, primary, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.GPIA}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.GPIA:UIS.NARA.1.GPIA} - UIS: Adjusted net attendance rate, primary, adjusted gender parity index (GPIA)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.M:UIS.NARA.1.M} - UIS: Adjusted net attendance rate, primary, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q1}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q1:UIS.NARA.1.Q1} - UIS: Adjusted net attendance rate, primary, poorest quintile, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q1.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q1.F:UIS.NARA.1.Q1.F} - UIS: Adjusted net attendance rate, primary, poorest quintile, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q1.GPIA}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q1.GPIA:UIS.NARA.1.Q1.GPIA} - UIS: Adjusted net attendance rate, primary, poorest quintile, adjusted gender parity index (GPIA)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q1.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q1.M:UIS.NARA.1.Q1.M} - UIS: Adjusted net attendance rate, primary, poorest quintile, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q2}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q2:UIS.NARA.1.Q2} - UIS: Adjusted net attendance rate, primary, second quintile, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q2.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q2.F:UIS.NARA.1.Q2.F} - UIS: Adjusted net attendance rate, primary, second quintile, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q2.GPIA}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q2.GPIA:UIS.NARA.1.Q2.GPIA} - UIS: Adjusted net attendance rate, primary, second quintile, adjusted gender parity index (GPIA)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q2.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q2.M:UIS.NARA.1.Q2.M} - UIS: Adjusted net attendance rate, primary, second quintile, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q3}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q3:UIS.NARA.1.Q3} - UIS: Adjusted net attendance rate, primary, middle quintile, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q3.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q3.F:UIS.NARA.1.Q3.F} - UIS: Adjusted net attendance rate, primary, middle quintile, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q3.GPIA}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q3.GPIA:UIS.NARA.1.Q3.GPIA} - UIS: Adjusted net attendance rate, primary, middle quintile, adjusted gender parity index (GPIA)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q3.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q3.M:UIS.NARA.1.Q3.M} - UIS: Adjusted net attendance rate, primary, middle quintile, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q4}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q4:UIS.NARA.1.Q4} - UIS: Adjusted net attendance rate, primary, fourth quintile, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q4.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q4.F:UIS.NARA.1.Q4.F} - UIS: Adjusted net attendance rate, primary, fourth quintile, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q4.GPIA}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q4.GPIA:UIS.NARA.1.Q4.GPIA} - UIS: Adjusted net attendance rate, primary, fourth quintile, adjusted gender parity index (GPIA)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q4.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q4.M:UIS.NARA.1.Q4.M} - UIS: Adjusted net attendance rate, primary, fourth quintile, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q5}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q5:UIS.NARA.1.Q5} - UIS: Adjusted net attendance rate, primary, richest quintile, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q5.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q5.F:UIS.NARA.1.Q5.F} - UIS: Adjusted net attendance rate, primary, richest quintile, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q5.GPIA}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q5.GPIA:UIS.NARA.1.Q5.GPIA} - UIS: Adjusted net attendance rate, primary, richest quintile, adjusted gender parity index (GPIA)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.Q5.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q5.M:UIS.NARA.1.Q5.M} - UIS: Adjusted net attendance rate, primary, richest quintile, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.RUR}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.RUR:UIS.NARA.1.RUR} - UIS: Adjusted net attendance rate, primary, rural, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.RUR.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.RUR.F:UIS.NARA.1.RUR.F} - UIS: Adjusted net attendance rate, primary, rural, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.RUR.GPIA}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.RUR.GPIA:UIS.NARA.1.RUR.GPIA} - UIS: Adjusted net attendance rate, primary, rural, adjusted gender parity index (GPIA)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.RUR.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.RUR.M:UIS.NARA.1.RUR.M} - UIS: Adjusted net attendance rate, primary, rural, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.URB}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.URB:UIS.NARA.1.URB} - UIS: Adjusted net attendance rate, primary, urban, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.URB.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.URB.F:UIS.NARA.1.URB.F} - UIS: Adjusted net attendance rate, primary, urban, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.URB.GPIA}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.URB.GPIA:UIS.NARA.1.URB.GPIA} - UIS: Adjusted net attendance rate, primary, urban, adjusted gender parity index (GPIA)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NARA.1.URB.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.URB.M:UIS.NARA.1.URB.M} - UIS: Adjusted net attendance rate, primary, urban, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -37889,9 +37321,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of students of the official lower secondary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institu{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -37937,9 +37369,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of students of the official lower secondary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institu{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -37985,9 +37417,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of students of the official lower secondary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institu{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -38033,9 +37465,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of students of the official lower secondary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institu{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -38081,9 +37513,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of students of the official lower secondary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institu{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -38129,9 +37561,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of students of the official lower secondary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institu{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -38177,9 +37609,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of students of the official lower secondary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institu{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -38225,9 +37657,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of students of the official lower secondary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institu{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -38295,12 +37727,11 @@
 
 
 {synoptline}
-{marker sourceid_UIS.NER.0.GPI}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NER.0.GPI:UIS.NER.0.GPI} - Net enrolment rate, pre-primary, gender parity index (GPI)}}
+{marker sourceid_UIS.NER.02.GPI}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NER.02.GPI:UIS.NER.02.GPI} - Net enrolment rate, pre-primary, gender parity index (GPI)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Ratio of female net enrolment rate for pre-primary to the male net enrolment rate for pre-primary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between f{p_end}
 
@@ -38520,9 +37951,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The number of children of the age one year before the official entry age to primary education who participate in an organized learning programme expressed as a percentage of the total population of the same age. For more information, consult t{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -38532,9 +37963,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The number of female children of the age one year before the official entry age to primary education who participate in an organized learning programme expressed as a percentage of the total population of the same age. For more information, co{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -38544,9 +37975,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The number of male children of the age one year before the official entry age to primary education who participate in an organized learning programme expressed as a percentage of the total population of the same age. For more information, cons{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -38653,9 +38084,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of students of the official age group for upper secondary education who are enrolled in any level of education, expressed as a percentage of the corresponding population. Divide the total number of students in the official school{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -38665,9 +38096,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of female students of the official age group for upper secondary education who are enrolled in any level of education, expressed as a percentage of the corresponding female population. Divide the total number of female students in{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -38677,9 +38108,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Ratio of female total net enrolment rate for upper secondary to the male total net enrolment rate for upper secondary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indica{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -38689,9 +38120,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of male students of the official age group for upper secondary education who are enrolled in any level of education, expressed as a percentage of the corresponding male population. Divide the total number of male students in the o{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -38862,6 +38293,114 @@
 
 
 {synoptline}
+{marker sourceid_UIS.NTP.1.PU.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NTP.1.PU.F:UIS.NTP.1.PU.F} - Percentage of female teachers in primary education who are newly recruited, female (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of newly recruited female teachers in public primary education, expressed as a percentage of female teachers in service in public primary education. For more information, consult the UNESCO Institute of Statistics website: {browse "http://www.ui"}{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.NTP.1.PU.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NTP.1.PU.M:UIS.NTP.1.PU.M} - Percentage of male teachers in primary education who are newly recruited, male (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of newly recruited male teachers in public primary education, expressed as a percentage of male teachers in service in public primary education. For more information, consult the UNESCO Institute of Statistics website: {browse "http://www.uis.un"}{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.NTP.1.PU.T}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NTP.1.PU.T:UIS.NTP.1.PU.T} - Percentage of teachers in primary education who are newly recruited, both sexes (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of newly recruited teachers in public primary education, expressed as a percentage of teachers in service in public primary education. For more information, consult the UNESCO Institute of Statistics website: {browse "http://www.uis.unesco.org/E"}{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.NTP.2.PU.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NTP.2.PU.F:UIS.NTP.2.PU.F} - Percentage of female teachers in lower secondary education who are newly recruited, female (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of newly recruited female teachers in public lower secondary education expressed as a percentage of female teachers in service in public lower secondary education. For more information, consult the UNESCO Institute of Statistics website{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.NTP.2.PU.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NTP.2.PU.M:UIS.NTP.2.PU.M} - Percentage of male teachers in lower secondary education who are newly recruited, male (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of newly recruited male teachers in public lower secondary education expressed as a percentage of male teachers in service in public lower secondary education. For more information, consult the UNESCO Institute of Statistics website: ht{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.NTP.2.PU.T}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NTP.2.PU.T:UIS.NTP.2.PU.T} - Percentage of teachers in lower secondary education who are newly recruited, both sexes (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of newly recruited teachers in public lower secondary education expressed as a percentage of teachers in service in public lower secondary education. For more information, consult the UNESCO Institute of Statistics website: {browse "http://www.u"}{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.NTP.3.PU.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NTP.3.PU.F:UIS.NTP.3.PU.F} - Percentage of female teachers in upper secondary education who are newly recruited, female (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of newly recruited female teachers in public upper secondary education, expressed as a percentage of female teachers in service in public upper secondary education. For more information, consult the UNESCO Institute of Statistics websit{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.NTP.3.PU.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NTP.3.PU.M:UIS.NTP.3.PU.M} - Percentage of male teachers in upper secondary education who are newly recruited, male (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of newly recruited male teachers in public upper secondary education, expressed as a percentage of male teachers in service in public upper secondary education. For more information, consult the UNESCO Institute of Statistics website: h{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.NTP.3.PU.T}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NTP.3.PU.T:UIS.NTP.3.PU.T} - Percentage of teachers in upper secondary education who are newly recruited, both sexes (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of newly recruited teachers in public upper secondary education, expressed as a percentage of teachers in service in public upper secondary education. For more information, consult the UNESCO Institute of Statistics website: {browse "http://www"}.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
 {marker sourceid_UIS.OAEP.1}
 {synopt:{bf:{help wbopendata_sourceid##UIS.OAEP.1:UIS.OAEP.1} - Percentage of students enrolled in primary education who are over-age, both sexes (%)}}
 
@@ -38950,45 +38489,6 @@
 
 
 {synoptline}
-{marker sourceid_UIS.OFSPPT.1}
-{synopt:{bf:{help wbopendata_sourceid##UIS.OFSPPT.1:UIS.OFSPPT.1} - Out-of-school children of primary school age in pre-primary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Children in the official primary school age range who are enrolled in pre-primary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.OFSPPT.1.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.OFSPPT.1.F:UIS.OFSPPT.1.F} - Out-of-school children of primary school age in pre-primary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female children in the official primary school age range who are enrolled in pre-primary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.OFSPPT.1.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.OFSPPT.1.M:UIS.OFSPPT.1.M} - Out-of-school children of primary school age in pre-primary education, male (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Male children in the official primary school age range who are enrolled in pre-primary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker sourceid_UIS.OFST.2}
 {synopt:{bf:{help wbopendata_sourceid##UIS.OFST.2:UIS.OFST.2} - Out-of-school adolescents of lower secondary school age, both sexes (number)}}
 
@@ -39034,9 +38534,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of upper secondary school age youth who are not enrolled in upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39046,9 +38546,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of upper secondary school age female youth who are not enrolled in upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39058,9 +38558,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of upper secondary school age male youth who are not enrolled in upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39083,9 +38583,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of students in early childhood education programmes enrolled in institutions that are not operated by a public authority but controlled and managed, whether for profit or not, by a private body (e.g., non-governmental organisation{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39095,9 +38595,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total number of students in early childhood educational development programmes enrolled in institutions that are not operated by a public authority but controlled and managed, whether for profit or not, by a private body (e.g., non-governmenta{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39143,9 +38643,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Average number of pupils per qualified teacher at a given level of education, based on headcounts of both pupils and teachers. Divide the total number of pupils enrolled at the specified level of education by the number of qualified teachers a{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39155,9 +38655,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Average number of pupils per trained teacher at a given level of education, based on headcounts of both pupils and teachers. Divide the total number of pupils enrolled at the specified level of education by the number of trained teachers at th{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39167,9 +38667,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Average number of pupils per qualified teacher at a given level of education, based on headcounts of both pupils and teachers. Divide the total number of pupils enrolled at the specified level of education by the number of qualified teachers a{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39179,9 +38679,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Average number of pupils per trained teacher at a given level of education, based on headcounts of both pupils and teachers. Divide the total number of pupils enrolled at the specified level of education by the number of trained teachers at th{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39204,9 +38704,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Average number of pupils per qualified teacher at a given level of education, based on headcounts of both pupils and teachers. Divide the total number of pupils enrolled at the specified level of education by the number of qualified teachers a{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39216,9 +38716,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Average number of pupils per trained teacher at a given level of education, based on headcounts of both pupils and teachers. Divide the total number of pupils enrolled at the specified level of education by the number of trained teachers at th{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39228,9 +38728,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Average number of pupils per qualified teacher at a given level of education, based on headcounts of both pupils and teachers. Divide the total number of pupils enrolled at the specified level of education by the number of qualified teachers a{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39240,9 +38740,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Average number of pupils per trained teacher at a given level of education, based on headcounts of both pupils and teachers. Divide the total number of pupils enrolled at the specified level of education by the number of trained teachers at th{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39265,9 +38765,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Average number of pupils per qualified teacher at a given level of education, based on headcounts of both pupils and teachers. Divide the total number of pupils enrolled at the specified level of education by the number of qualified teachers a{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39277,9 +38777,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Average number of pupils per trained teacher at a given level of education, based on headcounts of both pupils and teachers. Divide the total number of pupils enrolled at the specified level of education by the number of trained teachers at th{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39301,9 +38801,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of teachers in a given level of education who are qualified is expressed as a percentage of all teachers in that level of education.  A qualified teacher is one who has the minimum academic qualifications necessary to teach at a specifi{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39313,9 +38813,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of teachers in a given level of education who are qualified is expressed as a percentage of all teachers in that level of education.  A qualified teacher is one who has the minimum academic qualifications necessary to teach at a specifi{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39325,9 +38825,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of teachers in a given level of education who are qualified is expressed as a percentage of all teachers in that level of education.  A qualified teacher is one who has the minimum academic qualifications necessary to teach at a specifi{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39337,9 +38837,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of teachers in a given level of education who are qualified is expressed as a percentage of all teachers in that level of education.  A qualified teacher is one who has the minimum academic qualifications necessary to teach at a specifi{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39349,9 +38849,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of teachers in a given level of education who are qualified is expressed as a percentage of all teachers in that level of education.  A qualified teacher is one who has the minimum academic qualifications necessary to teach at a specifi{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -39740,6 +39240,42 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Number of pupils in the specified grade who are enrolled in the same grade for a second (or further) year.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.R.3.GPV}
+{synopt:{bf:{help wbopendata_sourceid##UIS.R.3.GPV:UIS.R.3.GPV} - Repeaters in upper secondary general education, all grades, both sexes (number)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of male pupils enrolled in the same grade for a second (or further) year.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.R.3.GPV.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.R.3.GPV.F:UIS.R.3.GPV.F} - Repeaters in upper secondary general education, all grades, female (number)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of female pupils enrolled in the same grade for a second (or further) year.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.R.3.GPV.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.R.3.GPV.M:UIS.R.3.GPV.M} - Repeaters in upper secondary general education, all grades, male (number)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of pupils enrolled in the same grade for a second (or further) year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -40292,14 +39828,14 @@
 
 {synoptline}
 {marker sourceid_UIS.REPP.2.GPV.GPI}
-{synopt:{bf:{help wbopendata_sourceid##UIS.REPP.2.GPV.GPI:UIS.REPP.2.GPV.GPI} - Percentage of repeaters in lower secondary education, all grades, gender parity index (GPI)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.REPP.2.GPV.GPI:UIS.REPP.2.GPV.GPI} - Percentage of repeaters in lower secondary general education, all grades, gender parity index (GPI)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Ratio of female percentage of repeaters in lower secondary to the male percentage of repeaters in lower secondary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -40841,45 +40377,6 @@
 
 
 {synoptline}
-{marker sourceid_UIS.ROFSPPT.1}
-{synopt:{bf:{help wbopendata_sourceid##UIS.ROFSPPT.1:UIS.ROFSPPT.1} - Rate of out-of-school children of primary school age in pre-primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of children of official primary school age who are enrolled in pre-primary education, expressed as a percentage of the population of official primary school age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.ROFSPPT.1.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.ROFSPPT.1.F:UIS.ROFSPPT.1.F} - Rate of out-of-school children of primary school age in pre-primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of female children of official primary school age who are enrolled in pre-primary education, expressed as a percentage of the female population of official primary school age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.ROFSPPT.1.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.ROFSPPT.1.M:UIS.ROFSPPT.1.M} - Rate of out-of-school children of primary school age in pre-primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of male children of official primary school age who are enrolled in pre-primary education, expressed as a percentage of the male population of official primary school age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker sourceid_UIS.ROFST.1}
 {synopt:{bf:{help wbopendata_sourceid##UIS.ROFST.1:UIS.ROFST.1} - Rate of out-of-school children of primary school age, both sexes (%)}}
 
@@ -40964,9 +40461,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of youth of official upper secondary school age who are not enrolled in upper secondary school expressed as a percentage of the population of official upper secondary school age.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -40976,9 +40473,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of females of official upper secondary school age who are not enrolled in upper secondary school expressed as a percentage of the female population of official upper secondary school age.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -40988,9 +40485,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of males of official upper secondary school age who are not enrolled in upper secondary school expressed as a percentage of the male population of official upper secondary school age.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -41720,6 +41217,30 @@
 
 
 {synoptline}
+{marker sourceid_UIS.SCHBSP.1.PU.WELEC}
+{synopt:{bf:{help wbopendata_sourceid##UIS.SCHBSP.1.PU.WELEC:UIS.SCHBSP.1.PU.WELEC} - Proportion of public primary schools with access to electricity (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Share of public primary schools with access to permanent sources of electrical power (i.e. grid/mains connection, wind, water, solar, permanently fuel-powered generator, etc.). For more information, consult the UNESCO Institute of Statistics w{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.SCHBSP.2.PU.WELEC}
+{synopt:{bf:{help wbopendata_sourceid##UIS.SCHBSP.2.PU.WELEC:UIS.SCHBSP.2.PU.WELEC} - Proportion of public lower secondary schools with access to electricity (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Share of public lower secondary schools with access to permanent sources of electrical power (i.e. grid/mains connection, wind, water, solar, permanently fuel-powered generator, etc.). For more information, consult the UNESCO Institute of Stat{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
 {marker sourceid_UIS.SLE.0}
 {synopt:{bf:{help wbopendata_sourceid##UIS.SLE.0:UIS.SLE.0} - School life expectancy, pre-primary, both sexes (years)}}
 
@@ -42380,12 +41901,11 @@
 
 
 {synoptline}
-{marker sourceid_UIS.T.5.B}
-{synopt:{bf:{help wbopendata_sourceid##UIS.T.5.B:UIS.T.5.B} - Teachers in tertiary education ISCED 5 programmes, both sexes (number)}}
+{marker sourceid_UIS.T.5}
+{synopt:{bf:{help wbopendata_sourceid##UIS.T.5:UIS.T.5} - Teachers in tertiary education ISCED 5 programmes, both sexes (number)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Total number of teachers in public and private short-cycle tertiary education institutions (ISCED 5). Teachers are persons employed full time or part time in an official capacity to guide and direct the learning experience of pupils and studen{p_end}
 
@@ -42393,12 +41913,11 @@
 
 
 {synoptline}
-{marker sourceid_UIS.T.5.B.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.T.5.B.F:UIS.T.5.B.F} - Teachers in tertiary education ISCED 5 programmes, female (number)}}
+{marker sourceid_UIS.T.5.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.T.5.F:UIS.T.5.F} - Teachers in tertiary education ISCED 5 programmes, female (number)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Total number of female teachers in public and private short-cycle tertiary education institutions (ISCED 5). Teachers are persons employed full time or part time in an official capacity to guide and direct the learning experience of pupils and{p_end}
 
@@ -42412,9 +41931,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female teachers who left the primary education system in year t+1, expressed as a percentage of female teachers in service in primary education system in year t. For more information, consult the UIS website: {browse "http://www.uis.unesco.or"}{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -42424,9 +41943,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male teachers who left the primary education system in year t+1, expressed as a percentage of male teachers in service in primary education system in year t. For more information, consult the UIS website: {browse "http://www.uis.unesco.org/Ed"}{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -42436,9 +41955,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of teachers who left the primary education system in year t+1, expressed as a percentage of teachers in service in primary education system in year t. For more information, consult the UIS website: {browse "http://www.uis.unesco.org/Education/"}{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -42448,9 +41967,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female teachers who left the lower secondary education system in year t+1, expressed as a percentage of female teachers in service in lower secondary education system in year t. For more information, consult the UIS website: {browse "http://w"}{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -42460,9 +41979,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male teachers who left the lower secondary education system in year t+1, expressed as a percentage of male teachers in service in lower secondary education system in year t. For more information, consult the UIS website: {browse "http://www.u"}{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -42472,9 +41991,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of teachers who left the lower secondary education system in year t+1, expressed as a percentage of teachers in service in lower secondary education system in year t. For more information, consult the UIS website: {browse "http://www.uis.unesco"}.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -42484,9 +42003,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female teachers who left the upper secondary education system in year t+1, expressed as a percentage of female teachers in service in upper secondary education system in year t. For more information, consult the UIS website: {browse "http://w"}{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -42496,9 +42015,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male teachers who left the upper secondary education system in year t+1, expressed as a percentage of male teachers in service in upper secondary education system in year t. For more information, consult the UIS website: {browse "http://www.u"}{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -42508,9 +42027,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of teachers who left the upper secondary education system in year t+1, expressed as a percentage of teachers in service in upper secondary education system in year t. For more information, consult the UIS website: {browse "http://www.uis.unesco"}.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -42679,15 +42198,123 @@
 
 
 {synoptline}
+{marker sourceid_UIS.TRNTP.1.PU.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.TRNTP.1.PU.F:UIS.TRNTP.1.PU.F} - Percentage of female newly recruited teachers in primary education who are trained, female (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Share of newly recruited female public primary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required for teachi{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.TRNTP.1.PU.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.TRNTP.1.PU.M:UIS.TRNTP.1.PU.M} - Percentage of male newly recruited teachers in primary education who are trained, male (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Share of newly recruited male public primary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required for teaching{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.TRNTP.1.PU.T}
+{synopt:{bf:{help wbopendata_sourceid##UIS.TRNTP.1.PU.T:UIS.TRNTP.1.PU.T} - Percentage of newly recruited teachers in primary education who are trained, both sexes (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Share of newly recruited public primary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required for teaching at t{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.TRNTP.2.PU.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.TRNTP.2.PU.F:UIS.TRNTP.2.PU.F} - Percentage of female newly recruited teachers in lower secondary education who are trained, female (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Share of newly recruited female public lower secondary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required fo{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.TRNTP.2.PU.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.TRNTP.2.PU.M:UIS.TRNTP.2.PU.M} - Percentage of male newly recruited teachers in lower secondary education who are trained, male (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Share of newly recruited male public lower secondary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required for{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.TRNTP.2.PU.T}
+{synopt:{bf:{help wbopendata_sourceid##UIS.TRNTP.2.PU.T:UIS.TRNTP.2.PU.T} - Percentage of newly recruited teachers in lower secondary education who are trained, both sexes (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Share of newly recruited public lower secondary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required for teach{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.TRNTP.3.PU.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.TRNTP.3.PU.F:UIS.TRNTP.3.PU.F} - Percentage of female newly recruited teachers in upper secondary education who are trained, female (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Share of newly recruited female public upper secondary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required fo{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.TRNTP.3.PU.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.TRNTP.3.PU.M:UIS.TRNTP.3.PU.M} - Percentage of male newly recruited teachers in upper secondary education who are trained, male (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Share of newly recruited male public upper secondary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required for{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.TRNTP.3.PU.T}
+{synopt:{bf:{help wbopendata_sourceid##UIS.TRNTP.3.PU.T:UIS.TRNTP.3.PU.T} - Percentage of newly recruited teachers in upper secondary education who are trained, both sexes (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Share of newly recruited public upper secondary school teachers who have been trained. A trained teacher is defined as “a teacher who has received at least the minimum organized teacher-training (pre-service or in-service) required for teach{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
 {marker sourceid_UIS.TRTP.02}
 {synopt:{bf:{help wbopendata_sourceid##UIS.TRTP.02:UIS.TRTP.02} - Percentage of teachers in pre-primary education who are trained, both sexes (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching at the pre-primary level in the given country, expressed as a percentage of the total number of teachers at the pre-p{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -42697,9 +42324,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching at the pre-primary level in the given country, expressed as a percentage of the total number of female teacher{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -42709,9 +42336,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Ratio of the female percentage of trained teachers for pre-primary to the male percentage of trained teachers for pre-primary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -42721,9 +42348,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching at the pre-primary level in the given country, expressed as a percentage of the total number of male teachers at{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43022,9 +42649,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on pre-primary education (current, capital, and transfers), in millions PPP$ (at purchasing power parity), in nominal value. It includes expenditure funded by transfers from in{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43034,9 +42661,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on primary education (current, capital, and transfers), in millions PPP$ (at purchasing power parity), in nominal value. It includes expenditure funded by transfers from intern{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43046,9 +42673,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on lower secondary education (current, capital, and transfers), in millions PPP$ (at purchasing power parity), in nominal value. It includes expenditure funded by transfers fro{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43058,9 +42685,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on secondary education (current, capital, and transfers), in millions PPP$ (at purchasing power parity), in nominal value. It includes expenditure funded by transfers from inte{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43070,9 +42697,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on secondary and post-secondary non-tertiary vocational education (current, capital, and transfers), in millions PPP$ (at purchasing power parity), in nominal value. It include{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43082,9 +42709,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on upper secondary education (current, capital, and transfers), in millions PPP$ (at purchasing power parity), in nominal value. It includes expenditure funded by transfers fro{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43094,9 +42721,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on post-secondary non-tertiary education (current, capital, and transfers), in millions PPP$ (at purchasing power parity), in nominal value. It includes expenditure funded by t{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43106,9 +42733,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on tertiary education (current, capital, and transfers), in millions PPP$ (at purchasing power parity), in nominal value. It includes expenditure funded by transfers from inter{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43118,9 +42745,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on education (current, capital, and transfers), in millions PPP$ (at purchasing power parity), in nominal value. It includes expenditure funded by transfers from international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43130,9 +42757,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on education (current, capital, and transfers) not specified by level, in millions PPP$ (at purchasing power parity), in nominal value. It includes expenditure funded by transf{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43142,9 +42769,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on pre-primary education (current, capital, and transfers), in millions PPP$ (at purchasing power parity) in constant value (taking into account inflation). It includes expendi{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43154,9 +42781,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on primary education (current, capital, and transfers), in millions PPP$ (at purchasing power parity) in constant value (taking into account inflation). It includes expenditure{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43166,9 +42793,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on lower secondary education (current, capital, and transfers), in millions PPP$ (at purchasing power parity) in constant value (taking into account inflation). It includes exp{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43178,9 +42805,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on secondary education (current, capital, and transfers), in millions PPP$ (at purchasing power parity) in constant value (taking into account inflation). It includes expenditu{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43190,9 +42817,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on secondary and post-secondary non-tertiary vocational education (current, capital, and transfers), in millions PPP$ (at purchasing power parity) in constant value (taking int{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43202,9 +42829,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on upper secondary education (current, capital, and transfers), in millions PPP$ (at purchasing power parity) in constant value (taking into account inflation). It includes exp{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43214,9 +42841,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on post-secondary non-tertiary education (current, capital, and transfers), in millions PPP$ (at purchasing power parity) in constant value (taking into account inflation). It{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43226,9 +42853,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on tertiary education (current, capital, and transfers), in millions PPP$ (at purchasing power parity) in constant value (taking into account inflation). It includes expenditur{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43238,9 +42865,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on education (current, capital, and transfers), in millions PPP$ (at purchasing power parity) in constant value (taking into account inflation). It includes expenditure funded{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43250,9 +42877,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on education (current, capital, and transfers) not specified by level, in millions PPP$ (at purchasing power parity) in constant value (taking into account inflation). It inclu{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43262,9 +42889,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on pre-primary education (current, capital, and transfers) in millions US$ (nominal value). It includes expenditure funded by transfers from international sources to government{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43274,9 +42901,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on primary education (current, capital, and transfers) in millions US$ (nominal value). It includes expenditure funded by transfers from international sources to government. To{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43286,9 +42913,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on lower secondary education (current, capital, and transfers) in millions US$ (nominal value). It includes expenditure funded by transfers from international sources to govern{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43298,9 +42925,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on secondary education (current, capital, and transfers) in millions US$ (nominal value). It includes expenditure funded by transfers from international sources to government.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43310,9 +42937,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on secondary and post-secondary non-tertiary vocational education (current, capital, and transfers) in millions US$ (nominal value). It includes expenditure funded by transfers{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43322,9 +42949,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on upper secondary education (current, capital, and transfers) in millions US$ (nominal value). It includes expenditure funded by transfers from international sources to govern{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43334,9 +42961,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on post-secondary non-tertiary education (current, capital, and transfers) in millions US$ (nominal value). It includes expenditure funded by transfers from international sourc{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43346,9 +42973,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on tertiary education (current, capital, and transfers) in millions US$ (nominal value). It includes expenditure funded by transfers from international sources to government. T{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43358,9 +42985,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on education (current, capital, and transfers) in millions US$ (nominal value). It includes expenditure funded by transfers from international sources to government. Total gove{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43370,9 +42997,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on education (current, capital, and transfers) not specified by level in millions US$ (nominal value). It includes expenditure funded by transfers from international sources to{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43382,9 +43009,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on pre-primary education (current, capital, and transfers) in millions US$ in constant value (taking into account inflation). It includes expenditure funded by transfers from i{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43394,9 +43021,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on primary education (current, capital, and transfers) in millions US$ in constant value (taking into account inflation). It includes expenditure funded by transfers from inter{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43406,9 +43033,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on lower secondary education (current, capital, and transfers) in millions US$ in constant value (taking into account inflation). It includes expenditure funded by transfers fr{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43418,9 +43045,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on secondary education (current, capital, and transfers) in millions US$ in constant value (taking into account inflation). It includes expenditure funded by transfers from int{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43430,9 +43057,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on secondary and post-secondary non-tertiary vocational education (current, capital, and transfers) in millions US$ in constant value (taking into account inflation). It includ{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43442,9 +43069,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on upper secondary education (current, capital, and transfers) in millions US$ in constant value (taking into account inflation). It includes expenditure funded by transfers fr{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43454,9 +43081,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on post-secondary non-tertiary education (current, capital, and transfers) in millions US$ in constant value (taking into account inflation). It includes expenditure funded by{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43466,9 +43093,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on tertiary education (current, capital, and transfers) in millions US$ in constant value (taking into account inflation). It includes expenditure funded by transfers from inte{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43478,9 +43105,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on education (current, capital, and transfers) in millions US$ in constant value (taking into account inflation). It includes expenditure funded by transfers from international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43490,9 +43117,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on education (current, capital, and transfers) not specified by level in millions US$ in constant value (taking into account inflation). It includes expenditure funded by trans{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43502,7 +43129,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide t{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on pre-primary education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to governme{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -43514,9 +43141,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of pre-primary education includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international transf{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43526,7 +43153,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide t{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on primary education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -43538,9 +43165,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of primary education includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international transfers{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43550,9 +43177,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43562,9 +43189,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on lower secondary education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to gove{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43574,9 +43201,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of lower secondary education includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international tr{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43586,7 +43213,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide t{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on secondary education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -43598,9 +43225,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43610,9 +43237,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of secondary education includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international transfer{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43622,9 +43249,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on secondary and post-secondary non-tertiary vocational education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfe{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43634,9 +43261,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on upper secondary education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to gove{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43646,9 +43273,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of upper secondary education includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international tr{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43658,7 +43285,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide t{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on post-secondary non-tertiary education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sou{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -43670,7 +43297,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide t{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on tertiary education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -43682,9 +43309,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of tertiary education includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international transfers{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43694,9 +43321,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43706,9 +43333,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international transfers to gover{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43718,9 +43345,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43778,9 +43405,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on secondary and post-secondary vocational education (current, capital, and transfers), expressed as a percentage of total general government expenditure on all sectors (includ{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43852,9 +43479,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Expenditure on education by level/type of education, expressed as a percentage of total general government expenditure on education. Divide government expenditure on a given level of education (ex. primary, secondary) by total government expen{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43951,9 +43578,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Non-teacher (e.g. school directors, support staff, administrative staff in local or central Ministries) compensation expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of th{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43963,9 +43590,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Teacher compensation expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded from{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43975,9 +43602,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Expenditure on school books and teaching material expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44023,9 +43650,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Non-teacher (e.g. school directors, support staff, administrative staff in local or central Ministries) compensation expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of th{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44047,9 +43674,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Teacher compensation expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded from{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44095,9 +43722,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Non-teacher (e.g. school directors, support staff, administrative staff in local or central Ministries) compensation expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of th{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44119,9 +43746,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Teacher compensation expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded from{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44131,9 +43758,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Expenditure on school books and teaching material expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44179,9 +43806,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Non-teacher (e.g. school directors, support staff, administrative staff in local or central Ministries) compensation expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of th{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44203,9 +43830,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Teacher compensation expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded from{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44251,9 +43878,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Non-teacher (e.g. school directors, support staff, administrative staff in local or central Ministries) compensation expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of th{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44275,9 +43902,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Teacher compensation expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded from{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44323,9 +43950,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Non-teacher (e.g. school directors, support staff, administrative staff in local or central Ministries) compensation expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of th{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44347,9 +43974,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Teacher compensation expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded from{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44398,9 +44025,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Non-teacher (e.g. school directors, support staff, administrative staff in local or central Ministries) compensation expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of th{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44423,9 +44050,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Teacher compensation expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded from{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44459,9 +44086,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Non-teacher (e.g. school directors, support staff, administrative staff in local or central Ministries) compensation expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of th{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44483,9 +44110,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Teacher compensation expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded from{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44495,9 +44122,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44507,9 +44134,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44519,9 +44146,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44531,7 +44158,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. pri{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -44543,9 +44170,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44555,9 +44182,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44567,7 +44194,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. pri{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -44579,9 +44206,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44591,9 +44218,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44603,9 +44230,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44615,9 +44242,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44627,9 +44254,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44639,9 +44266,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44651,9 +44278,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44663,9 +44290,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44675,9 +44302,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44687,9 +44314,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44699,9 +44326,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44711,9 +44338,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44723,7 +44350,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed in purchasing power parity (PPP) dollars at constant prices. The constant prices base year is normally three y{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -44735,9 +44362,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44747,7 +44374,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed in purchasing power parity (PPP) dollars at constant prices. The constant prices base year is normally three y{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -44759,7 +44386,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed in purchasing power parity (PPP) dollars at constant prices. The constant prices base year is normally three y{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -44771,9 +44398,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44783,7 +44410,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed in purchasing power parity (PPP) dollars at constant prices. The constant prices base year is normally three y{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -44795,9 +44422,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44807,9 +44434,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44819,9 +44446,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44831,9 +44458,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44843,9 +44470,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44855,9 +44482,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44867,9 +44494,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44879,9 +44506,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44891,9 +44518,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44903,9 +44530,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44915,9 +44542,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44927,9 +44554,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44939,7 +44566,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed in US$ at market exchange rates, in constant prices. The constant prices base year is normally three years bef{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -44951,9 +44578,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44963,7 +44590,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed in US$ at market exchange rates, in constant prices. The constant prices base year is normally three years bef{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -44975,7 +44602,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed in US$ at market exchange rates, in constant prices. The constant prices base year is normally three years bef{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -44987,9 +44614,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -44999,7 +44626,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed in US$ at market exchange rates, in constant prices. The constant prices base year is normally three years bef{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -45011,9 +44638,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total general (local, regional and central, current and capital) initial government funding of education per student, which includes transfers paid (such as scholarships to students), but excludes transfers received, in this case international{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -45023,9 +44650,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Total payments of households (pupils, students and their families) for educational institutions (such as for tuition fees, exam and registration fees, contribution to Parent-Teacher associations or other school funds, and fees for canteen, boa{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -45094,4 +44721,8 @@
 
 
 
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check

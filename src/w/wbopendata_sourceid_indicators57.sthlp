@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1696,7 +1700,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Access to non-solid fuel is the percentage of population with access to non-solid fuel.{p_end}
 
@@ -4066,7 +4070,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Time to export is the time necessary to comply with all procedures required to export goods. Time is recorded in calendar days. The time calculation for a procedure starts from the moment it is initiated and runs until it is completed. If a pr{p_end}
 
@@ -4092,7 +4096,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}All documents required per shipment to import goods are recorded. It is assumed that the contract has already been agreed upon and signed by both parties. Documents required for clearance by government ministries, customs authorities, port and{p_end}
 
@@ -6871,6 +6875,32 @@
 
 
 {synoptline}
+{marker sourceid_PA.NUS.PPP.05}
+{synopt:{bf:{help wbopendata_sourceid##PA.NUS.PPP.05:PA.NUS.PPP.05} - 2005 PPP conversion factor, GDP (LCU per international $)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
+
+{synopt:{opt Source Notes}}Purchasing power parity conversion factor is the number of units of a country's currency required to buy the same amounts of goods and services in the domestic market as U.S. dollar would buy in the United States. This conversion factor is for{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
+
+
+{synoptline}
+{marker sourceid_PA.NUS.PRVT.PP.05}
+{synopt:{bf:{help wbopendata_sourceid##PA.NUS.PRVT.PP.05:PA.NUS.PRVT.PP.05} - 2005 PPP conversion factor, private consumption (LCU per international $)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
+
+{synopt:{opt Source Notes}}Purchasing power parity conversion factor is the number of units of a country's currency required to buy the same amounts of goods and services in the domestic market as U.S. dollar would buy in the United States. This conversion factor is for{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
+
+
+{synoptline}
 {marker sourceid_PA.PPR.MAIZ.CD}
 {synopt:{bf:{help wbopendata_sourceid##PA.PPR.MAIZ.CD:PA.PPR.MAIZ.CD} - Maize price (US$ per metric ton)}}
 
@@ -7721,7 +7751,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}08 Health{p_end}
+=======
+{synopt:{opt Topics}}19 Climate Change{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Access to an improved water source, urban, refers to the percentage of the urban population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located{p_end}
 
@@ -7734,7 +7768,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}08 Health{p_end}
+=======
+{synopt:{opt Topics}}19 Climate Change{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Access to an improved water source refers to the percentage of the population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the use{p_end}
 
@@ -8200,7 +8238,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural secto{p_end}
 
@@ -8225,7 +8263,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Ratio of female to male wages in manufacturing refers to female to male wages and salaries in manufacturing.{p_end}
 
@@ -8275,7 +8313,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}04 Education{p_end}
+=======
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Female labor force with primary education is the share of the female labor force that attained or completed primary education as the highest level of education.{p_end}
 
@@ -8288,7 +8330,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}04 Education{p_end}
+=======
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Male labor force with primary education is the share of the male labor force that attained or completed primary education as the highest level of education.{p_end}
 
@@ -8327,7 +8373,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with secondary education is the share of the male labor force that attained or completed secondary education as the highest level of education.{p_end}
 
@@ -8340,7 +8386,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Labor force with secondary education is the share of the total labor force that attained or completed secondary education as the highest level of education.{p_end}
 
@@ -8366,7 +8412,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with tertiary education is the share of the male labor force that attained or completed tertiary education as the highest level of education.{p_end}
 
@@ -8468,7 +8514,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Male unemployment with primary education is the share of the male unemployed who attained or completed primary education as the highest level.{p_end}
 
@@ -8546,7 +8592,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}08 Health{p_end}
+=======
+{synopt:{opt Topics}}04 Education{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Emigration rate of tertiary educated shows the stock of emigrants ages 25 and older, residing in an OECD country other than that in which they were born, with at least one year of tertiary education as a percentage of the population age 25 and{p_end}
 
@@ -8696,6 +8746,32 @@
 {synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SP.DTH.INFR.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SP.DTH.INFR.ZS:SP.DTH.INFR.ZS} - Completeness of infant death reporting (% of reported infant deaths to estimated infant deaths)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Completeness of infant death reporting is the number of infant deaths reported by national statistics authorities to the United Nations Statistics Division's Demography Yearbook divided by the number of infant deaths estimated by the United Na{p_end}
+
+{synopt:{opt Source Organization}}The United Nations Statistics Division's Population and Vital Statistics Report and the United Nations Population Division's World Population Prospects.{p_end}
+
+
+{synoptline}
+{marker sourceid_SP.DTH.REPT.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SP.DTH.REPT.ZS:SP.DTH.REPT.ZS} - Completeness of total death reporting (% of reported total deaths to estimated total deaths)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Completeness of total death reporting is the number of total deaths reported by national statistics authorities to the United Nations Statistics Division's Demography Yearbook divided by the number of total deaths estimated by the United Natio{p_end}
+
+{synopt:{opt Source Organization}}The United Nations Statistics Division's Population and Vital Statistics Report and the United Nations Population Division's World Population Prospects.{p_end}
 
 
 {synoptline}
@@ -10158,4 +10234,8 @@
 
 
 
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check

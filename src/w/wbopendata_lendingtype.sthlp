@@ -2,7 +2,11 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
+<<<<<<< HEAD
 {title:Lending Type  (as of 29oct2019)}
+=======
+{title:Lending Type  (as of 12apr2020)}
+>>>>>>> check
 
 {marker IBD}
 {p 20 20 2}(Go up to {it:{help wbopendata##lendingtype:Lending Type }}){p_end}

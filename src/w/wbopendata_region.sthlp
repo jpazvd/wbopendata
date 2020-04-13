@@ -2,7 +2,11 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
+<<<<<<< HEAD
 {title:Region  (as of 29oct2019)}
+=======
+{title:Region  (as of 12apr2020)}
+>>>>>>> check
 
 {marker EAS}
 {p 20 20 2}(Go up to {it:{help wbopendata##region:Region }}){p_end}
