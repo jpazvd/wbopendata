@@ -1,7 +1,7 @@
-v 16.0
+v 16.1
 d 'WBOPENDATA'
 d 
-d Distribution-Date: 28Oct2019
+d Distribution-Date: 12Apr2020
 d License: MIT
 d 
 F src/c/country.txt
@@ -17,60 +17,6 @@ F src/w/wbopendata_lendingtype.sthlp
 F src/w/wbopendata_populate_list.ado
 F src/w/wbopendata_region.sthlp
 F src/w/wbopendata_sourceid.sthlp
-<<<<<<< HEAD
-F src/w/wbopendata_sourceid_indicators01.sthlp
-F src/w/wbopendata_sourceid_indicators02.sthlp
-F src/w/wbopendata_sourceid_indicators03.sthlp
-F src/w/wbopendata_sourceid_indicators05.sthlp
-F src/w/wbopendata_sourceid_indicators06.sthlp
-F src/w/wbopendata_sourceid_indicators11.sthlp
-F src/w/wbopendata_sourceid_indicators12.sthlp
-F src/w/wbopendata_sourceid_indicators13.sthlp
-F src/w/wbopendata_sourceid_indicators14.sthlp
-F src/w/wbopendata_sourceid_indicators15.sthlp
-F src/w/wbopendata_sourceid_indicators16.sthlp
-F src/w/wbopendata_sourceid_indicators18.sthlp
-F src/w/wbopendata_sourceid_indicators19.sthlp
-F src/w/wbopendata_sourceid_indicators20.sthlp
-F src/w/wbopendata_sourceid_indicators22.sthlp
-F src/w/wbopendata_sourceid_indicators23.sthlp
-F src/w/wbopendata_sourceid_indicators24.sthlp
-F src/w/wbopendata_sourceid_indicators25.sthlp
-F src/w/wbopendata_sourceid_indicators27.sthlp
-F src/w/wbopendata_sourceid_indicators28.sthlp
-F src/w/wbopendata_sourceid_indicators29.sthlp
-F src/w/wbopendata_sourceid_indicators30.sthlp
-F src/w/wbopendata_sourceid_indicators32.sthlp
-F src/w/wbopendata_sourceid_indicators33.sthlp
-F src/w/wbopendata_sourceid_indicators34.sthlp
-F src/w/wbopendata_sourceid_indicators35.sthlp
-F src/w/wbopendata_sourceid_indicators36.sthlp
-F src/w/wbopendata_sourceid_indicators37.sthlp
-F src/w/wbopendata_sourceid_indicators39.sthlp
-F src/w/wbopendata_sourceid_indicators40.sthlp
-F src/w/wbopendata_sourceid_indicators41.sthlp
-F src/w/wbopendata_sourceid_indicators45.sthlp
-F src/w/wbopendata_sourceid_indicators46.sthlp
-F src/w/wbopendata_sourceid_indicators50.sthlp
-F src/w/wbopendata_sourceid_indicators54.sthlp
-F src/w/wbopendata_sourceid_indicators57.sthlp
-F src/w/wbopendata_sourceid_indicators59.sthlp
-F src/w/wbopendata_sourceid_indicators60.sthlp
-F src/w/wbopendata_sourceid_indicators61.sthlp
-F src/w/wbopendata_sourceid_indicators62.sthlp
-F src/w/wbopendata_sourceid_indicators63.sthlp
-F src/w/wbopendata_sourceid_indicators64.sthlp
-F src/w/wbopendata_sourceid_indicators65.sthlp
-F src/w/wbopendata_sourceid_indicators66.sthlp
-F src/w/wbopendata_sourceid_indicators67.sthlp
-F src/w/wbopendata_sourceid_indicators69.sthlp
-F src/w/wbopendata_sourceid_indicators70.sthlp
-F src/w/wbopendata_sourceid_indicators71.sthlp
-F src/w/wbopendata_sourceid_indicators73.sthlp
-F src/w/wbopendata_sourceid_indicators74.sthlp
-F src/w/wbopendata_sourceid_indicators75.sthlp
-=======
->>>>>>> check
 F src/w/wbopendata_topicid.sthlp
 F src/w/world-c.dta
 F src/w/world-d.dta
