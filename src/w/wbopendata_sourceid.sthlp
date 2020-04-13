@@ -1,9 +1,5 @@
 {smcl}
-<<<<<<< HEAD
-{right:(as of 29oct2019)}
-=======
-{right:(as of 12apr2020)}
->>>>>>> check
+{right:(as of 13apr2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -35443,8 +35439,4 @@
 {synopt:{help wbopendata_sourceid_indicators75##sourceid_EN.CLC.SPEI.XD:EN.CLC.SPEI.XD{marker EN.CLC.SPEI.XD}}}Mean Drought Index (SPEI){p_end}
 {synoptline}
 
-<<<<<<< HEAD
-{right:(as of 29oct2019)}
-=======
-{right:(as of 12apr2020)}
->>>>>>> check
+{right:(as of 13apr2020)}
