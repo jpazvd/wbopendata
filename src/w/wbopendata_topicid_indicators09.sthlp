@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -711,7 +715,7 @@
 
 {synopt:{opt Source Notes}}Personal computers are self-contained computers designed to be used by a single individual.{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database, and World Bank estimates.{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -1014,4 +1018,8 @@
 
 
 
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check

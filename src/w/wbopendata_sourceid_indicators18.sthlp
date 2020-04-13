@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -68,18 +72,6 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:18 IDA Results Measurement System}}}
 {synoptline}
-{marker sourceid_EG.ELC.HOUS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EG.ELC.HOUS.ZS:EG.ELC.HOUS.ZS} - Household electrification rate (% of households)}}
-
-{synopt:{opt Source}}18 IDA Results Measurement System{p_end}
-
-
-{synopt:{opt Source Notes}}Household electrification rate is defined as the percentage of households with access to electricity and is measured using household surveys (e.g. Demographic and Health Surveys, Living Standard Measurement Surveys). Household surveys provide{p_end}
-
-{synopt:{opt Source Organization}}Compiled by World Bank staff from household surveys.{p_end}
-
-
-{synoptline}
 {marker sourceid_ER.FST.DFST.ZG}
 {synopt:{bf:{help wbopendata_sourceid##ER.FST.DFST.ZG:ER.FST.DFST.ZG} - Annual deforestation (% of change)}}
 
@@ -91,17 +83,9 @@
 {synopt:{opt Source Organization}}Food and Agriculture Organization, Global Forest Resources Assessment.{p_end}
 
 
-{synoptline}
-{marker sourceid_IS.ROD.ALLS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IS.ROD.ALLS.ZS:IS.ROD.ALLS.ZS} - Access to an all-season road (% of rural population)}}
 
-{synopt:{opt Source}}18 IDA Results Measurement System{p_end}
-
-
-{synopt:{opt Source Notes}}Access to an all-season road is measured as the proportion of rural people who live within 2 kilometers (typically equivalent to a 20-minute walk) of an all-season road. An all-season road is a road that is motorable all year by the prevailing{p_end}
-
-{synopt:{opt Source Organization}}Compiled by World Bank staff from household surveys, specifically Living Standard Measurement Surveys (LSMS), Income/Expenditure Household Surveys (IES), Poverty Surveys (PS) and Core Welfare Indicators Questionnaires (CWIQ) carried out betwee{p_end}
-
-
-
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check
