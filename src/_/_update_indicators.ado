@@ -1,5 +1,8 @@
 *******************************************************************************
 * _update_indicators                                                                   
+*! v 16.1   12Apr2020				by João Pedro Azevedo
+*		increase documentation
+*		change the creation of the medata files for SOURCEID and TOPICID
 *! v 16.0   27Oct2019				by João Pedro Azevedo
 *		fix macros
 *******************************************************************************
@@ -31,6 +34,8 @@ version 9
 	set checksum off
 
 *******************************************************************************
+* download and created metadata files in case these are not available 
+*******************************************************************************
 
 if ("`file'" == "") {
 
@@ -49,6 +54,9 @@ if ("`file'" != "") {
 }
 
 *******************************************************************************
+* Open files and prepare database to auto-update the documentation
+*******************************************************************************
+
 quietly {
 
 	insheet using `file2', delimiter("#") clear name
@@ -100,9 +108,11 @@ quietly {
 	* save files with all INDICATORS + SOURCEID + TOPICID
 	save `tmp', replace
 		
-********************************************
-/* Create Indicator list for dialogue box */
-********************************************
+********************************************************************************
+* Create Indicator list for dialogue box 
+* if noindlist == to missing this section of the code is skipped
+* this is a txt file 
+********************************************************************************
 
 if ("`noindlist'" == "") {
 
@@ -141,7 +151,10 @@ if ("`noindlist'" == "") {
 }
 
 *******************************************************************************
-* create sthlp files (sourceid and topicid)
+* create sthlp files (sourceid and topicid) 
+* if NOSTHLP1 == to missing this part of the code is skipped
+*  creates a single file for sourcid with all indicators by sourceid
+*  creates a single file for topicid with all indicators by topicid
 *******************************************************************************
 
 if ("`nosthlp1'" == "") {
@@ -276,9 +289,12 @@ if ("`nosthlp1'" == "") {
 
 }
 		
-	*******************************************************************************
-	* create sthlp files (sourceid_indicators and topicid_indicators)
-	*******************************************************************************
+*******************************************************************************
+* create sthlp files (sourceid_indicators and topicid_indicators)
+* if NOSTHLP2 == to missing this part of the code is skipped
+* multiple files for sourcid
+* multiple fiels for topicid
+*******************************************************************************
 
 if ("`nosthlp2'" == "") {
 		
@@ -288,9 +304,12 @@ if ("`nosthlp2'" == "") {
 
 	local date: disp %td date("`c(current_date)'", "DMY")
 		
+	* loop through sourcid and topicid	
 	qui foreach variable in sourceid topicid  {
 	
+		* created tempfiles
 		tempfile help`variable' tmp2`variable'
+		create temp variable names
 		tempname hlp`variable'  dups`variable'  seq2`variable' seq3`variable' code`variable' tot`variable'
 
 		use `tmp', clear
@@ -312,7 +331,7 @@ if ("`nosthlp2'" == "") {
 
 	
 	/**************** header ********************/
-
+	
 		levelsof `variable'
 		local levelsof2 `"`r(levels)'"'
 		`noi' di `"`levelsof2'"'
@@ -321,6 +340,7 @@ if ("`nosthlp2'" == "") {
 		
 		save `tmp2`variable'' , replace
 
+		* loop toics l
 		qui foreach topic1 in `levelsof2'  {	
 				
 			use `tmp2`variable'', clear

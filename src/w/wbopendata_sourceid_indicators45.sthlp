@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -86,7 +90,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -98,7 +102,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -110,7 +114,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -122,7 +126,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -134,7 +138,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -146,7 +150,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -158,7 +162,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -170,7 +174,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -182,7 +186,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -194,7 +198,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -206,7 +210,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -218,7 +222,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -230,7 +234,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -242,7 +246,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -254,7 +258,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -266,7 +270,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -338,7 +342,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}An indicator of price movements of goods and services consumed by households in urban areas based on retail transactions.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -350,7 +354,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}An indicator of price movements of goods and services consumed by households in urban areas based on retail transactions.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -362,9 +366,21 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}An indicator of price movements of goods and services consumed by households in urban areas based on retail transactions.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
+{marker sourceid_EP.CPI.2012}
+{synopt:{bf:{help wbopendata_sourceid##EP.CPI.2012:EP.CPI.2012} - Consumer Price Index in 82 cities base 2012}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -710,7 +726,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Safe water consists bottled water, refill water, tap water, protected well with distance &gt;=10m from septic tank, protected spring with distance &gt;=10m from septic tank.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
@@ -734,7 +750,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Safe Sanitation means each households has private toilet and not using shared/public toilet.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
@@ -800,6 +816,18 @@
 
 
 {synoptline}
+{marker sourceid_IDX.HDI.REV}
+{synopt:{bf:{help wbopendata_sourceid##IDX.HDI.REV:IDX.HDI.REV} - Human Development Index, revised method}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_LND.TOTL.K2}
 {synopt:{bf:{help wbopendata_sourceid##LND.TOTL.K2:LND.TOTL.K2} - Total Area (in Km²)}}
 
@@ -809,6 +837,30 @@
 {synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.ACC.FB.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.ACC.FB.SNA08.CR:NA.GDP.ACC.FB.SNA08.CR} - GDP on Accommodation &amp; Food Beverages Activity Sector (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.ACC.FB.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.ACC.FB.SNA08.KR:NA.GDP.ACC.FB.SNA08.KR} - GDP on Accommodation &amp; Food Beverages Activity Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -836,13 +888,61 @@
 
 
 {synoptline}
+{marker sourceid_NA.GDP.AGR.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.AGR.SNA08.CR:NA.GDP.AGR.SNA08.CR} - GDP on Agriculture, Forestry &amp; Fisheries Sector (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.AGR.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.AGR.SNA08.KR:NA.GDP.AGR.SNA08.KR} - GDP on Agriculture, Forestry &amp; Fisheries Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.BUSS.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.BUSS.SNA08.CR:NA.GDP.BUSS.SNA08.CR} - GDP on Business Services Sector (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.BUSS.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.BUSS.SNA08.KR:NA.GDP.BUSS.SNA08.KR} - GDP on Business Services Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_NA.GDP.CNST.CR}
 {synopt:{bf:{help wbopendata_sourceid##NA.GDP.CNST.CR:NA.GDP.CNST.CR} - GDP on Construction Sector (in IDR Million), Current Price}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Construction is an economic activity which produces physical structures. Physical structures include: buildings; roads; bridges; railways and bridgeways; tunnel subways; viaducts and drainage; sanitary construction; airport terminals and airf{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -854,9 +954,81 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Construction is an economic activity which produces physical structures. Physical structures include: buildings; roads; bridges; railways and bridgeways; tunnel subways; viaducts and drainage; sanitary construction; airport terminals and airf{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.CNST.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.CNST.SNA08.CR:NA.GDP.CNST.SNA08.CR} - GDP on Construction Sector (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.CNST.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.CNST.SNA08.KR:NA.GDP.CNST.SNA08.KR} - GDP on Construction Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.EDUS.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.EDUS.SNA08.CR:NA.GDP.EDUS.SNA08.CR} - GDP on Education Services Sector (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.EDUS.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.EDUS.SNA08.KR:NA.GDP.EDUS.SNA08.KR} - GDP on Education Services Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.ELEC.GAS.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.ELEC.GAS.SNA08.CR:NA.GDP.ELEC.GAS.SNA08.CR} - GDP on Electricity &amp; Gas Supply Sector (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.ELEC.GAS.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.ELEC.GAS.SNA08.KR:NA.GDP.ELEC.GAS.SNA08.KR} - GDP on Electricity &amp; Gas Supply Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -908,6 +1080,54 @@
 
 
 {synoptline}
+{marker sourceid_NA.GDP.FINS.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.FINS.SNA08.CR:NA.GDP.FINS.SNA08.CR} - GDP on Financial &amp; Insurance Activity Sector (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.FINS.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.FINS.SNA08.KR:NA.GDP.FINS.SNA08.KR} - GDP on Financial &amp; Insurance Activity Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.HLTH.SOCW.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.HLTH.SOCW.SNA08.CR:NA.GDP.HLTH.SOCW.SNA08.CR} - GDP on Human Health &amp; Social Work Activity Sector (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.HLTH.SOCW.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.HLTH.SOCW.SNA08.KR:NA.GDP.HLTH.SOCW.SNA08.KR} - GDP on Human Health &amp; Social Work Activity Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_NA.GDP.INC.OG.CR}
 {synopt:{bf:{help wbopendata_sourceid##NA.GDP.INC.OG.CR:NA.GDP.INC.OG.CR} - Total GDP including Oil and Gas (in IDR Million), Current Price}}
 
@@ -932,13 +1152,61 @@
 
 
 {synoptline}
+{marker sourceid_NA.GDP.INC.OG.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.INC.OG.SNA08.CR:NA.GDP.INC.OG.SNA08.CR} - Total GDP including Oil and Gas (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.INC.OG.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.INC.OG.SNA08.KR:NA.GDP.INC.OG.SNA08.KR} - Total GDP including Oil and Gas (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.INF.COMM.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.INF.COMM.SNA08.CR:NA.GDP.INF.COMM.SNA08.CR} - GDP on Information &amp; Communication Sector (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.INF.COMM.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.INF.COMM.SNA08.KR:NA.GDP.INF.COMM.SNA08.KR} - GDP on Information &amp; Communication Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_NA.GDP.MINQ.CR}
 {synopt:{bf:{help wbopendata_sourceid##NA.GDP.MINQ.CR:NA.GDP.MINQ.CR} - GDP on Mining and Quarrying Sector (in IDR Million), Current Price}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Mining is an economic activity which extracts minerals (in solid, liquid or gas form) and prepares these items for further processing. Quarrying is an economic activity that covers all extraction of quarried commodities. Quarried commodities a{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -950,9 +1218,33 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Mining is an economic activity which extracts minerals (in solid, liquid or gas form) and prepares these items for further processing. Quarrying is an economic activity that covers all extraction of quarried commodities. Quarried commodities a{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.MINQ.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.MINQ.SNA08.CR:NA.GDP.MINQ.SNA08.CR} - GDP on Mining &amp; Quarrying Sector (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.MINQ.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.MINQ.SNA08.KR:NA.GDP.MINQ.SNA08.KR} - GDP on Mining &amp; Quarrying Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -962,7 +1254,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Manufacturing is an economic activity involving processing materials and transforming them mechanically, chemically, or manually into finished or semi finished products and/or converting them into other goods having higher value and closer to{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -974,9 +1266,81 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Manufacturing is an economic activity involving processing materials and transforming them mechanically, chemically, or manually into finished or semi finished products and/or converting them into other goods having higher value and closer to{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.MNF.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.MNF.SNA08.CR:NA.GDP.MNF.SNA08.CR} - GDP on Manufacturing Industry Sector (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.MNF.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.MNF.SNA08.KR:NA.GDP.MNF.SNA08.KR} - GDP on Manufacturing Industry Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.PADM.DEF.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.PADM.DEF.SNA08.CR:NA.GDP.PADM.DEF.SNA08.CR} - GDP on Public Administration, Defense &amp; Compulsory Social Security Sector (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.PADM.DEF.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.PADM.DEF.SNA08.KR:NA.GDP.PADM.DEF.SNA08.KR} - GDP on Public Administration, Defense &amp; Compulsory Social Security Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.REST.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.REST.SNA08.CR:NA.GDP.REST.SNA08.CR} - GDP on Real Estate Sector (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.REST.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.REST.SNA08.KR:NA.GDP.REST.SNA08.KR} - GDP on Real Estate Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -1004,6 +1368,30 @@
 
 
 {synoptline}
+{marker sourceid_NA.GDP.SRV.OTHR.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.SRV.OTHR.SNA08.CR:NA.GDP.SRV.OTHR.SNA08.CR} - GDP on Other Services Sector (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.SRV.OTHR.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.SRV.OTHR.SNA08.KR:NA.GDP.SRV.OTHR.SNA08.KR} - GDP on Other Services Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_NA.GDP.TRAN.COMM.CR}
 {synopt:{bf:{help wbopendata_sourceid##NA.GDP.TRAN.COMM.CR:NA.GDP.TRAN.COMM.CR} - GDP on Transportation and Telecommunication Sector (in IDR Million), Current Price}}
 
@@ -1025,6 +1413,30 @@
 {synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.TRAN.STOR.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.TRAN.STOR.SNA08.CR:NA.GDP.TRAN.STOR.SNA08.CR} - GDP on Transportation &amp; Storage Sector (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.TRAN.STOR.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.TRAN.STOR.SNA08.KR:NA.GDP.TRAN.STOR.SNA08.KR} - GDP on Transportation &amp; Storage Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -1052,6 +1464,30 @@
 
 
 {synoptline}
+{marker sourceid_NA.GDP.TRD.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.TRD.SNA08.CR:NA.GDP.TRD.SNA08.CR} - GDP on Wholesales &amp; Retail Trade, Repair of Motor Vehicles &amp; Motorcycles Sector (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.TRD.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.TRD.SNA08.KR:NA.GDP.TRD.SNA08.KR} - GDP on Wholesales &amp; Retail Trade, Repair of Motor Vehicles &amp; Motorcycles Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_NA.GDP.UTL.CR}
 {synopt:{bf:{help wbopendata_sourceid##NA.GDP.UTL.CR:NA.GDP.UTL.CR} - GDP on Utilities Sector (in IDR Million), Current Price}}
 
@@ -1076,15 +1512,51 @@
 
 
 {synoptline}
-{marker sourceid_NE.GDI.CON.GOVT.CR}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.CON.GOVT.CR:NE.GDI.CON.GOVT.CR} - GDP expenditure on general government consumption (in IDR Million)}}
+{marker sourceid_NA.GDP.WTR.WST.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.WTR.WST.SNA08.CR:NA.GDP.WTR.WST.SNA08.CR} - GDP on Water Supply, Sewerage, Waste &amp; Recycling Management Sector (in IDR Million), SNA 2008, Current Price}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
 
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NA.GDP.WTR.WST.SNA08.KR}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.WTR.WST.SNA08.KR:NA.GDP.WTR.WST.SNA08.KR} - GDP on Water Supply, Sewerage, Waste &amp; Recycling Management Sector (in IDR Million), SNA 2008, Constant Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NE.GDI.CON.GOVT.CR}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.CON.GOVT.CR:NE.GDI.CON.GOVT.CR} - GDP expenditure on general government consumption (in IDR Million)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}The Indonesian general government sector is classified into two categories: central government; and local government. Central government covers all government bodies affiliated to central government, including all vertical regional boundaries.{p_end}
+
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
+{marker sourceid_NE.GDI.CON.GOVT.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.CON.GOVT.SNA08.CR:NE.GDI.CON.GOVT.SNA08.CR} - GDP expenditure on general government consumption (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -1100,6 +1572,18 @@
 
 
 {synoptline}
+{marker sourceid_NE.GDI.CON.NPI.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.CON.NPI.SNA08.CR:NE.GDI.CON.NPI.SNA08.CR} - GDP expenditure on non profit private institution consumption (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_NE.GDI.CON.PRVT.CR}
 {synopt:{bf:{help wbopendata_sourceid##NE.GDI.CON.PRVT.CR:NE.GDI.CON.PRVT.CR} - GDP expenditure on private consumption (in IDR Million)}}
 
@@ -1112,15 +1596,39 @@
 
 
 {synoptline}
-{marker sourceid_NE.GDI.EXPT.CR}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.EXPT.CR:NE.GDI.EXPT.CR} - GDP expenditure on exports (in IDR Million)}}
+{marker sourceid_NE.GDI.CON.PRVT.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.CON.PRVT.SNA08.CR:NE.GDI.CON.PRVT.SNA08.CR} - GDP expenditure on private consumption (in IDR Million), SNA 2008, Current Price}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
 
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NE.GDI.EXPT.CR}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.EXPT.CR:NE.GDI.EXPT.CR} - GDP expenditure on exports (in IDR Million)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Export is a trade of goods and services provided by citizens of a country to citizens of another country in exchange for foreign currency. Export creates influx of foreign currency.{p_end}
+
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
+{marker sourceid_NE.GDI.EXPT.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.EXPT.SNA08.CR:NE.GDI.EXPT.SNA08.CR} - GDP expenditure on exports (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -1130,9 +1638,21 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Gross fixed capital formation is expenditure for capital goods which have an effective life of more than one year and which do not represent commodities for consumption. Gross fixed capital formation includes residential and non residential bu{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
+{marker sourceid_NE.GDI.FTOT.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FTOT.SNA08.CR:NE.GDI.FTOT.SNA08.CR} - GDP expenditure on gross fixed capital formation (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -1142,9 +1662,33 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Import is a trade of goods and services required by citizens of a country from citizens of other country in exchange for foreign currency. Import creates outflux of foreign currency.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
+{marker sourceid_NE.GDI.IMPT.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.IMPT.SNA08.CR:NE.GDI.IMPT.SNA08.CR} - GDP expenditure on imports (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_NE.GDI.INEX.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.INEX.SNA08.CR:NE.GDI.INEX.SNA08.CR} - GDP expenditure on inter-region net exports (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -1154,9 +1698,21 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Stock change in a particular year is defined as the difference between the year's final stock and the initial stock. Stock may consist of intermediate goods to be used in the production process, semi-finished goods and unsold finished goods. T{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
+{marker sourceid_NE.GDI.STKB.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STKB.SNA08.CR:NE.GDI.STKB.SNA08.CR} - GDP expenditure on changes in stock (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -1169,6 +1725,18 @@
 {synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
+{marker sourceid_NE.GDI.TOTL.SNA08.CR}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.TOTL.SNA08.CR:NE.GDI.TOTL.SNA08.CR} - Total GDP based on expenditure (in IDR Million), SNA 2008, Current Price}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -1430,9 +1998,9 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Specific Allocation Grant (DAK) is a fund sourced from revenue in the Central Budget (APBN) allocated to a certain region with the aim of funding special activities of the region in accordance with national priorities. The DAK allocation h{p_end}
 
-{synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
+{synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget) and LKPP (Central Government Financial Report){p_end}
 
 
 {synoptline}
@@ -1442,9 +2010,9 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The General Allocation Grant (DAU) is a fund sourced from the Central Budget (APBN) allocated to bring equality in the financial capacity among the regions to finance the need of the regions in implementation of decentralization. It is a discr{p_end}
 
-{synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
+{synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget) and LKPP (Central Government Financial Report){p_end}
 
 
 {synoptline}
@@ -1454,7 +2022,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Revenue Sharing Fund (DBH) is a vertical equalization grant, which shares tax and natural resource revenues with all districts with a larger proportion of revenues going to resource-rich districts where the revenues originated. DBH consist{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -1490,9 +2058,9 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Revenue Sharing Fund (DBH) is a vertical equalization grant, which shares tax, natural resource, and tobacco excise revenues with all districts with a larger proportion of revenues going to resource-rich districts where the revenues origin{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget) and LKPP (Central Government Financial Report){p_end}
 
 
 {synoptline}
@@ -1514,7 +2082,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The Revenue Sharing Fund (DBH) is a vertical equalization grant, which shares tax and natural resource revenues with all districts with a larger proportion of revenues going to resource-rich districts where the revenues originated. DBH consist{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -1910,7 +2478,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The primary net enrolment ratio is a comparative figure for the number of primary school students to the number of population aged 7-12, expressed as a percentage.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
@@ -1922,14 +2490,14 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Literacy Rate is the population aged 15 years and over who are able to read and write latin, arabic or other scripts, presented in percentage terms.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
 
 {synoptline}
 {marker sourceid_SE.NEXM.SCR.JRSEC}
-{synopt:{bf:{help wbopendata_sourceid##SE.NEXM.SCR.JRSEC:SE.NEXM.SCR.JRSEC} - Average National Exam Score: Junior Secondary Level (out of 100, available only in district level for 2009)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.NEXM.SCR.JRSEC:SE.NEXM.SCR.JRSEC} - Average National Exam Score: Junior Secondary Level (out of 100, available only at district level)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1941,7 +2509,7 @@
 
 {synoptline}
 {marker sourceid_SE.NEXM.SCR.PRM}
-{synopt:{bf:{help wbopendata_sourceid##SE.NEXM.SCR.PRM:SE.NEXM.SCR.PRM} - Average National Exam Score: Primary Level (out of 100, available only in district level for 2009)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.NEXM.SCR.PRM:SE.NEXM.SCR.PRM} - Average National Exam Score: Primary Level (out of 100, available only at district level)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1953,7 +2521,7 @@
 
 {synoptline}
 {marker sourceid_SE.NEXM.SCR.SRSEC}
-{synopt:{bf:{help wbopendata_sourceid##SE.NEXM.SCR.SRSEC:SE.NEXM.SCR.SRSEC} - Average National Exam Score: Senior Secondary Level (out of 100, available only in district level for 2009)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.NEXM.SCR.SRSEC:SE.NEXM.SCR.SRSEC} - Average National Exam Score: Senior Secondary Level (out of 100, available only at district level)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1970,7 +2538,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The senior secondary net enrolment ratio is a comparative figure for the number of senior secondary school students to the number of population aged 16-18, expressed as a percentage.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
@@ -2018,7 +2586,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The junior secondary net enrolment ratio is a comparative figure for the number of junior secondary school students to the number of population aged 13-15, expressed as a percentage.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
@@ -2126,7 +2694,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Immunization is the process whereby weakened bacteria is injected or taken orally for the purpose of developing an immunity towards a particular disease.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
@@ -2198,7 +2766,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Poverty line is an indicator of household expenditure to measure how much poor people live in particular district. Every people who has per capita expenditure below the poverty line will be deemed as poor people.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -2210,7 +2778,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Poverty Rate: Number of people live below the poverty line compared to total population.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -2222,9 +2790,21 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Poverty Gap index: Average gap between expenditure of poor people and the poverty line.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
+{marker sourceid_SI.POV.NSEV}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.NSEV:SI.POV.NSEV} - Poverty Severity (index)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -2234,7 +2814,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}All persons who worked for pay or assisted others in obtaining pay or profit for the duration at least one hour during the survey week, and are mainly employed in the agriculture, forestry and fishery sector.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
@@ -2246,7 +2826,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}All persons who worked for pay or assisted others in obtaining pay or profit for the duration at least one hour during the survey week, and are mainly employed in the construction sector.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
@@ -2258,7 +2838,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}All persons who worked for pay or assisted others in obtaining pay or profit for the duration at least one hour during the survey week, and are mainly employed in the electricity and utilities sector.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
@@ -2270,7 +2850,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}All persons who worked for pay or assisted others in obtaining pay or profit for the duration at least one hour during the survey week, and are mainly employed in the financial services sector.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
@@ -2282,7 +2862,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}All persons who worked for pay or assisted others in obtaining pay or profit for the duration at least one hour during the survey week, and are mainly employed in the industrial sector.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
@@ -2294,7 +2874,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}All persons who worked for pay or assisted others in obtaining pay or profit for the duration at least one hour during the survey week, and are mainly employed in the mining and quarrying sector.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
@@ -2306,7 +2886,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}All persons who worked for pay or assisted others in obtaining pay or profit for the duration at least one hour during the survey week, and are mainly employed in the social services sector.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
@@ -2318,7 +2898,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}All persons who worked for pay or assisted others in obtaining pay or profit for the duration at least one hour during the survey week, and are mainly employed in the trade, hotel and restaurant sector.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
@@ -2330,7 +2910,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}All persons who worked for pay or assisted others in obtaining pay or profit for the duration at least one hour during the survey week, and are mainly employed in the transportation and telecommunication sector.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
@@ -2342,7 +2922,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}All persons who worked for pay or assisted others in obtaining pay or profit for less than 35 hours per week.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
@@ -2354,7 +2934,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Persons 15 year old and over who were working, temporarily absent from work but having jobs, which both are categorized as employed, and those who did not have work and were looking for work.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
@@ -2366,19 +2946,19 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Unemployed is a person in the labour force, who at the reference period, did not have a job but was actively looking for one.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
 
 {synoptline}
 {marker sourceid_SP.URB.TOTL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.URB.TOTL.ZS:SP.URB.TOTL.ZS} - Percentage of Population in Urban Areas (only 2005 and 2010) (in % of Total Population)}}
+{synopt:{bf:{help wbopendata_sourceid##SP.URB.TOTL.ZS:SP.URB.TOTL.ZS} - Percentage of Population in Urban Areas (in % of Total Population)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Urban Area Refers to a village equivalent administrative area which satisfies certain criteria in terms of population density, percentage of agricultural households, and a number of urban facilities such as roads, formal education facilities,{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -2624,4 +3204,8 @@
 
 
 
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check

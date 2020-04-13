@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -165,7 +169,7 @@
 
 {synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -178,7 +182,7 @@
 
 {synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -308,7 +312,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -321,7 +325,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -334,7 +338,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -347,7 +351,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15-64 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -360,7 +364,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15-64 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -373,7 +377,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15-64 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -386,7 +390,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -399,7 +403,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -412,7 +416,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -425,7 +429,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -494,4 +498,8 @@
 
 
 
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check

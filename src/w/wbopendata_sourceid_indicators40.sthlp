@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -294,7 +298,7 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}15 Social Development{p_end}
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
@@ -2270,4 +2274,8 @@
 
 
 
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check

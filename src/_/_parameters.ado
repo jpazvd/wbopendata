@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 *! _parameters <3 Nov 2019 : 17:33:26>    João Pedro Azevedo 
+=======
+<<<<<<< HEAD
+*! _parameters <2 Nov 2019 : 14:35:01>    João Pedro Azevedo 
+=======
+*! _parameters <12 Apr 2020 : 19:34:31>    João Pedro Azevedo 
+>>>>>>> check
+>>>>>>> develop
 
 program define _parameters, rclass
 
@@ -7,20 +15,20 @@ version 9
              return add
 
 
-             return local total = 17298 
+             return local total = 17338 
 
-             return local sourceid01 = 190 
-             return local sourceid02 = 1422 
+             return local sourceid01 = 201 
+             return local sourceid02 = 1420 
              return local sourceid03 = 36 
              return local sourceid05 = 5 
              return local sourceid06 = 455 
              return local sourceid11 = 838 
-             return local sourceid12 = 3643 
+             return local sourceid12 = 3612 
              return local sourceid13 = 89 
-             return local sourceid14 = 246 
+             return local sourceid14 = 258 
              return local sourceid15 = 38 
              return local sourceid16 = 112 
-             return local sourceid18 = 3 
+             return local sourceid18 = 1 
              return local sourceid19 = 20 
              return local sourceid20 = 564 
              return local sourceid22 = 1800 
@@ -40,11 +48,11 @@ version 9
              return local sourceid39 = 420 
              return local sourceid40 = 175 
              return local sourceid41 = 185 
-             return local sourceid45 = 213 
+             return local sourceid45 = 261 
              return local sourceid46 = 2 
              return local sourceid50 = 1 
              return local sourceid54 = 28 
-             return local sourceid57 = 832 
+             return local sourceid57 = 836 
              return local sourceid59 = 54 
              return local sourceid60 = 2 
              return local sourceid61 = 4 
@@ -62,7 +70,7 @@ version 9
              return local topicid01 = 49 
              return local topicid02 = 73 
              return local topicid03 = 297 
-             return local topicid04 = 1480 
+             return local topicid04 = 1475 
              return local topicid05 = 53 
              return local topicid06 = 139 
              return local topicid07 = 195 
@@ -91,6 +99,7 @@ version 9
 
 
 
+<<<<<<< HEAD
              return local number_indicators = 17299
              return local dt_update "29 Oct 2019 09:52:40" 
              return local dt_lastcheck  "3 Nov 2019 17:33:26" 
@@ -98,5 +107,15 @@ version 9
              return local ctrymetadata = 304
              return local dt_ctrylastcheck   "3 Nov 2019 17:33:26" 
              return local dt_ctryupdate  "29 Oct 2019 09:54:45" 
+=======
+             return local number_indicators = 17338
+             return local dt_update "12 Apr 2020 19:34:31" 
+             return local dt_lastcheck  "12 Apr 2020 19:34:31" 
+
+             return local ctrymetadata = 304
+             return local dt_ctrylastupdate  "12 Apr 2020 19:27:19" 
+             return local dt_ctrylastcheck   "12 Apr 2020 19:34:31" 
+             return local dt_ctryupdate  "12 Apr 2020 19:38:33" 
+>>>>>>> check
 
 end
