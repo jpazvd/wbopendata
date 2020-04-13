@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -783,7 +787,7 @@
 {marker topicid_SH.DTH.IMRT}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.IMRT:SH.DTH.IMRT} - Number of infant deaths}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -848,7 +852,7 @@
 {marker topicid_SH.DYN.0514}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.0514:SH.DYN.0514} - Probability of dying at age 5-14 years (per 1,000 children age 5)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2674,7 +2678,7 @@
 
 {synopt:{opt Source Notes}}Specialist surgical workforce is the number of specialist surgical, anaesthetic, and obstetric (SAO) providers who are working in each country per 100,000 population.{p_end}
 
-{synopt:{opt Source Organization}}The Lancet Commission on Global Surgery ({browse "www.lancetglobalsurgery.org"}).{p_end}
+{synopt:{opt Source Organization}}Data collected by the Lancet Commission on Global Surgery (www.lancetglobalsurgery.org); Data collected by WHO Collaborating Centre for Surgery and Public Health at Lund University from various sources including Ministries of Health or equival{p_end}
 
 
 {synoptline}
@@ -4455,7 +4459,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of underweight, female, is the percentage of girls under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's n{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -4468,7 +4472,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of underweight, male, is the percentage of boys under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's new{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -4910,7 +4914,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of overweight, female, is the percentage of girls under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the WH{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -4923,7 +4927,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of overweight, male, is the percentage of boys under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the WHO's{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -5092,7 +5096,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of stunting, female, is the percentage of girls under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old hei{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -5105,7 +5109,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of stunting, male, is the percentage of boys under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -5261,7 +5265,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of wasting, female, is the proportion of girls under age 5 whose weight for height is more than two standard deviations below the median for the international reference population ages 0-59.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -5274,7 +5278,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of wasting, male,is the proportion of boys under age 5 whose weight for height is more than two standard deviations below the median for the international reference population ages 0-59.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -5430,7 +5434,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of severe wasting, female, is the proportion of girls under age 5 whose weight for height is more than three standard deviations below the median for the international reference population ages 0-59.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -5443,7 +5447,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of severe wasting, male, is the proportion of boys under age 5 whose weight for height is more than three standard deviations below the median for the international reference population ages 0-59.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -5532,9 +5536,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, expressed in US dollars (2011 PPP){p_end}
+{synopt:{opt Source Notes}}Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, expressed in US dollars (2011 PPP). The poverty gap increase due to out-of-pocket health spending is one way to measure how much out-of-po{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
@@ -5545,9 +5549,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of people pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure{p_end}
+{synopt:{opt Source Notes}}Number of people pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the number of households experiencing impoverishing expenditures, defined as expenditures without which the househ{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
@@ -5558,9 +5562,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, as a percentage of the $1.90 poverty line{p_end}
+{synopt:{opt Source Notes}}Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, as a percentage of the $1.90 poverty line. The poverty gap increase due to out-of-pocket health spending is one way to measure how much ou{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
@@ -5571,61 +5575,61 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure, expressed as a percentage of a total population of a country{p_end}
+{synopt:{opt Source Notes}}Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the fraction of a country's households experiencing impoverishing expenditures, defined as expenditures wi{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.UHC.NOP2.CG}
-{synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.CG:SH.UHC.NOP2.CG} - Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD)}}
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.CG:SH.UHC.NOP2.CG} - Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, expressed in US dollars (2011 PPP){p_end}
+{synopt:{opt Source Notes}}Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, expressed in US dollars (2011 PPP). The poverty gap increase due to out-of-pocket health spending is one way to measure how much out-of-po{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.UHC.NOP2.TO}
-{synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.TO:SH.UHC.NOP2.TO} - Number of people pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure}}
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.TO:SH.UHC.NOP2.TO} - Number of people pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of people pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure{p_end}
+{synopt:{opt Source Notes}}Number of people pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the number of households experiencing impoverishing expenditures, defined as expenditures without which the househ{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.UHC.NOP2.ZG}
-{synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.ZG:SH.UHC.NOP2.ZG} - Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line)}}
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.ZG:SH.UHC.NOP2.ZG} - Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, as a percentage of the $1.90 poverty line{p_end}
+{synopt:{opt Source Notes}}Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, as a percentage of the $3.20 poverty line. The poverty gap increase due to out-of-pocket health spending is one way to measure how much ou{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.UHC.NOP2.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.ZS:SH.UHC.NOP2.ZS} - Proportion of population pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)}}
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.ZS:SH.UHC.NOP2.ZS} - Proportion of population pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Proportion of population pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure, expressed as a percentage of a total population of a country{p_end}
+{synopt:{opt Source Notes}}Proportion of population pushed below the $3.20 ($2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the fraction of a country's households experiencing impoverishing expenditures, defined as expenditures wit{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
@@ -5638,7 +5642,7 @@
 
 {synopt:{opt Source Notes}}Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on catastrophic health spending: results for 133 countries. A retrospective observational study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
@@ -5649,9 +5653,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure, expressed as a percentage of a total population of a country{p_end}
+{synopt:{opt Source Notes}}Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure.{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on catastrophic health spending: results for 133 countries. A retrospective observational study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
@@ -5664,7 +5668,7 @@
 
 {synopt:{opt Source Notes}}Number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on catastrophic health spending: results for 133 countries. A retrospective observational study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
@@ -5675,9 +5679,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure, expressed as a percentage of a total population of a country{p_end}
+{synopt:{opt Source Notes}}Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure.{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on catastrophic health spending: results for 133 countries. A retrospective observational study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
@@ -5690,7 +5694,7 @@
 
 {synopt:{opt Source Notes}}Coverage index for essential health services (based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, noncommunicable diseases and service capacity and access). It is presented on a sca{p_end}
 
-{synopt:{opt Source Organization}}Hogan et al. An index of the coverage of essential health services for monitoring UHC within the SDGs, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "https://www.who.int/data/gho"}).{p_end}
 
 
 {synoptline}
@@ -6438,7 +6442,7 @@
 {marker topicid_SP.DTH.INFR.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.DTH.INFR.ZS:SP.DTH.INFR.ZS} - Completeness of infant death reporting (% of reported infant deaths to estimated infant deaths)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6451,7 +6455,7 @@
 {marker topicid_SP.DTH.REPT.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.DTH.REPT.ZS:SP.DTH.REPT.ZS} - Completeness of total death reporting (% of reported total deaths to estimated total deaths)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6503,7 +6507,7 @@
 {marker topicid_SP.DYN.CDRT.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CDRT.IN:SP.DYN.CDRT.IN} - Death rate, crude (per 1,000 people)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7218,7 +7222,7 @@
 {marker topicid_SP.POP.0014.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.FE.ZS:SP.POP.0014.FE.ZS} - Population ages 0-14, female (% of female population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7296,7 +7300,7 @@
 {marker topicid_SP.POP.0509.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0509.MA.5Y:SP.POP.0509.MA.5Y} - Population ages 05-09, male (% of male population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7309,7 +7313,7 @@
 {marker topicid_SP.POP.1014.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1014.FE.5Y:SP.POP.1014.FE.5Y} - Population ages 10-14, female (% of female population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7322,7 +7326,7 @@
 {marker topicid_SP.POP.1014.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1014.MA.5Y:SP.POP.1014.MA.5Y} - Population ages 10-14, male (% of male population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7348,7 +7352,7 @@
 {marker topicid_SP.POP.1519.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1519.MA.5Y:SP.POP.1519.MA.5Y} - Population ages 15-19, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7374,7 +7378,7 @@
 {marker topicid_SP.POP.1564.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.FE.ZS:SP.POP.1564.FE.ZS} - Population ages 15-64, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7517,7 +7521,7 @@
 {marker topicid_SP.POP.3539.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.3539.FE.5Y:SP.POP.3539.FE.5Y} - Population ages 35-39, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7530,7 +7534,7 @@
 {marker topicid_SP.POP.3539.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.3539.MA.5Y:SP.POP.3539.MA.5Y} - Population ages 35-39, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7712,7 +7716,7 @@
 {marker topicid_SP.POP.65UP.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.FE.ZS:SP.POP.65UP.FE.ZS} - Population ages 65 and above, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7725,7 +7729,7 @@
 {marker topicid_SP.POP.65UP.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.MA.IN:SP.POP.65UP.MA.IN} - Population ages 65 and above, male}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7855,7 +7859,7 @@
 {marker topicid_SP.POP.80UP.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.80UP.MA.5Y:SP.POP.80UP.MA.5Y} - Population ages 80 and above, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7920,7 +7924,7 @@
 {marker topicid_SP.POP.GROW}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.GROW:SP.POP.GROW} - Population growth (annual %)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -8281,4 +8285,8 @@
 
 
 
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check

@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -152,6 +156,18 @@
 
 
 {synoptline}
+{marker sourceid_ENF.CONT.COEN.CTSP.DB16}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.CTSP.DB16:ENF.CONT.COEN.CTSP.DB16} - Enforcing contracts: Court structure and proceedings (0-5) (DB16 methodology)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_ENF.CONT.COEN.CTSP.DB1719}
 {synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.CTSP.DB1719:ENF.CONT.COEN.CTSP.DB1719} - Enforcing contracts: Court structure and proceedings (0-5) (DB17-20 methodology)}}
 
@@ -171,6 +187,18 @@
 
 
 {synopt:{opt Source Notes}}The score for enforcing contracts is the simple average of the scores for each of the component indicators: the procedures, time and cost for resolving a commercial dispute through a local first-instance court. The score is computed based on t{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_ENF.CONT.COEN.DB16.DFRN}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.DB16.DFRN:ENF.CONT.COEN.DB16.DFRN} - Enforcing contracts (DB16 methodology) - Score}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
 
@@ -260,6 +288,18 @@
 
 
 {synoptline}
+{marker sourceid_ENF.CONT.COEN.QUJP.DB1719.DFRN}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.QUJP.DB1719.DFRN:ENF.CONT.COEN.QUJP.DB1719.DFRN} - Enforcing contracts: Quality of judicial processes index (0-19) (DB17-19 methodology) - Score}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_ENF.CONT.COEN.QUJP.XD}
 {synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.QUJP.XD:ENF.CONT.COEN.QUJP.XD} - Enforcing contracts: Quality of the judicial processes index (0-18) (DB17-20 methodology)}}
 
@@ -320,6 +360,18 @@
 
 
 {synoptline}
+{marker sourceid_ENF.CONT.EC.QJPI}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.EC.QJPI:ENF.CONT.EC.QJPI} - Enforcing contracts: Quality of judicial administration index (0-18) (DB17-19 methodology)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_IC.BUS.EASE.DFRN.DB1014}
 {synopt:{bf:{help wbopendata_sourceid##IC.BUS.EASE.DFRN.DB1014:IC.BUS.EASE.DFRN.DB1014} - Global: Ease of doing business score (DB10-14 methodology)}}
 
@@ -327,6 +379,18 @@
 
 
 {synopt:{opt Source Notes}}The ease of doing business score is the simple average of the scores for each of the Doing Business topics: starting a business, dealing with construction permits, getting electricity, registering property, getting credit, protecting minority{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.BUS.EASE.DFRN.DB15}
+{synopt:{bf:{help wbopendata_sourceid##IC.BUS.EASE.DFRN.DB15:IC.BUS.EASE.DFRN.DB15} - Ease of doing business score (DB15 methodology)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
 
@@ -1160,6 +1224,18 @@
 
 
 {synoptline}
+{marker sourceid_IC.REG.PRRT.DFRN.DB16}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.DFRN.DB16:IC.REG.PRRT.DFRN.DB16} - Registering property (DB16 methodology) - Score}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_IC.REG.PRRT.DFRN.DB1719}
 {synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.DFRN.DB1719:IC.REG.PRRT.DFRN.DB1719} - Registering property (DB17-20 methodology) - Score}}
 
@@ -1232,6 +1308,18 @@
 
 
 {synoptline}
+{marker sourceid_IC.REG.PRRT.LNDADM.GEN.XD.030.DB1719.DFRN}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.LNDADM.GEN.XD.030.DB1719.DFRN:IC.REG.PRRT.LNDADM.GEN.XD.030.DB1719.DFRN} - Registering property: Quality of land administration index with Gender (0-30) (DB17-19 methodology) - Score}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_IC.REG.PRRT.PROC.NO}
 {synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.PROC.NO:IC.REG.PRRT.PROC.NO} - Registering property: Procedures (number)}}
 
@@ -1275,6 +1363,18 @@
 
 
 {synopt:{opt Source Notes}}The score for the quality of land administration index benchmarks economies with respect to the regulatory best practice on the indicator. The score ranges from 0 to 100, where 0 represents the worst regulatory performance and 100 the best reg{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.REG.PRRT.QUAL.LNDADM.XD.030.DB1719}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.QUAL.LNDADM.XD.030.DB1719:IC.REG.PRRT.QUAL.LNDADM.XD.030.DB1719} - Registering property: Quality of land administration index (0-30) (DB17-19 methodology)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
 
@@ -1676,6 +1776,18 @@
 
 
 {synoptline}
+{marker sourceid_PROT.MINOR.INV.EXT.CONFL.INTER.XD.010.DB1519}
+{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.CONFL.INTER.XD.010.DB1519:PROT.MINOR.INV.EXT.CONFL.INTER.XD.010.DB1519} - Protecting minority investors: Extent of conflict of interest regulation index (0-10) (DB15-19 methodology)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519}
 {synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519:PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519} - Protecting minority investors: Extent of corporate transparency index (0-7) (DB15-20 methodology)}}
 
@@ -1743,6 +1855,18 @@
 
 
 {synopt:{opt Source Notes}}The score for extent of ownership and control index benchmarks economies with respect to the regulatory best practice on the indicator. The score is indicated on a scale from 0 to 100, where 0 represents the worst regulatory performance and 10{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PROT.MINOR.INV.EXT.SHARE.GOV.XD.010.DB1519}
+{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.SHARE.GOV.XD.010.DB1519:PROT.MINOR.INV.EXT.SHARE.GOV.XD.010.DB1519} - Protecting minority investors: Extent of shareholder governance index (0-10) (DB15-19 methodology)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
 
@@ -1856,6 +1980,18 @@
 
 
 {synoptline}
+{marker sourceid_RESLV.ISV.DB0414.DFRN}
+{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.DB0414.DFRN:RESLV.ISV.DB0414.DFRN} - Resolving insolvency (DB04-14 methodology) - Score}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_RESLV.ISV.DB1519.DFRN}
 {synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.DB1519.DFRN:RESLV.ISV.DB1519.DFRN} - Resolving insolvency - Score}}
 
@@ -1880,13 +2016,13 @@
 
 
 {synoptline}
-{marker sourceid_RESLV.ISV.DURS}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.DURS:RESLV.ISV.DURS} - Resolving insolvency: Time (years)}}
+{marker sourceid_RESLV.ISV.DURS.YR}
+{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.DURS.YR:RESLV.ISV.DURS.YR} - Resolving insolvency: Time (years)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}The time to resolve insolvency captures the time for creditors to recover their credit and is recorded in calendar years. Potential delay tactics by the parties, such as the filing of dilatory appeals or requests for extension, are taken into{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
 
@@ -2348,4 +2484,8 @@
 
 
 
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check

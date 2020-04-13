@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -581,7 +585,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -594,7 +598,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -607,14 +611,14 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.RUR.TOTL}
 {synopt:{bf:{help wbopendata_topicid##SP.RUR.TOTL:SP.RUR.TOTL} - Rural population}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
@@ -627,7 +631,7 @@
 {marker topicid_SP.RUR.TOTL.ZG}
 {synopt:{bf:{help wbopendata_topicid##SP.RUR.TOTL.ZG:SP.RUR.TOTL.ZG} - Rural population growth (annual %)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
@@ -676,4 +680,8 @@
 
 
 
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check

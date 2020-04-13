@@ -1673,7 +1673,7 @@ BX.KLT.DINV.CD.WD - Foreign direct investment, net inflows (BoP, current US$)
 BX.KLT.DINV.DT.GD.ZS - Foreign direct investment, net inflows (% of GDP)
 BX.KLT.DINV.DT.GI.ZS - Foreign direct investment, net inflows (% of gross capital formation)
 BX.KLT.DINV.WD.GD.ZS - Foreign direct investment, net inflows (% of GDP)
-BX.KLT.DREM.CD.DT - Primary income on FDI, payments (current US$)
+BX.KLT.DREM.CD.DT - Primary income on FDI (current US$)
 BX.PEF.TOTL.CD - Portfolio investment, equity (DRS, current US$)
 BX.PEF.TOTL.CD.DT - Portfolio investment, equity (DRS, current US$)
 BX.PEF.TOTL.CD.WD - Portfolio equity, net inflows (BoP, current US$)
@@ -1774,6 +1774,7 @@ DC.DAC.FINL.CD - Net bilateral aid flows from DAC donors, Finland (current US$)
 DC.DAC.FRAL.CD - Net bilateral aid flows from DAC donors, France (current US$)
 DC.DAC.GBRL.CD - Net bilateral aid flows from DAC donors, United Kingdom (current US$)
 DC.DAC.GRCL.CD - Net bilateral aid flows from DAC donors, Greece (current US$)
+DC.DAC.HUNL.CD - Net bilateral aid flows from DAC donors, Hungary (current US$)
 DC.DAC.IRLL.CD - Net bilateral aid flows from DAC donors, Ireland (current US$)
 DC.DAC.ISLL.CD - Net bilateral aid flows from DAC donors, Iceland (current US$)
 DC.DAC.ITAL.CD - Net bilateral aid flows from DAC donors, Italy (current US$)
@@ -1825,142 +1826,142 @@ DMGSRMRCHSACD - Imports Merchandise, Customs, current US$, millions, seas. adj.
 DMGSRMRCHSAKD - Imports Merchandise, Customs, constant US$, millions, seas. adj.
 DMGSRMRCHSAXD - Imports Merchandise, Customs, Price, US$, seas. adj.
 DN.DOD.TOTL.CD - Non-guar. Private Long-Term Debt(US$, IBRD DRS)
-DP.DOD.DECD.CR.BC - 316.Gross Budg. Central Govt. Public Sector Debt, Domestic creditors
-DP.DOD.DECD.CR.BC.CD - 092.Gross Budg. Central Govt. Public Sector Debt, Domestic creditors US$
-DP.DOD.DECD.CR.BC.Z1 - 540.Gross Budg. Central Govt. Public Sector Debt, Domestic creditors(% of GDP)
-DP.DOD.DECD.CR.CG - 284.Central Govt. Public Sector Debt, Domestic creditors
-DP.DOD.DECD.CR.CG.CD - 060.Central Govt. Public Sector Debt, Domestic creditors US$
-DP.DOD.DECD.CR.CG.Z1 - 508.Central Govt. Public Sector Debt, Domestic creditors(% of GDP)
-DP.DOD.DECD.CR.FC - 380.Gross Financial Public Corporations Debt, Domestic creditors
-DP.DOD.DECD.CR.FC.CD - 156.Gross Financial Public Corporations Debt, Domestic creditors  US$
-DP.DOD.DECD.CR.FC.Z1 - 604.Gross Financial Public Corporations Debt, Domestic creditors(% of GDP)
-DP.DOD.DECD.CR.GG - 252.General Govt. Public Sector Debt, Domestic creditors
-DP.DOD.DECD.CR.GG.CD - 028.General Govt. Public Sector Debt, Domestic creditors US$
-DP.DOD.DECD.CR.GG.Z1 - 476.General Govt. Public Sector Debt, Domestic creditors(% of GDP)
-DP.DOD.DECD.CR.NF - 348.Gross Nonfinancial Public Corporations Debt, Domestic creditors
-DP.DOD.DECD.CR.NF.CD - 124.Gross Nonfinancial Public Corporations Debt, Domestic creditors  US$
-DP.DOD.DECD.CR.NF.Z1 - 572.Gross Nonfinancial Public Corporations Debt, Domestic creditors(% of GDP)
-DP.DOD.DECD.CR.PS - 412.Gross Public Sector Debt, Domestic creditors
-DP.DOD.DECD.CR.PS.CD - 188.Gross Public Sector Debt, Domestic creditors  US$
-DP.DOD.DECF.CR.BC - 319.Gross Budg. Central Govt. Public Sector Debt, Foreign currency
-DP.DOD.DECF.CR.BC.CD - 095.Gross Budg. Central Govt. Public Sector Debt, Foreign currency US$
-DP.DOD.DECF.CR.BC.Z1 - 543.Gross Budg. Central Govt. Public Sector Debt, Foreign currency(% of GDP)
-DP.DOD.DECF.CR.CG - 287.Central Govt. Public Sector Debt, Foreign currency
-DP.DOD.DECF.CR.CG.CD - 063.Central Govt. Public Sector Debt, Foreign currency US$
-DP.DOD.DECF.CR.CG.Z1 - 511.Central Govt. Public Sector Debt, Foreign currency(% of GDP)
-DP.DOD.DECF.CR.FC - 383.Gross Financial Public Corporations Debt, Foreign currency
-DP.DOD.DECF.CR.FC.CD - 159.Gross Financial Public Corporations Debt, Foreign currency  US$
-DP.DOD.DECF.CR.FC.Z1 - 607.Gross Financial Public Corporations Debt, Foreign currency(% of GDP)
-DP.DOD.DECF.CR.GG - 255.General Govt. Public Sector Debt, Foreign currency
-DP.DOD.DECF.CR.GG.CD - 031.General Govt. Public Sector Debt, Foreign currency US$
-DP.DOD.DECF.CR.GG.Z1 - 479.General Govt. Public Sector Debt, Foreign currency(% of GDP)
-DP.DOD.DECF.CR.NF - 351.Gross Nonfinancial Public Corporations Debt, Foreign currency
-DP.DOD.DECF.CR.NF.CD - 127.Gross Nonfinancial Public Corporations Debt, Foreign currency  US$
-DP.DOD.DECF.CR.NF.Z1 - 575.Gross Nonfinancial Public Corporations Debt, Foreign currency(% of GDP)
-DP.DOD.DECF.CR.PS - 415.Gross Public Sector Debt, Foreign currency
-DP.DOD.DECF.CR.PS.CD - 191.Gross Public Sector Debt, Foreign currency  US$
-DP.DOD.DECN.CR.BC - 318.Gross Budg. Central Govt. Public Sector Debt, Domestic currency
-DP.DOD.DECN.CR.BC.CD - 094.Gross Budg. Central Govt. Public Sector Debt, Domestic currency US$
-DP.DOD.DECN.CR.BC.Z1 - 542.Gross Budg. Central Govt. Public Sector Debt, Domestic currency(% of GDP)
-DP.DOD.DECN.CR.CG - 286.Central Govt. Public Sector Debt, Domestic currency
-DP.DOD.DECN.CR.CG.CD - 062.Central Govt. Public Sector Debt, Domestic currency US$
-DP.DOD.DECN.CR.CG.Z1 - 510.Central Govt. Public Sector Debt, Domestic currency(% of GDP)
-DP.DOD.DECN.CR.FC - 382.Gross Financial Public Corporations Debt, Domestic currency
-DP.DOD.DECN.CR.FC.CD - 158.Gross Financial Public Corporations Debt, Domestic currency  US$
-DP.DOD.DECN.CR.FC.Z1 - 606.Gross Financial Public Corporations Debt, Domestic currency(% of GDP)
-DP.DOD.DECN.CR.GG - 254.General Govt. Public Sector Debt, Domestic currency
-DP.DOD.DECN.CR.GG.CD - 030.General Govt. Public Sector Debt, Domestic currency US$
-DP.DOD.DECN.CR.GG.Z1 - 478.General Govt. Public Sector Debt, Domestic currency(% of GDP)
-DP.DOD.DECN.CR.NF - 350.Gross Nonfinancial Public Corporations Debt, Domestic currency
-DP.DOD.DECN.CR.NF.CD - 126.Gross Nonfinancial Public Corporations Debt, Domestic currency  US$
-DP.DOD.DECN.CR.NF.Z1 - 574.Gross Nonfinancial Public Corporations Debt, Domestic currency(% of GDP)
-DP.DOD.DECN.CR.PS - 414.Gross Public Sector Debt, Domestic currency
-DP.DOD.DECN.CR.PS.CD - 190.Gross Public Sector Debt, Domestic currency  US$
-DP.DOD.DECT.CR.BC - 289.Gross Budgetary Central Government Debt (PSDCGGB)
-DP.DOD.DECT.CR.BC.CD - 065.Gross Budgetary Central Government Debt (PSDCGGB) US$
-DP.DOD.DECT.CR.BC.Z1 - 513.Gross Budgetary Central Government Debt (PSDCGGB)(% of GDP)
-DP.DOD.DECT.CR.CG - 257.Gross Central Government Debt (PSDCG)
-DP.DOD.DECT.CR.CG.CD - 033.Gross Central Government Debt (PSDCG) US$
-DP.DOD.DECT.CR.CG.Z1 - 481.Gross Central Government Debt (PSDCG)(% of GDP)
-DP.DOD.DECT.CR.FC - 353.Gross Financial Public Corporations Debt (PSDFPC, LT, &gt;1yr)
-DP.DOD.DECT.CR.FC.CD - 129.Gross Financial Public Corporations Debt (PSDFPC) US$
-DP.DOD.DECT.CR.FC.Z1 - 577.Gross Financial Public Corporations Debt (PSDFPC, LT, &gt;1yr)(% of GDP)
-DP.DOD.DECT.CR.GG - 225.General Govt. Public Sector Debt (PSDGG)
-DP.DOD.DECT.CR.GG.CD - 001.General Govt. Public Sector Debt (PSDGG) US$
-DP.DOD.DECT.CR.GG.Z1 - 449.General Govt. Public Sector Debt (PSDGG)(% of GDP)
-DP.DOD.DECT.CR.NF - 321.Gross Nonfinancial Public Corporations Debt (PSDNFPC)
-DP.DOD.DECT.CR.NF.CD - 097.Gross Nonfinancial Public Corporations Debt (PSDNFPC) US$
-DP.DOD.DECT.CR.NF.Z1 - 545.Gross Nonfinancial Public Corporations Debt (PSDNFPC)(% of GDP)
-DP.DOD.DECT.CR.PS - 385.Gross Public Sector Debt (PSDT)
-DP.DOD.DECT.CR.PS.CD - 161.Gross Public Sector Debt (PSDT) US$
-DP.DOD.DECX.CR.BC - 317.Gross Budg. Central Govt. Public Sector Debt, External creditors
-DP.DOD.DECX.CR.BC.CD - 093.Gross Budg. Central Govt. Public Sector Debt, External creditors US$
-DP.DOD.DECX.CR.BC.Z1 - 541.Gross Budg. Central Govt. Public Sector Debt, External creditors(% of GDP)
-DP.DOD.DECX.CR.CG - 285.Central Govt. Public Sector Debt, External creditors
-DP.DOD.DECX.CR.CG.CD - 061.Central Govt. Public Sector Debt, External creditors US$
-DP.DOD.DECX.CR.CG.Z1 - 509.Central Govt. Public Sector Debt, External creditors(% of GDP)
-DP.DOD.DECX.CR.FC - 381.Gross Financial Public Corporations Debt, External creditors
-DP.DOD.DECX.CR.FC.CD - 157.Gross Financial Public Corporations Debt, External creditors  US$
-DP.DOD.DECX.CR.FC.Z1 - 605.Gross Financial Public Corporations Debt, External creditors(% of GDP)
-DP.DOD.DECX.CR.GG - 253.General Govt. Public Sector Debt, External creditors
-DP.DOD.DECX.CR.GG.CD - 029.General Govt. Public Sector Debt, External creditors US$
-DP.DOD.DECX.CR.GG.Z1 - 477.General Govt. Public Sector Debt, External creditors(% of GDP)
-DP.DOD.DECX.CR.NF - 349.Gross Nonfinancial Public Corporations Debt, External creditors
-DP.DOD.DECX.CR.NF.CD - 125.Gross Nonfinancial Public Corporations Debt, External creditors  US$
-DP.DOD.DECX.CR.NF.Z1 - 573.Gross Nonfinancial Public Corporations Debt, External creditors(% of GDP)
-DP.DOD.DECX.CR.PS - 413.Gross Public Sector Debt, External creditors
-DP.DOD.DECX.CR.PS.CD - 189.Gross Public Sector Debt, External creditors  US$
-DP.DOD.DLCD.CR.BC - 311.Currency and deposits (PSDCGGB)
-DP.DOD.DLCD.CR.BC.CD - 087.Currency and deposits (PSDCGGB) US$
-DP.DOD.DLCD.CR.BC.Z1 - 535.Currency and deposits (PSDCGGB)(% of GDP)
-DP.DOD.DLCD.CR.CG - 279.Currency and deposits (PSDCG)
-DP.DOD.DLCD.CR.CG.CD - 055.Currency and deposits (PSDCG) US$
-DP.DOD.DLCD.CR.CG.Z1 - 503.Currency and deposits (PSDCG)(% of GDP)
-DP.DOD.DLCD.CR.FC - 375.Currency and deposits (PSDFPC)
-DP.DOD.DLCD.CR.FC.CD - 151.Currency and deposits (PSDFPC) US$
-DP.DOD.DLCD.CR.FC.Z1 - 599.Currency and deposits (PSDFPC)(% of GDP)
-DP.DOD.DLCD.CR.GG - 247.Currency and deposits (PSDGG, LT)
-DP.DOD.DLCD.CR.GG.CD - 023.Currency and deposits (PSDGG) US$
-DP.DOD.DLCD.CR.GG.Z1 - 471.Currency and deposits (PSDGG, LT)(% of GDP)
-DP.DOD.DLCD.CR.L1.BC - 298.Currency and deposits (PSDCGGB, LT, &lt;1yr)
-DP.DOD.DLCD.CR.L1.BC.CD - 074.Currency and deposits (PSDCGGB, LT, &lt;1yr) US$
-DP.DOD.DLCD.CR.L1.BC.Z1 - 522.Currency and deposits (PSDCGGB, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLCD.CR.L1.CG - 266.Currency and deposits (PSDCG, LT, &lt;1yr)
-DP.DOD.DLCD.CR.L1.CG.CD - 042.Currency and deposits (PSDCG, LT, &lt;1yr) US$
-DP.DOD.DLCD.CR.L1.CG.Z1 - 490.Currency and deposits (PSDCG, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLCD.CR.L1.FC - 362.Currency and deposits (PSDFPC, LT, &lt;1yr)
-DP.DOD.DLCD.CR.L1.FC.CD - 138.Currency and deposits (PSDFPC, LT, &lt;1yr) US$
-DP.DOD.DLCD.CR.L1.FC.Z1 - 586.Currency and deposits (PSDFPC, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLCD.CR.L1.GG - 234.Currency and deposits (PSDGG, LT, &lt;1yr)
-DP.DOD.DLCD.CR.L1.GG.CD - 010.Currency and deposits (PSDGG, LT, &lt;1yr) US$
-DP.DOD.DLCD.CR.L1.GG.Z1 - 458.Currency and deposits (PSDGG, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLCD.CR.L1.NF - 330.Currency and deposits (PSDNFPC, LT, &lt;1yr)
-DP.DOD.DLCD.CR.L1.NF.CD - 106.Currency and deposits (PSDNFPC, LT, &lt;1yr) US$
-DP.DOD.DLCD.CR.L1.NF.Z1 - 554.Currency and deposits (PSDNFPC, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLCD.CR.L1.PS - 394.Currency and deposits (PSDT, LT,&lt;1yr)
-DP.DOD.DLCD.CR.L1.PS.CD - 170.Currency and deposits (PSDT, LT,&lt;1yr) US$
-DP.DOD.DLCD.CR.M1.BC - 305.Currency and deposits (PSDCGGB, LT, &gt;1yr)
-DP.DOD.DLCD.CR.M1.BC.CD - 081.Currency and deposits (PSDCGGB, LT, &gt;1yr) US$
-DP.DOD.DLCD.CR.M1.BC.Z1 - 529.Currency and deposits (PSDCGGB, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLCD.CR.M1.CG - 273.Currency and deposits (PSDCG, LT, &gt;1yr)
-DP.DOD.DLCD.CR.M1.CG.CD - 049.Currency and deposits (PSDCG, LT, &gt;1yr) US$
-DP.DOD.DLCD.CR.M1.CG.Z1 - 497.Currency and deposits (PSDCG, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLCD.CR.M1.FC - 369.Currency and deposits (PSDFPC, LT, &gt;1yr)
-DP.DOD.DLCD.CR.M1.FC.CD - 145.Currency and deposits (PSDFPC, LT, &gt;1yr) US$
-DP.DOD.DLCD.CR.M1.FC.Z1 - 593.Currency and deposits (PSDFPC, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLCD.CR.M1.GG - 241.Currency and deposits (PSDGG, LT, &gt;1yr)
-DP.DOD.DLCD.CR.M1.GG.CD - 017.Currency and deposits (PSDGG, LT, &gt;1yr) US$
-DP.DOD.DLCD.CR.M1.GG.Z1 - 465.Currency and deposits (PSDGG, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLCD.CR.M1.NF - 337.Currency and deposits (PSDNFPC, LT, &gt;1yr)
-DP.DOD.DLCD.CR.M1.NF.CD - 113.Currency and deposits (PSDNFPC, LT, &gt;1yr) US$
-DP.DOD.DLCD.CR.M1.NF.Z1 - 561.Currency and deposits (PSDNFPC, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLCD.CR.M1.PS - 401.Currency and deposits (PSDT, LT, &gt;1yr)
-DP.DOD.DLCD.CR.M1.PS.CD - 177.Currency and deposits (PSDT, LT, &gt;1yr) US$
-DP.DOD.DLCD.CR.NF - 343.Currency and deposits (PSDNFPC)
-DP.DOD.DLCD.CR.NF.CD - 119.Currency and deposits (PSDNFPC) US$
-DP.DOD.DLCD.CR.NF.Z1 - 567.Currency and deposits (PSDNFPC)(% of GDP)
-DP.DOD.DLCD.CR.PS - 407.Currency and deposits (PSDT, LT)
-DP.DOD.DLCD.CR.PS.CD - 183.Currency and deposits (PSDT) US$
+DP.DOD.DECD.CR.BC - Gross PSD, Budgetary Central Gov., All maturities, All instruments, Domestic creditors, Nominal Value, National Currency
+DP.DOD.DECD.CR.BC.CD - Gross PSD, Budgetary Central Gov., All maturities, All instruments, Domestic creditors, Nominal Value, US$
+DP.DOD.DECD.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., All maturities, All instruments, Domestic creditors, Nominal Value, % of GDP
+DP.DOD.DECD.CR.CG - Gross PSD, Central Gov., All maturities, All instruments, Domestic creditors, Nominal Value, National Currency
+DP.DOD.DECD.CR.CG.CD - Gross PSD, Central Gov., All maturities, All instruments, Domestic creditors, Nominal Value, US$
+DP.DOD.DECD.CR.CG.Z1 - Gross PSD, Central Gov., All maturities, All instruments, Domestic creditors, Nominal Value, % of GDP
+DP.DOD.DECD.CR.FC - Gross PSD, Financial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, National Currency
+DP.DOD.DECD.CR.FC.CD - Gross PSD, Financial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, US$
+DP.DOD.DECD.CR.FC.Z1 - Gross PSD, Financial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, % of GDP
+DP.DOD.DECD.CR.GG - Gross PSD, General Gov., All maturities, All instruments, Domestic creditors, Nominal Value, National Currency
+DP.DOD.DECD.CR.GG.CD - Gross PSD, General Gov., All maturities, All instruments, Domestic creditors, Nominal Value, US$
+DP.DOD.DECD.CR.GG.Z1 - Gross PSD, General Gov., All maturities, All instruments, Domestic creditors, Nominal Value, % of GDP
+DP.DOD.DECD.CR.NF - Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, National Currency
+DP.DOD.DECD.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, US$
+DP.DOD.DECD.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, % of GDP
+DP.DOD.DECD.CR.PS - Gross PSD, Public Sector, All maturities, All instruments, Domestic creditors, Nominal Value, National Currency
+DP.DOD.DECD.CR.PS.CD - Gross PSD, Total, All maturities, All instruments, Domestic creditors, Nominal Value, US$
+DP.DOD.DECF.CR.BC - Gross PSD, Budgetary Central Gov., All maturities, All instruments, Foreign currency, Nominal Value, National Currency
+DP.DOD.DECF.CR.BC.CD - Gross PSD, Budgetary Central Gov., All maturities, All instruments, Foreign currency, Nominal Value, US$
+DP.DOD.DECF.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., All maturities, All instruments, Foreign currency, Nominal Value, % of GDP
+DP.DOD.DECF.CR.CG - Gross PSD, Central Gov., All maturities, All instruments, Foreign currency, Nominal Value, National Currency
+DP.DOD.DECF.CR.CG.CD - Gross PSD, Central Gov., All maturities, All instruments, Foreign currency, Nominal Value, US$
+DP.DOD.DECF.CR.CG.Z1 - Gross PSD, Central Gov., All maturities, All instruments, Foreign currency, Nominal Value, % of GDP
+DP.DOD.DECF.CR.FC - Gross PSD, Financial Public Corp., All maturities, All instruments, Foreign currency, Nominal Value, National Currency
+DP.DOD.DECF.CR.FC.CD - Gross PSD, Financial Public Corp., All maturities, All instruments, Foreign currency, Nominal Value, US$
+DP.DOD.DECF.CR.FC.Z1 - Gross PSD, Financial Public Corp., All maturities, All instruments, Foreign currency, Nominal Value, % of GDP
+DP.DOD.DECF.CR.GG - Gross PSD, General Gov., All maturities, All instruments, Foreign currency, Nominal Value, National Currency
+DP.DOD.DECF.CR.GG.CD - Gross PSD, General Gov., All maturities, All instruments, Foreign currency, Nominal Value, US$
+DP.DOD.DECF.CR.GG.Z1 - Gross PSD, General Gov., All maturities, All instruments, Foreign currency, Nominal Value, % of GDP
+DP.DOD.DECF.CR.NF - Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Foreign currency, Nominal Value, National Currency
+DP.DOD.DECF.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Foreign currency, Nominal Value, US$
+DP.DOD.DECF.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Foreign currency, Nominal Value, % of GDP
+DP.DOD.DECF.CR.PS - Gross PSD, Public Sector, All maturities, All instruments, Foreign currency, Nominal Value, National Currency
+DP.DOD.DECF.CR.PS.CD - Gross PSD, Total, All maturities, All instruments, Foreign currency, Nominal Value, US$
+DP.DOD.DECN.CR.BC - Gross PSD, Budgetary Central Gov., All maturities, All instruments, Domestic currency, Nominal Value, National Currency
+DP.DOD.DECN.CR.BC.CD - Gross PSD, Budgetary Central Gov., All maturities, All instruments, Domestic currency, Nominal Value, US$
+DP.DOD.DECN.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., All maturities, All instruments, Domestic currency, Nominal Value, % of GDP
+DP.DOD.DECN.CR.CG - Gross PSD, Central Gov., All maturities, All instruments, Domestic currency, Nominal Value, National Currency
+DP.DOD.DECN.CR.CG.CD - Gross PSD, Central Gov., All maturities, All instruments, Domestic currency, Nominal Value, US$
+DP.DOD.DECN.CR.CG.Z1 - Gross PSD, Central Gov., All maturities, All instruments, Domestic currency, Nominal Value, % of GDP
+DP.DOD.DECN.CR.FC - Gross PSD, Financial Public Corp., All maturities, All instruments, Domestic currency, Nominal Value, National Currency
+DP.DOD.DECN.CR.FC.CD - Gross PSD, Financial Public Corp., All maturities, All instruments, Domestic currency, Nominal Value, US$
+DP.DOD.DECN.CR.FC.Z1 - Gross PSD, Financial Public Corp., All maturities, All instruments, Domestic currency, Nominal Value, % of GDP
+DP.DOD.DECN.CR.GG - Gross PSD, General Gov., All maturities, All instruments, Domestic currency, Nominal Value, National Currency
+DP.DOD.DECN.CR.GG.CD - Gross PSD, General Gov., All maturities, All instruments, Domestic currency, Nominal Value, US$
+DP.DOD.DECN.CR.GG.Z1 - Gross PSD, General Gov., All maturities, All instruments, Domestic currency, Nominal Value, % of GDP
+DP.DOD.DECN.CR.NF - Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Domestic currency, Nominal Value, National Currency
+DP.DOD.DECN.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Domestic currency, Nominal Value, US$
+DP.DOD.DECN.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Domestic currency, Nominal Value, % of GDP
+DP.DOD.DECN.CR.PS - Gross PSD, Public Sector, All maturities, All instruments, Domestic currency, Nominal Value, National Currency
+DP.DOD.DECN.CR.PS.CD - Gross PSD, Total, All maturities, All instruments, Domestic currency, Nominal Value, US$
+DP.DOD.DECT.CR.BC - Gross PSD, Budgetary Central Gov., All maturities, All instruments, Nominal Value, National Currency
+DP.DOD.DECT.CR.BC.CD - Gross PSD, Budgetary Central Gov., All maturities, All instruments, Nominal Value, US$
+DP.DOD.DECT.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., All maturities, All instruments, Nominal Value, % of GDP
+DP.DOD.DECT.CR.CG - Gross PSD, Central Gov., All maturities, All instruments, Nominal Value, National Currency
+DP.DOD.DECT.CR.CG.CD - Gross PSD, Central Gov., All maturities, All instruments, Nominal Value, US$
+DP.DOD.DECT.CR.CG.Z1 - Gross PSD, Central Gov., All maturities, All instruments, Nominal Value, % of GDP
+DP.DOD.DECT.CR.FC - Gross PSD, Financial Public Corp., All maturities, All instruments, Nominal Value, National Currency
+DP.DOD.DECT.CR.FC.CD - Gross PSD, Financial Public Corp., All maturities, All instruments, Nominal Value, US$
+DP.DOD.DECT.CR.FC.Z1 - Gross PSD, Financial Public Corp., All maturities, All instruments, Nominal Value, % of GDP
+DP.DOD.DECT.CR.GG - Gross PSD, General Gov., All maturities, All instruments, Nominal Value, National Currency
+DP.DOD.DECT.CR.GG.CD - Gross PSD, General Gov., All maturities, All instruments, Nominal Value, US$
+DP.DOD.DECT.CR.GG.Z1 - Gross PSD, General Gov., All maturities, All instruments, Nominal Value, % of GDP
+DP.DOD.DECT.CR.NF - Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Nominal Value, National Currency
+DP.DOD.DECT.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Nominal Value, US$
+DP.DOD.DECT.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Nominal Value, % of GDP
+DP.DOD.DECT.CR.PS - Gross PSD, Public Sector, All maturities, All instruments, Nominal Value, National Currency
+DP.DOD.DECT.CR.PS.CD - Gross PSD, Total, All maturities, All instruments, Nominal Value, US$
+DP.DOD.DECX.CR.BC - Gross PSD, Budgetary Central Gov., All maturities, All instruments, External creditors, Nominal Value, National Currency
+DP.DOD.DECX.CR.BC.CD - Gross PSD, Budgetary Central Gov., All maturities, All instruments, External creditors, Nominal Value, US$
+DP.DOD.DECX.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., All maturities, All instruments, External creditors, Nominal Value, % of GDP
+DP.DOD.DECX.CR.CG - Gross PSD, Central Gov., All maturities, All instruments, External creditors, Nominal Value, National Currency
+DP.DOD.DECX.CR.CG.CD - Gross PSD, Central Gov., All maturities, All instruments, External creditors, Nominal Value, US$
+DP.DOD.DECX.CR.CG.Z1 - Gross PSD, Central Gov., All maturities, All instruments, External creditors, Nominal Value, % of GDP
+DP.DOD.DECX.CR.FC - Gross PSD, Financial Public Corp., All maturities, All instruments, External creditors, Nominal Value, National Currency
+DP.DOD.DECX.CR.FC.CD - Gross PSD, Financial Public Corp., All maturities, All instruments, External creditors, Nominal Value, US$
+DP.DOD.DECX.CR.FC.Z1 - Gross PSD, Financial Public Corp., All maturities, All instruments, External creditors, Nominal Value, % of GDP
+DP.DOD.DECX.CR.GG - Gross PSD, General Gov., All maturities, All instruments, External creditors, Nominal Value, National Currency
+DP.DOD.DECX.CR.GG.CD - Gross PSD, General Gov., All maturities, All instruments, External creditors, Nominal Value, US$
+DP.DOD.DECX.CR.GG.Z1 - Gross PSD, General Gov., All maturities, All instruments, External creditors, Nominal Value, % of GDP
+DP.DOD.DECX.CR.NF - Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, External creditors, Nominal Value, National Currency
+DP.DOD.DECX.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, External creditors, Nominal Value, US$
+DP.DOD.DECX.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, External creditors, Nominal Value, % of GDP
+DP.DOD.DECX.CR.PS - Gross PSD, Public Sector, All maturities, All instruments, External creditors, Nominal Value, National Currency
+DP.DOD.DECX.CR.PS.CD - Gross PSD, Total, All maturities, All instruments, External creditors, Nominal Value, US$
+DP.DOD.DLCD.CR.BC - Gross PSD, Budgetary Central Gov., All maturities, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.BC.CD - Gross PSD, Budgetary Central Gov., All maturities, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., All maturities, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DLCD.CR.CG - Gross PSD, Central Gov., All maturities, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.CG.CD - Gross PSD, Central Gov., All maturities, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.CG.Z1 - Gross PSD, Central Gov., All maturities, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DLCD.CR.FC - Gross PSD, Financial Public Corp., All maturities, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.FC.CD - Gross PSD, Financial Public Corp., All maturities, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.FC.Z1 - Gross PSD, Financial Public Corp., All maturities, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DLCD.CR.GG - Gross PSD, General Gov., All maturities, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.GG.CD - Gross PSD, General Gov., All maturities, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.GG.Z1 - Gross PSD, General Gov., All maturities, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DLCD.CR.L1.BC - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.L1.BC.CD - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.L1.BC.Z1 - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DLCD.CR.L1.CG - Gross PSD, Central Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.L1.CG.CD - Gross PSD, Central Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.L1.CG.Z1 - Gross PSD, Central Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DLCD.CR.L1.FC - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.L1.FC.CD - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.L1.FC.Z1 - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DLCD.CR.L1.GG - Gross PSD, General Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.L1.GG.CD - Gross PSD, General Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.L1.GG.Z1 - Gross PSD, General Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DLCD.CR.L1.NF - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.L1.NF.CD - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.L1.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DLCD.CR.L1.PS - Gross PSD, Public Sector, Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.L1.PS.CD - Gross PSD, Total, Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.M1.BC - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.M1.BC.CD - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.M1.BC.Z1 - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DLCD.CR.M1.CG - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.M1.CG.CD - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.M1.CG.Z1 - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DLCD.CR.M1.FC - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.M1.FC.CD - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.M1.FC.Z1 - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DLCD.CR.M1.GG - Gross PSD, General Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.M1.GG.CD - Gross PSD, General Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.M1.GG.Z1 - Gross PSD, General Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DLCD.CR.M1.NF - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.M1.NF.CD - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.M1.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DLCD.CR.M1.PS - Gross PSD, Public Sector, Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.M1.PS.CD - Gross PSD, Total, Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.NF - Gross PSD, Nonfinancial Public Corp., All maturities, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., All maturities, Currency and deposits, Nominal Value, US$
+DP.DOD.DLCD.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., All maturities, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DLCD.CR.PS - Gross PSD, Public Sector, All maturities, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DLCD.CR.PS.CD - Gross PSD, Total, All maturities, Currency and deposits, Nominal Value, US$
 DP.DOD.DLD1.CR.CG.CD - Gross PSD, Central Gov.-D1, All maturities, Debt securities + loans, Nominal Value, US$
 DP.DOD.DLD1.CR.CG.Z1 - Gross PSD, Central Gov.-D1, All maturities, Debt securities + loans, Nominal Value, % of GDP
 DP.DOD.DLD1.CR.GG.CD - Gross PSD, General Gov.-D1, All maturities, Debt securities + loans, Nominal Value, US$
@@ -1981,415 +1982,415 @@ DP.DOD.DLD4.CR.CG.CD - Gross PSD, Central Gov.-D4, All maturities, D3+insurance,
 DP.DOD.DLD4.CR.CG.Z1 - Gross PSD, Central Gov.-D4, All maturities, D3+insurance, pensions, and standardized guarantees, Nominal Value, % of GDP
 DP.DOD.DLD4.CR.GG.CD - Gross PSD, General Gov.-D4, All maturities, D3+insurance, pensions, and standardized guarantees, Nominal Value, US$
 DP.DOD.DLD4.CR.GG.Z1 - Gross PSD, General Gov.-D4, All maturities, D3+insurance, pensions, and standardized guarantees, Nominal Value, % of GDP
-DP.DOD.DLDS.CR.BC - 312.Debt securities (PSDCGGB)
-DP.DOD.DLDS.CR.BC.CD - 088.Debt securities (PSDCGGB) US$
-DP.DOD.DLDS.CR.BC.Z1 - 536.Debt securities (PSDCGGB)(% of GDP)
-DP.DOD.DLDS.CR.CG - 280.Debt securities (PSDCG)
-DP.DOD.DLDS.CR.CG.CD - 056.Debt securities (PSDCG) US$
-DP.DOD.DLDS.CR.CG.Z1 - 504.Debt securities (PSDCG)(% of GDP)
-DP.DOD.DLDS.CR.FC - 376.Debt securities (PSDFPC)
-DP.DOD.DLDS.CR.FC.CD - 152.Debt securities (PSDFPC) US$
-DP.DOD.DLDS.CR.FC.Z1 - 600.Debt securities (PSDFPC)(% of GDP)
-DP.DOD.DLDS.CR.GG - 248.Debt securities (PSDGG, LT)
-DP.DOD.DLDS.CR.GG.CD - 024.Debt securities (PSDGG) US$
-DP.DOD.DLDS.CR.GG.Z1 - 472.Debt securities (PSDGG, LT)(% of GDP)
-DP.DOD.DLDS.CR.L1.BC - 299.Debt securities (PSDCGGB, LT, &lt;1yr)
-DP.DOD.DLDS.CR.L1.BC.CD - 075.Debt securities (PSDCGGB, LT, &lt;1yr) US$
-DP.DOD.DLDS.CR.L1.BC.Z1 - 523.Debt securities (PSDCGGB, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLDS.CR.L1.CG - 267.Debt securities (PSDCG, LT, &lt;1yr)
-DP.DOD.DLDS.CR.L1.CG.CD - 043.Debt securities (PSDCG, LT, &lt;1yr) US$
-DP.DOD.DLDS.CR.L1.CG.Z1 - 491.Debt securities (PSDCG, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLDS.CR.L1.FC - 363.Debt securities (PSDFPC, LT, &lt;1yr)
-DP.DOD.DLDS.CR.L1.FC.CD - 139.Debt securities (PSDFPC, LT, &lt;1yr) US$
-DP.DOD.DLDS.CR.L1.FC.Z1 - 587.Debt securities (PSDFPC, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLDS.CR.L1.GG - 235.Debt securities (PSDGG, LT, &lt;1yr)
-DP.DOD.DLDS.CR.L1.GG.CD - 011.Debt securities (PSDGG, LT, &lt;1yr) US$
-DP.DOD.DLDS.CR.L1.GG.Z1 - 459.Debt securities (PSDGG, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLDS.CR.L1.NF - 331.Debt securities (PSDNFPC, LT, &lt;1yr)
-DP.DOD.DLDS.CR.L1.NF.CD - 107.Debt securities (PSDNFPC, LT, &lt;1yr) US$
-DP.DOD.DLDS.CR.L1.NF.Z1 - 555.Debt securities (PSDNFPC, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLDS.CR.L1.PS - 395.Debt securities (PSDT, LT,&lt;1yr)
-DP.DOD.DLDS.CR.L1.PS.CD - 171.Debt securities (PSDT, LT,&lt;1yr) US$
-DP.DOD.DLDS.CR.M1.BC - 306.Debt securities (PSDCGGB, LT, &gt;1yr)
-DP.DOD.DLDS.CR.M1.BC.CD - 082.Debt securities (PSDCGGB, LT, &gt;1yr) US$
-DP.DOD.DLDS.CR.M1.BC.Z1 - 530.Debt securities (PSDCGGB, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLDS.CR.M1.CG - 274.Debt securities (PSDCG, LT, &gt;1yr)
-DP.DOD.DLDS.CR.M1.CG.CD - 050.Debt securities (PSDCG, LT, &gt;1yr) US$
-DP.DOD.DLDS.CR.M1.CG.Z1 - 498.Debt securities (PSDCG, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLDS.CR.M1.FC - 370.Debt securities (PSDFPC, LT, &gt;1yr)
-DP.DOD.DLDS.CR.M1.FC.CD - 146.Debt securities (PSDFPC, LT, &gt;1yr) US$
-DP.DOD.DLDS.CR.M1.FC.Z1 - 594.Debt securities (PSDFPC, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLDS.CR.M1.GG - 242.Debt securities (PSDGG, LT, &gt;1yr)
-DP.DOD.DLDS.CR.M1.GG.CD - 018.Debt securities (PSDGG, LT, &gt;1yr) US$
-DP.DOD.DLDS.CR.M1.GG.Z1 - 466.Debt securities (PSDGG, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLDS.CR.M1.NF - 338.Debt securities (PSDNFPC, LT, &gt;1yr)
-DP.DOD.DLDS.CR.M1.NF.CD - 114.Debt securities (PSDNFPC, LT, &gt;1yr) US$
-DP.DOD.DLDS.CR.M1.NF.Z1 - 562.Debt securities (PSDNFPC, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLDS.CR.M1.PS - 402.Debt securities (PSDT, LT, &gt;1yr)
-DP.DOD.DLDS.CR.M1.PS.CD - 178.Debt securities (PSDT, LT, &gt;1yr) US$
-DP.DOD.DLDS.CR.MV.BC - 320.Gross Budg. Central Govt. Public Sector Debt securities at market value
-DP.DOD.DLDS.CR.MV.BC.CD - 096.Gross Budg. Central Govt. Public Sector Debt Securities at market value US$
-DP.DOD.DLDS.CR.MV.BC.Z1 - 544.Gross Budg. Central Govt. Public Sector Debt securities at market value(% of GDP)
-DP.DOD.DLDS.CR.MV.CG - 288.Central Govt. Public Sector Debt securities at market value
-DP.DOD.DLDS.CR.MV.CG.CD - 064.Central Govt. Public Sector Debt Securities at market value US$
-DP.DOD.DLDS.CR.MV.CG.Z1 - 512.Central Govt. Public Sector Debt securities at market value(% of GDP)
-DP.DOD.DLDS.CR.MV.FC - 384.Gross Financial Public Corporations Debt securities at market value
-DP.DOD.DLDS.CR.MV.FC.CD - 160.Gross Financial Public Corporations Debt Securities at market value US$
+DP.DOD.DLDS.CR.BC - Gross PSD, Budgetary Central Gov., All maturities, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.BC.CD - Gross PSD, Budgetary Central Gov., All maturities, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., All maturities, Debt securities, Nominal Value, % of GDP
+DP.DOD.DLDS.CR.CG - Gross PSD, Central Gov., All maturities, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.CG.CD - Gross PSD, Central Gov., All maturities, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.CG.Z1 - Gross PSD, Central Gov., All maturities, Debt securities, Nominal Value, % of GDP
+DP.DOD.DLDS.CR.FC - Gross PSD, Financial Public Corp., All maturities, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.FC.CD - Gross PSD, Financial Public Corp., All maturities, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.FC.Z1 - Gross PSD, Financial Public Corp., All maturities, Debt securities, Nominal Value, % of GDP
+DP.DOD.DLDS.CR.GG - Gross PSD, General Gov., All maturities, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.GG.CD - Gross PSD, General Gov., All maturities, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.GG.Z1 - Gross PSD, General Gov., All maturities, Debt securities, Nominal Value, % of GDP
+DP.DOD.DLDS.CR.L1.BC - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.L1.BC.CD - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.L1.BC.Z1 - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, % of GDP
+DP.DOD.DLDS.CR.L1.CG - Gross PSD, Central Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.L1.CG.CD - Gross PSD, Central Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.L1.CG.Z1 - Gross PSD, Central Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, % of GDP
+DP.DOD.DLDS.CR.L1.FC - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.L1.FC.CD - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.L1.FC.Z1 - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Debt securities, Nominal Value, % of GDP
+DP.DOD.DLDS.CR.L1.GG - Gross PSD, General Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.L1.GG.CD - Gross PSD, General Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.L1.GG.Z1 - Gross PSD, General Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, % of GDP
+DP.DOD.DLDS.CR.L1.NF - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.L1.NF.CD - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.L1.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Debt securities, Nominal Value, % of GDP
+DP.DOD.DLDS.CR.L1.PS - Gross PSD, Public Sector, Long-term, With payment due in one year or less, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.L1.PS.CD - Gross PSD, Total, Long-term, With payment due in one year or less, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.M1.BC - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.M1.BC.CD - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.M1.BC.Z1 - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, % of GDP
+DP.DOD.DLDS.CR.M1.CG - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.M1.CG.CD - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.M1.CG.Z1 - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, % of GDP
+DP.DOD.DLDS.CR.M1.FC - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.M1.FC.CD - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.M1.FC.Z1 - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Debt securities, Nominal Value, % of GDP
+DP.DOD.DLDS.CR.M1.GG - Gross PSD, General Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.M1.GG.CD - Gross PSD, General Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.M1.GG.Z1 - Gross PSD, General Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, % of GDP
+DP.DOD.DLDS.CR.M1.NF - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.M1.NF.CD - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.M1.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Debt securities, Nominal Value, % of GDP
+DP.DOD.DLDS.CR.M1.PS - Gross PSD, Public Sector, Long-term, With payment due in more than one year, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.M1.PS.CD - Gross PSD, Total, Long-term, With payment due in more than one year, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.MV.BC - Gross PSD, Budgetary Central Gov., All maturities, Debt Securities, Market value, National Currency
+DP.DOD.DLDS.CR.MV.BC.CD - Gross PSD, Budgetary Central Gov., All maturities, Debt Securities, Market value, US$
+DP.DOD.DLDS.CR.MV.BC.Z1 - Gross PSD, Budgetary Central Gov., All maturities, Debt Securities, Market value, % of GDP
+DP.DOD.DLDS.CR.MV.CG - Gross PSD, Central Gov., All maturities, Debt Securities, Market value, National Currency
+DP.DOD.DLDS.CR.MV.CG.CD - Gross PSD, Central Gov., All maturities, Debt Securities, Market value, US$
+DP.DOD.DLDS.CR.MV.CG.Z1 - Gross PSD, Central Gov., All maturities, Debt Securities, Market value, % of GDP
+DP.DOD.DLDS.CR.MV.FC - Gross PSD, Financial Public Corp., All maturities, Debt Securities, Market value, National Currency
+DP.DOD.DLDS.CR.MV.FC.CD - Gross PSD, Financial Public Corp., All maturities, Debt Securities, Market value, US$
 DP.DOD.DLDS.CR.MV.FC.Z1 - Gross PSD, Financial Public Corp., All maturities, Debt Securities, Market value, % of GDP
-DP.DOD.DLDS.CR.MV.GG - 256.General Govt. Public Sector Debt securities at market value
-DP.DOD.DLDS.CR.MV.GG.CD - 032.General Govt. Public Sector Debt Securities at market value US$
-DP.DOD.DLDS.CR.MV.GG.Z1 - 480.General Govt. Public Sector Debt securities at market value(% of GDP)
-DP.DOD.DLDS.CR.MV.NF - 352.Gross Nonfinancial Public Corporations Debt securities at market value
-DP.DOD.DLDS.CR.MV.NF.CD - 128.Gross Nonfinancial Public Corporations Debt Securities at market value US$
-DP.DOD.DLDS.CR.MV.NF.Z1 - 576.Gross Nonfinancial Public Corporations Debt securities at market value(% of GDP)
-DP.DOD.DLDS.CR.MV.PS - 416.Gross Public Sector Debt securities at market value
-DP.DOD.DLDS.CR.MV.PS.CD - 192.Gross Public Sector Debt Securities at market value US$
-DP.DOD.DLDS.CR.NF - 344.Debt securities (PSDNFPC)
-DP.DOD.DLDS.CR.NF.CD - 120.Debt securities (PSDNFPC) US$
-DP.DOD.DLDS.CR.NF.Z1 - 568.Debt securities (PSDNFPC)(% of GDP)
-DP.DOD.DLDS.CR.PS - 408.Debt securities (PSDT, LT)
-DP.DOD.DLDS.CR.PS.CD - 184.Debt securities (PSDT) US$
-DP.DOD.DLIN.CR.BC - 314.Insurance, pensions, and standardized guarantee schemes (PSDCGGB)
-DP.DOD.DLIN.CR.BC.CD - 090.Insurance, pensions, and standardized guarantee schemes (PSDCGGB) US$
-DP.DOD.DLIN.CR.BC.Z1 - 538.Insurance, pensions, and standardized guarantee schemes (PSDCGGB)(% of GDP)
-DP.DOD.DLIN.CR.CG - 282.Insurance, pensions, and standardized guarantee schemes (PSDCG)
-DP.DOD.DLIN.CR.CG.CD - 058.Insurance, pensions, and standardized guarantee schemes (PSDCG) US$
-DP.DOD.DLIN.CR.CG.Z1 - 506.Insurance, pensions, and standardized guarantee schemes (PSDCG)(% of GDP)
-DP.DOD.DLIN.CR.FC - 378.Insurance, pensions, and standardized guarantee schemes (PSDFPC)
-DP.DOD.DLIN.CR.FC.CD - 154.Insurance, pensions, and standardized guarantee schemes (PSDFPC) US$
-DP.DOD.DLIN.CR.FC.Z1 - 602.Insurance, pensions, and standardized guarantee schemes (PSDFPC)(% of GDP)
-DP.DOD.DLIN.CR.GG - 250.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT)
-DP.DOD.DLIN.CR.GG.CD - 026.Insurance, pensions, and standardized guarantee schemes (PSDGG) US$
-DP.DOD.DLIN.CR.GG.Z1 - 474.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT)(% of GDP)
-DP.DOD.DLIN.CR.L1.BC - 301.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, LT, &lt;1yr)
-DP.DOD.DLIN.CR.L1.BC.CD - 077.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, LT, &lt;1yr) US$
-DP.DOD.DLIN.CR.L1.BC.Z1 - 525.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLIN.CR.L1.CG - 269.Insurance, pensions, and standardized guarantee schemes (PSDCG, LT, &lt;1yr)
-DP.DOD.DLIN.CR.L1.CG.CD - 045.Insurance, pensions, and standardized guarantee schemes (PSDCG, LT, &lt;1yr) US$
-DP.DOD.DLIN.CR.L1.CG.Z1 - 493.Insurance, pensions, and standardized guarantee schemes (PSDCG, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLIN.CR.L1.FC - 365.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &lt;1yr)
-DP.DOD.DLIN.CR.L1.FC.CD - 141.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &lt;1yr) US$
-DP.DOD.DLIN.CR.L1.FC.Z1 - 589.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLIN.CR.L1.GG - 237.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT, &lt;1yr)
-DP.DOD.DLIN.CR.L1.GG.CD - 013.Insurance, pensions, and standardized guarantee schemes (PSDGG, LT, &lt;1yr) US$
-DP.DOD.DLIN.CR.L1.GG.Z1 - 461.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLIN.CR.L1.NF - 333.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, LT, &lt;1yr)
-DP.DOD.DLIN.CR.L1.NF.CD - 109.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, LT, &lt;1yr) US$
-DP.DOD.DLIN.CR.L1.NF.Z1 - 557.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLIN.CR.L1.PS - 397.Insurance, pensions, and standardized guarantee schemes (PSDT, LT,&lt;1yr)
-DP.DOD.DLIN.CR.L1.PS.CD - 173.Insurance, pensions, and standardized guarantee schemes (PSDT, LT,&lt;1yr) US$
-DP.DOD.DLIN.CR.M1.BC - 308.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, LT, &gt;1yr)
-DP.DOD.DLIN.CR.M1.BC.CD - 084.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, LT, &gt;1yr) US$
-DP.DOD.DLIN.CR.M1.BC.Z1 - 532.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLIN.CR.M1.CG - 276.Insurance, pensions, and standardized guarantee schemes (PSDCG, LT, &gt;1yr)
-DP.DOD.DLIN.CR.M1.CG.CD - 052.Insurance, pensions, and standardized guarantee schemes (PSDCG, LT, &gt;1yr) US$
-DP.DOD.DLIN.CR.M1.CG.Z1 - 500.Insurance, pensions, and standardized guarantee schemes (PSDCG, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLIN.CR.M1.FC - 372.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &gt;1yr)
-DP.DOD.DLIN.CR.M1.FC.CD - 148.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &gt;1yr) US$
-DP.DOD.DLIN.CR.M1.FC.Z1 - 596.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLIN.CR.M1.GG - 244.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT, &gt;1yr)
-DP.DOD.DLIN.CR.M1.GG.CD - 020.Insurance, pensions, and standardized guarantee schemes (PSDGG, LT, &gt;1yr) US$
-DP.DOD.DLIN.CR.M1.GG.Z1 - 468.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLIN.CR.M1.NF - 340.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, LT, &gt;1yr)
-DP.DOD.DLIN.CR.M1.NF.CD - 116.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, LT, &gt;1yr) US$
-DP.DOD.DLIN.CR.M1.NF.Z1 - 564.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLIN.CR.M1.PS - 404.Insurance, pensions, and standardized guarantee schemes (PSDT, LT, &gt;1yr)
-DP.DOD.DLIN.CR.M1.PS.CD - 180.Insurance, pensions, and standardized guarantee schemes (PSDT, LT, &gt;1yr) US$
-DP.DOD.DLIN.CR.NF - 346.Insurance, pensions, and standardized guarantee schemes (PSDNFPC)
-DP.DOD.DLIN.CR.NF.CD - 122.Insurance, pensions, and standardized guarantee schemes (PSDNFPC) US$
-DP.DOD.DLIN.CR.NF.Z1 - 570.Insurance, pensions, and standardized guarantee schemes (PSDNFPC)(% of GDP)
-DP.DOD.DLIN.CR.PS - 410.Insurance, pensions, and standardized guarantee schemes (PSDT, LT)
-DP.DOD.DLIN.CR.PS.CD - 186.Insurance, pensions, and standardized guarantee schemes (PSDT) US$
-DP.DOD.DLLO.CR.BC - 313.Loans (PSDCGGB)
-DP.DOD.DLLO.CR.BC.CD - 089.Loans (PSDCGGB) US$
-DP.DOD.DLLO.CR.BC.Z1 - 537.Loans (PSDCGGB)(% of GDP)
-DP.DOD.DLLO.CR.CG - 281.Loans (PSDCG)
-DP.DOD.DLLO.CR.CG.CD - 057.Loans (PSDCG) US$
-DP.DOD.DLLO.CR.CG.Z1 - 505.Loans (PSDCG)(% of GDP)
-DP.DOD.DLLO.CR.FC - 377.Loans (PSDFPC)
-DP.DOD.DLLO.CR.FC.CD - 153.Loans (PSDFPC) US$
-DP.DOD.DLLO.CR.FC.Z1 - 601.Loans (PSDFPC)(% of GDP)
-DP.DOD.DLLO.CR.GG - 249.Loans (PSDGG, LT)
-DP.DOD.DLLO.CR.GG.CD - 025.Loans (PSDGG) US$
-DP.DOD.DLLO.CR.GG.Z1 - 473.Loans (PSDGG, LT)(% of GDP)
-DP.DOD.DLLO.CR.L1.BC - 300.Loans (PSDCGGB, LT, &lt;1yr)
-DP.DOD.DLLO.CR.L1.BC.CD - 076.Loans (PSDCGGB, LT, &lt;1yr) US$
-DP.DOD.DLLO.CR.L1.BC.Z1 - 524.Loans (PSDCGGB, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLLO.CR.L1.CG - 268.Loans (PSDCG, LT, &lt;1yr)
-DP.DOD.DLLO.CR.L1.CG.CD - 044.Loans (PSDCG, LT, &lt;1yr) US$
-DP.DOD.DLLO.CR.L1.CG.Z1 - 492.Loans (PSDCG, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLLO.CR.L1.FC - 364.Loans (PSDFPC, LT, &lt;1yr)
-DP.DOD.DLLO.CR.L1.FC.CD - 140.Loans (PSDFPC, LT, &lt;1yr) US$
-DP.DOD.DLLO.CR.L1.FC.Z1 - 588.Loans (PSDFPC, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLLO.CR.L1.GG - 236.Loans (PSDGG, LT, &lt;1yr)
-DP.DOD.DLLO.CR.L1.GG.CD - 012.Loans (PSDGG, LT, &lt;1yr) US$
-DP.DOD.DLLO.CR.L1.GG.Z1 - 460.Loans (PSDGG, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLLO.CR.L1.NF - 332.Loans (PSDNFPC, LT, &lt;1yr)
-DP.DOD.DLLO.CR.L1.NF.CD - 108.Loans (PSDNFPC, LT, &lt;1yr) US$
-DP.DOD.DLLO.CR.L1.NF.Z1 - 556.Loans (PSDNFPC, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLLO.CR.L1.PS - 396.Loans (PSDT, LT,&lt;1yr)
-DP.DOD.DLLO.CR.L1.PS.CD - 172.Loans (PSDT, LT,&lt;1yr) US$
-DP.DOD.DLLO.CR.M1.BC - 307.Loans (PSDCGGB, LT, &gt;1yr)
-DP.DOD.DLLO.CR.M1.BC.CD - 083.Loans (PSDCGGB, LT, &gt;1yr) US$
-DP.DOD.DLLO.CR.M1.BC.Z1 - 531.Loans (PSDCGGB, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLLO.CR.M1.CG - 275.Loans (PSDCG, LT, &gt;1yr)
-DP.DOD.DLLO.CR.M1.CG.CD - 051.Loans (PSDCG, LT, &gt;1yr) US$
-DP.DOD.DLLO.CR.M1.CG.Z1 - 499.Loans (PSDCG, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLLO.CR.M1.FC - 371.Loans (PSDFPC, LT, &gt;1yr)
-DP.DOD.DLLO.CR.M1.FC.CD - 147.Loans (PSDFPC, LT, &gt;1yr) US$
-DP.DOD.DLLO.CR.M1.FC.Z1 - 595.Loans (PSDFPC, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLLO.CR.M1.GG - 243.Loans (PSDGG, LT, &gt;1yr)
-DP.DOD.DLLO.CR.M1.GG.CD - 019.Loans (PSDGG, LT, &gt;1yr) US$
-DP.DOD.DLLO.CR.M1.GG.Z1 - 467.Loans (PSDGG, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLLO.CR.M1.NF - 339.Loans (PSDNFPC, LT, &gt;1yr)
-DP.DOD.DLLO.CR.M1.NF.CD - 115.Loans (PSDNFPC, LT, &gt;1yr) US$
-DP.DOD.DLLO.CR.M1.NF.Z1 - 563.Loans (PSDNFPC, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLLO.CR.M1.PS - 403.Loans (PSDT, LT, &gt;1yr)
-DP.DOD.DLLO.CR.M1.PS.CD - 179.Loans (PSDT, LT, &gt;1yr) US$
-DP.DOD.DLLO.CR.NF - 345.Loans (PSDNFPC)
-DP.DOD.DLLO.CR.NF.CD - 121.Loans (PSDNFPC) US$
-DP.DOD.DLLO.CR.NF.Z1 - 569.Loans (PSDNFPC)(% of GDP)
-DP.DOD.DLLO.CR.PS - 409.Loans (PSDT, LT)
-DP.DOD.DLLO.CR.PS.CD - 185.Loans (PSDT) US$
-DP.DOD.DLOA.CR.BC - 315.Other accounts payable (PSDCGGB)
-DP.DOD.DLOA.CR.BC.CD - 091.Other accounts payable (PSDCGGB) US$
-DP.DOD.DLOA.CR.BC.Z1 - 539.Other accounts payable (PSDCGGB)(% of GDP)
-DP.DOD.DLOA.CR.CG - 283.Other accounts payable (PSDCG)
-DP.DOD.DLOA.CR.CG.CD - 059.Other accounts payable (PSDCG) US$
-DP.DOD.DLOA.CR.CG.Z1 - 507.Other accounts payable (PSDCG)(% of GDP)
-DP.DOD.DLOA.CR.FC - 379.Other accounts payable (PSDFPC)
-DP.DOD.DLOA.CR.FC.CD - 155.Other accounts payable (PSDFPC) US$
-DP.DOD.DLOA.CR.FC.Z1 - 603.Other accounts payable (PSDFPC)(% of GDP)
-DP.DOD.DLOA.CR.GG - 251.Other accounts payable (PSDGG, LT)
-DP.DOD.DLOA.CR.GG.CD - 027.Other accounts payable (PSDGG) US$
-DP.DOD.DLOA.CR.GG.Z1 - 475.Other accounts payable (PSDGG, LT)(% of GDP)
-DP.DOD.DLOA.CR.L1.BC - 302.Other accounts payable (PSDCGGB, LT, &lt;1yr)
-DP.DOD.DLOA.CR.L1.BC.CD - 078.Other accounts payable (PSDCGGB, LT, &lt;1yr) US$
-DP.DOD.DLOA.CR.L1.BC.Z1 - 526.Other accounts payable (PSDCGGB, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLOA.CR.L1.CG - 270.Other accounts payable (PSDCG, LT, &lt;1yr)
-DP.DOD.DLOA.CR.L1.CG.CD - 046.Other accounts payable (PSDCG, LT, &lt;1yr) US$
-DP.DOD.DLOA.CR.L1.CG.Z1 - 494.Other accounts payable (PSDCG, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLOA.CR.L1.FC - 366.Other accounts payable (PSDFPC, LT, &lt;1yr)
-DP.DOD.DLOA.CR.L1.FC.CD - 142.Other accounts payable (PSDFPC, LT, &lt;1yr) US$
-DP.DOD.DLOA.CR.L1.FC.Z1 - 590.Other accounts payable (PSDFPC, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLOA.CR.L1.GG - 238.Other accounts payable (PSDGG, LT, &lt;1yr)
-DP.DOD.DLOA.CR.L1.GG.CD - 014.Other accounts payable (PSDGG, LT, &lt;1yr) US$
-DP.DOD.DLOA.CR.L1.GG.Z1 - 462.Other accounts payable (PSDGG, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLOA.CR.L1.NF - 334.Other accounts payable (PSDNFPC, LT, &lt;1yr)
-DP.DOD.DLOA.CR.L1.NF.CD - 110.Other accounts payable (PSDNFPC, LT, &lt;1yr) US$
-DP.DOD.DLOA.CR.L1.NF.Z1 - 558.Other accounts payable (PSDNFPC, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLOA.CR.L1.PS - 398.Other accounts payable (PSDT, LT,&lt;1yr)
-DP.DOD.DLOA.CR.L1.PS.CD - 174.Other accounts payable (PSDT, LT,&lt;1yr) US$
-DP.DOD.DLOA.CR.M1.BC - 309.Other accounts payable (PSDCGGB, LT, &gt;1yr)
-DP.DOD.DLOA.CR.M1.BC.CD - 085.Other accounts payable (PSDCGGB, LT, &gt;1yr) US$
-DP.DOD.DLOA.CR.M1.BC.Z1 - 533.Other accounts payable (PSDCGGB, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLOA.CR.M1.CG - 277.Other accounts payable (PSDCG, LT, &gt;1yr)
-DP.DOD.DLOA.CR.M1.CG.CD - 053.Other accounts payable (PSDCG, LT, &gt;1yr) US$
-DP.DOD.DLOA.CR.M1.CG.Z1 - 501.Other accounts payable (PSDCG, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLOA.CR.M1.FC - 373.Other accounts payable (PSDFPC, LT, &gt;1yr)
-DP.DOD.DLOA.CR.M1.FC.CD - 149.Other accounts payable (PSDFPC, LT, &gt;1yr) US$
-DP.DOD.DLOA.CR.M1.FC.Z1 - 597.Other accounts payable (PSDFPC, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLOA.CR.M1.GG - 245.Other accounts payable (PSDGG, LT, &gt;1yr)
-DP.DOD.DLOA.CR.M1.GG.CD - 021.Other accounts payable (PSDGG, LT, &gt;1yr) US$
-DP.DOD.DLOA.CR.M1.GG.Z1 - 469.Other accounts payable (PSDGG, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLOA.CR.M1.NF - 341.Other accounts payable (PSDNFPC, LT, &gt;1yr)
-DP.DOD.DLOA.CR.M1.NF.CD - 117.Other accounts payable (PSDNFPC, LT, &gt;1yr) US$
-DP.DOD.DLOA.CR.M1.NF.Z1 - 565.Other accounts payable (PSDNFPC, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLOA.CR.M1.PS - 405.Other accounts payable (PSDT, LT, &gt;1yr)
-DP.DOD.DLOA.CR.M1.PS.CD - 181.Other accounts payable (PSDT, LT, &gt;1yr) US$
-DP.DOD.DLOA.CR.NF - 347.Other accounts payable (PSDNFPC)
-DP.DOD.DLOA.CR.NF.CD - 123.Other accounts payable (PSDNFPC) US$
-DP.DOD.DLOA.CR.NF.Z1 - 571.Other accounts payable (PSDNFPC)(% of GDP)
-DP.DOD.DLOA.CR.PS - 411.Other accounts payable /8
-DP.DOD.DLOA.CR.PS.CD - 187.Other accounts payable (PSDT) US$
-DP.DOD.DLSD.CR.BC - 310.Special Drawing Rights (SDRs) (PSDCGGB)
-DP.DOD.DLSD.CR.BC.CD - 086.Special Drawing Rights (SDRs) (PSDCGGB) US$
-DP.DOD.DLSD.CR.BC.Z1 - 534.Special Drawing Rights (SDRs) (PSDCGGB)(% of GDP)
-DP.DOD.DLSD.CR.CG - 278.Special Drawing Rights (SDRs) (PSDCG)
-DP.DOD.DLSD.CR.CG.CD - 054.Special Drawing Rights (SDRs) (PSDCG) US$
-DP.DOD.DLSD.CR.CG.Z1 - 502.Special Drawing Rights (SDRs) (PSDCG)(% of GDP)
-DP.DOD.DLSD.CR.FC - 374.Special Drawing Rights (SDRs) (PSDFPC)
-DP.DOD.DLSD.CR.FC.CD - 150.Special Drawing Rights (SDRs) (PSDFPC) US$
-DP.DOD.DLSD.CR.FC.Z1 - 598.Special Drawing Rights (SDRs) (PSDFPC)(% of GDP)
-DP.DOD.DLSD.CR.GG - 246.Special Drawing Rights (SDRs) (PSDGG, LT)
-DP.DOD.DLSD.CR.GG.CD - 022.Special Drawing Rights (SDRs) (PSDGG) US$
-DP.DOD.DLSD.CR.GG.Z1 - 470.Special Drawing Rights (SDRs) (PSDGG, LT)(% of GDP)
-DP.DOD.DLSD.CR.M1.BC - 304.Special Drawing Rights (SDRs) (PSDCGGB, LT, &gt;1yr)
-DP.DOD.DLSD.CR.M1.BC.CD - 080.Special Drawing Rights (SDRs) (PSDCGGB, LT, &gt;1yr) US$
-DP.DOD.DLSD.CR.M1.BC.Z1 - 528.Special Drawing Rights (SDRs) (PSDCGGB, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLSD.CR.M1.CG - 272.Special Drawing Rights (SDRs) (PSDCG, LT, &gt;1yr)
-DP.DOD.DLSD.CR.M1.CG.CD - 048.Special Drawing Rights (SDRs) (PSDCG, LT, &gt;1yr) US$
-DP.DOD.DLSD.CR.M1.CG.Z1 - 496.Special Drawing Rights (SDRs) (PSDCG, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLSD.CR.M1.FC - 368.Special Drawing Rights (SDRs) (PSDFPC, LT, &gt;1yr)
-DP.DOD.DLSD.CR.M1.FC.CD - 144.Special Drawing Rights (SDRs) (PSDFPC, LT, &gt;1yr) US$
-DP.DOD.DLSD.CR.M1.FC.Z1 - 592.Special Drawing Rights (SDRs) (PSDFPC, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLSD.CR.M1.GG - 240.Special Drawing Rights (SDRs) (PSDGG, LT, &gt;1yr)
-DP.DOD.DLSD.CR.M1.GG.CD - 016.Special Drawing Rights (SDRs) (PSDGG, LT, &gt;1yr) US$
-DP.DOD.DLSD.CR.M1.GG.Z1 - 464.Special Drawing Rights (SDRs) (PSDGG, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLSD.CR.M1.NF - 336.Special Drawing Rights (SDRs) (PSDNFPC, LT, &gt;1yr)
-DP.DOD.DLSD.CR.M1.NF.CD - 112.Special Drawing Rights (SDRs) (PSDNFPC, LT, &gt;1yr) US$
-DP.DOD.DLSD.CR.M1.NF.Z1 - 560.Special Drawing Rights (SDRs) (PSDNFPC, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLSD.CR.M1.PS - 400.Special Drawing Rights (SDRs) (PSDT, LT, &gt;1yr)
-DP.DOD.DLSD.CR.M1.PS.CD - 176.Special Drawing Rights (SDRs) (PSDT, LT, &gt;1yr) US$
-DP.DOD.DLSD.CR.NF - 342.Special Drawing Rights (SDRs) (PSDNFPC)
-DP.DOD.DLSD.CR.NF.CD - 118.Special Drawing Rights (SDRs) (PSDNFPC) US$
-DP.DOD.DLSD.CR.NF.Z1 - 566.Special Drawing Rights (SDRs) (PSDNFPC)(% of GDP)
-DP.DOD.DLSD.CR.PS - 406.Special Drawing Rights (SDRs) (PSDT, LT)
-DP.DOD.DLSD.CR.PS.CD - 182.Special Drawing Rights (SDRs) (PSDT) US$
-DP.DOD.DLTC.CR.BC - 296.Long-term, by original maturity (PSDCGGB, LT)
-DP.DOD.DLTC.CR.BC.CD - 072.Long-term, by original maturity (PSDCGGB, LT) US$
-DP.DOD.DLTC.CR.BC.Z1 - 520.Long-term, by original maturity (PSDCGGB, LT)(% of GDP)
-DP.DOD.DLTC.CR.CG - 264.Long-term, by original maturity (PSDCG, LT)
-DP.DOD.DLTC.CR.CG.CD - 040.Long-term, by original maturity (PSDCG, LT) US$
-DP.DOD.DLTC.CR.CG.Z1 - 488.Long-term, by original maturity (PSDCG, LT)(% of GDP)
-DP.DOD.DLTC.CR.FC - 360.Long-term, by original maturity (PSDFPC, LT)
-DP.DOD.DLTC.CR.FC.CD - 136.Long-term, by original maturity (PSDFPC, LT) US$
-DP.DOD.DLTC.CR.FC.Z1 - 584.Long-term, by original maturity (PSDFPC, LT)(% of GDP)
-DP.DOD.DLTC.CR.GG - 232.Long-term, by original maturity (PSDGG, LT)
-DP.DOD.DLTC.CR.GG.CD - 008.Long-term, by original maturity (PSDGG, LT) US$
-DP.DOD.DLTC.CR.GG.Z1 - 456.Long-term, by original maturity (PSDGG, LT)(% of GDP)
-DP.DOD.DLTC.CR.L1.BC - 297.With payment due in one year or less (PSDCGGB, LT, &lt;1yr)
-DP.DOD.DLTC.CR.L1.BC.CD - 073.With payment due in one year or less (PSDCGGB, LT, &lt;1yr) US$
-DP.DOD.DLTC.CR.L1.BC.Z1 - 521.With payment due in one year or less (PSDCGGB, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLTC.CR.L1.CG - 265.With payment due in one year or less (PSDCG, LT, &lt;1yr)
-DP.DOD.DLTC.CR.L1.CG.CD - 041.With payment due in one year or less (PSDCG, LT, &lt;1yr) US$
-DP.DOD.DLTC.CR.L1.CG.Z1 - 489.With payment due in one year or less (PSDCG, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLTC.CR.L1.FC - 361.With payment due in one year or less (PSDFPC, LT, &lt;1yr)
-DP.DOD.DLTC.CR.L1.FC.CD - 137.With payment due in one year or less (PSDFPC, LT, &lt;1yr) US$
-DP.DOD.DLTC.CR.L1.FC.Z1 - 585.With payment due in one year or less (PSDFPC, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLTC.CR.L1.GG - 233.With payment due in one year or less (PSDGG, LT, &lt;1yr)
-DP.DOD.DLTC.CR.L1.GG.CD - 009.With payment due in one year or less (PSDGG, LT, &lt;1yr) US$
-DP.DOD.DLTC.CR.L1.GG.Z1 - 457.With payment due in one year or less (PSDGG, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLTC.CR.L1.NF - 329.With payment due in one year or less (PSDNFPC, LT, &lt;1yr)
-DP.DOD.DLTC.CR.L1.NF.CD - 105.With payment due in one year or less (PSDNFPC, LT, &lt;1yr) US$
-DP.DOD.DLTC.CR.L1.NF.Z1 - 553.With payment due in one year or less (PSDNFPC, LT, &lt;1yr)(% of GDP)
-DP.DOD.DLTC.CR.L1.PS - 393.With payment due in one year or less (PSDT, LT,&lt;1yr)
-DP.DOD.DLTC.CR.L1.PS.CD - 169.With payment due in one year or less (PSDT, LT,&lt;1yr) US$
-DP.DOD.DLTC.CR.M1.BC - 303.With payment due in more than one year (PSDCGGB, LT, &gt;1yr)
-DP.DOD.DLTC.CR.M1.BC.CD - 079.With payment due in more than one year (PSDCGGB, LT, &gt;1yr) US$
-DP.DOD.DLTC.CR.M1.BC.Z1 - 527.With payment due in more than one year (PSDCGGB, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLTC.CR.M1.CG - 271.With payment due in more than one year (PSDCG, LT, &gt;1yr)
-DP.DOD.DLTC.CR.M1.CG.CD - 047.With payment due in more than one year (PSDCG, LT, &gt;1yr) US$
-DP.DOD.DLTC.CR.M1.CG.Z1 - 495.With payment due in more than one year (PSDCG, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLTC.CR.M1.FC - 367.With payment due in more than one year (PSDFPC, LT, &gt;1yr)
-DP.DOD.DLTC.CR.M1.FC.CD - 143.With payment due in more than one year (PSDFPC, LT, &gt;1yr) US$
-DP.DOD.DLTC.CR.M1.FC.Z1 - 591.With payment due in more than one year (PSDFPC, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLTC.CR.M1.GG - 239.With payment due in more than one year (PSDGG, LT, &gt;1yr)
-DP.DOD.DLTC.CR.M1.GG.CD - 015.With payment due in more than one year (PSDGG, LT, &gt;1yr) US$
-DP.DOD.DLTC.CR.M1.GG.Z1 - 463.With payment due in more than one year (PSDGG, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLTC.CR.M1.NF - 335.With payment due in more than one year (PSDNFPC, LT, &gt;1yr)
-DP.DOD.DLTC.CR.M1.NF.CD - 111.With payment due in more than one year (PSDNFPC, LT, &gt;1yr) US$
-DP.DOD.DLTC.CR.M1.NF.Z1 - 559.With payment due in more than one year (PSDNFPC, LT, &gt;1yr)(% of GDP)
-DP.DOD.DLTC.CR.M1.PS - 399.With payment due in more than one year (PSDT, LT, &gt;1yr)
-DP.DOD.DLTC.CR.M1.PS.CD - 175.With payment due in more than one year (PSDT, LT, &gt;1yr) US$
-DP.DOD.DLTC.CR.NF - 328.Long-term, by original maturity (PSDNFPC, LT)
-DP.DOD.DLTC.CR.NF.CD - 104.Long-term, by original maturity (PSDNFPC, LT) US$
-DP.DOD.DLTC.CR.NF.Z1 - 552.Long-term, by original maturity (PSDNFPC, LT)(% of GDP)
-DP.DOD.DLTC.CR.PS - 392.Long-term, by original maturity (PSDT, LT)
-DP.DOD.DLTC.CR.PS.CD - 168.Long-term, by original maturity (PSDT, LT) US$
+DP.DOD.DLDS.CR.MV.GG - Gross PSD, General Gov., All maturities, Debt Securities, Market value, National Currency
+DP.DOD.DLDS.CR.MV.GG.CD - Gross PSD, General Gov., All maturities, Debt Securities, Market value, US$
+DP.DOD.DLDS.CR.MV.GG.Z1 - Gross PSD, General Gov., All maturities, Debt Securities, Market value, % of GDP
+DP.DOD.DLDS.CR.MV.NF - Gross PSD, Nonfinancial Public Corp., All maturities, Debt Securities, Market value, National Currency
+DP.DOD.DLDS.CR.MV.NF.CD - Gross PSD, Nonfinancial Public Corp., All maturities, Debt Securities, Market value, US$
+DP.DOD.DLDS.CR.MV.NF.Z1 - Gross PSD, Nonfinancial Public Corp., All maturities, Debt Securities, Market value, % of GDP
+DP.DOD.DLDS.CR.MV.PS - Gross PSD, Public Sector, All maturities, Debt Securities, Market value, National Currency
+DP.DOD.DLDS.CR.MV.PS.CD - Gross PSD, Total, All maturities, Debt Securities, Market value, US$
+DP.DOD.DLDS.CR.NF - Gross PSD, Nonfinancial Public Corp., All maturities, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., All maturities, Debt securities, Nominal Value, US$
+DP.DOD.DLDS.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., All maturities, Debt securities, Nominal Value, % of GDP
+DP.DOD.DLDS.CR.PS - Gross PSD, Public Sector, All maturities, Debt securities, Nominal Value, National Currency
+DP.DOD.DLDS.CR.PS.CD - Gross PSD, Total, All maturities, Debt securities, Nominal Value, US$
+DP.DOD.DLIN.CR.BC - Gross PSD, Budgetary Central Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.BC.CD - Gross PSD, Budgetary Central Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DLIN.CR.CG - Gross PSD, Central Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.CG.CD - Gross PSD, Central Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.CG.Z1 - Gross PSD, Central Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DLIN.CR.FC - Gross PSD, Financial Public Corp., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.FC.CD - Gross PSD, Financial Public Corp., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.FC.Z1 - Gross PSD, Financial Public Corp., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DLIN.CR.GG - Gross PSD, General Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.GG.CD - Gross PSD, General Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.GG.Z1 - Gross PSD, General Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DLIN.CR.L1.BC - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.L1.BC.CD - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.L1.BC.Z1 - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DLIN.CR.L1.CG - Gross PSD, Central Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.L1.CG.CD - Gross PSD, Central Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.L1.CG.Z1 - Gross PSD, Central Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DLIN.CR.L1.FC - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.L1.FC.CD - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.L1.FC.Z1 - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DLIN.CR.L1.GG - Gross PSD, General Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.L1.GG.CD - Gross PSD, General Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.L1.GG.Z1 - Gross PSD, General Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DLIN.CR.L1.NF - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.L1.NF.CD - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.L1.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DLIN.CR.L1.PS - Gross PSD, Public Sector, Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.L1.PS.CD - Gross PSD, Total, Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.M1.BC - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.M1.BC.CD - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.M1.BC.Z1 - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DLIN.CR.M1.CG - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.M1.CG.CD - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.M1.CG.Z1 - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DLIN.CR.M1.FC - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.M1.FC.CD - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.M1.FC.Z1 - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DLIN.CR.M1.GG - Gross PSD, General Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.M1.GG.CD - Gross PSD, General Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.M1.GG.Z1 - Gross PSD, General Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DLIN.CR.M1.NF - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.M1.NF.CD - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.M1.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DLIN.CR.M1.PS - Gross PSD, Public Sector, Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.M1.PS.CD - Gross PSD, Total, Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.NF - Gross PSD, Nonfinancial Public Corp., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLIN.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DLIN.CR.PS - Gross PSD, Public Sector, All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DLIN.CR.PS.CD - Gross PSD, Total, All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DLLO.CR.BC - Gross PSD, Budgetary Central Gov., All maturities, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.BC.CD - Gross PSD, Budgetary Central Gov., All maturities, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., All maturities, Loans, Nominal Value, % of GDP
+DP.DOD.DLLO.CR.CG - Gross PSD, Central Gov., All maturities, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.CG.CD - Gross PSD, Central Gov., All maturities, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.CG.Z1 - Gross PSD, Central Gov., All maturities, Loans, Nominal Value, % of GDP
+DP.DOD.DLLO.CR.FC - Gross PSD, Financial Public Corp., All maturities, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.FC.CD - Gross PSD, Financial Public Corp., All maturities, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.FC.Z1 - Gross PSD, Financial Public Corp., All maturities, Loans, Nominal Value, % of GDP
+DP.DOD.DLLO.CR.GG - Gross PSD, General Gov., All maturities, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.GG.CD - Gross PSD, General Gov., All maturities, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.GG.Z1 - Gross PSD, General Gov., All maturities, Loans, Nominal Value, % of GDP
+DP.DOD.DLLO.CR.L1.BC - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.L1.BC.CD - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.L1.BC.Z1 - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, % of GDP
+DP.DOD.DLLO.CR.L1.CG - Gross PSD, Central Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.L1.CG.CD - Gross PSD, Central Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.L1.CG.Z1 - Gross PSD, Central Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, % of GDP
+DP.DOD.DLLO.CR.L1.FC - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.L1.FC.CD - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.L1.FC.Z1 - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Loans, Nominal Value, % of GDP
+DP.DOD.DLLO.CR.L1.GG - Gross PSD, General Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.L1.GG.CD - Gross PSD, General Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.L1.GG.Z1 - Gross PSD, General Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, % of GDP
+DP.DOD.DLLO.CR.L1.NF - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.L1.NF.CD - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.L1.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Loans, Nominal Value, % of GDP
+DP.DOD.DLLO.CR.L1.PS - Gross PSD, Public Sector, Long-term, With payment due in one year or less, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.L1.PS.CD - Gross PSD, Total, Long-term, With payment due in one year or less, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.M1.BC - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.M1.BC.CD - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.M1.BC.Z1 - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, % of GDP
+DP.DOD.DLLO.CR.M1.CG - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.M1.CG.CD - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.M1.CG.Z1 - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, % of GDP
+DP.DOD.DLLO.CR.M1.FC - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.M1.FC.CD - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.M1.FC.Z1 - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Loans, Nominal Value, % of GDP
+DP.DOD.DLLO.CR.M1.GG - Gross PSD, General Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.M1.GG.CD - Gross PSD, General Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.M1.GG.Z1 - Gross PSD, General Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, % of GDP
+DP.DOD.DLLO.CR.M1.NF - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.M1.NF.CD - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.M1.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Loans, Nominal Value, % of GDP
+DP.DOD.DLLO.CR.M1.PS - Gross PSD, Public Sector, Long-term, With payment due in more than one year, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.M1.PS.CD - Gross PSD, Total, Long-term, With payment due in more than one year, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.NF - Gross PSD, Nonfinancial Public Corp., All maturities, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., All maturities, Loans, Nominal Value, US$
+DP.DOD.DLLO.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., All maturities, Loans, Nominal Value, % of GDP
+DP.DOD.DLLO.CR.PS - Gross PSD, Public Sector, All maturities, Loans, Nominal Value, National Currency
+DP.DOD.DLLO.CR.PS.CD - Gross PSD, Total, All maturities, Loans, Nominal Value, US$
+DP.DOD.DLOA.CR.BC - Gross PSD, Budgetary Central Gov., All maturities, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.BC.CD - Gross PSD, Budgetary Central Gov., All maturities, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., All maturities, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DLOA.CR.CG - Gross PSD, Central Gov., All maturities, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.CG.CD - Gross PSD, Central Gov., All maturities, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.CG.Z1 - Gross PSD, Central Gov., All maturities, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DLOA.CR.FC - Gross PSD, Financial Public Corp., All maturities, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.FC.CD - Gross PSD, Financial Public Corp., All maturities, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.FC.Z1 - Gross PSD, Financial Public Corp., All maturities, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DLOA.CR.GG - Gross PSD, General Gov., All maturities, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.GG.CD - Gross PSD, General Gov., All maturities, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.GG.Z1 - Gross PSD, General Gov., All maturities, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DLOA.CR.L1.BC - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.L1.BC.CD - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.L1.BC.Z1 - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DLOA.CR.L1.CG - Gross PSD, Central Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.L1.CG.CD - Gross PSD, Central Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.L1.CG.Z1 - Gross PSD, Central Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DLOA.CR.L1.FC - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.L1.FC.CD - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.L1.FC.Z1 - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DLOA.CR.L1.GG - Gross PSD, General Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.L1.GG.CD - Gross PSD, General Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.L1.GG.Z1 - Gross PSD, General Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DLOA.CR.L1.NF - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.L1.NF.CD - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.L1.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DLOA.CR.L1.PS - Gross PSD, Public Sector, Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.L1.PS.CD - Gross PSD, Total, Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.M1.BC - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.M1.BC.CD - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.M1.BC.Z1 - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DLOA.CR.M1.CG - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.M1.CG.CD - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.M1.CG.Z1 - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DLOA.CR.M1.FC - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.M1.FC.CD - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.M1.FC.Z1 - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DLOA.CR.M1.GG - Gross PSD, General Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.M1.GG.CD - Gross PSD, General Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.M1.GG.Z1 - Gross PSD, General Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DLOA.CR.M1.NF - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.M1.NF.CD - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.M1.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DLOA.CR.M1.PS - Gross PSD, Public Sector, Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.M1.PS.CD - Gross PSD, Total, Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.NF - Gross PSD, Nonfinancial Public Corp., All maturities, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., All maturities, Other accounts payable, Nominal Value, US$
+DP.DOD.DLOA.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., All maturities, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DLOA.CR.PS - Gross PSD, Public Sector, All maturities, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DLOA.CR.PS.CD - Gross PSD, Total, All maturities, Other accounts payable, Nominal Value, US$
+DP.DOD.DLSD.CR.BC - Gross PSD, Budgetary Central Gov., All maturities, Special Drawing Rights, Nominal Value, National Currency
+DP.DOD.DLSD.CR.BC.CD - Gross PSD, Budgetary Central Gov., All maturities, Special Drawing Rights, Nominal Value, US$
+DP.DOD.DLSD.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., All maturities, Special Drawing Rights, Nominal Value, % of GDP
+DP.DOD.DLSD.CR.CG - Gross PSD, Central Gov., All maturities, Special Drawing Rights, Nominal Value, National Currency
+DP.DOD.DLSD.CR.CG.CD - Gross PSD, Central Gov., All maturities, Special Drawing Rights, Nominal Value, US$
+DP.DOD.DLSD.CR.CG.Z1 - Gross PSD, Central Gov., All maturities, Special Drawing Rights, Nominal Value, % of GDP
+DP.DOD.DLSD.CR.FC - Gross PSD, Financial Public Corp., All maturities, Special Drawing Rights, Nominal Value, National Currency
+DP.DOD.DLSD.CR.FC.CD - Gross PSD, Financial Public Corp., All maturities, Special Drawing Rights, Nominal Value, US$
+DP.DOD.DLSD.CR.FC.Z1 - Gross PSD, Financial Public Corp., All maturities, Special Drawing Rights, Nominal Value, % of GDP
+DP.DOD.DLSD.CR.GG - Gross PSD, General Gov., All maturities, Special Drawing Rights, Nominal Value, National Currency
+DP.DOD.DLSD.CR.GG.CD - Gross PSD, General Gov., All maturities, Special Drawing Rights, Nominal Value, US$
+DP.DOD.DLSD.CR.GG.Z1 - Gross PSD, General Gov., All maturities, Special Drawing Rights, Nominal Value, % of GDP
+DP.DOD.DLSD.CR.M1.BC - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, National Currency
+DP.DOD.DLSD.CR.M1.BC.CD - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, US$
+DP.DOD.DLSD.CR.M1.BC.Z1 - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, % of GDP
+DP.DOD.DLSD.CR.M1.CG - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, National Currency
+DP.DOD.DLSD.CR.M1.CG.CD - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, US$
+DP.DOD.DLSD.CR.M1.CG.Z1 - Gross PSD, Central Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, % of GDP
+DP.DOD.DLSD.CR.M1.FC - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, National Currency
+DP.DOD.DLSD.CR.M1.FC.CD - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, US$
+DP.DOD.DLSD.CR.M1.FC.Z1 - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, % of GDP
+DP.DOD.DLSD.CR.M1.GG - Gross PSD, General Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, National Currency
+DP.DOD.DLSD.CR.M1.GG.CD - Gross PSD, General Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, US$
+DP.DOD.DLSD.CR.M1.GG.Z1 - Gross PSD, General Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, % of GDP
+DP.DOD.DLSD.CR.M1.NF - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, National Currency
+DP.DOD.DLSD.CR.M1.NF.CD - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, US$
+DP.DOD.DLSD.CR.M1.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, % of GDP
+DP.DOD.DLSD.CR.M1.PS - Gross PSD, Public Sector, Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, National Currency
+DP.DOD.DLSD.CR.M1.PS.CD - Gross PSD, Total, Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, US$
+DP.DOD.DLSD.CR.NF - Gross PSD, Nonfinancial Public Corp., All maturities, Special Drawing Rights, Nominal Value, National Currency
+DP.DOD.DLSD.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., All maturities, Special Drawing Rights, Nominal Value, US$
+DP.DOD.DLSD.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., All maturities, Special Drawing Rights, Nominal Value, % of GDP
+DP.DOD.DLSD.CR.PS - Gross PSD, Public Sector, All maturities, Special Drawing Rights, Nominal Value, National Currency
+DP.DOD.DLSD.CR.PS.CD - Gross PSD, Total, All maturities, Special Drawing Rights, Nominal Value, US$
+DP.DOD.DLTC.CR.BC - Gross PSD, Budgetary Central Gov., Long-term, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.BC.CD - Gross PSD, Budgetary Central Gov., Long-term, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., Long-term, All instruments, Nominal Value, % of GDP
+DP.DOD.DLTC.CR.CG - Gross PSD, Central Gov., Long-term, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.CG.CD - Gross PSD, Central Gov., Long-term, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.CG.Z1 - Gross PSD, Central Gov., Long-term, All instruments, Nominal Value, % of GDP
+DP.DOD.DLTC.CR.FC - Gross PSD, Financial Public Corp., Long-term, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.FC.CD - Gross PSD, Financial Public Corp., Long-term, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.FC.Z1 - Gross PSD, Financial Public Corp., Long-term, All instruments, Nominal Value, % of GDP
+DP.DOD.DLTC.CR.GG - Gross PSD, General Gov., Long-term, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.GG.CD - Gross PSD, General Gov., Long-term, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.GG.Z1 - Gross PSD, General Gov., Long-term, All instruments, Nominal Value, % of GDP
+DP.DOD.DLTC.CR.L1.BC - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.L1.BC.CD - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.L1.BC.Z1 - Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, % of GDP
+DP.DOD.DLTC.CR.L1.CG - Gross PSD, Central Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.L1.CG.CD - Gross PSD, Central Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.L1.CG.Z1 - Gross PSD, Central Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, % of GDP
+DP.DOD.DLTC.CR.L1.FC - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.L1.FC.CD - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.L1.FC.Z1 - Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, All instruments, Nominal Value, % of GDP
+DP.DOD.DLTC.CR.L1.GG - Gross PSD, General Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.L1.GG.CD - Gross PSD, General Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.L1.GG.Z1 - Gross PSD, General Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, % of GDP
+DP.DOD.DLTC.CR.L1.NF - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.L1.NF.CD - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.L1.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, All instruments, Nominal Value, % of GDP
+DP.DOD.DLTC.CR.L1.PS - Gross PSD, Public Sector, Long-term, With payment due in one year or less, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.L1.PS.CD - Gross PSD, Total, Long-term, With payment due in one year or less, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.M1.BC - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.M1.BC.CD - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.M1.BC.Z1 - Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, % of GDP
+DP.DOD.DLTC.CR.M1.CG - Gross PSD, Central Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.M1.CG.CD - Gross PSD, Central Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.M1.CG.Z1 - Gross PSD, Central Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, % of GDP
+DP.DOD.DLTC.CR.M1.FC - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.M1.FC.CD - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.M1.FC.Z1 - Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, All instruments, Nominal Value, % of GDP
+DP.DOD.DLTC.CR.M1.GG - Gross PSD, General Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.M1.GG.CD - Gross PSD, General Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.M1.GG.Z1 - Gross PSD, General Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, % of GDP
+DP.DOD.DLTC.CR.M1.NF - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.M1.NF.CD - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.M1.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, All instruments, Nominal Value, % of GDP
+DP.DOD.DLTC.CR.M1.PS - Gross PSD, Public Sector, Long-term, With payment due in more than one year, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.M1.PS.CD - Gross PSD, Total, Long-term, With payment due in more than one year, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.NF - Gross PSD, Nonfinancial Public Corp., Long-term, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., Long-term, All instruments, Nominal Value, US$
+DP.DOD.DLTC.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Long-term, All instruments, Nominal Value, % of GDP
+DP.DOD.DLTC.CR.PS - Gross PSD, Public Sector, Long-term, All instruments, Nominal Value, National Currency
+DP.DOD.DLTC.CR.PS.CD - Gross PSD, Total, Long-term, All instruments, Nominal Value, US$
 DP.DOD.DLXF.CD - Priv. Sector Ext. Debt, incl. non-guarant.(US$)
-DP.DOD.DSCD.CR.BC - 291.Currency and deposits (PSDCGGB, ST)
-DP.DOD.DSCD.CR.BC.CD - 067.Currency and deposits (PSDCGGB, ST) US$
-DP.DOD.DSCD.CR.BC.Z1 - 515.Currency and deposits (PSDCGGB, ST)(% of GDP)
-DP.DOD.DSCD.CR.CG - 259.Currency and deposits (PSDCG, ST)
-DP.DOD.DSCD.CR.CG.CD - 035.Currency and deposits (PSDCG, ST) US$
-DP.DOD.DSCD.CR.CG.Z1 - 483.Currency and deposits (PSDCG, ST)(% of GDP)
-DP.DOD.DSCD.CR.FC - 355.Currency and deposits (PSDFPC, ST)
-DP.DOD.DSCD.CR.FC.CD - 131.Currency and deposits (PSDFPC, ST) US$
-DP.DOD.DSCD.CR.FC.Z1 - 579.Currency and deposits (PSDFPC, ST)(% of GDP)
-DP.DOD.DSCD.CR.GG - 227.Currency and deposits (PSDGG, ST)
-DP.DOD.DSCD.CR.GG.CD - 003.Currency and deposits (PSDGG, ST) US$
-DP.DOD.DSCD.CR.GG.Z1 - 451.Currency and deposits (PSDGG, ST)(% of GDP)
-DP.DOD.DSCD.CR.NF - 323.Currency and deposits (PSDNFPC, ST)
-DP.DOD.DSCD.CR.NF.CD - 099.Currency and deposits (PSDNFPC, ST) US$
-DP.DOD.DSCD.CR.NF.Z1 - 547.Currency and deposits (PSDNFPC, ST)(% of GDP)
-DP.DOD.DSCD.CR.PS - 387.Currency and deposits (PSDT)
-DP.DOD.DSCD.CR.PS.CD - 163.Currency and deposits (PSDT, ST) US$
-DP.DOD.DSDS.CR.BC - 292.Debt securities (PSDCGGB, ST)
-DP.DOD.DSDS.CR.BC.CD - 068.Debt securities (PSDCGGB, ST) US$
-DP.DOD.DSDS.CR.BC.Z1 - 516.Debt securities (PSDCGGB, ST)(% of GDP)
-DP.DOD.DSDS.CR.CG - 260.Debt securities (PSDCG, ST)
-DP.DOD.DSDS.CR.CG.CD - 036.Debt securities (PSDCG, ST) US$
-DP.DOD.DSDS.CR.CG.Z1 - 484.Debt securities (PSDCG, ST)(% of GDP)
-DP.DOD.DSDS.CR.FC - 356.Debt securities (PSDFPC, ST)
-DP.DOD.DSDS.CR.FC.CD - 132.Debt securities (PSDFPC, ST) US$
-DP.DOD.DSDS.CR.FC.Z1 - 580.Debt securities (PSDFPC, ST)(% of GDP)
-DP.DOD.DSDS.CR.GG - 228.Debt securities (PSDGG, ST)
-DP.DOD.DSDS.CR.GG.CD - 004.Debt securities (PSDGG, ST) US$
-DP.DOD.DSDS.CR.GG.Z1 - 452.Debt securities (PSDGG, ST)(% of GDP)
-DP.DOD.DSDS.CR.NF - 324.Debt securities (PSDNFPC, ST)
-DP.DOD.DSDS.CR.NF.CD - 100.Debt securities (PSDNFPC, ST) US$
-DP.DOD.DSDS.CR.NF.Z1 - 548.Debt securities (PSDNFPC, ST)(% of GDP)
-DP.DOD.DSDS.CR.PS - 388.Debt securities (PSDT)
-DP.DOD.DSDS.CR.PS.CD - 164.Debt securities (PSDT, ST) US$
-DP.DOD.DSIN.CR.BC - 294.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, ST)
-DP.DOD.DSIN.CR.BC.CD - 070.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, ST) US$
-DP.DOD.DSIN.CR.BC.Z1 - 518.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, ST)(% of GDP)
-DP.DOD.DSIN.CR.CG - 262.Insurance, pensions, and standardized guarantee schemes (PSDCG, ST)
-DP.DOD.DSIN.CR.CG.CD - 038.Insurance, pensions, and standardized guarantee schemes (PSDCG, ST) US$
-DP.DOD.DSIN.CR.CG.Z1 - 486.Insurance, pensions, and standardized guarantee schemes (PSDCG, ST)(% of GDP)
-DP.DOD.DSIN.CR.FC - 358.Insurance, pensions, and standardized guarantee schemes (PSDFPC, ST)
-DP.DOD.DSIN.CR.FC.CD - 134.Insurance, pensions, and standardized guarantee schemes (PSDFPC, ST) US$
-DP.DOD.DSIN.CR.FC.Z1 - 582.Insurance, pensions, and standardized guarantee schemes (PSDFPC, ST)(% of GDP)
-DP.DOD.DSIN.CR.GG - 230.Insurance, pensions, and stnd. guarantee schemes (PSDGG, ST)
-DP.DOD.DSIN.CR.GG.CD - 006.Insurance, pensions, and standardized guarantee schemes (PSDGG, ST) US$
-DP.DOD.DSIN.CR.GG.Z1 - 454.Insurance, pensions, and stnd. guarantee schemes (PSDGG, ST)(% of GDP)
-DP.DOD.DSIN.CR.NF - 326.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, ST)
-DP.DOD.DSIN.CR.NF.CD - 102.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, ST) US$
-DP.DOD.DSIN.CR.NF.Z1 - 550.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, ST)(% of GDP)
-DP.DOD.DSIN.CR.PS - 390.Insurance, pensions, and standardized guarantee schemes (PSDT)
-DP.DOD.DSIN.CR.PS.CD - 166.Insurance, pensions, and standardized guarantee schemes (PSDT, ST) US$
-DP.DOD.DSLO.CR.BC - 293.Loans (PSDCGGB, ST)
-DP.DOD.DSLO.CR.BC.CD - 069.Loans (PSDCGGB, ST) US$
-DP.DOD.DSLO.CR.BC.Z1 - 517.Loans (PSDCGGB, ST)(% of GDP)
-DP.DOD.DSLO.CR.CG - 261.Loans (PSDCG, ST)
-DP.DOD.DSLO.CR.CG.CD - 037.Loans (PSDCG, ST) US$
-DP.DOD.DSLO.CR.CG.Z1 - 485.Loans (PSDCG, ST)(% of GDP)
-DP.DOD.DSLO.CR.FC - 357.Loans (PSDFPC, ST)
-DP.DOD.DSLO.CR.FC.CD - 133.Loans (PSDFPC, ST) US$
-DP.DOD.DSLO.CR.FC.Z1 - 581.Loans (PSDFPC, ST)(% of GDP)
-DP.DOD.DSLO.CR.GG - 229.Loans (PSDGG, ST)
-DP.DOD.DSLO.CR.GG.CD - 005.Loans (PSDGG, ST) US$
-DP.DOD.DSLO.CR.GG.Z1 - 453.Loans (PSDGG, ST)(% of GDP)
-DP.DOD.DSLO.CR.NF - 325.Loans (PSDNFPC, ST)
-DP.DOD.DSLO.CR.NF.CD - 101.Loans (PSDNFPC, ST) US$
-DP.DOD.DSLO.CR.NF.Z1 - 549.Loans (PSDNFPC, ST)(% of GDP)
-DP.DOD.DSLO.CR.PS - 389.Loans (PSDT)
-DP.DOD.DSLO.CR.PS.CD - 165.Loans (PSDT, ST) US$
-DP.DOD.DSOA.CR.BC - 295.Other accounts payable (PSDCGGB, ST)
-DP.DOD.DSOA.CR.BC.CD - 071.Other accounts payable (PSDCGGB, ST) US$
-DP.DOD.DSOA.CR.BC.Z1 - 519.Other accounts payable (PSDCGGB, ST)(% of GDP)
-DP.DOD.DSOA.CR.CG - 263.Other accounts payable (PSDCG, ST)
-DP.DOD.DSOA.CR.CG.CD - 039.Other accounts payable (PSDCG, ST) US$
-DP.DOD.DSOA.CR.CG.Z1 - 487.Other accounts payable (PSDCG, ST)(% of GDP)
-DP.DOD.DSOA.CR.FC - 359.Other accounts payable (PSDFPC, ST)
-DP.DOD.DSOA.CR.FC.CD - 135.Other accounts payable (PSDFPC, ST) US$
-DP.DOD.DSOA.CR.FC.Z1 - 583.Other accounts payable (PSDFPC, ST)(% of GDP)
-DP.DOD.DSOA.CR.GG - 231.Other accounts payable (PSDGG, ST)
-DP.DOD.DSOA.CR.GG.CD - 007.Other accounts payable (PSDGG, ST) US$
-DP.DOD.DSOA.CR.GG.Z1 - 455.Other accounts payable (PSDGG, ST)(% of GDP)
-DP.DOD.DSOA.CR.NF - 327.Other accounts payable (PSDNFPC, ST)
-DP.DOD.DSOA.CR.NF.CD - 103.Other accounts payable (PSDNFPC, ST) US$
-DP.DOD.DSOA.CR.NF.Z1 - 551.Other accounts payable (PSDNFPC, ST)(% of GDP)
-DP.DOD.DSOA.CR.PS - 391.Other accounts payable (PSDT)
-DP.DOD.DSOA.CR.PS.CD - 167.Other accounts payable (PSDT, ST) US$
-DP.DOD.DSTC.CR.BC - 290.Short-term by original maturity (PSDCGGB, ST)
-DP.DOD.DSTC.CR.BC.CD - 066.Short-term by original maturity (PSDCGGB, ST) US$
-DP.DOD.DSTC.CR.BC.Z1 - 514.Short-term by original maturity (PSDCGGB, ST)(% of GDP)
-DP.DOD.DSTC.CR.CG - 258.Short-term by original maturity (PSDCG, ST)
-DP.DOD.DSTC.CR.CG.CD - 034.Short-term by original maturity (PSDCG, ST) US$
-DP.DOD.DSTC.CR.CG.Z1 - 482.Short-term by original maturity (PSDCG, ST)(% of GDP)
-DP.DOD.DSTC.CR.FC - 354.Short-term by original maturity (PSDFPC, ST)
-DP.DOD.DSTC.CR.FC.CD - 130.Short-term by original maturity (PSDFPC, ST) US$
-DP.DOD.DSTC.CR.FC.Z1 - 578.Short-term by original maturity (PSDFPC, ST)(% of GDP)
-DP.DOD.DSTC.CR.GG - 226.Short-term by original maturity (PSDGG, ST)
-DP.DOD.DSTC.CR.GG.CD - 002.Short-term by original maturity (PSDGG, ST) US$
-DP.DOD.DSTC.CR.GG.Z1 - 450.Short-term by original maturity (PSDGG, ST)(% of GDP)
-DP.DOD.DSTC.CR.NF - 322.Short-term by original maturity (PSDNFPC, ST)
-DP.DOD.DSTC.CR.NF.CD - 098.Short-term by original maturity (PSDNFPC, ST) US$
-DP.DOD.DSTC.CR.NF.Z1 - 546.Short-term by original maturity (PSDNFPC, ST)(% of GDP)
-DP.DOD.DSTC.CR.PS - 386.Short-term by original maturity (PSDT)
-DP.DOD.DSTC.CR.PS.CD - 162.Short-term by original maturity (PSDT, ST) US$
+DP.DOD.DSCD.CR.BC - Gross PSD, Budgetary Central Gov., Short-term, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DSCD.CR.BC.CD - Gross PSD, Budgetary Central Gov., Short-term, Currency and deposits, Nominal Value, US$
+DP.DOD.DSCD.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., Short-term, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DSCD.CR.CG - Gross PSD, Central Gov., Short-term, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DSCD.CR.CG.CD - Gross PSD, Central Gov., Short-term, Currency and deposits, Nominal Value, US$
+DP.DOD.DSCD.CR.CG.Z1 - Gross PSD, Central Gov., Short-term, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DSCD.CR.FC - Gross PSD, Financial Public Corp., Short-term, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DSCD.CR.FC.CD - Gross PSD, Financial Public Corp., Short-term, Currency and deposits, Nominal Value, US$
+DP.DOD.DSCD.CR.FC.Z1 - Gross PSD, Financial Public Corp., Short-term, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DSCD.CR.GG - Gross PSD, General Gov., Short-term, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DSCD.CR.GG.CD - Gross PSD, General Gov., Short-term, Currency and deposits, Nominal Value, US$
+DP.DOD.DSCD.CR.GG.Z1 - Gross PSD, General Gov., Short-term, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DSCD.CR.NF - Gross PSD, Nonfinancial Public Corp., Short-term, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DSCD.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., Short-term, Currency and deposits, Nominal Value, US$
+DP.DOD.DSCD.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Short-term, Currency and deposits, Nominal Value, % of GDP
+DP.DOD.DSCD.CR.PS - Gross PSD, Public Sector, Short-term, Currency and deposits, Nominal Value, National Currency
+DP.DOD.DSCD.CR.PS.CD - Gross PSD, Total, Short-term, Currency and deposits, Nominal Value, US$
+DP.DOD.DSDS.CR.BC - Gross PSD, Budgetary Central Gov., Short-term, Debt securities, Nominal Value, National Currency
+DP.DOD.DSDS.CR.BC.CD - Gross PSD, Budgetary Central Gov., Short-term, Debt securities, Nominal Value, US$
+DP.DOD.DSDS.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., Short-term, Debt securities, Nominal Value, % of GDP
+DP.DOD.DSDS.CR.CG - Gross PSD, Central Gov., Short-term, Debt securities, Nominal Value, National Currency
+DP.DOD.DSDS.CR.CG.CD - Gross PSD, Central Gov., Short-term, Debt securities, Nominal Value, US$
+DP.DOD.DSDS.CR.CG.Z1 - Gross PSD, Central Gov., Short-term, Debt securities, Nominal Value, % of GDP
+DP.DOD.DSDS.CR.FC - Gross PSD, Financial Public Corp., Short-term, Debt securities, Nominal Value, National Currency
+DP.DOD.DSDS.CR.FC.CD - Gross PSD, Financial Public Corp., Short-term, Debt securities, Nominal Value, US$
+DP.DOD.DSDS.CR.FC.Z1 - Gross PSD, Financial Public Corp., Short-term, Debt securities, Nominal Value, % of GDP
+DP.DOD.DSDS.CR.GG - Gross PSD, General Gov., Short-term, Debt securities, Nominal Value, National Currency
+DP.DOD.DSDS.CR.GG.CD - Gross PSD, General Gov., Short-term, Debt securities, Nominal Value, US$
+DP.DOD.DSDS.CR.GG.Z1 - Gross PSD, General Gov., Short-term, Debt securities, Nominal Value, % of GDP
+DP.DOD.DSDS.CR.NF - Gross PSD, Nonfinancial Public Corp., Short-term, Debt securities, Nominal Value, National Currency
+DP.DOD.DSDS.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., Short-term, Debt securities, Nominal Value, US$
+DP.DOD.DSDS.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Short-term, Debt securities, Nominal Value, % of GDP
+DP.DOD.DSDS.CR.PS - Gross PSD, Public Sector, Short-term, Debt securities, Nominal Value, National Currency
+DP.DOD.DSDS.CR.PS.CD - Gross PSD, Total, Short-term, Debt securities, Nominal Value, US$
+DP.DOD.DSIN.CR.BC - Gross PSD, Budgetary Central Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DSIN.CR.BC.CD - Gross PSD, Budgetary Central Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DSIN.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DSIN.CR.CG - Gross PSD, Central Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DSIN.CR.CG.CD - Gross PSD, Central Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DSIN.CR.CG.Z1 - Gross PSD, Central Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DSIN.CR.FC - Gross PSD, Financial Public Corp., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DSIN.CR.FC.CD - Gross PSD, Financial Public Corp., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DSIN.CR.FC.Z1 - Gross PSD, Financial Public Corp., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DSIN.CR.GG - Gross PSD, General Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DSIN.CR.GG.CD - Gross PSD, General Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DSIN.CR.GG.Z1 - Gross PSD, General Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DSIN.CR.NF - Gross PSD, Nonfinancial Public Corp., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DSIN.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DSIN.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP
+DP.DOD.DSIN.CR.PS - Gross PSD, Public Sector, Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency
+DP.DOD.DSIN.CR.PS.CD - Gross PSD, Total, Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US$
+DP.DOD.DSLO.CR.BC - Gross PSD, Budgetary Central Gov., Short-term, Loans, Nominal Value, National Currency
+DP.DOD.DSLO.CR.BC.CD - Gross PSD, Budgetary Central Gov., Short-term, Loans, Nominal Value, US$
+DP.DOD.DSLO.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., Short-term, Loans, Nominal Value, % of GDP
+DP.DOD.DSLO.CR.CG - Gross PSD, Central Gov., Short-term, Loans, Nominal Value, National Currency
+DP.DOD.DSLO.CR.CG.CD - Gross PSD, Central Gov., Short-term, Loans, Nominal Value, US$
+DP.DOD.DSLO.CR.CG.Z1 - Gross PSD, Central Gov., Short-term, Loans, Nominal Value, % of GDP
+DP.DOD.DSLO.CR.FC - Gross PSD, Financial Public Corp., Short-term, Loans, Nominal Value, National Currency
+DP.DOD.DSLO.CR.FC.CD - Gross PSD, Financial Public Corp., Short-term, Loans, Nominal Value, US$
+DP.DOD.DSLO.CR.FC.Z1 - Gross PSD, Financial Public Corp., Short-term, Loans, Nominal Value, % of GDP
+DP.DOD.DSLO.CR.GG - Gross PSD, General Gov., Short-term, Loans, Nominal Value, National Currency
+DP.DOD.DSLO.CR.GG.CD - Gross PSD, General Gov., Short-term, Loans, Nominal Value, US$
+DP.DOD.DSLO.CR.GG.Z1 - Gross PSD, General Gov., Short-term, Loans, Nominal Value, % of GDP
+DP.DOD.DSLO.CR.NF - Gross PSD, Nonfinancial Public Corp., Short-term, Loans, Nominal Value, National Currency
+DP.DOD.DSLO.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., Short-term, Loans, Nominal Value, US$
+DP.DOD.DSLO.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Short-term, Loans, Nominal Value, % of GDP
+DP.DOD.DSLO.CR.PS - Gross PSD, Public Sector, Short-term, Loans, Nominal Value, National Currency
+DP.DOD.DSLO.CR.PS.CD - Gross PSD, Total, Short-term, Loans, Nominal Value, US$
+DP.DOD.DSOA.CR.BC - Gross PSD, Budgetary Central Gov., Short-term, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DSOA.CR.BC.CD - Gross PSD, Budgetary Central Gov., Short-term, Other accounts payable, Nominal Value, US$
+DP.DOD.DSOA.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., Short-term, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DSOA.CR.CG - Gross PSD, Central Gov., Short-term, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DSOA.CR.CG.CD - Gross PSD, Central Gov., Short-term, Other accounts payable, Nominal Value, US$
+DP.DOD.DSOA.CR.CG.Z1 - Gross PSD, Central Gov., Short-term, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DSOA.CR.FC - Gross PSD, Financial Public Corp., Short-term, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DSOA.CR.FC.CD - Gross PSD, Financial Public Corp., Short-term, Other accounts payable, Nominal Value, US$
+DP.DOD.DSOA.CR.FC.Z1 - Gross PSD, Financial Public Corp., Short-term, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DSOA.CR.GG - Gross PSD, General Gov., Short-term, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DSOA.CR.GG.CD - Gross PSD, General Gov., Short-term, Other accounts payable, Nominal Value, US$
+DP.DOD.DSOA.CR.GG.Z1 - Gross PSD, General Gov., Short-term, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DSOA.CR.NF - Gross PSD, Nonfinancial Public Corp., Short-term, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DSOA.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., Short-term, Other accounts payable, Nominal Value, US$
+DP.DOD.DSOA.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Short-term, Other accounts payable, Nominal Value, % of GDP
+DP.DOD.DSOA.CR.PS - Gross PSD, Public Sector, Short-term, Other accounts payable, Nominal Value, National Currency
+DP.DOD.DSOA.CR.PS.CD - Gross PSD, Total, Short-term, Other accounts payable, Nominal Value, US$
+DP.DOD.DSTC.CR.BC - Gross PSD, Budgetary Central Gov., Short-term, All instruments, Nominal Value, National Currency
+DP.DOD.DSTC.CR.BC.CD - Gross PSD, Budgetary Central Gov., Short-term, All instruments, Nominal Value, US$
+DP.DOD.DSTC.CR.BC.Z1 - Gross PSD, Budgetary Central Gov., Short-term, All instruments, Nominal Value, % of GDP
+DP.DOD.DSTC.CR.CG - Gross PSD, Central Gov., Short-term, All instruments, Nominal Value, National Currency
+DP.DOD.DSTC.CR.CG.CD - Gross PSD, Central Gov., Short-term, All instruments, Nominal Value, US$
+DP.DOD.DSTC.CR.CG.Z1 - Gross PSD, Central Gov., Short-term, All instruments, Nominal Value, % of GDP
+DP.DOD.DSTC.CR.FC - Gross PSD, Financial Public Corp., Short-term, All instruments, Nominal Value, National Currency
+DP.DOD.DSTC.CR.FC.CD - Gross PSD, Financial Public Corp., Short-term, All instruments, Nominal Value, US$
+DP.DOD.DSTC.CR.FC.Z1 - Gross PSD, Financial Public Corp., Short-term, All instruments, Nominal Value, % of GDP
+DP.DOD.DSTC.CR.GG - Gross PSD, General Gov., Short-term, All instruments, Nominal Value, National Currency
+DP.DOD.DSTC.CR.GG.CD - Gross PSD, General Gov., Short-term, All instruments, Nominal Value, US$
+DP.DOD.DSTC.CR.GG.Z1 - Gross PSD, General Gov., Short-term, All instruments, Nominal Value, % of GDP
+DP.DOD.DSTC.CR.NF - Gross PSD, Nonfinancial Public Corp., Short-term, All instruments, Nominal Value, National Currency
+DP.DOD.DSTC.CR.NF.CD - Gross PSD, Nonfinancial Public Corp., Short-term, All instruments, Nominal Value, US$
+DP.DOD.DSTC.CR.NF.Z1 - Gross PSD, Nonfinancial Public Corp., Short-term, All instruments, Nominal Value, % of GDP
+DP.DOD.DSTC.CR.PS - Gross PSD, Public Sector, Short-term, All instruments, Nominal Value, National Currency
+DP.DOD.DSTC.CR.PS.CD - Gross PSD, Total, Short-term, All instruments, Nominal Value, US$
 DPANUSLCU - Official exchange rate, LCU per USD, period average
 DPANUSSPB - Exchange rate, new LCU per USD extended backward, period average
 DPANUSSPF - Exchange rate, old LCU per USD extended forward, period average
@@ -4515,6 +4516,7 @@ DT.NFL.UNCF.CD - Net official flows from UN agencies, UNICEF (current US$)
 DT.NFL.UNCR.CD - Net official flows from UN agencies, UNHCR (current US$)
 DT.NFL.UNDP.CD - Net official flows from UN agencies, UNDP (current US$)
 DT.NFL.UNEC.CD - Net official flows from UN agencies, UNECE (current US$)
+DT.NFL.UNEP.CD - Net official flows from UN agencies, UNEP (current US$)
 DT.NFL.UNFP.CD - Net official flows from UN agencies, UNFPA (current US$)
 DT.NFL.UNPB.CD - Net official flows from UN agencies, UNPBF (current US$)
 DT.NFL.UNRW.CD - Net official flows from UN agencies, UNRWA (current US$)
@@ -5169,7 +5171,6 @@ EG.ELC.ACCS.ZS - Access to electricity (% of population)
 EG.ELC.COAL.KH - Electricity production from coal sources (kWh)
 EG.ELC.COAL.ZS - Electricity production from coal sources (% of total)
 EG.ELC.FOSL.ZS - Electricity production from oil, gas and coal sources (% of total)
-EG.ELC.HOUS.ZS - Household electrification rate (% of households)
 EG.ELC.HYRO.KH - Electricity production from hydroelectric sources (kWh)
 EG.ELC.HYRO.ZS - Electricity production from hydroelectric sources (% of total)
 EG.ELC.LOSS.KH - Electric power transmission and distribution losses (kWh)
@@ -5324,8 +5325,10 @@ ENF.CONT.COEN.COST.ZS.DFRN - Enforcing contracts: Cost (% of claim) - Score
 ENF.CONT.COEN.CSMG - Enforcing contracts: Case management (0-6) (DB16-20 methodology)
 ENF.CONT.COEN.CTAU - Enforcing contracts: Court automation (0-4) (DB17-20 methodology)
 ENF.CONT.COEN.CTFE.PR - Enforcing contracts: Court fees (% of claim)
+ENF.CONT.COEN.CTSP.DB16 - Enforcing contracts: Court structure and proceedings (0-5) (DB16 methodology)
 ENF.CONT.COEN.CTSP.DB1719 - Enforcing contracts: Court structure and proceedings (0-5) (DB17-20 methodology)
 ENF.CONT.COEN.DB0415.DFRN - Enforcing contracts (DB04-15 methodology) - Score
+ENF.CONT.COEN.DB16.DFRN - Enforcing contracts (DB16 methodology) - Score
 ENF.CONT.COEN.DB1719.DFRN - Enforcing contracts (DB17-20 methodology) - Score
 ENF.CONT.COEN.ENFE.PR - Enforcing contracts: Enforcement fees (% of claim)
 ENF.CONT.COEN.ENJU.DY - Enforcing contracts: Enforcement of judgment (days)
@@ -5333,14 +5336,17 @@ ENF.CONT.COEN.FLSR.DY - Enforcing contracts: Filing and service (days)
 ENF.CONT.COEN.PROC.NO - Enforcing contracts: Procedures (number)
 ENF.CONT.COEN.PROC.NO.DFRN - Enforcing contracts: Procedures (number) - Score
 ENF.CONT.COEN.QUJP.DB16.DFRN - Enforcing contracts: Quality of the judicial processes index (0-19) (DB17-20 methodology) - Score
+ENF.CONT.COEN.QUJP.DB1719.DFRN - Enforcing contracts: Quality of judicial processes index (0-19) (DB17-19 methodology) - Score
 ENF.CONT.COEN.QUJP.XD - Enforcing contracts: Quality of the judicial processes index (0-18) (DB17-20 methodology)
 ENF.CONT.COEN.RK.DB19 - Rank: Enforcing contracts (1=most business-friendly regulations)
 ENF.CONT.COEN.TRJU.DY - Enforcing contracts: Trial and judgment (days)
 ENF.CONT.DURS.DY - Enforcing contracts: Time (days)
 ENF.CONT.DURS.DY.DFRN - Enforcing contracts: Time (days) - Score
+ENF.CONT.EC.QJPI - Enforcing contracts: Quality of judicial administration index (0-18) (DB17-19 methodology)
 EP.CPI.1996 - Consumer Price Index in 42 cities base 1996
 EP.CPI.2002 - Consumer Price Index in 45 cities base 2002
 EP.CPI.2007 - Consumer Price Index in 66 cities base 2007
+EP.CPI.2012 - Consumer Price Index in 82 cities base 2012
 EP.PMP.DESL.CD - Pump price for diesel fuel (US$ per liter)
 EP.PMP.SGAS.CD - Pump price for gasoline (US$ per liter)
 EP.PPR.BRED.XD - Bread and cereals price in PPP terms (U.S. price = 100)
@@ -6852,6 +6858,7 @@ IC.BUS.DFRN.XQ - Ease of doing business score (0 = lowest performance to 100 = b
 IC.BUS.DIR.XQ - Protecting investors, director liability index
 IC.BUS.DISC.XQ - Business extent of disclosure index (0=less disclosure to 10=more disclosure)
 IC.BUS.EASE.DFRN.DB1014 - Global: Ease of doing business score (DB10-14 methodology)
+IC.BUS.EASE.DFRN.DB15 - Ease of doing business score (DB15 methodology)
 IC.BUS.EASE.DFRN.DB16 - Global: Ease of doing business score (DB15 methodology)
 IC.BUS.EASE.DFRN.XQ.DB1719 - Global: Ease of doing business score (DB17-20 methodology)
 IC.BUS.EASE.XQ - Ease of doing business index (1=most business-friendly regulations)
@@ -7166,16 +7173,19 @@ IC.REG.PROC.MA.NO.DFRN - Starting a business: Procedures required - Men (number)
 IC.REG.PRRT.COST.PRT.VAL - Registering property: Cost (% of property value)
 IC.REG.PRRT.COST.PRT.VAL.DFRN - Registering property: Cost (% of property value) - Score
 IC.REG.PRRT.DFRN.DB0515 - Registering property (DB05-15 methodology) - Score
+IC.REG.PRRT.DFRN.DB16 - Registering property (DB16 methodology) - Score
 IC.REG.PRRT.DFRN.DB1719 - Registering property (DB17-20 methodology) - Score
 IC.REG.PRRT.DURS.TM - Registering property: Time (days)
 IC.REG.PRRT.DURS.TM.DRFN - Registering property: Time (days) - Score
 IC.REG.PRRT.EQACCS.XD.08.DB1619 - Registering property: Equal access to property rights index (-2-0) (DB17-20 methodology)
 IC.REG.PRRT.GEO.COVR.XD.08.DB1619 - Registering property: Geographic coverage index (0-8) (DB16-20 methodology)
 IC.REG.PRRT.LAND.DISP.XD.08.DB1619 - Registering property: Land dispute resolution index (0-8) (DB16-20 methodology)
+IC.REG.PRRT.LNDADM.GEN.XD.030.DB1719.DFRN - Registering property: Quality of land administration index with Gender (0-30) (DB17-19 methodology) - Score
 IC.REG.PRRT.PROC.NO - Registering property: Procedures (number)
 IC.REG.PRRT.PROC.NO.DFRN - Registering property: Procedures (number) - Score
 IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16 - Registering property: Quality of land administration index (0-30) (DB17-20 methodology)
 IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16.DFRN - Registering property: Quality of land administration index (0-30) (DB17-20 methodology) - Score
+IC.REG.PRRT.QUAL.LNDADM.XD.030.DB1719 - Registering property: Quality of land administration index (0-30) (DB17-19 methodology)
 IC.REG.PRRT.REG.RK.DB19 - Rank: Registering property (1=most business-friendly regulations)
 IC.REG.PRRT.RELI.INFR.XD.09.DB1619 - Registering property: Reliability of infrastructure index (0-8) (DB16-20 methodology)
 IC.REG.PRRT.TRAP.INFO.XD.06.DB1619 - Registering property: Transparency of information index (0-6) (DB16-20 methodology)
@@ -7206,9 +7216,22 @@ IC.VAL.COL.ZS - Value of collateral needed for a loan (% of the loan amount)
 IC.VALG.GIFT.ZS - Value of gift expected to secure Government Contract (% of Contract)
 IC.WAT.DURS - Delay in obtaining a water connections (days)
 IC.WAT.GIFT.ZS - Expected to give gifts to get a water connection (% of firms)
+IC.WEF.LLCD.FE - Number of female directors
+IC.WEF.LLCD.FE.ZS - Share of female directors (% of total directors)
+IC.WEF.LLCD.MA - Number of male directors
+IC.WEF.LLCD.MA.ZS - Share of male directors (% of total directors)
+IC.WEF.LLCO.FE - Number of female business owners
+IC.WEF.LLCO.FE.ZS - Share of female business owners (% of total business owners)
+IC.WEF.LLCO.MA - Number of male business owners
+IC.WEF.LLCO.MA.ZS - Share of male business owners  (% of total business owners)
+IC.WEF.SOLO.FE - Number of female sole proprietors
+IC.WEF.SOLO.FE.ZS - Share of female sole proprietors  (% of sole proprietors)
+IC.WEF.SOLO.MA - Number of male sole proprietors
+IC.WEF.SOLO.MA.ZS - Share of male sole proprietors  (% of sole proprietors)
 IC.WRH.DURS - Time required to build a warehouse (days)
 IC.WRH.PROC - Procedures to build a warehouse (number)
 IDX.HDI - Human Development Index
+IDX.HDI.REV - Human Development Index, revised method
 IE.ICT.PCAP.CD - Information and communication technology expenditure per capita (current US$)
 IE.ICT.TOTL.CD - Information and communication technology expenditure (current US$)
 IE.ICT.TOTL.GD.ZS - Information and communication technology expenditure (% of GDP)
@@ -7459,7 +7482,6 @@ IS.AIR.DPRT.P3 - Aircraft departures (thousands)
 IS.AIR.GOOD.MT.K1 - Air transport, freight (million ton-km)
 IS.AIR.PSGR - Air transport, passengers carried
 IS.AIR.PSGR.P3 - Air transport, passengers carried (thousands)
-IS.ROD.ALLS.ZS - Access to an all-season road (% of rural population)
 IS.ROD.DESL.KT - Road sector diesel fuel consumption (kt of oil equivalent)
 IS.ROD.DESL.PC - Road sector diesel fuel consumption per capita (kg of oil equivalent)
 IS.ROD.DNST.K2 - Road density (km of road per 100 sq. km of land area)
@@ -8139,12 +8161,12 @@ LO.PASEC.FRE.P90 - PASEC: Distribution of 5th Grade French Scores: 90th Percenti
 LO.PASEC.FRE.P95 - PASEC: Distribution of 5th Grade French Scores: 95th Percentile Score
 LO.PASEC.FRE5 - PASEC: Mean performance on the French language scale (100 points) for 5th grade students. Total
 LO.PASEC.FRE5.FE - PASEC: Mean performance on the French language scale (100 points) for 5th grade students. Female
-LO.PASEC.FRE5.HIG - PASEC: 5th grade students reaching the Knowledge Base Rate on the French language scale (%)
-LO.PASEC.FRE5.HIG.FE - PASEC: Female 5th grade students reaching the Knowledge Base Rate on the French language scale (%)
-LO.PASEC.FRE5.HIG.MA - PASEC: Male 5th grade students reaching the Knowledge Base Rate on the French language scale (%)
-LO.PASEC.FRE5.LO - PASEC: 5th grade students below the Failure Rate on the French language scale (%)
-LO.PASEC.FRE5.LO.FE - PASEC: Female 5th grade students below the Failure Rate on the French language scale (%)
-LO.PASEC.FRE5.LO.MA - PASEC: Male 5th grade students below the Failure Rate on the French language scale (%)
+LO.PASEC.FRE5.HIG - PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), total
+LO.PASEC.FRE5.HIG.FE - PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), female
+LO.PASEC.FRE5.HIG.MA - PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), male
+LO.PASEC.FRE5.LO - PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), total
+LO.PASEC.FRE5.LO.FE - PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), female
+LO.PASEC.FRE5.LO.MA - PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), male
 LO.PASEC.FRE5.MA - PASEC: Mean performance on the French language scale (100 points) for 5th grade students. Male
 LO.PASEC.MAT.2 - PASEC: Mean performance on the mathematics scale for 2nd grade students. Total
 LO.PASEC.MAT.2.ADD1 - PASEC: Percentage of 2nd grade students correcting answering the addition problem: 8+5
@@ -8208,12 +8230,12 @@ LO.PASEC.MAT.P90 - PASEC: Distribution of 5th Grade Mathematics Scores: 90th Per
 LO.PASEC.MAT.P95 - PASEC: Distribution of 5th Grade Mathematics Scores: 95th Percentile Score
 LO.PASEC.MAT5 - PASEC: Mean performance on the mathematics scale (100 points) for 5th grade students. Total
 LO.PASEC.MAT5.FE - PASEC: Mean performance on the mathematics scale (100 points) for 5th grade students. Female
-LO.PASEC.MAT5.HIG - PASEC: 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%)
-LO.PASEC.MAT5.HIG.FE - PASEC: Female 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%)
-LO.PASEC.MAT5.HIG.MA - PASEC: Male 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%)
-LO.PASEC.MAT5.LO - PASEC: 5th grade students below the Failure Rate on the mathematics scale (%)
-LO.PASEC.MAT5.LO.FE - PASEC: Female 5th grade students below the Failure Rate on the mathematics scale (%)
-LO.PASEC.MAT5.LO.MA - PASEC: Male 5th grade students below the Failure Rate on the mathematics scale (%)
+LO.PASEC.MAT5.HIG - PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), total
+LO.PASEC.MAT5.HIG.FE - PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), female
+LO.PASEC.MAT5.HIG.MA - PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), male
+LO.PASEC.MAT5.LO - PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), total
+LO.PASEC.MAT5.LO.FE - PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), female
+LO.PASEC.MAT5.LO.MA - PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), male
 LO.PASEC.MAT5.MA - PASEC: Mean performance on the mathematics scale (100 points) for 5th grade students. Male
 LO.PASEC.REA.2 - PASEC: Mean performance on the language scale for 2nd grade students. Total
 LO.PASEC.REA.2.FE - PASEC: Mean performance on the language scale for 2nd grade students. Female
@@ -8445,15 +8467,18 @@ LO.PISA.MAT.P75 - PISA: Distribution of Mathematics Scores: 75th Percentile Scor
 LO.PISA.MAT.P90 - PISA: Distribution of Mathematics Scores: 90th Percentile Score
 LO.PISA.MAT.P95 - PISA: Distribution of Mathematics Scores: 95th Percentile Score
 LO.PISA.REA - PISA: Mean performance on the reading scale
-LO.PISA.REA.0 - PISA: 15-year-olds by reading proficiency level (%). Below Level 1B
-LO.PISA.REA.0.FE - PISA: Female 15-year-olds by reading proficiency level (%). Below Level 1B
-LO.PISA.REA.0.MA - PISA: Male 15-year-olds by reading proficiency level (%). Below Level 1B
+LO.PISA.REA.0.B1C - PISA: 15-year-olds by reading proficiency level (%). Below Level 1C
+LO.PISA.REA.0.B1C.FE - PISA: Female 15-year-olds by reading proficiency level (%). Below Level 1C
+LO.PISA.REA.0.B1C.MA - PISA: Male 15-year-olds by reading proficiency level (%). Below Level 1C
 LO.PISA.REA.1A - PISA: 15-year-olds by reading proficiency level (%). Level 1A
 LO.PISA.REA.1A.FE - PISA: Female 15-year-olds by reading proficiency level (%). Level 1A
 LO.PISA.REA.1A.MA - PISA: Male 15-year-olds by reading proficiency level (%). Level 1A
 LO.PISA.REA.1B - PISA: 15-year-olds by reading proficiency level (%). Level 1B
 LO.PISA.REA.1B.FE - PISA: Female 15-year-olds by reading proficiency level (%). Level 1B
 LO.PISA.REA.1B.MA - PISA: Male 15-year-olds by reading proficiency level (%). Level 1B
+LO.PISA.REA.1C - PISA: 15-year-olds by reading proficiency level (%). Level 1C
+LO.PISA.REA.1C.FE - PISA: Female 15-year-olds by reading proficiency level (%). Level 1C
+LO.PISA.REA.1C.MA - PISA: Male 15-year-olds by reading proficiency level (%). Level 1C
 LO.PISA.REA.2 - PISA: 15-year-olds by reading proficiency level (%). Level 2
 LO.PISA.REA.2.FE - PISA: Female 15-year-olds by reading proficiency level (%). Level 2
 LO.PISA.REA.2.MA - PISA: Male 15-year-olds by reading proficiency level (%). Level 2
@@ -8703,28 +8728,64 @@ MS.MIL.XPND.GN.ZS - Military expenditure (% of GNI)
 MS.MIL.XPND.ZS - Military expenditure (% of general government expenditure)
 MS.MIL.XPRT.KD - Arms exports (SIPRI trend indicator values)
 MS.MIL.XPRT.ZS - Arms exports (% of total exports)
+NA.GDP.ACC.FB.SNA08.CR - GDP on Accommodation &amp; Food Beverages Activity Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.ACC.FB.SNA08.KR - GDP on Accommodation &amp; Food Beverages Activity Sector (in IDR Million), SNA 2008, Constant Price
 NA.GDP.AGR.CR - GDP on Agriculture Sector (in IDR Million), Current Price
 NA.GDP.AGR.KR - GDP on Agriculture Sector (in IDR Million), Constant Price
+NA.GDP.AGR.SNA08.CR - GDP on Agriculture, Forestry &amp; Fisheries Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.AGR.SNA08.KR - GDP on Agriculture, Forestry &amp; Fisheries Sector (in IDR Million), SNA 2008, Constant Price
+NA.GDP.BUSS.SNA08.CR - GDP on Business Services Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.BUSS.SNA08.KR - GDP on Business Services Sector (in IDR Million), SNA 2008, Constant Price
 NA.GDP.CNST.CR - GDP on Construction Sector (in IDR Million), Current Price
 NA.GDP.CNST.KR - GDP on Construction Sector (in IDR Million), Constant Price
+NA.GDP.CNST.SNA08.CR - GDP on Construction Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.CNST.SNA08.KR - GDP on Construction Sector (in IDR Million), SNA 2008, Constant Price
+NA.GDP.EDUS.SNA08.CR - GDP on Education Services Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.EDUS.SNA08.KR - GDP on Education Services Sector (in IDR Million), SNA 2008, Constant Price
+NA.GDP.ELEC.GAS.SNA08.CR - GDP on Electricity &amp; Gas Supply Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.ELEC.GAS.SNA08.KR - GDP on Electricity &amp; Gas Supply Sector (in IDR Million), SNA 2008, Constant Price
 NA.GDP.EXC.OG.CR - Total GDP excluding Oil and Gas (in IDR Million), Current Price
 NA.GDP.EXC.OG.KR - Total GDP excluding Oil and Gas (in IDR Million), Constant Price
 NA.GDP.FINS.CR - GDP on Financial Service Sector (in IDR Million), Current Price
 NA.GDP.FINS.KR - GDP on Financial Service Sector (in IDR Million), Constant Price
+NA.GDP.FINS.SNA08.CR - GDP on Financial &amp; Insurance Activity Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.FINS.SNA08.KR - GDP on Financial &amp; Insurance Activity Sector (in IDR Million), SNA 2008, Constant Price
+NA.GDP.HLTH.SOCW.SNA08.CR - GDP on Human Health &amp; Social Work Activity Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.HLTH.SOCW.SNA08.KR - GDP on Human Health &amp; Social Work Activity Sector (in IDR Million), SNA 2008, Constant Price
 NA.GDP.INC.OG.CR - Total GDP including Oil and Gas (in IDR Million), Current Price
 NA.GDP.INC.OG.KR - Total GDP including Oil and Gas (in IDR Million), Constant Price
+NA.GDP.INC.OG.SNA08.CR - Total GDP including Oil and Gas (in IDR Million), SNA 2008, Current Price
+NA.GDP.INC.OG.SNA08.KR - Total GDP including Oil and Gas (in IDR Million), SNA 2008, Constant Price
+NA.GDP.INF.COMM.SNA08.CR - GDP on Information &amp; Communication Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.INF.COMM.SNA08.KR - GDP on Information &amp; Communication Sector (in IDR Million), SNA 2008, Constant Price
 NA.GDP.MINQ.CR - GDP on Mining and Quarrying Sector (in IDR Million), Current Price
 NA.GDP.MINQ.KR - GDP on Mining and Quarrying Sector (in IDR Million), Constant Price
+NA.GDP.MINQ.SNA08.CR - GDP on Mining &amp; Quarrying Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.MINQ.SNA08.KR - GDP on Mining &amp; Quarrying Sector (in IDR Million), SNA 2008, Constant Price
 NA.GDP.MNF.CR - GDP on Manufacturing Sector (in IDR Million), Current Price
 NA.GDP.MNF.KR - GDP on Manufacturing Sector (in IDR Million), Constant Price
+NA.GDP.MNF.SNA08.CR - GDP on Manufacturing Industry Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.MNF.SNA08.KR - GDP on Manufacturing Industry Sector (in IDR Million), SNA 2008, Constant Price
+NA.GDP.PADM.DEF.SNA08.CR - GDP on Public Administration, Defense &amp; Compulsory Social Security Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.PADM.DEF.SNA08.KR - GDP on Public Administration, Defense &amp; Compulsory Social Security Sector (in IDR Million), SNA 2008, Constant Price
+NA.GDP.REST.SNA08.CR - GDP on Real Estate Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.REST.SNA08.KR - GDP on Real Estate Sector (in IDR Million), SNA 2008, Constant Price
 NA.GDP.SRV.OTHR.CR - GDP on Other Service Sector (in IDR Million), Current Price
 NA.GDP.SRV.OTHR.KR - GDP on Other Service Sector (in IDR Million), Constant Price
+NA.GDP.SRV.OTHR.SNA08.CR - GDP on Other Services Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.SRV.OTHR.SNA08.KR - GDP on Other Services Sector (in IDR Million), SNA 2008, Constant Price
 NA.GDP.TRAN.COMM.CR - GDP on Transportation and Telecommunication Sector (in IDR Million), Current Price
 NA.GDP.TRAN.COMM.KR - GDP on Transportation and Telecommunication Sector (in IDR Million), Constant Price
+NA.GDP.TRAN.STOR.SNA08.CR - GDP on Transportation &amp; Storage Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.TRAN.STOR.SNA08.KR - GDP on Transportation &amp; Storage Sector (in IDR Million), SNA 2008, Constant Price
 NA.GDP.TRD.HTL.CR - GDP on Trade, Hotel and Restaurant Sector (in IDR Million), Current Price
 NA.GDP.TRD.HTL.KR - GDP on Trade, Hotel and Restaurant Sector (in IDR Million), Constant Price
+NA.GDP.TRD.SNA08.CR - GDP on Wholesales &amp; Retail Trade, Repair of Motor Vehicles &amp; Motorcycles Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.TRD.SNA08.KR - GDP on Wholesales &amp; Retail Trade, Repair of Motor Vehicles &amp; Motorcycles Sector (in IDR Million), SNA 2008, Constant Price
 NA.GDP.UTL.CR - GDP on Utilities Sector (in IDR Million), Current Price
 NA.GDP.UTL.KR - GDP on Utilities Sector (in IDR Million), Constant Price
+NA.GDP.WTR.WST.SNA08.CR - GDP on Water Supply, Sewerage, Waste &amp; Recycling Management Sector (in IDR Million), SNA 2008, Current Price
+NA.GDP.WTR.WST.SNA08.KR - GDP on Water Supply, Sewerage, Waste &amp; Recycling Management Sector (in IDR Million), SNA 2008, Constant Price
 NE.CON.GOVT.CD - General government final consumption expenditure (current US$)
 NE.CON.GOVT.CN - General government final consumption expenditure (current LCU)
 NE.CON.GOVT.KD - General government final consumption expenditure (constant 2010 US$)
@@ -8804,9 +8865,13 @@ NE.EXP.GNFS.XN - Export price index (goods and services, 2000=100)
 NE.EXP.GNFS.ZS - Exports of goods and services (% of GDP)
 NE.EXP.TTEF.KN - KP Terms of Trade Adjustment (Local)
 NE.GDI.CON.GOVT.CR - GDP expenditure on general government consumption (in IDR Million)
+NE.GDI.CON.GOVT.SNA08.CR - GDP expenditure on general government consumption (in IDR Million), SNA 2008, Current Price
 NE.GDI.CON.NPI.CR - GDP expenditure on non profit private institution consumption (in IDR Million)
+NE.GDI.CON.NPI.SNA08.CR - GDP expenditure on non profit private institution consumption (in IDR Million), SNA 2008, Current Price
 NE.GDI.CON.PRVT.CR - GDP expenditure on private consumption (in IDR Million)
+NE.GDI.CON.PRVT.SNA08.CR - GDP expenditure on private consumption (in IDR Million), SNA 2008, Current Price
 NE.GDI.EXPT.CR - GDP expenditure on exports (in IDR Million)
+NE.GDI.EXPT.SNA08.CR - GDP expenditure on exports (in IDR Million), SNA 2008, Current Price
 NE.GDI.FCGV.CD - GDFI - central government (current US$)
 NE.GDI.FCGV.CN - GDFI - central government (current LCU)
 NE.GDI.FCGV.KD - GDFI - central government (constant 2000 US$)
@@ -8846,8 +8911,11 @@ NE.GDI.FTOT.KD.ZG - Gross fixed capital formation (annual % growth)
 NE.GDI.FTOT.KN - Gross fixed capital formation (constant LCU)
 NE.GDI.FTOT.KN.87 - Gross domestic fixed investment (constant 1987 LCU)
 NE.GDI.FTOT.KN.87.ZG - Gross domestic fixed investment (annual % growth)
+NE.GDI.FTOT.SNA08.CR - GDP expenditure on gross fixed capital formation (in IDR Million), SNA 2008, Current Price
 NE.GDI.FTOT.ZS - Gross fixed capital formation (% of GDP)
 NE.GDI.IMPT.CR - GDP expenditure on imports (in IDR Million)
+NE.GDI.IMPT.SNA08.CR - GDP expenditure on imports (in IDR Million), SNA 2008, Current Price
+NE.GDI.INEX.SNA08.CR - GDP expenditure on inter-region net exports (in IDR Million), SNA 2008, Current Price
 NE.GDI.PCAP.KD - Gross domestic investment per capita (1987 USD)
 NE.GDI.PCAP.KD.87 - Gross domestic investment per cap. (1987 US$)
 NE.GDI.STKB.CD - Changes in inventories (current US$)
@@ -8856,6 +8924,7 @@ NE.GDI.STKB.CR - GDP expenditure on changes in stock (in IDR Million)
 NE.GDI.STKB.KD.87 - Change in inventories (constant 1987 US$)
 NE.GDI.STKB.KN - Changes in inventories (constant LCU)
 NE.GDI.STKB.KN.87 - Change in inventories (constant 1987 LCU)
+NE.GDI.STKB.SNA08.CR - GDP expenditure on changes in stock (in IDR Million), SNA 2008, Current Price
 NE.GDI.STPB.CD - Change in stocks public sector (current US$)
 NE.GDI.STPB.CN - Change in stocks public sector (current LCU)
 NE.GDI.STPB.KN - Change in stocks, public sector (constant LCU)
@@ -8871,6 +8940,7 @@ NE.GDI.TOTL.KD.ZG - Gross capital formation (annual % growth)
 NE.GDI.TOTL.KN - Gross capital formation (constant LCU)
 NE.GDI.TOTL.KN.87 - Gross domestic investment (constant 1987 LCU)
 NE.GDI.TOTL.KN.87.ZG - Gross domestic investment (annual % growth)
+NE.GDI.TOTL.SNA08.CR - Total GDP based on expenditure (in IDR Million), SNA 2008, Current Price
 NE.GDI.TOTL.ZG - Gross domestic investment: contr. to growth of GDP(%)
 NE.GDI.TOTL.ZS - Gross capital formation (% of GDP)
 NE.IMP.GNFS.CD - Imports of goods and services (current US$)
@@ -9735,12 +9805,14 @@ PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB1519 - Protecting minority investors: Eas
 PROT.MINOR.INV.EASE.SSI.XD.0010.DB0614.DFRN - Protecting minority investors: Ease of shareholder suits index (0-10) (DB06-14 methodology) - Score
 PROT.MINOR.INV.EASE.SSI.XD.0010.DB1519.DFRN - Protecting minority investors: Ease of shareholder suits index (0-10) (DB15-20 methodology) - Score
 PROT.MINOR.INV.EXT.BUS.DISC.010.XD - Protecting minority investors: Extent of disclosure index (0-10)
+PROT.MINOR.INV.EXT.CONFL.INTER.XD.010.DB1519 - Protecting minority investors: Extent of conflict of interest regulation index (0-10) (DB15-19 methodology)
 PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519 - Protecting minority investors: Extent of corporate transparency index (0-7) (DB15-20 methodology)
 PROT.MINOR.INV.EXT.CORP.TRANS.XD.010.DB1519.DFRN - Protecting minority investors: Extent of corporate transparency index (0-7) (DB15-20 methodology) - Score
 PROT.MINOR.INV.EXT.DIR.LBL.010.XD.DFRN - Protecting minority investors: Extent of director liability index (0-10) - Score
 PROT.MINOR.INV.EXT.DISC.010.XD.DFRN - Protecting minority investors: Extent of disclosure index (0-10) - Score
 PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519 - Protecting minority investors: Extent of ownership and control index (0-7) (DB15-20 methodology)
 PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN - Protecting minority investors: Extent of ownership and control index (0-7) (DB15-20 methodology) - Score
+PROT.MINOR.INV.EXT.SHARE.GOV.XD.010.DB1519 - Protecting minority investors: Extent of shareholder governance index (0-10) (DB15-19 methodology)
 PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519 - Protecting minority investors: Extent of shareholder rights index (0-6) (DB15-20 methodology)
 PROT.MINOR.INV.EXT.SHRHLD.RGT.XD.0010.DB1519.DRFN - Protecting minority investors: Extent of shareholder rights index (0-6) (DB15-20 methodology) - Score
 PROT.MINOR.INV.IC.PRIN.EXT.DIR.LGL.010.XD - Protecting minority investors: Extent of director liability index (0-10)
@@ -9807,9 +9879,10 @@ RES.DPST.CBK - Outstanding Deposits of Commercial Banks owned by Regional Govern
 RESLV.ISV.COPR.03.XD.DB1519 - Resolving insolvency: Commencement of proceedings index (0-3) (DB15-20 methodology)
 RESLV.ISV.COST.ZS - Resolving insolvency: Cost (% of estate)
 RESLV.ISV.CPI.04.XD.DB1519 - Resolving insolvency: Creditor participation index (0-4) (DB15-20 methodology)
+RESLV.ISV.DB0414.DFRN - Resolving insolvency (DB04-14 methodology) - Score
 RESLV.ISV.DB1519.DFRN - Resolving insolvency - Score
 RESLV.ISV.DFRN.RCOV.RT - Resolving insolvency: Recovery rate (cents on the dollar) - Score
-RESLV.ISV.DURS - Resolving insolvency: Time (years)
+RESLV.ISV.DURS.YR - Resolving insolvency: Time (years)
 RESLV.ISV.MGDA.XD.DB1519 - Resolving insolvency: Management of debtor's assets index (0-6) (DB15-20 methodology)
 RESLV.ISV.OTCM - Resolving insolvency: Outcome (0 as piecemeal sale and 1 as going concern)
 RESLV.ISV.RCOV.RT - Resolving insolvency: Recovery rate (cents on the dollar)
@@ -10005,7 +10078,7 @@ SABER.SCH.ATNM.GOAL5.LVL1 - SABER: (School Autonomy Accountability) Policy Goal 
 SABER.SCH.ATNM.GOAL5.LVL2 - SABER: (School Autonomy Accountability) Policy Goal 5 Lever 2:  Analysis of school and student performan
 SABER.SCH.ATNM.GOAL5.LVL3 - SABER: (School Autonomy Accountability) Policy Goal 5 Lever 3:  Degree of Financial accountability at the central level, regional, municipal, local and school level
 SABER.SCH.ATNM.GOAL5.LVL4 - SABER: (School Autonomy Accountability) Policy Goal 5 Lever 4: Degree of Accountability in school operations
-SABER.SCH.ATNM.GOAL5.LVL5 - SABER: (School Autonomy Accountability) Policy Goal 5 Lever 5): Degree of learning accountability
+SABER.SCH.ATNM.GOAL5.LVL5 - SABER: (School Autonomy Accountability) Policy Goal 5 Lever 5: Degree of learning accountability
 SABER.SCH.FNNC.GOAL1 - SABER: (School Finance) Policy Goal 1: Ensuring adequacy
 SABER.SCH.FNNC.GOAL1.LVL1 - SABER: (School Finance) Policy Goal 1 Lever 1:  Are ther policies and systems set up to provide basic educational inputs to all?
 SABER.SCH.FNNC.GOAL1.LVL2 - SABER: (School Finance) Policy Goal 1 Lever 2: Are there basic educational inputs for all primary school students?
@@ -10122,6 +10195,7 @@ SE.ENR.TERT.FM.ZS - School enrollment, tertiary (gross), gender parity index (GP
 SE.JRSEC.NENR.ZS - Net Enrollment Ratio: Junior Secondary (in %)
 SE.LITR.15UP.ZS - Literacy Rate for Population age 15 and over (in % of total population)
 SE.LPV.PRIM - Learning poverty: Share of Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%)
+SE.LPV.PRIM.BMP - Pupils below minimum reading proficiency at end of primary (%). Low GAML threshold
 SE.LPV.PRIM.BMP.FE - Female pupils below minimum reading proficiency at end of primary (%). Low GAML threshold
 SE.LPV.PRIM.BMP.MA - Male pupils below minimum reading proficiency at end of primary (%). Low GAML threshold
 SE.LPV.PRIM.FE - Learning poverty: Share of Female Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%)
@@ -10129,9 +10203,9 @@ SE.LPV.PRIM.MA - Learning poverty: Share of Male Children at the End-of-Primary 
 SE.LPV.PRIM.OOS - Primary school age children out-of-school (%)
 SE.LPV.PRIM.OOS.FE - Female primary school age children out-of-school (%)
 SE.LPV.PRIM.OOS.MA - Male primary school age children out-of-school (%)
-SE.NEXM.SCR.JRSEC - Average National Exam Score: Junior Secondary Level (out of 100, available only in district level for 2009)
-SE.NEXM.SCR.PRM - Average National Exam Score: Primary Level (out of 100, available only in district level for 2009)
-SE.NEXM.SCR.SRSEC - Average National Exam Score: Senior Secondary Level (out of 100, available only in district level for 2009)
+SE.NEXM.SCR.JRSEC - Average National Exam Score: Junior Secondary Level (out of 100, available only at district level)
+SE.NEXM.SCR.PRM - Average National Exam Score: Primary Level (out of 100, available only at district level)
+SE.NEXM.SCR.SRSEC - Average National Exam Score: Senior Secondary Level (out of 100, available only at district level)
 SE.PRE.DURS - Preprimary education, duration (years)
 SE.PRE.ENRL - Enrolment in pre-primary education, both sexes (number)
 SE.PRE.ENRL.FE - Enrolment in pre-primary education, female (number)
@@ -11215,10 +11289,10 @@ SH.UHC.NOP1.CG - Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due 
 SH.UHC.NOP1.TO - Number of people pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure
 SH.UHC.NOP1.ZG - Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line)
 SH.UHC.NOP1.ZS - Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)
-SH.UHC.NOP2.CG - Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD)
-SH.UHC.NOP2.TO - Number of people pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure
-SH.UHC.NOP2.ZG - Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line)
-SH.UHC.NOP2.ZS - Proportion of population pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)
+SH.UHC.NOP2.CG - Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD)
+SH.UHC.NOP2.TO - Number of people pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure
+SH.UHC.NOP2.ZG - Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line)
+SH.UHC.NOP2.ZS - Proportion of population pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)
 SH.UHC.OOPC.10.TO - Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure
 SH.UHC.OOPC.10.ZS - Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure (%)
 SH.UHC.OOPC.25.TO - Number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure
@@ -11313,6 +11387,7 @@ SI.POV.NAPL - Poverty Line (in IDR)
 SI.POV.NAPR.ZS - Poverty Rate (in % of population)
 SI.POV.NGAP - Poverty Gap (index)
 SI.POV.NOP1 - Number of poor at $1.90 a day (2011 PPP) (millions)
+SI.POV.NSEV - Poverty Severity (index)
 SI.POV.RUGP - Rural poverty gap at national poverty lines (%)
 SI.POV.RUGP.NC - Rural poverty gap at national poverty lines (%), including noncomparable values
 SI.POV.RUHC - Rural poverty headcount ratio at national poverty lines (% of rural population)
@@ -11984,7 +12059,7 @@ SP.POP.AG24.FE.IN - Age population, age 24, female, interpolated
 SP.POP.AG24.FE.UN - Population, age 24, female
 SP.POP.AG24.MA.IN - Age population, age 24, male, interpolated
 SP.POP.AG24.MA.UN - Population, age 24, male
-SP.POP.AG24.TO.UN - Population, age 24, tota
+SP.POP.AG24.TO.UN - Population, age 24, total
 SP.POP.AG25.FE.IN - Age population, age 25, female, interpolated
 SP.POP.AG25.FE.UN - Population, age 25, female
 SP.POP.AG25.MA.IN - Age population, age 25, male, interpolated
@@ -12052,7 +12127,7 @@ SP.URB.TOTL - Urban population
 SP.URB.TOTL.FE.ZS - Urban population, female (% of total)
 SP.URB.TOTL.IN.ZS - Urban population (% of total population)
 SP.URB.TOTL.MA.ZS - Urban population, male (% of total)
-SP.URB.TOTL.ZS - Percentage of Population in Urban Areas (only 2005 and 2010) (in % of Total Population)
+SP.URB.TOTL.ZS - Percentage of Population in Urban Areas (in % of Total Population)
 SP.UWT.LMTG.Q1.ZS - Unmet need for family planning (for limiting) (% of married women): Q1 (lowest)
 SP.UWT.LMTG.Q2.ZS - Unmet need for family planning (for limiting) (% of married women): Q2
 SP.UWT.LMTG.Q3.ZS - Unmet need for family planning (for limiting) (% of married women): Q3
@@ -12364,9 +12439,6 @@ UIS.AFR.CS.SG.1.G6.PU - Africa Dataset: Average size of single grade classes in 
 UIS.AFR.CS.SG.1.G7.PU - Africa Dataset: Average size of single grade classes in Grade 7 of primary schools (number of pupils)
 UIS.AFR.CS.SG.1.PU - Africa Dataset: Average size of single grade classes in primary schools (number of pupils)
 UIS.AFR.ECP.MG.1.PU - Africa Dataset: Percentage of primary pupils in multigrade classes (%)
-UIS.AFR.FNTP.1 - Africa Dataset: Percentage of newly recruited teachers in primary education who are female (%)
-UIS.AFR.FNTP.2 - Africa Dataset: Percentage of newly recruited teachers in lower secondary education who are female (%)
-UIS.AFR.FNTP.3 - Africa Dataset: Percentage of newly recruited teachers in upper secondary education who are female (%)
 UIS.AFR.GTC.1.F - Africa Dataset: Graduates from accredited pre-service primary teacher training programmes, female (number)
 UIS.AFR.GTC.1.T - Africa Dataset: Graduates from accredited pre-service primary teacher training programmes, both sexes (number)
 UIS.AFR.GTC.1T3.F - Africa Dataset: Graduates from accredited pre-service primary or secondary teacher training programmes, female (number)
@@ -12377,24 +12449,6 @@ UIS.AFR.GTC.3.F - Africa Dataset: Graduates from accredited pre-service upper se
 UIS.AFR.GTC.3.T - Africa Dataset: Graduates from accredited pre-service upper secondary teacher training programmes, both sexes (number)
 UIS.AFR.GTC.UK.F - Africa Dataset: Graduates from accredited pre-service teacher training programmes, level unspecified, female (number)
 UIS.AFR.GTC.UK.T - Africa Dataset: Graduates from accredited pre-service teacher training programmes, level unspecified, both sexes (number)
-UIS.AFR.GTCTR.1.F - Africa Dataset: Ratio of teacher training graduates to teachers in primary education, female
-UIS.AFR.GTCTR.1.M - Africa Dataset: Ratio of teacher training graduates to teachers in primary education, male
-UIS.AFR.GTCTR.1.T - Africa Dataset: Ratio of teacher training graduates to teachers in primary education, both sexes
-UIS.AFR.GTCTR.2.F - Africa Dataset: Ratio of teacher training graduates to teachers in lower secondary education, female
-UIS.AFR.GTCTR.2.M - Africa Dataset: Ratio of teacher training graduates to teachers in lower secondary education, male
-UIS.AFR.GTCTR.2.T - Africa Dataset: Ratio of teacher training graduates to teachers in lower secondary education, both sexes
-UIS.AFR.GTCTR.3.F - Africa Dataset: Ratio of teacher training graduates to teachers in upper secondary education, female
-UIS.AFR.GTCTR.3.M - Africa Dataset: Ratio of teacher training graduates to teachers in upper secondary education, male
-UIS.AFR.GTCTR.3.T - Africa Dataset: Ratio of teacher training graduates to teachers in upper secondary education, both sexes
-UIS.AFR.NTP.1.PU.F - Africa Dataset: Percentage of female teachers in primary education who are newly recruited, female (%)
-UIS.AFR.NTP.1.PU.M - Africa Dataset: Percentage of male teachers in primary education who are newly recruited, male (%)
-UIS.AFR.NTP.1.PU.T - Africa Dataset: Percentage of teachers in primary education who are newly recruited, both sexes (%)
-UIS.AFR.NTP.2.PU.F - Africa Dataset: Percentage of female teachers in lower secondary education who are newly recruited, female (%)
-UIS.AFR.NTP.2.PU.M - Africa Dataset: Percentage of male teachers in lower secondary education who are newly recruited, male (%)
-UIS.AFR.NTP.2.PU.T - Africa Dataset: Percentage of teachers in lower secondary education who are newly recruited, both sexes (%)
-UIS.AFR.NTP.3.PU.F - Africa Dataset: Percentage of female teachers in upper secondary education who are newly recruited, female (%)
-UIS.AFR.NTP.3.PU.M - Africa Dataset: Percentage of male teachers in upper secondary education who are newly recruited, male (%)
-UIS.AFR.NTP.3.PU.T - Africa Dataset: Percentage of teachers in upper secondary education who are newly recruited, both sexes (%)
 UIS.AFR.PBR.1.G1.PU.MATH - Africa Dataset: Average number of pupils per mathematics textbook in Grade 1 of primary education (number)
 UIS.AFR.PBR.1.G1.PU.READ - Africa Dataset: Average number of pupils per reading textbook in Grade 1 of primary education (number)
 UIS.AFR.PBR.1.G2.PU.MATH - Africa Dataset: Average number of pupils per mathematics textbook in Grade 2 of primary education (number)
@@ -12412,20 +12466,9 @@ UIS.AFR.PBR.1.G7.PU.READ - Africa Dataset: Average number of pupils per reading 
 UIS.AFR.PBR.1.PU.MATH - Africa Dataset: Average number of pupils per mathematics textbook in primary education (number)
 UIS.AFR.PBR.1.PU.READ - Africa Dataset: Average number of pupils per reading textbook in primary education (number)
 UIS.AFR.SCHBSP.1.PU.MIXTOIL - Africa Dataset: Percentage of primary schools with mixed-sex toilets (%)
-UIS.AFR.SCHBSP.1.PU.WELEC - Africa Dataset: Proportion of public primary schools with access to electricity (%)
 UIS.AFR.SCHBSP.2.PU.MIXTOIL - Africa Dataset: Percentage of lower secondary schools with mixed-sex toilets (%)
-UIS.AFR.SCHBSP.2.PU.WELEC - Africa Dataset: Proportion of public lower secondary schools with access to electricity (%)
 UIS.AFR.SCHCENRESPR.1.PU - Africa Dataset: School census return rate from primary schools
 UIS.AFR.SCHCENRESPR.23.PU - Africa Dataset: School census return rate from secondary schools
-UIS.AFR.TRNTP.1.PU.F - Africa Dataset: Percentage of female newly recruited teachers in primary education who are trained, female (%)
-UIS.AFR.TRNTP.1.PU.M - Africa Dataset: Percentage of male newly recruited teachers in primary education who are trained, male (%)
-UIS.AFR.TRNTP.1.PU.T - Africa Dataset: Percentage of newly recruited teachers in primary education who are trained, both sexes (%)
-UIS.AFR.TRNTP.2.PU.F - Africa Dataset: Percentage of female newly recruited teachers in lower secondary education who are trained, female (%)
-UIS.AFR.TRNTP.2.PU.M - Africa Dataset: Percentage of male newly recruited teachers in lower secondary education who are trained, male (%)
-UIS.AFR.TRNTP.2.PU.T - Africa Dataset: Percentage of newly recruited teachers in lower secondary education who are trained, both sexes (%)
-UIS.AFR.TRNTP.3.PU.F - Africa Dataset: Percentage of female newly recruited teachers in upper secondary education who are trained, female (%)
-UIS.AFR.TRNTP.3.PU.M - Africa Dataset: Percentage of male newly recruited teachers in upper secondary education who are trained, male (%)
-UIS.AFR.TRNTP.3.PU.T - Africa Dataset: Percentage of newly recruited teachers in upper secondary education who are trained, both sexes (%)
 UIS.AIR.1.GPI - Gross intake ratio to Grade 1 of primary education, gender parity index (GPI)
 UIS.AIR.1.Glast.GPI - Primary completion rate, gender parity index (GPI)
 UIS.AIR.2.GPV - Gross intake ratio to Grade 1 of lower secondary general education, both sexes (%)
@@ -12551,59 +12594,59 @@ UIS.E.4.PR - Enrolment in post-secondary non-tertiary education, private institu
 UIS.E.4.PR.F - Enrolment in post-secondary non-tertiary education, private institutions, female (number)
 UIS.E.4.PU - Enrolment in post-secondary non-tertiary education, public institutions, both sexes (number)
 UIS.E.4.PU.F - Enrolment in post-secondary non-tertiary education, public institutions, female (number)
-UIS.E.5.B - Enrolment in tertiary education, ISCED 5 programmes, both sexes (number)
-UIS.E.5.B.F - Enrolment in tertiary education, ISCED 5 programmes, female (number)
+UIS.E.5 - Enrolment in tertiary education, ISCED 5 programmes, both sexes (number)
+UIS.E.5.F - Enrolment in tertiary education, ISCED 5 programmes, female (number)
 UIS.E.6 - Enrolment in tertiary education, ISCED 6 programmes, both sexes (number)
 UIS.E.6.F - Enrolment in tertiary education, ISCED 6 programmes, female (number)
 UIS.E.7 - Enrolment in tertiary education, ISCED 7 programmes, both sexes (number)
 UIS.E.7.F - Enrolment in tertiary education, ISCED 7 programmes, female (number)
 UIS.E.8 - Enrolment in tertiary education, ISCED 8 programmes, both sexes (number)
 UIS.E.8.F - Enrolment in tertiary education, ISCED 8 programmes, female (number)
-UIS.EA.1.AG25T99 - UIS: Percentage of population age 25+ with completed primary education. Total
-UIS.EA.1.AG25T99.F - UIS: Percentage of population age 25+ with completed primary education. Female
-UIS.EA.1.AG25T99.M - UIS: Percentage of population age 25+ with completed primary education. Male
+UIS.EA.1.AG25T99 - UIS: Percentage of population age 25+ whose highest level of education is primary, both sexes
+UIS.EA.1.AG25T99.F - UIS: Percentage of population age 25+ whose highest level of education is primary, female
+UIS.EA.1.AG25T99.M - UIS: Percentage of population age 25+ whose highest level of education is primary, male
 UIS.EA.1T6.AG25T99 - UIS: Percentage of population age 25+ with at least completed primary education (ISCED 1 or higher). Total
 UIS.EA.1T6.AG25T99.F - UIS: Percentage of population age 25+ with at least completed primary education (ISCED 1 or higher). Female
 UIS.EA.1T6.AG25T99.GPI - UIS: Percentage of population age 25+ with at least completed primary education (ISCED 1 or higher). Gender Parity Index
 UIS.EA.1T6.AG25T99.M - UIS: Percentage of population age 25+ with at least completed primary education (ISCED 1 or higher). Male
-UIS.EA.2.AG25T99 - UIS: Percentage of population age 25+ with completed lower secondary education. Total
-UIS.EA.2.AG25T99.F - UIS: Percentage of population age 25+ with completed lower secondary education. Female
-UIS.EA.2.AG25T99.M - UIS: Percentage of population age 25+ with completed lower secondary education. Male
+UIS.EA.2.AG25T99 - UIS: Percentage of population age 25+ whose highest level of education is lower secondary, both sexes
+UIS.EA.2.AG25T99.F - UIS: Percentage of population age 25+ whose highest level of education is lower secondary, female
+UIS.EA.2.AG25T99.M - UIS: Percentage of population age 25+ whose highest level of education is lower secondary, male
 UIS.EA.2T6.AG25T99 - UIS: Percentage of population age 25+ with at least completed lower secondary education (ISCED 2 or higher). Total
 UIS.EA.2T6.AG25T99.F - UIS: Percentage of population age 25+ with at least completed lower secondary education (ISCED 2 or higher). Female
 UIS.EA.2T6.AG25T99.GPI - UIS: Percentage of population age 25+ with at least completed lower secondary education (ISCED 2 or higher). Gender Parity Index
 UIS.EA.2T6.AG25T99.M - UIS: Percentage of population age 25+ with at least completed lower secondary education (ISCED 2 or higher). Male
-UIS.EA.3.AG25T99 - UIS: Percentage of population age 25+ with completed upper secondary education. Total
-UIS.EA.3.AG25T99.F - UIS: Percentage of population age 25+ with completed upper secondary education. Female
-UIS.EA.3.AG25T99.M - UIS: Percentage of population age 25+ with completed upper secondary education. Male
+UIS.EA.3.AG25T99 - UIS: Percentage of population age 25+ whose highest level of education is upper secondary, both sexes
+UIS.EA.3.AG25T99.F - UIS: Percentage of population age 25+ whose highest level of education is upper secondary, female
+UIS.EA.3.AG25T99.M - UIS: Percentage of population age 25+ whose highest level of education is upper secondary, male
 UIS.EA.3T6.AG25T99 - UIS: Percentage of population age 25+ with at least completed upper secondary education (ISCED 3 or higher). Total
 UIS.EA.3T6.AG25T99.F - UIS: Percentage of population age 25+ with at least completed upper secondary education (ISCED 3 or higher). Female
 UIS.EA.3T6.AG25T99.GPI - UIS: Percentage of population age 25+ with at least completed upper secondary education (ISCED 3 or higher). Gender Parity Index
 UIS.EA.3T6.AG25T99.M - UIS: Percentage of population age 25+ with at least completed upper secondary education (ISCED 3 or higher). Male
-UIS.EA.4.AG25T99 - UIS: Percentage of population age 25+ with completed post-secondary education. Total
-UIS.EA.4.AG25T99.F - UIS: Percentage of population age 25+ with completed post-secondary education. Female
-UIS.EA.4.AG25T99.M - UIS: Percentage of population age 25+ with completed post-secondary education. Male
+UIS.EA.4.AG25T99 - UIS: Percentage of population age 25+ whose highest level of education is post-secondary non-tertiary, both sexes
+UIS.EA.4.AG25T99.F - UIS: Percentage of population age 25+ whose highest level of education is post-secondary non-tertiary, female
+UIS.EA.4.AG25T99.M - UIS: Percentage of population age 25+ whose highest level of education is post-secondary non-tertiary, male
 UIS.EA.4T6.AG25T99 - UIS: Percentage of population age 25+ with at least completed post-secondary education (ISCED 4 or higher). Total
 UIS.EA.4T6.AG25T99.F - UIS: Percentage of population age 25+ with at least completed post-secondary education (ISCED 4 or higher). Female
 UIS.EA.4T6.AG25T99.GPI - UIS: Percentage of population age 25+ with at least completed post-secondary education (ISCED 4 or higher). Gender Parity Index
 UIS.EA.4T6.AG25T99.M - UIS: Percentage of population age 25+ with at least completed post-secondary education (ISCED 4 or higher). Male
-UIS.EA.5.AG25T99 - UIS: Percentage of population age 25+ with a completed short-cycle tertiary degree (ISCED 5). Total
-UIS.EA.5.AG25T99.F - UIS: Percentage of population age 25+ with a completed short-cycle tertiary degree (ISCED 5). Female
-UIS.EA.5.AG25T99.M - UIS: Percentage of population age 25+ with a completed short-cycle tertiary degree (ISCED 5). Male
+UIS.EA.5.AG25T99 - UIS: Percentage of population age 25+ whose highest level of education is short cycle tertiary, both sexes
+UIS.EA.5.AG25T99.F - UIS: Percentage of population age 25+ whose highest level of education is short cycle tertiary, female
+UIS.EA.5.AG25T99.M - UIS: Percentage of population age 25+ whose highest level of education is short cycle tertiary, male
 UIS.EA.5T8.AG25T99 - UIS: Percentage of population age 25+ with at least a completed short-cycle tertiary degree (ISCED 5 or higher). Total
 UIS.EA.5T8.AG25T99.F - UIS: Percentage of population age 25+ with at least a completed short-cycle tertiary degree (ISCED 5 or higher). Female
 UIS.EA.5T8.AG25T99.GPI - UIS: Percentage of population age 25+ with at least a completed short-cycle tertiary degree (ISCED 5 or higher). Gender Parity Index
 UIS.EA.5T8.AG25T99.M - UIS: Percentage of population age 25+ with at least a completed short-cycle tertiary degree (ISCED 5 or higher). Male
-UIS.EA.6.AG25T99 - UIS: Percentage of population age 25+ with a completed bachelor's or equivalent degree (ISCED 6). Total
-UIS.EA.6.AG25T99.F - UIS: Percentage of population age 25+ with a completed bachelor's or equivalent degree (ISCED 6). Female
-UIS.EA.6.AG25T99.M - UIS: Percentage of population age 25+ with a completed bachelor's or equivalent degree (ISCED 6). Male
+UIS.EA.6.AG25T99 - UIS: Percentage of population age 25+ whose highest level of education is Bachelor's or equivalent (ISCED 6), both sexes
+UIS.EA.6.AG25T99.F - UIS: Percentage of population age 25+ whose highest level of education is Bachelor's or equivalent (ISCED 6), female
+UIS.EA.6.AG25T99.M - UIS: Percentage of population age 25+ whose highest level of education is Bachelor's or equivalent (ISCED 6), male
 UIS.EA.6T8.AG25T99 - UIS: Percentage of population age 25+ with at least a completed bachelor's or equivalent degree (ISCED 6 or higher). Total
 UIS.EA.6T8.AG25T99.F - UIS: Percentage of population age 25+ with at least a completed bachelor's or equivalent degree (ISCED 6 or higher). Female
 UIS.EA.6T8.AG25T99.GPI - UIS: Percentage of population age 25+ with at least a completed bachelor's or equivalent degree (ISCED 6 or higher). Gender Parity Index
 UIS.EA.6T8.AG25T99.M - UIS: Percentage of population age 25+ with at least a completed bachelor's or equivalent degree (ISCED 6 or higher). Male
-UIS.EA.7.AG25T99 - UIS: Percentage of population age 25+ with a completed master's or equivalent degree (ISCED 7). Total
-UIS.EA.7.AG25T99.F - UIS: Percentage of population age 25+ with a completed master's or equivalent degree (ISCED 7). Female
-UIS.EA.7.AG25T99.M - UIS: Percentage of population age 25+ with a completed master's or equivalent degree (ISCED 7). Male
+UIS.EA.7.AG25T99 - UIS: Percentage of population age 25+ whose highest level of education is Master's or equivalent (ISCED 7), both sexes
+UIS.EA.7.AG25T99.F - UIS: Percentage of population age 25+ whose highest level of education is Master's or equivalent (ISCED 7), female
+UIS.EA.7.AG25T99.M - UIS: Percentage of population age 25+ whose highest level of education is Master's or equivalent (ISCED 7), male
 UIS.EA.7T8.AG25T99 - UIS: Percentage of population age 25+ with at least a completed master's degree or equivalent (ISCED 7 or higher). Total
 UIS.EA.7T8.AG25T99.F - UIS: Percentage of population age 25+ with at least a completed master's degree or equivalent (ISCED 7 or higher). Female
 UIS.EA.7T8.AG25T99.GPI - UIS: Percentage of population age 25+ with at least a completed master's degree or equivalent (ISCED 7 or higher). Gender Parity Index
@@ -12612,15 +12655,15 @@ UIS.EA.8.AG25T99 - UIS: Percentage of population age 25+ with a doctoral degree 
 UIS.EA.8.AG25T99.F - UIS: Percentage of population age 25+ with a doctoral degree or equivalent (ISCED 8). Female
 UIS.EA.8.AG25T99.GPI - UIS: Percentage of population age 25+ with a doctoral degree or equivalent (ISCED 8). Gender Parity Index
 UIS.EA.8.AG25T99.M - UIS: Percentage of population age 25+ with a doctoral degree or equivalent (ISCED 8). Male
-UIS.EA.MEAN.1T6.AG25T99 - UIS: Mean years of schooling (ISCED 1 or higher) of the population age 25+. Total
-UIS.EA.MEAN.1T6.AG25T99.F - UIS: Mean years of schooling (ISCED 1 or higher) of the population age 25+. Female
-UIS.EA.MEAN.1T6.AG25T99.M - UIS: Mean years of schooling (ISCED 1 or higher) of the population age 25+. Male
-UIS.EA.NS.AG25T99 - UIS: Percentage of population age 25+ with no schooling. Total
-UIS.EA.NS.AG25T99.F - UIS: Percentage of population age 25+ with no schooling. Female
-UIS.EA.NS.AG25T99.M - UIS: Percentage of population age 25+ with no schooling. Male
-UIS.EA.S1.AG25T99 - UIS: Percentage of population age 25+ with some primary education. Total
-UIS.EA.S1.AG25T99.F - UIS: Percentage of population age 25+ with some primary education. Female
-UIS.EA.S1.AG25T99.M - UIS: Percentage of population age 25+ with some primary education. Male
+UIS.EA.MEAN.1T6.AG25T99 - UIS: Mean years of schooling (ISCED 1 or higher), population 25+ years, both sexes
+UIS.EA.MEAN.1T6.AG25T99.F - UIS: Mean years of schooling (ISCED 1 or higher), population 25+ years, female
+UIS.EA.MEAN.1T6.AG25T99.M - UIS: Mean years of schooling (ISCED 1 or higher), population 25+ years, male
+UIS.EA.NS.AG25T99 - UIS: Percentage of population age 25+ with no schooling, both sexes
+UIS.EA.NS.AG25T99.F - UIS: Percentage of population age 25+ with no schooling, female
+UIS.EA.NS.AG25T99.M - UIS: Percentage of population age 25+ with no schooling, male
+UIS.EA.S1.AG25T99 - UIS: Percentage of population age 25+ whose highest level of education is incomplete primary, both sexes
+UIS.EA.S1.AG25T99.F - UIS: Percentage of population age 25+ whose highest level of education is incomplete primary, female
+UIS.EA.S1.AG25T99.M - UIS: Percentage of population age 25+ whose highest level of education is incomplete primary, male
 UIS.EA.UK.AG25T99 - UIS: Percentage of population age 25+ with unknown educational attainment. Total
 UIS.EA.UK.AG25T99.F - UIS: Percentage of population age 25+ with unknown educational attainment. Female
 UIS.EA.UK.AG25T99.M - UIS: Percentage of population age 25+ with unknown educational attainment. Male
@@ -12653,7 +12696,7 @@ UIS.FEP.56.F600 - Percentage of students enrolled in Information and Communicati
 UIS.FEP.56.F700 - Percentage of students enrolled in Engineering, Manufacturing and Construction programmes in tertiary education who are female (%)
 UIS.FEP.56.F800 - Percentage of students enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes in tertiary education who are female (%)
 UIS.FEP.56.F900 - Percentage of students enrolled in Health and Welfare programmes in tertiary education who are female (%)
-UIS.FEP.56.FOREIGN - Percentage of all inbound internationally mobile students in tertiary education in the host country who are female, (%)
+UIS.FEP.56.FOREIGN - Percentage of all inbound internationally mobile students in tertiary education in the host country who are female (%)
 UIS.FEP.56.FUK - Percentage of students enrolled in programmes in unspecified fields in tertiary education who are female (%)
 UIS.FEP.6 - Percentage of students in tertiary ISCED 6 programmes who are female (%)
 UIS.FEP.7 - Percentage of students in tertiary ISCED 7 programmes who are female (%)
@@ -12667,6 +12710,9 @@ UIS.FGP.6 - Percentage of graduates from tertiary ISCED 6 programmes who are fem
 UIS.FGP.7 - Percentage of graduates from tertiary ISCED 7 programmes who are female (%)
 UIS.FGP.8 - Percentage of graduates from tertiary ISCED 8 programmes who are female (%)
 UIS.FNP.1 - New entrants to Grade 1 of primary education, percentage female (%)
+UIS.FNTP.1 - Percentage of newly recruited teachers in primary education who are female (%)
+UIS.FNTP.2 - Percentage of newly recruited teachers in lower secondary education who are female (%)
+UIS.FNTP.3 - Percentage of newly recruited teachers in upper secondary education who are female (%)
 UIS.FOFSTP.1 - Out-of-school children of primary school age, percentage female (%)
 UIS.FOFSTP.2 - Out-of-school adolescents of lower secondary school age, percentage female (%)
 UIS.FOFSTP.3 - Out-of-school youth of upper secondary school age, percentage female (%)
@@ -12759,6 +12805,15 @@ UIS.GGR.2.GPI - Gross graduation ratio from lower secondary education, gender pa
 UIS.GGR.2.M - Gross graduation ratio from lower secondary education, male (%)
 UIS.GGR.5.A.GPI - Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, gender parity index (GPI)
 UIS.GOER.56 - Gross outbound enrolment ratio, all regions, both sexes (%)
+UIS.GTCTR.1.F - Ratio of teacher training graduates to teachers in primary education, female
+UIS.GTCTR.1.M - Ratio of teacher training graduates to teachers in primary education, male
+UIS.GTCTR.1.T - Ratio of teacher training graduates to teachers in primary education, both sexes
+UIS.GTCTR.2.F - Ratio of teacher training graduates to teachers in lower secondary education, female
+UIS.GTCTR.2.M - Ratio of teacher training graduates to teachers in lower secondary education, male
+UIS.GTCTR.2.T - Ratio of teacher training graduates to teachers in lower secondary education, both sexes
+UIS.GTCTR.3.F - Ratio of teacher training graduates to teachers in upper secondary education, female
+UIS.GTCTR.3.M - Ratio of teacher training graduates to teachers in upper secondary education, male
+UIS.GTCTR.3.T - Ratio of teacher training graduates to teachers in upper secondary education, both sexes
 UIS.GTVP.2.GPV - Share of all students in lower secondary education enrolled in general programmes (%)
 UIS.GTVP.2.GPV.F - Share of female students in lower secondary education enrolled in general programmes (%)
 UIS.GTVP.2.GPV.M - Share of male students in lower secondary education enrolled in general programmes (%)
@@ -12876,38 +12931,6 @@ UIS.NAR.2.URB - UIS: Net attendance rate, lower secondary, urban, both sexes (%)
 UIS.NAR.2.URB.F - UIS: Net attendance rate, lower secondary, urban, female (%)
 UIS.NAR.2.URB.GPIA - UIS: Net attendance rate, lower secondary, urban, adjusted gender parity index (GPIA)
 UIS.NAR.2.URB.M - UIS: Net attendance rate, lower secondary, urban, male (%)
-UIS.NARA.1 - UIS: Adjusted net attendance rate, primary, both sexes (%)
-UIS.NARA.1.F - UIS: Adjusted net attendance rate, primary, female (%)
-UIS.NARA.1.GPIA - UIS: Adjusted net attendance rate, primary, adjusted gender parity index (GPIA)
-UIS.NARA.1.M - UIS: Adjusted net attendance rate, primary, male (%)
-UIS.NARA.1.Q1 - UIS: Adjusted net attendance rate, primary, poorest quintile, both sexes (%)
-UIS.NARA.1.Q1.F - UIS: Adjusted net attendance rate, primary, poorest quintile, female (%)
-UIS.NARA.1.Q1.GPIA - UIS: Adjusted net attendance rate, primary, poorest quintile, adjusted gender parity index (GPIA)
-UIS.NARA.1.Q1.M - UIS: Adjusted net attendance rate, primary, poorest quintile, male (%)
-UIS.NARA.1.Q2 - UIS: Adjusted net attendance rate, primary, second quintile, both sexes (%)
-UIS.NARA.1.Q2.F - UIS: Adjusted net attendance rate, primary, second quintile, female (%)
-UIS.NARA.1.Q2.GPIA - UIS: Adjusted net attendance rate, primary, second quintile, adjusted gender parity index (GPIA)
-UIS.NARA.1.Q2.M - UIS: Adjusted net attendance rate, primary, second quintile, male (%)
-UIS.NARA.1.Q3 - UIS: Adjusted net attendance rate, primary, middle quintile, both sexes (%)
-UIS.NARA.1.Q3.F - UIS: Adjusted net attendance rate, primary, middle quintile, female (%)
-UIS.NARA.1.Q3.GPIA - UIS: Adjusted net attendance rate, primary, middle quintile, adjusted gender parity index (GPIA)
-UIS.NARA.1.Q3.M - UIS: Adjusted net attendance rate, primary, middle quintile, male (%)
-UIS.NARA.1.Q4 - UIS: Adjusted net attendance rate, primary, fourth quintile, both sexes (%)
-UIS.NARA.1.Q4.F - UIS: Adjusted net attendance rate, primary, fourth quintile, female (%)
-UIS.NARA.1.Q4.GPIA - UIS: Adjusted net attendance rate, primary, fourth quintile, adjusted gender parity index (GPIA)
-UIS.NARA.1.Q4.M - UIS: Adjusted net attendance rate, primary, fourth quintile, male (%)
-UIS.NARA.1.Q5 - UIS: Adjusted net attendance rate, primary, richest quintile, both sexes (%)
-UIS.NARA.1.Q5.F - UIS: Adjusted net attendance rate, primary, richest quintile, female (%)
-UIS.NARA.1.Q5.GPIA - UIS: Adjusted net attendance rate, primary, richest quintile, adjusted gender parity index (GPIA)
-UIS.NARA.1.Q5.M - UIS: Adjusted net attendance rate, primary, richest quintile, male (%)
-UIS.NARA.1.RUR - UIS: Adjusted net attendance rate, primary, rural, both sexes (%)
-UIS.NARA.1.RUR.F - UIS: Adjusted net attendance rate, primary, rural, female (%)
-UIS.NARA.1.RUR.GPIA - UIS: Adjusted net attendance rate, primary, rural, adjusted gender parity index (GPIA)
-UIS.NARA.1.RUR.M - UIS: Adjusted net attendance rate, primary, rural, male (%)
-UIS.NARA.1.URB - UIS: Adjusted net attendance rate, primary, urban, both sexes (%)
-UIS.NARA.1.URB.F - UIS: Adjusted net attendance rate, primary, urban, female (%)
-UIS.NARA.1.URB.GPIA - UIS: Adjusted net attendance rate, primary, urban, adjusted gender parity index (GPIA)
-UIS.NARA.1.URB.M - UIS: Adjusted net attendance rate, primary, urban, male (%)
 UIS.NART.2 - UIS: Total net attendance rate, lower secondary, both sexes (%)
 UIS.NART.2.F - UIS: Total net attendance rate, lower secondary, female (%)
 UIS.NART.2.GPIA - UIS: Total net attendance rate, lower secondary, adjusted gender parity index (GPIA)
@@ -12944,7 +12967,7 @@ UIS.NE.1.ECD - New entrants to Grade 1 of primary education with early childhood
 UIS.NE.1.ECD.F - New entrants to Grade 1 of primary education with early childhood education experience, female (number)
 UIS.NE.1.G1 - New entrants to Grade 1 of primary education, both sexes (number)
 UIS.NE.1.G1.F - New entrants to Grade 1 of primary education, female (number)
-UIS.NER.0.GPI - Net enrolment rate, pre-primary, gender parity index (GPI)
+UIS.NER.02.GPI - Net enrolment rate, pre-primary, gender parity index (GPI)
 UIS.NER.1.GPI - Net enrolment rate, primary, gender parity index (GPI)
 UIS.NER.2 - Net enrolment rate, lower secondary, both sexes (%)
 UIS.NER.2.F - Net enrolment rate, lower secondary, female (%)
@@ -12990,6 +13013,15 @@ UIS.NIRA.1 - Adjusted net intake rate to Grade 1 of primary education, both sexe
 UIS.NIRA.1.F - Adjusted net intake rate to Grade 1 of primary education, female (%)
 UIS.NIRA.1.GPI - Adjusted net intake rate to Grade 1 of primary education, gender parity index (GPI)
 UIS.NIRA.1.M - Adjusted net intake rate to Grade 1 of primary education, male (%)
+UIS.NTP.1.PU.F - Percentage of female teachers in primary education who are newly recruited, female (%)
+UIS.NTP.1.PU.M - Percentage of male teachers in primary education who are newly recruited, male (%)
+UIS.NTP.1.PU.T - Percentage of teachers in primary education who are newly recruited, both sexes (%)
+UIS.NTP.2.PU.F - Percentage of female teachers in lower secondary education who are newly recruited, female (%)
+UIS.NTP.2.PU.M - Percentage of male teachers in lower secondary education who are newly recruited, male (%)
+UIS.NTP.2.PU.T - Percentage of teachers in lower secondary education who are newly recruited, both sexes (%)
+UIS.NTP.3.PU.F - Percentage of female teachers in upper secondary education who are newly recruited, female (%)
+UIS.NTP.3.PU.M - Percentage of male teachers in upper secondary education who are newly recruited, male (%)
+UIS.NTP.3.PU.T - Percentage of teachers in upper secondary education who are newly recruited, both sexes (%)
 UIS.OAEP.1 - Percentage of students enrolled in primary education who are over-age, both sexes (%)
 UIS.OAEP.1.F - Percentage of female students enrolled in primary education who are over-age, female (%)
 UIS.OAEP.1.M - Percentage of male students enrolled in primary education who are over-age, male (%)
@@ -12997,9 +13029,6 @@ UIS.OAPP.1 - Over-age enrolment ratio in primary education, both sexes (%)
 UIS.OAPP.1.F - Over-age enrolment ratio in primary education, female (%)
 UIS.OAPP.1.M - Over-age enrolment ratio in primary education, male (%)
 UIS.OE.56.40510 - Total outbound internationally mobile tertiary students studying abroad, all countries, both sexes (number)
-UIS.OFSPPT.1 - Out-of-school children of primary school age in pre-primary education, both sexes (number)
-UIS.OFSPPT.1.F - Out-of-school children of primary school age in pre-primary education, female (number)
-UIS.OFSPPT.1.M - Out-of-school children of primary school age in pre-primary education, male (number)
 UIS.OFST.2 - Out-of-school adolescents of lower secondary school age, both sexes (number)
 UIS.OFST.2.F - Out-of-school adolescents of lower secondary school age, female (number)
 UIS.OFST.2.M - Out-of-school adolescents of lower secondary school age, male (number)
@@ -13060,6 +13089,9 @@ UIS.R.2.GPV.G5 - Repeaters in Grade 5 of lower secondary general education, both
 UIS.R.2.GPV.G5.F - Repeaters in Grade 5 of lower secondary general education, female (number)
 UIS.R.2.GPV.G6 - Repeaters in Grade 6 of lower secondary general education, both sexes (number)
 UIS.R.2.GPV.G6.F - Repeaters in Grade 6 of lower secondary general education, female (number)
+UIS.R.3.GPV - Repeaters in upper secondary general education, all grades, both sexes (number)
+UIS.R.3.GPV.F - Repeaters in upper secondary general education, all grades, female (number)
+UIS.R.3.GPV.M - Repeaters in upper secondary general education, all grades, male (number)
 UIS.REPP.1.G1 - Percentage of repeaters in Grade 1 of primary education, both sexes (%)
 UIS.REPP.1.G1.F - Percentage of repeaters in Grade 1 of primary education, female (%)
 UIS.REPP.1.G1.M - Percentage of repeaters in Grade 1 of primary education, male (%)
@@ -13102,7 +13134,7 @@ UIS.REPP.2.GPV.G5.M - Percentage of repeaters in Grade 5 of lower secondary gene
 UIS.REPP.2.GPV.G6 - Percentage of repeaters in Grade 6 of lower secondary general education, both sexes (%)
 UIS.REPP.2.GPV.G6.F - Percentage of repeaters in Grade 6 of lower secondary general education, female (%)
 UIS.REPP.2.GPV.G6.M - Percentage of repeaters in Grade 6 of lower secondary general education, male (%)
-UIS.REPP.2.GPV.GPI - Percentage of repeaters in lower secondary education, all grades, gender parity index (GPI)
+UIS.REPP.2.GPV.GPI - Percentage of repeaters in lower secondary general education, all grades, gender parity index (GPI)
 UIS.REPP.2.GPV.M - Percentage of repeaters in lower secondary general education, all grades, male (%)
 UIS.REPR.1 - Repetition rate in primary education (all grades), both sexes (%)
 UIS.REPR.1.F - Repetition rate in primary education (all grades), female (%)
@@ -13146,9 +13178,6 @@ UIS.REPR.2.GPV.G5 - Repetition rate in Grade 5 of lower secondary general educat
 UIS.REPR.2.GPV.G5.F - Repetition rate in Grade 5 of lower secondary general education, female (%)
 UIS.REPR.2.GPV.G5.M - Repetition rate in Grade 5 of lower secondary general education, male (%)
 UIS.REPR.2.GPV.M - Repetition rate in lower secondary general education (all grades), male (%)
-UIS.ROFSPPT.1 - Rate of out-of-school children of primary school age in pre-primary education, both sexes (%)
-UIS.ROFSPPT.1.F - Rate of out-of-school children of primary school age in pre-primary education, female (%)
-UIS.ROFSPPT.1.M - Rate of out-of-school children of primary school age in pre-primary education, male (%)
 UIS.ROFST.1 - Rate of out-of-school children of primary school age, both sexes (%)
 UIS.ROFST.1.F - Rate of out-of-school children of primary school age, female (%)
 UIS.ROFST.1.M - Rate of out-of-school children of primary school age, male (%)
@@ -13218,6 +13247,8 @@ UIS.SAP.4.M - School age population, post-secondary non-tertiary education, male
 UIS.SAP.CE - Population of compulsory school age, both sexes (number)
 UIS.SAP.CE.F - Population of compulsory school age, female (number)
 UIS.SAP.CE.M - Population of compulsory school age, male (number)
+UIS.SCHBSP.1.PU.WELEC - Proportion of public primary schools with access to electricity (%)
+UIS.SCHBSP.2.PU.WELEC - Proportion of public lower secondary schools with access to electricity (%)
 UIS.SLE.0 - School life expectancy, pre-primary, both sexes (years)
 UIS.SLE.0.F - School life expectancy, pre-primary, female (years)
 UIS.SLE.0.GPI - School life expectancy, pre-primary, gender parity index (GPI)
@@ -13270,8 +13301,8 @@ UIS.T.3 - Teachers in upper secondary education, both sexes (number)
 UIS.T.3.F - Teachers in upper secondary education, female (number)
 UIS.T.4 - Teachers in post-secondary non-tertiary education, both sexes (number)
 UIS.T.4.F - Teachers in post-secondary non-tertiary education, female (number)
-UIS.T.5.B - Teachers in tertiary education ISCED 5 programmes, both sexes (number)
-UIS.T.5.B.F - Teachers in tertiary education ISCED 5 programmes, female (number)
+UIS.T.5 - Teachers in tertiary education ISCED 5 programmes, both sexes (number)
+UIS.T.5.F - Teachers in tertiary education ISCED 5 programmes, female (number)
 UIS.TATTRR.1.F - Teacher attrition rate from primary education, female (%)
 UIS.TATTRR.1.M - Teacher attrition rate from primary education, male (%)
 UIS.TATTRR.1.T - Teacher attrition rate from primary education, both sexes (%)
@@ -13294,6 +13325,15 @@ UIS.TEP.8 - Share of all students in tertiary education enrolled in ISCED 8 (%)
 UIS.TEP.8.F - Share of female students in tertiary education enrolled in ISCED 8 (%)
 UIS.TEP.8.M - Share of male students in tertiary education enrolled in ISCED 8 (%)
 UIS.TRANRA.23.GPV.GPI - Effective transition rate from primary to lower secondary general education, gender parity index (GPI)
+UIS.TRNTP.1.PU.F - Percentage of female newly recruited teachers in primary education who are trained, female (%)
+UIS.TRNTP.1.PU.M - Percentage of male newly recruited teachers in primary education who are trained, male (%)
+UIS.TRNTP.1.PU.T - Percentage of newly recruited teachers in primary education who are trained, both sexes (%)
+UIS.TRNTP.2.PU.F - Percentage of female newly recruited teachers in lower secondary education who are trained, female (%)
+UIS.TRNTP.2.PU.M - Percentage of male newly recruited teachers in lower secondary education who are trained, male (%)
+UIS.TRNTP.2.PU.T - Percentage of newly recruited teachers in lower secondary education who are trained, both sexes (%)
+UIS.TRNTP.3.PU.F - Percentage of female newly recruited teachers in upper secondary education who are trained, female (%)
+UIS.TRNTP.3.PU.M - Percentage of male newly recruited teachers in upper secondary education who are trained, male (%)
+UIS.TRNTP.3.PU.T - Percentage of newly recruited teachers in upper secondary education who are trained, both sexes (%)
 UIS.TRTP.02 - Percentage of teachers in pre-primary education who are trained, both sexes (%)
 UIS.TRTP.02.F - Percentage of female teachers in pre-primary education who are trained, female (%)
 UIS.TRTP.02.GPI - Percentage of teachers in pre-primary education who are trained, gender parity index (GPI)

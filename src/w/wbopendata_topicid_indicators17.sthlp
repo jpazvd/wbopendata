@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -566,9 +570,9 @@
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Expected years of schooling is the number of years a child of school entrance age is expect to spend at school, or university, including years spent on repetition. It is the sum of the age-specific enrolment ratios for primary, secondary, post{p_end}
+{synopt:{opt Source Notes}}Number of years a person of school entrance age can expect to spend within the specified level of education. For a child of a certain age a, the school life expectancy is calculated as the sum of the age specific enrolment rates for the levels{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -579,9 +583,9 @@
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Expected years of schooling is the number of years a child of school entrance age is expect to spend at school, or university, including years spent on repetition. It is the sum of the age-specific enrolment ratios for primary, secondary, post{p_end}
+{synopt:{opt Source Notes}}Number of years a person of school entrance age can expect to spend within the specified level of education. For a child of a certain age a, the school life expectancy is calculated as the sum of the age specific enrolment rates for the levels{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -2310,7 +2314,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of underweight, female, is the percentage of girls under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's n{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -2323,7 +2327,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of underweight, male, is the percentage of boys under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's new{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -2414,7 +2418,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2427,7 +2431,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2440,7 +2444,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2453,7 +2457,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2479,7 +2483,7 @@
 
 {synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2492,7 +2496,7 @@
 
 {synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2531,7 +2535,7 @@
 
 {synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2544,7 +2548,7 @@
 
 {synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2557,7 +2561,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2570,7 +2574,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2609,7 +2613,7 @@
 
 {synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2622,7 +2626,7 @@
 
 {synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2635,7 +2639,7 @@
 
 {synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2648,7 +2652,7 @@
 
 {synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2661,7 +2665,7 @@
 
 {synopt:{opt Source Notes}}Contributing family workers are those workers who hold self-employment jobs as own-account workers in a market-oriented establishment operated by a related person living in the same household.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2674,7 +2678,7 @@
 
 {synopt:{opt Source Notes}}Contributing family workers are those workers who hold self-employment jobs as own-account workers in a market-oriented establishment operated by a related person living in the same household.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2687,7 +2691,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2700,7 +2704,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2778,7 +2782,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2791,7 +2795,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2882,7 +2886,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2895,7 +2899,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2908,7 +2912,7 @@
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -2921,7 +2925,7 @@
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -3038,7 +3042,7 @@
 
 {synopt:{opt Source Notes}}Female labor force as a percentage of the total show the extent to which women are active in the labor force. Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database and World Bank population estimates. Labor data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -3051,7 +3055,7 @@
 
 {synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -3090,7 +3094,7 @@
 
 {synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -3207,7 +3211,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -3220,7 +3224,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -3513,7 +3517,7 @@
 {marker topicid_SP.POP.AG02.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.AG02.FE.IN:SP.POP.AG02.FE.IN} - Age population, age 02, female, interpolated}}
 
-{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -3718,4 +3722,8 @@
 
 
 
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check

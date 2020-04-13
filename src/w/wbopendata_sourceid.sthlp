@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -83,9 +87,13 @@
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.CTFE.PR:ENF.CONT.COEN.CTFE.PR{marker ENF.CONT.COEN.CTFE.PR}}}Enforcing contracts: Court fees (% of claim){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.CTSP.DB16:ENF.CONT.COEN.CTSP.DB16{marker ENF.CONT.COEN.CTSP.DB16}}}Enforcing contracts: Court structure and proceedings (0-5) (DB16 methodology){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.CTSP.DB1719:ENF.CONT.COEN.CTSP.DB1719{marker ENF.CONT.COEN.CTSP.DB1719}}}Enforcing contracts: Court structure and proceedings (0-5) (DB17-20 methodology){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.DB0415.DFRN:ENF.CONT.COEN.DB0415.DFRN{marker ENF.CONT.COEN.DB0415.DFRN}}}Enforcing contracts (DB04-15 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.DB16.DFRN:ENF.CONT.COEN.DB16.DFRN{marker ENF.CONT.COEN.DB16.DFRN}}}Enforcing contracts (DB16 methodology) - Score{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.DB1719.DFRN:ENF.CONT.COEN.DB1719.DFRN{marker ENF.CONT.COEN.DB1719.DFRN}}}Enforcing contracts (DB17-20 methodology) - Score{p_end}
 
@@ -101,6 +109,8 @@
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.QUJP.DB16.DFRN:ENF.CONT.COEN.QUJP.DB16.DFRN{marker ENF.CONT.COEN.QUJP.DB16.DFRN}}}Enforcing contracts: Quality of the judicial processes index (0-19) (DB17-20 methodology) - Score{p_end}
 
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.QUJP.DB1719.DFRN:ENF.CONT.COEN.QUJP.DB1719.DFRN{marker ENF.CONT.COEN.QUJP.DB1719.DFRN}}}Enforcing contracts: Quality of judicial processes index (0-19) (DB17-19 methodology) - Score{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.QUJP.XD:ENF.CONT.COEN.QUJP.XD{marker ENF.CONT.COEN.QUJP.XD}}}Enforcing contracts: Quality of the judicial processes index (0-18) (DB17-20 methodology){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.COEN.RK.DB19:ENF.CONT.COEN.RK.DB19{marker ENF.CONT.COEN.RK.DB19}}}Rank: Enforcing contracts (1=most business-friendly regulations){p_end}
@@ -111,7 +121,11 @@
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.DURS.DY.DFRN:ENF.CONT.DURS.DY.DFRN{marker ENF.CONT.DURS.DY.DFRN}}}Enforcing contracts: Time (days) - Score{p_end}
 
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_ENF.CONT.EC.QJPI:ENF.CONT.EC.QJPI{marker ENF.CONT.EC.QJPI}}}Enforcing contracts: Quality of judicial administration index (0-18) (DB17-19 methodology){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.BUS.EASE.DFRN.DB1014:IC.BUS.EASE.DFRN.DB1014{marker IC.BUS.EASE.DFRN.DB1014}}}Global: Ease of doing business score (DB10-14 methodology){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.BUS.EASE.DFRN.DB15:IC.BUS.EASE.DFRN.DB15{marker IC.BUS.EASE.DFRN.DB15}}}Ease of doing business score (DB15 methodology){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.BUS.EASE.DFRN.DB16:IC.BUS.EASE.DFRN.DB16{marker IC.BUS.EASE.DFRN.DB16}}}Global: Ease of doing business score (DB15 methodology){p_end}
 
@@ -251,6 +265,8 @@
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.DFRN.DB0515:IC.REG.PRRT.DFRN.DB0515{marker IC.REG.PRRT.DFRN.DB0515}}}Registering property (DB05-15 methodology) - Score{p_end}
 
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.DFRN.DB16:IC.REG.PRRT.DFRN.DB16{marker IC.REG.PRRT.DFRN.DB16}}}Registering property (DB16 methodology) - Score{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.DFRN.DB1719:IC.REG.PRRT.DFRN.DB1719{marker IC.REG.PRRT.DFRN.DB1719}}}Registering property (DB17-20 methodology) - Score{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.DURS.TM:IC.REG.PRRT.DURS.TM{marker IC.REG.PRRT.DURS.TM}}}Registering property: Time (days){p_end}
@@ -263,6 +279,8 @@
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.LAND.DISP.XD.08.DB1619:IC.REG.PRRT.LAND.DISP.XD.08.DB1619{marker IC.REG.PRRT.LAND.DISP.XD.08.DB1619}}}Registering property: Land dispute resolution index (0-8) (DB16-20 methodology){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.LNDADM.GEN.XD.030.DB1719.DFRN:IC.REG.PRRT.LNDADM.GEN.XD.030.DB1719.DFRN{marker IC.REG.PRRT.LNDADM.GEN.XD.030.DB1719.DFRN}}}Registering property: Quality of land administration index with Gender (0-30) (DB17-19 methodology) - Score{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.PROC.NO:IC.REG.PRRT.PROC.NO{marker IC.REG.PRRT.PROC.NO}}}Registering property: Procedures (number){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.PROC.NO.DFRN:IC.REG.PRRT.PROC.NO.DFRN{marker IC.REG.PRRT.PROC.NO.DFRN}}}Registering property: Procedures (number) - Score{p_end}
@@ -270,6 +288,8 @@
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16:IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16{marker IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16}}}Registering property: Quality of land administration index (0-30) (DB17-20 methodology){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16.DFRN:IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16.DFRN{marker IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16.DFRN}}}Registering property: Quality of land administration index (0-30) (DB17-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.QUAL.LNDADM.XD.030.DB1719:IC.REG.PRRT.QUAL.LNDADM.XD.030.DB1719{marker IC.REG.PRRT.QUAL.LNDADM.XD.030.DB1719}}}Registering property: Quality of land administration index (0-30) (DB17-19 methodology){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_IC.REG.PRRT.REG.RK.DB19:IC.REG.PRRT.REG.RK.DB19{marker IC.REG.PRRT.REG.RK.DB19}}}Rank: Registering property (1=most business-friendly regulations){p_end}
 
@@ -337,6 +357,8 @@
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.BUS.DISC.010.XD:PROT.MINOR.INV.EXT.BUS.DISC.010.XD{marker PROT.MINOR.INV.EXT.BUS.DISC.010.XD}}}Protecting minority investors: Extent of disclosure index (0-10){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.CONFL.INTER.XD.010.DB1519:PROT.MINOR.INV.EXT.CONFL.INTER.XD.010.DB1519{marker PROT.MINOR.INV.EXT.CONFL.INTER.XD.010.DB1519}}}Protecting minority investors: Extent of conflict of interest regulation index (0-10) (DB15-19 methodology){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519:PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519{marker PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519}}}Protecting minority investors: Extent of corporate transparency index (0-7) (DB15-20 methodology){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.CORP.TRANS.XD.010.DB1519.DFRN:PROT.MINOR.INV.EXT.CORP.TRANS.XD.010.DB1519.DFRN{marker PROT.MINOR.INV.EXT.CORP.TRANS.XD.010.DB1519.DFRN}}}Protecting minority investors: Extent of corporate transparency index (0-7) (DB15-20 methodology) - Score{p_end}
@@ -348,6 +370,8 @@
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519:PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519{marker PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519}}}Protecting minority investors: Extent of ownership and control index (0-7) (DB15-20 methodology){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN:PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN{marker PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN}}}Protecting minority investors: Extent of ownership and control index (0-7) (DB15-20 methodology) - Score{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.SHARE.GOV.XD.010.DB1519:PROT.MINOR.INV.EXT.SHARE.GOV.XD.010.DB1519{marker PROT.MINOR.INV.EXT.SHARE.GOV.XD.010.DB1519}}}Protecting minority investors: Extent of shareholder governance index (0-10) (DB15-19 methodology){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519:PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519{marker PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519}}}Protecting minority investors: Extent of shareholder rights index (0-6) (DB15-20 methodology){p_end}
 
@@ -367,11 +391,13 @@
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.CPI.04.XD.DB1519:RESLV.ISV.CPI.04.XD.DB1519{marker RESLV.ISV.CPI.04.XD.DB1519}}}Resolving insolvency: Creditor participation index (0-4) (DB15-20 methodology){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.DB0414.DFRN:RESLV.ISV.DB0414.DFRN{marker RESLV.ISV.DB0414.DFRN}}}Resolving insolvency (DB04-14 methodology) - Score{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.DB1519.DFRN:RESLV.ISV.DB1519.DFRN{marker RESLV.ISV.DB1519.DFRN}}}Resolving insolvency - Score{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.DFRN.RCOV.RT:RESLV.ISV.DFRN.RCOV.RT{marker RESLV.ISV.DFRN.RCOV.RT}}}Resolving insolvency: Recovery rate (cents on the dollar) - Score{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.DURS:RESLV.ISV.DURS{marker RESLV.ISV.DURS}}}Resolving insolvency: Time (years){p_end}
+{synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.DURS.YR:RESLV.ISV.DURS.YR{marker RESLV.ISV.DURS.YR}}}Resolving insolvency: Time (years){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators01##sourceid_RESLV.ISV.MGDA.XD.DB1519:RESLV.ISV.MGDA.XD.DB1519{marker RESLV.ISV.MGDA.XD.DB1519}}}Resolving insolvency: Management of debtor's assets index (0-6) (DB15-20 methodology){p_end}
 
@@ -652,6 +678,8 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.GRCL.CD:DC.DAC.GRCL.CD{marker DC.DAC.GRCL.CD}}}Net bilateral aid flows from DAC donors, Greece (current US$){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.HUNL.CD:DC.DAC.HUNL.CD{marker DC.DAC.HUNL.CD}}}Net bilateral aid flows from DAC donors, Hungary (current US$){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.IRLL.CD:DC.DAC.IRLL.CD{marker DC.DAC.IRLL.CD}}}Net bilateral aid flows from DAC donors, Ireland (current US$){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_DC.DAC.ISLL.CD:DC.DAC.ISLL.CD{marker DC.DAC.ISLL.CD}}}Net bilateral aid flows from DAC donors, Iceland (current US$){p_end}
@@ -783,6 +811,8 @@
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.UNDP.CD:DT.NFL.UNDP.CD{marker DT.NFL.UNDP.CD}}}Net official flows from UN agencies, UNDP (current US$){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.UNEC.CD:DT.NFL.UNEC.CD{marker DT.NFL.UNEC.CD}}}Net official flows from UN agencies, UNECE (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.UNEP.CD:DT.NFL.UNEP.CD{marker DT.NFL.UNEP.CD}}}Net official flows from UN agencies, UNEP (current US$){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_DT.NFL.UNFP.CD:DT.NFL.UNFP.CD{marker DT.NFL.UNFP.CD}}}Net official flows from UN agencies, UNFPA (current US$){p_end}
 
@@ -1884,13 +1914,9 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_PA.NUS.PPP:PA.NUS.PPP{marker PA.NUS.PPP}}}PPP conversion factor, GDP (LCU per international $){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_PA.NUS.PPP.05:PA.NUS.PPP.05{marker PA.NUS.PPP.05}}}2005 PPP conversion factor, GDP (LCU per international $){p_end}
-
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_PA.NUS.PPPC.RF:PA.NUS.PPPC.RF{marker PA.NUS.PPPC.RF}}}Price level ratio of PPP conversion factor (GDP) to market exchange rate{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_PA.NUS.PRVT.PP:PA.NUS.PRVT.PP{marker PA.NUS.PRVT.PP}}}PPP conversion factor, private consumption (LCU per international $){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_PA.NUS.PRVT.PP.05:PA.NUS.PRVT.PP.05{marker PA.NUS.PRVT.PP.05}}}2005 PPP conversion factor, private consumption (LCU per international $){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_PX.REX.REER:PX.REX.REER{marker PX.REX.REER}}}Real effective exchange rate index (2010 = 100){p_end}
 
@@ -2464,13 +2490,13 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP1.ZS:SH.UHC.NOP1.ZS{marker SH.UHC.NOP1.ZS}}}Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP2.CG:SH.UHC.NOP2.CG{marker SH.UHC.NOP2.CG}}}Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP2.CG:SH.UHC.NOP2.CG{marker SH.UHC.NOP2.CG}}}Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP2.TO:SH.UHC.NOP2.TO{marker SH.UHC.NOP2.TO}}}Number of people pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure{p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP2.TO:SH.UHC.NOP2.TO{marker SH.UHC.NOP2.TO}}}Number of people pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP2.ZG:SH.UHC.NOP2.ZG{marker SH.UHC.NOP2.ZG}}}Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP2.ZG:SH.UHC.NOP2.ZG{marker SH.UHC.NOP2.ZG}}}Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP2.ZS:SH.UHC.NOP2.ZS{marker SH.UHC.NOP2.ZS}}}Proportion of population pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.NOP2.ZS:SH.UHC.NOP2.ZS{marker SH.UHC.NOP2.ZS}}}Proportion of population pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SH.UHC.OOPC.10.TO:SH.UHC.OOPC.10.TO{marker SH.UHC.OOPC.10.TO}}}Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure{p_end}
 
@@ -2845,10 +2871,6 @@
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SN.ITK.VITA.ZS:SN.ITK.VITA.ZS{marker SN.ITK.VITA.ZS}}}Vitamin A supplementation coverage rate (% of children ages 6-59 months){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.ADO.TFRT:SP.ADO.TFRT{marker SP.ADO.TFRT}}}Adolescent fertility rate (births per 1,000 women ages 15-19){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DTH.INFR.ZS:SP.DTH.INFR.ZS{marker SP.DTH.INFR.ZS}}}Completeness of infant death reporting (% of reported infant deaths to estimated infant deaths){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DTH.REPT.ZS:SP.DTH.REPT.ZS{marker SP.DTH.REPT.ZS}}}Completeness of total death reporting (% of reported total deaths to estimated total deaths){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SP.DYN.AMRT.FE:SP.DYN.AMRT.FE{marker SP.DYN.AMRT.FE}}}Mortality rate, adult, female (per 1,000 female adults){p_end}
 
@@ -3409,7 +3431,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators06##sourceid_BX.KLT.DINV.CD.DT:BX.KLT.DINV.CD.DT{marker BX.KLT.DINV.CD.DT}}}Foreign direct investment, net inflows in reporting economy (DRS, current US$){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators06##sourceid_BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT{marker BX.KLT.DREM.CD.DT}}}Primary income on FDI, payments (current US$){p_end}
+{synopt:{help wbopendata_sourceid_indicators06##sourceid_BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT{marker BX.KLT.DREM.CD.DT}}}Primary income on FDI (current US$){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators06##sourceid_BX.PEF.TOTL.CD.DT:BX.PEF.TOTL.CD.DT{marker BX.PEF.TOTL.CD.DT}}}Portfolio investment, equity (DRS, current US$){p_end}
 
@@ -8303,17 +8325,17 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.FRE5.FE:LO.PASEC.FRE5.FE{marker LO.PASEC.FRE5.FE}}}PASEC: Mean performance on the French language scale (100 points) for 5th grade students. Female{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.FRE5.HIG:LO.PASEC.FRE5.HIG{marker LO.PASEC.FRE5.HIG}}}PASEC: 5th grade students reaching the Knowledge Base Rate on the French language scale (%){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.FRE5.HIG:LO.PASEC.FRE5.HIG{marker LO.PASEC.FRE5.HIG}}}PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), total{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.FRE5.HIG.FE:LO.PASEC.FRE5.HIG.FE{marker LO.PASEC.FRE5.HIG.FE}}}PASEC: Female 5th grade students reaching the Knowledge Base Rate on the French language scale (%){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.FRE5.HIG.FE:LO.PASEC.FRE5.HIG.FE{marker LO.PASEC.FRE5.HIG.FE}}}PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), female{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.FRE5.HIG.MA:LO.PASEC.FRE5.HIG.MA{marker LO.PASEC.FRE5.HIG.MA}}}PASEC: Male 5th grade students reaching the Knowledge Base Rate on the French language scale (%){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.FRE5.HIG.MA:LO.PASEC.FRE5.HIG.MA{marker LO.PASEC.FRE5.HIG.MA}}}PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), male{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.FRE5.LO:LO.PASEC.FRE5.LO{marker LO.PASEC.FRE5.LO}}}PASEC: 5th grade students below the Failure Rate on the French language scale (%){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.FRE5.LO:LO.PASEC.FRE5.LO{marker LO.PASEC.FRE5.LO}}}PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), total{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.FRE5.LO.FE:LO.PASEC.FRE5.LO.FE{marker LO.PASEC.FRE5.LO.FE}}}PASEC: Female 5th grade students below the Failure Rate on the French language scale (%){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.FRE5.LO.FE:LO.PASEC.FRE5.LO.FE{marker LO.PASEC.FRE5.LO.FE}}}PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), female{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.FRE5.LO.MA:LO.PASEC.FRE5.LO.MA{marker LO.PASEC.FRE5.LO.MA}}}PASEC: Male 5th grade students below the Failure Rate on the French language scale (%){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.FRE5.LO.MA:LO.PASEC.FRE5.LO.MA{marker LO.PASEC.FRE5.LO.MA}}}PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), male{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.FRE5.MA:LO.PASEC.FRE5.MA{marker LO.PASEC.FRE5.MA}}}PASEC: Mean performance on the French language scale (100 points) for 5th grade students. Male{p_end}
 
@@ -8441,17 +8463,17 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.MAT5.FE:LO.PASEC.MAT5.FE{marker LO.PASEC.MAT5.FE}}}PASEC: Mean performance on the mathematics scale (100 points) for 5th grade students. Female{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.MAT5.HIG:LO.PASEC.MAT5.HIG{marker LO.PASEC.MAT5.HIG}}}PASEC: 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.MAT5.HIG:LO.PASEC.MAT5.HIG{marker LO.PASEC.MAT5.HIG}}}PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), total{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.MAT5.HIG.FE:LO.PASEC.MAT5.HIG.FE{marker LO.PASEC.MAT5.HIG.FE}}}PASEC: Female 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.MAT5.HIG.FE:LO.PASEC.MAT5.HIG.FE{marker LO.PASEC.MAT5.HIG.FE}}}PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), female{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.MAT5.HIG.MA:LO.PASEC.MAT5.HIG.MA{marker LO.PASEC.MAT5.HIG.MA}}}PASEC: Male 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.MAT5.HIG.MA:LO.PASEC.MAT5.HIG.MA{marker LO.PASEC.MAT5.HIG.MA}}}PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), male{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.MAT5.LO:LO.PASEC.MAT5.LO{marker LO.PASEC.MAT5.LO}}}PASEC: 5th grade students below the Failure Rate on the mathematics scale (%){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.MAT5.LO:LO.PASEC.MAT5.LO{marker LO.PASEC.MAT5.LO}}}PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), total{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.MAT5.LO.FE:LO.PASEC.MAT5.LO.FE{marker LO.PASEC.MAT5.LO.FE}}}PASEC: Female 5th grade students below the Failure Rate on the mathematics scale (%){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.MAT5.LO.FE:LO.PASEC.MAT5.LO.FE{marker LO.PASEC.MAT5.LO.FE}}}PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), female{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.MAT5.LO.MA:LO.PASEC.MAT5.LO.MA{marker LO.PASEC.MAT5.LO.MA}}}PASEC: Male 5th grade students below the Failure Rate on the mathematics scale (%){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.MAT5.LO.MA:LO.PASEC.MAT5.LO.MA{marker LO.PASEC.MAT5.LO.MA}}}PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), male{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PASEC.MAT5.MA:LO.PASEC.MAT5.MA{marker LO.PASEC.MAT5.MA}}}PASEC: Mean performance on the mathematics scale (100 points) for 5th grade students. Male{p_end}
 
@@ -8915,11 +8937,11 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PISA.REA:LO.PISA.REA{marker LO.PISA.REA}}}PISA: Mean performance on the reading scale{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PISA.REA.0:LO.PISA.REA.0{marker LO.PISA.REA.0}}}PISA: 15-year-olds by reading proficiency level (%). Below Level 1B{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PISA.REA.0.B1C:LO.PISA.REA.0.B1C{marker LO.PISA.REA.0.B1C}}}PISA: 15-year-olds by reading proficiency level (%). Below Level 1C{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PISA.REA.0.FE:LO.PISA.REA.0.FE{marker LO.PISA.REA.0.FE}}}PISA: Female 15-year-olds by reading proficiency level (%). Below Level 1B{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PISA.REA.0.B1C.FE:LO.PISA.REA.0.B1C.FE{marker LO.PISA.REA.0.B1C.FE}}}PISA: Female 15-year-olds by reading proficiency level (%). Below Level 1C{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PISA.REA.0.MA:LO.PISA.REA.0.MA{marker LO.PISA.REA.0.MA}}}PISA: Male 15-year-olds by reading proficiency level (%). Below Level 1B{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PISA.REA.0.B1C.MA:LO.PISA.REA.0.B1C.MA{marker LO.PISA.REA.0.B1C.MA}}}PISA: Male 15-year-olds by reading proficiency level (%). Below Level 1C{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PISA.REA.1A:LO.PISA.REA.1A{marker LO.PISA.REA.1A}}}PISA: 15-year-olds by reading proficiency level (%). Level 1A{p_end}
 
@@ -8932,6 +8954,12 @@
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PISA.REA.1B.FE:LO.PISA.REA.1B.FE{marker LO.PISA.REA.1B.FE}}}PISA: Female 15-year-olds by reading proficiency level (%). Level 1B{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PISA.REA.1B.MA:LO.PISA.REA.1B.MA{marker LO.PISA.REA.1B.MA}}}PISA: Male 15-year-olds by reading proficiency level (%). Level 1B{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PISA.REA.1C:LO.PISA.REA.1C{marker LO.PISA.REA.1C}}}PISA: 15-year-olds by reading proficiency level (%). Level 1C{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PISA.REA.1C.FE:LO.PISA.REA.1C.FE{marker LO.PISA.REA.1C.FE}}}PISA: Female 15-year-olds by reading proficiency level (%). Level 1C{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PISA.REA.1C.MA:LO.PISA.REA.1C.MA{marker LO.PISA.REA.1C.MA}}}PISA: Male 15-year-olds by reading proficiency level (%). Level 1C{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_LO.PISA.REA.2:LO.PISA.REA.2{marker LO.PISA.REA.2}}}PISA: 15-year-olds by reading proficiency level (%). Level 2{p_end}
 
@@ -10251,7 +10279,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_SABER.SCH.ATNM.GOAL5.LVL4:SABER.SCH.ATNM.GOAL5.LVL4{marker SABER.SCH.ATNM.GOAL5.LVL4}}}SABER: (School Autonomy Accountability) Policy Goal 5 Lever 4: Degree of Accountability in school operations{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_SABER.SCH.ATNM.GOAL5.LVL5:SABER.SCH.ATNM.GOAL5.LVL5{marker SABER.SCH.ATNM.GOAL5.LVL5}}}SABER: (School Autonomy Accountability) Policy Goal 5 Lever 5): Degree of learning accountability{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_SABER.SCH.ATNM.GOAL5.LVL5:SABER.SCH.ATNM.GOAL5.LVL5{marker SABER.SCH.ATNM.GOAL5.LVL5}}}SABER: (School Autonomy Accountability) Policy Goal 5 Lever 5: Degree of learning accountability{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_SABER.SCH.FNNC.GOAL1:SABER.SCH.FNNC.GOAL1{marker SABER.SCH.FNNC.GOAL1}}}SABER: (School Finance) Policy Goal 1: Ensuring adequacy{p_end}
 
@@ -10438,6 +10466,8 @@
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_SABER.WORK.GOAL3.LVL3:SABER.WORK.GOAL3.LVL3{marker SABER.WORK.GOAL3.LVL3}}}SABER: (Workforce Development) Policy Goal 3 Lever 3: Enhancing Evidence-based Accountability for Results{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_SE.LPV.PRIM:SE.LPV.PRIM{marker SE.LPV.PRIM}}}Learning poverty: Share of Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_SE.LPV.PRIM.BMP:SE.LPV.PRIM.BMP{marker SE.LPV.PRIM.BMP}}}Pupils below minimum reading proficiency at end of primary (%). Low GAML threshold{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_SE.LPV.PRIM.BMP.FE:SE.LPV.PRIM.BMP.FE{marker SE.LPV.PRIM.BMP.FE}}}Female pupils below minimum reading proficiency at end of primary (%). Low GAML threshold{p_end}
 
@@ -10957,7 +10987,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_SP.POP.AG24.MA.UN:SP.POP.AG24.MA.UN{marker SP.POP.AG24.MA.UN}}}Population, age 24, male{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_SP.POP.AG24.TO.UN:SP.POP.AG24.TO.UN{marker SP.POP.AG24.TO.UN}}}Population, age 24, tota{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_SP.POP.AG24.TO.UN:SP.POP.AG24.TO.UN{marker SP.POP.AG24.TO.UN}}}Population, age 24, total{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_SP.POP.AG25.FE.UN:SP.POP.AG25.FE.UN{marker SP.POP.AG25.FE.UN}}}Population, age 25, female{p_end}
 
@@ -11031,12 +11061,6 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.ECP.MG.1.PU:UIS.AFR.ECP.MG.1.PU{marker UIS.AFR.ECP.MG.1.PU}}}Africa Dataset: Percentage of primary pupils in multigrade classes (%){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.FNTP.1:UIS.AFR.FNTP.1{marker UIS.AFR.FNTP.1}}}Africa Dataset: Percentage of newly recruited teachers in primary education who are female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.FNTP.2:UIS.AFR.FNTP.2{marker UIS.AFR.FNTP.2}}}Africa Dataset: Percentage of newly recruited teachers in lower secondary education who are female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.FNTP.3:UIS.AFR.FNTP.3{marker UIS.AFR.FNTP.3}}}Africa Dataset: Percentage of newly recruited teachers in upper secondary education who are female (%){p_end}
-
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.GTC.1.F:UIS.AFR.GTC.1.F{marker UIS.AFR.GTC.1.F}}}Africa Dataset: Graduates from accredited pre-service primary teacher training programmes, female (number){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.GTC.1.T:UIS.AFR.GTC.1.T{marker UIS.AFR.GTC.1.T}}}Africa Dataset: Graduates from accredited pre-service primary teacher training programmes, both sexes (number){p_end}
@@ -11056,42 +11080,6 @@
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.GTC.UK.F:UIS.AFR.GTC.UK.F{marker UIS.AFR.GTC.UK.F}}}Africa Dataset: Graduates from accredited pre-service teacher training programmes, level unspecified, female (number){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.GTC.UK.T:UIS.AFR.GTC.UK.T{marker UIS.AFR.GTC.UK.T}}}Africa Dataset: Graduates from accredited pre-service teacher training programmes, level unspecified, both sexes (number){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.GTCTR.1.F:UIS.AFR.GTCTR.1.F{marker UIS.AFR.GTCTR.1.F}}}Africa Dataset: Ratio of teacher training graduates to teachers in primary education, female{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.GTCTR.1.M:UIS.AFR.GTCTR.1.M{marker UIS.AFR.GTCTR.1.M}}}Africa Dataset: Ratio of teacher training graduates to teachers in primary education, male{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.GTCTR.1.T:UIS.AFR.GTCTR.1.T{marker UIS.AFR.GTCTR.1.T}}}Africa Dataset: Ratio of teacher training graduates to teachers in primary education, both sexes{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.GTCTR.2.F:UIS.AFR.GTCTR.2.F{marker UIS.AFR.GTCTR.2.F}}}Africa Dataset: Ratio of teacher training graduates to teachers in lower secondary education, female{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.GTCTR.2.M:UIS.AFR.GTCTR.2.M{marker UIS.AFR.GTCTR.2.M}}}Africa Dataset: Ratio of teacher training graduates to teachers in lower secondary education, male{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.GTCTR.2.T:UIS.AFR.GTCTR.2.T{marker UIS.AFR.GTCTR.2.T}}}Africa Dataset: Ratio of teacher training graduates to teachers in lower secondary education, both sexes{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.GTCTR.3.F:UIS.AFR.GTCTR.3.F{marker UIS.AFR.GTCTR.3.F}}}Africa Dataset: Ratio of teacher training graduates to teachers in upper secondary education, female{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.GTCTR.3.M:UIS.AFR.GTCTR.3.M{marker UIS.AFR.GTCTR.3.M}}}Africa Dataset: Ratio of teacher training graduates to teachers in upper secondary education, male{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.GTCTR.3.T:UIS.AFR.GTCTR.3.T{marker UIS.AFR.GTCTR.3.T}}}Africa Dataset: Ratio of teacher training graduates to teachers in upper secondary education, both sexes{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.NTP.1.PU.F:UIS.AFR.NTP.1.PU.F{marker UIS.AFR.NTP.1.PU.F}}}Africa Dataset: Percentage of female teachers in primary education who are newly recruited, female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.NTP.1.PU.M:UIS.AFR.NTP.1.PU.M{marker UIS.AFR.NTP.1.PU.M}}}Africa Dataset: Percentage of male teachers in primary education who are newly recruited, male (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.NTP.1.PU.T:UIS.AFR.NTP.1.PU.T{marker UIS.AFR.NTP.1.PU.T}}}Africa Dataset: Percentage of teachers in primary education who are newly recruited, both sexes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.NTP.2.PU.F:UIS.AFR.NTP.2.PU.F{marker UIS.AFR.NTP.2.PU.F}}}Africa Dataset: Percentage of female teachers in lower secondary education who are newly recruited, female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.NTP.2.PU.M:UIS.AFR.NTP.2.PU.M{marker UIS.AFR.NTP.2.PU.M}}}Africa Dataset: Percentage of male teachers in lower secondary education who are newly recruited, male (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.NTP.2.PU.T:UIS.AFR.NTP.2.PU.T{marker UIS.AFR.NTP.2.PU.T}}}Africa Dataset: Percentage of teachers in lower secondary education who are newly recruited, both sexes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.NTP.3.PU.F:UIS.AFR.NTP.3.PU.F{marker UIS.AFR.NTP.3.PU.F}}}Africa Dataset: Percentage of female teachers in upper secondary education who are newly recruited, female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.NTP.3.PU.M:UIS.AFR.NTP.3.PU.M{marker UIS.AFR.NTP.3.PU.M}}}Africa Dataset: Percentage of male teachers in upper secondary education who are newly recruited, male (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.NTP.3.PU.T:UIS.AFR.NTP.3.PU.T{marker UIS.AFR.NTP.3.PU.T}}}Africa Dataset: Percentage of teachers in upper secondary education who are newly recruited, both sexes (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.PBR.1.G1.PU.MATH:UIS.AFR.PBR.1.G1.PU.MATH{marker UIS.AFR.PBR.1.G1.PU.MATH}}}Africa Dataset: Average number of pupils per mathematics textbook in Grade 1 of primary education (number){p_end}
 
@@ -11127,33 +11115,11 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.SCHBSP.1.PU.MIXTOIL:UIS.AFR.SCHBSP.1.PU.MIXTOIL{marker UIS.AFR.SCHBSP.1.PU.MIXTOIL}}}Africa Dataset: Percentage of primary schools with mixed-sex toilets (%){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.SCHBSP.1.PU.WELEC:UIS.AFR.SCHBSP.1.PU.WELEC{marker UIS.AFR.SCHBSP.1.PU.WELEC}}}Africa Dataset: Proportion of public primary schools with access to electricity (%){p_end}
-
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.SCHBSP.2.PU.MIXTOIL:UIS.AFR.SCHBSP.2.PU.MIXTOIL{marker UIS.AFR.SCHBSP.2.PU.MIXTOIL}}}Africa Dataset: Percentage of lower secondary schools with mixed-sex toilets (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.SCHBSP.2.PU.WELEC:UIS.AFR.SCHBSP.2.PU.WELEC{marker UIS.AFR.SCHBSP.2.PU.WELEC}}}Africa Dataset: Proportion of public lower secondary schools with access to electricity (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.SCHCENRESPR.1.PU:UIS.AFR.SCHCENRESPR.1.PU{marker UIS.AFR.SCHCENRESPR.1.PU}}}Africa Dataset: School census return rate from primary schools{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.SCHCENRESPR.23.PU:UIS.AFR.SCHCENRESPR.23.PU{marker UIS.AFR.SCHCENRESPR.23.PU}}}Africa Dataset: School census return rate from secondary schools{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.TRNTP.1.PU.F:UIS.AFR.TRNTP.1.PU.F{marker UIS.AFR.TRNTP.1.PU.F}}}Africa Dataset: Percentage of female newly recruited teachers in primary education who are trained, female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.TRNTP.1.PU.M:UIS.AFR.TRNTP.1.PU.M{marker UIS.AFR.TRNTP.1.PU.M}}}Africa Dataset: Percentage of male newly recruited teachers in primary education who are trained, male (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.TRNTP.1.PU.T:UIS.AFR.TRNTP.1.PU.T{marker UIS.AFR.TRNTP.1.PU.T}}}Africa Dataset: Percentage of newly recruited teachers in primary education who are trained, both sexes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.TRNTP.2.PU.F:UIS.AFR.TRNTP.2.PU.F{marker UIS.AFR.TRNTP.2.PU.F}}}Africa Dataset: Percentage of female newly recruited teachers in lower secondary education who are trained, female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.TRNTP.2.PU.M:UIS.AFR.TRNTP.2.PU.M{marker UIS.AFR.TRNTP.2.PU.M}}}Africa Dataset: Percentage of male newly recruited teachers in lower secondary education who are trained, male (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.TRNTP.2.PU.T:UIS.AFR.TRNTP.2.PU.T{marker UIS.AFR.TRNTP.2.PU.T}}}Africa Dataset: Percentage of newly recruited teachers in lower secondary education who are trained, both sexes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.TRNTP.3.PU.F:UIS.AFR.TRNTP.3.PU.F{marker UIS.AFR.TRNTP.3.PU.F}}}Africa Dataset: Percentage of female newly recruited teachers in upper secondary education who are trained, female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.TRNTP.3.PU.M:UIS.AFR.TRNTP.3.PU.M{marker UIS.AFR.TRNTP.3.PU.M}}}Africa Dataset: Percentage of male newly recruited teachers in upper secondary education who are trained, male (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AFR.TRNTP.3.PU.T:UIS.AFR.TRNTP.3.PU.T{marker UIS.AFR.TRNTP.3.PU.T}}}Africa Dataset: Percentage of newly recruited teachers in upper secondary education who are trained, both sexes (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.AIR.1.GPI:UIS.AIR.1.GPI{marker UIS.AIR.1.GPI}}}Gross intake ratio to Grade 1 of primary education, gender parity index (GPI){p_end}
 
@@ -11405,9 +11371,9 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.E.4.PU.F:UIS.E.4.PU.F{marker UIS.E.4.PU.F}}}Enrolment in post-secondary non-tertiary education, public institutions, female (number){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.E.5.B:UIS.E.5.B{marker UIS.E.5.B}}}Enrolment in tertiary education, ISCED 5 programmes, both sexes (number){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.E.5:UIS.E.5{marker UIS.E.5}}}Enrolment in tertiary education, ISCED 5 programmes, both sexes (number){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.E.5.B.F:UIS.E.5.B.F{marker UIS.E.5.B.F}}}Enrolment in tertiary education, ISCED 5 programmes, female (number){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.E.5.F:UIS.E.5.F{marker UIS.E.5.F}}}Enrolment in tertiary education, ISCED 5 programmes, female (number){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.E.6:UIS.E.6{marker UIS.E.6}}}Enrolment in tertiary education, ISCED 6 programmes, both sexes (number){p_end}
 
@@ -11421,11 +11387,11 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.E.8.F:UIS.E.8.F{marker UIS.E.8.F}}}Enrolment in tertiary education, ISCED 8 programmes, female (number){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.1.AG25T99:UIS.EA.1.AG25T99{marker UIS.EA.1.AG25T99}}}UIS: Percentage of population age 25+ with completed primary education. Total{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.1.AG25T99:UIS.EA.1.AG25T99{marker UIS.EA.1.AG25T99}}}UIS: Percentage of population age 25+ whose highest level of education is primary, both sexes{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.1.AG25T99.F:UIS.EA.1.AG25T99.F{marker UIS.EA.1.AG25T99.F}}}UIS: Percentage of population age 25+ with completed primary education. Female{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.1.AG25T99.F:UIS.EA.1.AG25T99.F{marker UIS.EA.1.AG25T99.F}}}UIS: Percentage of population age 25+ whose highest level of education is primary, female{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.1.AG25T99.M:UIS.EA.1.AG25T99.M{marker UIS.EA.1.AG25T99.M}}}UIS: Percentage of population age 25+ with completed primary education. Male{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.1.AG25T99.M:UIS.EA.1.AG25T99.M{marker UIS.EA.1.AG25T99.M}}}UIS: Percentage of population age 25+ whose highest level of education is primary, male{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.1T6.AG25T99:UIS.EA.1T6.AG25T99{marker UIS.EA.1T6.AG25T99}}}UIS: Percentage of population age 25+ with at least completed primary education (ISCED 1 or higher). Total{p_end}
 
@@ -11435,11 +11401,11 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.1T6.AG25T99.M:UIS.EA.1T6.AG25T99.M{marker UIS.EA.1T6.AG25T99.M}}}UIS: Percentage of population age 25+ with at least completed primary education (ISCED 1 or higher). Male{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.2.AG25T99:UIS.EA.2.AG25T99{marker UIS.EA.2.AG25T99}}}UIS: Percentage of population age 25+ with completed lower secondary education. Total{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.2.AG25T99:UIS.EA.2.AG25T99{marker UIS.EA.2.AG25T99}}}UIS: Percentage of population age 25+ whose highest level of education is lower secondary, both sexes{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.2.AG25T99.F:UIS.EA.2.AG25T99.F{marker UIS.EA.2.AG25T99.F}}}UIS: Percentage of population age 25+ with completed lower secondary education. Female{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.2.AG25T99.F:UIS.EA.2.AG25T99.F{marker UIS.EA.2.AG25T99.F}}}UIS: Percentage of population age 25+ whose highest level of education is lower secondary, female{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.2.AG25T99.M:UIS.EA.2.AG25T99.M{marker UIS.EA.2.AG25T99.M}}}UIS: Percentage of population age 25+ with completed lower secondary education. Male{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.2.AG25T99.M:UIS.EA.2.AG25T99.M{marker UIS.EA.2.AG25T99.M}}}UIS: Percentage of population age 25+ whose highest level of education is lower secondary, male{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.2T6.AG25T99:UIS.EA.2T6.AG25T99{marker UIS.EA.2T6.AG25T99}}}UIS: Percentage of population age 25+ with at least completed lower secondary education (ISCED 2 or higher). Total{p_end}
 
@@ -11449,11 +11415,11 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.2T6.AG25T99.M:UIS.EA.2T6.AG25T99.M{marker UIS.EA.2T6.AG25T99.M}}}UIS: Percentage of population age 25+ with at least completed lower secondary education (ISCED 2 or higher). Male{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.3.AG25T99:UIS.EA.3.AG25T99{marker UIS.EA.3.AG25T99}}}UIS: Percentage of population age 25+ with completed upper secondary education. Total{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.3.AG25T99:UIS.EA.3.AG25T99{marker UIS.EA.3.AG25T99}}}UIS: Percentage of population age 25+ whose highest level of education is upper secondary, both sexes{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.3.AG25T99.F:UIS.EA.3.AG25T99.F{marker UIS.EA.3.AG25T99.F}}}UIS: Percentage of population age 25+ with completed upper secondary education. Female{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.3.AG25T99.F:UIS.EA.3.AG25T99.F{marker UIS.EA.3.AG25T99.F}}}UIS: Percentage of population age 25+ whose highest level of education is upper secondary, female{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.3.AG25T99.M:UIS.EA.3.AG25T99.M{marker UIS.EA.3.AG25T99.M}}}UIS: Percentage of population age 25+ with completed upper secondary education. Male{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.3.AG25T99.M:UIS.EA.3.AG25T99.M{marker UIS.EA.3.AG25T99.M}}}UIS: Percentage of population age 25+ whose highest level of education is upper secondary, male{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.3T6.AG25T99:UIS.EA.3T6.AG25T99{marker UIS.EA.3T6.AG25T99}}}UIS: Percentage of population age 25+ with at least completed upper secondary education (ISCED 3 or higher). Total{p_end}
 
@@ -11463,11 +11429,11 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.3T6.AG25T99.M:UIS.EA.3T6.AG25T99.M{marker UIS.EA.3T6.AG25T99.M}}}UIS: Percentage of population age 25+ with at least completed upper secondary education (ISCED 3 or higher). Male{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.4.AG25T99:UIS.EA.4.AG25T99{marker UIS.EA.4.AG25T99}}}UIS: Percentage of population age 25+ with completed post-secondary education. Total{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.4.AG25T99:UIS.EA.4.AG25T99{marker UIS.EA.4.AG25T99}}}UIS: Percentage of population age 25+ whose highest level of education is post-secondary non-tertiary, both sexes{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.4.AG25T99.F:UIS.EA.4.AG25T99.F{marker UIS.EA.4.AG25T99.F}}}UIS: Percentage of population age 25+ with completed post-secondary education. Female{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.4.AG25T99.F:UIS.EA.4.AG25T99.F{marker UIS.EA.4.AG25T99.F}}}UIS: Percentage of population age 25+ whose highest level of education is post-secondary non-tertiary, female{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.4.AG25T99.M:UIS.EA.4.AG25T99.M{marker UIS.EA.4.AG25T99.M}}}UIS: Percentage of population age 25+ with completed post-secondary education. Male{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.4.AG25T99.M:UIS.EA.4.AG25T99.M{marker UIS.EA.4.AG25T99.M}}}UIS: Percentage of population age 25+ whose highest level of education is post-secondary non-tertiary, male{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.4T6.AG25T99:UIS.EA.4T6.AG25T99{marker UIS.EA.4T6.AG25T99}}}UIS: Percentage of population age 25+ with at least completed post-secondary education (ISCED 4 or higher). Total{p_end}
 
@@ -11477,11 +11443,11 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.4T6.AG25T99.M:UIS.EA.4T6.AG25T99.M{marker UIS.EA.4T6.AG25T99.M}}}UIS: Percentage of population age 25+ with at least completed post-secondary education (ISCED 4 or higher). Male{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.5.AG25T99:UIS.EA.5.AG25T99{marker UIS.EA.5.AG25T99}}}UIS: Percentage of population age 25+ with a completed short-cycle tertiary degree (ISCED 5). Total{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.5.AG25T99:UIS.EA.5.AG25T99{marker UIS.EA.5.AG25T99}}}UIS: Percentage of population age 25+ whose highest level of education is short cycle tertiary, both sexes{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.5.AG25T99.F:UIS.EA.5.AG25T99.F{marker UIS.EA.5.AG25T99.F}}}UIS: Percentage of population age 25+ with a completed short-cycle tertiary degree (ISCED 5). Female{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.5.AG25T99.F:UIS.EA.5.AG25T99.F{marker UIS.EA.5.AG25T99.F}}}UIS: Percentage of population age 25+ whose highest level of education is short cycle tertiary, female{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.5.AG25T99.M:UIS.EA.5.AG25T99.M{marker UIS.EA.5.AG25T99.M}}}UIS: Percentage of population age 25+ with a completed short-cycle tertiary degree (ISCED 5). Male{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.5.AG25T99.M:UIS.EA.5.AG25T99.M{marker UIS.EA.5.AG25T99.M}}}UIS: Percentage of population age 25+ whose highest level of education is short cycle tertiary, male{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.5T8.AG25T99:UIS.EA.5T8.AG25T99{marker UIS.EA.5T8.AG25T99}}}UIS: Percentage of population age 25+ with at least a completed short-cycle tertiary degree (ISCED 5 or higher). Total{p_end}
 
@@ -11491,11 +11457,11 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.5T8.AG25T99.M:UIS.EA.5T8.AG25T99.M{marker UIS.EA.5T8.AG25T99.M}}}UIS: Percentage of population age 25+ with at least a completed short-cycle tertiary degree (ISCED 5 or higher). Male{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.6.AG25T99:UIS.EA.6.AG25T99{marker UIS.EA.6.AG25T99}}}UIS: Percentage of population age 25+ with a completed bachelor's or equivalent degree (ISCED 6). Total{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.6.AG25T99:UIS.EA.6.AG25T99{marker UIS.EA.6.AG25T99}}}UIS: Percentage of population age 25+ whose highest level of education is Bachelor's or equivalent (ISCED 6), both sexes{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.6.AG25T99.F:UIS.EA.6.AG25T99.F{marker UIS.EA.6.AG25T99.F}}}UIS: Percentage of population age 25+ with a completed bachelor's or equivalent degree (ISCED 6). Female{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.6.AG25T99.F:UIS.EA.6.AG25T99.F{marker UIS.EA.6.AG25T99.F}}}UIS: Percentage of population age 25+ whose highest level of education is Bachelor's or equivalent (ISCED 6), female{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.6.AG25T99.M:UIS.EA.6.AG25T99.M{marker UIS.EA.6.AG25T99.M}}}UIS: Percentage of population age 25+ with a completed bachelor's or equivalent degree (ISCED 6). Male{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.6.AG25T99.M:UIS.EA.6.AG25T99.M{marker UIS.EA.6.AG25T99.M}}}UIS: Percentage of population age 25+ whose highest level of education is Bachelor's or equivalent (ISCED 6), male{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.6T8.AG25T99:UIS.EA.6T8.AG25T99{marker UIS.EA.6T8.AG25T99}}}UIS: Percentage of population age 25+ with at least a completed bachelor's or equivalent degree (ISCED 6 or higher). Total{p_end}
 
@@ -11505,11 +11471,11 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.6T8.AG25T99.M:UIS.EA.6T8.AG25T99.M{marker UIS.EA.6T8.AG25T99.M}}}UIS: Percentage of population age 25+ with at least a completed bachelor's or equivalent degree (ISCED 6 or higher). Male{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.7.AG25T99:UIS.EA.7.AG25T99{marker UIS.EA.7.AG25T99}}}UIS: Percentage of population age 25+ with a completed master's or equivalent degree (ISCED 7). Total{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.7.AG25T99:UIS.EA.7.AG25T99{marker UIS.EA.7.AG25T99}}}UIS: Percentage of population age 25+ whose highest level of education is Master's or equivalent (ISCED 7), both sexes{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.7.AG25T99.F:UIS.EA.7.AG25T99.F{marker UIS.EA.7.AG25T99.F}}}UIS: Percentage of population age 25+ with a completed master's or equivalent degree (ISCED 7). Female{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.7.AG25T99.F:UIS.EA.7.AG25T99.F{marker UIS.EA.7.AG25T99.F}}}UIS: Percentage of population age 25+ whose highest level of education is Master's or equivalent (ISCED 7), female{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.7.AG25T99.M:UIS.EA.7.AG25T99.M{marker UIS.EA.7.AG25T99.M}}}UIS: Percentage of population age 25+ with a completed master's or equivalent degree (ISCED 7). Male{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.7.AG25T99.M:UIS.EA.7.AG25T99.M{marker UIS.EA.7.AG25T99.M}}}UIS: Percentage of population age 25+ whose highest level of education is Master's or equivalent (ISCED 7), male{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.7T8.AG25T99:UIS.EA.7T8.AG25T99{marker UIS.EA.7T8.AG25T99}}}UIS: Percentage of population age 25+ with at least a completed master's degree or equivalent (ISCED 7 or higher). Total{p_end}
 
@@ -11527,23 +11493,23 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.8.AG25T99.M:UIS.EA.8.AG25T99.M{marker UIS.EA.8.AG25T99.M}}}UIS: Percentage of population age 25+ with a doctoral degree or equivalent (ISCED 8). Male{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.MEAN.1T6.AG25T99:UIS.EA.MEAN.1T6.AG25T99{marker UIS.EA.MEAN.1T6.AG25T99}}}UIS: Mean years of schooling (ISCED 1 or higher) of the population age 25+. Total{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.MEAN.1T6.AG25T99:UIS.EA.MEAN.1T6.AG25T99{marker UIS.EA.MEAN.1T6.AG25T99}}}UIS: Mean years of schooling (ISCED 1 or higher), population 25+ years, both sexes{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.MEAN.1T6.AG25T99.F:UIS.EA.MEAN.1T6.AG25T99.F{marker UIS.EA.MEAN.1T6.AG25T99.F}}}UIS: Mean years of schooling (ISCED 1 or higher) of the population age 25+. Female{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.MEAN.1T6.AG25T99.F:UIS.EA.MEAN.1T6.AG25T99.F{marker UIS.EA.MEAN.1T6.AG25T99.F}}}UIS: Mean years of schooling (ISCED 1 or higher), population 25+ years, female{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.MEAN.1T6.AG25T99.M:UIS.EA.MEAN.1T6.AG25T99.M{marker UIS.EA.MEAN.1T6.AG25T99.M}}}UIS: Mean years of schooling (ISCED 1 or higher) of the population age 25+. Male{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.MEAN.1T6.AG25T99.M:UIS.EA.MEAN.1T6.AG25T99.M{marker UIS.EA.MEAN.1T6.AG25T99.M}}}UIS: Mean years of schooling (ISCED 1 or higher), population 25+ years, male{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.NS.AG25T99:UIS.EA.NS.AG25T99{marker UIS.EA.NS.AG25T99}}}UIS: Percentage of population age 25+ with no schooling. Total{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.NS.AG25T99:UIS.EA.NS.AG25T99{marker UIS.EA.NS.AG25T99}}}UIS: Percentage of population age 25+ with no schooling, both sexes{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.NS.AG25T99.F:UIS.EA.NS.AG25T99.F{marker UIS.EA.NS.AG25T99.F}}}UIS: Percentage of population age 25+ with no schooling. Female{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.NS.AG25T99.F:UIS.EA.NS.AG25T99.F{marker UIS.EA.NS.AG25T99.F}}}UIS: Percentage of population age 25+ with no schooling, female{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.NS.AG25T99.M:UIS.EA.NS.AG25T99.M{marker UIS.EA.NS.AG25T99.M}}}UIS: Percentage of population age 25+ with no schooling. Male{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.NS.AG25T99.M:UIS.EA.NS.AG25T99.M{marker UIS.EA.NS.AG25T99.M}}}UIS: Percentage of population age 25+ with no schooling, male{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.S1.AG25T99:UIS.EA.S1.AG25T99{marker UIS.EA.S1.AG25T99}}}UIS: Percentage of population age 25+ with some primary education. Total{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.S1.AG25T99:UIS.EA.S1.AG25T99{marker UIS.EA.S1.AG25T99}}}UIS: Percentage of population age 25+ whose highest level of education is incomplete primary, both sexes{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.S1.AG25T99.F:UIS.EA.S1.AG25T99.F{marker UIS.EA.S1.AG25T99.F}}}UIS: Percentage of population age 25+ with some primary education. Female{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.S1.AG25T99.F:UIS.EA.S1.AG25T99.F{marker UIS.EA.S1.AG25T99.F}}}UIS: Percentage of population age 25+ whose highest level of education is incomplete primary, female{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.S1.AG25T99.M:UIS.EA.S1.AG25T99.M{marker UIS.EA.S1.AG25T99.M}}}UIS: Percentage of population age 25+ with some primary education. Male{p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.S1.AG25T99.M:UIS.EA.S1.AG25T99.M{marker UIS.EA.S1.AG25T99.M}}}UIS: Percentage of population age 25+ whose highest level of education is incomplete primary, male{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.EA.UK.AG25T99:UIS.EA.UK.AG25T99{marker UIS.EA.UK.AG25T99}}}UIS: Percentage of population age 25+ with unknown educational attainment. Total{p_end}
 
@@ -11609,7 +11575,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.FEP.56.F900:UIS.FEP.56.F900{marker UIS.FEP.56.F900}}}Percentage of students enrolled in Health and Welfare programmes in tertiary education who are female (%){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.FEP.56.FOREIGN:UIS.FEP.56.FOREIGN{marker UIS.FEP.56.FOREIGN}}}Percentage of all inbound internationally mobile students in tertiary education in the host country who are female, (%){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.FEP.56.FOREIGN:UIS.FEP.56.FOREIGN{marker UIS.FEP.56.FOREIGN}}}Percentage of all inbound internationally mobile students in tertiary education in the host country who are female (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.FEP.56.FUK:UIS.FEP.56.FUK{marker UIS.FEP.56.FUK}}}Percentage of students enrolled in programmes in unspecified fields in tertiary education who are female (%){p_end}
 
@@ -11636,6 +11602,12 @@
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.FGP.8:UIS.FGP.8{marker UIS.FGP.8}}}Percentage of graduates from tertiary ISCED 8 programmes who are female (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.FNP.1:UIS.FNP.1{marker UIS.FNP.1}}}New entrants to Grade 1 of primary education, percentage female (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.FNTP.1:UIS.FNTP.1{marker UIS.FNTP.1}}}Percentage of newly recruited teachers in primary education who are female (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.FNTP.2:UIS.FNTP.2{marker UIS.FNTP.2}}}Percentage of newly recruited teachers in lower secondary education who are female (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.FNTP.3:UIS.FNTP.3{marker UIS.FNTP.3}}}Percentage of newly recruited teachers in upper secondary education who are female (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.FOFSTP.1:UIS.FOFSTP.1{marker UIS.FOFSTP.1}}}Out-of-school children of primary school age, percentage female (%){p_end}
 
@@ -11820,6 +11792,24 @@
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GGR.5.A.GPI:UIS.GGR.5.A.GPI{marker UIS.GGR.5.A.GPI}}}Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, gender parity index (GPI){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GOER.56:UIS.GOER.56{marker UIS.GOER.56}}}Gross outbound enrolment ratio, all regions, both sexes (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GTCTR.1.F:UIS.GTCTR.1.F{marker UIS.GTCTR.1.F}}}Ratio of teacher training graduates to teachers in primary education, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GTCTR.1.M:UIS.GTCTR.1.M{marker UIS.GTCTR.1.M}}}Ratio of teacher training graduates to teachers in primary education, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GTCTR.1.T:UIS.GTCTR.1.T{marker UIS.GTCTR.1.T}}}Ratio of teacher training graduates to teachers in primary education, both sexes{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GTCTR.2.F:UIS.GTCTR.2.F{marker UIS.GTCTR.2.F}}}Ratio of teacher training graduates to teachers in lower secondary education, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GTCTR.2.M:UIS.GTCTR.2.M{marker UIS.GTCTR.2.M}}}Ratio of teacher training graduates to teachers in lower secondary education, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GTCTR.2.T:UIS.GTCTR.2.T{marker UIS.GTCTR.2.T}}}Ratio of teacher training graduates to teachers in lower secondary education, both sexes{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GTCTR.3.F:UIS.GTCTR.3.F{marker UIS.GTCTR.3.F}}}Ratio of teacher training graduates to teachers in upper secondary education, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GTCTR.3.M:UIS.GTCTR.3.M{marker UIS.GTCTR.3.M}}}Ratio of teacher training graduates to teachers in upper secondary education, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GTCTR.3.T:UIS.GTCTR.3.T{marker UIS.GTCTR.3.T}}}Ratio of teacher training graduates to teachers in upper secondary education, both sexes{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GTVP.2.GPV:UIS.GTVP.2.GPV{marker UIS.GTVP.2.GPV}}}Share of all students in lower secondary education enrolled in general programmes (%){p_end}
 
@@ -12055,70 +12045,6 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NAR.2.URB.M:UIS.NAR.2.URB.M{marker UIS.NAR.2.URB.M}}}UIS: Net attendance rate, lower secondary, urban, male (%){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1:UIS.NARA.1{marker UIS.NARA.1}}}UIS: Adjusted net attendance rate, primary, both sexes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.F:UIS.NARA.1.F{marker UIS.NARA.1.F}}}UIS: Adjusted net attendance rate, primary, female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.GPIA:UIS.NARA.1.GPIA{marker UIS.NARA.1.GPIA}}}UIS: Adjusted net attendance rate, primary, adjusted gender parity index (GPIA){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.M:UIS.NARA.1.M{marker UIS.NARA.1.M}}}UIS: Adjusted net attendance rate, primary, male (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q1:UIS.NARA.1.Q1{marker UIS.NARA.1.Q1}}}UIS: Adjusted net attendance rate, primary, poorest quintile, both sexes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q1.F:UIS.NARA.1.Q1.F{marker UIS.NARA.1.Q1.F}}}UIS: Adjusted net attendance rate, primary, poorest quintile, female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q1.GPIA:UIS.NARA.1.Q1.GPIA{marker UIS.NARA.1.Q1.GPIA}}}UIS: Adjusted net attendance rate, primary, poorest quintile, adjusted gender parity index (GPIA){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q1.M:UIS.NARA.1.Q1.M{marker UIS.NARA.1.Q1.M}}}UIS: Adjusted net attendance rate, primary, poorest quintile, male (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q2:UIS.NARA.1.Q2{marker UIS.NARA.1.Q2}}}UIS: Adjusted net attendance rate, primary, second quintile, both sexes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q2.F:UIS.NARA.1.Q2.F{marker UIS.NARA.1.Q2.F}}}UIS: Adjusted net attendance rate, primary, second quintile, female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q2.GPIA:UIS.NARA.1.Q2.GPIA{marker UIS.NARA.1.Q2.GPIA}}}UIS: Adjusted net attendance rate, primary, second quintile, adjusted gender parity index (GPIA){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q2.M:UIS.NARA.1.Q2.M{marker UIS.NARA.1.Q2.M}}}UIS: Adjusted net attendance rate, primary, second quintile, male (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q3:UIS.NARA.1.Q3{marker UIS.NARA.1.Q3}}}UIS: Adjusted net attendance rate, primary, middle quintile, both sexes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q3.F:UIS.NARA.1.Q3.F{marker UIS.NARA.1.Q3.F}}}UIS: Adjusted net attendance rate, primary, middle quintile, female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q3.GPIA:UIS.NARA.1.Q3.GPIA{marker UIS.NARA.1.Q3.GPIA}}}UIS: Adjusted net attendance rate, primary, middle quintile, adjusted gender parity index (GPIA){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q3.M:UIS.NARA.1.Q3.M{marker UIS.NARA.1.Q3.M}}}UIS: Adjusted net attendance rate, primary, middle quintile, male (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q4:UIS.NARA.1.Q4{marker UIS.NARA.1.Q4}}}UIS: Adjusted net attendance rate, primary, fourth quintile, both sexes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q4.F:UIS.NARA.1.Q4.F{marker UIS.NARA.1.Q4.F}}}UIS: Adjusted net attendance rate, primary, fourth quintile, female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q4.GPIA:UIS.NARA.1.Q4.GPIA{marker UIS.NARA.1.Q4.GPIA}}}UIS: Adjusted net attendance rate, primary, fourth quintile, adjusted gender parity index (GPIA){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q4.M:UIS.NARA.1.Q4.M{marker UIS.NARA.1.Q4.M}}}UIS: Adjusted net attendance rate, primary, fourth quintile, male (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q5:UIS.NARA.1.Q5{marker UIS.NARA.1.Q5}}}UIS: Adjusted net attendance rate, primary, richest quintile, both sexes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q5.F:UIS.NARA.1.Q5.F{marker UIS.NARA.1.Q5.F}}}UIS: Adjusted net attendance rate, primary, richest quintile, female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q5.GPIA:UIS.NARA.1.Q5.GPIA{marker UIS.NARA.1.Q5.GPIA}}}UIS: Adjusted net attendance rate, primary, richest quintile, adjusted gender parity index (GPIA){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.Q5.M:UIS.NARA.1.Q5.M{marker UIS.NARA.1.Q5.M}}}UIS: Adjusted net attendance rate, primary, richest quintile, male (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.RUR:UIS.NARA.1.RUR{marker UIS.NARA.1.RUR}}}UIS: Adjusted net attendance rate, primary, rural, both sexes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.RUR.F:UIS.NARA.1.RUR.F{marker UIS.NARA.1.RUR.F}}}UIS: Adjusted net attendance rate, primary, rural, female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.RUR.GPIA:UIS.NARA.1.RUR.GPIA{marker UIS.NARA.1.RUR.GPIA}}}UIS: Adjusted net attendance rate, primary, rural, adjusted gender parity index (GPIA){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.RUR.M:UIS.NARA.1.RUR.M{marker UIS.NARA.1.RUR.M}}}UIS: Adjusted net attendance rate, primary, rural, male (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.URB:UIS.NARA.1.URB{marker UIS.NARA.1.URB}}}UIS: Adjusted net attendance rate, primary, urban, both sexes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.URB.F:UIS.NARA.1.URB.F{marker UIS.NARA.1.URB.F}}}UIS: Adjusted net attendance rate, primary, urban, female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.URB.GPIA:UIS.NARA.1.URB.GPIA{marker UIS.NARA.1.URB.GPIA}}}UIS: Adjusted net attendance rate, primary, urban, adjusted gender parity index (GPIA){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NARA.1.URB.M:UIS.NARA.1.URB.M{marker UIS.NARA.1.URB.M}}}UIS: Adjusted net attendance rate, primary, urban, male (%){p_end}
-
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NART.2:UIS.NART.2{marker UIS.NART.2}}}UIS: Total net attendance rate, lower secondary, both sexes (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NART.2.F:UIS.NART.2.F{marker UIS.NART.2.F}}}UIS: Total net attendance rate, lower secondary, female (%){p_end}
@@ -12191,7 +12117,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NE.1.G1.F:UIS.NE.1.G1.F{marker UIS.NE.1.G1.F}}}New entrants to Grade 1 of primary education, female (number){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NER.0.GPI:UIS.NER.0.GPI{marker UIS.NER.0.GPI}}}Net enrolment rate, pre-primary, gender parity index (GPI){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NER.02.GPI:UIS.NER.02.GPI{marker UIS.NER.02.GPI}}}Net enrolment rate, pre-primary, gender parity index (GPI){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NER.1.GPI:UIS.NER.1.GPI{marker UIS.NER.1.GPI}}}Net enrolment rate, primary, gender parity index (GPI){p_end}
 
@@ -12283,6 +12209,24 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NIRA.1.M:UIS.NIRA.1.M{marker UIS.NIRA.1.M}}}Adjusted net intake rate to Grade 1 of primary education, male (%){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NTP.1.PU.F:UIS.NTP.1.PU.F{marker UIS.NTP.1.PU.F}}}Percentage of female teachers in primary education who are newly recruited, female (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NTP.1.PU.M:UIS.NTP.1.PU.M{marker UIS.NTP.1.PU.M}}}Percentage of male teachers in primary education who are newly recruited, male (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NTP.1.PU.T:UIS.NTP.1.PU.T{marker UIS.NTP.1.PU.T}}}Percentage of teachers in primary education who are newly recruited, both sexes (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NTP.2.PU.F:UIS.NTP.2.PU.F{marker UIS.NTP.2.PU.F}}}Percentage of female teachers in lower secondary education who are newly recruited, female (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NTP.2.PU.M:UIS.NTP.2.PU.M{marker UIS.NTP.2.PU.M}}}Percentage of male teachers in lower secondary education who are newly recruited, male (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NTP.2.PU.T:UIS.NTP.2.PU.T{marker UIS.NTP.2.PU.T}}}Percentage of teachers in lower secondary education who are newly recruited, both sexes (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NTP.3.PU.F:UIS.NTP.3.PU.F{marker UIS.NTP.3.PU.F}}}Percentage of female teachers in upper secondary education who are newly recruited, female (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NTP.3.PU.M:UIS.NTP.3.PU.M{marker UIS.NTP.3.PU.M}}}Percentage of male teachers in upper secondary education who are newly recruited, male (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.NTP.3.PU.T:UIS.NTP.3.PU.T{marker UIS.NTP.3.PU.T}}}Percentage of teachers in upper secondary education who are newly recruited, both sexes (%){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.OAEP.1:UIS.OAEP.1{marker UIS.OAEP.1}}}Percentage of students enrolled in primary education who are over-age, both sexes (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.OAEP.1.F:UIS.OAEP.1.F{marker UIS.OAEP.1.F}}}Percentage of female students enrolled in primary education who are over-age, female (%){p_end}
@@ -12296,12 +12240,6 @@
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.OAPP.1.M:UIS.OAPP.1.M{marker UIS.OAPP.1.M}}}Over-age enrolment ratio in primary education, male (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.OE.56.40510:UIS.OE.56.40510{marker UIS.OE.56.40510}}}Total outbound internationally mobile tertiary students studying abroad, all countries, both sexes (number){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.OFSPPT.1:UIS.OFSPPT.1{marker UIS.OFSPPT.1}}}Out-of-school children of primary school age in pre-primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.OFSPPT.1.F:UIS.OFSPPT.1.F{marker UIS.OFSPPT.1.F}}}Out-of-school children of primary school age in pre-primary education, female (number){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.OFSPPT.1.M:UIS.OFSPPT.1.M{marker UIS.OFSPPT.1.M}}}Out-of-school children of primary school age in pre-primary education, male (number){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.OFST.2:UIS.OFST.2{marker UIS.OFST.2}}}Out-of-school adolescents of lower secondary school age, both sexes (number){p_end}
 
@@ -12423,6 +12361,12 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.R.2.GPV.G6.F:UIS.R.2.GPV.G6.F{marker UIS.R.2.GPV.G6.F}}}Repeaters in Grade 6 of lower secondary general education, female (number){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.R.3.GPV:UIS.R.3.GPV{marker UIS.R.3.GPV}}}Repeaters in upper secondary general education, all grades, both sexes (number){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.R.3.GPV.F:UIS.R.3.GPV.F{marker UIS.R.3.GPV.F}}}Repeaters in upper secondary general education, all grades, female (number){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.R.3.GPV.M:UIS.R.3.GPV.M{marker UIS.R.3.GPV.M}}}Repeaters in upper secondary general education, all grades, male (number){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.REPP.1.G1:UIS.REPP.1.G1{marker UIS.REPP.1.G1}}}Percentage of repeaters in Grade 1 of primary education, both sexes (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.REPP.1.G1.F:UIS.REPP.1.G1.F{marker UIS.REPP.1.G1.F}}}Percentage of repeaters in Grade 1 of primary education, female (%){p_end}
@@ -12507,7 +12451,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.REPP.2.GPV.G6.M:UIS.REPP.2.GPV.G6.M{marker UIS.REPP.2.GPV.G6.M}}}Percentage of repeaters in Grade 6 of lower secondary general education, male (%){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.REPP.2.GPV.GPI:UIS.REPP.2.GPV.GPI{marker UIS.REPP.2.GPV.GPI}}}Percentage of repeaters in lower secondary education, all grades, gender parity index (GPI){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.REPP.2.GPV.GPI:UIS.REPP.2.GPV.GPI{marker UIS.REPP.2.GPV.GPI}}}Percentage of repeaters in lower secondary general education, all grades, gender parity index (GPI){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.REPP.2.GPV.M:UIS.REPP.2.GPV.M{marker UIS.REPP.2.GPV.M}}}Percentage of repeaters in lower secondary general education, all grades, male (%){p_end}
 
@@ -12594,12 +12538,6 @@
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.REPR.2.GPV.G5.M:UIS.REPR.2.GPV.G5.M{marker UIS.REPR.2.GPV.G5.M}}}Repetition rate in Grade 5 of lower secondary general education, male (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.REPR.2.GPV.M:UIS.REPR.2.GPV.M{marker UIS.REPR.2.GPV.M}}}Repetition rate in lower secondary general education (all grades), male (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.ROFSPPT.1:UIS.ROFSPPT.1{marker UIS.ROFSPPT.1}}}Rate of out-of-school children of primary school age in pre-primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.ROFSPPT.1.F:UIS.ROFSPPT.1.F{marker UIS.ROFSPPT.1.F}}}Rate of out-of-school children of primary school age in pre-primary education, female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.ROFSPPT.1.M:UIS.ROFSPPT.1.M{marker UIS.ROFSPPT.1.M}}}Rate of out-of-school children of primary school age in pre-primary education, male (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.ROFST.1:UIS.ROFST.1{marker UIS.ROFST.1}}}Rate of out-of-school children of primary school age, both sexes (%){p_end}
 
@@ -12739,6 +12677,10 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.SAP.CE.M:UIS.SAP.CE.M{marker UIS.SAP.CE.M}}}Population of compulsory school age, male (number){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.SCHBSP.1.PU.WELEC:UIS.SCHBSP.1.PU.WELEC{marker UIS.SCHBSP.1.PU.WELEC}}}Proportion of public primary schools with access to electricity (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.SCHBSP.2.PU.WELEC:UIS.SCHBSP.2.PU.WELEC{marker UIS.SCHBSP.2.PU.WELEC}}}Proportion of public lower secondary schools with access to electricity (%){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.SLE.0:UIS.SLE.0{marker UIS.SLE.0}}}School life expectancy, pre-primary, both sexes (years){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.SLE.0.F:UIS.SLE.0.F{marker UIS.SLE.0.F}}}School life expectancy, pre-primary, female (years){p_end}
@@ -12843,9 +12785,9 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.T.4.F:UIS.T.4.F{marker UIS.T.4.F}}}Teachers in post-secondary non-tertiary education, female (number){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.T.5.B:UIS.T.5.B{marker UIS.T.5.B}}}Teachers in tertiary education ISCED 5 programmes, both sexes (number){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.T.5:UIS.T.5{marker UIS.T.5}}}Teachers in tertiary education ISCED 5 programmes, both sexes (number){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.T.5.B.F:UIS.T.5.B.F{marker UIS.T.5.B.F}}}Teachers in tertiary education ISCED 5 programmes, female (number){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.T.5.F:UIS.T.5.F{marker UIS.T.5.F}}}Teachers in tertiary education ISCED 5 programmes, female (number){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.TATTRR.1.F:UIS.TATTRR.1.F{marker UIS.TATTRR.1.F}}}Teacher attrition rate from primary education, female (%){p_end}
 
@@ -12890,6 +12832,24 @@
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.TEP.8.M:UIS.TEP.8.M{marker UIS.TEP.8.M}}}Share of male students in tertiary education enrolled in ISCED 8 (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.TRANRA.23.GPV.GPI:UIS.TRANRA.23.GPV.GPI{marker UIS.TRANRA.23.GPV.GPI}}}Effective transition rate from primary to lower secondary general education, gender parity index (GPI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.TRNTP.1.PU.F:UIS.TRNTP.1.PU.F{marker UIS.TRNTP.1.PU.F}}}Percentage of female newly recruited teachers in primary education who are trained, female (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.TRNTP.1.PU.M:UIS.TRNTP.1.PU.M{marker UIS.TRNTP.1.PU.M}}}Percentage of male newly recruited teachers in primary education who are trained, male (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.TRNTP.1.PU.T:UIS.TRNTP.1.PU.T{marker UIS.TRNTP.1.PU.T}}}Percentage of newly recruited teachers in primary education who are trained, both sexes (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.TRNTP.2.PU.F:UIS.TRNTP.2.PU.F{marker UIS.TRNTP.2.PU.F}}}Percentage of female newly recruited teachers in lower secondary education who are trained, female (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.TRNTP.2.PU.M:UIS.TRNTP.2.PU.M{marker UIS.TRNTP.2.PU.M}}}Percentage of male newly recruited teachers in lower secondary education who are trained, male (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.TRNTP.2.PU.T:UIS.TRNTP.2.PU.T{marker UIS.TRNTP.2.PU.T}}}Percentage of newly recruited teachers in lower secondary education who are trained, both sexes (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.TRNTP.3.PU.F:UIS.TRNTP.3.PU.F{marker UIS.TRNTP.3.PU.F}}}Percentage of female newly recruited teachers in upper secondary education who are trained, female (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.TRNTP.3.PU.M:UIS.TRNTP.3.PU.M{marker UIS.TRNTP.3.PU.M}}}Percentage of male newly recruited teachers in upper secondary education who are trained, male (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.TRNTP.3.PU.T:UIS.TRNTP.3.PU.T{marker UIS.TRNTP.3.PU.T}}}Percentage of newly recruited teachers in upper secondary education who are trained, both sexes (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.TRTP.02:UIS.TRTP.02{marker UIS.TRTP.02}}}Percentage of teachers in pre-primary education who are trained, both sexes (%){p_end}
 
@@ -13480,6 +13440,30 @@
 {synoptset 40 tabbed}{...}
 {synopthdr:14 Gender Statistics}
 {synoptline}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_IC.WEF.LLCD.FE:IC.WEF.LLCD.FE{marker IC.WEF.LLCD.FE}}}Number of female directors{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_IC.WEF.LLCD.FE.ZS:IC.WEF.LLCD.FE.ZS{marker IC.WEF.LLCD.FE.ZS}}}Share of female directors (% of total directors){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_IC.WEF.LLCD.MA:IC.WEF.LLCD.MA{marker IC.WEF.LLCD.MA}}}Number of male directors{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_IC.WEF.LLCD.MA.ZS:IC.WEF.LLCD.MA.ZS{marker IC.WEF.LLCD.MA.ZS}}}Share of male directors (% of total directors){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_IC.WEF.LLCO.FE:IC.WEF.LLCO.FE{marker IC.WEF.LLCO.FE}}}Number of female business owners{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_IC.WEF.LLCO.FE.ZS:IC.WEF.LLCO.FE.ZS{marker IC.WEF.LLCO.FE.ZS}}}Share of female business owners (% of total business owners){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_IC.WEF.LLCO.MA:IC.WEF.LLCO.MA{marker IC.WEF.LLCO.MA}}}Number of male business owners{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_IC.WEF.LLCO.MA.ZS:IC.WEF.LLCO.MA.ZS{marker IC.WEF.LLCO.MA.ZS}}}Share of male business owners  (% of total business owners){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_IC.WEF.SOLO.FE:IC.WEF.SOLO.FE{marker IC.WEF.SOLO.FE}}}Number of female sole proprietors{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_IC.WEF.SOLO.FE.ZS:IC.WEF.SOLO.FE.ZS{marker IC.WEF.SOLO.FE.ZS}}}Share of female sole proprietors  (% of sole proprietors){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_IC.WEF.SOLO.MA:IC.WEF.SOLO.MA{marker IC.WEF.SOLO.MA}}}Number of male sole proprietors{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_IC.WEF.SOLO.MA.ZS:IC.WEF.SOLO.MA.ZS{marker IC.WEF.SOLO.MA.ZS}}}Share of male sole proprietors  (% of sole proprietors){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SE.TER.GRAD.FE.SI.ZS:SE.TER.GRAD.FE.SI.ZS{marker SE.TER.GRAD.FE.SI.ZS}}}Female share of graduates from Science, Technology, Engineering and Mathematics (STEM) programmes, tertiary (%){p_end}
 
@@ -14294,11 +14278,7 @@
 {synopthdr:18 IDA Results Measurement System}
 {synoptline}
 
-{synopt:{help wbopendata_sourceid_indicators18##sourceid_EG.ELC.HOUS.ZS:EG.ELC.HOUS.ZS{marker EG.ELC.HOUS.ZS}}}Household electrification rate (% of households){p_end}
-
 {synopt:{help wbopendata_sourceid_indicators18##sourceid_ER.FST.DFST.ZG:ER.FST.DFST.ZG{marker ER.FST.DFST.ZG}}}Annual deforestation (% of change){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators18##sourceid_IS.ROD.ALLS.ZS:IS.ROD.ALLS.ZS{marker IS.ROD.ALLS.ZS}}}Access to an all-season road (% of rural population){p_end}
 {synoptline}
 
 {marker sourceid_19}
@@ -14354,277 +14334,277 @@
 {synopthdr:20 Quarterly Public Sector Debt}
 {synoptline}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.BC:DP.DOD.DECD.CR.BC{marker DP.DOD.DECD.CR.BC}}}316.Gross Budg. Central Govt. Public Sector Debt, Domestic creditors{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.BC:DP.DOD.DECD.CR.BC{marker DP.DOD.DECD.CR.BC}}}Gross PSD, Budgetary Central Gov., All maturities, All instruments, Domestic creditors, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.BC.CD:DP.DOD.DECD.CR.BC.CD{marker DP.DOD.DECD.CR.BC.CD}}}092.Gross Budg. Central Govt. Public Sector Debt, Domestic creditors US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.BC.CD:DP.DOD.DECD.CR.BC.CD{marker DP.DOD.DECD.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., All maturities, All instruments, Domestic creditors, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.BC.Z1:DP.DOD.DECD.CR.BC.Z1{marker DP.DOD.DECD.CR.BC.Z1}}}540.Gross Budg. Central Govt. Public Sector Debt, Domestic creditors(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.BC.Z1:DP.DOD.DECD.CR.BC.Z1{marker DP.DOD.DECD.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., All maturities, All instruments, Domestic creditors, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.CG:DP.DOD.DECD.CR.CG{marker DP.DOD.DECD.CR.CG}}}284.Central Govt. Public Sector Debt, Domestic creditors{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.CG:DP.DOD.DECD.CR.CG{marker DP.DOD.DECD.CR.CG}}}Gross PSD, Central Gov., All maturities, All instruments, Domestic creditors, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.CG.CD:DP.DOD.DECD.CR.CG.CD{marker DP.DOD.DECD.CR.CG.CD}}}060.Central Govt. Public Sector Debt, Domestic creditors US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.CG.CD:DP.DOD.DECD.CR.CG.CD{marker DP.DOD.DECD.CR.CG.CD}}}Gross PSD, Central Gov., All maturities, All instruments, Domestic creditors, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.CG.Z1:DP.DOD.DECD.CR.CG.Z1{marker DP.DOD.DECD.CR.CG.Z1}}}508.Central Govt. Public Sector Debt, Domestic creditors(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.CG.Z1:DP.DOD.DECD.CR.CG.Z1{marker DP.DOD.DECD.CR.CG.Z1}}}Gross PSD, Central Gov., All maturities, All instruments, Domestic creditors, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.FC:DP.DOD.DECD.CR.FC{marker DP.DOD.DECD.CR.FC}}}380.Gross Financial Public Corporations Debt, Domestic creditors{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.FC:DP.DOD.DECD.CR.FC{marker DP.DOD.DECD.CR.FC}}}Gross PSD, Financial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.FC.CD:DP.DOD.DECD.CR.FC.CD{marker DP.DOD.DECD.CR.FC.CD}}}156.Gross Financial Public Corporations Debt, Domestic creditors  US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.FC.CD:DP.DOD.DECD.CR.FC.CD{marker DP.DOD.DECD.CR.FC.CD}}}Gross PSD, Financial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.FC.Z1:DP.DOD.DECD.CR.FC.Z1{marker DP.DOD.DECD.CR.FC.Z1}}}604.Gross Financial Public Corporations Debt, Domestic creditors(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.FC.Z1:DP.DOD.DECD.CR.FC.Z1{marker DP.DOD.DECD.CR.FC.Z1}}}Gross PSD, Financial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.GG:DP.DOD.DECD.CR.GG{marker DP.DOD.DECD.CR.GG}}}252.General Govt. Public Sector Debt, Domestic creditors{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.GG:DP.DOD.DECD.CR.GG{marker DP.DOD.DECD.CR.GG}}}Gross PSD, General Gov., All maturities, All instruments, Domestic creditors, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.GG.CD:DP.DOD.DECD.CR.GG.CD{marker DP.DOD.DECD.CR.GG.CD}}}028.General Govt. Public Sector Debt, Domestic creditors US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.GG.CD:DP.DOD.DECD.CR.GG.CD{marker DP.DOD.DECD.CR.GG.CD}}}Gross PSD, General Gov., All maturities, All instruments, Domestic creditors, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.GG.Z1:DP.DOD.DECD.CR.GG.Z1{marker DP.DOD.DECD.CR.GG.Z1}}}476.General Govt. Public Sector Debt, Domestic creditors(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.GG.Z1:DP.DOD.DECD.CR.GG.Z1{marker DP.DOD.DECD.CR.GG.Z1}}}Gross PSD, General Gov., All maturities, All instruments, Domestic creditors, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.NF:DP.DOD.DECD.CR.NF{marker DP.DOD.DECD.CR.NF}}}348.Gross Nonfinancial Public Corporations Debt, Domestic creditors{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.NF:DP.DOD.DECD.CR.NF{marker DP.DOD.DECD.CR.NF}}}Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.NF.CD:DP.DOD.DECD.CR.NF.CD{marker DP.DOD.DECD.CR.NF.CD}}}124.Gross Nonfinancial Public Corporations Debt, Domestic creditors  US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.NF.CD:DP.DOD.DECD.CR.NF.CD{marker DP.DOD.DECD.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.NF.Z1:DP.DOD.DECD.CR.NF.Z1{marker DP.DOD.DECD.CR.NF.Z1}}}572.Gross Nonfinancial Public Corporations Debt, Domestic creditors(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.NF.Z1:DP.DOD.DECD.CR.NF.Z1{marker DP.DOD.DECD.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.PS:DP.DOD.DECD.CR.PS{marker DP.DOD.DECD.CR.PS}}}412.Gross Public Sector Debt, Domestic creditors{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.PS:DP.DOD.DECD.CR.PS{marker DP.DOD.DECD.CR.PS}}}Gross PSD, Public Sector, All maturities, All instruments, Domestic creditors, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.PS.CD:DP.DOD.DECD.CR.PS.CD{marker DP.DOD.DECD.CR.PS.CD}}}188.Gross Public Sector Debt, Domestic creditors  US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECD.CR.PS.CD:DP.DOD.DECD.CR.PS.CD{marker DP.DOD.DECD.CR.PS.CD}}}Gross PSD, Total, All maturities, All instruments, Domestic creditors, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.BC:DP.DOD.DECF.CR.BC{marker DP.DOD.DECF.CR.BC}}}319.Gross Budg. Central Govt. Public Sector Debt, Foreign currency{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.BC:DP.DOD.DECF.CR.BC{marker DP.DOD.DECF.CR.BC}}}Gross PSD, Budgetary Central Gov., All maturities, All instruments, Foreign currency, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.BC.CD:DP.DOD.DECF.CR.BC.CD{marker DP.DOD.DECF.CR.BC.CD}}}095.Gross Budg. Central Govt. Public Sector Debt, Foreign currency US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.BC.CD:DP.DOD.DECF.CR.BC.CD{marker DP.DOD.DECF.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., All maturities, All instruments, Foreign currency, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.BC.Z1:DP.DOD.DECF.CR.BC.Z1{marker DP.DOD.DECF.CR.BC.Z1}}}543.Gross Budg. Central Govt. Public Sector Debt, Foreign currency(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.BC.Z1:DP.DOD.DECF.CR.BC.Z1{marker DP.DOD.DECF.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., All maturities, All instruments, Foreign currency, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.CG:DP.DOD.DECF.CR.CG{marker DP.DOD.DECF.CR.CG}}}287.Central Govt. Public Sector Debt, Foreign currency{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.CG:DP.DOD.DECF.CR.CG{marker DP.DOD.DECF.CR.CG}}}Gross PSD, Central Gov., All maturities, All instruments, Foreign currency, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.CG.CD:DP.DOD.DECF.CR.CG.CD{marker DP.DOD.DECF.CR.CG.CD}}}063.Central Govt. Public Sector Debt, Foreign currency US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.CG.CD:DP.DOD.DECF.CR.CG.CD{marker DP.DOD.DECF.CR.CG.CD}}}Gross PSD, Central Gov., All maturities, All instruments, Foreign currency, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.CG.Z1:DP.DOD.DECF.CR.CG.Z1{marker DP.DOD.DECF.CR.CG.Z1}}}511.Central Govt. Public Sector Debt, Foreign currency(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.CG.Z1:DP.DOD.DECF.CR.CG.Z1{marker DP.DOD.DECF.CR.CG.Z1}}}Gross PSD, Central Gov., All maturities, All instruments, Foreign currency, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.FC:DP.DOD.DECF.CR.FC{marker DP.DOD.DECF.CR.FC}}}383.Gross Financial Public Corporations Debt, Foreign currency{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.FC:DP.DOD.DECF.CR.FC{marker DP.DOD.DECF.CR.FC}}}Gross PSD, Financial Public Corp., All maturities, All instruments, Foreign currency, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.FC.CD:DP.DOD.DECF.CR.FC.CD{marker DP.DOD.DECF.CR.FC.CD}}}159.Gross Financial Public Corporations Debt, Foreign currency  US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.FC.CD:DP.DOD.DECF.CR.FC.CD{marker DP.DOD.DECF.CR.FC.CD}}}Gross PSD, Financial Public Corp., All maturities, All instruments, Foreign currency, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.FC.Z1:DP.DOD.DECF.CR.FC.Z1{marker DP.DOD.DECF.CR.FC.Z1}}}607.Gross Financial Public Corporations Debt, Foreign currency(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.FC.Z1:DP.DOD.DECF.CR.FC.Z1{marker DP.DOD.DECF.CR.FC.Z1}}}Gross PSD, Financial Public Corp., All maturities, All instruments, Foreign currency, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.GG:DP.DOD.DECF.CR.GG{marker DP.DOD.DECF.CR.GG}}}255.General Govt. Public Sector Debt, Foreign currency{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.GG:DP.DOD.DECF.CR.GG{marker DP.DOD.DECF.CR.GG}}}Gross PSD, General Gov., All maturities, All instruments, Foreign currency, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.GG.CD:DP.DOD.DECF.CR.GG.CD{marker DP.DOD.DECF.CR.GG.CD}}}031.General Govt. Public Sector Debt, Foreign currency US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.GG.CD:DP.DOD.DECF.CR.GG.CD{marker DP.DOD.DECF.CR.GG.CD}}}Gross PSD, General Gov., All maturities, All instruments, Foreign currency, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.GG.Z1:DP.DOD.DECF.CR.GG.Z1{marker DP.DOD.DECF.CR.GG.Z1}}}479.General Govt. Public Sector Debt, Foreign currency(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.GG.Z1:DP.DOD.DECF.CR.GG.Z1{marker DP.DOD.DECF.CR.GG.Z1}}}Gross PSD, General Gov., All maturities, All instruments, Foreign currency, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.NF:DP.DOD.DECF.CR.NF{marker DP.DOD.DECF.CR.NF}}}351.Gross Nonfinancial Public Corporations Debt, Foreign currency{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.NF:DP.DOD.DECF.CR.NF{marker DP.DOD.DECF.CR.NF}}}Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Foreign currency, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.NF.CD:DP.DOD.DECF.CR.NF.CD{marker DP.DOD.DECF.CR.NF.CD}}}127.Gross Nonfinancial Public Corporations Debt, Foreign currency  US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.NF.CD:DP.DOD.DECF.CR.NF.CD{marker DP.DOD.DECF.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Foreign currency, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.NF.Z1:DP.DOD.DECF.CR.NF.Z1{marker DP.DOD.DECF.CR.NF.Z1}}}575.Gross Nonfinancial Public Corporations Debt, Foreign currency(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.NF.Z1:DP.DOD.DECF.CR.NF.Z1{marker DP.DOD.DECF.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Foreign currency, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.PS:DP.DOD.DECF.CR.PS{marker DP.DOD.DECF.CR.PS}}}415.Gross Public Sector Debt, Foreign currency{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.PS:DP.DOD.DECF.CR.PS{marker DP.DOD.DECF.CR.PS}}}Gross PSD, Public Sector, All maturities, All instruments, Foreign currency, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.PS.CD:DP.DOD.DECF.CR.PS.CD{marker DP.DOD.DECF.CR.PS.CD}}}191.Gross Public Sector Debt, Foreign currency  US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECF.CR.PS.CD:DP.DOD.DECF.CR.PS.CD{marker DP.DOD.DECF.CR.PS.CD}}}Gross PSD, Total, All maturities, All instruments, Foreign currency, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.BC:DP.DOD.DECN.CR.BC{marker DP.DOD.DECN.CR.BC}}}318.Gross Budg. Central Govt. Public Sector Debt, Domestic currency{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.BC:DP.DOD.DECN.CR.BC{marker DP.DOD.DECN.CR.BC}}}Gross PSD, Budgetary Central Gov., All maturities, All instruments, Domestic currency, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.BC.CD:DP.DOD.DECN.CR.BC.CD{marker DP.DOD.DECN.CR.BC.CD}}}094.Gross Budg. Central Govt. Public Sector Debt, Domestic currency US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.BC.CD:DP.DOD.DECN.CR.BC.CD{marker DP.DOD.DECN.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., All maturities, All instruments, Domestic currency, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.BC.Z1:DP.DOD.DECN.CR.BC.Z1{marker DP.DOD.DECN.CR.BC.Z1}}}542.Gross Budg. Central Govt. Public Sector Debt, Domestic currency(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.BC.Z1:DP.DOD.DECN.CR.BC.Z1{marker DP.DOD.DECN.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., All maturities, All instruments, Domestic currency, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.CG:DP.DOD.DECN.CR.CG{marker DP.DOD.DECN.CR.CG}}}286.Central Govt. Public Sector Debt, Domestic currency{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.CG:DP.DOD.DECN.CR.CG{marker DP.DOD.DECN.CR.CG}}}Gross PSD, Central Gov., All maturities, All instruments, Domestic currency, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.CG.CD:DP.DOD.DECN.CR.CG.CD{marker DP.DOD.DECN.CR.CG.CD}}}062.Central Govt. Public Sector Debt, Domestic currency US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.CG.CD:DP.DOD.DECN.CR.CG.CD{marker DP.DOD.DECN.CR.CG.CD}}}Gross PSD, Central Gov., All maturities, All instruments, Domestic currency, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.CG.Z1:DP.DOD.DECN.CR.CG.Z1{marker DP.DOD.DECN.CR.CG.Z1}}}510.Central Govt. Public Sector Debt, Domestic currency(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.CG.Z1:DP.DOD.DECN.CR.CG.Z1{marker DP.DOD.DECN.CR.CG.Z1}}}Gross PSD, Central Gov., All maturities, All instruments, Domestic currency, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.FC:DP.DOD.DECN.CR.FC{marker DP.DOD.DECN.CR.FC}}}382.Gross Financial Public Corporations Debt, Domestic currency{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.FC:DP.DOD.DECN.CR.FC{marker DP.DOD.DECN.CR.FC}}}Gross PSD, Financial Public Corp., All maturities, All instruments, Domestic currency, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.FC.CD:DP.DOD.DECN.CR.FC.CD{marker DP.DOD.DECN.CR.FC.CD}}}158.Gross Financial Public Corporations Debt, Domestic currency  US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.FC.CD:DP.DOD.DECN.CR.FC.CD{marker DP.DOD.DECN.CR.FC.CD}}}Gross PSD, Financial Public Corp., All maturities, All instruments, Domestic currency, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.FC.Z1:DP.DOD.DECN.CR.FC.Z1{marker DP.DOD.DECN.CR.FC.Z1}}}606.Gross Financial Public Corporations Debt, Domestic currency(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.FC.Z1:DP.DOD.DECN.CR.FC.Z1{marker DP.DOD.DECN.CR.FC.Z1}}}Gross PSD, Financial Public Corp., All maturities, All instruments, Domestic currency, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.GG:DP.DOD.DECN.CR.GG{marker DP.DOD.DECN.CR.GG}}}254.General Govt. Public Sector Debt, Domestic currency{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.GG:DP.DOD.DECN.CR.GG{marker DP.DOD.DECN.CR.GG}}}Gross PSD, General Gov., All maturities, All instruments, Domestic currency, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.GG.CD:DP.DOD.DECN.CR.GG.CD{marker DP.DOD.DECN.CR.GG.CD}}}030.General Govt. Public Sector Debt, Domestic currency US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.GG.CD:DP.DOD.DECN.CR.GG.CD{marker DP.DOD.DECN.CR.GG.CD}}}Gross PSD, General Gov., All maturities, All instruments, Domestic currency, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.GG.Z1:DP.DOD.DECN.CR.GG.Z1{marker DP.DOD.DECN.CR.GG.Z1}}}478.General Govt. Public Sector Debt, Domestic currency(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.GG.Z1:DP.DOD.DECN.CR.GG.Z1{marker DP.DOD.DECN.CR.GG.Z1}}}Gross PSD, General Gov., All maturities, All instruments, Domestic currency, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.NF:DP.DOD.DECN.CR.NF{marker DP.DOD.DECN.CR.NF}}}350.Gross Nonfinancial Public Corporations Debt, Domestic currency{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.NF:DP.DOD.DECN.CR.NF{marker DP.DOD.DECN.CR.NF}}}Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Domestic currency, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.NF.CD:DP.DOD.DECN.CR.NF.CD{marker DP.DOD.DECN.CR.NF.CD}}}126.Gross Nonfinancial Public Corporations Debt, Domestic currency  US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.NF.CD:DP.DOD.DECN.CR.NF.CD{marker DP.DOD.DECN.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Domestic currency, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.NF.Z1:DP.DOD.DECN.CR.NF.Z1{marker DP.DOD.DECN.CR.NF.Z1}}}574.Gross Nonfinancial Public Corporations Debt, Domestic currency(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.NF.Z1:DP.DOD.DECN.CR.NF.Z1{marker DP.DOD.DECN.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Domestic currency, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.PS:DP.DOD.DECN.CR.PS{marker DP.DOD.DECN.CR.PS}}}414.Gross Public Sector Debt, Domestic currency{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.PS:DP.DOD.DECN.CR.PS{marker DP.DOD.DECN.CR.PS}}}Gross PSD, Public Sector, All maturities, All instruments, Domestic currency, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.PS.CD:DP.DOD.DECN.CR.PS.CD{marker DP.DOD.DECN.CR.PS.CD}}}190.Gross Public Sector Debt, Domestic currency  US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECN.CR.PS.CD:DP.DOD.DECN.CR.PS.CD{marker DP.DOD.DECN.CR.PS.CD}}}Gross PSD, Total, All maturities, All instruments, Domestic currency, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.BC:DP.DOD.DECT.CR.BC{marker DP.DOD.DECT.CR.BC}}}289.Gross Budgetary Central Government Debt (PSDCGGB){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.BC:DP.DOD.DECT.CR.BC{marker DP.DOD.DECT.CR.BC}}}Gross PSD, Budgetary Central Gov., All maturities, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.BC.CD:DP.DOD.DECT.CR.BC.CD{marker DP.DOD.DECT.CR.BC.CD}}}065.Gross Budgetary Central Government Debt (PSDCGGB) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.BC.CD:DP.DOD.DECT.CR.BC.CD{marker DP.DOD.DECT.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., All maturities, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.BC.Z1:DP.DOD.DECT.CR.BC.Z1{marker DP.DOD.DECT.CR.BC.Z1}}}513.Gross Budgetary Central Government Debt (PSDCGGB)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.BC.Z1:DP.DOD.DECT.CR.BC.Z1{marker DP.DOD.DECT.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., All maturities, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.CG:DP.DOD.DECT.CR.CG{marker DP.DOD.DECT.CR.CG}}}257.Gross Central Government Debt (PSDCG){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.CG:DP.DOD.DECT.CR.CG{marker DP.DOD.DECT.CR.CG}}}Gross PSD, Central Gov., All maturities, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.CG.CD:DP.DOD.DECT.CR.CG.CD{marker DP.DOD.DECT.CR.CG.CD}}}033.Gross Central Government Debt (PSDCG) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.CG.CD:DP.DOD.DECT.CR.CG.CD{marker DP.DOD.DECT.CR.CG.CD}}}Gross PSD, Central Gov., All maturities, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.CG.Z1:DP.DOD.DECT.CR.CG.Z1{marker DP.DOD.DECT.CR.CG.Z1}}}481.Gross Central Government Debt (PSDCG)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.CG.Z1:DP.DOD.DECT.CR.CG.Z1{marker DP.DOD.DECT.CR.CG.Z1}}}Gross PSD, Central Gov., All maturities, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.FC:DP.DOD.DECT.CR.FC{marker DP.DOD.DECT.CR.FC}}}353.Gross Financial Public Corporations Debt (PSDFPC, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.FC:DP.DOD.DECT.CR.FC{marker DP.DOD.DECT.CR.FC}}}Gross PSD, Financial Public Corp., All maturities, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.FC.CD:DP.DOD.DECT.CR.FC.CD{marker DP.DOD.DECT.CR.FC.CD}}}129.Gross Financial Public Corporations Debt (PSDFPC) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.FC.CD:DP.DOD.DECT.CR.FC.CD{marker DP.DOD.DECT.CR.FC.CD}}}Gross PSD, Financial Public Corp., All maturities, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.FC.Z1:DP.DOD.DECT.CR.FC.Z1{marker DP.DOD.DECT.CR.FC.Z1}}}577.Gross Financial Public Corporations Debt (PSDFPC, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.FC.Z1:DP.DOD.DECT.CR.FC.Z1{marker DP.DOD.DECT.CR.FC.Z1}}}Gross PSD, Financial Public Corp., All maturities, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.GG:DP.DOD.DECT.CR.GG{marker DP.DOD.DECT.CR.GG}}}225.General Govt. Public Sector Debt (PSDGG){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.GG:DP.DOD.DECT.CR.GG{marker DP.DOD.DECT.CR.GG}}}Gross PSD, General Gov., All maturities, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.GG.CD:DP.DOD.DECT.CR.GG.CD{marker DP.DOD.DECT.CR.GG.CD}}}001.General Govt. Public Sector Debt (PSDGG) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.GG.CD:DP.DOD.DECT.CR.GG.CD{marker DP.DOD.DECT.CR.GG.CD}}}Gross PSD, General Gov., All maturities, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.GG.Z1:DP.DOD.DECT.CR.GG.Z1{marker DP.DOD.DECT.CR.GG.Z1}}}449.General Govt. Public Sector Debt (PSDGG)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.GG.Z1:DP.DOD.DECT.CR.GG.Z1{marker DP.DOD.DECT.CR.GG.Z1}}}Gross PSD, General Gov., All maturities, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.NF:DP.DOD.DECT.CR.NF{marker DP.DOD.DECT.CR.NF}}}321.Gross Nonfinancial Public Corporations Debt (PSDNFPC){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.NF:DP.DOD.DECT.CR.NF{marker DP.DOD.DECT.CR.NF}}}Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.NF.CD:DP.DOD.DECT.CR.NF.CD{marker DP.DOD.DECT.CR.NF.CD}}}097.Gross Nonfinancial Public Corporations Debt (PSDNFPC) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.NF.CD:DP.DOD.DECT.CR.NF.CD{marker DP.DOD.DECT.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.NF.Z1:DP.DOD.DECT.CR.NF.Z1{marker DP.DOD.DECT.CR.NF.Z1}}}545.Gross Nonfinancial Public Corporations Debt (PSDNFPC)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.NF.Z1:DP.DOD.DECT.CR.NF.Z1{marker DP.DOD.DECT.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.PS:DP.DOD.DECT.CR.PS{marker DP.DOD.DECT.CR.PS}}}385.Gross Public Sector Debt (PSDT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.PS:DP.DOD.DECT.CR.PS{marker DP.DOD.DECT.CR.PS}}}Gross PSD, Public Sector, All maturities, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.PS.CD:DP.DOD.DECT.CR.PS.CD{marker DP.DOD.DECT.CR.PS.CD}}}161.Gross Public Sector Debt (PSDT) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECT.CR.PS.CD:DP.DOD.DECT.CR.PS.CD{marker DP.DOD.DECT.CR.PS.CD}}}Gross PSD, Total, All maturities, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.BC:DP.DOD.DECX.CR.BC{marker DP.DOD.DECX.CR.BC}}}317.Gross Budg. Central Govt. Public Sector Debt, External creditors{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.BC:DP.DOD.DECX.CR.BC{marker DP.DOD.DECX.CR.BC}}}Gross PSD, Budgetary Central Gov., All maturities, All instruments, External creditors, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.BC.CD:DP.DOD.DECX.CR.BC.CD{marker DP.DOD.DECX.CR.BC.CD}}}093.Gross Budg. Central Govt. Public Sector Debt, External creditors US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.BC.CD:DP.DOD.DECX.CR.BC.CD{marker DP.DOD.DECX.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., All maturities, All instruments, External creditors, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.BC.Z1:DP.DOD.DECX.CR.BC.Z1{marker DP.DOD.DECX.CR.BC.Z1}}}541.Gross Budg. Central Govt. Public Sector Debt, External creditors(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.BC.Z1:DP.DOD.DECX.CR.BC.Z1{marker DP.DOD.DECX.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., All maturities, All instruments, External creditors, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.CG:DP.DOD.DECX.CR.CG{marker DP.DOD.DECX.CR.CG}}}285.Central Govt. Public Sector Debt, External creditors{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.CG:DP.DOD.DECX.CR.CG{marker DP.DOD.DECX.CR.CG}}}Gross PSD, Central Gov., All maturities, All instruments, External creditors, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.CG.CD:DP.DOD.DECX.CR.CG.CD{marker DP.DOD.DECX.CR.CG.CD}}}061.Central Govt. Public Sector Debt, External creditors US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.CG.CD:DP.DOD.DECX.CR.CG.CD{marker DP.DOD.DECX.CR.CG.CD}}}Gross PSD, Central Gov., All maturities, All instruments, External creditors, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.CG.Z1:DP.DOD.DECX.CR.CG.Z1{marker DP.DOD.DECX.CR.CG.Z1}}}509.Central Govt. Public Sector Debt, External creditors(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.CG.Z1:DP.DOD.DECX.CR.CG.Z1{marker DP.DOD.DECX.CR.CG.Z1}}}Gross PSD, Central Gov., All maturities, All instruments, External creditors, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.FC:DP.DOD.DECX.CR.FC{marker DP.DOD.DECX.CR.FC}}}381.Gross Financial Public Corporations Debt, External creditors{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.FC:DP.DOD.DECX.CR.FC{marker DP.DOD.DECX.CR.FC}}}Gross PSD, Financial Public Corp., All maturities, All instruments, External creditors, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.FC.CD:DP.DOD.DECX.CR.FC.CD{marker DP.DOD.DECX.CR.FC.CD}}}157.Gross Financial Public Corporations Debt, External creditors  US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.FC.CD:DP.DOD.DECX.CR.FC.CD{marker DP.DOD.DECX.CR.FC.CD}}}Gross PSD, Financial Public Corp., All maturities, All instruments, External creditors, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.FC.Z1:DP.DOD.DECX.CR.FC.Z1{marker DP.DOD.DECX.CR.FC.Z1}}}605.Gross Financial Public Corporations Debt, External creditors(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.FC.Z1:DP.DOD.DECX.CR.FC.Z1{marker DP.DOD.DECX.CR.FC.Z1}}}Gross PSD, Financial Public Corp., All maturities, All instruments, External creditors, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.GG:DP.DOD.DECX.CR.GG{marker DP.DOD.DECX.CR.GG}}}253.General Govt. Public Sector Debt, External creditors{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.GG:DP.DOD.DECX.CR.GG{marker DP.DOD.DECX.CR.GG}}}Gross PSD, General Gov., All maturities, All instruments, External creditors, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.GG.CD:DP.DOD.DECX.CR.GG.CD{marker DP.DOD.DECX.CR.GG.CD}}}029.General Govt. Public Sector Debt, External creditors US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.GG.CD:DP.DOD.DECX.CR.GG.CD{marker DP.DOD.DECX.CR.GG.CD}}}Gross PSD, General Gov., All maturities, All instruments, External creditors, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.GG.Z1:DP.DOD.DECX.CR.GG.Z1{marker DP.DOD.DECX.CR.GG.Z1}}}477.General Govt. Public Sector Debt, External creditors(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.GG.Z1:DP.DOD.DECX.CR.GG.Z1{marker DP.DOD.DECX.CR.GG.Z1}}}Gross PSD, General Gov., All maturities, All instruments, External creditors, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.NF:DP.DOD.DECX.CR.NF{marker DP.DOD.DECX.CR.NF}}}349.Gross Nonfinancial Public Corporations Debt, External creditors{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.NF:DP.DOD.DECX.CR.NF{marker DP.DOD.DECX.CR.NF}}}Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, External creditors, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.NF.CD:DP.DOD.DECX.CR.NF.CD{marker DP.DOD.DECX.CR.NF.CD}}}125.Gross Nonfinancial Public Corporations Debt, External creditors  US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.NF.CD:DP.DOD.DECX.CR.NF.CD{marker DP.DOD.DECX.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, External creditors, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.NF.Z1:DP.DOD.DECX.CR.NF.Z1{marker DP.DOD.DECX.CR.NF.Z1}}}573.Gross Nonfinancial Public Corporations Debt, External creditors(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.NF.Z1:DP.DOD.DECX.CR.NF.Z1{marker DP.DOD.DECX.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, External creditors, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.PS:DP.DOD.DECX.CR.PS{marker DP.DOD.DECX.CR.PS}}}413.Gross Public Sector Debt, External creditors{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.PS:DP.DOD.DECX.CR.PS{marker DP.DOD.DECX.CR.PS}}}Gross PSD, Public Sector, All maturities, All instruments, External creditors, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.PS.CD:DP.DOD.DECX.CR.PS.CD{marker DP.DOD.DECX.CR.PS.CD}}}189.Gross Public Sector Debt, External creditors  US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DECX.CR.PS.CD:DP.DOD.DECX.CR.PS.CD{marker DP.DOD.DECX.CR.PS.CD}}}Gross PSD, Total, All maturities, All instruments, External creditors, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.BC:DP.DOD.DLCD.CR.BC{marker DP.DOD.DLCD.CR.BC}}}311.Currency and deposits (PSDCGGB){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.BC:DP.DOD.DLCD.CR.BC{marker DP.DOD.DLCD.CR.BC}}}Gross PSD, Budgetary Central Gov., All maturities, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.BC.CD:DP.DOD.DLCD.CR.BC.CD{marker DP.DOD.DLCD.CR.BC.CD}}}087.Currency and deposits (PSDCGGB) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.BC.CD:DP.DOD.DLCD.CR.BC.CD{marker DP.DOD.DLCD.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., All maturities, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.BC.Z1:DP.DOD.DLCD.CR.BC.Z1{marker DP.DOD.DLCD.CR.BC.Z1}}}535.Currency and deposits (PSDCGGB)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.BC.Z1:DP.DOD.DLCD.CR.BC.Z1{marker DP.DOD.DLCD.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., All maturities, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.CG:DP.DOD.DLCD.CR.CG{marker DP.DOD.DLCD.CR.CG}}}279.Currency and deposits (PSDCG){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.CG:DP.DOD.DLCD.CR.CG{marker DP.DOD.DLCD.CR.CG}}}Gross PSD, Central Gov., All maturities, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.CG.CD:DP.DOD.DLCD.CR.CG.CD{marker DP.DOD.DLCD.CR.CG.CD}}}055.Currency and deposits (PSDCG) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.CG.CD:DP.DOD.DLCD.CR.CG.CD{marker DP.DOD.DLCD.CR.CG.CD}}}Gross PSD, Central Gov., All maturities, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.CG.Z1:DP.DOD.DLCD.CR.CG.Z1{marker DP.DOD.DLCD.CR.CG.Z1}}}503.Currency and deposits (PSDCG)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.CG.Z1:DP.DOD.DLCD.CR.CG.Z1{marker DP.DOD.DLCD.CR.CG.Z1}}}Gross PSD, Central Gov., All maturities, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.FC:DP.DOD.DLCD.CR.FC{marker DP.DOD.DLCD.CR.FC}}}375.Currency and deposits (PSDFPC){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.FC:DP.DOD.DLCD.CR.FC{marker DP.DOD.DLCD.CR.FC}}}Gross PSD, Financial Public Corp., All maturities, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.FC.CD:DP.DOD.DLCD.CR.FC.CD{marker DP.DOD.DLCD.CR.FC.CD}}}151.Currency and deposits (PSDFPC) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.FC.CD:DP.DOD.DLCD.CR.FC.CD{marker DP.DOD.DLCD.CR.FC.CD}}}Gross PSD, Financial Public Corp., All maturities, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.FC.Z1:DP.DOD.DLCD.CR.FC.Z1{marker DP.DOD.DLCD.CR.FC.Z1}}}599.Currency and deposits (PSDFPC)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.FC.Z1:DP.DOD.DLCD.CR.FC.Z1{marker DP.DOD.DLCD.CR.FC.Z1}}}Gross PSD, Financial Public Corp., All maturities, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.GG:DP.DOD.DLCD.CR.GG{marker DP.DOD.DLCD.CR.GG}}}247.Currency and deposits (PSDGG, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.GG:DP.DOD.DLCD.CR.GG{marker DP.DOD.DLCD.CR.GG}}}Gross PSD, General Gov., All maturities, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.GG.CD:DP.DOD.DLCD.CR.GG.CD{marker DP.DOD.DLCD.CR.GG.CD}}}023.Currency and deposits (PSDGG) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.GG.CD:DP.DOD.DLCD.CR.GG.CD{marker DP.DOD.DLCD.CR.GG.CD}}}Gross PSD, General Gov., All maturities, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.GG.Z1:DP.DOD.DLCD.CR.GG.Z1{marker DP.DOD.DLCD.CR.GG.Z1}}}471.Currency and deposits (PSDGG, LT)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.GG.Z1:DP.DOD.DLCD.CR.GG.Z1{marker DP.DOD.DLCD.CR.GG.Z1}}}Gross PSD, General Gov., All maturities, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.BC:DP.DOD.DLCD.CR.L1.BC{marker DP.DOD.DLCD.CR.L1.BC}}}298.Currency and deposits (PSDCGGB, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.BC:DP.DOD.DLCD.CR.L1.BC{marker DP.DOD.DLCD.CR.L1.BC}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.BC.CD:DP.DOD.DLCD.CR.L1.BC.CD{marker DP.DOD.DLCD.CR.L1.BC.CD}}}074.Currency and deposits (PSDCGGB, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.BC.CD:DP.DOD.DLCD.CR.L1.BC.CD{marker DP.DOD.DLCD.CR.L1.BC.CD}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.BC.Z1:DP.DOD.DLCD.CR.L1.BC.Z1{marker DP.DOD.DLCD.CR.L1.BC.Z1}}}522.Currency and deposits (PSDCGGB, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.BC.Z1:DP.DOD.DLCD.CR.L1.BC.Z1{marker DP.DOD.DLCD.CR.L1.BC.Z1}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.CG:DP.DOD.DLCD.CR.L1.CG{marker DP.DOD.DLCD.CR.L1.CG}}}266.Currency and deposits (PSDCG, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.CG:DP.DOD.DLCD.CR.L1.CG{marker DP.DOD.DLCD.CR.L1.CG}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.CG.CD:DP.DOD.DLCD.CR.L1.CG.CD{marker DP.DOD.DLCD.CR.L1.CG.CD}}}042.Currency and deposits (PSDCG, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.CG.CD:DP.DOD.DLCD.CR.L1.CG.CD{marker DP.DOD.DLCD.CR.L1.CG.CD}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.CG.Z1:DP.DOD.DLCD.CR.L1.CG.Z1{marker DP.DOD.DLCD.CR.L1.CG.Z1}}}490.Currency and deposits (PSDCG, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.CG.Z1:DP.DOD.DLCD.CR.L1.CG.Z1{marker DP.DOD.DLCD.CR.L1.CG.Z1}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.FC:DP.DOD.DLCD.CR.L1.FC{marker DP.DOD.DLCD.CR.L1.FC}}}362.Currency and deposits (PSDFPC, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.FC:DP.DOD.DLCD.CR.L1.FC{marker DP.DOD.DLCD.CR.L1.FC}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.FC.CD:DP.DOD.DLCD.CR.L1.FC.CD{marker DP.DOD.DLCD.CR.L1.FC.CD}}}138.Currency and deposits (PSDFPC, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.FC.CD:DP.DOD.DLCD.CR.L1.FC.CD{marker DP.DOD.DLCD.CR.L1.FC.CD}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.FC.Z1:DP.DOD.DLCD.CR.L1.FC.Z1{marker DP.DOD.DLCD.CR.L1.FC.Z1}}}586.Currency and deposits (PSDFPC, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.FC.Z1:DP.DOD.DLCD.CR.L1.FC.Z1{marker DP.DOD.DLCD.CR.L1.FC.Z1}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.GG:DP.DOD.DLCD.CR.L1.GG{marker DP.DOD.DLCD.CR.L1.GG}}}234.Currency and deposits (PSDGG, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.GG:DP.DOD.DLCD.CR.L1.GG{marker DP.DOD.DLCD.CR.L1.GG}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.GG.CD:DP.DOD.DLCD.CR.L1.GG.CD{marker DP.DOD.DLCD.CR.L1.GG.CD}}}010.Currency and deposits (PSDGG, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.GG.CD:DP.DOD.DLCD.CR.L1.GG.CD{marker DP.DOD.DLCD.CR.L1.GG.CD}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.GG.Z1:DP.DOD.DLCD.CR.L1.GG.Z1{marker DP.DOD.DLCD.CR.L1.GG.Z1}}}458.Currency and deposits (PSDGG, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.GG.Z1:DP.DOD.DLCD.CR.L1.GG.Z1{marker DP.DOD.DLCD.CR.L1.GG.Z1}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.NF:DP.DOD.DLCD.CR.L1.NF{marker DP.DOD.DLCD.CR.L1.NF}}}330.Currency and deposits (PSDNFPC, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.NF:DP.DOD.DLCD.CR.L1.NF{marker DP.DOD.DLCD.CR.L1.NF}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.NF.CD:DP.DOD.DLCD.CR.L1.NF.CD{marker DP.DOD.DLCD.CR.L1.NF.CD}}}106.Currency and deposits (PSDNFPC, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.NF.CD:DP.DOD.DLCD.CR.L1.NF.CD{marker DP.DOD.DLCD.CR.L1.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.NF.Z1:DP.DOD.DLCD.CR.L1.NF.Z1{marker DP.DOD.DLCD.CR.L1.NF.Z1}}}554.Currency and deposits (PSDNFPC, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.NF.Z1:DP.DOD.DLCD.CR.L1.NF.Z1{marker DP.DOD.DLCD.CR.L1.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.PS:DP.DOD.DLCD.CR.L1.PS{marker DP.DOD.DLCD.CR.L1.PS}}}394.Currency and deposits (PSDT, LT,&lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.PS:DP.DOD.DLCD.CR.L1.PS{marker DP.DOD.DLCD.CR.L1.PS}}}Gross PSD, Public Sector, Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.PS.CD:DP.DOD.DLCD.CR.L1.PS.CD{marker DP.DOD.DLCD.CR.L1.PS.CD}}}170.Currency and deposits (PSDT, LT,&lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.L1.PS.CD:DP.DOD.DLCD.CR.L1.PS.CD{marker DP.DOD.DLCD.CR.L1.PS.CD}}}Gross PSD, Total, Long-term, With payment due in one year or less, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.BC:DP.DOD.DLCD.CR.M1.BC{marker DP.DOD.DLCD.CR.M1.BC}}}305.Currency and deposits (PSDCGGB, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.BC:DP.DOD.DLCD.CR.M1.BC{marker DP.DOD.DLCD.CR.M1.BC}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.BC.CD:DP.DOD.DLCD.CR.M1.BC.CD{marker DP.DOD.DLCD.CR.M1.BC.CD}}}081.Currency and deposits (PSDCGGB, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.BC.CD:DP.DOD.DLCD.CR.M1.BC.CD{marker DP.DOD.DLCD.CR.M1.BC.CD}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.BC.Z1:DP.DOD.DLCD.CR.M1.BC.Z1{marker DP.DOD.DLCD.CR.M1.BC.Z1}}}529.Currency and deposits (PSDCGGB, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.BC.Z1:DP.DOD.DLCD.CR.M1.BC.Z1{marker DP.DOD.DLCD.CR.M1.BC.Z1}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.CG:DP.DOD.DLCD.CR.M1.CG{marker DP.DOD.DLCD.CR.M1.CG}}}273.Currency and deposits (PSDCG, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.CG:DP.DOD.DLCD.CR.M1.CG{marker DP.DOD.DLCD.CR.M1.CG}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.CG.CD:DP.DOD.DLCD.CR.M1.CG.CD{marker DP.DOD.DLCD.CR.M1.CG.CD}}}049.Currency and deposits (PSDCG, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.CG.CD:DP.DOD.DLCD.CR.M1.CG.CD{marker DP.DOD.DLCD.CR.M1.CG.CD}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.CG.Z1:DP.DOD.DLCD.CR.M1.CG.Z1{marker DP.DOD.DLCD.CR.M1.CG.Z1}}}497.Currency and deposits (PSDCG, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.CG.Z1:DP.DOD.DLCD.CR.M1.CG.Z1{marker DP.DOD.DLCD.CR.M1.CG.Z1}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.FC:DP.DOD.DLCD.CR.M1.FC{marker DP.DOD.DLCD.CR.M1.FC}}}369.Currency and deposits (PSDFPC, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.FC:DP.DOD.DLCD.CR.M1.FC{marker DP.DOD.DLCD.CR.M1.FC}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.FC.CD:DP.DOD.DLCD.CR.M1.FC.CD{marker DP.DOD.DLCD.CR.M1.FC.CD}}}145.Currency and deposits (PSDFPC, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.FC.CD:DP.DOD.DLCD.CR.M1.FC.CD{marker DP.DOD.DLCD.CR.M1.FC.CD}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.FC.Z1:DP.DOD.DLCD.CR.M1.FC.Z1{marker DP.DOD.DLCD.CR.M1.FC.Z1}}}593.Currency and deposits (PSDFPC, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.FC.Z1:DP.DOD.DLCD.CR.M1.FC.Z1{marker DP.DOD.DLCD.CR.M1.FC.Z1}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.GG:DP.DOD.DLCD.CR.M1.GG{marker DP.DOD.DLCD.CR.M1.GG}}}241.Currency and deposits (PSDGG, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.GG:DP.DOD.DLCD.CR.M1.GG{marker DP.DOD.DLCD.CR.M1.GG}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.GG.CD:DP.DOD.DLCD.CR.M1.GG.CD{marker DP.DOD.DLCD.CR.M1.GG.CD}}}017.Currency and deposits (PSDGG, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.GG.CD:DP.DOD.DLCD.CR.M1.GG.CD{marker DP.DOD.DLCD.CR.M1.GG.CD}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.GG.Z1:DP.DOD.DLCD.CR.M1.GG.Z1{marker DP.DOD.DLCD.CR.M1.GG.Z1}}}465.Currency and deposits (PSDGG, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.GG.Z1:DP.DOD.DLCD.CR.M1.GG.Z1{marker DP.DOD.DLCD.CR.M1.GG.Z1}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.NF:DP.DOD.DLCD.CR.M1.NF{marker DP.DOD.DLCD.CR.M1.NF}}}337.Currency and deposits (PSDNFPC, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.NF:DP.DOD.DLCD.CR.M1.NF{marker DP.DOD.DLCD.CR.M1.NF}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.NF.CD:DP.DOD.DLCD.CR.M1.NF.CD{marker DP.DOD.DLCD.CR.M1.NF.CD}}}113.Currency and deposits (PSDNFPC, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.NF.CD:DP.DOD.DLCD.CR.M1.NF.CD{marker DP.DOD.DLCD.CR.M1.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.NF.Z1:DP.DOD.DLCD.CR.M1.NF.Z1{marker DP.DOD.DLCD.CR.M1.NF.Z1}}}561.Currency and deposits (PSDNFPC, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.NF.Z1:DP.DOD.DLCD.CR.M1.NF.Z1{marker DP.DOD.DLCD.CR.M1.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.PS:DP.DOD.DLCD.CR.M1.PS{marker DP.DOD.DLCD.CR.M1.PS}}}401.Currency and deposits (PSDT, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.PS:DP.DOD.DLCD.CR.M1.PS{marker DP.DOD.DLCD.CR.M1.PS}}}Gross PSD, Public Sector, Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.PS.CD:DP.DOD.DLCD.CR.M1.PS.CD{marker DP.DOD.DLCD.CR.M1.PS.CD}}}177.Currency and deposits (PSDT, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.M1.PS.CD:DP.DOD.DLCD.CR.M1.PS.CD{marker DP.DOD.DLCD.CR.M1.PS.CD}}}Gross PSD, Total, Long-term, With payment due in more than one year, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.NF:DP.DOD.DLCD.CR.NF{marker DP.DOD.DLCD.CR.NF}}}343.Currency and deposits (PSDNFPC){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.NF:DP.DOD.DLCD.CR.NF{marker DP.DOD.DLCD.CR.NF}}}Gross PSD, Nonfinancial Public Corp., All maturities, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.NF.CD:DP.DOD.DLCD.CR.NF.CD{marker DP.DOD.DLCD.CR.NF.CD}}}119.Currency and deposits (PSDNFPC) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.NF.CD:DP.DOD.DLCD.CR.NF.CD{marker DP.DOD.DLCD.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., All maturities, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.NF.Z1:DP.DOD.DLCD.CR.NF.Z1{marker DP.DOD.DLCD.CR.NF.Z1}}}567.Currency and deposits (PSDNFPC)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.NF.Z1:DP.DOD.DLCD.CR.NF.Z1{marker DP.DOD.DLCD.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., All maturities, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.PS:DP.DOD.DLCD.CR.PS{marker DP.DOD.DLCD.CR.PS}}}407.Currency and deposits (PSDT, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.PS:DP.DOD.DLCD.CR.PS{marker DP.DOD.DLCD.CR.PS}}}Gross PSD, Public Sector, All maturities, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.PS.CD:DP.DOD.DLCD.CR.PS.CD{marker DP.DOD.DLCD.CR.PS.CD}}}183.Currency and deposits (PSDT) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLCD.CR.PS.CD:DP.DOD.DLCD.CR.PS.CD{marker DP.DOD.DLCD.CR.PS.CD}}}Gross PSD, Total, All maturities, Currency and deposits, Nominal Value, US
 
 {synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLD1.CR.CG.CD:DP.DOD.DLD1.CR.CG.CD{marker DP.DOD.DLD1.CR.CG.CD}}}Gross PSD, Central Gov.-D1, All maturities, Debt securities + loans, Nominal Value, US
 
@@ -14666,821 +14646,821 @@
 
 {synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLD4.CR.GG.Z1:DP.DOD.DLD4.CR.GG.Z1{marker DP.DOD.DLD4.CR.GG.Z1}}}Gross PSD, General Gov.-D4, All maturities, D3+insurance, pensions, and standardized guarantees, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.BC:DP.DOD.DLDS.CR.BC{marker DP.DOD.DLDS.CR.BC}}}312.Debt securities (PSDCGGB){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.BC:DP.DOD.DLDS.CR.BC{marker DP.DOD.DLDS.CR.BC}}}Gross PSD, Budgetary Central Gov., All maturities, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.BC.CD:DP.DOD.DLDS.CR.BC.CD{marker DP.DOD.DLDS.CR.BC.CD}}}088.Debt securities (PSDCGGB) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.BC.CD:DP.DOD.DLDS.CR.BC.CD{marker DP.DOD.DLDS.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., All maturities, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.BC.Z1:DP.DOD.DLDS.CR.BC.Z1{marker DP.DOD.DLDS.CR.BC.Z1}}}536.Debt securities (PSDCGGB)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.BC.Z1:DP.DOD.DLDS.CR.BC.Z1{marker DP.DOD.DLDS.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., All maturities, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.CG:DP.DOD.DLDS.CR.CG{marker DP.DOD.DLDS.CR.CG}}}280.Debt securities (PSDCG){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.CG:DP.DOD.DLDS.CR.CG{marker DP.DOD.DLDS.CR.CG}}}Gross PSD, Central Gov., All maturities, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.CG.CD:DP.DOD.DLDS.CR.CG.CD{marker DP.DOD.DLDS.CR.CG.CD}}}056.Debt securities (PSDCG) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.CG.CD:DP.DOD.DLDS.CR.CG.CD{marker DP.DOD.DLDS.CR.CG.CD}}}Gross PSD, Central Gov., All maturities, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.CG.Z1:DP.DOD.DLDS.CR.CG.Z1{marker DP.DOD.DLDS.CR.CG.Z1}}}504.Debt securities (PSDCG)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.CG.Z1:DP.DOD.DLDS.CR.CG.Z1{marker DP.DOD.DLDS.CR.CG.Z1}}}Gross PSD, Central Gov., All maturities, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.FC:DP.DOD.DLDS.CR.FC{marker DP.DOD.DLDS.CR.FC}}}376.Debt securities (PSDFPC){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.FC:DP.DOD.DLDS.CR.FC{marker DP.DOD.DLDS.CR.FC}}}Gross PSD, Financial Public Corp., All maturities, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.FC.CD:DP.DOD.DLDS.CR.FC.CD{marker DP.DOD.DLDS.CR.FC.CD}}}152.Debt securities (PSDFPC) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.FC.CD:DP.DOD.DLDS.CR.FC.CD{marker DP.DOD.DLDS.CR.FC.CD}}}Gross PSD, Financial Public Corp., All maturities, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.FC.Z1:DP.DOD.DLDS.CR.FC.Z1{marker DP.DOD.DLDS.CR.FC.Z1}}}600.Debt securities (PSDFPC)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.FC.Z1:DP.DOD.DLDS.CR.FC.Z1{marker DP.DOD.DLDS.CR.FC.Z1}}}Gross PSD, Financial Public Corp., All maturities, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.GG:DP.DOD.DLDS.CR.GG{marker DP.DOD.DLDS.CR.GG}}}248.Debt securities (PSDGG, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.GG:DP.DOD.DLDS.CR.GG{marker DP.DOD.DLDS.CR.GG}}}Gross PSD, General Gov., All maturities, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.GG.CD:DP.DOD.DLDS.CR.GG.CD{marker DP.DOD.DLDS.CR.GG.CD}}}024.Debt securities (PSDGG) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.GG.CD:DP.DOD.DLDS.CR.GG.CD{marker DP.DOD.DLDS.CR.GG.CD}}}Gross PSD, General Gov., All maturities, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.GG.Z1:DP.DOD.DLDS.CR.GG.Z1{marker DP.DOD.DLDS.CR.GG.Z1}}}472.Debt securities (PSDGG, LT)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.GG.Z1:DP.DOD.DLDS.CR.GG.Z1{marker DP.DOD.DLDS.CR.GG.Z1}}}Gross PSD, General Gov., All maturities, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.BC:DP.DOD.DLDS.CR.L1.BC{marker DP.DOD.DLDS.CR.L1.BC}}}299.Debt securities (PSDCGGB, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.BC:DP.DOD.DLDS.CR.L1.BC{marker DP.DOD.DLDS.CR.L1.BC}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.BC.CD:DP.DOD.DLDS.CR.L1.BC.CD{marker DP.DOD.DLDS.CR.L1.BC.CD}}}075.Debt securities (PSDCGGB, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.BC.CD:DP.DOD.DLDS.CR.L1.BC.CD{marker DP.DOD.DLDS.CR.L1.BC.CD}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.BC.Z1:DP.DOD.DLDS.CR.L1.BC.Z1{marker DP.DOD.DLDS.CR.L1.BC.Z1}}}523.Debt securities (PSDCGGB, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.BC.Z1:DP.DOD.DLDS.CR.L1.BC.Z1{marker DP.DOD.DLDS.CR.L1.BC.Z1}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.CG:DP.DOD.DLDS.CR.L1.CG{marker DP.DOD.DLDS.CR.L1.CG}}}267.Debt securities (PSDCG, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.CG:DP.DOD.DLDS.CR.L1.CG{marker DP.DOD.DLDS.CR.L1.CG}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.CG.CD:DP.DOD.DLDS.CR.L1.CG.CD{marker DP.DOD.DLDS.CR.L1.CG.CD}}}043.Debt securities (PSDCG, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.CG.CD:DP.DOD.DLDS.CR.L1.CG.CD{marker DP.DOD.DLDS.CR.L1.CG.CD}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.CG.Z1:DP.DOD.DLDS.CR.L1.CG.Z1{marker DP.DOD.DLDS.CR.L1.CG.Z1}}}491.Debt securities (PSDCG, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.CG.Z1:DP.DOD.DLDS.CR.L1.CG.Z1{marker DP.DOD.DLDS.CR.L1.CG.Z1}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.FC:DP.DOD.DLDS.CR.L1.FC{marker DP.DOD.DLDS.CR.L1.FC}}}363.Debt securities (PSDFPC, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.FC:DP.DOD.DLDS.CR.L1.FC{marker DP.DOD.DLDS.CR.L1.FC}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.FC.CD:DP.DOD.DLDS.CR.L1.FC.CD{marker DP.DOD.DLDS.CR.L1.FC.CD}}}139.Debt securities (PSDFPC, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.FC.CD:DP.DOD.DLDS.CR.L1.FC.CD{marker DP.DOD.DLDS.CR.L1.FC.CD}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.FC.Z1:DP.DOD.DLDS.CR.L1.FC.Z1{marker DP.DOD.DLDS.CR.L1.FC.Z1}}}587.Debt securities (PSDFPC, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.FC.Z1:DP.DOD.DLDS.CR.L1.FC.Z1{marker DP.DOD.DLDS.CR.L1.FC.Z1}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.GG:DP.DOD.DLDS.CR.L1.GG{marker DP.DOD.DLDS.CR.L1.GG}}}235.Debt securities (PSDGG, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.GG:DP.DOD.DLDS.CR.L1.GG{marker DP.DOD.DLDS.CR.L1.GG}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.GG.CD:DP.DOD.DLDS.CR.L1.GG.CD{marker DP.DOD.DLDS.CR.L1.GG.CD}}}011.Debt securities (PSDGG, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.GG.CD:DP.DOD.DLDS.CR.L1.GG.CD{marker DP.DOD.DLDS.CR.L1.GG.CD}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.GG.Z1:DP.DOD.DLDS.CR.L1.GG.Z1{marker DP.DOD.DLDS.CR.L1.GG.Z1}}}459.Debt securities (PSDGG, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.GG.Z1:DP.DOD.DLDS.CR.L1.GG.Z1{marker DP.DOD.DLDS.CR.L1.GG.Z1}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.NF:DP.DOD.DLDS.CR.L1.NF{marker DP.DOD.DLDS.CR.L1.NF}}}331.Debt securities (PSDNFPC, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.NF:DP.DOD.DLDS.CR.L1.NF{marker DP.DOD.DLDS.CR.L1.NF}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.NF.CD:DP.DOD.DLDS.CR.L1.NF.CD{marker DP.DOD.DLDS.CR.L1.NF.CD}}}107.Debt securities (PSDNFPC, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.NF.CD:DP.DOD.DLDS.CR.L1.NF.CD{marker DP.DOD.DLDS.CR.L1.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.NF.Z1:DP.DOD.DLDS.CR.L1.NF.Z1{marker DP.DOD.DLDS.CR.L1.NF.Z1}}}555.Debt securities (PSDNFPC, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.NF.Z1:DP.DOD.DLDS.CR.L1.NF.Z1{marker DP.DOD.DLDS.CR.L1.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.PS:DP.DOD.DLDS.CR.L1.PS{marker DP.DOD.DLDS.CR.L1.PS}}}395.Debt securities (PSDT, LT,&lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.PS:DP.DOD.DLDS.CR.L1.PS{marker DP.DOD.DLDS.CR.L1.PS}}}Gross PSD, Public Sector, Long-term, With payment due in one year or less, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.PS.CD:DP.DOD.DLDS.CR.L1.PS.CD{marker DP.DOD.DLDS.CR.L1.PS.CD}}}171.Debt securities (PSDT, LT,&lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.L1.PS.CD:DP.DOD.DLDS.CR.L1.PS.CD{marker DP.DOD.DLDS.CR.L1.PS.CD}}}Gross PSD, Total, Long-term, With payment due in one year or less, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.BC:DP.DOD.DLDS.CR.M1.BC{marker DP.DOD.DLDS.CR.M1.BC}}}306.Debt securities (PSDCGGB, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.BC:DP.DOD.DLDS.CR.M1.BC{marker DP.DOD.DLDS.CR.M1.BC}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.BC.CD:DP.DOD.DLDS.CR.M1.BC.CD{marker DP.DOD.DLDS.CR.M1.BC.CD}}}082.Debt securities (PSDCGGB, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.BC.CD:DP.DOD.DLDS.CR.M1.BC.CD{marker DP.DOD.DLDS.CR.M1.BC.CD}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.BC.Z1:DP.DOD.DLDS.CR.M1.BC.Z1{marker DP.DOD.DLDS.CR.M1.BC.Z1}}}530.Debt securities (PSDCGGB, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.BC.Z1:DP.DOD.DLDS.CR.M1.BC.Z1{marker DP.DOD.DLDS.CR.M1.BC.Z1}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.CG:DP.DOD.DLDS.CR.M1.CG{marker DP.DOD.DLDS.CR.M1.CG}}}274.Debt securities (PSDCG, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.CG:DP.DOD.DLDS.CR.M1.CG{marker DP.DOD.DLDS.CR.M1.CG}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.CG.CD:DP.DOD.DLDS.CR.M1.CG.CD{marker DP.DOD.DLDS.CR.M1.CG.CD}}}050.Debt securities (PSDCG, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.CG.CD:DP.DOD.DLDS.CR.M1.CG.CD{marker DP.DOD.DLDS.CR.M1.CG.CD}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.CG.Z1:DP.DOD.DLDS.CR.M1.CG.Z1{marker DP.DOD.DLDS.CR.M1.CG.Z1}}}498.Debt securities (PSDCG, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.CG.Z1:DP.DOD.DLDS.CR.M1.CG.Z1{marker DP.DOD.DLDS.CR.M1.CG.Z1}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.FC:DP.DOD.DLDS.CR.M1.FC{marker DP.DOD.DLDS.CR.M1.FC}}}370.Debt securities (PSDFPC, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.FC:DP.DOD.DLDS.CR.M1.FC{marker DP.DOD.DLDS.CR.M1.FC}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.FC.CD:DP.DOD.DLDS.CR.M1.FC.CD{marker DP.DOD.DLDS.CR.M1.FC.CD}}}146.Debt securities (PSDFPC, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.FC.CD:DP.DOD.DLDS.CR.M1.FC.CD{marker DP.DOD.DLDS.CR.M1.FC.CD}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.FC.Z1:DP.DOD.DLDS.CR.M1.FC.Z1{marker DP.DOD.DLDS.CR.M1.FC.Z1}}}594.Debt securities (PSDFPC, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.FC.Z1:DP.DOD.DLDS.CR.M1.FC.Z1{marker DP.DOD.DLDS.CR.M1.FC.Z1}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.GG:DP.DOD.DLDS.CR.M1.GG{marker DP.DOD.DLDS.CR.M1.GG}}}242.Debt securities (PSDGG, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.GG:DP.DOD.DLDS.CR.M1.GG{marker DP.DOD.DLDS.CR.M1.GG}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.GG.CD:DP.DOD.DLDS.CR.M1.GG.CD{marker DP.DOD.DLDS.CR.M1.GG.CD}}}018.Debt securities (PSDGG, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.GG.CD:DP.DOD.DLDS.CR.M1.GG.CD{marker DP.DOD.DLDS.CR.M1.GG.CD}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.GG.Z1:DP.DOD.DLDS.CR.M1.GG.Z1{marker DP.DOD.DLDS.CR.M1.GG.Z1}}}466.Debt securities (PSDGG, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.GG.Z1:DP.DOD.DLDS.CR.M1.GG.Z1{marker DP.DOD.DLDS.CR.M1.GG.Z1}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.NF:DP.DOD.DLDS.CR.M1.NF{marker DP.DOD.DLDS.CR.M1.NF}}}338.Debt securities (PSDNFPC, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.NF:DP.DOD.DLDS.CR.M1.NF{marker DP.DOD.DLDS.CR.M1.NF}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.NF.CD:DP.DOD.DLDS.CR.M1.NF.CD{marker DP.DOD.DLDS.CR.M1.NF.CD}}}114.Debt securities (PSDNFPC, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.NF.CD:DP.DOD.DLDS.CR.M1.NF.CD{marker DP.DOD.DLDS.CR.M1.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.NF.Z1:DP.DOD.DLDS.CR.M1.NF.Z1{marker DP.DOD.DLDS.CR.M1.NF.Z1}}}562.Debt securities (PSDNFPC, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.NF.Z1:DP.DOD.DLDS.CR.M1.NF.Z1{marker DP.DOD.DLDS.CR.M1.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.PS:DP.DOD.DLDS.CR.M1.PS{marker DP.DOD.DLDS.CR.M1.PS}}}402.Debt securities (PSDT, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.PS:DP.DOD.DLDS.CR.M1.PS{marker DP.DOD.DLDS.CR.M1.PS}}}Gross PSD, Public Sector, Long-term, With payment due in more than one year, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.PS.CD:DP.DOD.DLDS.CR.M1.PS.CD{marker DP.DOD.DLDS.CR.M1.PS.CD}}}178.Debt securities (PSDT, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.M1.PS.CD:DP.DOD.DLDS.CR.M1.PS.CD{marker DP.DOD.DLDS.CR.M1.PS.CD}}}Gross PSD, Total, Long-term, With payment due in more than one year, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.BC:DP.DOD.DLDS.CR.MV.BC{marker DP.DOD.DLDS.CR.MV.BC}}}320.Gross Budg. Central Govt. Public Sector Debt securities at market value{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.BC:DP.DOD.DLDS.CR.MV.BC{marker DP.DOD.DLDS.CR.MV.BC}}}Gross PSD, Budgetary Central Gov., All maturities, Debt Securities, Market value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.BC.CD:DP.DOD.DLDS.CR.MV.BC.CD{marker DP.DOD.DLDS.CR.MV.BC.CD}}}096.Gross Budg. Central Govt. Public Sector Debt Securities at market value US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.BC.CD:DP.DOD.DLDS.CR.MV.BC.CD{marker DP.DOD.DLDS.CR.MV.BC.CD}}}Gross PSD, Budgetary Central Gov., All maturities, Debt Securities, Market value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.BC.Z1:DP.DOD.DLDS.CR.MV.BC.Z1{marker DP.DOD.DLDS.CR.MV.BC.Z1}}}544.Gross Budg. Central Govt. Public Sector Debt securities at market value(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.BC.Z1:DP.DOD.DLDS.CR.MV.BC.Z1{marker DP.DOD.DLDS.CR.MV.BC.Z1}}}Gross PSD, Budgetary Central Gov., All maturities, Debt Securities, Market value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.CG:DP.DOD.DLDS.CR.MV.CG{marker DP.DOD.DLDS.CR.MV.CG}}}288.Central Govt. Public Sector Debt securities at market value{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.CG:DP.DOD.DLDS.CR.MV.CG{marker DP.DOD.DLDS.CR.MV.CG}}}Gross PSD, Central Gov., All maturities, Debt Securities, Market value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.CG.CD:DP.DOD.DLDS.CR.MV.CG.CD{marker DP.DOD.DLDS.CR.MV.CG.CD}}}064.Central Govt. Public Sector Debt Securities at market value US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.CG.CD:DP.DOD.DLDS.CR.MV.CG.CD{marker DP.DOD.DLDS.CR.MV.CG.CD}}}Gross PSD, Central Gov., All maturities, Debt Securities, Market value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.CG.Z1:DP.DOD.DLDS.CR.MV.CG.Z1{marker DP.DOD.DLDS.CR.MV.CG.Z1}}}512.Central Govt. Public Sector Debt securities at market value(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.CG.Z1:DP.DOD.DLDS.CR.MV.CG.Z1{marker DP.DOD.DLDS.CR.MV.CG.Z1}}}Gross PSD, Central Gov., All maturities, Debt Securities, Market value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.FC:DP.DOD.DLDS.CR.MV.FC{marker DP.DOD.DLDS.CR.MV.FC}}}384.Gross Financial Public Corporations Debt securities at market value{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.FC:DP.DOD.DLDS.CR.MV.FC{marker DP.DOD.DLDS.CR.MV.FC}}}Gross PSD, Financial Public Corp., All maturities, Debt Securities, Market value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.FC.CD:DP.DOD.DLDS.CR.MV.FC.CD{marker DP.DOD.DLDS.CR.MV.FC.CD}}}160.Gross Financial Public Corporations Debt Securities at market value US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.FC.CD:DP.DOD.DLDS.CR.MV.FC.CD{marker DP.DOD.DLDS.CR.MV.FC.CD}}}Gross PSD, Financial Public Corp., All maturities, Debt Securities, Market value, US
 
 {synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.FC.Z1:DP.DOD.DLDS.CR.MV.FC.Z1{marker DP.DOD.DLDS.CR.MV.FC.Z1}}}Gross PSD, Financial Public Corp., All maturities, Debt Securities, Market value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.GG:DP.DOD.DLDS.CR.MV.GG{marker DP.DOD.DLDS.CR.MV.GG}}}256.General Govt. Public Sector Debt securities at market value{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.GG:DP.DOD.DLDS.CR.MV.GG{marker DP.DOD.DLDS.CR.MV.GG}}}Gross PSD, General Gov., All maturities, Debt Securities, Market value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.GG.CD:DP.DOD.DLDS.CR.MV.GG.CD{marker DP.DOD.DLDS.CR.MV.GG.CD}}}032.General Govt. Public Sector Debt Securities at market value US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.GG.CD:DP.DOD.DLDS.CR.MV.GG.CD{marker DP.DOD.DLDS.CR.MV.GG.CD}}}Gross PSD, General Gov., All maturities, Debt Securities, Market value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.GG.Z1:DP.DOD.DLDS.CR.MV.GG.Z1{marker DP.DOD.DLDS.CR.MV.GG.Z1}}}480.General Govt. Public Sector Debt securities at market value(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.GG.Z1:DP.DOD.DLDS.CR.MV.GG.Z1{marker DP.DOD.DLDS.CR.MV.GG.Z1}}}Gross PSD, General Gov., All maturities, Debt Securities, Market value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.NF:DP.DOD.DLDS.CR.MV.NF{marker DP.DOD.DLDS.CR.MV.NF}}}352.Gross Nonfinancial Public Corporations Debt securities at market value{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.NF:DP.DOD.DLDS.CR.MV.NF{marker DP.DOD.DLDS.CR.MV.NF}}}Gross PSD, Nonfinancial Public Corp., All maturities, Debt Securities, Market value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.NF.CD:DP.DOD.DLDS.CR.MV.NF.CD{marker DP.DOD.DLDS.CR.MV.NF.CD}}}128.Gross Nonfinancial Public Corporations Debt Securities at market value US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.NF.CD:DP.DOD.DLDS.CR.MV.NF.CD{marker DP.DOD.DLDS.CR.MV.NF.CD}}}Gross PSD, Nonfinancial Public Corp., All maturities, Debt Securities, Market value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.NF.Z1:DP.DOD.DLDS.CR.MV.NF.Z1{marker DP.DOD.DLDS.CR.MV.NF.Z1}}}576.Gross Nonfinancial Public Corporations Debt securities at market value(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.NF.Z1:DP.DOD.DLDS.CR.MV.NF.Z1{marker DP.DOD.DLDS.CR.MV.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., All maturities, Debt Securities, Market value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.PS:DP.DOD.DLDS.CR.MV.PS{marker DP.DOD.DLDS.CR.MV.PS}}}416.Gross Public Sector Debt securities at market value{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.PS:DP.DOD.DLDS.CR.MV.PS{marker DP.DOD.DLDS.CR.MV.PS}}}Gross PSD, Public Sector, All maturities, Debt Securities, Market value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.PS.CD:DP.DOD.DLDS.CR.MV.PS.CD{marker DP.DOD.DLDS.CR.MV.PS.CD}}}192.Gross Public Sector Debt Securities at market value US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.MV.PS.CD:DP.DOD.DLDS.CR.MV.PS.CD{marker DP.DOD.DLDS.CR.MV.PS.CD}}}Gross PSD, Total, All maturities, Debt Securities, Market value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.NF:DP.DOD.DLDS.CR.NF{marker DP.DOD.DLDS.CR.NF}}}344.Debt securities (PSDNFPC){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.NF:DP.DOD.DLDS.CR.NF{marker DP.DOD.DLDS.CR.NF}}}Gross PSD, Nonfinancial Public Corp., All maturities, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.NF.CD:DP.DOD.DLDS.CR.NF.CD{marker DP.DOD.DLDS.CR.NF.CD}}}120.Debt securities (PSDNFPC) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.NF.CD:DP.DOD.DLDS.CR.NF.CD{marker DP.DOD.DLDS.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., All maturities, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.NF.Z1:DP.DOD.DLDS.CR.NF.Z1{marker DP.DOD.DLDS.CR.NF.Z1}}}568.Debt securities (PSDNFPC)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.NF.Z1:DP.DOD.DLDS.CR.NF.Z1{marker DP.DOD.DLDS.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., All maturities, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.PS:DP.DOD.DLDS.CR.PS{marker DP.DOD.DLDS.CR.PS}}}408.Debt securities (PSDT, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.PS:DP.DOD.DLDS.CR.PS{marker DP.DOD.DLDS.CR.PS}}}Gross PSD, Public Sector, All maturities, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.PS.CD:DP.DOD.DLDS.CR.PS.CD{marker DP.DOD.DLDS.CR.PS.CD}}}184.Debt securities (PSDT) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLDS.CR.PS.CD:DP.DOD.DLDS.CR.PS.CD{marker DP.DOD.DLDS.CR.PS.CD}}}Gross PSD, Total, All maturities, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.BC:DP.DOD.DLIN.CR.BC{marker DP.DOD.DLIN.CR.BC}}}314.Insurance, pensions, and standardized guarantee schemes (PSDCGGB){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.BC:DP.DOD.DLIN.CR.BC{marker DP.DOD.DLIN.CR.BC}}}Gross PSD, Budgetary Central Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.BC.CD:DP.DOD.DLIN.CR.BC.CD{marker DP.DOD.DLIN.CR.BC.CD}}}090.Insurance, pensions, and standardized guarantee schemes (PSDCGGB) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.BC.CD:DP.DOD.DLIN.CR.BC.CD{marker DP.DOD.DLIN.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.BC.Z1:DP.DOD.DLIN.CR.BC.Z1{marker DP.DOD.DLIN.CR.BC.Z1}}}538.Insurance, pensions, and standardized guarantee schemes (PSDCGGB)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.BC.Z1:DP.DOD.DLIN.CR.BC.Z1{marker DP.DOD.DLIN.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.CG:DP.DOD.DLIN.CR.CG{marker DP.DOD.DLIN.CR.CG}}}282.Insurance, pensions, and standardized guarantee schemes (PSDCG){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.CG:DP.DOD.DLIN.CR.CG{marker DP.DOD.DLIN.CR.CG}}}Gross PSD, Central Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.CG.CD:DP.DOD.DLIN.CR.CG.CD{marker DP.DOD.DLIN.CR.CG.CD}}}058.Insurance, pensions, and standardized guarantee schemes (PSDCG) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.CG.CD:DP.DOD.DLIN.CR.CG.CD{marker DP.DOD.DLIN.CR.CG.CD}}}Gross PSD, Central Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.CG.Z1:DP.DOD.DLIN.CR.CG.Z1{marker DP.DOD.DLIN.CR.CG.Z1}}}506.Insurance, pensions, and standardized guarantee schemes (PSDCG)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.CG.Z1:DP.DOD.DLIN.CR.CG.Z1{marker DP.DOD.DLIN.CR.CG.Z1}}}Gross PSD, Central Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.FC:DP.DOD.DLIN.CR.FC{marker DP.DOD.DLIN.CR.FC}}}378.Insurance, pensions, and standardized guarantee schemes (PSDFPC){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.FC:DP.DOD.DLIN.CR.FC{marker DP.DOD.DLIN.CR.FC}}}Gross PSD, Financial Public Corp., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.FC.CD:DP.DOD.DLIN.CR.FC.CD{marker DP.DOD.DLIN.CR.FC.CD}}}154.Insurance, pensions, and standardized guarantee schemes (PSDFPC) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.FC.CD:DP.DOD.DLIN.CR.FC.CD{marker DP.DOD.DLIN.CR.FC.CD}}}Gross PSD, Financial Public Corp., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.FC.Z1:DP.DOD.DLIN.CR.FC.Z1{marker DP.DOD.DLIN.CR.FC.Z1}}}602.Insurance, pensions, and standardized guarantee schemes (PSDFPC)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.FC.Z1:DP.DOD.DLIN.CR.FC.Z1{marker DP.DOD.DLIN.CR.FC.Z1}}}Gross PSD, Financial Public Corp., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.GG:DP.DOD.DLIN.CR.GG{marker DP.DOD.DLIN.CR.GG}}}250.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.GG:DP.DOD.DLIN.CR.GG{marker DP.DOD.DLIN.CR.GG}}}Gross PSD, General Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.GG.CD:DP.DOD.DLIN.CR.GG.CD{marker DP.DOD.DLIN.CR.GG.CD}}}026.Insurance, pensions, and standardized guarantee schemes (PSDGG) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.GG.CD:DP.DOD.DLIN.CR.GG.CD{marker DP.DOD.DLIN.CR.GG.CD}}}Gross PSD, General Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.GG.Z1:DP.DOD.DLIN.CR.GG.Z1{marker DP.DOD.DLIN.CR.GG.Z1}}}474.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.GG.Z1:DP.DOD.DLIN.CR.GG.Z1{marker DP.DOD.DLIN.CR.GG.Z1}}}Gross PSD, General Gov., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.BC:DP.DOD.DLIN.CR.L1.BC{marker DP.DOD.DLIN.CR.L1.BC}}}301.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.BC:DP.DOD.DLIN.CR.L1.BC{marker DP.DOD.DLIN.CR.L1.BC}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.BC.CD:DP.DOD.DLIN.CR.L1.BC.CD{marker DP.DOD.DLIN.CR.L1.BC.CD}}}077.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.BC.CD:DP.DOD.DLIN.CR.L1.BC.CD{marker DP.DOD.DLIN.CR.L1.BC.CD}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.BC.Z1:DP.DOD.DLIN.CR.L1.BC.Z1{marker DP.DOD.DLIN.CR.L1.BC.Z1}}}525.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.BC.Z1:DP.DOD.DLIN.CR.L1.BC.Z1{marker DP.DOD.DLIN.CR.L1.BC.Z1}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.CG:DP.DOD.DLIN.CR.L1.CG{marker DP.DOD.DLIN.CR.L1.CG}}}269.Insurance, pensions, and standardized guarantee schemes (PSDCG, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.CG:DP.DOD.DLIN.CR.L1.CG{marker DP.DOD.DLIN.CR.L1.CG}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.CG.CD:DP.DOD.DLIN.CR.L1.CG.CD{marker DP.DOD.DLIN.CR.L1.CG.CD}}}045.Insurance, pensions, and standardized guarantee schemes (PSDCG, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.CG.CD:DP.DOD.DLIN.CR.L1.CG.CD{marker DP.DOD.DLIN.CR.L1.CG.CD}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.CG.Z1:DP.DOD.DLIN.CR.L1.CG.Z1{marker DP.DOD.DLIN.CR.L1.CG.Z1}}}493.Insurance, pensions, and standardized guarantee schemes (PSDCG, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.CG.Z1:DP.DOD.DLIN.CR.L1.CG.Z1{marker DP.DOD.DLIN.CR.L1.CG.Z1}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.FC:DP.DOD.DLIN.CR.L1.FC{marker DP.DOD.DLIN.CR.L1.FC}}}365.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.FC:DP.DOD.DLIN.CR.L1.FC{marker DP.DOD.DLIN.CR.L1.FC}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.FC.CD:DP.DOD.DLIN.CR.L1.FC.CD{marker DP.DOD.DLIN.CR.L1.FC.CD}}}141.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.FC.CD:DP.DOD.DLIN.CR.L1.FC.CD{marker DP.DOD.DLIN.CR.L1.FC.CD}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.FC.Z1:DP.DOD.DLIN.CR.L1.FC.Z1{marker DP.DOD.DLIN.CR.L1.FC.Z1}}}589.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.FC.Z1:DP.DOD.DLIN.CR.L1.FC.Z1{marker DP.DOD.DLIN.CR.L1.FC.Z1}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.GG:DP.DOD.DLIN.CR.L1.GG{marker DP.DOD.DLIN.CR.L1.GG}}}237.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.GG:DP.DOD.DLIN.CR.L1.GG{marker DP.DOD.DLIN.CR.L1.GG}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.GG.CD:DP.DOD.DLIN.CR.L1.GG.CD{marker DP.DOD.DLIN.CR.L1.GG.CD}}}013.Insurance, pensions, and standardized guarantee schemes (PSDGG, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.GG.CD:DP.DOD.DLIN.CR.L1.GG.CD{marker DP.DOD.DLIN.CR.L1.GG.CD}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.GG.Z1:DP.DOD.DLIN.CR.L1.GG.Z1{marker DP.DOD.DLIN.CR.L1.GG.Z1}}}461.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.GG.Z1:DP.DOD.DLIN.CR.L1.GG.Z1{marker DP.DOD.DLIN.CR.L1.GG.Z1}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.NF:DP.DOD.DLIN.CR.L1.NF{marker DP.DOD.DLIN.CR.L1.NF}}}333.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.NF:DP.DOD.DLIN.CR.L1.NF{marker DP.DOD.DLIN.CR.L1.NF}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.NF.CD:DP.DOD.DLIN.CR.L1.NF.CD{marker DP.DOD.DLIN.CR.L1.NF.CD}}}109.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.NF.CD:DP.DOD.DLIN.CR.L1.NF.CD{marker DP.DOD.DLIN.CR.L1.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.NF.Z1:DP.DOD.DLIN.CR.L1.NF.Z1{marker DP.DOD.DLIN.CR.L1.NF.Z1}}}557.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.NF.Z1:DP.DOD.DLIN.CR.L1.NF.Z1{marker DP.DOD.DLIN.CR.L1.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.PS:DP.DOD.DLIN.CR.L1.PS{marker DP.DOD.DLIN.CR.L1.PS}}}397.Insurance, pensions, and standardized guarantee schemes (PSDT, LT,&lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.PS:DP.DOD.DLIN.CR.L1.PS{marker DP.DOD.DLIN.CR.L1.PS}}}Gross PSD, Public Sector, Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.PS.CD:DP.DOD.DLIN.CR.L1.PS.CD{marker DP.DOD.DLIN.CR.L1.PS.CD}}}173.Insurance, pensions, and standardized guarantee schemes (PSDT, LT,&lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.L1.PS.CD:DP.DOD.DLIN.CR.L1.PS.CD{marker DP.DOD.DLIN.CR.L1.PS.CD}}}Gross PSD, Total, Long-term, With payment due in one year or less, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.BC:DP.DOD.DLIN.CR.M1.BC{marker DP.DOD.DLIN.CR.M1.BC}}}308.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.BC:DP.DOD.DLIN.CR.M1.BC{marker DP.DOD.DLIN.CR.M1.BC}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.BC.CD:DP.DOD.DLIN.CR.M1.BC.CD{marker DP.DOD.DLIN.CR.M1.BC.CD}}}084.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.BC.CD:DP.DOD.DLIN.CR.M1.BC.CD{marker DP.DOD.DLIN.CR.M1.BC.CD}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.BC.Z1:DP.DOD.DLIN.CR.M1.BC.Z1{marker DP.DOD.DLIN.CR.M1.BC.Z1}}}532.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.BC.Z1:DP.DOD.DLIN.CR.M1.BC.Z1{marker DP.DOD.DLIN.CR.M1.BC.Z1}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.CG:DP.DOD.DLIN.CR.M1.CG{marker DP.DOD.DLIN.CR.M1.CG}}}276.Insurance, pensions, and standardized guarantee schemes (PSDCG, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.CG:DP.DOD.DLIN.CR.M1.CG{marker DP.DOD.DLIN.CR.M1.CG}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.CG.CD:DP.DOD.DLIN.CR.M1.CG.CD{marker DP.DOD.DLIN.CR.M1.CG.CD}}}052.Insurance, pensions, and standardized guarantee schemes (PSDCG, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.CG.CD:DP.DOD.DLIN.CR.M1.CG.CD{marker DP.DOD.DLIN.CR.M1.CG.CD}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.CG.Z1:DP.DOD.DLIN.CR.M1.CG.Z1{marker DP.DOD.DLIN.CR.M1.CG.Z1}}}500.Insurance, pensions, and standardized guarantee schemes (PSDCG, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.CG.Z1:DP.DOD.DLIN.CR.M1.CG.Z1{marker DP.DOD.DLIN.CR.M1.CG.Z1}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.FC:DP.DOD.DLIN.CR.M1.FC{marker DP.DOD.DLIN.CR.M1.FC}}}372.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.FC:DP.DOD.DLIN.CR.M1.FC{marker DP.DOD.DLIN.CR.M1.FC}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.FC.CD:DP.DOD.DLIN.CR.M1.FC.CD{marker DP.DOD.DLIN.CR.M1.FC.CD}}}148.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.FC.CD:DP.DOD.DLIN.CR.M1.FC.CD{marker DP.DOD.DLIN.CR.M1.FC.CD}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.FC.Z1:DP.DOD.DLIN.CR.M1.FC.Z1{marker DP.DOD.DLIN.CR.M1.FC.Z1}}}596.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.FC.Z1:DP.DOD.DLIN.CR.M1.FC.Z1{marker DP.DOD.DLIN.CR.M1.FC.Z1}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.GG:DP.DOD.DLIN.CR.M1.GG{marker DP.DOD.DLIN.CR.M1.GG}}}244.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.GG:DP.DOD.DLIN.CR.M1.GG{marker DP.DOD.DLIN.CR.M1.GG}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.GG.CD:DP.DOD.DLIN.CR.M1.GG.CD{marker DP.DOD.DLIN.CR.M1.GG.CD}}}020.Insurance, pensions, and standardized guarantee schemes (PSDGG, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.GG.CD:DP.DOD.DLIN.CR.M1.GG.CD{marker DP.DOD.DLIN.CR.M1.GG.CD}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.GG.Z1:DP.DOD.DLIN.CR.M1.GG.Z1{marker DP.DOD.DLIN.CR.M1.GG.Z1}}}468.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.GG.Z1:DP.DOD.DLIN.CR.M1.GG.Z1{marker DP.DOD.DLIN.CR.M1.GG.Z1}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.NF:DP.DOD.DLIN.CR.M1.NF{marker DP.DOD.DLIN.CR.M1.NF}}}340.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.NF:DP.DOD.DLIN.CR.M1.NF{marker DP.DOD.DLIN.CR.M1.NF}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.NF.CD:DP.DOD.DLIN.CR.M1.NF.CD{marker DP.DOD.DLIN.CR.M1.NF.CD}}}116.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.NF.CD:DP.DOD.DLIN.CR.M1.NF.CD{marker DP.DOD.DLIN.CR.M1.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.NF.Z1:DP.DOD.DLIN.CR.M1.NF.Z1{marker DP.DOD.DLIN.CR.M1.NF.Z1}}}564.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.NF.Z1:DP.DOD.DLIN.CR.M1.NF.Z1{marker DP.DOD.DLIN.CR.M1.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.PS:DP.DOD.DLIN.CR.M1.PS{marker DP.DOD.DLIN.CR.M1.PS}}}404.Insurance, pensions, and standardized guarantee schemes (PSDT, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.PS:DP.DOD.DLIN.CR.M1.PS{marker DP.DOD.DLIN.CR.M1.PS}}}Gross PSD, Public Sector, Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.PS.CD:DP.DOD.DLIN.CR.M1.PS.CD{marker DP.DOD.DLIN.CR.M1.PS.CD}}}180.Insurance, pensions, and standardized guarantee schemes (PSDT, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.M1.PS.CD:DP.DOD.DLIN.CR.M1.PS.CD{marker DP.DOD.DLIN.CR.M1.PS.CD}}}Gross PSD, Total, Long-term, With payment due in more than one year, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.NF:DP.DOD.DLIN.CR.NF{marker DP.DOD.DLIN.CR.NF}}}346.Insurance, pensions, and standardized guarantee schemes (PSDNFPC){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.NF:DP.DOD.DLIN.CR.NF{marker DP.DOD.DLIN.CR.NF}}}Gross PSD, Nonfinancial Public Corp., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.NF.CD:DP.DOD.DLIN.CR.NF.CD{marker DP.DOD.DLIN.CR.NF.CD}}}122.Insurance, pensions, and standardized guarantee schemes (PSDNFPC) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.NF.CD:DP.DOD.DLIN.CR.NF.CD{marker DP.DOD.DLIN.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.NF.Z1:DP.DOD.DLIN.CR.NF.Z1{marker DP.DOD.DLIN.CR.NF.Z1}}}570.Insurance, pensions, and standardized guarantee schemes (PSDNFPC)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.NF.Z1:DP.DOD.DLIN.CR.NF.Z1{marker DP.DOD.DLIN.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.PS:DP.DOD.DLIN.CR.PS{marker DP.DOD.DLIN.CR.PS}}}410.Insurance, pensions, and standardized guarantee schemes (PSDT, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.PS:DP.DOD.DLIN.CR.PS{marker DP.DOD.DLIN.CR.PS}}}Gross PSD, Public Sector, All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.PS.CD:DP.DOD.DLIN.CR.PS.CD{marker DP.DOD.DLIN.CR.PS.CD}}}186.Insurance, pensions, and standardized guarantee schemes (PSDT) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLIN.CR.PS.CD:DP.DOD.DLIN.CR.PS.CD{marker DP.DOD.DLIN.CR.PS.CD}}}Gross PSD, Total, All maturities, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.BC:DP.DOD.DLLO.CR.BC{marker DP.DOD.DLLO.CR.BC}}}313.Loans (PSDCGGB){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.BC:DP.DOD.DLLO.CR.BC{marker DP.DOD.DLLO.CR.BC}}}Gross PSD, Budgetary Central Gov., All maturities, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.BC.CD:DP.DOD.DLLO.CR.BC.CD{marker DP.DOD.DLLO.CR.BC.CD}}}089.Loans (PSDCGGB) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.BC.CD:DP.DOD.DLLO.CR.BC.CD{marker DP.DOD.DLLO.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., All maturities, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.BC.Z1:DP.DOD.DLLO.CR.BC.Z1{marker DP.DOD.DLLO.CR.BC.Z1}}}537.Loans (PSDCGGB)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.BC.Z1:DP.DOD.DLLO.CR.BC.Z1{marker DP.DOD.DLLO.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., All maturities, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.CG:DP.DOD.DLLO.CR.CG{marker DP.DOD.DLLO.CR.CG}}}281.Loans (PSDCG){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.CG:DP.DOD.DLLO.CR.CG{marker DP.DOD.DLLO.CR.CG}}}Gross PSD, Central Gov., All maturities, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.CG.CD:DP.DOD.DLLO.CR.CG.CD{marker DP.DOD.DLLO.CR.CG.CD}}}057.Loans (PSDCG) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.CG.CD:DP.DOD.DLLO.CR.CG.CD{marker DP.DOD.DLLO.CR.CG.CD}}}Gross PSD, Central Gov., All maturities, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.CG.Z1:DP.DOD.DLLO.CR.CG.Z1{marker DP.DOD.DLLO.CR.CG.Z1}}}505.Loans (PSDCG)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.CG.Z1:DP.DOD.DLLO.CR.CG.Z1{marker DP.DOD.DLLO.CR.CG.Z1}}}Gross PSD, Central Gov., All maturities, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.FC:DP.DOD.DLLO.CR.FC{marker DP.DOD.DLLO.CR.FC}}}377.Loans (PSDFPC){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.FC:DP.DOD.DLLO.CR.FC{marker DP.DOD.DLLO.CR.FC}}}Gross PSD, Financial Public Corp., All maturities, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.FC.CD:DP.DOD.DLLO.CR.FC.CD{marker DP.DOD.DLLO.CR.FC.CD}}}153.Loans (PSDFPC) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.FC.CD:DP.DOD.DLLO.CR.FC.CD{marker DP.DOD.DLLO.CR.FC.CD}}}Gross PSD, Financial Public Corp., All maturities, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.FC.Z1:DP.DOD.DLLO.CR.FC.Z1{marker DP.DOD.DLLO.CR.FC.Z1}}}601.Loans (PSDFPC)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.FC.Z1:DP.DOD.DLLO.CR.FC.Z1{marker DP.DOD.DLLO.CR.FC.Z1}}}Gross PSD, Financial Public Corp., All maturities, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.GG:DP.DOD.DLLO.CR.GG{marker DP.DOD.DLLO.CR.GG}}}249.Loans (PSDGG, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.GG:DP.DOD.DLLO.CR.GG{marker DP.DOD.DLLO.CR.GG}}}Gross PSD, General Gov., All maturities, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.GG.CD:DP.DOD.DLLO.CR.GG.CD{marker DP.DOD.DLLO.CR.GG.CD}}}025.Loans (PSDGG) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.GG.CD:DP.DOD.DLLO.CR.GG.CD{marker DP.DOD.DLLO.CR.GG.CD}}}Gross PSD, General Gov., All maturities, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.GG.Z1:DP.DOD.DLLO.CR.GG.Z1{marker DP.DOD.DLLO.CR.GG.Z1}}}473.Loans (PSDGG, LT)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.GG.Z1:DP.DOD.DLLO.CR.GG.Z1{marker DP.DOD.DLLO.CR.GG.Z1}}}Gross PSD, General Gov., All maturities, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.BC:DP.DOD.DLLO.CR.L1.BC{marker DP.DOD.DLLO.CR.L1.BC}}}300.Loans (PSDCGGB, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.BC:DP.DOD.DLLO.CR.L1.BC{marker DP.DOD.DLLO.CR.L1.BC}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.BC.CD:DP.DOD.DLLO.CR.L1.BC.CD{marker DP.DOD.DLLO.CR.L1.BC.CD}}}076.Loans (PSDCGGB, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.BC.CD:DP.DOD.DLLO.CR.L1.BC.CD{marker DP.DOD.DLLO.CR.L1.BC.CD}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.BC.Z1:DP.DOD.DLLO.CR.L1.BC.Z1{marker DP.DOD.DLLO.CR.L1.BC.Z1}}}524.Loans (PSDCGGB, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.BC.Z1:DP.DOD.DLLO.CR.L1.BC.Z1{marker DP.DOD.DLLO.CR.L1.BC.Z1}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.CG:DP.DOD.DLLO.CR.L1.CG{marker DP.DOD.DLLO.CR.L1.CG}}}268.Loans (PSDCG, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.CG:DP.DOD.DLLO.CR.L1.CG{marker DP.DOD.DLLO.CR.L1.CG}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.CG.CD:DP.DOD.DLLO.CR.L1.CG.CD{marker DP.DOD.DLLO.CR.L1.CG.CD}}}044.Loans (PSDCG, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.CG.CD:DP.DOD.DLLO.CR.L1.CG.CD{marker DP.DOD.DLLO.CR.L1.CG.CD}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.CG.Z1:DP.DOD.DLLO.CR.L1.CG.Z1{marker DP.DOD.DLLO.CR.L1.CG.Z1}}}492.Loans (PSDCG, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.CG.Z1:DP.DOD.DLLO.CR.L1.CG.Z1{marker DP.DOD.DLLO.CR.L1.CG.Z1}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.FC:DP.DOD.DLLO.CR.L1.FC{marker DP.DOD.DLLO.CR.L1.FC}}}364.Loans (PSDFPC, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.FC:DP.DOD.DLLO.CR.L1.FC{marker DP.DOD.DLLO.CR.L1.FC}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.FC.CD:DP.DOD.DLLO.CR.L1.FC.CD{marker DP.DOD.DLLO.CR.L1.FC.CD}}}140.Loans (PSDFPC, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.FC.CD:DP.DOD.DLLO.CR.L1.FC.CD{marker DP.DOD.DLLO.CR.L1.FC.CD}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.FC.Z1:DP.DOD.DLLO.CR.L1.FC.Z1{marker DP.DOD.DLLO.CR.L1.FC.Z1}}}588.Loans (PSDFPC, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.FC.Z1:DP.DOD.DLLO.CR.L1.FC.Z1{marker DP.DOD.DLLO.CR.L1.FC.Z1}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.GG:DP.DOD.DLLO.CR.L1.GG{marker DP.DOD.DLLO.CR.L1.GG}}}236.Loans (PSDGG, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.GG:DP.DOD.DLLO.CR.L1.GG{marker DP.DOD.DLLO.CR.L1.GG}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.GG.CD:DP.DOD.DLLO.CR.L1.GG.CD{marker DP.DOD.DLLO.CR.L1.GG.CD}}}012.Loans (PSDGG, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.GG.CD:DP.DOD.DLLO.CR.L1.GG.CD{marker DP.DOD.DLLO.CR.L1.GG.CD}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.GG.Z1:DP.DOD.DLLO.CR.L1.GG.Z1{marker DP.DOD.DLLO.CR.L1.GG.Z1}}}460.Loans (PSDGG, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.GG.Z1:DP.DOD.DLLO.CR.L1.GG.Z1{marker DP.DOD.DLLO.CR.L1.GG.Z1}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.NF:DP.DOD.DLLO.CR.L1.NF{marker DP.DOD.DLLO.CR.L1.NF}}}332.Loans (PSDNFPC, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.NF:DP.DOD.DLLO.CR.L1.NF{marker DP.DOD.DLLO.CR.L1.NF}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.NF.CD:DP.DOD.DLLO.CR.L1.NF.CD{marker DP.DOD.DLLO.CR.L1.NF.CD}}}108.Loans (PSDNFPC, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.NF.CD:DP.DOD.DLLO.CR.L1.NF.CD{marker DP.DOD.DLLO.CR.L1.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.NF.Z1:DP.DOD.DLLO.CR.L1.NF.Z1{marker DP.DOD.DLLO.CR.L1.NF.Z1}}}556.Loans (PSDNFPC, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.NF.Z1:DP.DOD.DLLO.CR.L1.NF.Z1{marker DP.DOD.DLLO.CR.L1.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.PS:DP.DOD.DLLO.CR.L1.PS{marker DP.DOD.DLLO.CR.L1.PS}}}396.Loans (PSDT, LT,&lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.PS:DP.DOD.DLLO.CR.L1.PS{marker DP.DOD.DLLO.CR.L1.PS}}}Gross PSD, Public Sector, Long-term, With payment due in one year or less, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.PS.CD:DP.DOD.DLLO.CR.L1.PS.CD{marker DP.DOD.DLLO.CR.L1.PS.CD}}}172.Loans (PSDT, LT,&lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.L1.PS.CD:DP.DOD.DLLO.CR.L1.PS.CD{marker DP.DOD.DLLO.CR.L1.PS.CD}}}Gross PSD, Total, Long-term, With payment due in one year or less, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.BC:DP.DOD.DLLO.CR.M1.BC{marker DP.DOD.DLLO.CR.M1.BC}}}307.Loans (PSDCGGB, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.BC:DP.DOD.DLLO.CR.M1.BC{marker DP.DOD.DLLO.CR.M1.BC}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.BC.CD:DP.DOD.DLLO.CR.M1.BC.CD{marker DP.DOD.DLLO.CR.M1.BC.CD}}}083.Loans (PSDCGGB, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.BC.CD:DP.DOD.DLLO.CR.M1.BC.CD{marker DP.DOD.DLLO.CR.M1.BC.CD}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.BC.Z1:DP.DOD.DLLO.CR.M1.BC.Z1{marker DP.DOD.DLLO.CR.M1.BC.Z1}}}531.Loans (PSDCGGB, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.BC.Z1:DP.DOD.DLLO.CR.M1.BC.Z1{marker DP.DOD.DLLO.CR.M1.BC.Z1}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.CG:DP.DOD.DLLO.CR.M1.CG{marker DP.DOD.DLLO.CR.M1.CG}}}275.Loans (PSDCG, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.CG:DP.DOD.DLLO.CR.M1.CG{marker DP.DOD.DLLO.CR.M1.CG}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.CG.CD:DP.DOD.DLLO.CR.M1.CG.CD{marker DP.DOD.DLLO.CR.M1.CG.CD}}}051.Loans (PSDCG, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.CG.CD:DP.DOD.DLLO.CR.M1.CG.CD{marker DP.DOD.DLLO.CR.M1.CG.CD}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.CG.Z1:DP.DOD.DLLO.CR.M1.CG.Z1{marker DP.DOD.DLLO.CR.M1.CG.Z1}}}499.Loans (PSDCG, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.CG.Z1:DP.DOD.DLLO.CR.M1.CG.Z1{marker DP.DOD.DLLO.CR.M1.CG.Z1}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.FC:DP.DOD.DLLO.CR.M1.FC{marker DP.DOD.DLLO.CR.M1.FC}}}371.Loans (PSDFPC, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.FC:DP.DOD.DLLO.CR.M1.FC{marker DP.DOD.DLLO.CR.M1.FC}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.FC.CD:DP.DOD.DLLO.CR.M1.FC.CD{marker DP.DOD.DLLO.CR.M1.FC.CD}}}147.Loans (PSDFPC, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.FC.CD:DP.DOD.DLLO.CR.M1.FC.CD{marker DP.DOD.DLLO.CR.M1.FC.CD}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.FC.Z1:DP.DOD.DLLO.CR.M1.FC.Z1{marker DP.DOD.DLLO.CR.M1.FC.Z1}}}595.Loans (PSDFPC, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.FC.Z1:DP.DOD.DLLO.CR.M1.FC.Z1{marker DP.DOD.DLLO.CR.M1.FC.Z1}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.GG:DP.DOD.DLLO.CR.M1.GG{marker DP.DOD.DLLO.CR.M1.GG}}}243.Loans (PSDGG, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.GG:DP.DOD.DLLO.CR.M1.GG{marker DP.DOD.DLLO.CR.M1.GG}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.GG.CD:DP.DOD.DLLO.CR.M1.GG.CD{marker DP.DOD.DLLO.CR.M1.GG.CD}}}019.Loans (PSDGG, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.GG.CD:DP.DOD.DLLO.CR.M1.GG.CD{marker DP.DOD.DLLO.CR.M1.GG.CD}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.GG.Z1:DP.DOD.DLLO.CR.M1.GG.Z1{marker DP.DOD.DLLO.CR.M1.GG.Z1}}}467.Loans (PSDGG, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.GG.Z1:DP.DOD.DLLO.CR.M1.GG.Z1{marker DP.DOD.DLLO.CR.M1.GG.Z1}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.NF:DP.DOD.DLLO.CR.M1.NF{marker DP.DOD.DLLO.CR.M1.NF}}}339.Loans (PSDNFPC, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.NF:DP.DOD.DLLO.CR.M1.NF{marker DP.DOD.DLLO.CR.M1.NF}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.NF.CD:DP.DOD.DLLO.CR.M1.NF.CD{marker DP.DOD.DLLO.CR.M1.NF.CD}}}115.Loans (PSDNFPC, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.NF.CD:DP.DOD.DLLO.CR.M1.NF.CD{marker DP.DOD.DLLO.CR.M1.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.NF.Z1:DP.DOD.DLLO.CR.M1.NF.Z1{marker DP.DOD.DLLO.CR.M1.NF.Z1}}}563.Loans (PSDNFPC, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.NF.Z1:DP.DOD.DLLO.CR.M1.NF.Z1{marker DP.DOD.DLLO.CR.M1.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.PS:DP.DOD.DLLO.CR.M1.PS{marker DP.DOD.DLLO.CR.M1.PS}}}403.Loans (PSDT, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.PS:DP.DOD.DLLO.CR.M1.PS{marker DP.DOD.DLLO.CR.M1.PS}}}Gross PSD, Public Sector, Long-term, With payment due in more than one year, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.PS.CD:DP.DOD.DLLO.CR.M1.PS.CD{marker DP.DOD.DLLO.CR.M1.PS.CD}}}179.Loans (PSDT, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.M1.PS.CD:DP.DOD.DLLO.CR.M1.PS.CD{marker DP.DOD.DLLO.CR.M1.PS.CD}}}Gross PSD, Total, Long-term, With payment due in more than one year, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.NF:DP.DOD.DLLO.CR.NF{marker DP.DOD.DLLO.CR.NF}}}345.Loans (PSDNFPC){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.NF:DP.DOD.DLLO.CR.NF{marker DP.DOD.DLLO.CR.NF}}}Gross PSD, Nonfinancial Public Corp., All maturities, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.NF.CD:DP.DOD.DLLO.CR.NF.CD{marker DP.DOD.DLLO.CR.NF.CD}}}121.Loans (PSDNFPC) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.NF.CD:DP.DOD.DLLO.CR.NF.CD{marker DP.DOD.DLLO.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., All maturities, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.NF.Z1:DP.DOD.DLLO.CR.NF.Z1{marker DP.DOD.DLLO.CR.NF.Z1}}}569.Loans (PSDNFPC)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.NF.Z1:DP.DOD.DLLO.CR.NF.Z1{marker DP.DOD.DLLO.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., All maturities, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.PS:DP.DOD.DLLO.CR.PS{marker DP.DOD.DLLO.CR.PS}}}409.Loans (PSDT, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.PS:DP.DOD.DLLO.CR.PS{marker DP.DOD.DLLO.CR.PS}}}Gross PSD, Public Sector, All maturities, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.PS.CD:DP.DOD.DLLO.CR.PS.CD{marker DP.DOD.DLLO.CR.PS.CD}}}185.Loans (PSDT) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLLO.CR.PS.CD:DP.DOD.DLLO.CR.PS.CD{marker DP.DOD.DLLO.CR.PS.CD}}}Gross PSD, Total, All maturities, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.BC:DP.DOD.DLOA.CR.BC{marker DP.DOD.DLOA.CR.BC}}}315.Other accounts payable (PSDCGGB){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.BC:DP.DOD.DLOA.CR.BC{marker DP.DOD.DLOA.CR.BC}}}Gross PSD, Budgetary Central Gov., All maturities, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.BC.CD:DP.DOD.DLOA.CR.BC.CD{marker DP.DOD.DLOA.CR.BC.CD}}}091.Other accounts payable (PSDCGGB) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.BC.CD:DP.DOD.DLOA.CR.BC.CD{marker DP.DOD.DLOA.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., All maturities, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.BC.Z1:DP.DOD.DLOA.CR.BC.Z1{marker DP.DOD.DLOA.CR.BC.Z1}}}539.Other accounts payable (PSDCGGB)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.BC.Z1:DP.DOD.DLOA.CR.BC.Z1{marker DP.DOD.DLOA.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., All maturities, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.CG:DP.DOD.DLOA.CR.CG{marker DP.DOD.DLOA.CR.CG}}}283.Other accounts payable (PSDCG){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.CG:DP.DOD.DLOA.CR.CG{marker DP.DOD.DLOA.CR.CG}}}Gross PSD, Central Gov., All maturities, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.CG.CD:DP.DOD.DLOA.CR.CG.CD{marker DP.DOD.DLOA.CR.CG.CD}}}059.Other accounts payable (PSDCG) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.CG.CD:DP.DOD.DLOA.CR.CG.CD{marker DP.DOD.DLOA.CR.CG.CD}}}Gross PSD, Central Gov., All maturities, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.CG.Z1:DP.DOD.DLOA.CR.CG.Z1{marker DP.DOD.DLOA.CR.CG.Z1}}}507.Other accounts payable (PSDCG)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.CG.Z1:DP.DOD.DLOA.CR.CG.Z1{marker DP.DOD.DLOA.CR.CG.Z1}}}Gross PSD, Central Gov., All maturities, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.FC:DP.DOD.DLOA.CR.FC{marker DP.DOD.DLOA.CR.FC}}}379.Other accounts payable (PSDFPC){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.FC:DP.DOD.DLOA.CR.FC{marker DP.DOD.DLOA.CR.FC}}}Gross PSD, Financial Public Corp., All maturities, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.FC.CD:DP.DOD.DLOA.CR.FC.CD{marker DP.DOD.DLOA.CR.FC.CD}}}155.Other accounts payable (PSDFPC) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.FC.CD:DP.DOD.DLOA.CR.FC.CD{marker DP.DOD.DLOA.CR.FC.CD}}}Gross PSD, Financial Public Corp., All maturities, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.FC.Z1:DP.DOD.DLOA.CR.FC.Z1{marker DP.DOD.DLOA.CR.FC.Z1}}}603.Other accounts payable (PSDFPC)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.FC.Z1:DP.DOD.DLOA.CR.FC.Z1{marker DP.DOD.DLOA.CR.FC.Z1}}}Gross PSD, Financial Public Corp., All maturities, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.GG:DP.DOD.DLOA.CR.GG{marker DP.DOD.DLOA.CR.GG}}}251.Other accounts payable (PSDGG, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.GG:DP.DOD.DLOA.CR.GG{marker DP.DOD.DLOA.CR.GG}}}Gross PSD, General Gov., All maturities, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.GG.CD:DP.DOD.DLOA.CR.GG.CD{marker DP.DOD.DLOA.CR.GG.CD}}}027.Other accounts payable (PSDGG) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.GG.CD:DP.DOD.DLOA.CR.GG.CD{marker DP.DOD.DLOA.CR.GG.CD}}}Gross PSD, General Gov., All maturities, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.GG.Z1:DP.DOD.DLOA.CR.GG.Z1{marker DP.DOD.DLOA.CR.GG.Z1}}}475.Other accounts payable (PSDGG, LT)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.GG.Z1:DP.DOD.DLOA.CR.GG.Z1{marker DP.DOD.DLOA.CR.GG.Z1}}}Gross PSD, General Gov., All maturities, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.BC:DP.DOD.DLOA.CR.L1.BC{marker DP.DOD.DLOA.CR.L1.BC}}}302.Other accounts payable (PSDCGGB, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.BC:DP.DOD.DLOA.CR.L1.BC{marker DP.DOD.DLOA.CR.L1.BC}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.BC.CD:DP.DOD.DLOA.CR.L1.BC.CD{marker DP.DOD.DLOA.CR.L1.BC.CD}}}078.Other accounts payable (PSDCGGB, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.BC.CD:DP.DOD.DLOA.CR.L1.BC.CD{marker DP.DOD.DLOA.CR.L1.BC.CD}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.BC.Z1:DP.DOD.DLOA.CR.L1.BC.Z1{marker DP.DOD.DLOA.CR.L1.BC.Z1}}}526.Other accounts payable (PSDCGGB, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.BC.Z1:DP.DOD.DLOA.CR.L1.BC.Z1{marker DP.DOD.DLOA.CR.L1.BC.Z1}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.CG:DP.DOD.DLOA.CR.L1.CG{marker DP.DOD.DLOA.CR.L1.CG}}}270.Other accounts payable (PSDCG, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.CG:DP.DOD.DLOA.CR.L1.CG{marker DP.DOD.DLOA.CR.L1.CG}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.CG.CD:DP.DOD.DLOA.CR.L1.CG.CD{marker DP.DOD.DLOA.CR.L1.CG.CD}}}046.Other accounts payable (PSDCG, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.CG.CD:DP.DOD.DLOA.CR.L1.CG.CD{marker DP.DOD.DLOA.CR.L1.CG.CD}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.CG.Z1:DP.DOD.DLOA.CR.L1.CG.Z1{marker DP.DOD.DLOA.CR.L1.CG.Z1}}}494.Other accounts payable (PSDCG, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.CG.Z1:DP.DOD.DLOA.CR.L1.CG.Z1{marker DP.DOD.DLOA.CR.L1.CG.Z1}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.FC:DP.DOD.DLOA.CR.L1.FC{marker DP.DOD.DLOA.CR.L1.FC}}}366.Other accounts payable (PSDFPC, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.FC:DP.DOD.DLOA.CR.L1.FC{marker DP.DOD.DLOA.CR.L1.FC}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.FC.CD:DP.DOD.DLOA.CR.L1.FC.CD{marker DP.DOD.DLOA.CR.L1.FC.CD}}}142.Other accounts payable (PSDFPC, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.FC.CD:DP.DOD.DLOA.CR.L1.FC.CD{marker DP.DOD.DLOA.CR.L1.FC.CD}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.FC.Z1:DP.DOD.DLOA.CR.L1.FC.Z1{marker DP.DOD.DLOA.CR.L1.FC.Z1}}}590.Other accounts payable (PSDFPC, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.FC.Z1:DP.DOD.DLOA.CR.L1.FC.Z1{marker DP.DOD.DLOA.CR.L1.FC.Z1}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.GG:DP.DOD.DLOA.CR.L1.GG{marker DP.DOD.DLOA.CR.L1.GG}}}238.Other accounts payable (PSDGG, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.GG:DP.DOD.DLOA.CR.L1.GG{marker DP.DOD.DLOA.CR.L1.GG}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.GG.CD:DP.DOD.DLOA.CR.L1.GG.CD{marker DP.DOD.DLOA.CR.L1.GG.CD}}}014.Other accounts payable (PSDGG, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.GG.CD:DP.DOD.DLOA.CR.L1.GG.CD{marker DP.DOD.DLOA.CR.L1.GG.CD}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.GG.Z1:DP.DOD.DLOA.CR.L1.GG.Z1{marker DP.DOD.DLOA.CR.L1.GG.Z1}}}462.Other accounts payable (PSDGG, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.GG.Z1:DP.DOD.DLOA.CR.L1.GG.Z1{marker DP.DOD.DLOA.CR.L1.GG.Z1}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.NF:DP.DOD.DLOA.CR.L1.NF{marker DP.DOD.DLOA.CR.L1.NF}}}334.Other accounts payable (PSDNFPC, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.NF:DP.DOD.DLOA.CR.L1.NF{marker DP.DOD.DLOA.CR.L1.NF}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.NF.CD:DP.DOD.DLOA.CR.L1.NF.CD{marker DP.DOD.DLOA.CR.L1.NF.CD}}}110.Other accounts payable (PSDNFPC, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.NF.CD:DP.DOD.DLOA.CR.L1.NF.CD{marker DP.DOD.DLOA.CR.L1.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.NF.Z1:DP.DOD.DLOA.CR.L1.NF.Z1{marker DP.DOD.DLOA.CR.L1.NF.Z1}}}558.Other accounts payable (PSDNFPC, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.NF.Z1:DP.DOD.DLOA.CR.L1.NF.Z1{marker DP.DOD.DLOA.CR.L1.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.PS:DP.DOD.DLOA.CR.L1.PS{marker DP.DOD.DLOA.CR.L1.PS}}}398.Other accounts payable (PSDT, LT,&lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.PS:DP.DOD.DLOA.CR.L1.PS{marker DP.DOD.DLOA.CR.L1.PS}}}Gross PSD, Public Sector, Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.PS.CD:DP.DOD.DLOA.CR.L1.PS.CD{marker DP.DOD.DLOA.CR.L1.PS.CD}}}174.Other accounts payable (PSDT, LT,&lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.L1.PS.CD:DP.DOD.DLOA.CR.L1.PS.CD{marker DP.DOD.DLOA.CR.L1.PS.CD}}}Gross PSD, Total, Long-term, With payment due in one year or less, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.BC:DP.DOD.DLOA.CR.M1.BC{marker DP.DOD.DLOA.CR.M1.BC}}}309.Other accounts payable (PSDCGGB, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.BC:DP.DOD.DLOA.CR.M1.BC{marker DP.DOD.DLOA.CR.M1.BC}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.BC.CD:DP.DOD.DLOA.CR.M1.BC.CD{marker DP.DOD.DLOA.CR.M1.BC.CD}}}085.Other accounts payable (PSDCGGB, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.BC.CD:DP.DOD.DLOA.CR.M1.BC.CD{marker DP.DOD.DLOA.CR.M1.BC.CD}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.BC.Z1:DP.DOD.DLOA.CR.M1.BC.Z1{marker DP.DOD.DLOA.CR.M1.BC.Z1}}}533.Other accounts payable (PSDCGGB, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.BC.Z1:DP.DOD.DLOA.CR.M1.BC.Z1{marker DP.DOD.DLOA.CR.M1.BC.Z1}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.CG:DP.DOD.DLOA.CR.M1.CG{marker DP.DOD.DLOA.CR.M1.CG}}}277.Other accounts payable (PSDCG, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.CG:DP.DOD.DLOA.CR.M1.CG{marker DP.DOD.DLOA.CR.M1.CG}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.CG.CD:DP.DOD.DLOA.CR.M1.CG.CD{marker DP.DOD.DLOA.CR.M1.CG.CD}}}053.Other accounts payable (PSDCG, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.CG.CD:DP.DOD.DLOA.CR.M1.CG.CD{marker DP.DOD.DLOA.CR.M1.CG.CD}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.CG.Z1:DP.DOD.DLOA.CR.M1.CG.Z1{marker DP.DOD.DLOA.CR.M1.CG.Z1}}}501.Other accounts payable (PSDCG, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.CG.Z1:DP.DOD.DLOA.CR.M1.CG.Z1{marker DP.DOD.DLOA.CR.M1.CG.Z1}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.FC:DP.DOD.DLOA.CR.M1.FC{marker DP.DOD.DLOA.CR.M1.FC}}}373.Other accounts payable (PSDFPC, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.FC:DP.DOD.DLOA.CR.M1.FC{marker DP.DOD.DLOA.CR.M1.FC}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.FC.CD:DP.DOD.DLOA.CR.M1.FC.CD{marker DP.DOD.DLOA.CR.M1.FC.CD}}}149.Other accounts payable (PSDFPC, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.FC.CD:DP.DOD.DLOA.CR.M1.FC.CD{marker DP.DOD.DLOA.CR.M1.FC.CD}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.FC.Z1:DP.DOD.DLOA.CR.M1.FC.Z1{marker DP.DOD.DLOA.CR.M1.FC.Z1}}}597.Other accounts payable (PSDFPC, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.FC.Z1:DP.DOD.DLOA.CR.M1.FC.Z1{marker DP.DOD.DLOA.CR.M1.FC.Z1}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.GG:DP.DOD.DLOA.CR.M1.GG{marker DP.DOD.DLOA.CR.M1.GG}}}245.Other accounts payable (PSDGG, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.GG:DP.DOD.DLOA.CR.M1.GG{marker DP.DOD.DLOA.CR.M1.GG}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.GG.CD:DP.DOD.DLOA.CR.M1.GG.CD{marker DP.DOD.DLOA.CR.M1.GG.CD}}}021.Other accounts payable (PSDGG, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.GG.CD:DP.DOD.DLOA.CR.M1.GG.CD{marker DP.DOD.DLOA.CR.M1.GG.CD}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.GG.Z1:DP.DOD.DLOA.CR.M1.GG.Z1{marker DP.DOD.DLOA.CR.M1.GG.Z1}}}469.Other accounts payable (PSDGG, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.GG.Z1:DP.DOD.DLOA.CR.M1.GG.Z1{marker DP.DOD.DLOA.CR.M1.GG.Z1}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.NF:DP.DOD.DLOA.CR.M1.NF{marker DP.DOD.DLOA.CR.M1.NF}}}341.Other accounts payable (PSDNFPC, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.NF:DP.DOD.DLOA.CR.M1.NF{marker DP.DOD.DLOA.CR.M1.NF}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.NF.CD:DP.DOD.DLOA.CR.M1.NF.CD{marker DP.DOD.DLOA.CR.M1.NF.CD}}}117.Other accounts payable (PSDNFPC, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.NF.CD:DP.DOD.DLOA.CR.M1.NF.CD{marker DP.DOD.DLOA.CR.M1.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.NF.Z1:DP.DOD.DLOA.CR.M1.NF.Z1{marker DP.DOD.DLOA.CR.M1.NF.Z1}}}565.Other accounts payable (PSDNFPC, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.NF.Z1:DP.DOD.DLOA.CR.M1.NF.Z1{marker DP.DOD.DLOA.CR.M1.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.PS:DP.DOD.DLOA.CR.M1.PS{marker DP.DOD.DLOA.CR.M1.PS}}}405.Other accounts payable (PSDT, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.PS:DP.DOD.DLOA.CR.M1.PS{marker DP.DOD.DLOA.CR.M1.PS}}}Gross PSD, Public Sector, Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.PS.CD:DP.DOD.DLOA.CR.M1.PS.CD{marker DP.DOD.DLOA.CR.M1.PS.CD}}}181.Other accounts payable (PSDT, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.M1.PS.CD:DP.DOD.DLOA.CR.M1.PS.CD{marker DP.DOD.DLOA.CR.M1.PS.CD}}}Gross PSD, Total, Long-term, With payment due in more than one year, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.NF:DP.DOD.DLOA.CR.NF{marker DP.DOD.DLOA.CR.NF}}}347.Other accounts payable (PSDNFPC){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.NF:DP.DOD.DLOA.CR.NF{marker DP.DOD.DLOA.CR.NF}}}Gross PSD, Nonfinancial Public Corp., All maturities, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.NF.CD:DP.DOD.DLOA.CR.NF.CD{marker DP.DOD.DLOA.CR.NF.CD}}}123.Other accounts payable (PSDNFPC) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.NF.CD:DP.DOD.DLOA.CR.NF.CD{marker DP.DOD.DLOA.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., All maturities, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.NF.Z1:DP.DOD.DLOA.CR.NF.Z1{marker DP.DOD.DLOA.CR.NF.Z1}}}571.Other accounts payable (PSDNFPC)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.NF.Z1:DP.DOD.DLOA.CR.NF.Z1{marker DP.DOD.DLOA.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., All maturities, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.PS:DP.DOD.DLOA.CR.PS{marker DP.DOD.DLOA.CR.PS}}}411.Other accounts payable /8{p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.PS:DP.DOD.DLOA.CR.PS{marker DP.DOD.DLOA.CR.PS}}}Gross PSD, Public Sector, All maturities, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.PS.CD:DP.DOD.DLOA.CR.PS.CD{marker DP.DOD.DLOA.CR.PS.CD}}}187.Other accounts payable (PSDT) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLOA.CR.PS.CD:DP.DOD.DLOA.CR.PS.CD{marker DP.DOD.DLOA.CR.PS.CD}}}Gross PSD, Total, All maturities, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.BC:DP.DOD.DLSD.CR.BC{marker DP.DOD.DLSD.CR.BC}}}310.Special Drawing Rights (SDRs) (PSDCGGB){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.BC:DP.DOD.DLSD.CR.BC{marker DP.DOD.DLSD.CR.BC}}}Gross PSD, Budgetary Central Gov., All maturities, Special Drawing Rights, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.BC.CD:DP.DOD.DLSD.CR.BC.CD{marker DP.DOD.DLSD.CR.BC.CD}}}086.Special Drawing Rights (SDRs) (PSDCGGB) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.BC.CD:DP.DOD.DLSD.CR.BC.CD{marker DP.DOD.DLSD.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., All maturities, Special Drawing Rights, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.BC.Z1:DP.DOD.DLSD.CR.BC.Z1{marker DP.DOD.DLSD.CR.BC.Z1}}}534.Special Drawing Rights (SDRs) (PSDCGGB)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.BC.Z1:DP.DOD.DLSD.CR.BC.Z1{marker DP.DOD.DLSD.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., All maturities, Special Drawing Rights, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.CG:DP.DOD.DLSD.CR.CG{marker DP.DOD.DLSD.CR.CG}}}278.Special Drawing Rights (SDRs) (PSDCG){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.CG:DP.DOD.DLSD.CR.CG{marker DP.DOD.DLSD.CR.CG}}}Gross PSD, Central Gov., All maturities, Special Drawing Rights, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.CG.CD:DP.DOD.DLSD.CR.CG.CD{marker DP.DOD.DLSD.CR.CG.CD}}}054.Special Drawing Rights (SDRs) (PSDCG) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.CG.CD:DP.DOD.DLSD.CR.CG.CD{marker DP.DOD.DLSD.CR.CG.CD}}}Gross PSD, Central Gov., All maturities, Special Drawing Rights, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.CG.Z1:DP.DOD.DLSD.CR.CG.Z1{marker DP.DOD.DLSD.CR.CG.Z1}}}502.Special Drawing Rights (SDRs) (PSDCG)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.CG.Z1:DP.DOD.DLSD.CR.CG.Z1{marker DP.DOD.DLSD.CR.CG.Z1}}}Gross PSD, Central Gov., All maturities, Special Drawing Rights, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.FC:DP.DOD.DLSD.CR.FC{marker DP.DOD.DLSD.CR.FC}}}374.Special Drawing Rights (SDRs) (PSDFPC){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.FC:DP.DOD.DLSD.CR.FC{marker DP.DOD.DLSD.CR.FC}}}Gross PSD, Financial Public Corp., All maturities, Special Drawing Rights, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.FC.CD:DP.DOD.DLSD.CR.FC.CD{marker DP.DOD.DLSD.CR.FC.CD}}}150.Special Drawing Rights (SDRs) (PSDFPC) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.FC.CD:DP.DOD.DLSD.CR.FC.CD{marker DP.DOD.DLSD.CR.FC.CD}}}Gross PSD, Financial Public Corp., All maturities, Special Drawing Rights, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.FC.Z1:DP.DOD.DLSD.CR.FC.Z1{marker DP.DOD.DLSD.CR.FC.Z1}}}598.Special Drawing Rights (SDRs) (PSDFPC)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.FC.Z1:DP.DOD.DLSD.CR.FC.Z1{marker DP.DOD.DLSD.CR.FC.Z1}}}Gross PSD, Financial Public Corp., All maturities, Special Drawing Rights, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.GG:DP.DOD.DLSD.CR.GG{marker DP.DOD.DLSD.CR.GG}}}246.Special Drawing Rights (SDRs) (PSDGG, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.GG:DP.DOD.DLSD.CR.GG{marker DP.DOD.DLSD.CR.GG}}}Gross PSD, General Gov., All maturities, Special Drawing Rights, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.GG.CD:DP.DOD.DLSD.CR.GG.CD{marker DP.DOD.DLSD.CR.GG.CD}}}022.Special Drawing Rights (SDRs) (PSDGG) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.GG.CD:DP.DOD.DLSD.CR.GG.CD{marker DP.DOD.DLSD.CR.GG.CD}}}Gross PSD, General Gov., All maturities, Special Drawing Rights, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.GG.Z1:DP.DOD.DLSD.CR.GG.Z1{marker DP.DOD.DLSD.CR.GG.Z1}}}470.Special Drawing Rights (SDRs) (PSDGG, LT)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.GG.Z1:DP.DOD.DLSD.CR.GG.Z1{marker DP.DOD.DLSD.CR.GG.Z1}}}Gross PSD, General Gov., All maturities, Special Drawing Rights, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.BC:DP.DOD.DLSD.CR.M1.BC{marker DP.DOD.DLSD.CR.M1.BC}}}304.Special Drawing Rights (SDRs) (PSDCGGB, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.BC:DP.DOD.DLSD.CR.M1.BC{marker DP.DOD.DLSD.CR.M1.BC}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.BC.CD:DP.DOD.DLSD.CR.M1.BC.CD{marker DP.DOD.DLSD.CR.M1.BC.CD}}}080.Special Drawing Rights (SDRs) (PSDCGGB, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.BC.CD:DP.DOD.DLSD.CR.M1.BC.CD{marker DP.DOD.DLSD.CR.M1.BC.CD}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.BC.Z1:DP.DOD.DLSD.CR.M1.BC.Z1{marker DP.DOD.DLSD.CR.M1.BC.Z1}}}528.Special Drawing Rights (SDRs) (PSDCGGB, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.BC.Z1:DP.DOD.DLSD.CR.M1.BC.Z1{marker DP.DOD.DLSD.CR.M1.BC.Z1}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.CG:DP.DOD.DLSD.CR.M1.CG{marker DP.DOD.DLSD.CR.M1.CG}}}272.Special Drawing Rights (SDRs) (PSDCG, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.CG:DP.DOD.DLSD.CR.M1.CG{marker DP.DOD.DLSD.CR.M1.CG}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.CG.CD:DP.DOD.DLSD.CR.M1.CG.CD{marker DP.DOD.DLSD.CR.M1.CG.CD}}}048.Special Drawing Rights (SDRs) (PSDCG, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.CG.CD:DP.DOD.DLSD.CR.M1.CG.CD{marker DP.DOD.DLSD.CR.M1.CG.CD}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.CG.Z1:DP.DOD.DLSD.CR.M1.CG.Z1{marker DP.DOD.DLSD.CR.M1.CG.Z1}}}496.Special Drawing Rights (SDRs) (PSDCG, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.CG.Z1:DP.DOD.DLSD.CR.M1.CG.Z1{marker DP.DOD.DLSD.CR.M1.CG.Z1}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.FC:DP.DOD.DLSD.CR.M1.FC{marker DP.DOD.DLSD.CR.M1.FC}}}368.Special Drawing Rights (SDRs) (PSDFPC, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.FC:DP.DOD.DLSD.CR.M1.FC{marker DP.DOD.DLSD.CR.M1.FC}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.FC.CD:DP.DOD.DLSD.CR.M1.FC.CD{marker DP.DOD.DLSD.CR.M1.FC.CD}}}144.Special Drawing Rights (SDRs) (PSDFPC, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.FC.CD:DP.DOD.DLSD.CR.M1.FC.CD{marker DP.DOD.DLSD.CR.M1.FC.CD}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.FC.Z1:DP.DOD.DLSD.CR.M1.FC.Z1{marker DP.DOD.DLSD.CR.M1.FC.Z1}}}592.Special Drawing Rights (SDRs) (PSDFPC, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.FC.Z1:DP.DOD.DLSD.CR.M1.FC.Z1{marker DP.DOD.DLSD.CR.M1.FC.Z1}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.GG:DP.DOD.DLSD.CR.M1.GG{marker DP.DOD.DLSD.CR.M1.GG}}}240.Special Drawing Rights (SDRs) (PSDGG, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.GG:DP.DOD.DLSD.CR.M1.GG{marker DP.DOD.DLSD.CR.M1.GG}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.GG.CD:DP.DOD.DLSD.CR.M1.GG.CD{marker DP.DOD.DLSD.CR.M1.GG.CD}}}016.Special Drawing Rights (SDRs) (PSDGG, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.GG.CD:DP.DOD.DLSD.CR.M1.GG.CD{marker DP.DOD.DLSD.CR.M1.GG.CD}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.GG.Z1:DP.DOD.DLSD.CR.M1.GG.Z1{marker DP.DOD.DLSD.CR.M1.GG.Z1}}}464.Special Drawing Rights (SDRs) (PSDGG, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.GG.Z1:DP.DOD.DLSD.CR.M1.GG.Z1{marker DP.DOD.DLSD.CR.M1.GG.Z1}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.NF:DP.DOD.DLSD.CR.M1.NF{marker DP.DOD.DLSD.CR.M1.NF}}}336.Special Drawing Rights (SDRs) (PSDNFPC, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.NF:DP.DOD.DLSD.CR.M1.NF{marker DP.DOD.DLSD.CR.M1.NF}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.NF.CD:DP.DOD.DLSD.CR.M1.NF.CD{marker DP.DOD.DLSD.CR.M1.NF.CD}}}112.Special Drawing Rights (SDRs) (PSDNFPC, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.NF.CD:DP.DOD.DLSD.CR.M1.NF.CD{marker DP.DOD.DLSD.CR.M1.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.NF.Z1:DP.DOD.DLSD.CR.M1.NF.Z1{marker DP.DOD.DLSD.CR.M1.NF.Z1}}}560.Special Drawing Rights (SDRs) (PSDNFPC, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.NF.Z1:DP.DOD.DLSD.CR.M1.NF.Z1{marker DP.DOD.DLSD.CR.M1.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.PS:DP.DOD.DLSD.CR.M1.PS{marker DP.DOD.DLSD.CR.M1.PS}}}400.Special Drawing Rights (SDRs) (PSDT, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.PS:DP.DOD.DLSD.CR.M1.PS{marker DP.DOD.DLSD.CR.M1.PS}}}Gross PSD, Public Sector, Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.PS.CD:DP.DOD.DLSD.CR.M1.PS.CD{marker DP.DOD.DLSD.CR.M1.PS.CD}}}176.Special Drawing Rights (SDRs) (PSDT, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.M1.PS.CD:DP.DOD.DLSD.CR.M1.PS.CD{marker DP.DOD.DLSD.CR.M1.PS.CD}}}Gross PSD, Total, Long-term, With payment due in more than one year, Special Drawing Rights, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.NF:DP.DOD.DLSD.CR.NF{marker DP.DOD.DLSD.CR.NF}}}342.Special Drawing Rights (SDRs) (PSDNFPC){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.NF:DP.DOD.DLSD.CR.NF{marker DP.DOD.DLSD.CR.NF}}}Gross PSD, Nonfinancial Public Corp., All maturities, Special Drawing Rights, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.NF.CD:DP.DOD.DLSD.CR.NF.CD{marker DP.DOD.DLSD.CR.NF.CD}}}118.Special Drawing Rights (SDRs) (PSDNFPC) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.NF.CD:DP.DOD.DLSD.CR.NF.CD{marker DP.DOD.DLSD.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., All maturities, Special Drawing Rights, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.NF.Z1:DP.DOD.DLSD.CR.NF.Z1{marker DP.DOD.DLSD.CR.NF.Z1}}}566.Special Drawing Rights (SDRs) (PSDNFPC)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.NF.Z1:DP.DOD.DLSD.CR.NF.Z1{marker DP.DOD.DLSD.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., All maturities, Special Drawing Rights, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.PS:DP.DOD.DLSD.CR.PS{marker DP.DOD.DLSD.CR.PS}}}406.Special Drawing Rights (SDRs) (PSDT, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.PS:DP.DOD.DLSD.CR.PS{marker DP.DOD.DLSD.CR.PS}}}Gross PSD, Public Sector, All maturities, Special Drawing Rights, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.PS.CD:DP.DOD.DLSD.CR.PS.CD{marker DP.DOD.DLSD.CR.PS.CD}}}182.Special Drawing Rights (SDRs) (PSDT) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLSD.CR.PS.CD:DP.DOD.DLSD.CR.PS.CD{marker DP.DOD.DLSD.CR.PS.CD}}}Gross PSD, Total, All maturities, Special Drawing Rights, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.BC:DP.DOD.DLTC.CR.BC{marker DP.DOD.DLTC.CR.BC}}}296.Long-term, by original maturity (PSDCGGB, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.BC:DP.DOD.DLTC.CR.BC{marker DP.DOD.DLTC.CR.BC}}}Gross PSD, Budgetary Central Gov., Long-term, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.BC.CD:DP.DOD.DLTC.CR.BC.CD{marker DP.DOD.DLTC.CR.BC.CD}}}072.Long-term, by original maturity (PSDCGGB, LT) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.BC.CD:DP.DOD.DLTC.CR.BC.CD{marker DP.DOD.DLTC.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., Long-term, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.BC.Z1:DP.DOD.DLTC.CR.BC.Z1{marker DP.DOD.DLTC.CR.BC.Z1}}}520.Long-term, by original maturity (PSDCGGB, LT)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.BC.Z1:DP.DOD.DLTC.CR.BC.Z1{marker DP.DOD.DLTC.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., Long-term, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.CG:DP.DOD.DLTC.CR.CG{marker DP.DOD.DLTC.CR.CG}}}264.Long-term, by original maturity (PSDCG, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.CG:DP.DOD.DLTC.CR.CG{marker DP.DOD.DLTC.CR.CG}}}Gross PSD, Central Gov., Long-term, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.CG.CD:DP.DOD.DLTC.CR.CG.CD{marker DP.DOD.DLTC.CR.CG.CD}}}040.Long-term, by original maturity (PSDCG, LT) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.CG.CD:DP.DOD.DLTC.CR.CG.CD{marker DP.DOD.DLTC.CR.CG.CD}}}Gross PSD, Central Gov., Long-term, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.CG.Z1:DP.DOD.DLTC.CR.CG.Z1{marker DP.DOD.DLTC.CR.CG.Z1}}}488.Long-term, by original maturity (PSDCG, LT)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.CG.Z1:DP.DOD.DLTC.CR.CG.Z1{marker DP.DOD.DLTC.CR.CG.Z1}}}Gross PSD, Central Gov., Long-term, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.FC:DP.DOD.DLTC.CR.FC{marker DP.DOD.DLTC.CR.FC}}}360.Long-term, by original maturity (PSDFPC, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.FC:DP.DOD.DLTC.CR.FC{marker DP.DOD.DLTC.CR.FC}}}Gross PSD, Financial Public Corp., Long-term, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.FC.CD:DP.DOD.DLTC.CR.FC.CD{marker DP.DOD.DLTC.CR.FC.CD}}}136.Long-term, by original maturity (PSDFPC, LT) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.FC.CD:DP.DOD.DLTC.CR.FC.CD{marker DP.DOD.DLTC.CR.FC.CD}}}Gross PSD, Financial Public Corp., Long-term, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.FC.Z1:DP.DOD.DLTC.CR.FC.Z1{marker DP.DOD.DLTC.CR.FC.Z1}}}584.Long-term, by original maturity (PSDFPC, LT)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.FC.Z1:DP.DOD.DLTC.CR.FC.Z1{marker DP.DOD.DLTC.CR.FC.Z1}}}Gross PSD, Financial Public Corp., Long-term, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.GG:DP.DOD.DLTC.CR.GG{marker DP.DOD.DLTC.CR.GG}}}232.Long-term, by original maturity (PSDGG, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.GG:DP.DOD.DLTC.CR.GG{marker DP.DOD.DLTC.CR.GG}}}Gross PSD, General Gov., Long-term, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.GG.CD:DP.DOD.DLTC.CR.GG.CD{marker DP.DOD.DLTC.CR.GG.CD}}}008.Long-term, by original maturity (PSDGG, LT) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.GG.CD:DP.DOD.DLTC.CR.GG.CD{marker DP.DOD.DLTC.CR.GG.CD}}}Gross PSD, General Gov., Long-term, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.GG.Z1:DP.DOD.DLTC.CR.GG.Z1{marker DP.DOD.DLTC.CR.GG.Z1}}}456.Long-term, by original maturity (PSDGG, LT)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.GG.Z1:DP.DOD.DLTC.CR.GG.Z1{marker DP.DOD.DLTC.CR.GG.Z1}}}Gross PSD, General Gov., Long-term, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.BC:DP.DOD.DLTC.CR.L1.BC{marker DP.DOD.DLTC.CR.L1.BC}}}297.With payment due in one year or less (PSDCGGB, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.BC:DP.DOD.DLTC.CR.L1.BC{marker DP.DOD.DLTC.CR.L1.BC}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.BC.CD:DP.DOD.DLTC.CR.L1.BC.CD{marker DP.DOD.DLTC.CR.L1.BC.CD}}}073.With payment due in one year or less (PSDCGGB, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.BC.CD:DP.DOD.DLTC.CR.L1.BC.CD{marker DP.DOD.DLTC.CR.L1.BC.CD}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.BC.Z1:DP.DOD.DLTC.CR.L1.BC.Z1{marker DP.DOD.DLTC.CR.L1.BC.Z1}}}521.With payment due in one year or less (PSDCGGB, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.BC.Z1:DP.DOD.DLTC.CR.L1.BC.Z1{marker DP.DOD.DLTC.CR.L1.BC.Z1}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.CG:DP.DOD.DLTC.CR.L1.CG{marker DP.DOD.DLTC.CR.L1.CG}}}265.With payment due in one year or less (PSDCG, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.CG:DP.DOD.DLTC.CR.L1.CG{marker DP.DOD.DLTC.CR.L1.CG}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.CG.CD:DP.DOD.DLTC.CR.L1.CG.CD{marker DP.DOD.DLTC.CR.L1.CG.CD}}}041.With payment due in one year or less (PSDCG, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.CG.CD:DP.DOD.DLTC.CR.L1.CG.CD{marker DP.DOD.DLTC.CR.L1.CG.CD}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.CG.Z1:DP.DOD.DLTC.CR.L1.CG.Z1{marker DP.DOD.DLTC.CR.L1.CG.Z1}}}489.With payment due in one year or less (PSDCG, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.CG.Z1:DP.DOD.DLTC.CR.L1.CG.Z1{marker DP.DOD.DLTC.CR.L1.CG.Z1}}}Gross PSD, Central Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.FC:DP.DOD.DLTC.CR.L1.FC{marker DP.DOD.DLTC.CR.L1.FC}}}361.With payment due in one year or less (PSDFPC, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.FC:DP.DOD.DLTC.CR.L1.FC{marker DP.DOD.DLTC.CR.L1.FC}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.FC.CD:DP.DOD.DLTC.CR.L1.FC.CD{marker DP.DOD.DLTC.CR.L1.FC.CD}}}137.With payment due in one year or less (PSDFPC, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.FC.CD:DP.DOD.DLTC.CR.L1.FC.CD{marker DP.DOD.DLTC.CR.L1.FC.CD}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.FC.Z1:DP.DOD.DLTC.CR.L1.FC.Z1{marker DP.DOD.DLTC.CR.L1.FC.Z1}}}585.With payment due in one year or less (PSDFPC, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.FC.Z1:DP.DOD.DLTC.CR.L1.FC.Z1{marker DP.DOD.DLTC.CR.L1.FC.Z1}}}Gross PSD, Financial Public Corp., Long-term, With payment due in one year or less, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.GG:DP.DOD.DLTC.CR.L1.GG{marker DP.DOD.DLTC.CR.L1.GG}}}233.With payment due in one year or less (PSDGG, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.GG:DP.DOD.DLTC.CR.L1.GG{marker DP.DOD.DLTC.CR.L1.GG}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.GG.CD:DP.DOD.DLTC.CR.L1.GG.CD{marker DP.DOD.DLTC.CR.L1.GG.CD}}}009.With payment due in one year or less (PSDGG, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.GG.CD:DP.DOD.DLTC.CR.L1.GG.CD{marker DP.DOD.DLTC.CR.L1.GG.CD}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.GG.Z1:DP.DOD.DLTC.CR.L1.GG.Z1{marker DP.DOD.DLTC.CR.L1.GG.Z1}}}457.With payment due in one year or less (PSDGG, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.GG.Z1:DP.DOD.DLTC.CR.L1.GG.Z1{marker DP.DOD.DLTC.CR.L1.GG.Z1}}}Gross PSD, General Gov., Long-term, With payment due in one year or less, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.NF:DP.DOD.DLTC.CR.L1.NF{marker DP.DOD.DLTC.CR.L1.NF}}}329.With payment due in one year or less (PSDNFPC, LT, &lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.NF:DP.DOD.DLTC.CR.L1.NF{marker DP.DOD.DLTC.CR.L1.NF}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.NF.CD:DP.DOD.DLTC.CR.L1.NF.CD{marker DP.DOD.DLTC.CR.L1.NF.CD}}}105.With payment due in one year or less (PSDNFPC, LT, &lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.NF.CD:DP.DOD.DLTC.CR.L1.NF.CD{marker DP.DOD.DLTC.CR.L1.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.NF.Z1:DP.DOD.DLTC.CR.L1.NF.Z1{marker DP.DOD.DLTC.CR.L1.NF.Z1}}}553.With payment due in one year or less (PSDNFPC, LT, &lt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.NF.Z1:DP.DOD.DLTC.CR.L1.NF.Z1{marker DP.DOD.DLTC.CR.L1.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.PS:DP.DOD.DLTC.CR.L1.PS{marker DP.DOD.DLTC.CR.L1.PS}}}393.With payment due in one year or less (PSDT, LT,&lt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.PS:DP.DOD.DLTC.CR.L1.PS{marker DP.DOD.DLTC.CR.L1.PS}}}Gross PSD, Public Sector, Long-term, With payment due in one year or less, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.PS.CD:DP.DOD.DLTC.CR.L1.PS.CD{marker DP.DOD.DLTC.CR.L1.PS.CD}}}169.With payment due in one year or less (PSDT, LT,&lt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.L1.PS.CD:DP.DOD.DLTC.CR.L1.PS.CD{marker DP.DOD.DLTC.CR.L1.PS.CD}}}Gross PSD, Total, Long-term, With payment due in one year or less, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.BC:DP.DOD.DLTC.CR.M1.BC{marker DP.DOD.DLTC.CR.M1.BC}}}303.With payment due in more than one year (PSDCGGB, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.BC:DP.DOD.DLTC.CR.M1.BC{marker DP.DOD.DLTC.CR.M1.BC}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.BC.CD:DP.DOD.DLTC.CR.M1.BC.CD{marker DP.DOD.DLTC.CR.M1.BC.CD}}}079.With payment due in more than one year (PSDCGGB, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.BC.CD:DP.DOD.DLTC.CR.M1.BC.CD{marker DP.DOD.DLTC.CR.M1.BC.CD}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.BC.Z1:DP.DOD.DLTC.CR.M1.BC.Z1{marker DP.DOD.DLTC.CR.M1.BC.Z1}}}527.With payment due in more than one year (PSDCGGB, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.BC.Z1:DP.DOD.DLTC.CR.M1.BC.Z1{marker DP.DOD.DLTC.CR.M1.BC.Z1}}}Gross PSD, Budgetary Central Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.CG:DP.DOD.DLTC.CR.M1.CG{marker DP.DOD.DLTC.CR.M1.CG}}}271.With payment due in more than one year (PSDCG, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.CG:DP.DOD.DLTC.CR.M1.CG{marker DP.DOD.DLTC.CR.M1.CG}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.CG.CD:DP.DOD.DLTC.CR.M1.CG.CD{marker DP.DOD.DLTC.CR.M1.CG.CD}}}047.With payment due in more than one year (PSDCG, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.CG.CD:DP.DOD.DLTC.CR.M1.CG.CD{marker DP.DOD.DLTC.CR.M1.CG.CD}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.CG.Z1:DP.DOD.DLTC.CR.M1.CG.Z1{marker DP.DOD.DLTC.CR.M1.CG.Z1}}}495.With payment due in more than one year (PSDCG, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.CG.Z1:DP.DOD.DLTC.CR.M1.CG.Z1{marker DP.DOD.DLTC.CR.M1.CG.Z1}}}Gross PSD, Central Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.FC:DP.DOD.DLTC.CR.M1.FC{marker DP.DOD.DLTC.CR.M1.FC}}}367.With payment due in more than one year (PSDFPC, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.FC:DP.DOD.DLTC.CR.M1.FC{marker DP.DOD.DLTC.CR.M1.FC}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.FC.CD:DP.DOD.DLTC.CR.M1.FC.CD{marker DP.DOD.DLTC.CR.M1.FC.CD}}}143.With payment due in more than one year (PSDFPC, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.FC.CD:DP.DOD.DLTC.CR.M1.FC.CD{marker DP.DOD.DLTC.CR.M1.FC.CD}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.FC.Z1:DP.DOD.DLTC.CR.M1.FC.Z1{marker DP.DOD.DLTC.CR.M1.FC.Z1}}}591.With payment due in more than one year (PSDFPC, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.FC.Z1:DP.DOD.DLTC.CR.M1.FC.Z1{marker DP.DOD.DLTC.CR.M1.FC.Z1}}}Gross PSD, Financial Public Corp., Long-term, With payment due in more than one year, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.GG:DP.DOD.DLTC.CR.M1.GG{marker DP.DOD.DLTC.CR.M1.GG}}}239.With payment due in more than one year (PSDGG, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.GG:DP.DOD.DLTC.CR.M1.GG{marker DP.DOD.DLTC.CR.M1.GG}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.GG.CD:DP.DOD.DLTC.CR.M1.GG.CD{marker DP.DOD.DLTC.CR.M1.GG.CD}}}015.With payment due in more than one year (PSDGG, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.GG.CD:DP.DOD.DLTC.CR.M1.GG.CD{marker DP.DOD.DLTC.CR.M1.GG.CD}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.GG.Z1:DP.DOD.DLTC.CR.M1.GG.Z1{marker DP.DOD.DLTC.CR.M1.GG.Z1}}}463.With payment due in more than one year (PSDGG, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.GG.Z1:DP.DOD.DLTC.CR.M1.GG.Z1{marker DP.DOD.DLTC.CR.M1.GG.Z1}}}Gross PSD, General Gov., Long-term, With payment due in more than one year, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.NF:DP.DOD.DLTC.CR.M1.NF{marker DP.DOD.DLTC.CR.M1.NF}}}335.With payment due in more than one year (PSDNFPC, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.NF:DP.DOD.DLTC.CR.M1.NF{marker DP.DOD.DLTC.CR.M1.NF}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.NF.CD:DP.DOD.DLTC.CR.M1.NF.CD{marker DP.DOD.DLTC.CR.M1.NF.CD}}}111.With payment due in more than one year (PSDNFPC, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.NF.CD:DP.DOD.DLTC.CR.M1.NF.CD{marker DP.DOD.DLTC.CR.M1.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.NF.Z1:DP.DOD.DLTC.CR.M1.NF.Z1{marker DP.DOD.DLTC.CR.M1.NF.Z1}}}559.With payment due in more than one year (PSDNFPC, LT, &gt;1yr)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.NF.Z1:DP.DOD.DLTC.CR.M1.NF.Z1{marker DP.DOD.DLTC.CR.M1.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in more than one year, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.PS:DP.DOD.DLTC.CR.M1.PS{marker DP.DOD.DLTC.CR.M1.PS}}}399.With payment due in more than one year (PSDT, LT, &gt;1yr){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.PS:DP.DOD.DLTC.CR.M1.PS{marker DP.DOD.DLTC.CR.M1.PS}}}Gross PSD, Public Sector, Long-term, With payment due in more than one year, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.PS.CD:DP.DOD.DLTC.CR.M1.PS.CD{marker DP.DOD.DLTC.CR.M1.PS.CD}}}175.With payment due in more than one year (PSDT, LT, &gt;1yr) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.M1.PS.CD:DP.DOD.DLTC.CR.M1.PS.CD{marker DP.DOD.DLTC.CR.M1.PS.CD}}}Gross PSD, Total, Long-term, With payment due in more than one year, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.NF:DP.DOD.DLTC.CR.NF{marker DP.DOD.DLTC.CR.NF}}}328.Long-term, by original maturity (PSDNFPC, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.NF:DP.DOD.DLTC.CR.NF{marker DP.DOD.DLTC.CR.NF}}}Gross PSD, Nonfinancial Public Corp., Long-term, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.NF.CD:DP.DOD.DLTC.CR.NF.CD{marker DP.DOD.DLTC.CR.NF.CD}}}104.Long-term, by original maturity (PSDNFPC, LT) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.NF.CD:DP.DOD.DLTC.CR.NF.CD{marker DP.DOD.DLTC.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Long-term, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.NF.Z1:DP.DOD.DLTC.CR.NF.Z1{marker DP.DOD.DLTC.CR.NF.Z1}}}552.Long-term, by original maturity (PSDNFPC, LT)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.NF.Z1:DP.DOD.DLTC.CR.NF.Z1{marker DP.DOD.DLTC.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Long-term, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.PS:DP.DOD.DLTC.CR.PS{marker DP.DOD.DLTC.CR.PS}}}392.Long-term, by original maturity (PSDT, LT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.PS:DP.DOD.DLTC.CR.PS{marker DP.DOD.DLTC.CR.PS}}}Gross PSD, Public Sector, Long-term, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.PS.CD:DP.DOD.DLTC.CR.PS.CD{marker DP.DOD.DLTC.CR.PS.CD}}}168.Long-term, by original maturity (PSDT, LT) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DLTC.CR.PS.CD:DP.DOD.DLTC.CR.PS.CD{marker DP.DOD.DLTC.CR.PS.CD}}}Gross PSD, Total, Long-term, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.BC:DP.DOD.DSCD.CR.BC{marker DP.DOD.DSCD.CR.BC}}}291.Currency and deposits (PSDCGGB, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.BC:DP.DOD.DSCD.CR.BC{marker DP.DOD.DSCD.CR.BC}}}Gross PSD, Budgetary Central Gov., Short-term, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.BC.CD:DP.DOD.DSCD.CR.BC.CD{marker DP.DOD.DSCD.CR.BC.CD}}}067.Currency and deposits (PSDCGGB, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.BC.CD:DP.DOD.DSCD.CR.BC.CD{marker DP.DOD.DSCD.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., Short-term, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.BC.Z1:DP.DOD.DSCD.CR.BC.Z1{marker DP.DOD.DSCD.CR.BC.Z1}}}515.Currency and deposits (PSDCGGB, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.BC.Z1:DP.DOD.DSCD.CR.BC.Z1{marker DP.DOD.DSCD.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., Short-term, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.CG:DP.DOD.DSCD.CR.CG{marker DP.DOD.DSCD.CR.CG}}}259.Currency and deposits (PSDCG, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.CG:DP.DOD.DSCD.CR.CG{marker DP.DOD.DSCD.CR.CG}}}Gross PSD, Central Gov., Short-term, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.CG.CD:DP.DOD.DSCD.CR.CG.CD{marker DP.DOD.DSCD.CR.CG.CD}}}035.Currency and deposits (PSDCG, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.CG.CD:DP.DOD.DSCD.CR.CG.CD{marker DP.DOD.DSCD.CR.CG.CD}}}Gross PSD, Central Gov., Short-term, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.CG.Z1:DP.DOD.DSCD.CR.CG.Z1{marker DP.DOD.DSCD.CR.CG.Z1}}}483.Currency and deposits (PSDCG, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.CG.Z1:DP.DOD.DSCD.CR.CG.Z1{marker DP.DOD.DSCD.CR.CG.Z1}}}Gross PSD, Central Gov., Short-term, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.FC:DP.DOD.DSCD.CR.FC{marker DP.DOD.DSCD.CR.FC}}}355.Currency and deposits (PSDFPC, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.FC:DP.DOD.DSCD.CR.FC{marker DP.DOD.DSCD.CR.FC}}}Gross PSD, Financial Public Corp., Short-term, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.FC.CD:DP.DOD.DSCD.CR.FC.CD{marker DP.DOD.DSCD.CR.FC.CD}}}131.Currency and deposits (PSDFPC, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.FC.CD:DP.DOD.DSCD.CR.FC.CD{marker DP.DOD.DSCD.CR.FC.CD}}}Gross PSD, Financial Public Corp., Short-term, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.FC.Z1:DP.DOD.DSCD.CR.FC.Z1{marker DP.DOD.DSCD.CR.FC.Z1}}}579.Currency and deposits (PSDFPC, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.FC.Z1:DP.DOD.DSCD.CR.FC.Z1{marker DP.DOD.DSCD.CR.FC.Z1}}}Gross PSD, Financial Public Corp., Short-term, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.GG:DP.DOD.DSCD.CR.GG{marker DP.DOD.DSCD.CR.GG}}}227.Currency and deposits (PSDGG, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.GG:DP.DOD.DSCD.CR.GG{marker DP.DOD.DSCD.CR.GG}}}Gross PSD, General Gov., Short-term, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.GG.CD:DP.DOD.DSCD.CR.GG.CD{marker DP.DOD.DSCD.CR.GG.CD}}}003.Currency and deposits (PSDGG, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.GG.CD:DP.DOD.DSCD.CR.GG.CD{marker DP.DOD.DSCD.CR.GG.CD}}}Gross PSD, General Gov., Short-term, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.GG.Z1:DP.DOD.DSCD.CR.GG.Z1{marker DP.DOD.DSCD.CR.GG.Z1}}}451.Currency and deposits (PSDGG, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.GG.Z1:DP.DOD.DSCD.CR.GG.Z1{marker DP.DOD.DSCD.CR.GG.Z1}}}Gross PSD, General Gov., Short-term, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.NF:DP.DOD.DSCD.CR.NF{marker DP.DOD.DSCD.CR.NF}}}323.Currency and deposits (PSDNFPC, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.NF:DP.DOD.DSCD.CR.NF{marker DP.DOD.DSCD.CR.NF}}}Gross PSD, Nonfinancial Public Corp., Short-term, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.NF.CD:DP.DOD.DSCD.CR.NF.CD{marker DP.DOD.DSCD.CR.NF.CD}}}099.Currency and deposits (PSDNFPC, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.NF.CD:DP.DOD.DSCD.CR.NF.CD{marker DP.DOD.DSCD.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Short-term, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.NF.Z1:DP.DOD.DSCD.CR.NF.Z1{marker DP.DOD.DSCD.CR.NF.Z1}}}547.Currency and deposits (PSDNFPC, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.NF.Z1:DP.DOD.DSCD.CR.NF.Z1{marker DP.DOD.DSCD.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Short-term, Currency and deposits, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.PS:DP.DOD.DSCD.CR.PS{marker DP.DOD.DSCD.CR.PS}}}387.Currency and deposits (PSDT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.PS:DP.DOD.DSCD.CR.PS{marker DP.DOD.DSCD.CR.PS}}}Gross PSD, Public Sector, Short-term, Currency and deposits, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.PS.CD:DP.DOD.DSCD.CR.PS.CD{marker DP.DOD.DSCD.CR.PS.CD}}}163.Currency and deposits (PSDT, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSCD.CR.PS.CD:DP.DOD.DSCD.CR.PS.CD{marker DP.DOD.DSCD.CR.PS.CD}}}Gross PSD, Total, Short-term, Currency and deposits, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.BC:DP.DOD.DSDS.CR.BC{marker DP.DOD.DSDS.CR.BC}}}292.Debt securities (PSDCGGB, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.BC:DP.DOD.DSDS.CR.BC{marker DP.DOD.DSDS.CR.BC}}}Gross PSD, Budgetary Central Gov., Short-term, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.BC.CD:DP.DOD.DSDS.CR.BC.CD{marker DP.DOD.DSDS.CR.BC.CD}}}068.Debt securities (PSDCGGB, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.BC.CD:DP.DOD.DSDS.CR.BC.CD{marker DP.DOD.DSDS.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., Short-term, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.BC.Z1:DP.DOD.DSDS.CR.BC.Z1{marker DP.DOD.DSDS.CR.BC.Z1}}}516.Debt securities (PSDCGGB, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.BC.Z1:DP.DOD.DSDS.CR.BC.Z1{marker DP.DOD.DSDS.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., Short-term, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.CG:DP.DOD.DSDS.CR.CG{marker DP.DOD.DSDS.CR.CG}}}260.Debt securities (PSDCG, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.CG:DP.DOD.DSDS.CR.CG{marker DP.DOD.DSDS.CR.CG}}}Gross PSD, Central Gov., Short-term, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.CG.CD:DP.DOD.DSDS.CR.CG.CD{marker DP.DOD.DSDS.CR.CG.CD}}}036.Debt securities (PSDCG, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.CG.CD:DP.DOD.DSDS.CR.CG.CD{marker DP.DOD.DSDS.CR.CG.CD}}}Gross PSD, Central Gov., Short-term, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.CG.Z1:DP.DOD.DSDS.CR.CG.Z1{marker DP.DOD.DSDS.CR.CG.Z1}}}484.Debt securities (PSDCG, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.CG.Z1:DP.DOD.DSDS.CR.CG.Z1{marker DP.DOD.DSDS.CR.CG.Z1}}}Gross PSD, Central Gov., Short-term, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.FC:DP.DOD.DSDS.CR.FC{marker DP.DOD.DSDS.CR.FC}}}356.Debt securities (PSDFPC, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.FC:DP.DOD.DSDS.CR.FC{marker DP.DOD.DSDS.CR.FC}}}Gross PSD, Financial Public Corp., Short-term, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.FC.CD:DP.DOD.DSDS.CR.FC.CD{marker DP.DOD.DSDS.CR.FC.CD}}}132.Debt securities (PSDFPC, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.FC.CD:DP.DOD.DSDS.CR.FC.CD{marker DP.DOD.DSDS.CR.FC.CD}}}Gross PSD, Financial Public Corp., Short-term, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.FC.Z1:DP.DOD.DSDS.CR.FC.Z1{marker DP.DOD.DSDS.CR.FC.Z1}}}580.Debt securities (PSDFPC, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.FC.Z1:DP.DOD.DSDS.CR.FC.Z1{marker DP.DOD.DSDS.CR.FC.Z1}}}Gross PSD, Financial Public Corp., Short-term, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.GG:DP.DOD.DSDS.CR.GG{marker DP.DOD.DSDS.CR.GG}}}228.Debt securities (PSDGG, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.GG:DP.DOD.DSDS.CR.GG{marker DP.DOD.DSDS.CR.GG}}}Gross PSD, General Gov., Short-term, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.GG.CD:DP.DOD.DSDS.CR.GG.CD{marker DP.DOD.DSDS.CR.GG.CD}}}004.Debt securities (PSDGG, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.GG.CD:DP.DOD.DSDS.CR.GG.CD{marker DP.DOD.DSDS.CR.GG.CD}}}Gross PSD, General Gov., Short-term, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.GG.Z1:DP.DOD.DSDS.CR.GG.Z1{marker DP.DOD.DSDS.CR.GG.Z1}}}452.Debt securities (PSDGG, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.GG.Z1:DP.DOD.DSDS.CR.GG.Z1{marker DP.DOD.DSDS.CR.GG.Z1}}}Gross PSD, General Gov., Short-term, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.NF:DP.DOD.DSDS.CR.NF{marker DP.DOD.DSDS.CR.NF}}}324.Debt securities (PSDNFPC, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.NF:DP.DOD.DSDS.CR.NF{marker DP.DOD.DSDS.CR.NF}}}Gross PSD, Nonfinancial Public Corp., Short-term, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.NF.CD:DP.DOD.DSDS.CR.NF.CD{marker DP.DOD.DSDS.CR.NF.CD}}}100.Debt securities (PSDNFPC, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.NF.CD:DP.DOD.DSDS.CR.NF.CD{marker DP.DOD.DSDS.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Short-term, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.NF.Z1:DP.DOD.DSDS.CR.NF.Z1{marker DP.DOD.DSDS.CR.NF.Z1}}}548.Debt securities (PSDNFPC, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.NF.Z1:DP.DOD.DSDS.CR.NF.Z1{marker DP.DOD.DSDS.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Short-term, Debt securities, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.PS:DP.DOD.DSDS.CR.PS{marker DP.DOD.DSDS.CR.PS}}}388.Debt securities (PSDT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.PS:DP.DOD.DSDS.CR.PS{marker DP.DOD.DSDS.CR.PS}}}Gross PSD, Public Sector, Short-term, Debt securities, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.PS.CD:DP.DOD.DSDS.CR.PS.CD{marker DP.DOD.DSDS.CR.PS.CD}}}164.Debt securities (PSDT, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSDS.CR.PS.CD:DP.DOD.DSDS.CR.PS.CD{marker DP.DOD.DSDS.CR.PS.CD}}}Gross PSD, Total, Short-term, Debt securities, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.BC:DP.DOD.DSIN.CR.BC{marker DP.DOD.DSIN.CR.BC}}}294.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.BC:DP.DOD.DSIN.CR.BC{marker DP.DOD.DSIN.CR.BC}}}Gross PSD, Budgetary Central Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.BC.CD:DP.DOD.DSIN.CR.BC.CD{marker DP.DOD.DSIN.CR.BC.CD}}}070.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.BC.CD:DP.DOD.DSIN.CR.BC.CD{marker DP.DOD.DSIN.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.BC.Z1:DP.DOD.DSIN.CR.BC.Z1{marker DP.DOD.DSIN.CR.BC.Z1}}}518.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.BC.Z1:DP.DOD.DSIN.CR.BC.Z1{marker DP.DOD.DSIN.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.CG:DP.DOD.DSIN.CR.CG{marker DP.DOD.DSIN.CR.CG}}}262.Insurance, pensions, and standardized guarantee schemes (PSDCG, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.CG:DP.DOD.DSIN.CR.CG{marker DP.DOD.DSIN.CR.CG}}}Gross PSD, Central Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.CG.CD:DP.DOD.DSIN.CR.CG.CD{marker DP.DOD.DSIN.CR.CG.CD}}}038.Insurance, pensions, and standardized guarantee schemes (PSDCG, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.CG.CD:DP.DOD.DSIN.CR.CG.CD{marker DP.DOD.DSIN.CR.CG.CD}}}Gross PSD, Central Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.CG.Z1:DP.DOD.DSIN.CR.CG.Z1{marker DP.DOD.DSIN.CR.CG.Z1}}}486.Insurance, pensions, and standardized guarantee schemes (PSDCG, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.CG.Z1:DP.DOD.DSIN.CR.CG.Z1{marker DP.DOD.DSIN.CR.CG.Z1}}}Gross PSD, Central Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.FC:DP.DOD.DSIN.CR.FC{marker DP.DOD.DSIN.CR.FC}}}358.Insurance, pensions, and standardized guarantee schemes (PSDFPC, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.FC:DP.DOD.DSIN.CR.FC{marker DP.DOD.DSIN.CR.FC}}}Gross PSD, Financial Public Corp., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.FC.CD:DP.DOD.DSIN.CR.FC.CD{marker DP.DOD.DSIN.CR.FC.CD}}}134.Insurance, pensions, and standardized guarantee schemes (PSDFPC, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.FC.CD:DP.DOD.DSIN.CR.FC.CD{marker DP.DOD.DSIN.CR.FC.CD}}}Gross PSD, Financial Public Corp., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.FC.Z1:DP.DOD.DSIN.CR.FC.Z1{marker DP.DOD.DSIN.CR.FC.Z1}}}582.Insurance, pensions, and standardized guarantee schemes (PSDFPC, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.FC.Z1:DP.DOD.DSIN.CR.FC.Z1{marker DP.DOD.DSIN.CR.FC.Z1}}}Gross PSD, Financial Public Corp., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.GG:DP.DOD.DSIN.CR.GG{marker DP.DOD.DSIN.CR.GG}}}230.Insurance, pensions, and stnd. guarantee schemes (PSDGG, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.GG:DP.DOD.DSIN.CR.GG{marker DP.DOD.DSIN.CR.GG}}}Gross PSD, General Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.GG.CD:DP.DOD.DSIN.CR.GG.CD{marker DP.DOD.DSIN.CR.GG.CD}}}006.Insurance, pensions, and standardized guarantee schemes (PSDGG, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.GG.CD:DP.DOD.DSIN.CR.GG.CD{marker DP.DOD.DSIN.CR.GG.CD}}}Gross PSD, General Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.GG.Z1:DP.DOD.DSIN.CR.GG.Z1{marker DP.DOD.DSIN.CR.GG.Z1}}}454.Insurance, pensions, and stnd. guarantee schemes (PSDGG, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.GG.Z1:DP.DOD.DSIN.CR.GG.Z1{marker DP.DOD.DSIN.CR.GG.Z1}}}Gross PSD, General Gov., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.NF:DP.DOD.DSIN.CR.NF{marker DP.DOD.DSIN.CR.NF}}}326.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.NF:DP.DOD.DSIN.CR.NF{marker DP.DOD.DSIN.CR.NF}}}Gross PSD, Nonfinancial Public Corp., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.NF.CD:DP.DOD.DSIN.CR.NF.CD{marker DP.DOD.DSIN.CR.NF.CD}}}102.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.NF.CD:DP.DOD.DSIN.CR.NF.CD{marker DP.DOD.DSIN.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.NF.Z1:DP.DOD.DSIN.CR.NF.Z1{marker DP.DOD.DSIN.CR.NF.Z1}}}550.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.NF.Z1:DP.DOD.DSIN.CR.NF.Z1{marker DP.DOD.DSIN.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.PS:DP.DOD.DSIN.CR.PS{marker DP.DOD.DSIN.CR.PS}}}390.Insurance, pensions, and standardized guarantee schemes (PSDT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.PS:DP.DOD.DSIN.CR.PS{marker DP.DOD.DSIN.CR.PS}}}Gross PSD, Public Sector, Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.PS.CD:DP.DOD.DSIN.CR.PS.CD{marker DP.DOD.DSIN.CR.PS.CD}}}166.Insurance, pensions, and standardized guarantee schemes (PSDT, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSIN.CR.PS.CD:DP.DOD.DSIN.CR.PS.CD{marker DP.DOD.DSIN.CR.PS.CD}}}Gross PSD, Total, Short-term, Insurance, pensions, and standardized guarantee schemes, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.BC:DP.DOD.DSLO.CR.BC{marker DP.DOD.DSLO.CR.BC}}}293.Loans (PSDCGGB, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.BC:DP.DOD.DSLO.CR.BC{marker DP.DOD.DSLO.CR.BC}}}Gross PSD, Budgetary Central Gov., Short-term, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.BC.CD:DP.DOD.DSLO.CR.BC.CD{marker DP.DOD.DSLO.CR.BC.CD}}}069.Loans (PSDCGGB, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.BC.CD:DP.DOD.DSLO.CR.BC.CD{marker DP.DOD.DSLO.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., Short-term, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.BC.Z1:DP.DOD.DSLO.CR.BC.Z1{marker DP.DOD.DSLO.CR.BC.Z1}}}517.Loans (PSDCGGB, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.BC.Z1:DP.DOD.DSLO.CR.BC.Z1{marker DP.DOD.DSLO.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., Short-term, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.CG:DP.DOD.DSLO.CR.CG{marker DP.DOD.DSLO.CR.CG}}}261.Loans (PSDCG, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.CG:DP.DOD.DSLO.CR.CG{marker DP.DOD.DSLO.CR.CG}}}Gross PSD, Central Gov., Short-term, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.CG.CD:DP.DOD.DSLO.CR.CG.CD{marker DP.DOD.DSLO.CR.CG.CD}}}037.Loans (PSDCG, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.CG.CD:DP.DOD.DSLO.CR.CG.CD{marker DP.DOD.DSLO.CR.CG.CD}}}Gross PSD, Central Gov., Short-term, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.CG.Z1:DP.DOD.DSLO.CR.CG.Z1{marker DP.DOD.DSLO.CR.CG.Z1}}}485.Loans (PSDCG, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.CG.Z1:DP.DOD.DSLO.CR.CG.Z1{marker DP.DOD.DSLO.CR.CG.Z1}}}Gross PSD, Central Gov., Short-term, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.FC:DP.DOD.DSLO.CR.FC{marker DP.DOD.DSLO.CR.FC}}}357.Loans (PSDFPC, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.FC:DP.DOD.DSLO.CR.FC{marker DP.DOD.DSLO.CR.FC}}}Gross PSD, Financial Public Corp., Short-term, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.FC.CD:DP.DOD.DSLO.CR.FC.CD{marker DP.DOD.DSLO.CR.FC.CD}}}133.Loans (PSDFPC, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.FC.CD:DP.DOD.DSLO.CR.FC.CD{marker DP.DOD.DSLO.CR.FC.CD}}}Gross PSD, Financial Public Corp., Short-term, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.FC.Z1:DP.DOD.DSLO.CR.FC.Z1{marker DP.DOD.DSLO.CR.FC.Z1}}}581.Loans (PSDFPC, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.FC.Z1:DP.DOD.DSLO.CR.FC.Z1{marker DP.DOD.DSLO.CR.FC.Z1}}}Gross PSD, Financial Public Corp., Short-term, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.GG:DP.DOD.DSLO.CR.GG{marker DP.DOD.DSLO.CR.GG}}}229.Loans (PSDGG, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.GG:DP.DOD.DSLO.CR.GG{marker DP.DOD.DSLO.CR.GG}}}Gross PSD, General Gov., Short-term, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.GG.CD:DP.DOD.DSLO.CR.GG.CD{marker DP.DOD.DSLO.CR.GG.CD}}}005.Loans (PSDGG, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.GG.CD:DP.DOD.DSLO.CR.GG.CD{marker DP.DOD.DSLO.CR.GG.CD}}}Gross PSD, General Gov., Short-term, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.GG.Z1:DP.DOD.DSLO.CR.GG.Z1{marker DP.DOD.DSLO.CR.GG.Z1}}}453.Loans (PSDGG, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.GG.Z1:DP.DOD.DSLO.CR.GG.Z1{marker DP.DOD.DSLO.CR.GG.Z1}}}Gross PSD, General Gov., Short-term, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.NF:DP.DOD.DSLO.CR.NF{marker DP.DOD.DSLO.CR.NF}}}325.Loans (PSDNFPC, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.NF:DP.DOD.DSLO.CR.NF{marker DP.DOD.DSLO.CR.NF}}}Gross PSD, Nonfinancial Public Corp., Short-term, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.NF.CD:DP.DOD.DSLO.CR.NF.CD{marker DP.DOD.DSLO.CR.NF.CD}}}101.Loans (PSDNFPC, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.NF.CD:DP.DOD.DSLO.CR.NF.CD{marker DP.DOD.DSLO.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Short-term, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.NF.Z1:DP.DOD.DSLO.CR.NF.Z1{marker DP.DOD.DSLO.CR.NF.Z1}}}549.Loans (PSDNFPC, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.NF.Z1:DP.DOD.DSLO.CR.NF.Z1{marker DP.DOD.DSLO.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Short-term, Loans, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.PS:DP.DOD.DSLO.CR.PS{marker DP.DOD.DSLO.CR.PS}}}389.Loans (PSDT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.PS:DP.DOD.DSLO.CR.PS{marker DP.DOD.DSLO.CR.PS}}}Gross PSD, Public Sector, Short-term, Loans, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.PS.CD:DP.DOD.DSLO.CR.PS.CD{marker DP.DOD.DSLO.CR.PS.CD}}}165.Loans (PSDT, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSLO.CR.PS.CD:DP.DOD.DSLO.CR.PS.CD{marker DP.DOD.DSLO.CR.PS.CD}}}Gross PSD, Total, Short-term, Loans, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.BC:DP.DOD.DSOA.CR.BC{marker DP.DOD.DSOA.CR.BC}}}295.Other accounts payable (PSDCGGB, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.BC:DP.DOD.DSOA.CR.BC{marker DP.DOD.DSOA.CR.BC}}}Gross PSD, Budgetary Central Gov., Short-term, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.BC.CD:DP.DOD.DSOA.CR.BC.CD{marker DP.DOD.DSOA.CR.BC.CD}}}071.Other accounts payable (PSDCGGB, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.BC.CD:DP.DOD.DSOA.CR.BC.CD{marker DP.DOD.DSOA.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., Short-term, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.BC.Z1:DP.DOD.DSOA.CR.BC.Z1{marker DP.DOD.DSOA.CR.BC.Z1}}}519.Other accounts payable (PSDCGGB, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.BC.Z1:DP.DOD.DSOA.CR.BC.Z1{marker DP.DOD.DSOA.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., Short-term, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.CG:DP.DOD.DSOA.CR.CG{marker DP.DOD.DSOA.CR.CG}}}263.Other accounts payable (PSDCG, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.CG:DP.DOD.DSOA.CR.CG{marker DP.DOD.DSOA.CR.CG}}}Gross PSD, Central Gov., Short-term, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.CG.CD:DP.DOD.DSOA.CR.CG.CD{marker DP.DOD.DSOA.CR.CG.CD}}}039.Other accounts payable (PSDCG, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.CG.CD:DP.DOD.DSOA.CR.CG.CD{marker DP.DOD.DSOA.CR.CG.CD}}}Gross PSD, Central Gov., Short-term, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.CG.Z1:DP.DOD.DSOA.CR.CG.Z1{marker DP.DOD.DSOA.CR.CG.Z1}}}487.Other accounts payable (PSDCG, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.CG.Z1:DP.DOD.DSOA.CR.CG.Z1{marker DP.DOD.DSOA.CR.CG.Z1}}}Gross PSD, Central Gov., Short-term, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.FC:DP.DOD.DSOA.CR.FC{marker DP.DOD.DSOA.CR.FC}}}359.Other accounts payable (PSDFPC, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.FC:DP.DOD.DSOA.CR.FC{marker DP.DOD.DSOA.CR.FC}}}Gross PSD, Financial Public Corp., Short-term, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.FC.CD:DP.DOD.DSOA.CR.FC.CD{marker DP.DOD.DSOA.CR.FC.CD}}}135.Other accounts payable (PSDFPC, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.FC.CD:DP.DOD.DSOA.CR.FC.CD{marker DP.DOD.DSOA.CR.FC.CD}}}Gross PSD, Financial Public Corp., Short-term, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.FC.Z1:DP.DOD.DSOA.CR.FC.Z1{marker DP.DOD.DSOA.CR.FC.Z1}}}583.Other accounts payable (PSDFPC, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.FC.Z1:DP.DOD.DSOA.CR.FC.Z1{marker DP.DOD.DSOA.CR.FC.Z1}}}Gross PSD, Financial Public Corp., Short-term, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.GG:DP.DOD.DSOA.CR.GG{marker DP.DOD.DSOA.CR.GG}}}231.Other accounts payable (PSDGG, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.GG:DP.DOD.DSOA.CR.GG{marker DP.DOD.DSOA.CR.GG}}}Gross PSD, General Gov., Short-term, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.GG.CD:DP.DOD.DSOA.CR.GG.CD{marker DP.DOD.DSOA.CR.GG.CD}}}007.Other accounts payable (PSDGG, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.GG.CD:DP.DOD.DSOA.CR.GG.CD{marker DP.DOD.DSOA.CR.GG.CD}}}Gross PSD, General Gov., Short-term, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.GG.Z1:DP.DOD.DSOA.CR.GG.Z1{marker DP.DOD.DSOA.CR.GG.Z1}}}455.Other accounts payable (PSDGG, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.GG.Z1:DP.DOD.DSOA.CR.GG.Z1{marker DP.DOD.DSOA.CR.GG.Z1}}}Gross PSD, General Gov., Short-term, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.NF:DP.DOD.DSOA.CR.NF{marker DP.DOD.DSOA.CR.NF}}}327.Other accounts payable (PSDNFPC, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.NF:DP.DOD.DSOA.CR.NF{marker DP.DOD.DSOA.CR.NF}}}Gross PSD, Nonfinancial Public Corp., Short-term, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.NF.CD:DP.DOD.DSOA.CR.NF.CD{marker DP.DOD.DSOA.CR.NF.CD}}}103.Other accounts payable (PSDNFPC, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.NF.CD:DP.DOD.DSOA.CR.NF.CD{marker DP.DOD.DSOA.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Short-term, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.NF.Z1:DP.DOD.DSOA.CR.NF.Z1{marker DP.DOD.DSOA.CR.NF.Z1}}}551.Other accounts payable (PSDNFPC, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.NF.Z1:DP.DOD.DSOA.CR.NF.Z1{marker DP.DOD.DSOA.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Short-term, Other accounts payable, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.PS:DP.DOD.DSOA.CR.PS{marker DP.DOD.DSOA.CR.PS}}}391.Other accounts payable (PSDT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.PS:DP.DOD.DSOA.CR.PS{marker DP.DOD.DSOA.CR.PS}}}Gross PSD, Public Sector, Short-term, Other accounts payable, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.PS.CD:DP.DOD.DSOA.CR.PS.CD{marker DP.DOD.DSOA.CR.PS.CD}}}167.Other accounts payable (PSDT, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSOA.CR.PS.CD:DP.DOD.DSOA.CR.PS.CD{marker DP.DOD.DSOA.CR.PS.CD}}}Gross PSD, Total, Short-term, Other accounts payable, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.BC:DP.DOD.DSTC.CR.BC{marker DP.DOD.DSTC.CR.BC}}}290.Short-term by original maturity (PSDCGGB, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.BC:DP.DOD.DSTC.CR.BC{marker DP.DOD.DSTC.CR.BC}}}Gross PSD, Budgetary Central Gov., Short-term, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.BC.CD:DP.DOD.DSTC.CR.BC.CD{marker DP.DOD.DSTC.CR.BC.CD}}}066.Short-term by original maturity (PSDCGGB, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.BC.CD:DP.DOD.DSTC.CR.BC.CD{marker DP.DOD.DSTC.CR.BC.CD}}}Gross PSD, Budgetary Central Gov., Short-term, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.BC.Z1:DP.DOD.DSTC.CR.BC.Z1{marker DP.DOD.DSTC.CR.BC.Z1}}}514.Short-term by original maturity (PSDCGGB, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.BC.Z1:DP.DOD.DSTC.CR.BC.Z1{marker DP.DOD.DSTC.CR.BC.Z1}}}Gross PSD, Budgetary Central Gov., Short-term, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.CG:DP.DOD.DSTC.CR.CG{marker DP.DOD.DSTC.CR.CG}}}258.Short-term by original maturity (PSDCG, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.CG:DP.DOD.DSTC.CR.CG{marker DP.DOD.DSTC.CR.CG}}}Gross PSD, Central Gov., Short-term, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.CG.CD:DP.DOD.DSTC.CR.CG.CD{marker DP.DOD.DSTC.CR.CG.CD}}}034.Short-term by original maturity (PSDCG, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.CG.CD:DP.DOD.DSTC.CR.CG.CD{marker DP.DOD.DSTC.CR.CG.CD}}}Gross PSD, Central Gov., Short-term, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.CG.Z1:DP.DOD.DSTC.CR.CG.Z1{marker DP.DOD.DSTC.CR.CG.Z1}}}482.Short-term by original maturity (PSDCG, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.CG.Z1:DP.DOD.DSTC.CR.CG.Z1{marker DP.DOD.DSTC.CR.CG.Z1}}}Gross PSD, Central Gov., Short-term, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.FC:DP.DOD.DSTC.CR.FC{marker DP.DOD.DSTC.CR.FC}}}354.Short-term by original maturity (PSDFPC, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.FC:DP.DOD.DSTC.CR.FC{marker DP.DOD.DSTC.CR.FC}}}Gross PSD, Financial Public Corp., Short-term, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.FC.CD:DP.DOD.DSTC.CR.FC.CD{marker DP.DOD.DSTC.CR.FC.CD}}}130.Short-term by original maturity (PSDFPC, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.FC.CD:DP.DOD.DSTC.CR.FC.CD{marker DP.DOD.DSTC.CR.FC.CD}}}Gross PSD, Financial Public Corp., Short-term, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.FC.Z1:DP.DOD.DSTC.CR.FC.Z1{marker DP.DOD.DSTC.CR.FC.Z1}}}578.Short-term by original maturity (PSDFPC, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.FC.Z1:DP.DOD.DSTC.CR.FC.Z1{marker DP.DOD.DSTC.CR.FC.Z1}}}Gross PSD, Financial Public Corp., Short-term, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.GG:DP.DOD.DSTC.CR.GG{marker DP.DOD.DSTC.CR.GG}}}226.Short-term by original maturity (PSDGG, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.GG:DP.DOD.DSTC.CR.GG{marker DP.DOD.DSTC.CR.GG}}}Gross PSD, General Gov., Short-term, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.GG.CD:DP.DOD.DSTC.CR.GG.CD{marker DP.DOD.DSTC.CR.GG.CD}}}002.Short-term by original maturity (PSDGG, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.GG.CD:DP.DOD.DSTC.CR.GG.CD{marker DP.DOD.DSTC.CR.GG.CD}}}Gross PSD, General Gov., Short-term, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.GG.Z1:DP.DOD.DSTC.CR.GG.Z1{marker DP.DOD.DSTC.CR.GG.Z1}}}450.Short-term by original maturity (PSDGG, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.GG.Z1:DP.DOD.DSTC.CR.GG.Z1{marker DP.DOD.DSTC.CR.GG.Z1}}}Gross PSD, General Gov., Short-term, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.NF:DP.DOD.DSTC.CR.NF{marker DP.DOD.DSTC.CR.NF}}}322.Short-term by original maturity (PSDNFPC, ST){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.NF:DP.DOD.DSTC.CR.NF{marker DP.DOD.DSTC.CR.NF}}}Gross PSD, Nonfinancial Public Corp., Short-term, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.NF.CD:DP.DOD.DSTC.CR.NF.CD{marker DP.DOD.DSTC.CR.NF.CD}}}098.Short-term by original maturity (PSDNFPC, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.NF.CD:DP.DOD.DSTC.CR.NF.CD{marker DP.DOD.DSTC.CR.NF.CD}}}Gross PSD, Nonfinancial Public Corp., Short-term, All instruments, Nominal Value, US
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.NF.Z1:DP.DOD.DSTC.CR.NF.Z1{marker DP.DOD.DSTC.CR.NF.Z1}}}546.Short-term by original maturity (PSDNFPC, ST)(% of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.NF.Z1:DP.DOD.DSTC.CR.NF.Z1{marker DP.DOD.DSTC.CR.NF.Z1}}}Gross PSD, Nonfinancial Public Corp., Short-term, All instruments, Nominal Value, % of GDP{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.PS:DP.DOD.DSTC.CR.PS{marker DP.DOD.DSTC.CR.PS}}}386.Short-term by original maturity (PSDT){p_end}
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.PS:DP.DOD.DSTC.CR.PS{marker DP.DOD.DSTC.CR.PS}}}Gross PSD, Public Sector, Short-term, All instruments, Nominal Value, National Currency{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.PS.CD:DP.DOD.DSTC.CR.PS.CD{marker DP.DOD.DSTC.CR.PS.CD}}}162.Short-term by original maturity (PSDT, ST) US
+{synopt:{help wbopendata_sourceid_indicators20##sourceid_DP.DOD.DSTC.CR.PS.CD:DP.DOD.DSTC.CR.PS.CD{marker DP.DOD.DSTC.CR.PS.CD}}}Gross PSD, Total, Short-term, All instruments, Nominal Value, US
 {synoptline}
 
 {marker sourceid_22}
@@ -31112,6 +31092,8 @@
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_EP.CPI.2007:EP.CPI.2007{marker EP.CPI.2007}}}Consumer Price Index in 66 cities base 2007{p_end}
 
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_EP.CPI.2012:EP.CPI.2012{marker EP.CPI.2012}}}Consumer Price Index in 82 cities base 2012{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_FC.XPD.ADMN.CR:FC.XPD.ADMN.CR{marker FC.XPD.ADMN.CR}}}General administration function expenditure (in IDR){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_FC.XPD.AGR.CR:FC.XPD.AGR.CR{marker FC.XPD.AGR.CR}}}Agriculture function expenditure (in IDR){p_end}
@@ -31184,15 +31166,41 @@
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_IDX.HDI:IDX.HDI{marker IDX.HDI}}}Human Development Index{p_end}
 
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_IDX.HDI.REV:IDX.HDI.REV{marker IDX.HDI.REV}}}Human Development Index, revised method{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_LND.TOTL.K2:LND.TOTL.K2{marker LND.TOTL.K2}}}Total Area (in Km²){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.ACC.FB.SNA08.CR:NA.GDP.ACC.FB.SNA08.CR{marker NA.GDP.ACC.FB.SNA08.CR}}}GDP on Accommodation &amp; Food Beverages Activity Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.ACC.FB.SNA08.KR:NA.GDP.ACC.FB.SNA08.KR{marker NA.GDP.ACC.FB.SNA08.KR}}}GDP on Accommodation &amp; Food Beverages Activity Sector (in IDR Million), SNA 2008, Constant Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.AGR.CR:NA.GDP.AGR.CR{marker NA.GDP.AGR.CR}}}GDP on Agriculture Sector (in IDR Million), Current Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.AGR.KR:NA.GDP.AGR.KR{marker NA.GDP.AGR.KR}}}GDP on Agriculture Sector (in IDR Million), Constant Price{p_end}
 
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.AGR.SNA08.CR:NA.GDP.AGR.SNA08.CR{marker NA.GDP.AGR.SNA08.CR}}}GDP on Agriculture, Forestry &amp; Fisheries Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.AGR.SNA08.KR:NA.GDP.AGR.SNA08.KR{marker NA.GDP.AGR.SNA08.KR}}}GDP on Agriculture, Forestry &amp; Fisheries Sector (in IDR Million), SNA 2008, Constant Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.BUSS.SNA08.CR:NA.GDP.BUSS.SNA08.CR{marker NA.GDP.BUSS.SNA08.CR}}}GDP on Business Services Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.BUSS.SNA08.KR:NA.GDP.BUSS.SNA08.KR{marker NA.GDP.BUSS.SNA08.KR}}}GDP on Business Services Sector (in IDR Million), SNA 2008, Constant Price{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.CNST.CR:NA.GDP.CNST.CR{marker NA.GDP.CNST.CR}}}GDP on Construction Sector (in IDR Million), Current Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.CNST.KR:NA.GDP.CNST.KR{marker NA.GDP.CNST.KR}}}GDP on Construction Sector (in IDR Million), Constant Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.CNST.SNA08.CR:NA.GDP.CNST.SNA08.CR{marker NA.GDP.CNST.SNA08.CR}}}GDP on Construction Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.CNST.SNA08.KR:NA.GDP.CNST.SNA08.KR{marker NA.GDP.CNST.SNA08.KR}}}GDP on Construction Sector (in IDR Million), SNA 2008, Constant Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.EDUS.SNA08.CR:NA.GDP.EDUS.SNA08.CR{marker NA.GDP.EDUS.SNA08.CR}}}GDP on Education Services Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.EDUS.SNA08.KR:NA.GDP.EDUS.SNA08.KR{marker NA.GDP.EDUS.SNA08.KR}}}GDP on Education Services Sector (in IDR Million), SNA 2008, Constant Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.ELEC.GAS.SNA08.CR:NA.GDP.ELEC.GAS.SNA08.CR{marker NA.GDP.ELEC.GAS.SNA08.CR}}}GDP on Electricity &amp; Gas Supply Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.ELEC.GAS.SNA08.KR:NA.GDP.ELEC.GAS.SNA08.KR{marker NA.GDP.ELEC.GAS.SNA08.KR}}}GDP on Electricity &amp; Gas Supply Sector (in IDR Million), SNA 2008, Constant Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.EXC.OG.CR:NA.GDP.EXC.OG.CR{marker NA.GDP.EXC.OG.CR}}}Total GDP excluding Oil and Gas (in IDR Million), Current Price{p_end}
 
@@ -31202,49 +31210,115 @@
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.FINS.KR:NA.GDP.FINS.KR{marker NA.GDP.FINS.KR}}}GDP on Financial Service Sector (in IDR Million), Constant Price{p_end}
 
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.FINS.SNA08.CR:NA.GDP.FINS.SNA08.CR{marker NA.GDP.FINS.SNA08.CR}}}GDP on Financial &amp; Insurance Activity Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.FINS.SNA08.KR:NA.GDP.FINS.SNA08.KR{marker NA.GDP.FINS.SNA08.KR}}}GDP on Financial &amp; Insurance Activity Sector (in IDR Million), SNA 2008, Constant Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.HLTH.SOCW.SNA08.CR:NA.GDP.HLTH.SOCW.SNA08.CR{marker NA.GDP.HLTH.SOCW.SNA08.CR}}}GDP on Human Health &amp; Social Work Activity Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.HLTH.SOCW.SNA08.KR:NA.GDP.HLTH.SOCW.SNA08.KR{marker NA.GDP.HLTH.SOCW.SNA08.KR}}}GDP on Human Health &amp; Social Work Activity Sector (in IDR Million), SNA 2008, Constant Price{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.INC.OG.CR:NA.GDP.INC.OG.CR{marker NA.GDP.INC.OG.CR}}}Total GDP including Oil and Gas (in IDR Million), Current Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.INC.OG.KR:NA.GDP.INC.OG.KR{marker NA.GDP.INC.OG.KR}}}Total GDP including Oil and Gas (in IDR Million), Constant Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.INC.OG.SNA08.CR:NA.GDP.INC.OG.SNA08.CR{marker NA.GDP.INC.OG.SNA08.CR}}}Total GDP including Oil and Gas (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.INC.OG.SNA08.KR:NA.GDP.INC.OG.SNA08.KR{marker NA.GDP.INC.OG.SNA08.KR}}}Total GDP including Oil and Gas (in IDR Million), SNA 2008, Constant Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.INF.COMM.SNA08.CR:NA.GDP.INF.COMM.SNA08.CR{marker NA.GDP.INF.COMM.SNA08.CR}}}GDP on Information &amp; Communication Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.INF.COMM.SNA08.KR:NA.GDP.INF.COMM.SNA08.KR{marker NA.GDP.INF.COMM.SNA08.KR}}}GDP on Information &amp; Communication Sector (in IDR Million), SNA 2008, Constant Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.MINQ.CR:NA.GDP.MINQ.CR{marker NA.GDP.MINQ.CR}}}GDP on Mining and Quarrying Sector (in IDR Million), Current Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.MINQ.KR:NA.GDP.MINQ.KR{marker NA.GDP.MINQ.KR}}}GDP on Mining and Quarrying Sector (in IDR Million), Constant Price{p_end}
 
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.MINQ.SNA08.CR:NA.GDP.MINQ.SNA08.CR{marker NA.GDP.MINQ.SNA08.CR}}}GDP on Mining &amp; Quarrying Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.MINQ.SNA08.KR:NA.GDP.MINQ.SNA08.KR{marker NA.GDP.MINQ.SNA08.KR}}}GDP on Mining &amp; Quarrying Sector (in IDR Million), SNA 2008, Constant Price{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.MNF.CR:NA.GDP.MNF.CR{marker NA.GDP.MNF.CR}}}GDP on Manufacturing Sector (in IDR Million), Current Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.MNF.KR:NA.GDP.MNF.KR{marker NA.GDP.MNF.KR}}}GDP on Manufacturing Sector (in IDR Million), Constant Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.MNF.SNA08.CR:NA.GDP.MNF.SNA08.CR{marker NA.GDP.MNF.SNA08.CR}}}GDP on Manufacturing Industry Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.MNF.SNA08.KR:NA.GDP.MNF.SNA08.KR{marker NA.GDP.MNF.SNA08.KR}}}GDP on Manufacturing Industry Sector (in IDR Million), SNA 2008, Constant Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.PADM.DEF.SNA08.CR:NA.GDP.PADM.DEF.SNA08.CR{marker NA.GDP.PADM.DEF.SNA08.CR}}}GDP on Public Administration, Defense &amp; Compulsory Social Security Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.PADM.DEF.SNA08.KR:NA.GDP.PADM.DEF.SNA08.KR{marker NA.GDP.PADM.DEF.SNA08.KR}}}GDP on Public Administration, Defense &amp; Compulsory Social Security Sector (in IDR Million), SNA 2008, Constant Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.REST.SNA08.CR:NA.GDP.REST.SNA08.CR{marker NA.GDP.REST.SNA08.CR}}}GDP on Real Estate Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.REST.SNA08.KR:NA.GDP.REST.SNA08.KR{marker NA.GDP.REST.SNA08.KR}}}GDP on Real Estate Sector (in IDR Million), SNA 2008, Constant Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.SRV.OTHR.CR:NA.GDP.SRV.OTHR.CR{marker NA.GDP.SRV.OTHR.CR}}}GDP on Other Service Sector (in IDR Million), Current Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.SRV.OTHR.KR:NA.GDP.SRV.OTHR.KR{marker NA.GDP.SRV.OTHR.KR}}}GDP on Other Service Sector (in IDR Million), Constant Price{p_end}
 
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.SRV.OTHR.SNA08.CR:NA.GDP.SRV.OTHR.SNA08.CR{marker NA.GDP.SRV.OTHR.SNA08.CR}}}GDP on Other Services Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.SRV.OTHR.SNA08.KR:NA.GDP.SRV.OTHR.SNA08.KR{marker NA.GDP.SRV.OTHR.SNA08.KR}}}GDP on Other Services Sector (in IDR Million), SNA 2008, Constant Price{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.TRAN.COMM.CR:NA.GDP.TRAN.COMM.CR{marker NA.GDP.TRAN.COMM.CR}}}GDP on Transportation and Telecommunication Sector (in IDR Million), Current Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.TRAN.COMM.KR:NA.GDP.TRAN.COMM.KR{marker NA.GDP.TRAN.COMM.KR}}}GDP on Transportation and Telecommunication Sector (in IDR Million), Constant Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.TRAN.STOR.SNA08.CR:NA.GDP.TRAN.STOR.SNA08.CR{marker NA.GDP.TRAN.STOR.SNA08.CR}}}GDP on Transportation &amp; Storage Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.TRAN.STOR.SNA08.KR:NA.GDP.TRAN.STOR.SNA08.KR{marker NA.GDP.TRAN.STOR.SNA08.KR}}}GDP on Transportation &amp; Storage Sector (in IDR Million), SNA 2008, Constant Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.TRD.HTL.CR:NA.GDP.TRD.HTL.CR{marker NA.GDP.TRD.HTL.CR}}}GDP on Trade, Hotel and Restaurant Sector (in IDR Million), Current Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.TRD.HTL.KR:NA.GDP.TRD.HTL.KR{marker NA.GDP.TRD.HTL.KR}}}GDP on Trade, Hotel and Restaurant Sector (in IDR Million), Constant Price{p_end}
 
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.TRD.SNA08.CR:NA.GDP.TRD.SNA08.CR{marker NA.GDP.TRD.SNA08.CR}}}GDP on Wholesales &amp; Retail Trade, Repair of Motor Vehicles &amp; Motorcycles Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.TRD.SNA08.KR:NA.GDP.TRD.SNA08.KR{marker NA.GDP.TRD.SNA08.KR}}}GDP on Wholesales &amp; Retail Trade, Repair of Motor Vehicles &amp; Motorcycles Sector (in IDR Million), SNA 2008, Constant Price{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.UTL.CR:NA.GDP.UTL.CR{marker NA.GDP.UTL.CR}}}GDP on Utilities Sector (in IDR Million), Current Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.UTL.KR:NA.GDP.UTL.KR{marker NA.GDP.UTL.KR}}}GDP on Utilities Sector (in IDR Million), Constant Price{p_end}
 
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.WTR.WST.SNA08.CR:NA.GDP.WTR.WST.SNA08.CR{marker NA.GDP.WTR.WST.SNA08.CR}}}GDP on Water Supply, Sewerage, Waste &amp; Recycling Management Sector (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NA.GDP.WTR.WST.SNA08.KR:NA.GDP.WTR.WST.SNA08.KR{marker NA.GDP.WTR.WST.SNA08.KR}}}GDP on Water Supply, Sewerage, Waste &amp; Recycling Management Sector (in IDR Million), SNA 2008, Constant Price{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.CON.GOVT.CR:NE.GDI.CON.GOVT.CR{marker NE.GDI.CON.GOVT.CR}}}GDP expenditure on general government consumption (in IDR Million){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.CON.GOVT.SNA08.CR:NE.GDI.CON.GOVT.SNA08.CR{marker NE.GDI.CON.GOVT.SNA08.CR}}}GDP expenditure on general government consumption (in IDR Million), SNA 2008, Current Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.CON.NPI.CR:NE.GDI.CON.NPI.CR{marker NE.GDI.CON.NPI.CR}}}GDP expenditure on non profit private institution consumption (in IDR Million){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.CON.NPI.SNA08.CR:NE.GDI.CON.NPI.SNA08.CR{marker NE.GDI.CON.NPI.SNA08.CR}}}GDP expenditure on non profit private institution consumption (in IDR Million), SNA 2008, Current Price{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.CON.PRVT.CR:NE.GDI.CON.PRVT.CR{marker NE.GDI.CON.PRVT.CR}}}GDP expenditure on private consumption (in IDR Million){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.CON.PRVT.SNA08.CR:NE.GDI.CON.PRVT.SNA08.CR{marker NE.GDI.CON.PRVT.SNA08.CR}}}GDP expenditure on private consumption (in IDR Million), SNA 2008, Current Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.EXPT.CR:NE.GDI.EXPT.CR{marker NE.GDI.EXPT.CR}}}GDP expenditure on exports (in IDR Million){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.EXPT.SNA08.CR:NE.GDI.EXPT.SNA08.CR{marker NE.GDI.EXPT.SNA08.CR}}}GDP expenditure on exports (in IDR Million), SNA 2008, Current Price{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.FTOT.CR:NE.GDI.FTOT.CR{marker NE.GDI.FTOT.CR}}}GDP expenditure on gross fixed capital formation (in IDR Million){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.FTOT.SNA08.CR:NE.GDI.FTOT.SNA08.CR{marker NE.GDI.FTOT.SNA08.CR}}}GDP expenditure on gross fixed capital formation (in IDR Million), SNA 2008, Current Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.IMPT.CR:NE.GDI.IMPT.CR{marker NE.GDI.IMPT.CR}}}GDP expenditure on imports (in IDR Million){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.IMPT.SNA08.CR:NE.GDI.IMPT.SNA08.CR{marker NE.GDI.IMPT.SNA08.CR}}}GDP expenditure on imports (in IDR Million), SNA 2008, Current Price{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.INEX.SNA08.CR:NE.GDI.INEX.SNA08.CR{marker NE.GDI.INEX.SNA08.CR}}}GDP expenditure on inter-region net exports (in IDR Million), SNA 2008, Current Price{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.STKB.CR:NE.GDI.STKB.CR{marker NE.GDI.STKB.CR}}}GDP expenditure on changes in stock (in IDR Million){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.STKB.SNA08.CR:NE.GDI.STKB.SNA08.CR{marker NE.GDI.STKB.SNA08.CR}}}GDP expenditure on changes in stock (in IDR Million), SNA 2008, Current Price{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.TOTL.CR:NE.GDI.TOTL.CR{marker NE.GDI.TOTL.CR}}}Total GDP based on expenditure (in IDR Million){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_NE.GDI.TOTL.SNA08.CR:NE.GDI.TOTL.SNA08.CR{marker NE.GDI.TOTL.SNA08.CR}}}Total GDP based on expenditure (in IDR Million), SNA 2008, Current Price{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_NRRV.SHR.FRST.CR:NRRV.SHR.FRST.CR{marker NRRV.SHR.FRST.CR}}}Total Natural Resources Revenue Sharing from Forestry (in IDR, realization value){p_end}
 
@@ -31372,11 +31446,11 @@
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.LITR.15UP.ZS:SE.LITR.15UP.ZS{marker SE.LITR.15UP.ZS}}}Literacy Rate for Population age 15 and over (in % of total population){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.NEXM.SCR.JRSEC:SE.NEXM.SCR.JRSEC{marker SE.NEXM.SCR.JRSEC}}}Average National Exam Score: Junior Secondary Level (out of 100, available only in district level for 2009){p_end}
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.NEXM.SCR.JRSEC:SE.NEXM.SCR.JRSEC{marker SE.NEXM.SCR.JRSEC}}}Average National Exam Score: Junior Secondary Level (out of 100, available only at district level){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.NEXM.SCR.PRM:SE.NEXM.SCR.PRM{marker SE.NEXM.SCR.PRM}}}Average National Exam Score: Primary Level (out of 100, available only in district level for 2009){p_end}
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.NEXM.SCR.PRM:SE.NEXM.SCR.PRM{marker SE.NEXM.SCR.PRM}}}Average National Exam Score: Primary Level (out of 100, available only at district level){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.NEXM.SCR.SRSEC:SE.NEXM.SCR.SRSEC{marker SE.NEXM.SCR.SRSEC}}}Average National Exam Score: Senior Secondary Level (out of 100, available only in district level for 2009){p_end}
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.NEXM.SCR.SRSEC:SE.NEXM.SCR.SRSEC{marker SE.NEXM.SCR.SRSEC}}}Average National Exam Score: Senior Secondary Level (out of 100, available only at district level){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.PRM.NENR.ZS:SE.PRM.NENR.ZS{marker SE.PRM.NENR.ZS}}}Net Enrollment Ratio: Primary (in %){p_end}
 
@@ -31422,6 +31496,8 @@
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_SI.POV.NGAP:SI.POV.NGAP{marker SI.POV.NGAP}}}Poverty Gap (index){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_SI.POV.NSEV:SI.POV.NSEV{marker SI.POV.NSEV}}}Poverty Severity (index){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_SL.EMP.AGR.FRST.FSH:SL.EMP.AGR.FRST.FSH{marker SL.EMP.AGR.FRST.FSH}}}Number of people employed in agriculture, forestry and fishery{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_SL.EMP.CNST:SL.EMP.CNST{marker SL.EMP.CNST}}}Number of people employed in construction sector{p_end}
@@ -31446,7 +31522,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_SL.UEM.TOTL:SL.UEM.TOTL{marker SL.UEM.TOTL}}}Number of people unemployed{p_end}
 
-{synopt:{help wbopendata_sourceid_indicators45##sourceid_SP.URB.TOTL.ZS:SP.URB.TOTL.ZS{marker SP.URB.TOTL.ZS}}}Percentage of Population in Urban Areas (only 2005 and 2010) (in % of Total Population){p_end}
+{synopt:{help wbopendata_sourceid_indicators45##sourceid_SP.URB.TOTL.ZS:SP.URB.TOTL.ZS{marker SP.URB.TOTL.ZS}}}Percentage of Population in Urban Areas (in % of Total Population){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_TRAD.EXPT.BVTO:TRAD.EXPT.BVTO{marker TRAD.EXPT.BVTO}}}Export: Beverages and tobacco (province Level, in USD){p_end}
 
@@ -32706,6 +32782,10 @@
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_PA.NUS.FCRF.XR:PA.NUS.FCRF.XR{marker PA.NUS.FCRF.XR}}}Official exchange rate to parallel exchange rate ratio{p_end}
 
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_PA.NUS.PPP.05:PA.NUS.PPP.05{marker PA.NUS.PPP.05}}}2005 PPP conversion factor, GDP (LCU per international $){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_PA.NUS.PRVT.PP.05:PA.NUS.PRVT.PP.05{marker PA.NUS.PRVT.PP.05}}}2005 PPP conversion factor, private consumption (LCU per international $){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_PA.PPR.MAIZ.CD:PA.PPR.MAIZ.CD{marker PA.PPR.MAIZ.CD}}}Maize price (US$ per metric ton){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_PA.PPR.MAIZ.CN:PA.PPR.MAIZ.CN{marker PA.PPR.MAIZ.CN}}}Maize price (local currency per metric ton){p_end}
@@ -33001,6 +33081,10 @@
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SN.STA.FPRD:SN.STA.FPRD{marker SN.STA.FPRD}}}Food Production per capita (1987=100){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SP.BRT.CRUD.ZT:SP.BRT.CRUD.ZT{marker SP.BRT.CRUD.ZT}}}Crude Birth Rate (per 1000 population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SP.DTH.INFR.ZS:SP.DTH.INFR.ZS{marker SP.DTH.INFR.ZS}}}Completeness of infant death reporting (% of reported infant deaths to estimated infant deaths){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SP.DTH.REPT.ZS:SP.DTH.REPT.ZS{marker SP.DTH.REPT.ZS}}}Completeness of total death reporting (% of reported total deaths to estimated total deaths){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SP.DYN.CBRT:SP.DYN.CBRT{marker SP.DYN.CBRT}}}Crude Birth Rate (per thousand population){p_end}
 
@@ -35359,4 +35443,8 @@
 {synopt:{help wbopendata_sourceid_indicators75##sourceid_EN.CLC.SPEI.XD:EN.CLC.SPEI.XD{marker EN.CLC.SPEI.XD}}}Mean Drought Index (SPEI){p_end}
 {synoptline}
 
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check

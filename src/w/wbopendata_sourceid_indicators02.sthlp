@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -125,7 +129,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}06 Environment{p_end}
+=======
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), tempora{p_end}
 
@@ -164,7 +172,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. Land abandoned{p_end}
 
@@ -216,7 +224,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}19 Climate Change{p_end}
+=======
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the percentage of total land where the rural land elevation is 5 meters or less.{p_end}
 
@@ -229,7 +241,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}06 Environment{p_end}
+=======
+{synopt:{opt Topics}}16 Urban Development{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the total urban land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
@@ -268,7 +284,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
 
@@ -281,7 +297,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
 
@@ -333,7 +349,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Rural land area in square kilometers, derived from urban extent grids which distinguish urban and rural areas based on a combination of population counts (persons), settlement points, and the presence of Nighttime Lights. Areas are defined as{p_end}
 
@@ -437,7 +453,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Cereal yield, measured as kilograms per hectare of harvested land, includes wheat, rice, maize, barley, oats, rye, millet, sorghum, buckwheat, and mixed grains. Production data on cereals relate to crops harvested for dry grain only. Cereal cr{p_end}
 
@@ -450,7 +466,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}21 Trade{p_end}
+=======
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Trade in services is the sum of service exports and imports divided by the value of GDP, all in current U.S. dollars.{p_end}
 
@@ -528,7 +548,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Services refer to economic output of intangible commodities that may be produced, transferred, and consumed at the same time. Data are in current U.S. dollars.{p_end}
 
@@ -541,7 +561,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}14 Science and Technology{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Charges for the use of intellectual property are payments and receipts between residents and nonresidents for the authorized use of proprietary rights (such as patents, trademarks, copyrights, industrial processes and designs including trade s{p_end}
 
@@ -567,7 +587,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Transport covers all transport services (sea, air, land, internal waterway, pipeline, space and electricity transmission) performed by residents of one economy for those of another and involving the carriage of passengers, the movement of good{p_end}
 
@@ -801,7 +821,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+=======
+{synopt:{opt Topics}}20 External Debt{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Grants are defined as legally binding commitments that obligate a specific value of funds available for disbursement for which there is no repayment requirement. Data are in current U.S. dollars.{p_end}
 
@@ -827,7 +851,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
+=======
+{synopt:{opt Topics}}21 Trade{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Information and communication technology service exports include computer and communications services (telecommunications and postal and courier services) and information services (computer data and news-related service transactions). Data are{p_end}
 
@@ -892,7 +920,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
+=======
+{synopt:{opt Topics}}21 Trade{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension f{p_end}
 
@@ -905,7 +937,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Goods exports refer to all movable goods (including nonmonetary gold and net exports of goods under merchanting) involved in a change of ownership from residents to nonresidents. Data are in current U.S. dollars.{p_end}
 
@@ -983,7 +1015,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Foreign direct investment refers to direct investment equity flows in the reporting economy. It is the sum of equity capital, reinvestment of earnings, and other capital. Direct investment is a category of cross-border investment associated wi{p_end}
 
@@ -996,7 +1028,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Foreign direct investment are the net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital{p_end}
 
@@ -1335,6 +1367,18 @@
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
+{marker sourceid_DC.DAC.HUNL.CD}
+{synopt:{bf:{help wbopendata_sourceid##DC.DAC.HUNL.CD:DC.DAC.HUNL.CD} - Net bilateral aid flows from DAC donors, Hungary (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
@@ -1789,7 +1833,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are{p_end}
 
@@ -2200,6 +2244,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.NFL.UNEP.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.UNEP.CD:DT.NFL.UNEP.CD} - Net official flows from UN agencies, UNEP (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.NFL.UNFP.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.NFL.UNFP.CD:DT.NFL.UNFP.CD} - Net official flows from UN agencies, UNFPA (current US$)}}
 
@@ -2373,7 +2429,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+=======
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
@@ -2412,7 +2472,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) per capita consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), b{p_end}
 
@@ -2594,7 +2654,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Access to electricity, rural is the percentage of rural population with access to electricity.{p_end}
 
@@ -2633,7 +2693,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Coal refers to all coal and brown coal, both primary (including hard coal and lignite-brown coal) and derived fuels (including patent fuel, coke oven coke, gas coke, coke{p_end}
 
@@ -2659,7 +2719,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}09 Infrastructure{p_end}
+=======
+{synopt:{opt Topics}}19 Climate Change{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Hydropower refers to electricity produced by hydroelectric power plants.{p_end}
 
@@ -2685,7 +2749,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}09 Infrastructure{p_end}
+=======
+{synopt:{opt Topics}}19 Climate Change{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Gas refers to natural gas but excludes natural gas liquids.{p_end}
 
@@ -2698,7 +2766,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}09 Infrastructure{p_end}
+=======
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Nuclear power refers to electricity produced by nuclear power plants.{p_end}
 
@@ -2737,7 +2809,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}06 Environment{p_end}
+=======
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
@@ -2841,7 +2917,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Energy use per PPP GDP is the kilogram of oil equivalent of energy use per constant PPP GDP. Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stoc{p_end}
 
@@ -2893,7 +2969,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions from solid fuel consumption refer mainly to emissions from use of coal as an energy source.{p_end}
 
@@ -2919,7 +2995,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions from liquid fuel consumption refer mainly to emissions from use of natural gas as an energy source.{p_end}
 
@@ -3010,7 +3086,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
@@ -3205,7 +3281,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savannah burning.{p_end}
 
@@ -3270,7 +3346,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Perfluorocarbons, used as a replacement for chlorofluorocarbons in manufacturing semiconductors, are a byproduct of aluminum smelting and uranium enrichment.{p_end}
 
@@ -3345,7 +3421,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Sulfur hexafluoride is used largely to insulate high-voltage electric power equipment.{p_end}
 
@@ -3384,7 +3460,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}GHG net emissions/removals by LUCF refers to changes in atmospheric levels of all greenhouse gases attributable to forest and land-use change activities, including but not limited to (1) emissions and removals of CO2 from decreases or increase{p_end}
 
@@ -3527,7 +3603,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}19 Climate Change{p_end}
+=======
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Rural population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
@@ -3540,7 +3620,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}19 Climate Change{p_end}
+=======
+{synopt:{opt Topics}}06 Environment{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Urban population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
@@ -3631,7 +3715,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Fuel prices refer to the pump prices of the most widely sold grade of diesel fuel. Prices have been converted from the local currency to U.S. dollars.{p_end}
 
@@ -3760,7 +3844,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}09 Infrastructure{p_end}
+=======
+{synopt:{opt Topics}}19 Climate Change{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
@@ -3773,7 +3861,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
@@ -3799,7 +3887,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Renewable internal freshwater resources flows refer to internal renewable resources (internal river flows and groundwater from rainfall) in the country. Renewable internal freshwater resources per capita are calculated using the World Bank's p{p_end}
 
@@ -3955,7 +4043,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Total reserves comprise holdings of monetary gold, special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. The gold component of these reserves is valued at y{p_end}
 
@@ -4440,7 +4528,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}Debt is the entire stock of direct government fixed-term contractual obligations to others outstanding on a particular date. It includes domestic and foreign liabilities such as currency and money deposits, securities other than shares, and lo{p_end}
 
@@ -4622,7 +4710,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}Taxes on exports are all levies on goods being transported out of the country or services being delivered to nonresidents by residents. Rebates on exported goods that are repayments of previously paid general consumption taxes, excise taxes, o{p_end}
 
@@ -5102,7 +5190,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Average time to clear exports through customs is the average number of days to clear direct exports through customs.{p_end}
 
@@ -5153,7 +5241,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
 
@@ -5205,7 +5293,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
@@ -5231,7 +5319,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Firms using banks to finance investment are the percentage of firms using banks to finance investments.{p_end}
 
@@ -5436,7 +5524,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
@@ -5449,7 +5537,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
@@ -5670,7 +5758,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}Time to prepare and pay taxes is the time, in hours per year, it takes to prepare, file, and pay (or withhold) three major types of taxes: the corporate income tax, the value added or sales tax, and labor taxes, including payroll taxes and soc{p_end}
 
@@ -5735,7 +5823,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Tax payments by businesses are the total number of taxes paid by businesses, including electronic filing. The tax is counted as paid once a year even if payments are more frequent.{p_end}
 
@@ -5800,7 +5888,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Investment in energy projects with private participation  refers to commitments to  infrastructure projects in energy (electricity and natural gas: generation, transmission and distribution) that have reached financial closure and directly or{p_end}
 
@@ -6228,7 +6316,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}The public sector management and institutions cluster includes property rights and rule-based governance, quality of budgetary and financial management, efficiency of revenue mobilization, quality of public administration, and transparency, ac{p_end}
 
@@ -6605,7 +6693,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Lead time to export is the median time (the value for 50 percent of shipments) from shipment point to port of loading. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10 percent of{p_end}
 
@@ -6631,7 +6719,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
 
@@ -6683,7 +6771,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Logistics Performance Index overall score reflects perceptions of a country's logistics based on efficiency of customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competitively priced shipments,{p_end}
 
@@ -6696,7 +6784,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
 
@@ -6812,7 +6900,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Arms transfers cover the supply of military weapons through sales, aid, gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, missiles, and shi{p_end}
 
@@ -7488,7 +7576,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other serv{p_end}
 
@@ -7605,7 +7693,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}External balance on goods and services (formerly resource balance) equals exports of goods and services minus imports of goods and services (previously nonfactor services).{p_end}
 
@@ -7708,7 +7796,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Agriculture corresponds to ISIC divisions 1-5 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs and subtracting intermed{p_end}
 
@@ -8118,7 +8206,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$30 per ton of CO2 (the unit damage in 2014 US dollars for CO2 emitted in 2015) times the number of tons of CO2 emitted.{p_end}
 
@@ -8144,7 +8232,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth. If growth exceeds harvest, this figure is zero.{p_end}
 
@@ -8235,7 +8323,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in{p_end}
 
@@ -8248,7 +8336,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in{p_end}
 
@@ -8287,7 +8375,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital.{p_end}
 
@@ -8612,7 +8700,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Mineral rents are the difference between the value of production for a stock of minerals at world prices and their total costs of production. Minerals included in the calculation are tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite{p_end}
 
@@ -8729,7 +8817,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Natural gas rents are the difference between the value of natural gas production at world prices and total costs of production.{p_end}
 
@@ -8833,7 +8921,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Oil rents are the difference between the value of crude oil production at world prices and total costs of production.{p_end}
 
@@ -9322,19 +9410,6 @@
 
 
 {synoptline}
-{marker sourceid_PA.NUS.PPP.05}
-{synopt:{bf:{help wbopendata_sourceid##PA.NUS.PPP.05:PA.NUS.PPP.05} - 2005 PPP conversion factor, GDP (LCU per international $)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
-
-{synopt:{opt Source Notes}}Purchasing power parity conversion factor is the number of units of a country's currency required to buy the same amounts of goods and services in the domestic market as U.S. dollar would buy in the United States. This conversion factor is for{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
-
-
-{synoptline}
 {marker sourceid_PA.NUS.PPPC.RF}
 {synopt:{bf:{help wbopendata_sourceid##PA.NUS.PPPC.RF:PA.NUS.PPPC.RF} - Price level ratio of PPP conversion factor (GDP) to market exchange rate}}
 
@@ -9350,19 +9425,6 @@
 {synoptline}
 {marker sourceid_PA.NUS.PRVT.PP}
 {synopt:{bf:{help wbopendata_sourceid##PA.NUS.PRVT.PP:PA.NUS.PRVT.PP} - PPP conversion factor, private consumption (LCU per international $)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
-
-{synopt:{opt Source Notes}}Purchasing power parity conversion factor is the number of units of a country's currency required to buy the same amounts of goods and services in the domestic market as U.S. dollar would buy in the United States. This conversion factor is for{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
-
-
-{synoptline}
-{marker sourceid_PA.NUS.PRVT.PP.05}
-{synopt:{bf:{help wbopendata_sourceid##PA.NUS.PRVT.PP.05:PA.NUS.PRVT.PP.05} - 2005 PPP conversion factor, private consumption (LCU per international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -9392,7 +9454,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
@@ -9444,7 +9506,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
@@ -9496,7 +9558,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}15 Social Development{p_end}
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary education is the ratio of girls to boys enrolled at primary level in public and private schools.{p_end}
 
@@ -9535,7 +9597,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}15 Social Development{p_end}
+=======
+{synopt:{opt Topics}}04 Education{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in tertiary education is the ratio of women to men enrolled at tertiary level in public and private schools.{p_end}
 
@@ -9678,7 +9744,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
@@ -9691,7 +9757,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+=======
+{synopt:{opt Topics}}19 Climate Change{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
@@ -9704,7 +9774,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
@@ -9886,7 +9956,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Primary education provides children with basic reading, writing, and mathematics skills{p_end}
 
@@ -9899,7 +9969,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Primary education provides children with basic reading, writing, and mathematics skills{p_end}
 
@@ -9925,7 +9995,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net intake rate in grade 1 is the number of new entrants in the first grade of primary education who are of official primary school entrance age, expressed as a percentage of the population of the corresponding age.{p_end}
 
@@ -10003,7 +10073,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
@@ -10354,7 +10424,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
@@ -10445,7 +10515,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
@@ -10614,7 +10684,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
@@ -10627,7 +10697,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
@@ -10653,7 +10723,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Secondary education completes the provision of basic education that began at the primary{p_end}
 
@@ -10666,7 +10736,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Secondary education completes the provision of basic education that began at the primary{p_end}
 
@@ -10952,7 +11022,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
 
@@ -11017,7 +11087,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
 
@@ -11342,7 +11412,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}Non-pregnant and non-nursing women can do the same jobs as men indicates whether there are specific jobs that women explicitly or implicitly cannot perform except in limited circumstances. Both partial and full restrictions on women’s work a{p_end}
 
@@ -11355,7 +11425,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Law prohibits or invalidates child or early marriage is whether there are provisions that prevent the marriage of girls, boys, or both before they reach the legal age of marriage or the age of marriage with consent, including, for example, a p{p_end}
 
@@ -11485,7 +11555,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she argues with him.{p_end}
 
@@ -11940,7 +12010,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
 
@@ -11966,7 +12036,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
 
@@ -11992,7 +12062,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}08 Health{p_end}
+=======
+{synopt:{opt Topics}}17 Gender{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Prevalence of HIV, female is the percentage of females who are infected with HIV. Youth rates are as a percentage of the relevant age group.{p_end}
 
@@ -12191,7 +12265,7 @@
 
 {synopt:{opt Source Notes}}Specialist surgical workforce is the number of specialist surgical, anaesthetic, and obstetric (SAO) providers who are working in each country per 100,000 population.{p_end}
 
-{synopt:{opt Source Organization}}The Lancet Commission on Global Surgery ({browse "www.lancetglobalsurgery.org"}).{p_end}
+{synopt:{opt Source Organization}}Data collected by the Lancet Commission on Global Surgery (www.lancetglobalsurgery.org); Data collected by WHO Collaborating Centre for Surgery and Public Health at Lund University from various sources including Ministries of Health or equival{p_end}
 
 
 {synoptline}
@@ -12252,7 +12326,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Life time risk of maternal death is the probability that a 15-year-old female will die eventually from a maternal cause assuming that current levels of fertility and mortality (including maternal mortality) do not change in the future, taking{p_end}
 
@@ -12551,7 +12625,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
 
@@ -12581,7 +12655,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of underweight, female, is the percentage of girls under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's n{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -12594,7 +12668,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of underweight, male, is the percentage of boys under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's new{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -12616,7 +12690,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
 {synopt:{opt Source Notes}}Maternal mortality ratio is the number of women who die from pregnancy-related causes while pregnant or within 42 days of pregnancy termination per 100,000 live births. The data are estimated with a regression model using information on the pr{p_end}
 
@@ -12711,7 +12785,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of overweight, female, is the percentage of girls under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the WH{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -12724,7 +12798,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of overweight, male, is the percentage of boys under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the WHO's{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -12746,7 +12820,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can{p_end}
 
@@ -12759,7 +12833,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of female deaths from unintentional poisonings in a year per 100,000 female population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, ca{p_end}
 
@@ -12785,7 +12859,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
 
@@ -12828,7 +12902,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of stunting, female, is the percentage of girls under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old hei{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -12841,7 +12915,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of stunting, male, is the percentage of boys under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -12902,7 +12976,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Mortality caused by road traffic injury is estimated road traffic fatal injury deaths per 100,000 population.{p_end}
 
@@ -12932,7 +13006,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of wasting, female, is the proportion of girls under age 5 whose weight for height is more than two standard deviations below the median for the international reference population ages 0-59.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -12945,7 +13019,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of wasting, male,is the proportion of boys under age 5 whose weight for height is more than two standard deviations below the median for the international reference population ages 0-59.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -12971,7 +13045,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of severe wasting, female, is the proportion of girls under age 5 whose weight for height is more than three standard deviations below the median for the international reference population ages 0-59.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -12984,7 +13058,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of severe wasting, male, is the proportion of boys under age 5 whose weight for height is more than three standard deviations below the median for the international reference population ages 0-59.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
@@ -13047,9 +13121,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, expressed in US dollars (2011 PPP){p_end}
+{synopt:{opt Source Notes}}Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, expressed in US dollars (2011 PPP). The poverty gap increase due to out-of-pocket health spending is one way to measure how much out-of-po{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
@@ -13060,9 +13134,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of people pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure{p_end}
+{synopt:{opt Source Notes}}Number of people pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the number of households experiencing impoverishing expenditures, defined as expenditures without which the househ{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
@@ -13073,9 +13147,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, as a percentage of the $1.90 poverty line{p_end}
+{synopt:{opt Source Notes}}Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, as a percentage of the $1.90 poverty line. The poverty gap increase due to out-of-pocket health spending is one way to measure how much ou{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
@@ -13086,61 +13160,61 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure, expressed as a percentage of a total population of a country{p_end}
+{synopt:{opt Source Notes}}Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the fraction of a country's households experiencing impoverishing expenditures, defined as expenditures wi{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.UHC.NOP2.CG}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOP2.CG:SH.UHC.NOP2.CG} - Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOP2.CG:SH.UHC.NOP2.CG} - Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, expressed in US dollars (2011 PPP){p_end}
+{synopt:{opt Source Notes}}Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, expressed in US dollars (2011 PPP). The poverty gap increase due to out-of-pocket health spending is one way to measure how much out-of-po{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.UHC.NOP2.TO}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOP2.TO:SH.UHC.NOP2.TO} - Number of people pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure}}
+{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOP2.TO:SH.UHC.NOP2.TO} - Number of people pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of people pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure{p_end}
+{synopt:{opt Source Notes}}Number of people pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the number of households experiencing impoverishing expenditures, defined as expenditures without which the househ{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.UHC.NOP2.ZG}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOP2.ZG:SH.UHC.NOP2.ZG} - Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOP2.ZG:SH.UHC.NOP2.ZG} - Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, as a percentage of the $1.90 poverty line{p_end}
+{synopt:{opt Source Notes}}Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, as a percentage of the $3.20 poverty line. The poverty gap increase due to out-of-pocket health spending is one way to measure how much ou{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.UHC.NOP2.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOP2.ZS:SH.UHC.NOP2.ZS} - Proportion of population pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOP2.ZS:SH.UHC.NOP2.ZS} - Proportion of population pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Proportion of population pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure, expressed as a percentage of a total population of a country{p_end}
+{synopt:{opt Source Notes}}Proportion of population pushed below the $3.20 ($2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the fraction of a country's households experiencing impoverishing expenditures, defined as expenditures wit{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
@@ -13153,7 +13227,7 @@
 
 {synopt:{opt Source Notes}}Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on catastrophic health spending: results for 133 countries. A retrospective observational study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
@@ -13164,9 +13238,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure, expressed as a percentage of a total population of a country{p_end}
+{synopt:{opt Source Notes}}Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure.{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on catastrophic health spending: results for 133 countries. A retrospective observational study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
@@ -13179,7 +13253,7 @@
 
 {synopt:{opt Source Notes}}Number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on catastrophic health spending: results for 133 countries. A retrospective observational study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
@@ -13190,9 +13264,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure, expressed as a percentage of a total population of a country{p_end}
+{synopt:{opt Source Notes}}Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure.{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on catastrophic health spending: results for 133 countries. A retrospective observational study, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
 
 
 {synoptline}
@@ -13205,7 +13279,7 @@
 
 {synopt:{opt Source Notes}}Coverage index for essential health services (based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, noncommunicable diseases and service capacity and access). It is presented on a sca{p_end}
 
-{synopt:{opt Source Organization}}Hogan et al. An index of the coverage of essential health services for monitoring UHC within the SDGs, Lancet Global Health 2017.{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "https://www.who.int/data/gho"}).{p_end}
 
 
 {synoptline}
@@ -13526,7 +13600,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles. Percentage shares by quintile may not sum to 100 because of rounding.{p_end}
 
@@ -13630,7 +13704,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}Rural poverty gap at national poverty lines is the rural population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as wel{p_end}
 
@@ -13682,7 +13756,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}Urban poverty gap at national poverty lines is the urban population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as wel{p_end}
 
@@ -13827,7 +13901,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -13840,7 +13914,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -13853,7 +13927,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -13866,7 +13940,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -13879,7 +13953,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -13892,7 +13966,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -13905,7 +13979,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -13918,7 +13992,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -13931,7 +14005,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -13940,11 +14014,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -13953,11 +14027,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -13970,7 +14044,7 @@
 
 {synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -13979,11 +14053,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -13996,7 +14070,7 @@
 
 {synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14009,7 +14083,7 @@
 
 {synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14022,7 +14096,7 @@
 
 {synopt:{opt Source Notes}}The proportion of females in total employment in senior and middle management. It corresponds to major group 1 in both ISCO-08 and ISCO-88 minus category 14 in ISCO-08 (hospitality, retail and other services managers) and minus category 13 in{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14035,7 +14109,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14048,7 +14122,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14061,7 +14135,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14074,7 +14148,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14087,7 +14161,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14100,7 +14174,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14113,7 +14187,7 @@
 
 {synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14126,7 +14200,7 @@
 
 {synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14135,11 +14209,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14148,11 +14222,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14165,7 +14239,7 @@
 
 {synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14178,7 +14252,7 @@
 
 {synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14230,7 +14304,7 @@
 
 {synopt:{opt Source Notes}}Contributing family workers are those workers who hold self-employment jobs as own-account workers in a market-oriented establishment operated by a related person living in the same household.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14243,7 +14317,7 @@
 
 {synopt:{opt Source Notes}}Contributing family workers are those workers who hold self-employment jobs as own-account workers in a market-oriented establishment operated by a related person living in the same household.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14256,7 +14330,7 @@
 
 {synopt:{opt Source Notes}}Contributing family workers are those workers who hold self-employment jobs as own-account workers in a market-oriented establishment operated by a related person living in the same household.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14269,7 +14343,7 @@
 
 {synopt:{opt Source Notes}}GDP per person employed is gross domestic product (GDP) divided by total employment in the economy. Purchasing power parity (PPP) GDP is GDP converted to 2011 constant international dollars using PPP rates. An international dollar has the same{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14278,11 +14352,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14295,7 +14369,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14308,7 +14382,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14321,7 +14395,7 @@
 
 {synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14334,7 +14408,7 @@
 
 {synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14347,7 +14421,7 @@
 
 {synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14369,7 +14443,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Manufacturing corresponds to division 3 (ISIC revisio{p_end}
 
@@ -14434,7 +14508,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Services correspond to divisions 6-9 (ISIC revision 2{p_end}
 
@@ -14447,7 +14521,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Services correspond to divisions 6-9 (ISIC revision 2{p_end}
 
@@ -14477,7 +14551,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14490,7 +14564,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14503,7 +14577,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14512,7 +14586,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}17 Gender{p_end}
+=======
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
 
@@ -14525,7 +14603,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}17 Gender{p_end}
+=======
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
 
@@ -14551,7 +14633,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}15 Social Development{p_end}
+=======
+{synopt:{opt Topics}}17 Gender{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey. Study and work refer to children attending school in combination with economic activity.{p_end}
 
@@ -14603,7 +14689,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}15 Social Development{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey. Study and work refer to children attending school in combination with economic activity.{p_end}
 
@@ -14655,7 +14741,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey. Work only refers to children involved in economic activity and not attending school.{p_end}
 
@@ -14681,7 +14767,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}15 Social Development{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey. Work only refers to children involved in economic activity and not attending school.{p_end}
 
@@ -14711,7 +14797,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14720,11 +14806,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}15 Social Development{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14737,7 +14823,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14750,7 +14836,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14763,7 +14849,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14772,11 +14858,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}15 Social Development{p_end}
 
 {synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14785,11 +14871,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}15 Social Development{p_end}
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15-64 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14798,11 +14884,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}15 Social Development{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15-64 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14811,11 +14897,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}15 Social Development{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15-64 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14828,7 +14914,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with an advanced level of education who are in the labor force. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14841,7 +14927,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with an advanced level of education who are in the labor force. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14854,7 +14940,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with an advanced level of education who are in the labor force. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14867,7 +14953,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with a basic level of education who are in the labor force. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Educati{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14880,7 +14966,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with a basic level of education who are in the labor force. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Educati{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14893,7 +14979,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with a basic level of education who are in the labor force. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Educati{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14906,7 +14992,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14919,7 +15005,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14932,7 +15018,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period. Ratio of female to male labor for{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14945,7 +15031,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period. Ratio of female to male labor for{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14958,7 +15044,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14967,11 +15053,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}15 Social Development{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14984,7 +15070,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -14997,7 +15083,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15010,7 +15096,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with an intermediate level of education who are in the labor force. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15023,7 +15109,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with an intermediate level of education who are in the labor force. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15036,7 +15122,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with an intermediate level of education who are in the labor force. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15045,11 +15131,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15062,7 +15148,7 @@
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15075,7 +15161,7 @@
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15088,7 +15174,7 @@
 
 {synopt:{opt Source Notes}}Female labor force as a percentage of the total show the extent to which women are active in the labor force. Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database and World Bank population estimates. Labor data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15097,11 +15183,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period. It includes people who are currently employed and people who are unemployed but seeking work as well as first-t{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database and World Bank population estimates. Labor data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15114,7 +15200,7 @@
 
 {synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15123,11 +15209,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15140,7 +15226,7 @@
 
 {synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15153,7 +15239,7 @@
 
 {synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15166,7 +15252,7 @@
 
 {synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15179,7 +15265,7 @@
 
 {synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15192,7 +15278,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent educa{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15205,7 +15291,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent educa{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15218,7 +15304,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent educa{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15231,7 +15317,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15244,7 +15330,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15257,7 +15343,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15270,7 +15356,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of E{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15283,7 +15369,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of E{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15296,7 +15382,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of E{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15309,7 +15395,7 @@
 
 {synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15322,7 +15408,7 @@
 
 {synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15335,7 +15421,7 @@
 
 {synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15348,7 +15434,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15357,11 +15443,15 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+=======
+{synopt:{opt Topics}}04 Education{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15374,7 +15464,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15387,7 +15477,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15400,7 +15490,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15413,7 +15503,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -15474,7 +15564,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}15 Social Development{p_end}
 
 {synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Afric{p_end}
 
@@ -15500,7 +15590,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees. The data used to estimate the international migrant stock at a particular time are obtained mainly from popula{p_end}
 
@@ -15570,32 +15660,6 @@
 {synopt:{opt Source Notes}}Adolescent fertility rate is the number of births per 1,000 women ages 15-19.{p_end}
 
 {synopt:{opt Source Organization}}United Nations Population Division, World Population Prospects.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DTH.INFR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.DTH.INFR.ZS:SP.DTH.INFR.ZS} - Completeness of infant death reporting (% of reported infant deaths to estimated infant deaths)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Completeness of infant death reporting is the number of infant deaths reported by national statistics authorities to the United Nations Statistics Division's Demography Yearbook divided by the number of infant deaths estimated by the United Na{p_end}
-
-{synopt:{opt Source Organization}}The United Nations Statistics Division's Population and Vital Statistics Report and the United Nations Population Division's World Population Prospects.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DTH.REPT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.DTH.REPT.ZS:SP.DTH.REPT.ZS} - Completeness of total death reporting (% of reported total deaths to estimated total deaths)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Completeness of total death reporting is the number of total deaths reported by national statistics authorities to the United Nations Statistics Division's Demography Yearbook divided by the number of total deaths estimated by the United Natio{p_end}
-
-{synopt:{opt Source Organization}}The United Nations Statistics Division's Population and Vital Statistics Report and the United Nations Population Division's World Population Prospects.{p_end}
 
 
 {synoptline}
@@ -15838,7 +15902,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Women who were first married by age 18 refers to the percentage of women ages 20-24 who were first married by age 18.{p_end}
 
@@ -16865,7 +16929,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}International inbound tourists (overnight visitors) are the number of tourists who travel to a country other than that in which they have their usual residence, but outside their usual environment, for a period not exceeding 12 months and whos{p_end}
 
@@ -16930,7 +16994,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}International tourism expenditures for passenger transport items are expenditures of international outbound visitors in other countries for all services provided during international transportation by nonresident carriers. Also included are pa{p_end}
 
@@ -17073,7 +17137,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Simple mean most favored nation tariff rate is the unweighted average of most favored nation rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eig{p_end}
 
@@ -17099,7 +17163,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Weighted mean applied tariff is the average of effectively applied rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Ta{p_end}
 
@@ -17203,7 +17267,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Weighted mean applied tariff is the average of effectively applied rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Ta{p_end}
 
@@ -17281,7 +17345,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Simple mean most favored nation tariff rate is the unweighted average of most favored nation rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eig{p_end}
 
@@ -17345,7 +17409,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Agricultural raw materials comprise SITC section 2 (crude materials except fuels) excluding divisions 22, 27 (crude fertilizers and minerals excluding coal, petroleum, and precious stones), and 28 (metalliferous ores and scrap).{p_end}
 
@@ -17371,7 +17435,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Fuels comprise the commodities in SITC section 3 (mineral fuels, lubricants and related materials).{p_end}
 
@@ -17384,7 +17448,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Information and communication technology goods imports include computers and peripheral equipment, communication equipment, consumer electronic equipment, electronic components, and other information and technology goods (miscellaneous).{p_end}
 
@@ -17462,7 +17526,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Merchandise imports from high-income economies are the sum of merchandise imports by the reporting economy from high-income economies according to the World Bank classification of economies. Data are expressed as a percentage of total merchand{p_end}
 
@@ -17527,7 +17591,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Middle East and North Africa are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Middle East and North Africa region according to{p_end}
 
@@ -17579,7 +17643,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Merchandise imports by the reporting economy are the total merchandise imports by the reporting economy from the rest of the world, as reported in the IMF's Direction of trade database. Data are in current U.S. dollars.{p_end}
 
@@ -17605,7 +17669,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Import value indexes are the current value of imports (c.i.f.) converted to U.S. dollars and expressed as a percentage of the average for the base period (2000). UNCTAD's import value indexes are reported for most economies. For selected econo{p_end}
 
@@ -17746,7 +17810,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Fuels comprise the commodities in SITC section 3 (mineral fuels, lubricants and related materials).{p_end}
 
@@ -17759,7 +17823,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Topics}}09 Infrastructure{p_end}
+=======
+{synopt:{opt Topics}}21 Trade{p_end}
+>>>>>>> check
 
 {synopt:{opt Source Notes}}Information and communication technology goods exports include computers and peripheral equipment, communication equipment, consumer electronic equipment, electronic components, and other information and technology goods (miscellaneous).{p_end}
 
@@ -17863,7 +17931,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in East Asia and Pacific are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the East Asia and Pacific region according to World Bank clas{p_end}
 
@@ -17889,7 +17957,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Latin America and the Caribbean are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Latin America and the Caribbean region accordin{p_end}
 
@@ -17902,7 +17970,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Middle East and North Africa are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Middle East and North Africa region according to W{p_end}
 
@@ -18006,7 +18074,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Commercial service exports are total service exports minus exports of government services not included elsewhere. International transactions in services are defined by the IMF's Balance of Payments Manual (1993) as the economic output of intan{p_end}
 
@@ -18032,7 +18100,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}14 Science and Technology{p_end}
 
 {synopt:{opt Source Notes}}High-technology exports are products with high R&amp;D intensity, such as in aerospace, computers, pharmaceuticals, scientific instruments, and electrical machinery.{p_end}
 
@@ -18519,4 +18587,8 @@
 
 
 
+<<<<<<< HEAD
 {right:(as of 29oct2019)}
+=======
+{right:(as of 12apr2020)}
+>>>>>>> check
