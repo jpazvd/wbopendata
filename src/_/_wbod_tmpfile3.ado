@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-*! _wbod_tmpfile3 <29 Oct 2019 : 09:54:38>                 by João Pedro Azevedo
-=======
 *! _wbod_tmpfile3 <12 Apr 2020 : 19:38:25>                 by João Pedro Azevedo
->>>>>>> check
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _wbod_tmpfile3 
