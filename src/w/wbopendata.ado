@@ -1,5 +1,7 @@
 *******************************************************************************
-* wbopendata                                                                  
+* wbopendata             
+*!  v 16.1      12Apr2020 				by Joao Pedro Azevedo
+*	rempve metadata of SOURCID and TOPICSID from the main dissemination package                                                     
 *!  v 16.0	    27Oct2019               by Joao Pedro Azevedo 
 * created and tested new functions, namely:
 *  _api_read_indicators.ado : download indicator list from API, for formats 

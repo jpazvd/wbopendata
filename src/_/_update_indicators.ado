@@ -304,9 +304,12 @@ if ("`nosthlp2'" == "") {
 
 	local date: disp %td date("`c(current_date)'", "DMY")
 		
+	* loop through sourcid and topicid	
 	qui foreach variable in sourceid topicid  {
 	
+		* created tempfiles
 		tempfile help`variable' tmp2`variable'
+		create temp variable names
 		tempname hlp`variable'  dups`variable'  seq2`variable' seq3`variable' code`variable' tot`variable'
 
 		use `tmp', clear
@@ -328,7 +331,7 @@ if ("`nosthlp2'" == "") {
 
 	
 	/**************** header ********************/
-
+	
 		levelsof `variable'
 		local levelsof2 `"`r(levels)'"'
 		`noi' di `"`levelsof2'"'
@@ -337,6 +340,7 @@ if ("`nosthlp2'" == "") {
 		
 		save `tmp2`variable'' , replace
 
+		* loop toics l
 		qui foreach topic1 in `levelsof2'  {	
 				
 			use `tmp2`variable'', clear
