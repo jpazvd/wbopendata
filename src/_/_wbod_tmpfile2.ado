@@ -1,4 +1,4 @@
-*! _wbod_tmpfile2 <13 Apr 2020 : 09:02:07>                 by João Pedro Azevedo
+*! _wbod_tmpfile2 <21 May 2020 : 15:42:59>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _wbod_tmpfile2 
@@ -147,6 +147,7 @@
          cap: replace adminregion = "MNA"     if `match' == "YEM"  
          cap: replace adminregion = "SSA"     if `match' == "ZAF"  
          cap: replace adminregion = "SSA"     if `match' == "ZMB"  
+         cap: replace adminregion = "SSA"     if `match' == "ZWE"  
   
 ******************  Lable: adminregion ******************
   
@@ -297,6 +298,7 @@
          cap: replace adminregion_iso2 = "XQ"     if `match' == "YEM"  
          cap: replace adminregion_iso2 = "ZF"     if `match' == "ZAF"  
          cap: replace adminregion_iso2 = "ZF"     if `match' == "ZMB"  
+         cap: replace adminregion_iso2 = "ZF"     if `match' == "ZWE"  
   
 ******************  Lable: adminregion_iso2 ******************
   
@@ -447,6 +449,7 @@
          cap: replace adminregionname = "Middle East and North Africa (excluding high income)"     if `match' == "YEM"  
          cap: replace adminregionname = "Sub-Saharan Africa (excluding high income)"     if `match' == "ZAF"  
          cap: replace adminregionname = "Sub-Saharan Africa (excluding high income)"     if `match' == "ZMB"  
+         cap: replace adminregionname = "Sub-Saharan Africa (excluding high income)"     if `match' == "ZWE"  
   
 ******************  Lable: adminregionname ******************
   
@@ -763,6 +766,7 @@
          cap: replace incomelevel = "LIC"     if `match' == "YEM"  
          cap: replace incomelevel = "UMC"     if `match' == "ZAF"  
          cap: replace incomelevel = "LMC"     if `match' == "ZMB"  
+         cap: replace incomelevel = "LMC"     if `match' == "ZWE"  
   
 ******************  Lable: incomelevel ******************
   
@@ -1079,6 +1083,7 @@
          cap: replace incomelevel_iso2 = "XM"     if `match' == "YEM"  
          cap: replace incomelevel_iso2 = "XT"     if `match' == "ZAF"  
          cap: replace incomelevel_iso2 = "XN"     if `match' == "ZMB"  
+         cap: replace incomelevel_iso2 = "XN"     if `match' == "ZWE"  
   
 ******************  Lable: incomelevel_iso2 ******************
   
@@ -1395,6 +1400,7 @@
          cap: replace incomelevelname = "Low income"     if `match' == "YEM"  
          cap: replace incomelevelname = "Upper middle income"     if `match' == "ZAF"  
          cap: replace incomelevelname = "Lower middle income"     if `match' == "ZMB"  
+         cap: replace incomelevelname = "Lower middle income"     if `match' == "ZWE"  
   
 ******************  Lable: incomelevelname ******************
   
