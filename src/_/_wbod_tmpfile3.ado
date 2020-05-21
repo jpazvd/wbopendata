@@ -1,4 +1,4 @@
-*! _wbod_tmpfile3 <13 Apr 2020 : 09:02:07>                 by João Pedro Azevedo
+*! _wbod_tmpfile3 <21 May 2020 : 15:42:59>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _wbod_tmpfile3 
@@ -227,6 +227,7 @@
          cap: replace lendingtype = "IDX"     if `match' == "YEM"  
          cap: replace lendingtype = "IBD"     if `match' == "ZAF"  
          cap: replace lendingtype = "IDX"     if `match' == "ZMB"  
+         cap: replace lendingtype = "IDB"     if `match' == "ZWE"  
   
 ******************  Lable: lendingtype ******************
   
@@ -543,6 +544,7 @@
          cap: replace lendingtype_iso2 = "XI"     if `match' == "YEM"  
          cap: replace lendingtype_iso2 = "XF"     if `match' == "ZAF"  
          cap: replace lendingtype_iso2 = "XI"     if `match' == "ZMB"  
+         cap: replace lendingtype_iso2 = "XH"     if `match' == "ZWE"  
   
 ******************  Lable: lendingtype_iso2 ******************
   
@@ -773,6 +775,7 @@
          cap: replace lendingtypename = "IDA"     if `match' == "YEM"  
          cap: replace lendingtypename = "IBRD"     if `match' == "ZAF"  
          cap: replace lendingtypename = "IDA"     if `match' == "ZMB"  
+         cap: replace lendingtypename = "Blend"     if `match' == "ZWE"  
   
 ******************  Lable: lendingtypename ******************
   
@@ -1003,6 +1006,7 @@
          cap: replace capital = "Sana'a"     if `match' == "YEM"  
          cap: replace capital = "Pretoria"     if `match' == "ZAF"  
          cap: replace capital = "Lusaka"     if `match' == "ZMB"  
+         cap: replace capital = "Harare"     if `match' == "ZWE"  
   
 ******************  Lable: capital ******************
   
@@ -1233,6 +1237,7 @@
          cap: replace longitude = real("44.2075")       if `match' == "YEM"  
          cap: replace longitude = real("28.1871")       if `match' == "ZAF"  
          cap: replace longitude = real("28.2937")       if `match' == "ZMB"  
+         cap: replace longitude = real("31.0672")       if `match' == "ZWE"  
   
 ******************  Lable: longitude ******************
   
@@ -1463,6 +1468,7 @@
          cap: replace latitude = real("15.352")       if `match' == "YEM"  
          cap: replace latitude = real("-25.746")       if `match' == "ZAF"  
          cap: replace latitude = real("-15.3982")       if `match' == "ZMB"  
+         cap: replace latitude = real("-17.8312")       if `match' == "ZWE"  
   
 ******************  Lable: latitude ******************
   

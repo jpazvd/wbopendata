@@ -48,7 +48,7 @@ quietly {
 		noi di in smcl in g ""
 		noi di in smcl in g "{bf: Downloading country metadata...}"
 		
-		local maxp =  310
+		local maxp =  500
 			
 		************************************************************************
 
