@@ -1,4 +1,4 @@
-*! _wbod_tmpfile1 <13 Apr 2020 : 09:02:07>                 by João Pedro Azevedo
+*! _wbod_tmpfile1 <28 Jun 2020 : 16:40:06>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _wbod_tmpfile1 
@@ -1581,7 +1581,7 @@
          cap: replace regionname = "Middle East and North Africa"     if `match' == "YEM"  
          cap: replace regionname = "Sub-Saharan Africa"     if `match' == "ZAF"  
          cap: replace regionname = "Sub-Saharan Africa"     if `match' == "ZMB"  
-         cap: replace regionname = "Sub-S"     if `match' == "ZWE"  
+         cap: replace regionname = "Sub-Saharan Africa"     if `match' == "ZWE"  
   
 ******************  Lable: regionname ******************
   

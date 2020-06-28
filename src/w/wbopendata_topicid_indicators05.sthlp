@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -241,20 +241,20 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to current international dollars using purchasing power parity rates based on the 2011 ICP round. An internatio{p_end}
+{synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to current international dollars using purchasing power parity rates based on the 2017 ICP round. An internatio{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
 {marker topicid_EG.GDP.PUSE.KO.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##EG.GDP.PUSE.KO.PP.KD:EG.GDP.PUSE.KO.PP.KD} - GDP per unit of energy use (constant 2011 PPP $ per kg of oil equivalent)}}
+{synopt:{bf:{help wbopendata_topicid##EG.GDP.PUSE.KO.PP.KD:EG.GDP.PUSE.KO.PP.KD} - GDP per unit of energy use (constant 2017 PPP $ per kg of oil equivalent)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to 2011 constant international dollars using purchasing power parity rates. An international dollar has the sam{p_end}
+{synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to 2017 constant international dollars using purchasing power parity rates. An international dollar has the sam{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
@@ -282,7 +282,7 @@
 
 {synopt:{opt Source Notes}}Access to non-solid fuel, rural is the percentage of rural population with access to non-solid fuel.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for all (SE4ALL) database from WHO Global Household Energy database.{p_end}
+{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from WHO Global Household Energy database.{p_end}
 
 
 {synoptline}
@@ -295,7 +295,7 @@
 
 {synopt:{opt Source Notes}}Access to non-solid fuel, urban is the percentage of urban population with access to non-solid fuel.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for all (SE4ALL) database from WHO Global Household Energy database.{p_end}
+{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from WHO Global Household Energy database.{p_end}
 
 
 {synoptline}
@@ -308,7 +308,7 @@
 
 {synopt:{opt Source Notes}}Access to non-solid fuel is the percentage of population with access to non-solid fuel.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for all (SE4ALL) database from WHO Global Household Energy database.{p_end}
+{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from WHO Global Household Energy database.{p_end}
 
 
 {synoptline}
@@ -339,7 +339,7 @@
 
 {synoptline}
 {marker topicid_EG.USE.COMM.GD.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD} - Energy use (kg of oil equivalent) per $1,000 GDP (constant 2011 PPP)}}
+{synopt:{bf:{help wbopendata_topicid##EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD} - Energy use (kg of oil equivalent) per $1,000 GDP (constant 2017 PPP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -728,4 +728,4 @@
 
 
 
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}

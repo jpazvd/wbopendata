@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -972,6 +972,162 @@
 {synopt:{opt Source Notes}}Total tax rate measures the amount of taxes and mandatory contributions payable by businesses after accounting for allowable deductions and exemptions as a share of commercial profits. Taxes withheld (such as personal income tax) or collected{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+
+
+{synoptline}
+{marker topicid_IC.WEF.LLCD.FE}
+{synopt:{bf:{help wbopendata_topicid##IC.WEF.LLCD.FE:IC.WEF.LLCD.FE} - Number of female directors}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Number of female directors is the number of female individuals who conduct the affairs of newly registered limited liability companies in the calendar year.{p_end}
+
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+
+
+{synoptline}
+{marker topicid_IC.WEF.LLCD.FE.ZS}
+{synopt:{bf:{help wbopendata_topicid##IC.WEF.LLCD.FE.ZS:IC.WEF.LLCD.FE.ZS} - Share of female directors (% of total directors)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Share of female directors is the proportion of female directors of newly registered limited liability companies out of the total number of directors of newly registered limited liability companies in the economy in the calendar year. A  direct{p_end}
+
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+
+
+{synoptline}
+{marker topicid_IC.WEF.LLCD.MA}
+{synopt:{bf:{help wbopendata_topicid##IC.WEF.LLCD.MA:IC.WEF.LLCD.MA} - Number of male directors}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Number of female directors is the number of female individuals who conduct the affairs of newly registered limited liability companies in the calendar year.{p_end}
+
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+
+
+{synoptline}
+{marker topicid_IC.WEF.LLCD.MA.ZS}
+{synopt:{bf:{help wbopendata_topicid##IC.WEF.LLCD.MA.ZS:IC.WEF.LLCD.MA.ZS} - Share of male directors (% of total directors)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Share of male directors is the proportion of male directors of newly registered limited liability companies out of the total number of directors of newly registered limited liability companies in the economy in the calendar year. A  director i{p_end}
+
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+
+
+{synoptline}
+{marker topicid_IC.WEF.LLCO.FE}
+{synopt:{bf:{help wbopendata_topicid##IC.WEF.LLCO.FE:IC.WEF.LLCO.FE} - Number of female business owners}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Number of female business owners is the number of female individuals that own at least one share of a limited liability company that was newly registered in the calendar year.{p_end}
+
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+
+
+{synoptline}
+{marker topicid_IC.WEF.LLCO.FE.ZS}
+{synopt:{bf:{help wbopendata_topicid##IC.WEF.LLCO.FE.ZS:IC.WEF.LLCO.FE.ZS} - Share of female business owners (% of total business owners)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Share of female business is the proportion of female newly registered limited liability company owners out of the total number of newly registered limited liability company owners in the economy in the calendar year.{p_end}
+
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+
+
+{synoptline}
+{marker topicid_IC.WEF.LLCO.MA}
+{synopt:{bf:{help wbopendata_topicid##IC.WEF.LLCO.MA:IC.WEF.LLCO.MA} - Number of male business owners}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Number of female business owners is the number of male individuals that own at least one share of a limited liability company that was newly registered in the calendar  year.{p_end}
+
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+
+
+{synoptline}
+{marker topicid_IC.WEF.LLCO.MA.ZS}
+{synopt:{bf:{help wbopendata_topicid##IC.WEF.LLCO.MA.ZS:IC.WEF.LLCO.MA.ZS} - Share of male business owners  (% of total business owners)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Share of female business is the proportion of male newly registered limited liability company owners out of the total number of newly registered limited liability company owners in the economy in the calendar year.{p_end}
+
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+
+
+{synoptline}
+{marker topicid_IC.WEF.SOLO.FE}
+{synopt:{bf:{help wbopendata_topicid##IC.WEF.SOLO.FE:IC.WEF.SOLO.FE} - Number of female sole proprietors}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Number of female sole proprietors is the number of newly registered sole proprietors owned by female individuals in the calendar year. A sole proprietorship is a business entity owned and managed by a single individual who is indistinguishable{p_end}
+
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+
+
+{synoptline}
+{marker topicid_IC.WEF.SOLO.FE.ZS}
+{synopt:{bf:{help wbopendata_topicid##IC.WEF.SOLO.FE.ZS:IC.WEF.SOLO.FE.ZS} - Share of female sole proprietors  (% of sole proprietors)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Share of female sole proprietors is the proportion of female newly registered sole proprietors out of the total number of newly registered sole proprietors in the economy in the calendar year. A sole proprietorship is a business entity owned a{p_end}
+
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+
+
+{synoptline}
+{marker topicid_IC.WEF.SOLO.MA}
+{synopt:{bf:{help wbopendata_topicid##IC.WEF.SOLO.MA:IC.WEF.SOLO.MA} - Number of male sole proprietors}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Number of male sole proprietors is the number of newly registered sole proprietors owned by female individuals in the calendar year.  A sole proprietorship is a business entity owned and managed by a single individual who is indistinguishable{p_end}
+
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+
+
+{synoptline}
+{marker topicid_IC.WEF.SOLO.MA.ZS}
+{synopt:{bf:{help wbopendata_topicid##IC.WEF.SOLO.MA.ZS:IC.WEF.SOLO.MA.ZS} - Share of male sole proprietors  (% of sole proprietors)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Share of female sole proprietors is the proportion of male newly registered sole proprietors out of the total number of newly registered sole proprietors in the economy in the calendar year. A sole proprietorship is a business entity owned and{p_end}
+
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -2353,4 +2509,4 @@
 
 
 
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}

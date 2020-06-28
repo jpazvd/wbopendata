@@ -1,5 +1,6 @@
 *******************************************************************************
-*! v 13.4  01jul2014               by Joao Pedro Azevedo                        *
+*! v 16.2.2  28jun2020        	   by Joao Pedro Azevedo                      *  
+*   replace server used to query metadata
 *******************************************************************************
 
 program def _query_metadata, rclass
@@ -27,7 +28,7 @@ version 9.0
         tempfile out3 source3
         tempname in2 out2 saving source1 source2
 
-        capture : copy "http://api.worldbank.org/indicators/`indicator1'" `in', text replace
+        capture : copy "http://api.worldbank.org/v2/indicators/`indicator1'" `in', text replace
         local rc4 = _rc
         if (`rc4' != 0) {
             noi di ""
@@ -247,3 +248,6 @@ version 9.0
         return local indicator      "`indicator1'"
 
 end
+
+********************************************************************************
+* v 13.4  01jul2014               by Joao Pedro Azevedo                      

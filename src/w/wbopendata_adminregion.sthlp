@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Administrative Region  (as of 13apr2020)}
+{title:Administrative Region  (as of 28jun2020)}
 
 {marker EAP}
 {p 20 20 2}(Go up to {it:{help wbopendata##adminregion:Administrative Region }}){p_end}
@@ -176,4 +176,5 @@
 {synopt:{opt TGO}}  Togo {p_end}
 {synopt:{opt UGA}}  Uganda {p_end}
 {synopt:{opt ZMB}}  Zambia {p_end}
+{synopt:{opt ZWE}}  Zimbabwe {p_end}
 

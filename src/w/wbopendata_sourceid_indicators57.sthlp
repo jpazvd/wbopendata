@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -41,6 +41,7 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 40}}  {help wbopendata_sourceid_indicators40##sourceid_40:Population estimates and projections}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
+{synopt:{opt 43}}  {help wbopendata_sourceid_indicators43##sourceid_43:Adjusted Net Savings}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
 {synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
@@ -60,6 +61,7 @@
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
+{synopt:{opt 78}}  {help wbopendata_sourceid_indicators78##sourceid_78:ICP 2017}{p_end}
 
 
 {marker sourceid_57}
@@ -314,9 +316,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Transport covers all transport services (sea, air, land, internal waterway, pipeline, space and electricity transmission) performed by residents of one economy for those of another and involving the carriage of passengers, the movement of good{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}
@@ -326,9 +328,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Travel covers goods and services acquired from an economy by travelers for their own use during visits of less than one year in that economy for either business or personal purposes. Travel includes local transport (i.e., transport within the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}
@@ -338,9 +340,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Foreign direct investment are the net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and Balance of Payments databases, World Bank, International Debt Statistics, and World Bank and OECD GDP estimates.{p_end}
 
 
 {synoptline}
@@ -674,9 +676,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Personal remittances comprise personal transfers and compensation of employees. Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfer{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on IMF balance of payments data.{p_end}
 
 
 {synoptline}
@@ -758,9 +760,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Transport covers all transport services (sea, air, land, internal waterway, pipeline, space and electricity transmission) performed by residents of one economy for those of another and involving the carriage of passengers, the movement of good{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}
@@ -770,9 +772,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Travel covers goods and services acquired from an economy by travelers for their own use during visits of less than one year in that economy for either business or personal purposes. Travel includes local transport (i.e., transport within the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}
@@ -1431,9 +1433,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: stone, ceramics, and glass{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated through 2005 by the World Bank's Development Rese{p_end}
 
 
 {synoptline}
@@ -1443,9 +1445,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: chemicals (35). Emissions o{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated through 2005 by the World Bank's Development Rese{p_end}
 
 
 {synoptline}
@@ -1455,9 +1457,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: food and beverages (31). Em{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated through 2005 by the World Bank's Development Rese{p_end}
 
 
 {synoptline}
@@ -1467,9 +1469,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: primary metals (ISIC divisi{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated through 2005 by the World Bank's Development Rese{p_end}
 
 
 {synoptline}
@@ -1479,9 +1481,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: other (38 and 39). Emission{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated through 2005 by the World Bank's Development Rese{p_end}
 
 
 {synoptline}
@@ -1491,9 +1493,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: paper and pulp (34). Emissi{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated through 2005 by the World Bank's Development Rese{p_end}
 
 
 {synoptline}
@@ -1503,9 +1505,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: textiles (32). Emissions of{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated through 2005 by the World Bank's Development Rese{p_end}
 
 
 {synoptline}
@@ -1515,9 +1517,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: wood (33). Emissions of org{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated through 2005 by the World Bank's Development Rese{p_end}
 
 
 {synoptline}
@@ -1527,9 +1529,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Emissions per worker are total emissions of organic water pollutants divided by the number of industrial workers. Organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water w{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank and UNIDO's industry database.{p_end}
 
 
 {synoptline}
@@ -1539,9 +1541,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Energy production refers to forms of primary energy--petroleum (crude oil, natural gas liquids, and oil from nonconventional sources), natural gas, solid fuels (coal, lignite, and other derived fuels), and combustible renewables and waste--and{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -1551,9 +1553,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Coal refers to all coal and brown coal, both primary (including hard coal and lignite-brown coal) and derived fuels (including patent fuel, coke oven coke, gas coke, coke{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -1563,9 +1565,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Hydropower refers to electricity produced by hydroelectric power plants.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -1575,9 +1577,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Electric power transmission and distribution losses include losses in transmission between sources of supply and points of distribution and in the distribution to consumers, including pilferage.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -1587,9 +1589,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Gas refers to natural gas but excludes natural gas liquids.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -1599,9 +1601,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Nuclear power refers to electricity produced by nuclear power plants.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -1611,9 +1613,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -1623,9 +1625,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Electricity production is measured at the terminals of all alternator sets in a station. In addition to hydropower, coal, oil, gas, and nuclear power generation, it covers generation by geothermal, solar, wind, and tide and wave energy, as wel{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -1635,9 +1637,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Electricity production from renewable sources includes hydropower, geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -1674,7 +1676,7 @@
 
 {synopt:{opt Source Notes}}Access to non-solid fuel, rural is the percentage of rural population with access to non-solid fuel.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for all (SE4ALL) database from WHO Global Household Energy database.{p_end}
+{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from WHO Global Household Energy database.{p_end}
 
 
 {synoptline}
@@ -1683,11 +1685,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Access to non-solid fuel, urban is the percentage of urban population with access to non-solid fuel.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for all (SE4ALL) database from WHO Global Household Energy database.{p_end}
+{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from WHO Global Household Energy database.{p_end}
 
 
 {synoptline}
@@ -1700,7 +1702,7 @@
 
 {synopt:{opt Source Notes}}Access to non-solid fuel is the percentage of population with access to non-solid fuel.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for all (SE4ALL) database from WHO Global Household Energy database.{p_end}
+{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from WHO Global Household Energy database.{p_end}
 
 
 {synoptline}
@@ -1710,9 +1712,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international tr{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -1722,9 +1724,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Combustible renewables and waste comprise solid biomass, liquid biomass, biogas, industrial waste, and municipal waste.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -1734,9 +1736,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Electric power consumption measures the production of power plants and combined heat and power plants less transmission, distribution, and transformation losses and own use by heat and power plants.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -1842,9 +1844,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Particulate matter concentrations refer to fine suspended particulates less than 10 microns in diameter (PM10) that are capable of penetrating deep into the respiratory tract and causing significant health damage. Data for countries and aggreg{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Kiran Dev Pandey, David Wheeler, Bart Ostro, Uwe Deichmann, Kirk Hamilton, and Katherine Bolt. Ambient Particulate Matter Concentrations in Residential and Pollution Hotspot Areas of World Cities: New Estimates Based on the Global Model of Amb{p_end}
 
 
 {synoptline}
@@ -1866,9 +1868,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from residential buildings and commercial and public services contains all emissions from fuel combustion in households. This corresponds to IPCC Source/Sink Category 1 A 4 b. Commercial and public services includes emissions fro{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -1878,9 +1880,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from electricity and heat production is the sum of three IEA categories of CO2 emissions: (1) Main Activity Producer Electricity and Heat which contains the sum of emissions from main activity producer electricity generation, com{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -1890,9 +1892,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from manufacturing industries and construction contains the emissions from combustion of fuels in industry. The IPCC Source/Sink Category 1 A 2 includes these emissions. However, in the 1996 IPCC Guidelines, the IPCC category als{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -1902,9 +1904,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from other sectors, less residential buildings and commercial and public services, contains the emissions from commercial/institutional activities, residential, agriculture/forestry, fishing and other emissions not specified else{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -1914,9 +1916,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from transport contains emissions from the combustion of fuel for all transport activity, regardless of the sector, except for international marine bunkers and international aviation. This includes domestic aviation, domestic nav{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -2238,9 +2240,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}GEF benefits index for biodiversity is a composite index of relative biodiversity potential for each country based on the species represented in each country, their threat status, and the diversity of habitat types in each country. The index h{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Kiran Dev Pandey, Piet Buys, Ken Chomitz, and David Wheeler's, Biodiversity Conservation Indicators: New Tools for Priority Setting at the Global Environment Facility (2006).{p_end}
 
 
 {synoptline}
@@ -2371,9 +2373,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Cooperatives, credit unions, and mutuals are financial institutions that are owned and controlled by their members (customers), regardless of whether they do business exclusively with their members or with members and nonmembers.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Consultative Group to Assist the Poor and the World Bank Group’s Financial Access 2010.{p_end}
 
 
 {synoptline}
@@ -2396,9 +2398,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Specialized state-owned financial institutions are extensions of the government whose main purpose is to lend support to economic development and/or to provide savings, payment, and deposit services to the public. They include postal banks, go{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Consultative Group to Assist the Poor and the World Bank Group’s Financial Access 2010.{p_end}
 
 
 {synoptline}
@@ -2420,9 +2422,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Commercial bank branches are retail locations offering a wide array of face-to-face and automated financial services. Commercial banks are banks with a full banking license. In some countries, the term universal banks or other terms may be use{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Consultative Group to Assist the Poor and the World Bank Group’s Financial Access 2010.{p_end}
 
 
 {synoptline}
@@ -2432,9 +2434,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Cooperatives, credit unions, and mutuals are financial institutions that are owned and controlled by their members (customers), regardless of whether they do business exclusively with their members or with members and nonmembers.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Consultative Group to Assist the Poor and the World Bank Group’s Financial Access 2010.{p_end}
 
 
 {synoptline}
@@ -2444,9 +2446,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Microfinance institutions are institutions whose primary business model is to lend to (and possibly take deposits from) the poor, often using specialized methodologies such as group lending. The data collected using this institutional classifi{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Consultative Group to Assist the Poor and the World Bank Group’s Financial Access 2010.{p_end}
 
 
 {synoptline}
@@ -2468,9 +2470,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Specialized state-owned financial institutions are extensions of the government whose main purpose is to lend support to economic development and/or to provide savings, payment, and deposit services to the public. They include postal banks, go{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Consultative Group to Assist the Poor and the World Bank Group’s Financial Access 2010.{p_end}
 
 
 {synoptline}
@@ -2504,9 +2506,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Deposit accounts are accounts at commercial banks that allow money to be deposited and withdrawn by the account holder. The major types of deposits are checking accounts, savings accounts, and time deposits. Commercial banks are banks with a f{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Consultative Group to Assist the Poor and the World Bank Group’s Financial Access 2010.{p_end}
 
 
 {synoptline}
@@ -2516,9 +2518,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Cooperatives, credit unions, and mutuals are financial institutions that are owned and controlled by their members (customers), regardless of whether they do business exclusively with their members or with members and nonmembers.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Consultative Group to Assist the Poor and the World Bank Group’s Financial Access 2010.{p_end}
 
 
 {synoptline}
@@ -2528,9 +2530,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Microfinance institutions are institutions whose primary business model is to lend to (and possibly take deposits from) the poor, often using specialized methodologies such as group lending. The data collected using this institutional classifi{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Consultative Group to Assist the Poor and the World Bank Group’s Financial Access 2010.{p_end}
 
 
 {synoptline}
@@ -2552,9 +2554,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Specialized state-owned financial institutions are extensions of the government whose main purpose is to lend support to economic development and/or to provide savings, payment, and deposit services to the public. They include postal banks, go{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Consultative Group to Assist the Poor and the World Bank Group’s Financial Access 2010.{p_end}
 
 
 {synoptline}
@@ -2637,9 +2639,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Claims on private sector (IFS line 32D..ZK or 32D..ZF) include gross credit from the financial system to individuals, enterprises, nonfinancial public entities not included under net domestic credit, and financial institutions not included els{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
 
 {synoptline}
@@ -2685,9 +2687,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Money is the sum of currency outside banks and demand deposits other than those of central government. This series, frequently referred to as M1 is a narrower definition of money than M2. Data are in current local currency.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
 
 {synoptline}
@@ -2697,9 +2699,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Money and quasi money comprise the sum of currency outside banks, demand deposits other than those of the central government, and the time, savings, and foreign currency deposits of resident sectors other than the central government. This defi{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
 
 {synoptline}
@@ -2721,9 +2723,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Money and quasi money comprise the sum of currency outside banks, demand deposits other than those of the central government, and the time, savings, and foreign currency deposits of resident sectors other than the central government. This defi{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files, and World Bank and OECD GDP estimates.{p_end}
 
 
 {synoptline}
@@ -2745,9 +2747,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Money and quasi money comprise the sum of currency outside banks, demand deposits other than those of the central government, and the time, savings, and foreign currency deposits of resident sectors other than the central government. This defi{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
 
 {synoptline}
@@ -2769,9 +2771,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Average annual growth rate in money and quasi money. Money and quasi money comprise the sum of currency outside banks, demand deposits other than those of the central government, and the time, savings, and foreign currency deposits of resident{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
 
 {synoptline}
@@ -2793,9 +2795,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Quasi money refers to time, savings, and foreign currency deposits of resident sectors other than the central government.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
 
 {synoptline}
@@ -2841,9 +2843,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Food price index is a subindex of the consumer price index.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}United Nations, Statistical Yearbook and Monthly Bulletin of Statistics.{p_end}
 
 
 {synoptline}
@@ -2949,9 +2951,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Liquid liabilities are also known as M3. They are the sum of currency and deposits in the central bank (M0), plus transferable deposits and electronic currency (M1), plus time and savings deposits, foreign currency transferable deposits, certi{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files, and World Bank and OECD GDP estimates.{p_end}
 
 
 {synoptline}
@@ -2973,9 +2975,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Quasi-liquid liabilities are the sum of currency and deposits in the central bank (M0), plus time and savings deposits, foreign currency transferable deposits, certificates of deposit, and securities repurchase agreements, plus travelers check{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files, and World Bank and OECD GDP estimates.{p_end}
 
 
 {synoptline}
@@ -3753,9 +3755,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Cash surplus or deficit is revenue (including grants) minus expense, minus net acquisition of nonfinancial assets. In the 1986 GFS manual nonfinancial assets were included under revenue and expenditure in gross terms. This cash surplus or defi{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}
@@ -3765,9 +3767,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Cash surplus or deficit is revenue (including grants) minus expense, minus net acquisition of nonfinancial assets. In the 1986 GFS manual nonfinancial assets were included under revenue and expenditure in gross terms. This cash surplus or defi{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files, and World Bank and OECD GDP estimates.{p_end}
 
 
 {synoptline}
@@ -3837,9 +3839,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net incurrence of government liabilities includes foreign financing (obtained from nonresidents) and domestic financing (obtained from residents), or the means by which a government provides financial resources to cover a budget deficit or all{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}
@@ -3849,9 +3851,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net incurrence of government liabilities includes foreign financing (obtained from nonresidents) and domestic financing (obtained from residents), or the means by which a government provides financial resources to cover a budget deficit or all{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files, and World Bank and OECD GDP estimates.{p_end}
 
 
 {synoptline}
@@ -3861,9 +3863,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net incurrence of government liabilities includes foreign financing (obtained from nonresidents) and domestic financing (obtained from residents), or the means by which a government provides financial resources to cover a budget deficit or all{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}
@@ -3873,9 +3875,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Net incurrence of government liabilities includes foreign financing (obtained from nonresidents) and domestic financing (obtained from residents), or the means by which a government provides financial resources to cover a budget deficit or all{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files, and World Bank and OECD GDP estimates.{p_end}
 
 
 {synoptline}
@@ -4029,9 +4031,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Firing cost is the cost of advanced notice requirements, severance payments, and penalties due when terminating a redundant worker, expressed in weekly wages. One month is recorded as 4 1/3 weeks.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
 
 {synoptline}
@@ -4040,7 +4042,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearan{p_end}
 
@@ -4066,7 +4068,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Time to export is the time necessary to comply with all procedures required to export goods. Time is recorded in calendar days. The time calculation for a procedure starts from the moment it is initiated and runs until it is completed. If a pr{p_end}
 
@@ -4092,7 +4094,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}All documents required per shipment to import goods are recorded. It is assumed that the contract has already been agreed upon and signed by both parties. Documents required for clearance by government ministries, customs authorities, port and{p_end}
 
@@ -4105,7 +4107,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Time to import is the time necessary to comply with all procedures required to import goods. Time is recorded in calendar days. The time calculation for a procedure starts from the moment it is initiated and runs until it is completed. If a pr{p_end}
 
@@ -4143,9 +4145,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}This indicator measures the number of procedures required to resolve a sale of goods dispute in local courts. It includes steps to file the case, to go through the trial and judgment, and to enforce the judgment. The data are collected through{p_end}
+{synopt:{opt Source Notes}}Number of procedures to enforce a contract are the number of independent actions, mandated by law or courts, that demand interaction between the parties of a contract or between them and the judge or court officer.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business Project ({browse "http://www.doingbusiness.org/ExploreTopics/EnforcingContracts/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
 
 {synoptline}
@@ -4167,9 +4169,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Micro, small, and medium-size enterprises are business that may be defined by the number of employees. There is no international standard definition of firm size; however, many institutions that collect information use the following size categ{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Finance Corporation's micro, small, and medium-size enterprises database ({browse "http://www.ifc.org/ifcext/sme.nsf/Content/Resources"}).{p_end}
 
 
 {synoptline}
@@ -4179,9 +4181,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Micro, small, and medium-size enterprises are business that may be defined by the number of employees. There is no international standard definition of firm size; however, many institutions that collect information use the following size categ{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Finance Corporation's micro, small, and medium-size enterprises database ({browse "http://www.ifc.org/ifcext/sme.nsf/Content/Resources"}).{p_end}
 
 
 {synoptline}
@@ -4229,9 +4231,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Trademark applications filed are applications to register a trademark with a national or regional Intellectual Property (IP) office. A trademark is a distinctive sign which identifies certain goods or services as those produced or provided by{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), WIPO Patent Report: Statistics on Worldwide Patent Activity. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
 
 
 {synoptline}
@@ -4241,9 +4243,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Trademark applications filed are applications to register a trademark with a national or regional Intellectual Property (IP) office. A trademark is a distinctive sign which identifies certain goods or services as those produced or provided by{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), WIPO Patent Report: Statistics on Worldwide Patent Activity. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
 
 
 {synoptline}
@@ -4289,9 +4291,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Diesel is heavy oils used as a fuel for internal combustion in diesel engines.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
 
 
 {synoptline}
@@ -4301,9 +4303,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Diesel is heavy oils used as a fuel for internal combustion in diesel engines.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
 
 
 {synoptline}
@@ -4313,9 +4315,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Road sector energy consumption is the total energy used in the road sector including petroleum products, natural gas, electricity, and combustible renewable and waste.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
 
 
 {synoptline}
@@ -4325,9 +4327,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Road sector energy consumption is the total energy used in the road sector including petroleum products, natural gas, electricity, and combustible renewable and waste.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
 
 
 {synoptline}
@@ -4337,9 +4339,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Road sector energy consumption is the total energy used in the road sector including petroleum products, natural gas, electricity, and combustible renewable and waste. Total energy consumption is the total country energy consumption.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
 
 
 {synoptline}
@@ -4361,9 +4363,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Gasoline is light hydrocarbon oil use in internal combustion engine such as motor vehicles, excluding aircraft.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
 
 
 {synoptline}
@@ -4373,9 +4375,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Gasoline is light hydrocarbon oil use in internal combustion engine such as motor vehicles, excluding aircraft.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
 
 
 {synoptline}
@@ -4505,9 +4507,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Fixed broadband sub-basket is the price of the monthly subscription to an entry-level fixed broadband plan. For comparability reason, the fixed broadband sub-basket is based on a monthly usage of (a minimum of) 1 Gigabyte (GB). For plans that{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -4517,9 +4519,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Population covered by a mobile-cellular network is the percentage of people within range of a mobile-cellular signal, irrespective of whether they are subscribers or users or not. This is calculated by dividing the number of people within rang{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -4529,9 +4531,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Price basket for mobile is calculated as the pre-paid price for 25 calls per month spread over the same mobile network, other mobile networks, and mobile to fixed calls and during peak, off-peak, and weekend times. It also includes 30 text mes{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -4541,9 +4543,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Personal computers are self-contained computers designed to be used by a single individual.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -4613,9 +4615,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}International voice traffic is the sum of international incoming and outgoing telephone traffic (in minutes).{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -4625,9 +4627,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}International voice traffic is the sum of international incoming and outgoing telephone traffic (in minutes).{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -4637,9 +4639,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Mobile cellular sub-basket refers to the price of a standard basket of mobile monthly usage for 30 outgoing calls per month (on-net, off-net, to a fixed line and for peak and off-peak times) in predetermined ratios, plus 100 SMS messages. The{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -4697,9 +4699,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Price basket for residential fixed line is calculated as one-fifth of the installation charge, the monthly subscription charge, and the cost of local calls (15 peak and 15 off-peak calls of three minutes each).{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Calculated by the World Bank based on International Telecommunication Union data.{p_end}
 
 
 {synoptline}
@@ -4793,9 +4795,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Price basket for Internet is calculated based on the cheapest available tariff for accessing the Internet 20 hours a month (10 hours peak and 10 hours off-peak). The basket does not include the telephone line rental but does include telephone{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -4843,9 +4845,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Fixed telephone sub-basket is the monthly price charged for subscribing to the public switched telephone network (PTSN), plus the cost of 30 local calls to the same (fixed) network (15 peak and 15 off-peak) of three minutes each. The service r{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -4855,9 +4857,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Telephone employees refer to the total full-time telecommunications staff.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -4867,9 +4869,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Fixed line and mobile cellular subscriptions per employee are telephone subscriptions (fixed line plus mobile) divided by the total number of telecommunications employees.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -4894,6 +4896,18 @@
 {synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_LO.PISA.REA.0}
+{synopt:{bf:{help wbopendata_sourceid##LO.PISA.REA.0:LO.PISA.REA.0} - PISA: 15-year-olds by reading proficiency level (%). Below Level 1B}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Percentage of 15-year-old students scoring students below the lowest proficiency level (1B) on the PISA reading scale. Students with scores below Level 1b (less or equal to 262 points) usually do not succeed at the most basic reading tasks tha{p_end}
+
+{synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA) ({browse "http://www.oecd.org/pisa/"}){p_end}
 
 
 {synoptline}
@@ -6421,9 +6435,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Gross domestic savings are calculated as GDP less final consumption expenditure (total consumption). Data are in constant local currency.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
@@ -6445,9 +6459,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Gross domestic income is derived as the sum of GDP and the terms of trade adjustment. Data are in constant 2010 U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
@@ -7065,6 +7079,78 @@
 
 
 {synoptline}
+{marker sourceid_SE.PRM.CMPR.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.PRM.CMPR.FE.ZS:SE.PRM.CMPR.FE.ZS} - Primary completion rate, female (% of relevant age group, DHS/MICS)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Primary completion rate. Female is the total number of female students of any age in the last grade of primary school, minus the number of female repeaters in that grade, divided by the number of female children of official graduation age.{p_end}
+
+{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.PRM.CMPR.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.PRM.CMPR.MA.ZS:SE.PRM.CMPR.MA.ZS} - Primary completion rate, male (% of relevant age group, DHS/MICS)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Primary completion rate. Male is the total number of male students of any age in the last grade of primary school, minus the number of male repeaters in that grade, divided by the number of male children of official graduation age.{p_end}
+
+{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.PRM.CMPR.Q1.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.PRM.CMPR.Q1.ZS:SE.PRM.CMPR.Q1.ZS} - Primary completion rate, poorest quintile (% of relevant age group, DHS/MICS)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Primary completion rate. Quintile 1 (lowest) is the total number of quintile 1 students of any age in the last grade of primary school, minus the number of quintile 1 repeaters in that grade, divided by the number of quintile 1 children of off{p_end}
+
+{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.PRM.CMPR.Q5.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.PRM.CMPR.Q5.ZS:SE.PRM.CMPR.Q5.ZS} - Primary completion rate, richest quintile (% of relevant age group, DHS/MICS)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Primary completion rate. Quintile 5 (highest) is the total number of quintile 5 students of any age in the last grade of primary school, minus the number of quintile 5 repeaters in that grade, divided by the number of quintile 5 children of of{p_end}
+
+{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.PRM.CMPR.RU.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.PRM.CMPR.RU.ZS:SE.PRM.CMPR.RU.ZS} - Primary completion rate, rural (% of relevant age group, DHS/MICS)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Primary completion rate. Rural is the total number of rural students of any age in the last grade of primary school, minus the number of rural repeaters in that grade, divided by the number of rural children of official graduation age.{p_end}
+
+{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.PRM.CMPR.UR.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.PRM.CMPR.UR.ZS:SE.PRM.CMPR.UR.ZS} - Primary completion rate, urban (% of relevant age group, DHS/MICS)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Primary completion rate. Urban is the total number of urban students of any age in the last grade of primary school, minus the number of urban repeaters in that grade, divided by the number of urban children of official graduation age.{p_end}
+
+{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
+
+
+{synoptline}
 {marker sourceid_SE.PRM.ENNR.FE}
 {synopt:{bf:{help wbopendata_sourceid##SE.PRM.ENNR.FE:SE.PRM.ENNR.FE} - Primary Schl. Enroll. Ratio, Female}}
 
@@ -7137,6 +7223,30 @@
 
 
 {synoptline}
+{marker sourceid_SE.PRM.UNER.Q1.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.PRM.UNER.Q1.ZS:SE.PRM.UNER.Q1.ZS} - Children out of school, primary, poorest quintile (% of relevant age group, DHS/MICS)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 1 (lowest) is the number of quintile 1 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 1 children of t{p_end}
+
+{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.PRM.UNER.Q5.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.PRM.UNER.Q5.ZS:SE.PRM.UNER.Q5.ZS} - Children out of school, primary, richest quintile (% of relevant age group, DHS/MICS)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 5 (highest) is the number of quintile 5 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 5 children of{p_end}
+
+{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
+
+
+{synoptline}
 {marker sourceid_SE.SCH.EFIC.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SE.SCH.EFIC.ZS:SE.SCH.EFIC.ZS} - Education coefficient of efficiency (ideal years to graduate as % of actual)}}
 
@@ -7179,9 +7289,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Repeaters in secondary school are the number of students enrolled in the same grade as in the previous year, as a percentage of all students enrolled in secondary school.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
 
 
 {synoptline}
@@ -7191,9 +7301,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Repeaters in secondary school are the number of students enrolled in the same grade as in the previous year, as a percentage of all students enrolled in secondary school.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
 
 
 {synoptline}
@@ -7203,9 +7313,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Repeaters in secondary school are the number of students enrolled in the same grade as in the previous year, as a percentage of all students enrolled in secondary school.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
 
 
 {synoptline}
@@ -7362,7 +7472,7 @@
 
 {synopt:{opt Source Notes}}All staff (teacher and non-teachers) compensation is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and ot{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -7375,7 +7485,7 @@
 
 {synopt:{opt Source Notes}}All staff (teacher and non-teachers) compensation is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and ot{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -7388,7 +7498,7 @@
 
 {synopt:{opt Source Notes}}All staff (teacher and non-teachers) compensation is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and ot{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -7401,7 +7511,7 @@
 
 {synopt:{opt Source Notes}}All staff (teacher and non-teachers) compensation is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and ot{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -7447,9 +7557,33 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Public expenditure on education consists of current and capital government spending on educational institutions (both public and private), education administration as well as subsidies for private entities (students/households and other privat{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.YRS.SCHL.1519.Q1}
+{synopt:{bf:{help wbopendata_sourceid##SE.YRS.SCHL.1519.Q1:SE.YRS.SCHL.1519.Q1} - Average years of schooling, poorest quintile (ages 15-19, DHS/MICS)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 1 (lowest) is the number of years of formal schooling received, on average, by the quintile 1 population of the given age group.{p_end}
+
+{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.YRS.SCHL.1519.Q5}
+{synopt:{bf:{help wbopendata_sourceid##SE.YRS.SCHL.1519.Q5:SE.YRS.SCHL.1519.Q5} - Average years of schooling, richest quintile (ages 15-19, DHS/MICS)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 5 (highest) is the number of years of formal schooling received, on average, by the quintile 5 population of the given age group.{p_end}
+
+{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
 
 
 {synoptline}
@@ -7699,9 +7833,74 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Female legislators, senior officials and managers (% of total) refers to the share of legislators, senior officials and managers who are female.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}ILO Key Indicators of the Labour Market (KILM).{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.JOB.NOPN.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.JOB.NOPN.EQ:SG.JOB.NOPN.EQ} - Nonpregnant and nonnursing women can do the same jobs as men (1=yes; 0=no)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Non-pregnant and non-nursing women can do the same jobs as men indicates whether there are specific jobs that women explicitly or implicitly cannot perform except in limited circumstances. Both partial and full restrictions on women’s work a{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.LAW.CHMR}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.CHMR:SG.LAW.CHMR} - Law prohibits or invalidates child or early marriage (1=yes; 0=no)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Law prohibits or invalidates child or early marriage is whether there are provisions that prevent the marriage of girls, boys, or both before they reach the legal age of marriage or the age of marriage with consent, including, for example, a p{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.LAW.LEVE.PU}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.LEVE.PU:SG.LAW.LEVE.PU} - Law mandates paid or unpaid maternity leave (1=yes; 0=no)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Law mandates paid or unpaid maternity leave is whether there is a law mandating paid or unpaid maternity leave available only to the mother. Provisions for circumstantial leave by which an employee is entitled to a certain number of days of pa{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.MMR.LEVE.EP}
+{synopt:{bf:{help wbopendata_sourceid##SG.MMR.LEVE.EP:SG.MMR.LEVE.EP} - Mothers are guaranteed an equivalent position after maternity leave (1=yes; 0=no)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Mothers are guaranteed an equivalent position after maternity leave is whether employers of women returning from maternity leave are legally obligated to provide them with an equivalent position after maternity leave. It takes into account pai{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.NOD.CONS}
+{synopt:{bf:{help wbopendata_sourceid##SG.NOD.CONS:SG.NOD.CONS} - Nondiscrimination clause mentions gender in the constitution (1=yes; 0=no)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Nondiscrimination clause mentions gender in the constitution is whether there is a nondiscrimination clause in the constitution which mentions gender. For the answer to be “Yes,” the constitution must use either the word discrimination or{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
 
 
 {synoptline}
@@ -7711,9 +7910,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Spousal physical or sexual violence is the percentage of ever-married women aged 15-49 who have experienced physical or sexual violence in the last 12 months committed by their husband or partner.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
 
 {synoptline}
@@ -7723,9 +7922,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Inpatient admission rate is the percentage of the population admitted to hospitals during a year.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}WHO, OECD and supplemented by country data.{p_end}
 
 
 {synoptline}
@@ -7734,7 +7933,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source, rural, refers to the percentage of the rural population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located{p_end}
 
@@ -7760,7 +7959,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source refers to the percentage of the population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the use{p_end}
 
@@ -7785,7 +7984,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malaria incidence is expressed as the number of new cases of malaria per 100,000 people each year. The number of cases reported is adjusted to take into account incompleteness in reporting systems, patients seeking treatment in the private sec{p_end}
 
@@ -7810,7 +8009,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
 {synopt:{opt Source Notes}}Access to improved sanitation facilities refers to the percentage of the population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include{p_end}
 
@@ -7850,9 +8049,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Children with acute respiratory infection (ARI) refers to the percentage of children under age five with ARI in the last two weeks.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
 
 
 {synoptline}
@@ -7862,9 +8061,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Diarrhea prevalence is the percentage of children under age five who had diarrhea in the two weeks prior to the survey.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}United Nations Children's Fund, Demographic and Health Surveys, and Multiple Indicator Cluster Surveys.{p_end}
 
 
 {synoptline}
@@ -7874,9 +8073,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}DOTS detection rate is the percentage of estimated new infectious tuberculosis cases detected under the directly observed treatment, short course case detection and treatment strategy.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Tuberculosis Control Report.{p_end}
 
 
 {synoptline}
@@ -7889,7 +8088,7 @@
 
 {synopt:{opt Source Notes}}Number of people pushed below the 50% median consumption poverty line by out-of-pocket health care expenditure{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017{p_end}
+{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
 
 
 {synoptline}
@@ -7902,7 +8101,7 @@
 
 {synopt:{opt Source Notes}}Proportion of population pushed below the 50% median consumption poverty line by out-of-pocket health care expenditure, expressed as a percentage of a total population of a country{p_end}
 
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017{p_end}
+{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
 
 
 {synoptline}
@@ -8092,9 +8291,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Share of population covered by a survey within five years or reference year (reference year, plus/minus 2 years){p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
 
 
 {synoptline}
@@ -8104,9 +8303,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The share of total global poor population.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
 
 
 {synoptline}
@@ -8120,6 +8319,32 @@
 {synopt:{opt Source Notes}}Poverty gap at $3.10 a day (2011 PPP) is the mean shortfall in income or consumption from the poverty line $3.10 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the de{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+
+
+{synoptline}
+{marker sourceid_SI.POV.RUHC}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.RUHC:SI.POV.RUHC} - Rural poverty headcount ratio at national poverty lines (% of rural population)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+
+{synopt:{opt Source Notes}}Rural poverty headcount ratio is the percentage of the rural population living below the national poverty lines.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
+
+
+{synoptline}
+{marker sourceid_SI.POV.URHC}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.URHC:SI.POV.URHC} - Urban poverty headcount ratio at national poverty lines (% of urban population)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}16 Urban Development{p_end}
+
+{synopt:{opt Source Notes}}Urban poverty headcount ratio is the percentage of the urban population living below the national poverty lines.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
 
 
 {synoptline}
@@ -8144,7 +8369,7 @@
 
 {synopt:{opt Source Notes}}Mean consumption or income per capita (2005 PPP $ per day) used in calculating the growth rate in the welfare aggregate of the bottom 40% of the population in the income distribution in a country.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) circa 2008 - 2013 ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP)  ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
 
 
 {synoptline}
@@ -8157,7 +8382,7 @@
 
 {synopt:{opt Source Notes}}Mean consumption or income per capita (2005 PPP $ per day) used in calculating the growth rate in the welfare aggregate of total population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) circa 2008 - 2013 ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
 
 
 {synoptline}
@@ -8226,7 +8451,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}15 Social Development{p_end}
 
 {synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural secto{p_end}
 
@@ -8240,9 +8465,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}GDP per person employed is presented as an index with base year 2000 = 100. GDP per person employed is gross domestic product (GDP) divided by total employment.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -8251,11 +8476,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Ratio of female to male wages in manufacturing refers to female to male wages and salaries in manufacturing.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour market (KILM).{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
 
 
 {synoptline}
@@ -8292,7 +8517,7 @@
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -8314,7 +8539,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with primary education is the share of the male labor force that attained or completed primary education as the highest level of education.{p_end}
 
@@ -8353,7 +8578,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with secondary education is the share of the male labor force that attained or completed secondary education as the highest level of education.{p_end}
 
@@ -8392,7 +8617,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with tertiary education is the share of the male labor force that attained or completed tertiary education as the highest level of education.{p_end}
 
@@ -8533,7 +8758,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Male unemployment with secondary education is the share of the male unemployed who attained or completed secondary education as the highest level.{p_end}
 
@@ -8546,7 +8771,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Female unemployment with tertiary education is the share of the female unemployed who attained or completed tertiary education as the highest level.{p_end}
 
@@ -8572,7 +8797,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Emigration rate of tertiary educated shows the stock of emigrants ages 25 and older, residing in an OECD country other than that in which they were born, with at least one year of tertiary education as a percentage of the population age 25 and{p_end}
 
@@ -9117,9 +9342,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Merchandise imports show the c.i.f. value of goods received from the rest of the world valued in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
 
 
 {synoptline}
@@ -9477,9 +9702,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Merchandise exports show the f.o.b. value of goods provided to the rest of the world valued in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
 
 
 {synoptline}
@@ -9492,6 +9717,18 @@
 {synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_TX.VAL.MRCH.HI.CD}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.HI.CD:TX.VAL.MRCH.HI.CD} - Merchandise exports to high-income economies (current US$)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Merchandise exports to high-income economies are the sum of merchandise exports from the reporting economy to high-income economies according to the World Bank classification of economies. Data are in current U.S. dollars. Data are computed on{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
 
 {synoptline}
@@ -9528,6 +9765,102 @@
 {synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_TX.VAL.MRCH.OR.CD}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.OR.CD:TX.VAL.MRCH.OR.CD} - Merchandise exports to low- and middle-income economies outside region (current US$)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies outside region are the sum of merchandise exports from the reporting economy to other low- and middle-income economies in other World Bank regions according to the World Bank classificati{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
+
+
+{synoptline}
+{marker sourceid_TX.VAL.MRCH.R1.CD}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.R1.CD:TX.VAL.MRCH.R1.CD} - Merchandise exports to low- and middle-income economies in East Asia &amp; Pacific (current US$)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in East Asia and Pacific are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the East Asia and Pacific region according to World Bank clas{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
+
+
+{synoptline}
+{marker sourceid_TX.VAL.MRCH.R2.CD}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.R2.CD:TX.VAL.MRCH.R2.CD} - Merchandise exports to low- and middle-income economies in Europe &amp; Central Asia (current US$)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Europe and Central Asia are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Europe and Central Asia region according to World Bank{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
+
+
+{synoptline}
+{marker sourceid_TX.VAL.MRCH.R3.CD}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.R3.CD:TX.VAL.MRCH.R3.CD} - Merchandise exports to low- and middle-income economies in Latin America &amp; the Caribbean (current US$)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Latin America and the Caribbean are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Latin America and the Caribbean region accordin{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
+
+
+{synoptline}
+{marker sourceid_TX.VAL.MRCH.R4.CD}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.R4.CD:TX.VAL.MRCH.R4.CD} - Merchandise exports to low- and middle-income economies in Middle East &amp; North Africa (current US$)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Middle East and North Africa are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Middle East and North Africa region according to W{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
+
+
+{synoptline}
+{marker sourceid_TX.VAL.MRCH.R5.CD}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.R5.CD:TX.VAL.MRCH.R5.CD} - Merchandise exports to low- and middle-income economies in South Asia (current US$)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in South Asia are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the South Asia region according to World Bank classification of economie{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
+
+
+{synoptline}
+{marker sourceid_TX.VAL.MRCH.R6.CD}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.R6.CD:TX.VAL.MRCH.R6.CD} - Merchandise exports to low- and middle-income economies in Sub-Saharan Africa (current US$)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Sub-Saharan Africa are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Sub-Saharan Africa region according to World Bank classifica{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
+
+
+{synoptline}
+{marker sourceid_TX.VAL.MRCH.WR.CD}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.WR.CD:TX.VAL.MRCH.WR.CD} - Merchandise exports to low- and middle-income economies within region (current US$)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies within region are the sum of merchandise exports from the reporting economy to other low- and middle-income economies in the same World Bank region. Data are in current U.S. dollars. Data{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
 
 {synoptline}
@@ -9777,9 +10110,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UN Office on Drugs and Crime's International Homicide Statistics database.{p_end}
 
 
 {synoptline}
@@ -9789,9 +10122,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UN Office on Drugs and Crime's International Homicide Statistics database.{p_end}
 
 
 {synoptline}
@@ -9801,9 +10134,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UN Office on Drugs and Crime's International Homicide Statistics database.{p_end}
 
 
 {synoptline}
@@ -9813,9 +10146,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}UN Office on Drugs and Crime's International Homicide Statistics database.{p_end}
 
 
 {synoptline}
@@ -9826,9 +10159,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or receiving wages, g{p_end}
+{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -9837,11 +10170,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or receiving wages, g{p_end}
+{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -9850,11 +10183,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or receiving wages, g{p_end}
+{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -9865,9 +10198,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or receiving wages, g{p_end}
+{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -9878,9 +10211,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or receiving wages, g{p_end}
+{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -9891,9 +10224,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (% age 15+). [ts: data are availabl{p_end}
+{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -9904,9 +10237,9 @@
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (male, % age 15+). [ts: data are av{p_end}
+{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -9917,9 +10250,9 @@
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (female, % age 15+). [ts: data are{p_end}
+{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -9930,9 +10263,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (income, poorest 40%, % age 15+). [{p_end}
+{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -9943,9 +10276,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (income, richest 60%, % age 15+). [{p_end}
+{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -10210,4 +10543,4 @@
 
 
 
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
