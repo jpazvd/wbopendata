@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -41,6 +41,7 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 40}}  {help wbopendata_sourceid_indicators40##sourceid_40:Population estimates and projections}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
+{synopt:{opt 43}}  {help wbopendata_sourceid_indicators43##sourceid_43:Adjusted Net Savings}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
 {synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
@@ -60,6 +61,7 @@
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
+{synopt:{opt 78}}  {help wbopendata_sourceid_indicators78##sourceid_78:ICP 2017}{p_end}
 
 
 {marker sourceid_14}
@@ -73,10 +75,11 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Number of female directors is the number of female individuals who conduct the affairs of newly registered limited liability companies in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -85,10 +88,11 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Share of female directors is the proportion of female directors of newly registered limited liability companies out of the total number of directors of newly registered limited liability companies in the economy in the calendar year. A  direct{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -97,10 +101,11 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Number of female directors is the number of female individuals who conduct the affairs of newly registered limited liability companies in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -109,10 +114,11 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Share of male directors is the proportion of male directors of newly registered limited liability companies out of the total number of directors of newly registered limited liability companies in the economy in the calendar year. A  director i{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -121,10 +127,11 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Number of female business owners is the number of female individuals that own at least one share of a limited liability company that was newly registered in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -133,10 +140,11 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Share of female business is the proportion of female newly registered limited liability company owners out of the total number of newly registered limited liability company owners in the economy in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -145,10 +153,11 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Number of female business owners is the number of male individuals that own at least one share of a limited liability company that was newly registered in the calendar  year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -157,10 +166,11 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Share of female business is the proportion of male newly registered limited liability company owners out of the total number of newly registered limited liability company owners in the economy in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -169,10 +179,11 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Number of female sole proprietors is the number of newly registered sole proprietors owned by female individuals in the calendar year. A sole proprietorship is a business entity owned and managed by a single individual who is indistinguishable{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -181,10 +192,11 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Share of female sole proprietors is the proportion of female newly registered sole proprietors out of the total number of newly registered sole proprietors in the economy in the calendar year. A sole proprietorship is a business entity owned a{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -193,10 +205,11 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Number of male sole proprietors is the number of newly registered sole proprietors owned by female individuals in the calendar year.  A sole proprietorship is a business entity owned and managed by a single individual who is indistinguishable{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -205,10 +218,11 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Share of female sole proprietors is the proportion of male newly registered sole proprietors out of the total number of newly registered sole proprietors in the economy in the calendar year. A sole proprietorship is a business entity owned and{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -217,10 +231,180 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
+{synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SG.ABS.PENB}
+{synopt:{bf:{help wbopendata_sourceid##SG.ABS.PENB:SG.ABS.PENB} - There are periods of absence due to child care accounted for in pension benefits (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether pension contributions are paid or credited during maternity or parental leave, or the leave period is considered a qualifying period of employment used for the purpose of calculating pension benefits; or there ar{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.AGE.FUPN.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.AGE.FUPN.EQ:SG.AGE.FUPN.EQ} - The ages at which men and women can retire with full pension benefits are equal (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether the statutory age at which men and women can retire and receive an irrevocable minimum old-age pension is the same. If transitional provisions gradually increase, decrease or equalize the statutory retirement age{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.AGE.MRET.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.AGE.MRET.EQ:SG.AGE.MRET.EQ} - The mandatory retirement age for men and women are equal (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether the relative ages at which men and women must cease employment or can be terminated by their employer are equal.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.AGE.PAPN.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.AGE.PAPN.EQ:SG.AGE.PAPN.EQ} - The ages at which men and women can retire with partial pension benefits are equal (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether the age at which men and women can retire and receive partial pension benefits is the same, or if the age at which men and women can retire and receive partial benefits is not mandated. Partial pension benefits r{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.AGE.RTRE.FE}
+{synopt:{bf:{help wbopendata_sourceid##SG.AGE.RTRE.FE:SG.AGE.RTRE.FE} - Mandatory retirement age, female}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator represents the actual age at which women are required to retire, or employers can terminate a contract, according to the applicable legislation.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.AGE.RTRE.FL.FE}
+{synopt:{bf:{help wbopendata_sourceid##SG.AGE.RTRE.FL.FE:SG.AGE.RTRE.FL.FE} - Retirement age with full benefits, female}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator represents the actual age at which women can retire with full pension benefits, according to the applicable legislation.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.AGE.RTRE.FL.MA}
+{synopt:{bf:{help wbopendata_sourceid##SG.AGE.RTRE.FL.MA:SG.AGE.RTRE.FL.MA} - Retirement age with full benefits, male}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator represents the actual age at which men can retire with full pension benefits, according to the applicable legislation.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.AGE.RTRE.MA}
+{synopt:{bf:{help wbopendata_sourceid##SG.AGE.RTRE.MA:SG.AGE.RTRE.MA} - Mandatory retirement age, male}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator represents the actual age at which men are required to retire, or employers can terminate a contract, according to the applicable legislation.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.AGE.RTRE.PL.FE}
+{synopt:{bf:{help wbopendata_sourceid##SG.AGE.RTRE.PL.FE:SG.AGE.RTRE.PL.FE} - Retirement age with partial benefits, female}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator represents the actual age at which women can retire with partial pension benefits, according to the applicable legislation.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.AGE.RTRE.PL.MA}
+{synopt:{bf:{help wbopendata_sourceid##SG.AGE.RTRE.PL.MA:SG.AGE.RTRE.PL.MA} - Retirement age with partial benefits, male}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator represents the actual age at which men can retire with partial pension benefits, according to the applicable legislation.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.APL.PSPT.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.APL.PSPT.EQ:SG.APL.PSPT.EQ} - A woman can apply for a passport in the same way as a man (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether there are differences in passport application procedures between men and women.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.BUS.REGT.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.BUS.REGT.EQ:SG.BUS.REGT.EQ} - A woman can register a business in the same way as a man (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether there are restrictions on a woman registering a business (i.e. if a woman needs her husband’s or guardian’s permission, signature or consent to register a business; or the registration process at any stage re{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.CNT.SIGN.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.CNT.SIGN.EQ:SG.CNT.SIGN.EQ} - A woman can sign a contract in the same way as a man (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether a woman obtains full legal capacity upon reaching the age of majority and there are no restrictions on her signing legally binding contracts.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
@@ -367,15 +551,16 @@
 
 
 {synoptline}
-{marker sourceid_SG.CRT.TSTM.WT}
-{synopt:{bf:{help wbopendata_sourceid##SG.CRT.TSTM.WT:SG.CRT.TSTM.WT} - Woman's testimony carries the same evidentiary weight in court as a man's (1=yes; 0=no)}}
+{marker sourceid_SG.CTR.TRVL.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.CTR.TRVL.EQ:SG.CTR.TRVL.EQ} - A woman can travel outside the country in the same way as a man (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
+{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Woman's testimony carries the same evidentiary weight in court as a man's is whether the law differentiates between the evidentiary value of a woman’s testimony in a court and that of a man. It covers all types of court cases.{p_end}
+{synopt:{opt Source Notes}}The indicator measures whether there are restrictions on a woman traveling alone internationally.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
@@ -652,6 +837,32 @@
 
 
 {synoptline}
+{marker sourceid_SG.DML.PRGW}
+{synopt:{bf:{help wbopendata_sourceid##SG.DML.PRGW:SG.DML.PRGW} - Dismissal of pregnant workers is prohibited (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether the law explicitly prohibits the dismissal of pregnant women, if pregnancy cannot serve as grounds for termination of a contract or if dismissal of pregnant workers is considered a form of unlawful termination, u{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.DNG.WORK.DN.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.DNG.WORK.DN.EQ:SG.DNG.WORK.DN.EQ} - Women can work in jobs deemed dangerous in the same way as men (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether there are laws that prohibit or restrict nonpregnant and non-nursing women from working in a broad and subjective category of jobs deemed “hazardous,” “arduous” or “morally inappropriate.”{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
 {marker sourceid_SG.GEN.MNST.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.GEN.MNST.ZS:SG.GEN.MNST.ZS} - Proportion of women in ministerial level positions (%)}}
 
@@ -675,6 +886,19 @@
 {synopt:{opt Source Notes}}Female professional and technical workers refers to the share of professionals and technical workers who are female. Women's share of positions are defined according to the International Standard Classification of Occupations (ISCO-88) to incl{p_end}
 
 {synopt:{opt Source Organization}}Gender, Institutions and Development Database, Organization for Economic Co-operation and Development (OECD), web site: {browse "http://www.oecd.org/document/16/0,3343,en_2649_33935_39323280_1_1_1_1,00.html"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.GET.JOBS.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.GET.JOBS.EQ:SG.GET.JOBS.EQ} - A woman can get a job in the same way as a man (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether there are restrictions on a woman'S legal capacity and ability to work.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
@@ -717,79 +941,224 @@
 
 
 {synoptline}
+{marker sourceid_SG.HLD.HEAD.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.HLD.HEAD.EQ:SG.HLD.HEAD.EQ} - A woman can be head of household in the same way as a man (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether there are restrictions on a woman becoming head of household or head of family.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.HME.TRVL.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.HME.TRVL.EQ:SG.HME.TRVL.EQ} - A woman can travel outside her home in the same way as a man (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether there are restrictions on a woman traveling alone domestically.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.IHT.ASST.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.IHT.ASST.EQ:SG.IHT.ASST.EQ} - Female and male surviving spouses have equal rights to inherit assets (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether both spouses have equal rank and rights to inherit assets when there is no will. For this question, it is assumed that the deceased spouse left no children or any other heirs, other than the surviving spouse.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.IHT.ASST.PT.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.IHT.ASST.PT.EQ:SG.IHT.ASST.PT.EQ} - Sons and daughters have equal rights to inherit assets from their parents (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether there are gender-based differences in the rules of intestate succession for transfer of property from parents to children.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
 {marker sourceid_SG.IND.WORK.EQ}
 {synopt:{bf:{help wbopendata_sourceid##SG.IND.WORK.EQ:SG.IND.WORK.EQ} - Women are able to work in the same industries as men (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
+{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Women are able to work in the same industries as men indicates whether there are no (full or partial) restrictions on women working in mining, construction, manufacturing, energy, water, agriculture and transportation sectors.{p_end}
+{synopt:{opt Source Notes}}The indicator measures whether nonpregnant and non-nursing women can work in the mining, construction, manufacturing, energy, water, agriculture, and transportation industries in the same way as men.{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
 
 
 {synoptline}
-{marker sourceid_SG.LAW.OBHB.MR}
-{synopt:{bf:{help wbopendata_sourceid##SG.LAW.OBHB.MR:SG.LAW.OBHB.MR} - Married women are required by law to obey their husbands (1=yes; 0=no)}}
+{marker sourceid_SG.LAW.ASST.AR}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.ASST.AR:SG.LAW.ASST.AR} - The law grants spouses equal administrative authority over assets during marriage (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Married women are required by law to obey their husbands is whether there is an explicit provision stating that a married woman must obey her husband, or a provision states that disobedience toward her husband has legal ramifications for the w{p_end}
+{synopt:{opt Source Notes}}The indicator measures whether spouses retain administrative power over those assets each brought to the marriage or acquired during marriage, and their accrued value, without the need for spousal consent; or spouses administer their separate{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Women, Business and the Law.{p_end}
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
-{marker sourceid_SG.LEG.MRRP}
-{synopt:{bf:{help wbopendata_sourceid##SG.LEG.MRRP:SG.LEG.MRRP} - Legislation explicitly criminalizes marital rape (1=yes; 0=no)}}
+{marker sourceid_SG.LAW.CRDD.GR}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.CRDD.GR:SG.LAW.CRDD.GR} - The law prohibits discrimination in access to credit based on gender (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Legislation explicitly criminalizes marital rape is whether there is legislation that explicitly criminalizes the act of marital rape by providing that rape or sexual assault provisions apply “irrespective of the nature of the relationship�{p_end}
+{synopt:{opt Source Notes}}The indicator measures whether the law prohibits discrimination by creditors based on gender or prescribes equal access for both men and women when conducting financial transactions, entrepreneurial activities or receiving financial assistance{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Women, Business and the Law.{p_end}
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
-{marker sourceid_SG.LEG.SXHR}
-{synopt:{bf:{help wbopendata_sourceid##SG.LEG.SXHR:SG.LEG.SXHR} - Legislation specifically addresses sexual harassment (1=yes; 0=no)}}
+{marker sourceid_SG.LAW.EQRM.WK}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.EQRM.WK:SG.LAW.EQRM.WK} - Law mandates equal remuneration for females and males for work of equal value (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Legislation specifically addresses sexual harassment is whether there is a law or specific provisions on sexual harassment; provisions may be general or apply only to employment. Legislation specifically addresses and protects against sexual h{p_end}
+{synopt:{opt Source Notes}}The indicator measures whether there is a law that obligates employers to pay equal remuneration to male and female employees who do work of equal value. “Remuneration” refers to the ordinary, basic or minimum wage or salary and any additi{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Women, Business and the Law.{p_end}
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.LAW.NMCN}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.NMCN:SG.LAW.NMCN} - The law provides for the valuation of nonmonetary contributions (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether there is an explicit legal recognition of such contributions and the law provides for equal or equitable division of the property or the transfer of a lump sum to the stay-at-home spouse based on nonmonetary cont{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.LAW.NODC.HR}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.NODC.HR:SG.LAW.NODC.HR} - Law prohibits discrimination in employment based on gender (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether the law generally prevents or penalizes gender-based discrimination in employment. Laws that mandate equal treatment or equality between women and men in employment are also counted for this question. It is not c{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.LAW.OBHB.MR.NO}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.OBHB.MR.NO:SG.LAW.OBHB.MR.NO} - There is no legal provision that requires a married woman to obey her husband (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether a married woman is legally required to obey her husband.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.LEG.DVAW}
+{synopt:{bf:{help wbopendata_sourceid##SG.LEG.DVAW:SG.LEG.DVAW} - There is legislation specifically addressing domestic violence (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether there is legislation addressing domestic violence that includes criminal sanctions or provides for protection orders for domestic violence, or the legislation addresses harassment that clearly leads to physical o{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
 
 
 {synoptline}
 {marker sourceid_SG.LEG.SXHR.EM}
-{synopt:{bf:{help wbopendata_sourceid##SG.LEG.SXHR.EM:SG.LEG.SXHR.EM} - Legislation exists on sexual harassment in employment (1=yes; 0=no)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Legislation exists on sexual harassment in employment is whether there is a law or provision that specifically protects against sexual harassment in the workplace or in employment, including unwelcome sexual advances, requests for sexual favor{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Women, Business and the Law.{p_end}
-
-
-{synoptline}
-{marker sourceid_SG.OBT.IDCD.MR}
-{synopt:{bf:{help wbopendata_sourceid##SG.OBT.IDCD.MR:SG.OBT.IDCD.MR} - Married women can obtain a national ID card in the same way as married men (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_sourceid##SG.LEG.SXHR.EM:SG.LEG.SXHR.EM} - There is legislation on sexual harassment in employment (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Married women can obtain a national ID card in the same way as married men is equality in the process for obtaining a national identity card by married woman compared to married man. The answer is “Yes” if there are no inequalities in the{p_end}
+{synopt:{opt Source Notes}}The indicator measures whether there is a legal provision or legislation that specifically protects women against sexual harassment in employment, including unwelcome verbal or physical conduct of a sexual nature.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Women, Business and the Law.{p_end}
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.LOC.LIVE.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.LOC.LIVE.EQ:SG.LOC.LIVE.EQ} - A woman can choose where to live in the same way as a man (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether there are restrictions on a woman choosing where to live.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.NGT.WORK.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.NGT.WORK.EQ:SG.NGT.WORK.EQ} - Women can work the same night hours as men (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether nonpregnant and nonnursing women are prohibited from working at night or cannot work the same night hours as men. If various sectors of the economy are regulated separately (i.e., no central labor law), it is ass{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.OBT.DVRC.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.OBT.DVRC.EQ:SG.OBT.DVRC.EQ} - A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether the divorce process is equal for women and men or includes additional protections for women, such as prohibiting a husband from initiating divorce proceedings while his wife is pregnant.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.OPN.BANK.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.OPN.BANK.EQ:SG.OPN.BANK.EQ} - A woman can open a bank account in the same way as a man (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether there are restrictions on a woman opening a bank account (i.e. a woman has limited legal capacity or is required to provide any additional permission or documentation that is not required of a man; or legal provi{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
@@ -1945,16 +2314,29 @@
 
 
 {synoptline}
-{marker sourceid_SG.OWN.PRRT.MR}
-{synopt:{bf:{help wbopendata_sourceid##SG.OWN.PRRT.MR:SG.OWN.PRRT.MR} - Married men and married women have equal ownership rights to property (1=yes; 0=no)}}
+{marker sourceid_SG.OWN.PRRT.IM}
+{synopt:{bf:{help wbopendata_sourceid##SG.OWN.PRRT.IM:SG.OWN.PRRT.IM} - Men and married women have equal ownership rights to immovable property (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Married men and married women have equal ownership rights to property is whether both married men and married women have the same ownership rights to property. Ownership rights as used here covers the ability to manage, control, administer, ac{p_end}
+{synopt:{opt Source Notes}}The indicator measures whether no legal restriction related to property is applied to women or men based on gender (i.e. if legal restrictions on property ownership are applied based on gender, or if there are gender differences in the legal t{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Women, Business and the Law.{p_end}
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.PEN.SXHR.EM}
+{synopt:{bf:{help wbopendata_sourceid##SG.PEN.SXHR.EM:SG.PEN.SXHR.EM} - Criminal penalties or civil remedies exist for sexual harassment in employment (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether the law establishes criminal sanctions, such as fines or imprisonment, for sexual harassment in employment; if the provision in the criminal code provides for reparation of damages for offenses covered by the cod{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
@@ -1968,6 +2350,45 @@
 {synopt:{opt Source Notes}}Percentage of female migrants out of total international migrant stock. International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees.{p_end}
 
 {synopt:{opt Source Organization}}United Nations Population Division, Trends in International Migrant Stock: 2015 Revision.{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.REG.NLID.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.REG.NLID.FE.ZS:SG.REG.NLID.FE.ZS} - Women with a national identity card or equivalent foundational identity document (% of women ages 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The percentage of women ages 15+ with a national ID or equivalent foundational identity document. (To see the full list of IDs included in the survey by country, visit the Global Findex web page at {browse "https://id4d.worldbank.org/global-dataset.)"}{p_end}
+
+{synopt:{opt Source Organization}}ID4D-Findex Survey ({browse "https://id4d.worldbank.org/global-dataset"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SG.REG.NLID.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.REG.NLID.MA.ZS:SG.REG.NLID.MA.ZS} - Men with a national identity card or equivalent foundational identity document (% of men ages 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The percentage of men ages 15+ with a national ID or equivalent foundational identity document. (To see the full list of IDs included in the survey by country, visit the Global Findex web page at {browse "https://id4d.worldbank.org/global-dataset.)"}{p_end}
+
+{synopt:{opt Source Organization}}ID4D-Findex Survey ({browse "https://id4d.worldbank.org/global-dataset"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SG.REM.RIGT.EQ}
+{synopt:{bf:{help wbopendata_sourceid##SG.REM.RIGT.EQ:SG.REM.RIGT.EQ} - A woman has the same rights to remarry as a man (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether women and men have an equal right to remarry.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
@@ -2952,28 +3373,119 @@
 
 {synoptline}
 {marker sourceid_SH.MMR.LEVE}
-{synopt:{bf:{help wbopendata_sourceid##SH.MMR.LEVE:SH.MMR.LEVE} - Maternity leave (days paid)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.MMR.LEVE:SH.MMR.LEVE} - Length of paid maternity leave (days)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Maternity leave is the mandatory minimum number of calendar days that legally must be paid by the government, the employer or both. It refers to leave related to the birth of a child that is only available to the mother; it does not cover pare{p_end}
+{synopt:{opt Source Notes}}The indicator represents the duration of paid leave available to mothers.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Women, Business and the Law.{p_end}
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
 
 
 {synoptline}
-{marker sourceid_SH.MMR.WAGE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.MMR.WAGE.ZS:SH.MMR.WAGE.ZS} - Maternity leave benefits (% of wages paid)}}
+{marker sourceid_SH.MMR.LEVE.AL}
+{synopt:{bf:{help wbopendata_sourceid##SH.MMR.LEVE.AL:SH.MMR.LEVE.AL} - Paid leave of at least 14 weeks is available to women (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Maternity leave benefits refers to the total percentage of wages covered by all sources during paid maternity leave.{p_end}
+{synopt:{opt Source Notes}}The indicator measures whether women are legally entitled to at least 14 weeks (98 calendar days) of paid leave for the birth of a child through maternity leave, parental leave or a combination of both.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Women, Business and the Law.{p_end}
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.MMR.LEVE.GT}
+{synopt:{bf:{help wbopendata_sourceid##SH.MMR.LEVE.GT:SH.MMR.LEVE.GT} - The government administers 100% of maternity leave benefits (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether leave benefits are fully administered by a government entity, including compulsory social insurance schemes (such as social security), public funds, government-mandated private insurance or employer reimbursement{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.PAR.LEVE}
+{synopt:{bf:{help wbopendata_sourceid##SH.PAR.LEVE:SH.PAR.LEVE} - Length of paid shared parental leave (days)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator represents the duration of paid parental leave for the mother or the father.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.PAR.LEVE.AL}
+{synopt:{bf:{help wbopendata_sourceid##SH.PAR.LEVE.AL:SH.PAR.LEVE.AL} - There is paid parental leave (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether both parents are legally entitled to some form of full-time paid parental leave either shared between mother and father or as an individual entitlement that each can take regardless of the other.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.PAR.LEVE.FE}
+{synopt:{bf:{help wbopendata_sourceid##SH.PAR.LEVE.FE:SH.PAR.LEVE.FE} - Length of paid parental leave for mother (days)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator represents the duration of paid parental leave for the mother.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.PAR.LEVE.MA}
+{synopt:{bf:{help wbopendata_sourceid##SH.PAR.LEVE.MA:SH.PAR.LEVE.MA} - Length of paid parental leave for father (days)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator represents the duration of paid parental leave for the father.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.PTR.LEVE}
+{synopt:{bf:{help wbopendata_sourceid##SH.PTR.LEVE:SH.PTR.LEVE} - Length of paid paternity leave (days)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator represents the duration of paid leave available to fathers.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.PTR.LEVE.AL}
+{synopt:{bf:{help wbopendata_sourceid##SH.PTR.LEVE.AL:SH.PTR.LEVE.AL} - Paid leave is available to fathers (1=yes; 0=no)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator measures whether fathers are legally entitled to at least one day of paid leave for the birth of a child, or if the law reserves a portion of paid parental leave specifically for fathers—that is, through “use-it-or-lose-it”{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
@@ -3245,4 +3757,4 @@
 
 
 
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}

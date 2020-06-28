@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -399,7 +399,7 @@
 
 {synopt:{opt Source Notes}}Access to non-solid fuel, rural is the percentage of rural population with access to non-solid fuel.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for all (SE4ALL) database from WHO Global Household Energy database.{p_end}
+{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from WHO Global Household Energy database.{p_end}
 
 
 {synoptline}
@@ -562,7 +562,7 @@
 {marker topicid_SI.POV.RUHC}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.RUHC:SI.POV.RUHC} - Rural poverty headcount ratio at national poverty lines (% of rural population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
@@ -640,7 +640,7 @@
 {marker topicid_SP.RUR.TOTL.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.RUR.TOTL.ZS:SP.RUR.TOTL.ZS} - Rural population (% of total population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
@@ -676,4 +676,4 @@
 
 
 
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1626,15 +1626,15 @@
 
 {synoptline}
 {marker topicid_SL.GDP.PCAP.EM.KD}
-{synopt:{bf:{help wbopendata_topicid##SL.GDP.PCAP.EM.KD:SL.GDP.PCAP.EM.KD} - GDP per person employed (constant 2011 PPP $)}}
+{synopt:{bf:{help wbopendata_topicid##SL.GDP.PCAP.EM.KD:SL.GDP.PCAP.EM.KD} - GDP per person employed (constant 2017 PPP $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}GDP per person employed is gross domestic product (GDP) divided by total employment in the economy. Purchasing power parity (PPP) GDP is GDP converted to 2011 constant international dollars using PPP rates. An international dollar has the same{p_end}
+{synopt:{opt Source Notes}}GDP per person employed is gross domestic product (GDP) divided by total employment in the economy. Purchasing power parity (PPP) GDP is GDP converted to 2017 constant international dollars using PPP rates. An international dollar has the same{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -1764,7 +1764,7 @@
 
 {synopt:{opt Source Notes}}Ratio of female to male wages in manufacturing refers to female to male wages and salaries in manufacturing.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour market (KILM).{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
 
 
 {synoptline}
@@ -2518,7 +2518,7 @@
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
 
 
 {synoptline}
@@ -28821,4 +28821,4 @@
 
 
 
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}

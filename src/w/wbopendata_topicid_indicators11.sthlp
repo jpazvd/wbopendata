@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1508,6 +1508,19 @@
 
 
 {synoptline}
+{marker topicid_SI.DST.50MD}
+{synopt:{bf:{help wbopendata_topicid##SI.DST.50MD:SI.DST.50MD} - Proportion of people living below 50 percent of median income (%)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}11 Poverty{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people in the population who live in households whose per capita income or consumption is below half of the median income or consumption per capita. The median is measured at 2011 Purchasing Power Parity (PPP) using PovcalNet{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from EU-SILC or the Luxembourg Income{p_end}
+
+
+{synoptline}
 {marker topicid_SI.DST.FRST.10}
 {synopt:{bf:{help wbopendata_topicid##SI.DST.FRST.10:SI.DST.FRST.10} - Income share held by lowest 10%}}
 
@@ -1625,6 +1638,110 @@
 
 
 {synoptline}
+{marker topicid_SI.POV.MDIM}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.MDIM:SI.POV.MDIM} - Multidimensional poverty headcount ratio (% of total population)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}11 Poverty{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people who are multidimensionally poor{p_end}
+
+{synopt:{opt Source Organization}}Government statistical agencies. Data for EU countires are from the EUROSTAT{p_end}
+
+
+{synoptline}
+{marker topicid_SI.POV.MDIM.17}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.MDIM.17:SI.POV.MDIM.17} - Multidimensional poverty headcount ratio, children (% of population ages 0-17)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}11 Poverty{p_end}
+
+{synopt:{opt Source Notes}}The percentage of children who are multidimensionally poor{p_end}
+
+{synopt:{opt Source Organization}}Government statistical agencies. Data for EU countires are from the EUROSTAT{p_end}
+
+
+{synoptline}
+{marker topicid_SI.POV.MDIM.17.XQ}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.MDIM.17.XQ:SI.POV.MDIM.17.XQ} - Multidimensional poverty index, children (population ages 0-17) (scale 0-1)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}11 Poverty{p_end}
+
+{synopt:{opt Source Notes}}Proportion of the child population that is multidimensionally poor adjusted by the intensity of the deprivations{p_end}
+
+{synopt:{opt Source Organization}}Government statistical agencies. Data for EU countires are from the EUROSTAT{p_end}
+
+
+{synoptline}
+{marker topicid_SI.POV.MDIM.FE}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.MDIM.FE:SI.POV.MDIM.FE} - Multidimensional poverty headcount ratio, female (% of female population)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}11 Poverty{p_end}
+
+{synopt:{opt Source Notes}}The percentage of female population who are multidimensionally poor{p_end}
+
+{synopt:{opt Source Organization}}Government statistical agencies. Data for EU countires are from the EUROSTAT{p_end}
+
+
+{synoptline}
+{marker topicid_SI.POV.MDIM.HH}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.MDIM.HH:SI.POV.MDIM.HH} - Multidimensional poverty headcount ratio, household (% of total households)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}11 Poverty{p_end}
+
+{synopt:{opt Source Notes}}The percentage of households who are multidimensionally poor{p_end}
+
+{synopt:{opt Source Organization}}Government statistical agencies. Data for EU countires are from the EUROSTAT{p_end}
+
+
+{synoptline}
+{marker topicid_SI.POV.MDIM.IT}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.MDIM.IT:SI.POV.MDIM.IT} - Multidimensional poverty intensity (average share of deprivations experienced by the poor)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}11 Poverty{p_end}
+
+{synopt:{opt Source Notes}}The average percentage of dimensions in which poor people are deprived{p_end}
+
+{synopt:{opt Source Organization}}Government statistical agencies. Data for EU countires are from the EUROSTAT{p_end}
+
+
+{synoptline}
+{marker topicid_SI.POV.MDIM.MA}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.MDIM.MA:SI.POV.MDIM.MA} - Multidimensional poverty headcount ratio, male (% of male population)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}11 Poverty{p_end}
+
+{synopt:{opt Source Notes}}The percentage of male population who are multidimensionally poor{p_end}
+
+{synopt:{opt Source Organization}}Government statistical agencies. Data for EU countires are from the EUROSTAT{p_end}
+
+
+{synoptline}
+{marker topicid_SI.POV.MDIM.XQ}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.MDIM.XQ:SI.POV.MDIM.XQ} - Multidimensional poverty index (scale 0-1)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}11 Poverty{p_end}
+
+{synopt:{opt Source Notes}}Proportion of the population that is multidimensionally poor adjusted by the intensity of the deprivations{p_end}
+
+{synopt:{opt Source Organization}}Government statistical agencies. Data for EU countires are from the EUROSTAT{p_end}
+
+
+{synoptline}
 {marker topicid_SI.POV.NAGP}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.NAGP:SI.POV.NAGP} - Poverty gap at national poverty lines (%)}}
 
@@ -1667,7 +1784,7 @@
 {marker topicid_SI.POV.RUHC}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.RUHC:SI.POV.RUHC} - Rural poverty headcount ratio at national poverty lines (% of rural population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1719,7 +1836,7 @@
 {marker topicid_SI.POV.URHC}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.URHC:SI.POV.URHC} - Urban poverty headcount ratio at national poverty lines (% of urban population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1751,7 +1868,7 @@
 
 {synopt:{opt Source Notes}}Mean consumption or income per capita (2005 PPP $ per day) used in calculating the growth rate in the welfare aggregate of the bottom 40% of the population in the income distribution in a country.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) circa 2008 - 2013 ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP)  ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
 
 
 {synoptline}
@@ -1790,7 +1907,7 @@
 
 {synopt:{opt Source Notes}}Mean consumption or income per capita (2005 PPP $ per day) used in calculating the growth rate in the welfare aggregate of total population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) circa 2008 - 2013 ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
 
 
 {synoptline}
@@ -1807,4 +1924,4 @@
 
 
 
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}

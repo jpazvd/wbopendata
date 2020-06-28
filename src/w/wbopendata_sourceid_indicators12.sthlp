@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -41,6 +41,7 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 40}}  {help wbopendata_sourceid_indicators40##sourceid_40:Population estimates and projections}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
+{synopt:{opt 43}}  {help wbopendata_sourceid_indicators43##sourceid_43:Adjusted Net Savings}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
 {synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
@@ -60,6 +61,7 @@
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
+{synopt:{opt 78}}  {help wbopendata_sourceid_indicators78##sourceid_78:ICP 2017}{p_end}
 
 
 {marker sourceid_12}
@@ -28129,9 +28131,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in Agriculture, Forestry, Fisheries and Veterinary expressed as a percentage of the total number of tertiary graduates in Agriculture, Forestry, Fisheries and Veterinary.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -28142,9 +28144,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in education expressed as a percentage of the total number of tertiary graduates in education.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -28155,9 +28157,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in engineering, manufacturing and construction expressed as a percentage of the total number of tertiary graduates in engineering, manufacturing and construction.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -28168,9 +28170,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in health and welfare expressed as a percentage of the total number of tertiary graduates in health and welfare.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -28181,9 +28183,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in humanities and arts expressed as a percentage of the total number of tertiary graduates in humanities and arts.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -28194,9 +28196,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in unspecified programmes expressed as a percentage of the total number of graduates in unspecified tertiary programmes.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -28207,9 +28209,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in Natural Sciences, Mathematics and Statistics expressed as a percentage of the total number of tertiary graduates in Natural Sciences, Mathematics and Statistics.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -28220,9 +28222,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in Social Sciences, Journalism and Information expressed as a percentage of the total number of tertiary graduates in Social Sciences, Journalism and Information.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -28233,9 +28235,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates from services programmes expressed as a percentage of the total number of tertiary graduates from services programmes.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -34488,10 +34490,11 @@
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
+{synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in Business, Administration and Law expressed as a percentage of the total number of tertiary graduates in Business, Administration and Law.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -34512,10 +34515,11 @@
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
+{synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in Information and Communication Technologies expressed as a percentage of the total number of tertiary graduates in Information and Communication Technologies.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -34524,10 +34528,11 @@
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
+{synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in fields other than Science, Technology, Engineering and Mathematics expressed as a percentage of the total number of tertiary graduates in those fields. For more information, consult the UNESCO Institute for Statis{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -35458,6 +35463,30 @@
 
 
 {synoptline}
+{marker sourceid_UIS.GER.0}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GER.0:UIS.GER.0} - Gross enrolment ratio, early childhood education, both sexes (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GER.0.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GER.0.F:UIS.GER.0.F} - Gross enrolment ratio, early childhood education, female (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_UIS.GER.0.GPI}
 {synopt:{bf:{help wbopendata_sourceid##UIS.GER.0.GPI:UIS.GER.0.GPI} - Gross enrolment ratio, pre-primary, gender parity index (GPI)}}
 
@@ -35468,6 +35497,78 @@
 {synopt:{opt Source Notes}}Ratio of female gross enrolment ratio for pre-primary to male gross enrolment ratio for pre-primary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GER.0.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GER.0.M:UIS.GER.0.M} - Gross enrolment ratio, early childhood education, male (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GER.01}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GER.01:UIS.GER.01} - Gross enrolment ratio, early childhood educational development programmes, both sexes (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GER.01.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GER.01.F:UIS.GER.01.F} - Gross enrolment ratio, early childhood educational development programmes, female (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GER.01.GPI}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GER.01.GPI:UIS.GER.01.GPI} - Gross enrolment ratio, early childhood educational development programmes, gender parity index (GPI)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GER.01.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GER.01.M:UIS.GER.01.M} - Gross enrolment ratio, early childhood educational development programmes, male (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GER.02.GPI}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GER.02.GPI:UIS.GER.02.GPI} - Gross enrolment ratio, pre-primary, gender parity index (GPI)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -41237,54 +41338,51 @@
 
 
 {synoptline}
-{marker sourceid_UIS.SLE.0}
-{synopt:{bf:{help wbopendata_sourceid##UIS.SLE.0:UIS.SLE.0} - School life expectancy, pre-primary, both sexes (years)}}
+{marker sourceid_UIS.SLE.02}
+{synopt:{bf:{help wbopendata_sourceid##UIS.SLE.02:UIS.SLE.02} - School life expectancy, pre-primary, both sexes (years)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of years a person of school entrance age can expect to spend within the specified level of education. For a child of a certain age a, the school life expectancy is calculated as the sum of the age specific enrolment rates for the levels{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
-{marker sourceid_UIS.SLE.0.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.SLE.0.F:UIS.SLE.0.F} - School life expectancy, pre-primary, female (years)}}
+{marker sourceid_UIS.SLE.02.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.SLE.02.F:UIS.SLE.02.F} - School life expectancy, pre-primary, female (years)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of years a person of school entrance age can expect to spend within the specified level of education. For a child of a certain age a, the school life expectancy is calculated as the sum of the age specific enrolment rates for the levels{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
-{marker sourceid_UIS.SLE.0.GPI}
-{synopt:{bf:{help wbopendata_sourceid##UIS.SLE.0.GPI:UIS.SLE.0.GPI} - School life expectancy, pre-primary, gender parity index (GPI)}}
+{marker sourceid_UIS.SLE.02.GPI}
+{synopt:{bf:{help wbopendata_sourceid##UIS.SLE.02.GPI:UIS.SLE.02.GPI} - School life expectancy, pre-primary, gender parity index (GPI)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Ratio of female school life expectancy to the male school life expectancy. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between females and males. In gen{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
-{marker sourceid_UIS.SLE.0.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.SLE.0.M:UIS.SLE.0.M} - School life expectancy, pre-primary, male (years)}}
+{marker sourceid_UIS.SLE.02.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.SLE.02.M:UIS.SLE.02.M} - School life expectancy, pre-primary, male (years)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of years a person of school entrance age can expect to spend within the specified level of education. For a child of a certain age a, the school life expectancy is calculated as the sum of the age specific enrolment rates for the levels{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -42178,6 +42276,30 @@
 {synopt:{opt Source Notes}}Total male enrolment in doctoral or equivalent programmes (ISCED 8) as a percentage of total male enrolments in tertiary education (ISCED 5 to 8).{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.THAGE.02}
+{synopt:{bf:{help wbopendata_sourceid##UIS.THAGE.02:UIS.THAGE.02} - Official entrance age to pre-primary education (years)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.THDUR.02}
+{synopt:{bf:{help wbopendata_sourceid##UIS.THDUR.02:UIS.THDUR.02} - Theoretical duration of pre-primary education (years)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -44717,4 +44839,4 @@
 
 
 
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}

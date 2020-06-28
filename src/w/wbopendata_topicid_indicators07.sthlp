@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -2334,9 +2334,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or receiving wages, g{p_end}
+{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -2347,9 +2347,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or receiving wages, g{p_end}
+{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -2360,9 +2360,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or receiving wages, g{p_end}
+{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -2373,9 +2373,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or receiving wages, g{p_end}
+{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -2386,9 +2386,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or receiving wages, g{p_end}
+{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -2399,9 +2399,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (% age 15+). [ts: data are availabl{p_end}
+{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -2412,9 +2412,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (male, % age 15+). [ts: data are av{p_end}
+{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -2425,9 +2425,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (female, % age 15+). [ts: data are{p_end}
+{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -2438,9 +2438,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (income, poorest 40%, % age 15+). [{p_end}
+{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -2451,9 +2451,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (income, richest 60%, % age 15+). [{p_end}
+{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -2574,4 +2574,4 @@
 
 
 
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
