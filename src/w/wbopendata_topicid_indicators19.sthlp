@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -352,7 +352,7 @@
 
 {synoptline}
 {marker topicid_EG.USE.COMM.GD.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD} - Energy use (kg of oil equivalent) per $1,000 GDP (constant 2011 PPP)}}
+{synopt:{bf:{help wbopendata_topicid##EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD} - Energy use (kg of oil equivalent) per $1,000 GDP (constant 2017 PPP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -508,7 +508,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.PP.GD.KD}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - CO2 emissions (kg per 2011 PPP $ of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - CO2 emissions (kg per 2017 PPP $ of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1069,7 +1069,7 @@
 {marker topicid_SP.URB.GROW}
 {synopt:{bf:{help wbopendata_topicid##SP.URB.GROW:SP.URB.GROW} - Urban population growth (annual %)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -1105,4 +1105,4 @@
 
 
 
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}

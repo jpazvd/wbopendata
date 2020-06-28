@@ -64,21 +64,33 @@
 {synopt:{opt 78}}  {help wbopendata_sourceid_indicators78##sourceid_78:ICP 2017}{p_end}
 
 
-{marker sourceid_50}
-{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators50##:TOC}}){p_end}
+{marker sourceid_43}
+{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators43##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{syntab:{title:{bf:50 Subnational Population}}}
+{syntab:{title:{bf:43 Adjusted Net Savings}}}
 {synoptline}
-{marker sourceid_SP.POP.TOTL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.ZS:SP.POP.TOTL.ZS} - Population (% of total)}}
+{marker sourceid_NY.ADJ.ICTR.CD}
+{synopt:{bf:{help wbopendata_sourceid##NY.ADJ.ICTR.CD:NY.ADJ.ICTR.CD} - Adjusted savings: gross savings (current US$)}}
 
-{synopt:{opt Source}}50 Subnational Population{p_end}
+{synopt:{opt Source}}43 Adjusted Net Savings{p_end}
 
 
-{synopt:{opt Source Notes}}Population Percentage of total is the share of first level administrative division (Admin 1 level) de facto mid-year population to total population.{p_end}
+{synopt:{opt Source Notes}}Gross savings are the difference between gross national income and public and private consumption, plus net current transfers.{p_end}
 
-{synopt:{opt Source Organization}}1. Census reports and statistical databases from national statistical offices 2. Estimates from the Center for International Earth Science Information Network (CIESIN), The Earth Institute at Columbia University{p_end}
+{synopt:{opt Source Organization}}World Bank national accounts data files.{p_end}
+
+
+{synoptline}
+{marker sourceid_NY.ADJ.SVNG.PC.CD}
+{synopt:{bf:{help wbopendata_sourceid##NY.ADJ.SVNG.PC.CD:NY.ADJ.SVNG.PC.CD} - Adjusted net savings per capita (current US$)}}
+
+{synopt:{opt Source}}43 Adjusted Net Savings{p_end}
+
+
+{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage.{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 

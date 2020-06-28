@@ -39,6 +39,40 @@
 1.2.PSev.Poor4uds - Poverty Severity ($4 a day)-Urban
 1.2_ACCESS.ELECTRICITY.RURAL - Access to electricity (% of rural population)
 1.3_ACCESS.ELECTRICITY.URBAN - Access to electricity (% of urban population)
+1000000 - 1000000:GROSS DOMESTIC PRODUCT
+1101000 - 1101000:FOOD AND NON-ALCOHOLIC BEVERAGES
+1101100 - 1101100:FOOD
+1101110 - 1101110:Bread and cereals
+1101120 - 1101120:Meat
+1101130 - 1101130:Fish and seafood
+1101140 - 1101140:Milk, cheese and eggs
+1101150 - 1101150:Oils and fats
+1101160 - 1101160:Fruit
+1101170 - 1101170:Vegetables
+1101180 - 1101180:Sugar, jam, honey, chocolate and confectionery
+1101190 - 1101190:Food products n.e.c. (Class)
+1101200 - 1101200:NON-ALCOHOLIC BEVERAGES
+1102000 - 1102000:ALCOHOLIC BEVERAGES, TOBACCO AND NARCOTICS
+1102100 - 1102100:ALCOHOLIC BEVERAGES
+1102200 - 1102200:TOBACCO
+1103000 - 1103000:CLOTHING AND FOOTWEAR
+1105000 - 1105000:FURNISHINGS, HOUSEHOLD EQUIPMENT AND ROUTINE HOUSEHOLD MAINTENANCE
+1107000 - 1107000:TRANSPORT
+1107100 - 1107100:PURCHASE OF VEHICLES
+1107300 - 1107300:TRANSPORT SERVICES
+1108000 - 1108000:COMMUNICATION
+1111000 - 1111000:RESTAURANTS AND HOTELS
+1113000 - 1113000:NET PURCHASES ABROAD
+1300000 - 1300000:INDIVIDUAL CONSUMPTION EXPENDITURE BY GOVERNMENT
+1400000 - 1400000:COLLECTIVE CONSUMPTION EXPENDITURE BY GOVERNMENT
+1500000 - 1500000:GROSS CAPITAL FORMATION
+1501000 - 1501000:GROSS FIXED CAPITAL FORMATION
+1501100 - 1501100:MACHINERY AND EQUIPMENT
+1501200 - 1501200:CONSTRUCTION
+1501300 - 1501300:OTHER PRODUCTS
+1502000 - 1502000:CHANGES IN INVENTORIES
+1503000 - 1503000:ACQUISITIONS LESS DISPOSALS OF VALUABLES (Category)
+1600000 - 1600000:BALANCE OF EXPORTS AND IMPORTS
 2.0.cov.Cel - Coverage: Mobile Phone
 2.0.cov.Ele - Coverage: Electricity
 2.0.cov.FPS - Coverage: Finished Primary School
@@ -923,6 +957,16 @@
 9.4_PROCUREMENT.COUNTRY.SYSTEMS - Use of procurement country systems (% of total international aid to education)
 9.5_PIU - Number of parallel implementation units, education sector
 9.6_PBA - Aid provided through program based approaches (% of international aid to education)
+9020000 - 9020000:ACTUAL INDIVIDUAL CONSUMPTION
+9060000 - 9060000:ACTUAL HOUSING, WATER, ELECTRICITY, GAS AND OTHER FUELS
+9080000 - 9080000:ACTUAL HEALTH
+9100000 - 9100000:HOUSEHOLDS AND NPISHS FINAL CONSUMPTION EXPENDITURE
+9110000 - 9110000:ACTUAL RECREATION AND CULTURE
+9120000 - 9120000:ACTUAL EDUCATION
+9140000 - 9140000:ACTUAL MISCELLANEOUS GOODS AND SERVICES
+9250000 - 9250000:DOMESTIC ABSORPTION
+9260000 - 9260000:INDIVIDUAL CONSUMPTION EXPENDITURE BY HOUSEHOLDS WITHOUT HOUSING
+9270000 - 9270000:GENERAL GOVERNMENT FINAL CONSUMPTION EXPENDITURE
 A1 - 001.Number of Exporters
 A10i - 026.Export Value per Incumbent: Mean
 A10ii - 027.Export Value per Incumbent: Median
@@ -5190,7 +5234,7 @@ EG.FEC.RNEW.ZS - Renewable energy consumption (% of total final energy consumpti
 EG.GDP.PUSE.KO.87 - GDP per unit of energy use (1987 US$ per kg of oil equivalent)
 EG.GDP.PUSE.KO.KD - GDP per unit of energy use (2000 US$ per kg of oil equivalent)
 EG.GDP.PUSE.KO.PP - GDP per unit of energy use (PPP $ per kg of oil equivalent)
-EG.GDP.PUSE.KO.PP.KD - GDP per unit of energy use (constant 2011 PPP $ per kg of oil equivalent)
+EG.GDP.PUSE.KO.PP.KD - GDP per unit of energy use (constant 2017 PPP $ per kg of oil equivalent)
 EG.IMP.CONS.ZS - Energy imports, net (% of energy use)
 EG.IMP.TOTL.KT.OE - Energy imports (kt of oil equivalent)
 EG.NSF.ACCS.RU.ZS - Access to non-solid fuel, rural (% of rural population)
@@ -5198,7 +5242,7 @@ EG.NSF.ACCS.UR.ZS - Access to non-solid fuel, urban (% of urban population)
 EG.NSF.ACCS.ZS - Access to non-solid fuel (% of population)
 EG.USE.COMM.CL.ZS - Alternative and nuclear energy (% of total energy use)
 EG.USE.COMM.FO.ZS - Fossil fuel energy consumption (% of total)
-EG.USE.COMM.GD.PP.KD - Energy use (kg of oil equivalent) per $1,000 GDP (constant 2011 PPP)
+EG.USE.COMM.GD.PP.KD - Energy use (kg of oil equivalent) per $1,000 GDP (constant 2017 PPP)
 EG.USE.COMM.KT.OE - Energy use (kt of oil equivalent)
 EG.USE.CRNW.KT.OE - Combustible renewables and waste (metric tons of oil equivalent)
 EG.USE.CRNW.ZS - Combustible renewables and waste (% of total energy)
@@ -5228,7 +5272,7 @@ EN.ATM.CO2E.LF.KT - CO2 emissions from liquid fuel consumption (kt)
 EN.ATM.CO2E.LF.ZS - CO2 emissions from liquid fuel consumption (% of total)
 EN.ATM.CO2E.PC - CO2 emissions (metric tons per capita)
 EN.ATM.CO2E.PP.GD - CO2 emissions (kg per PPP $ of GDP)
-EN.ATM.CO2E.PP.GD.KD - CO2 emissions (kg per 2011 PPP $ of GDP)
+EN.ATM.CO2E.PP.GD.KD - CO2 emissions (kg per 2017 PPP $ of GDP)
 EN.ATM.CO2E.SF.KT - CO2 emissions from solid fuel consumption (kt)
 EN.ATM.CO2E.SF.ZS - CO2 emissions from solid fuel consumption (% of total)
 EN.ATM.GHGO.KT.CE - Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)
@@ -8467,6 +8511,7 @@ LO.PISA.MAT.P75 - PISA: Distribution of Mathematics Scores: 75th Percentile Scor
 LO.PISA.MAT.P90 - PISA: Distribution of Mathematics Scores: 90th Percentile Score
 LO.PISA.MAT.P95 - PISA: Distribution of Mathematics Scores: 95th Percentile Score
 LO.PISA.REA - PISA: Mean performance on the reading scale
+LO.PISA.REA.0 - PISA: 15-year-olds by reading proficiency level (%). Below Level 1B
 LO.PISA.REA.0.B1C - PISA: 15-year-olds by reading proficiency level (%). Below Level 1C
 LO.PISA.REA.0.B1C.FE - PISA: Female 15-year-olds by reading proficiency level (%). Below Level 1C
 LO.PISA.REA.0.B1C.MA - PISA: Male 15-year-olds by reading proficiency level (%). Below Level 1C
@@ -8820,7 +8865,7 @@ NE.CON.PRVT.PC.ZG - Private consumption per capita growth (annual %)
 NE.CON.PRVT.PC.ZS - Private consumption per capita (constant 1995 US$)
 NE.CON.PRVT.POP.ZG - Private consumption per capita growth (annual %)
 NE.CON.PRVT.PP.CD - Households and NPISHs Final consumption expenditure, PPP (current international $)
-NE.CON.PRVT.PP.KD - Households and NPISHs Final consumption expenditure, PPP (constant 2011 international $)
+NE.CON.PRVT.PP.KD - Households and NPISHs Final consumption expenditure, PPP (constant 2017 international $)
 NE.CON.PRVT.ZS - Households and NPISHs final consumption expenditure (% of GDP)
 NE.CON.PVPC.KD - Private consumption per capita (1987 USD)
 NE.CON.TETC.CD - Final consumption expenditure, etc. (current US$)
@@ -9154,6 +9199,7 @@ NY.ADJ.DNGY.GN.ZS - Adjusted savings: energy depletion (% of GNI)
 NY.ADJ.DPEM.CD - Adjusted savings: particulate emission damage (current US$)
 NY.ADJ.DPEM.GN.ZS - Adjusted savings: particulate emission damage (% of GNI)
 NY.ADJ.DRES.GN.ZS - Adjusted savings: natural resources depletion (% of GNI)
+NY.ADJ.ICTR.CD - Adjusted savings: gross savings (current US$)
 NY.ADJ.ICTR.GN.ZS - Adjusted savings: gross savings (% of GNI)
 NY.ADJ.NNAT.CD - Adjusted savings: net national savings (current US$)
 NY.ADJ.NNAT.GN.ZS - Adjusted savings: net national savings (% of GNI)
@@ -9165,6 +9211,7 @@ NY.ADJ.NNTY.PC.KD - Adjusted net national income per capita (constant 2010 US$)
 NY.ADJ.NNTY.PC.KD.ZG - Adjusted net national income per capita (annual % growth)
 NY.ADJ.SVNG.CD - Adjusted net savings, including particulate emission damage (current US$)
 NY.ADJ.SVNG.GN.ZS - Adjusted net savings, including particulate emission damage (% of GNI)
+NY.ADJ.SVNG.PC.CD - Adjusted net savings per capita (current US$)
 NY.ADJ.SVNX.CD - Adjusted net savings, excluding particulate emission damage (current US$)
 NY.ADJ.SVNX.GN.ZS - Adjusted net savings, excluding particulate emission damage (% of GNI)
 NY.AGR.SUBS.GD.ZS - Agricultural support estimate (% of GDP)
@@ -9202,7 +9249,7 @@ NY.GDP.MKTP.KN - GDP (constant LCU)
 NY.GDP.MKTP.KN.87 - GDP at market prices (constant 1987 LCU)
 NY.GDP.MKTP.KN.87.ZG - GDP growth (annual %)
 NY.GDP.MKTP.PP.CD - GDP, PPP (current international $)
-NY.GDP.MKTP.PP.KD - GDP, PPP (constant 2011 international $)
+NY.GDP.MKTP.PP.KD - GDP, PPP (constant 2017 international $)
 NY.GDP.MKTP.PP.KD.87 - GDP, PPP (constant 1987 international $)
 NY.GDP.MKTP.XD - GDP deflator (1987=100,Index)
 NY.GDP.MKTP.XU.E - GDP deflator, end period (base year varies by country)
@@ -9214,7 +9261,7 @@ NY.GDP.PCAP.KD - GDP per capita (constant 2010 US$)
 NY.GDP.PCAP.KD.ZG - GDP per capita growth (annual %)
 NY.GDP.PCAP.KN - GDP per capita (constant LCU)
 NY.GDP.PCAP.PP.CD - GDP per capita, PPP (current international $)
-NY.GDP.PCAP.PP.KD - GDP per capita, PPP (constant 2011 international $)
+NY.GDP.PCAP.PP.KD - GDP per capita, PPP (constant 2017 international $)
 NY.GDP.PCAP.PP.KD.87 - GDP per capita, PPP (constant 1987 international $)
 NY.GDP.PCAP.PP.KD.ZG - GDP per capita, PPP annual growth (%)
 NY.GDP.PETR.RT.ZS - Oil rents (% of GDP)
@@ -9255,7 +9302,7 @@ NY.GNP.MKTP.KN.87 - GNP at market prices (constant 1987 LCU)
 NY.GNP.MKTP.KN.87.ZG - GNP growth (annual %)
 NY.GNP.MKTP.PC.CD - GNI per capita (current US$)
 NY.GNP.MKTP.PP.CD - GNI, PPP (current international $)
-NY.GNP.MKTP.PP.KD - GNI, PPP (constant 2011 international $)
+NY.GNP.MKTP.PP.KD - GNI, PPP (constant 2017 international $)
 NY.GNP.MKTP.PP.KD.87 - GNP, PPP (constant 1987 international $)
 NY.GNP.PCAP.CD - GNI per capita, Atlas method (current US$)
 NY.GNP.PCAP.CD.AT - GNP per capita (Atlas method) (US$,curr. pr.)
@@ -9266,7 +9313,7 @@ NY.GNP.PCAP.KD.ZG - GNI per capita growth (annual %)
 NY.GNP.PCAP.KN - GNI per capita (constant LCU)
 NY.GNP.PCAP.KN.87 - GNP per capita (constant 1987 LCU)
 NY.GNP.PCAP.PP.CD - GNI per capita, PPP (current international $)
-NY.GNP.PCAP.PP.KD - GNI per capita, PPP (constant 2011 international $)
+NY.GNP.PCAP.PP.KD - GNI per capita, PPP (constant 2017 international $)
 NY.GNP.PCAP.PP.KD.87 - GNP per capita, PPP (constant 1987 international $)
 NY.GNP.PCAP.ZG - GNP per capita growth (annual %)
 NY.GNP.PCAT.CD - Gross national product per capita (USD, Atlas meth.)
@@ -10229,6 +10276,12 @@ SE.PRM.AGES - Primary school starting age (years)
 SE.PRM.CMPL.FE.ZS - Gross graduation ratio from primary education, female (%)
 SE.PRM.CMPL.MA.ZS - Gross graduation ratio from primary education, male (%)
 SE.PRM.CMPL.ZS - Gross graduation ratio from primary education, both sexes (%)
+SE.PRM.CMPR.FE.ZS - Primary completion rate, female (% of relevant age group, DHS/MICS)
+SE.PRM.CMPR.MA.ZS - Primary completion rate, male (% of relevant age group, DHS/MICS)
+SE.PRM.CMPR.Q1.ZS - Primary completion rate, poorest quintile (% of relevant age group, DHS/MICS)
+SE.PRM.CMPR.Q5.ZS - Primary completion rate, richest quintile (% of relevant age group, DHS/MICS)
+SE.PRM.CMPR.RU.ZS - Primary completion rate, rural (% of relevant age group, DHS/MICS)
+SE.PRM.CMPR.UR.ZS - Primary completion rate, urban (% of relevant age group, DHS/MICS)
 SE.PRM.CMPT.FE.ZS - Primary completion rate, female (% of relevant age group)
 SE.PRM.CMPT.MA.ZS - Primary completion rate, male (% of relevant age group)
 SE.PRM.CMPT.ZS - Primary completion rate, total (% of relevant age group)
@@ -10289,6 +10342,8 @@ SE.PRM.UNER.FE - Children out of school, primary, female
 SE.PRM.UNER.FE.ZS - Children out of school, female (% of female primary school age)
 SE.PRM.UNER.MA - Children out of school, primary, male
 SE.PRM.UNER.MA.ZS - Children out of school, male (% of male primary school age)
+SE.PRM.UNER.Q1.ZS - Children out of school, primary, poorest quintile (% of relevant age group, DHS/MICS)
+SE.PRM.UNER.Q5.ZS - Children out of school, primary, richest quintile (% of relevant age group, DHS/MICS)
 SE.PRM.UNER.ZS - Children out of school (% of primary school age)
 SE.SCH.EFIC.ZS - Education coefficient of efficiency (ideal years to graduate as % of actual)
 SE.SCH.LIFE - School life expectancy, primary to tertiary, both sexes (years)
@@ -10465,6 +10520,8 @@ SE.XPD.TERT.ZS - Expenditure on tertiary education (% of government expenditure 
 SE.XPD.TOTL.GB.ZS - Government expenditure on education, total (% of government expenditure)
 SE.XPD.TOTL.GD.ZS - Government expenditure on education, total (% of GDP)
 SE.XPD.TOTL.GN.ZS - Public spending on education, total (% of GNI, UNESCO)
+SE.YRS.SCHL.1519.Q1 - Average years of schooling, poorest quintile (ages 15-19, DHS/MICS)
+SE.YRS.SCHL.1519.Q5 - Average years of schooling, richest quintile (ages 15-19, DHS/MICS)
 SF.CMN.FAX.TH - Fax machines (per 1,000 people)
 SF.CMN.ICALL.3MN.CD - International telecom, average price call to USA (US$ per 3 min.)
 SF.CMN.ICALL.MN.SU - International telecom, outgoing traffic (minutes per subscriber)
@@ -10485,6 +10542,19 @@ SF.TRN.RAIL.KM.ZS - Rail traffic (km per million US$ GDP)
 SF.TRN.ROAD.GDS - Roads, goods transported (million ton-km)
 SF.TRN.ROAD.NORM - Roads, normalized index (100 = expected total length)
 SF.TRN.ROAD.PV.ZS - Roads, paved (%)
+SG.ABS.PENB - There are periods of absence due to child care accounted for in pension benefits (1=yes; 0=no)
+SG.AGE.FUPN.EQ - The ages at which men and women can retire with full pension benefits are equal (1=yes; 0=no)
+SG.AGE.MRET.EQ - The mandatory retirement age for men and women are equal (1=yes; 0=no)
+SG.AGE.PAPN.EQ - The ages at which men and women can retire with partial pension benefits are equal (1=yes; 0=no)
+SG.AGE.RTRE.FE - Mandatory retirement age, female
+SG.AGE.RTRE.FL.FE - Retirement age with full benefits, female
+SG.AGE.RTRE.FL.MA - Retirement age with full benefits, male
+SG.AGE.RTRE.MA - Mandatory retirement age, male
+SG.AGE.RTRE.PL.FE - Retirement age with partial benefits, female
+SG.AGE.RTRE.PL.MA - Retirement age with partial benefits, male
+SG.APL.PSPT.EQ - A woman can apply for a passport in the same way as a man (1=yes; 0=no)
+SG.BUS.REGT.EQ - A woman can register a business in the same way as a man (1=yes; 0=no)
+SG.CNT.SIGN.EQ - A woman can sign a contract in the same way as a man (1=yes; 0=no)
 SG.COK.CHCO.ZS - Main cooking fuel: charcoal (% of households)
 SG.COK.CROP.ZS - Main cooking fuel: agricultural crop (% of households)
 SG.COK.DUNG.ZS - Main cooking fuel: dung (% of households)
@@ -10496,7 +10566,7 @@ SG.COK.OUTD.ZS - Location of cooking: outdoors (% of households)
 SG.COK.SBLD.ZS - Location of cooking: separate building (% of households)
 SG.COK.STRW.ZS - Main cooking fuel: straw/shrubs/grass (% of households)
 SG.COK.WOOD.ZS - Main cooking fuel: wood (% of households)
-SG.CRT.TSTM.WT - Woman's testimony carries the same evidentiary weight in court as a man's (1=yes; 0=no)
+SG.CTR.TRVL.EQ - A woman can travel outside the country in the same way as a man (1=yes; 0=no)
 SG.DMK.ALLD.FN.ZS - Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)
 SG.DMK.DPCH.FN.ZS - Women participating in making daily purchase decisions (% of women age 15-49)
 SG.DMK.FOOD.FN.ZS - Women participating in decision of what food to cook daily (% of women age 15-49)
@@ -10520,27 +10590,39 @@ SG.DMK.VISI.OT.ZS - Decision maker about a woman's visits to her family or relat
 SG.DMK.VISI.SE.ZS - Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49)
 SG.DMK.VISI.WF.ZS - Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49)
 SG.DMK.VISI.WH.ZS - Decision maker about Visits to her family or relatives: wife and husband jointly (% of women age 15-49)
+SG.DML.PRGW - Dismissal of pregnant workers is prohibited (1=yes; 0=no)
+SG.DNG.WORK.DN.EQ - Women can work in jobs deemed dangerous in the same way as men (1=yes; 0=no)
 SG.GEN.LSOM.ZS - Female legislators, senior officials and managers (% of total)
 SG.GEN.MNST.ZS - Proportion of women in ministerial level positions (%)
 SG.GEN.PARL.ZS - Proportion of seats held by women in national parliaments (%)
 SG.GEN.TECH.ZS - Female professional and technical workers (% of total)
+SG.GET.JOBS.EQ - A woman can get a job in the same way as a man (1=yes; 0=no)
 SG.H2O.PRMS.HH.ZS - Households with water on the premises (%)
 SG.H2O.TL30.HH.ZS - Households with water less than 30 minutes away round trip (%)
 SG.H2O.TM30.HH.ZS - Households with water 30 minutes or longer away round trip (%)
+SG.HLD.HEAD.EQ - A woman can be head of household in the same way as a man (1=yes; 0=no)
+SG.HME.TRVL.EQ - A woman can travel outside her home in the same way as a man (1=yes; 0=no)
+SG.IHT.ASST.EQ - Female and male surviving spouses have equal rights to inherit assets (1=yes; 0=no)
+SG.IHT.ASST.PT.EQ - Sons and daughters have equal rights to inherit assets from their parents (1=yes; 0=no)
 SG.IND.WORK.EQ - Women are able to work in the same industries as men (1=yes; 0=no)
 SG.JOB.NOPN.EQ - Nonpregnant and nonnursing women can do the same jobs as men (1=yes; 0=no)
+SG.LAW.ASST.AR - The law grants spouses equal administrative authority over assets during marriage (1=yes; 0=no)
 SG.LAW.CHMR - Law prohibits or invalidates child or early marriage (1=yes; 0=no)
+SG.LAW.CRDD.GR - The law prohibits discrimination in access to credit based on gender (1=yes; 0=no)
 SG.LAW.EQRM.WK - Law mandates equal remuneration for females and males for work of equal value (1=yes; 0=no)
+SG.LAW.INDX - Women Business and the Law Index Score (scale 1-100)
 SG.LAW.LEVE.PU - Law mandates paid or unpaid maternity leave (1=yes; 0=no)
-SG.LAW.NODC.HR - Law mandates nondiscrimination based on gender in hiring (1=yes; 0=no)
-SG.LAW.OBHB.MR - Married women are required by law to obey their husbands (1=yes; 0=no)
-SG.LEG.DVAW - Legislation exists on domestic violence (1=yes; 0=no)
-SG.LEG.MRRP - Legislation explicitly criminalizes marital rape (1=yes; 0=no)
-SG.LEG.SXHR - Legislation specifically addresses sexual harassment (1=yes; 0=no)
-SG.LEG.SXHR.EM - Legislation exists on sexual harassment in employment (1=yes; 0=no)
+SG.LAW.NMCN - The law provides for the valuation of nonmonetary contributions (1=yes; 0=no)
+SG.LAW.NODC.HR - Law prohibits discrimination in employment based on gender (1=yes; 0=no)
+SG.LAW.OBHB.MR.NO - There is no legal provision that requires a married woman to obey her husband (1=yes; 0=no)
+SG.LEG.DVAW - There is legislation specifically addressing domestic violence (1=yes; 0=no)
+SG.LEG.SXHR.EM - There is legislation on sexual harassment in employment (1=yes; 0=no)
+SG.LOC.LIVE.EQ - A woman can choose where to live in the same way as a man (1=yes; 0=no)
 SG.MMR.LEVE.EP - Mothers are guaranteed an equivalent position after maternity leave (1=yes; 0=no)
+SG.NGT.WORK.EQ - Women can work the same night hours as men (1=yes; 0=no)
 SG.NOD.CONS - Nondiscrimination clause mentions gender in the constitution (1=yes; 0=no)
-SG.OBT.IDCD.MR - Married women can obtain a national ID card in the same way as married men (1=yes; 0=no)
+SG.OBT.DVRC.EQ - A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no)
+SG.OPN.BANK.EQ - A woman can open a bank account in the same way as a man (1=yes; 0=no)
 SG.OWN.HSAJ.FE.Q1.ZS - Women who own a house both alone and jointly (% of women age 15-49): Q1 (lowest)
 SG.OWN.HSAJ.FE.Q2.ZS - Women who own a house both alone and jointly (% of women age 15-49): Q2
 SG.OWN.HSAJ.FE.Q3.ZS - Women who own a house both alone and jointly (% of women age 15-49): Q3
@@ -10637,8 +10719,12 @@ SG.OWN.LDNO.MA.Q3.ZS - Men who do not own land (% of men): Q3
 SG.OWN.LDNO.MA.Q4.ZS - Men who do not own land (% of men): Q4
 SG.OWN.LDNO.MA.Q5.ZS - Men who do not own land (% of men): Q5 (highest)
 SG.OWN.LDNO.MA.ZS - Men who do not own land (% of men)
-SG.OWN.PRRT.MR - Married men and married women have equal ownership rights to property (1=yes; 0=no)
+SG.OWN.PRRT.IM - Men and married women have equal ownership rights to immovable property (1=yes; 0=no)
+SG.PEN.SXHR.EM - Criminal penalties or civil remedies exist for sexual harassment in employment (1=yes; 0=no)
 SG.POP.MIGR.FE.ZS - Female migrants (% of international migrant stock)
+SG.REG.NLID.FE.ZS - Women with a national identity card or equivalent foundational identity document (% of women ages 15+)
+SG.REG.NLID.MA.ZS - Men with a national identity card or equivalent foundational identity document (% of men ages 15+)
+SG.REM.RIGT.EQ - A woman has the same rights to remarry as a man (1=yes; 0=no)
 SG.RSX.BRTH.Q1.ZS - Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q1 (lowest)
 SG.RSX.BRTH.Q2.ZS - Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q2
 SG.RSX.BRTH.Q3.ZS - Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q3
@@ -10988,6 +11074,7 @@ SH.MLR.DTHS.CHLD.ZS - Deaths among children under five years of age due to malar
 SH.MLR.DTHS.TOTL - Reported malaria deaths (total)
 SH.MLR.INCD - Notified cases of malaria (per 100,000 people)
 SH.MLR.INCD.P3 - Incidence of malaria (per 1,000 population at risk)
+SH.MLR.IPTP.ZS - Intermittent preventive treatment (IPT) of malaria in pregnancy (% of pregnant women)
 SH.MLR.ITN.1HH.ZS - Households with one or more insect-treated mosquito net (%)
 SH.MLR.NETA.Q1.ZS - Mosquito net use by children (any mosquito net) (% of children under 5): Q1 (lowest)
 SH.MLR.NETA.Q2.ZS - Mosquito net use by children (any mosquito net) (% of children under 5): Q2
@@ -11033,11 +11120,17 @@ SH.MLR.TRET.Q4.ZS - Treatment of fever (% of children under 5 with fever): Q4
 SH.MLR.TRET.Q5.ZS - Treatment of fever (% of children under 5 with fever): Q5 (highest)
 SH.MLR.TRET.ZS - Children with fever receiving antimalarial drugs (% of children under age 5 with fever)
 SH.MMR.DTHS - Number of maternal deaths
-SH.MMR.LEVE - Maternity leave (days paid)
+SH.MMR.LEVE - Length of paid maternity leave (days)
+SH.MMR.LEVE.AL - Paid leave of at least 14 weeks is available to women (1=yes; 0=no)
+SH.MMR.LEVE.GT - The government administers 100% of maternity leave benefits (1=yes; 0=no)
 SH.MMR.RISK - Lifetime risk of maternal death (1 in: rate varies by country)
 SH.MMR.RISK.ZS - Lifetime risk of maternal death (%)
 SH.MMR.WAGE.ZS - Maternity leave benefits (% of wages paid)
 SH.MORB.ZS - Morbidity Rate (in %)
+SH.PAR.LEVE - Length of paid shared parental leave (days)
+SH.PAR.LEVE.AL - There is paid parental leave (1=yes; 0=no)
+SH.PAR.LEVE.FE - Length of paid parental leave for mother (days)
+SH.PAR.LEVE.MA - Length of paid parental leave for father (days)
 SH.POLINDES.TOTL - Number of Polindes (Poliklinik Desa/Village Polyclinic)
 SH.PRG.ANEM - Prevalence of anemia among pregnant women (%)
 SH.PRG.SYPH.ZS - Prevalence of syphilis (% of women attending antenatal care)
@@ -11049,6 +11142,8 @@ SH.PRV.SMOK.FE.Q3.ZS - Smoking (% of women): Q3
 SH.PRV.SMOK.FE.Q4.ZS - Smoking (% of women): Q4
 SH.PRV.SMOK.FE.Q5.ZS - Smoking (% of women): Q5 (highest)
 SH.PRV.SMOK.MA - Smoking prevalence, males (% of adults)
+SH.PTR.LEVE - Length of paid paternity leave (days)
+SH.PTR.LEVE.AL - Paid leave is available to fathers (1=yes; 0=no)
 SH.PUSKESMAS.TOTL - Number of Puskesmas and its line services
 SH.SGR.CRSK.ZS - Risk of catastrophic expenditure for surgical care (% of people at risk)
 SH.SGR.IRSK.ZS - Risk of impoverishing expenditure for surgical care (% of people at risk)
@@ -11166,6 +11261,7 @@ SH.STA.HYGN.UR.Q4.ZS - People with basic handwashing facilities including soap a
 SH.STA.HYGN.UR.Q5.ZS - People with basic handwashing facilities including soap and water, urban (% of urban population): Q5 (highest)
 SH.STA.HYGN.UR.ZS - People with basic handwashing facilities including soap and water, urban (% of urban population)
 SH.STA.HYGN.ZS - People with basic handwashing facilities including soap and water (% of population)
+SH.STA.IYCF.ZS - Infant and young child feeding practices, all 3 IYCF (% children ages 6-23 months)
 SH.STA.LBMI.Q1.ZS - Malnourished women (BMI is less than 18.5) (% of women): Q1 (lowest)
 SH.STA.LBMI.Q2.ZS - Malnourished women (BMI is less than 18.5) (% of women): Q2
 SH.STA.LBMI.Q3.ZS - Malnourished women (BMI is less than 18.5) (% of women): Q3
@@ -11346,6 +11442,7 @@ SI.DST.03RD.20 - Income share held by third 20%
 SI.DST.04TH.20 - Income share held by fourth 20%
 SI.DST.05TH.20 - Income share held by highest 20%
 SI.DST.10TH.10 - Income share held by highest 10%
+SI.DST.50MD - Proportion of people living below 50 percent of median income (%)
 SI.DST.FRST.10 - Income share held by lowest 10%
 SI.DST.FRST.20 - Income share held by lowest 20%
 SI.POV.2DAY - Poverty headcount ratio at $3.10 a day (2011 PPP) (% of population)
@@ -11379,6 +11476,14 @@ SI.POV.LMIC.GP - Poverty gap at $3.20 a day (2011 PPP) (%)
 SI.POV.LMIC.GR - Growth component of change in poverty at $3.20 a day (2011 PPP) (% of change)
 SI.POV.LMIC.NO - Number of poor at $3.20 a day (2011 PPP) (millions)
 SI.POV.LMIC.RE - Redistribution component of change in poverty at $3.20 a day (2011 PPP) (% of change)
+SI.POV.MDIM - Multidimensional poverty headcount ratio (% of total population)
+SI.POV.MDIM.17 - Multidimensional poverty headcount ratio, children (% of population ages 0-17)
+SI.POV.MDIM.17.XQ - Multidimensional poverty index, children (population ages 0-17) (scale 0-1)
+SI.POV.MDIM.FE - Multidimensional poverty headcount ratio, female (% of female population)
+SI.POV.MDIM.HH - Multidimensional poverty headcount ratio, household (% of total households)
+SI.POV.MDIM.IT - Multidimensional poverty intensity (average share of deprivations experienced by the poor)
+SI.POV.MDIM.MA - Multidimensional poverty headcount ratio, male (% of male population)
+SI.POV.MDIM.XQ - Multidimensional poverty index (scale 0-1)
 SI.POV.NAGP - Poverty gap at national poverty lines (%)
 SI.POV.NAGP.NC - Poverty gap at national poverty lines (%), including noncomparable values
 SI.POV.NAHC - Poverty headcount ratio at national poverty lines (% of population)
@@ -11479,7 +11584,7 @@ SL.FAM.0714.ZS - Children in employment, unpaid family workers (% of children in
 SL.FAM.WORK.FE.ZS - Contributing family workers, female (% of female employment) (modeled ILO estimate)
 SL.FAM.WORK.MA.ZS - Contributing family workers, male (% of male employment) (modeled ILO estimate)
 SL.FAM.WORK.ZS - Contributing family workers, total (% of total employment) (modeled ILO estimate)
-SL.GDP.PCAP.EM.KD - GDP per person employed (constant 2011 PPP $)
+SL.GDP.PCAP.EM.KD - GDP per person employed (constant 2017 PPP $)
 SL.GDP.PCAP.EM.KD.ZG - GDP per person employed (annual % growth)
 SL.GDP.PCAP.EM.XD - GDP per person employed, index (1980 = 100)
 SL.IND.EMPL.FE.ZS - Employment in industry, female (% of female employment) (modeled ILO estimate)
@@ -11650,7 +11755,9 @@ SN.ITK.DEFC.POP - Prevalence of undernourishment (population)
 SN.ITK.DEFC.ZS - Prevalence of undernourishment (% of population)
 SN.ITK.DFCT - Depth of the food deficit (kilocalories per person per day)
 SN.ITK.DPTH - Depth of hunger (kilocalories per person per day)
+SN.ITK.MSFI.ZS - Prevalence of moderate or severe food insecurity in the population (%)
 SN.ITK.SALT.ZS - Consumption of iodized salt (% of households)
+SN.ITK.SVFI.ZS - Prevalence of severe food insecurity in the population (%)
 SN.ITK.VAPP.Q1.ZS - Vitamin A supplements for postpartum women (% of women with a birth): Q1 (lowest)
 SN.ITK.VAPP.Q2.ZS - Vitamin A supplements for postpartum women (% of women with a birth): Q2
 SN.ITK.VAPP.Q3.ZS - Vitamin A supplements for postpartum women (% of women with a birth): Q3
@@ -11732,6 +11839,7 @@ SP.DYN.WFRT.Q2 - Total wanted fertility rate (births per woman): Q2
 SP.DYN.WFRT.Q3 - Total wanted fertility rate (births per woman): Q3
 SP.DYN.WFRT.Q4 - Total wanted fertility rate (births per woman): Q4
 SP.DYN.WFRT.Q5 - Total wanted fertility rate (births per woman): Q5 (highest)
+SP.EXCHG.RATE.ICP - SP.EXCHG.RATE.ICP:Exchange Rate Value
 SP.FER.TOTL.ZR - Total Fertility Rate
 SP.HOU.FEMA.ZS - Female headed households (% of households with a female head)
 SP.M15.2024.FE.ZS - Women who were first married by age 15 (% of women ages 20-24)
@@ -12078,6 +12186,8 @@ SP.POP.TECH.RD.P6 - Technicians in R&amp;D (per million people)
 SP.POP.TOTL - Population, total
 SP.POP.TOTL.FE.IN - Population, female
 SP.POP.TOTL.FE.ZS - Population, female (% of total population)
+SP.POP.TOTL.ICP - SP.POP.TOTL.ICP:Population
+SP.POP.TOTL.ICP.ZS - SP.POP.TOTL.ICP.ZS:Population shares (World=100)
 SP.POP.TOTL.MA.IN - Population, male
 SP.POP.TOTL.MA.ZS - Population, male (% of total population)
 SP.POP.TOTL.ZS - Population (% of total)
@@ -12392,20 +12502,29 @@ TX.VAL.MRCH.CD.UN - Merchandise exports (UN, current US$)
 TX.VAL.MRCH.CD.UN.ZG - Export growth, value (annual %)
 TX.VAL.MRCH.CD.WB - Merchandise exports, WB (current US$)
 TX.VAL.MRCH.CD.WT - Merchandise exports (current US$)
+TX.VAL.MRCH.HI.CD - Merchandise exports to high-income economies (current US$)
 TX.VAL.MRCH.HI.ZS - Merchandise exports to high-income economies (% of total merchandise exports)
 TX.VAL.MRCH.KD - Exports, fob (1980 US$) (Const. Price)
 TX.VAL.MRCH.KD.UN - Merchandise exports (constant 1987 US$)
 TX.VAL.MRCH.KD.UN.ZG - Export growth, volume (annual %)
 TX.VAL.MRCH.KD.WB - Merchandise exports (constant US$)
+TX.VAL.MRCH.OR.CD - Merchandise exports to low- and middle-income economies outside region (current US$)
 TX.VAL.MRCH.OR.ZS - Merchandise exports to low- and middle-income economies outside region (% of total merchandise exports)
+TX.VAL.MRCH.R1.CD - Merchandise exports to low- and middle-income economies in East Asia &amp; Pacific (current US$)
 TX.VAL.MRCH.R1.ZS - Merchandise exports to low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise exports)
+TX.VAL.MRCH.R2.CD - Merchandise exports to low- and middle-income economies in Europe &amp; Central Asia (current US$)
 TX.VAL.MRCH.R2.ZS - Merchandise exports to low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise exports)
+TX.VAL.MRCH.R3.CD - Merchandise exports to low- and middle-income economies in Latin America &amp; the Caribbean (current US$)
 TX.VAL.MRCH.R3.ZS - Merchandise exports to low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise exports)
+TX.VAL.MRCH.R4.CD - Merchandise exports to low- and middle-income economies in Middle East &amp; North Africa (current US$)
 TX.VAL.MRCH.R4.ZS - Merchandise exports to low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise exports)
+TX.VAL.MRCH.R5.CD - Merchandise exports to low- and middle-income economies in South Asia (current US$)
 TX.VAL.MRCH.R5.ZS - Merchandise exports to low- and middle-income economies in South Asia (% of total merchandise exports)
+TX.VAL.MRCH.R6.CD - Merchandise exports to low- and middle-income economies in Sub-Saharan Africa (current US$)
 TX.VAL.MRCH.R6.ZS - Merchandise exports to low- and middle-income economies in Sub-Saharan Africa (% of total merchandise exports)
 TX.VAL.MRCH.RS.ZS - Merchandise exports by the reporting economy, residual (% of total merchandise exports)
 TX.VAL.MRCH.WL.CD - Merchandise exports by the reporting economy (current US$)
+TX.VAL.MRCH.WR.CD - Merchandise exports to low- and middle-income economies within region (current US$)
 TX.VAL.MRCH.WR.ZS - Merchandise exports to low- and middle-income economies within region (% of total merchandise exports)
 TX.VAL.MRCH.XD.WD - Export value index (2000 = 100)
 TX.VAL.NFOD.UN.ZS - Non-food primary commodities (% of merchandise exports)
@@ -12781,7 +12900,15 @@ UIS.G.7.F - Graduates from ISCED 7 programmes in tertiary education, female (num
 UIS.G.7.T - Graduates from ISCED 7 programmes in tertiary education, both sexes (number)
 UIS.G.8.F - Graduates from ISCED 8 programmes in tertiary education, female (number)
 UIS.G.8.T - Graduates from ISCED 8 programmes in tertiary education, both sexes (number)
+UIS.GER.0 - Gross enrolment ratio, early childhood education, both sexes (%)
+UIS.GER.0.F - Gross enrolment ratio, early childhood education, female (%)
 UIS.GER.0.GPI - Gross enrolment ratio, pre-primary, gender parity index (GPI)
+UIS.GER.0.M - Gross enrolment ratio, early childhood education, male (%)
+UIS.GER.01 - Gross enrolment ratio, early childhood educational development programmes, both sexes (%)
+UIS.GER.01.F - Gross enrolment ratio, early childhood educational development programmes, female (%)
+UIS.GER.01.GPI - Gross enrolment ratio, early childhood educational development programmes, gender parity index (GPI)
+UIS.GER.01.M - Gross enrolment ratio, early childhood educational development programmes, male (%)
+UIS.GER.02.GPI - Gross enrolment ratio, pre-primary, gender parity index (GPI)
 UIS.GER.12 - Gross enrolment ratio, primary and lower secondary, both sexes (%)
 UIS.GER.12.F - Gross enrolment ratio, primary and lower secondary, female (%)
 UIS.GER.12.GPI - Gross enrolment ratio, primary and lower secondary, gender parity index (GPI)
@@ -13249,10 +13376,10 @@ UIS.SAP.CE.F - Population of compulsory school age, female (number)
 UIS.SAP.CE.M - Population of compulsory school age, male (number)
 UIS.SCHBSP.1.PU.WELEC - Proportion of public primary schools with access to electricity (%)
 UIS.SCHBSP.2.PU.WELEC - Proportion of public lower secondary schools with access to electricity (%)
-UIS.SLE.0 - School life expectancy, pre-primary, both sexes (years)
-UIS.SLE.0.F - School life expectancy, pre-primary, female (years)
-UIS.SLE.0.GPI - School life expectancy, pre-primary, gender parity index (GPI)
-UIS.SLE.0.M - School life expectancy, pre-primary, male (years)
+UIS.SLE.02 - School life expectancy, pre-primary, both sexes (years)
+UIS.SLE.02.F - School life expectancy, pre-primary, female (years)
+UIS.SLE.02.GPI - School life expectancy, pre-primary, gender parity index (GPI)
+UIS.SLE.02.M - School life expectancy, pre-primary, male (years)
 UIS.SLE.1 - School life expectancy, primary, both sexes (years)
 UIS.SLE.1.F - School life expectancy, primary, female (years)
 UIS.SLE.1.GPI - School life expectancy, primary, gender parity index (GPI)
@@ -13324,6 +13451,8 @@ UIS.TEP.7.M - Share of male students in tertiary education enrolled in ISCED 7 (
 UIS.TEP.8 - Share of all students in tertiary education enrolled in ISCED 8 (%)
 UIS.TEP.8.F - Share of female students in tertiary education enrolled in ISCED 8 (%)
 UIS.TEP.8.M - Share of male students in tertiary education enrolled in ISCED 8 (%)
+UIS.THAGE.02 - Official entrance age to pre-primary education (years)
+UIS.THDUR.02 - Theoretical duration of pre-primary education (years)
 UIS.TRANRA.23.GPV.GPI - Effective transition rate from primary to lower secondary general education, gender parity index (GPI)
 UIS.TRNTP.1.PU.F - Percentage of female newly recruited teachers in primary education who are trained, female (%)
 UIS.TRNTP.1.PU.M - Percentage of male newly recruited teachers in primary education who are trained, male (%)

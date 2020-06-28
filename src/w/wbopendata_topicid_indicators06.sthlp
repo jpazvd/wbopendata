@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -347,7 +347,7 @@
 
 {synopt:{opt Source Notes}}Access to non-solid fuel is the percentage of population with access to non-solid fuel.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for all (SE4ALL) database from WHO Global Household Energy database.{p_end}
+{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from WHO Global Household Energy database.{p_end}
 
 
 {synoptline}
@@ -469,7 +469,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.PP.GD.KD}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - CO2 emissions (kg per 2011 PPP $ of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - CO2 emissions (kg per 2017 PPP $ of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1846,4 +1846,4 @@
 
 
 
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}

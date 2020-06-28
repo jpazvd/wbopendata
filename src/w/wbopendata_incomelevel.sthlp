@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Income Level  (as of 13apr2020)}
+{title:Income Level  (as of 28jun2020)}
 
 {marker HIC}
 {p 20 20 2}(Go up to {it:{help wbopendata##incomelevel:Income Level }}){p_end}
@@ -178,6 +178,7 @@
 {synopt:{opt VNM}}  Vietnam {p_end}
 {synopt:{opt PSE}}  West Bank and Gaza {p_end}
 {synopt:{opt ZMB}}  Zambia {p_end}
+{synopt:{opt ZWE}}  Zimbabwe {p_end}
 
 {marker NA}
 {p 20 20 2}(Go up to {it:{help wbopendata##incomelevel:Income Level }}){p_end}

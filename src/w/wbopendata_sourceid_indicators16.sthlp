@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -41,6 +41,7 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 40}}  {help wbopendata_sourceid_indicators40##sourceid_40:Population estimates and projections}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
+{synopt:{opt 43}}  {help wbopendata_sourceid_indicators43##sourceid_43:Adjusted Net Savings}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
 {synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
@@ -60,6 +61,7 @@
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
+{synopt:{opt 78}}  {help wbopendata_sourceid_indicators78##sourceid_78:ICP 2017}{p_end}
 
 
 {marker sourceid_16}
@@ -237,6 +239,32 @@
 
 
 {synoptline}
+{marker sourceid_SH.MLR.IPTP.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.MLR.IPTP.ZS:SH.MLR.IPTP.ZS} - Intermittent preventive treatment (IPT) of malaria in pregnancy (% of pregnant women)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Percentage of women aged 15 - 49 with a live birth in the recent years preceding the survey who received 3+ doses of sulfadoxine-pyrimethamine (SP/Fansidar), at least one during an antenatal care visit. Intermittent Preventive Treatment (IPT){p_end}
+
+{synopt:{opt Source Organization}}UNICEF Global Databases [data.unicef.org], Multiple Indicator Cluster Surveys, Demographic and Health Surveys.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.MMR.WAGE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.MMR.WAGE.ZS:SH.MMR.WAGE.ZS} - Maternity leave benefits (% of wages paid)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}Maternity leave benefits refers to the total percentage of wages covered by all sources during paid maternity leave.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Women, Business and the Law.{p_end}
+
+
+{synoptline}
 {marker sourceid_SH.PRG.SYPH.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.PRG.SYPH.ZS:SH.PRG.SYPH.ZS} - Prevalence of syphilis (% of women attending antenatal care)}}
 
@@ -258,6 +286,18 @@
 {synopt:{opt Source Notes}}Pregnant women receiving prenatal care, at least four times, are the percentage of women attended at least four times during pregnancy by skilled health personnel for reasons related to pregnancy.{p_end}
 
 {synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.STA.IYCF.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.IYCF.ZS:SH.STA.IYCF.ZS} - Infant and young child feeding practices, all 3 IYCF (% children ages 6-23 months)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Percentage of children age 6-23 months fed in accordance with all three infant and young child feeding (IYCF) practices (food diversity, feeding frequency, and consumption of breast milk or milk){p_end}
+
+{synopt:{opt Source Organization}}Demographic and Health Surveys{p_end}
 
 
 {synoptline}
@@ -1427,4 +1467,4 @@
 
 
 
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}

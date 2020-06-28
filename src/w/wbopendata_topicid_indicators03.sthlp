@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1554,14 +1554,14 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Household final consumption expenditure (formerly private consumption) is the market value of all goods and services, including durable products (such as cars, washing machines, and home computers), purchased by households. It excludes purchas{p_end}
+{synopt:{opt Source Notes}}This indicator provides values for households and NPISHs final consumption expenditure expressed in current international dollars converted by purchasing power parity (PPP) conversion factor.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
 
 {synoptline}
 {marker topicid_NE.CON.PRVT.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##NE.CON.PRVT.PP.KD:NE.CON.PRVT.PP.KD} - Households and NPISHs Final consumption expenditure, PPP (constant 2011 international $)}}
+{synopt:{bf:{help wbopendata_topicid##NE.CON.PRVT.PP.KD:NE.CON.PRVT.PP.KD} - Households and NPISHs Final consumption expenditure, PPP (constant 2017 international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1569,7 +1569,7 @@
 
 {synopt:{opt Source Notes}}Household final consumption expenditure (formerly private consumption) is the market value of all goods and services, including durable products (such as cars, washing machines, and home computers), purchased by households. It excludes purchas{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
 
 {synoptline}
@@ -3270,14 +3270,14 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP is the sum of gross value{p_end}
+{synopt:{opt Source Notes}}This indicator provides values for gross domestic product (GDP) expressed in current international dollars, converted by purchasing power parity (PPP) conversion factor.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
 
 {synoptline}
 {marker topicid_NY.GDP.MKTP.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##NY.GDP.MKTP.PP.KD:NY.GDP.MKTP.PP.KD} - GDP, PPP (constant 2011 international $)}}
+{synopt:{bf:{help wbopendata_topicid##NY.GDP.MKTP.PP.KD:NY.GDP.MKTP.PP.KD} - GDP, PPP (constant 2017 international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -3285,7 +3285,7 @@
 
 {synopt:{opt Source Notes}}PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP is the sum of gross value{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
 
 {synoptline}
@@ -3361,14 +3361,14 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GDP per capita based on purchasing power parity (PPP). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar{p_end}
+{synopt:{opt Source Notes}}This indicator provides per capita values for gross domestic product (GDP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
 
 {synoptline}
 {marker topicid_NY.GDP.PCAP.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##NY.GDP.PCAP.PP.KD:NY.GDP.PCAP.PP.KD} - GDP per capita, PPP (constant 2011 international $)}}
+{synopt:{bf:{help wbopendata_topicid##NY.GDP.PCAP.PP.KD:NY.GDP.PCAP.PP.KD} - GDP per capita, PPP (constant 2017 international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -3376,7 +3376,7 @@
 
 {synopt:{opt Source Notes}}GDP per capita based on purchasing power parity (PPP). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
 
 {synoptline}
@@ -3517,14 +3517,14 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}PPP GNI (formerly PPP GNP) is gross national income (GNI) converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GNI as a U.S. dollar has in the United States. Gross n{p_end}
+{synopt:{opt Source Notes}}This indicator provides values for gross national income (GNI. Formerly GNP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
 
 {synoptline}
 {marker topicid_NY.GNP.MKTP.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##NY.GNP.MKTP.PP.KD:NY.GNP.MKTP.PP.KD} - GNI, PPP (constant 2011 international $)}}
+{synopt:{bf:{help wbopendata_topicid##NY.GNP.MKTP.PP.KD:NY.GNP.MKTP.PP.KD} - GNI, PPP (constant 2017 international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -3532,7 +3532,7 @@
 
 {synopt:{opt Source Notes}}PPP GNI (formerly PPP GNP) is gross national income (GNI) converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GNI as a U.S. dollar has in the United States. Gross n{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
 
 {synoptline}
@@ -3608,14 +3608,14 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GNI per capita based on purchasing power parity (PPP). PPP GNI is gross national income (GNI) converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GNI as a U.S. doll{p_end}
+{synopt:{opt Source Notes}}This indicator provides per capita values for gross national income (GNI. Formerly GNP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
 
 {synoptline}
 {marker topicid_NY.GNP.PCAP.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##NY.GNP.PCAP.PP.KD:NY.GNP.PCAP.PP.KD} - GNI per capita, PPP (constant 2011 international $)}}
+{synopt:{bf:{help wbopendata_topicid##NY.GNP.PCAP.PP.KD:NY.GNP.PCAP.PP.KD} - GNI per capita, PPP (constant 2017 international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -3623,7 +3623,7 @@
 
 {synopt:{opt Source Notes}}GNI per capita based on purchasing power parity (PPP). PPP GNI is gross national income (GNI) converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GNI as a U.S. doll{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
 
 {synoptline}
@@ -3842,9 +3842,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Purchasing power parity conversion factor is the number of units of a country's currency required to buy the same amounts of goods and services in the domestic market as U.S. dollar would buy in the United States. This conversion factor is for{p_end}
+{synopt:{opt Source Notes}}Purchasing power parity (PPP) conversion factor is a spatial price deflator and currency converter that controls for price level differences between countries, thereby allowing volume comparisons of gross domestic product (GDP) and its expendi{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
 
 {synoptline}
@@ -3868,9 +3868,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Purchasing power parity conversion factor is the number of units of a country's currency required to buy the same amount of goods and services in the domestic market as a U.S. dollar would buy in the United States. The ratio of PPP conversion{p_end}
+{synopt:{opt Source Notes}}Price level ratio is the ratio of a purchasing power parity (PPP) conversion factor to an exchange rate. It provides a measure of the differences in price levels between countries by indicating the number of units of the common currency needed{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
 
 {synoptline}
@@ -3881,9 +3881,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Purchasing power parity conversion factor is the number of units of a country's currency required to buy the same amounts of goods and services in the domestic market as U.S. dollar would buy in the United States. This conversion factor is for{p_end}
+{synopt:{opt Source Notes}}Purchasing power parity (PPP) conversion factor is a spatial price deflator and currency converter that controls for price level differences between countries, thereby allowing volume comparisons of gross domestic product (GDP) and its expendi{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
 
 {synoptline}
@@ -3900,4 +3900,4 @@
 
 
 
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
