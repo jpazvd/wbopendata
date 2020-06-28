@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -41,6 +41,7 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 40}}  {help wbopendata_sourceid##sourceid_40:Population estimates and projections}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
+{synopt:{opt 43}}  {help wbopendata_sourceid##sourceid_43:Adjusted Net Savings}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid##sourceid_46:Sustainable Development Goals}{p_end}
 {synopt:{opt 50}}  {help wbopendata_sourceid##sourceid_50:Subnational Population}{p_end}
@@ -60,6 +61,7 @@
 {synopt:{opt 71}}  {help wbopendata_sourceid##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
 {synopt:{opt 73}}  {help wbopendata_sourceid##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
+{synopt:{opt 78}}  {help wbopendata_sourceid##sourceid_78:ICP 2017}{p_end}
 {synoptline}
 
 
@@ -900,7 +902,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.GDP.PUSE.KO.PP:EG.GDP.PUSE.KO.PP{marker EG.GDP.PUSE.KO.PP}}}GDP per unit of energy use (PPP $ per kg of oil equivalent){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.GDP.PUSE.KO.PP.KD:EG.GDP.PUSE.KO.PP.KD{marker EG.GDP.PUSE.KO.PP.KD}}}GDP per unit of energy use (constant 2011 PPP $ per kg of oil equivalent){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.GDP.PUSE.KO.PP.KD:EG.GDP.PUSE.KO.PP.KD{marker EG.GDP.PUSE.KO.PP.KD}}}GDP per unit of energy use (constant 2017 PPP $ per kg of oil equivalent){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.IMP.CONS.ZS:EG.IMP.CONS.ZS{marker EG.IMP.CONS.ZS}}}Energy imports, net (% of energy use){p_end}
 
@@ -908,7 +910,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.USE.COMM.FO.ZS:EG.USE.COMM.FO.ZS{marker EG.USE.COMM.FO.ZS}}}Fossil fuel energy consumption (% of total){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD{marker EG.USE.COMM.GD.PP.KD}}}Energy use (kg of oil equivalent) per $1,000 GDP (constant 2011 PPP){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD{marker EG.USE.COMM.GD.PP.KD}}}Energy use (kg of oil equivalent) per $1,000 GDP (constant 2017 PPP){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.USE.CRNW.ZS:EG.USE.CRNW.ZS{marker EG.USE.CRNW.ZS}}}Combustible renewables and waste (% of total energy){p_end}
 
@@ -934,7 +936,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.PP.GD:EN.ATM.CO2E.PP.GD{marker EN.ATM.CO2E.PP.GD}}}CO2 emissions (kg per PPP $ of GDP){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD{marker EN.ATM.CO2E.PP.GD.KD}}}CO2 emissions (kg per 2011 PPP $ of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD{marker EN.ATM.CO2E.PP.GD.KD}}}CO2 emissions (kg per 2017 PPP $ of GDP){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.SF.KT:EN.ATM.CO2E.SF.KT{marker EN.ATM.CO2E.SF.KT}}}CO2 emissions from solid fuel consumption (kt){p_end}
 
@@ -1552,7 +1554,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.PP.CD:NE.CON.PRVT.PP.CD{marker NE.CON.PRVT.PP.CD}}}Households and NPISHs Final consumption expenditure, PPP (current international $){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.PP.KD:NE.CON.PRVT.PP.KD{marker NE.CON.PRVT.PP.KD}}}Households and NPISHs Final consumption expenditure, PPP (constant 2011 international $){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.PP.KD:NE.CON.PRVT.PP.KD{marker NE.CON.PRVT.PP.KD}}}Households and NPISHs Final consumption expenditure, PPP (constant 2017 international $){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.ZS:NE.CON.PRVT.ZS{marker NE.CON.PRVT.ZS}}}Households and NPISHs final consumption expenditure (% of GDP){p_end}
 
@@ -1816,7 +1818,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.MKTP.PP.CD:NY.GDP.MKTP.PP.CD{marker NY.GDP.MKTP.PP.CD}}}GDP, PPP (current international $){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.MKTP.PP.KD:NY.GDP.MKTP.PP.KD{marker NY.GDP.MKTP.PP.KD}}}GDP, PPP (constant 2011 international $){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.MKTP.PP.KD:NY.GDP.MKTP.PP.KD{marker NY.GDP.MKTP.PP.KD}}}GDP, PPP (constant 2017 international $){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.NGAS.RT.ZS:NY.GDP.NGAS.RT.ZS{marker NY.GDP.NGAS.RT.ZS}}}Natural gas rents (% of GDP){p_end}
 
@@ -1832,7 +1834,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.PCAP.PP.CD:NY.GDP.PCAP.PP.CD{marker NY.GDP.PCAP.PP.CD}}}GDP per capita, PPP (current international $){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.PCAP.PP.KD:NY.GDP.PCAP.PP.KD{marker NY.GDP.PCAP.PP.KD}}}GDP per capita, PPP (constant 2011 international $){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.PCAP.PP.KD:NY.GDP.PCAP.PP.KD{marker NY.GDP.PCAP.PP.KD}}}GDP per capita, PPP (constant 2017 international $){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.PETR.RT.ZS:NY.GDP.PETR.RT.ZS{marker NY.GDP.PETR.RT.ZS}}}Oil rents (% of GDP){p_end}
 
@@ -1860,7 +1862,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.MKTP.PP.CD:NY.GNP.MKTP.PP.CD{marker NY.GNP.MKTP.PP.CD}}}GNI, PPP (current international $){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.MKTP.PP.KD:NY.GNP.MKTP.PP.KD{marker NY.GNP.MKTP.PP.KD}}}GNI, PPP (constant 2011 international $){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.MKTP.PP.KD:NY.GNP.MKTP.PP.KD{marker NY.GNP.MKTP.PP.KD}}}GNI, PPP (constant 2017 international $){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.PCAP.CD:NY.GNP.PCAP.CD{marker NY.GNP.PCAP.CD}}}GNI per capita, Atlas method (current US$){p_end}
 
@@ -1874,7 +1876,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.PCAP.PP.CD:NY.GNP.PCAP.PP.CD{marker NY.GNP.PCAP.PP.CD}}}GNI per capita, PPP (current international $){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.PCAP.PP.KD:NY.GNP.PCAP.PP.KD{marker NY.GNP.PCAP.PP.KD}}}GNI per capita, PPP (constant 2011 international $){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.PCAP.PP.KD:NY.GNP.PCAP.PP.KD{marker NY.GNP.PCAP.PP.KD}}}GNI per capita, PPP (constant 2017 international $){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNS.ICTR.CD:NY.GNS.ICTR.CD{marker NY.GNS.ICTR.CD}}}Gross savings (current US$){p_end}
 
@@ -2216,21 +2218,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.GEN.PARL.ZS:SG.GEN.PARL.ZS{marker SG.GEN.PARL.ZS}}}Proportion of seats held by women in national parliaments (%){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.JOB.NOPN.EQ:SG.JOB.NOPN.EQ{marker SG.JOB.NOPN.EQ}}}Nonpregnant and nonnursing women can do the same jobs as men (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.LAW.CHMR:SG.LAW.CHMR{marker SG.LAW.CHMR}}}Law prohibits or invalidates child or early marriage (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.LAW.EQRM.WK:SG.LAW.EQRM.WK{marker SG.LAW.EQRM.WK}}}Law mandates equal remuneration for females and males for work of equal value (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.LAW.LEVE.PU:SG.LAW.LEVE.PU{marker SG.LAW.LEVE.PU}}}Law mandates paid or unpaid maternity leave (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.LAW.NODC.HR:SG.LAW.NODC.HR{marker SG.LAW.NODC.HR}}}Law mandates nondiscrimination based on gender in hiring (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.LEG.DVAW:SG.LEG.DVAW{marker SG.LEG.DVAW}}}Legislation exists on domestic violence (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.MMR.LEVE.EP:SG.MMR.LEVE.EP{marker SG.MMR.LEVE.EP}}}Mothers are guaranteed an equivalent position after maternity leave (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.NOD.CONS:SG.NOD.CONS{marker SG.NOD.CONS}}}Nondiscrimination clause mentions gender in the constitution (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.LAW.INDX:SG.LAW.INDX{marker SG.LAW.INDX}}}Women Business and the Law Index Score (scale 1-100){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SG.TIM.UWRK.FE:SG.TIM.UWRK.FE{marker SG.TIM.UWRK.FE}}}Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day){p_end}
 
@@ -2550,6 +2538,8 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.DST.10TH.10:SI.DST.10TH.10{marker SI.DST.10TH.10}}}Income share held by highest 10%{p_end}
 
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.DST.50MD:SI.DST.50MD{marker SI.DST.50MD}}}Proportion of people living below 50 percent of median income (%){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.DST.FRST.10:SI.DST.FRST.10{marker SI.DST.FRST.10}}}Income share held by lowest 10%{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.DST.FRST.20:SI.DST.FRST.20{marker SI.DST.FRST.20}}}Income share held by lowest 20%{p_end}
@@ -2564,21 +2554,33 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.LMIC.GP:SI.POV.LMIC.GP{marker SI.POV.LMIC.GP}}}Poverty gap at $3.20 a day (2011 PPP) (%){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.MDIM:SI.POV.MDIM{marker SI.POV.MDIM}}}Multidimensional poverty headcount ratio (% of total population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.MDIM.17:SI.POV.MDIM.17{marker SI.POV.MDIM.17}}}Multidimensional poverty headcount ratio, children (% of population ages 0-17){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.MDIM.17.XQ:SI.POV.MDIM.17.XQ{marker SI.POV.MDIM.17.XQ}}}Multidimensional poverty index, children (population ages 0-17) (scale 0-1){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.MDIM.FE:SI.POV.MDIM.FE{marker SI.POV.MDIM.FE}}}Multidimensional poverty headcount ratio, female (% of female population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.MDIM.HH:SI.POV.MDIM.HH{marker SI.POV.MDIM.HH}}}Multidimensional poverty headcount ratio, household (% of total households){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.MDIM.IT:SI.POV.MDIM.IT{marker SI.POV.MDIM.IT}}}Multidimensional poverty intensity (average share of deprivations experienced by the poor){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.MDIM.MA:SI.POV.MDIM.MA{marker SI.POV.MDIM.MA}}}Multidimensional poverty headcount ratio, male (% of male population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.MDIM.XQ:SI.POV.MDIM.XQ{marker SI.POV.MDIM.XQ}}}Multidimensional poverty index (scale 0-1){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.NAGP:SI.POV.NAGP{marker SI.POV.NAGP}}}Poverty gap at national poverty lines (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.NAHC:SI.POV.NAHC{marker SI.POV.NAHC}}}Poverty headcount ratio at national poverty lines (% of population){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.RUGP:SI.POV.RUGP{marker SI.POV.RUGP}}}Rural poverty gap at national poverty lines (%){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.RUHC:SI.POV.RUHC{marker SI.POV.RUHC}}}Rural poverty headcount ratio at national poverty lines (% of rural population){p_end}
-
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.UMIC:SI.POV.UMIC{marker SI.POV.UMIC}}}Poverty headcount ratio at $5.50 a day (2011 PPP) (% of population){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.UMIC.GP:SI.POV.UMIC.GP{marker SI.POV.UMIC.GP}}}Poverty gap at $5.50 a day (2011 PPP) (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.URGP:SI.POV.URGP{marker SI.POV.URGP}}}Urban poverty gap at national poverty lines (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.POV.URHC:SI.POV.URHC{marker SI.POV.URHC}}}Urban poverty headcount ratio at national poverty lines (% of urban population){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SI.RMT.COST.IB.ZS:SI.RMT.COST.IB.ZS{marker SI.RMT.COST.IB.ZS}}}Average transaction cost of sending remittances to a specific country (%){p_end}
 
@@ -2666,7 +2668,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.FAM.WORK.ZS:SL.FAM.WORK.ZS{marker SL.FAM.WORK.ZS}}}Contributing family workers, total (% of total employment) (modeled ILO estimate){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.GDP.PCAP.EM.KD:SL.GDP.PCAP.EM.KD{marker SL.GDP.PCAP.EM.KD}}}GDP per person employed (constant 2011 PPP $){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.GDP.PCAP.EM.KD:SL.GDP.PCAP.EM.KD{marker SL.GDP.PCAP.EM.KD}}}GDP per person employed (constant 2017 PPP $){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SL.IND.EMPL.FE.ZS:SL.IND.EMPL.FE.ZS{marker SL.IND.EMPL.FE.ZS}}}Employment in industry, female (% of female employment) (modeled ILO estimate){p_end}
 
@@ -2862,7 +2864,11 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SN.ITK.DEFC.ZS:SN.ITK.DEFC.ZS{marker SN.ITK.DEFC.ZS}}}Prevalence of undernourishment (% of population){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SN.ITK.MSFI.ZS:SN.ITK.MSFI.ZS{marker SN.ITK.MSFI.ZS}}}Prevalence of moderate or severe food insecurity in the population (%){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SN.ITK.SALT.ZS:SN.ITK.SALT.ZS{marker SN.ITK.SALT.ZS}}}Consumption of iodized salt (% of households){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_SN.ITK.SVFI.ZS:SN.ITK.SVFI.ZS{marker SN.ITK.SVFI.ZS}}}Prevalence of severe food insecurity in the population (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SN.ITK.VITA.ZS:SN.ITK.VITA.ZS{marker SN.ITK.VITA.ZS}}}Vitamin A supplementation coverage rate (% of children ages 6-59 months){p_end}
 
@@ -11741,7 +11747,23 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.G.8.T:UIS.G.8.T{marker UIS.G.8.T}}}Graduates from ISCED 8 programmes in tertiary education, both sexes (number){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GER.0:UIS.GER.0{marker UIS.GER.0}}}Gross enrolment ratio, early childhood education, both sexes (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GER.0.F:UIS.GER.0.F{marker UIS.GER.0.F}}}Gross enrolment ratio, early childhood education, female (%){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GER.0.GPI:UIS.GER.0.GPI{marker UIS.GER.0.GPI}}}Gross enrolment ratio, pre-primary, gender parity index (GPI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GER.0.M:UIS.GER.0.M{marker UIS.GER.0.M}}}Gross enrolment ratio, early childhood education, male (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GER.01:UIS.GER.01{marker UIS.GER.01}}}Gross enrolment ratio, early childhood educational development programmes, both sexes (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GER.01.F:UIS.GER.01.F{marker UIS.GER.01.F}}}Gross enrolment ratio, early childhood educational development programmes, female (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GER.01.GPI:UIS.GER.01.GPI{marker UIS.GER.01.GPI}}}Gross enrolment ratio, early childhood educational development programmes, gender parity index (GPI){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GER.01.M:UIS.GER.01.M{marker UIS.GER.01.M}}}Gross enrolment ratio, early childhood educational development programmes, male (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GER.02.GPI:UIS.GER.02.GPI{marker UIS.GER.02.GPI}}}Gross enrolment ratio, pre-primary, gender parity index (GPI){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.GER.12:UIS.GER.12{marker UIS.GER.12}}}Gross enrolment ratio, primary and lower secondary, both sexes (%){p_end}
 
@@ -12677,13 +12699,13 @@
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.SCHBSP.2.PU.WELEC:UIS.SCHBSP.2.PU.WELEC{marker UIS.SCHBSP.2.PU.WELEC}}}Proportion of public lower secondary schools with access to electricity (%){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.SLE.0:UIS.SLE.0{marker UIS.SLE.0}}}School life expectancy, pre-primary, both sexes (years){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.SLE.02:UIS.SLE.02{marker UIS.SLE.02}}}School life expectancy, pre-primary, both sexes (years){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.SLE.0.F:UIS.SLE.0.F{marker UIS.SLE.0.F}}}School life expectancy, pre-primary, female (years){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.SLE.02.F:UIS.SLE.02.F{marker UIS.SLE.02.F}}}School life expectancy, pre-primary, female (years){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.SLE.0.GPI:UIS.SLE.0.GPI{marker UIS.SLE.0.GPI}}}School life expectancy, pre-primary, gender parity index (GPI){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.SLE.02.GPI:UIS.SLE.02.GPI{marker UIS.SLE.02.GPI}}}School life expectancy, pre-primary, gender parity index (GPI){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.SLE.0.M:UIS.SLE.0.M{marker UIS.SLE.0.M}}}School life expectancy, pre-primary, male (years){p_end}
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.SLE.02.M:UIS.SLE.02.M{marker UIS.SLE.02.M}}}School life expectancy, pre-primary, male (years){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.SLE.1:UIS.SLE.1{marker UIS.SLE.1}}}School life expectancy, primary, both sexes (years){p_end}
 
@@ -12826,6 +12848,10 @@
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.TEP.8.F:UIS.TEP.8.F{marker UIS.TEP.8.F}}}Share of female students in tertiary education enrolled in ISCED 8 (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.TEP.8.M:UIS.TEP.8.M{marker UIS.TEP.8.M}}}Share of male students in tertiary education enrolled in ISCED 8 (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.THAGE.02:UIS.THAGE.02{marker UIS.THAGE.02}}}Official entrance age to pre-primary education (years){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.THDUR.02:UIS.THDUR.02{marker UIS.THDUR.02}}}Theoretical duration of pre-primary education (years){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_UIS.TRANRA.23.GPV.GPI:UIS.TRANRA.23.GPV.GPI{marker UIS.TRANRA.23.GPV.GPI}}}Effective transition rate from primary to lower secondary general education, gender parity index (GPI){p_end}
 
@@ -13463,6 +13489,32 @@
 
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SE.TER.GRAD.FE.SI.ZS:SE.TER.GRAD.FE.SI.ZS{marker SE.TER.GRAD.FE.SI.ZS}}}Female share of graduates from Science, Technology, Engineering and Mathematics (STEM) programmes, tertiary (%){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.ABS.PENB:SG.ABS.PENB{marker SG.ABS.PENB}}}There are periods of absence due to child care accounted for in pension benefits (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.AGE.FUPN.EQ:SG.AGE.FUPN.EQ{marker SG.AGE.FUPN.EQ}}}The ages at which men and women can retire with full pension benefits are equal (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.AGE.MRET.EQ:SG.AGE.MRET.EQ{marker SG.AGE.MRET.EQ}}}The mandatory retirement age for men and women are equal (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.AGE.PAPN.EQ:SG.AGE.PAPN.EQ{marker SG.AGE.PAPN.EQ}}}The ages at which men and women can retire with partial pension benefits are equal (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.AGE.RTRE.FE:SG.AGE.RTRE.FE{marker SG.AGE.RTRE.FE}}}Mandatory retirement age, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.AGE.RTRE.FL.FE:SG.AGE.RTRE.FL.FE{marker SG.AGE.RTRE.FL.FE}}}Retirement age with full benefits, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.AGE.RTRE.FL.MA:SG.AGE.RTRE.FL.MA{marker SG.AGE.RTRE.FL.MA}}}Retirement age with full benefits, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.AGE.RTRE.MA:SG.AGE.RTRE.MA{marker SG.AGE.RTRE.MA}}}Mandatory retirement age, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.AGE.RTRE.PL.FE:SG.AGE.RTRE.PL.FE{marker SG.AGE.RTRE.PL.FE}}}Retirement age with partial benefits, female{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.AGE.RTRE.PL.MA:SG.AGE.RTRE.PL.MA{marker SG.AGE.RTRE.PL.MA}}}Retirement age with partial benefits, male{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.APL.PSPT.EQ:SG.APL.PSPT.EQ{marker SG.APL.PSPT.EQ}}}A woman can apply for a passport in the same way as a man (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.BUS.REGT.EQ:SG.BUS.REGT.EQ{marker SG.BUS.REGT.EQ}}}A woman can register a business in the same way as a man (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.CNT.SIGN.EQ:SG.CNT.SIGN.EQ{marker SG.CNT.SIGN.EQ}}}A woman can sign a contract in the same way as a man (1=yes; 0=no){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.COK.CHCO.ZS:SG.COK.CHCO.ZS{marker SG.COK.CHCO.ZS}}}Main cooking fuel: charcoal (% of households){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.COK.CROP.ZS:SG.COK.CROP.ZS{marker SG.COK.CROP.ZS}}}Main cooking fuel: agricultural crop (% of households){p_end}
@@ -13485,7 +13537,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.COK.WOOD.ZS:SG.COK.WOOD.ZS{marker SG.COK.WOOD.ZS}}}Main cooking fuel: wood (% of households){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.CRT.TSTM.WT:SG.CRT.TSTM.WT{marker SG.CRT.TSTM.WT}}}Woman's testimony carries the same evidentiary weight in court as a man's (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.CTR.TRVL.EQ:SG.CTR.TRVL.EQ{marker SG.CTR.TRVL.EQ}}}A woman can travel outside the country in the same way as a man (1=yes; 0=no){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.DMK.DPCH.FN.ZS:SG.DMK.DPCH.FN.ZS{marker SG.DMK.DPCH.FN.ZS}}}Women participating in making daily purchase decisions (% of women age 15-49){p_end}
 
@@ -13529,9 +13581,15 @@
 
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.DMK.VISI.WH.ZS:SG.DMK.VISI.WH.ZS{marker SG.DMK.VISI.WH.ZS}}}Decision maker about Visits to her family or relatives: wife and husband jointly (% of women age 15-49){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.DML.PRGW:SG.DML.PRGW{marker SG.DML.PRGW}}}Dismissal of pregnant workers is prohibited (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.DNG.WORK.DN.EQ:SG.DNG.WORK.DN.EQ{marker SG.DNG.WORK.DN.EQ}}}Women can work in jobs deemed dangerous in the same way as men (1=yes; 0=no){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.GEN.MNST.ZS:SG.GEN.MNST.ZS{marker SG.GEN.MNST.ZS}}}Proportion of women in ministerial level positions (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.GEN.TECH.ZS:SG.GEN.TECH.ZS{marker SG.GEN.TECH.ZS}}}Female professional and technical workers (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.GET.JOBS.EQ:SG.GET.JOBS.EQ{marker SG.GET.JOBS.EQ}}}A woman can get a job in the same way as a man (1=yes; 0=no){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.H2O.PRMS.HH.ZS:SG.H2O.PRMS.HH.ZS{marker SG.H2O.PRMS.HH.ZS}}}Households with water on the premises (%){p_end}
 
@@ -13539,17 +13597,39 @@
 
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.H2O.TM30.HH.ZS:SG.H2O.TM30.HH.ZS{marker SG.H2O.TM30.HH.ZS}}}Households with water 30 minutes or longer away round trip (%){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.HLD.HEAD.EQ:SG.HLD.HEAD.EQ{marker SG.HLD.HEAD.EQ}}}A woman can be head of household in the same way as a man (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.HME.TRVL.EQ:SG.HME.TRVL.EQ{marker SG.HME.TRVL.EQ}}}A woman can travel outside her home in the same way as a man (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.IHT.ASST.EQ:SG.IHT.ASST.EQ{marker SG.IHT.ASST.EQ}}}Female and male surviving spouses have equal rights to inherit assets (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.IHT.ASST.PT.EQ:SG.IHT.ASST.PT.EQ{marker SG.IHT.ASST.PT.EQ}}}Sons and daughters have equal rights to inherit assets from their parents (1=yes; 0=no){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.IND.WORK.EQ:SG.IND.WORK.EQ{marker SG.IND.WORK.EQ}}}Women are able to work in the same industries as men (1=yes; 0=no){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.LAW.OBHB.MR:SG.LAW.OBHB.MR{marker SG.LAW.OBHB.MR}}}Married women are required by law to obey their husbands (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.LAW.ASST.AR:SG.LAW.ASST.AR{marker SG.LAW.ASST.AR}}}The law grants spouses equal administrative authority over assets during marriage (1=yes; 0=no){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.LEG.MRRP:SG.LEG.MRRP{marker SG.LEG.MRRP}}}Legislation explicitly criminalizes marital rape (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.LAW.CRDD.GR:SG.LAW.CRDD.GR{marker SG.LAW.CRDD.GR}}}The law prohibits discrimination in access to credit based on gender (1=yes; 0=no){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.LEG.SXHR:SG.LEG.SXHR{marker SG.LEG.SXHR}}}Legislation specifically addresses sexual harassment (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.LAW.EQRM.WK:SG.LAW.EQRM.WK{marker SG.LAW.EQRM.WK}}}Law mandates equal remuneration for females and males for work of equal value (1=yes; 0=no){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.LEG.SXHR.EM:SG.LEG.SXHR.EM{marker SG.LEG.SXHR.EM}}}Legislation exists on sexual harassment in employment (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.LAW.NMCN:SG.LAW.NMCN{marker SG.LAW.NMCN}}}The law provides for the valuation of nonmonetary contributions (1=yes; 0=no){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.OBT.IDCD.MR:SG.OBT.IDCD.MR{marker SG.OBT.IDCD.MR}}}Married women can obtain a national ID card in the same way as married men (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.LAW.NODC.HR:SG.LAW.NODC.HR{marker SG.LAW.NODC.HR}}}Law prohibits discrimination in employment based on gender (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.LAW.OBHB.MR.NO:SG.LAW.OBHB.MR.NO{marker SG.LAW.OBHB.MR.NO}}}There is no legal provision that requires a married woman to obey her husband (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.LEG.DVAW:SG.LEG.DVAW{marker SG.LEG.DVAW}}}There is legislation specifically addressing domestic violence (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.LEG.SXHR.EM:SG.LEG.SXHR.EM{marker SG.LEG.SXHR.EM}}}There is legislation on sexual harassment in employment (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.LOC.LIVE.EQ:SG.LOC.LIVE.EQ{marker SG.LOC.LIVE.EQ}}}A woman can choose where to live in the same way as a man (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.NGT.WORK.EQ:SG.NGT.WORK.EQ{marker SG.NGT.WORK.EQ}}}Women can work the same night hours as men (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.OBT.DVRC.EQ:SG.OBT.DVRC.EQ{marker SG.OBT.DVRC.EQ}}}A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.OPN.BANK.EQ:SG.OPN.BANK.EQ{marker SG.OPN.BANK.EQ}}}A woman can open a bank account in the same way as a man (1=yes; 0=no){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.OWN.HSAJ.FE.Q1.ZS:SG.OWN.HSAJ.FE.Q1.ZS{marker SG.OWN.HSAJ.FE.Q1.ZS}}}Women who own a house both alone and jointly (% of women age 15-49): Q1 (lowest){p_end}
 
@@ -13743,9 +13823,17 @@
 
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.OWN.LDNO.MA.ZS:SG.OWN.LDNO.MA.ZS{marker SG.OWN.LDNO.MA.ZS}}}Men who do not own land (% of men){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.OWN.PRRT.MR:SG.OWN.PRRT.MR{marker SG.OWN.PRRT.MR}}}Married men and married women have equal ownership rights to property (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.OWN.PRRT.IM:SG.OWN.PRRT.IM{marker SG.OWN.PRRT.IM}}}Men and married women have equal ownership rights to immovable property (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.PEN.SXHR.EM:SG.PEN.SXHR.EM{marker SG.PEN.SXHR.EM}}}Criminal penalties or civil remedies exist for sexual harassment in employment (1=yes; 0=no){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.POP.MIGR.FE.ZS:SG.POP.MIGR.FE.ZS{marker SG.POP.MIGR.FE.ZS}}}Female migrants (% of international migrant stock){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.REG.NLID.FE.ZS:SG.REG.NLID.FE.ZS{marker SG.REG.NLID.FE.ZS}}}Women with a national identity card or equivalent foundational identity document (% of women ages 15+){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.REG.NLID.MA.ZS:SG.REG.NLID.MA.ZS{marker SG.REG.NLID.MA.ZS}}}Men with a national identity card or equivalent foundational identity document (% of men ages 15+){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.REM.RIGT.EQ:SG.REM.RIGT.EQ{marker SG.REM.RIGT.EQ}}}A woman has the same rights to remarry as a man (1=yes; 0=no){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SG.RSX.BRTH.Q1.ZS:SG.RSX.BRTH.Q1.ZS{marker SG.RSX.BRTH.Q1.ZS}}}Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q1 (lowest){p_end}
 
@@ -13907,9 +13995,23 @@
 
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SH.HIV.ARTC.MA.ZS:SH.HIV.ARTC.MA.ZS{marker SH.HIV.ARTC.MA.ZS}}}Access to anti-retroviral drugs, male (%){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SH.MMR.LEVE:SH.MMR.LEVE{marker SH.MMR.LEVE}}}Maternity leave (days paid){p_end}
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SH.MMR.LEVE:SH.MMR.LEVE{marker SH.MMR.LEVE}}}Length of paid maternity leave (days){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SH.MMR.WAGE.ZS:SH.MMR.WAGE.ZS{marker SH.MMR.WAGE.ZS}}}Maternity leave benefits (% of wages paid){p_end}
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SH.MMR.LEVE.AL:SH.MMR.LEVE.AL{marker SH.MMR.LEVE.AL}}}Paid leave of at least 14 weeks is available to women (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SH.MMR.LEVE.GT:SH.MMR.LEVE.GT{marker SH.MMR.LEVE.GT}}}The government administers 100% of maternity leave benefits (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SH.PAR.LEVE:SH.PAR.LEVE{marker SH.PAR.LEVE}}}Length of paid shared parental leave (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SH.PAR.LEVE.AL:SH.PAR.LEVE.AL{marker SH.PAR.LEVE.AL}}}There is paid parental leave (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SH.PAR.LEVE.FE:SH.PAR.LEVE.FE{marker SH.PAR.LEVE.FE}}}Length of paid parental leave for mother (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SH.PAR.LEVE.MA:SH.PAR.LEVE.MA{marker SH.PAR.LEVE.MA}}}Length of paid parental leave for father (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SH.PTR.LEVE:SH.PTR.LEVE{marker SH.PTR.LEVE}}}Length of paid paternity leave (days){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators14##sourceid_SH.PTR.LEVE.AL:SH.PTR.LEVE.AL{marker SH.PTR.LEVE.AL}}}Paid leave is available to fathers (1=yes; 0=no){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SH.STA.FGMS.Q1.ZS:SH.STA.FGMS.Q1.ZS{marker SH.STA.FGMS.Q1.ZS}}}Female genital mutilation prevalence (%): Q1 (lowest){p_end}
 
@@ -14071,9 +14173,15 @@
 
 {synopt:{help wbopendata_sourceid_indicators16##sourceid_SH.IMM.POL3:SH.IMM.POL3{marker SH.IMM.POL3}}}Immunization, Pol3 (% of one-year-old children){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators16##sourceid_SH.MLR.IPTP.ZS:SH.MLR.IPTP.ZS{marker SH.MLR.IPTP.ZS}}}Intermittent preventive treatment (IPT) of malaria in pregnancy (% of pregnant women){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators16##sourceid_SH.MMR.WAGE.ZS:SH.MMR.WAGE.ZS{marker SH.MMR.WAGE.ZS}}}Maternity leave benefits (% of wages paid){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators16##sourceid_SH.PRG.SYPH.ZS:SH.PRG.SYPH.ZS{marker SH.PRG.SYPH.ZS}}}Prevalence of syphilis (% of women attending antenatal care){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators16##sourceid_SH.STA.ANV4.ZS:SH.STA.ANV4.ZS{marker SH.STA.ANV4.ZS}}}Pregnant women receiving prenatal care of at least four visits (% of pregnant women){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators16##sourceid_SH.STA.IYCF.ZS:SH.STA.IYCF.ZS{marker SH.STA.IYCF.ZS}}}Infant and young child feeding practices, all 3 IYCF (% children ages 6-23 months){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators16##sourceid_SH.STA.MALR:SH.STA.MALR{marker SH.STA.MALR}}}Malaria cases reported{p_end}
 
@@ -31032,6 +31140,17 @@
 {synopt:{help wbopendata_sourceid_indicators41##sourceid_IN.TRANSPORT.URBNRD.DENSIT:IN.TRANSPORT.URBNRD.DENSIT{marker IN.TRANSPORT.URBNRD.DENSIT}}}Urban Road Density (KMs Per 1000 Population){p_end}
 {synoptline}
 
+{marker sourceid_43}
+{p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_43:Source}} or {it:{help wbopendata_sourceid_indicators43##:TOC}}){p_end}
+{synoptset 40 tabbed}{...}
+{synopthdr:43 Adjusted Net Savings}
+{synoptline}
+
+{synopt:{help wbopendata_sourceid_indicators43##sourceid_NY.ADJ.ICTR.CD:NY.ADJ.ICTR.CD{marker NY.ADJ.ICTR.CD}}}Adjusted savings: gross savings (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators43##sourceid_NY.ADJ.SVNG.PC.CD:NY.ADJ.SVNG.PC.CD{marker NY.ADJ.SVNG.PC.CD}}}Adjusted net savings per capita (current US$){p_end}
+{synoptline}
+
 {marker sourceid_45}
 {p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_45:Source}} or {it:{help wbopendata_sourceid_indicators45##:TOC}}){p_end}
 {synoptset 40 tabbed}{...}
@@ -32452,6 +32571,8 @@
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_IT.TVS.SETS.P3:IT.TVS.SETS.P3{marker IT.TVS.SETS.P3}}}Television sets (per 1,000 people){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_LO.PISA.REA.0:LO.PISA.REA.0{marker LO.PISA.REA.0}}}PISA: 15-year-olds by reading proficiency level (%). Below Level 1B{p_end}
+
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_MS.MIL.MPRT.ZS:MS.MIL.MPRT.ZS{marker MS.MIL.MPRT.ZS}}}Arms imports (% of total imports){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_MS.MIL.XPND.GN.ZS:MS.MIL.XPND.GN.ZS{marker MS.MIL.XPND.GN.ZS}}}Military expenditure (% of GNI){p_end}
@@ -32810,6 +32931,18 @@
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.PRM.AGEE.ZS:SE.PRM.AGEE.ZS{marker SE.PRM.AGEE.ZS}}}Age efficiency, primary (net enrollment as % of gross){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.PRM.CMPR.FE.ZS:SE.PRM.CMPR.FE.ZS{marker SE.PRM.CMPR.FE.ZS}}}Primary completion rate, female (% of relevant age group, DHS/MICS){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.PRM.CMPR.MA.ZS:SE.PRM.CMPR.MA.ZS{marker SE.PRM.CMPR.MA.ZS}}}Primary completion rate, male (% of relevant age group, DHS/MICS){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.PRM.CMPR.Q1.ZS:SE.PRM.CMPR.Q1.ZS{marker SE.PRM.CMPR.Q1.ZS}}}Primary completion rate, poorest quintile (% of relevant age group, DHS/MICS){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.PRM.CMPR.Q5.ZS:SE.PRM.CMPR.Q5.ZS{marker SE.PRM.CMPR.Q5.ZS}}}Primary completion rate, richest quintile (% of relevant age group, DHS/MICS){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.PRM.CMPR.RU.ZS:SE.PRM.CMPR.RU.ZS{marker SE.PRM.CMPR.RU.ZS}}}Primary completion rate, rural (% of relevant age group, DHS/MICS){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.PRM.CMPR.UR.ZS:SE.PRM.CMPR.UR.ZS{marker SE.PRM.CMPR.UR.ZS}}}Primary completion rate, urban (% of relevant age group, DHS/MICS){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.PRM.ENNR.FE:SE.PRM.ENNR.FE{marker SE.PRM.ENNR.FE}}}Primary Schl. Enroll. Ratio, Female{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.PRM.ENRR.MF:SE.PRM.ENRR.MF{marker SE.PRM.ENRR.MF}}}School Enroll. Ratio, primary (%){p_end}
@@ -32821,6 +32954,10 @@
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.PRM.PRS4.ZS:SE.PRM.PRS4.ZS{marker SE.PRM.PRS4.ZS}}}Persistence to grade 4, total (% of cohort){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.PRM.PTRA:SE.PRM.PTRA{marker SE.PRM.PTRA}}}Primary school pupil-teacher ratio{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.PRM.UNER.Q1.ZS:SE.PRM.UNER.Q1.ZS{marker SE.PRM.UNER.Q1.ZS}}}Children out of school, primary, poorest quintile (% of relevant age group, DHS/MICS){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.PRM.UNER.Q5.ZS:SE.PRM.UNER.Q5.ZS{marker SE.PRM.UNER.Q5.ZS}}}Children out of school, primary, richest quintile (% of relevant age group, DHS/MICS){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.SCH.EFIC.ZS:SE.SCH.EFIC.ZS{marker SE.SCH.EFIC.ZS}}}Education coefficient of efficiency (ideal years to graduate as % of actual){p_end}
 
@@ -32874,6 +33011,10 @@
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.XPD.TOTL.GN.ZS:SE.XPD.TOTL.GN.ZS{marker SE.XPD.TOTL.GN.ZS}}}Public spending on education, total (% of GNI, UNESCO){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.YRS.SCHL.1519.Q1:SE.YRS.SCHL.1519.Q1{marker SE.YRS.SCHL.1519.Q1}}}Average years of schooling, poorest quintile (ages 15-19, DHS/MICS){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.YRS.SCHL.1519.Q5:SE.YRS.SCHL.1519.Q5{marker SE.YRS.SCHL.1519.Q5}}}Average years of schooling, richest quintile (ages 15-19, DHS/MICS){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SF.CMN.FAX.TH:SF.CMN.FAX.TH{marker SF.CMN.FAX.TH}}}Fax machines (per 1,000 people){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SF.CMN.ICALL.3MN.CD:SF.CMN.ICALL.3MN.CD{marker SF.CMN.ICALL.3MN.CD}}}International telecom, average price call to USA (US$ per 3 min.){p_end}
@@ -32915,6 +33056,16 @@
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SF.TRN.ROAD.PV.ZS:SF.TRN.ROAD.PV.ZS{marker SF.TRN.ROAD.PV.ZS}}}Roads, paved (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SG.GEN.LSOM.ZS:SG.GEN.LSOM.ZS{marker SG.GEN.LSOM.ZS}}}Female legislators, senior officials and managers (% of total){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SG.JOB.NOPN.EQ:SG.JOB.NOPN.EQ{marker SG.JOB.NOPN.EQ}}}Nonpregnant and nonnursing women can do the same jobs as men (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SG.LAW.CHMR:SG.LAW.CHMR{marker SG.LAW.CHMR}}}Law prohibits or invalidates child or early marriage (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SG.LAW.LEVE.PU:SG.LAW.LEVE.PU{marker SG.LAW.LEVE.PU}}}Law mandates paid or unpaid maternity leave (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SG.MMR.LEVE.EP:SG.MMR.LEVE.EP{marker SG.MMR.LEVE.EP}}}Mothers are guaranteed an equivalent position after maternity leave (1=yes; 0=no){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SG.NOD.CONS:SG.NOD.CONS{marker SG.NOD.CONS}}}Nondiscrimination clause mentions gender in the constitution (1=yes; 0=no){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SG.VAW.MARR.ZS:SG.VAW.MARR.ZS{marker SG.VAW.MARR.ZS}}}Spousal physical or sexual violence in last 12 months (%){p_end}
 
@@ -32981,6 +33132,10 @@
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SI.POV.DDAY.SH:SI.POV.DDAY.SH{marker SI.POV.DDAY.SH}}}Share of total poor population (at $1.90 a day, 2011 PPP){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SI.POV.GAP2:SI.POV.GAP2{marker SI.POV.GAP2}}}Poverty gap at $3.10 a day (2011 PPP) (%){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SI.POV.RUHC:SI.POV.RUHC{marker SI.POV.RUHC}}}Rural poverty headcount ratio at national poverty lines (% of rural population){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_SI.POV.URHC:SI.POV.URHC{marker SI.POV.URHC}}}Urban poverty headcount ratio at national poverty lines (% of urban population){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SI.RMT.COST.ZS:SI.RMT.COST.ZS{marker SI.RMT.COST.ZS}}}Average transaction cost of remittances (%){p_end}
 
@@ -33206,11 +33361,29 @@
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_TX.VAL.MRCH.CD.UN.ZG:TX.VAL.MRCH.CD.UN.ZG{marker TX.VAL.MRCH.CD.UN.ZG}}}Export growth, value (annual %){p_end}
 
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_TX.VAL.MRCH.HI.CD:TX.VAL.MRCH.HI.CD{marker TX.VAL.MRCH.HI.CD}}}Merchandise exports to high-income economies (current US$){p_end}
+
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_TX.VAL.MRCH.KD:TX.VAL.MRCH.KD{marker TX.VAL.MRCH.KD}}}Exports, fob (1980 US$) (Const. Price){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_TX.VAL.MRCH.KD.UN:TX.VAL.MRCH.KD.UN{marker TX.VAL.MRCH.KD.UN}}}Merchandise exports (constant 1987 US$){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_TX.VAL.MRCH.KD.UN.ZG:TX.VAL.MRCH.KD.UN.ZG{marker TX.VAL.MRCH.KD.UN.ZG}}}Export growth, volume (annual %){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_TX.VAL.MRCH.OR.CD:TX.VAL.MRCH.OR.CD{marker TX.VAL.MRCH.OR.CD}}}Merchandise exports to low- and middle-income economies outside region (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_TX.VAL.MRCH.R1.CD:TX.VAL.MRCH.R1.CD{marker TX.VAL.MRCH.R1.CD}}}Merchandise exports to low- and middle-income economies in East Asia &amp; Pacific (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_TX.VAL.MRCH.R2.CD:TX.VAL.MRCH.R2.CD{marker TX.VAL.MRCH.R2.CD}}}Merchandise exports to low- and middle-income economies in Europe &amp; Central Asia (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_TX.VAL.MRCH.R3.CD:TX.VAL.MRCH.R3.CD{marker TX.VAL.MRCH.R3.CD}}}Merchandise exports to low- and middle-income economies in Latin America &amp; the Caribbean (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_TX.VAL.MRCH.R4.CD:TX.VAL.MRCH.R4.CD{marker TX.VAL.MRCH.R4.CD}}}Merchandise exports to low- and middle-income economies in Middle East &amp; North Africa (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_TX.VAL.MRCH.R5.CD:TX.VAL.MRCH.R5.CD{marker TX.VAL.MRCH.R5.CD}}}Merchandise exports to low- and middle-income economies in South Asia (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_TX.VAL.MRCH.R6.CD:TX.VAL.MRCH.R6.CD{marker TX.VAL.MRCH.R6.CD}}}Merchandise exports to low- and middle-income economies in Sub-Saharan Africa (current US$){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators57##sourceid_TX.VAL.MRCH.WR.CD:TX.VAL.MRCH.WR.CD{marker TX.VAL.MRCH.WR.CD}}}Merchandise exports to low- and middle-income economies within region (current US$){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_TX.VAL.NFOD.UN.ZS:TX.VAL.NFOD.UN.ZS{marker TX.VAL.NFOD.UN.ZS}}}Non-food primary commodities (% of merchandise exports){p_end}
 
@@ -35439,4 +35612,105 @@
 {synopt:{help wbopendata_sourceid_indicators75##sourceid_EN.CLC.SPEI.XD:EN.CLC.SPEI.XD{marker EN.CLC.SPEI.XD}}}Mean Drought Index (SPEI){p_end}
 {synoptline}
 
-{right:(as of 13apr2020)}
+{marker sourceid_78}
+{p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_78:Source}} or {it:{help wbopendata_sourceid_indicators78##:TOC}}){p_end}
+{synoptset 40 tabbed}{...}
+{synopthdr:78 ICP 2017}
+{synoptline}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1000000:1000000{marker 1000000}}}1000000:GROSS DOMESTIC PRODUCT{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1101000:1101000{marker 1101000}}}1101000:FOOD AND NON-ALCOHOLIC BEVERAGES{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1101100:1101100{marker 1101100}}}1101100:FOOD{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1101110:1101110{marker 1101110}}}1101110:Bread and cereals{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1101120:1101120{marker 1101120}}}1101120:Meat{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1101130:1101130{marker 1101130}}}1101130:Fish and seafood{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1101140:1101140{marker 1101140}}}1101140:Milk, cheese and eggs{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1101150:1101150{marker 1101150}}}1101150:Oils and fats{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1101160:1101160{marker 1101160}}}1101160:Fruit{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1101170:1101170{marker 1101170}}}1101170:Vegetables{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1101180:1101180{marker 1101180}}}1101180:Sugar, jam, honey, chocolate and confectionery{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1101190:1101190{marker 1101190}}}1101190:Food products n.e.c. (Class){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1101200:1101200{marker 1101200}}}1101200:NON-ALCOHOLIC BEVERAGES{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1102000:1102000{marker 1102000}}}1102000:ALCOHOLIC BEVERAGES, TOBACCO AND NARCOTICS{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1102100:1102100{marker 1102100}}}1102100:ALCOHOLIC BEVERAGES{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1102200:1102200{marker 1102200}}}1102200:TOBACCO{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1103000:1103000{marker 1103000}}}1103000:CLOTHING AND FOOTWEAR{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1105000:1105000{marker 1105000}}}1105000:FURNISHINGS, HOUSEHOLD EQUIPMENT AND ROUTINE HOUSEHOLD MAINTENANCE{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1107000:1107000{marker 1107000}}}1107000:TRANSPORT{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1107100:1107100{marker 1107100}}}1107100:PURCHASE OF VEHICLES{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1107300:1107300{marker 1107300}}}1107300:TRANSPORT SERVICES{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1108000:1108000{marker 1108000}}}1108000:COMMUNICATION{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1111000:1111000{marker 1111000}}}1111000:RESTAURANTS AND HOTELS{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1113000:1113000{marker 1113000}}}1113000:NET PURCHASES ABROAD{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1300000:1300000{marker 1300000}}}1300000:INDIVIDUAL CONSUMPTION EXPENDITURE BY GOVERNMENT{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1400000:1400000{marker 1400000}}}1400000:COLLECTIVE CONSUMPTION EXPENDITURE BY GOVERNMENT{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1500000:1500000{marker 1500000}}}1500000:GROSS CAPITAL FORMATION{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1501000:1501000{marker 1501000}}}1501000:GROSS FIXED CAPITAL FORMATION{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1501100:1501100{marker 1501100}}}1501100:MACHINERY AND EQUIPMENT{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1501200:1501200{marker 1501200}}}1501200:CONSTRUCTION{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1501300:1501300{marker 1501300}}}1501300:OTHER PRODUCTS{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1502000:1502000{marker 1502000}}}1502000:CHANGES IN INVENTORIES{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1503000:1503000{marker 1503000}}}1503000:ACQUISITIONS LESS DISPOSALS OF VALUABLES (Category){p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_1600000:1600000{marker 1600000}}}1600000:BALANCE OF EXPORTS AND IMPORTS{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_9020000:9020000{marker 9020000}}}9020000:ACTUAL INDIVIDUAL CONSUMPTION{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_9060000:9060000{marker 9060000}}}9060000:ACTUAL HOUSING, WATER, ELECTRICITY, GAS AND OTHER FUELS{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_9080000:9080000{marker 9080000}}}9080000:ACTUAL HEALTH{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_9100000:9100000{marker 9100000}}}9100000:HOUSEHOLDS AND NPISHS FINAL CONSUMPTION EXPENDITURE{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_9110000:9110000{marker 9110000}}}9110000:ACTUAL RECREATION AND CULTURE{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_9120000:9120000{marker 9120000}}}9120000:ACTUAL EDUCATION{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_9140000:9140000{marker 9140000}}}9140000:ACTUAL MISCELLANEOUS GOODS AND SERVICES{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_9250000:9250000{marker 9250000}}}9250000:DOMESTIC ABSORPTION{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_9260000:9260000{marker 9260000}}}9260000:INDIVIDUAL CONSUMPTION EXPENDITURE BY HOUSEHOLDS WITHOUT HOUSING{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_9270000:9270000{marker 9270000}}}9270000:GENERAL GOVERNMENT FINAL CONSUMPTION EXPENDITURE{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_SP.EXCHG.RATE.ICP:SP.EXCHG.RATE.ICP{marker SP.EXCHG.RATE.ICP}}}SP.EXCHG.RATE.ICP:Exchange Rate Value{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_SP.POP.TOTL.ICP:SP.POP.TOTL.ICP{marker SP.POP.TOTL.ICP}}}SP.POP.TOTL.ICP:Population{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators78##sourceid_SP.POP.TOTL.ICP.ZS:SP.POP.TOTL.ICP.ZS{marker SP.POP.TOTL.ICP.ZS}}}SP.POP.TOTL.ICP.ZS:Population shares (World=100){p_end}
+{synoptline}
+
+{right:(as of 28jun2020)}

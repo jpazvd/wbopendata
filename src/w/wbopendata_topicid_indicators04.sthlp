@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -11109,9 +11109,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in Agriculture, Forestry, Fisheries and Veterinary expressed as a percentage of the total number of tertiary graduates in Agriculture, Forestry, Fisheries and Veterinary.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11122,9 +11122,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in education expressed as a percentage of the total number of tertiary graduates in education.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11135,9 +11135,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in engineering, manufacturing and construction expressed as a percentage of the total number of tertiary graduates in engineering, manufacturing and construction.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11148,9 +11148,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in health and welfare expressed as a percentage of the total number of tertiary graduates in health and welfare.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11161,9 +11161,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in humanities and arts expressed as a percentage of the total number of tertiary graduates in humanities and arts.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11174,9 +11174,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in unspecified programmes expressed as a percentage of the total number of graduates in unspecified tertiary programmes.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11187,9 +11187,22 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in Natural Sciences, Mathematics and Statistics expressed as a percentage of the total number of tertiary graduates in Natural Sciences, Mathematics and Statistics.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker topicid_SE.TER.GRAD.FE.SI.ZS}
+{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.SI.ZS:SE.TER.GRAD.FE.SI.ZS} - Female share of graduates from Science, Technology, Engineering and Mathematics (STEM) programmes, tertiary (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11200,9 +11213,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates in Social Sciences, Journalism and Information expressed as a percentage of the total number of tertiary graduates in Social Sciences, Journalism and Information.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11213,9 +11226,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates from services programmes expressed as a percentage of the total number of tertiary graduates from services programmes.{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11527,7 +11540,7 @@
 
 {synopt:{opt Source Notes}}All staff (teacher and non-teachers) compensation is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and ot{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11540,7 +11553,7 @@
 
 {synopt:{opt Source Notes}}All staff (teacher and non-teachers) compensation is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and ot{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11553,7 +11566,7 @@
 
 {synopt:{opt Source Notes}}All staff (teacher and non-teachers) compensation is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and ot{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11566,7 +11579,7 @@
 
 {synopt:{opt Source Notes}}All staff (teacher and non-teachers) compensation is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and ot{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -15808,6 +15821,45 @@
 
 
 {synoptline}
+{marker topicid_UIS.FGP.5T8.F400}
+{synopt:{bf:{help wbopendata_topicid##UIS.FGP.5T8.F400:UIS.FGP.5T8.F400} - Percentage of graduates from Business, Administration and Law programmes in tertiary education who are female (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker topicid_UIS.FGP.5T8.F600}
+{synopt:{bf:{help wbopendata_topicid##UIS.FGP.5T8.F600:UIS.FGP.5T8.F600} - Percentage of graduates from Information and Communication Technologies programmes in tertiary education who are female (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker topicid_UIS.FGP.5T8.FNON500600700}
+{synopt:{bf:{help wbopendata_topicid##UIS.FGP.5T8.FNON500600700:UIS.FGP.5T8.FNON500600700} - Percentage of graduates from other fields than Science, Technology, Engineering and Mathematics programmes in tertiary education who are female (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
 {marker topicid_UIS.FGP.7}
 {synopt:{bf:{help wbopendata_topicid##UIS.FGP.7:UIS.FGP.7} - Percentage of graduates from tertiary ISCED 7 programmes who are female (%)}}
 
@@ -18278,45 +18330,6 @@
 
 
 {synoptline}
-{marker topicid_UIS.SLE.0}
-{synopt:{bf:{help wbopendata_topicid##UIS.SLE.0:UIS.SLE.0} - School life expectancy, pre-primary, both sexes (years)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of years a person of school entrance age can expect to spend within the specified level of education. For a child of a certain age a, the school life expectancy is calculated as the sum of the age specific enrolment rates for the levels{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.SLE.0.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.SLE.0.F:UIS.SLE.0.F} - School life expectancy, pre-primary, female (years)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of years a person of school entrance age can expect to spend within the specified level of education. For a child of a certain age a, the school life expectancy is calculated as the sum of the age specific enrolment rates for the levels{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.SLE.0.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.SLE.0.M:UIS.SLE.0.M} - School life expectancy, pre-primary, male (years)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of years a person of school entrance age can expect to spend within the specified level of education. For a child of a certain age a, the school life expectancy is calculated as the sum of the age specific enrolment rates for the levels{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.SLE.123}
 {synopt:{bf:{help wbopendata_topicid##UIS.SLE.123:UIS.SLE.123} - School life expectancy, primary and secondary, both sexes (years)}}
 
@@ -19214,4 +19227,4 @@
 
 
 
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}

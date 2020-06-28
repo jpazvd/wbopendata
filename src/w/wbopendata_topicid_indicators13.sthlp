@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1134,7 +1134,7 @@
 {marker topicid_SG.JOB.NOPN.EQ}
 {synopt:{bf:{help wbopendata_topicid##SG.JOB.NOPN.EQ:SG.JOB.NOPN.EQ} - Nonpregnant and nonnursing women can do the same jobs as men (1=yes; 0=no)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1147,7 +1147,7 @@
 {marker topicid_SG.LAW.CHMR}
 {synopt:{bf:{help wbopendata_topicid##SG.LAW.CHMR:SG.LAW.CHMR} - Law prohibits or invalidates child or early marriage (1=yes; 0=no)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1160,20 +1160,20 @@
 {marker topicid_SG.LAW.EQRM.WK}
 {synopt:{bf:{help wbopendata_topicid##SG.LAW.EQRM.WK:SG.LAW.EQRM.WK} - Law mandates equal remuneration for females and males for work of equal value (1=yes; 0=no)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Law mandates equal remuneration for females and males for work of equal value is whether there is a law that obligates employers to pay equal remuneration to male and female employees who do work of equal value.“Remuneration” refers to the{p_end}
+{synopt:{opt Source Notes}}The indicator measures whether there is a law that obligates employers to pay equal remuneration to male and female employees who do work of equal value. “Remuneration” refers to the ordinary, basic or minimum wage or salary and any additi{p_end}
 
-{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_SG.LAW.LEVE.PU}
 {synopt:{bf:{help wbopendata_topicid##SG.LAW.LEVE.PU:SG.LAW.LEVE.PU} - Law mandates paid or unpaid maternity leave (1=yes; 0=no)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1184,26 +1184,26 @@
 
 {synoptline}
 {marker topicid_SG.LAW.NODC.HR}
-{synopt:{bf:{help wbopendata_topicid##SG.LAW.NODC.HR:SG.LAW.NODC.HR} - Law mandates nondiscrimination based on gender in hiring (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_topicid##SG.LAW.NODC.HR:SG.LAW.NODC.HR} - Law prohibits discrimination in employment based on gender (1=yes; 0=no)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Law mandates nondiscrimination based on gender in hiring is whether the law specifically prevents or penalizes gender-based discrimination in the hiring process; the law may prohibit discrimination in employment on the basis of gender but be s{p_end}
+{synopt:{opt Source Notes}}The indicator measures whether the law generally prevents or penalizes gender-based discrimination in employment. Laws that mandate equal treatment or equality between women and men in employment are also counted for this question. It is not c{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
 
 
 {synoptline}
 {marker topicid_SG.LEG.DVAW}
-{synopt:{bf:{help wbopendata_topicid##SG.LEG.DVAW:SG.LEG.DVAW} - Legislation exists on domestic violence (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_topicid##SG.LEG.DVAW:SG.LEG.DVAW} - There is legislation specifically addressing domestic violence (1=yes; 0=no)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Legislation exists on domestic violence is whether there is legislation addressing domestic violence: violence between spouses, within the family or members of the same household, or in interpersonal relationships, including intimate partner v{p_end}
+{synopt:{opt Source Notes}}The indicator measures whether there is legislation addressing domestic violence that includes criminal sanctions or provides for protection orders for domestic violence, or the legislation addresses harassment that clearly leads to physical o{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
 
@@ -1212,7 +1212,7 @@
 {marker topicid_SG.MMR.LEVE.EP}
 {synopt:{bf:{help wbopendata_topicid##SG.MMR.LEVE.EP:SG.MMR.LEVE.EP} - Mothers are guaranteed an equivalent position after maternity leave (1=yes; 0=no)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1225,7 +1225,7 @@
 {marker topicid_SG.NOD.CONS}
 {synopt:{bf:{help wbopendata_topicid##SG.NOD.CONS:SG.NOD.CONS} - Nondiscrimination clause mentions gender in the constitution (1=yes; 0=no)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1339,4 +1339,4 @@
 
 
 
-{right:(as of 13apr2020)}
+{right:(as of 28jun2020)}
