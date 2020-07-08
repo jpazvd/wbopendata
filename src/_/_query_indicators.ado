@@ -1,156 +1,7 @@
 ********************************************************************************
-*! v 15.2  	8Mar2019               by Joao Pedro Azevedo   
-*	initial commit
-/*******************************************************************************
-
-cd "C:\GitHub_myados\wbopendata\src"
-
-! git checkout dev
-
-discard
-
-*****************************************************************
-
-_query_indicators , indicator("2.0.cov.Math.pl_3.prv")
-tab indicatorcode
-list
-
-_query_indicators , indicator("2.0.cov.Math.pl_3.prv") source
-tab indicatorcode
-list
-
-_query_indicators , indicator(BX.GSR.TOTL.CD)
-tab indicatorcode
-list
-
-_query_indicators , indicator(BX.GSR.TOTL.CD) source
-tab indicatorcode
-list
-
-
-*****************************************************************
-* Multiple indicators per_page does not seem to work
-* skip patters are different due to different numbers of topics
-
-_query_indicators , per_page(10) page(1)
-tab indicatorcode
-
-
-_query_indicators , per_page(10) page(2)
-tab indicatorcode
-
-
-_query_indicators , per_page(10) page(100)
-tab indicatorcode
-
-
-_query_indicators , per_page(20) page(1)
-tab indicatorcode
-
-
-_query_indicators, per_page(20) page(1)
-tab indicatorcode
-
-_query_indicators, per_page(20) page(2)
-tab indicatorcode
-
-_query_indicators, per_page(70) 
-tab indicatorcode
-
-
-_query_indicators, per_page(200) page(1)
-tab indicatorcode
-
-_query_indicators, per_page(2000) 
-tab indicatorcode
-drop if indicatorcode == "."
-bysort indicatorcode : gen dups = _n
-bysort indicatorcode : gen tot = _N
-
-*************************************************
-
-_query_indicators, per_page(1) cmax(10)
-tab indicatorcode
-
-_query_indicators, per_page(1) page(647) cmax(653) noi nopreserve
-tab indicatorcode
-
-/* break */
-set more off
-_query_indicators, per_page(1) page(7687) cmax(16638) nopreserve using(tmp3tmp.csv)
-tab indicatorcode
-
-/* break */
-_query_indicators, per_page(1) page(7680) cmax(7693) noi nopreserve using(tmp.csv)
-tab indicatorcode
-
-
-_query_indicators, per_page(1) page(1726) cmax(1728) noi nopreserve source
-tab indicatorcode
-
-set trace on
-_query_indicators, per_page(1) page(1728) cmax(1728) noi nopreserve verbose
-
-
-
-_query_indicators, per_page(1) cmax(100) 
-tab indicatorcode
-
-
-clear
-set more off
-_query_indicators, per_page(1) cmax(16638) using(tmp2tmp)
-
-set more off
-_query_indicators, per_page(1) cmax(700)
-
-
-set trace on
-set tracedepth 1
-
-
-
-*****************************************************
-* Examples of multiple topics in a single indicator
-
-_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.TOTL.CD") ///
-		parameter( indicator?id name topic?id ) 
-return list
-
-_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.TOTL.CD") ///
-		parameter( indicator?id name topic?id source?id sourceNote sourceOrganization ) ///
-		verbose 
-return list
-
-*****************************************************
-
-_api_read, list query("http://api.worldbank.org/v2/indicators/6.1_LEG.CA") ///
-		parameter( indicator?id name topic?id ) verbose
-return list
-
-_api_read, list query("http://api.worldbank.org/v2/indicators/6.1_LEG.CA") ///
-		parameter( indicator?id name topic?id ) 
-return list
-
-
-_query_indicators, indicator("6.1_LEG.CA") nopreserve
-
-_query_indicators, indicator("6.0.GDPpc_constant") nopreserve
-
-
-
-_query_indicators, indicator("BX.GSR.TOTL.CD")
-tab indicatorcode
-
-_query_indicators, indicator(IN.HLTH.HIVDEATH.EST) nopreserve
-
-_api_read, list query("http://api.worldbank.org/v2/indicators/IN.HLTH.HIVDEATH.EST") ///
-		parameter( indicator?id name topic?id source?id sourceNote sourceOrganization ) ///
-		verbose 
-return list
-
-
-*******************************************************************************/
+*! v 16.3  	8Jul2020               by Joao Pedro Azevedo
+* 	change to HTTPS
+*******************************************************************************
 
 program define _query_indicators , rclass
 
@@ -194,7 +45,7 @@ quietly {
 	/* if specific indicator is provided						           */				
 
 	if ("`indicator'" != "") {
-		local query1 `"http://api.worldbank.org/v2/indicators/`indicator'"'
+		local query1 `"https://api.worldbank.org/v2/indicators/`indicator'"'
 		local pages = 1
 		local maxpp = 1
 		local min = 1
@@ -507,7 +358,9 @@ end
 
 *******************************************************************************
 * v 15.2  	8Mar2019               by Joao Pedro Azevedo   
-*
+*	initial commit
+*******************************************************************************
+* v 15.2  	8Mar2019               by Joao Pedro Azevedo   
 *	query to country attributes using API (requires _api_read.ado)
 *	generate country attributes tables
 *	update country attribute tables
@@ -517,4 +370,153 @@ end
 *		topiccode
 *		topicname
 *
-*******************************************************************************
+/*******************************************************************************
+
+cd "C:\GitHub_myados\wbopendata\src"
+
+! git checkout dev
+
+discard
+
+*****************************************************************
+
+_query_indicators , indicator("2.0.cov.Math.pl_3.prv")
+tab indicatorcode
+list
+
+_query_indicators , indicator("2.0.cov.Math.pl_3.prv") source
+tab indicatorcode
+list
+
+_query_indicators , indicator(BX.GSR.TOTL.CD)
+tab indicatorcode
+list
+
+_query_indicators , indicator(BX.GSR.TOTL.CD) source
+tab indicatorcode
+list
+
+
+*****************************************************************
+* Multiple indicators per_page does not seem to work
+* skip patters are different due to different numbers of topics
+
+_query_indicators , per_page(10) page(1)
+tab indicatorcode
+
+
+_query_indicators , per_page(10) page(2)
+tab indicatorcode
+
+
+_query_indicators , per_page(10) page(100)
+tab indicatorcode
+
+
+_query_indicators , per_page(20) page(1)
+tab indicatorcode
+
+
+_query_indicators, per_page(20) page(1)
+tab indicatorcode
+
+_query_indicators, per_page(20) page(2)
+tab indicatorcode
+
+_query_indicators, per_page(70) 
+tab indicatorcode
+
+
+_query_indicators, per_page(200) page(1)
+tab indicatorcode
+
+_query_indicators, per_page(2000) 
+tab indicatorcode
+drop if indicatorcode == "."
+bysort indicatorcode : gen dups = _n
+bysort indicatorcode : gen tot = _N
+
+*************************************************
+
+_query_indicators, per_page(1) cmax(10)
+tab indicatorcode
+
+_query_indicators, per_page(1) page(647) cmax(653) noi nopreserve
+tab indicatorcode
+
+/* break */
+set more off
+_query_indicators, per_page(1) page(7687) cmax(16638) nopreserve using(tmp3tmp.csv)
+tab indicatorcode
+
+/* break */
+_query_indicators, per_page(1) page(7680) cmax(7693) noi nopreserve using(tmp.csv)
+tab indicatorcode
+
+
+_query_indicators, per_page(1) page(1726) cmax(1728) noi nopreserve source
+tab indicatorcode
+
+set trace on
+_query_indicators, per_page(1) page(1728) cmax(1728) noi nopreserve verbose
+
+
+
+_query_indicators, per_page(1) cmax(100) 
+tab indicatorcode
+
+
+clear
+set more off
+_query_indicators, per_page(1) cmax(16638) using(tmp2tmp)
+
+set more off
+_query_indicators, per_page(1) cmax(700)
+
+
+set trace on
+set tracedepth 1
+
+
+
+*****************************************************
+* Examples of multiple topics in a single indicator
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.TOTL.CD") ///
+		parameter( indicator?id name topic?id ) 
+return list
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.TOTL.CD") ///
+		parameter( indicator?id name topic?id source?id sourceNote sourceOrganization ) ///
+		verbose 
+return list
+
+*****************************************************
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/6.1_LEG.CA") ///
+		parameter( indicator?id name topic?id ) verbose
+return list
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/6.1_LEG.CA") ///
+		parameter( indicator?id name topic?id ) 
+return list
+
+
+_query_indicators, indicator("6.1_LEG.CA") nopreserve
+
+_query_indicators, indicator("6.0.GDPpc_constant") nopreserve
+
+
+
+_query_indicators, indicator("BX.GSR.TOTL.CD")
+tab indicatorcode
+
+_query_indicators, indicator(IN.HLTH.HIVDEATH.EST) nopreserve
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/IN.HLTH.HIVDEATH.EST") ///
+		parameter( indicator?id name topic?id source?id sourceNote sourceOrganization ) ///
+		verbose 
+return list
+
+
+*******************************************************************************/
