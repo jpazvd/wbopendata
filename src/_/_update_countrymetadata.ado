@@ -1,9 +1,6 @@
 *******************************************************************************
 *! v 16.3  	8Jul2020               by Joao Pedro Azevedo
 * 	change to HTTPS
-* v 16.0  	27Oct2019					by Joao Pedro Azevedo  
-* 	generate only three files
-*	change dataflow
 *******************************************************************************
 
 program define _update_countrymetadata , rclass
@@ -561,6 +558,10 @@ quietly {
 end
 
 
+*******************************************************************************
+* v 16.0  	27Oct2019					by Joao Pedro Azevedo  
+* 	generate only three files
+*	change dataflow
 *******************************************************************************
 * v 15.3  	28Sept2019					by Joao Pedro Azevedo   
 * 	add countrycode 
