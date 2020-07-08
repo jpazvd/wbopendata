@@ -1,6 +1,6 @@
 *******************************************************************************
-*! v 16.2.3  29jun2020        	   by Joao Pedro Azevedo                      *  
-*   move to _api_read.ado
+*! v 16.3  	 8Jul2020        	   by Joao Pedro Azevedo                      *  
+*		change API end point to HTTPS
 *******************************************************************************
 
 program def _query_metadata, rclass
@@ -25,7 +25,7 @@ version 9.0
 
 	*---------------------------------------------------------------------------
 	** pull metadata using _api_read.ado 		
-	_api_read, list query("http://api.worldbank.org/v2/indicators/`indicator'") ///
+	_api_read, list query("https://api.worldbank.org/v2/indicators/`indicator'") ///
 		parameter( indicator?id name topic?id source?id sourceNote sourceOrganization)
 		
 	*---------------------------------------------------------------------------
@@ -106,6 +106,9 @@ version 9.0
 end
 
 /********************************************************************************
+*! v 16.2.3  29jun2020        	   by Joao Pedro Azevedo                      *  
+*   move to _api_read.ado
+*   change layout
 * v 16.2.2  28jun2020        	   by Joao Pedro Azevedo                      *  
 *   replace server used to query metadata
 
