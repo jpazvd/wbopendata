@@ -312,7 +312,7 @@ end
 *  v 16.2.2    28Jun2020 				by Joao Pedro Azevedo
 *	 changed server used to query metadata
 ***********************************************************************************
-  v 16.2.1    14Apr2020 				by Joao Pedro Azevedo
+*  v 16.2.1    14Apr2020 				by Joao Pedro Azevedo
 *    add flow check before runing _query.ado / _query.ado should not run if 
 *    metadataoffline option is selected.
 **********************************************************************************
