@@ -3,8 +3,6 @@
 *! v 16.1   12Apr2020				by João Pedro Azevedo
 *		increase documentation
 *		change the creation of the medata files for SOURCEID and TOPICID
-*! v 16.0   27Oct2019				by João Pedro Azevedo
-*		fix macros
 *******************************************************************************
 
 
@@ -603,6 +601,8 @@ end
 
 
 *******************************************************************************
-* _indicators                                                                     *
-*! v 15.1   10Mar2019				by João Pedro Azevedo
+* v 16.0   27Oct2019				by João Pedro Azevedo
+*		fix macros
+*******************************************************************************
+* v 15.1   10Mar2019				by João Pedro Azevedo
 *******************************************************************************

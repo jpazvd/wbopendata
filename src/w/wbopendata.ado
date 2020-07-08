@@ -1,7 +1,7 @@
 *******************************************************************************
 * wbopendata             
-*!  v 16.2.2    28Jun2020 				by Joao Pedro Azevedo
-*	 changed server used to query metadata
+*! v 16.3  	8Jul2020               by Joao Pedro Azevedo
+* 	change API end point to HTTPS
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -306,17 +306,27 @@ end
 
 
 **********************************************************************************
-*  v 16.2.1    14Apr2020 				by Joao Pedro Azevedo
+*  v 16.2.3    29Jun2020 				by Joao Pedro Azevedo
+*	 rewrote query metadata. It now uses _api_read.ado
+**********************************************************************************
+*  v 16.2.2    28Jun2020 				by Joao Pedro Azevedo
+*	 changed server used to query metadata
+***********************************************************************************
+  v 16.2.1    14Apr2020 				by Joao Pedro Azevedo
 *    add flow check before runing _query.ado / _query.ado should not run if 
 *    metadataoffline option is selected.
+**********************************************************************************
 *  v 16.2      13Apr2020 				by Joao Pedro Azevedo
 *    create option metadataoffline 
 *       generates SORUCEID and TOPICID metadata in local installation
 *       71 sthlp files are generated and 15mb of documentation is created
+**********************************************************************************
 *  v 16.1      12Apr2020 				by Joao Pedro Azevedo
 *	remove metadata of SOURCID and TOPICSID from the main dissemination package                                                     
+**********************************************************************************
 *  v 16.0.1    31Oct2019               by Joao Pedro Azevedo 
  * improve a few small functionalities
+**********************************************************************************
 *  v 16.0	    27Oct2019               by Joao Pedro Azevedo 
 * created and tested new functions, namely:
 *  _api_read_indicators.ado : download indicator list from API, for formats 
@@ -336,6 +346,7 @@ end
 * _update_wbopendata.ado: now checks for changes at the SOURCE or TOPIC level
 * fixed return list when multiple indicators are selected
 * updated help file to allow for the search of indicators by Source and Topics
+**********************************************************************************
 *  v 15.1	    04Mar2019               by Joao Pedro Azevedo 
 *	New Features
 *		new error categories to faciliate debuging
@@ -351,15 +362,20 @@ end
 *		break code when no metadata is available is now an option
 *   Revisions
 *       over 16,000 indicators
+**********************************************************************************
 *  v 15.0.1		8Fev2019				by Joao Pedro Azevedo
+**********************************************************************************
 *  v 15.0	    2Fev2019               	by Joao Pedro Azevedo 
+**********************************************************************************
 *  v 14.3 	2Feb2019               by Joao Pedro Azevedo 
 * 	Bug Fixed
 *		_wbopendata_update.ado revised; out.txt file no longer created
+**********************************************************************************
 *  v 14.2 	31Jan2019               by Joao Pedro Azevedo 
 * Bug Fixed
 	* update _wbopendata_update.ado
 	* set checksum off
+**********************************************************************************
 *  v 14.1 	19Jan2019               by Joao Pedro Azevedo 
 * 	New options: 
      * indicator update function
@@ -371,21 +387,28 @@ end
      * examples
      * update help file
      * list of indicators
+**********************************************************************************
 *  v 14.0  14Jan2019               by Joao Pedro Azevedo 
 *		revised indicator list
 *		change to new API server 
+**********************************************************************************
 *  v 13.4  01jul2014               by Joao Pedro Azevedo                        *
 *       long reshape
+**********************************************************************************
 *  v 13.3  30june2014               by Joao Pedro Azevedo                        *
 *       new error control (clear option)
+**********************************************************************************
 *  v 13.2  24june2014               by Joao Pedro Azevedo                        *
 *       new error control
+**********************************************************************************
 *  v 13.1  23june2014               by Joao Pedro Azevedo                        *
 *       regional code, name and iso2code
+**********************************************************************************
 *  v 13  20june2014               by Joao Pedro Azevedo                        *
 * 		fix the dups problem                                                    *
 *       improve the error messages                                              *
 *       update the list of indicators to 9960                                 *
+**********************************************************************************
 *  v 12  31jan2013               by Joao Pedro Azevedo                        *
 *       update to 7349 indicators
 *       return list include variable name and label
