@@ -1,6 +1,8 @@
 *******************************************************************************
+*! v 16.3  	8Jul2020               by Joao Pedro Azevedo
+* 	change to HTTPS
 * _query   
-*! v 16.0   29Oct2019				by Joao Pedro Azevedo
+* v 16.0   29Oct2019				by Joao Pedro Azevedo
 *	support to HPP population projections
 *******************************************************************************
 
@@ -126,7 +128,7 @@ quietly {
     tempfile temp
 
 
-	loc servername "http://api.worldbank.org/v2"  /* Query server v2 */
+	loc servername "https://api.worldbank.org/v2"  /* Query server v2 */
 
 
 /* country selection */

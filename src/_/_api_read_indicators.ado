@@ -1,6 +1,8 @@
 *******************************************************************************
+*! v 16.3  	8Jul2020               by Joao Pedro Azevedo
+* 	change to HTTPS
 * _api_read_indicators                                                                     *
-*! v 16.0	28Oct2019				by João Pedro Azevedo
+* v 16.0	28Oct2019				by João Pedro Azevedo
 *       support to HPP population projections
 /*******************************************************************************/
 
@@ -41,8 +43,8 @@ program define _api_read_indicators, rclass
 	
 		tempfile indicator1 indicator2 indicator3
 
-		local query1 "http://api.worldbank.org/v2/indicators?per_page=10000&page=1"
-		local query2 "http://api.worldbank.org/v2/indicators?per_page=10000&page=2"
+		local query1 "https://api.worldbank.org/v2/indicators?per_page=10000&page=1"
+		local query2 "https://api.worldbank.org/v2/indicators?per_page=10000&page=2"
 		local query3 "https://api.worldbank.org/v2/source/40/indicators?per_page=10000&page=1"
 
 		****************************************

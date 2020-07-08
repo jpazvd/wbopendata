@@ -1,5 +1,7 @@
 *******************************************************************************
-*! v 16.0  	27Oct2019					by Joao Pedro Azevedo  
+*! v 16.3  	8Jul2020               by Joao Pedro Azevedo
+* 	change to HTTPS
+* v 16.0  	27Oct2019					by Joao Pedro Azevedo  
 * 	generate only three files
 *	change dataflow
 *******************************************************************************
@@ -57,7 +59,7 @@ quietly {
 		file write `out' " countrycode#countrycode_iso2#countryname#region#region_iso2#regionname#adminregion#adminregion_iso2#adminregionname#incomelevel#incomelevel_iso2#incomelevelname#lendingtype#lendingtype_iso2#lendingtypename#capital#longitude#latitude " _n
 
 
-		_api_read , query("http://api.worldbank.org/v2/countries/") ///
+		_api_read , query("https://api.worldbank.org/v2/countries/") ///
 			nopreserve ///
 			single ///
 			per_page(`maxp') ///
@@ -71,7 +73,7 @@ quietly {
 			
 		forvalues p = 1(1)`pages' {
 
-			_api_read , query("http://api.worldbank.org/v2/countries/") ///
+			_api_read , query("https://api.worldbank.org/v2/countries/") ///
 				per_page(`maxp') ///
 				page(`p') list ///
 				nopreserve ///
