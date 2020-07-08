@@ -106,13 +106,16 @@ version 9.0
 end
 
 /********************************************************************************
-*! v 16.2.3  29jun2020        	   by Joao Pedro Azevedo                      *  
+* v 16.2.3  29jun2020        	   by Joao Pedro Azevedo                      *  
 *   move to _api_read.ado
 *   change layout
+/********************************************************************************
 * v 16.2.2  28jun2020        	   by Joao Pedro Azevedo                      *  
 *   replace server used to query metadata
 
+/********************************************************************************
 * v 13.4  01jul2014               by Joao Pedro Azevedo                      
+/********************************************************************************
 
 _query_metadata2, indicator(si.pov.dday)
 _query_metadata2, indicator(ny.gdp.pcap.pp.kd)
