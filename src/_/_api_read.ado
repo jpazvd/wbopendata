@@ -1,6 +1,8 @@
 *******************************************************************************
 * _api_read                                                                   
-*! v 15.2  	8Mar2019               by Joao Pedro Azevedo
+*! v 16.3  	8Jul2020               by Joao Pedro Azevedo
+* 	change to HTTPS
+* v 15.2  	8Mar2019               by Joao Pedro Azevedo
 *	flexible API address
 * 	fix API query when option query was not selected
 /*******************************************************************************
@@ -129,7 +131,7 @@ program define _api_read, rclass
 	*========================		api			 ===========================================*/
 	
 		if ("`query'" == "") {
-			local query1 "http://api.worldbank.org/v2/indicators/?per_page=`per_page'&page=`page'"
+			local query1 "https://api.worldbank.org/v2/indicators/?per_page=`per_page'&page=`page'"
 		}
 		else {
 			local query1 "`query'?per_page=`per_page'&page=`page'"

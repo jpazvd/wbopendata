@@ -1,5 +1,7 @@
 ********************************************************************************
-*! v 15.2  	8Mar2019               by Joao Pedro Azevedo   
+*! v 16.3  	8Jul2020               by Joao Pedro Azevedo
+* 	change to HTTPS
+* v 15.2  	8Mar2019               by Joao Pedro Azevedo   
 *	initial commit
 /*******************************************************************************
 
