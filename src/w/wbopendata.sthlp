@@ -1,9 +1,9 @@
 {smcl}
 {hline}
-{* 28Jun2020 }{...}
+{* 8Jul2020 }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
-{right: {bf:version 16.2.2}}
+{right: {bf:version 16.3}}
 {hline}
 
 {title:Title}
