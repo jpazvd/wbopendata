@@ -1,4 +1,4 @@
-*! _wbod_tmpfile3 <28 Jun 2020 : 16:40:06>                 by João Pedro Azevedo
+*! _wbod_tmpfile3 <8 Jul 2020 : 14:01:00>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _wbod_tmpfile3 
@@ -132,7 +132,7 @@
          cap: replace lendingtype = "LNX"     if `match' == "MAF"  
          cap: replace lendingtype = "IBD"     if `match' == "MAR"  
          cap: replace lendingtype = "LNX"     if `match' == "MCO"  
-         cap: replace lendingtype = "IDB"     if `match' == "MDA"  
+         cap: replace lendingtype = "IBD"     if `match' == "MDA"  
          cap: replace lendingtype = "IDX"     if `match' == "MDG"  
          cap: replace lendingtype = "IDX"     if `match' == "MDV"  
          cap: replace lendingtype = "IBD"     if `match' == "MEX"  
@@ -142,7 +142,7 @@
          cap: replace lendingtype = "LNX"     if `match' == "MLT"  
          cap: replace lendingtype = "IDX"     if `match' == "MMR"  
          cap: replace lendingtype = "IBD"     if `match' == "MNE"  
-         cap: replace lendingtype = "IDB"     if `match' == "MNG"  
+         cap: replace lendingtype = "IBD"     if `match' == "MNG"  
          cap: replace lendingtype = "LNX"     if `match' == "MNP"  
          cap: replace lendingtype = "IDX"     if `match' == "MOZ"  
          cap: replace lendingtype = "IDX"     if `match' == "MRT"  
@@ -418,7 +418,7 @@
          cap: replace lendingtype_iso2 = "XF"     if `match' == "MAR"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "MCA"  
          cap: replace lendingtype_iso2 = "XX"     if `match' == "MCO"  
-         cap: replace lendingtype_iso2 = "XH"     if `match' == "MDA"  
+         cap: replace lendingtype_iso2 = "XF"     if `match' == "MDA"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "MDE"  
          cap: replace lendingtype_iso2 = "XI"     if `match' == "MDG"  
          cap: replace lendingtype_iso2 = "XI"     if `match' == "MDV"  
@@ -432,7 +432,7 @@
          cap: replace lendingtype_iso2 = "XI"     if `match' == "MMR"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "MNA"  
          cap: replace lendingtype_iso2 = "XF"     if `match' == "MNE"  
-         cap: replace lendingtype_iso2 = "XH"     if `match' == "MNG"  
+         cap: replace lendingtype_iso2 = "XF"     if `match' == "MNG"  
          cap: replace lendingtype_iso2 = "XX"     if `match' == "MNP"  
          cap: replace lendingtype_iso2 = "XI"     if `match' == "MOZ"  
          cap: replace lendingtype_iso2 = "XI"     if `match' == "MRT"  
@@ -680,7 +680,7 @@
          cap: replace lendingtypename = "Not classified"     if `match' == "MAF"  
          cap: replace lendingtypename = "IBRD"     if `match' == "MAR"  
          cap: replace lendingtypename = "Not classified"     if `match' == "MCO"  
-         cap: replace lendingtypename = "Blend"     if `match' == "MDA"  
+         cap: replace lendingtypename = "IBRD"     if `match' == "MDA"  
          cap: replace lendingtypename = "IDA"     if `match' == "MDG"  
          cap: replace lendingtypename = "IDA"     if `match' == "MDV"  
          cap: replace lendingtypename = "IBRD"     if `match' == "MEX"  
@@ -690,7 +690,7 @@
          cap: replace lendingtypename = "Not classified"     if `match' == "MLT"  
          cap: replace lendingtypename = "IDA"     if `match' == "MMR"  
          cap: replace lendingtypename = "IBRD"     if `match' == "MNE"  
-         cap: replace lendingtypename = "Blend"     if `match' == "MNG"  
+         cap: replace lendingtypename = "IBRD"     if `match' == "MNG"  
          cap: replace lendingtypename = "Not classified"     if `match' == "MNP"  
          cap: replace lendingtypename = "IDA"     if `match' == "MOZ"  
          cap: replace lendingtypename = "IDA"     if `match' == "MRT"  
