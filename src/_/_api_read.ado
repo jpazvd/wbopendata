@@ -1,84 +1,8 @@
 *******************************************************************************
 * _api_read                                                                   
-*! v 15.2  	8Mar2019               by Joao Pedro Azevedo
-*	flexible API address
-* 	fix API query when option query was not selected
-/*******************************************************************************
-
-
-cd "C:\GitHub_myados\wbopendata\src"
-
-! git checkout dev
-
-discard
-
-/* Coutries */
-
-_api_read , query("http://api.worldbank.org/v2/countries/") ///
-		nopreserve single parameter(page pages total)
-return list
-
-_api_read , query("http://api.worldbank.org/v2/countries/") ///
-		per_page(5) page(1) list nopreserve ///
-		parameter( country?id iso2Code name region?id adminregion?id incomeLevel?id lendingType?id iso2code capitalCity latitude longitude )
-return list
-
-
-			
-/* Indicators */
-
-_api_read, single parameter(pages per_page total)
-return list
-
-_api_read, per_page(50) single parameter(pages per_page total)
-return list
-
-_api_read, per_page(200) single parameter(pages per_page total)
-return list
-
-_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.NFSV.CD")
-return list
-
-cls
-clear
-_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.OSRV.CD") ///
-		nopreserve
-return list
-
-_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.TOTL.CD") ///
-		nopreserve parameter( indicator?id name topic?id ) 
-return list
-
-_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.TOTL.CD") ///
-		nopreserve parameter( indicator?id name topic?id ) verbose
-return list
-
-_api_read, list query("http://api.worldbank.org/v2/indicators/6.1_LEG.CA") ///
-		parameter( indicator?id name topic?id ) verbose
-return list
-
-_api_read, list query("http://api.worldbank.org/v2/indicators/6.1_LEG.CA") ///
-		parameter( indicator?id name topic?id ) 
-return list
-
-_api_read, list query("http://api.worldbank.org/v2/indicators/IN.HLTH.HIVDEATH.EST") ///
-		parameter( indicator?id name topic?id source?id sourceNote sourceOrganization ) ///
-		verbose 
-return list
-
-set trace on
-_api_read , page(1728) per_page(1) list parameter( indicator?id name topic?id ///
-		source?id sourceNote sourceOrganization) verbose
-return list
-
-local sourceNote "Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests. Estimate gives the country's score on the aggregate indicator, in units of a standard normal distribution, i.e. ranging from approximately -2.5 to 2.5."
-di "`sourceNote'"
-local pchar = length("`sourceNote'")
-di `pchar'
-
-
-*******************************************************************************/
-
+*! v 16.3  	8Jul2020               by Joao Pedro Azevedo
+* 	change API end point to HTTPS
+*******************************************************************************
 
 program define _api_read, rclass
 
@@ -129,7 +53,7 @@ program define _api_read, rclass
 	*========================		api			 ===========================================*/
 	
 		if ("`query'" == "") {
-			local query1 "http://api.worldbank.org/v2/indicators/?per_page=`per_page'&page=`page'"
+			local query1 "https://api.worldbank.org/v2/indicators/?per_page=`per_page'&page=`page'"
 		}
 		else {
 			local query1 "`query'?per_page=`per_page'&page=`page'"
@@ -390,3 +314,86 @@ program define _api_read, rclass
 	}
 	
 	end
+
+	
+*******************************************************************************
+* v 15.2  	8Mar2019               by Joao Pedro Azevedo
+*	flexible API address
+* 	fix API query when option query was not selected
+/*******************************************************************************
+
+
+cd "C:\GitHub_myados\wbopendata\src"
+
+! git checkout dev
+
+discard
+
+/* Coutries */
+
+_api_read , query("http://api.worldbank.org/v2/countries/") ///
+		nopreserve single parameter(page pages total)
+return list
+
+_api_read , query("http://api.worldbank.org/v2/countries/") ///
+		per_page(5) page(1) list nopreserve ///
+		parameter( country?id iso2Code name region?id adminregion?id incomeLevel?id lendingType?id iso2code capitalCity latitude longitude )
+return list
+
+
+			
+/* Indicators */
+
+_api_read, single parameter(pages per_page total)
+return list
+
+_api_read, per_page(50) single parameter(pages per_page total)
+return list
+
+_api_read, per_page(200) single parameter(pages per_page total)
+return list
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.NFSV.CD")
+return list
+
+cls
+clear
+_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.OSRV.CD") ///
+		nopreserve
+return list
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.TOTL.CD") ///
+		nopreserve parameter( indicator?id name topic?id ) 
+return list
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.TOTL.CD") ///
+		nopreserve parameter( indicator?id name topic?id ) verbose
+return list
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/6.1_LEG.CA") ///
+		parameter( indicator?id name topic?id ) verbose
+return list
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/6.1_LEG.CA") ///
+		parameter( indicator?id name topic?id ) 
+return list
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/IN.HLTH.HIVDEATH.EST") ///
+		parameter( indicator?id name topic?id source?id sourceNote sourceOrganization ) ///
+		verbose 
+return list
+
+set trace on
+_api_read , page(1728) per_page(1) list parameter( indicator?id name topic?id ///
+		source?id sourceNote sourceOrganization) verbose
+return list
+
+local sourceNote "Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests. Estimate gives the country's score on the aggregate indicator, in units of a standard normal distribution, i.e. ranging from approximately -2.5 to 2.5."
+di "`sourceNote'"
+local pchar = length("`sourceNote'")
+di `pchar'
+
+
+*******************************************************************************/
+
+

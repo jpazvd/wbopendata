@@ -1,7 +1,7 @@
 *******************************************************************************
 * _query   
-*! v 16.0   29Oct2019				by Joao Pedro Azevedo
-*	support to HPP population projections
+*! v 16.3  	8Jul2020               by Joao Pedro Azevedo
+* 	change API end point to HTTPS
 *******************************************************************************
 
 program def _query, rclass
@@ -126,7 +126,7 @@ quietly {
     tempfile temp
 
 
-	loc servername "http://api.worldbank.org/v2"  /* Query server v2 */
+	loc servername "https://api.worldbank.org/v2"  /* Query server v2 */
 
 
 /* country selection */
@@ -137,8 +137,8 @@ quietly {
         local rc1 = _rc
         if (`rc1' != 0) {
             noi di ""
-            noi dis as text `"{p 4 4 2} (1) Please check your internet connection by {browse "http://data.worldbank.org/" :clicking here}, if does not work please check with your internet provider or IT support, otherwise... {p_end}"'
-            noi dis as text `"{p 4 4 2} (2) Please check your access to the World Bank API by {browse "http://api.worldbank.org/indicator" :clicking here}, if does not work please check with your firewall settings or internet provider or IT support.  {p_end}"'
+            noi dis as text `"{p 4 4 2} (1) Please check your internet connection by {browse "https://data.worldbank.org/" :clicking here}, if does not work please check with your internet provider or IT support, otherwise... {p_end}"'
+            noi dis as text `"{p 4 4 2} (2) Please check your access to the World Bank API by {browse "https://api.worldbank.org/indicator" :clicking here}, if does not work please check with your firewall settings or internet provider or IT support.  {p_end}"'
             noi dis as text `"{p 4 4 2} (3) Please consider ajusting your Stata timeout parameters. For more details see {help netio}. {p_end}
             noi dis as text `"{p 4 4 2} (4) Please consider setting Stata checksum off. {help set checksum}{p_end}"'
             noi dis as text `"{p 4 4 2} (5) Please send us an email to report this error by {browse "mailto:data@worldbank.org, ?subject= wbopendata query error at `c(current_date)' `c(current_time)': `queryspec' "  :clicking here} or writing to:  {p_end}"'
@@ -157,8 +157,8 @@ quietly {
         local rc2 = _rc
         if (`rc2' != 0) {
             noi di ""
-            noi dis as text `"{p 4 4 2} (1) Please check your internet connection by {browse "http://data.worldbank.org/" :clicking here}, if does not work please check with your internet provider or IT support, otherwise... {p_end}"'
-            noi dis as text `"{p 4 4 2} (2) Please check your access to the World Bank API by {browse "http://api.worldbank.org/indicator" :clicking here}, if does not work please check with your firewall settings or internet provider or IT support.  {p_end}"'
+            noi dis as text `"{p 4 4 2} (1) Please check your internet connection by {browse "https://data.worldbank.org/" :clicking here}, if does not work please check with your internet provider or IT support, otherwise... {p_end}"'
+            noi dis as text `"{p 4 4 2} (2) Please check your access to the World Bank API by {browse "https://api.worldbank.org/indicator" :clicking here}, if does not work please check with your firewall settings or internet provider or IT support.  {p_end}"'
             noi dis as text `"{p 4 4 2} (3) Please consider ajusting your Stata timeout parameters. For more details see {help netio}. {p_end}
             noi dis as text `"{p 4 4 2} (4) Please consider setting Stata checksum off. {help set checksum}{p_end}"'
             noi dis as text `"{p 4 4 2} (5) Please send us an email to report this error by {browse "mailto:data@worldbank.org, ?subject= wbopendata query error at `c(current_date)' `c(current_time)': `queryspec' "  :clicking here} or writing to:  {p_end}"'
@@ -215,7 +215,7 @@ quietly {
 	
 		local indicator = trim(subinstr("`queryspec2'","indicator","",.))
 
-		cap : _api_read , query("http://api.worldbank.org/v2/Indicators/`indicator'") ///
+		cap : _api_read , query("https://api.worldbank.org/v2/Indicators/`indicator'") ///
 			nopreserve ///
 			list ///
 			parameter(indicator?id name source?id)
@@ -227,9 +227,9 @@ quietly {
 			noi di ""
 			noi di in g "{p 4 4 2} Sorry... but indicator " as result "`r(indicator_id2)'" in g " has been moved to " as result "`r(source_id5)'. {p_end}"
 			noi di ""
-			noi dis as text `"{p 4 4 2} Please send us an email to obtain more information {browse "mailto:data@worldbank.org, ?subject= wbopendata query error 23 at `c(current_date)' `c(current_time)': http://api.worldbank.org/v2/Indicators/`indicator' "  :clicking here} or writing to:  {p_end}"'
+			noi dis as text `"{p 4 4 2} Please send us an email to obtain more information {browse "mailto:data@worldbank.org, ?subject= wbopendata query error 23 at `c(current_date)' `c(current_time)': https://api.worldbank.org/v2/Indicators/`indicator' "  :clicking here} or writing to:  {p_end}"'
 			noi dis as result "{p 12 4 2} email: " as input "data@worldbank.org  {p_end}"
-			noi dis as result "{p 12 4 2} subject: " as input `"wbopendata query error 23 [`r(indicator_id2)' - `r(name3)'] at `c(current_date)' `c(current_time)': http://api.worldbank.org/v2/Indicators/`indicator'  {p_end}"'
+			noi dis as result "{p 12 4 2} subject: " as input `"wbopendata query error 23 [`r(indicator_id2)' - `r(name3)'] at `c(current_date)' `c(current_time)': https://api.worldbank.org/v2/Indicators/`indicator'  {p_end}"'
 			noi di ""
 			noi di ""
 			break
@@ -242,10 +242,10 @@ quietly {
 			noi di ""
 			noi di as err "{p 4 4 2} Sorry... No data was downloaded for " as result "`queryspec2'. {p_end}"
 			noi di ""
-			noi dis as text `"{p 4 4 2} (1) Please check your internet connection by {browse "http://data.worldbank.org/" :clicking here}, if does not work please check with your internet provider or IT support, otherwise... {p_end}"'
-			noi dis as text `"{p 4 4 2} (2) Please check your access to the World Bank API by {browse "http://api.worldbank.org/indicator" :clicking here}, if does not work please check with your firewall settings or internet provider or IT support, otherwise...  {p_end}"'
+			noi dis as text `"{p 4 4 2} (1) Please check your internet connection by {browse "https://data.worldbank.org/" :clicking here}, if does not work please check with your internet provider or IT support, otherwise... {p_end}"'
+			noi dis as text `"{p 4 4 2} (2) Please check your access to the World Bank API by {browse "https://api.worldbank.org/indicator" :clicking here}, if does not work please check with your firewall settings or internet provider or IT support, otherwise...  {p_end}"'
 			noi dis as text `"{p 4 4 2} (3) Please check the availability of your indicator or topic by {browse "`queryspec'" :clicking here}. If the paramater value is not valid...  {p_end}"'
-			noi dis as text `"{p 4 4 2} (4) Please check the list of available indictator(s) or topic(s) in the help {help wbopendata} or by visiting the {browse "http://data.worldbank.org/querybuilder" :API query builder}, if all the above seems fine...  {p_end}"'
+			noi dis as text `"{p 4 4 2} (4) Please check the list of available indictator(s) or topic(s) in the help {help wbopendata} or by visiting the {browse "https://data.worldbank.org/querybuilder" :API query builder}, if all the above seems fine...  {p_end}"'
 			noi dis as text `"{p 4 4 2} (5) Please consider ajusting your Stata timeout parameters. For more details see {help netio}. {p_end}
 			noi dis as text `"{p 4 4 2} (6) Please send us an email to report this error by {browse "mailto:data@worldbank.org, ?subject= wbopendata query error at `c(current_date)' `c(current_time)': `queryspec' "  :clicking here} or writing to:  {p_end}"'
 			noi dis as result "{p 12 4 2} email: " as input "data@worldbank.org  {p_end}"
@@ -401,6 +401,9 @@ quietly {
 end
 
 
+*******************************************************************************
+* v 16.0   29Oct2019				by Joao Pedro Azevedo
+*	support to HPP population projections
 *******************************************************************************
 * _query                                                                      *
 * v 15.1  	04Mar2019               by Joao Pedro Azevedo                     
