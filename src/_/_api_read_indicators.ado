@@ -1,9 +1,7 @@
 *******************************************************************************
-*! v 16.3  	8Jul2020               by Joao Pedro Azevedo
-* 	change to HTTPS
 * _api_read_indicators                                                                     *
-* v 16.0	28Oct2019				by João Pedro Azevedo
-*       support to HPP population projections
+*! v 16.3  	8Jul2020               by Joao Pedro Azevedo
+* 	change API end point to HTTPS
 /*******************************************************************************/
 
 program define _api_read_indicators, rclass
@@ -238,6 +236,9 @@ program define _api_read_indicators, rclass
 end
 
 
+*******************************************************************************
+* v 16.0	28Oct2019				by João Pedro Azevedo
+*       support to HPP population projections
 *******************************************************************************
 * v 15.2   10Mar2019				by João Pedro Azevedo
 *		rename ado : _wbopendata_update.ado  to _update_indicators.ado

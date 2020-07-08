@@ -1,10 +1,6 @@
 **********************************************************
-*! version 16.0 			<28Oct2019>		JPAzevedo
-*
-*	change indicators update; function _update_indicators.ado replace  
-*   _indicators.ado increase the return list stored under parameter 
-*	add report tables with SOURCE adn TOPIC labels
-*   add the update of the CTRYLIST
+*! v 16.3  	8Jul2020               by Joao Pedro Azevedo
+* 	change API end point to HTTPS
 **********************************************************
 
 program define _update_wbopendata, rclass
@@ -190,7 +186,7 @@ syntax , 								///
 		local newnumber = r(total1) 
 		local date r(date)
 	
-		_api_read , query("http://api.worldbank.org/v2/countries/") ///
+		_api_read , query("https://api.worldbank.org/v2/countries/") ///
 			nopreserve ///
 			single ///
 			parameter(page pages total)
@@ -434,7 +430,7 @@ syntax , 								///
 		local newnumber = r(total1) 
 		local date r(date)
 		
-		_api_read , query("http://api.worldbank.org/v2/countries/") ///
+		_api_read , query("https://api.worldbank.org/v2/countries/") ///
 			nopreserve ///
 			single ///
 			parameter(page pages total)
@@ -677,13 +673,22 @@ end
 
 
 **********************************************************
+* version 16.0 			<28Oct2019>		JPAzevedo
+*	change indicators update; function _update_indicators.ado replace  
+*   _indicators.ado increase the return list stored under parameter 
+*	add report tables with SOURCE adn TOPIC labels
+*   add the update of the CTRYLIST
+**********************************************************
 * version 15.1 			<3Mar2019>		JPAzevedo
 *	include countrymetadata option
 *	include force option
+**********************************************************
 * version 15.0.2 			<16Feb2019>		JPAzevedo
 *	add update query, update check and update options
+**********************************************************
 * version 15.0.1	 		<11Feb2019>		JPAzevedo
 *	add latest check value to default report
+**********************************************************
 * version 15.0   			<8Feb2019>		JPAzevedo
 *	original commit
 **********************************************************
