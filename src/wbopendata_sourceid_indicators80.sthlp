@@ -67,21 +67,201 @@
 {synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
 
 
-{marker sourceid_50}
-{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators50##:TOC}}){p_end}
+{marker sourceid_80}
+{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators80##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{syntab:{title:{bf:50 Subnational Population}}}
+{syntab:{title:{bf:80 Gender Disaggregated Labor Database (GDLD)}}}
 {synoptline}
-{marker sourceid_SP.POP.TOTL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.ZS:SP.POP.TOTL.ZS} - Population (% of total)}}
+{marker sourceid_gtap10VACapital}
+{synopt:{bf:{help wbopendata_sourceid##gtap10VACapital:gtap10VACapital} - Value-added from Capital in GTAP10P3COD}}
 
-{synopt:{opt Source}}50 Subnational Population{p_end}
+{synopt:{opt Source}}80 Gender Disaggregated Labor Database (GDLD){p_end}
 
 
-{synopt:{opt Source Notes}}Population Percentage of total is the share of first level administrative division (Admin 1 level) de facto mid-year population to total population.{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}1. Census reports and statistical databases from national statistical offices 2. Estimates from the Center for International Earth Science Information Network (CIESIN), The Earth Institute at Columbia University{p_end}
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_gtap10VALabor}
+{synopt:{bf:{help wbopendata_sourceid##gtap10VALabor:gtap10VALabor} - Value-added from labor in GTAP10P3COD (in USD 2014 million)}}
+
+{synopt:{opt Source}}80 Gender Disaggregated Labor Database (GDLD){p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_p_F_nsk}
+{synopt:{bf:{help wbopendata_sourceid##p_F_nsk:p_F_nsk} - Share of female unskilled worker out of all workers in this sector, %}}
+
+{synopt:{opt Source}}80 Gender Disaggregated Labor Database (GDLD){p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_p_F_skl}
+{synopt:{bf:{help wbopendata_sourceid##p_F_skl:p_F_skl} - Share of female skilled worker out of all workers in this sector, %}}
+
+{synopt:{opt Source}}80 Gender Disaggregated Labor Database (GDLD){p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_p_M_nsk}
+{synopt:{bf:{help wbopendata_sourceid##p_M_nsk:p_M_nsk} - Share of male unskilled worker out of all workers in this sector, %}}
+
+{synopt:{opt Source}}80 Gender Disaggregated Labor Database (GDLD){p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_p_M_skl}
+{synopt:{bf:{help wbopendata_sourceid##p_M_skl:p_M_skl} - Share of male skilled worker out of all workers in this sector, %}}
+
+{synopt:{opt Source}}80 Gender Disaggregated Labor Database (GDLD){p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_v_F_nsk}
+{synopt:{bf:{help wbopendata_sourceid##v_F_nsk:v_F_nsk} - Labor volume for unskilled females, millions}}
+
+{synopt:{opt Source}}80 Gender Disaggregated Labor Database (GDLD){p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_v_F_skl}
+{synopt:{bf:{help wbopendata_sourceid##v_F_skl:v_F_skl} - Labor volume for skilled females, millions}}
+
+{synopt:{opt Source}}80 Gender Disaggregated Labor Database (GDLD){p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_v_M_nsk}
+{synopt:{bf:{help wbopendata_sourceid##v_M_nsk:v_M_nsk} - Labor volume for unskilled male, millions}}
+
+{synopt:{opt Source}}80 Gender Disaggregated Labor Database (GDLD){p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_v_M_skl}
+{synopt:{bf:{help wbopendata_sourceid##v_M_skl:v_M_skl} - Labor volume for skilled males, millions}}
+
+{synopt:{opt Source}}80 Gender Disaggregated Labor Database (GDLD){p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_w_F_nsk}
+{synopt:{bf:{help wbopendata_sourceid##w_F_nsk:w_F_nsk} - Annual wage for unskilled female workers in US$}}
+
+{synopt:{opt Source}}80 Gender Disaggregated Labor Database (GDLD){p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_w_F_skl}
+{synopt:{bf:{help wbopendata_sourceid##w_F_skl:w_F_skl} - Annual wage for skilled female workers  in US$}}
+
+{synopt:{opt Source}}80 Gender Disaggregated Labor Database (GDLD){p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_w_M_nsk}
+{synopt:{bf:{help wbopendata_sourceid##w_M_nsk:w_M_nsk} - Annual wage for unskilled male workers  in US$}}
+
+{synopt:{opt Source}}80 Gender Disaggregated Labor Database (GDLD){p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_w_M_skl}
+{synopt:{bf:{help wbopendata_sourceid##w_M_skl:w_M_skl} - Annual wage for skilled male workers  in US$}}
+
+{synopt:{opt Source}}80 Gender Disaggregated Labor Database (GDLD){p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_wpremia_F}
+{synopt:{bf:{help wbopendata_sourceid##wpremia_F:wpremia_F} - Wage Premia for Females (the ratio of skilled female workers' wage  to  unskilled female workers' wage)}}
+
+{synopt:{opt Source}}80 Gender Disaggregated Labor Database (GDLD){p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_wpremia_M}
+{synopt:{bf:{help wbopendata_sourceid##wpremia_M:wpremia_M} - Wage Premia for Males  (the ratio of skilled male workers' wage  to  unskilled male workers' wage)}}
+
+{synopt:{opt Source}}80 Gender Disaggregated Labor Database (GDLD){p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 

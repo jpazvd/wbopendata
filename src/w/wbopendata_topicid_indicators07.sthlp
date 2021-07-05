@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -133,7 +133,7 @@
 {marker topicid_BX.KLT.DREM.CD.DT}
 {synopt:{bf:{help wbopendata_topicid##BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT} - Primary income on FDI (current US$)}}
 
-{synopt:{opt Source}}06 International Debt Statistics{p_end}
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -334,7 +334,7 @@
 
 {synopt:{opt Source Notes}}Bank nonperforming loans to total gross loans are the value of nonperforming loans divided by the total value of the loan portfolio (including nonperforming loans before the deduction of specific loan-loss provisions). The loan amount recorded{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Global Financial Stability Report.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Financial Soundness Indicators.{p_end}
 
 
 {synoptline}
@@ -360,7 +360,7 @@
 
 {synopt:{opt Source Notes}}Bank capital to assets is the ratio of bank capital and reserves to total assets. Capital and reserves include funds contributed by owners, retained earnings, general and special reserves, provisions, and valuation adjustments. Capital include{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Global Financial Stability Report.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Financial Soundness Indicators.{p_end}
 
 
 {synoptline}
@@ -2574,4 +2574,4 @@
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}

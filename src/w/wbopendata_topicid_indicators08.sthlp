@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -61,7 +61,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she argues with him.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -74,7 +74,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she burns the food.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -87,7 +87,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -100,7 +100,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she neglects the children.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -113,7 +113,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -126,7 +126,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she refuses sex with him.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -698,20 +698,20 @@
 
 {synopt:{opt Source Notes}}Prevalence of anemia among women of reproductive age refers to the combined prevalence of both non-pregnant with haemoglobin levels below 12 g/dL and pregnant women with haemoglobin levels below 11 g/dL.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository/World Health Statistics ({browse "http://apps.who.int/gho/data/node.main.1?lang=en"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository/World Health Statistics.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.ANM.CHLD.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.ANM.CHLD.ZS:SH.ANM.CHLD.ZS} - Prevalence of anemia among children (% of children under 5)}}
+{synopt:{bf:{help wbopendata_topicid##SH.ANM.CHLD.ZS:SH.ANM.CHLD.ZS} - Prevalence of anemia among children (% of children ages 6-59 months)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Prevalence of anemia, children under age 5, is the percentage of children under age 5 whose hemoglobin level is less than 110 grams per liter at sea level.{p_end}
+{synopt:{opt Source Notes}}Prevalence of anemia, children ages 6-59 months, is the percentage of children ages 6-59 months whose hemoglobin level is less than 110 grams per liter, adjusted for altitude.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository/World Health Statistics ({browse "http://apps.who.int/gho/data/node.main.1?lang=en"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository/World Health Statistics.{p_end}
 
 
 {synoptline}
@@ -724,7 +724,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of anemia, non-pregnant women, is the percentage of non-pregnant women whose hemoglobin level is less than 120 grams per liter at sea level.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository/World Health Statistics ({browse "http://apps.who.int/gho/data/node.main.1?lang=en"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository/World Health Statistics.{p_end}
 
 
 {synoptline}
@@ -757,7 +757,7 @@
 {marker topicid_SH.DTH.0514}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.0514:SH.DTH.0514} - Number of deaths ages 5-14 years}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -776,20 +776,46 @@
 
 {synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for all ages by underlying causes. Communicable diseases and maternal, prenatal and nutrition conditions include infectious and parasitic diseases, respiratory infections, and nutritional defici{p_end}
 
-{synopt:{opt Source Organization}}Derived based on the data from WHO's Global Health Estimates.{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
 {marker topicid_SH.DTH.IMRT}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.IMRT:SH.DTH.IMRT} - Number of infant deaths}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Number of infants dying before reaching one year of age.{p_end}
 
 {synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DTH.IMRT.FE}
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.IMRT.FE:SH.DTH.IMRT.FE} - Number of infant deaths, female}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of female infants dying before reaching one year of age{p_end}
+
+{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DTH.IMRT.MA}
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.IMRT.MA:SH.DTH.IMRT.MA} - Number of infant deaths, male}}
+
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of male infants dying before reaching one year of age{p_end}
+
+{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -802,20 +828,46 @@
 
 {synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for all ages by underlying causes. Injuries include unintentional and intentional injuries.{p_end}
 
-{synopt:{opt Source Organization}}Derived based on the data from WHO's Global Health Estimates.{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
 {marker topicid_SH.DTH.MORT}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.MORT:SH.DTH.MORT} - Number of under-five deaths}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Number of children dying before reaching age five.{p_end}
 
 {synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DTH.MORT.FE}
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.MORT.FE:SH.DTH.MORT.FE} - Number of under-five deaths, female}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of female children dying before reaching age five{p_end}
+
+{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DTH.MORT.MA}
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.MORT.MA:SH.DTH.MORT.MA} - Number of under-five deaths, male}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of male children dying before reaching age five{p_end}
+
+{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -828,14 +880,14 @@
 
 {synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for all ages by underlying causes. Non-communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseases, musculoskeletal diseases, and congenit{p_end}
 
-{synopt:{opt Source Organization}}Derived based on the data from WHO's Global Health Estimates.{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
 {marker topicid_SH.DTH.NMRT}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.NMRT:SH.DTH.NMRT} - Number of neonatal deaths}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -845,10 +897,23 @@
 
 
 {synoptline}
+{marker topicid_SH.DTH.STLB}
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.STLB:SH.DTH.STLB} - Number of stillbirths}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of fetal deaths at 28 weeks or more of gestation{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
 {marker topicid_SH.DYN.0514}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.0514:SH.DYN.0514} - Probability of dying at age 5-14 years (per 1,000 children age 5)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -919,7 +984,7 @@
 
 {synopt:{opt Source Notes}}Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -932,20 +997,20 @@
 
 {synopt:{opt Source Notes}}Under-five mortality rate, female is the probability per 1,000 that a newborn female baby will die before reaching age five, if subject to female age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.DYN.MORT.MA}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.MA:SH.DYN.MORT.MA} - Mortality rate, under-5, male (per 1,000 live births)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Under-five mortality rate, male is the probability per 1,000 that a newborn male baby will die before reaching age five, if subject to male age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -1062,7 +1127,20 @@
 
 {synopt:{opt Source Notes}}Neonatal mortality rate is the number of neonates dying before reaching 28 days of age, per 1,000 live births in a given year.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DYN.STLB}
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.STLB:SH.DYN.STLB} - Stillbirth rate (per 1,000 total births)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Stillbirth rate is the number of fetal deaths at 28 weeks or more of gestation per 1,000 total births. Total birth is the sum of stillbirths (as just defined) and live births.{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -2185,13 +2263,13 @@
 
 {synoptline}
 {marker topicid_SH.HIV.INCD}
-{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD:SH.HIV.INCD} - Adults (ages 15+) newly infected with HIV}}
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD:SH.HIV.INCD} - Adults (ages 15-49) newly infected with HIV}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of adults (ages 15+) newly infected with HIV.{p_end}
+{synopt:{opt Source Notes}}Number of adults (ages 15-49) newly infected with HIV.{p_end}
 
 {synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
 
@@ -2210,6 +2288,19 @@
 
 
 {synoptline}
+{marker topicid_SH.HIV.INCD.50.P3}
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.50.P3:SH.HIV.INCD.50.P3} - Incidence of HIV, ages 50+ (per 1,000 uninfected population ages 50+)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of new HIV infections among uninfected populations ages 50+ expressed per 1,000 uninfected population ages 50+ in the year before the period.{p_end}
+
+{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+
+
+{synoptline}
 {marker topicid_SH.HIV.INCD.TL}
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.TL:SH.HIV.INCD.TL} - Adults (ages 15+) and children (ages 0-14) newly infected with HIV}}
 
@@ -2223,8 +2314,60 @@
 
 
 {synoptline}
+{marker topicid_SH.HIV.INCD.TL.P3}
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.TL.P3:SH.HIV.INCD.TL.P3} - Incidence of HIV, all (per 1,000 uninfected population)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of new HIV infections among uninfected populations expressed per 1,000 uninfected population in the year before the period.{p_end}
+
+{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.HIV.INCD.YG}
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.YG:SH.HIV.INCD.YG} - Young people (ages 15-24) newly infected with HIV}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of young people (ages 15-24) newly infected with HIV.{p_end}
+
+{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.HIV.INCD.YG.MA.P3}
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.YG.MA.P3:SH.HIV.INCD.YG.MA.P3} - Incidence of HIV, ages 15-24, male (per 1,000 uninfected male population ages 15-24)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of new HIV infections among uninfected female populations ages 15-24 expressed per 1,000 uninfected female population ages 15-24 in the year before the period.{p_end}
+
+{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.HIV.INCD.YG.P3}
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.YG.P3:SH.HIV.INCD.YG.P3} - Incidence of HIV, ages 15-24 (per 1,000 uninfected population ages 15-24)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of new HIV infections among uninfected populations ages 15-24 expressed per 1,000 uninfected population ages 15-24 in the year before the period.{p_end}
+
+{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+
+
+{synoptline}
 {marker topicid_SH.HIV.INCD.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.ZS:SH.HIV.INCD.ZS} - Incidence of HIV (per 1,000 uninfected population ages 15-49)}}
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.ZS:SH.HIV.INCD.ZS} - Incidence of HIV, ages 15-49 (per 1,000 uninfected population ages 15-49)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2467,6 +2610,19 @@
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
+
+
+{synoptline}
+{marker topicid_SH.IMM.MEA2}
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.MEA2:SH.IMM.MEA2} - Immunization, measles second dose (% of children by the nationally recommended age)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Child immunization, measles second dose, measures the percentage of children who received two dose of measles containing vaccine according to nationally recommended schedule through routine immunization services in a given year.{p_end}
+
+{synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
 
 
 {synoptline}
@@ -3285,31 +3441,31 @@
 
 {synopt:{opt Source Notes}}Prevalence of anemia, pregnant women, is the percentage of pregnant women whose hemoglobin level is less than 110 grams per liter at sea level.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository/World Health Statistics ({browse "http://apps.who.int/gho/data/node.main.1?lang=en"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository/World Health Statistics.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.PRV.SMOK}
-{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK:SH.PRV.SMOK} - Smoking prevalence, total (ages 15+)}}
+{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK:SH.PRV.SMOK} - Prevalence of current tobacco use (% of adults)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Prevalence of smoking is the percentage of men and women ages 15 and over who currently smoke any tobacco product on a daily or non-daily basis. It excludes smokeless tobacco use. The rates are age-standardized.{p_end}
+{synopt:{opt Source Notes}}The percentage of the population ages 15 years and over who currently use any tobacco product (smoked and/or smokeless tobacco) on a daily or non-daily basis. Tobacco products include cigarettes, pipes, cigars, cigarillos, waterpipes (hookah,{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.PRV.SMOK.FE}
-{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE:SH.PRV.SMOK.FE} - Smoking prevalence, females (% of adults)}}
+{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE:SH.PRV.SMOK.FE} - Prevalence of current tobacco use, females (% of female adults)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Prevalence of smoking, female is the percentage of women ages 15 and over who currently smoke any tobacco product on a daily or non-daily basis. It excludes smokeless tobacco use. The rates are age-standardized.{p_end}
+{synopt:{opt Source Notes}}The percentage of the female population ages 15 years and over who currently use any tobacco product (smoked and/or smokeless tobacco) on a daily or non-daily basis. Tobacco products include cigarettes, pipes, cigars, cigarillos, waterpipes (h{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -3381,13 +3537,13 @@
 
 {synoptline}
 {marker topicid_SH.PRV.SMOK.MA}
-{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.MA:SH.PRV.SMOK.MA} - Smoking prevalence, males (% of adults)}}
+{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.MA:SH.PRV.SMOK.MA} - Prevalence of current tobacco use, males (% of male adults)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Prevalence of smoking, male is the percentage of men ages 15 and over who currently smoke any tobacco product on a daily or non-daily basis. It excludes smokeless tobacco use. The rates are age-standardized.{p_end}
+{synopt:{opt Source Notes}}The percentage of the male population ages 15 years and over who currently use any tobacco product (smoked and/or smokeless tobacco) on a daily or non-daily basis. Tobacco products include cigarettes, pipes, cigars, cigarillos, waterpipes (hoo{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -4206,7 +4362,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Diabetes prevalence refers to the percentage of people ages 20-79 who have type 1 or type 2 diabetes.{p_end}
+{synopt:{opt Source Notes}}Diabetes prevalence refers to the percentage of people ages 20-79 who have type 1 or type 2 diabetes. It is calculated by adjusting to a standard population age-structure.{p_end}
 
 {synopt:{opt Source Organization}}International Diabetes Federation, Diabetes Atlas.{p_end}
 
@@ -4351,7 +4507,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women aged 15–49 who have gone through partial or total removal of the female external genitalia or other injury to the female genital organs for cultural or other non-therapeutic reasons.{p_end}
 
-{synopt:{opt Source Organization}}UNICEF Childinfo (childinfo.org).{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of Auguest 28, 2020, UNICEF DATA ({browse "http://www.data.unicef.org/"}) as of August 30, 2020.{p_end}
 
 
 {synoptline}
@@ -4650,7 +4806,7 @@
 
 {synopt:{opt Source Notes}}Maternal mortality ratio is the number of women who die from pregnancy-related causes while pregnant or within 42 days of pregnancy termination per 100,000 live births.{p_end}
 
-{synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
+{synopt:{opt Source Organization}}The country data compiled, adjusted and used in the estimation model by the Maternal Mortality Estimation Inter-Agency Group (MMEIG). The country data were compiled from the following sources:  civil registration and vital statistics; speciali{p_end}
 
 
 {synoptline}
@@ -4960,7 +5116,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -4986,7 +5142,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of male deaths from unintentional poisonings in a year per 100,000 male population. Unintentional poisoning can{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of male deaths from unintentional poisonings in a year per 100,000 male population. Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -5240,7 +5396,7 @@
 
 {synoptline}
 {marker topicid_SH.STA.TRAF.P5}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.TRAF.P5:SH.STA.TRAF.P5} - Mortality caused by road traffic injury (per 100,000 people)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.TRAF.P5:SH.STA.TRAF.P5} - Mortality caused by road traffic injury (per 100,000 population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -5248,7 +5404,7 @@
 
 {synopt:{opt Source Notes}}Mortality caused by road traffic injury is estimated road traffic fatal injury deaths per 100,000 population.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Status Report on Road Safety 2018 through Global Health Observatory data repository.{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
@@ -6197,7 +6353,7 @@
 
 {synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Afric{p_end}
 
-{synopt:{opt Source Organization}}Data before 2018 are from United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its we{p_end}
+{synopt:{opt Source Organization}}United Nations High Commissioner for Refugees (UNHCR) and UNRWA through UNHCR's Refugee Data Finder at {browse "https://www.unhcr.org/refugee-statistics/"}.{p_end}
 
 
 {synoptline}
@@ -6210,7 +6366,7 @@
 
 {synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Afric{p_end}
 
-{synopt:{opt Source Organization}}Data before 2018 are from United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its we{p_end}
+{synopt:{opt Source Organization}}United Nations High Commissioner for Refugees (UNHCR), Refugee Data Finder at {browse "https://www.unhcr.org/refugee-statistics/"}.{p_end}
 
 
 {synoptline}
@@ -6503,7 +6659,7 @@
 {marker topicid_SP.DYN.AMRT.FE}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.AMRT.FE:SP.DYN.AMRT.FE} - Mortality rate, adult, female (per 1,000 female adults)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6776,7 +6932,7 @@
 {marker topicid_SP.DYN.IMRT.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.FE.IN:SP.DYN.IMRT.FE.IN} - Mortality rate, infant, female (per 1,000 live births)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6802,7 +6958,7 @@
 {marker topicid_SP.DYN.IMRT.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.MA.IN:SP.DYN.IMRT.MA.IN} - Mortality rate, infant, male (per 1,000 live births)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7309,7 +7465,7 @@
 {marker topicid_SP.POP.0014.TO.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.TO.ZS:SP.POP.0014.TO.ZS} - Population ages 0-14 (% of total population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7348,7 +7504,7 @@
 {marker topicid_SP.POP.1014.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1014.FE.5Y:SP.POP.1014.FE.5Y} - Population ages 10-14, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7361,7 +7517,7 @@
 {marker topicid_SP.POP.1014.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1014.MA.5Y:SP.POP.1014.MA.5Y} - Population ages 10-14, male (% of male population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7374,7 +7530,7 @@
 {marker topicid_SP.POP.1519.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1519.FE.5Y:SP.POP.1519.FE.5Y} - Population ages 15-19, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7400,7 +7556,7 @@
 {marker topicid_SP.POP.1564.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.FE.IN:SP.POP.1564.FE.IN} - Population ages 15-64, female}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7413,7 +7569,7 @@
 {marker topicid_SP.POP.1564.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.FE.ZS:SP.POP.1564.FE.ZS} - Population ages 15-64, female (% of female population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7452,7 +7608,7 @@
 {marker topicid_SP.POP.1564.TO}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.TO:SP.POP.1564.TO} - Population ages 15-64, total}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7465,7 +7621,7 @@
 {marker topicid_SP.POP.1564.TO.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.TO.ZS:SP.POP.1564.TO.ZS} - Population ages 15-64 (% of total population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7517,7 +7673,7 @@
 {marker topicid_SP.POP.2529.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.2529.MA.5Y:SP.POP.2529.MA.5Y} - Population ages 25-29, male (% of male population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7530,7 +7686,7 @@
 {marker topicid_SP.POP.3034.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.3034.FE.5Y:SP.POP.3034.FE.5Y} - Population ages 30-34, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7543,7 +7699,7 @@
 {marker topicid_SP.POP.3034.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.3034.MA.5Y:SP.POP.3034.MA.5Y} - Population ages 30-34, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7556,7 +7712,7 @@
 {marker topicid_SP.POP.3539.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.3539.FE.5Y:SP.POP.3539.FE.5Y} - Population ages 35-39, female (% of female population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7569,7 +7725,7 @@
 {marker topicid_SP.POP.3539.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.3539.MA.5Y:SP.POP.3539.MA.5Y} - Population ages 35-39, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7582,7 +7738,7 @@
 {marker topicid_SP.POP.4044.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.4044.FE.5Y:SP.POP.4044.FE.5Y} - Population ages 40-44, female (% of female population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7595,7 +7751,7 @@
 {marker topicid_SP.POP.4044.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.4044.MA.5Y:SP.POP.4044.MA.5Y} - Population ages 40-44, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7634,7 +7790,7 @@
 {marker topicid_SP.POP.5054.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5054.FE.5Y:SP.POP.5054.FE.5Y} - Population ages 50-54, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7660,7 +7816,7 @@
 {marker topicid_SP.POP.5559.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5559.FE.5Y:SP.POP.5559.FE.5Y} - Population ages 55-59, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7686,7 +7842,7 @@
 {marker topicid_SP.POP.6064.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.6064.FE.5Y:SP.POP.6064.FE.5Y} - Population ages 60-64, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7699,7 +7855,7 @@
 {marker topicid_SP.POP.6064.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.6064.MA.5Y:SP.POP.6064.MA.5Y} - Population ages 60-64, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7725,7 +7881,7 @@
 {marker topicid_SP.POP.6569.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.6569.MA.5Y:SP.POP.6569.MA.5Y} - Population ages 65-69, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7751,7 +7907,7 @@
 {marker topicid_SP.POP.65UP.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.FE.ZS:SP.POP.65UP.FE.ZS} - Population ages 65 and above, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7777,7 +7933,7 @@
 {marker topicid_SP.POP.65UP.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.MA.ZS:SP.POP.65UP.MA.ZS} - Population ages 65 and above, male (% of male population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7790,7 +7946,7 @@
 {marker topicid_SP.POP.65UP.TO}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.TO:SP.POP.65UP.TO} - Population ages 65 and above, total}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7816,7 +7972,7 @@
 {marker topicid_SP.POP.7074.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.7074.FE.5Y:SP.POP.7074.FE.5Y} - Population ages 70-74, female (% of female population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7842,7 +7998,7 @@
 {marker topicid_SP.POP.7579.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.7579.FE.5Y:SP.POP.7579.FE.5Y} - Population ages 75-79, female (% of female population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7866,7 +8022,7 @@
 
 {synoptline}
 {marker topicid_SP.POP.80UP.FE}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.80UP.FE:SP.POP.80UP.FE} - Female population 80+}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.80UP.FE:SP.POP.80UP.FE} - Population ages 80 and above, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -7894,7 +8050,7 @@
 {marker topicid_SP.POP.80UP.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.80UP.MA.5Y:SP.POP.80UP.MA.5Y} - Population ages 80 and above, male (% of male population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7907,7 +8063,7 @@
 {marker topicid_SP.POP.BRTH.MF}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.BRTH.MF:SP.POP.BRTH.MF} - Sex ratio at birth (male births per female births)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7933,7 +8089,7 @@
 {marker topicid_SP.POP.DPND.OL}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.DPND.OL:SP.POP.DPND.OL} - Age dependency ratio, old (% of working-age population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7959,7 +8115,7 @@
 {marker topicid_SP.POP.GROW}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.GROW:SP.POP.GROW} - Population growth (annual %)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7972,7 +8128,7 @@
 {marker topicid_SP.POP.TOTL}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL:SP.POP.TOTL} - Population, total}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7985,7 +8141,7 @@
 {marker topicid_SP.POP.TOTL.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.FE.IN:SP.POP.TOTL.FE.IN} - Population, female}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7998,7 +8154,7 @@
 {marker topicid_SP.POP.TOTL.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.FE.ZS:SP.POP.TOTL.FE.ZS} - Population, female (% of total population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -8011,7 +8167,7 @@
 {marker topicid_SP.POP.TOTL.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.MA.IN:SP.POP.TOTL.MA.IN} - Population, male}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -8024,7 +8180,7 @@
 {marker topicid_SP.POP.TOTL.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.MA.ZS:SP.POP.TOTL.MA.ZS} - Population, male (% of total population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -8320,4 +8476,4 @@
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}

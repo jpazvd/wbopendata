@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1439,7 +1439,7 @@
 
 {synopt:{opt Source Notes}}Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improve{p_end}
 
-{synopt:{opt Source Organization}}UN HABITAT, retrieved from the United Nation's Millennium Development Goals database. Data are available at : {browse "http://mdgs.un.org/"}{p_end}
+{synopt:{opt Source Organization}}United Nations Human Settlements Programme (UN-HABITAT){p_end}
 
 
 {synoptline}
@@ -1600,7 +1600,7 @@
 
 {synoptline}
 {marker topicid_SI.POV.GINI}
-{synopt:{bf:{help wbopendata_topicid##SI.POV.GINI:SI.POV.GINI} - GINI index (World Bank estimate)}}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.GINI:SI.POV.GINI} - Gini index (World Bank estimate)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1745,7 +1745,7 @@
 {marker topicid_SI.POV.NAGP}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.NAGP:SI.POV.NAGP} - Poverty gap at national poverty lines (%)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1762,7 +1762,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}National poverty headcount ratio is the percentage of the population living below the national poverty lines. National estimates are based on population-weighted subgroup estimates from household surveys.{p_end}
+{synopt:{opt Source Notes}}National poverty headcount ratio is the percentage of the population living below the national poverty line(s). National estimates are based on population-weighted subgroup estimates from household surveys. For economies for which the data are{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
 
@@ -1771,7 +1771,7 @@
 {marker topicid_SI.POV.RUGP}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.RUGP:SI.POV.RUGP} - Rural poverty gap at national poverty lines (%)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1823,7 +1823,7 @@
 {marker topicid_SI.POV.URGP}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.URGP:SI.POV.URGP} - Urban poverty gap at national poverty lines (%)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
@@ -1924,4 +1924,4 @@
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}

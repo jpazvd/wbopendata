@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -3809,3126 +3809,6 @@
 
 
 {synoptline}
-{marker topicid_HH.DHS.GAR.456}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.GAR.456:HH.DHS.GAR.456} - DHS: Gross attendance rate. Post Secondary}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary is the number of post-secondary school pupils of any age, expressed as a percentage of youth of post-secondary school age. Post-secondary school age is defined as the age range from graduation from seconda{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.GAR.456.F}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.GAR.456.F:HH.DHS.GAR.456.F} - DHS: Gross attendance rate. Post Secondary. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Female is the number of female post-secondary school pupils of any age, expressed as a percentage of the population of females of post-secondary school age. Post-secondary school age is defined as the age{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.GAR.456.M}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.GAR.456.M:HH.DHS.GAR.456.M} - DHS: Gross attendance rate. Post Secondary. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Male is the number of male post-secondary school pupils of any age, expressed as a percentage of the population of males of post-secondary school age. Post-secondary school age is defined as the age range{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.GAR.456.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.GAR.456.Q1:HH.DHS.GAR.456.Q1} - DHS: Gross attendance rate. Post Secondary. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 1 is the number of quintile 1 post-secondary school pupils of any age, expressed as a percentage of the quintile 1 population of post-secondary school age. Post-secondary school age is defined as{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.GAR.456.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.GAR.456.Q2:HH.DHS.GAR.456.Q2} - DHS: Gross attendance rate. Post Secondary. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 2 is the number of quintile 2 post-secondary school pupils of any age, expressed as a percentage of the quintile 2 population of post-secondary school age. Post-secondary school age is defined as{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.GAR.456.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.GAR.456.Q3:HH.DHS.GAR.456.Q3} - DHS: Gross attendance rate. Post Secondary. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 3 is the number of quintile 3 post-secondary school pupils of any age, expressed as a percentage of the quintile 3 population of post-secondary school age. Post-secondary school age is defined as{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.GAR.456.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.GAR.456.Q4:HH.DHS.GAR.456.Q4} - DHS: Gross attendance rate. Post Secondary. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 4 is the number of quintile 4 post-secondary school pupils of any age, expressed as a percentage of the quintile 4 population of post-secondary school age. Post-secondary school age is defined as{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.GAR.456.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.GAR.456.Q5:HH.DHS.GAR.456.Q5} - DHS: Gross attendance rate. Post Secondary. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 5 is the number of quintile 5 post-secondary school pupils of any age, expressed as a percentage of the quintile 5 population of post-secondary school age. Post-secondary school age is defined as{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.GAR.456.R}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.GAR.456.R:HH.DHS.GAR.456.R} - DHS: Gross attendance rate. Post Secondary. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Rural is the number of rural post-secondary school pupils of any age, expressed as a percentage of the rural population of post-secondary school age. Post-secondary school age is defined as the age range{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.GAR.456.U}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.GAR.456.U:HH.DHS.GAR.456.U} - DHS: Gross attendance rate. Post Secondary. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Urban is the number of urban post-secondary school pupils of any age, expressed as a percentage of the urban population of post-secondary school age. Post-secondary school age is defined as the age range{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.1}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.1:HH.DHS.NAR.1} - DHS: Net attendance rate. Primary}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Total is the proportion of children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age and duration of pr{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.1.F}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.1.F:HH.DHS.NAR.1.F} - DHS: Net attendance rate. Primary. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Female is the proportion of female children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age and durati{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.1.M}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.1.M:HH.DHS.NAR.1.M} - DHS: Net attendance rate. Primary. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Male is the proportion of male children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age and duration o{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.1.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.1.Q1:HH.DHS.NAR.1.Q1} - DHS: Net attendance rate. Primary. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 1 is the proportion of quintile 1 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.1.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.1.Q2:HH.DHS.NAR.1.Q2} - DHS: Net attendance rate. Primary. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 2 is the proportion of quintile 2 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.1.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.1.Q3:HH.DHS.NAR.1.Q3} - DHS: Net attendance rate. Primary. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 3 is the proportion of quintile 3 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.1.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.1.Q4:HH.DHS.NAR.1.Q4} - DHS: Net attendance rate. Primary. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 4 is the proportion of quintile 4 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.1.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.1.Q5:HH.DHS.NAR.1.Q5} - DHS: Net attendance rate. Primary. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 5 is the proportion of quintile 5 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.1.R}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.1.R:HH.DHS.NAR.1.R} - DHS: Net attendance rate. Primary. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Rural is the proportion of rural children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age and duration{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.1.U}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.1.U:HH.DHS.NAR.1.U} - DHS: Net attendance rate. Primary. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Urban is the proportion of urban children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age and duration{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.23}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.23:HH.DHS.NAR.23} - DHS: Net attendance rate. Secondary}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary is the proportion of children of official secondary school age who are attending secondary school.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.23.F}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.23.F:HH.DHS.NAR.23.F} - DHS: Net attendance rate. Secondary. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Female is the proportion of female children of official secondary school age who are attending secondary school.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.23.M}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.23.M:HH.DHS.NAR.23.M} - DHS: Net attendance rate. Secondary. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Male is the proportion of male children of official secondary school age who are attending secondary school.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.23.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.23.Q1:HH.DHS.NAR.23.Q1} - DHS: Net attendance rate. Secondary. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 1 is the proportion of quintile 1 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.23.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.23.Q2:HH.DHS.NAR.23.Q2} - DHS: Net attendance rate. Secondary. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 2 is the proportion of quintile 2 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.23.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.23.Q3:HH.DHS.NAR.23.Q3} - DHS: Net attendance rate. Secondary. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 3 is the proportion of quintile 3 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.23.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.23.Q4:HH.DHS.NAR.23.Q4} - DHS: Net attendance rate. Secondary. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 4 is the proportion of quintile 4 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.23.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.23.Q5:HH.DHS.NAR.23.Q5} - DHS: Net attendance rate. Secondary. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 5 is the proportion of quintile 5 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.23.R}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.23.R:HH.DHS.NAR.23.R} - DHS: Net attendance rate. Secondary. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Rural is the proportion of rural children of official secondary school age who are attending secondary school.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NAR.23.U}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NAR.23.U:HH.DHS.NAR.23.U} - DHS: Net attendance rate. Secondary. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Urban is the proportion of urban children of official secondary school age who are attending secondary school.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NIR.1}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NIR.1:HH.DHS.NIR.1} - DHS: Net intake rate for the first grade of primary education}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net intake rate for the first grade of primary education is the number of new pupils attending the first grade of primary education who are of the official primary school entrance age, expressed as a percentage of the children of official entr{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NIR.1.F}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NIR.1.F:HH.DHS.NIR.1.F} - DHS: Net intake rate for the first grade of primary education. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net intake rate for the first grade of primary education. Female is the number of new female pupils attending the first grade of primary education who are of the official primary school entrance age, expressed as a percentage of the females of{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NIR.1.M}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NIR.1.M:HH.DHS.NIR.1.M} - DHS: Net intake rate for the first grade of primary education. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net intake rate for the first grade of primary education. Male is the number of new male pupils attending the first grade of primary education who are of the official primary school entrance age, expressed as a percentage of the males of offic{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NIR.1.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NIR.1.Q1:HH.DHS.NIR.1.Q1} - DHS: Net intake rate for the first grade of primary education. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net intake rate for the first grade of primary education. Quintile 1 is the number of new quintile 1 pupils attending the first grade of primary education who are of the official primary school entrance age, expressed as a percentage of the qu{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NIR.1.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NIR.1.Q2:HH.DHS.NIR.1.Q2} - DHS: Net intake rate for the first grade of primary education. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net intake rate for the first grade of primary education. Quintile 2 is the number of new quintile 2 pupils attending the first grade of primary education who are of the official primary school entrance age, expressed as a percentage of the qu{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NIR.1.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NIR.1.Q3:HH.DHS.NIR.1.Q3} - DHS: Net intake rate for the first grade of primary education. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net intake rate for the first grade of primary education. Quintile 3 is the number of new quintile 3 pupils attending the first grade of primary education who are of the official primary school entrance age, expressed as a percentage of the qu{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NIR.1.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NIR.1.Q4:HH.DHS.NIR.1.Q4} - DHS: Net intake rate for the first grade of primary education. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net intake rate for the first grade of primary education. Quintile 4 is the number of new quintile 4 pupils attending the first grade of primary education who are of the official primary school entrance age, expressed as a percentage of the qu{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NIR.1.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NIR.1.Q5:HH.DHS.NIR.1.Q5} - DHS: Net intake rate for the first grade of primary education. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net intake rate for the first grade of primary education. Quintile 5 is the number of new quintile 5 pupils attending the first grade of primary education who are of the official primary school entrance age, expressed as a percentage of the qu{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NIR.1.R}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NIR.1.R:HH.DHS.NIR.1.R} - DHS: Net intake rate for the first grade of primary education. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net intake rate for the first grade of primary education. Rural is the number of new rural pupils attending the first grade of primary education who are of the official primary school entrance age, expressed as a percentage of the rural popula{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.NIR.1.U}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.NIR.1.U:HH.DHS.NIR.1.U} - DHS: Net intake rate for the first grade of primary education. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net intake rate for the first grade of primary education. Urban is the number of new urban pupils attending the first grade of primary education who are of the official primary school entrance age, expressed as a percentage of the urban popula{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOS.1}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOS.1:HH.DHS.OOS.1} - DHS: Proportion of out-of-school. Primary}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary is the number of children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of children of the official primary school age range. By de{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOS.1.F}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOS.1.F:HH.DHS.OOS.1.F} - DHS: Proportion of out-of-school. Primary. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Female is the number of female children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of female children of the official primary s{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOS.1.M}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOS.1.M:HH.DHS.OOS.1.M} - DHS: Proportion of out-of-school. Primary. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Male is the number of male children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of male children of the official primary school{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOS.1.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOS.1.Q1:HH.DHS.OOS.1.Q1} - DHS: Proportion of out-of-school. Primary. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 1 is the number of quintile 1 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 1 children of the offici{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOS.1.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOS.1.Q2:HH.DHS.OOS.1.Q2} - DHS: Proportion of out-of-school. Primary. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 2 is the number of quintile 2 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 2 children of the offici{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOS.1.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOS.1.Q3:HH.DHS.OOS.1.Q3} - DHS: Proportion of out-of-school. Primary. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 3 is the number of quintile 3 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 3 children of the offici{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOS.1.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOS.1.Q4:HH.DHS.OOS.1.Q4} - DHS: Proportion of out-of-school. Primary. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 4 is the number of quintile 4 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 4 children of the offici{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOS.1.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOS.1.Q5:HH.DHS.OOS.1.Q5} - DHS: Proportion of out-of-school. Primary. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 5 is the number of quintile 5 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 5 children of the offici{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOS.1.R}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOS.1.R:HH.DHS.OOS.1.R} - DHS: Proportion of out-of-school. Primary. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Rural is the number of rural children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of rural children of the official primary scho{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOS.1.U}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOS.1.U:HH.DHS.OOS.1.U} - DHS: Proportion of out-of-school. Primary. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Urban is the number of urban children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of urban children of the official primary scho{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.DO}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.DO:HH.DHS.OOST.DO} - DHS: Typology of out-of-school children. Primary. Dropped out}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out is the proportion of out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-school expressed as a p{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.DO.F}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.DO.F:HH.DHS.OOST.DO.F} - DHS: Typology of out-of-school children. Primary. Dropped out. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Female is the proportion of female out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-school e{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.DO.M}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.DO.M:HH.DHS.OOST.DO.M} - DHS: Typology of out-of-school children. Primary. Dropped out. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Male is the proportion of male out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-school expre{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.DO.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.DO.Q1:HH.DHS.OOST.DO.Q1} - DHS: Typology of out-of-school children. Primary. Dropped out. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 1 is the proportion of quintile 1 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.DO.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.DO.Q2:HH.DHS.OOST.DO.Q2} - DHS: Typology of out-of-school children. Primary. Dropped out. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 2 is the proportion of quintile 2 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.DO.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.DO.Q3:HH.DHS.OOST.DO.Q3} - DHS: Typology of out-of-school children. Primary. Dropped out. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 3 is the proportion of quintile 3 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.DO.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.DO.Q4:HH.DHS.OOST.DO.Q4} - DHS: Typology of out-of-school children. Primary. Dropped out. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 4 is the proportion of quintile 4 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.DO.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.DO.Q5:HH.DHS.OOST.DO.Q5} - DHS: Typology of out-of-school children. Primary. Dropped out. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 5 is the proportion of quintile 5 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.DO.R}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.DO.R:HH.DHS.OOST.DO.R} - DHS: Typology of out-of-school children. Primary. Dropped out. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Rural is the proportion of rural out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-school exp{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.DO.U}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.DO.U:HH.DHS.OOST.DO.U} - DHS: Typology of out-of-school children. Primary. Dropped out. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Urban is the proportion of urban out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-school exp{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.L}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.L:HH.DHS.OOST.L} - DHS: Typology of out-of-school children. Primary. Late entry}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry is defined as the proportion of out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is calculated based on UNE{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.L.F}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.L.F:HH.DHS.OOST.L.F} - DHS: Typology of out-of-school children. Primary. Late entry. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Female is defined as the proportion of female out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is calculat{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.L.M}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.L.M:HH.DHS.OOST.L.M} - DHS: Typology of out-of-school children. Primary. Late entry. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Male is defined as the proportion of male out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is calculated b{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.L.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.L.Q1:HH.DHS.OOST.L.Q1} - DHS: Typology of out-of-school children. Primary. Late entry. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 1 is defined as the proportion of quintile 1 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.L.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.L.Q2:HH.DHS.OOST.L.Q2} - DHS: Typology of out-of-school children. Primary. Late entry. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 2 is defined as the proportion of quintile 2 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.L.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.L.Q3:HH.DHS.OOST.L.Q3} - DHS: Typology of out-of-school children. Primary. Late entry. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 3 is defined as the proportion of quintile 3 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.L.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.L.Q4:HH.DHS.OOST.L.Q4} - DHS: Typology of out-of-school children. Primary. Late entry. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 4 is defined as the proportion of quintile 4 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.L.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.L.Q5:HH.DHS.OOST.L.Q5} - DHS: Typology of out-of-school children. Primary. Late entry. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 5 is defined as the proportion of quintile 5 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.L.R}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.L.R:HH.DHS.OOST.L.R} - DHS: Typology of out-of-school children. Primary. Late entry. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Rural is defined as the proportion of rural out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is calculated{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.L.U}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.L.U:HH.DHS.OOST.L.U} - DHS: Typology of out-of-school children. Primary. Late entry. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Urban is defined as the proportion of urban out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is calculated{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.X}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.X:HH.DHS.OOST.X} - DHS: Typology of out-of-school children. Primary. Never in school}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school is the percentage of out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey can say definitively t{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.X.F}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.X.F:HH.DHS.OOST.X.F} - DHS: Typology of out-of-school children. Primary. Never in school. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Female is the percentage of female out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey can say{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.X.M}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.X.M:HH.DHS.OOST.X.M} - DHS: Typology of out-of-school children. Primary. Never in school. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Male is the percentage of male out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey can say def{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.X.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.X.Q1:HH.DHS.OOST.X.Q1} - DHS: Typology of out-of-school children. Primary. Never in school. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 1 is the percentage of quintile 1 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.X.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.X.Q2:HH.DHS.OOST.X.Q2} - DHS: Typology of out-of-school children. Primary. Never in school. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 2 is the percentage of quintile 2 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.X.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.X.Q3:HH.DHS.OOST.X.Q3} - DHS: Typology of out-of-school children. Primary. Never in school. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 3 is the percentage of quintile 3 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.X.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.X.Q4:HH.DHS.OOST.X.Q4} - DHS: Typology of out-of-school children. Primary. Never in school. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 4 is the percentage of quintile 4 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.X.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.X.Q5:HH.DHS.OOST.X.Q5} - DHS: Typology of out-of-school children. Primary. Never in school. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 5 is the percentage of quintile 5 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.X.R}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.X.R:HH.DHS.OOST.X.R} - DHS: Typology of out-of-school children. Primary. Never in school. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Rural is the percentage of rural out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey can say d{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.OOST.X.U}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.OOST.X.U:HH.DHS.OOST.X.U} - DHS: Typology of out-of-school children. Primary. Never in school. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Urban is the percentage of urban out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey can say d{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.PCR}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.PCR:HH.DHS.PCR} - DHS: Primary completion rate}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate is the total number of students of any age in the last grade of primary school, minus the number of repeaters in that grade, divided by the number of children of official graduation age. The completion rate can exceed 1{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.PCR.F}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.PCR.F:HH.DHS.PCR.F} - DHS: Primary completion rate. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Female is the total number of female students of any age in the last grade of primary school, minus the number of female repeaters in that grade, divided by the number of female children of official graduation age. The{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.PCR.M}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.PCR.M:HH.DHS.PCR.M} - DHS: Primary completion rate. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Male is the total number of male students of any age in the last grade of primary school, minus the number of male repeaters in that grade, divided by the number of male children of official graduation age. The complet{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.PCR.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.PCR.Q1:HH.DHS.PCR.Q1} - DHS: Primary completion rate. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Quintile 1 is the total number of quintile 1 students of any age in the last grade of primary school, minus the number of quintile 1 repeaters in that grade, divided by the number of quintile 1 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.PCR.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.PCR.Q2:HH.DHS.PCR.Q2} - DHS: Primary completion rate. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Quintile 2 is the total number of quintile 2 students of any age in the last grade of primary school, minus the number of quintile 2 repeaters in that grade, divided by the number of quintile 2 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.PCR.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.PCR.Q3:HH.DHS.PCR.Q3} - DHS: Primary completion rate. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Quintile 3 is the total number of quintile 3 students of any age in the last grade of primary school, minus the number of quintile 3 repeaters in that grade, divided by the number of quintile 3 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.PCR.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.PCR.Q4:HH.DHS.PCR.Q4} - DHS: Primary completion rate. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Quintile 4 is the total number of quintile 4 students of any age in the last grade of primary school, minus the number of quintile 4 repeaters in that grade, divided by the number of quintile 4 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.PCR.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.PCR.Q5:HH.DHS.PCR.Q5} - DHS: Primary completion rate. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Quintile 5 is the total number of quintile 5 students of any age in the last grade of primary school, minus the number of quintile 5 repeaters in that grade, divided by the number of quintile 5 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.PCR.R}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.PCR.R:HH.DHS.PCR.R} - DHS: Primary completion rate. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Rural is the total number of rural students of any age in the last grade of primary school, minus the number of rural repeaters in that grade, divided by the number of rural children of official graduation age. The com{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.PCR.U}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.PCR.U:HH.DHS.PCR.U} - DHS: Primary completion rate. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Urban is the total number of urban students of any age in the last grade of primary school, minus the number of urban repeaters in that grade, divided by the number of urban children of official graduation age. The com{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.SCR}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.SCR:HH.DHS.SCR} - DHS: Secondary completion rate}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate is the total number of students of any age in last grade of secondary school, minus the number of repeaters in that grade, divided by the number of children of official graduation age. The completion rate can exceed 1{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.SCR.F}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.SCR.F:HH.DHS.SCR.F} - DHS: Secondary completion rate. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Female is the total number of female students of any age in last grade of secondary school, minus the number of female repeaters in that grade, divided by the number of female children of official graduation age. The{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.SCR.M}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.SCR.M:HH.DHS.SCR.M} - DHS: Secondary completion rate. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Male is the total number of male students of any age in last grade of secondary school, minus the number of male repeaters in that grade, divided by the number of male children of official graduation age. The complet{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.SCR.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.SCR.Q1:HH.DHS.SCR.Q1} - DHS: Secondary completion rate. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Quintile 1 is the total number of quintile 1 students of any age in last grade of secondary school, minus the number of quintile 1 repeaters in that grade, divided by the number of quintile 1 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.SCR.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.SCR.Q2:HH.DHS.SCR.Q2} - DHS: Secondary completion rate. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Quintile 2 is the total number of quintile 2 students of any age in last grade of secondary school, minus the number of quintile 2 repeaters in that grade, divided by the number of quintile 2 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.SCR.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.SCR.Q3:HH.DHS.SCR.Q3} - DHS: Secondary completion rate. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Quintile 3 is the total number of quintile 3 students of any age in last grade of secondary school, minus the number of quintile 3 repeaters in that grade, divided by the number of quintile 3 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.SCR.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.SCR.Q4:HH.DHS.SCR.Q4} - DHS: Secondary completion rate. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Quintile 4 is the total number of quintile 4 students of any age in last grade of secondary school, minus the number of quintile 4 repeaters in that grade, divided by the number of quintile 4 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.SCR.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.SCR.Q5:HH.DHS.SCR.Q5} - DHS: Secondary completion rate. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Quintile 5 is the total number of quintile 5 students of any age in last grade of secondary school, minus the number of quintile 5 repeaters in that grade, divided by the number of quintile 5 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.SCR.R}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.SCR.R:HH.DHS.SCR.R} - DHS: Secondary completion rate. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Rural is the total number of rural students of any age in last grade of secondary school, minus the number of rural repeaters in that grade, divided by the number of rural children of official graduation age. The com{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.SCR.U}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.SCR.U:HH.DHS.SCR.U} - DHS: Secondary completion rate. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Urban is the total number of urban students of any age in last grade of secondary school, minus the number of urban repeaters in that grade, divided by the number of urban children of official graduation age. The com{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.TR.12}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.TR.12:HH.DHS.TR.12} - DHS: Transition rate. Primary to Secondary}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary is the proportion of pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.TR.12.F}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.TR.12.F:HH.DHS.TR.12.F} - DHS: Transition rate. Primary to Secondary. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Female is the proportion of female pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.TR.12.M}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.TR.12.M:HH.DHS.TR.12.M} - DHS: Transition rate. Primary to Secondary. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Male is the proportion of male pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.TR.12.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.TR.12.Q1:HH.DHS.TR.12.Q1} - DHS: Transition rate. Primary to Secondary. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 1 is the proportion of quintile 1 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.TR.12.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.TR.12.Q2:HH.DHS.TR.12.Q2} - DHS: Transition rate. Primary to Secondary. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 2 is the proportion of quintile 2 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.TR.12.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.TR.12.Q3:HH.DHS.TR.12.Q3} - DHS: Transition rate. Primary to Secondary. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 3 is the proportion of quintile 3 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.TR.12.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.TR.12.Q4:HH.DHS.TR.12.Q4} - DHS: Transition rate. Primary to Secondary. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 4 is the proportion of quintile 4 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.TR.12.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.TR.12.Q5:HH.DHS.TR.12.Q5} - DHS: Transition rate. Primary to Secondary. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 5 is the proportion of quintile 5 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.TR.12.R}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.TR.12.R:HH.DHS.TR.12.R} - DHS: Transition rate. Primary to Secondary. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Rural is the proportion of rural pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.TR.12.U}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.TR.12.U:HH.DHS.TR.12.U} - DHS: Transition rate. Primary to Secondary. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Urban is the proportion of urban pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.YRS.1519}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.YRS.1519:HH.DHS.YRS.1519} - DHS: Average years of schooling by age group. Age 15-19}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19 is the number of years of formal schooling received, on average, by the population of the given age group.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.YRS.1519.F}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.YRS.1519.F:HH.DHS.YRS.1519.F} - DHS: Average years of schooling by age group. Age 15-19. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Female is the number of years of formal schooling received, on average, by the female population of the given age group.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.YRS.1519.M}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.YRS.1519.M:HH.DHS.YRS.1519.M} - DHS: Average years of schooling by age group. Age 15-19. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Male is the number of years of formal schooling received, on average, by the male population of the given age group.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.YRS.1519.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.YRS.1519.Q1:HH.DHS.YRS.1519.Q1} - DHS: Average years of schooling by age group. Age 15-19. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 1 is the number of years of formal schooling received, on average, by the quintile 1 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.YRS.1519.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.YRS.1519.Q2:HH.DHS.YRS.1519.Q2} - DHS: Average years of schooling by age group. Age 15-19. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 2 is the number of years of formal schooling received, on average, by the quintile 2 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.YRS.1519.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.YRS.1519.Q3:HH.DHS.YRS.1519.Q3} - DHS: Average years of schooling by age group. Age 15-19. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 3 is the number of years of formal schooling received, on average, by the quintile 3 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.YRS.1519.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.YRS.1519.Q4:HH.DHS.YRS.1519.Q4} - DHS: Average years of schooling by age group. Age 15-19. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 4 is the number of years of formal schooling received, on average, by the quintile 4 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.YRS.1519.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.YRS.1519.Q5:HH.DHS.YRS.1519.Q5} - DHS: Average years of schooling by age group. Age 15-19. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 5 is the number of years of formal schooling received, on average, by the quintile 5 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.YRS.1519.R}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.YRS.1519.R:HH.DHS.YRS.1519.R} - DHS: Average years of schooling by age group. Age 15-19. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Rural is the number of years of formal schooling received, on average, by the rural population of the given age group.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.YRS.1519.U}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.YRS.1519.U:HH.DHS.YRS.1519.U} - DHS: Average years of schooling by age group. Age 15-19. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Urban is the number of years of formal schooling received, on average, by the urban population of the given age group.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.YRS.15UP.GIN}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.YRS.15UP.GIN:HH.DHS.YRS.15UP.GIN} - DHS: Gini coefficient of average years of schooling. Age 15+}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gini coefficient of average years of schooling. Age 15+ measures the degree of inequality in years of schooling in a society. It is calculated similarly to the Gini coefficient of income or wealth. Results range from 0 to 100 with 0 indicating{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.YRS.15UP.GIN.F}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.YRS.15UP.GIN.F:HH.DHS.YRS.15UP.GIN.F} - DHS: Gini coefficient of average years of schooling. Age 15+. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gini coefficient of average years of schooling. Age 15+. Female measures the degree of inequality in years of schooling in a society. It is calculated similarly to the Gini coefficient of income or wealth. Results range from 0 to 100 with 0 in{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.YRS.15UP.GIN.M}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.YRS.15UP.GIN.M:HH.DHS.YRS.15UP.GIN.M} - DHS: Gini coefficient of average years of schooling. Age 15+. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gini coefficient of average years of schooling. Age 15+. Male measures the degree of inequality in years of schooling in a society. It is calculated similarly to the Gini coefficient of income or wealth. Results range from 0 to 100 with 0 indi{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.YRS.15UP.GIN.R}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.YRS.15UP.GIN.R:HH.DHS.YRS.15UP.GIN.R} - DHS: Gini coefficient of average years of schooling. Age 15+. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gini coefficient of average years of schooling. Age 15+. Rural measures the degree of inequality in years of schooling in a society. It is calculated similarly to the Gini coefficient of income or wealth. Results range from 0 to 100 with 0 ind{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.DHS.YRS.15UP.GIN.U}
-{synopt:{bf:{help wbopendata_topicid##HH.DHS.YRS.15UP.GIN.U:HH.DHS.YRS.15UP.GIN.U} - DHS: Gini coefficient of average years of schooling. Age 15+. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gini coefficient of average years of schooling. Age 15+. Urban measures the degree of inequality in years of schooling in a society. It is calculated similarly to the Gini coefficient of income or wealth. Results range from 0 to 100 with 0 ind{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.GAR.456}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.GAR.456:HH.MICS.GAR.456} - MICS: Gross attendance rate. Post Secondary}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary is the number of post-secondary school pupils of any age, expressed as a percentage of youth of post-secondary school age. Post-secondary school age is defined as the age range from graduation from seconda{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.GAR.456.F}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.GAR.456.F:HH.MICS.GAR.456.F} - MICS: Gross attendance rate. Post Secondary. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Female is the number of female post-secondary school pupils of any age, expressed as a percentage of the population of females of post-secondary school age. Post-secondary school age is defined as the age{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.GAR.456.M}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.GAR.456.M:HH.MICS.GAR.456.M} - MICS: Gross attendance rate. Post Secondary. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Male is the number of male post-secondary school pupils of any age, expressed as a percentage of the population of males of post-secondary school age. Post-secondary school age is defined as the age range{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.GAR.456.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.GAR.456.Q1:HH.MICS.GAR.456.Q1} - MICS: Gross attendance rate. Post Secondary. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 1 is the number of quintile 1 post-secondary school pupils of any age, expressed as a percentage of the quintile 1 population of post-secondary school age. Post-secondary school age is defined as{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.GAR.456.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.GAR.456.Q2:HH.MICS.GAR.456.Q2} - MICS: Gross attendance rate. Post Secondary. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 2 is the number of quintile 2 post-secondary school pupils of any age, expressed as a percentage of the quintile 2 population of post-secondary school age. Post-secondary school age is defined as{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.GAR.456.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.GAR.456.Q3:HH.MICS.GAR.456.Q3} - MICS: Gross attendance rate. Post Secondary. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 3 is the number of quintile 3 post-secondary school pupils of any age, expressed as a percentage of the quintile 3 population of post-secondary school age. Post-secondary school age is defined as{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.GAR.456.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.GAR.456.Q4:HH.MICS.GAR.456.Q4} - MICS: Gross attendance rate. Post Secondary. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 4 is the number of quintile 4 post-secondary school pupils of any age, expressed as a percentage of the quintile 4 population of post-secondary school age. Post-secondary school age is defined as{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.GAR.456.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.GAR.456.Q5:HH.MICS.GAR.456.Q5} - MICS: Gross attendance rate. Post Secondary. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Quintile 5 is the number of quintile 5 post-secondary school pupils of any age, expressed as a percentage of the quintile 5 population of post-secondary school age. Post-secondary school age is defined as{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.GAR.456.R}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.GAR.456.R:HH.MICS.GAR.456.R} - MICS: Gross attendance rate. Post Secondary. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Rural is the number of rural post-secondary school pupils of any age, expressed as a percentage of the rural population of post-secondary school age. Post-secondary school age is defined as the age range{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.GAR.456.U}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.GAR.456.U:HH.MICS.GAR.456.U} - MICS: Gross attendance rate. Post Secondary. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross attendance rate. Post Secondary. Urban is the number of urban post-secondary school pupils of any age, expressed as a percentage of the urban population of post-secondary school age. Post-secondary school age is defined as the age range{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.1}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.1:HH.MICS.NAR.1} - MICS: Net attendance rate. Primary}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Total is the proportion of children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age and duration of pr{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.1.F}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.1.F:HH.MICS.NAR.1.F} - MICS: Net attendance rate. Primary. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Female is the proportion of female children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age and durati{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.1.M}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.1.M:HH.MICS.NAR.1.M} - MICS: Net attendance rate. Primary. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Male is the proportion of male children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age and duration o{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.1.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.1.Q1:HH.MICS.NAR.1.Q1} - MICS: Net attendance rate. Primary. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 1 is the proportion of quintile 1 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.1.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.1.Q2:HH.MICS.NAR.1.Q2} - MICS: Net attendance rate. Primary. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 2 is the proportion of quintile 2 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.1.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.1.Q3:HH.MICS.NAR.1.Q3} - MICS: Net attendance rate. Primary. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 3 is the proportion of quintile 3 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.1.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.1.Q4:HH.MICS.NAR.1.Q4} - MICS: Net attendance rate. Primary. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 4 is the proportion of quintile 4 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.1.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.1.Q5:HH.MICS.NAR.1.Q5} - MICS: Net attendance rate. Primary. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Quintile 5 is the proportion of quintile 5 children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age an{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.1.R}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.1.R:HH.MICS.NAR.1.R} - MICS: Net attendance rate. Primary. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Rural is the proportion of rural children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age and duration{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.1.U}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.1.U:HH.MICS.NAR.1.U} - MICS: Net attendance rate. Primary. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Urban is the proportion of urban children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age and duration{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.23}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.23:HH.MICS.NAR.23} - MICS: Net attendance rate. Secondary}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary is the proportion of children of official secondary school age who are attending secondary school.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.23.F}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.23.F:HH.MICS.NAR.23.F} - MICS: Net attendance rate. Secondary. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Female is the proportion of female children of official secondary school age who are attending secondary school.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.23.M}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.23.M:HH.MICS.NAR.23.M} - MICS: Net attendance rate. Secondary. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Male is the proportion of male children of official secondary school age who are attending secondary school.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.23.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.23.Q1:HH.MICS.NAR.23.Q1} - MICS: Net attendance rate. Secondary. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 1 is the proportion of quintile 1 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.23.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.23.Q2:HH.MICS.NAR.23.Q2} - MICS: Net attendance rate. Secondary. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 2 is the proportion of quintile 2 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.23.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.23.Q3:HH.MICS.NAR.23.Q3} - MICS: Net attendance rate. Secondary. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 3 is the proportion of quintile 3 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.23.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.23.Q4:HH.MICS.NAR.23.Q4} - MICS: Net attendance rate. Secondary. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 4 is the proportion of quintile 4 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.23.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.23.Q5:HH.MICS.NAR.23.Q5} - MICS: Net attendance rate. Secondary. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Quintile 5 is the proportion of quintile 5 children of official secondary school age who are attending secondary school. Each poverty quintile represents one fifth of students with quintile 1 being the poorest 2{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.23.R}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.23.R:HH.MICS.NAR.23.R} - MICS: Net attendance rate. Secondary. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Rural is the proportion of rural children of official secondary school age who are attending secondary school.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.NAR.23.U}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.NAR.23.U:HH.MICS.NAR.23.U} - MICS: Net attendance rate. Secondary. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Net attendance rate. Secondary. Urban is the proportion of urban children of official secondary school age who are attending secondary school.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOS.1}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOS.1:HH.MICS.OOS.1} - MICS: Proportion of out-of-school. Primary}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary is the number of children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of children of the official primary school age range. By de{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOS.1.F}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOS.1.F:HH.MICS.OOS.1.F} - MICS: Proportion of out-of-school. Primary. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Female is the number of female children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of female children of the official primary s{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOS.1.M}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOS.1.M:HH.MICS.OOS.1.M} - MICS: Proportion of out-of-school. Primary. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Male is the number of male children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of male children of the official primary school{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOS.1.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOS.1.Q1:HH.MICS.OOS.1.Q1} - MICS: Proportion of out-of-school. Primary. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 1 is the number of quintile 1 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 1 children of the offici{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOS.1.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOS.1.Q2:HH.MICS.OOS.1.Q2} - MICS: Proportion of out-of-school. Primary. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 2 is the number of quintile 2 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 2 children of the offici{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOS.1.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOS.1.Q3:HH.MICS.OOS.1.Q3} - MICS: Proportion of out-of-school. Primary. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 3 is the number of quintile 3 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 3 children of the offici{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOS.1.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOS.1.Q4:HH.MICS.OOS.1.Q4} - MICS: Proportion of out-of-school. Primary. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 4 is the number of quintile 4 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 4 children of the offici{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOS.1.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOS.1.Q5:HH.MICS.OOS.1.Q5} - MICS: Proportion of out-of-school. Primary. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 5 is the number of quintile 5 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 5 children of the offici{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOS.1.R}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOS.1.R:HH.MICS.OOS.1.R} - MICS: Proportion of out-of-school. Primary. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Rural is the number of rural children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of rural children of the official primary scho{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOS.1.U}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOS.1.U:HH.MICS.OOS.1.U} - MICS: Proportion of out-of-school. Primary. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Urban is the number of urban children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of urban children of the official primary scho{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.DO}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.DO:HH.MICS.OOST.DO} - MICS: Typology of out-of-school children. Primary. Dropped out}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out is the proportion of out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-school expressed as a p{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.DO.F}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.DO.F:HH.MICS.OOST.DO.F} - MICS: Typology of out-of-school children. Primary. Dropped out. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Female is the proportion of female out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-school e{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.DO.M}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.DO.M:HH.MICS.OOST.DO.M} - MICS: Typology of out-of-school children. Primary. Dropped out. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Male is the proportion of male out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-school expre{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.DO.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.DO.Q1:HH.MICS.OOST.DO.Q1} - MICS: Typology of out-of-school children. Primary. Dropped out. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 1 is the proportion of quintile 1 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.DO.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.DO.Q2:HH.MICS.OOST.DO.Q2} - MICS: Typology of out-of-school children. Primary. Dropped out. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 2 is the proportion of quintile 2 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.DO.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.DO.Q3:HH.MICS.OOST.DO.Q3} - MICS: Typology of out-of-school children. Primary. Dropped out. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 3 is the proportion of quintile 3 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.DO.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.DO.Q4:HH.MICS.OOST.DO.Q4} - MICS: Typology of out-of-school children. Primary. Dropped out. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 4 is the proportion of quintile 4 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.DO.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.DO.Q5:HH.MICS.OOST.DO.Q5} - MICS: Typology of out-of-school children. Primary. Dropped out. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Quintile 5 is the proportion of quintile 5 out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.DO.R}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.DO.R:HH.MICS.OOST.DO.R} - MICS: Typology of out-of-school children. Primary. Dropped out. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Rural is the proportion of rural out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-school exp{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.DO.U}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.DO.U:HH.MICS.OOST.DO.U} - MICS: Typology of out-of-school children. Primary. Dropped out. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Dropped out. Urban is the proportion of urban out-of-school children who were enrolled in school and dropped out. It is calculated as the proportion of children not classified as never-in-school exp{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.L}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.L:HH.MICS.OOST.L} - MICS: Typology of out-of-school children. Primary. Late entry}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry is defined as the proportion of out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is calculated based on UNE{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.L.F}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.L.F:HH.MICS.OOST.L.F} - MICS: Typology of out-of-school children. Primary. Late entry. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Female is defined as the proportion of female out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is calculat{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.L.M}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.L.M:HH.MICS.OOST.L.M} - MICS: Typology of out-of-school children. Primary. Late entry. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Male is defined as the proportion of male out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is calculated b{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.L.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.L.Q1:HH.MICS.OOST.L.Q1} - MICS: Typology of out-of-school children. Primary. Late entry. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 1 is defined as the proportion of quintile 1 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.L.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.L.Q2:HH.MICS.OOST.L.Q2} - MICS: Typology of out-of-school children. Primary. Late entry. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 2 is defined as the proportion of quintile 2 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.L.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.L.Q3:HH.MICS.OOST.L.Q3} - MICS: Typology of out-of-school children. Primary. Late entry. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 3 is defined as the proportion of quintile 3 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.L.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.L.Q4:HH.MICS.OOST.L.Q4} - MICS: Typology of out-of-school children. Primary. Late entry. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 4 is defined as the proportion of quintile 4 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.L.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.L.Q5:HH.MICS.OOST.L.Q5} - MICS: Typology of out-of-school children. Primary. Late entry. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Quintile 5 is defined as the proportion of quintile 5 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.L.R}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.L.R:HH.MICS.OOST.L.R} - MICS: Typology of out-of-school children. Primary. Late entry. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Rural is defined as the proportion of rural out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is calculated{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.L.U}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.L.U:HH.MICS.OOST.L.U} - MICS: Typology of out-of-school children. Primary. Late entry. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Late entry. Urban is defined as the proportion of urban out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is calculated{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.X}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.X:HH.MICS.OOST.X} - MICS: Typology of out-of-school children. Primary. Never in school}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school is the percentage of out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey can say definitively t{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.X.F}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.X.F:HH.MICS.OOST.X.F} - MICS: Typology of out-of-school children. Primary. Never in school. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Female is the percentage of female out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey can say{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.X.M}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.X.M:HH.MICS.OOST.X.M} - MICS: Typology of out-of-school children. Primary. Never in school. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Male is the percentage of male out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey can say def{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.X.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.X.Q1:HH.MICS.OOST.X.Q1} - MICS: Typology of out-of-school children. Primary. Never in school. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 1 is the percentage of quintile 1 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.X.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.X.Q2:HH.MICS.OOST.X.Q2} - MICS: Typology of out-of-school children. Primary. Never in school. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 2 is the percentage of quintile 2 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.X.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.X.Q3:HH.MICS.OOST.X.Q3} - MICS: Typology of out-of-school children. Primary. Never in school. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 3 is the percentage of quintile 3 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.X.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.X.Q4:HH.MICS.OOST.X.Q4} - MICS: Typology of out-of-school children. Primary. Never in school. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 4 is the percentage of quintile 4 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.X.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.X.Q5:HH.MICS.OOST.X.Q5} - MICS: Typology of out-of-school children. Primary. Never in school. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 5 is the percentage of quintile 5 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.X.R}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.X.R:HH.MICS.OOST.X.R} - MICS: Typology of out-of-school children. Primary. Never in school. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Rural is the percentage of rural out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey can say d{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.OOST.X.U}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.OOST.X.U:HH.MICS.OOST.X.U} - MICS: Typology of out-of-school children. Primary. Never in school. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Urban is the percentage of urban out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey can say d{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.PCR}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.PCR:HH.MICS.PCR} - MICS: Primary completion rate}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate is the total number of students of any age in the last grade of primary school, minus the number of repeaters in that grade, divided by the number of children of official graduation age. The completion rate can exceed 1{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.PCR.F}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.PCR.F:HH.MICS.PCR.F} - MICS: Primary completion rate. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Female is the total number of female students of any age in the last grade of primary school, minus the number of female repeaters in that grade, divided by the number of female children of official graduation age. The{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.PCR.M}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.PCR.M:HH.MICS.PCR.M} - MICS: Primary completion rate. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Male is the total number of male students of any age in the last grade of primary school, minus the number of male repeaters in that grade, divided by the number of male children of official graduation age. The complet{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.PCR.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.PCR.Q1:HH.MICS.PCR.Q1} - MICS: Primary completion rate. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Quintile 1 is the total number of quintile 1 students of any age in the last grade of primary school, minus the number of quintile 1 repeaters in that grade, divided by the number of quintile 1 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.PCR.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.PCR.Q2:HH.MICS.PCR.Q2} - MICS: Primary completion rate. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Quintile 2 is the total number of quintile 2 students of any age in the last grade of primary school, minus the number of quintile 2 repeaters in that grade, divided by the number of quintile 2 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.PCR.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.PCR.Q3:HH.MICS.PCR.Q3} - MICS: Primary completion rate. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Quintile 3 is the total number of quintile 3 students of any age in the last grade of primary school, minus the number of quintile 3 repeaters in that grade, divided by the number of quintile 3 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.PCR.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.PCR.Q4:HH.MICS.PCR.Q4} - MICS: Primary completion rate. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Quintile 4 is the total number of quintile 4 students of any age in the last grade of primary school, minus the number of quintile 4 repeaters in that grade, divided by the number of quintile 4 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.PCR.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.PCR.Q5:HH.MICS.PCR.Q5} - MICS: Primary completion rate. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Quintile 5 is the total number of quintile 5 students of any age in the last grade of primary school, minus the number of quintile 5 repeaters in that grade, divided by the number of quintile 5 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.PCR.R}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.PCR.R:HH.MICS.PCR.R} - MICS: Primary completion rate. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Rural is the total number of rural students of any age in the last grade of primary school, minus the number of rural repeaters in that grade, divided by the number of rural children of official graduation age. The com{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.PCR.U}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.PCR.U:HH.MICS.PCR.U} - MICS: Primary completion rate. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate. Urban is the total number of urban students of any age in the last grade of primary school, minus the number of urban repeaters in that grade, divided by the number of urban children of official graduation age. The com{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.SCR}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.SCR:HH.MICS.SCR} - MICS: Secondary completion rate}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate is the total number of students of any age in last grade of secondary school, minus the number of repeaters in that grade, divided by the number of children of official graduation age. The completion rate can exceed 1{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.SCR.F}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.SCR.F:HH.MICS.SCR.F} - MICS: Secondary completion rate. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Female is the total number of female students of any age in last grade of secondary school, minus the number of female repeaters in that grade, divided by the number of female children of official graduation age. The{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.SCR.M}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.SCR.M:HH.MICS.SCR.M} - MICS: Secondary completion rate. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Male is the total number of male students of any age in last grade of secondary school, minus the number of male repeaters in that grade, divided by the number of male children of official graduation age. The complet{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.SCR.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.SCR.Q1:HH.MICS.SCR.Q1} - MICS: Secondary completion rate. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Quintile 1 is the total number of quintile 1 students of any age in last grade of secondary school, minus the number of quintile 1 repeaters in that grade, divided by the number of quintile 1 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.SCR.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.SCR.Q2:HH.MICS.SCR.Q2} - MICS: Secondary completion rate. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Quintile 2 is the total number of quintile 2 students of any age in last grade of secondary school, minus the number of quintile 2 repeaters in that grade, divided by the number of quintile 2 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.SCR.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.SCR.Q3:HH.MICS.SCR.Q3} - MICS: Secondary completion rate. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Quintile 3 is the total number of quintile 3 students of any age in last grade of secondary school, minus the number of quintile 3 repeaters in that grade, divided by the number of quintile 3 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.SCR.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.SCR.Q4:HH.MICS.SCR.Q4} - MICS: Secondary completion rate. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Quintile 4 is the total number of quintile 4 students of any age in last grade of secondary school, minus the number of quintile 4 repeaters in that grade, divided by the number of quintile 4 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.SCR.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.SCR.Q5:HH.MICS.SCR.Q5} - MICS: Secondary completion rate. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Quintile 5 is the total number of quintile 5 students of any age in last grade of secondary school, minus the number of quintile 5 repeaters in that grade, divided by the number of quintile 5 children of official gra{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.SCR.R}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.SCR.R:HH.MICS.SCR.R} - MICS: Secondary completion rate. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Rural is the total number of rural students of any age in last grade of secondary school, minus the number of rural repeaters in that grade, divided by the number of rural children of official graduation age. The com{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.SCR.U}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.SCR.U:HH.MICS.SCR.U} - MICS: Secondary completion rate. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Secondary completion rate. Urban is the total number of urban students of any age in last grade of secondary school, minus the number of urban repeaters in that grade, divided by the number of urban children of official graduation age. The com{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.TR.12}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.TR.12:HH.MICS.TR.12} - MICS: Transition rate. Primary to Secondary}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary is the proportion of pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.TR.12.F}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.TR.12.F:HH.MICS.TR.12.F} - MICS: Transition rate. Primary to Secondary. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Female is the proportion of female pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.TR.12.M}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.TR.12.M:HH.MICS.TR.12.M} - MICS: Transition rate. Primary to Secondary. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Male is the proportion of male pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.TR.12.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.TR.12.Q1:HH.MICS.TR.12.Q1} - MICS: Transition rate. Primary to Secondary. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 1 is the proportion of quintile 1 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.TR.12.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.TR.12.Q2:HH.MICS.TR.12.Q2} - MICS: Transition rate. Primary to Secondary. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 2 is the proportion of quintile 2 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.TR.12.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.TR.12.Q3:HH.MICS.TR.12.Q3} - MICS: Transition rate. Primary to Secondary. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 3 is the proportion of quintile 3 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.TR.12.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.TR.12.Q4:HH.MICS.TR.12.Q4} - MICS: Transition rate. Primary to Secondary. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 4 is the proportion of quintile 4 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.TR.12.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.TR.12.Q5:HH.MICS.TR.12.Q5} - MICS: Transition rate. Primary to Secondary. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Quintile 5 is the proportion of quintile 5 pupils in the last grade of primary who transition to the first grade of secondary the following school year. Each poverty quintile represents one fifth of stude{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.TR.12.R}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.TR.12.R:HH.MICS.TR.12.R} - MICS: Transition rate. Primary to Secondary. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Rural is the proportion of rural pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.TR.12.U}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.TR.12.U:HH.MICS.TR.12.U} - MICS: Transition rate. Primary to Secondary. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Transition rate. Primary to Secondary. Urban is the proportion of urban pupils in the last grade of primary who transition to the first grade of secondary the following school year.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.YRS.1519}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.YRS.1519:HH.MICS.YRS.1519} - MICS: Average years of schooling by age group. Age 15-19}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19 is the number of years of formal schooling received, on average, by the population of the given age group.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.YRS.1519.F}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.YRS.1519.F:HH.MICS.YRS.1519.F} - MICS: Average years of schooling by age group. Age 15-19. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Female is the number of years of formal schooling received, on average, by the female population of the given age group.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.YRS.1519.M}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.YRS.1519.M:HH.MICS.YRS.1519.M} - MICS: Average years of schooling by age group. Age 15-19. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Male is the number of years of formal schooling received, on average, by the male population of the given age group.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.YRS.1519.Q1}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.YRS.1519.Q1:HH.MICS.YRS.1519.Q1} - MICS: Average years of schooling by age group. Age 15-19. Quintile 1}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 1 is the number of years of formal schooling received, on average, by the quintile 1 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.YRS.1519.Q2}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.YRS.1519.Q2:HH.MICS.YRS.1519.Q2} - MICS: Average years of schooling by age group. Age 15-19. Quintile 2}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 2 is the number of years of formal schooling received, on average, by the quintile 2 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.YRS.1519.Q3}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.YRS.1519.Q3:HH.MICS.YRS.1519.Q3} - MICS: Average years of schooling by age group. Age 15-19. Quintile 3}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 3 is the number of years of formal schooling received, on average, by the quintile 3 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.YRS.1519.Q4}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.YRS.1519.Q4:HH.MICS.YRS.1519.Q4} - MICS: Average years of schooling by age group. Age 15-19. Quintile 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 4 is the number of years of formal schooling received, on average, by the quintile 4 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.YRS.1519.Q5}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.YRS.1519.Q5:HH.MICS.YRS.1519.Q5} - MICS: Average years of schooling by age group. Age 15-19. Quintile 5}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Quintile 5 is the number of years of formal schooling received, on average, by the quintile 5 population of the given age group. Each poverty quintile represents one fifth of students with qu{p_end}
-
-{synopt:{opt Source Organization}}Multiple Indicator Cluster Surveys (MICS){p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.YRS.1519.R}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.YRS.1519.R:HH.MICS.YRS.1519.R} - MICS: Average years of schooling by age group. Age 15-19. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Rural is the number of years of formal schooling received, on average, by the rural population of the given age group.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.YRS.1519.U}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.YRS.1519.U:HH.MICS.YRS.1519.U} - MICS: Average years of schooling by age group. Age 15-19. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average years of schooling by age group. Age 15-19. Urban is the number of years of formal schooling received, on average, by the urban population of the given age group.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.YRS.15UP.GIN}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.YRS.15UP.GIN:HH.MICS.YRS.15UP.GIN} - MICS: Gini coefficient of average years of schooling. Age 15+}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gini coefficient of average years of schooling. Age 15+ measures the degree of inequality in years of schooling in a society. It is calculated similarly to the Gini coefficient of income or wealth. Results range from 0 to 100 with 0 indicating{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.YRS.15UP.GIN.F}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.YRS.15UP.GIN.F:HH.MICS.YRS.15UP.GIN.F} - MICS: Gini coefficient of average years of schooling. Age 15+. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gini coefficient of average years of schooling. Age 15+. Female measures the degree of inequality in years of schooling in a society. It is calculated similarly to the Gini coefficient of income or wealth. Results range from 0 to 100 with 0 in{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.YRS.15UP.GIN.M}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.YRS.15UP.GIN.M:HH.MICS.YRS.15UP.GIN.M} - MICS: Gini coefficient of average years of schooling. Age 15+. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gini coefficient of average years of schooling. Age 15+. Male measures the degree of inequality in years of schooling in a society. It is calculated similarly to the Gini coefficient of income or wealth. Results range from 0 to 100 with 0 indi{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.YRS.15UP.GIN.R}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.YRS.15UP.GIN.R:HH.MICS.YRS.15UP.GIN.R} - MICS: Gini coefficient of average years of schooling. Age 15+. Rural}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gini coefficient of average years of schooling. Age 15+. Rural measures the degree of inequality in years of schooling in a society. It is calculated similarly to the Gini coefficient of income or wealth. Results range from 0 to 100 with 0 ind{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
-{marker topicid_HH.MICS.YRS.15UP.GIN.U}
-{synopt:{bf:{help wbopendata_topicid##HH.MICS.YRS.15UP.GIN.U:HH.MICS.YRS.15UP.GIN.U} - MICS: Gini coefficient of average years of schooling. Age 15+. Urban}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gini coefficient of average years of schooling. Age 15+. Urban measures the degree of inequality in years of schooling in a society. It is calculated similarly to the Gini coefficient of income or wealth. Results range from 0 to 100 with 0 ind{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
-
-
-{synoptline}
 {marker topicid_LO.LLECE.MAT3}
 {synopt:{bf:{help wbopendata_topicid##LO.LLECE.MAT3:LO.LLECE.MAT3} - LLECE: Mean performance on the mathematics scale for 3rd grade students, total}}
 
@@ -8693,7 +5573,7 @@
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -8706,7 +5586,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for youth literacy rate is the ratio of females to males ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -8719,7 +5599,7 @@
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -8732,7 +5612,7 @@
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -8745,7 +5625,7 @@
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -8758,7 +5638,7 @@
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -8771,7 +5651,7 @@
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -8784,7 +5664,7 @@
 
 {synopt:{opt Source Notes}}Duration of compulsory education is the number of years that children are legally obliged to attend school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -8797,7 +5677,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary education is the ratio of girls to boys enrolled at primary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -8810,7 +5690,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary and secondary education is the ratio of girls to boys enrolled at primary and secondary levels in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -8823,7 +5703,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in secondary education is the ratio of girls to boys enrolled at secondary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -8836,7 +5716,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in tertiary education is the ratio of women to men enrolled at tertiary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -8927,7 +5807,7 @@
 
 {synopt:{opt Source Notes}}Preprimary duration refers to the number of grades (years) in preprimary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -8957,19 +5837,6 @@
 
 
 {synoptline}
-{marker topicid_SE.PRE.ENRL.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.PRE.ENRL.FE.ZS:SE.PRE.ENRL.FE.ZS} - Percentage of students in pre-primary education who are female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students at the pre-primary level (ISCED 0.2) expressed as a percentage of the total number of students (male and female) at the pre-primary level in a given school year. Within ISCED 0, early childhood educational devel{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_SE.PRE.ENRL.TC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRE.ENRL.TC.ZS:SE.PRE.ENRL.TC.ZS} - Pupil-teacher ratio, preprimary}}
 
@@ -8979,7 +5846,7 @@
 
 {synopt:{opt Source Notes}}Preprimary school pupil-teacher ratio is the average number of pupils per teacher in preprimary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -8992,7 +5859,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Preprimary education refers to programs at the initial stage of organiz{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9005,7 +5872,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Preprimary education refers to programs at the initial stage of organiz{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9018,46 +5885,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Preprimary education refers to programs at the initial stage of organiz{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
-
-
-{synoptline}
-{marker topicid_SE.PRE.NENR}
-{synopt:{bf:{help wbopendata_topicid##SE.PRE.NENR:SE.PRE.NENR} - Net enrolment rate, pre-primary, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students in the theoretical age group for pre-primary education enrolled in that level, expressed as a percentage of the total population in that age group. Divide the number of students enrolled who are of the official age gro{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.PRE.NENR.FE}
-{synopt:{bf:{help wbopendata_topicid##SE.PRE.NENR.FE:SE.PRE.NENR.FE} - Net enrolment rate, pre-primary, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students in the theoretical age group for pre-primary education enrolled in that level, expressed as a percentage of the total female population in that age group. Divide the number of female students enrolled who are of{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.PRE.NENR.MA}
-{synopt:{bf:{help wbopendata_topicid##SE.PRE.NENR.MA:SE.PRE.NENR.MA} - Net enrolment rate, pre-primary, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of male students in the theoretical age group for pre-primary education enrolled in that level, expressed as a percentage of the total male population in that age group. Divide the number of male students enrolled who are of the o{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9083,7 +5911,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in preprimary education are the percentage of preprimary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9096,7 +5924,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in preprimary education are the percentage of preprimary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9109,7 +5937,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in preprimary education are the percentage of preprimary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9161,14 +5989,14 @@
 
 {synopt:{opt Source Notes}}Primary school starting age is the age at which students would enter primary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progressed through the s{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.CMPL.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.PRM.CMPL.FE.ZS:SE.PRM.CMPL.FE.ZS} - Gross graduation ratio from primary education, female (%)}}
+{synopt:{bf:{help wbopendata_topicid##SE.PRM.CMPL.FE.ZS:SE.PRM.CMPL.FE.ZS} - Gross graduation ratio, primary, female (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -9179,26 +6007,13 @@
 
 {synoptline}
 {marker topicid_SE.PRM.CMPL.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.PRM.CMPL.MA.ZS:SE.PRM.CMPL.MA.ZS} - Gross graduation ratio from primary education, male (%)}}
+{synopt:{bf:{help wbopendata_topicid##SE.PRM.CMPL.MA.ZS:SE.PRM.CMPL.MA.ZS} - Gross graduation ratio, primary, male (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Number of male graduates from the last grade of primary education, regardless of age, expressed as a percentage of the male population at the theoretical graduation age. The ratio can exceed 100% due to over-aged and under-aged children who en{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.PRM.CMPL.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.PRM.CMPL.ZS:SE.PRM.CMPL.ZS} - Gross graduation ratio from primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of graduates from the last grade of primary education, regardless of age, expressed as a percentage of the population at the theoretical graduation age. The ratio can exceed 100% due to over-aged and under-aged children who enter{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -9213,7 +6028,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9226,7 +6041,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9239,7 +6054,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9252,7 +6067,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9265,7 +6080,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9278,46 +6093,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
-
-
-{synoptline}
-{marker topicid_SE.PRM.DROP.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.PRM.DROP.FE.ZS:SE.PRM.DROP.FE.ZS} - Cumulative drop-out rate to the last grade of primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of female pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Cumulative dropout rate in primary education is calculated by subtracting the survival rate fro{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.PRM.DROP.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.PRM.DROP.MA.ZS:SE.PRM.DROP.MA.ZS} - Cumulative drop-out rate to the last grade of primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of male pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Cumulative dropout rate in primary education is calculated by subtracting the survival rate from{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.PRM.DROP.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.PRM.DROP.ZS:SE.PRM.DROP.ZS} - Cumulative drop-out rate to the last grade of primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Cumulative dropout rate in primary education is calculated by subtracting the survival rate from 100 a{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9330,7 +6106,7 @@
 
 {synopt:{opt Source Notes}}Primary duration refers to the number of grades (years) in primary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9343,7 +6119,7 @@
 
 {synopt:{opt Source Notes}}Primary education pupils is the total number of pupils enrolled at primary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9369,7 +6145,7 @@
 
 {synopt:{opt Source Notes}}Female pupils as a percentage of total pupils at primary level include enrollments in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9382,7 +6158,7 @@
 
 {synopt:{opt Source Notes}}Primary school pupil-teacher ratio is the average number of pupils per teacher in primary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9395,7 +6171,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9408,7 +6184,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9421,7 +6197,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9434,7 +6210,7 @@
 
 {synopt:{opt Source Notes}}Gross intake ratio in first grade of primary education is the number of new entrants in the first grade of primary education regardless of age, expressed as a percentage of the population of the official primary entrance age.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9447,7 +6223,7 @@
 
 {synopt:{opt Source Notes}}Gross intake ratio in first grade of primary education is the number of new entrants in the first grade of primary education regardless of age, expressed as a percentage of the population of the official primary entrance age.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9460,7 +6236,7 @@
 
 {synopt:{opt Source Notes}}Gross intake ratio in first grade of primary education is the number of new entrants in the first grade of primary education regardless of age, expressed as a percentage of the population of the official primary entrance age.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9473,7 +6249,7 @@
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Primary education provides children with basic reading, writing, and mathematics skills{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9486,7 +6262,7 @@
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Primary education provides children with basic reading, writing, and mathematics skills{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9499,7 +6275,7 @@
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Primary education provides children with basic reading, writing, and mathematics skills{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9512,7 +6288,7 @@
 
 {synopt:{opt Source Notes}}Net intake rate in grade 1 is the number of new entrants in the first grade of primary education who are of official primary school entrance age, expressed as a percentage of the population of the corresponding age.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9525,7 +6301,7 @@
 
 {synopt:{opt Source Notes}}Net intake rate in grade 1 is the number of new entrants in the first grade of primary education who are of official primary school entrance age, expressed as a percentage of the population of the corresponding age.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9538,7 +6314,7 @@
 
 {synopt:{opt Source Notes}}Net intake rate in grade 1 is the number of new entrants in the first grade of primary education who are of official primary school entrance age, expressed as a percentage of the population of the corresponding age.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9551,7 +6327,7 @@
 
 {synopt:{opt Source Notes}}Over-age students are the percentage of those enrolled who are older than the official school-age range for primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9564,7 +6340,7 @@
 
 {synopt:{opt Source Notes}}Over-age students are the percentage of those enrolled who are older than the official school-age range for primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9577,7 +6353,7 @@
 
 {synopt:{opt Source Notes}}Over-age students are the percentage of those enrolled who are older than the official school-age range for primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9590,7 +6366,7 @@
 
 {synopt:{opt Source Notes}}Private enrollment refers to pupils or students enrolled in institutions that are not operated by a public authority but controlled and managed, whether for profit or not, by a private body such as a nongovernmental organization, religious bod{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9603,7 +6379,7 @@
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9616,7 +6392,7 @@
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9629,7 +6405,7 @@
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9642,7 +6418,7 @@
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9655,7 +6431,7 @@
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9668,7 +6444,7 @@
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9681,7 +6457,7 @@
 
 {synopt:{opt Source Notes}}Repeaters in primary school are the number of students enrolled in the same grade as in the previous year, as a percentage of all students enrolled in primary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9694,7 +6470,7 @@
 
 {synopt:{opt Source Notes}}Repeaters in primary school are the number of students enrolled in the same grade as in the previous year, as a percentage of all students enrolled in primary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9707,7 +6483,7 @@
 
 {synopt:{opt Source Notes}}Repeaters in primary school are the number of students enrolled in the same grade as in the previous year, as a percentage of all students enrolled in primary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9720,7 +6496,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9733,7 +6509,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9746,7 +6522,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9759,7 +6535,7 @@
 
 {synopt:{opt Source Notes}}Primary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9785,7 +6561,7 @@
 
 {synopt:{opt Source Notes}}Female teachers as a percentage of total primary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9798,7 +6574,7 @@
 
 {synopt:{opt Source Notes}}Adjusted net enrollment is the number of pupils of the school-age group for primary education, enrolled either in primary or secondary education, expressed as a percentage of the total population in that age group.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9811,7 +6587,7 @@
 
 {synopt:{opt Source Notes}}Adjusted net enrollment is the number of pupils of the school-age group for primary education, enrolled either in primary or secondary education, expressed as a percentage of the total population in that age group.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9824,7 +6600,7 @@
 
 {synopt:{opt Source Notes}}Adjusted net enrollment is the number of pupils of the school-age group for primary education, enrolled either in primary or secondary education, expressed as a percentage of the total population in that age group.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -9837,7 +6613,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9850,7 +6626,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9863,7 +6639,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the percentage of primary-school-age children who are not enrolled in primary or secondary school. Children in the official primary age group that are in preprimary education should be considered out of school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9876,7 +6652,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9889,7 +6665,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the percentage of primary-school-age children who are not enrolled in primary or secondary school. Children in the official primary age group that are in preprimary education should be considered out of school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9902,7 +6678,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the percentage of primary-school-age children who are not enrolled in primary or secondary school. Children in the official primary age group that are in preprimary education should be considered out of school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9915,7 +6691,7 @@
 
 {synopt:{opt Source Notes}}Lower secondary school starting age is the age at which students would enter lower secondary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progress{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9928,7 +6704,7 @@
 
 {synopt:{opt Source Notes}}Lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary ed{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9941,7 +6717,7 @@
 
 {synopt:{opt Source Notes}}Lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary ed{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9954,7 +6730,7 @@
 
 {synopt:{opt Source Notes}}Lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary ed{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9967,7 +6743,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9980,7 +6756,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -9993,7 +6769,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10006,7 +6782,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10019,7 +6795,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10032,7 +6808,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10045,7 +6821,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10058,7 +6834,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10071,7 +6847,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10084,7 +6860,7 @@
 
 {synopt:{opt Source Notes}}Secondary duration refers to the number of grades (years) in secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10123,7 +6899,7 @@
 
 {synopt:{opt Source Notes}}Secondary education pupils is the total number of pupils enrolled at secondary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10140,19 +6916,6 @@
 
 
 {synoptline}
-{marker topicid_SE.SEC.ENRL.FE.VO.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRL.FE.VO.ZS:SE.SEC.ENRL.FE.VO.ZS} - Share of female students in secondary education enrolled in vocational programmes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in vocational programmes at the secondary education level, expressed as a percentage of the total number of female students enrolled in all programmes (vocational and general) at the secondary level. Vo{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_SE.SEC.ENRL.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRL.FE.ZS:SE.SEC.ENRL.FE.ZS} - Secondary education, pupils (% female)}}
 
@@ -10162,7 +6925,7 @@
 
 {synopt:{opt Source Notes}}Female pupils as a percentage of total pupils at secondary level includes enrollments in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -10175,20 +6938,7 @@
 
 {synopt:{opt Source Notes}}Secondary general pupils are the number of secondary students enrolled in general education programs, including teacher training.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
-
-
-{synoptline}
-{marker topicid_SE.SEC.ENRL.GC.FE}
-{synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRL.GC.FE:SE.SEC.ENRL.GC.FE} - Enrolment in secondary general, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in general programmes at public and private secondary education institutions regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -10201,7 +6951,7 @@
 
 {synopt:{opt Source Notes}}Secondary general pupils are the number of secondary students enrolled in general education programs, including teacher training.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -10214,14 +6964,14 @@
 
 {synopt:{opt Source Notes}}Lower secondary school pupil-teacher ratio is the average number of pupils per teacher in lower secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.ENRL.MA.VO.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRL.MA.VO.ZS:SE.SEC.ENRL.MA.VO.ZS} - Share of male students in secondary education enrolled in vocational programmes (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -10240,7 +6990,7 @@
 
 {synopt:{opt Source Notes}}Secondary school pupil-teacher ratio is the average number of pupils per teacher in secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -10253,7 +7003,7 @@
 
 {synopt:{opt Source Notes}}Upper secondary school pupil-teacher ratio is the average number of pupils per teacher in upper secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -10266,20 +7016,7 @@
 
 {synopt:{opt Source Notes}}Secondary vocational pupils are the number of secondary students enrolled in technical and vocational education programs, including teacher training.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
-
-
-{synoptline}
-{marker topicid_SE.SEC.ENRL.VO.FE}
-{synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRL.VO.FE:SE.SEC.ENRL.VO.FE} - Enrolment in secondary vocational, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in vocational programmes at public and private secondary education institutions. Vocational education is designed for learners to acquire the knowledge, skills and competencies specific to a particular{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -10292,7 +7029,7 @@
 
 {synopt:{opt Source Notes}}Secondary vocational pupils are the number of secondary students enrolled in technical and vocational education programs, including teacher training.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -10318,7 +7055,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10331,7 +7068,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10383,7 +7120,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10435,7 +7172,7 @@
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Secondary education completes the provision of basic education that began at the primary{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -10448,7 +7185,7 @@
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Secondary education completes the provision of basic education that began at the primary{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -10461,7 +7198,7 @@
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Secondary education completes the provision of basic education that began at the primary{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -10474,7 +7211,7 @@
 
 {synopt:{opt Source Notes}}Private enrollment refers to pupils or students enrolled in institutions that are not operated by a public authority but controlled and managed, whether for profit or not, by a private body such as a nongovernmental organization, religious bod{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10487,7 +7224,7 @@
 
 {synopt:{opt Source Notes}}Progression to secondary school refers to the number of new entrants to the first grade of secondary school in a given year as a percentage of the number of students enrolled in the final grade of primary school in the previous year (minus the{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -10500,7 +7237,7 @@
 
 {synopt:{opt Source Notes}}Progression to secondary school refers to the number of new entrants to the first grade of secondary school in a given year as a percentage of the number of students enrolled in the final grade of primary school in the previous year (minus the{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -10513,7 +7250,7 @@
 
 {synopt:{opt Source Notes}}Progression to secondary school refers to the number of new entrants to the first grade of secondary school in a given year as a percentage of the number of students enrolled in the final grade of primary school in the previous year (minus the{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -10526,7 +7263,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in secondary education are the percentage of secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10539,7 +7276,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in lower secondary education are the percentage of lower secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10552,7 +7289,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in lower secondary education are the percentage of lower secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10565,7 +7302,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in lower secondary education are the percentage of lower secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10578,7 +7315,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in secondary education are the percentage of secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10591,7 +7328,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in upper secondary education are the percentage of upper secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10604,7 +7341,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in upper secondary education are the percentage of upper secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10617,7 +7354,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in upper secondary education are the percentage of upper secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10630,7 +7367,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in secondary education are the percentage of secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10643,7 +7380,7 @@
 
 {synopt:{opt Source Notes}}Secondary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10656,7 +7393,7 @@
 
 {synopt:{opt Source Notes}}Secondary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10669,7 +7406,7 @@
 
 {synopt:{opt Source Notes}}Female teachers as a percentage of total secondary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10682,7 +7419,7 @@
 
 {synopt:{opt Source Notes}}Adolescents out of school are the percentage of lower secondary school age adolescents who are not enrolled in school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10695,7 +7432,7 @@
 
 {synopt:{opt Source Notes}}Adolescents out of school are the percentage of lower secondary school age adolescents who are not enrolled in school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10708,7 +7445,7 @@
 
 {synopt:{opt Source Notes}}Adolescents out of school are the percentage of lower secondary school age adolescents who are not enrolled in school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10760,7 +7497,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10773,7 +7510,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10786,7 +7523,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10799,7 +7536,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10812,7 +7549,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10825,7 +7562,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10838,7 +7575,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10851,7 +7588,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10864,7 +7601,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10877,7 +7614,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10890,7 +7627,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10903,7 +7640,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10936,7 +7673,7 @@
 {marker topicid_SE.TER.ENRL.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.ENRL.FE.ZS:SE.TER.ENRL.FE.ZS} - Percentage of students in tertiary education who are female (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -10955,7 +7692,7 @@
 
 {synopt:{opt Source Notes}}Tertiary school pupil-teacher ratio is the average number of pupils per teacher in tertiary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -10968,7 +7705,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10981,7 +7718,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -10994,33 +7731,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.GRAD}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD:SE.TER.GRAD} - Graduates from tertiary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students successfully completing tertiary education programmes (ISCED 5 to 8) in public and private tertiary education institutions during the reference academic year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.GRAD.AG.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.AG.FE.ZS:SE.TER.GRAD.AG.FE.ZS} - Percentage of female graduates from tertiary education graduating from Agriculture, Forestry, Fisheries and Veterinary programmes, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed Agriculture, Forestry, Fisheries and Veterinary programmes in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -11032,19 +7743,6 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Share of all tertiary graduates who completed Agriculture, Forestry, Fisheries and Veterinary programmes in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.GRAD.ED.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.ED.FE.ZS:SE.TER.GRAD.ED.FE.ZS} - Percentage of female graduates from tertiary education graduating from Education programmes, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed education programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -11063,19 +7761,6 @@
 
 
 {synoptline}
-{marker topicid_SE.TER.GRAD.EN.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.EN.FE.ZS:SE.TER.GRAD.EN.FE.ZS} - Percentage of female graduates from tertiary education graduating from Engineering, Manufacturing and Construction programmes, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed engineering, manufacturing and construction programmes in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_SE.TER.GRAD.EN.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.EN.ZS:SE.TER.GRAD.EN.ZS} - Percentage of graduates from tertiary education graduating from Engineering, Manufacturing and Construction programmes, both sexes (%)}}
 
@@ -11089,23 +7774,10 @@
 
 
 {synoptline}
-{marker topicid_SE.TER.GRAD.FE}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE:SE.TER.GRAD.FE} - Graduates from tertiary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students successfully completing tertiary education programmes (ISCED 5 to 8) in public and private tertiary education institutions during the reference academic year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_SE.TER.GRAD.FE.AG.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.AG.ZS:SE.TER.GRAD.FE.AG.ZS} - Percentage of graduates from Agriculture, Forestry, Fisheries and Veterinary programmes in tertiary education who are female (%)}}
+{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.AG.ZS:SE.TER.GRAD.FE.AG.ZS} - Female share of graduates in Agriculture, Forestry, Fisheries and Veterinary programmes, tertiary (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -11116,9 +7788,9 @@
 
 {synoptline}
 {marker topicid_SE.TER.GRAD.FE.ED.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.ED.ZS:SE.TER.GRAD.FE.ED.ZS} - Percentage of graduates from Education programmes in tertiary education who are female (%)}}
+{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.ED.ZS:SE.TER.GRAD.FE.ED.ZS} - Female share of graduates in Education programmes, tertiary (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -11129,9 +7801,9 @@
 
 {synoptline}
 {marker topicid_SE.TER.GRAD.FE.EN.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.EN.ZS:SE.TER.GRAD.FE.EN.ZS} - Percentage of graduates from Engineering, Manufacturing and Construction programmes in tertiary education who are female (%)}}
+{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.EN.ZS:SE.TER.GRAD.FE.EN.ZS} - Female share of graduates in Engineering, Manufacturing and Construction programmes, tertiary (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -11142,9 +7814,9 @@
 
 {synoptline}
 {marker topicid_SE.TER.GRAD.FE.HL.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.HL.ZS:SE.TER.GRAD.FE.HL.ZS} - Percentage of graduates from Health and Welfare programmes in tertiary education who are female (%)}}
+{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.HL.ZS:SE.TER.GRAD.FE.HL.ZS} - Female share of graduates in Health and Welfare programmes, tertiary (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -11155,9 +7827,9 @@
 
 {synoptline}
 {marker topicid_SE.TER.GRAD.FE.HU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.HU.ZS:SE.TER.GRAD.FE.HU.ZS} - Percentage of graduates from Arts and Humanities programmes in tertiary education who are female (%)}}
+{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.HU.ZS:SE.TER.GRAD.FE.HU.ZS} - Female share of graduates in Arts and Humanities programmes, tertiary (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -11168,9 +7840,9 @@
 
 {synoptline}
 {marker topicid_SE.TER.GRAD.FE.OT.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.OT.ZS:SE.TER.GRAD.FE.OT.ZS} - Percentage of graduates from programmes in unspecified fields in tertiary education who are female (%)}}
+{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.OT.ZS:SE.TER.GRAD.FE.OT.ZS} - Female share of graduates in unknown or unspecified fields, tertiary (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -11181,9 +7853,9 @@
 
 {synoptline}
 {marker topicid_SE.TER.GRAD.FE.SC.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.SC.ZS:SE.TER.GRAD.FE.SC.ZS} - Percentage of graduates from Natural Sciences, Mathematics and Statistics programmes in tertiary education who are female (%)}}
+{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.SC.ZS:SE.TER.GRAD.FE.SC.ZS} - Female share of graduates in Natural Sciences, Mathematics and Statistics programmes, tertiary (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -11207,9 +7879,9 @@
 
 {synoptline}
 {marker topicid_SE.TER.GRAD.FE.SS.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.SS.ZS:SE.TER.GRAD.FE.SS.ZS} - Percentage of graduates from Social Sciences, Journalism and Information programmes in tertiary education who are female (%)}}
+{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.SS.ZS:SE.TER.GRAD.FE.SS.ZS} - Female share of graduates in Social Sciences, Journalism and Information programmes, tertiary (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -11220,41 +7892,15 @@
 
 {synoptline}
 {marker topicid_SE.TER.GRAD.FE.SV.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.SV.ZS:SE.TER.GRAD.FE.SV.ZS} - Percentage of graduates from Services programmes in tertiary education who are female (%)}}
+{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.SV.ZS:SE.TER.GRAD.FE.SV.ZS} - Female share of graduates in Services programmes, tertiary (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.GRAD.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.FE.ZS:SE.TER.GRAD.FE.ZS} - Percentage of graduates from tertiary education who are female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of females completing tertiary education programmes (ISCED 5 to 8) expressed as a percentage of the total number of students (male and female) completing tertiary education programmes (ISCED 5 to 8) in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.GRAD.HL.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.HL.FE.ZS:SE.TER.GRAD.HL.FE.ZS} - Percentage of female graduates from tertiary education graduating from Health and Welfare programmes, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed health and welfare programmes in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -11266,19 +7912,6 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Share of all tertiary graduates who completed health and welfare programmes in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.GRAD.HU.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.HU.FE.ZS:SE.TER.GRAD.HU.FE.ZS} - Percentage of female graduates from tertiary education graduating from Arts and Humanities programmes, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed humanities and arts programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -11297,19 +7930,6 @@
 
 
 {synoptline}
-{marker topicid_SE.TER.GRAD.OT.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.OT.FE.ZS:SE.TER.GRAD.OT.FE.ZS} - Percentage of female graduates from tertiary education graduating from programmes in unspecified fields, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed programmes in unspecified fields in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_SE.TER.GRAD.OT.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.OT.ZS:SE.TER.GRAD.OT.ZS} - Percentage of graduates from tertiary education graduating from programmes in unspecified fields, both sexes (%)}}
 
@@ -11318,19 +7938,6 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Share of all tertiary graduates who completed programmes in unspecified fields in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.GRAD.SC.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.SC.FE.ZS:SE.TER.GRAD.SC.FE.ZS} - Percentage of female graduates from tertiary education graduating from Natural Sciences, Mathematics and Statistics programmes, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed Natural Sciences, Mathematics and Statistics programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -11349,19 +7956,6 @@
 
 
 {synoptline}
-{marker topicid_SE.TER.GRAD.SS.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.SS.FE.ZS:SE.TER.GRAD.SS.FE.ZS} - Percentage of female graduates from tertiary education graduating from Social Sciences, Journalism and Information programmes, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed Social Sciences, Journalism and Information programmes in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_SE.TER.GRAD.SS.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.SS.ZS:SE.TER.GRAD.SS.ZS} - Percentage of graduates from tertiary education graduating from Social Sciences, Journalism and Information programmes, both sexes (%)}}
 
@@ -11370,19 +7964,6 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Share of all tertiary graduates who completed Social Sciences, Journalism and Information programmes in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.GRAD.SV.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.SV.FE.ZS:SE.TER.GRAD.SV.FE.ZS} - Percentage of female graduates from tertiary education graduating from Services programmes, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all female tertiary graduates who completed services programmes in the reference year.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -11449,7 +8030,7 @@
 
 {synopt:{opt Source Notes}}Tertiary education, academic staff (% female) is the share of female academic staff in tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -11475,7 +8056,7 @@
 
 {synopt:{opt Source Notes}}Current expenditure is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded fro{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -11488,7 +8069,7 @@
 
 {synopt:{opt Source Notes}}Current expenditure is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded fro{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -11501,7 +8082,7 @@
 
 {synopt:{opt Source Notes}}Current expenditure is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded fro{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -11514,7 +8095,7 @@
 
 {synopt:{opt Source Notes}}Current expenditure is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded fro{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -11592,7 +8173,7 @@
 
 {synopt:{opt Source Notes}}Government expenditure per student is the average general government expenditure (current, capital, and transfers) per student in the given level of education, expressed as a percentage of GDP per capita.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -11605,7 +8186,7 @@
 
 {synopt:{opt Source Notes}}Expenditure on primary education is expressed as a percentage of total general government expenditure on education. General government usually refers to local, regional and central governments.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -11631,7 +8212,7 @@
 
 {synopt:{opt Source Notes}}Government expenditure per student is the average general government expenditure (current, capital, and transfers) per student in the given level of education, expressed as a percentage of GDP per capita.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -11644,7 +8225,7 @@
 
 {synopt:{opt Source Notes}}Expenditure on secondary education is expressed as a percentage of total general government expenditure on education. General government usually refers to local, regional and central governments.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -11683,7 +8264,7 @@
 
 {synopt:{opt Source Notes}}Government expenditure per student is the average general government expenditure (current, capital, and transfers) per student in the given level of education, expressed as a percentage of GDP per capita.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -11696,7 +8277,7 @@
 
 {synopt:{opt Source Notes}}Expenditure on tertiary education is expressed as a percentage of total general government expenditure on education. General government usually refers to local, regional and central governments.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -11709,7 +8290,7 @@
 
 {synopt:{opt Source Notes}}General government expenditure on education (current, capital, and transfers) is expressed as a percentage of total general government expenditure on all sectors (including health, education, social services, etc.). It includes expenditure fun{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -11722,7 +8303,163 @@
 
 {synopt:{opt Source Notes}}General government expenditure on education (current, capital, and transfers) is expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. General government usually refers to local{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DTH.0509}
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.0509:SH.DTH.0509} - Number of deaths ages 5-9 years}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Number of deaths of children ages 5-9 years{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DTH.1014}
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.1014:SH.DTH.1014} - Number of deaths ages 10-14 years}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Number of deaths of adolescents ages 10-14 years{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DTH.1519}
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.1519:SH.DTH.1519} - Number of deaths ages 15-19 years}}
+
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Number of deaths of adolescents ages 15-19 years{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DTH.2024}
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.2024:SH.DTH.2024} - Number of deaths ages 20-24 years}}
+
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Number of deaths of youths ages 20-24 years{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DTH.IMRT.FE}
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.IMRT.FE:SH.DTH.IMRT.FE} - Number of infant deaths, female}}
+
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Number of female infants dying before reaching one year of age{p_end}
+
+{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DTH.IMRT.MA}
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.IMRT.MA:SH.DTH.IMRT.MA} - Number of infant deaths, male}}
+
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Number of male infants dying before reaching one year of age{p_end}
+
+{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DTH.MORT.FE}
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.MORT.FE:SH.DTH.MORT.FE} - Number of under-five deaths, female}}
+
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Number of female children dying before reaching age five{p_end}
+
+{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DTH.MORT.MA}
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.MORT.MA:SH.DTH.MORT.MA} - Number of under-five deaths, male}}
+
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Number of male children dying before reaching age five{p_end}
+
+{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DYN.0509}
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.0509:SH.DYN.0509} - Probability of dying among children ages 5-9 years (per 1,000)}}
+
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Probability of dying between age 5-9 years of age expressed per 1,000 children aged 5, if subject to age-specific mortality rates of the specified year.{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DYN.1014}
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.1014:SH.DYN.1014} - Probability of dying among adolescents ages 10-14 years (per 1,000)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Probability of dying between age 10-14 years of age expressed per 1,000 adolescents age 10, if subject to age-specific mortality rates of the specified year.{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DYN.1519}
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.1519:SH.DYN.1519} - Probability of dying among adolescents ages 15-19 years (per 1,000)}}
+
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Probability of dying between age 15-19 years of age expressed per 1,000 adolescents age 15, if subject to age-specific mortality rates of the specified year.{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.DYN.2024}
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.2024:SH.DYN.2024} - Probability of dying among youth ages 20-24 years (per 1,000)}}
+
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Probability of dying between age 20-24 years of age expressed per 1,000 youths age 20, if subject to age-specific mortality rates of the specified year.{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -11852,7 +8589,7 @@
 
 {synopt:{opt Source Notes}}Female labor force as a percentage of the total show the extent to which women are active in the labor force. Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -11865,7 +8602,7 @@
 
 {synopt:{opt Source Notes}}Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period. It includes people who are currently employed and people who are unemployed but seeking work as well as first-t{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -11878,7 +8615,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -11891,7 +8628,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -11904,7 +8641,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -14560,97 +11297,6 @@
 
 
 {synoptline}
-{marker topicid_UIS.AFR.SCHCENRESPR.1.PU}
-{synopt:{bf:{help wbopendata_topicid##UIS.AFR.SCHCENRESPR.1.PU:UIS.AFR.SCHCENRESPR.1.PU} - Africa Dataset: School census return rate from primary schools}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all primary school questionnaires that were returned with at least some usable data and captured in the EMIS system. Data available for African countries only. For more information, consult the UNESCO Institute for Statistics' Regiona{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.AFR.SCHCENRESPR.23.PU}
-{synopt:{bf:{help wbopendata_topicid##UIS.AFR.SCHCENRESPR.23.PU:UIS.AFR.SCHCENRESPR.23.PU} - Africa Dataset: School census return rate from secondary schools}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all lower secondary school questionnaires that were returned with at least some usable data and captured in the EMIS system. Data available for African countries only. For more information, consult the UNESCO Institute for Statistics'{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.AIR.1.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.AIR.1.GPI:UIS.AIR.1.GPI} - Gross intake ratio to Grade 1 of primary education, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of the female gross intake ratio for primary to the male gross intake ratio for primary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between femal{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.AIR.1.Glast.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.AIR.1.Glast.GPI:UIS.AIR.1.Glast.GPI} - Primary completion rate, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of the female primary completion rate to the male primary completion rate. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between females and males.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.AIR.2.GPV}
-{synopt:{bf:{help wbopendata_topicid##UIS.AIR.2.GPV:UIS.AIR.2.GPV} - Gross intake ratio to Grade 1 of lower secondary general education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of new entrants in the first grade of lower secondary education, regardless of age, expressed as a percentage of the population at the official lower secondary school entrance age. A high GIR indicates a high degree of access to l{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.AIR.2.GPV.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.AIR.2.GPV.F:UIS.AIR.2.GPV.F} - Gross intake ratio to Grade 1 of lower secondary general education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of new female entrants in the first grade of lower secondary education, regardless of age, expressed as a percentage of the population at the official lower secondary school-entrance age. A high GIR indicates a high degree of acce{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.AIR.2.GPV.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.AIR.2.GPV.M:UIS.AIR.2.GPV.M} - Gross intake ratio to Grade 1 of lower secondary general education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of new male entrants in the first grade of lower secondary education, regardless of age, expressed as a percentage of the population at the official lower secondary school-entrance age. A high GIR indicates a high degree of access{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.CEAge.1}
 {synopt:{bf:{help wbopendata_topicid##UIS.CEAge.1:UIS.CEAge.1} - Official entrance age to compulsory education (years)}}
 
@@ -14659,500 +11305,6 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Official age when students should enter compulsory education assuming they start at the official entrance age for the lowest level of education, study full-time throughout and progressed through the system without repeating or skipping a grade{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G1}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G1:UIS.DR.1.G1} - Drop-out rate from Grade 1 of primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate from{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G1.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G1.F:UIS.DR.1.G1.F} - Drop-out rate from Grade 1 of primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of female pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rat{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G1.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G1.M:UIS.DR.1.G1.M} - Drop-out rate from Grade 1 of primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of male pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G2}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G2:UIS.DR.1.G2} - Drop-out rate from Grade 2 of primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate from{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G2.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G2.F:UIS.DR.1.G2.F} - Drop-out rate from Grade 2 of primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of female pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rat{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G2.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G2.M:UIS.DR.1.G2.M} - Drop-out rate from Grade 2 of primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of male pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G3}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G3:UIS.DR.1.G3} - Drop-out rate from Grade 3 of primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate from{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G3.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G3.F:UIS.DR.1.G3.F} - Drop-out rate from Grade 3 of primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of female pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rat{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G3.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G3.M:UIS.DR.1.G3.M} - Drop-out rate from Grade 3 of primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of male pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G4}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G4:UIS.DR.1.G4} - Drop-out rate from Grade 4 of primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate from{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G4.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G4.F:UIS.DR.1.G4.F} - Drop-out rate from Grade 4 of primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of female pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rat{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G4.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G4.M:UIS.DR.1.G4.M} - Drop-out rate from Grade 4 of primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of male pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G5}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G5:UIS.DR.1.G5} - Drop-out rate from Grade 5 of primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate from{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G5.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G5.F:UIS.DR.1.G5.F} - Drop-out rate from Grade 5 of primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of female pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rat{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G5.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G5.M:UIS.DR.1.G5.M} - Drop-out rate from Grade 5 of primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of male pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G6}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G6:UIS.DR.1.G6} - Drop-out rate from Grade 6 of primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate from{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G6.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G6.F:UIS.DR.1.G6.F} - Drop-out rate from Grade 6 of primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of female pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rat{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.DR.1.G6.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.DR.1.G6.M:UIS.DR.1.G6.M} - Drop-out rate from Grade 6 of primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Proportion of male pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.0.Pu.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.0.Pu.F:UIS.E.0.Pu.F} - Enrolment in early childhood education, public institutions, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of females enrolled in public early childhood education institutions (ISCED 0) regardless of age. Public education institutions are controlled and managed directly by a public education authority or agency of the country where it{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.G1}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.G1:UIS.E.1.G1} - Enrolment in Grade 1 of primary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in Grade 1 of primary education regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.G1.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.G1.F:UIS.E.1.G1.F} - Enrolment in Grade 1 of primary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in Grade 1 of primary education regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.G2}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.G2:UIS.E.1.G2} - Enrolment in Grade 2 of primary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in Grade 2 of primary education regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.G2.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.G2.F:UIS.E.1.G2.F} - Enrolment in Grade 2 of primary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in Grade 2 of primary education regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.G3}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.G3:UIS.E.1.G3} - Enrolment in Grade 3 of primary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in Grade 3 of primary education regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.G3.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.G3.F:UIS.E.1.G3.F} - Enrolment in Grade 3 of primary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in Grade 3 of primary education regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.G4}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.G4:UIS.E.1.G4} - Enrolment in Grade 4 of primary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in Grade 4 of primary education regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.G4.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.G4.F:UIS.E.1.G4.F} - Enrolment in Grade 4 of primary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in Grade 4 of primary education regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.G5}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.G5:UIS.E.1.G5} - Enrolment in Grade 5 of primary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in Grade 5 of primary education regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.G5.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.G5.F:UIS.E.1.G5.F} - Enrolment in Grade 5 of primary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in Grade 5 of primary education regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.G6}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.G6:UIS.E.1.G6} - Enrolment in Grade 6 of primary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in Grade 6 of primary education regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.G6.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.G6.F:UIS.E.1.G6.F} - Enrolment in Grade 6 of primary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in Grade 6 of primary education regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.G7}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.G7:UIS.E.1.G7} - Enrolment in Grade 7 of primary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in Grade 7 of primary education regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.G7.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.G7.F:UIS.E.1.G7.F} - Enrolment in Grade 7 of primary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in Grade 7 of primary education regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.Guk}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.Guk:UIS.E.1.Guk} - Enrolment in primary education, Grade unspecified, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in unspecified grades of primary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.Guk.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.Guk.F:UIS.E.1.Guk.F} - Enrolment in primary education, Grade unspecified, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in unspecified grades of primary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.PR}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.PR:UIS.E.1.PR} - Enrolment in primary education, private institutions, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of individuals enrolled in private primary education institutions regardless of age. A private education institution is an institution that is controlled and managed by a non-governmental organization (e.g. a church, a trade union{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.Pu}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.Pu:UIS.E.1.Pu} - Enrolment in primary education, public institutions, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of individuals enrolled in public primary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is located or{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.1.Pu.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.1.Pu.F:UIS.E.1.Pu.F} - Enrolment in primary education, public institutions, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of females enrolled in public primary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is located or by a{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -15184,279 +11336,6 @@
 
 
 {synoptline}
-{marker topicid_UIS.E.2.GPV}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.GPV:UIS.E.2.GPV} - Enrolment in lower secondary general, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in general programmes at public and private lower secondary education institutions regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.GPV.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.GPV.F:UIS.E.2.GPV.F} - Enrolment in lower secondary general, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in general programmes at public and private lower secondary education institutions regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.GPV.G1.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.GPV.G1.F:UIS.E.2.GPV.G1.F} - Enrolment in Grade 1 of lower secondary general education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in Grade 1 of lower secondary general education. General education is designed to develop learners’ general knowledge, skills and competencies and literacy and numeracy skills, often to prepare studen{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.GPV.G1.T}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.GPV.G1.T:UIS.E.2.GPV.G1.T} - Enrolment in Grade 1 of lower secondary general education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in Grade 1 of lower secondary general education. General education is designed to develop learners’ general knowledge, skills and competencies and literacy and numeracy skills, often to prepare students for{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.GPV.G2.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.GPV.G2.F:UIS.E.2.GPV.G2.F} - Enrolment in Grade 2 of lower secondary general education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in Grade 2 of lower secondary general education. General education is designed to develop learners’ general knowledge, skills and competencies and literacy and numeracy skills, often to prepare studen{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.GPV.G2.T}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.GPV.G2.T:UIS.E.2.GPV.G2.T} - Enrolment in Grade 2 of lower secondary general education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in Grade 2 of lower secondary general education. General education is designed to develop learners’ general knowledge, skills and competencies and literacy and numeracy skills, often to prepare students for{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.GPV.G3.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.GPV.G3.F:UIS.E.2.GPV.G3.F} - Enrolment in Grade 3 of lower secondary general education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in Grade 3 of lower secondary general education. General education is designed to develop learners’ general knowledge, skills and competencies and literacy and numeracy skills, often to prepare studen{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.GPV.G3.T}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.GPV.G3.T:UIS.E.2.GPV.G3.T} - Enrolment in Grade 3 of lower secondary general education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in Grade 3 of lower secondary general education. General education is designed to develop learners’ general knowledge, skills and competencies and literacy and numeracy skills, often to prepare students for{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.GPV.G4.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.GPV.G4.F:UIS.E.2.GPV.G4.F} - Enrolment in Grade 4 of lower secondary general education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in Grade 4 of lower secondary general education. General education is designed to develop learners’ general knowledge, skills and competencies and literacy and numeracy skills, often to prepare studen{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.GPV.G4.T}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.GPV.G4.T:UIS.E.2.GPV.G4.T} - Enrolment in Grade 4 of lower secondary general education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in Grade 4 of lower secondary general education. General education is designed to develop learners’ general knowledge, skills and competencies and literacy and numeracy skills, often to prepare students for{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.GPV.G5.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.GPV.G5.F:UIS.E.2.GPV.G5.F} - Enrolment in Grade 5 of lower secondary general education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in Grade 5 of lower secondary general education. General education is designed to develop learners’ general knowledge, skills and competencies and literacy and numeracy skills, often to prepare studen{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.GPV.G5.T}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.GPV.G5.T:UIS.E.2.GPV.G5.T} - Enrolment in Grade 5 of lower secondary general education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in Grade 5 of lower secondary general education. General education is designed to develop learners’ general knowledge, skills and competencies and literacy and numeracy skills, often to prepare students for{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.GPV.GUK.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.GPV.GUK.F:UIS.E.2.GPV.GUK.F} - Enrolment in lower secondary general education, Grade unspecified, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in lower secondary general education (grade unspecified). General education is designed to develop learners’ general knowledge, skills and competencies and literacy and numeracy skills, often to prepa{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.GPV.GUK.T}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.GPV.GUK.T:UIS.E.2.GPV.GUK.T} - Enrolment in lower secondary general education, Grade unspecified, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in lower secondary general education (grade unspecified). General education is designed to develop learners’ general knowledge, skills and competencies and literacy and numeracy skills, often to prepare stud{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.PU}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.PU:UIS.E.2.PU} - Enrolment in lower secondary education, public institutions, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of individuals enrolled in public lower secondary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is loc{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.PU.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.PU.F:UIS.E.2.PU.F} - Enrolment in lower secondary education, public institutions, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of females enrolled in public lower secondary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is located{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.V}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.V:UIS.E.2.V} - Enrolment in lower secondary vocational, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in vocational programmes at public and private lower secondary education institutions regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.V.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.V.F:UIS.E.2.V.F} - Enrolment in lower secondary vocational, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in vocational programmes at public and private lower secondary education institutions regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.23.PR}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.23.PR:UIS.E.23.PR} - Enrolment in secondary education, private institutions, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of individuals enrolled in private secondary education institutions regardless of age. A private education institution is an institution that is controlled and managed by a non-governmental organization (e.g. a church, a trade uni{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.23.PU}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.23.PU:UIS.E.23.PU} - Enrolment in secondary education, public institutions, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of individuals enrolled in public secondary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is located o{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.23.PU.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.23.PU.F:UIS.E.23.PU.F} - Enrolment in secondary education, public institutions, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of females enrolled in public secondary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is located or by{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.E.3}
 {synopt:{bf:{help wbopendata_topicid##UIS.E.3:UIS.E.3} - Enrolment in upper secondary education, both sexes (number)}}
 
@@ -15483,84 +11362,6 @@
 
 
 {synoptline}
-{marker topicid_UIS.E.3.GPV}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.3.GPV:UIS.E.3.GPV} - Enrolment in upper secondary general, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in general programmes at public and private upper secondary education institutions regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.3.GPV.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.3.GPV.F:UIS.E.3.GPV.F} - Enrolment in upper secondary general, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in general programmes at public and private upper secondary education institutions regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.3.PU}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.3.PU:UIS.E.3.PU} - Enrolment in upper secondary education, public institutions, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of individuals enrolled in public upper secondary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is loc{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.3.PU.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.3.PU.F:UIS.E.3.PU.F} - Enrolment in upper secondary education, public institutions, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of females enrolled in public upper secondary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is located{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.3.V}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.3.V:UIS.E.3.V} - Enrolment in upper secondary vocational, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in vocational programmes at public and private upper secondary education institutions regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.3.V.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.3.V.F:UIS.E.3.V.F} - Enrolment in upper secondary vocational, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in vocational programmes at public and private upper secondary education institutions regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.E.4}
 {synopt:{bf:{help wbopendata_topicid##UIS.E.4:UIS.E.4} - Enrolment in post-secondary non-tertiary education, both sexes (number)}}
 
@@ -15582,32 +11383,6 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Total number of female students enrolled in public and private post-secondary non-tertiary education institutions regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.4.PU}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.4.PU:UIS.E.4.PU} - Enrolment in post-secondary non-tertiary education, public institutions, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of individuals enrolled in public post-secondary non-tertiary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country whe{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.4.PU.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.4.PU.F:UIS.E.4.PU.F} - Enrolment in post-secondary non-tertiary education, public institutions, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of females enrolled in public post-secondary non-tertiary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where i{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -15691,140 +11466,10 @@
 
 
 {synoptline}
-{marker topicid_UIS.ECDP.1}
-{synopt:{bf:{help wbopendata_topicid##UIS.ECDP.1:UIS.ECDP.1} - Percentage of new entrants to Grade 1 of primary education with early childhood education experience, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of new entrants to Grade 1 of primary education who have attended some form of organised early childhood care and education (ECCE) programmes, expressed as a percentage of the total number of new entrants to primary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.ECDP.1.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.ECDP.1.F:UIS.ECDP.1.F} - Percentage of new entrants to Grade 1 of primary education with early childhood education experience, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of new female entrants to primary grade 1 who have attended some form of organized early childhood care and education (ECCE) program, expressed as a percentage of total number of new female entrants to primary grade 1.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.ECDP.1.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.ECDP.1.GPI:UIS.ECDP.1.GPI} - Percentage of new entrants to Grade 1 of primary education with early childhood education experience, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of the female percentage of new entrants to primary education with ECCE experience to the male value for the same indicator. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.ECDP.1.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.ECDP.1.M:UIS.ECDP.1.M} - Percentage of new entrants to Grade 1 of primary education with early childhood education experience, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of new male entrants to primary grade 1 who have attended some form of organized early childhood care and education (ECCE) program, expressed as a percentage of total number of new male entrants to primary grade 1.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FEP.4}
-{synopt:{bf:{help wbopendata_topicid##UIS.FEP.4:UIS.FEP.4} - Percentage of students in post-secondary non-tertiary education who are female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of female students at the post-secondary non-tertiary level expressed as a percentage of the total number of students (male and female) at the post-secondary non-tertiary level in a given school year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FEP.5.B}
-{synopt:{bf:{help wbopendata_topicid##UIS.FEP.5.B:UIS.FEP.5.B} - Percentage of students in tertiary ISCED 5 programmes who are female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of female students enrolled in short-cycle tertiary programmes (ISCED 5) expressed as a percentage of the total number of students (male and female) enrolled in short-cycle tertiary programmes (ISCED 5) in a given school year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FEP.56.FOREIGN}
-{synopt:{bf:{help wbopendata_topicid##UIS.FEP.56.FOREIGN:UIS.FEP.56.FOREIGN} - Percentage of all inbound internationally mobile students in tertiary education in the host country who are female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female share of students who have crossed a national or territorial border for the purposes of education and are now enrolled outside their country of origin.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FEP.6}
-{synopt:{bf:{help wbopendata_topicid##UIS.FEP.6:UIS.FEP.6} - Percentage of students in tertiary ISCED 6 programmes who are female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of female students at the bachelors or equivalent level of tertiary education (ISCED 6) expressed as a percentage of the total number of students (male and female) at that level in a given school year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FEP.7}
-{synopt:{bf:{help wbopendata_topicid##UIS.FEP.7:UIS.FEP.7} - Percentage of students in tertiary ISCED 7 programmes who are female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of female students at the masters or equivalent level of tertiary education (ISCED 7) expressed as a percentage of the total number of students (male and female) at that level in a given school year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FEP.8}
-{synopt:{bf:{help wbopendata_topicid##UIS.FEP.8:UIS.FEP.8} - Percentage of students in tertiary ISCED 8 programmes who are female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of female students at the doctoral or equivalent level of tertiary education (ISCED 8) expressed as a percentage of the total number of students (male and female) at that level in a given school year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.FGP.5T8.F400}
-{synopt:{bf:{help wbopendata_topicid##UIS.FGP.5T8.F400:UIS.FGP.5T8.F400} - Percentage of graduates from Business, Administration and Law programmes in tertiary education who are female (%)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.FGP.5T8.F400:UIS.FGP.5T8.F400} - Female share of graduates in Business, Administration and Law programmes, tertiary (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -15835,9 +11480,9 @@
 
 {synoptline}
 {marker topicid_UIS.FGP.5T8.F600}
-{synopt:{bf:{help wbopendata_topicid##UIS.FGP.5T8.F600:UIS.FGP.5T8.F600} - Percentage of graduates from Information and Communication Technologies programmes in tertiary education who are female (%)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.FGP.5T8.F600:UIS.FGP.5T8.F600} - Female share of graduates in Information and Communication Technologies programmes, tertiary (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -15848,275 +11493,15 @@
 
 {synoptline}
 {marker topicid_UIS.FGP.5T8.FNON500600700}
-{synopt:{bf:{help wbopendata_topicid##UIS.FGP.5T8.FNON500600700:UIS.FGP.5T8.FNON500600700} - Percentage of graduates from other fields than Science, Technology, Engineering and Mathematics programmes in tertiary education who are female (%)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.FGP.5T8.FNON500600700:UIS.FGP.5T8.FNON500600700} - Female share of graduates in other fields than Science, Technology, Engineering and Mathematics programmes, tertiary (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FGP.7}
-{synopt:{bf:{help wbopendata_topicid##UIS.FGP.7:UIS.FGP.7} - Percentage of graduates from tertiary ISCED 7 programmes who are female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of female students completing masters or equivalent tertiary degree programmes (ISCED 7) expressed as a percentage of the total number of students (male and female) completing those programmes in a given school year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FGP.8}
-{synopt:{bf:{help wbopendata_topicid##UIS.FGP.8:UIS.FGP.8} - Percentage of graduates from tertiary ISCED 8 programmes who are female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of female students completing doctoral or equivalent tertiary degree programmes (ISCED 8) expressed as a percentage of the total number of students (male and female) completing those programmes in a given school year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.F140}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.F140:UIS.FOSEP.56.F140} - Percentage of students in tertiary education enrolled in Education programmes, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in education programmes.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.F140.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.F140.F:UIS.FOSEP.56.F140.F} - Percentage of students in tertiary education enrolled in Education programmes, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in education programmes.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.F200}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.F200:UIS.FOSEP.56.F200} - Percentage of students in tertiary education enrolled in Arts and Humanities programmes, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in humanities and arts programmes.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.F200.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.F200.F:UIS.FOSEP.56.F200.F} - Percentage of students in tertiary education enrolled in Arts and Humanities programmes, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in humanities and arts programmes.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.F300}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.F300:UIS.FOSEP.56.F300} - Percentage of students in tertiary education enrolled in Social Sciences, Journalism and Information programmes, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in Social Sciences, Journalism and Information programmes.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.F300.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.F300.F:UIS.FOSEP.56.F300.F} - Percentage of students in tertiary education enrolled in Social Sciences, Journalism and Information programmes, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in Social Sciences, Journalism and Information programmes.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.F400}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.F400:UIS.FOSEP.56.F400} - Percentage of students in tertiary education enrolled in Business, Administration and Law programmes, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in Business, Administration and Law programmes.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.F400.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.F400.F:UIS.FOSEP.56.F400.F} - Percentage of students in tertiary education enrolled in Business, Administration and Law programmes, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in Business, Administration and Law programmes.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.F500}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.F500:UIS.FOSEP.56.F500} - Percentage of students in tertiary education enrolled in Natural Sciences, Mathematics and Statistics programmes, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in Natural Sciences, Mathematics and Statistics programmes.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.F500.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.F500.F:UIS.FOSEP.56.F500.F} - Percentage of students in tertiary education enrolled in Natural Sciences, Mathematics and Statistics programmes, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in Natural Sciences, Mathematics and Statistics programmes.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.F600}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.F600:UIS.FOSEP.56.F600} - Percentage of students in tertiary education enrolled in Information and Communication Technologies programmes, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in Information and Communication Technologies programmes.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.F600.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.F600.F:UIS.FOSEP.56.F600.F} - Percentage of students in tertiary education enrolled in Information and Communication Technologies programmes, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in Information and Communication Technologies programmes.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.F700}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.F700:UIS.FOSEP.56.F700} - Percentage of students in tertiary education enrolled in Engineering, Manufacturing and Construction programmes, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in engineering, manufacturing and construction programmes.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.F700.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.F700.F:UIS.FOSEP.56.F700.F} - Percentage of students in tertiary education enrolled in Engineering, Manufacturing and Construction programmes, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in engineering, manufacturing and construction programmes.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.F800}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.F800:UIS.FOSEP.56.F800} - Percentage of students in tertiary education enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.F800.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.F800.F:UIS.FOSEP.56.F800.F} - Percentage of students in tertiary education enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.FUK}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.FUK:UIS.FOSEP.56.FUK} - Percentage of students in tertiary education enrolled in programmes in unspecified fields, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all tertiary students who are enrolled in programmes in unspecified fields.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FOSEP.56.FUK.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.FOSEP.56.FUK.F:UIS.FOSEP.56.FUK.F} - Percentage of students in tertiary education enrolled in unspecified fields, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of all female tertiary students who are enrolled in programmes in unspecified fields.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -16154,71 +11539,6 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Number of female teachers at the post-secondary non-tertiary level expressed as a percentage of the total number of teachers (male and female) at the post-secondary non-tertiary level in a given school year. Teachers are persons employed full{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.G.7.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.G.7.F:UIS.G.7.F} - Graduates from ISCED 7 programmes in tertiary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students successfully completing programmes on the masters or equivalent (ISCED 7) level during the reference academic year in public and private tertiary education institutions.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.G.7.T}
-{synopt:{bf:{help wbopendata_topicid##UIS.G.7.T:UIS.G.7.T} - Graduates from ISCED 7 programmes in tertiary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students successfully completing programmes on the masters or equivalent (ISCED 7) level during the reference academic year in public and private tertiary education institutions.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.G.8.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.G.8.F:UIS.G.8.F} - Graduates from ISCED 8 programmes in tertiary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students successfully completing programmes on the doctoral or equivalent (ISCED 8) level during the reference academic year in public and private tertiary education institutions.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.G.8.T}
-{synopt:{bf:{help wbopendata_topicid##UIS.G.8.T:UIS.G.8.T} - Graduates from ISCED 8 programmes in tertiary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students successfully completing programmes on the doctoral or equivalent (ISCED 8) level during the reference academic year in public and private tertiary education institutions.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.GER.0.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.GER.0.GPI:UIS.GER.0.GPI} - Gross enrolment ratio, pre-primary, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of female gross enrolment ratio for pre-primary to male gross enrolment ratio for pre-primary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -16328,58 +11648,6 @@
 
 
 {synoptline}
-{marker topicid_UIS.GGR.1.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.GGR.1.GPI:UIS.GGR.1.GPI} - Gross graduation ratio from primary education, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of the female gross primary graduation ratio to the male gross primary graduation ratio. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between femal{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.GGR.2}
-{synopt:{bf:{help wbopendata_topicid##UIS.GGR.2:UIS.GGR.2} - Gross graduation ratio from lower secondary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of graduates regardless of age in all lower secondary education programmes expressed as a percentage of the population at the theoretical graduation age for lower secondary education. The ratio can exceed 100% due to over-aged and under{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.GGR.2.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.GGR.2.F:UIS.GGR.2.F} - Gross graduation ratio from lower secondary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of female graduates regardless of age in all lower secondary education programmes expressed as a percentage of the female population at the theoretical graduation age for lower secondary education. The ratio can exceed 100% due to over-{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.GGR.2.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.GGR.2.M:UIS.GGR.2.M} - Gross graduation ratio from lower secondary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of male graduates regardless of age in all lower secondary education programmes expressed as a percentage of the male population at the theoretical graduation age for lower secondary education. The ratio can exceed 100% due to over-aged{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.GGR.5.A.GPI}
 {synopt:{bf:{help wbopendata_topicid##UIS.GGR.5.A.GPI:UIS.GGR.5.A.GPI} - Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, gender parity index (GPI)}}
 
@@ -16388,19 +11656,6 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Ratio of female gross graduation ratio to the male value for the same indicator. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between females and males.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.GOER.56}
-{synopt:{bf:{help wbopendata_topicid##UIS.GOER.56:UIS.GOER.56} - Gross outbound enrolment ratio, all regions, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of mobile tertiary students coming from a country/region as a percentage of the population of tertiary student age in their home country.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -16536,19 +11791,6 @@
 
 
 {synoptline}
-{marker topicid_UIS.LR.AG15T99.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.LR.AG15T99.GPI:UIS.LR.AG15T99.GPI} - Adult literacy rate, population 15+ years, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of female adult literacy rate to the male adult literacy rate. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between females and males. In general,{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.MS.56.F}
 {synopt:{bf:{help wbopendata_topicid##UIS.MS.56.F:UIS.MS.56.F} - Total inbound internationally mobile students, female (number)}}
 
@@ -16588,84 +11830,6 @@
 
 
 {synoptline}
-{marker topicid_UIS.NE.1.ECD}
-{synopt:{bf:{help wbopendata_topicid##UIS.NE.1.ECD:UIS.NE.1.ECD} - New entrants to Grade 1 of primary education with early childhood education experience, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}New entrants to the first grade of primary education who have previously been enrolled in any pre-primary or early childhood educational development programme.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NE.1.ECD.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.NE.1.ECD.F:UIS.NE.1.ECD.F} - New entrants to Grade 1 of primary education with early childhood education experience, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}New female entrants to the first grade of primary education who have previously been enrolled in any pre-primary or early childhood educational development programme.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NE.1.G1}
-{synopt:{bf:{help wbopendata_topicid##UIS.NE.1.G1:UIS.NE.1.G1} - New entrants to Grade 1 of primary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of pupils entering primary education for the first time during the course of the reference school or academic year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NE.1.G1.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.NE.1.G1.F:UIS.NE.1.G1.F} - New entrants to Grade 1 of primary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of female pupils entering primary education for the first time during the course of the reference school or academic year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NER.1.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.NER.1.GPI:UIS.NER.1.GPI} - Net enrolment rate, primary, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of female net enrolment rate for primary to the male net enrolment rate for primary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between females a{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NER.23.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.NER.23.GPI:UIS.NER.23.GPI} - Net enrolment rate, secondary, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of female net enrolment rate for secondary to the male net enrolment rate for secondary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between femal{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.NERT.1.GPI}
 {synopt:{bf:{help wbopendata_topicid##UIS.NERT.1.GPI:UIS.NERT.1.GPI} - Total net enrolment rate, primary, gender parity index (GPI)}}
 
@@ -16674,188 +11838,6 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Ratio of female total net enrolment rate for primary to the male total net enrolment rate for primary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity betwe{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NIR.1.AGM1}
-{synopt:{bf:{help wbopendata_topicid##UIS.NIR.1.AGM1:UIS.NIR.1.AGM1} - Net intake rate to Grade 1 of primary education by under-age entrants (-1 year), both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of new entrants in the first grade of primary education who are one year younger than the official primary school-entrance age, expressed as a percentage of the population of the primary school entrance age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NIR.1.AGM1.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.NIR.1.AGM1.F:UIS.NIR.1.AGM1.F} - Net intake rate to Grade 1 of primary education by under-age entrants (-1 year), female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of new female entrants in the first grade of primary education who are one year younger than the official primary school-entrance age, expressed as a percentage of the female population of the primary school entrance age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NIR.1.AGM1.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.NIR.1.AGM1.M:UIS.NIR.1.AGM1.M} - Net intake rate to Grade 1 of primary education by under-age entrants (-1 year), male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of new male entrants in the first grade of primary education who are one year younger than the official primary school-entrance age, expressed as a percentage of the male population of the primary school entrance age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NIR.1.AGP1}
-{synopt:{bf:{help wbopendata_topicid##UIS.NIR.1.AGP1:UIS.NIR.1.AGP1} - Net intake rate to Grade 1 of primary education by over-age entrants (+1 year), both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of new entrants in the first grade of primary education who are one year older than the official primary school-entrance age, expressed as a percentage of the population of the primary school entrance age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NIR.1.AGP1.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.NIR.1.AGP1.F:UIS.NIR.1.AGP1.F} - Net intake rate to Grade 1 of primary education by over-age entrants (+1 year), female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of new female entrants in the first grade of primary education who are one year older than the official primary school-entrance age, expressed as a percentage of the female population of the primary school entrance age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NIR.1.AGP1.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.NIR.1.AGP1.M:UIS.NIR.1.AGP1.M} - Net intake rate to Grade 1 of primary education by over-age entrants (+1 year), male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of new male entrants in the first grade of primary education who are one year older than the official primary school-entrance age, expressed as a percentage of the male population of the primary school entrance age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NIR.1.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.NIR.1.GPI:UIS.NIR.1.GPI} - Net intake rate to Grade 1 of primary education, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of female net intake rate for primary to the male net intake rate for primary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between females and mal{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NIRA.1}
-{synopt:{bf:{help wbopendata_topicid##UIS.NIRA.1:UIS.NIRA.1} - Adjusted net intake rate to Grade 1 of primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total enrolment in primary education of the official primary school entrance age, as a percentage of the population of the same age in a given school year. It is the equivalent of the age-specific enrolment rate of the official primary entranc{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NIRA.1.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.NIRA.1.F:UIS.NIRA.1.F} - Adjusted net intake rate to Grade 1 of primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total female enrolment in primary education of the official primary school entrance age, as a percentage of the female population of the same age in a given school year. It is the equivalent of the age-specific enrolment rate of the official p{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NIRA.1.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.NIRA.1.GPI:UIS.NIRA.1.GPI} - Adjusted net intake rate to Grade 1 of primary education, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of the female adjusted net intake rate for primary to the male value for the same indicator. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between f{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.NIRA.1.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.NIRA.1.M:UIS.NIRA.1.M} - Adjusted net intake rate to Grade 1 of primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total male enrolment in primary education of the official primary school entrance age, as a percentage of the male population of the same age in a given school year. It is the equivalent of the age-specific enrolment rate of the official prima{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.OAPP.1}
-{synopt:{bf:{help wbopendata_topicid##UIS.OAPP.1:UIS.OAPP.1} - Over-age enrolment ratio in primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of the primary school age population that is over the official primary school age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.OAPP.1.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.OAPP.1.F:UIS.OAPP.1.F} - Over-age enrolment ratio in primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of the female primary school age population that is over the official primary school age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.OAPP.1.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.OAPP.1.M:UIS.OAPP.1.M} - Over-age enrolment ratio in primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of the male primary school age population that is over the official primary school age.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -16921,32 +11903,6 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Number of students from a given country studying abroad as a percentage of the total tertiary enrolment in that country.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.PTRHC.2}
-{synopt:{bf:{help wbopendata_topicid##UIS.PTRHC.2:UIS.PTRHC.2} - Pupil-teacher ratio in lower secondary education (headcount basis)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average number of pupils per teacher at a given level of education, based on headcounts of both pupils and teachers. Divide the total number of pupils enrolled at the specified level of education by the number of teachers at the same level. In{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.PTRHC.3}
-{synopt:{bf:{help wbopendata_topicid##UIS.PTRHC.3:UIS.PTRHC.3} - Pupil-teacher ratio in upper secondary education (headcount basis)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Average number of pupils per teacher at a given level of education, based on headcounts of both pupils and teachers. Divide the total number of pupils enrolled at the specified level of education by the number of teachers at the same level. In{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -17342,565 +12298,6 @@
 
 
 {synoptline}
-{marker topicid_UIS.REPP.1.G1}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G1:UIS.REPP.1.G1} - Percentage of repeaters in Grade 1 of primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G1.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G1.F:UIS.REPP.1.G1.F} - Percentage of repeaters in Grade 1 of primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total female enrollment in the specified grade. It is calculated by dividing the number of female p{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G1.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G1.M:UIS.REPP.1.G1.M} - Percentage of repeaters in Grade 1 of primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of male pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total male enrollment in the specified grade. It is calculated by dividing the number of male pupils{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G2}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G2:UIS.REPP.1.G2} - Percentage of repeaters in Grade 2 of primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G2.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G2.F:UIS.REPP.1.G2.F} - Percentage of repeaters in Grade 2 of primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total female enrollment in the specified grade. It is calculated by dividing the number of female p{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G2.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G2.M:UIS.REPP.1.G2.M} - Percentage of repeaters in Grade 2 of primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of male pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total male enrollment in the specified grade. It is calculated by dividing the number of male pupils{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G3}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G3:UIS.REPP.1.G3} - Percentage of repeaters in Grade 3 of primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G3.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G3.F:UIS.REPP.1.G3.F} - Percentage of repeaters in Grade 3 of primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total female enrollment in the specified grade. It is calculated by dividing the number of female p{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G3.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G3.M:UIS.REPP.1.G3.M} - Percentage of repeaters in Grade 3 of primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of male pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total male enrollment in the specified grade. It is calculated by dividing the number of male pupils{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G4}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G4:UIS.REPP.1.G4} - Percentage of repeaters in Grade 4 of primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G4.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G4.F:UIS.REPP.1.G4.F} - Percentage of repeaters in Grade 4 of primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total female enrollment in the specified grade. It is calculated by dividing the number of female p{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G4.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G4.M:UIS.REPP.1.G4.M} - Percentage of repeaters in Grade 4 of primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of male pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total male enrollment in the specified grade. It is calculated by dividing the number of male pupils{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G5}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G5:UIS.REPP.1.G5} - Percentage of repeaters in Grade 5 of primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G5.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G5.F:UIS.REPP.1.G5.F} - Percentage of repeaters in Grade 5 of primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total female enrollment in the specified grade. It is calculated by dividing the number of female p{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G5.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G5.M:UIS.REPP.1.G5.M} - Percentage of repeaters in Grade 5 of primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of male pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total male enrollment in the specified grade. It is calculated by dividing the number of male pupils{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G6}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G6:UIS.REPP.1.G6} - Percentage of repeaters in Grade 6 of primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G6.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G6.F:UIS.REPP.1.G6.F} - Percentage of repeaters in Grade 6 of primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total female enrollment in the specified grade. It is calculated by dividing the number of female p{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G6.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G6.M:UIS.REPP.1.G6.M} - Percentage of repeaters in Grade 6 of primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of male pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total male enrollment in the specified grade. It is calculated by dividing the number of male pupils{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G7}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G7:UIS.REPP.1.G7} - Percentage of repeaters in Grade 7 of primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G7.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G7.F:UIS.REPP.1.G7.F} - Percentage of repeaters in Grade 7 of primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total female enrollment in the specified grade. It is calculated by dividing the number of female p{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.G7.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.G7.M:UIS.REPP.1.G7.M} - Percentage of repeaters in Grade 7 of primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of male pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total male enrollment in the specified grade. It is calculated by dividing the number of male pupils{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.1.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.1.GPI:UIS.REPP.1.GPI} - Percentage of repeaters in primary education, all grades, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of female percentage of repeaters in primary to the male percentage of repeaters in primary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between f{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV:UIS.REPP.2.GPV} - Percentage of repeaters in lower secondary general education, all grades, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.F:UIS.REPP.2.GPV.F} - Percentage of repeaters in lower secondary general education, all grades, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G1}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G1:UIS.REPP.2.GPV.G1} - Percentage of repeaters in Grade 1 of lower secondary general education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G1.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G1.F:UIS.REPP.2.GPV.G1.F} - Percentage of repeaters in Grade 1 of lower secondary general education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G1.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G1.M:UIS.REPP.2.GPV.G1.M} - Percentage of repeaters in Grade 1 of lower secondary general education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G2}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G2:UIS.REPP.2.GPV.G2} - Percentage of repeaters in Grade 2 of lower secondary general education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G2.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G2.F:UIS.REPP.2.GPV.G2.F} - Percentage of repeaters in Grade 2 of lower secondary general education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G2.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G2.M:UIS.REPP.2.GPV.G2.M} - Percentage of repeaters in Grade 2 of lower secondary general education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G3}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G3:UIS.REPP.2.GPV.G3} - Percentage of repeaters in Grade 3 of lower secondary general education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G3.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G3.F:UIS.REPP.2.GPV.G3.F} - Percentage of repeaters in Grade 3 of lower secondary general education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G3.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G3.M:UIS.REPP.2.GPV.G3.M} - Percentage of repeaters in Grade 3 of lower secondary general education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G4}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G4:UIS.REPP.2.GPV.G4} - Percentage of repeaters in Grade 4 of lower secondary general education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G4.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G4.F:UIS.REPP.2.GPV.G4.F} - Percentage of repeaters in Grade 4 of lower secondary general education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G4.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G4.M:UIS.REPP.2.GPV.G4.M} - Percentage of repeaters in Grade 4 of lower secondary general education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G5}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G5:UIS.REPP.2.GPV.G5} - Percentage of repeaters in Grade 5 of lower secondary general education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G5.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G5.F:UIS.REPP.2.GPV.G5.F} - Percentage of repeaters in Grade 5 of lower secondary general education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G5.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G5.M:UIS.REPP.2.GPV.G5.M} - Percentage of repeaters in Grade 5 of lower secondary general education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G6}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G6:UIS.REPP.2.GPV.G6} - Percentage of repeaters in Grade 6 of lower secondary general education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G6.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G6.F:UIS.REPP.2.GPV.G6.F} - Percentage of repeaters in Grade 6 of lower secondary general education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.G6.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.G6.M:UIS.REPP.2.GPV.G6.M} - Percentage of repeaters in Grade 6 of lower secondary general education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.REPP.2.GPV.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.REPP.2.GPV.M:UIS.REPP.2.GPV.M} - Percentage of repeaters in lower secondary general education, all grades, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.REPR.1.G1}
 {synopt:{bf:{help wbopendata_topicid##UIS.REPR.1.G1:UIS.REPR.1.G1} - Repetition rate in Grade 1 of primary education, both sexes (%)}}
 
@@ -18175,7 +12572,7 @@
 
 {synoptline}
 {marker topicid_UIS.ROFST.1}
-{synopt:{bf:{help wbopendata_topicid##UIS.ROFST.1:UIS.ROFST.1} - Rate of out-of-school children of primary school age, both sexes (%)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.ROFST.1:UIS.ROFST.1} - Out-of-school rate for children of primary school age, both sexes (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -18188,7 +12585,7 @@
 
 {synoptline}
 {marker topicid_UIS.ROFST.1.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.ROFST.1.F:UIS.ROFST.1.F} - Rate of out-of-school children of primary school age, female (%)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.ROFST.1.F:UIS.ROFST.1.F} - Out-of-school rate for children of primary school age, female (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -18201,7 +12598,7 @@
 
 {synoptline}
 {marker topicid_UIS.ROFST.1.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.ROFST.1.M:UIS.ROFST.1.M} - Rate of out-of-school children of primary school age, male (%)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.ROFST.1.M:UIS.ROFST.1.M} - Out-of-school rate for children of primary school age, male (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -18214,7 +12611,7 @@
 
 {synoptline}
 {marker topicid_UIS.ROFST.2}
-{synopt:{bf:{help wbopendata_topicid##UIS.ROFST.2:UIS.ROFST.2} - Rate of out-of-school adolescents of lower secondary school age, both sexes (%)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.ROFST.2:UIS.ROFST.2} - Out-of-school rate for adolescents of lower secondary school age, both sexes (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -18227,7 +12624,7 @@
 
 {synoptline}
 {marker topicid_UIS.ROFST.2.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.ROFST.2.F:UIS.ROFST.2.F} - Rate of out-of-school adolescents of lower secondary school age, female (%)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.ROFST.2.F:UIS.ROFST.2.F} - Out-of-school rate for adolescents of lower secondary school age, female (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -18240,7 +12637,7 @@
 
 {synoptline}
 {marker topicid_UIS.ROFST.2.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.ROFST.2.M:UIS.ROFST.2.M} - Rate of out-of-school adolescents of lower secondary school age, male (%)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.ROFST.2.M:UIS.ROFST.2.M} - Out-of-school rate for adolescents of lower secondary school age, male (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -18447,58 +12844,6 @@
 
 
 {synoptline}
-{marker topicid_UIS.SLEN.12.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.SLEN.12.F:UIS.SLEN.12.F} - School life expectancy, primary and lower secondary (excluding repetition), female (years)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of years of schooling that a female child of a certain age can expect to receive in the future, excluding years spent repeating grades. The indicator reflects the overall level of development of an education system in terms of the avera{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.SLEN.12.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.SLEN.12.GPI:UIS.SLEN.12.GPI} - School life expectancy, primary and lower secondary (excluding repetition), gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of female school life expectancy net of repetition to the male school life expectancy net of repetition. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates pari{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.SLEN.12.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.SLEN.12.M:UIS.SLEN.12.M} - School life expectancy, primary and lower secondary (excluding repetition), male (years)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of years of schooling that a male child of a certain age can expect to receive in the future, excluding years spent repeating grades. The indicator reflects the overall level of development of an education system in terms of the average{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.SLEN.12.T}
-{synopt:{bf:{help wbopendata_topicid##UIS.SLEN.12.T:UIS.SLEN.12.T} - School life expectancy, primary and lower secondary (excluding repetition), both sexes (years)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of years of schooling that a child of a certain age can expect to receive in the future, excluding years spent repeating grades. The indicator reflects the overall level of development of an education system in terms of the average numb{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.SR.1.G4}
 {synopt:{bf:{help wbopendata_topicid##UIS.SR.1.G4:UIS.SR.1.G4} - Survival rate to Grade 4 of primary education, both sexes (%)}}
 
@@ -18577,58 +12922,6 @@
 
 
 {synoptline}
-{marker topicid_UIS.SR.2.GPV.GLAST.CP.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.SR.2.GPV.GLAST.CP.F:UIS.SR.2.GPV.GLAST.CP.F} - Survival rate to the last grade of lower secondary general education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of a cohort of female students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.SR.2.GPV.GLAST.CP.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.SR.2.GPV.GLAST.CP.M:UIS.SR.2.GPV.GLAST.CP.M} - Survival rate to the last grade of lower secondary general education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.SR.2.GPV.GLAST.CP.T}
-{synopt:{bf:{help wbopendata_topicid##UIS.SR.2.GPV.GLAST.CP.T:UIS.SR.2.GPV.GLAST.CP.T} - Survival rate to the last grade of lower secondary general education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of a cohort of students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of stud{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.SR.2.GPV.GLAST.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.SR.2.GPV.GLAST.GPI:UIS.SR.2.GPV.GLAST.GPI} - Survival rate to the last grade of lower secondary general education, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of female survival rate to the last grade of lower secondary education to the male survival rate to the last grade of lower secondary education. It is calculated by dividing the female value for the indicator by the male value for the in{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.T.2}
 {synopt:{bf:{help wbopendata_topicid##UIS.T.2:UIS.T.2} - Teachers in lower secondary education, both sexes (number)}}
 
@@ -18650,58 +12943,6 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Total number of female teachers in public and private lower secondary education institutions (ISCED 2). Teachers are persons employed full time or part time in an official capacity to guide and direct the learning experience of pupils and stud{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.T.23.GPV}
-{synopt:{bf:{help wbopendata_topicid##UIS.T.23.GPV:UIS.T.23.GPV} - Teachers in secondary general education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of teachers in general programmes in public and private secondary education institutions (ISCED 2 and 3). Teachers are persons employed full time or part time in an official capacity to guide and direct the learning experience of{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.T.23.GPV.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.T.23.GPV.F:UIS.T.23.GPV.F} - Teachers in secondary general education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female teachers in general programmes in public and private secondary education institutions (ISCED 2 and 3). Teachers are persons employed full time or part time in an official capacity to guide and direct the learning experie{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.T.23.V}
-{synopt:{bf:{help wbopendata_topicid##UIS.T.23.V:UIS.T.23.V} - Teachers in secondary vocational education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of teachers in vocational programmes in public and private secondary education institutions (ISCED 2 and 3). Teachers are persons employed full time or part time in an official capacity to guide and direct the learning experience{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.T.23.V.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.T.23.V.F:UIS.T.23.V.F} - Teachers in secondary vocational education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female teachers in vocational programmes in public and private secondary education institutions (ISCED 2 and 3). Teachers are persons employed full time or part time in an official capacity to guide and direct the learning expe{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -18759,138 +13000,8 @@
 
 
 {synoptline}
-{marker topicid_UIS.TEP.5.B}
-{synopt:{bf:{help wbopendata_topicid##UIS.TEP.5.B:UIS.TEP.5.B} - Share of all students in tertiary education enrolled in ISCED 5 (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total enrolment in short-cycle tertiary programmes (ISCED 5) as a percentage of total enrolments in tertiary education (ISCED 5 to 8).{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.TEP.6}
-{synopt:{bf:{help wbopendata_topicid##UIS.TEP.6:UIS.TEP.6} - Share of all students in tertiary education enrolled in ISCED 6 (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total enrolment in bachelors or equivalent programmes (ISCED 6) as a percentage of total enrolments in tertiary education (ISCED 5 to 8).{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.TEP.7}
-{synopt:{bf:{help wbopendata_topicid##UIS.TEP.7:UIS.TEP.7} - Share of all students in tertiary education enrolled in ISCED 7 (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total enrolment in masters or equivalent programmes (ISCED 7) as a percentage of total enrolments in tertiary education (ISCED 5 to 8).{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.TEP.7.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.TEP.7.F:UIS.TEP.7.F} - Share of female students in tertiary education enrolled in ISCED 7 (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total female enrolment in masters or equivalent programmes (ISCED 7) as a percentage of total enrolments in tertiary education (ISCED 5 to 8).{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.TEP.7.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.TEP.7.M:UIS.TEP.7.M} - Share of male students in tertiary education enrolled in ISCED 7 (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total male enrolment in masters or equivalent programmes (ISCED 7) as a percentage of total enrolments in tertiary education (ISCED 5 to 8).{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.TEP.8}
-{synopt:{bf:{help wbopendata_topicid##UIS.TEP.8:UIS.TEP.8} - Share of all students in tertiary education enrolled in ISCED 8 (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total enrolment in doctoral or equivalent programmes (ISCED 8) as a percentage of total enrolments in tertiary education (ISCED 5 to 8).{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.TEP.8.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.TEP.8.F:UIS.TEP.8.F} - Share of female students in tertiary education enrolled in ISCED 8 (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total female enrolment in doctoral or equivalent programmes (ISCED 8) as a percentage of total female enrolments in tertiary education (ISCED 5 to 8).{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.TEP.8.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.TEP.8.M:UIS.TEP.8.M} - Share of male students in tertiary education enrolled in ISCED 8 (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total male enrolment in doctoral or equivalent programmes (ISCED 8) as a percentage of total male enrolments in tertiary education (ISCED 5 to 8).{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.TRANRA.23.GPV.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.TRANRA.23.GPV.GPI:UIS.TRANRA.23.GPV.GPI} - Effective transition rate from primary to lower secondary general education, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the female transition rate to the male value for the same indicator. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between females and males.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.TRTP.1.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.TRTP.1.GPI:UIS.TRTP.1.GPI} - Percentage of teachers in primary education who are trained, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of the female percentage of trained teachers for primary to the male percentage of trained teachers for primary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indica{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.TRTP.2}
-{synopt:{bf:{help wbopendata_topicid##UIS.TRTP.2:UIS.TRTP.2} - Percentage of teachers in lower secondary education who are trained, both sexes (%)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.TRTP.2:UIS.TRTP.2} - Proportion of teachers with the minimum required qualifications in lower secondary education, both sexes (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -18903,7 +13014,7 @@
 
 {synoptline}
 {marker topicid_UIS.TRTP.2.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.TRTP.2.F:UIS.TRTP.2.F} - Percentage of female teachers in lower secondary education who are trained, female (%)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.TRTP.2.F:UIS.TRTP.2.F} - Proportion of teachers with the minimum required qualifications in lower secondary education, female (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -18915,21 +13026,8 @@
 
 
 {synoptline}
-{marker topicid_UIS.TRTP.2.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.TRTP.2.GPI:UIS.TRTP.2.GPI} - Percentage of teachers in lower secondary education who are trained, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of the female percentage of trained teachers for lower secondary to the male percentage of trained teachers for lower secondary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI e{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.TRTP.2.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.TRTP.2.M:UIS.TRTP.2.M} - Percentage of male teachers in lower secondary education who are trained, male (%)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.TRTP.2.M:UIS.TRTP.2.M} - Proportion of teachers with the minimum required qualifications in lower secondary education, male (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -18941,21 +13039,8 @@
 
 
 {synoptline}
-{marker topicid_UIS.TRTP.23.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.TRTP.23.GPI:UIS.TRTP.23.GPI} - Percentage of teachers in secondary education who are trained, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of the female percentage of trained teachers for secondary to the male percentage of trained teachers for secondary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 in{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.TRTP.3}
-{synopt:{bf:{help wbopendata_topicid##UIS.TRTP.3:UIS.TRTP.3} - Percentage of teachers in upper secondary education who are trained, both sexes (%)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.TRTP.3:UIS.TRTP.3} - Proportion of teachers with the minimum required qualifications in upper secondary education, both sexes (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -18968,7 +13053,7 @@
 
 {synoptline}
 {marker topicid_UIS.TRTP.3.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.TRTP.3.F:UIS.TRTP.3.F} - Percentage of female teachers in upper secondary education who are trained, female (%)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.TRTP.3.F:UIS.TRTP.3.F} - Proportion of teachers with the minimum required qualifications in upper secondary education, female (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -18980,131 +13065,14 @@
 
 
 {synoptline}
-{marker topicid_UIS.TRTP.3.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.TRTP.3.GPI:UIS.TRTP.3.GPI} - Percentage of teachers in upper secondary education who are trained, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of the female percentage of trained teachers for upper secondary to the male percentage of trained teachers for upper secondary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI e{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
 {marker topicid_UIS.TRTP.3.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.TRTP.3.M:UIS.TRTP.3.M} - Percentage of male teachers in upper secondary education who are trained, male (%)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.TRTP.3.M:UIS.TRTP.3.M} - Proportion of teachers with the minimum required qualifications in upper secondary education, male (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Number of male teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching at the upper secondary level in the given country, expressed as a percentage of the total number of male teacher{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.UAPP.1}
-{synopt:{bf:{help wbopendata_topicid##UIS.UAPP.1:UIS.UAPP.1} - Under-age enrolment ratio in primary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of the primary school age population that is under the official primary school age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.UAPP.1.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.UAPP.1.F:UIS.UAPP.1.F} - Under-age enrolment ratio in primary education, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of the female primary school age population that is under the official primary school age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.UAPP.1.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.UAPP.1.M:UIS.UAPP.1.M} - Under-age enrolment ratio in primary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Percentage of the male primary school age population that is under the official primary school age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.XPUBP.0}
-{synopt:{bf:{help wbopendata_topicid##UIS.XPUBP.0:UIS.XPUBP.0} - Expenditure on pre-primary as % of government expenditure on education (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Expenditure on education by level of education, expressed as a percentage of total general government expenditure on education. Divide government expenditure on a given level of education (ex. primary, secondary) by total government expenditur{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.XPUBP.2}
-{synopt:{bf:{help wbopendata_topicid##UIS.XPUBP.2:UIS.XPUBP.2} - Expenditure on lower secondary as % of government expenditure on education (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Expenditure on education by level of education, expressed as a percentage of total general government expenditure on education. Divide government expenditure on a given level of education (ex. primary, secondary) by total government expenditur{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.XPUBP.3}
-{synopt:{bf:{help wbopendata_topicid##UIS.XPUBP.3:UIS.XPUBP.3} - Expenditure on upper secondary as % of government expenditure on education (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Expenditure on education by level of education, expressed as a percentage of total general government expenditure on education. Divide government expenditure on a given level of education (ex. primary, secondary) by total government expenditur{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.XPUBP.4}
-{synopt:{bf:{help wbopendata_topicid##UIS.XPUBP.4:UIS.XPUBP.4} - Expenditure on post-secondary non-tertiary as % of government expenditure on education (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Expenditure on education by level of education, expressed as a percentage of total general government expenditure on education. Divide government expenditure on a given level of education (ex. primary, secondary) by total government expenditur{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.XPUBP.UK}
-{synopt:{bf:{help wbopendata_topicid##UIS.XPUBP.UK:UIS.XPUBP.UK} - Expenditure on education not specified by level as % of government expenditure on education (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Expenditure on education by level of education, expressed as a percentage of total general government expenditure on education. Divide government expenditure on a given level of education (ex. primary, secondary) by total government expenditur{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -19163,7 +13131,7 @@
 
 {synoptline}
 {marker topicid_UIS.thAge.0}
-{synopt:{bf:{help wbopendata_topicid##UIS.thAge.0:UIS.thAge.0} - Official entrance age to pre-primary education (years)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.thAge.0:UIS.thAge.0} - Official entrance age to early childhood education (years)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -19202,7 +13170,7 @@
 
 {synoptline}
 {marker topicid_UIS.thDur.0}
-{synopt:{bf:{help wbopendata_topicid##UIS.thDur.0:UIS.thDur.0} - Theoretical duration of pre-primary education (years)}}
+{synopt:{bf:{help wbopendata_topicid##UIS.thDur.0:UIS.thDur.0} - Theoretical duration of early childhood education (years)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -19227,4 +13195,4 @@
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
