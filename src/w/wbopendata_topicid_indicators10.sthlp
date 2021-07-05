@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1179,7 +1179,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1192,7 +1192,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1205,7 +1205,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1218,7 +1218,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -1231,7 +1231,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -1244,7 +1244,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -1257,7 +1257,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -1270,7 +1270,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -1283,7 +1283,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -1309,7 +1309,7 @@
 
 {synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1322,7 +1322,7 @@
 
 {synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1335,7 +1335,7 @@
 
 {synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1348,7 +1348,7 @@
 
 {synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1361,7 +1361,7 @@
 
 {synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1374,7 +1374,7 @@
 
 {synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1387,7 +1387,7 @@
 
 {synopt:{opt Source Notes}}The proportion of females in total employment in senior and middle management. It corresponds to major group 1 in both ISCO-08 and ISCO-88 minus category 14 in ISCO-08 (hospitality, retail and other services managers) and minus category 13 in{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1400,7 +1400,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -1413,7 +1413,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -1426,7 +1426,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -1439,7 +1439,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -1452,7 +1452,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -1465,7 +1465,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -1478,7 +1478,7 @@
 
 {synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1491,7 +1491,7 @@
 
 {synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1504,7 +1504,7 @@
 
 {synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1517,7 +1517,7 @@
 
 {synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1530,7 +1530,7 @@
 
 {synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1543,7 +1543,7 @@
 
 {synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1595,7 +1595,7 @@
 
 {synopt:{opt Source Notes}}Contributing family workers are those workers who hold self-employment jobs as own-account workers in a market-oriented establishment operated by a related person living in the same household.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1608,7 +1608,7 @@
 
 {synopt:{opt Source Notes}}Contributing family workers are those workers who hold self-employment jobs as own-account workers in a market-oriented establishment operated by a related person living in the same household.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1621,7 +1621,7 @@
 
 {synopt:{opt Source Notes}}Contributing family workers are those workers who hold self-employment jobs as own-account workers in a market-oriented establishment operated by a related person living in the same household.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1634,7 +1634,7 @@
 
 {synopt:{opt Source Notes}}GDP per person employed is gross domestic product (GDP) divided by total employment in the economy. Purchasing power parity (PPP) GDP is GDP converted to 2017 constant international dollars using PPP rates. An international dollar has the same{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1647,7 +1647,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1660,7 +1660,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1673,46 +1673,46 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
 {marker topicid_SL.ISV.IFRM.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.ISV.IFRM.FE.ZS:SL.ISV.IFRM.FE.ZS} - Informal employment, female (% of total non-agricultural employment)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 20, 2020.{p_end}
 
 
 {synoptline}
 {marker topicid_SL.ISV.IFRM.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.ISV.IFRM.MA.ZS:SL.ISV.IFRM.MA.ZS} - Informal employment, male (% of total non-agricultural employment)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 20, 2020.{p_end}
 
 
 {synoptline}
 {marker topicid_SL.ISV.IFRM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.ISV.IFRM.ZS:SL.ISV.IFRM.ZS} - Informal employment (% of total non-agricultural employment)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 20, 2020.{p_end}
 
 
 {synoptline}
@@ -1855,7 +1855,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1868,7 +1868,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -1881,7 +1881,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2154,7 +2154,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2167,7 +2167,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2180,7 +2180,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2193,7 +2193,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2206,7 +2206,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2219,7 +2219,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2232,7 +2232,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15-64 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2245,7 +2245,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15-64 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2258,7 +2258,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15-64 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2271,7 +2271,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with an advanced level of education who are in the labor force. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2284,7 +2284,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with an advanced level of education who are in the labor force. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2297,7 +2297,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with an advanced level of education who are in the labor force. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2310,7 +2310,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with a basic level of education who are in the labor force. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Educati{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2323,7 +2323,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with a basic level of education who are in the labor force. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Educati{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2336,7 +2336,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with a basic level of education who are in the labor force. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Educati{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2349,7 +2349,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2362,7 +2362,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2375,7 +2375,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period. Ratio of female to male labor for{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2388,7 +2388,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period. Ratio of female to male labor for{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2401,7 +2401,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2414,7 +2414,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2427,7 +2427,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2440,7 +2440,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2453,7 +2453,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with an intermediate level of education who are in the labor force. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2466,7 +2466,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with an intermediate level of education who are in the labor force. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2479,7 +2479,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the working age population with an intermediate level of education who are in the labor force. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2492,7 +2492,7 @@
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2505,7 +2505,7 @@
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2531,7 +2531,7 @@
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2661,7 +2661,7 @@
 
 {synopt:{opt Source Notes}}Female labor force as a percentage of the total show the extent to which women are active in the labor force. Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2674,7 +2674,7 @@
 
 {synopt:{opt Source Notes}}Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period. It includes people who are currently employed and people who are unemployed but seeking work as well as first-t{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2687,7 +2687,7 @@
 
 {synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2700,7 +2700,7 @@
 
 {synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2713,7 +2713,7 @@
 
 {synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2726,7 +2726,7 @@
 
 {synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2739,7 +2739,7 @@
 
 {synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2752,7 +2752,7 @@
 
 {synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2765,7 +2765,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent educa{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2778,7 +2778,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent educa{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2791,7 +2791,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent educa{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2804,7 +2804,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2817,7 +2817,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2830,7 +2830,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2843,7 +2843,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of E{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2856,7 +2856,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of E{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2869,7 +2869,7 @@
 
 {synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of E{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2921,7 +2921,7 @@
 
 {synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2934,7 +2934,7 @@
 
 {synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2947,7 +2947,7 @@
 
 {synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -3077,7 +3077,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -3090,7 +3090,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -3103,7 +3103,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -3116,7 +3116,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -3129,7 +3129,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -3142,7 +3142,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -3186,28 +3186,28 @@
 
 {synoptline}
 {marker topicid_per_allsp.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.adq_ep_preT_tot:per_allsp.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.adq_ep_preT_tot:per_allsp.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) -All Social Protection and Labor  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_allsp.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.adq_ep_tot:per_allsp.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.adq_ep_tot:per_allsp.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3218,9 +3218,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3231,9 +3231,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3257,9 +3257,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3270,9 +3270,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3283,9 +3283,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3296,9 +3296,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3309,9 +3309,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3322,9 +3322,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3335,9 +3335,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3348,9 +3348,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3361,9 +3361,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3374,9 +3374,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3387,9 +3387,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3400,9 +3400,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3413,9 +3413,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3426,9 +3426,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3439,9 +3439,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3452,9 +3452,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3465,9 +3465,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3478,9 +3478,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3491,9 +3491,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3504,9 +3504,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3517,35 +3517,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_allsp.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.avt_ep_preT_tot:per_allsp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) -All Social Protection and Labor  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.avt_ep_preT_tot:per_allsp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) -All Social Protection and Labor  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_allsp.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.avt_ep_tot:per_allsp.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) -All Social Protection and Labor}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.avt_ep_tot:per_allsp.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3556,9 +3556,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3569,9 +3569,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3582,9 +3582,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3595,9 +3595,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3608,9 +3608,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3621,9 +3621,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3634,9 +3634,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3647,9 +3647,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3660,9 +3660,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3673,9 +3673,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3686,9 +3686,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3699,9 +3699,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3712,9 +3712,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3725,9 +3725,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3738,9 +3738,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3751,9 +3751,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3764,9 +3764,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3777,9 +3777,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3790,9 +3790,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3803,9 +3803,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3816,9 +3816,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3829,9 +3829,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3842,9 +3842,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3855,35 +3855,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_allsp.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.ben_ep_preT_tot:per_allsp.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.ben_ep_preT_tot:per_allsp.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) -All Social Protection and Labor  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_allsp.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.ben_ep_tot:per_allsp.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.ben_ep_tot:per_allsp.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3894,9 +3894,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3907,9 +3907,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3933,9 +3933,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3946,9 +3946,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3959,9 +3959,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3972,9 +3972,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3985,9 +3985,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -3998,9 +3998,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4011,9 +4011,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4024,9 +4024,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4037,9 +4037,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4050,9 +4050,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4063,9 +4063,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4076,9 +4076,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4089,9 +4089,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4102,9 +4102,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4115,9 +4115,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4128,9 +4128,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4141,35 +4141,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_allsp.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.bry_ep_preT_tot:per_allsp.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.bry_ep_preT_tot:per_allsp.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) -All Social Protection and Labor  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_allsp.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.bry_ep_tot:per_allsp.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.bry_ep_tot:per_allsp.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4180,9 +4180,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4193,9 +4193,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4206,9 +4206,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4219,9 +4219,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4232,9 +4232,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4245,9 +4245,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4258,9 +4258,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4271,9 +4271,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4284,9 +4284,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4297,9 +4297,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4310,9 +4310,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4323,9 +4323,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4336,9 +4336,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4349,9 +4349,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4362,9 +4362,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4375,9 +4375,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4388,9 +4388,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4401,9 +4401,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4414,9 +4414,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4427,35 +4427,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_allsp.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.cba_ep_preT_tot:per_allsp.cba_ep_preT_tot} - Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.cba_ep_preT_tot:per_allsp.cba_ep_preT_tot} - Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_allsp.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.cba_ep_tot:per_allsp.cba_ep_tot} - Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.cba_ep_tot:per_allsp.cba_ep_tot} - Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4466,9 +4466,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4479,9 +4479,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4492,9 +4492,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4505,35 +4505,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_allsp.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.cov_ep_preT_tot:per_allsp.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.cov_ep_preT_tot:per_allsp.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) -All Social Protection and Labor  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_allsp.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.cov_ep_tot:per_allsp.cov_ep_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.cov_ep_tot:per_allsp.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4544,9 +4544,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4557,9 +4557,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4583,9 +4583,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4596,9 +4596,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4609,9 +4609,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4622,9 +4622,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4635,9 +4635,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4648,9 +4648,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4661,9 +4661,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4674,9 +4674,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4687,9 +4687,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4700,9 +4700,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4713,9 +4713,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4726,9 +4726,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4739,9 +4739,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4752,9 +4752,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4765,9 +4765,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4778,9 +4778,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4791,9 +4791,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4804,9 +4804,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4817,9 +4817,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4830,9 +4830,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4843,9 +4843,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4856,9 +4856,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4869,9 +4869,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4882,9 +4882,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4895,35 +4895,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_allsp_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp_p0_ep_preT_tot:per_allsp_p0_ep_preT_tot} - Poverty Headcount reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp_p0_ep_preT_tot:per_allsp_p0_ep_preT_tot} - Poverty Headcount reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_allsp_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp_p0_ep_tot:per_allsp_p0_ep_tot} - Poverty Headcount reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp_p0_ep_tot:per_allsp_p0_ep_tot} - Poverty Headcount reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4934,9 +4934,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4947,9 +4947,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4960,9 +4960,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -4973,35 +4973,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_allsp_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp_p1_ep_preT_tot:per_allsp_p1_ep_preT_tot} - Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp_p1_ep_preT_tot:per_allsp_p1_ep_preT_tot} - Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_allsp_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp_p1_ep_tot:per_allsp_p1_ep_tot} - Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp_p1_ep_tot:per_allsp_p1_ep_tot} - Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -5012,9 +5012,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -5025,9 +5025,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -5038,9 +5038,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -5051,14 +5051,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_ac.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.adq_ep_preT_tot:per_lm_ac.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.adq_ep_preT_tot:per_lm_ac.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Active Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5071,7 +5071,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.adq_ep_tot:per_lm_ac.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.adq_ep_tot:per_lm_ac.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5396,7 +5396,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.avt_ep_preT_tot:per_lm_ac.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Active Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.avt_ep_preT_tot:per_lm_ac.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Active Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5409,7 +5409,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.avt_ep_tot:per_lm_ac.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Active Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.avt_ep_tot:per_lm_ac.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5734,7 +5734,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.ben_ep_preT_tot:per_lm_ac.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.ben_ep_preT_tot:per_lm_ac.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Active Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5747,7 +5747,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.ben_ep_tot:per_lm_ac.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.ben_ep_tot:per_lm_ac.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5766,7 +5766,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the poorest quintile  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5779,7 +5779,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the poorest quintile  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5792,7 +5792,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the poorest quintile  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5805,7 +5805,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the poorest quintile  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6020,7 +6020,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.bry_ep_preT_tot:per_lm_ac.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.bry_ep_preT_tot:per_lm_ac.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Active Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6033,7 +6033,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.bry_ep_tot:per_lm_ac.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.bry_ep_tot:per_lm_ac.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6306,7 +6306,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.cba_ep_preT_tot:per_lm_ac.cba_ep_preT_tot} - Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.cba_ep_preT_tot:per_lm_ac.cba_ep_preT_tot} - Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6319,7 +6319,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.cba_ep_tot:per_lm_ac.cba_ep_tot} - Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.cba_ep_tot:per_lm_ac.cba_ep_tot} - Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6384,7 +6384,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.cov_ep_preT_tot:per_lm_ac.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.cov_ep_preT_tot:per_lm_ac.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Active Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6397,7 +6397,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.cov_ep_tot:per_lm_ac.cov_ep_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.cov_ep_tot:per_lm_ac.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6774,7 +6774,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac_p0_ep_preT_tot:per_lm_ac_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac_p0_ep_preT_tot:per_lm_ac_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6787,7 +6787,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac_p0_ep_tot:per_lm_ac_p0_ep_tot} - Poverty Headcount reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac_p0_ep_tot:per_lm_ac_p0_ep_tot} - Poverty Headcount reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6852,7 +6852,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac_p1_ep_preT_tot:per_lm_ac_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac_p1_ep_preT_tot:per_lm_ac_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6865,7 +6865,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac_p1_ep_tot:per_lm_ac_p1_ep_tot} - Poverty Gap reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac_p1_ep_tot:per_lm_ac_p1_ep_tot} - Poverty Gap reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6930,28 +6930,28 @@
 
 {synoptline}
 {marker topicid_per_lm_alllm.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.adq_ep_preT_tot:per_lm_alllm.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.adq_ep_preT_tot:per_lm_alllm.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - All Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.adq_ep_tot:per_lm_alllm.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.adq_ep_tot:per_lm_alllm.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - All Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -6962,9 +6962,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -6975,9 +6975,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7001,9 +7001,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7014,9 +7014,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7027,9 +7027,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7040,9 +7040,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7053,9 +7053,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7066,9 +7066,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7079,9 +7079,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7092,9 +7092,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7105,9 +7105,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7118,9 +7118,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7131,9 +7131,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7144,9 +7144,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7157,9 +7157,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7170,9 +7170,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7183,9 +7183,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7196,9 +7196,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7209,9 +7209,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7222,9 +7222,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7235,9 +7235,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7248,9 +7248,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7261,35 +7261,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.avt_ep_preT_tot:per_lm_alllm.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.avt_ep_preT_tot:per_lm_alllm.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - All Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.avt_ep_tot:per_lm_alllm.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.avt_ep_tot:per_lm_alllm.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - All Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7300,9 +7300,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7313,9 +7313,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7326,9 +7326,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7339,9 +7339,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7352,9 +7352,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7365,9 +7365,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7378,9 +7378,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7391,9 +7391,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7404,9 +7404,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7417,9 +7417,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7430,9 +7430,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7443,9 +7443,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7456,9 +7456,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7469,9 +7469,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7482,9 +7482,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7495,9 +7495,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7508,9 +7508,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7521,9 +7521,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7534,9 +7534,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7547,9 +7547,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7560,9 +7560,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7573,9 +7573,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7586,9 +7586,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7599,35 +7599,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.ben_ep_preT_tot:per_lm_alllm.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.ben_ep_preT_tot:per_lm_alllm.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - All Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.ben_ep_tot:per_lm_alllm.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.ben_ep_tot:per_lm_alllm.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - All Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7638,9 +7638,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7651,9 +7651,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7677,9 +7677,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7690,9 +7690,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7703,9 +7703,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7716,9 +7716,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7729,9 +7729,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7742,9 +7742,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7755,9 +7755,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7768,9 +7768,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7781,9 +7781,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7794,9 +7794,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7807,9 +7807,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7820,9 +7820,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7833,9 +7833,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7846,9 +7846,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7859,9 +7859,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7872,9 +7872,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7885,35 +7885,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.bry_ep_preT_tot:per_lm_alllm.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.bry_ep_preT_tot:per_lm_alllm.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - All Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.bry_ep_tot:per_lm_alllm.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.bry_ep_tot:per_lm_alllm.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - All Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7924,9 +7924,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7937,9 +7937,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7950,9 +7950,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7963,9 +7963,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7976,9 +7976,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -7989,9 +7989,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8002,9 +8002,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8015,9 +8015,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8028,9 +8028,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8041,9 +8041,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8054,9 +8054,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8067,9 +8067,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8080,9 +8080,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8093,9 +8093,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8106,9 +8106,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8119,9 +8119,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8132,9 +8132,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8145,9 +8145,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8158,9 +8158,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8171,35 +8171,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cba_ep_preT_tot:per_lm_alllm.cba_ep_preT_tot} - Benefit-cost ratio -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cba_ep_preT_tot:per_lm_alllm.cba_ep_preT_tot} - Benefit-cost ratio -  All Labor Market  -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cba_ep_tot:per_lm_alllm.cba_ep_tot} - Benefit-cost ratio -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cba_ep_tot:per_lm_alllm.cba_ep_tot} - Benefit-cost ratio -  All Labor Market  -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8210,9 +8210,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8223,9 +8223,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8236,9 +8236,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8249,35 +8249,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cov_ep_preT_tot:per_lm_alllm.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cov_ep_preT_tot:per_lm_alllm.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - All Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cov_ep_tot:per_lm_alllm.cov_ep_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cov_ep_tot:per_lm_alllm.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - All Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8288,9 +8288,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8301,9 +8301,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8327,9 +8327,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8340,9 +8340,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8353,9 +8353,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8379,9 +8379,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8392,9 +8392,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8405,9 +8405,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8431,9 +8431,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8444,9 +8444,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8457,9 +8457,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8483,9 +8483,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8496,9 +8496,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8509,9 +8509,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8535,9 +8535,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8548,9 +8548,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8561,9 +8561,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8587,9 +8587,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8600,9 +8600,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8613,9 +8613,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8626,9 +8626,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8639,35 +8639,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_p0_ep_preT_tot:per_lm_alllm_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_p0_ep_preT_tot:per_lm_alllm_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  All Labor Market  -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_p0_ep_tot:per_lm_alllm_p0_ep_tot} - Poverty Headcount reduction (%) -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_p0_ep_tot:per_lm_alllm_p0_ep_tot} - Poverty Headcount reduction (%) -  All Labor Market  -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8678,9 +8678,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8691,9 +8691,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8704,9 +8704,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8717,35 +8717,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_p1_ep_preT_tot:per_lm_alllm_p1_ep_preT_tot} - Poverty Gap reduction (%) -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_p1_ep_preT_tot:per_lm_alllm_p1_ep_preT_tot} - Poverty Gap reduction (%) -  All Labor Market  -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_p1_ep_tot:per_lm_alllm_p1_ep_tot} - Poverty Gap reduction (%) -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_p1_ep_tot:per_lm_alllm_p1_ep_tot} - Poverty Gap reduction (%) -  All Labor Market  -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8756,9 +8756,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8769,9 +8769,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8782,9 +8782,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8795,35 +8795,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lmonl.overlap_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lmonl.overlap_ep_preT_tot:per_lmonl.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.90 PPP a day) only receiving Labor Market (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lmonl.overlap_ep_preT_tot:per_lmonl.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) only receiving Labor Market (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lmonl.overlap_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lmonl.overlap_ep_tot:per_lmonl.overlap_ep_tot} - Population in extreme poor (&lt;$1.90 PPP a day) only receiving Labor Market (%)}}
+{synopt:{bf:{help wbopendata_topicid##per_lmonl.overlap_ep_tot:per_lmonl.overlap_ep_tot} - Population in extreme poor (&lt;$1.9 a day) only receiving Labor Market (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8834,9 +8834,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8847,9 +8847,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8860,9 +8860,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8873,9 +8873,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8886,9 +8886,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8899,9 +8899,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8912,9 +8912,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8925,35 +8925,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_nprog.overlap_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_nprog.overlap_ep_preT_tot:per_nprog.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.90 PPP a day) not receiving Social Protection (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_nprog.overlap_ep_preT_tot:per_nprog.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) not receiving Social Protection (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population not receiving Social Protection programs{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_nprog.overlap_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_nprog.overlap_ep_tot:per_nprog.overlap_ep_tot} - Population in extreme poor (&lt;$1.90 PPP a day) not receiving Social Protection (%)}}
+{synopt:{bf:{help wbopendata_topicid##per_nprog.overlap_ep_tot:per_nprog.overlap_ep_tot} - Population in extreme poor (&lt;$1.9 a day) not receiving Social Protection (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population not receiving Social Protection programs{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8964,9 +8964,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population not receiving Social Protection programs{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8977,9 +8977,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population not receiving Social Protection programs{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8990,9 +8990,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population not receiving Social Protection programs{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9003,9 +9003,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population not receiving Social Protection programs{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9016,9 +9016,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population not receiving Social Protection programs{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9029,9 +9029,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population not receiving Social Protection programs{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9042,9 +9042,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population not receiving Social Protection programs{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9055,35 +9055,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population not receiving Social Protection programs{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_numprog1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog1_ep_preT_tot:per_numprog1_ep_preT_tot} - Population in extreme poor (&lt;$1.90 PPP a day) receiving only 1 program (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_numprog1_ep_preT_tot:per_numprog1_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) receiving only 1 program (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving receiving only 1 SPL program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_numprog1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog1_ep_tot:per_numprog1_ep_tot} - Population in extreme poor (&lt;$1.90 PPP a day) receiving only 1 program (%)}}
+{synopt:{bf:{help wbopendata_topicid##per_numprog1_ep_tot:per_numprog1_ep_tot} - Population in extreme poor (&lt;$1.9 a day) receiving only 1 program (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving receiving only 1 SPL program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9094,9 +9094,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving receiving only 1 SPL program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9107,9 +9107,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving receiving only 1 SPL program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9120,9 +9120,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving receiving only 1 SPL program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9133,9 +9133,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving receiving only 1 SPL program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9146,9 +9146,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 1 SPL program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9159,9 +9159,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 1 SPL program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9172,9 +9172,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 1 SPL program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9185,35 +9185,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 1 SPL program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_numprog2_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog2_ep_preT_tot:per_numprog2_ep_preT_tot} - Population in extreme poor (&lt;$1.90 PPP a day) receiving 2 programs (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_numprog2_ep_preT_tot:per_numprog2_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) receiving 2 programs (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 2 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_numprog2_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog2_ep_tot:per_numprog2_ep_tot} - Population in extreme poor (&lt;$1.90 PPP a day) receiving 2 programs (%)}}
+{synopt:{bf:{help wbopendata_topicid##per_numprog2_ep_tot:per_numprog2_ep_tot} - Population in extreme poor (&lt;$1.9 a day) receiving 2 programs (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 2 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9224,9 +9224,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 2 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9237,9 +9237,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 2 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9250,9 +9250,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 2 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9263,9 +9263,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 2 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9276,9 +9276,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 2 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9289,9 +9289,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 2 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9302,9 +9302,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 2 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9315,35 +9315,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 2 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_numprog3_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog3_ep_preT_tot:per_numprog3_ep_preT_tot} - Population in extreme poor (&lt;$1.90 PPP a day) receiving 3 programs (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_numprog3_ep_preT_tot:per_numprog3_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) receiving 3 programs (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 3 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_numprog3_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog3_ep_tot:per_numprog3_ep_tot} - Population in extreme poor (&lt;$1.90 PPP a day) receiving 3 programs (%)}}
+{synopt:{bf:{help wbopendata_topicid##per_numprog3_ep_tot:per_numprog3_ep_tot} - Population in extreme poor (&lt;$1.9 a day) receiving 3 programs (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 3 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9354,9 +9354,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 3 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9367,9 +9367,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 3 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9380,9 +9380,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 3 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9393,9 +9393,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 3 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9406,9 +9406,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 3 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9419,9 +9419,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 3 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9432,9 +9432,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 3 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9445,35 +9445,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 3 SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_numprog4_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog4_ep_preT_tot:per_numprog4_ep_preT_tot} - Population in extreme poor (&lt;$1.90 PPP a day) receiving 4 or more programs (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_numprog4_ep_preT_tot:per_numprog4_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) receiving 4 or more programs (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 4 or more SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_numprog4_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog4_ep_tot:per_numprog4_ep_tot} - Population in extreme poor (&lt;$1.90 PPP a day) receiving 4 or more programs (%)}}
+{synopt:{bf:{help wbopendata_topicid##per_numprog4_ep_tot:per_numprog4_ep_tot} - Population in extreme poor (&lt;$1.9 a day) receiving 4 or more programs (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 4 or more SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9484,9 +9484,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 4 or more SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9497,9 +9497,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 4 or more SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9510,9 +9510,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 4 or more SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9523,9 +9523,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 4 or more SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9536,9 +9536,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 4 or more SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9549,9 +9549,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 4 or more SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9562,9 +9562,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 4 or more SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -9575,14 +9575,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving 4 or more SPL programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_pr_dp.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.adq_ep_preT_tot:per_pr_dp.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.adq_ep_preT_tot:per_pr_dp.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Domestic Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9595,7 +9595,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.adq_ep_tot:per_pr_dp.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.adq_ep_tot:per_pr_dp.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Domestic Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9920,7 +9920,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.avt_ep_preT_tot:per_pr_dp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Domestic Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.avt_ep_preT_tot:per_pr_dp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Domestic Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9933,7 +9933,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.avt_ep_tot:per_pr_dp.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.avt_ep_tot:per_pr_dp.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Domestic Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10258,7 +10258,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.ben_ep_preT_tot:per_pr_dp.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.ben_ep_preT_tot:per_pr_dp.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Domestic Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10271,7 +10271,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.ben_ep_tot:per_pr_dp.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.ben_ep_tot:per_pr_dp.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Domestic Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10290,7 +10290,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the poorest quintile  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10303,7 +10303,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the poorest quintile  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10316,7 +10316,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the poorest quintile  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10329,7 +10329,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the poorest quintile  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10544,7 +10544,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.bry_ep_preT_tot:per_pr_dp.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.bry_ep_preT_tot:per_pr_dp.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Domestic Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10557,7 +10557,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.bry_ep_tot:per_pr_dp.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.bry_ep_tot:per_pr_dp.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Domestic Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10830,7 +10830,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.cba_ep_preT_tot:per_pr_dp.cba_ep_preT_tot} - Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.cba_ep_preT_tot:per_pr_dp.cba_ep_preT_tot} - Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10843,7 +10843,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.cba_ep_tot:per_pr_dp.cba_ep_tot} - Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.cba_ep_tot:per_pr_dp.cba_ep_tot} - Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10908,7 +10908,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.cov_ep_preT_tot:per_pr_dp.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.cov_ep_preT_tot:per_pr_dp.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Domestic Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10921,7 +10921,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.cov_ep_tot:per_pr_dp.cov_ep_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.cov_ep_tot:per_pr_dp.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Domestic Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11298,7 +11298,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp_p0_ep_preT_tot:per_pr_dp_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp_p0_ep_preT_tot:per_pr_dp_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11311,7 +11311,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp_p0_ep_tot:per_pr_dp_p0_ep_tot} - Poverty Headcount reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp_p0_ep_tot:per_pr_dp_p0_ep_tot} - Poverty Headcount reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11376,7 +11376,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp_p1_ep_preT_tot:per_pr_dp_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp_p1_ep_preT_tot:per_pr_dp_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11389,7 +11389,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp_p1_ep_tot:per_pr_dp_p1_ep_tot} - Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp_p1_ep_tot:per_pr_dp_p1_ep_tot} - Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11454,7 +11454,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.adq_ep_preT_tot:per_pr_ip.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.adq_ep_preT_tot:per_pr_ip.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11467,7 +11467,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.adq_ep_tot:per_pr_ip.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.adq_ep_tot:per_pr_ip.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - International Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11792,7 +11792,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.avt_ep_preT_tot:per_pr_ip.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - International Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.avt_ep_preT_tot:per_pr_ip.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11805,7 +11805,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.avt_ep_tot:per_pr_ip.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - International Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.avt_ep_tot:per_pr_ip.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - International Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12130,7 +12130,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.ben_ep_preT_tot:per_pr_ip.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.ben_ep_preT_tot:per_pr_ip.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12143,7 +12143,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.ben_ep_tot:per_pr_ip.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.ben_ep_tot:per_pr_ip.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - International Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12162,7 +12162,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the poorest quintile  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12175,7 +12175,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the poorest quintile  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12188,7 +12188,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the poorest quintile  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12201,7 +12201,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the poorest quintile  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12416,7 +12416,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.bry_ep_preT_tot:per_pr_ip.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.bry_ep_preT_tot:per_pr_ip.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12429,7 +12429,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.bry_ep_tot:per_pr_ip.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.bry_ep_tot:per_pr_ip.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - International Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12702,7 +12702,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.cba_ep_preT_tot:per_pr_ip.cba_ep_preT_tot} - Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.cba_ep_preT_tot:per_pr_ip.cba_ep_preT_tot} - Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12715,7 +12715,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.cba_ep_tot:per_pr_ip.cba_ep_tot} - Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.cba_ep_tot:per_pr_ip.cba_ep_tot} - Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12780,7 +12780,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.cov_ep_preT_tot:per_pr_ip.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.cov_ep_preT_tot:per_pr_ip.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12793,7 +12793,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.cov_ep_tot:per_pr_ip.cov_ep_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.cov_ep_tot:per_pr_ip.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - International Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13170,7 +13170,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip_p0_ep_preT_tot:per_pr_ip_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip_p0_ep_preT_tot:per_pr_ip_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13183,7 +13183,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip_p0_ep_tot:per_pr_ip_p0_ep_tot} - Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip_p0_ep_tot:per_pr_ip_p0_ep_tot} - Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13248,7 +13248,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip_p1_ep_preT_tot:per_pr_ip_p1_ep_preT_tot} - Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip_p1_ep_preT_tot:per_pr_ip_p1_ep_preT_tot} - Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13261,7 +13261,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip_p1_ep_tot:per_pr_ip_p1_ep_tot} - Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip_p1_ep_tot:per_pr_ip_p1_ep_tot} - Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13326,28 +13326,28 @@
 
 {synoptline}
 {marker topicid_per_sa_allsa.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.adq_ep_preT_tot:per_sa_allsa.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.adq_ep_preT_tot:per_sa_allsa.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - All Social Assistance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.adq_ep_tot:per_sa_allsa.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.adq_ep_tot:per_sa_allsa.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - All Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13358,9 +13358,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13371,9 +13371,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13397,9 +13397,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13410,9 +13410,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13423,9 +13423,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13436,9 +13436,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13449,9 +13449,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13462,9 +13462,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13475,9 +13475,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13488,9 +13488,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13501,9 +13501,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13514,9 +13514,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13527,9 +13527,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13540,9 +13540,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13553,9 +13553,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13566,9 +13566,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13579,9 +13579,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13592,9 +13592,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13605,9 +13605,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13618,9 +13618,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13631,9 +13631,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13644,9 +13644,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13657,35 +13657,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.avt_ep_preT_tot:per_sa_allsa.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Social Assistance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.avt_ep_preT_tot:per_sa_allsa.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - All Social Assistance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.avt_ep_tot:per_sa_allsa.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Social Assistance}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.avt_ep_tot:per_sa_allsa.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - All Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13696,9 +13696,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13709,9 +13709,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13722,9 +13722,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13735,9 +13735,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13748,9 +13748,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13761,9 +13761,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13774,9 +13774,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13787,9 +13787,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13800,9 +13800,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13813,9 +13813,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13826,9 +13826,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13839,9 +13839,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13852,9 +13852,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13865,9 +13865,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13878,9 +13878,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13891,9 +13891,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13904,9 +13904,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13917,9 +13917,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13930,9 +13930,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13943,9 +13943,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13956,9 +13956,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13969,9 +13969,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13982,9 +13982,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -13995,35 +13995,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.ben_ep_preT_tot:per_sa_allsa.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.ben_ep_preT_tot:per_sa_allsa.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - All Social Assistance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.ben_ep_tot:per_sa_allsa.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.ben_ep_tot:per_sa_allsa.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - All Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14034,9 +14034,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14047,9 +14047,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14073,9 +14073,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14086,9 +14086,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14099,9 +14099,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14112,9 +14112,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14125,9 +14125,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14138,9 +14138,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14151,9 +14151,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14164,9 +14164,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14177,9 +14177,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14190,9 +14190,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14203,9 +14203,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14216,9 +14216,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14229,9 +14229,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14242,9 +14242,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14255,9 +14255,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14268,9 +14268,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14281,35 +14281,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.bry_ep_preT_tot:per_sa_allsa.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.bry_ep_preT_tot:per_sa_allsa.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - All Social Assistance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.bry_ep_tot:per_sa_allsa.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.bry_ep_tot:per_sa_allsa.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - All Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14320,9 +14320,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14333,9 +14333,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14346,9 +14346,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14359,9 +14359,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14372,9 +14372,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14385,9 +14385,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14398,9 +14398,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14411,9 +14411,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14424,9 +14424,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14437,9 +14437,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14450,9 +14450,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14463,9 +14463,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14476,9 +14476,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14489,9 +14489,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14502,9 +14502,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14515,9 +14515,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14528,9 +14528,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14541,9 +14541,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14554,9 +14554,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14567,35 +14567,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cba_ep_preT_tot:per_sa_allsa.cba_ep_preT_tot} - Benefit-cost ratio -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cba_ep_preT_tot:per_sa_allsa.cba_ep_preT_tot} - Benefit-cost ratio -  All Social Assistance -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cba_ep_tot:per_sa_allsa.cba_ep_tot} - Benefit-cost ratio -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cba_ep_tot:per_sa_allsa.cba_ep_tot} - Benefit-cost ratio -  All Social Assistance -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14606,9 +14606,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14619,9 +14619,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14632,9 +14632,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14645,35 +14645,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cov_ep_preT_tot:per_sa_allsa.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cov_ep_preT_tot:per_sa_allsa.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - All Social Assistance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cov_ep_tot:per_sa_allsa.cov_ep_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cov_ep_tot:per_sa_allsa.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - All Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14684,9 +14684,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14697,9 +14697,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14723,9 +14723,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14736,9 +14736,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14749,9 +14749,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14775,9 +14775,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14788,9 +14788,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14801,9 +14801,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14827,9 +14827,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14840,9 +14840,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14853,9 +14853,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14879,9 +14879,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14892,9 +14892,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14905,9 +14905,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14931,9 +14931,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14944,9 +14944,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14957,9 +14957,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14983,9 +14983,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -14996,9 +14996,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15009,9 +15009,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15022,9 +15022,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15035,35 +15035,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_p0_ep_preT_tot:per_sa_allsa_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_p0_ep_preT_tot:per_sa_allsa_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_p0_ep_tot:per_sa_allsa_p0_ep_tot} - Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_p0_ep_tot:per_sa_allsa_p0_ep_tot} - Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15074,9 +15074,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15087,9 +15087,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15100,9 +15100,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15113,35 +15113,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_p1_ep_preT_tot:per_sa_allsa_p1_ep_preT_tot} - Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_p1_ep_preT_tot:per_sa_allsa_p1_ep_preT_tot} - Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_p1_ep_tot:per_sa_allsa_p1_ep_tot} - Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_p1_ep_tot:per_sa_allsa_p1_ep_tot} - Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15152,9 +15152,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15165,9 +15165,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15178,9 +15178,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15191,35 +15191,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.adq_ep_preT_tot:per_sa_ct.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.adq_ep_preT_tot:per_sa_ct.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Cash Transfer  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.adq_ep_tot:per_sa_ct.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.adq_ep_tot:per_sa_ct.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15230,9 +15230,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15243,9 +15243,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15256,9 +15256,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15269,9 +15269,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15282,9 +15282,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15295,9 +15295,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15308,9 +15308,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15321,9 +15321,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15334,9 +15334,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15347,9 +15347,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15360,9 +15360,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15373,9 +15373,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15386,9 +15386,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15399,9 +15399,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15412,9 +15412,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15425,9 +15425,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15438,9 +15438,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15451,9 +15451,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15464,9 +15464,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15477,9 +15477,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15490,9 +15490,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15503,9 +15503,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15516,9 +15516,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15529,35 +15529,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.avt_ep_preT_tot:per_sa_ct.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Cash Transfer  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.avt_ep_preT_tot:per_sa_ct.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Cash Transfer  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.avt_ep_tot:per_sa_ct.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Cash Transfer}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.avt_ep_tot:per_sa_ct.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15568,9 +15568,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15581,9 +15581,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15594,9 +15594,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15607,9 +15607,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15620,9 +15620,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15633,9 +15633,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15646,9 +15646,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15659,9 +15659,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15672,9 +15672,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15685,9 +15685,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15698,9 +15698,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15711,9 +15711,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15724,9 +15724,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15737,9 +15737,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15750,9 +15750,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15763,9 +15763,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15776,9 +15776,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15789,9 +15789,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15802,9 +15802,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15815,9 +15815,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15828,9 +15828,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15841,9 +15841,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15854,9 +15854,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15867,35 +15867,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.ben_ep_preT_tot:per_sa_ct.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.ben_ep_preT_tot:per_sa_ct.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Cash Transfer  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.ben_ep_tot:per_sa_ct.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.ben_ep_tot:per_sa_ct.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15906,9 +15906,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15919,9 +15919,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15932,9 +15932,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15945,9 +15945,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15958,9 +15958,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15971,9 +15971,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15984,9 +15984,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -15997,9 +15997,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16010,9 +16010,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16023,9 +16023,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16036,9 +16036,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16049,9 +16049,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16062,9 +16062,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16075,9 +16075,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16088,9 +16088,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16101,9 +16101,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16114,9 +16114,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16127,9 +16127,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16140,9 +16140,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16153,35 +16153,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.bry_ep_preT_tot:per_sa_ct.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.bry_ep_preT_tot:per_sa_ct.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Cash Transfer  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.bry_ep_tot:per_sa_ct.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.bry_ep_tot:per_sa_ct.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16192,9 +16192,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16205,9 +16205,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16218,9 +16218,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16231,9 +16231,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16244,9 +16244,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16257,9 +16257,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16270,9 +16270,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16283,9 +16283,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16296,9 +16296,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16309,9 +16309,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16322,9 +16322,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16335,9 +16335,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16348,9 +16348,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16361,9 +16361,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16374,9 +16374,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16387,9 +16387,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16400,9 +16400,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16413,9 +16413,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16426,9 +16426,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16439,35 +16439,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.cba_ep_preT_tot:per_sa_ct.cba_ep_preT_tot} - Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.cba_ep_preT_tot:per_sa_ct.cba_ep_preT_tot} - Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.cba_ep_tot:per_sa_ct.cba_ep_tot} - Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.cba_ep_tot:per_sa_ct.cba_ep_tot} - Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16478,9 +16478,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16491,9 +16491,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16504,9 +16504,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16517,35 +16517,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.cov_ep_preT_tot:per_sa_ct.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.cov_ep_preT_tot:per_sa_ct.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Cash Transfer  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.cov_ep_tot:per_sa_ct.cov_ep_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.cov_ep_tot:per_sa_ct.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16556,9 +16556,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16569,9 +16569,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16582,9 +16582,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16595,9 +16595,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16608,9 +16608,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16621,9 +16621,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16634,9 +16634,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16647,9 +16647,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16660,9 +16660,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16673,9 +16673,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16686,9 +16686,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16699,9 +16699,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16712,9 +16712,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16725,9 +16725,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16738,9 +16738,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16751,9 +16751,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16764,9 +16764,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16777,9 +16777,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16790,9 +16790,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16803,9 +16803,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16816,9 +16816,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16829,9 +16829,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16842,9 +16842,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16855,9 +16855,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16868,9 +16868,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16881,9 +16881,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16894,9 +16894,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16907,35 +16907,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct_p0_ep_preT_tot:per_sa_ct_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct_p0_ep_preT_tot:per_sa_ct_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct_p0_ep_tot:per_sa_ct_p0_ep_tot} - Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct_p0_ep_tot:per_sa_ct_p0_ep_tot} - Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16946,9 +16946,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16959,9 +16959,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16972,9 +16972,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -16985,35 +16985,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct_p1_ep_preT_tot:per_sa_ct_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct_p1_ep_preT_tot:per_sa_ct_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct_p1_ep_tot:per_sa_ct_p1_ep_tot} - Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct_p1_ep_tot:per_sa_ct_p1_ep_tot} - Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17024,9 +17024,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17037,9 +17037,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17050,9 +17050,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17063,35 +17063,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.adq_ep_preT_tot:per_sa_ik.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.adq_ep_preT_tot:per_sa_ik.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.adq_ep_tot:per_sa_ik.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.adq_ep_tot:per_sa_ik.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - In-Kind}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17102,9 +17102,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17115,9 +17115,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17128,9 +17128,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17141,9 +17141,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17154,9 +17154,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17167,9 +17167,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17180,9 +17180,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17193,9 +17193,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17206,9 +17206,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17219,9 +17219,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17232,9 +17232,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17245,9 +17245,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17258,9 +17258,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17271,9 +17271,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17284,9 +17284,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17297,9 +17297,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17310,9 +17310,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17323,9 +17323,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17336,9 +17336,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17349,9 +17349,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17362,9 +17362,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17375,9 +17375,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17388,9 +17388,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17401,35 +17401,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.avt_ep_preT_tot:per_sa_ik.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - In-Kind (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.avt_ep_preT_tot:per_sa_ik.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.avt_ep_tot:per_sa_ik.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - In-Kind}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.avt_ep_tot:per_sa_ik.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - In-Kind}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17440,9 +17440,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17453,9 +17453,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17466,9 +17466,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17479,9 +17479,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17492,9 +17492,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17505,9 +17505,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17518,9 +17518,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17531,9 +17531,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17544,9 +17544,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17557,9 +17557,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17570,9 +17570,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17583,9 +17583,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17596,9 +17596,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17609,9 +17609,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17622,9 +17622,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17635,9 +17635,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17648,9 +17648,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17661,9 +17661,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17674,9 +17674,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17687,9 +17687,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17700,9 +17700,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17713,9 +17713,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17726,9 +17726,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17739,35 +17739,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.ben_ep_preT_tot:per_sa_ik.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.ben_ep_preT_tot:per_sa_ik.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.ben_ep_tot:per_sa_ik.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.ben_ep_tot:per_sa_ik.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - In-Kind}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17778,9 +17778,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17791,9 +17791,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17804,9 +17804,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17817,9 +17817,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17830,9 +17830,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17843,9 +17843,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17856,9 +17856,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17869,9 +17869,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17882,9 +17882,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17895,9 +17895,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17908,9 +17908,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17921,9 +17921,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17934,9 +17934,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17947,9 +17947,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17960,9 +17960,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17973,9 +17973,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17986,9 +17986,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -17999,9 +17999,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18012,9 +18012,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18025,35 +18025,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.bry_ep_preT_tot:per_sa_ik.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.bry_ep_preT_tot:per_sa_ik.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.bry_ep_tot:per_sa_ik.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.bry_ep_tot:per_sa_ik.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - In-Kind}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18064,9 +18064,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18077,9 +18077,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18090,9 +18090,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18103,9 +18103,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18116,9 +18116,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18129,9 +18129,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18142,9 +18142,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18155,9 +18155,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18168,9 +18168,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18181,9 +18181,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18194,9 +18194,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18207,9 +18207,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18220,9 +18220,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18233,9 +18233,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18246,9 +18246,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18259,9 +18259,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18272,9 +18272,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18285,9 +18285,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18298,9 +18298,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18311,35 +18311,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.cba_ep_preT_tot:per_sa_ik.cba_ep_preT_tot} - Benefit-cost ratio -  In-Kind -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.cba_ep_preT_tot:per_sa_ik.cba_ep_preT_tot} - Benefit-cost ratio -  In-Kind -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.cba_ep_tot:per_sa_ik.cba_ep_tot} - Benefit-cost ratio -  In-Kind -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.cba_ep_tot:per_sa_ik.cba_ep_tot} - Benefit-cost ratio -  In-Kind -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18350,9 +18350,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18363,9 +18363,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18376,9 +18376,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18389,35 +18389,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.cov_ep_preT_tot:per_sa_ik.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.cov_ep_preT_tot:per_sa_ik.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.cov_ep_tot:per_sa_ik.cov_ep_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.cov_ep_tot:per_sa_ik.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - In-Kind}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18428,9 +18428,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18441,9 +18441,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18454,9 +18454,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18467,9 +18467,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18480,9 +18480,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18493,9 +18493,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18506,9 +18506,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18519,9 +18519,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18532,9 +18532,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18545,9 +18545,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18558,9 +18558,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18571,9 +18571,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18584,9 +18584,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18597,9 +18597,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18610,9 +18610,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18623,9 +18623,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18636,9 +18636,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18649,9 +18649,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18662,9 +18662,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18675,9 +18675,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18688,9 +18688,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18701,9 +18701,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18714,9 +18714,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18727,9 +18727,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18740,9 +18740,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18753,9 +18753,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18766,9 +18766,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18779,35 +18779,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik_p0_ep_preT_tot:per_sa_ik_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik_p0_ep_preT_tot:per_sa_ik_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik_p0_ep_tot:per_sa_ik_p0_ep_tot} - Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik_p0_ep_tot:per_sa_ik_p0_ep_tot} - Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18818,9 +18818,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18831,9 +18831,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18844,9 +18844,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18857,35 +18857,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik_p1_ep_preT_tot:per_sa_ik_p1_ep_preT_tot} - Poverty Gap reduction (%) -  In-Kind -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik_p1_ep_preT_tot:per_sa_ik_p1_ep_preT_tot} - Poverty Gap reduction (%) -  In-Kind -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik_p1_ep_tot:per_sa_ik_p1_ep_tot} - Poverty Gap reduction (%) -  In-Kind -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik_p1_ep_tot:per_sa_ik_p1_ep_tot} - Poverty Gap reduction (%) -  In-Kind -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18896,9 +18896,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18909,9 +18909,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18922,9 +18922,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18935,35 +18935,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.adq_ep_preT_tot:per_sa_pw.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.adq_ep_preT_tot:per_sa_pw.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Public Works (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.adq_ep_tot:per_sa_pw.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.adq_ep_tot:per_sa_pw.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Public Works}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18974,9 +18974,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -18987,9 +18987,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19000,9 +19000,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19013,9 +19013,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19026,9 +19026,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19039,9 +19039,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19052,9 +19052,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19065,9 +19065,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19078,9 +19078,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19091,9 +19091,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19104,9 +19104,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19117,9 +19117,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19130,9 +19130,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19143,9 +19143,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19156,9 +19156,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19169,9 +19169,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19182,9 +19182,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19195,9 +19195,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19208,9 +19208,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19221,9 +19221,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19234,9 +19234,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19247,9 +19247,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19260,9 +19260,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19273,35 +19273,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.avt_ep_preT_tot:per_sa_pw.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Public Works (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.avt_ep_preT_tot:per_sa_pw.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Public Works (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.avt_ep_tot:per_sa_pw.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Public Works}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.avt_ep_tot:per_sa_pw.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Public Works}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19312,9 +19312,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19325,9 +19325,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19338,9 +19338,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19351,9 +19351,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19364,9 +19364,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19377,9 +19377,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19390,9 +19390,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19403,9 +19403,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19416,9 +19416,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19429,9 +19429,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19442,9 +19442,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19455,9 +19455,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19468,9 +19468,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19481,9 +19481,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19494,9 +19494,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19507,9 +19507,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19520,9 +19520,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19533,9 +19533,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19546,9 +19546,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19559,9 +19559,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19572,9 +19572,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19585,9 +19585,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19598,9 +19598,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19611,35 +19611,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.ben_ep_preT_tot:per_sa_pw.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.ben_ep_preT_tot:per_sa_pw.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Public Works (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.ben_ep_tot:per_sa_pw.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.ben_ep_tot:per_sa_pw.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Public Works}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19650,9 +19650,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19663,9 +19663,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19676,9 +19676,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19689,9 +19689,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19702,9 +19702,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19715,9 +19715,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19728,9 +19728,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19741,9 +19741,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19754,9 +19754,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19767,9 +19767,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19780,9 +19780,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19793,9 +19793,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19806,9 +19806,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19819,9 +19819,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19832,9 +19832,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19845,9 +19845,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19858,9 +19858,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19871,9 +19871,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19884,9 +19884,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19897,35 +19897,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.bry_ep_preT_tot:per_sa_pw.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.bry_ep_preT_tot:per_sa_pw.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Public Works (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.bry_ep_tot:per_sa_pw.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.bry_ep_tot:per_sa_pw.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Public Works}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19936,9 +19936,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19949,9 +19949,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19962,9 +19962,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19975,9 +19975,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -19988,9 +19988,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20001,9 +20001,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20014,9 +20014,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20027,9 +20027,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20040,9 +20040,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20053,9 +20053,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20066,9 +20066,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20079,9 +20079,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20092,9 +20092,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20105,9 +20105,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20118,9 +20118,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20131,9 +20131,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20144,9 +20144,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20157,9 +20157,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20170,9 +20170,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20183,35 +20183,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.cba_ep_preT_tot:per_sa_pw.cba_ep_preT_tot} - Benefit-cost ratio -  Public Works -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.cba_ep_preT_tot:per_sa_pw.cba_ep_preT_tot} - Benefit-cost ratio -  Public Works -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.cba_ep_tot:per_sa_pw.cba_ep_tot} - Benefit-cost ratio -  Public Works -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.cba_ep_tot:per_sa_pw.cba_ep_tot} - Benefit-cost ratio -  Public Works -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20222,9 +20222,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20235,9 +20235,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20248,9 +20248,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20261,35 +20261,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.cov_ep_preT_tot:per_sa_pw.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.cov_ep_preT_tot:per_sa_pw.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Public Works (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.cov_ep_tot:per_sa_pw.cov_ep_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.cov_ep_tot:per_sa_pw.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Public Works}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20300,9 +20300,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20313,9 +20313,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20326,9 +20326,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20339,9 +20339,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20352,9 +20352,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20365,9 +20365,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20378,9 +20378,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20391,9 +20391,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20404,9 +20404,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20417,9 +20417,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20430,9 +20430,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20443,9 +20443,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20456,9 +20456,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20469,9 +20469,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20482,9 +20482,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20495,9 +20495,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20508,9 +20508,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20521,9 +20521,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20534,9 +20534,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20547,9 +20547,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20560,9 +20560,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20573,9 +20573,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20586,9 +20586,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20599,9 +20599,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20612,9 +20612,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20625,9 +20625,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20638,9 +20638,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20651,35 +20651,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw_p0_ep_preT_tot:per_sa_pw_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw_p0_ep_preT_tot:per_sa_pw_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw_p0_ep_tot:per_sa_pw_p0_ep_tot} - Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw_p0_ep_tot:per_sa_pw_p0_ep_tot} - Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20690,9 +20690,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20703,9 +20703,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20716,9 +20716,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20729,35 +20729,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw_p1_ep_preT_tot:per_sa_pw_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Public Works -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw_p1_ep_preT_tot:per_sa_pw_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Public Works -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw_p1_ep_tot:per_sa_pw_p1_ep_tot} - Poverty Gap reduction (%) -  Public Works -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw_p1_ep_tot:per_sa_pw_p1_ep_tot} - Poverty Gap reduction (%) -  Public Works -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20768,9 +20768,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20781,9 +20781,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20794,9 +20794,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20807,35 +20807,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.adq_ep_preT_tot:per_sa_sf.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.adq_ep_preT_tot:per_sa_sf.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.adq_ep_tot:per_sa_sf.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.adq_ep_tot:per_sa_sf.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - School Feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20846,9 +20846,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20859,9 +20859,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20872,9 +20872,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20885,9 +20885,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20898,9 +20898,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20911,9 +20911,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20924,9 +20924,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20937,9 +20937,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20950,9 +20950,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20963,9 +20963,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20976,9 +20976,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -20989,9 +20989,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21002,9 +21002,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21015,9 +21015,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21028,9 +21028,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21041,9 +21041,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21054,9 +21054,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21067,9 +21067,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21080,9 +21080,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21093,9 +21093,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21106,9 +21106,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21119,9 +21119,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21132,9 +21132,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21145,35 +21145,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.avt_ep_preT_tot:per_sa_sf.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - School feeding (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.avt_ep_preT_tot:per_sa_sf.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.avt_ep_tot:per_sa_sf.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - School feeding}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.avt_ep_tot:per_sa_sf.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - School Feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21184,9 +21184,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21197,9 +21197,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21210,9 +21210,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21223,9 +21223,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21236,9 +21236,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21249,9 +21249,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21262,9 +21262,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21275,9 +21275,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21288,9 +21288,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21301,9 +21301,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21314,9 +21314,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21327,9 +21327,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21340,9 +21340,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21353,9 +21353,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21366,9 +21366,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21379,9 +21379,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21392,9 +21392,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21405,9 +21405,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21418,9 +21418,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21431,9 +21431,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21444,9 +21444,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21457,9 +21457,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21470,9 +21470,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21483,35 +21483,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.ben_ep_preT_tot:per_sa_sf.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.ben_ep_preT_tot:per_sa_sf.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.ben_ep_tot:per_sa_sf.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.ben_ep_tot:per_sa_sf.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - School Feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21522,9 +21522,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21535,9 +21535,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21548,9 +21548,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21561,9 +21561,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21574,9 +21574,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21587,9 +21587,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21600,9 +21600,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21613,9 +21613,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21626,9 +21626,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21639,9 +21639,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21652,9 +21652,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21665,9 +21665,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21678,9 +21678,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21691,9 +21691,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21704,9 +21704,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21717,9 +21717,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21730,9 +21730,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21743,9 +21743,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21756,9 +21756,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21769,35 +21769,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.bry_ep_preT_tot:per_sa_sf.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.bry_ep_preT_tot:per_sa_sf.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.bry_ep_tot:per_sa_sf.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.bry_ep_tot:per_sa_sf.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - School Feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21808,9 +21808,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21821,9 +21821,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21834,9 +21834,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21847,9 +21847,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21860,9 +21860,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21873,9 +21873,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21886,9 +21886,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21899,9 +21899,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21912,9 +21912,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21925,9 +21925,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21938,9 +21938,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21951,9 +21951,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21964,9 +21964,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21977,9 +21977,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -21990,9 +21990,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22003,9 +22003,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22016,9 +22016,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22029,9 +22029,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22042,9 +22042,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22055,113 +22055,113 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cba_ep_preT_tot:per_sa_sf.cba_ep_preT_tot} - Benefit-cost ratio -  School feeding -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cba_ep_preT_tot:per_sa_sf.cba_ep_preT_tot} - Benefit-cost ratio -  School-feeding -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cba_ep_tot:per_sa_sf.cba_ep_tot} - Benefit-cost ratio -  School feeding -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cba_ep_tot:per_sa_sf.cba_ep_tot} - Benefit-cost ratio -  School-feeding -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cba_q1_preT_tot:per_sa_sf.cba_q1_preT_tot} - Benefit-cost ratio -  School feeding -1st quintile (poorest) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cba_q1_preT_tot:per_sa_sf.cba_q1_preT_tot} - Benefit-cost ratio -  School-feeding -1st quintile (poorest) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.cba_q1_rur}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cba_q1_rur:per_sa_sf.cba_q1_rur} - Benefit-cost ratio -  School feeding -1st quintile (poorest) -rural}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cba_q1_rur:per_sa_sf.cba_q1_rur} - Benefit-cost ratio -  School-feeding -1st quintile (poorest) -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.cba_q1_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cba_q1_tot:per_sa_sf.cba_q1_tot} - Benefit-cost ratio -  School feeding -1st quintile (poorest)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cba_q1_tot:per_sa_sf.cba_q1_tot} - Benefit-cost ratio -  School-feeding -1st quintile (poorest)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.cba_q1_urb}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cba_q1_urb:per_sa_sf.cba_q1_urb} - Benefit-cost ratio -  School feeding - 1st quintile (poorest) -urban}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cba_q1_urb:per_sa_sf.cba_q1_urb} - Benefit-cost ratio -  School-feeding - 1st quintile (poorest) -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cov_ep_preT_tot:per_sa_sf.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cov_ep_preT_tot:per_sa_sf.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cov_ep_tot:per_sa_sf.cov_ep_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cov_ep_tot:per_sa_sf.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - School Feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22172,9 +22172,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22185,9 +22185,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22198,9 +22198,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22211,9 +22211,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22224,9 +22224,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22237,9 +22237,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22250,9 +22250,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22263,9 +22263,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22276,9 +22276,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22289,9 +22289,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22302,9 +22302,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22315,9 +22315,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22328,9 +22328,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22341,9 +22341,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22354,9 +22354,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22367,9 +22367,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22380,9 +22380,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22393,9 +22393,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22406,9 +22406,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22419,9 +22419,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22432,9 +22432,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22445,9 +22445,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22458,9 +22458,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22471,243 +22471,243 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_gini_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_gini_preT_tot:per_sa_sf_gini_preT_tot} - Gini inequality index reduction (%) -  School feeding (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_gini_preT_tot:per_sa_sf_gini_preT_tot} - Gini inequality index reduction (%) -  School-feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_gini_rur}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_gini_rur:per_sa_sf_gini_rur} - Gini inequality index reduction (%) -  School feeding -rural}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_gini_rur:per_sa_sf_gini_rur} - Gini inequality index reduction (%) -  School-feeding -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_gini_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_gini_tot:per_sa_sf_gini_tot} - Gini inequality index reduction (%) -  School feeding}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_gini_tot:per_sa_sf_gini_tot} - Gini inequality index reduction (%) -  School-feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_gini_urb}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_gini_urb:per_sa_sf_gini_urb} - Gini inequality index reduction (%) -  School feeding -urban}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_gini_urb:per_sa_sf_gini_urb} - Gini inequality index reduction (%) -  School-feeding -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p0_ep_preT_tot:per_sa_sf_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  School feeding -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p0_ep_preT_tot:per_sa_sf_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  School-feeding -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p0_ep_tot:per_sa_sf_p0_ep_tot} - Poverty Headcount reduction (%) -  School feeding -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p0_ep_tot:per_sa_sf_p0_ep_tot} - Poverty Headcount reduction (%) -  School-feeding -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_p0_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p0_preT_tot:per_sa_sf_p0_preT_tot} - Poverty Headcount reduction (%) -  School feeding -1st quintile (poorest) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p0_preT_tot:per_sa_sf_p0_preT_tot} - Poverty Headcount reduction (%) -  School-feeding -1st quintile (poorest) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_p0_rur}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p0_rur:per_sa_sf_p0_rur} - Poverty Headcount reduction (%) -  School feeding -1st quintile (poorest) -rural}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p0_rur:per_sa_sf_p0_rur} - Poverty Headcount reduction (%) -  School-feeding -1st quintile (poorest) -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_p0_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p0_tot:per_sa_sf_p0_tot} - Poverty Headcount reduction (%) -  School feeding -1st quintile (poorest)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p0_tot:per_sa_sf_p0_tot} - Poverty Headcount reduction (%) -  School-feeding -1st quintile (poorest)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_p0_urb}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p0_urb:per_sa_sf_p0_urb} - Poverty Headcount reduction (%) -  School feeding - 1st quintile (poorest) -urban}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p0_urb:per_sa_sf_p0_urb} - Poverty Headcount reduction (%) -  School-feeding - 1st quintile (poorest) -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p1_ep_preT_tot:per_sa_sf_p1_ep_preT_tot} - Poverty Gap reduction (%) -  School feeding -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p1_ep_preT_tot:per_sa_sf_p1_ep_preT_tot} - Poverty Gap reduction (%) -  School-feeding -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p1_ep_tot:per_sa_sf_p1_ep_tot} - Poverty Gap reduction (%) -  School feeding -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p1_ep_tot:per_sa_sf_p1_ep_tot} - Poverty Gap reduction (%) -  School-feeding -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_p1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p1_preT_tot:per_sa_sf_p1_preT_tot} - Poverty Gap reduction (%) -  School feeding -1st quintile (poorest) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p1_preT_tot:per_sa_sf_p1_preT_tot} - Poverty Gap reduction (%) -  School-feeding -1st quintile (poorest) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_p1_rur}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p1_rur:per_sa_sf_p1_rur} - Poverty Gap reduction (%) -  School feeding -1st quintile (poorest) -rural}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p1_rur:per_sa_sf_p1_rur} - Poverty Gap reduction (%) -  School-feeding -1st quintile (poorest) -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_p1_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p1_tot:per_sa_sf_p1_tot} - Poverty Gap reduction (%) -  School feeding -1st quintile (poorest)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p1_tot:per_sa_sf_p1_tot} - Poverty Gap reduction (%) -  School-feeding -1st quintile (poorest)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_p1_urb}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p1_urb:per_sa_sf_p1_urb} - Poverty Gap reduction (%) -  School feeding - 1st quintile (poorest) -urban}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p1_urb:per_sa_sf_p1_urb} - Poverty Gap reduction (%) -  School-feeding - 1st quintile (poorest) -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.adq_ep_preT_tot:per_sa_sp.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.adq_ep_preT_tot:per_sa_sp.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Social Pensions  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.adq_ep_tot:per_sa_sp.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.adq_ep_tot:per_sa_sp.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Social Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22718,9 +22718,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22731,9 +22731,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22744,9 +22744,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22757,9 +22757,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22770,9 +22770,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22783,9 +22783,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22796,9 +22796,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22809,9 +22809,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22822,9 +22822,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22835,9 +22835,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22848,9 +22848,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22861,9 +22861,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22874,9 +22874,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22887,9 +22887,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22900,9 +22900,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22913,9 +22913,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22926,9 +22926,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22939,9 +22939,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22952,9 +22952,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22965,9 +22965,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22978,9 +22978,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -22991,9 +22991,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23004,9 +23004,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23017,35 +23017,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.avt_ep_preT_tot:per_sa_sp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Social Pensions  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.avt_ep_preT_tot:per_sa_sp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Social Pensions  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.avt_ep_tot:per_sa_sp.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Social Pensions}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.avt_ep_tot:per_sa_sp.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Social Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23056,9 +23056,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23069,9 +23069,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23082,9 +23082,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23095,9 +23095,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23108,9 +23108,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23121,9 +23121,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23134,9 +23134,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23147,9 +23147,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23160,9 +23160,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23173,9 +23173,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23186,9 +23186,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23199,9 +23199,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23212,9 +23212,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23225,9 +23225,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23238,9 +23238,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23251,9 +23251,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23264,9 +23264,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23277,9 +23277,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23290,9 +23290,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23303,9 +23303,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23316,9 +23316,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23329,9 +23329,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23342,9 +23342,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23355,35 +23355,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.ben_ep_preT_tot:per_sa_sp.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.ben_ep_preT_tot:per_sa_sp.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Social Pensions  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.ben_ep_tot:per_sa_sp.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.ben_ep_tot:per_sa_sp.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Social Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23394,9 +23394,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23407,9 +23407,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23420,9 +23420,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23433,9 +23433,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23446,9 +23446,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23459,9 +23459,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23472,9 +23472,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23485,9 +23485,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23498,9 +23498,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23511,9 +23511,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23524,9 +23524,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23537,9 +23537,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23550,9 +23550,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23563,9 +23563,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23576,9 +23576,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23589,9 +23589,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23602,9 +23602,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23615,9 +23615,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23628,9 +23628,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23641,35 +23641,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.bry_ep_preT_tot:per_sa_sp.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.bry_ep_preT_tot:per_sa_sp.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Social Pensions  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.bry_ep_tot:per_sa_sp.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.bry_ep_tot:per_sa_sp.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Social Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23680,9 +23680,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23693,9 +23693,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23706,9 +23706,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23719,9 +23719,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23732,9 +23732,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23745,9 +23745,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23758,9 +23758,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23771,9 +23771,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23784,9 +23784,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23797,9 +23797,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23810,9 +23810,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23823,9 +23823,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23836,9 +23836,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23849,9 +23849,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23862,9 +23862,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23875,9 +23875,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23888,9 +23888,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23901,9 +23901,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23914,9 +23914,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23927,35 +23927,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.cba_ep_preT_tot:per_sa_sp.cba_ep_preT_tot} - Benefit-cost ratio -  Social Pension -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.cba_ep_preT_tot:per_sa_sp.cba_ep_preT_tot} - Benefit-cost ratio -  Social Pension -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.cba_ep_tot:per_sa_sp.cba_ep_tot} - Benefit-cost ratio -  Social Pension -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.cba_ep_tot:per_sa_sp.cba_ep_tot} - Benefit-cost ratio -  Social Pension -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23966,9 +23966,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23979,9 +23979,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -23992,9 +23992,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24005,35 +24005,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.cov_ep_preT_tot:per_sa_sp.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.cov_ep_preT_tot:per_sa_sp.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Social Pensions  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.cov_ep_tot:per_sa_sp.cov_ep_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.cov_ep_tot:per_sa_sp.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Social Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24044,9 +24044,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24057,9 +24057,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24070,9 +24070,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24083,9 +24083,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24096,9 +24096,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24109,9 +24109,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24122,9 +24122,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24135,9 +24135,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24148,9 +24148,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24161,9 +24161,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24174,9 +24174,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24187,9 +24187,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24200,9 +24200,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24213,9 +24213,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24226,9 +24226,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24239,9 +24239,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24252,9 +24252,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24265,9 +24265,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24278,9 +24278,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24291,9 +24291,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24304,9 +24304,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24317,9 +24317,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24330,9 +24330,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24343,9 +24343,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24356,22 +24356,22 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp_gini_rur}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp_gini_rur:per_sa_sp_gini_rur} - Gini inequality index reduction (%) -  Social Pension -rural}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp_gini_rur:per_sa_sp_gini_rur} - Gini inequality index reduction (%) -  Social Pension-rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24382,9 +24382,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24395,35 +24395,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp_p0_ep_preT_tot:per_sa_sp_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp_p0_ep_preT_tot:per_sa_sp_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp_p0_ep_tot:per_sa_sp_p0_ep_tot} - Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp_p0_ep_tot:per_sa_sp_p0_ep_tot} - Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24434,9 +24434,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24447,9 +24447,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24460,9 +24460,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24473,35 +24473,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp_p1_ep_preT_tot:per_sa_sp_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp_p1_ep_preT_tot:per_sa_sp_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp_p1_ep_tot:per_sa_sp_p1_ep_tot} - Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp_p1_ep_tot:per_sa_sp_p1_ep_tot} - Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24512,9 +24512,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24525,9 +24525,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24538,9 +24538,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24551,35 +24551,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_saonl.overlap_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_saonl.overlap_ep_preT_tot:per_saonl.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.90 PPP a day) only receiving All Social Assistance (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_saonl.overlap_ep_preT_tot:per_saonl.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) only receiving All Social Assistance (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_saonl.overlap_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_saonl.overlap_ep_tot:per_saonl.overlap_ep_tot} - Population in extreme poor (&lt;$1.90 PPP a day) only receiving All Social Assistance (%)}}
+{synopt:{bf:{help wbopendata_topicid##per_saonl.overlap_ep_tot:per_saonl.overlap_ep_tot} - Population in extreme poor (&lt;$1.9 a day) only receiving All Social Assistance (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24590,9 +24590,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24603,9 +24603,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24616,9 +24616,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24629,9 +24629,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24642,9 +24642,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24655,9 +24655,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24668,9 +24668,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24681,35 +24681,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_saoth.overlap_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_saoth.overlap_ep_preT_tot:per_saoth.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.90 PPP a day) receiving Social Assistance and Other (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_saoth.overlap_ep_preT_tot:per_saoth.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) receiving Social Assistance and Other (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving Social Assistance and Other program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_saoth.overlap_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_saoth.overlap_ep_tot:per_saoth.overlap_ep_tot} - Population in extreme poor (&lt;$1.90 PPP a day) receiving Social Assistance and Other (%)}}
+{synopt:{bf:{help wbopendata_topicid##per_saoth.overlap_ep_tot:per_saoth.overlap_ep_tot} - Population in extreme poor (&lt;$1.9 a day) receiving Social Assistance and Other (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving Social Assistance and Other program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24720,9 +24720,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving Social Assistance and Other program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24733,9 +24733,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving Social Assistance and Other program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24746,9 +24746,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving Social Assistance and Other program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24759,9 +24759,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving Social Assistance and Other program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24772,9 +24772,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving Social Assistance and Other program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24785,9 +24785,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving Social Assistance and Other program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24798,9 +24798,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving Social Assistance and Other program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24811,35 +24811,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population receiving Social Assistance and Other program (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.adq_ep_preT_tot:per_si_allsi.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.adq_ep_preT_tot:per_si_allsi.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - All Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.adq_ep_tot:per_si_allsi.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.adq_ep_tot:per_si_allsi.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24850,9 +24850,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24863,9 +24863,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24889,9 +24889,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24902,9 +24902,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24915,9 +24915,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24928,9 +24928,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24941,9 +24941,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24954,9 +24954,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24967,9 +24967,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24980,9 +24980,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -24993,9 +24993,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25006,9 +25006,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25019,9 +25019,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25032,9 +25032,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25045,9 +25045,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25058,9 +25058,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25071,9 +25071,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25084,9 +25084,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25097,9 +25097,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25110,9 +25110,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25123,9 +25123,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25136,9 +25136,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25149,35 +25149,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.avt_ep_preT_tot:per_si_allsi.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.avt_ep_preT_tot:per_si_allsi.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - All Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.avt_ep_tot:per_si_allsi.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.avt_ep_tot:per_si_allsi.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25188,9 +25188,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25201,9 +25201,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25214,9 +25214,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25227,9 +25227,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25240,9 +25240,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25253,9 +25253,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25266,9 +25266,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25279,9 +25279,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25292,9 +25292,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25305,9 +25305,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25318,9 +25318,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25331,9 +25331,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25344,9 +25344,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25357,9 +25357,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25370,9 +25370,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25383,9 +25383,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25396,9 +25396,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25409,9 +25409,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25422,9 +25422,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25435,9 +25435,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25448,9 +25448,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25461,9 +25461,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25474,9 +25474,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25487,35 +25487,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.ben_ep_preT_tot:per_si_allsi.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.ben_ep_preT_tot:per_si_allsi.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - All Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.ben_ep_tot:per_si_allsi.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.ben_ep_tot:per_si_allsi.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25526,9 +25526,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25539,9 +25539,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25565,9 +25565,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25578,9 +25578,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25591,9 +25591,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25604,9 +25604,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25617,9 +25617,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25630,9 +25630,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25643,9 +25643,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25656,9 +25656,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25669,9 +25669,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25682,9 +25682,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25695,9 +25695,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25708,9 +25708,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25721,9 +25721,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25734,9 +25734,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25747,9 +25747,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25760,9 +25760,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25773,35 +25773,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.bry_ep_preT_tot:per_si_allsi.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.bry_ep_preT_tot:per_si_allsi.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - All Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.bry_ep_tot:per_si_allsi.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.bry_ep_tot:per_si_allsi.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25812,9 +25812,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25825,9 +25825,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25838,9 +25838,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25851,9 +25851,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25864,9 +25864,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25877,9 +25877,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25890,9 +25890,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25903,9 +25903,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25916,9 +25916,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25929,9 +25929,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25942,9 +25942,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25955,9 +25955,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25968,9 +25968,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25981,9 +25981,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -25994,9 +25994,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26007,9 +26007,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26020,9 +26020,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26033,9 +26033,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26046,9 +26046,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26059,35 +26059,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.cba_ep_preT_tot:per_si_allsi.cba_ep_preT_tot} - Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.cba_ep_preT_tot:per_si_allsi.cba_ep_preT_tot} - Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.cba_ep_tot:per_si_allsi.cba_ep_tot} - Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.cba_ep_tot:per_si_allsi.cba_ep_tot} - Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26098,9 +26098,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26111,9 +26111,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26124,9 +26124,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26137,35 +26137,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.cov_ep_preT_tot:per_si_allsi.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.cov_ep_preT_tot:per_si_allsi.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - All Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.cov_ep_tot:per_si_allsi.cov_ep_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.cov_ep_tot:per_si_allsi.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26176,9 +26176,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26189,9 +26189,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26215,9 +26215,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26228,9 +26228,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26241,9 +26241,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26267,9 +26267,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26280,9 +26280,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26293,9 +26293,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26319,9 +26319,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26332,9 +26332,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26345,9 +26345,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26371,9 +26371,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26384,9 +26384,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26397,9 +26397,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26423,9 +26423,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26436,9 +26436,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26449,9 +26449,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26475,9 +26475,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26488,9 +26488,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26501,9 +26501,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26514,9 +26514,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26527,35 +26527,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi_p0_ep_preT_tot:per_si_allsi_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi_p0_ep_preT_tot:per_si_allsi_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi_p0_ep_tot:per_si_allsi_p0_ep_tot} - Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi_p0_ep_tot:per_si_allsi_p0_ep_tot} - Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26566,9 +26566,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26579,9 +26579,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26592,9 +26592,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26605,35 +26605,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi_p1_ep_preT_tot:per_si_allsi_p1_ep_preT_tot} - Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi_p1_ep_preT_tot:per_si_allsi_p1_ep_preT_tot} - Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi_p1_ep_tot:per_si_allsi_p1_ep_tot} - Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi_p1_ep_tot:per_si_allsi_p1_ep_tot} - Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26644,9 +26644,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26657,9 +26657,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26670,9 +26670,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26683,35 +26683,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.adq_ep_preT_tot:per_si_ss.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.adq_ep_preT_tot:per_si_ss.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Other Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.adq_ep_tot:per_si_ss.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.adq_ep_tot:per_si_ss.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Other Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26722,9 +26722,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26735,9 +26735,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26748,9 +26748,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26761,9 +26761,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26774,9 +26774,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26787,9 +26787,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26800,9 +26800,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26813,9 +26813,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26826,9 +26826,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26839,9 +26839,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26852,9 +26852,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26865,9 +26865,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26878,9 +26878,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26891,9 +26891,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26904,9 +26904,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26917,9 +26917,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26930,9 +26930,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26943,9 +26943,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26956,9 +26956,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26969,9 +26969,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26982,9 +26982,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -26995,9 +26995,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27008,9 +27008,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27021,35 +27021,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.avt_ep_preT_tot:per_si_ss.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Other Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.avt_ep_preT_tot:per_si_ss.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Other Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.avt_ep_tot:per_si_ss.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.avt_ep_tot:per_si_ss.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Other Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27060,9 +27060,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27073,9 +27073,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27086,9 +27086,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27099,9 +27099,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27112,9 +27112,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27125,9 +27125,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27138,9 +27138,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27151,9 +27151,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27164,9 +27164,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27177,9 +27177,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27190,9 +27190,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27203,9 +27203,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27216,9 +27216,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27229,9 +27229,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27242,9 +27242,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27255,9 +27255,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27268,9 +27268,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27281,9 +27281,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27294,9 +27294,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27307,9 +27307,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27320,9 +27320,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27333,9 +27333,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27346,9 +27346,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27359,35 +27359,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.ben_ep_preT_tot:per_si_ss.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.ben_ep_preT_tot:per_si_ss.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Other Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.ben_ep_tot:per_si_ss.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.ben_ep_tot:per_si_ss.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Other Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27398,9 +27398,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27411,9 +27411,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27424,9 +27424,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27437,9 +27437,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the 1st quintile (poorest)  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27450,9 +27450,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27463,9 +27463,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27476,9 +27476,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27489,9 +27489,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27502,9 +27502,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27515,9 +27515,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27528,9 +27528,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27541,9 +27541,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27554,9 +27554,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27567,9 +27567,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27580,9 +27580,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27593,9 +27593,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27606,9 +27606,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27619,9 +27619,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27632,9 +27632,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27645,35 +27645,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.bry_ep_preT_tot:per_si_ss.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.bry_ep_preT_tot:per_si_ss.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Other Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.bry_ep_tot:per_si_ss.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.bry_ep_tot:per_si_ss.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Other Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27684,9 +27684,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27697,9 +27697,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27710,9 +27710,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27723,9 +27723,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27736,9 +27736,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27749,9 +27749,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27762,9 +27762,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27775,9 +27775,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27788,9 +27788,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27801,9 +27801,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27814,9 +27814,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27827,9 +27827,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27840,9 +27840,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27853,9 +27853,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27866,9 +27866,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27879,9 +27879,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27892,9 +27892,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27905,9 +27905,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27918,9 +27918,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27931,35 +27931,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.cba_ep_preT_tot:per_si_ss.cba_ep_preT_tot} - Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.cba_ep_preT_tot:per_si_ss.cba_ep_preT_tot} - Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.cba_ep_tot:per_si_ss.cba_ep_tot} - Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.cba_ep_tot:per_si_ss.cba_ep_tot} - Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27970,9 +27970,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27983,9 +27983,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -27996,9 +27996,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28009,35 +28009,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.cov_ep_preT_tot:per_si_ss.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.cov_ep_preT_tot:per_si_ss.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Other Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.cov_ep_tot:per_si_ss.cov_ep_tot} - Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.cov_ep_tot:per_si_ss.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Other Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28048,9 +28048,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28061,9 +28061,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28074,9 +28074,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28087,9 +28087,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28100,9 +28100,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28113,9 +28113,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28126,9 +28126,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28139,9 +28139,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28152,9 +28152,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28165,9 +28165,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28178,9 +28178,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28191,9 +28191,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28204,9 +28204,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28217,9 +28217,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28230,9 +28230,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28243,9 +28243,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28256,9 +28256,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28269,9 +28269,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28282,9 +28282,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28295,9 +28295,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28308,9 +28308,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28321,9 +28321,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28334,9 +28334,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28347,9 +28347,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28360,9 +28360,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28373,9 +28373,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28386,9 +28386,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28399,35 +28399,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss_p0_ep_preT_tot:per_si_ss_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss_p0_ep_preT_tot:per_si_ss_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss_p0_ep_tot:per_si_ss_p0_ep_tot} - Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss_p0_ep_tot:per_si_ss_p0_ep_tot} - Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28438,9 +28438,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28451,9 +28451,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28464,9 +28464,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28477,35 +28477,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss_p1_ep_preT_tot:per_si_ss_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss_p1_ep_preT_tot:per_si_ss_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.9 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss_p1_ep_tot:per_si_ss_p1_ep_tot} - Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss_p1_ep_tot:per_si_ss_p1_ep_tot} - Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.9 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28516,9 +28516,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28529,9 +28529,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28542,9 +28542,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28555,35 +28555,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_silm.overlap_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_silm.overlap_ep_preT_tot:per_silm.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.90 PPP a day) receiving All Social Insurance and Labor Market (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_silm.overlap_ep_preT_tot:per_silm.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) receiving All Social Insurance and Labor Market (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance and Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_silm.overlap_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_silm.overlap_ep_tot:per_silm.overlap_ep_tot} - Population in extreme poor (&lt;$1.90 PPP a day) receiving All Social Insurance and Labor Market (%)}}
+{synopt:{bf:{help wbopendata_topicid##per_silm.overlap_ep_tot:per_silm.overlap_ep_tot} - Population in extreme poor (&lt;$1.9 a day) receiving All Social Insurance and Labor Market (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance and Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28594,9 +28594,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance and Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28607,9 +28607,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance and Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28620,9 +28620,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance and Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28633,9 +28633,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance and Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28646,9 +28646,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance and Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28659,9 +28659,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance and Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28672,9 +28672,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance and Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28685,35 +28685,35 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance and Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sionl.overlap_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sionl.overlap_ep_preT_tot:per_sionl.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.90 PPP a day) only receiving All Social Insurance (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sionl.overlap_ep_preT_tot:per_sionl.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) only receiving All Social Insurance (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sionl.overlap_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sionl.overlap_ep_tot:per_sionl.overlap_ep_tot} - Population in extreme poor (&lt;$1.90 PPP a day) only receiving All Social Insurance (%)}}
+{synopt:{bf:{help wbopendata_topicid##per_sionl.overlap_ep_tot:per_sionl.overlap_ep_tot} - Population in extreme poor (&lt;$1.9 a day) only receiving All Social Insurance (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28724,9 +28724,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28737,9 +28737,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28750,9 +28750,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28763,9 +28763,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28776,9 +28776,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28789,9 +28789,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28802,9 +28802,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -28815,10 +28815,10 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
