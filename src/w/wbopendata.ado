@@ -27,8 +27,6 @@ version 9.0
 						 CHECK						///
 						 NOPRESERVE					///
 						 PRESERVEOUT				///
-						 FULL						///
-						 ISO						///
 						 COUNTRYMETADATA			///
 						 ALL						///
 						 BREAKNOMETADATA			///
