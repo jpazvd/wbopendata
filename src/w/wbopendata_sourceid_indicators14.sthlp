@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -14,7 +14,6 @@
 {synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
 {synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
 {synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
-{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -50,7 +49,6 @@
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
 {synopt:{opt 60}}  {help wbopendata_sourceid_indicators60##sourceid_60:Economic Fitness}{p_end}
 {synopt:{opt 61}}  {help wbopendata_sourceid_indicators61##sourceid_61:PPPs Regulatory Quality}{p_end}
-{synopt:{opt 62}}  {help wbopendata_sourceid_indicators62##sourceid_62:International Comparison Program (ICP) 2011}{p_end}
 {synopt:{opt 63}}  {help wbopendata_sourceid_indicators63##sourceid_63:Human Capital Index}{p_end}
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
@@ -62,6 +60,11 @@
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 {synopt:{opt 78}}  {help wbopendata_sourceid_indicators78##sourceid_78:ICP 2017}{p_end}
+{synopt:{opt 80}}  {help wbopendata_sourceid_indicators80##sourceid_80:Gender Disaggregated Labor Database (GDLD)}{p_end}
+{synopt:{opt 81}}  {help wbopendata_sourceid_indicators81##sourceid_81:International Debt Statistics: DSSI}{p_end}
+{synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
+{synopt:{opt 83}}  {help wbopendata_sourceid_indicators83##sourceid_83:Statistical Performance Indicators (SPI)}{p_end}
+{synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
 
 
 {marker sourceid_14}
@@ -226,8 +229,164 @@
 
 
 {synoptline}
+{marker sourceid_SE.PRM.CMPL.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.PRM.CMPL.FE.ZS:SE.PRM.CMPL.FE.ZS} - Gross graduation ratio, primary, female (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Number of female graduates from the last grade of primary education, regardless of age, expressed as a percentage of the female population at the theoretical graduation age. The ratio can exceed 100% due to over-aged and under-aged children wh{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.PRM.CMPL.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.PRM.CMPL.MA.ZS:SE.PRM.CMPL.MA.ZS} - Gross graduation ratio, primary, male (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Number of male graduates from the last grade of primary education, regardless of age, expressed as a percentage of the male population at the theoretical graduation age. The ratio can exceed 100% due to over-aged and under-aged children who en{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.SEC.ENRL.MA.VO.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.SEC.ENRL.MA.VO.ZS:SE.SEC.ENRL.MA.VO.ZS} - Share of male students in secondary education enrolled in vocational programmes (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Total number of male students enrolled in vocational programmes at the secondary education level, expressed as a percentage of the total number of male students enrolled in all programmes (vocational and general) at the secondary level. Vocati{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.TER.GRAD.FE.AG.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.AG.ZS:SE.TER.GRAD.FE.AG.ZS} - Female share of graduates in Agriculture, Forestry, Fisheries and Veterinary programmes, tertiary (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.TER.GRAD.FE.ED.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.ED.ZS:SE.TER.GRAD.FE.ED.ZS} - Female share of graduates in Education programmes, tertiary (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.TER.GRAD.FE.EN.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.EN.ZS:SE.TER.GRAD.FE.EN.ZS} - Female share of graduates in Engineering, Manufacturing and Construction programmes, tertiary (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.TER.GRAD.FE.HL.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.HL.ZS:SE.TER.GRAD.FE.HL.ZS} - Female share of graduates in Health and Welfare programmes, tertiary (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.TER.GRAD.FE.HU.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.HU.ZS:SE.TER.GRAD.FE.HU.ZS} - Female share of graduates in Arts and Humanities programmes, tertiary (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.TER.GRAD.FE.OT.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.OT.ZS:SE.TER.GRAD.FE.OT.ZS} - Female share of graduates in unknown or unspecified fields, tertiary (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.TER.GRAD.FE.SC.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.SC.ZS:SE.TER.GRAD.FE.SC.ZS} - Female share of graduates in Natural Sciences, Mathematics and Statistics programmes, tertiary (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
 {marker sourceid_SE.TER.GRAD.FE.SI.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.SI.ZS:SE.TER.GRAD.FE.SI.ZS} - Female share of graduates from Science, Technology, Engineering and Mathematics (STEM) programmes, tertiary (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.TER.GRAD.FE.SS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.SS.ZS:SE.TER.GRAD.FE.SS.ZS} - Female share of graduates in Social Sciences, Journalism and Information programmes, tertiary (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.TER.GRAD.FE.SV.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.SV.ZS:SE.TER.GRAD.FE.SV.ZS} - Female share of graduates in Services programmes, tertiary (%)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -253,7 +412,7 @@
 
 {synoptline}
 {marker sourceid_SG.AGE.FUPN.EQ}
-{synopt:{bf:{help wbopendata_sourceid##SG.AGE.FUPN.EQ:SG.AGE.FUPN.EQ} - The ages at which men and women can retire with full pension benefits are equal (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_sourceid##SG.AGE.FUPN.EQ:SG.AGE.FUPN.EQ} - The age at which men and women can retire with full pension benefits is the same (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -266,7 +425,7 @@
 
 {synoptline}
 {marker sourceid_SG.AGE.MRET.EQ}
-{synopt:{bf:{help wbopendata_sourceid##SG.AGE.MRET.EQ:SG.AGE.MRET.EQ} - The mandatory retirement age for men and women are equal (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_sourceid##SG.AGE.MRET.EQ:SG.AGE.MRET.EQ} - The mandatory retirement age for men and women is the same (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -279,7 +438,7 @@
 
 {synoptline}
 {marker sourceid_SG.AGE.PAPN.EQ}
-{synopt:{bf:{help wbopendata_sourceid##SG.AGE.PAPN.EQ:SG.AGE.PAPN.EQ} - The ages at which men and women can retire with partial pension benefits are equal (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_sourceid##SG.AGE.PAPN.EQ:SG.AGE.PAPN.EQ} - The age at which men and women can retire with partial pension benefits is the same (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -851,7 +1010,7 @@
 
 {synoptline}
 {marker sourceid_SG.DNG.WORK.DN.EQ}
-{synopt:{bf:{help wbopendata_sourceid##SG.DNG.WORK.DN.EQ:SG.DNG.WORK.DN.EQ} - Women can work in jobs deemed dangerous in the same way as men (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_sourceid##SG.DNG.WORK.DN.EQ:SG.DNG.WORK.DN.EQ} - A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -994,7 +1153,7 @@
 
 {synoptline}
 {marker sourceid_SG.IND.WORK.EQ}
-{synopt:{bf:{help wbopendata_sourceid##SG.IND.WORK.EQ:SG.IND.WORK.EQ} - Women are able to work in the same industries as men (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_sourceid##SG.IND.WORK.EQ:SG.IND.WORK.EQ} - A woman can work in an industrial job in the same way as a man (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -1037,7 +1196,7 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}The indicator measures whether there is a law that obligates employers to pay equal remuneration to male and female employees who do work of equal value. “Remuneration” refers to the ordinary, basic or minimum wage or salary and any additi{p_end}
 
@@ -1063,7 +1222,7 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}The indicator measures whether the law generally prevents or penalizes gender-based discrimination in employment. Laws that mandate equal treatment or equality between women and men in employment are also counted for this question. It is not c{p_end}
 
@@ -1089,7 +1248,7 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}The indicator measures whether there is legislation addressing domestic violence that includes criminal sanctions or provides for protection orders for domestic violence, or the legislation addresses harassment that clearly leads to physical o{p_end}
 
@@ -1124,7 +1283,7 @@
 
 {synoptline}
 {marker sourceid_SG.NGT.WORK.EQ}
-{synopt:{bf:{help wbopendata_sourceid##SG.NGT.WORK.EQ:SG.NGT.WORK.EQ} - Women can work the same night hours as men (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_sourceid##SG.NGT.WORK.EQ:SG.NGT.WORK.EQ} - A woman can work at night in the same way as a man (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -2830,6 +2989,18 @@
 
 
 {synoptline}
+{marker sourceid_SG.VAW.AFSX.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.AFSX.ZS:SG.VAW.AFSX.ZS} - Proportion of women who have ever experienced any form of sexual violence (% of women age 15-49)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Proportion of women who have ever experienced any form of sexual violence is the percentage of women ages 15-49 who ever experienced sexual violence.{p_end}
+
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS) Statcompiler ({browse "https://www.statcompiler.com/"}){p_end}
+
+
+{synoptline}
 {marker sourceid_SG.VAW.ARGU.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SG.VAW.ARGU.Q1.ZS:SG.VAW.ARGU.Q1.ZS} - Women who believe a husband is justified in beating his wife when she argues with him (%): Q1 (lowest)}}
 
@@ -3007,6 +3178,30 @@
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 2{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.HLPV.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.HLPV.ZS:SG.VAW.HLPV.ZS} - Proportion of women who have sought help to stop physical or sexual violence (% of women age 15-49)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Proportion of women who have sought help to stop physical or sexual violence is the percentage of ever-married women ages 15-49 who have ever experienced any physical or sexual violence who have sought help to stop violence.{p_end}
+
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS) Statcompiler ({browse "https://www.statcompiler.com/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.IPVE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.IPVE.ZS:SG.VAW.IPVE.ZS} - Proportion of women who have ever experienced intimate partner violence (% of women age 15-49)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Proportion of women who have ever experienced intimate partner violence is the percentage of ever-married women (ages 15 - 49) who have ever experienced physical or sexual violence committed by their husband or partner.{p_end}
+
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS) Statcompiler ({browse "https://www.statcompiler.com/"}){p_end}
 
 
 {synoptline}
@@ -3190,159 +3385,507 @@
 
 
 {synoptline}
-{marker sourceid_SH.DTH.COMM.1534.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.1534.FE.ZS:SH.DTH.COMM.1534.FE.ZS} - Cause of death, by communicable diseases, ages 15-34, female (% of relevant age group)}}
+{marker sourceid_SH.DTH.COMM.0004.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.0004.FE.ZS:SH.DTH.COMM.0004.FE.ZS} - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 0-4, female (% of female population ages 0-4)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Communicable diseases and maternal, prenatal and nutrition conditions include infectious and parasitic diseases, respiratory infections, and nutritiona{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
-{marker sourceid_SH.DTH.COMM.1534.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.1534.MA.ZS:SH.DTH.COMM.1534.MA.ZS} - Cause of death, by communicable diseases, ages 15-34, male (% of relevant age group)}}
+{marker sourceid_SH.DTH.COMM.0004.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.0004.MA.ZS:SH.DTH.COMM.0004.MA.ZS} - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 0-4, male (% of male population ages 0-4)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Communicable diseases and maternal, prenatal and nutrition conditions include infectious and parasitic diseases, respiratory infections, and nutritiona{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
-{marker sourceid_SH.DTH.COMM.3559.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.3559.FE.ZS:SH.DTH.COMM.3559.FE.ZS} - Cause of death, by communicable diseases, ages 35-59, female (% of relevant age group)}}
+{marker sourceid_SH.DTH.COMM.0004.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.0004.ZS:SH.DTH.COMM.0004.ZS} - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 0-4 (% of population ages 0-4)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Communicable diseases and maternal, prenatal and nutrition conditions include infectious and parasitic diseases, respiratory infections, and nutritiona{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
-{marker sourceid_SH.DTH.COMM.3559.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.3559.MA.ZS:SH.DTH.COMM.3559.MA.ZS} - Cause of death, by communicable diseases, ages 35-59, male (% of relevant age group)}}
+{marker sourceid_SH.DTH.COMM.0514.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.0514.FE.ZS:SH.DTH.COMM.0514.FE.ZS} - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 5-14, female (% of female population ages 5-14)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Communicable diseases and maternal, prenatal and nutrition conditions include infectious and parasitic diseases, respiratory infections, and nutritiona{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
-{marker sourceid_SH.DTH.INJR.1534.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.1534.FE.ZS:SH.DTH.INJR.1534.FE.ZS} - Cause of death, by injury, ages 15-34, female  (% of relevant age group)}}
+{marker sourceid_SH.DTH.COMM.0514.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.0514.MA.ZS:SH.DTH.COMM.0514.MA.ZS} - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 5-14, male (% of male population ages 5-14)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Injuries include unintentional and intentional injuries.{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
-{marker sourceid_SH.DTH.INJR.1534.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.1534.MA.ZS:SH.DTH.INJR.1534.MA.ZS} - Cause of death, by injury, ages 15-34, male (% of relevant age group)}}
+{marker sourceid_SH.DTH.COMM.0514.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.0514.ZS:SH.DTH.COMM.0514.ZS} - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 5-14 (% of population ages 5-14)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Injuries include unintentional and intentional injuries.{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
-{marker sourceid_SH.DTH.INJR.3559.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.3559.FE.ZS:SH.DTH.INJR.3559.FE.ZS} - Cause of death, by injury, ages 35-59, female (% of relevant age group)}}
+{marker sourceid_SH.DTH.COMM.1559.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.1559.FE.ZS:SH.DTH.COMM.1559.FE.ZS} - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 15-59, female (% of female population ages 15-59)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Injuries include unintentional and intentional injuries.{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
-{marker sourceid_SH.DTH.INJR.3559.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.3559.MA.ZS:SH.DTH.INJR.3559.MA.ZS} - Cause of death, by injury, ages 35-59, male (% of relevant age group)}}
+{marker sourceid_SH.DTH.COMM.1559.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.1559.MA.ZS:SH.DTH.COMM.1559.MA.ZS} - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 15-59, male (% of male population ages 15-59)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Injuries include unintentional and intentional injuries.{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
-{marker sourceid_SH.DTH.NCOM.1534.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.1534.FE.ZS:SH.DTH.NCOM.1534.FE.ZS} - Cause of death, by non-communicable diseases, ages 15-34, female (% of relevant age group)}}
+{marker sourceid_SH.DTH.COMM.1559.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.1559.ZS:SH.DTH.COMM.1559.ZS} - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 15-59 (% of population ages 15-59)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Non-communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseases, musculoskeletal diseases, and{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
-{marker sourceid_SH.DTH.NCOM.1534.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.1534.MA.ZS:SH.DTH.NCOM.1534.MA.ZS} - Cause of death, by non-communicable diseases, ages 15-34, male (% of relevant age group)}}
+{marker sourceid_SH.DTH.COMM.60UP.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.60UP.FE.ZS:SH.DTH.COMM.60UP.FE.ZS} - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 60+, female (% of female population ages 60+)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Non-communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseases, musculoskeletal diseases, and{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
-{marker sourceid_SH.DTH.NCOM.3559.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.3559.FE.ZS:SH.DTH.NCOM.3559.FE.ZS} - Cause of death, by non-communicable diseases, ages 35-59, female (% of relevant age group)}}
+{marker sourceid_SH.DTH.COMM.60UP.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.60UP.MA.ZS:SH.DTH.COMM.60UP.MA.ZS} - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 60+, male (% of male population ages 60+)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Non-communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseases, musculoskeletal diseases, and{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
-{marker sourceid_SH.DTH.NCOM.3559.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.3559.MA.ZS:SH.DTH.NCOM.3559.MA.ZS} - Cause of death, by non-communicable diseases, ages 35-59, male (% of relevant age group)}}
+{marker sourceid_SH.DTH.COMM.60UP.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.60UP.ZS:SH.DTH.COMM.60UP.ZS} - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 60+ (% of population ages 60+)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Non-communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseases, musculoskeletal diseases, and{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.COMM.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.FE.ZS:SH.DTH.COMM.FE.ZS} - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, female (% of female population)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.COMM.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.MA.ZS:SH.DTH.COMM.MA.ZS} - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, male (% of male population)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.INJR.0004.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.0004.FE.ZS:SH.DTH.INJR.0004.FE.ZS} - Cause of death, by injury, ages 0-4, female (% of female population ages 0-4)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.INJR.0004.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.0004.MA.ZS:SH.DTH.INJR.0004.MA.ZS} - Cause of death, by injury, ages 0-4, male (% of male population ages 0-4)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.INJR.0004.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.0004.ZS:SH.DTH.INJR.0004.ZS} - Cause of death, by injury, ages 0-4 (% of population ages 0-4)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.INJR.0514.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.0514.FE.ZS:SH.DTH.INJR.0514.FE.ZS} - Cause of death, by injury, ages 5-14, female (% of female population ages 5-14)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.INJR.0514.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.0514.MA.ZS:SH.DTH.INJR.0514.MA.ZS} - Cause of death, by injury, ages 5-14, male (% of male population ages 5-14)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.INJR.0514.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.0514.ZS:SH.DTH.INJR.0514.ZS} - Cause of death, by injury, ages 5-14 (% of population ages 5-14)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.INJR.1559.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.1559.FE.ZS:SH.DTH.INJR.1559.FE.ZS} - Cause of death, by injury, ages 15-59, female (% of female population ages 15-59)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.INJR.1559.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.1559.MA.ZS:SH.DTH.INJR.1559.MA.ZS} - Cause of death, by injury, ages 15-59, male (% of male population ages 15-59)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.INJR.1559.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.1559.ZS:SH.DTH.INJR.1559.ZS} - Cause of death, by injury, ages 15-59 (% of population ages 15-59)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.INJR.60UP.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.60UP.FE.ZS:SH.DTH.INJR.60UP.FE.ZS} - Cause of death, by injury, ages 60+, female (% of female population ages 60+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.INJR.60UP.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.60UP.MA.ZS:SH.DTH.INJR.60UP.MA.ZS} - Cause of death, by injury, ages 60+, male (% of male population ages 60+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.INJR.60UP.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.60UP.ZS:SH.DTH.INJR.60UP.ZS} - Cause of death, by injury, ages 60+ (% of population ages 60+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.INJR.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.FE.ZS:SH.DTH.INJR.FE.ZS} - Cause of death, by injury, female (% of female population)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.INJR.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.MA.ZS:SH.DTH.INJR.MA.ZS} - Cause of death, by injury, male (% of male population)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.NCOM.0004.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.0004.FE.ZS:SH.DTH.NCOM.0004.FE.ZS} - Cause of death, by non-communicable diseases, ages 0-4, female (% of female population ages 0-4)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.NCOM.0004.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.0004.MA.ZS:SH.DTH.NCOM.0004.MA.ZS} - Cause of death, by non-communicable diseases, ages 0-4, male (% of male population ages 0-4)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.NCOM.0004.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.0004.ZS:SH.DTH.NCOM.0004.ZS} - Cause of death, by non-communicable diseases, ages 0-4 (% of population ages 0-4)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.NCOM.0514.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.0514.FE.ZS:SH.DTH.NCOM.0514.FE.ZS} - Cause of death, by non-communicable diseases, ages 5-14, female (% of female population ages 5-14)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.NCOM.0514.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.0514.MA.ZS:SH.DTH.NCOM.0514.MA.ZS} - Cause of death, by non-communicable diseases, ages 5-14, male (% of male population ages 5-14)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.NCOM.0514.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.0514.ZS:SH.DTH.NCOM.0514.ZS} - Cause of death, by non-communicable diseases, ages 5-14 (% of population ages 5-14)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.NCOM.1559.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.1559.FE.ZS:SH.DTH.NCOM.1559.FE.ZS} - Cause of death, by non-communicable diseases, ages 15-59, female (% of female population ages 15-59)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.NCOM.1559.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.1559.MA.ZS:SH.DTH.NCOM.1559.MA.ZS} - Cause of death, by non-communicable diseases, ages 15-59, male (% of male population ages 15-59)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.NCOM.1559.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.1559.ZS:SH.DTH.NCOM.1559.ZS} - Cause of death, by non-communicable diseases, ages 15-59 (% of population ages 15-59)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.NCOM.60UP.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.60UP.FE.ZS:SH.DTH.NCOM.60UP.FE.ZS} - Cause of death, by non-communicable diseases, ages 60+, female (% of female population ages 60+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.NCOM.60UP.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.60UP.MA.ZS:SH.DTH.NCOM.60UP.MA.ZS} - Cause of death, by non-communicable diseases, ages 60+, male (% of male population ages 60+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.NCOM.60UP.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.60UP.ZS:SH.DTH.NCOM.60UP.ZS} - Cause of death, by non-communicable diseases, ages 60+ (% of population ages 60+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.NCOM.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.FE.ZS:SH.DTH.NCOM.FE.ZS} - Cause of death, by non-communicable diseases, female (% of female population)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.NCOM.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.MA.ZS:SH.DTH.NCOM.MA.ZS} - Cause of death, by non-communicable diseases, male (% of male population)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -3372,21 +3915,73 @@
 
 
 {synoptline}
-{marker sourceid_SH.MMR.LEVE}
-{synopt:{bf:{help wbopendata_sourceid##SH.MMR.LEVE:SH.MMR.LEVE} - Length of paid maternity leave (days)}}
+{marker sourceid_SH.HIV.INCD.FE.P3}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.INCD.FE.P3:SH.HIV.INCD.FE.P3} - Incidence of HIV, ages 15-49, female (per 1,000 uninfected female population ages 15-49)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}The indicator represents the duration of paid leave available to mothers.{p_end}
+{synopt:{opt Source Notes}}Number of new HIV infections among uninfected female populations ages 15-49 expressed per 1,000 uninfected female population ages 15-49 in the year before the period.{p_end}
+
+{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.HIV.INCD.MA.P3}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.INCD.MA.P3:SH.HIV.INCD.MA.P3} - Incidence of HIV, ages 15-49, male (per 1,000 uninfected male population ages 15-49)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}Number of new HIV infections among uninfected male populations ages 15-49 expressed per 1,000 uninfected male population ages 15-49 in the year before the period.{p_end}
+
+{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.HIV.INCD.YG.FE.P3}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.INCD.YG.FE.P3:SH.HIV.INCD.YG.FE.P3} - Incidence of HIV, ages 15-24, female (per 1,000 uninfected female population ages 15-24)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}Number of new HIV infections among uninfected male populations ages 15-24 expressed per 1,000 uninfected male population ages 15-24 in the year before the period.{p_end}
+
+{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.HIV.INCD.YG.MA.P3}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.INCD.YG.MA.P3:SH.HIV.INCD.YG.MA.P3} - Incidence of HIV, ages 15-24, male (per 1,000 uninfected male population ages 15-24)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of new HIV infections among uninfected female populations ages 15-24 expressed per 1,000 uninfected female population ages 15-24 in the year before the period.{p_end}
+
+{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.MMR.LEVE}
+{synopt:{bf:{help wbopendata_sourceid##SH.MMR.LEVE:SH.MMR.LEVE} - Length of paid maternity leave (calendar days)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator refers to leave available only to the mother for the birth of a child to be taken just before, during and immediately after childbirth.{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.MMR.LEVE.AL}
-{synopt:{bf:{help wbopendata_sourceid##SH.MMR.LEVE.AL:SH.MMR.LEVE.AL} - Paid leave of at least 14 weeks is available to women (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.MMR.LEVE.AL:SH.MMR.LEVE.AL} - Paid leave of at least 14 weeks available to mothers (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -3412,13 +4007,13 @@
 
 {synoptline}
 {marker sourceid_SH.PAR.LEVE}
-{synopt:{bf:{help wbopendata_sourceid##SH.PAR.LEVE:SH.PAR.LEVE} - Length of paid shared parental leave (days)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.PAR.LEVE:SH.PAR.LEVE} - Length of paid shared parental leave (calendar days)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}The indicator represents the duration of paid parental leave for the mother or the father.{p_end}
+{synopt:{opt Source Notes}}The indicator refers to parental leave that can be shared amongst the parents as they choose. Parental leave refers to leave available equally to parents—regardless of gender—for the purpose of childcare immediately following maternity and{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
@@ -3438,39 +4033,39 @@
 
 {synoptline}
 {marker sourceid_SH.PAR.LEVE.FE}
-{synopt:{bf:{help wbopendata_sourceid##SH.PAR.LEVE.FE:SH.PAR.LEVE.FE} - Length of paid parental leave for mother (days)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.PAR.LEVE.FE:SH.PAR.LEVE.FE} - Length of paid parental leave for mother (calendar days)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}The indicator represents the duration of paid parental leave for the mother.{p_end}
+{synopt:{opt Source Notes}}The indicator refers to days of parental leave reserved specifically for mothers—through “use-it-or-lose-it” policies or mothers’ quotas; or days of parental leave that employees are individually entitled to.{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.PAR.LEVE.MA}
-{synopt:{bf:{help wbopendata_sourceid##SH.PAR.LEVE.MA:SH.PAR.LEVE.MA} - Length of paid parental leave for father (days)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.PAR.LEVE.MA:SH.PAR.LEVE.MA} - Length of paid parental leave for father (calendar days)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}The indicator represents the duration of paid parental leave for the father.{p_end}
+{synopt:{opt Source Notes}}The indicator refers to days of parental leave reserved specifically for fathers—that is, through “use-it-or-lose-it” policies or fathers’ quotas; or days of parental leave that employees are individually entitled to.{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.PTR.LEVE}
-{synopt:{bf:{help wbopendata_sourceid##SH.PTR.LEVE:SH.PTR.LEVE} - Length of paid paternity leave (days)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.PTR.LEVE:SH.PTR.LEVE} - Length of paid paternity leave (calendar days)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}The indicator represents the duration of paid leave available to fathers.{p_end}
+{synopt:{opt Source Notes}}The indicator refers to leave available only to the father for the birth of a child.{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
@@ -3575,29 +4170,51 @@
 
 
 {synoptline}
-{marker sourceid_SL.EMP.OWAC.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.OWAC.FE.ZS:SL.EMP.OWAC.FE.ZS} - Own-account workers, female (% of female employment) (modeled ILO estimate)}}
+{marker sourceid_SH.STA.TRAF.FE.P5}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.TRAF.FE.P5:SH.STA.TRAF.FE.P5} - Mortality caused by road traffic injury, female (per 100,000 female population)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Own-account workers are workers who, working on their own account or with one or more more partners, hold the types of jobs defined as self-employment jobs and have not engaged on a continuous basis any employees to work for them. Own account{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 2017.{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
-{marker sourceid_SL.EMP.OWAC.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.OWAC.MA.ZS:SL.EMP.OWAC.MA.ZS} - Own-account workers, male (% of male employment) (modeled ILO estimate)}}
+{marker sourceid_SH.STA.TRAF.MA.P5}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.TRAF.MA.P5:SH.STA.TRAF.MA.P5} - Mortality caused by road traffic injury, male (per 100,000 male population)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Own-account workers are workers who, working on their own account or with one or more more partners, hold the types of jobs defined as self-employment jobs and have not engaged on a continuous basis any employees to work for them. Own account{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 2017.{p_end}
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.STA.WASH.FE.P5}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.WASH.FE.P5:SH.STA.WASH.FE.P5} - Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene, female (per 100,000 female population)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.STA.WASH.MA.P5}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.WASH.MA.P5:SH.STA.WASH.MA.P5} - Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene, male (per 100,000 male population)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -3756,5 +4373,152 @@
 {synopt:{opt Source Organization}}The United Nations Population Division's World Urbanization Prospects.{p_end}
 
 
+{synoptline}
+{marker sourceid_UIS.FEP.2.V}
+{synopt:{bf:{help wbopendata_sourceid##UIS.FEP.2.V:UIS.FEP.2.V} - Percentage of students in lower secondary vocational education who are female (%)}}
 
-{right:(as of 28jun2020)}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of female vocational education students at the lower secondary level expressed as a percentage of the total number of vocational education students (male and female) at the lower secondary level in a given school year.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.FEP.3.V}
+{synopt:{bf:{help wbopendata_sourceid##UIS.FEP.3.V:UIS.FEP.3.V} - Percentage of students in upper secondary vocational education who are female (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of female vocational education students at the upper secondary level expressed as a percentage of the total number of vocational education students (male and female) at the upper secondary level in a given school year.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.FEP.4.V}
+{synopt:{bf:{help wbopendata_sourceid##UIS.FEP.4.V:UIS.FEP.4.V} - Percentage of students in post-secondary non-tertiary vocational education who are female (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of female vocational education students at the post-secondary non-tertiary level expressed as a percentage of the total number of vocational education students (male and female) at the post-secondary non-tertiary level in a given school{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.FGP.5T8.F400}
+{synopt:{bf:{help wbopendata_sourceid##UIS.FGP.5T8.F400:UIS.FGP.5T8.F400} - Female share of graduates in Business, Administration and Law programmes, tertiary (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.FGP.5T8.F600}
+{synopt:{bf:{help wbopendata_sourceid##UIS.FGP.5T8.F600:UIS.FGP.5T8.F600} - Female share of graduates in Information and Communication Technologies programmes, tertiary (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.FGP.5T8.FNON500600700}
+{synopt:{bf:{help wbopendata_sourceid##UIS.FGP.5T8.FNON500600700:UIS.FGP.5T8.FNON500600700} - Female share of graduates in other fields than Science, Technology, Engineering and Mathematics programmes, tertiary (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GTVP.2.V.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GTVP.2.V.F:UIS.GTVP.2.V.F} - Share of female students in lower secondary education enrolled in vocational programmes (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Total number of female students enrolled in vocational programmes at the lower secondary education level, expressed as a percentage of the total number of female students enrolled in all programmes (vocational and general) at the lower seconda{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GTVP.2.V.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GTVP.2.V.M:UIS.GTVP.2.V.M} - Share of male students in lower secondary education enrolled in vocational programmes (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Total number of male students enrolled in vocational programmes at the lower secondary education level, expressed as a percentage of the total number of male students enrolled in all programmes (vocational and general) at the lower secondary l{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GTVP.3.V.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GTVP.3.V.F:UIS.GTVP.3.V.F} - Share of female students in upper secondary education enrolled in vocational programmes (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Total number of female students enrolled in vocational programmes at the upper secondary education level, expressed as a percentage of the total number of female students enrolled in all programmes (vocational and general) at the upper seconda{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GTVP.3.V.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GTVP.3.V.M:UIS.GTVP.3.V.M} - Share of male students in upper secondary education enrolled in vocational programmes (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Total number of male students enrolled in vocational programmes at the upper secondary education level, expressed as a percentage of the total number of male students enrolled in all programmes (vocational and general) at the upper secondary l{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GTVP.4.V.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GTVP.4.V.F:UIS.GTVP.4.V.F} - Share of female students in post-secondary non-tertiary education enrolled in vocational programmes (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Total number of female students enrolled in vocational programmes at the post-secondary non-tertiary education level, expressed as a percentage of the total number of female students enrolled in all programmes (vocational and general) at the p{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.GTVP.4.V.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.GTVP.4.V.M:UIS.GTVP.4.V.M} - Share of male students in post-secondary non-tertiary education enrolled in vocational programmes (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Total number of male students enrolled in vocational programmes at the post-secondary non-tertiary education level, expressed as a percentage of the total number of male students enrolled in all programmes (vocational and general) at the post-{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+
+{right:(as of 05jul2021)}

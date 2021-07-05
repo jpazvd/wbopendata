@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -300,20 +300,20 @@
 
 {synoptline}
 {marker topicid_AG.PRD.CROP.XD}
-{synopt:{bf:{help wbopendata_topicid##AG.PRD.CROP.XD:AG.PRD.CROP.XD} - Crop production index (2004-2006 = 100)}}
+{synopt:{bf:{help wbopendata_topicid##AG.PRD.CROP.XD:AG.PRD.CROP.XD} - Crop production index (2014-2016 = 100)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Crop production index shows agricultural production for each year relative to the base period 2004-2006. It includes all crops except fodder crops. Regional and income group aggregates for the FAO's production indexes are calculated from the u{p_end}
+{synopt:{opt Source Notes}}Crop production index shows agricultural production for each year relative to the base period 2014-2016. It includes all crops except fodder crops. Regional and income group aggregates for the FAO's production indexes are calculated from the u{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
 {marker topicid_AG.PRD.FOOD.XD}
-{synopt:{bf:{help wbopendata_topicid##AG.PRD.FOOD.XD:AG.PRD.FOOD.XD} - Food production index (2004-2006 = 100)}}
+{synopt:{bf:{help wbopendata_topicid##AG.PRD.FOOD.XD:AG.PRD.FOOD.XD} - Food production index (2014-2016 = 100)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -326,7 +326,7 @@
 
 {synoptline}
 {marker topicid_AG.PRD.LVSK.XD}
-{synopt:{bf:{help wbopendata_topicid##AG.PRD.LVSK.XD:AG.PRD.LVSK.XD} - Livestock production index (2004-2006 = 100)}}
+{synopt:{bf:{help wbopendata_topicid##AG.PRD.LVSK.XD:AG.PRD.LVSK.XD} - Livestock production index (2014-2016 = 100)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -423,9 +423,9 @@
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savannah burning.{p_end}
+{synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -436,7 +436,7 @@
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savannah burning.{p_end}
+{synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
 
@@ -449,9 +449,9 @@
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savannah burning.{p_end}
+{synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -462,7 +462,7 @@
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savannah burning.{p_end}
+{synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
 
@@ -549,7 +549,7 @@
 {marker topicid_SI.POV.RUGP}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.RUGP:SI.POV.RUGP} - Rural poverty gap at national poverty lines (%)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
@@ -581,7 +581,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -594,7 +594,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -607,7 +607,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -627,7 +627,7 @@
 {marker topicid_SP.RUR.TOTL.ZG}
 {synopt:{bf:{help wbopendata_topicid##SP.RUR.TOTL.ZG:SP.RUR.TOTL.ZG} - Rural population growth (annual %)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
@@ -676,4 +676,4 @@
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
