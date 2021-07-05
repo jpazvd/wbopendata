@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1212,7 +1212,7 @@
 {marker topicid_IQ.WEF.CUST.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.WEF.CUST.XQ:IQ.WEF.CUST.XQ} - Burden of customs procedure, WEF (1=extremely inefficient to 7=extremely efficient)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -2509,4 +2509,4 @@
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
