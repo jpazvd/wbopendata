@@ -120,3 +120,16 @@ program example04
 			note("Source: World Development Indicators (latest available year as off `time') using Azevedo, J.P. (2011) wbopendata: Stata" "module to access World Bank databases, Statistical Software Components S457234 Boston College Department of Economics.", size(*.7)) 
 			
 end
+
+*  ----------------------------------------------------------------------------
+*  5. match option
+*  ----------------------------------------------------------------------------
+
+capture program drop example05
+program define example05
+    sysuse world-d, clear
+    wbopendata, match(countrycode) 
+    keep countrycode countryname adminregion incomelevel area perimeter 
+    list in 1/5
+
+end
