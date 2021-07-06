@@ -39,7 +39,7 @@
 {synopt :{opt update query}} query the current vintage of indicators and country metadata available.{p_end}
 {synopt :{opt update check}} checks the availability of new indicators and country metadata available for download.{p_end}
 {synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
-{synopt :{opt match(varname)}} mergue {help wbopendata##attributes:country attributes} using WDI countrycodes.{p_end}
+{synopt :{opt match(varname)}} merge {help wbopendata##attributes:country attributes} into an existing dataset containing WDI (3 digit) countrycodes. Cannot be used with the data download options.{p_end}
 {synopt :{opt projection}} World Bank {help wbopendata_sourceid_indicators40##sourceid_40:population estimates and projections} (HPP) .{p_end}
 {synopt :{opt metadataoffline}} download all indicator metadata informaiton and generates 71 sthlp files in your local machine.{p_end}
 {synoptline}
@@ -464,6 +464,14 @@ at the World Bank Data website to identify which format is supported.{p_end}
                size(*.7))
 
 {txt}      ({stata "wbopendata_examples example04":click to run})
+
+{cmd}
+.     sysuse world-d, clear
+.     wbopendata, match(countrycode) 
+.     keep countrycode countryname adminregion incomelevel area perimeter 
+.     list in 1/5
+
+{txt}      ({stata "wbopendata_examples example05":click to run})
 
 {marker disclaimer}{...}
 {title:Disclaimer}
