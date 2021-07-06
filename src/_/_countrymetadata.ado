@@ -53,27 +53,39 @@ program define _countrymetadata , rclass
 		local tmpadminlist " adminregion adminregion_iso2 adminregionname "
 		local tmpincomelist " incomelevel incomelevel_iso2 incomelevelname "
 		local tmplendinglist " lendingtype lendingtype_iso2 lendingtypename "
-		local tmpcapitalist " capital latitude longitude "
+		local tmpcapitallist " capital latitude longitude "
 
 	******************************************************
 	* asign list variable values if options are selected			
 		if ("`iso'" == "iso") {
-			local isolist " `tmpisolist' "
+			foreach word in `tmpisolist' {
+				local `word' "`word'"
+			}
 		}
 		if ("`regions'" == "regions") {
-			local regionlist " `tmpregionlist' "
+			foreach word in  `tmpregionlist'  {
+				local `word' "`word'"
+			}
 		}
 		if ("`adminr'" == "adminr") {
-			local adminlist " `tmpadminlist' "
+			foreach word in  `tmpadminlist'  {
+				local `word' "`word'"
+			}
 		}
 		if ("`income'" == "income") {
-			local incomelist " `tmpincomelist' "
+			foreach word in  `tmpincomelist' {
+				local `word' "`word'"
+			}
 		}
 		if ("`lending'" == "lending") {
-			local lendinglist " `tmplendinglist' "
+			foreach word in  `tmplendinglist'  {
+				local `word' "`word'"
+			}
 		}
 		if ("`capital'" == "capital") {
-			local capitalist " `tmpcapitallist' "
+			foreach word in `tmpcapitallist' {
+				local `word' "`word'"
+			}
 		}	
 		if ("`full'" == "full") {
 			local full	" countrycode_iso2  countryname  `tmpregionlist' `tmpadminlist' `tmpincomelist' `tmplendinglist' `tmpcapitalist' "
