@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -165,7 +165,7 @@
 
 {synopt:{opt Source Notes}}Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improve{p_end}
 
-{synopt:{opt Source Organization}}UN HABITAT, retrieved from the United Nation's Millennium Development Goals database. Data are available at : {browse "http://mdgs.un.org/"}{p_end}
+{synopt:{opt Source Organization}}United Nations Human Settlements Programme (UN-HABITAT){p_end}
 
 
 {synoptline}
@@ -313,7 +313,7 @@
 
 {synoptline}
 {marker topicid_SH.STA.TRAF.P5}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.TRAF.P5:SH.STA.TRAF.P5} - Mortality caused by road traffic injury (per 100,000 people)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.TRAF.P5:SH.STA.TRAF.P5} - Mortality caused by road traffic injury (per 100,000 population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -321,14 +321,14 @@
 
 {synopt:{opt Source Notes}}Mortality caused by road traffic injury is estimated road traffic fatal injury deaths per 100,000 population.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Status Report on Road Safety 2018 through Global Health Observatory data repository.{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SI.POV.URGP}
 {synopt:{bf:{help wbopendata_topicid##SI.POV.URGP:SI.POV.URGP} - Urban poverty gap at national poverty lines (%)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -390,4 +390,4 @@
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
