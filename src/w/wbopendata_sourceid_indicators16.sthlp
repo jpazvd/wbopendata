@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -14,7 +14,6 @@
 {synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
 {synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
 {synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
-{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -50,7 +49,6 @@
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
 {synopt:{opt 60}}  {help wbopendata_sourceid_indicators60##sourceid_60:Economic Fitness}{p_end}
 {synopt:{opt 61}}  {help wbopendata_sourceid_indicators61##sourceid_61:PPPs Regulatory Quality}{p_end}
-{synopt:{opt 62}}  {help wbopendata_sourceid_indicators62##sourceid_62:International Comparison Program (ICP) 2011}{p_end}
 {synopt:{opt 63}}  {help wbopendata_sourceid_indicators63##sourceid_63:Human Capital Index}{p_end}
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
@@ -62,6 +60,11 @@
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 {synopt:{opt 78}}  {help wbopendata_sourceid_indicators78##sourceid_78:ICP 2017}{p_end}
+{synopt:{opt 80}}  {help wbopendata_sourceid_indicators80##sourceid_80:Gender Disaggregated Labor Database (GDLD)}{p_end}
+{synopt:{opt 81}}  {help wbopendata_sourceid_indicators81##sourceid_81:International Debt Statistics: DSSI}{p_end}
+{synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
+{synopt:{opt 83}}  {help wbopendata_sourceid_indicators83##sourceid_83:Statistical Performance Indicators (SPI)}{p_end}
+{synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
 
 
 {marker sourceid_16}
@@ -83,7 +86,7 @@
 
 {synoptline}
 {marker sourceid_SH.CON.AIDS.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.CON.AIDS.FE.ZS:SH.CON.AIDS.FE.ZS} - Condom use with non regular partner, % adults(15-49), female}}
+{synopt:{bf:{help wbopendata_sourceid##SH.CON.AIDS.FE.ZS:SH.CON.AIDS.FE.ZS} - Condom use at last high-risk sex, adult female (% ages 15-49)}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -95,7 +98,7 @@
 
 {synoptline}
 {marker sourceid_SH.CON.AIDS.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.CON.AIDS.MA.ZS:SH.CON.AIDS.MA.ZS} - Condom use with non regular partner, % adults(15-49), male}}
+{synopt:{bf:{help wbopendata_sourceid##SH.CON.AIDS.MA.ZS:SH.CON.AIDS.MA.ZS} - Condom use at last high-risk sex, adult male (% ages 15-49)}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -103,6 +106,71 @@
 {synopt:{opt Source Notes}}Condom use at last high-risk sex, male is the percentage of the male population ages 15-49 who used a condom at last intercourse with a non-marital and non-cohabiting sexual partner in the last 12 months.{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys, and UNAIDS.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.IMRT.FE}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.IMRT.FE:SH.DTH.IMRT.FE} - Number of infant deaths, female}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of female infants dying before reaching one year of age{p_end}
+
+{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.IMRT.MA}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.IMRT.MA:SH.DTH.IMRT.MA} - Number of infant deaths, male}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of male infants dying before reaching one year of age{p_end}
+
+{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.MORT.FE}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.MORT.FE:SH.DTH.MORT.FE} - Number of under-five deaths, female}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of female children dying before reaching age five{p_end}
+
+{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.MORT.MA}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.MORT.MA:SH.DTH.MORT.MA} - Number of under-five deaths, male}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of male children dying before reaching age five{p_end}
+
+{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.STLB}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.STLB:SH.DTH.STLB} - Number of stillbirths}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of fetal deaths at 28 weeks or more of gestation{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -127,6 +195,19 @@
 {synopt:{opt Source Notes}}AIDS deaths are the estimated number of adults and children who died due to AIDS-related causes.{p_end}
 
 {synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DYN.STLB}
+{synopt:{bf:{help wbopendata_sourceid##SH.DYN.STLB:SH.DYN.STLB} - Stillbirth rate (per 1,000 total births)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Stillbirth rate is the number of fetal deaths at 28 weeks or more of gestation per 1,000 total births. Total birth is the sum of stillbirths (as just defined) and live births.{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -164,6 +245,19 @@
 {synopt:{opt Source Notes}}The percent of male respondents ages 15-24 who correctly identify the two major ways of preventing the sexual transmission of HIV (using condoms and limiting sex to one faithful, uninfected partner), who reject the two most common local miscon{p_end}
 
 {synopt:{opt Source Organization}}Household surveys such as Demographic and Health Surveys and Multiple Indicator Cluster Surveys.  Largely compiled by UNICEF.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.HIV.INCD.50.P3}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.INCD.50.P3:SH.HIV.INCD.50.P3} - Incidence of HIV, ages 50+ (per 1,000 uninfected population ages 50+)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of new HIV infections among uninfected populations ages 50+ expressed per 1,000 uninfected population ages 50+ in the year before the period.{p_end}
+
+{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
 
 
 {synoptline}
@@ -227,6 +321,19 @@
 
 
 {synoptline}
+{marker sourceid_SH.IMM.MEA2}
+{synopt:{bf:{help wbopendata_sourceid##SH.IMM.MEA2:SH.IMM.MEA2} - Immunization, measles second dose (% of children by the nationally recommended age)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Child immunization, measles second dose, measures the percentage of children who received two dose of measles containing vaccine according to nationally recommended schedule through routine immunization services in a given year.{p_end}
+
+{synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
+
+
+{synoptline}
 {marker sourceid_SH.IMM.POL3}
 {synopt:{bf:{help wbopendata_sourceid##SH.IMM.POL3:SH.IMM.POL3} - Immunization, Pol3 (% of one-year-old children)}}
 
@@ -253,7 +360,7 @@
 
 {synoptline}
 {marker sourceid_SH.MMR.WAGE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.MMR.WAGE.ZS:SH.MMR.WAGE.ZS} - Maternity leave benefits (% of wages paid)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.MMR.WAGE.ZS:SH.MMR.WAGE.ZS} - Maternal leave benefits (% of wages paid in covered period)}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -471,7 +578,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.1014.FE}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.1014.FE:SP.POP.1014.FE} - Female population 10-14}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.1014.FE:SP.POP.1014.FE} - Population ages 10-14, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -483,7 +590,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.1014.MA}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.1014.MA:SP.POP.1014.MA} - Male population 10-14}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.1014.MA:SP.POP.1014.MA} - Population ages 10-14, male}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -495,7 +602,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.1519.FE}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.1519.FE:SP.POP.1519.FE} - Female population 15-19}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.1519.FE:SP.POP.1519.FE} - Population ages 15-19, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -507,7 +614,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.1519.MA}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.1519.MA:SP.POP.1519.MA} - Male population 15-19}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.1519.MA:SP.POP.1519.MA} - Population ages 15-19, male}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -519,7 +626,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.2024.FE}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.2024.FE:SP.POP.2024.FE} - Female population 20-24}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.2024.FE:SP.POP.2024.FE} - Population ages 20-24, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -531,7 +638,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.2024.MA}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.2024.MA:SP.POP.2024.MA} - Male population 20-24}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.2024.MA:SP.POP.2024.MA} - Population ages 20-24, male}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -543,7 +650,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.2529.FE}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.2529.FE:SP.POP.2529.FE} - Female population 25-29}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.2529.FE:SP.POP.2529.FE} - Population ages 25-29, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -555,7 +662,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.2529.MA}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.2529.MA:SP.POP.2529.MA} - Male population 25-29}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.2529.MA:SP.POP.2529.MA} - Population ages 25-29, male}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -567,7 +674,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.3034.FE}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.3034.FE:SP.POP.3034.FE} - Female population 30-34}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.3034.FE:SP.POP.3034.FE} - Population ages 30-34, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -579,7 +686,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.3034.MA}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.3034.MA:SP.POP.3034.MA} - Male population 30-34}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.3034.MA:SP.POP.3034.MA} - Population ages 30-34, male}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -591,7 +698,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.3539.FE}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.3539.FE:SP.POP.3539.FE} - Female population 35-39}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.3539.FE:SP.POP.3539.FE} - Population ages 35-39, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -603,7 +710,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.3539.MA}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.3539.MA:SP.POP.3539.MA} - Male population 35-39}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.3539.MA:SP.POP.3539.MA} - Population ages 35-39, male}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -615,7 +722,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.4044.FE}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.4044.FE:SP.POP.4044.FE} - Female population 40-44}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.4044.FE:SP.POP.4044.FE} - Population ages 40-44, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -627,7 +734,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.4044.MA}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.4044.MA:SP.POP.4044.MA} - Male population 40-44}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.4044.MA:SP.POP.4044.MA} - Population ages 40-44, male}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -639,7 +746,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.4549.FE}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.4549.FE:SP.POP.4549.FE} - Female population 45-49}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.4549.FE:SP.POP.4549.FE} - Population ages 45-49, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -651,7 +758,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.4549.MA}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.4549.MA:SP.POP.4549.MA} - Male population 45-49}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.4549.MA:SP.POP.4549.MA} - Population ages 45-49, male}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -663,7 +770,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.5054.FE}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.5054.FE:SP.POP.5054.FE} - Female population 50-54}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.5054.FE:SP.POP.5054.FE} - Population ages 50-54, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -675,7 +782,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.5054.MA}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.5054.MA:SP.POP.5054.MA} - Male population 50-54}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.5054.MA:SP.POP.5054.MA} - Population ages 50-54, male}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -687,7 +794,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.5559.FE}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.5559.FE:SP.POP.5559.FE} - Female population 55-59}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.5559.FE:SP.POP.5559.FE} - Population ages 55-59, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -699,7 +806,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.5559.MA}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.5559.MA:SP.POP.5559.MA} - Male population 55-59}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.5559.MA:SP.POP.5559.MA} - Population ages 55-59, male}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -711,7 +818,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.6064.FE}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.6064.FE:SP.POP.6064.FE} - Female population 60-64}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.6064.FE:SP.POP.6064.FE} - Population ages 60-64, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -723,7 +830,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.6064.MA}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.6064.MA:SP.POP.6064.MA} - Male population 60-64}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.6064.MA:SP.POP.6064.MA} - Population ages 60-64, male}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -735,7 +842,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.6569.FE}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.6569.FE:SP.POP.6569.FE} - Female population 65-69}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.6569.FE:SP.POP.6569.FE} - Population ages 65-69, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -747,7 +854,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.6569.MA}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.6569.MA:SP.POP.6569.MA} - Male population 65-69}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.6569.MA:SP.POP.6569.MA} - Population ages 65-69, male}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -759,7 +866,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.7074.FE}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.7074.FE:SP.POP.7074.FE} - Female population 70-74}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.7074.FE:SP.POP.7074.FE} - Population ages 70-74, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -771,7 +878,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.7074.MA}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.7074.MA:SP.POP.7074.MA} - Male population 70-74}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.7074.MA:SP.POP.7074.MA} - Population ages 70-74, male}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -783,7 +890,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.7579.FE}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.7579.FE:SP.POP.7579.FE} - Female population 75-79}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.7579.FE:SP.POP.7579.FE} - Population ages 75-79, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -795,7 +902,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.7579.MA}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.7579.MA:SP.POP.7579.MA} - Male population 75-79}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.7579.MA:SP.POP.7579.MA} - Population ages 75-79, male}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -807,7 +914,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.80UP.FE}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.80UP.FE:SP.POP.80UP.FE} - Female population 80+}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.80UP.FE:SP.POP.80UP.FE} - Population ages 80 and above, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -820,7 +927,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.80UP.MA}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.80UP.MA:SP.POP.80UP.MA} - Male population 80+}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.80UP.MA:SP.POP.80UP.MA} - Population ages 80 and above, male}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1467,4 +1574,4 @@
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}

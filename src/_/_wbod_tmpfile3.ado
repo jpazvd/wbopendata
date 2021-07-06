@@ -1,4 +1,4 @@
-*! _wbod_tmpfile3 <8 Jul 2020 : 14:01:00>                 by João Pedro Azevedo
+*! _wbod_tmpfile3 <5 Jul 2021 : 19:48:21>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _wbod_tmpfile3 
@@ -242,12 +242,13 @@
   
          cap: gen lendingtype_iso2 = ""  
          cap: replace lendingtype_iso2 = "XX"     if `match' == "ABW"  
+         cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "AFE"  
          cap: replace lendingtype_iso2 = "XI"     if `match' == "AFG"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "AFR"  
+         cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "AFW"  
          cap: replace lendingtype_iso2 = "XF"     if `match' == "AGO"  
          cap: replace lendingtype_iso2 = "XF"     if `match' == "ALB"  
          cap: replace lendingtype_iso2 = "XX"     if `match' == "AND"  
-         cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "ANR"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "ARB"  
          cap: replace lendingtype_iso2 = "XX"     if `match' == "ARE"  
          cap: replace lendingtype_iso2 = "XF"     if `match' == "ARG"  
@@ -323,7 +324,6 @@
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "DSA"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "DSF"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "DSS"  
-         cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "DXS"  
          cap: replace lendingtype_iso2 = "XF"     if `match' == "DZA"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "EAP"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "EAR"  
@@ -401,7 +401,6 @@
          cap: replace lendingtype_iso2 = "XF"     if `match' == "LBY"  
          cap: replace lendingtype_iso2 = "XH"     if `match' == "LCA"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "LCN"  
-         cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "LCR"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "LDC"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "LIC"  
          cap: replace lendingtype_iso2 = "XX"     if `match' == "LIE"  
@@ -416,7 +415,6 @@
          cap: replace lendingtype_iso2 = "XX"     if `match' == "MAC"  
          cap: replace lendingtype_iso2 = "XX"     if `match' == "MAF"  
          cap: replace lendingtype_iso2 = "XF"     if `match' == "MAR"  
-         cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "MCA"  
          cap: replace lendingtype_iso2 = "XX"     if `match' == "MCO"  
          cap: replace lendingtype_iso2 = "XF"     if `match' == "MDA"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "MDE"  
@@ -447,7 +445,6 @@
          cap: replace lendingtype_iso2 = "XH"     if `match' == "NGA"  
          cap: replace lendingtype_iso2 = "XI"     if `match' == "NIC"  
          cap: replace lendingtype_iso2 = "XX"     if `match' == "NLD"  
-         cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "NLS"  
          cap: replace lendingtype_iso2 = "XX"     if `match' == "NOR"  
          cap: replace lendingtype_iso2 = "XI"     if `match' == "NPL"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "NRS"  
@@ -476,12 +473,10 @@
          cap: replace lendingtype_iso2 = "XX"     if `match' == "QAT"  
          cap: replace lendingtype_iso2 = "XF"     if `match' == "ROU"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "RRS"  
-         cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "RSO"  
          cap: replace lendingtype_iso2 = "XF"     if `match' == "RUS"  
          cap: replace lendingtype_iso2 = "XI"     if `match' == "RWA"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "SAS"  
          cap: replace lendingtype_iso2 = "XX"     if `match' == "SAU"  
-         cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "SCE"  
          cap: replace lendingtype_iso2 = "XI"     if `match' == "SDN"  
          cap: replace lendingtype_iso2 = "XI"     if `match' == "SEN"  
          cap: replace lendingtype_iso2 = "XX"     if `match' == "SGP"  

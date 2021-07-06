@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -425,7 +425,7 @@
 
 {synopt:{opt Source Notes}}Methane emissions from energy processes are emissions from the production, handling, transmission, and combustion of fossil fuels and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -451,7 +451,7 @@
 
 {synopt:{opt Source Notes}}Nitrous oxide emissions from energy processes are emissions produced by the combustion of fossil fuels and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -568,7 +568,7 @@
 
 {synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime. It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -581,7 +581,7 @@
 
 {synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime. It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -594,7 +594,7 @@
 
 {synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime. It covers coal, crude oil, and natural gas.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -607,7 +607,7 @@
 
 {synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime. It covers coal, crude oil, and natural gas.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -620,7 +620,7 @@
 
 {synopt:{opt Source Notes}}Natural resource depletion is the sum of net forest depletion, energy depletion, and mineral depletion. Net forest depletion is unit resource rents times the excess of roundwood harvest over natural growth. Energy depletion is the ratio of the{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -633,7 +633,7 @@
 
 {synopt:{opt Source Notes}}Mineral rents are the difference between the value of production for a stock of minerals at world prices and their total costs of production. Minerals included in the calculation are tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite{p_end}
 
-{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -644,9 +644,9 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}Natural gas rents are the difference between the value of natural gas production at world prices and total costs of production.{p_end}
+{synopt:{opt Source Notes}}Natural gas rents are the difference between the value of natural gas production at regional prices and total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -657,9 +657,9 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}Oil rents are the difference between the value of crude oil production at world prices and total costs of production.{p_end}
+{synopt:{opt Source Notes}}Oil rents are the difference between the value of crude oil production at regional prices and total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -672,7 +672,7 @@
 
 {synopt:{opt Source Notes}}Total natural resources rents are the sum of oil rents, natural gas rents, coal rents (hard and soft), mineral rents, and forest rents.{p_end}
 
-{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -728,4 +728,4 @@
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
