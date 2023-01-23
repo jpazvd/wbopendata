@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -458,7 +458,7 @@
 {marker topicid_DT.DIS.IDAG.CD}
 {synopt:{bf:{help wbopendata_topicid##DT.DIS.IDAG.CD:DT.DIS.IDAG.CD} - IDA grants (current US$)}}
 
-{synopt:{opt Source}}06 International Debt Statistics{p_end}
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
@@ -471,7 +471,7 @@
 {marker topicid_DT.DOD.MDRI.CD}
 {synopt:{bf:{help wbopendata_topicid##DT.DOD.MDRI.CD:DT.DOD.MDRI.CD} - Debt forgiveness grants (current US$)}}
 
-{synopt:{opt Source}}06 International Debt Statistics{p_end}
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
@@ -690,7 +690,7 @@
 
 {synoptline}
 {marker topicid_DT.ODA.ALLD.KD}
-{synopt:{bf:{help wbopendata_topicid##DT.ODA.ALLD.KD:DT.ODA.ALLD.KD} - Net official development assistance and official aid received (constant 2015 US$)}}
+{synopt:{bf:{help wbopendata_topicid##DT.ODA.ALLD.KD:DT.ODA.ALLD.KD} - Net official development assistance and official aid received (constant 2018 US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -716,7 +716,7 @@
 
 {synoptline}
 {marker topicid_DT.ODA.OATL.KD}
-{synopt:{bf:{help wbopendata_topicid##DT.ODA.OATL.KD:DT.ODA.OATL.KD} - Net official aid received (constant 2015 US$)}}
+{synopt:{bf:{help wbopendata_topicid##DT.ODA.OATL.KD:DT.ODA.OATL.KD} - Net official aid received (constant 2018 US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -768,7 +768,7 @@
 
 {synoptline}
 {marker topicid_DT.ODA.ODAT.KD}
-{synopt:{bf:{help wbopendata_topicid##DT.ODA.ODAT.KD:DT.ODA.ODAT.KD} - Net official development assistance received (constant 2015 US$)}}
+{synopt:{bf:{help wbopendata_topicid##DT.ODA.ODAT.KD:DT.ODA.ODAT.KD} - Net official development assistance received (constant 2018 US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -828,7 +828,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary and secondary education is the ratio of girls to boys enrolled at primary and secondary levels in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -841,7 +841,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -867,7 +867,7 @@
 
 {synopt:{opt Source Notes}}Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -971,7 +971,7 @@
 
 {synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -988,4 +988,4 @@
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}

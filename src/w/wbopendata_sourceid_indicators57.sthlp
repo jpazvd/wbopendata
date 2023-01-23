@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -14,7 +14,6 @@
 {synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
 {synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
 {synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
-{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -50,7 +49,6 @@
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
 {synopt:{opt 60}}  {help wbopendata_sourceid_indicators60##sourceid_60:Economic Fitness}{p_end}
 {synopt:{opt 61}}  {help wbopendata_sourceid_indicators61##sourceid_61:PPPs Regulatory Quality}{p_end}
-{synopt:{opt 62}}  {help wbopendata_sourceid_indicators62##sourceid_62:International Comparison Program (ICP) 2011}{p_end}
 {synopt:{opt 63}}  {help wbopendata_sourceid_indicators63##sourceid_63:Human Capital Index}{p_end}
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
@@ -62,6 +60,11 @@
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 {synopt:{opt 78}}  {help wbopendata_sourceid_indicators78##sourceid_78:ICP 2017}{p_end}
+{synopt:{opt 80}}  {help wbopendata_sourceid_indicators80##sourceid_80:Gender Disaggregated Labor Database (GDLD)}{p_end}
+{synopt:{opt 81}}  {help wbopendata_sourceid_indicators81##sourceid_81:International Debt Statistics: DSSI}{p_end}
+{synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
+{synopt:{opt 83}}  {help wbopendata_sourceid_indicators83##sourceid_83:Statistical Performance Indicators (SPI)}{p_end}
+{synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
 
 
 {marker sourceid_57}
@@ -1150,6 +1153,19 @@
 
 
 {synoptline}
+{marker sourceid_DT.AXA.DPPG.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.AXA.DPPG.CD:DT.AXA.DPPG.CD} - Principal arrears, long-term DOD (US$)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}20 External Debt{p_end}
+
+{synopt:{opt Source Notes}}Principal in arrears on long-term debt is defined as principal repayment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to no{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.CUR.CCVL.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.CUR.CCVL.CD:DT.CUR.CCVL.CD} - Cross-currency valuation (current US$)}}
 
@@ -1243,6 +1259,19 @@
 {synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.IXA.DPPG.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.IXA.DPPG.CD:DT.IXA.DPPG.CD} - Interest arrears, long-term DOD (US$)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}20 External Debt{p_end}
+
+{synopt:{opt Source Notes}}Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonres{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1685,7 +1714,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Access to non-solid fuel, urban is the percentage of urban population with access to non-solid fuel.{p_end}
 
@@ -1698,7 +1727,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Access to non-solid fuel is the percentage of population with access to non-solid fuel.{p_end}
 
@@ -4042,7 +4071,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearan{p_end}
 
@@ -4055,7 +4084,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}All documents required per shipment to export goods are recorded. It is assumed that the contract has already been agreed upon and signed by both parties. Documents required for clearance by government ministries, customs authorities, port and{p_end}
 
@@ -4204,7 +4233,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Investment  in telecom projects with private participation refers to commitments to infrastructure projects in telecommunications that have reached financial closure and directly or indirectly serve the public. Movable assets and small project{p_end}
 
@@ -4258,6 +4287,32 @@
 {synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_IQ.WEF.CUST.XQ}
+{synopt:{bf:{help wbopendata_sourceid##IQ.WEF.CUST.XQ:IQ.WEF.CUST.XQ} - Burden of customs procedure, WEF (1=extremely inefficient to 7=extremely efficient)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Burden of Customs Procedure measures business executives' perceptions of their country's efficiency of customs procedures. The rating ranges from 1 to 7, with a higher score indicating greater efficiency. Data are from the World Economic Forum{p_end}
+
+{synopt:{opt Source Organization}}World Economic Forum, Global Competiveness Report and data files.{p_end}
+
+
+{synoptline}
+{marker sourceid_IQ.WEF.PORT.XQ}
+{synopt:{bf:{help wbopendata_sourceid##IQ.WEF.PORT.XQ:IQ.WEF.PORT.XQ} - Quality of port infrastructure, WEF (1=extremely underdeveloped to 7=well developed and efficient by international standards)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}09 Infrastructure{p_end}
+
+{synopt:{opt Source Notes}}The Quality of Port Infrastructure measures business executives' perception of their country's port facilities. Data are from the World Economic Forum's Executive Opinion Survey, conducted for 30 years in collaboration with 150 partner institu{p_end}
+
+{synopt:{opt Source Organization}}World Economic Forum, Global Competiveness Report.{p_end}
 
 
 {synoptline}
@@ -7439,6 +7494,19 @@
 
 
 {synoptline}
+{marker sourceid_SE.TER.ENRL.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.TER.ENRL.FE.ZS:SE.TER.ENRL.FE.ZS} - Percentage of students in tertiary education who are female (%)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Number of female students at the tertiary education level (ISCED 5 to 8) expressed as a percentage of the total number of students (male and female) at the tertiary education level (ISCED 5 to 8) in a given school year.{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
 {marker sourceid_SE.TER.SCIE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SE.TER.SCIE.ZS:SE.TER.SCIE.ZS} - Science and engineering students (% of total tertiary students)}}
 
@@ -7857,7 +7925,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Law prohibits or invalidates child or early marriage is whether there are provisions that prevent the marriage of girls, boys, or both before they reach the legal age of marriage or the age of marriage with consent, including, for example, a p{p_end}
 
@@ -7870,7 +7938,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Law mandates paid or unpaid maternity leave is whether there is a law mandating paid or unpaid maternity leave available only to the mother. Provisions for circumstantial leave by which an employee is entitled to a certain number of days of pa{p_end}
 
@@ -7896,7 +7964,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Nondiscrimination clause mentions gender in the constitution is whether there is a nondiscrimination clause in the constitution which mentions gender. For the answer to be “Yes,” the constitution must use either the word discrimination or{p_end}
 
@@ -7928,12 +7996,38 @@
 
 
 {synoptline}
+{marker sourceid_SH.DTH.0514}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.0514:SH.DTH.0514} - Number of deaths ages 5-14 years}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of deaths of children ages 5-14 years{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DYN.0514}
+{synopt:{bf:{help wbopendata_sourceid##SH.DYN.0514:SH.DYN.0514} - Probability of dying at age 5-14 years (per 1,000 children age 5)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Probability of dying between age 5-14 years of age expressed per 1,000 children aged 5, if subject to age-specific mortality rates of the specified year.{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
 {marker sourceid_SH.H2O.SAFE.RU.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.H2O.SAFE.RU.ZS:SH.H2O.SAFE.RU.ZS} - Improved water source, rural (% of rural population with access)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source, rural, refers to the percentage of the rural population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located{p_end}
 
@@ -7946,7 +8040,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source, urban, refers to the percentage of the urban population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located{p_end}
 
@@ -7984,7 +8078,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Malaria incidence is expressed as the number of new cases of malaria per 100,000 people each year. The number of cases reported is adjusted to take into account incompleteness in reporting systems, patients seeking treatment in the private sec{p_end}
 
@@ -8322,6 +8416,32 @@
 
 
 {synoptline}
+{marker sourceid_SI.POV.NAGP}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.NAGP:SI.POV.NAGP} - Poverty gap at national poverty lines (%)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}11 Poverty{p_end}
+
+{synopt:{opt Source Notes}}Poverty gap at national poverty lines is the mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as well as its incidence.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
+
+
+{synoptline}
+{marker sourceid_SI.POV.RUGP}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.RUGP:SI.POV.RUGP} - Rural poverty gap at national poverty lines (%)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}11 Poverty{p_end}
+
+{synopt:{opt Source Notes}}Rural poverty gap at national poverty lines is the rural population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as wel{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
+
+
+{synoptline}
 {marker sourceid_SI.POV.RUHC}
 {synopt:{bf:{help wbopendata_sourceid##SI.POV.RUHC:SI.POV.RUHC} - Rural poverty headcount ratio at national poverty lines (% of rural population)}}
 
@@ -8330,6 +8450,19 @@
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Rural poverty headcount ratio is the percentage of the rural population living below the national poverty lines.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
+
+
+{synoptline}
+{marker sourceid_SI.POV.URGP}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.URGP:SI.POV.URGP} - Urban poverty gap at national poverty lines (%)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}11 Poverty{p_end}
+
+{synopt:{opt Source Notes}}Urban poverty gap at national poverty lines is the urban population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as wel{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
 
@@ -8451,7 +8584,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}15 Social Development{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural secto{p_end}
 
@@ -8468,6 +8601,45 @@
 {synopt:{opt Source Notes}}GDP per person employed is presented as an index with base year 2000 = 100. GDP per person employed is gross domestic product (GDP) divided by total employment.{p_end}
 
 {synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
+
+
+{synoptline}
+{marker sourceid_SL.ISV.IFRM.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SL.ISV.IFRM.FE.ZS:SL.ISV.IFRM.FE.ZS} - Informal employment, female (% of total non-agricultural employment)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+
+{synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
+
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 20, 2020.{p_end}
+
+
+{synoptline}
+{marker sourceid_SL.ISV.IFRM.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SL.ISV.IFRM.MA.ZS:SL.ISV.IFRM.MA.ZS} - Informal employment, male (% of total non-agricultural employment)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+
+{synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
+
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 20, 2020.{p_end}
+
+
+{synoptline}
+{marker sourceid_SL.ISV.IFRM.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SL.ISV.IFRM.ZS:SL.ISV.IFRM.ZS} - Informal employment (% of total non-agricultural employment)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+
+{synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
+
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 20, 2020.{p_end}
 
 
 {synoptline}
@@ -8513,7 +8685,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
@@ -8526,7 +8698,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Female labor force with primary education is the share of the female labor force that attained or completed primary education as the highest level of education.{p_end}
 
@@ -8552,7 +8724,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Labor force with primary education is the share of the total labor force that attained or completed primary education as the highest level of education.{p_end}
 
@@ -8565,7 +8737,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Female labor force with secondary education is the share of the female labor force that attained or completed secondary education as the highest level of education.{p_end}
 
@@ -8578,7 +8750,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with secondary education is the share of the male labor force that attained or completed secondary education as the highest level of education.{p_end}
 
@@ -8604,7 +8776,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Female labor force with tertiary education is the share of the female labor force that attained or completed tertiary education as the highest level of education.{p_end}
 
@@ -8617,7 +8789,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with tertiary education is the share of the male labor force that attained or completed tertiary education as the highest level of education.{p_end}
 
@@ -8630,7 +8802,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Labor force with tertiary education is the share of the total labor force that attained or completed tertiary education as the highest level of education.{p_end}
 
@@ -8667,7 +8839,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Long-term unemployment refers to the number of people with continuous periods of unemployment extending for a year or longer, expressed as a percentage of the total unemployed.{p_end}
 
@@ -8797,7 +8969,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Emigration rate of tertiary educated shows the stock of emigrants ages 25 and older, residing in an OECD country other than that in which they were born, with at least one year of tertiary education as a percentage of the population age 25 and{p_end}
 
@@ -10152,6 +10324,19 @@
 
 
 {synoptline}
+{marker sourceid_VC.PKP.TOTL.UN}
+{synopt:{bf:{help wbopendata_sourceid##VC.PKP.TOTL.UN:VC.PKP.TOTL.UN} - Presence of peace keepers (number of troops, police, and military observers in mandate)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Presence of peacebuilders and peacekeepers are active in peacebuilding and peacekeeping. Peacebuilding reduces the risk of lapsing or relapsing into conflict by strengthening national capacities at all levels of for conflict management, and to{p_end}
+
+{synopt:{opt Source Organization}}UN Department of Peacekeeping Operations, {browse "http://www.un.org/en/peacekeeping/"}.{p_end}
+
+
+{synoptline}
 {marker sourceid_WP15163_4.1}
 {synopt:{bf:{help wbopendata_sourceid##WP15163_4.1:WP15163_4.1} - Mobile account (% age 15+)}}
 
@@ -10170,7 +10355,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
 
@@ -10183,7 +10368,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
 
@@ -10248,7 +10433,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
 
@@ -10543,4 +10728,4 @@
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}

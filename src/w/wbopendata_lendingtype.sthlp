@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Lending Type  (as of 28jun2020)}
+{title:Lending Type  (as of 05jul2021)}
 
 {marker IBD}
 {p 20 20 2}(Go up to {it:{help wbopendata##lendingtype:Lending Type }}){p_end}
@@ -49,6 +49,8 @@
 {synopt:{opt MYS}}  Malaysia {p_end}
 {synopt:{opt MUS}}  Mauritius {p_end}
 {synopt:{opt MEX}}  Mexico {p_end}
+{synopt:{opt MDA}}  Moldova {p_end}
+{synopt:{opt MNG}}  Mongolia {p_end}
 {synopt:{opt MNE}}  Montenegro {p_end}
 {synopt:{opt MAR}}  Morocco {p_end}
 {synopt:{opt NAM}}  Namibia {p_end}
@@ -90,8 +92,6 @@
 {synopt:{opt FJI}}  Fiji {p_end}
 {synopt:{opt GRD}}  Grenada {p_end}
 {synopt:{opt KEN}}  Kenya {p_end}
-{synopt:{opt MDA}}  Moldova {p_end}
-{synopt:{opt MNG}}  Mongolia {p_end}
 {synopt:{opt NGA}}  Nigeria {p_end}
 {synopt:{opt PAK}}  Pakistan {p_end}
 {synopt:{opt PNG}}  Papua New Guinea {p_end}
@@ -209,7 +209,7 @@
 {synopt:{opt ISR}}  Israel {p_end}
 {synopt:{opt ITA}}  Italy {p_end}
 {synopt:{opt JPN}}  Japan {p_end}
-{synopt:{opt PRK}}  Korea, Dem People’s Rep {p_end}
+{synopt:{opt PRK}}  Korea, Dem People's Rep {p_end}
 {synopt:{opt KOR}}  Korea, Rep {p_end}
 {synopt:{opt KWT}}  Kuwait {p_end}
 {synopt:{opt LVA}}  Latvia {p_end}
