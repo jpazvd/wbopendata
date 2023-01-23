@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -74,7 +74,7 @@
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -87,7 +87,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for youth literacy rate is the ratio of females to males ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -100,7 +100,7 @@
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -113,7 +113,7 @@
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -126,7 +126,7 @@
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -139,7 +139,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary education is the ratio of girls to boys enrolled at primary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -152,7 +152,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary and secondary education is the ratio of girls to boys enrolled at primary and secondary levels in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -165,7 +165,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in secondary education is the ratio of girls to boys enrolled at secondary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -178,7 +178,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in tertiary education is the ratio of women to men enrolled at tertiary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -191,7 +191,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Preprimary education refers to programs at the initial stage of organiz{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -204,7 +204,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Preprimary education refers to programs at the initial stage of organiz{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -217,7 +217,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -230,7 +230,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -243,7 +243,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -256,7 +256,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -269,7 +269,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -282,7 +282,7 @@
 
 {synopt:{opt Source Notes}}Female pupils as a percentage of total pupils at primary level include enrollments in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -295,7 +295,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -308,7 +308,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -321,7 +321,7 @@
 
 {synopt:{opt Source Notes}}Gross intake ratio in first grade of primary education is the number of new entrants in the first grade of primary education regardless of age, expressed as a percentage of the population of the official primary entrance age.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -334,7 +334,7 @@
 
 {synopt:{opt Source Notes}}Gross intake ratio in first grade of primary education is the number of new entrants in the first grade of primary education regardless of age, expressed as a percentage of the population of the official primary entrance age.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -347,7 +347,7 @@
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Primary education provides children with basic reading, writing, and mathematics skills{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -360,7 +360,7 @@
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Primary education provides children with basic reading, writing, and mathematics skills{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -373,7 +373,7 @@
 
 {synopt:{opt Source Notes}}Net intake rate in grade 1 is the number of new entrants in the first grade of primary education who are of official primary school entrance age, expressed as a percentage of the population of the corresponding age.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -386,7 +386,7 @@
 
 {synopt:{opt Source Notes}}Net intake rate in grade 1 is the number of new entrants in the first grade of primary education who are of official primary school entrance age, expressed as a percentage of the population of the corresponding age.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -399,7 +399,7 @@
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -412,7 +412,7 @@
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -425,7 +425,7 @@
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -438,7 +438,7 @@
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -451,7 +451,7 @@
 
 {synopt:{opt Source Notes}}Repeaters in primary school are the number of students enrolled in the same grade as in the previous year, as a percentage of all students enrolled in primary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -464,7 +464,7 @@
 
 {synopt:{opt Source Notes}}Repeaters in primary school are the number of students enrolled in the same grade as in the previous year, as a percentage of all students enrolled in primary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -477,7 +477,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -490,7 +490,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -503,7 +503,7 @@
 
 {synopt:{opt Source Notes}}Female teachers as a percentage of total primary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -516,7 +516,7 @@
 
 {synopt:{opt Source Notes}}Adjusted net enrollment is the number of pupils of the school-age group for primary education, enrolled either in primary or secondary education, expressed as a percentage of the total population in that age group.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -529,7 +529,7 @@
 
 {synopt:{opt Source Notes}}Adjusted net enrollment is the number of pupils of the school-age group for primary education, enrolled either in primary or secondary education, expressed as a percentage of the total population in that age group.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -542,7 +542,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -555,7 +555,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -594,7 +594,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -607,7 +607,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -620,7 +620,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -633,7 +633,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -646,7 +646,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -659,7 +659,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -672,7 +672,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -685,7 +685,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -698,7 +698,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -711,7 +711,7 @@
 
 {synopt:{opt Source Notes}}Female pupils as a percentage of total pupils at secondary level includes enrollments in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -724,7 +724,7 @@
 
 {synopt:{opt Source Notes}}Secondary general pupils are the number of secondary students enrolled in general education programs, including teacher training.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -737,7 +737,7 @@
 
 {synopt:{opt Source Notes}}Secondary vocational pupils are the number of secondary students enrolled in technical and vocational education programs, including teacher training.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -750,7 +750,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -763,7 +763,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -776,7 +776,7 @@
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Secondary education completes the provision of basic education that began at the primary{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -789,7 +789,7 @@
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Secondary education completes the provision of basic education that began at the primary{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -802,7 +802,7 @@
 
 {synopt:{opt Source Notes}}Progression to secondary school refers to the number of new entrants to the first grade of secondary school in a given year as a percentage of the number of students enrolled in the final grade of primary school in the previous year (minus the{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -815,7 +815,7 @@
 
 {synopt:{opt Source Notes}}Progression to secondary school refers to the number of new entrants to the first grade of secondary school in a given year as a percentage of the number of students enrolled in the final grade of primary school in the previous year (minus the{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
 
 
 {synoptline}
@@ -828,7 +828,7 @@
 
 {synopt:{opt Source Notes}}Female teachers as a percentage of total secondary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -841,7 +841,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -854,7 +854,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -867,7 +867,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -880,7 +880,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -893,7 +893,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -906,7 +906,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -919,7 +919,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -932,7 +932,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -945,7 +945,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -958,7 +958,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -971,7 +971,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -984,7 +984,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -997,7 +997,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -1010,7 +1010,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
 
 
 {synoptline}
@@ -1028,7 +1028,7 @@
 
 {synoptline}
 {marker topicid_SG.AGE.FUPN.EQ}
-{synopt:{bf:{help wbopendata_topicid##SG.AGE.FUPN.EQ:SG.AGE.FUPN.EQ} - The ages at which men and women can retire with full pension benefits are equal (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_topicid##SG.AGE.FUPN.EQ:SG.AGE.FUPN.EQ} - The age at which men and women can retire with full pension benefits is the same (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -1041,7 +1041,7 @@
 
 {synoptline}
 {marker topicid_SG.AGE.MRET.EQ}
-{synopt:{bf:{help wbopendata_topicid##SG.AGE.MRET.EQ:SG.AGE.MRET.EQ} - The mandatory retirement age for men and women are equal (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_topicid##SG.AGE.MRET.EQ:SG.AGE.MRET.EQ} - The mandatory retirement age for men and women is the same (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -1054,7 +1054,7 @@
 
 {synoptline}
 {marker topicid_SG.AGE.PAPN.EQ}
-{synopt:{bf:{help wbopendata_topicid##SG.AGE.PAPN.EQ:SG.AGE.PAPN.EQ} - The ages at which men and women can retire with partial pension benefits are equal (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_topicid##SG.AGE.PAPN.EQ:SG.AGE.PAPN.EQ} - The age at which men and women can retire with partial pension benefits is the same (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -1652,7 +1652,7 @@
 
 {synoptline}
 {marker topicid_SG.DNG.WORK.DN.EQ}
-{synopt:{bf:{help wbopendata_topicid##SG.DNG.WORK.DN.EQ:SG.DNG.WORK.DN.EQ} - Women can work in jobs deemed dangerous in the same way as men (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_topicid##SG.DNG.WORK.DN.EQ:SG.DNG.WORK.DN.EQ} - A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -1686,7 +1686,7 @@
 
 {synopt:{opt Source Notes}}Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.{p_end}
 
-{synopt:{opt Source Organization}}Inter-Parliamentary Union (IPU) ({browse "www.ipu.org"}).{p_end}
+{synopt:{opt Source Organization}}Inter-Parliamentary Union (IPU) ({browse "www.ipu.org"}).  For the year of 1998, the data is as of August 10, 1998.{p_end}
 
 
 {synoptline}
@@ -1808,7 +1808,7 @@
 
 {synoptline}
 {marker topicid_SG.IND.WORK.EQ}
-{synopt:{bf:{help wbopendata_topicid##SG.IND.WORK.EQ:SG.IND.WORK.EQ} - Women are able to work in the same industries as men (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_topicid##SG.IND.WORK.EQ:SG.IND.WORK.EQ} - A woman can work in an industrial job in the same way as a man (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -2003,7 +2003,7 @@
 
 {synoptline}
 {marker topicid_SG.NGT.WORK.EQ}
-{synopt:{bf:{help wbopendata_topicid##SG.NGT.WORK.EQ:SG.NGT.WORK.EQ} - Women can work the same night hours as men (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_topicid##SG.NGT.WORK.EQ:SG.NGT.WORK.EQ} - A woman can work at night in the same way as a man (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -2219,7 +2219,7 @@
 
 {synopt:{opt Source Notes}}The average time women spend on household provision of services for own consumption. Data are expressed as a proportion of time in a day. Domestic and care work includes food preparation, dishwashing, cleaning and upkeep of a dwelling, laundry{p_end}
 
-{synopt:{opt Source Organization}}National statistical offices or national database and publications compiled by United Nations Statistics Division{p_end}
+{synopt:{opt Source Organization}}National statistical offices or national database and publications compiled by United Nations Statistics Division.  The data were downloaded on December 3 from the Global SDG Indicators Database:  {browse "https://unstats.un.org/sdgs/indicators/databas"}{p_end}
 
 
 {synoptline}
@@ -2258,7 +2258,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she argues with him.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -2271,7 +2271,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she burns the food.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -2284,7 +2284,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -2297,7 +2297,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she neglects the children.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -2310,7 +2310,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -2323,7 +2323,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she refuses sex with him.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -2350,162 +2350,6 @@
 {synopt:{opt Source Notes}}Condom use, male is the percentage of the male population ages 15-24 who used a condom at last intercourse in the last 12 months.{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys, and UNAIDS.{p_end}
-
-
-{synoptline}
-{marker topicid_SH.DTH.COMM.1534.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.DTH.COMM.1534.FE.ZS:SH.DTH.COMM.1534.FE.ZS} - Cause of death, by communicable diseases, ages 15-34, female (% of relevant age group)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Communicable diseases and maternal, prenatal and nutrition conditions include infectious and parasitic diseases, respiratory infections, and nutritiona{p_end}
-
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SH.DTH.COMM.1534.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.DTH.COMM.1534.MA.ZS:SH.DTH.COMM.1534.MA.ZS} - Cause of death, by communicable diseases, ages 15-34, male (% of relevant age group)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Communicable diseases and maternal, prenatal and nutrition conditions include infectious and parasitic diseases, respiratory infections, and nutritiona{p_end}
-
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SH.DTH.COMM.3559.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.DTH.COMM.3559.FE.ZS:SH.DTH.COMM.3559.FE.ZS} - Cause of death, by communicable diseases, ages 35-59, female (% of relevant age group)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Communicable diseases and maternal, prenatal and nutrition conditions include infectious and parasitic diseases, respiratory infections, and nutritiona{p_end}
-
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SH.DTH.COMM.3559.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.DTH.COMM.3559.MA.ZS:SH.DTH.COMM.3559.MA.ZS} - Cause of death, by communicable diseases, ages 35-59, male (% of relevant age group)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Communicable diseases and maternal, prenatal and nutrition conditions include infectious and parasitic diseases, respiratory infections, and nutritiona{p_end}
-
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SH.DTH.INJR.1534.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.DTH.INJR.1534.FE.ZS:SH.DTH.INJR.1534.FE.ZS} - Cause of death, by injury, ages 15-34, female  (% of relevant age group)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Injuries include unintentional and intentional injuries.{p_end}
-
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SH.DTH.INJR.1534.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.DTH.INJR.1534.MA.ZS:SH.DTH.INJR.1534.MA.ZS} - Cause of death, by injury, ages 15-34, male (% of relevant age group)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Injuries include unintentional and intentional injuries.{p_end}
-
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SH.DTH.INJR.3559.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.DTH.INJR.3559.FE.ZS:SH.DTH.INJR.3559.FE.ZS} - Cause of death, by injury, ages 35-59, female (% of relevant age group)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Injuries include unintentional and intentional injuries.{p_end}
-
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SH.DTH.INJR.3559.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.DTH.INJR.3559.MA.ZS:SH.DTH.INJR.3559.MA.ZS} - Cause of death, by injury, ages 35-59, male (% of relevant age group)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Injuries include unintentional and intentional injuries.{p_end}
-
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SH.DTH.NCOM.1534.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.DTH.NCOM.1534.FE.ZS:SH.DTH.NCOM.1534.FE.ZS} - Cause of death, by non-communicable diseases, ages 15-34, female (% of relevant age group)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Non-communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseases, musculoskeletal diseases, and{p_end}
-
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SH.DTH.NCOM.1534.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.DTH.NCOM.1534.MA.ZS:SH.DTH.NCOM.1534.MA.ZS} - Cause of death, by non-communicable diseases, ages 15-34, male (% of relevant age group)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Non-communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseases, musculoskeletal diseases, and{p_end}
-
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SH.DTH.NCOM.3559.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.DTH.NCOM.3559.FE.ZS:SH.DTH.NCOM.3559.FE.ZS} - Cause of death, by non-communicable diseases, ages 35-59, female (% of relevant age group)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Non-communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseases, musculoskeletal diseases, and{p_end}
-
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SH.DTH.NCOM.3559.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.DTH.NCOM.3559.MA.ZS:SH.DTH.NCOM.3559.MA.ZS} - Cause of death, by non-communicable diseases, ages 35-59, male (% of relevant age group)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for the relevant age by underlying causes. Non-communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseases, musculoskeletal diseases, and{p_end}
-
-{synopt:{opt Source Organization}}Derived based on the data from WHO's World Health Statistics.{p_end}
 
 
 {synoptline}
@@ -2613,21 +2457,73 @@
 
 
 {synoptline}
-{marker topicid_SH.MMR.LEVE}
-{synopt:{bf:{help wbopendata_topicid##SH.MMR.LEVE:SH.MMR.LEVE} - Length of paid maternity leave (days)}}
+{marker topicid_SH.HIV.INCD.FE.P3}
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.FE.P3:SH.HIV.INCD.FE.P3} - Incidence of HIV, ages 15-49, female (per 1,000 uninfected female population ages 15-49)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}The indicator represents the duration of paid leave available to mothers.{p_end}
+{synopt:{opt Source Notes}}Number of new HIV infections among uninfected female populations ages 15-49 expressed per 1,000 uninfected female population ages 15-49 in the year before the period.{p_end}
+
+{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.HIV.INCD.MA.P3}
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.MA.P3:SH.HIV.INCD.MA.P3} - Incidence of HIV, ages 15-49, male (per 1,000 uninfected male population ages 15-49)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}Number of new HIV infections among uninfected male populations ages 15-49 expressed per 1,000 uninfected male population ages 15-49 in the year before the period.{p_end}
+
+{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.HIV.INCD.YG.FE.P3}
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.YG.FE.P3:SH.HIV.INCD.YG.FE.P3} - Incidence of HIV, ages 15-24, female (per 1,000 uninfected female population ages 15-24)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}Number of new HIV infections among uninfected male populations ages 15-24 expressed per 1,000 uninfected male population ages 15-24 in the year before the period.{p_end}
+
+{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.HIV.INCD.YG.MA.P3}
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.YG.MA.P3:SH.HIV.INCD.YG.MA.P3} - Incidence of HIV, ages 15-24, male (per 1,000 uninfected male population ages 15-24)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}Number of new HIV infections among uninfected female populations ages 15-24 expressed per 1,000 uninfected female population ages 15-24 in the year before the period.{p_end}
+
+{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.MMR.LEVE}
+{synopt:{bf:{help wbopendata_topicid##SH.MMR.LEVE:SH.MMR.LEVE} - Length of paid maternity leave (calendar days)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}17 Gender{p_end}
+
+{synopt:{opt Source Notes}}The indicator refers to leave available only to the mother for the birth of a child to be taken just before, during and immediately after childbirth.{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.MMR.LEVE.AL}
-{synopt:{bf:{help wbopendata_topicid##SH.MMR.LEVE.AL:SH.MMR.LEVE.AL} - Paid leave of at least 14 weeks is available to women (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_topicid##SH.MMR.LEVE.AL:SH.MMR.LEVE.AL} - Paid leave of at least 14 weeks available to mothers (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -2679,7 +2575,7 @@
 
 {synoptline}
 {marker topicid_SH.MMR.WAGE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.MMR.WAGE.ZS:SH.MMR.WAGE.ZS} - Maternity leave benefits (% of wages paid)}}
+{synopt:{bf:{help wbopendata_topicid##SH.MMR.WAGE.ZS:SH.MMR.WAGE.ZS} - Maternal leave benefits (% of wages paid in covered period)}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2692,13 +2588,13 @@
 
 {synoptline}
 {marker topicid_SH.PAR.LEVE}
-{synopt:{bf:{help wbopendata_topicid##SH.PAR.LEVE:SH.PAR.LEVE} - Length of paid shared parental leave (days)}}
+{synopt:{bf:{help wbopendata_topicid##SH.PAR.LEVE:SH.PAR.LEVE} - Length of paid shared parental leave (calendar days)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}The indicator represents the duration of paid parental leave for the mother or the father.{p_end}
+{synopt:{opt Source Notes}}The indicator refers to parental leave that can be shared amongst the parents as they choose. Parental leave refers to leave available equally to parents—regardless of gender—for the purpose of childcare immediately following maternity and{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
@@ -2718,65 +2614,65 @@
 
 {synoptline}
 {marker topicid_SH.PAR.LEVE.FE}
-{synopt:{bf:{help wbopendata_topicid##SH.PAR.LEVE.FE:SH.PAR.LEVE.FE} - Length of paid parental leave for mother (days)}}
+{synopt:{bf:{help wbopendata_topicid##SH.PAR.LEVE.FE:SH.PAR.LEVE.FE} - Length of paid parental leave for mother (calendar days)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}The indicator represents the duration of paid parental leave for the mother.{p_end}
+{synopt:{opt Source Notes}}The indicator refers to days of parental leave reserved specifically for mothers—through “use-it-or-lose-it” policies or mothers’ quotas; or days of parental leave that employees are individually entitled to.{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_SH.PAR.LEVE.MA}
-{synopt:{bf:{help wbopendata_topicid##SH.PAR.LEVE.MA:SH.PAR.LEVE.MA} - Length of paid parental leave for father (days)}}
+{synopt:{bf:{help wbopendata_topicid##SH.PAR.LEVE.MA:SH.PAR.LEVE.MA} - Length of paid parental leave for father (calendar days)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}The indicator represents the duration of paid parental leave for the father.{p_end}
+{synopt:{opt Source Notes}}The indicator refers to days of parental leave reserved specifically for fathers—that is, through “use-it-or-lose-it” policies or fathers’ quotas; or days of parental leave that employees are individually entitled to.{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_SH.PRV.SMOK.FE}
-{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE:SH.PRV.SMOK.FE} - Smoking prevalence, females (% of adults)}}
+{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE:SH.PRV.SMOK.FE} - Prevalence of current tobacco use, females (% of female adults)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Prevalence of smoking, female is the percentage of women ages 15 and over who currently smoke any tobacco product on a daily or non-daily basis. It excludes smokeless tobacco use. The rates are age-standardized.{p_end}
+{synopt:{opt Source Notes}}The percentage of the female population ages 15 years and over who currently use any tobacco product (smoked and/or smokeless tobacco) on a daily or non-daily basis. Tobacco products include cigarettes, pipes, cigars, cigarillos, waterpipes (h{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.PRV.SMOK.MA}
-{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.MA:SH.PRV.SMOK.MA} - Smoking prevalence, males (% of adults)}}
+{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.MA:SH.PRV.SMOK.MA} - Prevalence of current tobacco use, males (% of male adults)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Prevalence of smoking, male is the percentage of men ages 15 and over who currently smoke any tobacco product on a daily or non-daily basis. It excludes smokeless tobacco use. The rates are age-standardized.{p_end}
+{synopt:{opt Source Notes}}The percentage of the male population ages 15 years and over who currently use any tobacco product (smoked and/or smokeless tobacco) on a daily or non-daily basis. Tobacco products include cigarettes, pipes, cigars, cigarillos, waterpipes (hoo{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.PTR.LEVE}
-{synopt:{bf:{help wbopendata_topicid##SH.PTR.LEVE:SH.PTR.LEVE} - Length of paid paternity leave (days)}}
+{synopt:{bf:{help wbopendata_topicid##SH.PTR.LEVE:SH.PTR.LEVE} - Length of paid paternity leave (calendar days)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}The indicator represents the duration of paid leave available to fathers.{p_end}
+{synopt:{opt Source Notes}}The indicator refers to leave available only to the father for the birth of a child.{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
@@ -2869,7 +2765,7 @@
 
 {synopt:{opt Source Notes}}Maternal mortality ratio is the number of women who die from pregnancy-related causes while pregnant or within 42 days of pregnancy termination per 100,000 live births.{p_end}
 
-{synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
+{synopt:{opt Source Organization}}The country data compiled, adjusted and used in the estimation model by the Maternal Mortality Estimation Inter-Agency Group (MMEIG). The country data were compiled from the following sources:  civil registration and vital statistics; speciali{p_end}
 
 
 {synoptline}
@@ -2934,7 +2830,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2947,7 +2843,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -2960,7 +2856,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2973,7 +2869,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -2999,7 +2895,7 @@
 
 {synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -3012,14 +2908,14 @@
 
 {synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
 {marker topicid_SL.EMP.OWAC.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.OWAC.FE.ZS:SL.EMP.OWAC.FE.ZS} - Own-account workers, female (% of female employment) (modeled ILO estimate)}}
 
-{synopt:{opt Source}}14 Gender Statistics{p_end}
+{synopt:{opt Source}}25 Jobs{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -3032,7 +2928,7 @@
 {marker topicid_SL.EMP.OWAC.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.EMP.OWAC.MA.ZS:SL.EMP.OWAC.MA.ZS} - Own-account workers, male (% of male employment) (modeled ILO estimate)}}
 
-{synopt:{opt Source}}14 Gender Statistics{p_end}
+{synopt:{opt Source}}25 Jobs{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -3051,7 +2947,7 @@
 
 {synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -3064,7 +2960,7 @@
 
 {synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -3077,7 +2973,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -3090,7 +2986,7 @@
 
 {synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -3129,7 +3025,7 @@
 
 {synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -3142,7 +3038,7 @@
 
 {synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -3155,7 +3051,7 @@
 
 {synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -3168,7 +3064,7 @@
 
 {synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -3181,7 +3077,7 @@
 
 {synopt:{opt Source Notes}}Contributing family workers are those workers who hold self-employment jobs as own-account workers in a market-oriented establishment operated by a related person living in the same household.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -3194,7 +3090,7 @@
 
 {synopt:{opt Source Notes}}Contributing family workers are those workers who hold self-employment jobs as own-account workers in a market-oriented establishment operated by a related person living in the same household.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -3207,7 +3103,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -3220,7 +3116,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -3298,7 +3194,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -3311,7 +3207,7 @@
 
 {synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -3402,7 +3298,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -3415,7 +3311,7 @@
 
 {synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -3428,7 +3324,7 @@
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -3441,7 +3337,7 @@
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on January 29, 2021.{p_end}
 
 
 {synoptline}
@@ -3558,7 +3454,7 @@
 
 {synopt:{opt Source Notes}}Female labor force as a percentage of the total show the extent to which women are active in the labor force. Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -3571,7 +3467,7 @@
 
 {synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -3610,7 +3506,7 @@
 
 {synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -3727,7 +3623,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -3740,7 +3636,7 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -3994,7 +3890,7 @@
 {marker topicid_SP.POP.AG00.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.AG00.MA.IN:SP.POP.AG00.MA.IN} - Age population, age 00, male, interpolated}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -4033,7 +3929,7 @@
 {marker topicid_SP.POP.AG02.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.AG02.FE.IN:SP.POP.AG02.FE.IN} - Age population, age 02, female, interpolated}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -4046,7 +3942,7 @@
 {marker topicid_SP.POP.AG02.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.AG02.MA.IN:SP.POP.AG02.MA.IN} - Age population, age 02, male, interpolated}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -4059,7 +3955,7 @@
 {marker topicid_SP.POP.AG03.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.AG03.FE.IN:SP.POP.AG03.FE.IN} - Age population, age 03, female, interpolated}}
 
-{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -4098,7 +3994,7 @@
 {marker topicid_SP.POP.AG04.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.AG04.MA.IN:SP.POP.AG04.MA.IN} - Age population, age 04, male, interpolated}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
@@ -4238,4 +4134,4 @@
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}

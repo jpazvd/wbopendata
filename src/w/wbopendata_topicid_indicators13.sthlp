@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1127,7 +1127,7 @@
 
 {synopt:{opt Source Notes}}Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.{p_end}
 
-{synopt:{opt Source Organization}}Inter-Parliamentary Union (IPU) ({browse "www.ipu.org"}).{p_end}
+{synopt:{opt Source Organization}}Inter-Parliamentary Union (IPU) ({browse "www.ipu.org"}).  For the year of 1998, the data is as of August 10, 1998.{p_end}
 
 
 {synoptline}
@@ -1329,7 +1329,7 @@
 {marker topicid_VC.PKP.TOTL.UN}
 {synopt:{bf:{help wbopendata_topicid##VC.PKP.TOTL.UN:VC.PKP.TOTL.UN} - Presence of peace keepers (number of troops, police, and military observers in mandate)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1339,4 +1339,4 @@
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -412,7 +412,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -540,9 +540,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Total greenhouse gas emissions in kt of CO2 equivalent are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and Savannah burning) but including other biomass burning (such as forest fires, post-b{p_end}
+{synopt:{opt Source Notes}}Total greenhouse gas emissions in kt of CO2 equivalent are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and savanna burning) but including other biomass burning (such as forest fires, post-bu{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR), EDGARv4.2 FT2012: {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -553,7 +553,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Total greenhouse gas emissions are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and Savannah burning) but including other biomass burning (such as forest fires, post-burn decay, peat fires an{p_end}
+{synopt:{opt Source Notes}}Total greenhouse gas emissions are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and savanna burning) but including other biomass burning (such as forest fires, post-burn decay, peat fires and{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
 
@@ -579,9 +579,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savannah burning.{p_end}
+{synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -592,7 +592,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savannah burning.{p_end}
+{synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
 
@@ -607,7 +607,7 @@
 
 {synopt:{opt Source Notes}}Methane emissions from energy processes are emissions from the production, handling, transmission, and combustion of fossil fuels and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -646,7 +646,7 @@
 
 {synopt:{opt Source Notes}}Methane emissions are those stemming from human activities such as agriculture and from industrial methane production.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -670,9 +670,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savannah burning.{p_end}
+{synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -683,7 +683,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savannah burning.{p_end}
+{synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
 
@@ -698,7 +698,7 @@
 
 {synopt:{opt Source Notes}}Nitrous oxide emissions from energy processes are emissions produced by the combustion of fossil fuels and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -737,7 +737,7 @@
 
 {synopt:{opt Source Notes}}Nitrous oxide emissions are emissions from agricultural biomass burning, industrial activities, and livestock management.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -1010,7 +1010,7 @@
 
 {synopt:{opt Source Notes}}Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improve{p_end}
 
-{synopt:{opt Source Organization}}UN HABITAT, retrieved from the United Nation's Millennium Development Goals database. Data are available at : {browse "http://mdgs.un.org/"}{p_end}
+{synopt:{opt Source Organization}}United Nations Human Settlements Programme (UN-HABITAT){p_end}
 
 
 {synoptline}
@@ -1229,9 +1229,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$30 per ton of CO2 (the unit damage in 2014 US dollars for CO2 emitted in 2015) times the number of tons of CO2 emitted.{p_end}
+{synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$40 per ton of CO2 (the unit damage in 2017 US dollars for CO2 emitted in 2020) times the number of tons of CO2 emitted.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1242,9 +1242,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$30 per ton of CO2 (the unit damage in 2014 US dollars for CO2 emitted in 2015) times the number of tons of CO2 emitted.{p_end}
+{synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$40 per ton of CO2 (the unit damage in 2017 US dollars for CO2 emitted in 2020) times the number of tons of CO2 emitted.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1255,9 +1255,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth.{p_end}
+{synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth. If growth exceeds harvest, this figure is zero.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1270,7 +1270,7 @@
 
 {synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth. If growth exceeds harvest, this figure is zero.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1283,7 +1283,7 @@
 
 {synopt:{opt Source Notes}}Consumption of fixed capital represents the replacement value of capital used up in the process of production.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1296,7 +1296,7 @@
 
 {synopt:{opt Source Notes}}Consumption of fixed capital represents the replacement value of capital used up in the process of production.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1309,7 +1309,7 @@
 
 {synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime. It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1322,7 +1322,7 @@
 
 {synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime. It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1335,7 +1335,7 @@
 
 {synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime. It covers coal, crude oil, and natural gas.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1348,7 +1348,7 @@
 
 {synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime. It covers coal, crude oil, and natural gas.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1361,7 +1361,7 @@
 
 {synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1374,7 +1374,7 @@
 
 {synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1400,7 +1400,7 @@
 
 {synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1413,7 +1413,7 @@
 
 {synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1426,7 +1426,7 @@
 
 {synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1439,7 +1439,7 @@
 
 {synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1452,7 +1452,7 @@
 
 {synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide. This series excludes particulate emissions damage.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1465,7 +1465,7 @@
 
 {synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide. This series excludes particulate emissions damage.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1478,7 +1478,7 @@
 
 {synopt:{opt Source Notes}}Coal rents are the difference between the value of both hard and soft coal production at world prices and their total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1489,9 +1489,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Forest rents are roundwood harvest times the product of average prices and a region-specific rental rate.{p_end}
+{synopt:{opt Source Notes}}Forest rents are roundwood harvest times the product of regional prices and a regional rental rate.{p_end}
 
-{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1504,7 +1504,7 @@
 
 {synopt:{opt Source Notes}}Mineral rents are the difference between the value of production for a stock of minerals at world prices and their total costs of production. Minerals included in the calculation are tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite{p_end}
 
-{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1515,9 +1515,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Natural gas rents are the difference between the value of natural gas production at world prices and total costs of production.{p_end}
+{synopt:{opt Source Notes}}Natural gas rents are the difference between the value of natural gas production at regional prices and total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1528,9 +1528,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Oil rents are the difference between the value of crude oil production at world prices and total costs of production.{p_end}
+{synopt:{opt Source Notes}}Oil rents are the difference between the value of crude oil production at regional prices and total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1543,7 +1543,7 @@
 
 {synopt:{opt Source Notes}}Total natural resources rents are the sum of oil rents, natural gas rents, coal rents (hard and soft), mineral rents, and forest rents.{p_end}
 
-{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1762,7 +1762,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -1788,7 +1788,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of male deaths from unintentional poisonings in a year per 100,000 male population. Unintentional poisoning can{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of male deaths from unintentional poisonings in a year per 100,000 male population. Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -1846,4 +1846,4 @@
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 05jul2021)}

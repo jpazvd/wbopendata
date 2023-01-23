@@ -27,8 +27,6 @@ version 9.0
 						 CHECK						///
 						 NOPRESERVE					///
 						 PRESERVEOUT				///
-						 FULL						///
-						 ISO						///
 						 COUNTRYMETADATA			///
 						 ALL						///
 						 BREAKNOMETADATA			///
@@ -189,7 +187,7 @@ local indicator `indicators'
 					local f = `f'+1
 
 				}
-
+				
 				local name "`name' `namek'"
 
 			}
@@ -243,7 +241,7 @@ local indicator `indicators'
 			return local time1       "`time'"
 
 			local name = trim(lower(subinstr(word("`w1'",1),".","_",.)))
-
+			
 		}
 
 		return local indicator  "`indicator'"
@@ -269,8 +267,17 @@ local indicator `indicators'
 		}
 
 		if ("`latest'" != "") &  ("`long'" != "") {
+		    
+			* check if name is to long. 
+		    local length_name = length("`name'")
+			* shorten name if too long
+			if (`length_name' > 20) {
+				local name = substr("`name'",1,20)
+				return local name "`name'"
+			}
+			
 			tempvar tmp
-			egen `tmp' = rowmiss(`name')
+			egen `tmp' = rowmiss(`name'_)
 			keep if `tmp' == 0
 			sort countryname countrycode `time'
 			bysort countryname countrycode : keep if _n==_N
