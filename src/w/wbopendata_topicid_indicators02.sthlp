@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid_indicators19##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid_indicators20##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid_indicators21##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid_indicatorstopicID##topicid_topicID:}{p_end}
 
 
 {marker topicid_02}
@@ -236,6 +237,19 @@
 {synoptline}
 {marker topicid_DC.DAC.GRCL.CD}
 {synopt:{bf:{help wbopendata_topicid##DC.DAC.GRCL.CD:DC.DAC.GRCL.CD} - Net bilateral aid flows from DAC donors, Greece (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
+{marker topicid_DC.DAC.HUNL.CD}
+{synopt:{bf:{help wbopendata_topicid##DC.DAC.HUNL.CD:DC.DAC.HUNL.CD} - Net bilateral aid flows from DAC donors, Hungary (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -598,8 +612,34 @@
 
 
 {synoptline}
+{marker topicid_DT.NFL.UNEP.CD}
+{synopt:{bf:{help wbopendata_topicid##DT.NFL.UNEP.CD:DT.NFL.UNEP.CD} - Net official flows from UN agencies, UNEP (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
 {marker topicid_DT.NFL.UNFP.CD}
 {synopt:{bf:{help wbopendata_topicid##DT.NFL.UNFP.CD:DT.NFL.UNFP.CD} - Net official flows from UN agencies, UNFPA (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
+{marker topicid_DT.NFL.UNID.CD}
+{synopt:{bf:{help wbopendata_topicid##DT.NFL.UNID.CD:DT.NFL.UNID.CD} - Net official flows from UN agencies, UNIDIR (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -639,6 +679,19 @@
 {synoptline}
 {marker topicid_DT.NFL.UNTA.CD}
 {synopt:{bf:{help wbopendata_topicid##DT.NFL.UNTA.CD:DT.NFL.UNTA.CD} - Net official flows from UN agencies, UNTA (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
+{marker topicid_DT.NFL.UNWT.CD}
+{synopt:{bf:{help wbopendata_topicid##DT.NFL.UNWT.CD:DT.NFL.UNWT.CD} - Net official flows from UN agencies, UNWTO (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -690,7 +743,7 @@
 
 {synoptline}
 {marker topicid_DT.ODA.ALLD.KD}
-{synopt:{bf:{help wbopendata_topicid##DT.ODA.ALLD.KD:DT.ODA.ALLD.KD} - Net official development assistance and official aid received (constant 2018 US$)}}
+{synopt:{bf:{help wbopendata_topicid##DT.ODA.ALLD.KD:DT.ODA.ALLD.KD} - Net official development assistance and official aid received (constant 2020 US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -716,7 +769,7 @@
 
 {synoptline}
 {marker topicid_DT.ODA.OATL.KD}
-{synopt:{bf:{help wbopendata_topicid##DT.ODA.OATL.KD:DT.ODA.OATL.KD} - Net official aid received (constant 2018 US$)}}
+{synopt:{bf:{help wbopendata_topicid##DT.ODA.OATL.KD:DT.ODA.OATL.KD} - Net official aid received (constant 2020 US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -768,7 +821,7 @@
 
 {synoptline}
 {marker topicid_DT.ODA.ODAT.KD}
-{synopt:{bf:{help wbopendata_topicid##DT.ODA.ODAT.KD:DT.ODA.ODAT.KD} - Net official development assistance received (constant 2018 US$)}}
+{synopt:{bf:{help wbopendata_topicid##DT.ODA.ODAT.KD:DT.ODA.ODAT.KD} - Net official development assistance received (constant 2020 US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -828,7 +881,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary and secondary education is the ratio of girls to boys enrolled at primary and secondary levels in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -841,7 +894,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -945,20 +998,20 @@
 
 {synopt:{opt Source Notes}}Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles. Percentage shares by quintile may not sum to 100 because of rounding.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
 {marker topicid_SI.POV.DDAY}
-{synopt:{bf:{help wbopendata_topicid##SI.POV.DDAY:SI.POV.DDAY} - Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)}}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.DDAY:SI.POV.DDAY} - Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day is the percentage of the population living on less than $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared{p_end}
+{synopt:{opt Source Notes}}Poverty headcount ratio at $2.15 a day is the percentage of the population living on less than $2.15 a day at 2017 purchasing power adjusted prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
@@ -971,7 +1024,7 @@
 
 {synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on January 29, 2021.{p_end}
+{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization, ILOSTAT at {browse "https://ilostat.ilo.org/data/"}.{p_end}
 
 
 {synoptline}
@@ -982,10 +1035,10 @@
 
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
-{synopt:{opt Source Notes}}Net migration is the net total of migrants during the period, that is, the total number of immigrants less the annual number of emigrants, including both citizens and noncitizens. Data are five-year estimates.{p_end}
+{synopt:{opt Source Notes}}Net migration is the net total of migrants during the period, that is, the number of immigrants minus the number of emigrants, including both citizens and noncitizens.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}

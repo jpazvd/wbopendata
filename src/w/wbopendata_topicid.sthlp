@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid##topicid_topicID:}{p_end}
 {synoptline}
 
 
@@ -177,6 +178,8 @@
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DC.DAC.GRCL.CD:DC.DAC.GRCL.CD{marker DC.DAC.GRCL.CD}}}Net bilateral aid flows from DAC donors, Greece (current US$){p_end}
 
+{synopt:{help wbopendata_topicid_indicators02##topicid_DC.DAC.HUNL.CD:DC.DAC.HUNL.CD{marker DC.DAC.HUNL.CD}}}Net bilateral aid flows from DAC donors, Hungary (current US$){p_end}
+
 {synopt:{help wbopendata_topicid_indicators02##topicid_DC.DAC.IRLL.CD:DC.DAC.IRLL.CD{marker DC.DAC.IRLL.CD}}}Net bilateral aid flows from DAC donors, Ireland (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DC.DAC.ISLL.CD:DC.DAC.ISLL.CD{marker DC.DAC.ISLL.CD}}}Net bilateral aid flows from DAC donors, Iceland (current US$){p_end}
@@ -231,7 +234,11 @@
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.UNEC.CD:DT.NFL.UNEC.CD{marker DT.NFL.UNEC.CD}}}Net official flows from UN agencies, UNECE (current US$){p_end}
 
+{synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.UNEP.CD:DT.NFL.UNEP.CD{marker DT.NFL.UNEP.CD}}}Net official flows from UN agencies, UNEP (current US$){p_end}
+
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.UNFP.CD:DT.NFL.UNFP.CD{marker DT.NFL.UNFP.CD}}}Net official flows from UN agencies, UNFPA (current US$){p_end}
+
+{synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.UNID.CD:DT.NFL.UNID.CD{marker DT.NFL.UNID.CD}}}Net official flows from UN agencies, UNIDIR (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.UNPB.CD:DT.NFL.UNPB.CD{marker DT.NFL.UNPB.CD}}}Net official flows from UN agencies, UNPBF (current US$){p_end}
 
@@ -239,17 +246,19 @@
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.UNTA.CD:DT.NFL.UNTA.CD{marker DT.NFL.UNTA.CD}}}Net official flows from UN agencies, UNTA (current US$){p_end}
 
+{synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.UNWT.CD:DT.NFL.UNWT.CD{marker DT.NFL.UNWT.CD}}}Net official flows from UN agencies, UNWTO (current US$){p_end}
+
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.WFPG.CD:DT.NFL.WFPG.CD{marker DT.NFL.WFPG.CD}}}Net official flows from UN agencies, WFP (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.WHOL.CD:DT.NFL.WHOL.CD{marker DT.NFL.WHOL.CD}}}Net official flows from UN agencies, WHO (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ALLD.CD:DT.ODA.ALLD.CD{marker DT.ODA.ALLD.CD}}}Net official development assistance and official aid received (current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ALLD.KD:DT.ODA.ALLD.KD{marker DT.ODA.ALLD.KD}}}Net official development assistance and official aid received (constant 2018 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ALLD.KD:DT.ODA.ALLD.KD{marker DT.ODA.ALLD.KD}}}Net official development assistance and official aid received (constant 2020 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.OATL.CD:DT.ODA.OATL.CD{marker DT.ODA.OATL.CD}}}Net official aid received (current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.OATL.KD:DT.ODA.OATL.KD{marker DT.ODA.OATL.KD}}}Net official aid received (constant 2018 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.OATL.KD:DT.ODA.OATL.KD{marker DT.ODA.OATL.KD}}}Net official aid received (constant 2020 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.CD:DT.ODA.ODAT.CD{marker DT.ODA.ODAT.CD}}}Net official development assistance received (current US$){p_end}
 
@@ -257,7 +266,7 @@
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.GN.ZS:DT.ODA.ODAT.GN.ZS{marker DT.ODA.ODAT.GN.ZS}}}Net ODA received (% of GNI){p_end}
 
-{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.KD:DT.ODA.ODAT.KD{marker DT.ODA.ODAT.KD}}}Net official development assistance received (constant 2018 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.KD:DT.ODA.ODAT.KD{marker DT.ODA.ODAT.KD}}}Net official development assistance received (constant 2020 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.MP.ZS:DT.ODA.ODAT.MP.ZS{marker DT.ODA.ODAT.MP.ZS}}}Net ODA received (% of imports of goods, services and primary income){p_end}
 
@@ -285,7 +294,7 @@
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_SI.DST.FRST.20:SI.DST.FRST.20{marker SI.DST.FRST.20}}}Income share held by lowest 20%{p_end}
 
-{synopt:{help wbopendata_topicid_indicators02##topicid_SI.POV.DDAY:SI.POV.DDAY{marker SI.POV.DDAY}}}Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population){p_end}
+{synopt:{help wbopendata_topicid_indicators02##topicid_SI.POV.DDAY:SI.POV.DDAY{marker SI.POV.DDAY}}}Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_SL.EMP.VULN.ZS:SL.EMP.VULN.ZS{marker SL.EMP.VULN.ZS}}}Vulnerable employment, total (% of total employment) (modeled ILO estimate){p_end}
 
@@ -496,7 +505,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.GOVT.CN:NE.CON.GOVT.CN{marker NE.CON.GOVT.CN}}}General government final consumption expenditure (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.GOVT.KD:NE.CON.GOVT.KD{marker NE.CON.GOVT.KD}}}General government final consumption expenditure (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.GOVT.KD:NE.CON.GOVT.KD{marker NE.CON.GOVT.KD}}}General government final consumption expenditure (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.GOVT.KD.ZG:NE.CON.GOVT.KD.ZG{marker NE.CON.GOVT.KD.ZG}}}General government final consumption expenditure (annual % growth){p_end}
 
@@ -520,13 +529,15 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.CN:NE.CON.PRVT.CN{marker NE.CON.PRVT.CN}}}Households and NPISHs Final consumption expenditure (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.KD:NE.CON.PRVT.KD{marker NE.CON.PRVT.KD}}}Households and NPISHs Final consumption expenditure (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.CN.AD:NE.CON.PRVT.CN.AD{marker NE.CON.PRVT.CN.AD}}}Households and NPISHs final consumption expenditure: linked series (current LCU){p_end}
+
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.KD:NE.CON.PRVT.KD{marker NE.CON.PRVT.KD}}}Households and NPISHs Final consumption expenditure (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.KD.ZG:NE.CON.PRVT.KD.ZG{marker NE.CON.PRVT.KD.ZG}}}Households and NPISHs Final consumption expenditure (annual % growth){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.KN:NE.CON.PRVT.KN{marker NE.CON.PRVT.KN}}}Households and NPISHs Final consumption expenditure (constant LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.PC.KD:NE.CON.PRVT.PC.KD{marker NE.CON.PRVT.PC.KD}}}Households and NPISHs Final consumption expenditure per capita (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.PC.KD:NE.CON.PRVT.PC.KD{marker NE.CON.PRVT.PC.KD}}}Households and NPISHs Final consumption expenditure per capita (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.PC.KD.ZG:NE.CON.PRVT.PC.KD.ZG{marker NE.CON.PRVT.PC.KD.ZG}}}Households and NPISHs Final consumption expenditure per capita growth (annual %){p_end}
 
@@ -552,7 +563,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.TOTL.CN:NE.CON.TOTL.CN{marker NE.CON.TOTL.CN}}}Final consumption expenditure (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.TOTL.KD:NE.CON.TOTL.KD{marker NE.CON.TOTL.KD}}}Final consumption expenditure (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.TOTL.KD:NE.CON.TOTL.KD{marker NE.CON.TOTL.KD}}}Final consumption expenditure (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.TOTL.KD.ZG:NE.CON.TOTL.KD.ZG{marker NE.CON.TOTL.KD.ZG}}}Final consumption expenditure (annual % growth){p_end}
 
@@ -566,7 +577,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.DAB.TOTL.CN:NE.DAB.TOTL.CN{marker NE.DAB.TOTL.CN}}}Gross national expenditure (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.DAB.TOTL.KD:NE.DAB.TOTL.KD{marker NE.DAB.TOTL.KD}}}Gross national expenditure (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.DAB.TOTL.KD:NE.DAB.TOTL.KD{marker NE.DAB.TOTL.KD}}}Gross national expenditure (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.DAB.TOTL.KN:NE.DAB.TOTL.KN{marker NE.DAB.TOTL.KN}}}Gross national expenditure (constant LCU){p_end}
 
@@ -576,7 +587,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.EXP.GNFS.CN:NE.EXP.GNFS.CN{marker NE.EXP.GNFS.CN}}}Exports of goods and services (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.EXP.GNFS.KD:NE.EXP.GNFS.KD{marker NE.EXP.GNFS.KD}}}Exports of goods and services (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.EXP.GNFS.KD:NE.EXP.GNFS.KD{marker NE.EXP.GNFS.KD}}}Exports of goods and services (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.EXP.GNFS.KD.ZG:NE.EXP.GNFS.KD.ZG{marker NE.EXP.GNFS.KD.ZG}}}Exports of goods and services (annual % growth){p_end}
 
@@ -592,7 +603,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.GDI.FTOT.CN:NE.GDI.FTOT.CN{marker NE.GDI.FTOT.CN}}}Gross fixed capital formation (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.GDI.FTOT.KD:NE.GDI.FTOT.KD{marker NE.GDI.FTOT.KD}}}Gross fixed capital formation (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.GDI.FTOT.KD:NE.GDI.FTOT.KD{marker NE.GDI.FTOT.KD}}}Gross fixed capital formation (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.GDI.FTOT.KD.ZG:NE.GDI.FTOT.KD.ZG{marker NE.GDI.FTOT.KD.ZG}}}Gross fixed capital formation (annual % growth){p_end}
 
@@ -610,7 +621,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.GDI.TOTL.CN:NE.GDI.TOTL.CN{marker NE.GDI.TOTL.CN}}}Gross capital formation (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.GDI.TOTL.KD:NE.GDI.TOTL.KD{marker NE.GDI.TOTL.KD}}}Gross capital formation (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.GDI.TOTL.KD:NE.GDI.TOTL.KD{marker NE.GDI.TOTL.KD}}}Gross capital formation (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.GDI.TOTL.KD.ZG:NE.GDI.TOTL.KD.ZG{marker NE.GDI.TOTL.KD.ZG}}}Gross capital formation (annual % growth){p_end}
 
@@ -622,7 +633,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.IMP.GNFS.CN:NE.IMP.GNFS.CN{marker NE.IMP.GNFS.CN}}}Imports of goods and services (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.IMP.GNFS.KD:NE.IMP.GNFS.KD{marker NE.IMP.GNFS.KD}}}Imports of goods and services (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.IMP.GNFS.KD:NE.IMP.GNFS.KD{marker NE.IMP.GNFS.KD}}}Imports of goods and services (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.IMP.GNFS.KD.ZG:NE.IMP.GNFS.KD.ZG{marker NE.IMP.GNFS.KD.ZG}}}Imports of goods and services (annual % growth){p_end}
 
@@ -640,11 +651,13 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.TRD.GNFS.ZS:NE.TRD.GNFS.ZS{marker NE.TRD.GNFS.ZS}}}Trade (% of GDP){p_end}
 
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.AGR.EMPL.KD:NV.AGR.EMPL.KD{marker NV.AGR.EMPL.KD}}}Agriculture, forestry, and fishing, value added per worker (constant 2015 US$){p_end}
+
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.AGR.TOTL.CD:NV.AGR.TOTL.CD{marker NV.AGR.TOTL.CD}}}Agriculture, forestry, and fishing, value added (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.AGR.TOTL.CN:NV.AGR.TOTL.CN{marker NV.AGR.TOTL.CN}}}Agriculture, forestry, and fishing, value added (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NV.AGR.TOTL.KD:NV.AGR.TOTL.KD{marker NV.AGR.TOTL.KD}}}Agriculture, forestry, and fishing, value added (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.AGR.TOTL.KD:NV.AGR.TOTL.KD{marker NV.AGR.TOTL.KD}}}Agriculture, forestry, and fishing, value added (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.AGR.TOTL.KD.ZG:NV.AGR.TOTL.KD.ZG{marker NV.AGR.TOTL.KD.ZG}}}Agriculture, forestry, and fishing, value added (annual % growth){p_end}
 
@@ -656,11 +669,13 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.FSM.TOTL.KN:NV.FSM.TOTL.KN{marker NV.FSM.TOTL.KN}}}Financial intermediary services indirectly Measured (FISIM) (constant LCU){p_end}
 
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.EMPL.KD:NV.IND.EMPL.KD{marker NV.IND.EMPL.KD}}}Industry (including construction), value added per worker (constant 2015 US$){p_end}
+
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.MANF.CD:NV.IND.MANF.CD{marker NV.IND.MANF.CD}}}Manufacturing, value added (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.MANF.CN:NV.IND.MANF.CN{marker NV.IND.MANF.CN}}}Manufacturing, value added (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.MANF.KD:NV.IND.MANF.KD{marker NV.IND.MANF.KD}}}Manufacturing, value added (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.MANF.KD:NV.IND.MANF.KD{marker NV.IND.MANF.KD}}}Manufacturing, value added (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.MANF.KD.ZG:NV.IND.MANF.KD.ZG{marker NV.IND.MANF.KD.ZG}}}Manufacturing, value added (annual % growth){p_end}
 
@@ -672,7 +687,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.TOTL.CN:NV.IND.TOTL.CN{marker NV.IND.TOTL.CN}}}Industry (including construction), value added (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.TOTL.KD:NV.IND.TOTL.KD{marker NV.IND.TOTL.KD}}}Industry (including construction), value added (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.TOTL.KD:NV.IND.TOTL.KD{marker NV.IND.TOTL.KD}}}Industry (including construction), value added (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.TOTL.KD.ZG:NV.IND.TOTL.KD.ZG{marker NV.IND.TOTL.KD.ZG}}}Industry (including construction), value added (annual % growth){p_end}
 
@@ -688,7 +703,11 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.MNF.OTHR.ZS.UN:NV.MNF.OTHR.ZS.UN{marker NV.MNF.OTHR.ZS.UN}}}Other manufacturing (% of value added in manufacturing){p_end}
 
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.MNF.TECH.ZS.UN:NV.MNF.TECH.ZS.UN{marker NV.MNF.TECH.ZS.UN}}}Medium and high-tech manufacturing value added (% manufacturing value added){p_end}
+
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.MNF.TXTL.ZS.UN:NV.MNF.TXTL.ZS.UN{marker NV.MNF.TXTL.ZS.UN}}}Textiles and clothing (% of value added in manufacturing){p_end}
+
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.EMPL.KD:NV.SRV.EMPL.KD{marker NV.SRV.EMPL.KD}}}Services, value added per worker (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TETC.CD:NV.SRV.TETC.CD{marker NV.SRV.TETC.CD}}}Services, etc., value added (current US$){p_end}
 
@@ -702,9 +721,15 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TETC.ZS:NV.SRV.TETC.ZS{marker NV.SRV.TETC.ZS}}}Services, etc., value added (% of GDP){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TOTL.KD:NV.SRV.TOTL.KD{marker NV.SRV.TOTL.KD}}}Services, value added (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TOTL.CD:NV.SRV.TOTL.CD{marker NV.SRV.TOTL.CD}}}Services, value added (current US$){p_end}
+
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TOTL.CN:NV.SRV.TOTL.CN{marker NV.SRV.TOTL.CN}}}Services, value added (current LCU){p_end}
+
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TOTL.KD:NV.SRV.TOTL.KD{marker NV.SRV.TOTL.KD}}}Services, value added (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TOTL.KD.ZG:NV.SRV.TOTL.KD.ZG{marker NV.SRV.TOTL.KD.ZG}}}Services, value added (annual % growth){p_end}
+
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TOTL.KN:NV.SRV.TOTL.KN{marker NV.SRV.TOTL.KN}}}Services, value added (constant LCU){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TOTL.ZS:NV.SRV.TOTL.ZS{marker NV.SRV.TOTL.ZS}}}Services, value added (% of GDP){p_end}
 
@@ -746,13 +771,13 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.ADJ.NNTY.CD:NY.ADJ.NNTY.CD{marker NY.ADJ.NNTY.CD}}}Adjusted net national income (current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.ADJ.NNTY.KD:NY.ADJ.NNTY.KD{marker NY.ADJ.NNTY.KD}}}Adjusted net national income (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.ADJ.NNTY.KD:NY.ADJ.NNTY.KD{marker NY.ADJ.NNTY.KD}}}Adjusted net national income (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.ADJ.NNTY.KD.ZG:NY.ADJ.NNTY.KD.ZG{marker NY.ADJ.NNTY.KD.ZG}}}Adjusted net national income (annual % growth){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.ADJ.NNTY.PC.CD:NY.ADJ.NNTY.PC.CD{marker NY.ADJ.NNTY.PC.CD}}}Adjusted net national income per capita (current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.ADJ.NNTY.PC.KD:NY.ADJ.NNTY.PC.KD{marker NY.ADJ.NNTY.PC.KD}}}Adjusted net national income per capita (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.ADJ.NNTY.PC.KD:NY.ADJ.NNTY.PC.KD{marker NY.ADJ.NNTY.PC.KD}}}Adjusted net national income per capita (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.ADJ.NNTY.PC.KD.ZG:NY.ADJ.NNTY.PC.KD.ZG{marker NY.ADJ.NNTY.PC.KD.ZG}}}Adjusted net national income per capita (annual % growth){p_end}
 
@@ -778,7 +803,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.FCST.CN:NY.GDP.FCST.CN{marker NY.GDP.FCST.CN}}}Gross value added at basic prices (GVA) (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.FCST.KD:NY.GDP.FCST.KD{marker NY.GDP.FCST.KD}}}Gross value added at basic prices (GVA) (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.FCST.KD:NY.GDP.FCST.KD{marker NY.GDP.FCST.KD}}}Gross value added at basic prices (GVA) (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.FCST.KN:NY.GDP.FCST.KN{marker NY.GDP.FCST.KN}}}Gross value added at basic prices (GVA) (constant LCU){p_end}
 
@@ -788,7 +813,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.MKTP.CN.AD:NY.GDP.MKTP.CN.AD{marker NY.GDP.MKTP.CN.AD}}}GDP: linked series (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.MKTP.KD:NY.GDP.MKTP.KD{marker NY.GDP.MKTP.KD}}}GDP (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.MKTP.KD:NY.GDP.MKTP.KD{marker NY.GDP.MKTP.KD}}}GDP (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.MKTP.KD.ZG:NY.GDP.MKTP.KD.ZG{marker NY.GDP.MKTP.KD.ZG}}}GDP growth (annual %){p_end}
 
@@ -802,7 +827,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.PCAP.CN:NY.GDP.PCAP.CN{marker NY.GDP.PCAP.CN}}}GDP per capita (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.PCAP.KD:NY.GDP.PCAP.KD{marker NY.GDP.PCAP.KD}}}GDP per capita (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.PCAP.KD:NY.GDP.PCAP.KD{marker NY.GDP.PCAP.KD}}}GDP per capita (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.PCAP.KD.ZG:NY.GDP.PCAP.KD.ZG{marker NY.GDP.PCAP.KD.ZG}}}GDP per capita growth (annual %){p_end}
 
@@ -826,7 +851,9 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.MKTP.CN:NY.GNP.MKTP.CN{marker NY.GNP.MKTP.CN}}}GNI (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.MKTP.KD:NY.GNP.MKTP.KD{marker NY.GNP.MKTP.KD}}}GNI (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.MKTP.CN.AD:NY.GNP.MKTP.CN.AD{marker NY.GNP.MKTP.CN.AD}}}GNI: linked series (current LCU){p_end}
+
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.MKTP.KD:NY.GNP.MKTP.KD{marker NY.GNP.MKTP.KD}}}GNI (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.MKTP.KD.ZG:NY.GNP.MKTP.KD.ZG{marker NY.GNP.MKTP.KD.ZG}}}GNI growth (annual %){p_end}
 
@@ -840,7 +867,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.PCAP.CN:NY.GNP.PCAP.CN{marker NY.GNP.PCAP.CN}}}GNI per capita (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.PCAP.KD:NY.GNP.PCAP.KD{marker NY.GNP.PCAP.KD}}}GNI per capita (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.PCAP.KD:NY.GNP.PCAP.KD{marker NY.GNP.PCAP.KD}}}GNI per capita (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.PCAP.KD.ZG:NY.GNP.PCAP.KD.ZG{marker NY.GNP.PCAP.KD.ZG}}}GNI per capita growth (annual %){p_end}
 
@@ -1819,6 +1846,8 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPL.MA.ZS:SE.PRM.CMPL.MA.ZS{marker SE.PRM.CMPL.MA.ZS}}}Gross graduation ratio, primary, male (%){p_end}
 
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPL.ZS:SE.PRM.CMPL.ZS{marker SE.PRM.CMPL.ZS}}}Gross graduation ratio, primary, total (%){p_end}
+
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPT.FE.ZS:SE.PRM.CMPT.FE.ZS{marker SE.PRM.CMPT.FE.ZS}}}Primary completion rate, female (% of relevant age group){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPT.MA.ZS:SE.PRM.CMPT.MA.ZS{marker SE.PRM.CMPT.MA.ZS}}}Primary completion rate, male (% of relevant age group){p_end}
@@ -1956,6 +1985,8 @@
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL:SE.SEC.ENRL{marker SE.SEC.ENRL}}}Secondary education, pupils{p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.FE:SE.SEC.ENRL.FE{marker SE.SEC.ENRL.FE}}}Enrolment in secondary education, female (number){p_end}
+
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.FE.VO.ZS:SE.SEC.ENRL.FE.VO.ZS{marker SE.SEC.ENRL.FE.VO.ZS}}}Vocational and Technical enrolment (% of total secondary enrolment), female{p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.FE.ZS:SE.SEC.ENRL.FE.ZS{marker SE.SEC.ENRL.FE.ZS}}}Secondary education, pupils (% female){p_end}
 
@@ -2631,7 +2662,7 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SP.TER.TOTL.MA.IN:SP.TER.TOTL.MA.IN{marker SP.TER.TOTL.MA.IN}}}School age population, tertiary education, male (number){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.CEAge.1:UIS.CEAge.1{marker UIS.CEAge.1}}}Official entrance age to compulsory education (years){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.CEAGE.1:UIS.CEAGE.1{marker UIS.CEAGE.1}}}Official entrance age to compulsory education (years){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2:UIS.E.2{marker UIS.E.2}}}Enrolment in lower secondary education, both sexes (number){p_end}
 
@@ -2675,11 +2706,11 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.123.M:UIS.GER.123.M{marker UIS.GER.123.M}}}Gross enrolment ratio, primary and secondary, male (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.1t6.F:UIS.GER.1t6.F{marker UIS.GER.1t6.F}}}Gross enrolment ratio, primary to tertiary, female (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.1T6.F:UIS.GER.1T6.F{marker UIS.GER.1T6.F}}}Gross enrolment ratio, primary to tertiary, female (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.1t6.GPI:UIS.GER.1t6.GPI{marker UIS.GER.1t6.GPI}}}Gross enrolment ratio, primary to tertiary, gender parity index (GPI){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.1T6.GPI:UIS.GER.1T6.GPI{marker UIS.GER.1T6.GPI}}}Gross enrolment ratio, primary to tertiary, gender parity index (GPI){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.1t6.M:UIS.GER.1t6.M{marker UIS.GER.1t6.M}}}Gross enrolment ratio, primary to tertiary, male (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.1T6.M:UIS.GER.1T6.M{marker UIS.GER.1T6.M}}}Gross enrolment ratio, primary to tertiary, male (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.2.GPI:UIS.GER.2.GPI{marker UIS.GER.2.GPI}}}Gross enrolment ratio, lower secondary, gender parity index (GPI){p_end}
 
@@ -2712,216 +2743,6 @@
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.MS.56.T:UIS.MS.56.T{marker UIS.MS.56.T}}}Total inbound internationally mobile students, both sexes (number){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.MSEP.56:UIS.MSEP.56{marker UIS.MSEP.56}}}Inbound mobility rate, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NERT.1.GPI:UIS.NERT.1.GPI{marker UIS.NERT.1.GPI}}}Total net enrolment rate, primary, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OE.56.40510:UIS.OE.56.40510{marker UIS.OE.56.40510}}}Total outbound internationally mobile tertiary students studying abroad, all countries, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OFST.2:UIS.OFST.2{marker UIS.OFST.2}}}Out-of-school adolescents of lower secondary school age, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OFST.2.F:UIS.OFST.2.F{marker UIS.OFST.2.F}}}Out-of-school adolescents of lower secondary school age, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OFST.2.M:UIS.OFST.2.M{marker UIS.OFST.2.M}}}Out-of-school adolescents of lower secondary school age, male (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OMR.56:UIS.OMR.56{marker UIS.OMR.56}}}Outbound mobility ratio, all regions, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1:UIS.R.1{marker UIS.R.1}}}Repeaters in primary education, all grades, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.F:UIS.R.1.F{marker UIS.R.1.F}}}Repeaters in primary education, all grades, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G1:UIS.R.1.G1{marker UIS.R.1.G1}}}Repeaters in Grade 1 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G1.F:UIS.R.1.G1.F{marker UIS.R.1.G1.F}}}Repeaters in Grade 1 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G2:UIS.R.1.G2{marker UIS.R.1.G2}}}Repeaters in Grade 2 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G2.F:UIS.R.1.G2.F{marker UIS.R.1.G2.F}}}Repeaters in Grade 2 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G3:UIS.R.1.G3{marker UIS.R.1.G3}}}Repeaters in Grade 3 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G3.F:UIS.R.1.G3.F{marker UIS.R.1.G3.F}}}Repeaters in Grade 3 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G4:UIS.R.1.G4{marker UIS.R.1.G4}}}Repeaters in Grade 4 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G4.F:UIS.R.1.G4.F{marker UIS.R.1.G4.F}}}Repeaters in Grade 4 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G5:UIS.R.1.G5{marker UIS.R.1.G5}}}Repeaters in Grade 5 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G5.F:UIS.R.1.G5.F{marker UIS.R.1.G5.F}}}Repeaters in Grade 5 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G6:UIS.R.1.G6{marker UIS.R.1.G6}}}Repeaters in Grade 6 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G6.F:UIS.R.1.G6.F{marker UIS.R.1.G6.F}}}Repeaters in Grade 6 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G7:UIS.R.1.G7{marker UIS.R.1.G7}}}Repeaters in Grade 7 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G7.F:UIS.R.1.G7.F{marker UIS.R.1.G7.F}}}Repeaters in Grade 7 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV:UIS.R.2.GPV{marker UIS.R.2.GPV}}}Repeaters in lower secondary general education, all grades, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.F:UIS.R.2.GPV.F{marker UIS.R.2.GPV.F}}}Repeaters in lower secondary general education, all grades, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G1:UIS.R.2.GPV.G1{marker UIS.R.2.GPV.G1}}}Repeaters in Grade 1 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G1.F:UIS.R.2.GPV.G1.F{marker UIS.R.2.GPV.G1.F}}}Repeaters in Grade 1 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G2:UIS.R.2.GPV.G2{marker UIS.R.2.GPV.G2}}}Repeaters in Grade 2 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G2.F:UIS.R.2.GPV.G2.F{marker UIS.R.2.GPV.G2.F}}}Repeaters in Grade 2 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G3:UIS.R.2.GPV.G3{marker UIS.R.2.GPV.G3}}}Repeaters in Grade 3 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G3.F:UIS.R.2.GPV.G3.F{marker UIS.R.2.GPV.G3.F}}}Repeaters in Grade 3 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G4:UIS.R.2.GPV.G4{marker UIS.R.2.GPV.G4}}}Repeaters in Grade 4 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G4.F:UIS.R.2.GPV.G4.F{marker UIS.R.2.GPV.G4.F}}}Repeaters in Grade 4 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G5:UIS.R.2.GPV.G5{marker UIS.R.2.GPV.G5}}}Repeaters in Grade 5 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G5.F:UIS.R.2.GPV.G5.F{marker UIS.R.2.GPV.G5.F}}}Repeaters in Grade 5 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G6:UIS.R.2.GPV.G6{marker UIS.R.2.GPV.G6}}}Repeaters in Grade 6 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G6.F:UIS.R.2.GPV.G6.F{marker UIS.R.2.GPV.G6.F}}}Repeaters in Grade 6 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G1:UIS.REPR.1.G1{marker UIS.REPR.1.G1}}}Repetition rate in Grade 1 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G1.F:UIS.REPR.1.G1.F{marker UIS.REPR.1.G1.F}}}Repetition rate in Grade 1 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G1.M:UIS.REPR.1.G1.M{marker UIS.REPR.1.G1.M}}}Repetition rate in Grade 1 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G2:UIS.REPR.1.G2{marker UIS.REPR.1.G2}}}Repetition rate in Grade 2 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G2.F:UIS.REPR.1.G2.F{marker UIS.REPR.1.G2.F}}}Repetition rate in Grade 2 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G2.M:UIS.REPR.1.G2.M{marker UIS.REPR.1.G2.M}}}Repetition rate in Grade 2 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G3:UIS.REPR.1.G3{marker UIS.REPR.1.G3}}}Repetition rate in Grade 3 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G3.F:UIS.REPR.1.G3.F{marker UIS.REPR.1.G3.F}}}Repetition rate in Grade 3 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G3.M:UIS.REPR.1.G3.M{marker UIS.REPR.1.G3.M}}}Repetition rate in Grade 3 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G4:UIS.REPR.1.G4{marker UIS.REPR.1.G4}}}Repetition rate in Grade 4 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G4.F:UIS.REPR.1.G4.F{marker UIS.REPR.1.G4.F}}}Repetition rate in Grade 4 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G4.M:UIS.REPR.1.G4.M{marker UIS.REPR.1.G4.M}}}Repetition rate in Grade 4 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G5:UIS.REPR.1.G5{marker UIS.REPR.1.G5}}}Repetition rate in Grade 5 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G5.F:UIS.REPR.1.G5.F{marker UIS.REPR.1.G5.F}}}Repetition rate in Grade 5 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G5.M:UIS.REPR.1.G5.M{marker UIS.REPR.1.G5.M}}}Repetition rate in Grade 5 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G6:UIS.REPR.1.G6{marker UIS.REPR.1.G6}}}Repetition rate in Grade 6 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G6.F:UIS.REPR.1.G6.F{marker UIS.REPR.1.G6.F}}}Repetition rate in Grade 6 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G6.M:UIS.REPR.1.G6.M{marker UIS.REPR.1.G6.M}}}Repetition rate in Grade 6 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G7:UIS.REPR.1.G7{marker UIS.REPR.1.G7}}}Repetition rate in Grade 7 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G7.F:UIS.REPR.1.G7.F{marker UIS.REPR.1.G7.F}}}Repetition rate in Grade 7 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G7.M:UIS.REPR.1.G7.M{marker UIS.REPR.1.G7.M}}}Repetition rate in Grade 7 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFST.1:UIS.ROFST.1{marker UIS.ROFST.1}}}Out-of-school rate for children of primary school age, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFST.1.F:UIS.ROFST.1.F{marker UIS.ROFST.1.F}}}Out-of-school rate for children of primary school age, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFST.1.M:UIS.ROFST.1.M{marker UIS.ROFST.1.M}}}Out-of-school rate for children of primary school age, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFST.2:UIS.ROFST.2{marker UIS.ROFST.2}}}Out-of-school rate for adolescents of lower secondary school age, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFST.2.F:UIS.ROFST.2.F{marker UIS.ROFST.2.F}}}Out-of-school rate for adolescents of lower secondary school age, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFST.2.M:UIS.ROFST.2.M{marker UIS.ROFST.2.M}}}Out-of-school rate for adolescents of lower secondary school age, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SAP.1.G1:UIS.SAP.1.G1{marker UIS.SAP.1.G1}}}Population of the official entrance age to primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SAP.1.G1.F:UIS.SAP.1.G1.F{marker UIS.SAP.1.G1.F}}}Population of the official entrance age to primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SAP.1.G1.M:UIS.SAP.1.G1.M{marker UIS.SAP.1.G1.M}}}Population of the official entrance age to primary education, male (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SAP.4:UIS.SAP.4{marker UIS.SAP.4}}}School age population, post-secondary non-tertiary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SAP.4.F:UIS.SAP.4.F{marker UIS.SAP.4.F}}}School age population, post-secondary non-tertiary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SAP.4.M:UIS.SAP.4.M{marker UIS.SAP.4.M}}}School age population, post-secondary non-tertiary education, male (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.123:UIS.SLE.123{marker UIS.SLE.123}}}School life expectancy, primary and secondary, both sexes (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.123.F:UIS.SLE.123.F{marker UIS.SLE.123.F}}}School life expectancy, primary and secondary, female (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.123.GPI:UIS.SLE.123.GPI{marker UIS.SLE.123.GPI}}}School life expectancy, primary and secondary, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.123.M:UIS.SLE.123.M{marker UIS.SLE.123.M}}}School life expectancy, primary and secondary, male (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.1t6.GPI:UIS.SLE.1t6.GPI{marker UIS.SLE.1t6.GPI}}}School life expectancy, primary to tertiary, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.56:UIS.SLE.56{marker UIS.SLE.56}}}School life expectancy, tertiary, both sexes (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.56.F:UIS.SLE.56.F{marker UIS.SLE.56.F}}}School life expectancy, tertiary, female (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.56.GPI:UIS.SLE.56.GPI{marker UIS.SLE.56.GPI}}}School life expectancy, tertiary, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.56.M:UIS.SLE.56.M{marker UIS.SLE.56.M}}}School life expectancy, tertiary, male (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SR.1.G4:UIS.SR.1.G4{marker UIS.SR.1.G4}}}Survival rate to Grade 4 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SR.1.G4.F:UIS.SR.1.G4.F{marker UIS.SR.1.G4.F}}}Survival rate to Grade 4 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SR.1.G4.GPI:UIS.SR.1.G4.GPI{marker UIS.SR.1.G4.GPI}}}Survival rate to Grade 4 of primary education, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SR.1.G4.M:UIS.SR.1.G4.M{marker UIS.SR.1.G4.M}}}Survival rate to Grade 4 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SR.1.G5.GPI:UIS.SR.1.G5.GPI{marker UIS.SR.1.G5.GPI}}}Survival rate to Grade 5 of primary education, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SR.1.GLAST.GPI:UIS.SR.1.GLAST.GPI{marker UIS.SR.1.GLAST.GPI}}}Survival rate to the last grade of primary education, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.2:UIS.T.2{marker UIS.T.2}}}Teachers in lower secondary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.2.F:UIS.T.2.F{marker UIS.T.2.F}}}Teachers in lower secondary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.3:UIS.T.3{marker UIS.T.3}}}Teachers in upper secondary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.3.F:UIS.T.3.F{marker UIS.T.3.F}}}Teachers in upper secondary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.4:UIS.T.4{marker UIS.T.4}}}Teachers in post-secondary non-tertiary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.4.F:UIS.T.4.F{marker UIS.T.4.F}}}Teachers in post-secondary non-tertiary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRTP.2:UIS.TRTP.2{marker UIS.TRTP.2}}}Proportion of teachers with the minimum required qualifications in lower secondary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRTP.2.F:UIS.TRTP.2.F{marker UIS.TRTP.2.F}}}Proportion of teachers with the minimum required qualifications in lower secondary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRTP.2.M:UIS.TRTP.2.M{marker UIS.TRTP.2.M}}}Proportion of teachers with the minimum required qualifications in lower secondary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRTP.3:UIS.TRTP.3{marker UIS.TRTP.3}}}Proportion of teachers with the minimum required qualifications in upper secondary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRTP.3.F:UIS.TRTP.3.F{marker UIS.TRTP.3.F}}}Proportion of teachers with the minimum required qualifications in upper secondary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRTP.3.M:UIS.TRTP.3.M{marker UIS.TRTP.3.M}}}Proportion of teachers with the minimum required qualifications in upper secondary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.XSPENDP.56.FDPUB.FNCAP:UIS.XSPENDP.56.FDPUB.FNCAP{marker UIS.XSPENDP.56.FDPUB.FNCAP}}}Capital expenditure as % of total expenditure in tertiary public institutions (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.XSPENDP.56.FDPUB.FNCUR:UIS.XSPENDP.56.FDPUB.FNCUR{marker UIS.XSPENDP.56.FDPUB.FNCUR}}}Current expenditure as % of total expenditure in tertiary public institutions (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.XSPENDP.56.FDPUB.FNNONS:UIS.XSPENDP.56.FDPUB.FNNONS{marker UIS.XSPENDP.56.FDPUB.FNNONS}}}Current expenditure other than staff compensation as % of total expenditure in tertiary public institutions (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.XSPENDP.56.FDPUB.FNS:UIS.XSPENDP.56.FDPUB.FNS{marker UIS.XSPENDP.56.FDPUB.FNS}}}All staff compensation as % of total expenditure in tertiary public institutions (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.thAge.0:UIS.thAge.0{marker UIS.thAge.0}}}Official entrance age to early childhood education (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.thAge.3.A.GPV:UIS.thAge.3.A.GPV{marker UIS.thAge.3.A.GPV}}}Official entrance age to upper secondary education (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.thAge.4.A.GPV:UIS.thAge.4.A.GPV{marker UIS.thAge.4.A.GPV}}}Official entrance age to post-secondary non-tertiary education (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.thDur.0:UIS.thDur.0{marker UIS.thDur.0}}}Theoretical duration of early childhood education (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.thDur.4.A.GPV:UIS.thDur.4.A.GPV{marker UIS.thDur.4.A.GPV}}}Theoretical duration of post-secondary non-tertiary education (years){p_end}
 {synoptline}
 
 {marker topicid_05}
@@ -2930,7 +2751,7 @@
 {synopthdr:05 Energy and Mining}
 {synoptline}
 
-{synopt:{help wbopendata_topicid_indicators05##topicid_EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD{marker EG.EGY.PRIM.PP.KD}}}Energy intensity level of primary energy (MJ/$2011 PPP GDP){p_end}
+{synopt:{help wbopendata_topicid_indicators05##topicid_EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD{marker EG.EGY.PRIM.PP.KD}}}Energy intensity level of primary energy (MJ/$2017 PPP GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators05##topicid_EG.ELC.ACCS.RU.ZS:EG.ELC.ACCS.RU.ZS{marker EG.ELC.ACCS.RU.ZS}}}Access to electricity, rural (% of rural population){p_end}
 
@@ -3073,9 +2894,13 @@
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EE.BOD.TOTL.KG:EE.BOD.TOTL.KG{marker EE.BOD.TOTL.KG}}}Organic water pollutant (BOD) emissions (kg per day){p_end}
 
+{synopt:{help wbopendata_topicid_indicators06##topicid_EG.CFT.ACCS.RU.ZS:EG.CFT.ACCS.RU.ZS{marker EG.CFT.ACCS.RU.ZS}}}Access to clean fuels and technologies for cooking, rural (% of rural population){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EG.CFT.ACCS.UR.ZS:EG.CFT.ACCS.UR.ZS{marker EG.CFT.ACCS.UR.ZS}}}Access to clean fuels and technologies for cooking, urban (% of urban population){p_end}
+
 {synopt:{help wbopendata_topicid_indicators06##topicid_EG.CFT.ACCS.ZS:EG.CFT.ACCS.ZS{marker EG.CFT.ACCS.ZS}}}Access to clean fuels and technologies for cooking (% of population){p_end}
 
-{synopt:{help wbopendata_topicid_indicators06##topicid_EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD{marker EG.EGY.PRIM.PP.KD}}}Energy intensity level of primary energy (MJ/$2011 PPP GDP){p_end}
+{synopt:{help wbopendata_topicid_indicators06##topicid_EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD{marker EG.EGY.PRIM.PP.KD}}}Energy intensity level of primary energy (MJ/$2017 PPP GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EG.ELC.ACCS.ZS:EG.ELC.ACCS.ZS{marker EG.ELC.ACCS.ZS}}}Access to electricity (% of population){p_end}
 
@@ -3097,7 +2922,7 @@
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS{marker EN.ATM.CO2E.GF.ZS}}}CO2 emissions from gaseous fuel consumption (% of total){p_end}
 
-{synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD{marker EN.ATM.CO2E.KD.GD}}}CO2 emissions (kg per 2010 US$ of GDP){p_end}
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD{marker EN.ATM.CO2E.KD.GD}}}CO2 emissions (kg per 2015 US$ of GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.KT:EN.ATM.CO2E.KT{marker EN.ATM.CO2E.KT}}}CO2 emissions (kt){p_end}
 
@@ -3157,6 +2982,12 @@
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.PM25.MC.M3:EN.ATM.PM25.MC.M3{marker EN.ATM.PM25.MC.M3}}}PM2.5 air pollution, mean annual exposure (micrograms per cubic meter){p_end}
 
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.PM25.MC.T1.ZS:EN.ATM.PM25.MC.T1.ZS{marker EN.ATM.PM25.MC.T1.ZS}}}PM2.5 pollution, population exposed to levels exceeding WHO Interim Target-1 value (% of total){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.PM25.MC.T2.ZS:EN.ATM.PM25.MC.T2.ZS{marker EN.ATM.PM25.MC.T2.ZS}}}PM2.5 pollution, population exposed to levels exceeding WHO Interim Target-2 value (% of total){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.PM25.MC.T3.ZS:EN.ATM.PM25.MC.T3.ZS{marker EN.ATM.PM25.MC.T3.ZS}}}PM2.5 pollution, population exposed to levels exceeding WHO Interim Target-3 value (% of total){p_end}
+
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.PM25.MC.ZS:EN.ATM.PM25.MC.ZS{marker EN.ATM.PM25.MC.ZS}}}PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.SF6G.KT.CE:EN.ATM.SF6G.KT.CE{marker EN.ATM.SF6G.KT.CE}}}SF6 gas emissions (thousand metric tons of CO2 equivalent){p_end}
@@ -3199,13 +3030,15 @@
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_ER.FSH.PROD.MT:ER.FSH.PROD.MT{marker ER.FSH.PROD.MT}}}Total fisheries production (metric tons){p_end}
 
-{synopt:{help wbopendata_topicid_indicators06##topicid_ER.GDP.FWTL.M3.KD:ER.GDP.FWTL.M3.KD{marker ER.GDP.FWTL.M3.KD}}}Water productivity, total (constant 2010 US$ GDP per cubic meter of total freshwater withdrawal){p_end}
+{synopt:{help wbopendata_topicid_indicators06##topicid_ER.GDP.FWTL.M3.KD:ER.GDP.FWTL.M3.KD{marker ER.GDP.FWTL.M3.KD}}}Water productivity, total (constant 2015 US$ GDP per cubic meter of total freshwater withdrawal){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_ER.H2O.FWAG.ZS:ER.H2O.FWAG.ZS{marker ER.H2O.FWAG.ZS}}}Annual freshwater withdrawals, agriculture (% of total freshwater withdrawal){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_ER.H2O.FWDM.ZS:ER.H2O.FWDM.ZS{marker ER.H2O.FWDM.ZS}}}Annual freshwater withdrawals, domestic (% of total freshwater withdrawal){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_ER.H2O.FWIN.ZS:ER.H2O.FWIN.ZS{marker ER.H2O.FWIN.ZS}}}Annual freshwater withdrawals, industry (% of total freshwater withdrawal){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_ER.H2O.FWST.ZS:ER.H2O.FWST.ZS{marker ER.H2O.FWST.ZS}}}Level of water stress: freshwater withdrawal as a proportion of available freshwater resources{p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_ER.H2O.FWTL.K3:ER.H2O.FWTL.K3{marker ER.H2O.FWTL.K3}}}Annual freshwater withdrawals, total (billion cubic meters){p_end}
 
@@ -3410,6 +3243,8 @@
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_FM.AST.NFRG.CN:FM.AST.NFRG.CN{marker FM.AST.NFRG.CN}}}Net foreign assets (current LCU){p_end}
 
+{synopt:{help wbopendata_topicid_indicators07##topicid_FM.AST.PRVT.GD.ZS:FM.AST.PRVT.GD.ZS{marker FM.AST.PRVT.GD.ZS}}}Monetary Sector credit to private sector (% GDP){p_end}
+
 {synopt:{help wbopendata_topicid_indicators07##topicid_FM.AST.PRVT.ZG.M2:FM.AST.PRVT.ZG.M2{marker FM.AST.PRVT.ZG.M2}}}Claims on private sector (annual growth as % of M2){p_end}
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_FM.AST.PRVT.ZG.M3:FM.AST.PRVT.ZG.M3{marker FM.AST.PRVT.ZG.M3}}}Claims on private sector (annual growth as % of broad money){p_end}
@@ -3445,6 +3280,24 @@
 {synopt:{help wbopendata_topicid_indicators07##topicid_FS.AST.DOMS.GD.ZS:FS.AST.DOMS.GD.ZS{marker FS.AST.DOMS.GD.ZS}}}Domestic credit provided by financial sector (% of GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_FS.AST.PRVT.GD.ZS:FS.AST.PRVT.GD.ZS{marker FS.AST.PRVT.GD.ZS}}}Domestic credit to private sector (% of GDP){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.40.ZS:FX.OWN.TOTL.40.ZS{marker FX.OWN.TOTL.40.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, poorest 40% (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.60.ZS:FX.OWN.TOTL.60.ZS{marker FX.OWN.TOTL.60.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, richest 60% (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.FE.ZS:FX.OWN.TOTL.FE.ZS{marker FX.OWN.TOTL.FE.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, female (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.MA.ZS:FX.OWN.TOTL.MA.ZS{marker FX.OWN.TOTL.MA.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, male (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.OL.ZS:FX.OWN.TOTL.OL.ZS{marker FX.OWN.TOTL.OL.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, older adults (% of population ages 25+){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.PL.ZS:FX.OWN.TOTL.PL.ZS{marker FX.OWN.TOTL.PL.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, primary education or less (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.SO.ZS:FX.OWN.TOTL.SO.ZS{marker FX.OWN.TOTL.SO.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, secondary education or more (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.YG.ZS:FX.OWN.TOTL.YG.ZS{marker FX.OWN.TOTL.YG.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, young adults (% of population ages 15-24){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.ZS:FX.OWN.TOTL.ZS{marker FX.OWN.TOTL.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+){p_end}
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.AI.01:GFDD.AI.01{marker GFDD.AI.01}}}Bank accounts per 1,000 adults{p_end}
 
@@ -3524,8 +3377,6 @@
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.AM.03:GFDD.AM.03{marker GFDD.AM.03}}}Nonfinancial corporate bonds to total bonds and notes outstanding (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.AM.04:GFDD.AM.04{marker GFDD.AM.04}}}Investments financed by equity or stock sales (%){p_end}
-
 {synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.DI.01:GFDD.DI.01{marker GFDD.DI.01}}}Private credit by deposit money banks to GDP (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.DI.02:GFDD.DI.02{marker GFDD.DI.02}}}Deposit money banks'' assets to GDP (%){p_end}
@@ -3600,12 +3451,6 @@
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.OI.02:GFDD.OI.02{marker GFDD.OI.02}}}Bank deposits to GDP (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.OI.03:GFDD.OI.03{marker GFDD.OI.03}}}H-statistic{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.OI.04:GFDD.OI.04{marker GFDD.OI.04}}}Lerner index{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.OI.05:GFDD.OI.05{marker GFDD.OI.05}}}Boone indicator{p_end}
-
 {synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.OI.06:GFDD.OI.06{marker GFDD.OI.06}}}5-bank asset concentration{p_end}
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.OI.07:GFDD.OI.07{marker GFDD.OI.07}}}Liquid liabilities in millions USD (2000 constant){p_end}
@@ -3672,6 +3517,10 @@
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_PX.REX.REER:PX.REX.REER{marker PX.REX.REER}}}Real effective exchange rate index (2010 = 100){p_end}
 
+{synopt:{help wbopendata_topicid_indicators07##topicid_SI.RMT.COST.IB.ZS:SI.RMT.COST.IB.ZS{marker SI.RMT.COST.IB.ZS}}}Average transaction cost of sending remittances to a specific country (%){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_SI.RMT.COST.OB.ZS:SI.RMT.COST.OB.ZS{marker SI.RMT.COST.OB.ZS}}}Average transaction cost of sending remittances from a specific country (%){p_end}
+
 {synopt:{help wbopendata_topicid_indicators07##topicid_SM.EMI.TERT.ZS:SM.EMI.TERT.ZS{marker SM.EMI.TERT.ZS}}}Emigration rate of tertiary educated (% of total tertiary educated population){p_end}
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_SM.POP.NETM:SM.POP.NETM{marker SM.POP.NETM}}}Net migration{p_end}
@@ -3679,44 +3528,6 @@
 {synopt:{help wbopendata_topicid_indicators07##topicid_SM.POP.TOTL:SM.POP.TOTL{marker SM.POP.TOTL}}}International migrant stock, total{p_end}
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_SM.POP.TOTL.ZS:SM.POP.TOTL.ZS{marker SM.POP.TOTL.ZS}}}International migrant stock (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP15163_4.1:WP15163_4.1{marker WP15163_4.1}}}Mobile account (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP15163_4.2:WP15163_4.2{marker WP15163_4.2}}}Mobile account, male (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP15163_4.3:WP15163_4.3{marker WP15163_4.3}}}Mobile account, female (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP15163_4.8:WP15163_4.8{marker WP15163_4.8}}}Mobile account, income, poorest 40% (% ages 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP15163_4.9:WP15163_4.9{marker WP15163_4.9}}}Mobile account, income, richest 60% (% ages 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_01.1:WP_time_01.1{marker WP_time_01.1}}}Account at a financial institution (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_01.2:WP_time_01.2{marker WP_time_01.2}}}Account at a financial institution, male (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_01.3:WP_time_01.3{marker WP_time_01.3}}}Account at a financial institution, female (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_01.8:WP_time_01.8{marker WP_time_01.8}}}Account at a financial institution, income, poorest 40% (% ages 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_01.9:WP_time_01.9{marker WP_time_01.9}}}Account at a financial institution, income, richest 60% (% ages 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.1:WP_time_10.1{marker WP_time_10.1}}}Account (% age 15+) [ts]{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.2:WP_time_10.2{marker WP_time_10.2}}}Account, male (% age 15+) [ts]{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.3:WP_time_10.3{marker WP_time_10.3}}}Account, female (% age 15+) [ts]{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.4:WP_time_10.4{marker WP_time_10.4}}}Account, young adults (% ages 15-24) [ts]{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.5:WP_time_10.5{marker WP_time_10.5}}}Account, older adults (% ages 25+) [ts]{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.6:WP_time_10.6{marker WP_time_10.6}}}Account, primary education or less (% ages 15+) [ts]{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.7:WP_time_10.7{marker WP_time_10.7}}}Account, secondary education or more (% ages 15+) [ts]{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.8:WP_time_10.8{marker WP_time_10.8}}}Account, income, poorest 40% (% ages 15+) [ts]{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.9:WP_time_10.9{marker WP_time_10.9}}}Account, income, richest 60% (% ages 15+) [ts]{p_end}
 {synoptline}
 
 {marker topicid_08}
@@ -3725,7 +3536,7 @@
 {synopthdr:08 Health}
 {synoptline}
 
-{synopt:{help wbopendata_topicid_indicators08##topicid_SG.VAW.1549.ZS:SG.VAW.1549.ZS{marker SG.VAW.1549.ZS}}}Proportion of women subjected to physical and/or sexual violence in the last 12 months (% of women age 15-49){p_end}
+{synopt:{help wbopendata_topicid_indicators08##topicid_SG.VAW.1549.ZS:SG.VAW.1549.ZS{marker SG.VAW.1549.ZS}}}Proportion of women subjected to physical and/or sexual violence in the last 12 months (% of ever-partnered women ages 15-49){p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SG.VAW.ARGU.ZS:SG.VAW.ARGU.ZS{marker SG.VAW.ARGU.ZS}}}Women who believe a husband is justified in beating his wife when she argues with him (%){p_end}
 
@@ -4503,6 +4314,8 @@
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.OWGH.MA.ZS:SH.STA.OWGH.MA.ZS{marker SH.STA.OWGH.MA.ZS}}}Prevalence of overweight, weight for height, male (% of children under 5){p_end}
 
+{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.OWGH.ME.ZS:SH.STA.OWGH.ME.ZS{marker SH.STA.OWGH.ME.ZS}}}Prevalence of overweight (modeled estimate, % of children under 5){p_end}
+
 {synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.OWGH.ZS:SH.STA.OWGH.ZS{marker SH.STA.OWGH.ZS}}}Prevalence of overweight, weight for height (% of children under 5){p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.POIS.P5:SH.STA.POIS.P5{marker SH.STA.POIS.P5}}}Mortality rate attributed to unintentional poisoning (per 100,000 population){p_end}
@@ -4530,6 +4343,8 @@
 {synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STNT.FE.ZS:SH.STA.STNT.FE.ZS{marker SH.STA.STNT.FE.ZS}}}Prevalence of stunting, height for age, female (% of children under 5){p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STNT.MA.ZS:SH.STA.STNT.MA.ZS{marker SH.STA.STNT.MA.ZS}}}Prevalence of stunting, height for age, male (% of children under 5){p_end}
+
+{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STNT.ME.ZS:SH.STA.STNT.ME.ZS{marker SH.STA.STNT.ME.ZS}}}Prevalence of stunting, height for age (modeled estimate, % of children under 5){p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STNT.Q1.ZS:SH.STA.STNT.Q1.ZS{marker SH.STA.STNT.Q1.ZS}}}Malnourished children (stunting, -2SD) (% of children under 5): Q1 (lowest){p_end}
 
@@ -4771,7 +4586,7 @@
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONM.Q5.ZS:SP.DYN.CONM.Q5.ZS{marker SP.DYN.CONM.Q5.ZS}}}Current use of contraception (modern method) (% of married women): Q5 (highest){p_end}
 
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONM.ZS:SP.DYN.CONM.ZS{marker SP.DYN.CONM.ZS}}}Contraceptive prevalence, modern methods (% of women ages 15-49){p_end}
+{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONM.ZS:SP.DYN.CONM.ZS{marker SP.DYN.CONM.ZS}}}Contraceptive prevalence, any modern method (% of married women ages 15-49){p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONU.Q1.ZS:SP.DYN.CONU.Q1.ZS{marker SP.DYN.CONU.Q1.ZS}}}Current use of contraception (any method) (% of married women): Q1 (lowest){p_end}
 
@@ -4783,7 +4598,7 @@
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONU.Q5.ZS:SP.DYN.CONU.Q5.ZS{marker SP.DYN.CONU.Q5.ZS}}}Current use of contraception (any method) (% of married women): Q5 (highest){p_end}
 
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONU.ZS:SP.DYN.CONU.ZS{marker SP.DYN.CONU.ZS}}}Contraceptive prevalence, any methods (% of women ages 15-49){p_end}
+{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONU.ZS:SP.DYN.CONU.ZS{marker SP.DYN.CONU.ZS}}}Contraceptive prevalence, any method (% of married women ages 15-49){p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.IMRT.FE.IN:SP.DYN.IMRT.FE.IN{marker SP.DYN.IMRT.FE.IN}}}Mortality rate, infant, female (per 1,000 live births){p_end}
 
@@ -5079,6 +4894,8 @@
 {synopt:{help wbopendata_topicid_indicators09##topicid_IE.PPI.WATR.CD:IE.PPI.WATR.CD{marker IE.PPI.WATR.CD}}}Investment in water and sanitation with private participation (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators09##topicid_IE.PPN.ENGY.CD:IE.PPN.ENGY.CD{marker IE.PPN.ENGY.CD}}}Public private partnerships investment in energy (current US$){p_end}
+
+{synopt:{help wbopendata_topicid_indicators09##topicid_IE.PPN.ICTI.CD:IE.PPN.ICTI.CD{marker IE.PPN.ICTI.CD}}}Public private partnerships investment in ICT (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators09##topicid_IE.PPN.TELE.CD:IE.PPN.TELE.CD{marker IE.PPN.TELE.CD}}}Public private partnerships investment in telecom (current US$){p_end}
 
@@ -9856,17 +9673,17 @@
 
 {synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.2DAY:SI.POV.2DAY{marker SI.POV.2DAY}}}Poverty headcount ratio at $3.10 a day (2011 PPP) (% of population){p_end}
 
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.DDAY:SI.POV.DDAY{marker SI.POV.DDAY}}}Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population){p_end}
+{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.DDAY:SI.POV.DDAY{marker SI.POV.DDAY}}}Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population){p_end}
 
 {synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.GAP2:SI.POV.GAP2{marker SI.POV.GAP2}}}Poverty gap at $3.10 a day (2011 PPP) (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.GAPS:SI.POV.GAPS{marker SI.POV.GAPS}}}Poverty gap at $1.90 a day (2011 PPP) (%){p_end}
+{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.GAPS:SI.POV.GAPS{marker SI.POV.GAPS}}}Poverty gap at $2.15 a day (2017 PPP) (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.GINI:SI.POV.GINI{marker SI.POV.GINI}}}Gini index (World Bank estimate){p_end}
+{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.GINI:SI.POV.GINI{marker SI.POV.GINI}}}Gini index{p_end}
 
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.LMIC:SI.POV.LMIC{marker SI.POV.LMIC}}}Poverty headcount ratio at $3.20 a day (2011 PPP) (% of population){p_end}
+{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.LMIC:SI.POV.LMIC{marker SI.POV.LMIC}}}Poverty headcount ratio at $3.65 a day (2017 PPP) (% of population){p_end}
 
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.LMIC.GP:SI.POV.LMIC.GP{marker SI.POV.LMIC.GP}}}Poverty gap at $3.20 a day (2011 PPP) (%){p_end}
+{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.LMIC.GP:SI.POV.LMIC.GP{marker SI.POV.LMIC.GP}}}Poverty gap at $3.65 a day (2017 PPP) (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.MDIM:SI.POV.MDIM{marker SI.POV.MDIM}}}Multidimensional poverty headcount ratio (% of total population){p_end}
 
@@ -9892,21 +9709,21 @@
 
 {synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.RUHC:SI.POV.RUHC{marker SI.POV.RUHC}}}Rural poverty headcount ratio at national poverty lines (% of rural population){p_end}
 
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.UMIC:SI.POV.UMIC{marker SI.POV.UMIC}}}Poverty headcount ratio at $5.50 a day (2011 PPP) (% of population){p_end}
+{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.UMIC:SI.POV.UMIC{marker SI.POV.UMIC}}}Poverty headcount ratio at $6.85 a day (2017 PPP) (% of population){p_end}
 
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.UMIC.GP:SI.POV.UMIC.GP{marker SI.POV.UMIC.GP}}}Poverty gap at $5.50 a day (2011 PPP) (%){p_end}
+{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.UMIC.GP:SI.POV.UMIC.GP{marker SI.POV.UMIC.GP}}}Poverty gap at $6.85 a day (2017 PPP) (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.URGP:SI.POV.URGP{marker SI.POV.URGP}}}Urban poverty gap at national poverty lines (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.URHC:SI.POV.URHC{marker SI.POV.URHC}}}Urban poverty headcount ratio at national poverty lines (% of urban population){p_end}
 
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.SPR.PC40:SI.SPR.PC40{marker SI.SPR.PC40}}}Survey mean consumption or income per capita, bottom 40% of population (2011 PPP $ per day){p_end}
+{synopt:{help wbopendata_topicid_indicators11##topicid_SI.SPR.PC40:SI.SPR.PC40{marker SI.SPR.PC40}}}Survey mean consumption or income per capita, bottom 40% of population (2017 PPP $ per day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators11##topicid_SI.SPR.PC40.05:SI.SPR.PC40.05{marker SI.SPR.PC40.05}}}Survey mean consumption or income per capita, bottom 40% (2005 PPP $ per day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators11##topicid_SI.SPR.PC40.ZG:SI.SPR.PC40.ZG{marker SI.SPR.PC40.ZG}}}Annualized average growth rate in per capita real survey mean consumption or income, bottom 40% of population (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.SPR.PCAP:SI.SPR.PCAP{marker SI.SPR.PCAP}}}Survey mean consumption or income per capita, total population (2011 PPP $ per day){p_end}
+{synopt:{help wbopendata_topicid_indicators11##topicid_SI.SPR.PCAP:SI.SPR.PCAP{marker SI.SPR.PCAP}}}Survey mean consumption or income per capita, total population (2017 PPP $ per day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators11##topicid_SI.SPR.PCAP.05:SI.SPR.PCAP.05{marker SI.SPR.PCAP.05}}}Survey mean consumption or income per capita, total population (2005 PPP $ per day){p_end}
 
@@ -9931,7 +9748,7 @@
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.DISC.XQ:IC.BUS.DISC.XQ{marker IC.BUS.DISC.XQ}}}Business extent of disclosure index (0=less disclosure to 10=more disclosure){p_end}
 
-{synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Ease of doing business index (1=most business-friendly regulations){p_end}
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Ease of doing business rank (1=most business-friendly regulations){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.NDNS.ZS:IC.BUS.NDNS.ZS{marker IC.BUS.NDNS.ZS}}}New business density (new registrations per 1,000 people ages 15-64){p_end}
 
@@ -9948,6 +9765,8 @@
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.ELC.DURS:IC.ELC.DURS{marker IC.ELC.DURS}}}Time to obtain an electrical connection (days){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.ELC.OUTG:IC.ELC.OUTG{marker IC.ELC.OUTG}}}Power outages in firms in a typical month (number){p_end}
+
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.ELC.OUTG.ZS:IC.ELC.OUTG.ZS{marker IC.ELC.OUTG.ZS}}}Firms experiencing electrical outages (% of firms){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.ELC.TIME:IC.ELC.TIME{marker IC.ELC.TIME}}}Time required to get electricity (days){p_end}
 
@@ -9998,6 +9817,10 @@
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.FRM.ISOC.ZS:IC.FRM.ISOC.ZS{marker IC.FRM.ISOC.ZS}}}Internationally-recognized quality certification (% of firms){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.FRM.OUTG.ZS:IC.FRM.OUTG.ZS{marker IC.FRM.OUTG.ZS}}}Value lost due to electrical outages (% of sales for affected firms){p_end}
+
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.FRM.RSDV.ZS:IC.FRM.RSDV.ZS{marker IC.FRM.RSDV.ZS}}}Firms that spend on R&amp;D (% of firms){p_end}
+
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.FRM.THEV.ZS:IC.FRM.THEV.ZS{marker IC.FRM.THEV.ZS}}}Firms experiencing losses due to theft and vandalism (% of firms){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.FRM.TIME:IC.FRM.TIME{marker IC.FRM.TIME}}}Time required to deal with construction permits (days){p_end}
 
@@ -10053,7 +9876,7 @@
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.TAX.LABR.CP.ZS:IC.TAX.LABR.CP.ZS{marker IC.TAX.LABR.CP.ZS}}}Labor tax and contributions (% of commercial profits){p_end}
 
-{synopt:{help wbopendata_topicid_indicators12##topicid_IC.TAX.METG:IC.TAX.METG{marker IC.TAX.METG}}}Average number of visits or required meetings with tax officials (for affected firms){p_end}
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.TAX.METG:IC.TAX.METG{marker IC.TAX.METG}}}Number of visits or required meetings with tax officials (average for affected firms){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.TAX.OTHR.CP.ZS:IC.TAX.OTHR.CP.ZS{marker IC.TAX.OTHR.CP.ZS}}}Other taxes payable by businesses (% of commercial profits){p_end}
 
@@ -10191,6 +10014,8 @@
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.TCOM.WM.FN.ZS:TM.TAX.TCOM.WM.FN.ZS{marker TM.TAX.TCOM.WM.FN.ZS}}}Tariff rate, most favored nation, weighted mean, primary products (%){p_end}
 
+{synopt:{help wbopendata_topicid_indicators12##topicid_TM.UVI.MRCH.XD.WD:TM.UVI.MRCH.XD.WD{marker TM.UVI.MRCH.XD.WD}}}Import unit value index (2015 = 100 ){p_end}
+
 {synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.AGRI.ZS.UN:TM.VAL.AGRI.ZS.UN{marker TM.VAL.AGRI.ZS.UN}}}Agricultural raw materials imports (% of merchandise imports){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.FOOD.ZS.UN:TM.VAL.FOOD.ZS.UN{marker TM.VAL.FOOD.ZS.UN}}}Food imports (% of merchandise imports){p_end}
@@ -10231,7 +10056,7 @@
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.WR.ZS:TM.VAL.MRCH.WR.ZS{marker TM.VAL.MRCH.WR.ZS}}}Merchandise imports from low- and middle-income economies within region (% of total merchandise imports){p_end}
 
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.XD.WD:TM.VAL.MRCH.XD.WD{marker TM.VAL.MRCH.XD.WD}}}Import value index (2000 = 100){p_end}
+{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.XD.WD:TM.VAL.MRCH.XD.WD{marker TM.VAL.MRCH.XD.WD}}}Import unit value index (2015 = 100){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.OTHR.ZS.WT:TM.VAL.OTHR.ZS.WT{marker TM.VAL.OTHR.ZS.WT}}}Computer, communications and other services (% of commercial service imports){p_end}
 
@@ -10243,7 +10068,11 @@
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_TT.PRI.MRCH.XD.WD:TT.PRI.MRCH.XD.WD{marker TT.PRI.MRCH.XD.WD}}}Net barter terms of trade index (2000 = 100){p_end}
 
+{synopt:{help wbopendata_topicid_indicators12##topicid_TX.MNF.TECH.ZS.UN:TX.MNF.TECH.ZS.UN{marker TX.MNF.TECH.ZS.UN}}}Medium and high-tech exports (% manufactured exports){p_end}
+
 {synopt:{help wbopendata_topicid_indicators12##topicid_TX.QTY.MRCH.XD.WD:TX.QTY.MRCH.XD.WD{marker TX.QTY.MRCH.XD.WD}}}Export volume index (2000 = 100){p_end}
+
+{synopt:{help wbopendata_topicid_indicators12##topicid_TX.UVI.MRCH.XD.WD:TX.UVI.MRCH.XD.WD{marker TX.UVI.MRCH.XD.WD}}}Export unit value index (2015 = 100){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.AGRI.ZS.UN:TX.VAL.AGRI.ZS.UN{marker TX.VAL.AGRI.ZS.UN}}}Agricultural raw materials exports (% of merchandise exports){p_end}
 
@@ -10398,6 +10227,26 @@
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_GC.XPN.TRFT.ZS:GC.XPN.TRFT.ZS{marker GC.XPN.TRFT.ZS}}}Subsidies and other transfers (% of expense){p_end}
 
+{synopt:{help wbopendata_topicid_indicators13##topicid_GF.XPD.BUDG.ZS:GF.XPD.BUDG.ZS{marker GF.XPD.BUDG.ZS}}}Primary government expenditures as a proportion of original approved budget (%){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL:HD.HCI.OVRL{marker HD.HCI.OVRL}}}Human Capital Index (HCI) (scale 0-1){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL.FE:HD.HCI.OVRL.FE{marker HD.HCI.OVRL.FE}}}Human Capital Index (HCI), Female (scale 0-1){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL.LB:HD.HCI.OVRL.LB{marker HD.HCI.OVRL.LB}}}Human Capital Index (HCI), Lower Bound (scale 0-1){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL.LB.FE:HD.HCI.OVRL.LB.FE{marker HD.HCI.OVRL.LB.FE}}}Human Capital Index (HCI), Female, Lower Bound (scale 0-1){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL.LB.MA:HD.HCI.OVRL.LB.MA{marker HD.HCI.OVRL.LB.MA}}}Human Capital Index (HCI), Male, Lower Bound (scale 0-1){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL.MA:HD.HCI.OVRL.MA{marker HD.HCI.OVRL.MA}}}Human Capital Index (HCI), Male (scale 0-1){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL.UB:HD.HCI.OVRL.UB{marker HD.HCI.OVRL.UB}}}Human Capital Index (HCI), Upper Bound (scale 0-1){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL.UB.FE:HD.HCI.OVRL.UB.FE{marker HD.HCI.OVRL.UB.FE}}}Human Capital Index (HCI), Female, Upper Bound (scale 0-1){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL.UB.MA:HD.HCI.OVRL.UB.MA{marker HD.HCI.OVRL.UB.MA}}}Human Capital Index (HCI), Male, Upper Bound (scale 0-1){p_end}
+
 {synopt:{help wbopendata_topicid_indicators13##topicid_IC.CRD.PUBL.ZS:IC.CRD.PUBL.ZS{marker IC.CRD.PUBL.ZS}}}Public credit registry coverage (% of adults){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_IC.LGL.CRED.XQ:IC.LGL.CRED.XQ{marker IC.LGL.CRED.XQ}}}Strength of legal rights index (0=weak to 12=strong){p_end}
@@ -10452,17 +10301,31 @@
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SCI.MTHD:IQ.SCI.MTHD{marker IQ.SCI.MTHD}}}Methodology assessment of statistical capacity (scale 0 - 100){p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SCI.OVRL:IQ.SCI.OVRL{marker IQ.SCI.OVRL}}}Statistical Capacity score (Overall average){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SCI.OVRL:IQ.SCI.OVRL{marker IQ.SCI.OVRL}}}Statistical Capacity Score (Overall Average) (scale 0 - 100){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SCI.PRDC:IQ.SCI.PRDC{marker IQ.SCI.PRDC}}}Periodicity and timeliness assessment of statistical capacity (scale 0 - 100){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SCI.SRCE:IQ.SCI.SRCE{marker IQ.SCI.SRCE}}}Source data assessment of statistical capacity (scale 0 - 100){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SPI.OVRL:IQ.SPI.OVRL{marker IQ.SPI.OVRL}}}Statistical performance indicators (SPI): Overall score (scale 0-100){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SPI.PIL1:IQ.SPI.PIL1{marker IQ.SPI.PIL1}}}Statistical performance indicators (SPI): Pillar 1 data use score (scale 0-100){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SPI.PIL2:IQ.SPI.PIL2{marker IQ.SPI.PIL2}}}Statistical performance indicators (SPI): Pillar 2 data services score (scale 0-100){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SPI.PIL3:IQ.SPI.PIL3{marker IQ.SPI.PIL3}}}Statistical performance indicators (SPI): Pillar 3 data products score  (scale 0-100){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SPI.PIL4:IQ.SPI.PIL4{marker IQ.SPI.PIL4}}}Statistical performance indicators (SPI): Pillar 4 data sources score (scale 0-100){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SPI.PIL5:IQ.SPI.PIL5{marker IQ.SPI.PIL5}}}Statistical performance indicators (SPI): Pillar 5 data infrastructure score (scale 0-100){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_MS.MIL.MPRT.KD:MS.MIL.MPRT.KD{marker MS.MIL.MPRT.KD}}}Arms imports (SIPRI trend indicator values){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_MS.MIL.TOTL.P1:MS.MIL.TOTL.P1{marker MS.MIL.TOTL.P1}}}Armed forces personnel, total{p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_MS.MIL.TOTL.TF.ZS:MS.MIL.TOTL.TF.ZS{marker MS.MIL.TOTL.TF.ZS}}}Armed forces personnel (% of total labor force){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_MS.MIL.XPND.CD:MS.MIL.XPND.CD{marker MS.MIL.XPND.CD}}}Military expenditure (current USD){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_MS.MIL.XPND.CN:MS.MIL.XPND.CN{marker MS.MIL.XPND.CN}}}Military expenditure (current LCU){p_end}
 
@@ -10482,29 +10345,13 @@
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_SG.LAW.LEVE.PU:SG.LAW.LEVE.PU{marker SG.LAW.LEVE.PU}}}Law mandates paid or unpaid maternity leave (1=yes; 0=no){p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_SG.LAW.NODC.HR:SG.LAW.NODC.HR{marker SG.LAW.NODC.HR}}}Law prohibits discrimination in employment based on gender (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_SG.LAW.NODC.HR:SG.LAW.NODC.HR{marker SG.LAW.NODC.HR}}}The law prohibits discrimination in employment based on gender (1=yes; 0=no){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_SG.LEG.DVAW:SG.LEG.DVAW{marker SG.LEG.DVAW}}}There is legislation specifically addressing domestic violence (1=yes; 0=no){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_SG.MMR.LEVE.EP:SG.MMR.LEVE.EP{marker SG.MMR.LEVE.EP}}}Mothers are guaranteed an equivalent position after maternity leave (1=yes; 0=no){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_SG.NOD.CONS:SG.NOD.CONS{marker SG.NOD.CONS}}}Nondiscrimination clause mentions gender in the constitution (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_VC.BTL.DETH:VC.BTL.DETH{marker VC.BTL.DETH}}}Battle-related deaths (number of people){p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_VC.IDP.NWCV:VC.IDP.NWCV{marker VC.IDP.NWCV}}}Internally displaced persons, new displacement associated with conflict and violence (number of cases){p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_VC.IDP.NWDS:VC.IDP.NWDS{marker VC.IDP.NWDS}}}Internally displaced persons, new displacement associated with disasters (number of cases){p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_VC.IDP.TOCV:VC.IDP.TOCV{marker VC.IDP.TOCV}}}Internally displaced persons, total displaced by conflict and violence (number of people){p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_VC.IDP.TOTL.HE:VC.IDP.TOTL.HE{marker VC.IDP.TOTL.HE}}}Internally displaced persons (number, high estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_VC.IDP.TOTL.LE:VC.IDP.TOTL.LE{marker VC.IDP.TOTL.LE}}}Internally displaced persons (number, low estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_VC.IHR.PSRC.P5:VC.IHR.PSRC.P5{marker VC.IHR.PSRC.P5}}}Intentional homicides (per 100,000 people){p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_VC.PKP.TOTL.UN:VC.PKP.TOTL.UN{marker VC.PKP.TOTL.UN}}}Presence of peace keepers (number of troops, police, and military observers in mandate){p_end}
 {synoptline}
 
 {marker topicid_14}
@@ -10834,7 +10681,7 @@
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SE.TER.ENRR.MA:SE.TER.ENRR.MA{marker SE.TER.ENRR.MA}}}School enrollment, tertiary, male (% gross){p_end}
 
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.ABS.PENB:SG.ABS.PENB{marker SG.ABS.PENB}}}There are periods of absence due to child care accounted for in pension benefits (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_topicid_indicators17##topicid_SG.ABS.PENB:SG.ABS.PENB{marker SG.ABS.PENB}}}There are periods of absence due to childcare accounted for in pension benefits (1=yes; 0=no){p_end}
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SG.AGE.FUPN.EQ:SG.AGE.FUPN.EQ{marker SG.AGE.FUPN.EQ}}}The age at which men and women can retire with full pension benefits is the same (1=yes; 0=no){p_end}
 
@@ -10952,7 +10799,7 @@
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SG.HME.TRVL.EQ:SG.HME.TRVL.EQ{marker SG.HME.TRVL.EQ}}}A woman can travel outside her home in the same way as a man (1=yes; 0=no){p_end}
 
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.IHT.ASST.EQ:SG.IHT.ASST.EQ{marker SG.IHT.ASST.EQ}}}Female and male surviving spouses have equal rights to inherit assets (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_topicid_indicators17##topicid_SG.IHT.ASST.EQ:SG.IHT.ASST.EQ{marker SG.IHT.ASST.EQ}}}Male and female surviving spouses have equal rights to inherit assets (1=yes; 0=no){p_end}
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SG.IHT.ASST.PT.EQ:SG.IHT.ASST.PT.EQ{marker SG.IHT.ASST.PT.EQ}}}Sons and daughters have equal rights to inherit assets from their parents (1=yes; 0=no){p_end}
 
@@ -10974,7 +10821,7 @@
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SG.LAW.NMCN:SG.LAW.NMCN{marker SG.LAW.NMCN}}}The law provides for the valuation of nonmonetary contributions (1=yes; 0=no){p_end}
 
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.LAW.NODC.HR:SG.LAW.NODC.HR{marker SG.LAW.NODC.HR}}}Law prohibits discrimination in employment based on gender (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_topicid_indicators17##topicid_SG.LAW.NODC.HR:SG.LAW.NODC.HR{marker SG.LAW.NODC.HR}}}The law prohibits discrimination in employment based on gender (1=yes; 0=no){p_end}
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SG.LAW.OBHB.MR.NO:SG.LAW.OBHB.MR.NO{marker SG.LAW.OBHB.MR.NO}}}There is no legal provision that requires a married woman to obey her husband (1=yes; 0=no){p_end}
 
@@ -10994,7 +10841,7 @@
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SG.OPN.BANK.EQ:SG.OPN.BANK.EQ{marker SG.OPN.BANK.EQ}}}A woman can open a bank account in the same way as a man (1=yes; 0=no){p_end}
 
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.OWN.PRRT.IM:SG.OWN.PRRT.IM{marker SG.OWN.PRRT.IM}}}Men and married women have equal ownership rights to immovable property (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_topicid_indicators17##topicid_SG.OWN.PRRT.IM:SG.OWN.PRRT.IM{marker SG.OWN.PRRT.IM}}}Men and women have equal ownership rights to immovable property (1=yes; 0=no){p_end}
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SG.PEN.SXHR.EM:SG.PEN.SXHR.EM{marker SG.PEN.SXHR.EM}}}Criminal penalties or civil remedies exist for sexual harassment in employment (1=yes; 0=no){p_end}
 
@@ -11022,7 +10869,7 @@
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SG.TIM.UWRK.MA:SG.TIM.UWRK.MA{marker SG.TIM.UWRK.MA}}}Proportion of time spent on unpaid domestic and care work, male (% of 24 hour day){p_end}
 
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.VAW.1549.ZS:SG.VAW.1549.ZS{marker SG.VAW.1549.ZS}}}Proportion of women subjected to physical and/or sexual violence in the last 12 months (% of women age 15-49){p_end}
+{synopt:{help wbopendata_topicid_indicators17##topicid_SG.VAW.1549.ZS:SG.VAW.1549.ZS{marker SG.VAW.1549.ZS}}}Proportion of women subjected to physical and/or sexual violence in the last 12 months (% of ever-partnered women ages 15-49){p_end}
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SG.VAW.ARGU.ZS:SG.VAW.ARGU.ZS{marker SG.VAW.ARGU.ZS}}}Women who believe a husband is justified in beating his wife when she argues with him (%){p_end}
 
@@ -11244,7 +11091,7 @@
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.AMRT.MA:SP.DYN.AMRT.MA{marker SP.DYN.AMRT.MA}}}Mortality rate, adult, male (per 1,000 male adults){p_end}
 
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.CONU.ZS:SP.DYN.CONU.ZS{marker SP.DYN.CONU.ZS}}}Contraceptive prevalence, any methods (% of women ages 15-49){p_end}
+{synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.CONU.ZS:SP.DYN.CONU.ZS{marker SP.DYN.CONU.ZS}}}Contraceptive prevalence, any method (% of married women ages 15-49){p_end}
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN{marker SP.DYN.LE00.FE.IN}}}Life expectancy at birth, female (years){p_end}
 
@@ -11305,14 +11152,6 @@
 {synopt:{help wbopendata_topicid_indicators17##topicid_SP.URB.TOTL.FE.ZS:SP.URB.TOTL.FE.ZS{marker SP.URB.TOTL.FE.ZS}}}Urban population, female (% of total){p_end}
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SP.URB.TOTL.MA.ZS:SP.URB.TOTL.MA.ZS{marker SP.URB.TOTL.MA.ZS}}}Urban population, male (% of total){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_WP15163_4.2:WP15163_4.2{marker WP15163_4.2}}}Mobile account, male (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_WP15163_4.3:WP15163_4.3{marker WP15163_4.3}}}Mobile account, female (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_WP_time_01.2:WP_time_01.2{marker WP_time_01.2}}}Account at a financial institution, male (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_WP_time_01.3:WP_time_01.3{marker WP_time_01.3}}}Account at a financial institution, female (% age 15+){p_end}
 {synoptline}
 
 {marker topicid_18}
@@ -11337,7 +11176,7 @@
 
 {synopt:{help wbopendata_topicid_indicators18##topicid_DC.ODA.TOTL.GN.ZS:DC.ODA.TOTL.GN.ZS{marker DC.ODA.TOTL.GN.ZS}}}Net ODA provided, total (% of GNI){p_end}
 
-{synopt:{help wbopendata_topicid_indicators18##topicid_DC.ODA.TOTL.KD:DC.ODA.TOTL.KD{marker DC.ODA.TOTL.KD}}}Net ODA provided, total (constant 2015 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators18##topicid_DC.ODA.TOTL.KD:DC.ODA.TOTL.KD{marker DC.ODA.TOTL.KD}}}Net ODA provided, total (constant 2020 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators18##topicid_DC.ODA.UNTD.CD:DC.ODA.UNTD.CD{marker DC.ODA.UNTD.CD}}}Bilateral ODA commitments that is untied (current US$){p_end}
 
@@ -11440,7 +11279,7 @@
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS{marker EN.ATM.CO2E.GF.ZS}}}CO2 emissions from gaseous fuel consumption (% of total){p_end}
 
-{synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD{marker EN.ATM.CO2E.KD.GD}}}CO2 emissions (kg per 2010 US$ of GDP){p_end}
+{synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD{marker EN.ATM.CO2E.KD.GD}}}CO2 emissions (kg per 2015 US$ of GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.KT:EN.ATM.CO2E.KT{marker EN.ATM.CO2E.KT}}}CO2 emissions (kt){p_end}
 
@@ -11504,7 +11343,7 @@
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_ER.PTD.TOTL.ZS:ER.PTD.TOTL.ZS{marker ER.PTD.TOTL.ZS}}}Terrestrial and marine protected areas (% of total territorial area){p_end}
 
-{synopt:{help wbopendata_topicid_indicators19##topicid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Ease of doing business index (1=most business-friendly regulations){p_end}
+{synopt:{help wbopendata_topicid_indicators19##topicid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Ease of doing business rank (1=most business-friendly regulations){p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_IQ.CPA.PUBS.XQ:IQ.CPA.PUBS.XQ{marker IQ.CPA.PUBS.XQ}}}CPIA public sector management and institutions cluster average (1=low to 6=high){p_end}
 
@@ -11532,7 +11371,7 @@
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_SH.STA.MALN.ZS:SH.STA.MALN.ZS{marker SH.STA.MALN.ZS}}}Prevalence of underweight, weight for age (% of children under 5){p_end}
 
-{synopt:{help wbopendata_topicid_indicators19##topicid_SI.POV.DDAY:SI.POV.DDAY{marker SI.POV.DDAY}}}Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population){p_end}
+{synopt:{help wbopendata_topicid_indicators19##topicid_SI.POV.DDAY:SI.POV.DDAY{marker SI.POV.DDAY}}}Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population){p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_SP.POP.GROW:SP.POP.GROW{marker SP.POP.GROW}}}Population growth (annual %){p_end}
 
@@ -12692,7 +12531,7 @@
 
 {synopt:{help wbopendata_topicid_indicators21##topicid_NE.EXP.GNFS.CD:NE.EXP.GNFS.CD{marker NE.EXP.GNFS.CD}}}Exports of goods and services (current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators21##topicid_NE.EXP.GNFS.KD:NE.EXP.GNFS.KD{marker NE.EXP.GNFS.KD}}}Exports of goods and services (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators21##topicid_NE.EXP.GNFS.KD:NE.EXP.GNFS.KD{marker NE.EXP.GNFS.KD}}}Exports of goods and services (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators21##topicid_NE.EXP.GNFS.KD.ZG:NE.EXP.GNFS.KD.ZG{marker NE.EXP.GNFS.KD.ZG}}}Exports of goods and services (annual % growth){p_end}
 
@@ -12700,7 +12539,7 @@
 
 {synopt:{help wbopendata_topicid_indicators21##topicid_NE.IMP.GNFS.CD:NE.IMP.GNFS.CD{marker NE.IMP.GNFS.CD}}}Imports of goods and services (current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators21##topicid_NE.IMP.GNFS.KD:NE.IMP.GNFS.KD{marker NE.IMP.GNFS.KD}}}Imports of goods and services (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators21##topicid_NE.IMP.GNFS.KD:NE.IMP.GNFS.KD{marker NE.IMP.GNFS.KD}}}Imports of goods and services (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators21##topicid_NE.IMP.GNFS.KD.ZG:NE.IMP.GNFS.KD.ZG{marker NE.IMP.GNFS.KD.ZG}}}Imports of goods and services (annual % growth){p_end}
 
@@ -12786,6 +12625,8 @@
 
 {synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.TCOM.WM.FN.ZS:TM.TAX.TCOM.WM.FN.ZS{marker TM.TAX.TCOM.WM.FN.ZS}}}Tariff rate, most favored nation, weighted mean, primary products (%){p_end}
 
+{synopt:{help wbopendata_topicid_indicators21##topicid_TM.UVI.MRCH.XD.WD:TM.UVI.MRCH.XD.WD{marker TM.UVI.MRCH.XD.WD}}}Import unit value index (2015 = 100 ){p_end}
+
 {synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.AGRI.ZS.UN:TM.VAL.AGRI.ZS.UN{marker TM.VAL.AGRI.ZS.UN}}}Agricultural raw materials imports (% of merchandise imports){p_end}
 
 {synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.FOOD.ZS.UN:TM.VAL.FOOD.ZS.UN{marker TM.VAL.FOOD.ZS.UN}}}Food imports (% of merchandise imports){p_end}
@@ -12826,7 +12667,7 @@
 
 {synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.WR.ZS:TM.VAL.MRCH.WR.ZS{marker TM.VAL.MRCH.WR.ZS}}}Merchandise imports from low- and middle-income economies within region (% of total merchandise imports){p_end}
 
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.XD.WD:TM.VAL.MRCH.XD.WD{marker TM.VAL.MRCH.XD.WD}}}Import value index (2000 = 100){p_end}
+{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.XD.WD:TM.VAL.MRCH.XD.WD{marker TM.VAL.MRCH.XD.WD}}}Import unit value index (2015 = 100){p_end}
 
 {synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.OTHR.ZS.WT:TM.VAL.OTHR.ZS.WT{marker TM.VAL.OTHR.ZS.WT}}}Computer, communications and other services (% of commercial service imports){p_end}
 
@@ -12838,7 +12679,11 @@
 
 {synopt:{help wbopendata_topicid_indicators21##topicid_TT.PRI.MRCH.XD.WD:TT.PRI.MRCH.XD.WD{marker TT.PRI.MRCH.XD.WD}}}Net barter terms of trade index (2000 = 100){p_end}
 
+{synopt:{help wbopendata_topicid_indicators21##topicid_TX.MNF.TECH.ZS.UN:TX.MNF.TECH.ZS.UN{marker TX.MNF.TECH.ZS.UN}}}Medium and high-tech exports (% manufactured exports){p_end}
+
 {synopt:{help wbopendata_topicid_indicators21##topicid_TX.QTY.MRCH.XD.WD:TX.QTY.MRCH.XD.WD{marker TX.QTY.MRCH.XD.WD}}}Export volume index (2000 = 100){p_end}
+
+{synopt:{help wbopendata_topicid_indicators21##topicid_TX.UVI.MRCH.XD.WD:TX.UVI.MRCH.XD.WD{marker TX.UVI.MRCH.XD.WD}}}Export unit value index (2015 = 100){p_end}
 
 {synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.AGRI.ZS.UN:TX.VAL.AGRI.ZS.UN{marker TX.VAL.AGRI.ZS.UN}}}Agricultural raw materials exports (% of merchandise exports){p_end}
 
@@ -12895,4 +12740,287 @@
 {synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.TRVL.ZS.WT:TX.VAL.TRVL.ZS.WT{marker TX.VAL.TRVL.ZS.WT}}}Travel services (% of commercial service exports){p_end}
 {synoptline}
 
-{right:(as of 05jul2021)}
+{marker topicid_topicID}
+{p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_topicID:Topics}} or {it:{help wbopendata_topicid_indicatorstopicID##:TOC}}){p_end}
+{synoptset 40 tabbed}{...}
+{synopthdr:topicID}
+{synoptline}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.AG.NTR.TOHA:CC.AG.NTR.TOHA{marker CC.AG.NTR.TOHA}}}Nitrogen application (tons per ha){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.CUF.STUN:CC.CUF.STUN{marker CC.CUF.STUN}}}Children under 5 years of age who are stunted (% of total){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.AFO:CC.DEN.AFO{marker CC.DEN.AFO}}}Emission Totals - Direct emissions (N2O) - AFOLU{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.AGS:CC.DEN.AGS{marker CC.DEN.AGS}}}Emission Totals - Direct emissions (N2O) - Agricultural Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.CRE:CC.DEN.CRE{marker CC.DEN.CRE}}}Emission Totals - Direct emissions (N2O) - Crop Residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.EAL:CC.DEN.EAL{marker CC.DEN.EAL}}}Emission Totals - Direct emissions (N2O) - Emissions on agricultural land{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.FGE:CC.DEN.FGE{marker CC.DEN.FGE}}}Emission Totals - Direct emissions (N2O) - Farm-gate emissions{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.IPA:CC.DEN.IPA{marker CC.DEN.IPA}}}Emission Totals - Direct emissions (N2O) - IPCC Agriculture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.MLP:CC.DEN.MLP{marker CC.DEN.MLP}}}Emission Totals - Direct emissions (N2O) - Manure left on Pasture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.SAS:CC.DEN.SAS{marker CC.DEN.SAS}}}Emission Totals - Direct emissions (N2O) - Manure applied to Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.SFE:CC.DEN.SFE{marker CC.DEN.SFE}}}Emission Totals - Direct emissions (N2O) - Synthetic Fertilizers{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.AFO:CC.EAR.AFO{marker CC.EAR.AFO}}}Emission Totals - Emissions (CO2eq) (AR5) - AFOLU{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.AGS:CC.EAR.AGS{marker CC.EAR.AGS}}}Emission Totals - Emissions (CO2eq) (AR5) - Agricultural Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.BCR:CC.EAR.BCR{marker CC.EAR.BCR}}}Emission Totals - Emissions (CO2eq) (AR5) - Burning - Crop residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.CRE:CC.EAR.CRE{marker CC.EAR.CRE}}}Emission Totals - Emissions (CO2eq) (AR5) - Crop Residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.DOC:CC.EAR.DOC{marker CC.EAR.DOC}}}Emission Totals - Emissions (CO2eq) (AR5) - Drained organic soils (CO2){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.DON:CC.EAR.DON{marker CC.EAR.DON}}}Emission Totals - Emissions (CO2eq) (AR5) - Drained organic soils (N2O){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.DOS:CC.EAR.DOS{marker CC.EAR.DOS}}}Emission Totals - Emissions (CO2eq) (AR5) - Drained organic soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.EAL:CC.EAR.EAL{marker CC.EAR.EAL}}}Emission Totals - Emissions (CO2eq) (AR5) - Emissions on agricultural land{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.EFE:CC.EAR.EFE{marker CC.EAR.EFE}}}Emission Totals - Emissions (CO2eq) (AR5) - Enteric Fermentation{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.FFR:CC.EAR.FFR{marker CC.EAR.FFR}}}Emission Totals - Emissions (CO2eq) (AR5) - Forest fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.FGE:CC.EAR.FGE{marker CC.EAR.FGE}}}Emission Totals - Emissions (CO2eq) (AR5) - Farm-gate emissions{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.FOR:CC.EAR.FOR{marker CC.EAR.FOR}}}Emission Totals - Emissions (CO2eq) (AR5) - Forestland{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.FOS:CC.EAR.FOS{marker CC.EAR.FOS}}}Emission Totals - Emissions (CO2eq) (AR5) - Fires in organic soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.FTR:CC.EAR.FTR{marker CC.EAR.FTR}}}Emission Totals - Emissions (CO2eq) (AR5) - Fires in humid tropical forests{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.IPA:CC.EAR.IPA{marker CC.EAR.IPA}}}Emission Totals - Emissions (CO2eq) (AR5) - IPCC Agriculture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.LUC:CC.EAR.LUC{marker CC.EAR.LUC}}}Emission Totals - Emissions (CO2eq) (AR5) - Land Use change{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.LUL:CC.EAR.LUL{marker CC.EAR.LUL}}}Emission Totals - Emissions (CO2eq) (AR5) - LULUCF{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.MLP:CC.EAR.MLP{marker CC.EAR.MLP}}}Emission Totals - Emissions (CO2eq) (AR5) - Manure left on Pasture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.MMA:CC.EAR.MMA{marker CC.EAR.MMA}}}Emission Totals - Emissions (CO2eq) (AR5) - Manure Management{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.NFC:CC.EAR.NFC{marker CC.EAR.NFC}}}Emission Totals - Emissions (CO2eq) (AR5) - Net Forest conversion{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.OEU:CC.EAR.OEU{marker CC.EAR.OEU}}}Emission Totals - Emissions (CO2eq) (AR5) - On-farm energy use{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.RCA:CC.EAR.RCA{marker CC.EAR.RCA}}}Emission Totals - Emissions (CO2eq) (AR5) - Rice Cultivation{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.SAS:CC.EAR.SAS{marker CC.EAR.SAS}}}Emission Totals - Emissions (CO2eq) (AR5) - Manure applied to Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.SFE:CC.EAR.SFE{marker CC.EAR.SFE}}}Emission Totals - Emissions (CO2eq) (AR5) - Synthetic Fertilizers{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.SVF:CC.EAR.SVF{marker CC.EAR.SVF}}}Emission Totals - Emissions (CO2eq) (AR5) - Savanna fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.AFO:CC.ECA.AFO{marker CC.ECA.AFO}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - AFOLU{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.BCR:CC.ECA.BCR{marker CC.ECA.BCR}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Burning - Crop residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.EAL:CC.ECA.EAL{marker CC.ECA.EAL}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Emissions on agricultural land{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.EFE:CC.ECA.EFE{marker CC.ECA.EFE}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Enteric Fermentation{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.FFR:CC.ECA.FFR{marker CC.ECA.FFR}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Forest fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.FGE:CC.ECA.FGE{marker CC.ECA.FGE}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Farm-gate emissions{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.FOS:CC.ECA.FOS{marker CC.ECA.FOS}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Fires in organic soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.FTR:CC.ECA.FTR{marker CC.ECA.FTR}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Fires in humid tropical forests{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.IPA:CC.ECA.IPA{marker CC.ECA.IPA}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - IPCC Agriculture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.LUC:CC.ECA.LUC{marker CC.ECA.LUC}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Land Use change{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.LUL:CC.ECA.LUL{marker CC.ECA.LUL}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - LULUCF{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.MMA:CC.ECA.MMA{marker CC.ECA.MMA}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Manure Management{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.OEU:CC.ECA.OEU{marker CC.ECA.OEU}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - On-farm energy use{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.RCA:CC.ECA.RCA{marker CC.ECA.RCA}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Rice Cultivation{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.SVF:CC.ECA.SVF{marker CC.ECA.SVF}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Savanna fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.AFO:CC.ECH.AFO{marker CC.ECH.AFO}}}Emission Totals - Emissions (CH4) - AFOLU{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.BCR:CC.ECH.BCR{marker CC.ECH.BCR}}}Emission Totals - Emissions (CH4) - Burning - Crop residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.EAL:CC.ECH.EAL{marker CC.ECH.EAL}}}Emission Totals - Emissions (CH4) - Emissions on agricultural land{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.EFE:CC.ECH.EFE{marker CC.ECH.EFE}}}Emission Totals - Emissions (CH4) - Enteric Fermentation{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.FFR:CC.ECH.FFR{marker CC.ECH.FFR}}}Emission Totals - Emissions (CH4) - Forest fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.FGE:CC.ECH.FGE{marker CC.ECH.FGE}}}Emission Totals - Emissions (CH4) - Farm-gate emissions{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.FOS:CC.ECH.FOS{marker CC.ECH.FOS}}}Emission Totals - Emissions (CH4) - Fires in organic soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.FTR:CC.ECH.FTR{marker CC.ECH.FTR}}}Emission Totals - Emissions (CH4) - Fires in humid tropical forests{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.IPA:CC.ECH.IPA{marker CC.ECH.IPA}}}Emission Totals - Emissions (CH4) - IPCC Agriculture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.LUC:CC.ECH.LUC{marker CC.ECH.LUC}}}Emission Totals - Emissions (CH4) - Land Use change{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.LUL:CC.ECH.LUL{marker CC.ECH.LUL}}}Emission Totals - Emissions (CH4) - LULUCF{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.MMA:CC.ECH.MMA{marker CC.ECH.MMA}}}Emission Totals - Emissions (CH4) - Manure Management{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.OEU:CC.ECH.OEU{marker CC.ECH.OEU}}}Emission Totals - Emissions (CH4) - On-farm energy use{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.RCA:CC.ECH.RCA{marker CC.ECH.RCA}}}Emission Totals - Emissions (CH4) - Rice Cultivation{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.SVF:CC.ECH.SVF{marker CC.ECH.SVF}}}Emission Totals - Emissions (CH4) - Savanna fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.AFO:CC.ECO.AFO{marker CC.ECO.AFO}}}Emission Totals - Emissions (CO2) - AFOLU{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.DOC:CC.ECO.DOC{marker CC.ECO.DOC}}}Emission Totals - Emissions (CO2) - Drained organic soils (CO2){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.EAL:CC.ECO.EAL{marker CC.ECO.EAL}}}Emission Totals - Emissions (CO2) - Emissions on agricultural land{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.FGE:CC.ECO.FGE{marker CC.ECO.FGE}}}Emission Totals - Emissions (CO2) - Farm-gate emissions{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.FOR:CC.ECO.FOR{marker CC.ECO.FOR}}}Emission Totals - Emissions (CO2) - Forestland{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.FOS:CC.ECO.FOS{marker CC.ECO.FOS}}}Emission Totals - Emissions (CO2) - Fires in organic soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.LUC:CC.ECO.LUC{marker CC.ECO.LUC}}}Emission Totals - Emissions (CO2) - Land Use change{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.LUL:CC.ECO.LUL{marker CC.ECO.LUL}}}Emission Totals - Emissions (CO2) - LULUCF{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.NFC:CC.ECO.NFC{marker CC.ECO.NFC}}}Emission Totals - Emissions (CO2) - Net Forest conversion{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.OEU:CC.ECO.OEU{marker CC.ECO.OEU}}}Emission Totals - Emissions (CO2) - On-farm energy use{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.AFO:CC.ENA.AFO{marker CC.ENA.AFO}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - AFOLU{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.AGS:CC.ENA.AGS{marker CC.ENA.AGS}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Agricultural Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.BCR:CC.ENA.BCR{marker CC.ENA.BCR}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Burning - Crop residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.CRE:CC.ENA.CRE{marker CC.ENA.CRE}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Crop Residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.DON:CC.ENA.DON{marker CC.ENA.DON}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Drained organic soils (N2O){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.EAL:CC.ENA.EAL{marker CC.ENA.EAL}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Emissions on agricultural land{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.FFR:CC.ENA.FFR{marker CC.ENA.FFR}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Forest fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.FGE:CC.ENA.FGE{marker CC.ENA.FGE}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Farm-gate emissions{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.FTR:CC.ENA.FTR{marker CC.ENA.FTR}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Fires in humid tropical forests{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.IPA:CC.ENA.IPA{marker CC.ENA.IPA}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - IPCC Agriculture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.LUC:CC.ENA.LUC{marker CC.ENA.LUC}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Land Use change{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.LUL:CC.ENA.LUL{marker CC.ENA.LUL}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - LULUCF{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.MLP:CC.ENA.MLP{marker CC.ENA.MLP}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Manure left on Pasture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.MMA:CC.ENA.MMA{marker CC.ENA.MMA}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Manure Management{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.OEU:CC.ENA.OEU{marker CC.ENA.OEU}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - On-farm energy use{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.SAS:CC.ENA.SAS{marker CC.ENA.SAS}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Manure applied to Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.SFE:CC.ENA.SFE{marker CC.ENA.SFE}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Synthetic Fertilizers{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.SVF:CC.ENA.SVF{marker CC.ENA.SVF}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Savanna fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.AFO:CC.ENO.AFO{marker CC.ENO.AFO}}}Emission Totals - Emissions (N2O) - AFOLU{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.AGS:CC.ENO.AGS{marker CC.ENO.AGS}}}Emission Totals - Emissions (N2O) - Agricultural Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.BCR:CC.ENO.BCR{marker CC.ENO.BCR}}}Emission Totals - Emissions (N2O) - Burning - Crop residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.CRE:CC.ENO.CRE{marker CC.ENO.CRE}}}Emission Totals - Emissions (N2O) - Crop Residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.DON:CC.ENO.DON{marker CC.ENO.DON}}}Emission Totals - Emissions (N2O) - Drained organic soils (N2O){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.EAL:CC.ENO.EAL{marker CC.ENO.EAL}}}Emission Totals - Emissions (N2O) - Emissions on agricultural land{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.FFR:CC.ENO.FFR{marker CC.ENO.FFR}}}Emission Totals - Emissions (N2O) - Forest fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.FGE:CC.ENO.FGE{marker CC.ENO.FGE}}}Emission Totals - Emissions (N2O) - Farm-gate emissions{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.FTR:CC.ENO.FTR{marker CC.ENO.FTR}}}Emission Totals - Emissions (N2O) - Fires in humid tropical forests{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.IPA:CC.ENO.IPA{marker CC.ENO.IPA}}}Emission Totals - Emissions (N2O) - IPCC Agriculture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.LUC:CC.ENO.LUC{marker CC.ENO.LUC}}}Emission Totals - Emissions (N2O) - Land Use change{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.LUL:CC.ENO.LUL{marker CC.ENO.LUL}}}Emission Totals - Emissions (N2O) - LULUCF{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.MLP:CC.ENO.MLP{marker CC.ENO.MLP}}}Emission Totals - Emissions (N2O) - Manure left on Pasture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.MMA:CC.ENO.MMA{marker CC.ENO.MMA}}}Emission Totals - Emissions (N2O) - Manure Management{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.OEU:CC.ENO.OEU{marker CC.ENO.OEU}}}Emission Totals - Emissions (N2O) - On-farm energy use{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.SAS:CC.ENO.SAS{marker CC.ENO.SAS}}}Emission Totals - Emissions (N2O) - Manure applied to Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.SFE:CC.ENO.SFE{marker CC.ENO.SFE}}}Emission Totals - Emissions (N2O) - Synthetic Fertilizers{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.SVF:CC.ENO.SVF{marker CC.ENO.SVF}}}Emission Totals - Emissions (N2O) - Savanna fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.FOOD.ANIM.ZS:CC.FOOD.ANIM.ZS{marker CC.FOOD.ANIM.ZS}}}Share of animal products in food supply (% of total){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.FOOD.VEGT.ZS:CC.FOOD.VEGT.ZS{marker CC.FOOD.VEGT.ZS}}}Share of vegetal products in food supply (% of total){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.AFO:CC.IEN.AFO{marker CC.IEN.AFO}}}Emission Totals - Indirect emissions (N2O) - AFOLU{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.AGS:CC.IEN.AGS{marker CC.IEN.AGS}}}Emission Totals - Indirect emissions (N2O) - Agricultural Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.CRE:CC.IEN.CRE{marker CC.IEN.CRE}}}Emission Totals - Indirect emissions (N2O) - Crop Residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.EAL:CC.IEN.EAL{marker CC.IEN.EAL}}}Emission Totals - Indirect emissions (N2O) - Emissions on agricultural land{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.FGE:CC.IEN.FGE{marker CC.IEN.FGE}}}Emission Totals - Indirect emissions (N2O) - Farm-gate emissions{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.IPA:CC.IEN.IPA{marker CC.IEN.IPA}}}Emission Totals - Indirect emissions (N2O) - IPCC Agriculture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.MLP:CC.IEN.MLP{marker CC.IEN.MLP}}}Emission Totals - Indirect emissions (N2O) - Manure left on Pasture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.SAS:CC.IEN.SAS{marker CC.IEN.SAS}}}Emission Totals - Indirect emissions (N2O) - Manure applied to Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.SFE:CC.IEN.SFE{marker CC.IEN.SFE}}}Emission Totals - Indirect emissions (N2O) - Synthetic Fertilizers{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.BA:CC.NEFO.IMCR.BA{marker CC.NEFO.IMCR.BA}}}Net food imports by crop - Barley{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.BP:CC.NEFO.IMCR.BP{marker CC.NEFO.IMCR.BP}}}Net food imports by crop - Rice, paddy{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.MA:CC.NEFO.IMCR.MA{marker CC.NEFO.IMCR.MA}}}Net food imports by crop - Maize{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.RB:CC.NEFO.IMCR.RB{marker CC.NEFO.IMCR.RB}}}Net food imports by crop - Rice, broken{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.RE:CC.NEFO.IMCR.RE{marker CC.NEFO.IMCR.RE}}}Net food imports by crop - Rice, paddy (rice milled equivalent){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.RH:CC.NEFO.IMCR.RH{marker CC.NEFO.IMCR.RH}}}Net food imports by crop - Rice, husked{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.RI:CC.NEFO.IMCR.RI{marker CC.NEFO.IMCR.RI}}}Net food imports by crop - Rice, milled/husked{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.RM:CC.NEFO.IMCR.RM{marker CC.NEFO.IMCR.RM}}}Net food imports by crop - Rice, milled{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.SB:CC.NEFO.IMCR.SB{marker CC.NEFO.IMCR.SB}}}Net food imports by crop - Soybeans{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.WH:CC.NEFO.IMCR.WH{marker CC.NEFO.IMCR.WH}}}Net food imports by crop - Wheat{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.PRO.ANI:CC.PRO.ANI{marker CC.PRO.ANI}}}Average supply of protein of animal origin (g/cap/day){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.PUN.TOTL:CC.PUN.TOTL{marker CC.PUN.TOTL}}}Prevalence of undernourishment (3-year average) (% of total){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.RIC.PECA:CC.RIC.PECA{marker CC.RIC.PECA}}}Rice supply quantity (g/capita/day){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_SN.ITK.DEFC:SN.ITK.DEFC{marker SN.ITK.DEFC}}}Number of people who are undernourished{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_SN.ITK.DEFC.ZS:SN.ITK.DEFC.ZS{marker SN.ITK.DEFC.ZS}}}Prevalence of undernourishment (% of population){p_end}
+{synoptline}
+
+{right:(as of 23jan2023)}

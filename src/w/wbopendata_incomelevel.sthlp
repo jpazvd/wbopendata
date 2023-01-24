@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Income Level  (as of 05jul2021)}
+{title:Income Level  (as of 23jan2023)}
 
 {marker HIC}
 {p 20 20 2}(Go up to {it:{help wbopendata##incomelevel:Income Level }}){p_end}
@@ -28,7 +28,7 @@
 {synopt:{opt HRV}}  Croatia {p_end}
 {synopt:{opt CUW}}  Curacao {p_end}
 {synopt:{opt CYP}}  Cyprus {p_end}
-{synopt:{opt CZE}}  Czech Republic {p_end}
+{synopt:{opt CZE}}  Czechia {p_end}
 {synopt:{opt DNK}}  Denmark {p_end}
 {synopt:{opt EST}}  Estonia {p_end}
 {synopt:{opt FRO}}  Faroe Islands {p_end}
@@ -64,11 +64,12 @@
 {synopt:{opt MNP}}  Northern Mariana Islands {p_end}
 {synopt:{opt NOR}}  Norway {p_end}
 {synopt:{opt OMN}}  Oman {p_end}
-{synopt:{opt PLW}}  Palau {p_end}
+{synopt:{opt PAN}}  Panama {p_end}
 {synopt:{opt POL}}  Poland {p_end}
 {synopt:{opt PRT}}  Portugal {p_end}
 {synopt:{opt PRI}}  Puerto Rico {p_end}
 {synopt:{opt QAT}}  Qatar {p_end}
+{synopt:{opt ROU}}  Romania {p_end}
 {synopt:{opt SMR}}  San Marino {p_end}
 {synopt:{opt SAU}}  Saudi Arabia {p_end}
 {synopt:{opt SYC}}  Seychelles {p_end}
@@ -129,6 +130,7 @@
 {synopt:{opt TGO}}  Togo {p_end}
 {synopt:{opt UGA}}  Uganda {p_end}
 {synopt:{opt YEM}}  Yemen, Rep {p_end}
+{synopt:{opt ZMB}}  Zambia {p_end}
 
 {marker LMC}
 {p 20 20 2}(Go up to {it:{help wbopendata##incomelevel:Income Level }}){p_end}
@@ -138,7 +140,6 @@
 {synopt:{opt DZA}}  Algeria {p_end}
 {synopt:{opt AGO}}  Angola {p_end}
 {synopt:{opt BGD}}  Bangladesh {p_end}
-{synopt:{opt BLZ}}  Belize {p_end}
 {synopt:{opt BEN}}  Benin {p_end}
 {synopt:{opt BTN}}  Bhutan {p_end}
 {synopt:{opt BOL}}  Bolivia {p_end}
@@ -162,6 +163,7 @@
 {synopt:{opt KIR}}  Kiribati {p_end}
 {synopt:{opt KGZ}}  Kyrgyz Republic {p_end}
 {synopt:{opt LAO}}  Lao PDR {p_end}
+{synopt:{opt LBN}}  Lebanon {p_end}
 {synopt:{opt LSO}}  Lesotho {p_end}
 {synopt:{opt MRT}}  Mauritania {p_end}
 {synopt:{opt FSM}}  Micronesia, Fed Sts {p_end}
@@ -188,7 +190,6 @@
 {synopt:{opt VUT}}  Vanuatu {p_end}
 {synopt:{opt VNM}}  Vietnam {p_end}
 {synopt:{opt PSE}}  West Bank and Gaza {p_end}
-{synopt:{opt ZMB}}  Zambia {p_end}
 {synopt:{opt ZWE}}  Zimbabwe {p_end}
 
 {marker NA}
@@ -289,6 +290,7 @@
 {synopt:{opt ARM}}  Armenia {p_end}
 {synopt:{opt AZE}}  Azerbaijan {p_end}
 {synopt:{opt BLR}}  Belarus {p_end}
+{synopt:{opt BLZ}}  Belize {p_end}
 {synopt:{opt BIH}}  Bosnia and Herzegovina {p_end}
 {synopt:{opt BWA}}  Botswana {p_end}
 {synopt:{opt BRA}}  Brazil {p_end}
@@ -312,7 +314,6 @@
 {synopt:{opt JOR}}  Jordan {p_end}
 {synopt:{opt KAZ}}  Kazakhstan {p_end}
 {synopt:{opt XKX}}  Kosovo {p_end}
-{synopt:{opt LBN}}  Lebanon {p_end}
 {synopt:{opt LBY}}  Libya {p_end}
 {synopt:{opt MYS}}  Malaysia {p_end}
 {synopt:{opt MDV}}  Maldives {p_end}
@@ -323,10 +324,9 @@
 {synopt:{opt MNE}}  Montenegro {p_end}
 {synopt:{opt NAM}}  Namibia {p_end}
 {synopt:{opt MKD}}  North Macedonia {p_end}
-{synopt:{opt PAN}}  Panama {p_end}
+{synopt:{opt PLW}}  Palau {p_end}
 {synopt:{opt PRY}}  Paraguay {p_end}
 {synopt:{opt PER}}  Peru {p_end}
-{synopt:{opt ROU}}  Romania {p_end}
 {synopt:{opt RUS}}  Russian Federation {p_end}
 {synopt:{opt SRB}}  Serbia {p_end}
 {synopt:{opt ZAF}}  South Africa {p_end}
@@ -335,7 +335,7 @@
 {synopt:{opt SUR}}  Suriname {p_end}
 {synopt:{opt THA}}  Thailand {p_end}
 {synopt:{opt TON}}  Tonga {p_end}
-{synopt:{opt TUR}}  Turkey {p_end}
+{synopt:{opt TUR}}  Turkiye {p_end}
 {synopt:{opt TKM}}  Turkmenistan {p_end}
 {synopt:{opt TUV}}  Tuvalu {p_end}
 

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -25,7 +25,6 @@
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
-{synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
 {synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
@@ -65,6 +64,10 @@
 {synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
 {synopt:{opt 83}}  {help wbopendata_sourceid_indicators83##sourceid_83:Statistical Performance Indicators (SPI)}{p_end}
 {synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
+{synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
+{synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
+{synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
+{synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
 
 
 {marker sourceid_11}
@@ -5866,7 +5869,7 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Paved roads are those surfaced with crushed stone (macadam) and hydrocarbon binder or bituminized agents, with concrete, or with cobblestones, as a percentage of all the country's roads, measured in length.{p_end}
 
@@ -5905,7 +5908,7 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Motor vehicles include cars, buses, and freight vehicles but do not include two-wheelers. Population refers to midyear population in the year for which data are available.{p_end}
 
@@ -5918,7 +5921,7 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Passenger cars refer to road motor vehicles, other than two-wheelers, intended for the carriage of passengers and designed to seat no more than nine people (including the driver).{p_end}
 
@@ -8274,7 +8277,7 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Child mortality rate is the probability of dying between the exact ages of one and five, if subject to current age-specific mortality rates. The probability is expressed as a rate per 1,000.{p_end}
 
@@ -10102,91 +10105,5 @@
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
-{synoptline}
-{marker sourceid_UNDP.HDI.XD}
-{synopt:{bf:{help wbopendata_sourceid##UNDP.HDI.XD:UNDP.HDI.XD} - Human development index (HDI)}}
 
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}The Human Development Index (HDI) is a summary measure of human development. It measures the average achievements in a country in three basic dimensions of human development: a long and healthy life, access to knowledge and a decent standard o{p_end}
-
-{synopt:{opt Source Organization}}{browse "http://hdr.undp.org/en/statistics/data/"}{p_end}
-
-
-{synoptline}
-{marker sourceid_UPP.COM.POL.XQ}
-{synopt:{bf:{help wbopendata_sourceid##UPP.COM.POL.XQ:UPP.COM.POL.XQ} - Combined polity score}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}The Combined Polity score is computed by subtracting the AUTOCRACY score (UPP.INS.AUTO.XQ) from the DEMOCRACY score (UPP.INS.DEMO.XQ); the resulting unified polity scale ranges from +10 (strongly democratic) to -10 (strongly autocratic). Note:{p_end}
-
-{synopt:{opt Source Organization}}Center for Systemic Peace, {browse "www.systemicpeace.org/polity/polity4.htm"}{p_end}
-
-
-{synoptline}
-{marker sourceid_UPP.INS.AUTO.XQ}
-{synopt:{bf:{help wbopendata_sourceid##UPP.INS.AUTO.XQ:UPP.INS.AUTO.XQ} - Institutionalized autocracy}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Democracy is conceived as three essential, interdependent elements. One is the presence of institutions and procedures through which citizens can express effective preferences about alternative policies and leaders. Second is the existence of{p_end}
-
-{synopt:{opt Source Organization}}Center for Systemic Peace, {browse "www.systemicpeace.org/polity/polity4.htm"}{p_end}
-
-
-{synoptline}
-{marker sourceid_UPP.INS.DEMO.XQ}
-{synopt:{bf:{help wbopendata_sourceid##UPP.INS.DEMO.XQ:UPP.INS.DEMO.XQ} - Institutionalized democracy}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Democracy is conceived as three essential, interdependent elements. One is the presence of institutions and procedures through which citizens can express effective preferences about alternative policies and leaders. Second is the existence of{p_end}
-
-{synopt:{opt Source Organization}}Center for Systemic Peace, {browse "www.systemicpeace.org/polity/polity4.htm"}{p_end}
-
-
-{synoptline}
-{marker sourceid_UPP.REV.POL.XQ}
-{synopt:{bf:{help wbopendata_sourceid##UPP.REV.POL.XQ:UPP.REV.POL.XQ} - Revised Combined Polity Score}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Revised Combined Polity Score is a modified version of the POLITY variable added in order to facilitate the use of the POLITY regime measure in time-series analyses.{p_end}
-
-{synopt:{opt Source Organization}}Authoritarian regime in Western political discourse is a pejorative term for some very diverse kinds of political systems whose common properties are a lack of regularized political competition and concern for political freedoms. The term Auto{p_end}
-
-
-{synoptline}
-{marker sourceid_VC.IDP.TOTL.HE}
-{synopt:{bf:{help wbopendata_sourceid##VC.IDP.TOTL.HE:VC.IDP.TOTL.HE} - Internally displaced persons (number, high estimate)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Internally displaced persons are people or groups of people who have been forced or obliged to flee or to leave their homes or places of habitual residence, in particular as a result of armed conflict, or to avoid the effects of armed conflict{p_end}
-
-{synopt:{opt Source Organization}}Internal Displacement Monitoring Centre.{p_end}
-
-
-{synoptline}
-{marker sourceid_VC.IDP.TOTL.LE}
-{synopt:{bf:{help wbopendata_sourceid##VC.IDP.TOTL.LE:VC.IDP.TOTL.LE} - Internally displaced persons (number, low estimate)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Internally displaced persons are people or groups of people who have been forced or obliged to flee or to leave their homes or places of habitual residence, in particular as a result of armed conflict, or to avoid the effects of armed conflict{p_end}
-
-{synopt:{opt Source Organization}}Internal Displacement Monitoring Centre.{p_end}
-
-
-
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}

@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Administrative Region  (as of 05jul2021)}
+{title:Administrative Region  (as of 23jan2023)}
 
 {marker EAP}
 {p 20 20 2}(Go up to {it:{help wbopendata##adminregion:Administrative Region }}){p_end}
@@ -22,6 +22,7 @@
 {synopt:{opt FSM}}  Micronesia, Fed Sts {p_end}
 {synopt:{opt MNG}}  Mongolia {p_end}
 {synopt:{opt MMR}}  Myanmar {p_end}
+{synopt:{opt PLW}}  Palau {p_end}
 {synopt:{opt PNG}}  Papua New Guinea {p_end}
 {synopt:{opt PHL}}  Philippines {p_end}
 {synopt:{opt WSM}}  Samoa {p_end}
@@ -51,11 +52,10 @@
 {synopt:{opt MDA}}  Moldova {p_end}
 {synopt:{opt MNE}}  Montenegro {p_end}
 {synopt:{opt MKD}}  North Macedonia {p_end}
-{synopt:{opt ROU}}  Romania {p_end}
 {synopt:{opt RUS}}  Russian Federation {p_end}
 {synopt:{opt SRB}}  Serbia {p_end}
 {synopt:{opt TJK}}  Tajikistan {p_end}
-{synopt:{opt TUR}}  Turkey {p_end}
+{synopt:{opt TUR}}  Turkiye {p_end}
 {synopt:{opt TKM}}  Turkmenistan {p_end}
 {synopt:{opt UKR}}  Ukraine {p_end}
 {synopt:{opt UZB}}  Uzbekistan {p_end}
@@ -84,13 +84,11 @@
 {synopt:{opt JAM}}  Jamaica {p_end}
 {synopt:{opt MEX}}  Mexico {p_end}
 {synopt:{opt NIC}}  Nicaragua {p_end}
-{synopt:{opt PAN}}  Panama {p_end}
 {synopt:{opt PRY}}  Paraguay {p_end}
 {synopt:{opt PER}}  Peru {p_end}
 {synopt:{opt LCA}}  St Lucia {p_end}
 {synopt:{opt VCT}}  St Vincent and the Grenadines {p_end}
 {synopt:{opt SUR}}  Suriname {p_end}
-{synopt:{opt VEN}}  Venezuela, RB {p_end}
 
 {marker MNA}
 {p 20 20 2}(Go up to {it:{help wbopendata##adminregion:Administrative Region }}){p_end}
