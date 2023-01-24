@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid_indicators19##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid_indicators20##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid_indicators21##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid_indicatorstopicID##topicid_topicID:}{p_end}
 
 
 {marker topicid_19}
@@ -87,7 +88,7 @@
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the total rural land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -100,7 +101,7 @@
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the percentage of total land where the rural land elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -113,7 +114,7 @@
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the total urban land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -126,7 +127,7 @@
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the percentage of total land where the urban land elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -139,7 +140,7 @@
 
 {synopt:{opt Source Notes}}Land area below 5m is the percentage of total land where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -230,7 +231,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity is the percentage of population with access to electricity. Electrification data are collected from industry, national surveys and international sources.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from the SE4ALL Global Tracking Framework led jointly by the World Bank, International Energy Agency, and the Energy Sector Management Assistance Program.{p_end}
+{synopt:{opt Source Organization}}World Bank Global Electrification Database from Tracking SDG 7: The Energy Progress Report led jointly by the custodian agencies: the International Energy Agency (IEA), the International Renewable Energy Agency (IRENA), the United Nations Stat{p_end}
 
 
 {synoptline}
@@ -430,7 +431,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.KD.GD}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD} - CO2 emissions (kg per 2010 US$ of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD} - CO2 emissions (kg per 2015 US$ of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -438,7 +439,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions. See NY.GDP.MKTP.KD for the denominator's source.{p_end}
 
 
 {synoptline}
@@ -451,7 +452,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -490,7 +491,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions. See SP.POP.TOTL for the denominator's source.{p_end}
 
 
 {synoptline}
@@ -503,7 +504,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions. See NY.GDP.MKTP.PP.CD for the denominator's source.{p_end}
 
 
 {synoptline}
@@ -516,7 +517,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions. See NY.GDP.MKTP.PP.KD for the denominator's source.{p_end}
 
 
 {synoptline}
@@ -581,7 +582,7 @@
 
 {synopt:{opt Source Notes}}Total greenhouse gas emissions in kt of CO2 equivalent are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and savanna burning) but including other biomass burning (such as forest fires, post-bu{p_end}
 
-{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -620,7 +621,7 @@
 
 {synopt:{opt Source Notes}}Methane emissions are those stemming from human activities such as agriculture and from industrial methane production.{p_end}
 
-{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -646,7 +647,7 @@
 
 {synopt:{opt Source Notes}}Nitrous oxide emissions are emissions from agricultural biomass burning, industrial activities, and livestock management.{p_end}
 
-{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -737,7 +738,7 @@
 
 {synopt:{opt Source Notes}}Rural population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -750,7 +751,7 @@
 
 {synopt:{opt Source Notes}}Urban population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -763,7 +764,7 @@
 
 {synopt:{opt Source Notes}}Population below 5m is the percentage of the total population living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -846,15 +847,15 @@
 
 {synoptline}
 {marker topicid_IC.BUS.EASE.XQ}
-{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Ease of doing business index (1=most business-friendly regulations)}}
+{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Ease of doing business rank (1=most business-friendly regulations)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. A high ranking (a low numerical rank) means that the regulatory environment is conducive to business operation. The index averages the country's percentile{p_end}
+{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. The ranking of economies is determined by sorting the aggregate ease of doing business scores. A high ranking (a low numerical rank) means that the regulato{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -891,7 +892,7 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Agriculture corresponds to ISIC divisions 1-5 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs and subtracting intermed{p_end}
+{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC divisions 1-3 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs a{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -906,7 +907,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary and secondary education is the ratio of girls to boys enrolled at primary and secondary levels in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -919,7 +920,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of September 2020.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -1028,15 +1029,15 @@
 
 {synoptline}
 {marker topicid_SI.POV.DDAY}
-{synopt:{bf:{help wbopendata_topicid##SI.POV.DDAY:SI.POV.DDAY} - Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)}}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.DDAY:SI.POV.DDAY} - Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day is the percentage of the population living on less than $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared{p_end}
+{synopt:{opt Source Notes}}Poverty headcount ratio at $2.15 a day is the percentage of the population living on less than $2.15 a day at 2017 purchasing power adjusted prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
@@ -1049,7 +1050,7 @@
 
 {synopt:{opt Source Notes}}Annual population growth rate for year t is the exponential rate of growth of midyear population from year t-1 to t, expressed as a percentage . Population is based on the de facto definition of population, which counts all residents regardles{p_end}
 
-{synopt:{opt Source Organization}}Derived from total population. Population source: (1) United Nations Population Division. World Population Prospects: 2019 Revision, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demogra{p_end}
+{synopt:{opt Source Organization}}Derived from total population. Population source: (1) United Nations Population Division. World Population Prospects: 2022 Revision, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demogra{p_end}
 
 
 {synoptline}
@@ -1062,7 +1063,7 @@
 
 {synopt:{opt Source Notes}}Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
@@ -1095,7 +1096,7 @@
 {marker topicid_SP.URB.TOTL.IN.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL.IN.ZS:SP.URB.TOTL.IN.ZS} - Urban population (% of total population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -1105,4 +1106,4 @@
 
 
 
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}

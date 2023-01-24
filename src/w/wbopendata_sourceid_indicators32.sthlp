@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -25,7 +25,6 @@
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
-{synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
 {synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
@@ -65,6 +64,10 @@
 {synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
 {synopt:{opt 83}}  {help wbopendata_sourceid_indicators83##sourceid_83:Statistical Performance Indicators (SPI)}{p_end}
 {synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
+{synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
+{synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
+{synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
+{synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
 
 
 {marker sourceid_32}
@@ -580,19 +583,6 @@
 
 
 {synoptline}
-{marker sourceid_GFDD.AM.04}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.AM.04:GFDD.AM.04} - Investments financed by equity or stock sales (%)}}
-
-{synopt:{opt Source}}32 Global Financial Development{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Estimated proportion of purchases of fixed assets that was financed by owners’ contribution or issue of new equity shares.{p_end}
-
-{synopt:{opt Source Organization}}Enterprise Surveys, World Bank{p_end}
-
-
-{synoptline}
 {marker sourceid_GFDD.DI.01}
 {synopt:{bf:{help wbopendata_sourceid##GFDD.DI.01:GFDD.DI.01} - Private credit by deposit money banks to GDP (%)}}
 
@@ -965,6 +955,18 @@
 
 
 {synoptline}
+{marker sourceid_GFDD.DM.16}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.DM.16:GFDD.DM.16} - Credit flows by fintech and bigtech companies to GDP (%)}}
+
+{synopt:{opt Source}}32 Global Financial Development{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_GFDD.EI.01}
 {synopt:{bf:{help wbopendata_sourceid##GFDD.EI.01:GFDD.EI.01} - Bank net interest margin (%)}}
 
@@ -1108,30 +1110,6 @@
 
 
 {synoptline}
-{marker sourceid_GFDD.OE.01}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.OE.01:GFDD.OE.01} - Consumer price index (2010=100, December)}}
-
-{synopt:{opt Source}}32 Global Financial Development{p_end}
-
-
-{synopt:{opt Source Notes}}Consumer price index reflects changes in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly. The Laspeyres formula is generally used.{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_GFDD.OE.02}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.OE.02:GFDD.OE.02} - Consumer price index (2010=100, average)}}
-
-{synopt:{opt Source}}32 Global Financial Development{p_end}
-
-
-{synopt:{opt Source Notes}}Consumer price index reflects changes in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly. The Laspeyres formula is generally used.{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
-
-
-{synoptline}
 {marker sourceid_GFDD.OI.01}
 {synopt:{bf:{help wbopendata_sourceid##GFDD.OI.01:GFDD.OI.01} - Bank concentration (%)}}
 
@@ -1155,45 +1133,6 @@
 {synopt:{opt Source Notes}}Demand, time and saving deposits in deposit money banks as a share of GDP, calculated using the following deflation method: {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is demand and time and saving deposits, P_e is end-of period CPI, a{p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
-
-
-{synoptline}
-{marker sourceid_GFDD.OI.03}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.OI.03:GFDD.OI.03} - H-statistic}}
-
-{synopt:{opt Source}}32 Global Financial Development{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}A measure of the degree of competition in the banking market. It measures the elasticity of banks revenues relative to input prices. Under perfect competition, an increase in input prices raises both marginal costs and total revenues by the sa{p_end}
-
-{synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
-
-
-{synoptline}
-{marker sourceid_GFDD.OI.04}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.OI.04:GFDD.OI.04} - Lerner index}}
-
-{synopt:{opt Source}}32 Global Financial Development{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}A measure of market power in the banking market. It is defined as the difference between output prices and marginal costs (relative to prices). Prices are calculated as total bank revenue over assets, whereas marginal costs are obtained from a{p_end}
-
-{synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
-
-
-{synoptline}
-{marker sourceid_GFDD.OI.05}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.OI.05:GFDD.OI.05} - Boone indicator}}
-
-{synopt:{opt Source}}32 Global Financial Development{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}A measure of degree of competition, calculated as the elasticity of profits to marginal costs. To obtain the elasticity, the log of profits (measured by return on assets) is regressed on the log of marginal costs. The estimated coefficient (co{p_end}
-
-{synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
 
 {synoptline}
@@ -1340,6 +1279,18 @@
 
 
 {synoptline}
+{marker sourceid_GFDD.OI.16a}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.OI.16a:GFDD.OI.16a} - Foreign bank assets among total banks assets (%)}}
+
+{synopt:{opt Source}}32 Global Financial Development{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_GFDD.OI.17}
 {synopt:{bf:{help wbopendata_sourceid##GFDD.OI.17:GFDD.OI.17} - Global leasing volume to GDP (%)}}
 
@@ -1376,6 +1327,18 @@
 {synopt:{opt Source Notes}}A banking crisis is defined as systemic if two conditions are met: a. Significant signs of financial distress in the banking system (as indicated bysignificant bank runs, losses in the banking system, and/or bank liquidations), b. Significant{p_end}
 
 {synopt:{opt Source Organization}}Luc Laeven and Fabián Valencia, 2012. “Systemic Banking Crises Database: An Update”, IMF Working Paper WP/12/163{p_end}
+
+
+{synoptline}
+{marker sourceid_GFDD.OI.20a}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.OI.20a:GFDD.OI.20a} - Government bank assets among total bank assets (%)}}
+
+{synopt:{opt Source}}32 Global Financial Development{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -1509,4 +1472,4 @@
 
 
 
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}

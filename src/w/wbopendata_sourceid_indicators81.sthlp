@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -25,7 +25,6 @@
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
-{synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
 {synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
@@ -65,6 +64,10 @@
 {synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
 {synopt:{opt 83}}  {help wbopendata_sourceid_indicators83##sourceid_83:Statistical Performance Indicators (SPI)}{p_end}
 {synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
+{synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
+{synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
+{synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
+{synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
 
 
 {marker sourceid_81}
@@ -117,7 +120,7 @@
 
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Primary income on foreign direct investment covers payments of direct investment income (debit side), which consist of income on equity (dividends, branch profits, and reinvested earnings) and income on the intercompany debt (interest). Data a{p_end}
 
@@ -135,6 +138,18 @@
 {synopt:{opt Source Notes}}Portfolio equity includes net inflows from equity securities other than those recorded as direct investment and including shares, stocks, depository receipts (American or global), and direct purchases of shares in local stock markets by foreig{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook. Data starting from 2005 are based the sixth edition of the IMF's Balance of Payments Manual (BPM6).{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.AMT.BLAT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLAT.CB.CD:DT.AMT.BLAT.CB.CD} - CB, bilateral (AMT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -203,6 +218,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.AMT.BLTC.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLTC.CB.CD:DT.AMT.BLTC.CB.CD} - CB, bilateral concessional (AMT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.AMT.BLTC.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.BLTC.CD:DT.AMT.BLTC.CD} - PPG, bilateral concessional (AMT, current US$)}}
 
@@ -265,6 +292,18 @@
 {synopt:{opt Source Notes}}Public sector bilateral debt includes loans from governments and their agencies (including central banks), loans from autonomous bodies, and direct loans from official export credit agencies. Concessional debt is defined as loans with an origi{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.AMT.DECB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECB.CD:DT.AMT.DECB.CD} - Principal repayments on external debt, central bank (PPG) (AMT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -398,6 +437,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.AMT.MLAT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLAT.CB.CD:DT.AMT.MLAT.CB.CD} - CB, multilateral (AMT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.AMT.MLAT.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLAT.CD:DT.AMT.MLAT.CD} - PPG, multilateral (AMT, current US$)}}
 
@@ -460,6 +511,18 @@
 {synopt:{opt Source Notes}}Public sector multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on b{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.AMT.MLTC.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.MLTC.CB.CD:DT.AMT.MLTC.CB.CD} - CB, multilateral concessional (AMT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -528,6 +591,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.AMT.OFFT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.OFFT.CB.CD:DT.AMT.OFFT.CB.CD} - CB, official creditors (AMT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.AMT.OFFT.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.OFFT.CD:DT.AMT.OFFT.CD} - PPG, official creditors (AMT, current US$)}}
 
@@ -593,6 +668,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.AMT.PBND.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PBND.CB.CD:DT.AMT.PBND.CB.CD} - CB, bonds (AMT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.AMT.PBND.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PBND.CD:DT.AMT.PBND.CD} - PPG, bonds (AMT, current US$)}}
 
@@ -655,6 +742,18 @@
 {synopt:{opt Source Notes}}Public sector debt from bonds that are either publicly issued or privately placed. Principal repayments are actual amounts of principal (amortization) paid by the borrower in currency, goods, or services in the year specified. Data are in curr{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.AMT.PCBK.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PCBK.CB.CD:DT.AMT.PCBK.CB.CD} - CB, commercial banks (AMT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -749,6 +848,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.AMT.PROP.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PROP.CB.CD:DT.AMT.PROP.CB.CD} - CB, other private creditors (AMT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.AMT.PROP.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PROP.CD:DT.AMT.PROP.CD} - PPG, other private creditors (AMT, current US$)}}
 
@@ -824,6 +935,18 @@
 {synopt:{opt Source Notes}}Private sector guaranteed by Public Sector  long-term debt are aggregated.Private sector guaranteed by Public Sector debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.AMT.PRVT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVT.CB.CD:DT.AMT.PRVT.CB.CD} - CB, private creditors (AMT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -1216,6 +1339,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DIS.BLAT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLAT.CB.CD:DT.DIS.BLAT.CB.CD} - CB, bilateral (DIS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DIS.BLAT.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLAT.CD:DT.DIS.BLAT.CD} - PPG, bilateral (DIS, current US$)}}
 
@@ -1281,6 +1416,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DIS.BLTC.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLTC.CB.CD:DT.DIS.BLTC.CB.CD} - CB, bilateral concessional (DIS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DIS.BLTC.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.DIS.BLTC.CD:DT.DIS.BLTC.CD} - PPG, bilateral concessional (DIS, current US$)}}
 
@@ -1343,6 +1490,18 @@
 {synopt:{opt Source Notes}}Public sector bilateral debt includes loans from governments and their agencies (including central banks), loans from autonomous bodies, and direct loans from official export credit agencies. Concessional debt is defined as loans with an origi{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DIS.DECB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.DECB.CD:DT.DIS.DECB.CD} - Disbursements on external debt, central bank (PPG) (DIS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -1489,6 +1648,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DIS.MLAT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLAT.CB.CD:DT.DIS.MLAT.CB.CD} - CB, multilateral (DIS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DIS.MLAT.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLAT.CD:DT.DIS.MLAT.CD} - PPG, multilateral (DIS, current US$)}}
 
@@ -1551,6 +1722,18 @@
 {synopt:{opt Source Notes}}Public sector multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on b{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DIS.MLTC.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.MLTC.CB.CD:DT.DIS.MLTC.CB.CD} - CB, multilateral concessional (DIS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -1619,6 +1802,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DIS.OFFT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.OFFT.CB.CD:DT.DIS.OFFT.CB.CD} - CB, official creditors (DIS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DIS.OFFT.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.DIS.OFFT.CD:DT.DIS.OFFT.CD} - PPG, official creditors (DIS, current US$)}}
 
@@ -1684,6 +1879,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DIS.PBND.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PBND.CB.CD:DT.DIS.PBND.CB.CD} - CB, bonds (DIS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DIS.PBND.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.DIS.PBND.CD:DT.DIS.PBND.CD} - PPG, bonds (DIS, current US$)}}
 
@@ -1746,6 +1953,18 @@
 {synopt:{opt Source Notes}}Public sector debt from bonds that are either publicly issued or privately placed. Disbursements are drawings by the borrower on loan commitments during the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DIS.PCBK.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PCBK.CB.CD:DT.DIS.PCBK.CB.CD} - CB, commercial banks (DIS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -1840,6 +2059,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DIS.PROP.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PROP.CB.CD:DT.DIS.PROP.CB.CD} - CB, other private creditors (DIS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DIS.PROP.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.DIS.PROP.CD:DT.DIS.PROP.CD} - PPG, other private creditors (DIS, current US$)}}
 
@@ -1915,6 +2146,18 @@
 {synopt:{opt Source Notes}}Private sector guaranteed by Public Sector long-term debt are aggregated. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodi{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DIS.PRVT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PRVT.CB.CD:DT.DIS.PRVT.CB.CD} - CB, private creditors (DIS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -2009,6 +2252,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DOD.BLAT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLAT.CB.CD:DT.DOD.BLAT.CB.CD} - CB, bilateral (DOD, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DOD.BLAT.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLAT.CD:DT.DOD.BLAT.CD} - PPG, bilateral (DOD, current US$)}}
 
@@ -2074,6 +2329,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DOD.BLTC.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTC.CB.CD:DT.DOD.BLTC.CB.CD} - CB, bilateral concessional (DOD, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DOD.BLTC.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTC.CD:DT.DOD.BLTC.CD} - PPG, bilateral concessional (DOD, current US$)}}
 
@@ -2136,6 +2403,18 @@
 {synopt:{opt Source Notes}}Public sector bilateral debt includes loans from governments and their agencies (including central banks), loans from autonomous bodies, and direct loans from official export credit agencies. Concessional debt is defined as loans with an origi{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DECB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECB.CD:DT.DOD.DECB.CD} - External debt stocks, central bank (PPG) (DOD, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -2222,11 +2501,23 @@
 
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Debt forgiveness grants data cover both debt cancelled by agreement between debtor and creditor and a reduction in the net present value of non-ODA debt achieved by concessional rescheduling or refinancing. The  data are on a disbursement basi{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.MLAT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLAT.CB.CD:DT.DOD.MLAT.CB.CD} - CB, multilateral (DOD, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -2308,6 +2599,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DOD.MLTC.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLTC.CB.CD:DT.DOD.MLTC.CB.CD} - CB, multilateral concessional (DOD, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DOD.MLTC.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLTC.CD:DT.DOD.MLTC.CD} - PPG, multilateral concessional (DOD, current US$)}}
 
@@ -2370,6 +2673,18 @@
 {synopt:{opt Source Notes}}Public sector guaranteed multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organi{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.OFFT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.CB.CD:DT.DOD.OFFT.CB.CD} - CB, official creditors (DOD, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -2438,6 +2753,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DOD.PBND.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PBND.CB.CD:DT.DOD.PBND.CB.CD} - CB, bonds (DOD, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DOD.PBND.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PBND.CD:DT.DOD.PBND.CD} - PPG, bonds (DOD, current US$)}}
 
@@ -2500,6 +2827,18 @@
 {synopt:{opt Source Notes}}Public sector debt from bonds that are either publicly issued or privately placed. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.PCBK.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCBK.CB.CD:DT.DOD.PCBK.CB.CD} - CB, commercial banks (DOD, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -2594,6 +2933,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DOD.PROP.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROP.CB.CD:DT.DOD.PROP.CB.CD} - CB, other private creditors (DOD, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DOD.PROP.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROP.CD:DT.DOD.PROP.CD} - PPG, other private creditors (DOD, current US$)}}
 
@@ -2682,6 +3033,18 @@
 {synopt:{opt Source Notes}}Long-term private sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (private banks and private entities). Long-term external debt is defined as debt that has an original or ex{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.PRVT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVT.CB.CD:DT.DOD.PRVT.CB.CD} - CB, private creditors (DOD, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -2945,6 +3308,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.INT.BLAT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLAT.CB.CD:DT.INT.BLAT.CB.CD} - CB, bilateral (INT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.INT.BLAT.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.BLAT.CD:DT.INT.BLAT.CD} - PPG, bilateral (INT, current US$)}}
 
@@ -3007,6 +3382,18 @@
 {synopt:{opt Source Notes}}Public sector bilateral debt includes loans from governments and their agencies (including central banks), loans from autonomous bodies, and direct loans from official export credit agencies. Interest payments are actual amounts of interest pa{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INT.BLTC.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.BLTC.CB.CD:DT.INT.BLTC.CB.CD} - CB, bilateral concessional (INT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -3075,6 +3462,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.INT.DECB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECB.CD:DT.INT.DECB.CD} - Interest payments on external debt, central bank (PPG) (INT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.INT.DECT.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD:DT.INT.DECT.CD} - Interest payments on external debt, total (INT, current US$)}}
 
@@ -3093,7 +3492,7 @@
 
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Total interest payments to exports of goods, services and primary income. Total interest payment is the sum of interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and charges to the IMF.{p_end}
 
@@ -3106,7 +3505,7 @@
 
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Total interest payments to gross national income.{p_end}
 
@@ -3244,6 +3643,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.INT.MLAT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLAT.CB.CD:DT.INT.MLAT.CB.CD} - CB, multilateral (INT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.INT.MLAT.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.MLAT.CD:DT.INT.MLAT.CD} - PPG, multilateral (INT, current US$)}}
 
@@ -3306,6 +3717,18 @@
 {synopt:{opt Source Notes}}Public sector multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on b{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INT.MLTC.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.MLTC.CB.CD:DT.INT.MLTC.CB.CD} - CB, multilateral concessional (INT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -3374,6 +3797,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.INT.OFFT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.OFFT.CB.CD:DT.INT.OFFT.CB.CD} - CB, official creditors (INT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.INT.OFFT.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.OFFT.CD:DT.INT.OFFT.CD} - PPG, official creditors (INT, current US$)}}
 
@@ -3439,6 +3874,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.INT.PBND.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PBND.CB.CD:DT.INT.PBND.CB.CD} - CB, bonds (INT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.INT.PBND.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PBND.CD:DT.INT.PBND.CD} - PPG, bonds (INT, current US$)}}
 
@@ -3501,6 +3948,18 @@
 {synopt:{opt Source Notes}}Public sector debt from bonds that are either publicly issued or privately placed. Interest payments are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INT.PCBK.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PCBK.CB.CD:DT.INT.PCBK.CB.CD} - CB, commercial banks (INT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -3595,6 +4054,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.INT.PROP.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PROP.CB.CD:DT.INT.PROP.CB.CD} - CB, other private creditors (INT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.INT.PROP.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PROP.CD:DT.INT.PROP.CD} - PPG, other private creditors (INT, current US$)}}
 
@@ -3670,6 +4141,18 @@
 {synopt:{opt Source Notes}}Private sector guaranteed by Public Sector long-term debt are aggregated. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodi{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INT.PRVT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVT.CB.CD:DT.INT.PRVT.CB.CD} - CB, private creditors (INT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -3880,6 +4363,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.NFL.BLAT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLAT.CB.CD:DT.NFL.BLAT.CB.CD} - CB, bilateral (NFL, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.NFL.BLAT.GG.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLAT.GG.CD:DT.NFL.BLAT.GG.CD} - GG, bilateral (NFL, current US$)}}
 
@@ -3929,6 +4424,18 @@
 {synopt:{opt Source Notes}}Public sector bilateral debt includes loans from governments and their agencies (including central banks), loans from autonomous bodies, and direct loans from official export credit agencies.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.NFL.BLTC.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.BLTC.CB.CD:DT.NFL.BLTC.CB.CD} - CB, bilateral concessional (NFL, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -3994,6 +4501,18 @@
 {synopt:{opt Source Notes}}Public sector bilateral debt includes loans from governments and their agencies (including central banks), loans from autonomous bodies, and direct loans from official export credit agencies. Concessional debt is defined as loans with an origi{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.NFL.DECB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DECB.CD:DT.NFL.DECB.CD} - Net flows on external debt, central bank (PPG) (NFL, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -4088,6 +4607,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.NFL.MLAT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLAT.CB.CD:DT.NFL.MLAT.CB.CD} - CB, multilateral (NFL, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.NFL.MLAT.GG.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLAT.GG.CD:DT.NFL.MLAT.GG.CD} - GG, multilateral (NFL, current US$)}}
 
@@ -4137,6 +4668,18 @@
 {synopt:{opt Source Notes}}Public sector multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on b{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.NFL.MLTC.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.MLTC.CB.CD:DT.NFL.MLTC.CB.CD} - CB, multilateral concessional (NFL, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -4218,6 +4761,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.NFL.OFFT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.OFFT.CB.CD:DT.NFL.OFFT.CB.CD} - CB, official creditors (NFL, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.NFL.OFFT.GG.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.NFL.OFFT.GG.CD:DT.NFL.OFFT.GG.CD} - GG, official creditors (NFL, current US$)}}
 
@@ -4267,6 +4822,18 @@
 {synopt:{opt Source Notes}}Public sector debt from official creditors includes loans from international organizations (multilateral loans) and loans from governments (bilateral loans). Loans from international organization include loans and credits from the World Bank,{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.NFL.PBND.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PBND.CB.CD:DT.NFL.PBND.CB.CD} - CB, bonds (NFL, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -4322,6 +4889,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.NFL.PCBK.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PCBK.CB.CD:DT.NFL.PCBK.CB.CD} - CB, commercial banks (NFL, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.NFL.PCBK.GG.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.NFL.PCBK.GG.CD:DT.NFL.PCBK.GG.CD} - GG, commercial banks (NFL, current US$)}}
 
@@ -4371,6 +4950,18 @@
 {synopt:{opt Source Notes}}Public sector commercial bank loans from private banks and other private financial institutions. Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Data are in{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.NFL.PROP.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PROP.CB.CD:DT.NFL.PROP.CB.CD} - CB, other private creditors (NFL, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -4439,6 +5030,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.NFL.PRVT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PRVT.CB.CD:DT.NFL.PRVT.CB.CD} - CB, private creditors (NFL, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.NFL.PRVT.GG.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.NFL.PRVT.GG.CD:DT.NFL.PRVT.GG.CD} - GG, private creditors (NFL, current US$)}}
 
@@ -4488,6 +5091,18 @@
 {synopt:{opt Source Notes}}Public sector debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, expor{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.NTR.BLAT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLAT.CB.CD:DT.NTR.BLAT.CB.CD} - CB, bilateral (NTR, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -4556,6 +5171,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.NTR.BLTC.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLTC.CB.CD:DT.NTR.BLTC.CB.CD} - CB, bilateral concessional (NTR, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.NTR.BLTC.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.NTR.BLTC.CD:DT.NTR.BLTC.CD} - PPG, bilateral concessional (NTR, current US$)}}
 
@@ -4618,6 +5245,18 @@
 {synopt:{opt Source Notes}}Public sector  bilateral debt includes loans from governments and their agencies (including central banks), loans from autonomous bodies, and direct loans from official export credit agencies. Concessional debt is defined as loans with an orig{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.NTR.DECB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.DECB.CD:DT.NTR.DECB.CD} - Net transfers on external debt, central bank (PPG) (NTR, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -4738,6 +5377,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.NTR.MLAT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLAT.CB.CD:DT.NTR.MLAT.CB.CD} - CB, multilateral (NTR, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.NTR.MLAT.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLAT.CD:DT.NTR.MLAT.CD} - PPG, multilateral (NTR, current US$)}}
 
@@ -4800,6 +5451,18 @@
 {synopt:{opt Source Notes}}Public sector multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on b{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.NTR.MLTC.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.MLTC.CB.CD:DT.NTR.MLTC.CB.CD} - CB, multilateral concessional (NTR, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -4868,6 +5531,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.NTR.OFFT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.OFFT.CB.CD:DT.NTR.OFFT.CB.CD} - CB, official creditors (NTR, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.NTR.OFFT.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.NTR.OFFT.CD:DT.NTR.OFFT.CD} - PPG, official creditors (NTR, current US$)}}
 
@@ -4933,6 +5608,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.NTR.PBND.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PBND.CB.CD:DT.NTR.PBND.CB.CD} - CB, bonds (NTR, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.NTR.PBND.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.NTR.PBND.CD:DT.NTR.PBND.CD} - PPG, bonds (NTR, current US$)}}
 
@@ -4995,6 +5682,18 @@
 {synopt:{opt Source Notes}}Public sector debt from bonds that are either publicly issued or privately placed. Net transfers are net flows minus interest payments during the year; negative transfers show net transfers made by the borrower to the creditor during the year.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.NTR.PCBK.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PCBK.CB.CD:DT.NTR.PCBK.CB.CD} - CB, commercial banks (NTR, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -5089,6 +5788,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.NTR.PROP.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PROP.CB.CD:DT.NTR.PROP.CB.CD} - CB, other private creditors (NTR, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.NTR.PROP.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.NTR.PROP.CD:DT.NTR.PROP.CD} - PPG, other private creditors (NTR, current US$)}}
 
@@ -5167,6 +5878,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.NTR.PRVT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NTR.PRVT.CB.CD:DT.NTR.PRVT.CB.CD} - CB, private creditors (NTR, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.NTR.PRVT.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.NTR.PRVT.CD:DT.NTR.PRVT.CD} - PPG, private creditors (NTR, current US$)}}
 
@@ -5229,6 +5952,18 @@
 {synopt:{opt Source Notes}}Public sector debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, expor{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.TDS.BLAT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLAT.CB.CD:DT.TDS.BLAT.CB.CD} - CB, bilateral (TDS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -5297,6 +6032,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.TDS.BLTC.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLTC.CB.CD:DT.TDS.BLTC.CB.CD} - CB, bilateral concessional (TDS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.TDS.BLTC.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.BLTC.CD:DT.TDS.BLTC.CD} - PPG, bilateral concessional (TDS, current US$)}}
 
@@ -5359,6 +6106,18 @@
 {synopt:{opt Source Notes}}Public sector  bilateral debt includes loans from governments and their agencies (including central banks), loans from autonomous bodies, and direct loans from official export credit agencies. Concessional debt is defined as loans with an orig{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.TDS.DECB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECB.CD:DT.TDS.DECB.CD} - Debt service on external debt, central bank (PPG) (TDS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -5453,6 +6212,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.TDS.MLAT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLAT.CB.CD:DT.TDS.MLAT.CB.CD} - CB, multilateral (TDS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.TDS.MLAT.GG.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLAT.GG.CD:DT.TDS.MLAT.GG.CD} - GG, multilateral (TDS, current US$)}}
 
@@ -5502,6 +6273,18 @@
 {synopt:{opt Source Notes}}Public sector  multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.TDS.MLTC.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.MLTC.CB.CD:DT.TDS.MLTC.CB.CD} - CB, multilateral concessional (TDS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -5570,6 +6353,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.TDS.OFFT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.OFFT.CB.CD:DT.TDS.OFFT.CB.CD} - CB, official creditors (TDS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.TDS.OFFT.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.OFFT.CD:DT.TDS.OFFT.CD} - PPG, official creditors (TDS, current US$)}}
 
@@ -5635,6 +6430,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.TDS.PBND.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PBND.CB.CD:DT.TDS.PBND.CB.CD} - CB, bonds (TDS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.TDS.PBND.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PBND.CD:DT.TDS.PBND.CD} - PPG, bonds (TDS, current US$)}}
 
@@ -5697,6 +6504,18 @@
 {synopt:{opt Source Notes}}Public sector  debt from bonds that are either publicly issued or privately placed. Debt service payments are the sum of principal repayments and interest payments actually made in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.TDS.PCBK.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PCBK.CB.CD:DT.TDS.PCBK.CB.CD} - CB, commercial banks (TDS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -5791,6 +6610,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.TDS.PROP.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PROP.CB.CD:DT.TDS.PROP.CB.CD} - CB, other private creditors (TDS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.TDS.PROP.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PROP.CD:DT.TDS.PROP.CD} - PPG, other private creditors (TDS, current US$)}}
 
@@ -5866,6 +6697,18 @@
 {synopt:{opt Source Notes}}Private sector guaranteed by Public Sector debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term obligations of public debtors and long-term private obligations guaranteed by a{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.TDS.PRVT.CB.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVT.CB.CD:DT.TDS.PRVT.CB.CD} - CB, private creditors (TDS, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -5986,4 +6829,4 @@
 
 
 
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}

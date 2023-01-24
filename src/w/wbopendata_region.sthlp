@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Region  (as of 05jul2021)}
+{title:Region  (as of 23jan2023)}
 
 {marker EAS}
 {p 20 20 2}(Go up to {it:{help wbopendata##region:Region }}){p_end}
@@ -65,7 +65,7 @@
 {synopt:{opt CHI}}  Channel Islands {p_end}
 {synopt:{opt HRV}}  Croatia {p_end}
 {synopt:{opt CYP}}  Cyprus {p_end}
-{synopt:{opt CZE}}  Czech Republic {p_end}
+{synopt:{opt CZE}}  Czechia {p_end}
 {synopt:{opt DNK}}  Denmark {p_end}
 {synopt:{opt EST}}  Estonia {p_end}
 {synopt:{opt FRO}}  Faroe Islands {p_end}
@@ -106,7 +106,7 @@
 {synopt:{opt SWE}}  Sweden {p_end}
 {synopt:{opt CHE}}  Switzerland {p_end}
 {synopt:{opt TJK}}  Tajikistan {p_end}
-{synopt:{opt TUR}}  Turkey {p_end}
+{synopt:{opt TUR}}  Turkiye {p_end}
 {synopt:{opt TKM}}  Turkmenistan {p_end}
 {synopt:{opt UKR}}  Ukraine {p_end}
 {synopt:{opt GBR}}  United Kingdom {p_end}
