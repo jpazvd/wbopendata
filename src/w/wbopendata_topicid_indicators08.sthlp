@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid_indicators19##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid_indicators20##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid_indicators21##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid_indicatorstopicID##topicid_topicID:}{p_end}
 
 
 {marker topicid_08}
@@ -40,7 +41,7 @@
 {syntab:{title:{bf:08 Health}}}
 {synoptline}
 {marker topicid_SG.VAW.1549.ZS}
-{synopt:{bf:{help wbopendata_topicid##SG.VAW.1549.ZS:SG.VAW.1549.ZS} - Proportion of women subjected to physical and/or sexual violence in the last 12 months (% of women age 15-49)}}
+{synopt:{bf:{help wbopendata_topicid##SG.VAW.1549.ZS:SG.VAW.1549.ZS} - Proportion of women subjected to physical and/or sexual violence in the last 12 months (% of ever-partnered women ages 15-49)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -800,22 +801,22 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of female infants dying before reaching one year of age{p_end}
+{synopt:{opt Source Notes}}Number of female infants dying before reaching one year of age.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.DTH.IMRT.MA}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.IMRT.MA:SH.DTH.IMRT.MA} - Number of infant deaths, male}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of male infants dying before reaching one year of age{p_end}
+{synopt:{opt Source Notes}}Number of male infants dying before reaching one year of age.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -852,22 +853,22 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of female children dying before reaching age five{p_end}
+{synopt:{opt Source Notes}}Number of female children dying before reaching age five.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.DTH.MORT.MA}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.MORT.MA:SH.DTH.MORT.MA} - Number of under-five deaths, male}}
 
-{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of male children dying before reaching age five{p_end}
+{synopt:{opt Source Notes}}Number of male children dying before reaching age five.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -887,7 +888,7 @@
 {marker topicid_SH.DTH.NMRT}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.NMRT:SH.DTH.NMRT} - Number of neonatal deaths}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1004,7 +1005,7 @@
 {marker topicid_SH.DYN.MORT.MA}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.MA:SH.DYN.MORT.MA} - Mortality rate, under-5, male (per 1,000 live births)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3584,7 +3585,7 @@
 
 {synopt:{opt Source Notes}}The number of procedures undertaken in an operating theatre per 100,000 population per year in each country. A procedure is defined as the incision, excision, or manipulation of tissue that needs regional or general anaesthesia, or profound se{p_end}
 
-{synopt:{opt Source Organization}}The Lancet Commission on Global Surgery ({browse "www.lancetglobalsurgery.org"}).{p_end}
+{synopt:{opt Source Organization}}Data from various sources compiled by the Lancet Commission on Global Surgery ({browse "www.lancetglobalsurgery.org"}) and the Center for Health Equity in Surgery and Anesthesia at UCSF Medical Center.{p_end}
 
 
 {synoptline}
@@ -4507,7 +4508,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women aged 15–49 who have gone through partial or total removal of the female external genitalia or other injury to the female genital organs for cultural or other non-therapeutic reasons.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of Auguest 28, 2020, UNICEF DATA ({browse "http://www.data.unicef.org/"}) as of August 30, 2020.{p_end}
+{synopt:{opt Source Organization}}UNICEF DATA (http://www.data.unicef.org/);  Demographic and Health Surveys (DHS); Multiple Indicator Cluster Surveys (MICS), and other surveys.{p_end}
 
 
 {synoptline}
@@ -4819,7 +4820,7 @@
 
 {synopt:{opt Source Notes}}People practicing open defecation refers to the percentage of the population defecating in the open, such as in fields, forest, bushes, open bodies of water, on beaches, in other open spaces or disposed of with solid waste.{p_end}
 
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
+{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
@@ -4832,7 +4833,7 @@
 
 {synopt:{opt Source Notes}}People practicing open defecation refers to the percentage of the population defecating in the open, such as in fields, forest, bushes, open bodies of water, on beaches, in other open spaces or disposed of with solid waste.{p_end}
 
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
+{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
@@ -4845,7 +4846,7 @@
 
 {synopt:{opt Source Notes}}People practicing open defecation refers to the percentage of the population defecating in the open, such as in fields, forest, bushes, open bodies of water, on beaches, in other open spaces or disposed of with solid waste.{p_end}
 
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
+{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
@@ -5096,6 +5097,19 @@
 
 
 {synoptline}
+{marker topicid_SH.STA.OWGH.ME.ZS}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.OWGH.ME.ZS:SH.STA.OWGH.ME.ZS} - Prevalence of overweight (modeled estimate, % of children under 5)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Prevalence of overweight children is the percentage of children under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the{p_end}
+
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME).{p_end}
+
+
+{synoptline}
 {marker topicid_SH.STA.OWGH.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.OWGH.ZS:SH.STA.OWGH.ZS} - Prevalence of overweight, weight for height (% of children under 5)}}
 
@@ -5275,6 +5289,19 @@
 {synopt:{opt Source Notes}}Prevalence of stunting, male, is the percentage of boys under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height{p_end}
 
 {synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
+
+
+{synoptline}
+{marker topicid_SH.STA.STNT.ME.ZS}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.ME.ZS:SH.STA.STNT.ME.ZS} - Prevalence of stunting, height for age (modeled estimate, % of children under 5)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Prevalence of stunting is the percentage of children under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height is{p_end}
+
+{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME).{p_end}
 
 
 {synoptline}
@@ -5703,7 +5730,7 @@
 
 {synopt:{opt Source Notes}}Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, expressed in US dollars (2011 PPP). The poverty gap increase due to out-of-pocket health spending is one way to measure how much out-of-po{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019. NOTE: This indicator has been discontinued as of December 2021. Please see the following indicators: SH.UHC.FBP1.ZS, SH.UHC.FBP2.Z{p_end}
 
 
 {synoptline}
@@ -5714,9 +5741,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of people pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the number of households experiencing impoverishing expenditures, defined as expenditures without which the househ{p_end}
+{synopt:{opt Source Notes}}Number of people pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the number of people living in households experiencing impoverishing out-of-pocket health expenditures, defined as{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
 
 
 {synoptline}
@@ -5729,7 +5756,7 @@
 
 {synopt:{opt Source Notes}}Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, as a percentage of the $1.90 poverty line. The poverty gap increase due to out-of-pocket health spending is one way to measure how much ou{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.  NOTE: This indicator has been discontinued as of December 2021. Please see the following indicators: SH.UHC.FBP1.ZS, SH.UHC.FBP2.{p_end}
 
 
 {synoptline}
@@ -5740,9 +5767,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the fraction of a country's households experiencing impoverishing expenditures, defined as expenditures wi{p_end}
+{synopt:{opt Source Notes}}Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the fraction of a country’s population experiencing out-of-pocket health impoverishing expenditures, def{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
 
 
 {synoptline}
@@ -5755,7 +5782,7 @@
 
 {synopt:{opt Source Notes}}Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, expressed in US dollars (2011 PPP). The poverty gap increase due to out-of-pocket health spending is one way to measure how much out-of-po{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.  NOTE: This indicator has been discontinued as of December 2021. Please see the following indicators: SH.UHC.FBP1.ZS, SH.UHC.FBP2.{p_end}
 
 
 {synoptline}
@@ -5766,9 +5793,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of people pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the number of households experiencing impoverishing expenditures, defined as expenditures without which the househ{p_end}
+{synopt:{opt Source Notes}}Number of people pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the number of households experiencing impoverishing out-of-pocket health expenditures, defined as expenditures wit{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
 
 
 {synoptline}
@@ -5781,7 +5808,7 @@
 
 {synopt:{opt Source Notes}}Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, as a percentage of the $3.20 poverty line. The poverty gap increase due to out-of-pocket health spending is one way to measure how much ou{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.  NOTE: This indicator has been discontinued as of December 2021. Please see the following indicators: SH.UHC.FBP1.ZS, SH.UHC.FBP2.{p_end}
 
 
 {synoptline}
@@ -5792,9 +5819,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Proportion of population pushed below the $3.20 ($2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the fraction of a country's households experiencing impoverishing expenditures, defined as expenditures wit{p_end}
+{synopt:{opt Source Notes}}Proportion of population pushed below the $3.20 ($2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the fraction of a country’s population experiencing out-of-pocket health impoverishing expenditures, defi{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
 
 
 {synoptline}
@@ -5805,9 +5832,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure{p_end}
+{synopt:{opt Source Notes}}Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure. Out-of-pocket health expenditure is defined as any spending incurred by a household when any member uses a health good or serv{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
 
 
 {synoptline}
@@ -5818,9 +5845,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure.{p_end}
+{synopt:{opt Source Notes}}Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure. Out-of-pocket health expenditure is defined as any spending incurred by a household when any member uses a health good{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
 
 
 {synoptline}
@@ -5831,9 +5858,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure{p_end}
+{synopt:{opt Source Notes}}Number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure. Out-of-pocket health expenditure is defined as any spending incurred by a household when any member uses a health good or serv{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
 
 
 {synoptline}
@@ -5844,9 +5871,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure.{p_end}
+{synopt:{opt Source Notes}}Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure. Out-of-pocket health expenditure is defined as any spending incurred by a household when any member uses a health good{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.{p_end}
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
 
 
 {synoptline}
@@ -5963,7 +5990,7 @@
 
 {synopt:{opt Source Notes}}Level of current health expenditure expressed as a percentage of GDP.  Estimates of current health expenditures include healthcare goods and services consumed during each year. This indicator does not include capital health expenditures such a{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -5976,7 +6003,7 @@
 
 {synopt:{opt Source Notes}}Current expenditures on health per capita in current US dollars. Estimates of current health expenditures include healthcare goods and services consumed during each year.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -5987,9 +6014,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Current expenditures on health per capita expressed in international dollars at purchasing power parity (PPP time series based on ICP2011 PPP).{p_end}
+{synopt:{opt Source Notes}}Current expenditures on health per capita expressed in international dollars at purchasing power parity.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -6002,7 +6029,7 @@
 
 {synopt:{opt Source Notes}}Share of current health expenditures funded from external sources. External sources compose of direct foreign transfers and foreign transfers distributed by government encompassing all financial inflows into the national health system from out{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -6015,7 +6042,7 @@
 
 {synopt:{opt Source Notes}}Current external expenditures on health per capita expressed in current US dollars. External sources are composed of direct foreign transfers and foreign transfers distributed by government encompassing all financial inflows into the national{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -6026,9 +6053,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Current external expenditures on health per capita expressed in international dollars at purchasing power parity (PPP time series based on ICP2011 PPP). External sources are composed of direct foreign transfers and foreign transfers distribute{p_end}
+{synopt:{opt Source Notes}}Current external expenditures on health per capita expressed in international dollars at purchasing power parity. External sources are composed of direct foreign transfers and foreign transfers distributed by government encompassing all financ{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -6054,7 +6081,7 @@
 
 {synopt:{opt Source Notes}}Share of current health expenditures funded from domestic public sources for health.  Domestic public sources include domestic revenue as internal transfers and grants, transfers, subsidies to voluntary health insurance beneficiaries, non-prof{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -6067,7 +6094,7 @@
 
 {synopt:{opt Source Notes}}Public expenditure on health from domestic sources as a share of the economy as measured by GDP.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -6080,7 +6107,7 @@
 
 {synopt:{opt Source Notes}}Public expenditure on health from domestic sources as a share of total public expenditure.  It indicates the priority of the government to spend on health from own domestic public resources.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -6093,7 +6120,7 @@
 
 {synopt:{opt Source Notes}}Public expenditure on health from domestic sources per capita expressed in current US dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -6104,9 +6131,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Public expenditure on health from domestic sources per capita expressed in international dollars at purchasing power parity (PPP time series based on ICP2011 PPP).{p_end}
+{synopt:{opt Source Notes}}Public expenditure on health from domestic sources per capita expressed in international dollars at purchasing power parity.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -6119,7 +6146,7 @@
 
 {synopt:{opt Source Notes}}Share of out-of-pocket payments of total current health expenditures.  Out-of-pocket payments are spending on health directly out-of-pocket by households.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -6132,7 +6159,7 @@
 
 {synopt:{opt Source Notes}}Health expenditure through out-of-pocket payments per capita in USD.  Out of pocket payments are spending on health directly out of pocket by households in each country.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -6143,9 +6170,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Health expenditure through out-of-pocket payments per capita in international dollars at purchasing power parity (PPP time series based on ICP2011 PPP).{p_end}
+{synopt:{opt Source Notes}}Health expenditure through out-of-pocket payments per capita in international dollars at purchasing power parity.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -6275,7 +6302,7 @@
 
 {synopt:{opt Source Notes}}Share of current health expenditures funded from domestic private sources.  Domestic private sources include funds from households, corporations and non-profit organizations. Such expenditures can be either prepaid to voluntary health insuranc{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -6288,7 +6315,7 @@
 
 {synopt:{opt Source Notes}}Current private expenditures on health per capita expressed in current US dollars. Domestic private sources include funds from households, corporations and non-profit organizations. Such expenditures can be either prepaid to voluntary health i{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -6299,9 +6326,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Current private expenditures on health per capita expressed in international dollars at purchasing power parity (PPP time series based on ICP2011 PPP).{p_end}
+{synopt:{opt Source Notes}}Current private expenditures on health per capita expressed in international dollars at purchasing power parity.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -6334,13 +6361,13 @@
 {marker topicid_SM.POP.NETM}
 {synopt:{bf:{help wbopendata_topicid##SM.POP.NETM:SM.POP.NETM} - Net migration}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Net migration is the net total of migrants during the period, that is, the total number of immigrants less the annual number of emigrants, including both citizens and noncitizens. Data are five-year estimates.{p_end}
+{synopt:{opt Source Notes}}Net migration is the net total of migrants during the period, that is, the number of immigrants minus the number of emigrants, including both citizens and noncitizens.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -6403,9 +6430,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Population below minimum level of dietary energy consumption (also referred to as prevalence of undernourishment) shows the percentage of the population whose food intake is insufficient to meet dietary energy requirements continuously. Data s{p_end}
+{synopt:{opt Source Notes}}home).{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization ({browse "http://www.fao.org/publications/en/"}).{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization (http://www.fao.org/faostat/en/{p_end}
 
 
 {synoptline}
@@ -6613,7 +6640,7 @@
 
 {synopt:{opt Source Notes}}Vitamin A supplementation refers to the percentage of children ages 6-59 months old who received at least two doses of vitamin A in the previous year.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Children's Fund, State of the World's Children.{p_end}
+{synopt:{opt Source Organization}}UNICEF global databases, based on administrative reports from countries (link: {browse "https://data.unicef.org/topic/nutrition/vitamin-a-deficiency/)"}{p_end}
 
 
 {synoptline}
@@ -6659,26 +6686,26 @@
 {marker topicid_SP.DYN.AMRT.FE}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.AMRT.FE:SP.DYN.AMRT.FE} - Mortality rate, adult, female (per 1,000 female adults)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Adult mortality rate, female, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old female dying before reaching age 60, if subject to age-specific mortality rates of the specified year between th{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.AMRT.MA}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.AMRT.MA:SP.DYN.AMRT.MA} - Mortality rate, adult, male (per 1,000 male adults)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Adult mortality rate, male, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old male dying before reaching age 60, if subject to age-specific mortality rates of the specified year between those{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
 
 
 {synoptline}
@@ -6691,7 +6718,7 @@
 
 {synopt:{opt Source Notes}}Crude birth rate indicates the number of live births occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
@@ -6704,7 +6731,7 @@
 
 {synopt:{opt Source Notes}}Crude death rate indicates the number of deaths occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the rate{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
@@ -6839,13 +6866,13 @@
 
 {synoptline}
 {marker topicid_SP.DYN.CONM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.DYN.CONM.ZS:SP.DYN.CONM.ZS} - Contraceptive prevalence, modern methods (% of women ages 15-49)}}
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CONM.ZS:SP.DYN.CONM.ZS} - Contraceptive prevalence, any modern method (% of married women ages 15-49)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Contraceptive prevalence rate is the percentage of women who are practicing, or whose sexual partners are practicing, at least one modern method of contraception. It is usually measured for women ages 15-49 who are married or in union. Modern{p_end}
+{synopt:{opt Source Notes}}Contraceptive prevalence, any modern method is the percentage of married women ages 15-49 who are practicing, or whose sexual partners are practicing, at least one modern method of contraception.  Modern methods of contraception include female{p_end}
 
 {synopt:{opt Source Organization}}Household surveys, including Demographic and Health Surveys and Multiple Indicator Cluster Surveys. Largely compiled by United Nations Population Division.{p_end}
 
@@ -6917,22 +6944,22 @@
 
 {synoptline}
 {marker topicid_SP.DYN.CONU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.DYN.CONU.ZS:SP.DYN.CONU.ZS} - Contraceptive prevalence, any methods (% of women ages 15-49)}}
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CONU.ZS:SP.DYN.CONU.ZS} - Contraceptive prevalence, any method (% of married women ages 15-49)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Contraceptive prevalence rate is the percentage of women who are practicing, or whose sexual partners are practicing, any form of contraception. It is usually measured for women ages 15-49 who are married or in union.{p_end}
+{synopt:{opt Source Notes}}Contraceptive prevalence, any method is the percentage of married women ages 15-49 who are practicing, or whose sexual partners are practicing, any method of contraception (modern or traditional). Modern methods of contraception include female{p_end}
 
-{synopt:{opt Source Organization}}UNICEF's State of the World's Children and Childinfo, United Nations Population Division's World Contraceptive Use, household surveys including Demographic and Health Surveys and Multiple Indicator Cluster Surveys.{p_end}
+{synopt:{opt Source Organization}}Household surveys, including Demographic and Health Surveys and Multiple Indicator Cluster Surveys. Largely compiled by United Nations Population Division.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.IMRT.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.FE.IN:SP.DYN.IMRT.FE.IN} - Mortality rate, infant, female (per 1,000 live births)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6945,7 +6972,7 @@
 {marker topicid_SP.DYN.IMRT.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.IN:SP.DYN.IMRT.IN} - Mortality rate, infant (per 1,000 live births)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7042,7 +7069,7 @@
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
@@ -7055,7 +7082,7 @@
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision, or derived from male and female life expectancy at birth from sources such as: (2) Census reports and other statistical publications from national statistical o{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision, or derived from male and female life expectancy at birth from sources such as: (2) Census reports and other statistical publications from national statistical o{p_end}
 
 
 {synoptline}
@@ -7068,20 +7095,20 @@
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.TFRT.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.TFRT.IN:SP.DYN.TFRT.IN} - Fertility rate, total (births per woman)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total fertility rate represents the number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
@@ -7159,7 +7186,7 @@
 
 {synopt:{opt Source Notes}}Survival to age 65 refers to the percentage of a cohort of newborn infants that would survive to age 65, if subject to age specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7172,7 +7199,7 @@
 
 {synopt:{opt Source Notes}}Survival to age 65 refers to the percentage of a cohort of newborn infants that would survive to age 65, if subject to age specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7276,7 +7303,7 @@
 
 {synopt:{opt Source Notes}}Women who were first married by age 15 refers to the percentage of women ages 20-24 who were first married by age 15.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
+{synopt:{opt Source Organization}}UNICEF Data; Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), AIDS Indicator Surveys(AIS), Reproductive Health Survey(RHS), and other household surveys.{p_end}
 
 
 {synoptline}
@@ -7289,7 +7316,7 @@
 
 {synopt:{opt Source Notes}}Women who were first married by age 18 refers to the percentage of women ages 20-24 who were first married by age 18.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), AIDS Indicator Surveys(AIS), Reproductive Health Survey(RHS), and other household surveys.{p_end}
+{synopt:{opt Source Organization}}UNICEF Data; Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), AIDS Indicator Surveys(AIS), Reproductive Health Survey(RHS), and other household surveys.{p_end}
 
 
 {synoptline}
@@ -7380,20 +7407,20 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 0 to 4 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.0004.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0004.MA.5Y:SP.POP.0004.MA.5Y} - Population ages 00-04, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 0 to 4 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7406,7 +7433,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7419,7 +7446,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 0 to 14 as a percentage of the total female population. Population is based on the de facto definition of population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7432,20 +7459,20 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.0014.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.MA.ZS:SP.POP.0014.MA.ZS} - Population ages 0-14, male (% of male population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 0 to 14 as a percentage of the total male population. Population is based on the de facto definition of population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7458,33 +7485,33 @@
 
 {synopt:{opt Source Notes}}Total population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.0014.TO.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.TO.ZS:SP.POP.0014.TO.ZS} - Population ages 0-14 (% of total population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Population between the ages 0 to 14 as a percentage of the total population. Population is based on the de facto definition of population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.0509.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0509.FE.5Y:SP.POP.0509.FE.5Y} - Population ages 05-09, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 5 to 9 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7497,7 +7524,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 5 to 9 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7510,20 +7537,20 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 10 to 14 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1014.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1014.MA.5Y:SP.POP.1014.MA.5Y} - Population ages 10-14, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 10 to 14 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7536,59 +7563,59 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 15 to 19 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1519.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1519.MA.5Y:SP.POP.1519.MA.5Y} - Population ages 15-19, male (% of male population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 15 to 19 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.FE.IN:SP.POP.1564.FE.IN} - Population ages 15-64, female}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.FE.ZS:SP.POP.1564.FE.ZS} - Population ages 15-64, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 15 to 64 as a percentage of the total female population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.MA.IN:SP.POP.1564.MA.IN} - Population ages 15-64, male}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7601,33 +7628,33 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 15 to 64 as a percentage of the total male population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.TO}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.TO:SP.POP.1564.TO} - Population ages 15-64, total}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.TO.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.TO.ZS:SP.POP.1564.TO.ZS} - Population ages 15-64 (% of total population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total population between the ages 15 to 64 as a percentage of the total population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7640,33 +7667,33 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 20 to 24 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.2024.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.2024.MA.5Y:SP.POP.2024.MA.5Y} - Population ages 20-24, male (% of male population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 20 to 24 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.2529.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.2529.FE.5Y:SP.POP.2529.FE.5Y} - Population ages 25-29, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 25 to 29 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7679,7 +7706,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 25 to 29 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7692,20 +7719,20 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 30 to 34 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.3034.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.3034.MA.5Y:SP.POP.3034.MA.5Y} - Population ages 30-34, male (% of male population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 30 to 34 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7718,7 +7745,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 35 to 39 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7731,7 +7758,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 35 to 39 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7744,111 +7771,111 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 40 to 44 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.4044.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.4044.MA.5Y:SP.POP.4044.MA.5Y} - Population ages 40-44, male (% of male population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 40 to 44 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.4549.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.4549.FE.5Y:SP.POP.4549.FE.5Y} - Population ages 45-49, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 45 to 49 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.4549.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.4549.MA.5Y:SP.POP.4549.MA.5Y} - Population ages 45-49, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 45 to 49 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.5054.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5054.FE.5Y:SP.POP.5054.FE.5Y} - Population ages 50-54, female (% of female population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 50 to 54 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.5054.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5054.MA.5Y:SP.POP.5054.MA.5Y} - Population ages 50-54, male (% of male population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 50 to 54 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.5559.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5559.FE.5Y:SP.POP.5559.FE.5Y} - Population ages 55-59, female (% of female population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 55 to 59 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.5559.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5559.MA.5Y:SP.POP.5559.MA.5Y} - Population ages 55-59, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 55 to 59 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.6064.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.6064.FE.5Y:SP.POP.6064.FE.5Y} - Population ages 60-64, female (% of female population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 60 to 64 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7861,7 +7888,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 60 to 64 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7874,7 +7901,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 65 to 69 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7887,20 +7914,20 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 65 to 69 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.65UP.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.FE.IN:SP.POP.65UP.FE.IN} - Population ages 65 and above, female}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7913,46 +7940,46 @@
 
 {synopt:{opt Source Notes}}Female population 65 years of age or older as a percentage of the total female population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.65UP.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.MA.IN:SP.POP.65UP.MA.IN} - Population ages 65 and above, male}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.65UP.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.MA.ZS:SP.POP.65UP.MA.ZS} - Population ages 65 and above, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population 65 years of age or older as a percentage of the total male population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.65UP.TO}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.TO:SP.POP.65UP.TO} - Population ages 65 and above, total}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7965,7 +7992,7 @@
 
 {synopt:{opt Source Notes}}Population ages 65 and above as a percentage of the total population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7978,7 +8005,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 70 to 74 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -7991,40 +8018,40 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 70 to 74 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.7579.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.7579.FE.5Y:SP.POP.7579.FE.5Y} - Population ages 75-79, female (% of female population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 75 to 79 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.7579.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.7579.MA.5Y:SP.POP.7579.MA.5Y} - Population ages 75-79, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 75 to 79 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.80UP.FE}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.80UP.FE:SP.POP.80UP.FE} - Population ages 80 and above, female}}
 
-{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -8043,33 +8070,33 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 80 and above as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.80UP.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.80UP.MA.5Y:SP.POP.80UP.MA.5Y} - Population ages 80 and above, male (% of male population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 80 and above as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.BRTH.MF}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.BRTH.MF:SP.POP.BRTH.MF} - Sex ratio at birth (male births per female births)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Sex ratio at birth refers to male births per female births. The data are 5 year averages.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -8082,33 +8109,33 @@
 
 {synopt:{opt Source Notes}}Age dependency ratio is the ratio of dependents--people younger than 15 or older than 64--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.DPND.OL}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.DPND.OL:SP.POP.DPND.OL} - Age dependency ratio, old (% of working-age population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Age dependency ratio, old, is the ratio of older dependents--people older than 64--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.DPND.YG}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.DPND.YG:SP.POP.DPND.YG} - Age dependency ratio, young (% of working-age population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Age dependency ratio, young, is the ratio of younger dependents--people younger than 15--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -8121,7 +8148,7 @@
 
 {synopt:{opt Source Notes}}Annual population growth rate for year t is the exponential rate of growth of midyear population from year t-1 to t, expressed as a percentage . Population is based on the de facto definition of population, which counts all residents regardles{p_end}
 
-{synopt:{opt Source Organization}}Derived from total population. Population source: (1) United Nations Population Division. World Population Prospects: 2019 Revision, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demogra{p_end}
+{synopt:{opt Source Organization}}Derived from total population. Population source: (1) United Nations Population Division. World Population Prospects: 2022 Revision, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demogra{p_end}
 
 
 {synoptline}
@@ -8134,7 +8161,7 @@
 
 {synopt:{opt Source Notes}}Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
@@ -8147,20 +8174,20 @@
 
 {synopt:{opt Source Notes}}Female population is based on the de facto definition of population, which counts all female residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.TOTL.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.FE.ZS:SP.POP.TOTL.FE.ZS} - Population, female (% of total population)}}
 
-{synopt:{opt Source}}40 Population estimates and projections{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population is the percentage of the population that is female. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -8173,7 +8200,7 @@
 
 {synopt:{opt Source Notes}}Male population is based on the de facto definition of population, which counts all male residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -8186,7 +8213,7 @@
 
 {synopt:{opt Source Notes}}Male population is the percentage of the population that is male. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -8476,4 +8503,4 @@
 
 
 
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}

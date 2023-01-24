@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid_indicators19##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid_indicators20##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid_indicators21##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid_indicatorstopicID##topicid_topicID:}{p_end}
 
 
 {marker topicid_20}
@@ -3010,7 +3011,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are{p_end}
+{synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. This cal{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -3023,7 +3024,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. The expo{p_end}
+{synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. This cal{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -3036,7 +3037,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. The GNI{p_end}
+{synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. This cal{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -6065,9 +6066,9 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Debt service (PPG and IMF only, % of exports of goods, services and primary income){p_end}
+{synopt:{opt Source Notes}}Debt service, the sum of principal repayments and interest actually paid in currency, goods, or services, is expressed as a percentage of exports of goods and services--all transactions between residents of a country and the rest of the world{p_end}
 
-{synopt:{opt Source Organization}}Debt service is the sum of principle repayments and interest actually paid in currency, goods, or services. This series differs from the standard debt to exports series. It covers only long-term public and publicly guaranteed debt and repaymen{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6747,4 +6748,4 @@
 
 
 
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}

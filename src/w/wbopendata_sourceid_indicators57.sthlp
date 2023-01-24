@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -25,7 +25,6 @@
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
-{synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
 {synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
@@ -65,6 +64,10 @@
 {synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
 {synopt:{opt 83}}  {help wbopendata_sourceid_indicators83##sourceid_83:Statistical Performance Indicators (SPI)}{p_end}
 {synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
+{synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
+{synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
+{synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
+{synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
 
 
 {marker sourceid_57}
@@ -1701,7 +1704,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Access to non-solid fuel, rural is the percentage of rural population with access to non-solid fuel.{p_end}
 
@@ -4097,7 +4100,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Time to export is the time necessary to comply with all procedures required to export goods. Time is recorded in calendar days. The time calculation for a procedure starts from the moment it is initiated and runs until it is completed. If a pr{p_end}
 
@@ -4110,7 +4113,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearan{p_end}
 
@@ -4275,6 +4278,45 @@
 {synopt:{opt Source Notes}}Trademark applications filed are applications to register a trademark with a national or regional Intellectual Property (IP) office. A trademark is a distinctive sign which identifies certain goods or services as those produced or provided by{p_end}
 
 {synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), WIPO Patent Report: Statistics on Worldwide Patent Activity. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
+
+
+{synoptline}
+{marker sourceid_IP.TMK.NRES}
+{synopt:{bf:{help wbopendata_sourceid##IP.TMK.NRES:IP.TMK.NRES} - Trademark applications, direct nonresident}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}14 Science and Technology{p_end}
+
+{synopt:{opt Source Notes}}Trademark applications filed are applications to register a trademark with a national or regional Intellectual Property (IP) office. A trademark is a distinctive sign which identifies certain goods or services as those produced or provided by{p_end}
+
+{synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), WIPO Patent Report: Statistics on Worldwide Patent Activity. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data. Data last retrieved Janu{p_end}
+
+
+{synoptline}
+{marker sourceid_IP.TMK.RESD}
+{synopt:{bf:{help wbopendata_sourceid##IP.TMK.RESD:IP.TMK.RESD} - Trademark applications, direct resident}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}14 Science and Technology{p_end}
+
+{synopt:{opt Source Notes}}Trademark applications filed are applications to register a trademark with a national or regional Intellectual Property (IP) office. A trademark is a distinctive sign which identifies certain goods or services as those produced or provided by{p_end}
+
+{synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), WIPO Patent Report: Statistics on Worldwide Patent Activity. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data. Data last retrieved Janu{p_end}
+
+
+{synoptline}
+{marker sourceid_IP.TMK.TOTL}
+{synopt:{bf:{help wbopendata_sourceid##IP.TMK.TOTL:IP.TMK.TOTL} - Trademark applications, total}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}14 Science and Technology{p_end}
+
+{synopt:{opt Source Notes}}Trademark applications filed are applications to register a trademark with a national or regional Intellectual Property (IP) office. A trademark is a distinctive sign which identifies certain goods or services as those produced or provided by{p_end}
+
+{synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), World Intellectual Property Indicators and {browse "www.wipo.int/econ_stat"}. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data. Data last retrieve{p_end}
 
 
 {synoptline}
@@ -7912,7 +7954,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Non-pregnant and non-nursing women can do the same jobs as men indicates whether there are specific jobs that women explicitly or implicitly cannot perform except in limited circumstances. Both partial and full restrictions on women’s work a{p_end}
 
@@ -7938,7 +7980,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}Law mandates paid or unpaid maternity leave is whether there is a law mandating paid or unpaid maternity leave available only to the mother. Provisions for circumstantial leave by which an employee is entitled to a certain number of days of pa{p_end}
 
@@ -7951,7 +7993,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Mothers are guaranteed an equivalent position after maternity leave is whether employers of women returning from maternity leave are legally obligated to provide them with an equivalent position after maternity leave. It takes into account pai{p_end}
 
@@ -8040,7 +8082,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source, urban, refers to the percentage of the urban population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located{p_end}
 
@@ -8380,7 +8422,7 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.CV}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.CV:SI.POV.DDAY.CV} - Survey coverage for poverty headcount ratio (at $1.90 a day, 2011 PPP)}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.CV:SI.POV.DDAY.CV} - Survey coverage for poverty headcount ratio (at $2.15 a day, 2017 PPP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -8392,7 +8434,7 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.SH}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.SH:SI.POV.DDAY.SH} - Share of total poor population (at $1.90 a day, 2011 PPP)}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.SH:SI.POV.DDAY.SH} - Share of total poor population (at $2.15 a day, 2017 PPP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -8429,6 +8471,18 @@
 
 
 {synoptline}
+{marker sourceid_SI.POV.NOP1}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.NOP1:SI.POV.NOP1} - Number of poor at $1.90 a day (2011 PPP) (millions)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}The number of people (millions) living on less than $1.90 a day (2011 PPP){p_end}
+
+{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. For more information and methodology, please see PovcalNet (http://iresea{p_end}
+
+
+{synoptline}
 {marker sourceid_SI.POV.RUGP}
 {synopt:{bf:{help wbopendata_sourceid##SI.POV.RUGP:SI.POV.RUGP} - Rural poverty gap at national poverty lines (%)}}
 
@@ -8447,7 +8501,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}Rural poverty headcount ratio is the percentage of the rural population living below the national poverty lines.{p_end}
 
@@ -8460,7 +8514,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}11 Poverty{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Urban poverty gap at national poverty lines is the urban population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as wel{p_end}
 
@@ -8584,7 +8638,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural secto{p_end}
 
@@ -8648,7 +8702,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Ratio of female to male wages in manufacturing refers to female to male wages and salaries in manufacturing.{p_end}
 
@@ -8685,7 +8739,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
@@ -8698,7 +8752,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Female labor force with primary education is the share of the female labor force that attained or completed primary education as the highest level of education.{p_end}
 
@@ -8711,7 +8765,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with primary education is the share of the male labor force that attained or completed primary education as the highest level of education.{p_end}
 
@@ -8763,7 +8817,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Labor force with secondary education is the share of the total labor force that attained or completed secondary education as the highest level of education.{p_end}
 
@@ -8802,7 +8856,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Labor force with tertiary education is the share of the total labor force that attained or completed tertiary education as the highest level of education.{p_end}
 
@@ -8852,7 +8906,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Long-term unemployment refers to the number of people with continuous periods of unemployment extending for a year or longer, expressed as a percentage of the total unemployed.{p_end}
 
@@ -8878,7 +8932,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Female unemployment with primary education is the share of the female unemployed who attained or completed primary education as the highest level.{p_end}
 
@@ -8891,7 +8945,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Male unemployment with primary education is the share of the male unemployed who attained or completed primary education as the highest level.{p_end}
 
@@ -8917,7 +8971,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Female unemployment with secondary education is the share of the female unemployed who attained or completed secondary education as the highest level.{p_end}
 
@@ -8943,7 +8997,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Female unemployment with tertiary education is the share of the female unemployed who attained or completed tertiary education as the highest level.{p_end}
 
@@ -8969,7 +9023,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Emigration rate of tertiary educated shows the stock of emigrants ages 25 and older, residing in an OECD country other than that in which they were born, with at least one year of tertiary education as a percentage of the population age 25 and{p_end}
 
@@ -10144,446 +10198,6 @@
 
 
 {synoptline}
-{marker sourceid_UM.EMP.ROUT.IN}
-{synopt:{bf:{help wbopendata_sourceid##UM.EMP.ROUT.IN:UM.EMP.ROUT.IN} - Manufacturing Real Output per Empl. (1980=100)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_UM.EMP.ROUT.XD}
-{synopt:{bf:{help wbopendata_sourceid##UM.EMP.ROUT.XD:UM.EMP.ROUT.XD} - Manufacturing Real Output per Empl. (1987=100)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_UM.EMP.RWAG.IN}
-{synopt:{bf:{help wbopendata_sourceid##UM.EMP.RWAG.IN:UM.EMP.RWAG.IN} - Manufacturing Real Earnings per Empl. (1980=100)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_UM.EMP.RWAG.XD}
-{synopt:{bf:{help wbopendata_sourceid##UM.EMP.RWAG.XD:UM.EMP.RWAG.XD} - Manufacturing Real Earnings per Empl.(1987=100)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_UM.EMP.TOTL.IN}
-{synopt:{bf:{help wbopendata_sourceid##UM.EMP.TOTL.IN:UM.EMP.TOTL.IN} - Manufacturing Employment (1980=100)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_UM.EMP.TOTL.XU}
-{synopt:{bf:{help wbopendata_sourceid##UM.EMP.TOTL.XU:UM.EMP.TOTL.XU} - Manufacturing Employment (1987=100)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_UM.VAD.WAGE.SN}
-{synopt:{bf:{help wbopendata_sourceid##UM.VAD.WAGE.SN:UM.VAD.WAGE.SN} - Manufacturing Earnings as % of Value Added}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_UM.VAD.WAGE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##UM.VAD.WAGE.ZS:UM.VAD.WAGE.ZS} - Manufacturing Earnings as % of Value Added}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_VC.HOM.ITEN.P5.HE}
-{synopt:{bf:{help wbopendata_sourceid##VC.HOM.ITEN.P5.HE:VC.HOM.ITEN.P5.HE} - Intentional homicide rate (per 100,000 people, CTS and national sources)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_VC.HOM.ITEN.P5.LE}
-{synopt:{bf:{help wbopendata_sourceid##VC.HOM.ITEN.P5.LE:VC.HOM.ITEN.P5.LE} - Intentional homicide rate (per 100,000 people, WHO)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_VC.IDP.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##VC.IDP.TOTL:VC.IDP.TOTL} - Internally displaced persons (number)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_VC.IHR.ICTS.P5}
-{synopt:{bf:{help wbopendata_sourceid##VC.IHR.ICTS.P5:VC.IHR.ICTS.P5} - Intentional homicides, UN Crime Trends Survey (CTS) source (per 100,000 people)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and{p_end}
-
-{synopt:{opt Source Organization}}UN Office on Drugs and Crime's International Homicide Statistics database.{p_end}
-
-
-{synoptline}
-{marker sourceid_VC.IHR.IPBH.P5}
-{synopt:{bf:{help wbopendata_sourceid##VC.IHR.IPBH.P5:VC.IHR.IPBH.P5} - Intentional homicides, international public health sources (per 100,000 people)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and{p_end}
-
-{synopt:{opt Source Organization}}UN Office on Drugs and Crime's International Homicide Statistics database.{p_end}
-
-
-{synoptline}
-{marker sourceid_VC.IHR.IPOL.P5}
-{synopt:{bf:{help wbopendata_sourceid##VC.IHR.IPOL.P5:VC.IHR.IPOL.P5} - Intentional homicides, international police sources (per 100,000 people)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and{p_end}
-
-{synopt:{opt Source Organization}}UN Office on Drugs and Crime's International Homicide Statistics database.{p_end}
-
-
-{synoptline}
-{marker sourceid_VC.IHR.NPOL.P5}
-{synopt:{bf:{help wbopendata_sourceid##VC.IHR.NPOL.P5:VC.IHR.NPOL.P5} - Intentional homicides, government police sources (per 100,000 people)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and{p_end}
-
-{synopt:{opt Source Organization}}UN Office on Drugs and Crime's International Homicide Statistics database.{p_end}
-
-
-{synoptline}
-{marker sourceid_VC.PKP.TOTL.UN}
-{synopt:{bf:{help wbopendata_sourceid##VC.PKP.TOTL.UN:VC.PKP.TOTL.UN} - Presence of peace keepers (number of troops, police, and military observers in mandate)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Presence of peacebuilders and peacekeepers are active in peacebuilding and peacekeeping. Peacebuilding reduces the risk of lapsing or relapsing into conflict by strengthening national capacities at all levels of for conflict management, and to{p_end}
-
-{synopt:{opt Source Organization}}UN Department of Peacekeeping Operations, {browse "http://www.un.org/en/peacekeeping/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP15163_4.1}
-{synopt:{bf:{help wbopendata_sourceid##WP15163_4.1:WP15163_4.1} - Mobile account (% age 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP15163_4.2}
-{synopt:{bf:{help wbopendata_sourceid##WP15163_4.2:WP15163_4.2} - Mobile account, male (% age 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP15163_4.3}
-{synopt:{bf:{help wbopendata_sourceid##WP15163_4.3:WP15163_4.3} - Mobile account, female (% age 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP15163_4.8}
-{synopt:{bf:{help wbopendata_sourceid##WP15163_4.8:WP15163_4.8} - Mobile account, income, poorest 40% (% ages 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP15163_4.9}
-{synopt:{bf:{help wbopendata_sourceid##WP15163_4.9:WP15163_4.9} - Mobile account, income, richest 60% (% ages 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP_time_01.1}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_01.1:WP_time_01.1} - Account at a financial institution (% age 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP_time_01.2}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_01.2:WP_time_01.2} - Account at a financial institution, male (% age 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP_time_01.3}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_01.3:WP_time_01.3} - Account at a financial institution, female (% age 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP_time_01.8}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_01.8:WP_time_01.8} - Account at a financial institution, income, poorest 40% (% ages 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP_time_01.9}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_01.9:WP_time_01.9} - Account at a financial institution, income, richest 60% (% ages 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP_time_10.1}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_10.1:WP_time_10.1} - Account (% age 15+) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP_time_10.2}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_10.2:WP_time_10.2} - Account, male (% age 15+) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP_time_10.3}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_10.3:WP_time_10.3} - Account, female (% age 15+) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP_time_10.4}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_10.4:WP_time_10.4} - Account, young adults (% ages 15-24) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP_time_10.5}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_10.5:WP_time_10.5} - Account, older adults (% ages 25+) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP_time_10.6}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_10.6:WP_time_10.6} - Account, primary education or less (% ages 15+) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP_time_10.7}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_10.7:WP_time_10.7} - Account, secondary education or more (% ages 15+) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP_time_10.8}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_10.8:WP_time_10.8} - Account, income, poorest 40% (% ages 15+) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_WP_time_10.9}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_10.9:WP_time_10.9} - Account, income, richest 60% (% ages 15+) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
 {marker sourceid_allsa.bi_q1}
 {synopt:{bf:{help wbopendata_sourceid##allsa.bi_q1:allsa.bi_q1} - Benefit incidence of social safety net programs to poorest quintile (% of total safety net benefits)}}
 
@@ -10728,4 +10342,4 @@
 
 
 
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}

@@ -70,16 +70,16 @@
 {synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
 
 
-{marker sourceid_73}
-{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators73##:TOC}}){p_end}
+{marker sourceid_88}
+{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators88##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{syntab:{title:{bf:73 Global Financial Inclusion and Consumer Protection Survey (Internal)}}}
+{syntab:{title:{bf:88 Food Prices for Nutrition}}}
 {synoptline}
-{marker sourceid_FB.CAP.INST.ST.MS.WB}
-{synopt:{bf:{help wbopendata_sourceid##FB.CAP.INST.ST.MS.WB:FB.CAP.INST.ST.MS.WB} - }}
+{marker sourceid_CoCA}
+{synopt:{bf:{help wbopendata_sourceid##CoCA:CoCA} - Cost of an energy sufficient diet}}
 
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -88,22 +88,10 @@
 
 
 {synoptline}
-{marker sourceid_FB.CAP.POLI.GL.WP}
-{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.GL.WP:FB.CAP.POLI.GL.WP} - }}
+{marker sourceid_CoCA_fexp}
+{synopt:{bf:{help wbopendata_sourceid##CoCA_fexp:CoCA_fexp} - Affordability of an energy sufficient diet: ratio of cost to food expenditures}}
 
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_FB.CAP.POLI.RE.WP}
-{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.RE.WP:FB.CAP.POLI.RE.WP} - }}
-
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -112,22 +100,10 @@
 
 
 {synoptline}
-{marker sourceid_FB.CAP.POLI.RG.DC.WP}
-{synopt:{bf:{help wbopendata_sourceid##FB.CAP.POLI.RG.DC.WP:FB.CAP.POLI.RG.DC.WP} - }}
+{marker sourceid_CoCA_headcount}
+{synopt:{bf:{help wbopendata_sourceid##CoCA_headcount:CoCA_headcount} - Percent of the population who cannot afford sufficient calories at 52% of income}}
 
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_FB.FCP.INST.ES.WH.EN}
-{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ES.WH.EN:FB.FCP.INST.ES.WH.EN} - }}
-
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -136,22 +112,10 @@
 
 
 {synoptline}
-{marker sourceid_FB.FCP.INST.NS.HW.MY}
-{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.NS.HW.MY:FB.FCP.INST.NS.HW.MY} - }}
+{marker sourceid_CoCA_pov}
+{synopt:{bf:{help wbopendata_sourceid##CoCA_pov:CoCA_pov} - Affordability of an energy sufficient diet: ratio of cost to the $0.99 food poverty line}}
 
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_FB.FCP.INST.ST.RS.WT}
-{synopt:{bf:{help wbopendata_sourceid##FB.FCP.INST.ST.RS.WT:FB.FCP.INST.ST.RS.WT} - }}
-
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -160,22 +124,10 @@
 
 
 {synoptline}
-{marker sourceid_FB.INC.EMNY.SP.IF.WH}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.EMNY.SP.IF.WH:FB.INC.EMNY.SP.IF.WH} - }}
+{marker sourceid_CoCA_unafford_n}
+{synopt:{bf:{help wbopendata_sourceid##CoCA_unafford_n:CoCA_unafford_n} - Millions of people who cannot afford sufficient calories at 52% of income}}
 
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_FB.INC.INST.CB.AU.WR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.AU.WR:FB.INC.INST.CB.AU.WR} - }}
-
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -184,22 +136,10 @@
 
 
 {synoptline}
-{marker sourceid_FB.INC.INST.CB.LN.WL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.CB.LN.WL:FB.INC.INST.CB.LN.WL} - }}
+{marker sourceid_CoHD}
+{synopt:{bf:{help wbopendata_sourceid##CoHD:CoHD} - Cost of a healthy diet}}
 
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_FB.INC.INST.FC.AU.WR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.AU.WR:FB.INC.INST.FC.AU.WR} - }}
-
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -208,22 +148,10 @@
 
 
 {synoptline}
-{marker sourceid_FB.INC.INST.FC.LN.WL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.FC.LN.WL:FB.INC.INST.FC.LN.WL} - }}
+{marker sourceid_CoHD_CoCA}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_CoCA:CoHD_CoCA} - Cost of a healthy diet relative to the cost of sufficient energy from starchy staples}}
 
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_FB.INC.INST.MC.AU.WR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.AU.WR:FB.INC.INST.MC.AU.WR} - }}
-
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -232,22 +160,10 @@
 
 
 {synoptline}
-{marker sourceid_FB.INC.INST.MC.LN.WL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.MC.LN.WL:FB.INC.INST.MC.LN.WL} - }}
+{marker sourceid_CoHD_asf}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_asf:CoHD_asf} - Cost of animal-source foods}}
 
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_FB.INC.INST.NB.AU.WR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.NB.AU.WR:FB.INC.INST.NB.AU.WR} - }}
-
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -256,22 +172,10 @@
 
 
 {synoptline}
-{marker sourceid_FB.INC.INST.OB.AU.WR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.AU.WR:FB.INC.INST.OB.AU.WR} - }}
+{marker sourceid_CoHD_asf_prop}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_asf_prop:CoHD_asf_prop} - Cost share for animal-sourced foods in a least-cost healthy diet}}
 
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_FB.INC.INST.OB.LN.WL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OB.LN.WL:FB.INC.INST.OB.LN.WL} - }}
-
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -280,10 +184,10 @@
 
 
 {synoptline}
-{marker sourceid_FB.INC.INST.OD.AU.WR}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.AU.WR:FB.INC.INST.OD.AU.WR} - }}
+{marker sourceid_CoHD_asf_ss}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_asf_ss:CoHD_asf_ss} - Cost of animal-sourced foods relative to the starchy staples in a least-cost healthy diet}}
 
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
@@ -292,10 +196,274 @@
 
 
 {synoptline}
-{marker sourceid_FB.INC.INST.OD.LN.WL}
-{synopt:{bf:{help wbopendata_sourceid##FB.INC.INST.OD.LN.WL:FB.INC.INST.OD.LN.WL} - }}
+{marker sourceid_CoHD_f}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_f:CoHD_f} - Cost of fruits}}
 
-{synopt:{opt Source}}73 Global Financial Inclusion and Consumer Protection Survey (Internal){p_end}
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_f_prop}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_f_prop:CoHD_f_prop} - Cost share for fruits in a least-cost healthy diet}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_f_ss}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_f_ss:CoHD_f_ss} - Cost of fruits relative to the starchy staples in a least-cost healthy diet}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_fexp}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_fexp:CoHD_fexp} - Affordability of a healthy diet: ratio of cost to food expenditures}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_headcount}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_headcount:CoHD_headcount} - Percent of the population who cannot afford a healthy diet at 52% of income}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_lns}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_lns:CoHD_lns} - Cost of legumes, nuts and seeds}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_lns_prop}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_lns_prop:CoHD_lns_prop} - Cost share for legumes, nuts and seeds in a least-cost healthy diet}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_lns_ss}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_lns_ss:CoHD_lns_ss} - Cost of legumes, nuts and seeds relative to the starchy staples in a least-cost healthy diet}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_of}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_of:CoHD_of} - Cost of oils and fats}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_of_prop}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_of_prop:CoHD_of_prop} - Cost share for oils and fats in a least-cost healthy diet}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_of_ss}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_of_ss:CoHD_of_ss} - Cost of oils and fats relative to the starchy staples in a least-cost healthy diet}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_pov}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_pov:CoHD_pov} - Affordability of a healthy diet: ratio of cost to the $0.99 food poverty line}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_ss}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_ss:CoHD_ss} - Cost of starchy staples}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_ss_prop}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_ss_prop:CoHD_ss_prop} - Cost share for starchy staples in a least-cost healthy diet}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_unafford_n}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_unafford_n:CoHD_unafford_n} - Millions of people who cannot afford a healthy diet at 52% of income}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_v}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_v:CoHD_v} - Cost of vegetables}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_v_prop}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_v_prop:CoHD_v_prop} - Cost share for vegetables in a least-cost healthy diet}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoHD_v_ss}
+{synopt:{bf:{help wbopendata_sourceid##CoHD_v_ss:CoHD_v_ss} - Cost of vegetables relative to the starchy staples in a least-cost healthy diet}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoNA}
+{synopt:{bf:{help wbopendata_sourceid##CoNA:CoNA} - Cost of a nutrient adequate diet}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoNA_fexp}
+{synopt:{bf:{help wbopendata_sourceid##CoNA_fexp:CoNA_fexp} - Affordability of a nutrient adequate diet: ratio of cost to food expenditures}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoNA_headcount}
+{synopt:{bf:{help wbopendata_sourceid##CoNA_headcount:CoNA_headcount} - Percent of the population who cannot afford nutrient adequacy at 52% of income}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoNA_pov}
+{synopt:{bf:{help wbopendata_sourceid##CoNA_pov:CoNA_pov} - Affordability of a nutrient adequate diet: ratio of cost to the $0.99 food poverty line}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_CoNA_unafford_n}
+{synopt:{bf:{help wbopendata_sourceid##CoNA_unafford_n:CoNA_unafford_n} - Millions of people who cannot afford nutrient adequacy at 52% of income}}
+
+{synopt:{opt Source}}88 Food Prices for Nutrition{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}

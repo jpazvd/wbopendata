@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid_indicators19##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid_indicators20##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid_indicators21##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid_indicatorstopicID##topicid_topicID:}{p_end}
 
 
 {marker topicid_18}
@@ -144,7 +145,7 @@
 
 {synoptline}
 {marker topicid_DC.ODA.TOTL.KD}
-{synopt:{bf:{help wbopendata_topicid##DC.ODA.TOTL.KD:DC.ODA.TOTL.KD} - Net ODA provided, total (constant 2015 US$)}}
+{synopt:{bf:{help wbopendata_topicid##DC.ODA.TOTL.KD:DC.ODA.TOTL.KD} - Net ODA provided, total (constant 2020 US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -377,4 +378,4 @@
 
 
 
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}

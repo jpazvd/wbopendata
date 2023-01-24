@@ -1,4 +1,4 @@
-*! _wbod_tmpfile1 <5 Jul 2021 : 19:48:21>                 by João Pedro Azevedo
+*! _wbod_tmpfile1 <23 Jan 2023 : 15:22:38>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _wbod_tmpfile1 
@@ -11,8 +11,10 @@
   
          cap: gen countrycode_iso2 = ""  
          cap: replace countrycode_iso2 = "AW"     if `match' == "ABW"  
+         cap: replace countrycode_iso2 = "ZH"     if `match' == "AFE"  
          cap: replace countrycode_iso2 = "AF"     if `match' == "AFG"  
          cap: replace countrycode_iso2 = "A9"     if `match' == "AFR"  
+         cap: replace countrycode_iso2 = "ZI"     if `match' == "AFW"  
          cap: replace countrycode_iso2 = "AO"     if `match' == "AGO"  
          cap: replace countrycode_iso2 = "AL"     if `match' == "ALB"  
          cap: replace countrycode_iso2 = "AD"     if `match' == "AND"  
@@ -387,7 +389,7 @@
          cap: replace countryname = "Curacao"     if `match' == "CUW"  
          cap: replace countryname = "Cayman Islands"     if `match' == "CYM"  
          cap: replace countryname = "Cyprus"     if `match' == "CYP"  
-         cap: replace countryname = "Czech Republic"     if `match' == "CZE"  
+         cap: replace countryname = "Czechia"     if `match' == "CZE"  
          cap: replace countryname = "East Asia and Pacific (IDA-eligible countries)"     if `match' == "DEA"  
          cap: replace countryname = "Europe and Central Asia (IDA-eligible countries)"     if `match' == "DEC"  
          cap: replace countryname = "Germany"     if `match' == "DEU"  
@@ -595,7 +597,7 @@
          cap: replace countryname = "Sub-Saharan Africa (IDA and IBRD countries)"     if `match' == "TSS"  
          cap: replace countryname = "Trinidad and Tobago"     if `match' == "TTO"  
          cap: replace countryname = "Tunisia"     if `match' == "TUN"  
-         cap: replace countryname = "Turkey"     if `match' == "TUR"  
+         cap: replace countryname = "Turkiye"     if `match' == "TUR"  
          cap: replace countryname = "Tuvalu"     if `match' == "TUV"  
          cap: replace countryname = "Taiwan, China"     if `match' == "TWN"  
          cap: replace countryname = "Tanzania"     if `match' == "TZA"  

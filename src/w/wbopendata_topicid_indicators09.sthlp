@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid_indicators19##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid_indicators20##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid_indicators21##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid_indicatorstopicID##topicid_topicID:}{p_end}
 
 
 {marker topicid_09}
@@ -364,6 +365,19 @@
 
 
 {synoptline}
+{marker topicid_IE.PPN.ICTI.CD}
+{synopt:{bf:{help wbopendata_topicid##IE.PPN.ICTI.CD:IE.PPN.ICTI.CD} - Public private partnerships investment in ICT (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}09 Infrastructure{p_end}
+
+{synopt:{opt Source Notes}}Public Private Partnerships in ICT (current US$) refers to commitments to projects in ICT backbone infrastructure (including land based and submarine cables) that have reached financial closure and directly or indirectly serve the public. Mova{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Private Participation in Infrastructure Project Database ({browse "http://ppi.worldbank.org"}).{p_end}
+
+
+{synoptline}
 {marker topicid_IE.PPN.TELE.CD}
 {synopt:{bf:{help wbopendata_topicid##IE.PPN.TELE.CD:IE.PPN.TELE.CD} - Public private partnerships investment in telecom (current US$)}}
 
@@ -631,7 +645,7 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Port container traffic measures the flow of containers from land to sea transport modes., and vice versa, in twenty-foot equivalent units (TEUs), a standard-size container. Data refer to coastal shipping as well as international journeys. Tran{p_end}
+{synopt:{opt Source Notes}}Port container traffic measures the flow of containers from land to sea transport modes, and vice versa, in twenty-foot equivalent units (TEUs), a standard-size container. Data refer to coastal shipping as well as international journeys. Trans{p_end}
 
 {synopt:{opt Source Organization}}UNCTAD ({browse "http://unctad.org/en/Pages/statistics.aspx"}){p_end}
 
@@ -1014,4 +1028,4 @@
 
 
 
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}

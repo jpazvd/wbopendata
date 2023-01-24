@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid_indicators19##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid_indicators20##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid_indicators21##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid_indicatorstopicID##topicid_topicID:}{p_end}
 
 
 {marker topicid_11}
@@ -1452,7 +1453,7 @@
 
 {synopt:{opt Source Notes}}Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles. Percentage shares by quintile may not sum to 100 because of rounding.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
@@ -1465,7 +1466,7 @@
 
 {synopt:{opt Source Notes}}Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles. Percentage shares by quintile may not sum to 100 because of rounding.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
@@ -1478,7 +1479,7 @@
 
 {synopt:{opt Source Notes}}Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles. Percentage shares by quintile may not sum to 100 because of rounding.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
@@ -1491,7 +1492,7 @@
 
 {synopt:{opt Source Notes}}Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles. Percentage shares by quintile may not sum to 100 because of rounding.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
@@ -1504,7 +1505,7 @@
 
 {synopt:{opt Source Notes}}Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
@@ -1515,9 +1516,9 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people in the population who live in households whose per capita income or consumption is below half of the median income or consumption per capita. The median is measured at 2011 Purchasing Power Parity (PPP) using PovcalNet{p_end}
+{synopt:{opt Source Notes}}The percentage of people in the population who live in households whose per capita income or consumption is below half of the median income or consumption per capita. The median is measured at 2017 Purchasing Power Parity (PPP) using the Pover{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from EU-SILC or the Luxembourg Income{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
@@ -1530,7 +1531,7 @@
 
 {synopt:{opt Source Notes}}Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
@@ -1543,7 +1544,7 @@
 
 {synopt:{opt Source Notes}}Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles. Percentage shares by quintile may not sum to 100 because of rounding.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
@@ -1561,15 +1562,15 @@
 
 {synoptline}
 {marker topicid_SI.POV.DDAY}
-{synopt:{bf:{help wbopendata_topicid##SI.POV.DDAY:SI.POV.DDAY} - Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)}}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.DDAY:SI.POV.DDAY} - Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day is the percentage of the population living on less than $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared{p_end}
+{synopt:{opt Source Notes}}Poverty headcount ratio at $2.15 a day is the percentage of the population living on less than $2.15 a day at 2017 purchasing power adjusted prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
@@ -1587,20 +1588,20 @@
 
 {synoptline}
 {marker topicid_SI.POV.GAPS}
-{synopt:{bf:{help wbopendata_topicid##SI.POV.GAPS:SI.POV.GAPS} - Poverty gap at $1.90 a day (2011 PPP) (%)}}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.GAPS:SI.POV.GAPS} - Poverty gap at $2.15 a day (2017 PPP) (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap at $1.90 a day (2011 PPP) is the mean shortfall in income or consumption from the poverty line $1.90 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the de{p_end}
+{synopt:{opt Source Notes}}Poverty gap at $2.15 a day (2017 PPP) is the mean shortfall in income or consumption from the poverty line $2.15 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the de{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
 {marker topicid_SI.POV.GINI}
-{synopt:{bf:{help wbopendata_topicid##SI.POV.GINI:SI.POV.GINI} - Gini index (World Bank estimate)}}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.GINI:SI.POV.GINI} - Gini index}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1608,33 +1609,33 @@
 
 {synopt:{opt Source Notes}}Gini index measures the extent to which the distribution of income (or, in some cases, consumption expenditure) among individuals or households within an economy deviates from a perfectly equal distribution. A Lorenz curve plots the cumulative{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. For more information and methodology, please see PovcalNet (http://iresea{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
 {marker topicid_SI.POV.LMIC}
-{synopt:{bf:{help wbopendata_topicid##SI.POV.LMIC:SI.POV.LMIC} - Poverty headcount ratio at $3.20 a day (2011 PPP) (% of population)}}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.LMIC:SI.POV.LMIC} - Poverty headcount ratio at $3.65 a day (2017 PPP) (% of population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount ratio at $3.20 a day is the percentage of the population living on less than $3.20 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared{p_end}
+{synopt:{opt Source Notes}}Poverty headcount ratio at $3.65 a day is the percentage of the population living on less than $3.65 a day at 2017 international prices.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
 {marker topicid_SI.POV.LMIC.GP}
-{synopt:{bf:{help wbopendata_topicid##SI.POV.LMIC.GP:SI.POV.LMIC.GP} - Poverty gap at $3.20 a day (2011 PPP) (%)}}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.LMIC.GP:SI.POV.LMIC.GP} - Poverty gap at $3.65 a day (2017 PPP) (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap at $3.20 a day (2011 PPP) is the mean shortfall in income or consumption from the poverty line $3.20 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the de{p_end}
+{synopt:{opt Source Notes}}Poverty gap at $3.65 a day (2017 PPP) is the mean shortfall in income or consumption from the poverty line $3.65 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the de{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
@@ -1764,7 +1765,7 @@
 
 {synopt:{opt Source Notes}}National poverty headcount ratio is the percentage of the population living below the national poverty line(s). National estimates are based on population-weighted subgroup estimates from household surveys. For economies for which the data are{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
 
 
 {synoptline}
@@ -1795,28 +1796,28 @@
 
 {synoptline}
 {marker topicid_SI.POV.UMIC}
-{synopt:{bf:{help wbopendata_topicid##SI.POV.UMIC:SI.POV.UMIC} - Poverty headcount ratio at $5.50 a day (2011 PPP) (% of population)}}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.UMIC:SI.POV.UMIC} - Poverty headcount ratio at $6.85 a day (2017 PPP) (% of population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount ratio at $5.50 a day is the percentage of the population living on less than $5.50 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared{p_end}
+{synopt:{opt Source Notes}}Poverty headcount ratio at $6.85 a day is the percentage of the population living on less than $6.85 a day at 2017 international prices.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
 {marker topicid_SI.POV.UMIC.GP}
-{synopt:{bf:{help wbopendata_topicid##SI.POV.UMIC.GP:SI.POV.UMIC.GP} - Poverty gap at $5.50 a day (2011 PPP) (%)}}
+{synopt:{bf:{help wbopendata_topicid##SI.POV.UMIC.GP:SI.POV.UMIC.GP} - Poverty gap at $6.85 a day (2017 PPP) (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap at $5.50 a day (2011 PPP) is the mean shortfall in income or consumption from the poverty line $5.50 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the de{p_end}
+{synopt:{opt Source Notes}}Poverty gap at $6.85 a day (2017 PPP) is the mean shortfall in income or consumption from the poverty line $6.85 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the de{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
 
 
 {synoptline}
@@ -1847,15 +1848,15 @@
 
 {synoptline}
 {marker topicid_SI.SPR.PC40}
-{synopt:{bf:{help wbopendata_topicid##SI.SPR.PC40:SI.SPR.PC40} - Survey mean consumption or income per capita, bottom 40% of population (2011 PPP $ per day)}}
+{synopt:{bf:{help wbopendata_topicid##SI.SPR.PC40:SI.SPR.PC40} - Survey mean consumption or income per capita, bottom 40% of population (2017 PPP $ per day)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}Mean consumption or income per capita (2011 PPP $ per day) used in calculating the growth rate in the welfare aggregate of the bottom 40% of the population in the income distribution in a country.{p_end}
+{synopt:{opt Source Notes}}Mean consumption or income per capita (2017 PPP $ per day) of the bottom 40%, used in calculating the growth rate in the welfare aggregate of the bottom 40% of the population in the income distribution in a country.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) circa 2011-2016 ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
 
 
 {synoptline}
@@ -1881,20 +1882,20 @@
 
 {synopt:{opt Source Notes}}The growth rate in the welfare aggregate of the bottom 40% is computed as the annualized average growth rate in per capita real consumption or income of the bottom 40% of the population in  the income distribution in a country from household s{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) circa 2011-2016 ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SI.SPR.PCAP}
-{synopt:{bf:{help wbopendata_topicid##SI.SPR.PCAP:SI.SPR.PCAP} - Survey mean consumption or income per capita, total population (2011 PPP $ per day)}}
+{synopt:{bf:{help wbopendata_topicid##SI.SPR.PCAP:SI.SPR.PCAP} - Survey mean consumption or income per capita, total population (2017 PPP $ per day)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}Mean consumption or income per capita (2011 PPP $ per day) used in calculating the growth rate in the welfare aggregate of total population.{p_end}
+{synopt:{opt Source Notes}}Mean consumption or income per capita (2017 PPP $ per day) used in calculating the growth rate in the welfare aggregate of total population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) circa 2011-2016 ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
 
 
 {synoptline}
@@ -1920,8 +1921,8 @@
 
 {synopt:{opt Source Notes}}The growth rate in the welfare aggregate of the total population is computed as the annualized average growth rate in per capita real consumption or income of the total population in  the income distribution in a country from household surveys{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) circa 2011-2016 ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
 
 
 
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
