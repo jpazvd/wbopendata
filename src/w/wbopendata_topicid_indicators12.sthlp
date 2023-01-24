@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid_indicators19##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid_indicators20##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid_indicators21##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid_indicatorstopicID##topicid_topicID:}{p_end}
 
 
 {marker topicid_12}
@@ -98,9 +99,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Distance to frontier score illustrates the distance of an economy to the frontier, which represents the best performance observed on each Doing Business topic across all economies and years included since 2005. An economy's distance to frontie{p_end}
+{synopt:{opt Source Notes}}The ease of doing business scores benchmark economies with respect to regulatory best practice, showing the proximity to the best regulatory performance on each Doing Business indicator. An economy’s score is indicated on a scale from 0 to 1{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -113,20 +114,20 @@
 
 {synopt:{opt Source Notes}}Disclosure index measures the extent to which investors are protected through disclosure of ownership and financial information. The index ranges from 0 to 10, with higher values indicating more disclosure.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
 {marker topicid_IC.BUS.EASE.XQ}
-{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Ease of doing business index (1=most business-friendly regulations)}}
+{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Ease of doing business rank (1=most business-friendly regulations)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. A high ranking (a low numerical rank) means that the regulatory environment is conducive to business operation. The index averages the country's percentile{p_end}
+{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. The ranking of economies is determined by sorting the aggregate ease of doing business scores. A high ranking (a low numerical rank) means that the regulato{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -137,9 +138,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}New businesses registered are the number of new limited liability corporations registered in the calendar year.{p_end}
+{synopt:{opt Source Notes}}New businesses registered are the number of new limited liability corporations (or its equivalent) registered in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -150,9 +151,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}New businesses registered are the number of new limited liability corporations registered in the calendar year.{p_end}
+{synopt:{opt Source Notes}}New businesses registered are the number of new limited liability corporations (or its equivalent) registered in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -165,7 +166,7 @@
 
 {synopt:{opt Source Notes}}Depth of credit information index measures rules affecting the scope, accessibility, and quality of credit information available through public or private credit registries. The index ranges from 0 to 8, with higher values indicating the avail{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -178,7 +179,7 @@
 
 {synopt:{opt Source Notes}}Private credit bureau coverage reports the number of individuals or firms listed by a private credit bureau with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the adul{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -191,7 +192,7 @@
 
 {synopt:{opt Source Notes}}Public credit registry coverage reports the number of individuals and firms listed in a public credit registry with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -234,6 +235,19 @@
 
 
 {synoptline}
+{marker topicid_IC.ELC.OUTG.ZS}
+{synopt:{bf:{help wbopendata_topicid##IC.ELC.OUTG.ZS:IC.ELC.OUTG.ZS} - Firms experiencing electrical outages (% of firms)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Percent of firms experiencing electrical outages during the previous fiscal year.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
 {marker topicid_IC.ELC.TIME}
 {synopt:{bf:{help wbopendata_topicid##IC.ELC.TIME:IC.ELC.TIME} - Time required to get electricity (days)}}
 
@@ -243,7 +257,7 @@
 
 {synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -321,7 +335,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -334,7 +348,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -373,7 +387,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -386,7 +400,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -464,7 +478,7 @@
 
 {synopt:{opt Source Notes}}Average losses as a result of theft, robbery, vandalism or arson that occurred on the establishment’s premises calculated as a percentage of annual sales. The value represents the average losses for all firms which reported losses (please se{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}){p_end}
 
 
 {synoptline}
@@ -559,6 +573,32 @@
 
 
 {synoptline}
+{marker topicid_IC.FRM.RSDV.ZS}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.RSDV.ZS:IC.FRM.RSDV.ZS} - Firms that spend on R&amp;D (% of firms)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Percent of firms that spend on research and development.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
+{marker topicid_IC.FRM.THEV.ZS}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.THEV.ZS:IC.FRM.THEV.ZS} - Firms experiencing losses due to theft and vandalism (% of firms)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Percent of firms experiencing losses due to theft, robbery, vandalism or arson that occurred on the establishment's premises.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
 {marker topicid_IC.FRM.TIME}
 {synopt:{bf:{help wbopendata_topicid##IC.FRM.TIME:IC.FRM.TIME} - Time required to deal with construction permits (days)}}
 
@@ -620,7 +660,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -633,7 +673,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -672,7 +712,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -685,7 +725,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -698,7 +738,7 @@
 
 {synopt:{opt Source Notes}}Time to resolve insolvency is the number of years from the filing for insolvency in court until the resolution of distressed assets.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -711,7 +751,7 @@
 
 {synopt:{opt Source Notes}}Strength of legal rights index measures the degree to which collateral and bankruptcy laws protect the rights of borrowers and lenders and thus facilitate lending. The index ranges from 0 to 12, with higher scores indicating that these laws ar{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -724,7 +764,7 @@
 
 {synopt:{opt Source Notes}}Time required to enforce a contract is the number of calendar days from the filing of the lawsuit in court until the final determination and, in appropriate cases, payment.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -737,7 +777,7 @@
 
 {synopt:{opt Source Notes}}Time required to register property is the number of calendar days needed for businesses to secure rights to property.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -750,7 +790,7 @@
 
 {synopt:{opt Source Notes}}Number of procedures to register property is the number of procedures required for a businesses to secure rights to property.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -763,7 +803,7 @@
 
 {synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -776,7 +816,7 @@
 
 {synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -789,7 +829,7 @@
 
 {synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -802,7 +842,7 @@
 
 {synopt:{opt Source Notes}}Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -815,7 +855,7 @@
 
 {synopt:{opt Source Notes}}Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -828,7 +868,7 @@
 
 {synopt:{opt Source Notes}}Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -841,7 +881,7 @@
 
 {synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -854,7 +894,7 @@
 
 {synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -867,7 +907,7 @@
 
 {synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -880,7 +920,7 @@
 
 {synopt:{opt Source Notes}}Time to prepare and pay taxes is the time, in hours per year, it takes to prepare, file, and pay (or withhold) three major types of taxes: the corporate income tax, the value added or sales tax, and labor taxes, including payroll taxes and soc{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -906,12 +946,12 @@
 
 {synopt:{opt Source Notes}}Labor tax and contributions is the amount of taxes and mandatory contributions on labor paid by the business.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
 {marker topicid_IC.TAX.METG}
-{synopt:{bf:{help wbopendata_topicid##IC.TAX.METG:IC.TAX.METG} - Average number of visits or required meetings with tax officials (for affected firms)}}
+{synopt:{bf:{help wbopendata_topicid##IC.TAX.METG:IC.TAX.METG} - Number of visits or required meetings with tax officials (average for affected firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -932,7 +972,7 @@
 
 {synopt:{opt Source Notes}}Other taxes payable by businesses include the amounts paid for property taxes, turnover taxes, and other small taxes such as municipal fees and vehicle and fuel taxes.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -945,7 +985,7 @@
 
 {synopt:{opt Source Notes}}Tax payments by businesses are the total number of taxes paid by businesses, including electronic filing. The tax is counted as paid once a year even if payments are more frequent.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -958,7 +998,7 @@
 
 {synopt:{opt Source Notes}}Profit tax is the amount of taxes on profits paid by the business.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -971,7 +1011,7 @@
 
 {synopt:{opt Source Notes}}Total tax rate measures the amount of taxes and mandatory contributions payable by businesses after accounting for allowable deductions and exemptions as a share of commercial profits. Taxes withheld (such as personal income tax) or collected{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -984,7 +1024,7 @@
 
 {synopt:{opt Source Notes}}Number of female directors is the number of female individuals who conduct the affairs of newly registered limited liability companies in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -997,7 +1037,7 @@
 
 {synopt:{opt Source Notes}}Share of female directors is the proportion of female directors of newly registered limited liability companies out of the total number of directors of newly registered limited liability companies in the economy in the calendar year. A  direct{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -1010,7 +1050,7 @@
 
 {synopt:{opt Source Notes}}Number of female directors is the number of female individuals who conduct the affairs of newly registered limited liability companies in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -1023,7 +1063,7 @@
 
 {synopt:{opt Source Notes}}Share of male directors is the proportion of male directors of newly registered limited liability companies out of the total number of directors of newly registered limited liability companies in the economy in the calendar year. A  director i{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -1036,7 +1076,7 @@
 
 {synopt:{opt Source Notes}}Number of female business owners is the number of female individuals that own at least one share of a limited liability company that was newly registered in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -1049,7 +1089,7 @@
 
 {synopt:{opt Source Notes}}Share of female business is the proportion of female newly registered limited liability company owners out of the total number of newly registered limited liability company owners in the economy in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -1062,7 +1102,7 @@
 
 {synopt:{opt Source Notes}}Number of female business owners is the number of male individuals that own at least one share of a limited liability company that was newly registered in the calendar  year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -1075,7 +1115,7 @@
 
 {synopt:{opt Source Notes}}Share of female business is the proportion of male newly registered limited liability company owners out of the total number of newly registered limited liability company owners in the economy in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -1088,7 +1128,7 @@
 
 {synopt:{opt Source Notes}}Number of female sole proprietors is the number of newly registered sole proprietors owned by female individuals in the calendar year. A sole proprietorship is a business entity owned and managed by a single individual who is indistinguishable{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -1101,7 +1141,7 @@
 
 {synopt:{opt Source Notes}}Share of female sole proprietors is the proportion of female newly registered sole proprietors out of the total number of newly registered sole proprietors in the economy in the calendar year. A sole proprietorship is a business entity owned a{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -1114,7 +1154,7 @@
 
 {synopt:{opt Source Notes}}Number of male sole proprietors is the number of newly registered sole proprietors owned by female individuals in the calendar year.  A sole proprietorship is a business entity owned and managed by a single individual who is indistinguishable{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -1127,7 +1167,7 @@
 
 {synopt:{opt Source Notes}}Share of female sole proprietors is the proportion of male newly registered sole proprietors out of the total number of newly registered sole proprietors in the economy in the calendar year. A sole proprietorship is a business entity owned and{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -1140,7 +1180,7 @@
 
 {synopt:{opt Source Notes}}Time required to build a warehouse is the number of calendar days needed to complete the required procedures for building a warehouse. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -1153,7 +1193,7 @@
 
 {synopt:{opt Source Notes}}Number of procedures to build a warehouse is the number of interactions of a company's employees or managers with external parties, including government agency staff, public inspectors, notaries, land registry and cadastre staff, and technical{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -1231,7 +1271,7 @@
 
 {synopt:{opt Source Notes}}Lead time to export is the median time (the value for 50 percent of shipments) from shipment point to port of loading. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10 percent of{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
 
 
 {synoptline}
@@ -1244,7 +1284,7 @@
 
 {synopt:{opt Source Notes}}Lead time to import is the median time (the value for 50 percent of shipments) from port of discharge to arrival at the consignee. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
 
 
 {synoptline}
@@ -1257,7 +1297,7 @@
 
 {synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
 
 
 {synoptline}
@@ -1270,7 +1310,7 @@
 
 {synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
 
 
 {synoptline}
@@ -1283,7 +1323,7 @@
 
 {synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
 
 
 {synoptline}
@@ -1296,7 +1336,7 @@
 
 {synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
 
 
 {synoptline}
@@ -1309,7 +1349,7 @@
 
 {synopt:{opt Source Notes}}Logistics Performance Index overall score reflects perceptions of a country's logistics based on efficiency of customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competitively priced shipments,{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
 
 
 {synoptline}
@@ -1322,7 +1362,7 @@
 
 {synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
 
 
 {synoptline}
@@ -1335,7 +1375,7 @@
 
 {synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
 
 
 {synoptline}
@@ -1807,6 +1847,19 @@
 
 
 {synoptline}
+{marker topicid_TM.UVI.MRCH.XD.WD}
+{synopt:{bf:{help wbopendata_topicid##TM.UVI.MRCH.XD.WD:TM.UVI.MRCH.XD.WD} - Import unit value index (2015 = 100 )}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Import unit value indices come from UNCTAD's trade database. Unit value indices are based on data reported by countries that demonstrate consistency under UNCTAD quality controls, supplemented by UNCTAD’s estimates using the previous year’{p_end}
+
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files. ({browse "http://unctadstat.unctad.org"}){p_end}
+
+
+{synoptline}
 {marker topicid_TM.VAL.AGRI.ZS.UN}
 {synopt:{bf:{help wbopendata_topicid##TM.VAL.AGRI.ZS.UN:TM.VAL.AGRI.ZS.UN} - Agricultural raw materials imports (% of merchandise imports)}}
 
@@ -2068,7 +2121,7 @@
 
 {synoptline}
 {marker topicid_TM.VAL.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.XD.WD:TM.VAL.MRCH.XD.WD} - Import value index (2000 = 100)}}
+{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.XD.WD:TM.VAL.MRCH.XD.WD} - Import unit value index (2015 = 100)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2145,6 +2198,19 @@
 
 
 {synoptline}
+{marker topicid_TX.MNF.TECH.ZS.UN}
+{synopt:{bf:{help wbopendata_topicid##TX.MNF.TECH.ZS.UN:TX.MNF.TECH.ZS.UN} - Medium and high-tech exports (% manufactured exports)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Share of medium and high-tech manufactured exports in total manufactured exports.{p_end}
+
+{synopt:{opt Source Organization}}United Nations Industrial Development Organization (UNIDO), Competitive Industrial Performance (CIP) database{p_end}
+
+
+{synoptline}
 {marker topicid_TX.QTY.MRCH.XD.WD}
 {synopt:{bf:{help wbopendata_topicid##TX.QTY.MRCH.XD.WD:TX.QTY.MRCH.XD.WD} - Export volume index (2000 = 100)}}
 
@@ -2155,6 +2221,19 @@
 {synopt:{opt Source Notes}}Export volume indexes are derived from UNCTAD's volume index series and are the ratio of the export value indexes to the corresponding unit value indexes. Unit value indexes are based on data reported by countries that demonstrate consistency{p_end}
 
 {synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
+
+
+{synoptline}
+{marker topicid_TX.UVI.MRCH.XD.WD}
+{synopt:{bf:{help wbopendata_topicid##TX.UVI.MRCH.XD.WD:TX.UVI.MRCH.XD.WD} - Export unit value index (2015 = 100)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Export unit value indices come from UNCTAD's trade database. Unit value indices are based on data reported by countries that demonstrate consistency under UNCTAD quality controls, supplemented by UNCTAD’s estimates using the previous year’{p_end}
+
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files. ({browse "http://unctadstat.unctad.org"}){p_end}
 
 
 {synoptline}
@@ -2509,4 +2588,4 @@
 
 
 
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}

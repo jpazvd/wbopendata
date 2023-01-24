@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -25,7 +25,6 @@
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
-{synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
 {synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
@@ -65,6 +64,10 @@
 {synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
 {synopt:{opt 83}}  {help wbopendata_sourceid_indicators83##sourceid_83:Statistical Performance Indicators (SPI)}{p_end}
 {synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
+{synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
+{synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
+{synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
+{synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
 
 
 {marker sourceid_16}
@@ -109,6 +112,18 @@
 
 
 {synoptline}
+{marker sourceid_SH.DTH.1019}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.1019:SH.DTH.1019} - Number of deaths ages 10-19 years}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of deaths of adolescents ages 10-19 years{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
 {marker sourceid_SH.DTH.IMRT.FE}
 {synopt:{bf:{help wbopendata_sourceid##SH.DTH.IMRT.FE:SH.DTH.IMRT.FE} - Number of infant deaths, female}}
 
@@ -116,9 +131,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of female infants dying before reaching one year of age{p_end}
+{synopt:{opt Source Notes}}Number of female infants dying before reaching one year of age.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -129,9 +144,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of male infants dying before reaching one year of age{p_end}
+{synopt:{opt Source Notes}}Number of male infants dying before reaching one year of age.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -142,9 +157,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of female children dying before reaching age five{p_end}
+{synopt:{opt Source Notes}}Number of female children dying before reaching age five.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -155,9 +170,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of male children dying before reaching age five{p_end}
+{synopt:{opt Source Notes}}Number of male children dying before reaching age five.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -169,6 +184,18 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Number of fetal deaths at 28 weeks or more of gestation{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DYN.1019}
+{synopt:{bf:{help wbopendata_sourceid##SH.DYN.1019:SH.DYN.1019} - Probability of dying among adolescents ages 10-19 years (per 1,000)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Probability of dying between age 10-19 years of age expressed per 1,000 adolescents age 10, if subject to age-specific mortality rates of the specified year.{p_end}
 
 {synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
@@ -261,6 +288,18 @@
 
 
 {synoptline}
+{marker sourceid_SH.HIV.KNOW.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.KNOW.FE.ZS:SH.HIV.KNOW.FE.ZS} - Comprehensive correct knowledge of HIV/AIDS, ages 15-49, female (2 prevent ways and reject 3 misconceptions)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Knowledge of HIV, female, is the percentage of female respondents who correctly identify the two major ways of preventing the sexual transmission of HIV (using condoms and limiting sex to one faithful, uninfected partner), who reject the two m{p_end}
+
+{synopt:{opt Source Organization}}Household surveys such as Demographic and Health Surveys and Multiple Indicator Cluster Surveys.  Largely compiled by UNICEF.{p_end}
+
+
+{synoptline}
 {marker sourceid_SH.HIV.KNOW.MA.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.HIV.KNOW.MA.ZS:SH.HIV.KNOW.MA.ZS} - Comprehensive correct knowledge of HIV/AIDS, ages 15-49, male (2 prevent ways and reject 3 misconceptions)}}
 
@@ -294,6 +333,78 @@
 {synopt:{opt Source Notes}}Adults and children living with HIV refers to the number of people ages 0-49 (adult ages 15-49 and children ages 0-14) who are infected with HIV.{p_end}
 
 {synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.HTN.PREV.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.HTN.PREV.FE.ZS:SH.HTN.PREV.FE.ZS} - Prevalence of hypertension, female (% of female adults ages 30-79)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Prevalence of hypertension, female, is the percentage of female adults ages 30-79 with hypertension (defined as having systolic blood pressure =140 mmHg, diastolic blood pressure =90 mmHg, or taking medication for hypertension). The data is ag{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization's Global Health Observatory Data Repository{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.HTN.PREV.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.HTN.PREV.MA.ZS:SH.HTN.PREV.MA.ZS} - Prevalence of hypertension, male (% of male adults ages 30-79)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Prevalence of hypertension, male, is the percentage of male adults ages 30-79 with hypertension (defined as having systolic blood pressure =140 mmHg, diastolic blood pressure =90 mmHg, or taking medication for hypertension). The data is age-st{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization's Global Health Observatory Data Repository{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.HTN.PREV.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.HTN.PREV.ZS:SH.HTN.PREV.ZS} - Prevalence of hypertension (% of adults ages 30-79)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Prevalence of hypertension is the percentage of adults ages 30-79 with hypertension (defined as having systolic blood pressure =140 mmHg, diastolic blood pressure =90 mmHg, or taking medication for hypertension). The data is age-standardized.{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization's Global Health Observatory Data Repository{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.HTN.TRET.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.HTN.TRET.FE.ZS:SH.HTN.TRET.FE.ZS} - Treatment for hypertension, female (% of female adults ages 30-79 with hypertension)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Treatment for hypertension is the percentage of adults ages 30-79 with hypertension who were taking medicine for hypertension.  Hypertension is defined as having systolic blood pressure =140 mmHg, diastolic blood pressure =90 mmHg, or taking m{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization's Global Health Observatory Data Repository{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.HTN.TRET.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.HTN.TRET.MA.ZS:SH.HTN.TRET.MA.ZS} - Treatment for hypertension, male (% of male adults ages 30-79 with hypertension)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Treatment for hypertension, male, is the percentage of adults ages 30-79 with hypertension who were taking medicine for hypertension.  Hypertension is defined as having systolic blood pressure =140 mmHg, diastolic blood pressure =90 mmHg, or t{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization's Global Health Observatory Data Repository{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.HTN.TRET.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.HTN.TRET.ZS:SH.HTN.TRET.ZS} - Treatment for hypertension (% of adults ages 30-79 with hypertension)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Treatment for hypertension is the percentage of adults ages 30-79 with hypertension who were taking medicine for hypertension.  Hypertension is defined as having systolic blood pressure =140 mmHg, diastolic blood pressure =90 mmHg, or taking m{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization's Global Health Observatory Data Repository{p_end}
 
 
 {synoptline}
@@ -480,6 +591,102 @@
 
 
 {synoptline}
+{marker sourceid_SH.UHC.FBP1.TO}
+{synopt:{bf:{help wbopendata_sourceid##SH.UHC.FBP1.TO:SH.UHC.FBP1.TO} - Number of people pushed further below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of people pushed further below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the number of people living in households whose non-health expenditures are already below the $1.90 povert{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.UHC.FBP1.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.UHC.FBP1.ZS:SH.UHC.FBP1.ZS} - Proportion of population pushed further below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Proportion of population pushed further below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the fraction of a country’s population living in households whose non-health expenditures are al{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.UHC.FBP2.TO}
+{synopt:{bf:{help wbopendata_sourceid##SH.UHC.FBP2.TO:SH.UHC.FBP2.TO} - Number of people pushed further below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of people pushed further below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the number of people living in households whose non-health expenditures are already below the $3.20 povert{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.UHC.FBP2.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.UHC.FBP2.ZS:SH.UHC.FBP2.ZS} - Proportion of population pushed further below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Proportion of population pushed further below the $3.20 ($2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the fraction of a country’s population living in households whose non-health expenditures are alr{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.UHC.FBPR.TO}
+{synopt:{bf:{help wbopendata_sourceid##SH.UHC.FBPR.TO:SH.UHC.FBPR.TO} - Number of people pushed further below the 60% median consumption poverty line by out-of-pocket health care expenditure}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of people pushed further below a relative poverty line of 60% of median per capita consumption by out-of-pocket health care expenditure. This indicator shows the number of people living in households whose non-health expenditures are al{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.UHC.FBPR.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.UHC.FBPR.ZS:SH.UHC.FBPR.ZS} - Proportion of population pushed further below the 60% median consumption poverty line by out-of-pocket health care expenditure (%)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Proportion of population pushed further below a relative poverty line of 60% of median per capita consumption by out-of-pocket health care expenditure. This indicator shows the fraction of a country’s population living in households whose no{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.UHC.NOPR.TO}
+{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOPR.TO:SH.UHC.NOPR.TO} - Number of people pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of people pushed below a relative poverty line of 60% of median per capita consumption by out-of-pocket health care expenditure. This indicator shows the number of people living in households experiencing impoverishing expenditures, def{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.UHC.NOPR.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOPR.ZS:SH.UHC.NOPR.ZS} - Proportion of population pushed below the 60% median consumption poverty line by out-of-pocket health expenditure (%)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Proportion of population pushed below a relative poverty line of 60% of median per capita consumption by out-of-pocket health care expenditure. This indicator shows the fraction of a country’s population experiencing out-of-pocket health imp{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
+
+
+{synoptline}
 {marker sourceid_SH.XPD.EHEX.EH.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.XPD.EHEX.EH.ZS:SH.XPD.EHEX.EH.ZS} - External health expenditure channeled through government (% of external health expenditure)}}
 
@@ -488,7 +695,7 @@
 
 {synopt:{opt Source Notes}}Share of external donor funding flowing through the government budgets relative to the overall external expenditures on health.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}Computed using World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -500,7 +707,7 @@
 
 {synopt:{opt Source Notes}}Level of capital investments on health expressed as a percentage of GDP.  Capital health investments include health infrastructure (buildings, machinery, IT) and stocks of vaccines for emergency or outbreaks.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
 
 
 {synoptline}
@@ -509,10 +716,59 @@
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
+{synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}Number of people who are undernourished shows the number of people whose food intake is insufficient to meet dietary energy requirements continuously.{p_end}
+{synopt:{opt Source Notes}}home).{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization ({browse "http://www.fao.org/publications/en/"}).{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization (http://www.fao.org/faostat/en/{p_end}
+
+
+{synoptline}
+{marker sourceid_SP.DYN.CONM.AL.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SP.DYN.CONM.AL.ZS:SP.DYN.CONM.AL.ZS} - Contraceptive prevalence, any modern method (% of all women ages 15-49)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Contraceptive prevalence, any modern method is the percentage of all women ages 15-49 who are practicing, or whose sexual partners are practicing, at least one modern method of contraception.  Modern methods of contraception include female and{p_end}
+
+{synopt:{opt Source Organization}}Household surveys, including Demographic and Health Surveys and Multiple Indicator Cluster Surveys. Largely compiled by United Nations Population Division.{p_end}
+
+
+{synoptline}
+{marker sourceid_SP.DYN.CONM.SA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SP.DYN.CONM.SA.ZS:SP.DYN.CONM.SA.ZS} - Contraceptive prevalence, any modern method (% of sexually active unmarried women ages 15-49)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Contraceptive prevalence, any modern method is the percentage of sexually active unmarried women ages 15-49 who are practicing, or whose sexual partners are practicing, at least one modern method of contraception.  Modern methods of contracept{p_end}
+
+{synopt:{opt Source Organization}}Household surveys, including Demographic and Health Surveys and Multiple Indicator Cluster Surveys. Largely compiled by United Nations Population Division.{p_end}
+
+
+{synoptline}
+{marker sourceid_SP.DYN.CONU.AL.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SP.DYN.CONU.AL.ZS:SP.DYN.CONU.AL.ZS} - Contraceptive prevalence, any method (% of all women ages 15-49)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Contraceptive prevalence, any method is the percentage of all women ages 15-49 who are practicing, or whose sexual partners are practicing, any method of contraception (modern or traditional). Modern methods of contraception include female and{p_end}
+
+{synopt:{opt Source Organization}}Household surveys, including Demographic and Health Surveys and Multiple Indicator Cluster Surveys. Largely compiled by United Nations Population Division.{p_end}
+
+
+{synoptline}
+{marker sourceid_SP.DYN.CONU.SA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SP.DYN.CONU.SA.ZS:SP.DYN.CONU.SA.ZS} - Contraceptive prevalence, any method (% of sexually active unmarried women ages 15-49)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Contraceptive prevalence, any method is the percentage of sexually active unmarried women ages 15-49 who are practicing, or whose sexual partners are practicing, any method of contraception (modern or traditional). Modern methods of contracept{p_end}
+
+{synopt:{opt Source Organization}}Household surveys, including Demographic and Health Surveys and Multiple Indicator Cluster Surveys. Largely compiled by United Nations Population Division.{p_end}
 
 
 {synoptline}
@@ -1574,4 +1830,4 @@
 
 
 
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}

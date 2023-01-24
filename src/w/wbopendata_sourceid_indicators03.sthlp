@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -25,7 +25,6 @@
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
-{synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
 {synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
@@ -65,6 +64,10 @@
 {synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
 {synopt:{opt 83}}  {help wbopendata_sourceid_indicators83##sourceid_83:Statistical Performance Indicators (SPI)}{p_end}
 {synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
+{synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
+{synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
+{synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
+{synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
 
 
 {marker sourceid_03}
@@ -432,77 +435,5 @@
 {synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org.The"} WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and Br{p_end}
 
 
-{synoptline}
-{marker sourceid_VA.EST}
-{synopt:{bf:{help wbopendata_sourceid##VA.EST:VA.EST} - Voice and Accountability: Estimate}}
 
-{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media. Estimate gives the cou{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org.The"} WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and Br{p_end}
-
-
-{synoptline}
-{marker sourceid_VA.NO.SRC}
-{synopt:{bf:{help wbopendata_sourceid##VA.NO.SRC:VA.NO.SRC} - Voice and Accountability: Number of Sources}}
-
-{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media.  Number of sources ind{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org.The"} WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and Br{p_end}
-
-
-{synoptline}
-{marker sourceid_VA.PER.RNK}
-{synopt:{bf:{help wbopendata_sourceid##VA.PER.RNK:VA.PER.RNK} - Voice and Accountability: Percentile Rank}}
-
-{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media. Percentile rank indica{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org.The"} WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and Br{p_end}
-
-
-{synoptline}
-{marker sourceid_VA.PER.RNK.LOWER}
-{synopt:{bf:{help wbopendata_sourceid##VA.PER.RNK.LOWER:VA.PER.RNK.LOWER} - Voice and Accountability: Percentile Rank, Lower Bound of 90% Confidence Interval}}
-
-{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media. Percentile rank indica{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org.The"} WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and Br{p_end}
-
-
-{synoptline}
-{marker sourceid_VA.PER.RNK.UPPER}
-{synopt:{bf:{help wbopendata_sourceid##VA.PER.RNK.UPPER:VA.PER.RNK.UPPER} - Voice and Accountability: Percentile Rank, Upper Bound of 90% Confidence Interval}}
-
-{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media. Percentile rank indica{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org.The"} WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and Br{p_end}
-
-
-{synoptline}
-{marker sourceid_VA.STD.ERR}
-{synopt:{bf:{help wbopendata_sourceid##VA.STD.ERR:VA.STD.ERR} - Voice and Accountability: Standard Error}}
-
-{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media.{p_end}
-
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
-
-
-
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}

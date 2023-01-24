@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Lending Type  (as of 05jul2021)}
+{title:Lending Type  (as of 23jan2023)}
 
 {marker IBD}
 {p 20 20 2}(Go up to {it:{help wbopendata##lendingtype:Lending Type }}){p_end}
@@ -73,7 +73,7 @@
 {synopt:{opt THA}}  Thailand {p_end}
 {synopt:{opt TTO}}  Trinidad and Tobago {p_end}
 {synopt:{opt TUN}}  Tunisia {p_end}
-{synopt:{opt TUR}}  Turkey {p_end}
+{synopt:{opt TUR}}  Turkiye {p_end}
 {synopt:{opt TKM}}  Turkmenistan {p_end}
 {synopt:{opt UKR}}  Ukraine {p_end}
 {synopt:{opt URY}}  Uruguay {p_end}
@@ -189,7 +189,7 @@
 {synopt:{opt CUB}}  Cuba {p_end}
 {synopt:{opt CUW}}  Curacao {p_end}
 {synopt:{opt CYP}}  Cyprus {p_end}
-{synopt:{opt CZE}}  Czech Republic {p_end}
+{synopt:{opt CZE}}  Czechia {p_end}
 {synopt:{opt DNK}}  Denmark {p_end}
 {synopt:{opt EST}}  Estonia {p_end}
 {synopt:{opt FRO}}  Faroe Islands {p_end}

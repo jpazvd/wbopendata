@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid_indicators19##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid_indicators20##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid_indicators21##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid_indicatorstopicID##topicid_topicID:}{p_end}
 
 
 {marker topicid_05}
@@ -40,7 +41,7 @@
 {syntab:{title:{bf:05 Energy and Mining}}}
 {synoptline}
 {marker topicid_EG.EGY.PRIM.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD} - Energy intensity level of primary energy (MJ/$2011 PPP GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD} - Energy intensity level of primary energy (MJ/$2017 PPP GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -61,7 +62,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity, rural is the percentage of rural population with access to electricity.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from the SE4ALL Global Tracking Framework led jointly by the World Bank, International Energy Agency, and the Energy Sector Management Assistance Program.{p_end}
+{synopt:{opt Source Organization}}World Bank Global Electrification Database from Tracking SDG 7: The Energy Progress Report led jointly by the custodian agencies: the International Energy Agency (IEA), the International Renewable Energy Agency (IRENA), the United Nations Stat{p_end}
 
 
 {synoptline}
@@ -74,7 +75,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity, urban is the percentage of urban population with access to electricity.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from the SE4ALL Global Tracking Framework led jointly by the World Bank, International Energy Agency, and the Energy Sector Management Assistance Program.{p_end}
+{synopt:{opt Source Organization}}World Bank Global Electrification Database from Tracking SDG 7: The Energy Progress Report led jointly by the custodian agencies: the International Energy Agency (IEA), the International Renewable Energy Agency (IRENA), the United Nations Stat{p_end}
 
 
 {synoptline}
@@ -87,7 +88,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity is the percentage of population with access to electricity. Electrification data are collected from industry, national surveys and international sources.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from the SE4ALL Global Tracking Framework led jointly by the World Bank, International Energy Agency, and the Energy Sector Management Assistance Program.{p_end}
+{synopt:{opt Source Organization}}World Bank Global Electrification Database from Tracking SDG 7: The Energy Progress Report led jointly by the custodian agencies: the International Energy Agency (IEA), the International Renewable Energy Agency (IRENA), the United Nations Stat{p_end}
 
 
 {synoptline}
@@ -425,7 +426,7 @@
 
 {synopt:{opt Source Notes}}Methane emissions from energy processes are emissions from the production, handling, transmission, and combustion of fossil fuels and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -451,7 +452,7 @@
 
 {synopt:{opt Source Notes}}Nitrous oxide emissions from energy processes are emissions produced by the combustion of fossil fuels and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}CAIT data: Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
 
 
 {synoptline}
@@ -516,7 +517,7 @@
 
 {synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -566,9 +567,9 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime. It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
+{synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -579,9 +580,9 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime. It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
+{synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -592,9 +593,9 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime. It covers coal, crude oil, and natural gas.{p_end}
+{synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -605,9 +606,9 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime. It covers coal, crude oil, and natural gas.{p_end}
+{synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -620,7 +621,7 @@
 
 {synopt:{opt Source Notes}}Natural resource depletion is the sum of net forest depletion, energy depletion, and mineral depletion. Net forest depletion is unit resource rents times the excess of roundwood harvest over natural growth. Energy depletion is the ratio of the{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -728,4 +729,4 @@
 
 
 
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -25,7 +25,6 @@
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
-{synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
 {synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
@@ -65,6 +64,10 @@
 {synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
 {synopt:{opt 83}}  {help wbopendata_sourceid_indicators83##sourceid_83:Statistical Performance Indicators (SPI)}{p_end}
 {synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
+{synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
+{synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
+{synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
+{synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
 
 
 {marker sourceid_40}
@@ -94,6 +97,18 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Number of deaths of adolescents ages 10-14 years{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.1019}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.1019:SH.DTH.1019} - Number of deaths ages 10-19 years}}
+
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
+
+
+{synopt:{opt Source Notes}}Number of deaths of adolescents ages 10-19 years{p_end}
 
 {synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
@@ -143,11 +158,11 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female infants dying before reaching one year of age{p_end}
+{synopt:{opt Source Notes}}Number of female infants dying before reaching one year of age.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -158,9 +173,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of male infants dying before reaching one year of age{p_end}
+{synopt:{opt Source Notes}}Number of male infants dying before reaching one year of age.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -182,11 +197,11 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female children dying before reaching age five{p_end}
+{synopt:{opt Source Notes}}Number of female children dying before reaching age five.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -195,11 +210,11 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of male children dying before reaching age five{p_end}
+{synopt:{opt Source Notes}}Number of male children dying before reaching age five.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -237,6 +252,18 @@
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Probability of dying between age 10-14 years of age expressed per 1,000 adolescents age 10, if subject to age-specific mortality rates of the specified year.{p_end}
+
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DYN.1019}
+{synopt:{bf:{help wbopendata_sourceid##SH.DYN.1019:SH.DYN.1019} - Probability of dying among adolescents ages 10-19 years (per 1,000)}}
+
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
+
+
+{synopt:{opt Source Notes}}Probability of dying between age 10-19 years of age expressed per 1,000 adolescents age 10, if subject to age-specific mortality rates of the specified year.{p_end}
 
 {synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
@@ -325,11 +352,11 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
-{synopt:{opt Source Notes}}Net migration is the net total of migrants during the period, that is, the total number of immigrants less the annual number of emigrants, including both citizens and noncitizens. Data are five-year estimates.{p_end}
+{synopt:{opt Source Notes}}Net migration is the net total of migrants during the period, that is, the number of immigrants minus the number of emigrants, including both citizens and noncitizens.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -338,11 +365,11 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Adult mortality rate, female, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old female dying before reaching age 60, if subject to age-specific mortality rates of the specified year between th{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
 
 
 {synoptline}
@@ -355,7 +382,7 @@
 
 {synopt:{opt Source Notes}}Adult mortality rate, male, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old male dying before reaching age 60, if subject to age-specific mortality rates of the specified year between those{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
 
 
 {synoptline}
@@ -368,7 +395,7 @@
 
 {synopt:{opt Source Notes}}Crude birth rate indicates the number of live births occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
@@ -381,7 +408,7 @@
 
 {synopt:{opt Source Notes}}Crude death rate indicates the number of deaths occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the rate{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
@@ -429,11 +456,11 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}15 Social Development{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
@@ -446,7 +473,7 @@
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision, or derived from male and female life expectancy at birth from sources such as: (2) Census reports and other statistical publications from national statistical o{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision, or derived from male and female life expectancy at birth from sources such as: (2) Census reports and other statistical publications from national statistical o{p_end}
 
 
 {synoptline}
@@ -455,11 +482,11 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}15 Social Development{p_end}
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
@@ -472,7 +499,7 @@
 
 {synopt:{opt Source Notes}}Total fertility rate represents the number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
@@ -497,7 +524,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 0 to 4 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -522,7 +549,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 0 to 4 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -535,7 +562,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -548,7 +575,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 0 to 14 as a percentage of the total female population. Population is based on the de facto definition of population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -561,7 +588,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -574,7 +601,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 0 to 14 as a percentage of the total male population. Population is based on the de facto definition of population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -587,7 +614,7 @@
 
 {synopt:{opt Source Notes}}Total population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -596,11 +623,11 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Population between the ages 0 to 14 as a percentage of the total population. Population is based on the de facto definition of population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -625,7 +652,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 5 to 9 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -650,7 +677,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 5 to 9 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -675,7 +702,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 10 to 14 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -700,7 +727,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 10 to 14 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -725,7 +752,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 15 to 19 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -750,7 +777,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 15 to 19 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -763,7 +790,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -776,7 +803,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 15 to 64 as a percentage of the total female population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -789,7 +816,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -802,7 +829,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 15 to 64 as a percentage of the total male population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -815,7 +842,7 @@
 
 {synopt:{opt Source Notes}}Total population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -828,7 +855,7 @@
 
 {synopt:{opt Source Notes}}Total population between the ages 15 to 64 as a percentage of the total population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -853,7 +880,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 20 to 24 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -878,7 +905,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 20 to 24 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -903,7 +930,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 25 to 29 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -928,7 +955,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 25 to 29 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -953,7 +980,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 30 to 34 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -978,7 +1005,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 30 to 34 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1003,7 +1030,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 35 to 39 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1028,7 +1055,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 35 to 39 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1053,7 +1080,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 40 to 44 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1078,7 +1105,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 40 to 44 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1103,7 +1130,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 45 to 49 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1128,7 +1155,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 45 to 49 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1153,7 +1180,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 50 to 54 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1178,7 +1205,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 50 to 54 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1203,7 +1230,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 55 to 59 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1228,7 +1255,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 55 to 59 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1253,7 +1280,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 60 to 64 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1278,7 +1305,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 60 to 64 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1303,7 +1330,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 65 to 69 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1328,7 +1355,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 65 to 69 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1341,7 +1368,7 @@
 
 {synopt:{opt Source Notes}}Female population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1354,7 +1381,7 @@
 
 {synopt:{opt Source Notes}}Female population 65 years of age or older as a percentage of the total female population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1367,7 +1394,7 @@
 
 {synopt:{opt Source Notes}}Male population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1380,7 +1407,7 @@
 
 {synopt:{opt Source Notes}}Male population 65 years of age or older as a percentage of the total male population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1393,7 +1420,7 @@
 
 {synopt:{opt Source Notes}}Total population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1406,7 +1433,7 @@
 
 {synopt:{opt Source Notes}}Population ages 65 and above as a percentage of the total population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1431,7 +1458,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 70 to 74 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1456,7 +1483,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 70 to 74 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1481,7 +1508,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 75 to 79 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1506,7 +1533,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 75 to 79 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1532,7 +1559,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 80 and above as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -1557,7 +1584,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 80 and above as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -2206,7 +2233,7 @@
 
 {synopt:{opt Source Notes}}Sex ratio at birth refers to male births per female births. The data are 5 year averages.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -2219,7 +2246,7 @@
 
 {synopt:{opt Source Notes}}Age dependency ratio is the ratio of dependents--people younger than 15 or older than 64--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -2232,7 +2259,7 @@
 
 {synopt:{opt Source Notes}}Age dependency ratio, old, is the ratio of older dependents--people older than 64--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -2245,7 +2272,7 @@
 
 {synopt:{opt Source Notes}}Age dependency ratio, young, is the ratio of younger dependents--people younger than 15--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -2254,11 +2281,11 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Annual population growth rate for year t is the exponential rate of growth of midyear population from year t-1 to t, expressed as a percentage . Population is based on the de facto definition of population, which counts all residents regardles{p_end}
 
-{synopt:{opt Source Organization}}Derived from total population. Population source: (1) United Nations Population Division. World Population Prospects: 2019 Revision, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demogra{p_end}
+{synopt:{opt Source Organization}}Derived from total population. Population source: (1) United Nations Population Division. World Population Prospects: 2022 Revision, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demogra{p_end}
 
 
 {synoptline}
@@ -2271,7 +2298,7 @@
 
 {synopt:{opt Source Notes}}Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
@@ -2284,7 +2311,7 @@
 
 {synopt:{opt Source Notes}}Female population is based on the de facto definition of population, which counts all female residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -2297,7 +2324,7 @@
 
 {synopt:{opt Source Notes}}Female population is the percentage of the population that is female. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -2310,7 +2337,7 @@
 
 {synopt:{opt Source Notes}}Male population is based on the de facto definition of population, which counts all male residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -2323,7 +2350,7 @@
 
 {synopt:{opt Source Notes}}Male population is the percentage of the population that is male. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
 
 
 {synoptline}
@@ -2397,7 +2424,7 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. The data are collected and smoothed by United Nations Population Division.{p_end}
 
@@ -2405,4 +2432,4 @@
 
 
 
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -25,7 +25,6 @@
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
-{synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
 {synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
@@ -65,6 +64,10 @@
 {synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
 {synopt:{opt 83}}  {help wbopendata_sourceid_indicators83##sourceid_83:Statistical Performance Indicators (SPI)}{p_end}
 {synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
+{synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
+{synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
+{synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
+{synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
 
 
 {marker sourceid_14}
@@ -82,7 +85,7 @@
 
 {synopt:{opt Source Notes}}Number of female directors is the number of female individuals who conduct the affairs of newly registered limited liability companies in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -95,7 +98,7 @@
 
 {synopt:{opt Source Notes}}Share of female directors is the proportion of female directors of newly registered limited liability companies out of the total number of directors of newly registered limited liability companies in the economy in the calendar year. A  direct{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -108,7 +111,7 @@
 
 {synopt:{opt Source Notes}}Number of female directors is the number of female individuals who conduct the affairs of newly registered limited liability companies in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -121,7 +124,7 @@
 
 {synopt:{opt Source Notes}}Share of male directors is the proportion of male directors of newly registered limited liability companies out of the total number of directors of newly registered limited liability companies in the economy in the calendar year. A  director i{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -134,7 +137,7 @@
 
 {synopt:{opt Source Notes}}Number of female business owners is the number of female individuals that own at least one share of a limited liability company that was newly registered in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -147,7 +150,7 @@
 
 {synopt:{opt Source Notes}}Share of female business is the proportion of female newly registered limited liability company owners out of the total number of newly registered limited liability company owners in the economy in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -160,7 +163,7 @@
 
 {synopt:{opt Source Notes}}Number of female business owners is the number of male individuals that own at least one share of a limited liability company that was newly registered in the calendar  year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -173,7 +176,7 @@
 
 {synopt:{opt Source Notes}}Share of female business is the proportion of male newly registered limited liability company owners out of the total number of newly registered limited liability company owners in the economy in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -186,7 +189,7 @@
 
 {synopt:{opt Source Notes}}Number of female sole proprietors is the number of newly registered sole proprietors owned by female individuals in the calendar year. A sole proprietorship is a business entity owned and managed by a single individual who is indistinguishable{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -199,7 +202,7 @@
 
 {synopt:{opt Source Notes}}Share of female sole proprietors is the proportion of female newly registered sole proprietors out of the total number of newly registered sole proprietors in the economy in the calendar year. A sole proprietorship is a business entity owned a{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -212,7 +215,7 @@
 
 {synopt:{opt Source Notes}}Number of male sole proprietors is the number of newly registered sole proprietors owned by female individuals in the calendar year.  A sole proprietorship is a business entity owned and managed by a single individual who is indistinguishable{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -225,7 +228,7 @@
 
 {synopt:{opt Source Notes}}Share of female sole proprietors is the proportion of male newly registered sole proprietors out of the total number of newly registered sole proprietors in the economy in the calendar year. A sole proprietorship is a business entity owned and{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -236,9 +239,9 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of female graduates from the last grade of primary education, regardless of age, expressed as a percentage of the female population at the theoretical graduation age. The ratio can exceed 100% due to over-aged and under-aged children wh{p_end}
+{synopt:{opt Source Notes}}Primary completion rate is the percentage of students completing the last year of primary school. The rate based on completers is calculated by taking the total number of completers in the last grade of primary school divided by the total numb{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -249,7 +252,33 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Number of male graduates from the last grade of primary education, regardless of age, expressed as a percentage of the male population at the theoretical graduation age. The ratio can exceed 100% due to over-aged and under-aged children who en{p_end}
+{synopt:{opt Source Notes}}Primary completion rate is the percentage of students completing the last year of primary school. The rate based on completers is calculated by taking the total number of completers in the last grade of primary school divided by the total numb{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.PRM.CMPL.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.PRM.CMPL.ZS:SE.PRM.CMPL.ZS} - Gross graduation ratio, primary, total (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Primary completion rate is the percentage of students completing the last year of primary school. The rate based on completers is calculated by taking the total number of completers in the last grade of primary school divided by the total numb{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+
+
+{synoptline}
+{marker sourceid_SE.SEC.ENRL.FE.VO.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.SEC.ENRL.FE.VO.ZS:SE.SEC.ENRL.FE.VO.ZS} - Vocational and Technical enrolment (% of total secondary enrolment), female}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}Total number of female students enrolled in vocational programmes at the secondary education level, expressed as a percentage of the total number of female students enrolled in all programmes (vocational and general) at the secondary level. Vo{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -264,7 +293,7 @@
 
 {synopt:{opt Source Notes}}Total number of male students enrolled in vocational programmes at the secondary education level, expressed as a percentage of the total number of male students enrolled in all programmes (vocational and general) at the secondary level. Vocati{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -277,7 +306,7 @@
 
 {synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -290,7 +319,7 @@
 
 {synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -303,7 +332,7 @@
 
 {synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -316,7 +345,7 @@
 
 {synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -329,7 +358,7 @@
 
 {synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -342,7 +371,7 @@
 
 {synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -355,7 +384,7 @@
 
 {synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -368,7 +397,7 @@
 
 {synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -381,7 +410,7 @@
 
 {synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -394,12 +423,12 @@
 
 {synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
 {marker sourceid_SG.ABS.PENB}
-{synopt:{bf:{help wbopendata_sourceid##SG.ABS.PENB:SG.ABS.PENB} - There are periods of absence due to child care accounted for in pension benefits (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_sourceid##SG.ABS.PENB:SG.ABS.PENB} - There are periods of absence due to childcare accounted for in pension benefits (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -444,7 +473,7 @@
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}The indicator measures whether the age at which men and women can retire and receive partial pension benefits is the same, or if the age at which men and women can retire and receive partial benefits is not mandated. Partial pension benefits r{p_end}
+{synopt:{opt Source Notes}}The indicator measures measures whether the age at which men and women can retire and receive partial pension benefits is the same, or if the age at which men and women can retire and receive partial benefits is not mandated. Partial pension b{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
@@ -1055,7 +1084,7 @@
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}The indicator measures whether there are restrictions on a woman'S legal capacity and ability to work.{p_end}
+{synopt:{opt Source Notes}}The indicator measures whether there are restrictions on a woman's legal capacity and ability to work.{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
@@ -1127,7 +1156,7 @@
 
 {synoptline}
 {marker sourceid_SG.IHT.ASST.EQ}
-{synopt:{bf:{help wbopendata_sourceid##SG.IHT.ASST.EQ:SG.IHT.ASST.EQ} - Female and male surviving spouses have equal rights to inherit assets (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_sourceid##SG.IHT.ASST.EQ:SG.IHT.ASST.EQ} - Male and female surviving spouses have equal rights to inherit assets (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -1159,9 +1188,9 @@
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}The indicator measures whether nonpregnant and non-nursing women can work in the mining, construction, manufacturing, energy, water, agriculture, and transportation industries in the same way as men.{p_end}
+{synopt:{opt Source Notes}}The indicator measures whether nonpregnant and non-nursing a woman can work in the mining, construction, manufacturing, energy, water, agriculture, and transportation industries in the same way as men.  nonpregnant and non-nursing women can wo{p_end}
 
-{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
@@ -1196,9 +1225,105 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}The indicator measures whether there is a law that obligates employers to pay equal remuneration to male and female employees who do work of equal value. “Remuneration” refers to the ordinary, basic or minimum wage or salary and any additi{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.LAW.INDX.AS}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.INDX.AS:SG.LAW.INDX.AS} - Women, Business and the Law: Assets Indicator Score (scale 1-100)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The Assets indicator examines gender differences in property and inheritance law, including instances in which legal systems are supported by customary law and judicial precedent. The Assets indicator score is obtained by calculating the unwei{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.LAW.INDX.EN}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.INDX.EN:SG.LAW.INDX.EN} - Women, Business and the Law: Entrepreneurship Indicator Score (scale 1-100)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The Entrepreneurship indicator measures constraints on women starting and running a business.. The Entrepreneurship indicator score is obtained by calculating the unweighted average of the following: 1. SG.CNT.SIGN.EQ; 2. SG.BUS.REGT.EQ; 3. SG{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.LAW.INDX.MO}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.INDX.MO:SG.LAW.INDX.MO} - Women, Business and the Law: Mobility Indicator Score (scale 1-100)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The Mobility indicator measures constraints on a woman’s agency and freedom of movement, both of which are likely to influence her decision to enter the labor force and engage in entrepreneurial activity. Mobility indicator score is obtained{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.LAW.INDX.MR}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.INDX.MR:SG.LAW.INDX.MR} - Women, Business and the Law: Marriage Indicator Score (scale 1-100)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The Marriage indicator measures legal constraints related to marriage and divorce. The Marriage indicator score is obtained by calculating the unweighted average of the following: 1. SG.LAW.OBHB.MR.NO;  2. SG.HLD.HEAD.EQ;  3. SG.LEG.DVAW; 4. S{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.LAW.INDX.PE}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.INDX.PE:SG.LAW.INDX.PE} - Women, Business and the Law: Pension Indicator Score (scale 1-100)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The Pension indicator assesses laws affecting the size of a woman’s pension. The Pension indicator score is obtained by calculating the unweighted average of the following: 1. SG.AGE.FUPN.EQ; 2. SG.AGE.PAPN.EQ; 3. SG.AGE.MRET.EQ; 4. SG.ABS.P{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.LAW.INDX.PR}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.INDX.PR:SG.LAW.INDX.PR} - Women, Business and the Law: Parenthood Indicator Score (scale 1-100)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The Parenthood indicator examines laws affecting women’s work during and after pregnancy. The Parenthoood indicator score is obtained by calculating the unweighted average of the following: 1. SH.MMR.LEVE.AL; 2.SH.MMR.LEVE.GT; 3. SH.PTR.LEVE{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.LAW.INDX.PY}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.INDX.PY:SG.LAW.INDX.PY} - Women, Business and the Law: Pay Indicator Score (scale 1-100)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The Pay indicator measures laws affecting occupational segregation and the gender wage gap.  The Pay indicator score is obtained by calculating the unweighted average of the following: 1. SG.LAW.EQRM.WK; 2. SG.NGT.WORK.EQ; 3. SG.DNG.WORK.DN.EQ{p_end}
+
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.LAW.INDX.WP}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.INDX.WP:SG.LAW.INDX.WP} - Women, Business and the Law: Workplace Indicator Score (scale 1-100)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The Workplace indicator analyzes laws affecting women’s decisions to enter the labor market, including women’s legal capacity and ability to work, as well as protections in the workplace against discrimination and sexual harassment. The Wo{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
@@ -1218,7 +1343,7 @@
 
 {synoptline}
 {marker sourceid_SG.LAW.NODC.HR}
-{synopt:{bf:{help wbopendata_sourceid##SG.LAW.NODC.HR:SG.LAW.NODC.HR} - Law prohibits discrimination in employment based on gender (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_sourceid##SG.LAW.NODC.HR:SG.LAW.NODC.HR} - The law prohibits discrimination in employment based on gender (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -1226,7 +1351,7 @@
 
 {synopt:{opt Source Notes}}The indicator measures whether the law generally prevents or penalizes gender-based discrimination in employment. Laws that mandate equal treatment or equality between women and men in employment are also counted for this question. It is not c{p_end}
 
-{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
@@ -1248,11 +1373,11 @@
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}The indicator measures whether there is legislation addressing domestic violence that includes criminal sanctions or provides for protection orders for domestic violence, or the legislation addresses harassment that clearly leads to physical o{p_end}
 
-{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
@@ -1265,7 +1390,7 @@
 
 {synopt:{opt Source Notes}}The indicator measures whether there is a legal provision or legislation that specifically protects women against sexual harassment in employment, including unwelcome verbal or physical conduct of a sexual nature.{p_end}
 
-{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
@@ -1279,6 +1404,114 @@
 {synopt:{opt Source Notes}}The indicator measures whether there are restrictions on a woman choosing where to live.{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.MHG.PADP.RU.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.MHG.PADP.RU.ZS:SG.MHG.PADP.RU.ZS} - Women and girls who participate in activities during menstrual period, rural (% of women and girls ages 15-49 living in rural areas who had a menstrual period within the last year)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of women and girls (ages 15-49 who had a menstrual period within the last year) who participated in activities (such as school, work, and social activities for those who typically participate in) during their last menstrual peri{p_end}
+
+{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.MHG.PADP.UR.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.MHG.PADP.UR.ZS:SG.MHG.PADP.UR.ZS} - Women and girls who participate in activities during menstrual period, urban (% of women and girls ages 15-49 living in urban areas who had a menstrual period within the last year)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of women and girls (ages 15-49 who had a menstrual period within the last year) who participated in activities (such as school, work, and social activities for those who typically participate in) during their last menstrual peri{p_end}
+
+{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.MHG.PADP.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.MHG.PADP.ZS:SG.MHG.PADP.ZS} - Women and girls who participate in activities during menstrual period (% of women and girls ages 15-49 who had a menstrual period within the last year)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of women and girls (ages 15-49 who had a menstrual period within the last year) who participated in activities (such as school, work, and social activities for those who typically participate in) during their last menstrual peri{p_end}
+
+{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.MHG.PPDP.RU.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.MHG.PPDP.RU.ZS:SG.MHG.PPDP.RU.ZS} - Women and girls who have private places to wash and change during menstrual period, rural (% of women and girls ages 15-49 living in rural areas who had a menstrual period within the last year)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of women and girls (ages 15-49 who had a menstrual period within the last year) who had a private place to wash their bodies and change their menstrual materials at home during their last menstrual period.{p_end}
+
+{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.MHG.PPDP.UR.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.MHG.PPDP.UR.ZS:SG.MHG.PPDP.UR.ZS} - Women and girls who have private places to wash and change during menstrual period, urban (% of women and girls ages 15-49 living in urban areas who had a menstrual period within the last year)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of women and girls (ages 15-49 who had a menstrual period within the last year) who had a private place to wash their bodies and change their menstrual materials at home during their last menstrual period.{p_end}
+
+{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.MHG.PPDP.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.MHG.PPDP.ZS:SG.MHG.PPDP.ZS} - Women and girls who have private places to wash and change during menstrual period (% of women and girls ages 15-49 who had a menstrual period within the last year)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of women and girls (ages 15-49 who had a menstrual period within the last year) who had a private place to wash their bodies and change their menstrual materials at home during their last menstrual period.{p_end}
+
+{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.MHG.UMDP.RU.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.MHG.UMDP.RU.ZS:SG.MHG.UMDP.RU.ZS} - Women and girls who use menstrual materials, rural (% of women and girls ages 15-49 living in rural areas who had a menstrual period within the last year)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of the women and girls (ages 15-49 who had a menstrual period with the last year) who used menstrual materials such as sanitary pads, tampons, menstrual cups, cloth, or cotton wool, to capture and contain menstrual blood during{p_end}
+
+{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.MHG.UMDP.UR.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.MHG.UMDP.UR.ZS:SG.MHG.UMDP.UR.ZS} - Women and girls who use menstrual materials, urban (% of women and girls ages 15-49 living in urban areas who had a menstrual period within the last year)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of the women and girls (ages 15-49 who had a menstrual period with the last year) who used menstrual materials such as sanitary pads, tampons, menstrual cups, cloth, or cotton wool, to capture and contain menstrual blood during{p_end}
+
+{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.MHG.UMDP.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.MHG.UMDP.ZS:SG.MHG.UMDP.ZS} - Women and girls who use menstrual materials (% of women and girls ages 15-49 who had a menstrual period within the last year)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of the women and girls (ages 15-49 who had a menstrual period with the last year) who used menstrual materials such as sanitary pads, tampons, menstrual cups, cloth, or cotton wool, to capture and contain menstrual blood during{p_end}
+
+{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
@@ -2474,7 +2707,7 @@
 
 {synoptline}
 {marker sourceid_SG.OWN.PRRT.IM}
-{synopt:{bf:{help wbopendata_sourceid##SG.OWN.PRRT.IM:SG.OWN.PRRT.IM} - Men and married women have equal ownership rights to immovable property (1=yes; 0=no)}}
+{synopt:{bf:{help wbopendata_sourceid##SG.OWN.PRRT.IM:SG.OWN.PRRT.IM} - Men and women have equal ownership rights to immovable property (1=yes; 0=no)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -2508,7 +2741,7 @@
 
 {synopt:{opt Source Notes}}Percentage of female migrants out of total international migrant stock. International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division, Trends in International Migrant Stock: 2015 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division, Trends in International Migrant Stock: 2019 Revision.{p_end}
 
 
 {synoptline}
@@ -2989,8 +3222,56 @@
 
 
 {synoptline}
+{marker sourceid_SG.SXL.SX15.OL.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.SXL.SX15.OL.FE.ZS:SG.SXL.SX15.OL.FE.ZS} - Women who initiated sexual intercourse by age 15 (% of women ages 20-24)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.SXL.SX15.OL.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.SXL.SX15.OL.MA.ZS:SG.SXL.SX15.OL.MA.ZS} - Men who initiated sexual intercourse by age 15 (% of men ages 20-24)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.SXL.SX15.YG.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.SXL.SX15.YG.FE.ZS:SG.SXL.SX15.YG.FE.ZS} - Women who initiated sexual intercourse before age 15 (% of women ages 15-19)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.SXL.SX15.YG.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.SXL.SX15.YG.MA.ZS:SG.SXL.SX15.YG.MA.ZS} - Men who initiated sexual intercourse before age 15 (% of men ages 15-19)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_SG.VAW.AFSX.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SG.VAW.AFSX.ZS:SG.VAW.AFSX.ZS} - Proportion of women who have ever experienced any form of sexual violence (% of women age 15-49)}}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.AFSX.ZS:SG.VAW.AFSX.ZS} - Proportion of women who have ever experienced any form of sexual violence (% of women ages 15-49)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -3009,7 +3290,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she argues with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3021,7 +3302,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she argues with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3033,7 +3314,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she argues with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3045,7 +3326,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she argues with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3057,7 +3338,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she argues with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3069,7 +3350,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she burns the food. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of h{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3081,7 +3362,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she burns the food. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of h{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3093,7 +3374,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she burns the food. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of h{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3105,7 +3386,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she burns the food. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of h{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3117,7 +3398,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she burns the food. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of h{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3129,7 +3410,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 2{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3141,7 +3422,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 2{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3153,7 +3434,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 2{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3165,7 +3446,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 2{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3177,12 +3458,36 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 2{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.HLPV.NV.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.HLPV.NV.ZS:SG.VAW.HLPV.NV.ZS} - Women who never sought help to stop violence, and never told anyone  (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.HLPV.TD.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.HLPV.TD.ZS:SG.VAW.HLPV.TD.ZS} - Women who never sought help to stop violence, but told someone (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
 {marker sourceid_SG.VAW.HLPV.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SG.VAW.HLPV.ZS:SG.VAW.HLPV.ZS} - Proportion of women who have sought help to stop physical or sexual violence (% of women age 15-49)}}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.HLPV.ZS:SG.VAW.HLPV.ZS} - Proportion of women who have sought help to stop physical or sexual violence (% of ever-married women ages 15-49)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -3193,8 +3498,176 @@
 
 
 {synoptline}
+{marker sourceid_SG.VAW.INJR.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.INJR.ZS:SG.VAW.INJR.ZS} - Women who who have experienced injuries resulting from spousal violence (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.IPCB.NV.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.IPCB.NV.ZS:SG.VAW.IPCB.NV.ZS} - Women whose husband or partner has never demonstrated controlling behaviors (% of ever-married women ages 15-49)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.IPCB.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.IPCB.ZS:SG.VAW.IPCB.ZS} - Women whose husband or partner has ever demonstrated controlling behaviors (% of ever-married women ages 15-49)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.IPEV.LT.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.IPEV.LT.ZS:SG.VAW.IPEV.LT.ZS} - Women who have ever experienced emotional violence committed by their husband/partner  (% of ever-married women ages 15-49)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.IPEV.LY.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.IPEV.LY.ZS:SG.VAW.IPEV.LY.ZS} - Women who have experienced emotional violence committed by their husband/partner in the 12 months (% of ever-married women ages 15-49)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.IPPV.LT.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.IPPV.LT.ZS:SG.VAW.IPPV.LT.ZS} - Women who have ever experienced physical violence committed by their husband/partner (% of ever-married women ages 15-49)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.IPPV.LY.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.IPPV.LY.ZS:SG.VAW.IPPV.LY.ZS} - Women who have experienced physical violence committed by their husband/partner in the 12 months (% of ever-married women ages 15-49)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.IPSV.LT.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.IPSV.LT.ZS:SG.VAW.IPSV.LT.ZS} - Women who have ever experienced  sexual violence committed by their husband/partner  (% of ever-married women ages 15-49)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.IPSV.LY.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.IPSV.LY.ZS:SG.VAW.IPSV.LY.ZS} - Women who have experienced sexual violence committed by their husband/partner in the 12 months (% of ever-married women ages 15-49)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.IPVE.BM.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.IPVE.BM.ZS:SG.VAW.IPVE.BM.ZS} - Women whose first experience of spousal physical or sexual violence was before marriage  (% of currently married women age 15-49 who have been married only once)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.IPVE.M10.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.IPVE.M10.ZS:SG.VAW.IPVE.M10.ZS} - Women whose first experience of spousal physical or sexual violence was within ten years of marriage  (% of currently married women age 15-49 who have been married only once)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.IPVE.M2.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.IPVE.M2.ZS:SG.VAW.IPVE.M2.ZS} - Women whose first experience of spousal physical or sexual violence was within two years of marriage  (% of currently married women age 15-49 who have been married only once)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.IPVE.M5.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.IPVE.M5.ZS:SG.VAW.IPVE.M5.ZS} - Women whose first experience of spousal physical or sexual violence was within five years of marriage  (% of currently married women age 15-49 who have been married only once)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.IPVE.NV.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.IPVE.NV.ZS:SG.VAW.IPVE.NV.ZS} - Women who have not experienced spousal physical or sexual violence (% of currently married women age 15-49 who have been married only once)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_SG.VAW.IPVE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SG.VAW.IPVE.ZS:SG.VAW.IPVE.ZS} - Proportion of women who have ever experienced intimate partner violence (% of women age 15-49)}}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.IPVE.ZS:SG.VAW.IPVE.ZS} - Proportion of women who have ever experienced intimate partner violence (% of ever-married women ages 15-49)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -3213,7 +3686,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she neglects the children. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 perce{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3225,7 +3698,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she neglects the children. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 perce{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3237,7 +3710,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she neglects the children. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 perce{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3249,7 +3722,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she neglects the children. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 perce{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3261,7 +3734,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she neglects the children. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 perce{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3273,7 +3746,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3285,7 +3758,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3297,7 +3770,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3309,7 +3782,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3321,7 +3794,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3333,7 +3806,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she refuses sex with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percen{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3345,7 +3818,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she refuses sex with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percen{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3357,7 +3830,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she refuses sex with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percen{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3369,7 +3842,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she refuses sex with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percen{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
 
 
 {synoptline}
@@ -3381,7 +3854,43 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she refuses sex with him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percen{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.SX15.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.SX15.ZS:SG.VAW.SX15.ZS} - Women who experienced first sexual violence before age 15 (% of women ages 15-49)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.SX18.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.SX18.ZS:SG.VAW.SX18.ZS} - Women who experienced first sexual violence before age 18 (% of women ages 15-49)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SG.VAW.SX22.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.SX22.ZS:SG.VAW.SX22.ZS} - Women who experienced first sexual violence before age 22 (% of women ages 15-49)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -3391,9 +3900,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female deaths ages 0-4 due to communicable diseases and maternal, prenatal and nutrition conditions divided by number of all female deaths ages 0-4, expressed by percentage. Communicable diseases and maternal, prenatal and nutrition{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3403,9 +3912,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male deaths ages 0-4 due to communicable diseases and maternal, prenatal and nutrition conditions divided by number of all male deaths ages 0-4, expressed by percentage. Communicable diseases and maternal, prenatal and nutrition cond{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3415,9 +3924,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of deaths ages 0-4 due to communicable diseases and maternal, prenatal and nutrition conditions divided by number of all deaths ages 0-4, expressed by percentage. Communicable diseases and maternal, prenatal and nutrition conditions inc{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3427,9 +3936,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female deaths ages 5-14 due to communicable diseases and maternal, prenatal and nutrition conditions divided by number of all female deaths ages 5-14, expressed by percentage. Communicable diseases and maternal, prenatal and nutritio{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3439,9 +3948,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male deaths ages 5-14 due to communicable diseases and maternal, prenatal and nutrition conditions divided by number of all male deaths ages 5-14, expressed by percentage. Communicable diseases and maternal, prenatal and nutrition co{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3451,9 +3960,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of deaths ages 5-14 due to communicable diseases and maternal, prenatal and nutrition conditions divided by number of all deaths ages 5-14, expressed by percentage. Communicable diseases and maternal, prenatal and nutrition conditions i{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3463,9 +3972,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female deaths ages 15-59 due to communicable diseases and maternal, prenatal and nutrition conditions divided by number of all female deaths ages 15-59, expressed by percentage. Communicable diseases and maternal, prenatal and nutrit{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3475,9 +3984,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male deaths ages 15-59 due to communicable diseases and maternal, prenatal and nutrition conditions divided by number of all male deaths ages 15-59, expressed by percentage. Communicable diseases and maternal, prenatal and nutrition{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3487,9 +3996,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of deaths ages 15-59 due to communicable diseases and maternal, prenatal and nutrition conditions divided by number of all deaths ages 15-59, expressed by percentage. Communicable diseases and maternal, prenatal and nutrition conditions{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3499,9 +4008,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female deaths ages 60+ due to communicable diseases and maternal, prenatal and nutrition conditions divided by number of all female deaths ages 60+, expressed by percentage. Communicable diseases and maternal, prenatal and nutrition{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3511,9 +4020,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male deaths ages 60+ due to communicable diseases and maternal, prenatal and nutrition conditions divided by number of all male deaths ages 60+, expressed by percentage. Communicable diseases and maternal, prenatal and nutrition cond{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3523,9 +4032,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of deaths ages 60+ due to communicable diseases and maternal, prenatal and nutrition conditions divided by number of all deaths ages 60+, expressed by percentage. Communicable diseases and maternal, prenatal and nutrition conditions inc{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3535,9 +4044,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female deaths due to communicable diseases and maternal, prenatal and nutrition conditions divided by number of all female deaths, expressed by percentage. Communicable diseases and maternal, prenatal and nutrition conditions include{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3547,9 +4056,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male deaths due to communicable diseases and maternal, prenatal and nutrition conditions divided by number of all male deaths, expressed by percentage. Communicable diseases and maternal, prenatal and nutrition conditions included in{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3559,9 +4068,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female deaths ages 0-4 due to injury divided by number of all female deaths ages 0-4, expressed by percentage. Injury includes unintentional and intentional injuries.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3571,9 +4080,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male deaths ages 0-4 due to injury divided by number of all male deaths ages 0-4, expressed by percentage. Injury includes unintentional and intentional injuries.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3583,9 +4092,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of deaths ages 0-4 due to injury divided by number of all deaths ages 0-4, expressed by percentage. Injury includes unintentional and intentional injuries.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3595,9 +4104,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female deaths ages 5-14 due to injury divided by number of all female deaths ages 5-14, expressed by percentage. Injury includes unintentional and intentional injuries.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3607,9 +4116,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male deaths ages 5-14 due to injury divided by number of all male deaths ages 5-14, expressed by percentage. Injury includes unintentional and intentional injuries.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3619,9 +4128,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of deaths ages 5-14 due to injury divided by number of all deaths ages 5-14, expressed by percentage. Injury includes unintentional and intentional injuries.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3631,9 +4140,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female deaths ages 15-59 due to injury divided by number of all female deaths ages 15-59, expressed by percentage. Injury includes unintentional and intentional injuries.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3643,9 +4152,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male deaths ages 15-59 due to injury divided by number of all male deaths ages 15-59, expressed by percentage. Injury includes unintentional and intentional injuries.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3655,9 +4164,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of deaths ages 15-59 due to injury divided by number of all deaths ages 15-59, expressed by percentage. Injury includes unintentional and intentional injuries.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3667,9 +4176,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female deaths ages 60+ due to injury divided by number of all female deaths ages 60+, expressed by percentage. Injury includes unintentional and intentional injuries.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3679,9 +4188,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male deaths ages 60+ due to injury divided by number of all male deaths ages 60+, expressed by percentage. Injury includes unintentional and intentional injuries.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3691,9 +4200,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of deaths ages 60+ due to injury divided by number of all deaths ages 60+, expressed by percentage. Injury includes unintentional and intentional injuries.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3703,9 +4212,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female deaths due to injury divided by number of all female deaths, expressed by percentage. Injury includes unintentional and intentional injuries.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3715,9 +4224,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male deaths ages due to injury divided by number of all male deaths ages, expressed by percentage. Injury includes unintentional and intentional injuries.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3727,9 +4236,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female deaths ages 0-4 due to non-communicable diseases divided by number of all female deaths ages 0-4, expressed by percentage. Non-Communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive disease{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3739,9 +4248,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male deaths ages 0-4 due to non-communicable diseases divided by number of all male deaths ages 0-4, expressed by percentage. Non-Communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, s{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3751,9 +4260,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of deaths ages 0-4 due to non-communicable diseases divided by number of all deaths ages 0-4, expressed by percentage. Non-Communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseas{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3763,9 +4272,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female deaths ages 5-14 due to non-communicable diseases divided by number of all female deaths ages 5-14, expressed by percentage. Non-Communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive disea{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3775,9 +4284,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male deaths ages 5-14 due to non-communicable diseases divided by number of all male deaths ages 5-14, expressed by percentage. Non-Communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases,{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3787,9 +4296,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of deaths ages 5-14 due to non-communicable diseases divided by number of all deaths ages 5-14, expressed by percentage. Non-Communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin dise{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3799,9 +4308,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female deaths ages 15-59 due to non-communicable diseases divided by number of all female deaths ages 15-59, expressed by percentage. Non-Communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive dis{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3811,9 +4320,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male deaths ages 15-59 due to non-communicable diseases divided by number of all male deaths ages 15-59, expressed by percentage. Non-Communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive disease{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3823,9 +4332,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of deaths ages 15-59 due to non-communicable diseases divided by number of all deaths ages 15-59 expressed by percentage. Non-Communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin dis{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3835,9 +4344,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of female deaths ages 60+ due to non-communicable diseases divided by number of all female deaths ages 60+, expressed by percentage. Non-Communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive disease{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3847,9 +4356,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of male deaths ages 60+ due to non-communicable diseases divided by number of all male deaths ages 60+, expressed by percentage. Non-Communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, s{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
@@ -3859,14 +4368,38 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Number of deaths ages 60+ due to non-communicable diseases divided by number of all deaths ages 60+, expressed by percentage. Non-Communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseas{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.DTH.NCOM.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.FE.ZS:SH.DTH.NCOM.FE.ZS} - Cause of death, by non-communicable diseases, female (% of female population)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of female deaths due to non-communicable diseases divided by number of all female deaths, expressed by percentage. Non-Communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseases,{p_end}
+
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.DTH.NCOM.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.MA.ZS:SH.DTH.NCOM.MA.ZS} - Cause of death, by non-communicable diseases, male (% of male population)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Number of male deaths ages due to non-communicable diseases divided by number of all male deaths ages, expressed by percentage. Non-Communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin dise{p_end}
+
+{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.FPL.MSTM.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.FPL.MSTM.ZS:SH.FPL.MSTM.ZS} - Fertility planning status: mistimed pregnancy (% of births)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -3877,8 +4410,20 @@
 
 
 {synoptline}
-{marker sourceid_SH.DTH.NCOM.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.MA.ZS:SH.DTH.NCOM.MA.ZS} - Cause of death, by non-communicable diseases, male (% of male population)}}
+{marker sourceid_SH.FPL.UWTD.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.FPL.UWTD.ZS:SH.FPL.UWTD.ZS} - Fertility planning status: unwanted pregnancy (% of births)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.FPL.WNTD.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.FPL.WNTD.ZS:SH.FPL.WNTD.ZS} - Fertility planning status: planned pregnancy (% of births)}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -3976,7 +4521,7 @@
 
 {synopt:{opt Source Notes}}The indicator refers to leave available only to the mother for the birth of a child to be taken just before, during and immediately after childbirth.{p_end}
 
-{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
+{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
 
 {synoptline}
@@ -3987,7 +4532,7 @@
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}The indicator measures whether women are legally entitled to at least 14 weeks (98 calendar days) of paid leave for the birth of a child through maternity leave, parental leave or a combination of both.{p_end}
+{synopt:{opt Source Notes}}The indicator measures  whether women are legally entitled to at least 14 weeks (98 calendar days) of paid leave for the birth of a child through maternity leave, parental leave or a combination of both.{p_end}
 
 {synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
 
@@ -4084,6 +4629,54 @@
 
 
 {synoptline}
+{marker sourceid_SH.STA.FGMO.NO.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.FGMO.NO.FE.ZS:SH.STA.FGMO.NO.FE.ZS} - Women who believe that female genital mutilation should not be continued (% of women ages 15-49 who have heard about FGM)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.STA.FGMO.NO.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.FGMO.NO.MA.ZS:SH.STA.FGMO.NO.MA.ZS} - Men who believe that female genital mutilation should not be continued (% of men who have heard about FGM)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.STA.FGMO.RE.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.FGMO.RE.FE.ZS:SH.STA.FGMO.RE.FE.ZS} - Women who believe religion requires female genital mutilation (% of women ages 15-49 who have heard about FGM)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.STA.FGMO.RE.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.FGMO.RE.MA.ZS:SH.STA.FGMO.RE.MA.ZS} - Men who believe religion requires female genital mutilation  (% of men who have heard about FGM)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_SH.STA.FGMS.Q1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.STA.FGMS.Q1.ZS:SH.STA.FGMS.Q1.ZS} - Female genital mutilation prevalence (%): Q1 (lowest)}}
 
@@ -4092,7 +4685,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women aged 15–49 who have gone through partial or total removal of the female external genitalia or other injury to the female genital organs for cultural or other non-therapeutic reasons. Each wealth quintile represents one fi{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of February 2016, and{p_end}
+{synopt:{opt Source Organization}}UNICEF DATA (http://www.data.unicef.org/);  Demographic and Health Surveys (DHS); Multiple Indicator Cluster Surveys (MICS), and other surveys.{p_end}
 
 
 {synoptline}
@@ -4104,7 +4697,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women aged 15–49 who have gone through partial or total removal of the female external genitalia or other injury to the female genital organs for cultural or other non-therapeutic reasons. Each wealth quintile represents one fi{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of February 2016, and{p_end}
+{synopt:{opt Source Organization}}UNICEF DATA (http://www.data.unicef.org/);  Demographic and Health Surveys (DHS); Multiple Indicator Cluster Surveys (MICS), and other surveys.{p_end}
 
 
 {synoptline}
@@ -4116,7 +4709,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women aged 15–49 who have gone through partial or total removal of the female external genitalia or other injury to the female genital organs for cultural or other non-therapeutic reasons. Each wealth quintile represents one fi{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of February 2016, and{p_end}
+{synopt:{opt Source Organization}}UNICEF DATA (http://www.data.unicef.org/);  Demographic and Health Surveys (DHS); Multiple Indicator Cluster Surveys (MICS), and other surveys.{p_end}
 
 
 {synoptline}
@@ -4128,7 +4721,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women aged 15–49 who have gone through partial or total removal of the female external genitalia or other injury to the female genital organs for cultural or other non-therapeutic reasons. Each wealth quintile represents one fi{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of February 2016, and{p_end}
+{synopt:{opt Source Organization}}UNICEF DATA (http://www.data.unicef.org/);  Demographic and Health Surveys (DHS); Multiple Indicator Cluster Surveys (MICS), and other surveys.{p_end}
 
 
 {synoptline}
@@ -4140,7 +4733,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women aged 15–49 who have gone through partial or total removal of the female external genitalia or other injury to the female genital organs for cultural or other non-therapeutic reasons. Each wealth quintile represents one fi{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of June 9, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of February 2016, and{p_end}
+{synopt:{opt Source Organization}}UNICEF DATA (http://www.data.unicef.org/);  Demographic and Health Surveys (DHS); Multiple Indicator Cluster Surveys (MICS), and other surveys.{p_end}
 
 
 {synoptline}
@@ -4176,9 +4769,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Mortality caused by road traffic injury is estimated road traffic fatal injury deaths per 100,000 population.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
@@ -4188,9 +4781,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Mortality caused by road traffic injury is estimated road traffic fatal injury deaths per 100,000 population.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
@@ -4200,9 +4793,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene is deaths attributable to unsafe water, sanitation and hygiene focusing on inadequate WASH services per 100,000 population. Death rates are calculated by dividing{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
@@ -4212,9 +4805,9 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene is deaths attributable to unsafe water, sanitation and hygiene focusing on inadequate WASH services per 100,000 population. Death rates are calculated by dividing{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
@@ -4227,7 +4820,7 @@
 
 {synopt:{opt Source Notes}}Time-related underemployment refers to all persons in employment who (i) wanted to work additional hours, (ii) had worked less than a specified hours threshold (working time in all jobs), and (iii) were available to work additional hours given{p_end}
 
-{synopt:{opt Source Organization}}ILO Key Indicators of the Labour Market (KILM).{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on December 3, 2021.{p_end}
 
 
 {synoptline}
@@ -4240,7 +4833,7 @@
 
 {synopt:{opt Source Notes}}Time-related underemployment refers to all persons in employment who (i) wanted to work additional hours, (ii) had worked less than a specified hours threshold (working time in all jobs), and (iii) were available to work additional hours given{p_end}
 
-{synopt:{opt Source Organization}}ILO Key Indicators of the Labour Market (KILM).{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved on December 3, 2021.{p_end}
 
 
 {synoptline}
@@ -4251,9 +4844,9 @@
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Female labor force comprises all females who meet the International Labour Organization's definition of the economically active population.{p_end}
+{synopt:{opt Source Notes}}Female labor force comprises women ages 15 and older who supply labor for the production of goods and services during a specified period. It includes people who are currently employed and people who are unemployed but seeking work as well as f{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, using World Bank population estimates.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -4266,7 +4859,7 @@
 
 {synopt:{opt Source Notes}}Ratio of female to male youth unemployment is the percentage of female to male youth unemployment rates.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on December 3, 2021.{p_end}
 
 
 {synoptline}
@@ -4279,7 +4872,7 @@
 
 {synopt:{opt Source Notes}}Ratio of female to male youth unemployment is the percentage of female to male youth unemployment rates.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. The data retrieved on June 15, 2021.{p_end}
 
 
 {synoptline}
@@ -4292,7 +4885,7 @@
 
 {synopt:{opt Source Notes}}Life expectancy at age 60, female is the average number of years that a female at age 60 would live if prevailing patterns of mortality at the time of age 60 were to stay the same throughout her life.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division World Population Prospects{p_end}
+{synopt:{opt Source Organization}}2019 World Population Prospects, United Nations Population Division: Retrieved August 31, 2020.{p_end}
 
 
 {synoptline}
@@ -4305,7 +4898,7 @@
 
 {synopt:{opt Source Notes}}Life expectancy at age 60, male is the average number of years that a male at age 60 would live if prevailing patterns of mortality at the time of age 60 were to stay the same throughout his life.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division World Population Prospects{p_end}
+{synopt:{opt Source Organization}}2019 World Population Prospects, United Nations Population Division: Retrieved August 31, 2020.{p_end}
 
 
 {synoptline}
@@ -4318,7 +4911,7 @@
 
 {synopt:{opt Source Notes}}Mean age at marriage, female shows the average length of single life expressed in years among those females who marry before age 50. It is a synthetic indicator calculated from marital status categories of men and women aged 15 to 54 at the ce{p_end}
 
-{synopt:{opt Source Organization}}United Nations, Department of Economic and Social Affairs, Population Division. World Marriage Data.{p_end}
+{synopt:{opt Source Organization}}United Nations, Department of Economic and Social Affairs, Population Division. World Marriage Data 2019.{p_end}
 
 
 {synoptline}
@@ -4382,7 +4975,7 @@
 
 {synopt:{opt Source Notes}}Number of female vocational education students at the lower secondary level expressed as a percentage of the total number of vocational education students (male and female) at the lower secondary level in a given school year.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -4394,7 +4987,7 @@
 
 {synopt:{opt Source Notes}}Number of female vocational education students at the upper secondary level expressed as a percentage of the total number of vocational education students (male and female) at the upper secondary level in a given school year.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -4406,7 +4999,7 @@
 
 {synopt:{opt Source Notes}}Number of female vocational education students at the post-secondary non-tertiary level expressed as a percentage of the total number of vocational education students (male and female) at the post-secondary non-tertiary level in a given school{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -4419,7 +5012,7 @@
 
 {synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -4432,7 +5025,7 @@
 
 {synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -4445,7 +5038,7 @@
 
 {synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -4457,7 +5050,7 @@
 
 {synopt:{opt Source Notes}}Total number of female students enrolled in vocational programmes at the lower secondary education level, expressed as a percentage of the total number of female students enrolled in all programmes (vocational and general) at the lower seconda{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -4469,7 +5062,7 @@
 
 {synopt:{opt Source Notes}}Total number of male students enrolled in vocational programmes at the lower secondary education level, expressed as a percentage of the total number of male students enrolled in all programmes (vocational and general) at the lower secondary l{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -4481,7 +5074,7 @@
 
 {synopt:{opt Source Notes}}Total number of female students enrolled in vocational programmes at the upper secondary education level, expressed as a percentage of the total number of female students enrolled in all programmes (vocational and general) at the upper seconda{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -4493,7 +5086,7 @@
 
 {synopt:{opt Source Notes}}Total number of male students enrolled in vocational programmes at the upper secondary education level, expressed as a percentage of the total number of male students enrolled in all programmes (vocational and general) at the upper secondary l{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -4505,7 +5098,7 @@
 
 {synopt:{opt Source Notes}}Total number of female students enrolled in vocational programmes at the post-secondary non-tertiary education level, expressed as a percentage of the total number of female students enrolled in all programmes (vocational and general) at the p{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
 {synoptline}
@@ -4517,8 +5110,1556 @@
 
 {synopt:{opt Source Notes}}Total number of male students enrolled in vocational programmes at the post-secondary non-tertiary education level, expressed as a percentage of the total number of male students enrolled in all programmes (vocational and general) at the post-{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
+
+
+{synoptline}
+{marker sourceid_fin1.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin1.t.a:fin1.t.a} - Financial institution account (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin1.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin1.t.a.1:fin1.t.a.1} - Financial institution account,male(% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin1.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin1.t.a.2:fin1.t.a.2} - Financial institution account,female(% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution,female (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin14a.a}
+{synopt:{bf:{help wbopendata_sourceid##fin14a.a:fin14a.a} - Used the internet to pay bills in the past year (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using the internet to pay bills in the past 12 months.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin14a.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin14a.a.1:fin14a.a.1} - Used the internet to pay bills in the past year, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using the internet to pay bills in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin14a.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin14a.a.2:fin14a.a.2} - Used the internet to pay bills in the past year , female(% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using the internet to pay bills in the past 12 months, female (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin14abca.t.d}
+{synopt:{bf:{help wbopendata_sourceid##fin14abca.t.d:fin14abca.t.d} - Used the internet to pay bills or to buy something online in the past year (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using the internet to pay bills or buy something online in the past 12 months.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin14abca.t.d.1}
+{synopt:{bf:{help wbopendata_sourceid##fin14abca.t.d.1:fin14abca.t.d.1} - Used the internet to pay bills or to buy something online in the past year, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using the internet to pay bills or buy something online in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin14abca.t.d.2}
+{synopt:{bf:{help wbopendata_sourceid##fin14abca.t.d.2:fin14abca.t.d.2} - Used the internet to pay bills or to buy something online in the past year, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using the internet to pay bills or buy something online in the past 12 months, female (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin14b.a}
+{synopt:{bf:{help wbopendata_sourceid##fin14b.a:fin14b.a} - Used the internet to buy something online in the past year(% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using the internet to buy something online in the past 12 months.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin14b.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin14b.a.1:fin14b.a.1} - Used the internet to buy something online in the past year, male(% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using the internet to buy something online in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin14b.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin14b.a.2:fin14b.a.2} - Used the internet to buy something online in the past year, female(% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using the internet to buy something online in the past 12 months, female (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin15.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin15.t.a:fin15.t.a} - Saved to start, operate, or expand a farm or business (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money in the past 12 months to start, operate, or expand a farm or business.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin15.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin15.t.a.1:fin15.t.a.1} - Saved to start, operate, or expand a farm or business, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money in the past 12 months to start, operate, or expand a farm or business, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin15.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin15.t.a.2:fin15.t.a.2} - Saved to start, operate, or expand a farm or business, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money in the past 12 months to start, operate, or expand a farm or business, female (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin16.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin16.t.a:fin16.t.a} - Saved for old age (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money in the past 12 months for old age.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin16.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin16.t.a.1:fin16.t.a.1} - Saved for old age, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money in the past 12 months for old age, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin16.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin16.t.a.2:fin16.t.a.2} - Saved for old age, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money in the past 12 months for old age, female (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin17a.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin17a.t.a:fin17a.t.a} - Saved at a financial institution (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money at a bank or another type of financial institution in the past 12 months.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin17a.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin17a.t.a.1:fin17a.t.a.1} - Saved at a financial institution, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money at a bank or another type of financial institution in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin17a.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin17a.t.a.2:fin17a.t.a.2} - Saved at a financial institution, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money at a bank or another type of financial institution in the past 12 months, female (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin17b.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin17b.t.a:fin17b.t.a} - Saved using a savings club or a person outside the family (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money in the past 12 months by using an informal savings club or a person outside the family.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin17b.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin17b.t.a.1:fin17b.t.a.1} - Saved using a savings club or a person outside the family, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money in the past 12 months by using an informal savings club or a person outside the family, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin17b.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin17b.t.a.2:fin17b.t.a.2} - Saved using a savings club or a person outside the family, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money in the past 12 months by using an informal savings club or a person outside the family, female (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin17c.14.a}
+{synopt:{bf:{help wbopendata_sourceid##fin17c.14.a:fin17c.14.a} - Saved for education or school fees (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money in the past 12 months for education or school fee.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin17c.14.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin17c.14.a.1:fin17c.14.a.1} - Saved for education or school fees, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money in the past 12 months for education or school fee, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin17c.14.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin17c.14.a.2:fin17c.14.a.2} - Saved for education or school fees, female  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money in the past 12 months for education or school fee, female (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin18.t.d}
+{synopt:{bf:{help wbopendata_sourceid##fin18.t.d:fin18.t.d} - Saved any money in the past year (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally saving or setting aside any money for any reason and using any mode of saving in the past 12 months.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin18.t.d.1}
+{synopt:{bf:{help wbopendata_sourceid##fin18.t.d.1:fin18.t.d.1} - Saved any money in the past year, male  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally saving or setting aside any money for any reason and using any mode of saving in the past 12 months., male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin18.t.d.2}
+{synopt:{bf:{help wbopendata_sourceid##fin18.t.d.2:fin18.t.d.2} - Saved any money in the past year, female  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally saving or setting aside any money for any reason and using any mode of saving in the past 12 months., female (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin19.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin19.t.a:fin19.t.a} - Outstanding housing loan (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report having an outstanding loan (by themselves or together with someone else) from a bank or another type of financial institution to purchase a home, an apartment, or land.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin19.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin19.t.a.1:fin19.t.a.1} - Outstanding housing loan, male  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report having an outstanding loan (by themselves or together with someone else) from a bank or another type of financial institution to purchase a home, an apartment, or land, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin19.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin19.t.a.2:fin19.t.a.2} - Outstanding housing loan, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report having an outstanding loan (by themselves or together with someone else) from a bank or another type of financial institution to purchase a home, an apartment, or land, female (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin2.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin2.t.a:fin2.t.a} - Debit card ownership (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report having a debit card.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin2.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin2.t.a.1:fin2.t.a.1} - Debit card ownership, male  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report having a debit card, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin2.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin2.t.a.2:fin2.t.a.2} - Debit card ownership, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report having a debit card, female (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin20b.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin20b.t.a:fin20b.t.a} - Borrowed for health or medical purposes (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money for health or medical purposes in the past 12 months.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin20b.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin20b.t.a.1:fin20b.t.a.1} - Borrowed for health or medical purposes, male  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money for health or medical purposes in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin20b.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin20b.t.a.2:fin20b.t.a.2} - Borrowed for health or medical purposes, female  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money for health or medical purposes in the past 12 months, female (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin21.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin21.t.a:fin21.t.a} - Borrowed to start, operate, or expand a farm or business (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money to start, operate, or expand a farm or business in the past 12 months.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin21.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin21.t.a.1:fin21.t.a.1} - Borrowed to start, operate, or expand a farm or business, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money to start, operate, or expand a farm or business in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin21.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin21.t.a.2:fin21.t.a.2} - Borrowed to start, operate, or expand a farm or business, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money to start, operate, or expand a farm or business in the past 12 months, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin21b.t.14.a}
+{synopt:{bf:{help wbopendata_sourceid##fin21b.t.14.a:fin21b.t.14.a} - Borrowed from a store by buying on credit (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from a store by using installment credit or buying on credit in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin21b.t.14.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin21b.t.14.a.1:fin21b.t.14.a.1} - Borrowed from a store by buying on credit, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from a store by using installment credit or buying on credit in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin21b.t.14.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin21b.t.14.a.2:fin21b.t.14.a.2} - Borrowed from a store by buying on credit, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from a store by using installment credit or buying on credit in the past 12 months, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin22a.14.a}
+{synopt:{bf:{help wbopendata_sourceid##fin22a.14.a:fin22a.14.a} - Borrowed for education or school fees (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money for education or school fees in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin22a.14.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin22a.14.a.1:fin22a.14.a.1} - Borrowed for education or school fees, male  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money for education or school fees in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin22a.14.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin22a.14.a.2:fin22a.14.a.2} - Borrowed for education or school fees, female  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money for education or school fees in the past 12 months, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin22a.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin22a.t.a:fin22a.t.a} - Borrowed from a financial institution (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from a bank or another type of financial institution in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin22a.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin22a.t.a.1:fin22a.t.a.1} - Borrowed from a financial institution, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from a bank or another type of financial institution in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin22a.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin22a.t.a.2:fin22a.t.a.2} - Borrowed from a financial institution, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from a bank or another type of financial institution in the past 12 months, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin22a.t.d}
+{synopt:{bf:{help wbopendata_sourceid##fin22a.t.d:fin22a.t.d} - Borrowed from a financial institution or used a credit card (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from a bank or another type of financial institution, or using a credit card, in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin22a.t.d.1}
+{synopt:{bf:{help wbopendata_sourceid##fin22a.t.d.1:fin22a.t.d.1} - Borrowed from a financial institution or used a credit card, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from a bank or another type of financial institution, or using a credit card, in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin22a.t.d.2}
+{synopt:{bf:{help wbopendata_sourceid##fin22a.t.d.2:fin22a.t.d.2} - Borrowed from a financial institution or used a credit card, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from a bank or another type of financial institution, or using a credit card, in the past 12 months, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin22b.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin22b.t.a:fin22b.t.a} - Borrowed from family or friends (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin22b.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin22b.t.a.1:fin22b.t.a.1} - Borrowed from family or friends, male  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin22b.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin22b.t.a.2:fin22b.t.a.2} - Borrowed from family or friends, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin22c.a}
+{synopt:{bf:{help wbopendata_sourceid##fin22c.a:fin22c.a} - Borrowed from a savings club (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from an informal savings club in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin22c.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin22c.a.1:fin22c.a.1} - Borrowed from a savings club, male  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from an informal savings club in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin22c.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin22c.a.2:fin22c.a.2} - Borrowed from a savings club, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from an informal savings club in the past 12 months, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin23.t.d}
+{synopt:{bf:{help wbopendata_sourceid##fin23.t.d:fin23.t.d} - Borrowed any money in the past year (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money (by themselves or together with someone else) for any reason and from any source in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin23.t.d.1}
+{synopt:{bf:{help wbopendata_sourceid##fin23.t.d.1:fin23.t.d.1} - Borrowed any money in the past year, male  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money (by themselves or together with someone else) for any reason and from any source in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin23.t.d.2}
+{synopt:{bf:{help wbopendata_sourceid##fin23.t.d.2:fin23.t.d.2} - Borrowed any money in the past year, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money (by themselves or together with someone else) for any reason and from any source in the past 12 months, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin24a.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin24a.t.a:fin24a.t.a} - Coming up with emergency funds: possible (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency within the next month{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin24a.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin24a.t.a.1:fin24a.t.a.1} - Coming up with emergency funds: possible, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency within the next month, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin24a.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin24a.t.a.2:fin24a.t.a.2} - Coming up with emergency funds: possible, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency within the next month, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin24b.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin24b.t.a:fin24b.t.a} - Coming up with emergency funds: not possible (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report that in case of an emergency it is not possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency within the next month{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin24b.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin24b.t.a.1:fin24b.t.a.1} - Coming up with emergency funds: not possible, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report that in case of an emergency it is not possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency within the next month, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin24b.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin24b.t.a.2:fin24b.t.a.2} - Coming up with emergency funds: not possible, female  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report that in case of an emergency it is not possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency within the next month, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25a.t.a.s}
+{synopt:{bf:{help wbopendata_sourceid##fin25a.t.a.s:fin25a.t.a.s} - Main source of emergency funds: savings (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite savings as their main source of this money{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25a.t.a.s.1}
+{synopt:{bf:{help wbopendata_sourceid##fin25a.t.a.s.1:fin25a.t.a.s.1} - Main source of emergency funds: savings, male  (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite savings as their main source of this money, male (% age{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25a.t.a.s.2}
+{synopt:{bf:{help wbopendata_sourceid##fin25a.t.a.s.2:fin25a.t.a.s.2} - Main source of emergency funds: savings, female (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite savings as their main source of this money, female (% ag{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25b.t.a.s}
+{synopt:{bf:{help wbopendata_sourceid##fin25b.t.a.s:fin25b.t.a.s} - Main source of emergency funds: family or friends (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite family, relatives, or friends as their main source of th{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25b.t.a.s.1}
+{synopt:{bf:{help wbopendata_sourceid##fin25b.t.a.s.1:fin25b.t.a.s.1} - Main source of emergency funds: family or friends, male  (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite family, relatives, or friends as their main source of th{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25b.t.a.s.2}
+{synopt:{bf:{help wbopendata_sourceid##fin25b.t.a.s.2:fin25b.t.a.s.2} - Main source of emergency funds: family or friends, female  (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite family, relatives, or friends as their main source of th{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25c.a.s}
+{synopt:{bf:{help wbopendata_sourceid##fin25c.a.s:fin25c.a.s} - Main source of emergency funds: money from working (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25c.a.s.1}
+{synopt:{bf:{help wbopendata_sourceid##fin25c.a.s.1:fin25c.a.s.1} - Main source of emergency funds: money from working, male  (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, m{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25c.a.s.2}
+{synopt:{bf:{help wbopendata_sourceid##fin25c.a.s.2:fin25c.a.s.2} - Main source of emergency funds: money from working, female (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, f{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25d.a.s}
+{synopt:{bf:{help wbopendata_sourceid##fin25d.a.s:fin25d.a.s} - Main source of emergency funds: loan from a bank, employer, or private lender (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite borrowing from a bank, an employer, or a private lender{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25d.a.s.1}
+{synopt:{bf:{help wbopendata_sourceid##fin25d.a.s.1:fin25d.a.s.1} - Main source of emergency funds: loan from a bank, employer, or private lender, male  (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite borrowing from a bank, an employer, or a private lender{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25d.a.s.2}
+{synopt:{bf:{help wbopendata_sourceid##fin25d.a.s.2:fin25d.a.s.2} - Main source of emergency funds: loan from a bank, employer, or private lender, female (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite borrowing from a bank, an employer, or a private lender{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25e.a.s}
+{synopt:{bf:{help wbopendata_sourceid##fin25e.a.s:fin25e.a.s} - Main source of emergency funds: sale of assets (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite the sale of assets as their main source of this money{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25e.a.s.1}
+{synopt:{bf:{help wbopendata_sourceid##fin25e.a.s.1:fin25e.a.s.1} - Main source of emergency funds: sale of assets , male (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite the sale of assets as their main source of this money, m{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25e.a.s.2}
+{synopt:{bf:{help wbopendata_sourceid##fin25e.a.s.2:fin25e.a.s.2} - Main source of emergency funds: sale of assets, female  (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite the sale of assets as their main source of this money, f{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25f.a.s}
+{synopt:{bf:{help wbopendata_sourceid##fin25f.a.s:fin25f.a.s} - Main source of emergency funds: other (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite some other source as their main source of this money{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25f.a.s.1}
+{synopt:{bf:{help wbopendata_sourceid##fin25f.a.s.1:fin25f.a.s.1} - Main source of emergency funds: other, male (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite some other source as their main source of this money, ma{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25f.a.s.2}
+{synopt:{bf:{help wbopendata_sourceid##fin25f.a.s.2:fin25f.a.s.2} - Main source of emergency funds: other, female (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite some other source as their main source of this money, fe{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin26.28.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin26.28.t.a:fin26.28.t.a} - Sent or received domestic remittances in the past year (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally sending any of their money in the past 12 months to, or receiving any of it from, a relative or friend living in a different area of their country{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin26.28.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin26.28.t.a.1:fin26.28.t.a.1} - Sent or received domestic remittances in the past year, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally sending any of their money in the past 12 months to, or receiving any of it from, a relative or friend living in a different area of their country, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin26.28.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin26.28.t.a.2:fin26.28.t.a.2} - Sent or received domestic remittances in the past year, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally sending any of their money in the past 12 months to, or receiving any of it from, a relative or friend living in a different area of their country, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin26.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin26.t.a:fin26.t.a} - Received domestic remittances in the past year (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally receiving any money in the past 12 months from a relative or friend living in a different area of their country. This includes any money received in person{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin26.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin26.t.a.1:fin26.t.a.1} - Received domestic remittances in the past year, male  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally receiving any money in the past 12 months from a relative or friend living in a different area of their country. This includes any money received in person, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin26.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin26.t.a.2:fin26.t.a.2} - Received domestic remittances in the past year, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally receiving any money in the past 12 months from a relative or friend living in a different area of their country. This includes any money received in person, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin28.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin28.t.a:fin28.t.a} - Sent domestic remittances in the past year (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally sending any of their money in the past 12 months to a relative or friend living in a different area of their country. This can be money they brought themselves or sent in some other way{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin28.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin28.t.a.1:fin28.t.a.1} - Sent domestic remittances in the past year, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally sending any of their money in the past 12 months to a relative or friend living in a different area of their country. This can be money they brought themselves or sent in some other way, male{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin28.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin28.t.a.2:fin28.t.a.2} - Sent domestic remittances in the past year, female  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally sending any of their money in the past 12 months to a relative or friend living in a different area of their country. This can be money they brought themselves or sent in some other way, fema{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin30.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin30.t.a:fin30.t.a} - Paid utility bills in the past year (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally making regular payments for water, electricity, or trash collection in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin30.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin30.t.a.1:fin30.t.a.1} - Paid utility bills in the past year, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally making regular payments for water, electricity, or trash collection in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin30.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin30.t.a.2:fin30.t.a.2} - Paid utility bills in the past year, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally making regular payments for water, electricity, or trash collection in the past 12 months, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin33.14.a}
+{synopt:{bf:{help wbopendata_sourceid##fin33.14.a:fin33.14.a} - Paid school fees in the past year (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally making regular payments for school fees in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin33.14.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin33.14.a.1:fin33.14.a.1} - Paid school fees in the past year, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally making regular payments for school fees in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin33.14.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin33.14.a.2:fin33.14.a.2} - Paid school fees in the past year, female  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally making regular payments for school fees in the past 12 months, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin37.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin37.t.a:fin37.t.a} - Received government transfers in the past year (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally receiving any financial support from the government in the past 12 months. This includes payments for educational or medical expenses, unemployment benefits, subsidy payments, or any kind of{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin37.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin37.t.a.1:fin37.t.a.1} - Received government transfers in the past year, male  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally receiving any financial support from the government in the past 12 months. This includes payments for educational or medical expenses, unemployment benefits, subsidy payments, or any kind of{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin37.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin37.t.a.2:fin37.t.a.2} - Received government transfers in the past year, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally receiving any financial support from the government in the past 12 months. This includes payments for educational or medical expenses, unemployment benefits, subsidy payments, or any kind of{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin38.a}
+{synopt:{bf:{help wbopendata_sourceid##fin38.a:fin38.a} - Received a public sector pension in the past year (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally receiving a pension from the government, military, or public sector in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin38.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin38.a.1:fin38.a.1} - Received a public sector pension in the past year, male  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally receiving a pension from the government, military, or public sector in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin38.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin38.a.2:fin38.a.2} - Received a public sector pension in the past year, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally receiving a pension from the government, military, or public sector in the past 12 months, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin5.d.1}
+{synopt:{bf:{help wbopendata_sourceid##fin5.d.1:fin5.d.1} - Used a mobile phone or the internet to access an account, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally receiving money from their business, from selling goods, or from providing services (including part-time work) in the past 12 months, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin5.d.2}
+{synopt:{bf:{help wbopendata_sourceid##fin5.d.2:fin5.d.2} - Used a mobile phone or the internet to access an account, female  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally receiving money from their business, from selling goods, or from providing services (including part-time work) in the past 12 months, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin5.d.s}
+{synopt:{bf:{help wbopendata_sourceid##fin5.d.s:fin5.d.s} - Used a mobile phone or the internet to access an account (% with an account, age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Among respondents with a financial institution account or a mobile money account, the percentage who report using a mobile phone or the internet to make a payment, to make a purchase, or to send or receive money through their financial institu{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin65e.11.a}
+{synopt:{bf:{help wbopendata_sourceid##fin65e.11.a:fin65e.11.a} - Outstanding loan for a funeral or wedding (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report having an outstanding loan for a funeral or wedding{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin65e.11.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin65e.11.a.1:fin65e.11.a.1} - Outstanding loan for a funeral or wedding, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report having an outstanding loan for a funeral or wedding, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin65e.11.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin65e.11.a.2:fin65e.11.a.2} - Outstanding loan for a funeral or wedding, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report having an outstanding loan for a funeral or wedding, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin7.t.a}
+{synopt:{bf:{help wbopendata_sourceid##fin7.t.a:fin7.t.a} - Credit card ownership (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report having a credit card{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin7.t.a.1}
+{synopt:{bf:{help wbopendata_sourceid##fin7.t.a.1:fin7.t.a.1} - Credit card ownership, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report having a credit card, male (% age 15+).{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin7.t.a.2}
+{synopt:{bf:{help wbopendata_sourceid##fin7.t.a.2:fin7.t.a.2} - Credit card ownership, female  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report having a credit card, female (% age 15+){p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin9.t.d1}
+{synopt:{bf:{help wbopendata_sourceid##fin9.t.d1:fin9.t.d1} - No deposit and no withdrawal from an account in the past year (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report neither a deposit into nor a withdrawal from their account in the past 12 months.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_fin9.t.d1.1}
+{synopt:{bf:{help wbopendata_sourceid##fin9.t.d1.1:fin9.t.d1.1} - No deposit and no withdrawal from an account in the past year, male  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_fin9.t.d1.2}
+{synopt:{bf:{help wbopendata_sourceid##fin9.t.d1.2:fin9.t.d1.2} - No deposit and no withdrawal from an account in the past year, female (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_g20.t}
+{synopt:{bf:{help wbopendata_sourceid##g20.t:g20.t} - Made or received digital payments in the past year (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using mobile money, a debit or credit card, or a mobile phone to make a payment from an account, or report using the internet to pay bills or to buy something online, in the past 12 months. It also incl{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_g20.t.1}
+{synopt:{bf:{help wbopendata_sourceid##g20.t.1:g20.t.1} - Made or received digital payments in the past year, male  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using mobile money, a debit or credit card, or a mobile phone to make a payment from an account, or report using the internet to pay bills or to buy something online, in the past 12 months. It also incl{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_g20.t.2}
+{synopt:{bf:{help wbopendata_sourceid##g20.t.2:g20.t.2} - Made or received digital payments in the past year, female  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using mobile money, a debit or credit card, or a mobile phone to make a payment from an account, or report using the internet to pay bills or to buy something online, in the past 12 months. It also incl{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_g20.t.made}
+{synopt:{bf:{help wbopendata_sourceid##g20.t.made:g20.t.made} - Made digital payments in the past year (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using mobile money, a debit or credit card, or a mobile phone to make a payment from an account, or report using the internet to pay bills or to buy something online, in the past 12 months. It also incl{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_g20.t.made.1}
+{synopt:{bf:{help wbopendata_sourceid##g20.t.made.1:g20.t.made.1} - Made digital payments in the past year, male  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using mobile money, a debit or credit card, or a mobile phone to make a payment from an account, or report using the internet to pay bills or to buy something online, in the past 12 months. It also incl{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_g20.t.made.2}
+{synopt:{bf:{help wbopendata_sourceid##g20.t.made.2:g20.t.made.2} - Made digital payments in the past year, female  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using mobile money, a debit or credit card, or a mobile phone to make a payment from an account, or report using the internet to pay bills or to buy something online, in the past 12 months. It also incl{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_g20.t.receive}
+{synopt:{bf:{help wbopendata_sourceid##g20.t.receive:g20.t.receive} - Received digital payments in the past year (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using mobile money, a debit or credit card, or a mobile phone to receive a payment through an account in the past 12 months. It also includes respondents who report receiving remittances, receiving paym{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_g20.t.receive.1}
+{synopt:{bf:{help wbopendata_sourceid##g20.t.receive.1:g20.t.receive.1} - Received digital payments in the past year, male (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using mobile money, a debit or credit card, or a mobile phone to receive a payment through an account in the past 12 months. It also includes respondents who report receiving remittances, receiving paym{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_g20.t.receive.2}
+{synopt:{bf:{help wbopendata_sourceid##g20.t.receive.2:g20.t.receive.2} - Received digital payments in the past year, female  (% age 15+)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using mobile money, a debit or credit card, or a mobile phone to receive a payment through an account in the past 12 months. It also includes respondents who report receiving remittances, receiving paym{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
 
 
 
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}

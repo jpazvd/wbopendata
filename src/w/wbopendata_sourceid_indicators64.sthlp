@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -25,7 +25,6 @@
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
-{synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
 {synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
@@ -65,6 +64,10 @@
 {synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
 {synopt:{opt 83}}  {help wbopendata_sourceid_indicators83##sourceid_83:Statistical Performance Indicators (SPI)}{p_end}
 {synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
+{synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
+{synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
+{synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
+{synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
 
 
 {marker sourceid_64}
@@ -72,6 +75,18 @@
 
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:64 Worldwide Bureaucracy Indicators}}}
+{synoptline}
+{marker sourceid_BI.EMP.FRML.CA.PB.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.FRML.CA.PB.ZS:BI.EMP.FRML.CA.PB.ZS} - Core Public Administration workers, as a share of public formal employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
 {synoptline}
 {marker sourceid_BI.EMP.FRML.ED.PB.ZS}
 {synopt:{bf:{help wbopendata_sourceid##BI.EMP.FRML.ED.PB.ZS:BI.EMP.FRML.ED.PB.ZS} - Education workers, as a share of public formal employees}}
@@ -87,6 +102,18 @@
 {synoptline}
 {marker sourceid_BI.EMP.FRML.HE.PB.ZS}
 {synopt:{bf:{help wbopendata_sourceid##BI.EMP.FRML.HE.PB.ZS:BI.EMP.FRML.HE.PB.ZS} - Health workers, as a share of public formal employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.FRML.MW.PB.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.FRML.MW.PB.ZS:BI.EMP.FRML.MW.PB.ZS} - Medical workers, as a share of public formal employees}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -121,8 +148,44 @@
 
 
 {synoptline}
+{marker sourceid_BI.EMP.FRML.PB.MW.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.FRML.PB.MW.ZS:BI.EMP.FRML.PB.MW.ZS} - Public sector employment, as a share of formal employment, by occupation: Medical workers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.EMP.FRML.PB.PA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.EMP.FRML.PB.PA.ZS:BI.EMP.FRML.PB.PA.ZS} - Public adminstration workers, as a share of public formal employees}}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.FRML.PB.PA.ZS:BI.EMP.FRML.PB.PA.ZS} - Public Administration workers, as a share of public formal employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.FRML.PB.PS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.FRML.PB.PS.ZS:BI.EMP.FRML.PB.PS.ZS} - Public Safety workers, as a share of public formal employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.FRML.PB.TS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.FRML.PB.TS.ZS:BI.EMP.FRML.PB.TS.ZS} - Public sector employment, as a share of formal employment, by occupation: Teachers}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -145,6 +208,42 @@
 
 
 {synoptline}
+{marker sourceid_BI.EMP.FRML.SS.PB.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.FRML.SS.PB.ZS:BI.EMP.FRML.SS.PB.ZS} - Social Security workers, as a share of public formal employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.FRML.TS.PB.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.FRML.TS.PB.ZS:BI.EMP.FRML.TS.PB.ZS} - Teachers, as a share of public formal employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.PUBS.FE.CK.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PUBS.FE.CK.ZS:BI.EMP.PUBS.FE.CK.ZS} - Public sector female employment, as a share of paid employment by occupational group: Clerks}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.EMP.PUBS.FE.ED.ZS}
 {synopt:{bf:{help wbopendata_sourceid##BI.EMP.PUBS.FE.ED.ZS:BI.EMP.PUBS.FE.ED.ZS} - Public sector female employment, as a share of paid employment by industry: Education}}
 
@@ -157,8 +256,92 @@
 
 
 {synoptline}
+{marker sourceid_BI.EMP.PUBS.FE.EO.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PUBS.FE.EO.ZS:BI.EMP.PUBS.FE.EO.ZS} - Public sector female employment, as a share of paid employment by occupational group: Elementary workers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.EMP.PUBS.FE.HE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##BI.EMP.PUBS.FE.HE.ZS:BI.EMP.PUBS.FE.HE.ZS} - Public sector female employment, as a share of paid employment by industry: Health}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.PUBS.FE.MW.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PUBS.FE.MW.ZS:BI.EMP.PUBS.FE.MW.ZS} - Public sector female employment, as a share of paid employment by occupation: Medical workers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.PUBS.FE.PN.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PUBS.FE.PN.ZS:BI.EMP.PUBS.FE.PN.ZS} - Public sector female employment, as a share of paid employment by occupational group: Professionals}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.PUBS.FE.SN.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PUBS.FE.SN.ZS:BI.EMP.PUBS.FE.SN.ZS} - Public sector female employment, as a share of paid employment by occupational group: Manager}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.PUBS.FE.TN.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PUBS.FE.TN.ZS:BI.EMP.PUBS.FE.TN.ZS} - Public sector female employment, as a share of paid employment by occupational group: Technicians}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.PUBS.FE.TS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PUBS.FE.TS.ZS:BI.EMP.PUBS.FE.TS.ZS} - Public sector female employment, as a share of paid employment by occupation: Teachers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.PWRK.CA.PB.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PWRK.CA.PB.ZS:BI.EMP.PWRK.CA.PB.ZS} - Core Public Administration workers, as a share of public paid employees}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -193,8 +376,44 @@
 
 
 {synoptline}
+{marker sourceid_BI.EMP.PWRK.MW.PB.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PWRK.MW.PB.ZS:BI.EMP.PWRK.MW.PB.ZS} - Medical workers, as a share of public paid employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.PWRK.PB.CK.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PWRK.PB.CK.ZS:BI.EMP.PWRK.PB.CK.ZS} - Public sector employment, as a share of paid employment, by occupational group: Clerks}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.EMP.PWRK.PB.ED.ZS}
 {synopt:{bf:{help wbopendata_sourceid##BI.EMP.PWRK.PB.ED.ZS:BI.EMP.PWRK.PB.ED.ZS} - Public sector employment, as a share of paid employment, by industry: Education}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.PWRK.PB.EO.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PWRK.PB.EO.ZS:BI.EMP.PWRK.PB.EO.ZS} - Public sector employment, as a share of paid employment, by occupational group: Elementary workers}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -241,8 +460,44 @@
 
 
 {synoptline}
+{marker sourceid_BI.EMP.PWRK.PB.MW.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PWRK.PB.MW.ZS:BI.EMP.PWRK.PB.MW.ZS} - Public sector employment, as a share of paid employment, by occupation: Medical workers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.EMP.PWRK.PB.PA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PWRK.PB.PA.ZS:BI.EMP.PWRK.PB.PA.ZS} - Public adminstration workers, as a share of public paid employees}}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PWRK.PB.PA.ZS:BI.EMP.PWRK.PB.PA.ZS} - Public Administration workers, as a share of public paid employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.PWRK.PB.PN.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PWRK.PB.PN.ZS:BI.EMP.PWRK.PB.PN.ZS} - Public sector employment, as a share of paid employment, by occupational group: Professionals}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.PWRK.PB.PS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PWRK.PB.PS.ZS:BI.EMP.PWRK.PB.PS.ZS} - Public Safety workers, as a share of public paid employees}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -255,6 +510,42 @@
 {synoptline}
 {marker sourceid_BI.EMP.PWRK.PB.RU.ZS}
 {synopt:{bf:{help wbopendata_sourceid##BI.EMP.PWRK.PB.RU.ZS:BI.EMP.PWRK.PB.RU.ZS} - Public sector employment, as a share of paid employment by location: Rural}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.PWRK.PB.SN.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PWRK.PB.SN.ZS:BI.EMP.PWRK.PB.SN.ZS} - Public sector employment, as a share of paid employment, by occupational group: Manager}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.PWRK.PB.TN.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PWRK.PB.TN.ZS:BI.EMP.PWRK.PB.TN.ZS} - Public sector employment, as a share of paid employment, by occupational group: Technicians}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.PWRK.PB.TS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PWRK.PB.TS.ZS:BI.EMP.PWRK.PB.TS.ZS} - Public sector employment, as a share of paid employment, by occupation: Teachers}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -289,6 +580,42 @@
 
 
 {synoptline}
+{marker sourceid_BI.EMP.PWRK.SS.PB.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PWRK.SS.PB.ZS:BI.EMP.PWRK.SS.PB.ZS} - Social Security workers, as a share of public paid employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.PWRK.TS.PB.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.PWRK.TS.PB.ZS:BI.EMP.PWRK.TS.PB.ZS} - Teachers, as a share of public paid employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.TOTL.CA.PB.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.CA.PB.ZS:BI.EMP.TOTL.CA.PB.ZS} - Core Public Administration workers, as a share of public total employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.EMP.TOTL.ED.PB.ZS}
 {synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.ED.PB.ZS:BI.EMP.TOTL.ED.PB.ZS} - Education workers, as a share of public total employees}}
 
@@ -313,8 +640,32 @@
 
 
 {synoptline}
+{marker sourceid_BI.EMP.TOTL.MW.PB.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.MW.PB.ZS:BI.EMP.TOTL.MW.PB.ZS} - Medical workers, as a share of public total employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.EMP.TOTL.NO}
 {synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.NO:BI.EMP.TOTL.NO} - Number of employed individuals}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.TOTL.NO.CA}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.NO.CA:BI.EMP.TOTL.NO.CA} - Number of employed employees, by industry: Core Public Administration}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -349,8 +700,68 @@
 
 
 {synoptline}
+{marker sourceid_BI.EMP.TOTL.NO.MW}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.NO.MW:BI.EMP.TOTL.NO.MW} - Number of employed employees, by occupation: Medical workers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.EMP.TOTL.NO.PA}
-{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.NO.PA:BI.EMP.TOTL.NO.PA} - Number of employed employees, by industry: Public adminstration}}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.NO.PA:BI.EMP.TOTL.NO.PA} - Number of employed employees, by industry: Public Administration}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.TOTL.NO.PS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.NO.PS:BI.EMP.TOTL.NO.PS} - Number of employed employees, by industry: Public Safety}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.TOTL.NO.SS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.NO.SS:BI.EMP.TOTL.NO.SS} - Number of employed employees, by industry: Social Security}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.TOTL.NO.TS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.NO.TS:BI.EMP.TOTL.NO.TS} - Number of employed employees, by occupation: Teachers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.TOTL.PB.CK.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.CK.ZS:BI.EMP.TOTL.PB.CK.ZS} - Public sector employment, as a share of total employment, by occupational group: Clerks}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -363,6 +774,18 @@
 {synoptline}
 {marker sourceid_BI.EMP.TOTL.PB.ED.ZS}
 {synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.ED.ZS:BI.EMP.TOTL.PB.ED.ZS} - Public sector employment, as a share of total employment, by industry: Education}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.TOTL.PB.EO.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.EO.ZS:BI.EMP.TOTL.PB.EO.ZS} - Public sector employment, as a share of total employment, by occupationa group: Elementary workers}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -409,8 +832,44 @@
 
 
 {synoptline}
+{marker sourceid_BI.EMP.TOTL.PB.MW.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.MW.ZS:BI.EMP.TOTL.PB.MW.ZS} - Public sector employment, as a share of total employment, by occupation: Medical workers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.EMP.TOTL.PB.PA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.PA.ZS:BI.EMP.TOTL.PB.PA.ZS} - Public adminstration workers, as a share of public total employees}}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.PA.ZS:BI.EMP.TOTL.PB.PA.ZS} - Public Administration workers, as a share of public total employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.TOTL.PB.PN.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.PN.ZS:BI.EMP.TOTL.PB.PN.ZS} - Public sector employment, as a share of total employment, by occupational group: Professionals}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.TOTL.PB.PS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.PS.ZS:BI.EMP.TOTL.PB.PS.ZS} - Public Safety workers, as a share of total public employees}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -423,6 +882,42 @@
 {synoptline}
 {marker sourceid_BI.EMP.TOTL.PB.RU.ZS}
 {synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.RU.ZS:BI.EMP.TOTL.PB.RU.ZS} - Public sector employment, as a share of total employment by location: Rural}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.TOTL.PB.SN.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.SN.ZS:BI.EMP.TOTL.PB.SN.ZS} - Public sector employment, as a share of total employment, by occupational group: Manager}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.TOTL.PB.TN.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.TN.ZS:BI.EMP.TOTL.PB.TN.ZS} - Public sector employment, as a share of total employment, by occupational group: Technicians}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.TOTL.PB.TS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.TS.ZS:BI.EMP.TOTL.PB.TS.ZS} - Public sector employment, as a share of total employment, by occupation: Teachers}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -469,8 +964,56 @@
 
 
 {synoptline}
+{marker sourceid_BI.EMP.TOTL.SS.PB.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.SS.PB.ZS:BI.EMP.TOTL.SS.PB.ZS} - Social Security workers, as a share of total public employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.EMP.TOTL.TS.PB.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.TS.PB.ZS:BI.EMP.TOTL.TS.PB.ZS} - Teachers, as a share of public total employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.POP.TOTL.CV}
 {synopt:{bf:{help wbopendata_sourceid##BI.POP.TOTL.CV:BI.POP.TOTL.CV} - Sample size}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.AGES.PB.CA.MD}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.CA.MD:BI.PWK.AGES.PB.CA.MD} - Median age of public paid employees, by industry: Core Public Administration}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.AGES.PB.CA.SM}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.CA.SM:BI.PWK.AGES.PB.CA.SM} - Mean age of public paid employees, by industry: Core Public Administration}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -541,8 +1084,32 @@
 
 
 {synoptline}
+{marker sourceid_BI.PWK.AGES.PB.MW.MD}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.MW.MD:BI.PWK.AGES.PB.MW.MD} - Median age of public paid employees, by occupation: Medical workers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.AGES.PB.MW.SM}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.MW.SM:BI.PWK.AGES.PB.MW.SM} - Mean age of public paid employees, by occupation: Medical workers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.PWK.AGES.PB.PA.MD}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.PA.MD:BI.PWK.AGES.PB.PA.MD} - Median age of public paid employees, by industry: Public adminstration}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.PA.MD:BI.PWK.AGES.PB.PA.MD} - Median age of public paid employees, by industry: Public Administration}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -554,7 +1121,31 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.AGES.PB.PA.SM}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.PA.SM:BI.PWK.AGES.PB.PA.SM} - Mean age of public paid employees, by industry: Public adminstration}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.PA.SM:BI.PWK.AGES.PB.PA.SM} - Mean age of public paid employees, by industry: Public Administration}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.AGES.PB.PS.MD}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.PS.MD:BI.PWK.AGES.PB.PS.MD} - Median age of public paid employees, by industry: Public Safety}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.AGES.PB.PS.SM}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.PS.SM:BI.PWK.AGES.PB.PS.SM} - Mean age of public paid employees, by industry: Public Safety}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -567,6 +1158,54 @@
 {synoptline}
 {marker sourceid_BI.PWK.AGES.PB.SM}
 {synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.SM:BI.PWK.AGES.PB.SM} - Mean age of public paid employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.AGES.PB.SS.MD}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.SS.MD:BI.PWK.AGES.PB.SS.MD} - Median age of public paid employees, by industry: Social Security}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.AGES.PB.SS.SM}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.SS.SM:BI.PWK.AGES.PB.SS.SM} - Mean age of public paid employees, by industry: Social Security}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.AGES.PB.TS.MD}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.TS.MD:BI.PWK.AGES.PB.TS.MD} - Median age of public paid employees, by occupation: Teachers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.AGES.PB.TS.SM}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.TS.SM:BI.PWK.AGES.PB.TS.SM} - Mean age of public paid employees, by occupation: Teachers}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -637,8 +1276,56 @@
 
 
 {synoptline}
+{marker sourceid_BI.PWK.AGES.PV.MW.MD}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PV.MW.MD:BI.PWK.AGES.PV.MW.MD} - Median age of private paid employees, by occupation: Medical workers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.AGES.PV.MW.SM}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PV.MW.SM:BI.PWK.AGES.PV.MW.SM} - Mean age of private paid employees, by occupation: Medical workers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.PWK.AGES.PV.SM}
 {synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PV.SM:BI.PWK.AGES.PV.SM} - Mean age of private paid employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.AGES.PV.TS.MD}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PV.TS.MD:BI.PWK.AGES.PV.TS.MD} - Median age of private paid employees, by occupation: Teachers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.AGES.PV.TS.SM}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PV.TS.SM:BI.PWK.AGES.PV.TS.SM} - Mean age of private paid employees, by occupation: Teachers}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -866,7 +1553,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PRVS.CK.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.CK.FE.ZS:BI.PWK.PRVS.CK.FE.ZS} - Females, as a share of private paid employees by occupation: Clerks}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.CK.FE.ZS:BI.PWK.PRVS.CK.FE.ZS} - Females, as a share of private paid employees by occupational group: Clerks}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -890,7 +1577,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PRVS.EO.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.EO.FE.ZS:BI.PWK.PRVS.EO.FE.ZS} - Females, as a share of private paid employees by occupation: Elementary occupation}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.EO.FE.ZS:BI.PWK.PRVS.EO.FE.ZS} - Females, as a share of private paid employees by occupational group: Elementary occupation}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -998,7 +1685,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PRVS.PN.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.PN.FE.ZS:BI.PWK.PRVS.PN.FE.ZS} - Females, as a share of private paid employees by occupation: Professionals}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.PN.FE.ZS:BI.PWK.PRVS.PN.FE.ZS} - Females, as a share of private paid employees by occupational group: Professionals}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1046,7 +1733,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PRVS.SN.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.SN.FE.ZS:BI.PWK.PRVS.SN.FE.ZS} - Females, as a share of private paid employees by occupation: Managers}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.SN.FE.ZS:BI.PWK.PRVS.SN.FE.ZS} - Females, as a share of private paid employees by occupational group: Managers}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1070,7 +1757,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PRVS.TN.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.TN.FE.ZS:BI.PWK.PRVS.TN.FE.ZS} - Females, as a share of private paid employees by occupation: Technicians}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.TN.FE.ZS:BI.PWK.PRVS.TN.FE.ZS} - Females, as a share of private paid employees by occupational group: Technicians}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1105,6 +1792,30 @@
 
 
 {synoptline}
+{marker sourceid_BI.PWK.PRVS.TT.MW.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.TT.MW.ZS:BI.PWK.PRVS.TT.MW.ZS} - Individuals with tertiary Education as a share of private paid employees, by occupation: Medical workers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.PRVS.TT.TS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.TT.TS.ZS:BI.PWK.PRVS.TT.TS.ZS} - Individuals with tertiary Education as a share of private paid employees, by occupation: Teachers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.PWK.PRVS.TT.ZS}
 {synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.TT.ZS:BI.PWK.PRVS.TT.ZS} - Individuals with tertiary education as a share of private paid employees}}
 
@@ -1129,8 +1840,20 @@
 
 
 {synoptline}
+{marker sourceid_BI.PWK.PUBS.CA.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.CA.FE.ZS:BI.PWK.PUBS.CA.FE.ZS} - Females, as a share of public paid employees by industry: Core Public Administration}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.PWK.PUBS.CK.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.CK.FE.ZS:BI.PWK.PUBS.CK.FE.ZS} - Females, as a share of public paid employees by occupation: Clerks}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.CK.FE.ZS:BI.PWK.PUBS.CK.FE.ZS} - Females, as a share of public paid employees by occupational group: Clerks}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1166,7 +1889,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.EO.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.EO.FE.ZS:BI.PWK.PUBS.EO.FE.ZS} - Females, as a share of public paid employees by occupation: Elementary occupation}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.EO.FE.ZS:BI.PWK.PUBS.EO.FE.ZS} - Females, as a share of public paid employees by occupational group: Elementary occupation}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1273,6 +1996,18 @@
 
 
 {synoptline}
+{marker sourceid_BI.PWK.PUBS.MW.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.MW.FE.ZS:BI.PWK.PUBS.MW.FE.ZS} - Females, as a share of public paid employees by occupation: Medical workers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.PWK.PUBS.NN.ZS}
 {synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.NN.ZS:BI.PWK.PUBS.NN.ZS} - Individuals with no education as a share of public paid employees}}
 
@@ -1287,6 +2022,18 @@
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.NO}
 {synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.NO:BI.PWK.PUBS.NO} - Number of public paid employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.PUBS.NO.CA}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.NO.CA:BI.PWK.PUBS.NO.CA} - Number of public paid employees, by industry: Core Public Administration}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1321,8 +2068,56 @@
 
 
 {synoptline}
+{marker sourceid_BI.PWK.PUBS.NO.MW}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.NO.MW:BI.PWK.PUBS.NO.MW} - Number of public paid employees, by occupation: Medical workers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.PWK.PUBS.NO.PA}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.NO.PA:BI.PWK.PUBS.NO.PA} - Number of public paid employees, by industry: Public adminstration}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.NO.PA:BI.PWK.PUBS.NO.PA} - Number of public paid employees, by industry: Public Administration}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.PUBS.NO.PS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.NO.PS:BI.PWK.PUBS.NO.PS} - Number of public paid employees, by industry: Public Safety}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.PUBS.NO.SS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.NO.SS:BI.PWK.PUBS.NO.SS} - Number of public paid employees, by industry: Social Security}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.PUBS.NO.TS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.NO.TS:BI.PWK.PUBS.NO.TS} - Number of public paid employees, by occupation: Teachers}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1334,7 +2129,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.PA.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.PA.FE.ZS:BI.PWK.PUBS.PA.FE.ZS} - Females, as a share of public paid employees by industry: Public adminstration}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.PA.FE.ZS:BI.PWK.PUBS.PA.FE.ZS} - Females, as a share of public paid employees by industry: Public Administration}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1346,7 +2141,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.PN.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.PN.FE.ZS:BI.PWK.PUBS.PN.FE.ZS} - Females, as a share of public paid employees by occupation: Professionals}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.PN.FE.ZS:BI.PWK.PUBS.PN.FE.ZS} - Females, as a share of public paid employees by occupational group: Professionals}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1359,6 +2154,30 @@
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.PR.ZS}
 {synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.PR.ZS:BI.PWK.PUBS.PR.ZS} - Individuals with primary education as a share of public paid employees}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.PUBS.PS.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.PS.FE.ZS:BI.PWK.PUBS.PS.FE.ZS} - Females, as a share of public paid employees by industry: Public Safety}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.PUBS.RU.CA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.RU.CA.ZS:BI.PWK.PUBS.RU.CA.ZS} - Rural residents, as a share of public paid employees, by industry: Core Public Administration}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1393,8 +2212,56 @@
 
 
 {synoptline}
+{marker sourceid_BI.PWK.PUBS.RU.MW.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.RU.MW.ZS:BI.PWK.PUBS.RU.MW.ZS} - Rural residents, as a share of public paid employees, by occupation: Medical workers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.PWK.PUBS.RU.PA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.RU.PA.ZS:BI.PWK.PUBS.RU.PA.ZS} - Rural residents, as a share of public paid employees, by industry: Public adminstration}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.RU.PA.ZS:BI.PWK.PUBS.RU.PA.ZS} - Rural residents, as a share of public paid employees, by industry: Public Administration}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.PUBS.RU.PS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.RU.PS.ZS:BI.PWK.PUBS.RU.PS.ZS} - Rural residents, as a share of public paid employees, by industry: Public Safety}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.PUBS.RU.SS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.RU.SS.ZS:BI.PWK.PUBS.RU.SS.ZS} - Rural residents, as a share of public paid employees, by industry: Social Security}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.PUBS.RU.TS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.RU.TS.ZS:BI.PWK.PUBS.RU.TS.ZS} - Rural residents, as a share of public paid employees, by industry: Teachers}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1430,7 +2297,19 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.SN.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.SN.FE.ZS:BI.PWK.PUBS.SN.FE.ZS} - Females, as a share of public paid employees by occupation: Managers}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.SN.FE.ZS:BI.PWK.PUBS.SN.FE.ZS} - Females, as a share of public paid employees by occupational group: Managers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.PUBS.SS.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.SS.FE.ZS:BI.PWK.PUBS.SS.FE.ZS} - Females, as a share of public paid employees by industry: Social Security}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1454,7 +2333,31 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.TN.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.TN.FE.ZS:BI.PWK.PUBS.TN.FE.ZS} - Females, as a share of public paid employees by occupation: Technicians}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.TN.FE.ZS:BI.PWK.PUBS.TN.FE.ZS} - Females, as a share of public paid employees by occupational group: Technicians}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.PUBS.TS.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.TS.FE.ZS:BI.PWK.PUBS.TS.FE.ZS} - Females, as a share of public paid employees by industry: Teachers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.PUBS.TT.CA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.TT.CA.ZS:BI.PWK.PUBS.TT.CA.ZS} - Individuals with tertiary Education as a share of public paid employees, by industry: Core Public Administration}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1489,8 +2392,56 @@
 
 
 {synoptline}
+{marker sourceid_BI.PWK.PUBS.TT.MW.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.TT.MW.ZS:BI.PWK.PUBS.TT.MW.ZS} - Individuals with tertiary Education as a share of public paid employees, by occupation: Medical workers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.PWK.PUBS.TT.PA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.TT.PA.ZS:BI.PWK.PUBS.TT.PA.ZS} - Individuals with tertiary education as a share of public paid employees, by industry: Public adminstration}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.TT.PA.ZS:BI.PWK.PUBS.TT.PA.ZS} - Individuals with tertiary education as a share of public paid employees, by industry: Public Administration}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.PUBS.TT.PS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.TT.PS.ZS:BI.PWK.PUBS.TT.PS.ZS} - Individuals with tertiary Education as a share of public paid employees, by industry: Public Safety}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.PUBS.TT.SS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.TT.SS.ZS:BI.PWK.PUBS.TT.SS.ZS} - Individuals with tertiary Education as a share of public paid employees, by industry: Social Security}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.PUBS.TT.TS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.TT.TS.ZS:BI.PWK.PUBS.TT.TS.ZS} - Individuals with tertiary Education as a share of public paid employees, by occupation: Teachers}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1537,6 +2488,18 @@
 
 
 {synoptline}
+{marker sourceid_BI.PWK.TOTL.NO.CA}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.TOTL.NO.CA:BI.PWK.TOTL.NO.CA} - Number of paid employees, by industry: Core Public Administration}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.PWK.TOTL.NO.ED}
 {synopt:{bf:{help wbopendata_sourceid##BI.PWK.TOTL.NO.ED:BI.PWK.TOTL.NO.ED} - Number of paid employees, by industry: Education}}
 
@@ -1561,8 +2524,56 @@
 
 
 {synoptline}
+{marker sourceid_BI.PWK.TOTL.NO.MW}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.TOTL.NO.MW:BI.PWK.TOTL.NO.MW} - Number of paid employees, by occupation: Medical workers}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.PWK.TOTL.NO.PA}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.TOTL.NO.PA:BI.PWK.TOTL.NO.PA} - Number of paid employees, by industry: Public adminstration}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.TOTL.NO.PA:BI.PWK.TOTL.NO.PA} - Number of paid employees, by industry: Public Administration}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.TOTL.NO.PS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.TOTL.NO.PS:BI.PWK.TOTL.NO.PS} - Number of paid employees, by industry: Public Safety}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.TOTL.NO.SS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.TOTL.NO.SS:BI.PWK.TOTL.NO.SS} - Number of paid employees, by industry: Social Security}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.PWK.TOTL.NO.TS}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.TOTL.NO.TS:BI.PWK.TOTL.NO.TS} - Number of paid employees, by occupation: Teachers}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1753,6 +2764,30 @@
 
 
 {synoptline}
+{marker sourceid_BI.WAG.PREM.FE.MW}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.FE.MW:BI.WAG.PREM.FE.MW} - Public sector wage premium for females, by occupation: Medical workers (compared to paid wage employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.FE.TS}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.FE.TS:BI.WAG.PREM.FE.TS} - Public sector wage premium for females, by occupation: Teachers (compared to paid wage employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.WAG.PREM.HE}
 {synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.HE:BI.WAG.PREM.HE} - Public sector wage premium, by industry: Health (compared to formal wage employees)}}
 
@@ -1801,6 +2836,54 @@
 
 
 {synoptline}
+{marker sourceid_BI.WAG.PREM.MA.MW}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.MA.MW:BI.WAG.PREM.MA.MW} - Public sector wage premium for males, by occupation: Medical workers (compared to paid wage employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.MA.TS}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.MA.TS:BI.WAG.PREM.MA.TS} - Public sector wage premium for males, by occupation: Teachers (compared to paid wage employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.MW.PE}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.MW.PE:BI.WAG.PREM.MW.PE} - Public sector wage premium, by occupation: Medical workers (compared to all private employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.MW.WE}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.MW.WE:BI.WAG.PREM.MW.WE} - Public sector wage premium, by occupation: Medical workers (compared to formal wage employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.WAG.PREM.PB}
 {synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB:BI.WAG.PREM.PB} - Public sector wage premium (compared to formal wage employees)}}
 
@@ -1814,7 +2897,7 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.PREM.PB.CK}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.CK:BI.WAG.PREM.PB.CK} - Public sector wage premium, by occupation: Clerks (compared to formal wage employees)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.CK:BI.WAG.PREM.PB.CK} - Public sector wage premium, by occupational group: Clerks (compared to formal wage employees)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1862,7 +2945,7 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.PREM.PB.EO}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.EO:BI.WAG.PREM.PB.EO} - Public sector wage premium, by occupation: Elementary occupation (compared to formal wage employees)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.EO:BI.WAG.PREM.PB.EO} - Public sector wage premium, by occupational group: Elementary occupation (compared to formal wage employees)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1909,6 +2992,30 @@
 
 
 {synoptline}
+{marker sourceid_BI.WAG.PREM.PB.FE.MW}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.FE.MW:BI.WAG.PREM.PB.FE.MW} - P-Value: Public sector wage premium for females, by occupation: Medical workers (compared to paid wage employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.PB.FE.TS}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.FE.TS:BI.WAG.PREM.PB.FE.TS} - P-Value: Public sector wage premium for females, by occupation: Teachers (compared to paid wage employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.WAG.PREM.PB.FL}
 {synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.FL:BI.WAG.PREM.PB.FL} - P-Value: Public sector wage premium (compared to formal wage employees)}}
 
@@ -1923,6 +3030,18 @@
 {synoptline}
 {marker sourceid_BI.WAG.PREM.PB.FM}
 {synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.FM:BI.WAG.PREM.PB.FM} - P-Value: Public sector wage premium, by gender (compared to all private employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.PB.FM.CA}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.FM.CA:BI.WAG.PREM.PB.FM.CA} - P-Value: Gender wage premium in the public sector, by industry: Core Public Administration (compared to male paid employees)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1958,7 +3077,31 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.PREM.PB.FM.PA}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.FM.PA:BI.WAG.PREM.PB.FM.PA} - P-Value: Gender wage premium in the public sector, by industry: Public adminstration (compared to male paid employees)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.FM.PA:BI.WAG.PREM.PB.FM.PA} - P-Value: Gender wage premium in the public sector, by industry: Public Administration (compared to male paid employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.PB.FM.PS}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.FM.PS:BI.WAG.PREM.PB.FM.PS} - P-Value: Gender wage premium in the public sector, by industry: Public Safety (compared to male paid employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.PB.FM.SS}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.FM.SS:BI.WAG.PREM.PB.FM.SS} - P-Value: Gender wage premium in the public sector, by industry: Social Security (compared to male paid employees)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -2041,6 +3184,54 @@
 
 
 {synoptline}
+{marker sourceid_BI.WAG.PREM.PB.MA.MW}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.MA.MW:BI.WAG.PREM.PB.MA.MW} - P-Value: Public sector wage premium for males, by occupation: Medical workers (compared to paid wage employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.PB.MA.TS}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.MA.TS:BI.WAG.PREM.PB.MA.TS} - P-Value: Public sector wage premium for males, by occupation: Teachers (compared to paid wage employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.PB.MW.PE}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.MW.PE:BI.WAG.PREM.PB.MW.PE} - P-Value: Public sector wage premium, by occupation: Medical workers (compared to all private employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.PB.MW.WE}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.MW.WE:BI.WAG.PREM.PB.MW.WE} - P-Value: Public sector wage premium, by occupation: Medical workers (compared to formal wage employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.WAG.PREM.PB.NN}
 {synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.NN:BI.WAG.PREM.PB.NN} - Public sector wage premium, by education level: No education (compared to formal wage employees)}}
 
@@ -2066,7 +3257,7 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.PREM.PB.PN}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.PN:BI.WAG.PREM.PB.PN} - Public sector wage premium, by occupation: Professionals (compared to formal wage employees)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.PN:BI.WAG.PREM.PB.PN} - Public sector wage premium, by occupational group: Professionals (compared to formal wage employees)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -2114,7 +3305,7 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.PREM.PB.SN}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.SN:BI.WAG.PREM.PB.SN} - Public sector wage premium, by occupation: Managers (compared to formal wage employees)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.SN:BI.WAG.PREM.PB.SN} - Public sector wage premium, by occupational group: Managers (compared to formal wage employees)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -2126,7 +3317,31 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.PREM.PB.TN}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.TN:BI.WAG.PREM.PB.TN} - Public sector wage premium, by occupation: Technicians (compared to formal wage employees)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.TN:BI.WAG.PREM.PB.TN} - Public sector wage premium, by occupational group: Technicians (compared to formal wage employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.PB.TS.PE}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.TS.PE:BI.WAG.PREM.PB.TS.PE} - P-Value: Public sector wage premium, by occupation: Teacher (compared to all private employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.PB.TS.WE}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.TS.WE:BI.WAG.PREM.PB.TS.WE} - P-Value: Public sector wage premium, by occupation: Teacher (compared to formal wage employees)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -2163,6 +3378,54 @@
 {synoptline}
 {marker sourceid_BI.WAG.PREM.PV.FM.HE}
 {synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PV.FM.HE:BI.WAG.PREM.PV.FM.HE} - P-Value: Gender wage premium in the private sector, by industry: Health (compared to male paid employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.PV.FM.MW}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PV.FM.MW:BI.WAG.PREM.PV.FM.MW} - P-Value: Gender wage premium in the private sector, by occupation: Medical workers (compared to male paid employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.PV.FM.TS}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PV.FM.TS:BI.WAG.PREM.PV.FM.TS} - P-Value: Gender wage premium in the private sector, by occupation: Teachers (compared to male paid employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.TS.PE}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.TS.PE:BI.WAG.PREM.TS.PE} - Public sector wage premium, by occupation: Teacher (compared to all private employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PREM.TS.WE}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.TS.WE:BI.WAG.PREM.TS.WE} - Public sector wage premium, by occupation: Teacher (compared to formal wage employees)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -2221,6 +3484,18 @@
 
 
 {synoptline}
+{marker sourceid_BI.WAG.PRVS.MW.FM}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PRVS.MW.FM:BI.WAG.PRVS.MW.FM} - Gender wage premium in the private sector, by occupation: Medical workers (compared to male paid employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.WAG.PRVS.PN}
 {synopt:{bf:{help wbopendata_sourceid##BI.WAG.PRVS.PN:BI.WAG.PRVS.PN} - Relative wage of Professionals (using clerk as reference) in private sector}}
 
@@ -2247,6 +3522,30 @@
 {synoptline}
 {marker sourceid_BI.WAG.PRVS.TN}
 {synopt:{bf:{help wbopendata_sourceid##BI.WAG.PRVS.TN:BI.WAG.PRVS.TN} - Relative wage of Technicians (using clerk as reference) in private sector}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PRVS.TS.FM}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PRVS.TS.FM:BI.WAG.PRVS.TS.FM} - Gender wage premium in the private sector, by occupation: Teachers (compared to male paid employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PUBS.CA.FM}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PUBS.CA.FM:BI.WAG.PUBS.CA.FM} - Gender wage premium in the public sector, by industry: Core Public Administration (compared to male paid employees)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -2306,7 +3605,7 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.PUBS.PA.FM}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PUBS.PA.FM:BI.WAG.PUBS.PA.FM} - Gender wage premium in the public sector, by industry: Public adminstration (compared to male paid employees)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PUBS.PA.FM:BI.WAG.PUBS.PA.FM} - Gender wage premium in the public sector, by industry: Public Administration (compared to male paid employees)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -2329,8 +3628,32 @@
 
 
 {synoptline}
+{marker sourceid_BI.WAG.PUBS.PS.FM}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PUBS.PS.FM:BI.WAG.PUBS.PS.FM} - Gender wage premium in the public sector, by industry: Public Safety (compared to male paid employees)}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_BI.WAG.PUBS.SN}
 {synopt:{bf:{help wbopendata_sourceid##BI.WAG.PUBS.SN:BI.WAG.PUBS.SN} - Relative wage of Managers (using clerk as reference) in public sector}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_BI.WAG.PUBS.SS.FM}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PUBS.SS.FM:BI.WAG.PUBS.SS.FM} - Gender wage premium in the public sector, by industry: Social Security (compared to male paid employees)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -2366,7 +3689,7 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.TOTL.PB.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.TOTL.PB.ZS:BI.WAG.TOTL.PB.ZS} - Wage bill as a percentage of public expenditures}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.TOTL.PB.ZS:BI.WAG.TOTL.PB.ZS} - Wage bill as a percentage of Public Expenditure}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -2377,4 +3700,4 @@
 
 
 
-{right:(as of 05jul2021)}
+{right:(as of 23jan2023)}
