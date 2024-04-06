@@ -1,7 +1,7 @@
 *******************************************************************************
 * wbopendata             
-*! v 16.3  	8Jul2020               by Joao Pedro Azevedo
-* 	change API end point to HTTPS
+*! v 17.0  	 24Jan2023               by Joao Pedro Azevedo
+* 	Create region metadata
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -312,6 +312,10 @@ local indicator `indicators'
 end
 
 
+*******************************************************************************
+*  v 16.3  	8Jul2020               by Joao Pedro Azevedo
+* 	change API end point to HTTPS
+*******************************************************************************
 **********************************************************************************
 *  v 16.2.3    29Jun2020 				by Joao Pedro Azevedo
 *	 rewrote query metadata. It now uses _api_read.ado
