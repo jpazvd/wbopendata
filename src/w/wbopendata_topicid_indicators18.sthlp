@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid_indicators19##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid_indicators20##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid_indicators21##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid_indicatorstopicID##topicid_topicID:}{p_end}
 
 
 {marker topicid_18}
@@ -144,7 +145,7 @@
 
 {synoptline}
 {marker topicid_DC.ODA.TOTL.KD}
-{synopt:{bf:{help wbopendata_topicid##DC.ODA.TOTL.KD:DC.ODA.TOTL.KD} - Net ODA provided, total (constant 2015 US$)}}
+{synopt:{bf:{help wbopendata_topicid##DC.ODA.TOTL.KD:DC.ODA.TOTL.KD} - Net ODA provided, total (constant 2021 US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -246,135 +247,5 @@
 {synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development, Producer and Consumer Support Estimates database. Available online at {browse "www.oecd.org/tad/support/psecse"}.{p_end}
 
 
-{synoptline}
-{marker topicid_SH.MLR.NETS.Q1.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETS.Q1.ZS:SH.MLR.NETS.Q1.ZS} - Malaria prevention, use of bed nets (% of under-5 children in the poorest quintile)}}
 
-{synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
-
-{synopt:{opt Topics}}18 Millenium development goals{p_end}
-
-{synopt:{opt Source Notes}}Use of bed nets by children in the poorest quintile refers to the percentage of children under age five in the poorest quintile who slept under an any type of mosquito bednet to prevent malaria.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys by Macro International.{p_end}
-
-
-{synoptline}
-{marker topicid_SH.MLR.NETS.Q5.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETS.Q5.ZS:SH.MLR.NETS.Q5.ZS} - Malaria prevention, use of bed nets (% of under-5 children in the richest quintile)}}
-
-{synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
-
-{synopt:{opt Topics}}18 Millenium development goals{p_end}
-
-{synopt:{opt Source Notes}}Use of bed nets by children in the richest quintile refers to the percentage of children under age five in the richest quintile who slept under an any type of mosquito bednet to prevent malaria.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys by Macro International.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.MRC.NOTX.DV.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.MRC.NOTX.DV.ZS:TM.MRC.NOTX.DV.ZS} - Goods (excluding arms) admitted free of tariffs from developing countries (% total merchandise imports excluding arms)}}
-
-{synopt:{opt Source}}19 Millennium Development Goals{p_end}
-
-{synopt:{opt Topics}}18 Millenium development goals{p_end}
-
-{synopt:{opt Source Notes}}It is the proportion of duty free imports (excluding arms) into developed countries from developing and least developed countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Aus{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.MRC.NOTX.LD.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.MRC.NOTX.LD.ZS:TM.MRC.NOTX.LD.ZS} - Goods (excluding arms) admitted free of tariffs from least developed countries (% total merchandise imports excluding arms)}}
-
-{synopt:{opt Source}}19 Millennium Development Goals{p_end}
-
-{synopt:{opt Topics}}18 Millenium development goals{p_end}
-
-{synopt:{opt Source Notes}}It is the proportion of duty free imports (excluding arms) into developed countries from developing and least developed countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Aus{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.AGRI.CD.DV}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.AGRI.CD.DV:TM.TAX.AGRI.CD.DV} - Average tariffs imposed by developed countries on agricultural products from developing countries (%)}}
-
-{synopt:{opt Source}}19 Millennium Development Goals{p_end}
-
-{synopt:{opt Topics}}18 Millenium development goals{p_end}
-
-{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicato{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.AGRI.CD.LD}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.AGRI.CD.LD:TM.TAX.AGRI.CD.LD} - Average tariffs imposed by developed countries on agricultural products from least developed countries (%)}}
-
-{synopt:{opt Source}}19 Millennium Development Goals{p_end}
-
-{synopt:{opt Topics}}18 Millenium development goals{p_end}
-
-{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicato{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.CLTH.CD.DV}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.CLTH.CD.DV:TM.TAX.CLTH.CD.DV} - Average tariffs imposed by developed countries on clothing products from developing countries (%)}}
-
-{synopt:{opt Source}}19 Millennium Development Goals{p_end}
-
-{synopt:{opt Topics}}18 Millenium development goals{p_end}
-
-{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicato{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.CLTH.CD.LD}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.CLTH.CD.LD:TM.TAX.CLTH.CD.LD} - Average tariffs imposed by developed countries on clothing products from least developed countries (%)}}
-
-{synopt:{opt Source}}19 Millennium Development Goals{p_end}
-
-{synopt:{opt Topics}}18 Millenium development goals{p_end}
-
-{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicato{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.TXTL.CD.DV}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TXTL.CD.DV:TM.TAX.TXTL.CD.DV} - Average tariffs imposed by developed countries on textile products from developing countries (%)}}
-
-{synopt:{opt Source}}19 Millennium Development Goals{p_end}
-
-{synopt:{opt Topics}}18 Millenium development goals{p_end}
-
-{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicato{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.TXTL.CD.LD}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TXTL.CD.LD:TM.TAX.TXTL.CD.LD} - Average tariffs imposed by developed countries on textile products from least developed countries (%)}}
-
-{synopt:{opt Source}}19 Millennium Development Goals{p_end}
-
-{synopt:{opt Topics}}18 Millenium development goals{p_end}
-
-{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicato{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
-
-
-
-{right:(as of 28jun2020)}
+{right:(as of 18may2024)}

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid_indicators19##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid_indicators20##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid_indicators21##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid_indicatorstopicID##topicid_topicID:}{p_end}
 
 
 {marker topicid_13}
@@ -38,6 +39,84 @@
 
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:13 Public Sector}}}
+{synoptline}
+{marker topicid_CC.EST}
+{synopt:{bf:{help wbopendata_topicid##CC.EST:CC.EST} - Control of Corruption: Estimate}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests. Estimate gives t{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_CC.NO.SRC}
+{synopt:{bf:{help wbopendata_topicid##CC.NO.SRC:CC.NO.SRC} - Control of Corruption: Number of Sources}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests. Number of source{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_CC.PER.RNK}
+{synopt:{bf:{help wbopendata_topicid##CC.PER.RNK:CC.PER.RNK} - Control of Corruption: Percentile Rank}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.  Percentile rank{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_CC.PER.RNK.LOWER}
+{synopt:{bf:{help wbopendata_topicid##CC.PER.RNK.LOWER:CC.PER.RNK.LOWER} - Control of Corruption: Percentile Rank, Lower Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.  Percentile rank{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_CC.PER.RNK.UPPER}
+{synopt:{bf:{help wbopendata_topicid##CC.PER.RNK.UPPER:CC.PER.RNK.UPPER} - Control of Corruption: Percentile Rank, Upper Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.  Percentile rank{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_CC.STD.ERR}
+{synopt:{bf:{help wbopendata_topicid##CC.STD.ERR:CC.STD.ERR} - Control of Corruption: Standard Error}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.   Standard error{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
 {synoptline}
 {marker topicid_GB.TAX.CMAR.ZS}
 {synopt:{bf:{help wbopendata_topicid##GB.TAX.CMAR.ZS:GB.TAX.CMAR.ZS} - Highest marginal tax rate, corporate rate (%)}}
@@ -637,6 +716,214 @@
 
 
 {synoptline}
+{marker topicid_GE.EST}
+{synopt:{bf:{help wbopendata_topicid##GE.EST:GE.EST} - Government Effectiveness: Estimate}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_GE.NO.SRC}
+{synopt:{bf:{help wbopendata_topicid##GE.NO.SRC:GE.NO.SRC} - Government Effectiveness: Number of Sources}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_GE.PER.RNK}
+{synopt:{bf:{help wbopendata_topicid##GE.PER.RNK:GE.PER.RNK} - Government Effectiveness: Percentile Rank}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_GE.PER.RNK.LOWER}
+{synopt:{bf:{help wbopendata_topicid##GE.PER.RNK.LOWER:GE.PER.RNK.LOWER} - Government Effectiveness: Percentile Rank, Lower Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_GE.PER.RNK.UPPER}
+{synopt:{bf:{help wbopendata_topicid##GE.PER.RNK.UPPER:GE.PER.RNK.UPPER} - Government Effectiveness: Percentile Rank, Upper Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_GE.STD.ERR}
+{synopt:{bf:{help wbopendata_topicid##GE.STD.ERR:GE.STD.ERR} - Government Effectiveness: Standard Error}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_GF.XPD.BUDG.ZS}
+{synopt:{bf:{help wbopendata_topicid##GF.XPD.BUDG.ZS:GF.XPD.BUDG.ZS} - Primary government expenditures as a proportion of original approved budget (%)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Primary government expenditures as a proportion of original approved budget measures the extent to which aggregate budget expenditure outturn reflects the amount originally approved, as defined in government budget documentation and fiscal rep{p_end}
+
+{synopt:{opt Source Organization}}Public Expenditure and Financial Accountability (PEFA). Ministry of Finance (MoF).{p_end}
+
+
+{synoptline}
+{marker topicid_HD.HCI.OVRL}
+{synopt:{bf:{help wbopendata_topicid##HD.HCI.OVRL:HD.HCI.OVRL} - Human Capital Index (HCI) (scale 0-1)}}
+
+{synopt:{opt Source}}63 Human Capital Index{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The HCI calculates the contributions of health and education to worker productivity. The final index score ranges from zero to one and measures the productivity as a future worker of child born today relative to the benchmark of full health an{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in World Bank (2018). {browse "https://openknowledge.worldbank.org/handle/10986/30498"}.{p_end}
+
+
+{synoptline}
+{marker topicid_HD.HCI.OVRL.FE}
+{synopt:{bf:{help wbopendata_topicid##HD.HCI.OVRL.FE:HD.HCI.OVRL.FE} - Human Capital Index (HCI), Female (scale 0-1)}}
+
+{synopt:{opt Source}}63 Human Capital Index{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The HCI calculates the contributions of health and education to worker productivity. The final index score ranges from zero to one and measures the productivity as a future worker of child born today relative to the benchmark of full health an{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in World Bank (2018). {browse "https://openknowledge.worldbank.org/handle/10986/30498"}.{p_end}
+
+
+{synoptline}
+{marker topicid_HD.HCI.OVRL.LB}
+{synopt:{bf:{help wbopendata_topicid##HD.HCI.OVRL.LB:HD.HCI.OVRL.LB} - Human Capital Index (HCI), Lower Bound (scale 0-1)}}
+
+{synopt:{opt Source}}63 Human Capital Index{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The HCI lower bound reflects uncertainty in the measurement of  the components and the overall index. It is obtained by recalculating the HCI using estimates of the upper bounds of each of the components of the HCI.  The range between the uppe{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in Kraay (2018).  {browse "http://documents.worldbank.org/curated/en/300071537907028892/Methodology-for-a-World-Bank-Human-Capital-Index"}{p_end}
+
+
+{synoptline}
+{marker topicid_HD.HCI.OVRL.LB.FE}
+{synopt:{bf:{help wbopendata_topicid##HD.HCI.OVRL.LB.FE:HD.HCI.OVRL.LB.FE} - Human Capital Index (HCI), Female, Lower Bound (scale 0-1)}}
+
+{synopt:{opt Source}}63 Human Capital Index{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The HCI lower bound reflects uncertainty in the measurement of  the components and the overall index. It is obtained by recalculating the HCI using estimates of the upper bounds of each of the components of the HCI.  The range between the uppe{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in Kraay (2018).  {browse "http://documents.worldbank.org/curated/en/300071537907028892/Methodology-for-a-World-Bank-Human-Capital-Index"}{p_end}
+
+
+{synoptline}
+{marker topicid_HD.HCI.OVRL.LB.MA}
+{synopt:{bf:{help wbopendata_topicid##HD.HCI.OVRL.LB.MA:HD.HCI.OVRL.LB.MA} - Human Capital Index (HCI), Male, Lower Bound (scale 0-1)}}
+
+{synopt:{opt Source}}63 Human Capital Index{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The HCI lower bound reflects uncertainty in the measurement of  the components and the overall index. It is obtained by recalculating the HCI using estimates of the upper bounds of each of the components of the HCI.  The range between the uppe{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in Kraay (2018).  {browse "http://documents.worldbank.org/curated/en/300071537907028892/Methodology-for-a-World-Bank-Human-Capital-Index"}{p_end}
+
+
+{synoptline}
+{marker topicid_HD.HCI.OVRL.MA}
+{synopt:{bf:{help wbopendata_topicid##HD.HCI.OVRL.MA:HD.HCI.OVRL.MA} - Human Capital Index (HCI), Male (scale 0-1)}}
+
+{synopt:{opt Source}}63 Human Capital Index{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The HCI calculates the contributions of health and education to worker productivity. The final index score ranges from zero to one and measures the productivity as a future worker of child born today relative to the benchmark of full health an{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in World Bank (2018). {browse "https://openknowledge.worldbank.org/handle/10986/30498"}.{p_end}
+
+
+{synoptline}
+{marker topicid_HD.HCI.OVRL.UB}
+{synopt:{bf:{help wbopendata_topicid##HD.HCI.OVRL.UB:HD.HCI.OVRL.UB} - Human Capital Index (HCI), Upper Bound (scale 0-1)}}
+
+{synopt:{opt Source}}63 Human Capital Index{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The HCI upper bound reflects uncertainty in the measurement of  the components and the overall index. It is obtained by recalculating the HCI using estimates of the upper bounds of each of the components of the HCI.  The range between the uppe{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in Kraay (2018).  {browse "http://documents.worldbank.org/curated/en/300071537907028892/Methodology-for-a-World-Bank-Human-Capital-Index"}{p_end}
+
+
+{synoptline}
+{marker topicid_HD.HCI.OVRL.UB.FE}
+{synopt:{bf:{help wbopendata_topicid##HD.HCI.OVRL.UB.FE:HD.HCI.OVRL.UB.FE} - Human Capital Index (HCI), Female, Upper Bound (scale 0-1)}}
+
+{synopt:{opt Source}}63 Human Capital Index{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The HCI upper bound reflects uncertainty in the measurement of  the components and the overall index. It is obtained by recalculating the HCI using estimates of the upper bounds of each of the components of the HCI.  The range between the uppe{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in Kraay (2018).  {browse "http://documents.worldbank.org/curated/en/300071537907028892/Methodology-for-a-World-Bank-Human-Capital-Index"}{p_end}
+
+
+{synoptline}
+{marker topicid_HD.HCI.OVRL.UB.MA}
+{synopt:{bf:{help wbopendata_topicid##HD.HCI.OVRL.UB.MA:HD.HCI.OVRL.UB.MA} - Human Capital Index (HCI), Male, Upper Bound (scale 0-1)}}
+
+{synopt:{opt Source}}63 Human Capital Index{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The HCI upper bound reflects uncertainty in the measurement of  the components and the overall index. It is obtained by recalculating the HCI using estimates of the upper bounds of each of the components of the HCI.  The range between the uppe{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in Kraay (2018).  {browse "http://documents.worldbank.org/curated/en/300071537907028892/Methodology-for-a-World-Bank-Human-Capital-Index"}{p_end}
+
+
+{synoptline}
 {marker topicid_IC.CRD.PUBL.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.CRD.PUBL.ZS:IC.CRD.PUBL.ZS} - Public credit registry coverage (% of adults)}}
 
@@ -646,7 +933,7 @@
 
 {synopt:{opt Source Notes}}Public credit registry coverage reports the number of individuals and firms listed in a public credit registry with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -659,7 +946,7 @@
 
 {synopt:{opt Source Notes}}Strength of legal rights index measures the degree to which collateral and bankruptcy laws protect the rights of borrowers and lenders and thus facilitate lending. The index ranges from 0 to 12, with higher scores indicating that these laws ar{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -672,7 +959,7 @@
 
 {synopt:{opt Source Notes}}Time to prepare and pay taxes is the time, in hours per year, it takes to prepare, file, and pay (or withhold) three major types of taxes: the corporate income tax, the value added or sales tax, and labor taxes, including payroll taxes and soc{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -685,7 +972,7 @@
 
 {synopt:{opt Source Notes}}Tax payments by businesses are the total number of taxes paid by businesses, including electronic filing. The tax is counted as paid once a year even if payments are more frequent.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -698,7 +985,7 @@
 
 {synopt:{opt Source Notes}}Total tax rate measures the amount of taxes and mandatory contributions payable by businesses after accounting for allowable deductions and exemptions as a share of commercial profits. Taxes withheld (such as personal income tax) or collected{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -989,7 +1276,7 @@
 
 {synoptline}
 {marker topicid_IQ.SCI.OVRL}
-{synopt:{bf:{help wbopendata_topicid##IQ.SCI.OVRL:IQ.SCI.OVRL} - Statistical Capacity score (Overall average)}}
+{synopt:{bf:{help wbopendata_topicid##IQ.SCI.OVRL:IQ.SCI.OVRL} - Statistical Capacity Score (Overall Average) (scale 0 - 100)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1024,6 +1311,84 @@
 {synopt:{opt Source Notes}}The source data indicator reflects whether a country conducts data collection activities in line with internationally recommended periodicity, and whether data from administrative systems are available. The source data score is calculated as t{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Bulletin Board on Statistical Capacity ({browse "http://bbsc.worldbank.org"}).{p_end}
+
+
+{synoptline}
+{marker topicid_IQ.SPI.OVRL}
+{synopt:{bf:{help wbopendata_topicid##IQ.SPI.OVRL:IQ.SPI.OVRL} - Statistical performance indicators (SPI): Overall score (scale 0-100)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The SPI overall score is a composite score measuing country performance across five pillars: data use, data services, data products, data sources, and data infrastructure.  The new Statistical Performance Indicators (SPI) will replace the Stat{p_end}
+
+{synopt:{opt Source Organization}}Statistical Performance Indicators, The World Bank ({browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}){p_end}
+
+
+{synoptline}
+{marker topicid_IQ.SPI.PIL1}
+{synopt:{bf:{help wbopendata_topicid##IQ.SPI.PIL1:IQ.SPI.PIL1} - Statistical performance indicators (SPI): Pillar 1 data use score (scale 0-100)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The data use overall score is a composite score measuring the demand side of the statistical system.  The data use  pillar is segmented by five types of users: (i) the legislature, (ii) the executive branch, (iii) civil society (including sub-{p_end}
+
+{synopt:{opt Source Organization}}Statistical Performance Indicators, The World Bank ({browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}){p_end}
+
+
+{synoptline}
+{marker topicid_IQ.SPI.PIL2}
+{synopt:{bf:{help wbopendata_topicid##IQ.SPI.PIL2:IQ.SPI.PIL2} - Statistical performance indicators (SPI): Pillar 2 data services score (scale 0-100)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The data services pillar overall score is a composite indicator based on four dimensions of data services: (i) the quality of data releases, (ii) the richness and openness of online access, (iii) the effectiveness of advisory and analytical se{p_end}
+
+{synopt:{opt Source Organization}}Statistical Performance Indicators, The World Bank ({browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}){p_end}
+
+
+{synoptline}
+{marker topicid_IQ.SPI.PIL3}
+{synopt:{bf:{help wbopendata_topicid##IQ.SPI.PIL3:IQ.SPI.PIL3} - Statistical performance indicators (SPI): Pillar 3 data products score  (scale 0-100)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The data products overall score is a composite score measureing whether the country is able to produce relevant indicators, primarily related to SDGs.  The data products (internal process) pillar is segmented by four topics and organized into{p_end}
+
+{synopt:{opt Source Organization}}Statistical Performance Indicators, The World Bank ({browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}){p_end}
+
+
+{synoptline}
+{marker topicid_IQ.SPI.PIL4}
+{synopt:{bf:{help wbopendata_topicid##IQ.SPI.PIL4:IQ.SPI.PIL4} - Statistical performance indicators (SPI): Pillar 4 data sources score (scale 0-100)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The data sources overall score is a composity measure of whether countries have data available from the following sources: Censuses and surveys, administrative data, geospatial data, and private sector/citizen generated data.  The data sources{p_end}
+
+{synopt:{opt Source Organization}}Statistical Performance Indicators, The World Bank ({browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}){p_end}
+
+
+{synoptline}
+{marker topicid_IQ.SPI.PIL5}
+{synopt:{bf:{help wbopendata_topicid##IQ.SPI.PIL5:IQ.SPI.PIL5} - Statistical performance indicators (SPI): Pillar 5 data infrastructure score (scale 0-100)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The data infrastructure  pillar  overall score measures the hard and soft infrastructure segments, itemizing essential cross cutting requirements for an effective statistical system.  The segments are: (i) legislation and governance covering t{p_end}
+
+{synopt:{opt Source Organization}}Statistical Performance Indicators, The World Bank ({browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}){p_end}
 
 
 {synoptline}
@@ -1063,6 +1428,19 @@
 {synopt:{opt Source Notes}}Armed forces personnel are active duty military personnel, including paramilitary forces if the training, organization, equipment, and control suggest they may be used to support or replace regular military forces. Labor force comprises all pe{p_end}
 
 {synopt:{opt Source Organization}}International Institute for Strategic Studies, The Military Balance.{p_end}
+
+
+{synoptline}
+{marker topicid_MS.MIL.XPND.CD}
+{synopt:{bf:{help wbopendata_topicid##MS.MIL.XPND.CD:MS.MIL.XPND.CD} - Military expenditure (current USD)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Military expenditures data from SIPRI are derived from the NATO definition, which includes all current and capital expenditures on the armed forces, including peacekeeping forces; defense ministries and other government agencies engaged in def{p_end}
+
+{synopt:{opt Source Organization}}Stockholm International Peace Research Institute (SIPRI), Yearbook: Armaments, Disarmament and International Security.{p_end}
 
 
 {synoptline}
@@ -1118,225 +1496,238 @@
 
 
 {synoptline}
-{marker topicid_SG.GEN.PARL.ZS}
-{synopt:{bf:{help wbopendata_topicid##SG.GEN.PARL.ZS:SG.GEN.PARL.ZS} - Proportion of seats held by women in national parliaments (%)}}
+{marker topicid_PV.EST}
+{synopt:{bf:{help wbopendata_topicid##PV.EST:PV.EST} - Political Stability and Absence of Violence/Terrorism: Estimate}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.{p_end}
+{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism. Estimate gives the country's score on the aggregate indicator, in{p_end}
 
-{synopt:{opt Source Organization}}Inter-Parliamentary Union (IPU) ({browse "www.ipu.org"}).{p_end}
-
-
-{synoptline}
-{marker topicid_SG.JOB.NOPN.EQ}
-{synopt:{bf:{help wbopendata_topicid##SG.JOB.NOPN.EQ:SG.JOB.NOPN.EQ} - Nonpregnant and nonnursing women can do the same jobs as men (1=yes; 0=no)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Non-pregnant and non-nursing women can do the same jobs as men indicates whether there are specific jobs that women explicitly or implicitly cannot perform except in limited circumstances. Both partial and full restrictions on women’s work a{p_end}
-
-{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
 
 
 {synoptline}
-{marker topicid_SG.LAW.CHMR}
-{synopt:{bf:{help wbopendata_topicid##SG.LAW.CHMR:SG.LAW.CHMR} - Law prohibits or invalidates child or early marriage (1=yes; 0=no)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Law prohibits or invalidates child or early marriage is whether there are provisions that prevent the marriage of girls, boys, or both before they reach the legal age of marriage or the age of marriage with consent, including, for example, a p{p_end}
-
-{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
-
-
-{synoptline}
-{marker topicid_SG.LAW.EQRM.WK}
-{synopt:{bf:{help wbopendata_topicid##SG.LAW.EQRM.WK:SG.LAW.EQRM.WK} - Law mandates equal remuneration for females and males for work of equal value (1=yes; 0=no)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}The indicator measures whether there is a law that obligates employers to pay equal remuneration to male and female employees who do work of equal value. “Remuneration” refers to the ordinary, basic or minimum wage or salary and any additi{p_end}
-
-{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
-
-
-{synoptline}
-{marker topicid_SG.LAW.LEVE.PU}
-{synopt:{bf:{help wbopendata_topicid##SG.LAW.LEVE.PU:SG.LAW.LEVE.PU} - Law mandates paid or unpaid maternity leave (1=yes; 0=no)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Law mandates paid or unpaid maternity leave is whether there is a law mandating paid or unpaid maternity leave available only to the mother. Provisions for circumstantial leave by which an employee is entitled to a certain number of days of pa{p_end}
-
-{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
-
-
-{synoptline}
-{marker topicid_SG.LAW.NODC.HR}
-{synopt:{bf:{help wbopendata_topicid##SG.LAW.NODC.HR:SG.LAW.NODC.HR} - Law prohibits discrimination in employment based on gender (1=yes; 0=no)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}The indicator measures whether the law generally prevents or penalizes gender-based discrimination in employment. Laws that mandate equal treatment or equality between women and men in employment are also counted for this question. It is not c{p_end}
-
-{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
-
-
-{synoptline}
-{marker topicid_SG.LEG.DVAW}
-{synopt:{bf:{help wbopendata_topicid##SG.LEG.DVAW:SG.LEG.DVAW} - There is legislation specifically addressing domestic violence (1=yes; 0=no)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}The indicator measures whether there is legislation addressing domestic violence that includes criminal sanctions or provides for protection orders for domestic violence, or the legislation addresses harassment that clearly leads to physical o{p_end}
-
-{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
-
-
-{synoptline}
-{marker topicid_SG.MMR.LEVE.EP}
-{synopt:{bf:{help wbopendata_topicid##SG.MMR.LEVE.EP:SG.MMR.LEVE.EP} - Mothers are guaranteed an equivalent position after maternity leave (1=yes; 0=no)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Mothers are guaranteed an equivalent position after maternity leave is whether employers of women returning from maternity leave are legally obligated to provide them with an equivalent position after maternity leave. It takes into account pai{p_end}
-
-{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
-
-
-{synoptline}
-{marker topicid_SG.NOD.CONS}
-{synopt:{bf:{help wbopendata_topicid##SG.NOD.CONS:SG.NOD.CONS} - Nondiscrimination clause mentions gender in the constitution (1=yes; 0=no)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Nondiscrimination clause mentions gender in the constitution is whether there is a nondiscrimination clause in the constitution which mentions gender. For the answer to be “Yes,” the constitution must use either the word discrimination or{p_end}
-
-{synopt:{opt Source Organization}}World Bank: Women, Business and the Law.{p_end}
-
-
-{synoptline}
-{marker topicid_VC.BTL.DETH}
-{synopt:{bf:{help wbopendata_topicid##VC.BTL.DETH:VC.BTL.DETH} - Battle-related deaths (number of people)}}
+{marker topicid_PV.NO.SRC}
+{synopt:{bf:{help wbopendata_topicid##PV.NO.SRC:PV.NO.SRC} - Political Stability and Absence of Violence/Terrorism: Number of Sources}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Battle-related deaths are deaths in battle-related conflicts between warring parties in the conflict dyad (two conflict units that are parties to a conflict). Typically, battle-related deaths occur in warfare involving the armed forces of the{p_end}
+{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.   Number of sources indicates the number of underlying data sourc{p_end}
 
-{synopt:{opt Source Organization}}Uppsala Conflict Data Program, {browse "http://www.pcr.uu.se/research/ucdp/"}.{p_end}
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
 
 
 {synoptline}
-{marker topicid_VC.IDP.NWCV}
-{synopt:{bf:{help wbopendata_topicid##VC.IDP.NWCV:VC.IDP.NWCV} - Internally displaced persons, new displacement associated with conflict and violence (number of cases)}}
+{marker topicid_PV.PER.RNK}
+{synopt:{bf:{help wbopendata_topicid##PV.PER.RNK:PV.PER.RNK} - Political Stability and Absence of Violence/Terrorism: Percentile Rank}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Internally displaced persons are defined according to the 1998 Guiding Principles ({browse "http://www.internal-displacement.org/publications/1998/ocha-guiding-principles-on-internal-displacement"}) as people or groups of people who have been forced or o{p_end}
+{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Percentile rank indicates the country's rank among all countries{p_end}
 
-{synopt:{opt Source Organization}}The Internal Displacement Monitoring Centre ({browse "http://www.internal-displacement.org/"}){p_end}
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
 
 
 {synoptline}
-{marker topicid_VC.IDP.NWDS}
-{synopt:{bf:{help wbopendata_topicid##VC.IDP.NWDS:VC.IDP.NWDS} - Internally displaced persons, new displacement associated with disasters (number of cases)}}
+{marker topicid_PV.PER.RNK.LOWER}
+{synopt:{bf:{help wbopendata_topicid##PV.PER.RNK.LOWER:PV.PER.RNK.LOWER} - Political Stability and Absence of Violence/Terrorism: Percentile Rank, Lower Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Internally displaced persons are defined according to the 1998 Guiding Principles ({browse "http://www.internal-displacement.org/publications/1998/ocha-guiding-principles-on-internal-displacement"}) as people or groups of people who have been forced or o{p_end}
+{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Percentile rank indicates the country's rank among all countries{p_end}
 
-{synopt:{opt Source Organization}}The Internal Displacement Monitoring Centre ({browse "http://www.internal-displacement.org/"}){p_end}
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
 
 
 {synoptline}
-{marker topicid_VC.IDP.TOCV}
-{synopt:{bf:{help wbopendata_topicid##VC.IDP.TOCV:VC.IDP.TOCV} - Internally displaced persons, total displaced by conflict and violence (number of people)}}
+{marker topicid_PV.PER.RNK.UPPER}
+{synopt:{bf:{help wbopendata_topicid##PV.PER.RNK.UPPER:PV.PER.RNK.UPPER} - Political Stability and Absence of Violence/Terrorism: Percentile Rank, Upper Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Internally displaced persons are defined according to the 1998 Guiding Principles ({browse "http://www.internal-displacement.org/publications/1998/ocha-guiding-principles-on-internal-displacement"}) as people or groups of people who have been forced or o{p_end}
+{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Percentile rank indicates the country's rank among all countries{p_end}
 
-{synopt:{opt Source Organization}}The Internal Displacement Monitoring Centre ({browse "http://www.internal-displacement.org/"}){p_end}
-
-
-{synoptline}
-{marker topicid_VC.IDP.TOTL.HE}
-{synopt:{bf:{help wbopendata_topicid##VC.IDP.TOTL.HE:VC.IDP.TOTL.HE} - Internally displaced persons (number, high estimate)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Internally displaced persons are people or groups of people who have been forced or obliged to flee or to leave their homes or places of habitual residence, in particular as a result of armed conflict, or to avoid the effects of armed conflict{p_end}
-
-{synopt:{opt Source Organization}}Internal Displacement Monitoring Centre.{p_end}
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
 
 
 {synoptline}
-{marker topicid_VC.IDP.TOTL.LE}
-{synopt:{bf:{help wbopendata_topicid##VC.IDP.TOTL.LE:VC.IDP.TOTL.LE} - Internally displaced persons (number, low estimate)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Internally displaced persons are people or groups of people who have been forced or obliged to flee or to leave their homes or places of habitual residence, in particular as a result of armed conflict, or to avoid the effects of armed conflict{p_end}
-
-{synopt:{opt Source Organization}}Internal Displacement Monitoring Centre.{p_end}
-
-
-{synoptline}
-{marker topicid_VC.IHR.PSRC.P5}
-{synopt:{bf:{help wbopendata_topicid##VC.IHR.PSRC.P5:VC.IHR.PSRC.P5} - Intentional homicides (per 100,000 people)}}
+{marker topicid_PV.STD.ERR}
+{synopt:{bf:{help wbopendata_topicid##PV.STD.ERR:PV.STD.ERR} - Political Stability and Absence of Violence/Terrorism: Standard Error}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and{p_end}
+{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Standard error indicates the precision of the estimate of govern{p_end}
 
-{synopt:{opt Source Organization}}UN Office on Drugs and Crime's International Homicide Statistics database.{p_end}
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
 
 
 {synoptline}
-{marker topicid_VC.PKP.TOTL.UN}
-{synopt:{bf:{help wbopendata_topicid##VC.PKP.TOTL.UN:VC.PKP.TOTL.UN} - Presence of peace keepers (number of troops, police, and military observers in mandate)}}
+{marker topicid_RL.EST}
+{synopt:{bf:{help wbopendata_topicid##RL.EST:RL.EST} - Rule of Law: Estimate}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Presence of peacebuilders and peacekeepers are active in peacebuilding and peacekeeping. Peacebuilding reduces the risk of lapsing or relapsing into conflict by strengthening national capacities at all levels of for conflict management, and to{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
 
-{synopt:{opt Source Organization}}UN Department of Peacekeeping Operations, {browse "http://www.un.org/en/peacekeeping/"}.{p_end}
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_RL.NO.SRC}
+{synopt:{bf:{help wbopendata_topicid##RL.NO.SRC:RL.NO.SRC} - Rule of Law: Number of Sources}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_RL.PER.RNK}
+{synopt:{bf:{help wbopendata_topicid##RL.PER.RNK:RL.PER.RNK} - Rule of Law: Percentile Rank}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_RL.PER.RNK.LOWER}
+{synopt:{bf:{help wbopendata_topicid##RL.PER.RNK.LOWER:RL.PER.RNK.LOWER} - Rule of Law: Percentile Rank, Lower Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_RL.PER.RNK.UPPER}
+{synopt:{bf:{help wbopendata_topicid##RL.PER.RNK.UPPER:RL.PER.RNK.UPPER} - Rule of Law: Percentile Rank, Upper Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_RL.STD.ERR}
+{synopt:{bf:{help wbopendata_topicid##RL.STD.ERR:RL.STD.ERR} - Rule of Law: Standard Error}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_RQ.EST}
+{synopt:{bf:{help wbopendata_topicid##RQ.EST:RQ.EST} - Regulatory Quality: Estimate}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Estimate gives the country's score on the aggregate indicato{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_RQ.NO.SRC}
+{synopt:{bf:{help wbopendata_topicid##RQ.NO.SRC:RQ.NO.SRC} - Regulatory Quality: Number of Sources}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. umber of sources indicates the number of underlying data sou{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_RQ.PER.RNK}
+{synopt:{bf:{help wbopendata_topicid##RQ.PER.RNK:RQ.PER.RNK} - Regulatory Quality: Percentile Rank}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_RQ.PER.RNK.LOWER}
+{synopt:{bf:{help wbopendata_topicid##RQ.PER.RNK.LOWER:RQ.PER.RNK.LOWER} - Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_RQ.PER.RNK.UPPER}
+{synopt:{bf:{help wbopendata_topicid##RQ.PER.RNK.UPPER:RQ.PER.RNK.UPPER} - Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker topicid_RQ.STD.ERR}
+{synopt:{bf:{help wbopendata_topicid##RQ.STD.ERR:RQ.STD.ERR} - Regulatory Quality: Standard Error}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Standard error indicates the precision of the estimate of go{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 18may2024)}

@@ -2,27 +2,26 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Administrative Region  (as of 28jun2020)}
+{title:Administrative Region  (as of 18may2024)}
 
 {marker EAP}
 {p 20 20 2}(Go up to {it:{help wbopendata##adminregion:Administrative Region }}){p_end}
 {synoptset 33 tabbed}{...}
 {synopthdr:East Asia and Pacific (excluding high income) (EAP)}
 {synoptline}
-{synopt:{opt ASM}}  American Samoa {p_end}
 {synopt:{opt KHM}}  Cambodia {p_end}
 {synopt:{opt CHN}}  China {p_end}
 {synopt:{opt FJI}}  Fiji {p_end}
 {synopt:{opt IDN}}  Indonesia {p_end}
 {synopt:{opt KIR}}  Kiribati {p_end}
-{synopt:{opt PRK}}  Korea, Dem People’s Rep {p_end}
+{synopt:{opt PRK}}  Korea, Dem People's Rep {p_end}
 {synopt:{opt LAO}}  Lao PDR {p_end}
 {synopt:{opt MYS}}  Malaysia {p_end}
 {synopt:{opt MHL}}  Marshall Islands {p_end}
 {synopt:{opt FSM}}  Micronesia, Fed Sts {p_end}
 {synopt:{opt MNG}}  Mongolia {p_end}
 {synopt:{opt MMR}}  Myanmar {p_end}
-{synopt:{opt NRU}}  Nauru {p_end}
+{synopt:{opt PLW}}  Palau {p_end}
 {synopt:{opt PNG}}  Papua New Guinea {p_end}
 {synopt:{opt PHL}}  Philippines {p_end}
 {synopt:{opt WSM}}  Samoa {p_end}
@@ -32,7 +31,7 @@
 {synopt:{opt TON}}  Tonga {p_end}
 {synopt:{opt TUV}}  Tuvalu {p_end}
 {synopt:{opt VUT}}  Vanuatu {p_end}
-{synopt:{opt VNM}}  Vietnam {p_end}
+{synopt:{opt VNM}}  Viet Nam {p_end}
 
 {marker ECA}
 {p 20 20 2}(Go up to {it:{help wbopendata##adminregion:Administrative Region }}){p_end}
@@ -52,11 +51,10 @@
 {synopt:{opt MDA}}  Moldova {p_end}
 {synopt:{opt MNE}}  Montenegro {p_end}
 {synopt:{opt MKD}}  North Macedonia {p_end}
-{synopt:{opt ROU}}  Romania {p_end}
 {synopt:{opt RUS}}  Russian Federation {p_end}
 {synopt:{opt SRB}}  Serbia {p_end}
 {synopt:{opt TJK}}  Tajikistan {p_end}
-{synopt:{opt TUR}}  Turkey {p_end}
+{synopt:{opt TUR}}  Turkiye {p_end}
 {synopt:{opt TKM}}  Turkmenistan {p_end}
 {synopt:{opt UKR}}  Ukraine {p_end}
 {synopt:{opt UZB}}  Uzbekistan {p_end}
@@ -79,7 +77,6 @@
 {synopt:{opt SLV}}  El Salvador {p_end}
 {synopt:{opt GRD}}  Grenada {p_end}
 {synopt:{opt GTM}}  Guatemala {p_end}
-{synopt:{opt GUY}}  Guyana {p_end}
 {synopt:{opt HTI}}  Haiti {p_end}
 {synopt:{opt HND}}  Honduras {p_end}
 {synopt:{opt JAM}}  Jamaica {p_end}
@@ -90,7 +87,6 @@
 {synopt:{opt LCA}}  St Lucia {p_end}
 {synopt:{opt VCT}}  St Vincent and the Grenadines {p_end}
 {synopt:{opt SUR}}  Suriname {p_end}
-{synopt:{opt VEN}}  Venezuela, RB {p_end}
 
 {marker MNA}
 {p 20 20 2}(Go up to {it:{help wbopendata##adminregion:Administrative Region }}){p_end}

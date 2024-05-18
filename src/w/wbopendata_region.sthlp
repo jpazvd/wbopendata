@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Region  (as of 28jun2020)}
+{title:Region  (as of 18may2024)}
 
 {marker EAS}
 {p 20 20 2}(Go up to {it:{help wbopendata##region:Region }}){p_end}
@@ -21,7 +21,7 @@
 {synopt:{opt IDN}}  Indonesia {p_end}
 {synopt:{opt JPN}}  Japan {p_end}
 {synopt:{opt KIR}}  Kiribati {p_end}
-{synopt:{opt PRK}}  Korea, Dem People’s Rep {p_end}
+{synopt:{opt PRK}}  Korea, Dem People's Rep {p_end}
 {synopt:{opt KOR}}  Korea, Rep {p_end}
 {synopt:{opt LAO}}  Lao PDR {p_end}
 {synopt:{opt MAC}}  Macao SAR, China {p_end}
@@ -40,13 +40,12 @@
 {synopt:{opt WSM}}  Samoa {p_end}
 {synopt:{opt SGP}}  Singapore {p_end}
 {synopt:{opt SLB}}  Solomon Islands {p_end}
-{synopt:{opt TWN}}  Taiwan, China {p_end}
 {synopt:{opt THA}}  Thailand {p_end}
 {synopt:{opt TLS}}  Timor-Leste {p_end}
 {synopt:{opt TON}}  Tonga {p_end}
 {synopt:{opt TUV}}  Tuvalu {p_end}
 {synopt:{opt VUT}}  Vanuatu {p_end}
-{synopt:{opt VNM}}  Vietnam {p_end}
+{synopt:{opt VNM}}  Viet Nam {p_end}
 
 {marker ECS}
 {p 20 20 2}(Go up to {it:{help wbopendata##region:Region }}){p_end}
@@ -65,7 +64,7 @@
 {synopt:{opt CHI}}  Channel Islands {p_end}
 {synopt:{opt HRV}}  Croatia {p_end}
 {synopt:{opt CYP}}  Cyprus {p_end}
-{synopt:{opt CZE}}  Czech Republic {p_end}
+{synopt:{opt CZE}}  Czechia {p_end}
 {synopt:{opt DNK}}  Denmark {p_end}
 {synopt:{opt EST}}  Estonia {p_end}
 {synopt:{opt FRO}}  Faroe Islands {p_end}
@@ -106,7 +105,7 @@
 {synopt:{opt SWE}}  Sweden {p_end}
 {synopt:{opt CHE}}  Switzerland {p_end}
 {synopt:{opt TJK}}  Tajikistan {p_end}
-{synopt:{opt TUR}}  Turkey {p_end}
+{synopt:{opt TUR}}  Turkiye {p_end}
 {synopt:{opt TKM}}  Turkmenistan {p_end}
 {synopt:{opt UKR}}  Ukraine {p_end}
 {synopt:{opt GBR}}  United Kingdom {p_end}
@@ -193,10 +192,10 @@
 {synopthdr:Aggregates (NA)}
 {synoptline}
 {synopt:{opt AFR}}  Africa {p_end}
-{synopt:{opt ANR}}  Andean Region {p_end}
+{synopt:{opt AFE}}  Africa Eastern and Southern {p_end}
+{synopt:{opt AFW}}  Africa Western and Central {p_end}
 {synopt:{opt ARB}}  Arab World {p_end}
 {synopt:{opt CSS}}  Caribbean small states {p_end}
-{synopt:{opt MCA}}  Central America {p_end}
 {synopt:{opt CEB}}  Central Europe and the Baltics {p_end}
 {synopt:{opt EAR}}  Early-demographic dividend {p_end}
 {synopt:{opt EAS}}  East Asia and Pacific {p_end}
@@ -221,19 +220,15 @@
 {synopt:{opt IBB}}  IBRD, including blend {p_end}
 {synopt:{opt IBT}}  IDA and IBRD total {p_end}
 {synopt:{opt IDB}}  IDA blend {p_end}
-{synopt:{opt DFS}}  IDA countries classified as Fragile Situations {p_end}
 {synopt:{opt FXS}}  IDA countries classified as fragile situations, excluding Sub-Saharan Africa {p_end}
 {synopt:{opt DSF}}  IDA countries in Sub-Saharan Africa classified as fragile situations {p_end}
 {synopt:{opt DNS}}  IDA countries in Sub-Saharan Africa not classified as fragile situations {p_end}
-{synopt:{opt DNF}}  IDA countries not classified as Fragile Situations {p_end}
 {synopt:{opt NXS}}  IDA countries not classified as fragile situations, excluding Sub-Saharan Africa {p_end}
 {synopt:{opt IDX}}  IDA only {p_end}
 {synopt:{opt IDA}}  IDA total {p_end}
-{synopt:{opt DXS}}  IDA total, excluding Sub-Saharan Africa {p_end}
 {synopt:{opt LTE}}  Late-demographic dividend {p_end}
 {synopt:{opt LCN}}  Latin America and Caribbean {p_end}
 {synopt:{opt LAC}}  Latin America and Caribbean (excluding high income) {p_end}
-{synopt:{opt LCR}}  Latin America and the Caribbean {p_end}
 {synopt:{opt BLA}}  Latin America and the Caribbean (IBRD-only countries) {p_end}
 {synopt:{opt TLA}}  Latin America and the Caribbean (IDA and IBRD countries) {p_end}
 {synopt:{opt DLA}}  Latin America and the Caribbean (IDA-eligible countries) {p_end}
@@ -251,7 +246,6 @@
 {synopt:{opt MNA}}  Middle East and North Africa (excluding high income) {p_end}
 {synopt:{opt MIC}}  Middle income {p_end}
 {synopt:{opt NRS}}  Non-resource rich Sub-Saharan Africa countries {p_end}
-{synopt:{opt NLS}}  Non-resource rich Sub-Saharan Africa countries, of which landlocked {p_end}
 {synopt:{opt NAF}}  North Africa {p_end}
 {synopt:{opt NAC}}  North America {p_end}
 {synopt:{opt INX}}  Not classified {p_end}
@@ -261,13 +255,11 @@
 {synopt:{opt PST}}  Post-demographic dividend {p_end}
 {synopt:{opt PRE}}  Pre-demographic dividend {p_end}
 {synopt:{opt RRS}}  Resource rich Sub-Saharan Africa countries {p_end}
-{synopt:{opt RSO}}  Resource rich Sub-Saharan Africa countries, of which oil exporters {p_end}
 {synopt:{opt SST}}  Small states {p_end}
 {synopt:{opt SAS}}  South Asia {p_end}
 {synopt:{opt TSA}}  South Asia (IDA and IBRD) {p_end}
 {synopt:{opt DSA}}  South Asia (IDA-eligible countries) {p_end}
 {synopt:{opt CSA}}  South Asia (IFC classification) {p_end}
-{synopt:{opt SCE}}  Southern Cone {p_end}
 {synopt:{opt SSF}}  Sub-Saharan Africa {p_end}
 {synopt:{opt BSS}}  Sub-Saharan Africa (IBRD-only countries) {p_end}
 {synopt:{opt TSS}}  Sub-Saharan Africa (IDA and IBRD countries) {p_end}

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid_indicators19##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid_indicators20##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid_indicators21##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid_indicatorstopicID##topicid_topicID:}{p_end}
 
 
 {marker topicid_19}
@@ -87,7 +88,7 @@
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the total rural land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -100,7 +101,7 @@
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the percentage of total land where the rural land elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -113,7 +114,7 @@
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the total urban land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -126,7 +127,7 @@
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the percentage of total land where the urban land elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -139,7 +140,7 @@
 
 {synopt:{opt Source Notes}}Land area below 5m is the percentage of total land where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -230,7 +231,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity is the percentage of population with access to electricity. Electrification data are collected from industry, national surveys and international sources.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from the SE4ALL Global Tracking Framework led jointly by the World Bank, International Energy Agency, and the Energy Sector Management Assistance Program.{p_end}
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
 
 
 {synoptline}
@@ -243,7 +244,7 @@
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Coal refers to all coal and brown coal, both primary (including hard coal and lignite-brown coal) and derived fuels (including patent fuel, coke oven coke, gas coke, coke{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -256,7 +257,7 @@
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Hydropower refers to electricity produced by hydroelectric power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -269,7 +270,7 @@
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Gas refers to natural gas but excludes natural gas liquids.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -282,7 +283,7 @@
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Nuclear power refers to electricity produced by nuclear power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -295,7 +296,7 @@
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -308,7 +309,7 @@
 
 {synopt:{opt Source Notes}}Renewable electricity is the share of electrity generated by renewable power plants in total electricity generated by all types of plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2018 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2018 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -321,7 +322,7 @@
 
 {synopt:{opt Source Notes}}Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -334,7 +335,7 @@
 
 {synopt:{opt Source Notes}}Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -347,7 +348,7 @@
 
 {synopt:{opt Source Notes}}Renewable energy consumption is the share of renewables energy in total final energy consumption.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from the SE4ALL Global Tracking Framework led jointly by the World Bank, International Energy Agency, and the Energy Sector Management Assistance Program.{p_end}
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
 
 
 {synoptline}
@@ -360,7 +361,7 @@
 
 {synopt:{opt Source Notes}}Energy use per PPP GDP is the kilogram of oil equivalent of energy use per constant PPP GDP. Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stoc{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -373,7 +374,7 @@
 
 {synopt:{opt Source Notes}}Electric power consumption measures the production of power plants and combined heat and power plants less transmission, distribution, and transformation losses and own use by heat and power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -386,7 +387,7 @@
 
 {synopt:{opt Source Notes}}Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international tr{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -430,7 +431,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.KD.GD}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD} - CO2 emissions (kg per 2010 US$ of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD} - CO2 emissions (kg per 2015 US$ of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -438,7 +439,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions. See NY.GDP.MKTP.KD for the denominator's source.{p_end}
 
 
 {synoptline}
@@ -451,7 +452,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -490,7 +491,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+{synopt:{opt Source Organization}}Emissions data are sourced from Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -503,7 +504,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions. See NY.GDP.MKTP.PP.CD for the denominator's source.{p_end}
 
 
 {synoptline}
@@ -516,7 +517,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions. See NY.GDP.MKTP.PP.KD for the denominator's source.{p_end}
 
 
 {synoptline}
@@ -579,9 +580,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Total greenhouse gas emissions in kt of CO2 equivalent are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and Savannah burning) but including other biomass burning (such as forest fires, post-b{p_end}
+{synopt:{opt Source Notes}}Total greenhouse gas emissions in kt of CO2 equivalent are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and savanna burning) but including other biomass burning (such as forest fires, post-bu{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR), EDGARv4.2 FT2012: {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -592,7 +593,7 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Total greenhouse gas emissions are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and Savannah burning) but including other biomass burning (such as forest fires, post-burn decay, peat fires an{p_end}
+{synopt:{opt Source Notes}}Total greenhouse gas emissions are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and savanna burning) but including other biomass burning (such as forest fires, post-burn decay, peat fires and{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
 
@@ -620,7 +621,7 @@
 
 {synopt:{opt Source Notes}}Methane emissions are those stemming from human activities such as agriculture and from industrial methane production.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -646,7 +647,7 @@
 
 {synopt:{opt Source Notes}}Nitrous oxide emissions are emissions from agricultural biomass burning, industrial activities, and livestock management.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -737,7 +738,7 @@
 
 {synopt:{opt Source Notes}}Rural population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -750,7 +751,7 @@
 
 {synopt:{opt Source Notes}}Urban population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -763,7 +764,7 @@
 
 {synopt:{opt Source Notes}}Population below 5m is the percentage of the total population living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -846,15 +847,15 @@
 
 {synoptline}
 {marker topicid_IC.BUS.EASE.XQ}
-{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Ease of doing business index (1=most business-friendly regulations)}}
+{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Ease of doing business rank (1=most business-friendly regulations)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. A high ranking (a low numerical rank) means that the regulatory environment is conducive to business operation. The index averages the country's percentile{p_end}
+{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. The ranking of economies is determined by sorting the aggregate ease of doing business scores. A high ranking (a low numerical rank) means that the regulato{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -891,7 +892,7 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Agriculture corresponds to ISIC divisions 1-5 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs and subtracting intermed{p_end}
+{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC divisions 1-3 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs a{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -906,7 +907,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary and secondary education is the ratio of girls to boys enrolled at primary and secondary levels in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -919,7 +920,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -932,111 +933,7 @@
 
 {synopt:{opt Source Notes}}Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SH.H2O.SAFE.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.RU.ZS:SH.H2O.SAFE.RU.ZS} - Improved water source, rural (% of rural population with access)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}19 Climate Change{p_end}
-
-{synopt:{opt Source Notes}}Access to an improved water source, rural, refers to the percentage of the rural population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.H2O.SAFE.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.UR.ZS:SH.H2O.SAFE.UR.ZS} - Improved water source, urban (% of urban population with access)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}19 Climate Change{p_end}
-
-{synopt:{opt Source Notes}}Access to an improved water source, urban, refers to the percentage of the urban population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.H2O.SAFE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.ZS:SH.H2O.SAFE.ZS} - Improved water source (% of population with access)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}19 Climate Change{p_end}
-
-{synopt:{opt Source Notes}}Access to an improved water source refers to the percentage of the population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the use{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.MED.CMHW.P3}
-{synopt:{bf:{help wbopendata_topicid##SH.MED.CMHW.P3:SH.MED.CMHW.P3} - Community health workers (per 1,000 people)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}19 Climate Change{p_end}
-
-{synopt:{opt Source Notes}}Community health workers include various types of community health aides, many with country-specific occupational titles such as community health officers, community health-education workers, family health workers, lady health visitors and hea{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization's Global Health Workforce Statistics, OECD, supplemented by country data.{p_end}
-
-
-{synoptline}
-{marker topicid_SH.MLR.INCD}
-{synopt:{bf:{help wbopendata_topicid##SH.MLR.INCD:SH.MLR.INCD} - Notified cases of malaria (per 100,000 people)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}19 Climate Change{p_end}
-
-{synopt:{opt Source Notes}}Malaria incidence is expressed as the number of new cases of malaria per 100,000 people each year. The number of cases reported is adjusted to take into account incompleteness in reporting systems, patients seeking treatment in the private sec{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization.{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.ACSN}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.ACSN:SH.STA.ACSN} - Improved sanitation facilities (% of population with access)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}19 Climate Change{p_end}
-
-{synopt:{opt Source Notes}}Access to improved sanitation facilities refers to the percentage of the population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.MALN.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.ZS:SH.STA.MALN.ZS} - Prevalence of underweight, weight for age (% of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}19 Climate Change{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of underweight children is the percentage of children under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO'{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
-
-
-{synoptline}
-{marker topicid_SI.POV.DDAY}
-{synopt:{bf:{help wbopendata_topicid##SI.POV.DDAY:SI.POV.DDAY} - Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}19 Climate Change{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day is the percentage of the population living on less than $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -1049,7 +946,7 @@
 
 {synopt:{opt Source Notes}}Annual population growth rate for year t is the exponential rate of growth of midyear population from year t-1 to t, expressed as a percentage . Population is based on the de facto definition of population, which counts all residents regardles{p_end}
 
-{synopt:{opt Source Organization}}Derived from total population. Population source: (1) United Nations Population Division. World Population Prospects: 2019 Revision, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demogra{p_end}
+{synopt:{opt Source Organization}}Derived from total population. Population source: (1) United Nations Population Division. World Population Prospects: 2022 Revision, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demogra{p_end}
 
 
 {synoptline}
@@ -1062,7 +959,7 @@
 
 {synopt:{opt Source Notes}}Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
@@ -1095,7 +992,7 @@
 {marker topicid_SP.URB.TOTL.IN.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL.IN.ZS:SP.URB.TOTL.IN.ZS} - Urban population (% of total population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -1105,4 +1002,4 @@
 
 
 
-{right:(as of 28jun2020)}
+{right:(as of 18may2024)}

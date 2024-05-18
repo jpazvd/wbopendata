@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid_indicators19##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid_indicators20##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid_indicators21##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid_indicatorstopicID##topicid_topicID:}{p_end}
 
 
 {marker topicid_06}
@@ -74,7 +75,7 @@
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the total rural land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -87,7 +88,7 @@
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the percentage of total land where the rural land elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -100,7 +101,7 @@
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the total urban land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -113,7 +114,7 @@
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the percentage of total land where the urban land elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -126,7 +127,7 @@
 
 {synopt:{opt Source Notes}}Land area below 5m is the percentage of total land where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -234,6 +235,32 @@
 
 
 {synoptline}
+{marker topicid_EG.CFT.ACCS.RU.ZS}
+{synopt:{bf:{help wbopendata_topicid##EG.CFT.ACCS.RU.ZS:EG.CFT.ACCS.RU.ZS} - Access to clean fuels and technologies for cooking, rural (% of rural population)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Access to clean fuels and technologies for cooking, rural is the proportion of rural population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels.{p_end}
+
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
+
+
+{synoptline}
+{marker topicid_EG.CFT.ACCS.UR.ZS}
+{synopt:{bf:{help wbopendata_topicid##EG.CFT.ACCS.UR.ZS:EG.CFT.ACCS.UR.ZS} - Access to clean fuels and technologies for cooking, urban (% of urban population)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Access to clean fuels and technologies for cooking, urban is the proportion of urban population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels.{p_end}
+
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
+
+
+{synoptline}
 {marker topicid_EG.CFT.ACCS.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.CFT.ACCS.ZS:EG.CFT.ACCS.ZS} - Access to clean fuels and technologies for cooking (% of population)}}
 
@@ -243,12 +270,12 @@
 
 {synopt:{opt Source Notes}}Access to clean fuels and technologies for cooking is the proportion of total population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from WHO Global Household Energy database.{p_end}
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
 
 
 {synoptline}
 {marker topicid_EG.EGY.PRIM.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD} - Energy intensity level of primary energy (MJ/$2011 PPP GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD} - Energy intensity level of primary energy (MJ/$2017 PPP GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -256,7 +283,7 @@
 
 {synopt:{opt Source Notes}}Energy intensity level of primary energy is the ratio between energy supply and gross domestic product measured at purchasing power parity. Energy intensity is an indication of how much energy is used to produce one unit of economic output. Lo{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from the SE4ALL Global Tracking Framework led jointly by the World Bank, International Energy Agency, and the Energy Sector Management Assistance Program.{p_end}
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
 
 
 {synoptline}
@@ -269,7 +296,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity is the percentage of population with access to electricity. Electrification data are collected from industry, national surveys and international sources.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from the SE4ALL Global Tracking Framework led jointly by the World Bank, International Energy Agency, and the Energy Sector Management Assistance Program.{p_end}
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
 
 
 {synoptline}
@@ -282,7 +309,7 @@
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products. Gas refers to natural gas but excludes natural gas liquids. Coal refers to all coal and brown coal, both primary (includin{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -295,7 +322,7 @@
 
 {synopt:{opt Source Notes}}Renewable electricity is the share of electrity generated by renewable power plants in total electricity generated by all types of plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2018 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2018 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -308,7 +335,7 @@
 
 {synopt:{opt Source Notes}}Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -321,7 +348,7 @@
 
 {synopt:{opt Source Notes}}Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -334,7 +361,7 @@
 
 {synopt:{opt Source Notes}}Renewable energy consumption is the share of renewables energy in total final energy consumption.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from the SE4ALL Global Tracking Framework led jointly by the World Bank, International Energy Agency, and the Energy Sector Management Assistance Program.{p_end}
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
 
 
 {synoptline}
@@ -391,7 +418,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.KD.GD}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD} - CO2 emissions (kg per 2010 US$ of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD} - CO2 emissions (kg per 2015 US$ of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -399,7 +426,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions. See NY.GDP.MKTP.KD for the denominator's source.{p_end}
 
 
 {synoptline}
@@ -412,7 +439,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -451,7 +478,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+{synopt:{opt Source Organization}}Emissions data are sourced from Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -464,7 +491,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions. See NY.GDP.MKTP.PP.CD for the denominator's source.{p_end}
 
 
 {synoptline}
@@ -477,7 +504,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions. See NY.GDP.MKTP.PP.KD for the denominator's source.{p_end}
 
 
 {synoptline}
@@ -540,9 +567,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Total greenhouse gas emissions in kt of CO2 equivalent are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and Savannah burning) but including other biomass burning (such as forest fires, post-b{p_end}
+{synopt:{opt Source Notes}}Total greenhouse gas emissions in kt of CO2 equivalent are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and savanna burning) but including other biomass burning (such as forest fires, post-bu{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR), EDGARv4.2 FT2012: {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -553,7 +580,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Total greenhouse gas emissions are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and Savannah burning) but including other biomass burning (such as forest fires, post-burn decay, peat fires an{p_end}
+{synopt:{opt Source Notes}}Total greenhouse gas emissions are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and savanna burning) but including other biomass burning (such as forest fires, post-burn decay, peat fires and{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
 
@@ -579,9 +606,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savannah burning.{p_end}
+{synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -592,7 +619,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savannah burning.{p_end}
+{synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
 
@@ -607,7 +634,7 @@
 
 {synopt:{opt Source Notes}}Methane emissions from energy processes are emissions from the production, handling, transmission, and combustion of fossil fuels and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -646,7 +673,7 @@
 
 {synopt:{opt Source Notes}}Methane emissions are those stemming from human activities such as agriculture and from industrial methane production.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -670,9 +697,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savannah burning.{p_end}
+{synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -683,7 +710,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savannah burning.{p_end}
+{synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
 
@@ -698,7 +725,7 @@
 
 {synopt:{opt Source Notes}}Nitrous oxide emissions from energy processes are emissions produced by the combustion of fossil fuels and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -737,7 +764,7 @@
 
 {synopt:{opt Source Notes}}Nitrous oxide emissions are emissions from agricultural biomass burning, industrial activities, and livestock management.{p_end}
 
-{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -775,6 +802,45 @@
 {synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of{p_end}
+
+{synopt:{opt Source Organization}}Global Burden of Disease Collaborative Network. 2021. Global Burden of Disease Study 2019 (GBD 2019) Air Pollution Exposure Estimates 1990-2019. Seattle, United States of America: Institute for Health Metrics and Evaluation (IHME). {browse "https://doi"}{p_end}
+
+
+{synoptline}
+{marker topicid_EN.ATM.PM25.MC.T1.ZS}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.PM25.MC.T1.ZS:EN.ATM.PM25.MC.T1.ZS} - PM2.5 pollution, population exposed to levels exceeding WHO Interim Target-1 value (% of total)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the World Health Organization (WHO) Interim Target 1 (IT-1) is defined as the portion of a country’s population living in places where mean annual concentrations of{p_end}
+
+{synopt:{opt Source Organization}}Brauer, M. et al. 2017, for the Global Burden of Disease Study 2017.{p_end}
+
+
+{synoptline}
+{marker topicid_EN.ATM.PM25.MC.T2.ZS}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.PM25.MC.T2.ZS:EN.ATM.PM25.MC.T2.ZS} - PM2.5 pollution, population exposed to levels exceeding WHO Interim Target-2 value (% of total)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the World Health Organization (WHO) Interim Target 2 (IT-2) is defined as the portion of a country’s population living in places where mean annual concentrations of{p_end}
+
+{synopt:{opt Source Organization}}Brauer, M. et al. 2017, for the Global Burden of Disease Study 2017.{p_end}
+
+
+{synoptline}
+{marker topicid_EN.ATM.PM25.MC.T3.ZS}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.PM25.MC.T3.ZS:EN.ATM.PM25.MC.T3.ZS} - PM2.5 pollution, population exposed to levels exceeding WHO Interim Target-3 value (% of total)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the World Health Organization (WHO) Interim Target 3 (IT-3) is defined as the portion of a country’s population living in places where mean annual concentrations of{p_end}
 
 {synopt:{opt Source Organization}}Brauer, M. et al. 2017, for the Global Burden of Disease Study 2017.{p_end}
 
@@ -867,7 +933,7 @@
 
 {synopt:{opt Source Notes}}CO2 emissions from residential buildings and commercial and public services contains all emissions from fuel combustion in households. This corresponds to IPCC Source/Sink Category 1 A 4 b. Commercial and public services includes emissions fro{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -880,7 +946,7 @@
 
 {synopt:{opt Source Notes}}CO2 emissions from electricity and heat production is the sum of three IEA categories of CO2 emissions: (1) Main Activity Producer Electricity and Heat which contains the sum of emissions from main activity producer electricity generation, com{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -893,7 +959,7 @@
 
 {synopt:{opt Source Notes}}CO2 emissions from manufacturing industries and construction contains the emissions from combustion of fuels in industry. The IPCC Source/Sink Category 1 A 2 includes these emissions. However, in the 1996 IPCC Guidelines, the IPCC category als{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -906,7 +972,7 @@
 
 {synopt:{opt Source Notes}}CO2 emissions from other sectors, less residential buildings and commercial and public services, contains the emissions from commercial/institutional activities, residential, agriculture/forestry, fishing and other emissions not specified else{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -919,7 +985,7 @@
 
 {synopt:{opt Source Notes}}CO2 emissions from transport contains emissions from the combustion of fuel for all transport activity, regardless of the sector, except for international marine bunkers and international aviation. This includes domestic aviation, domestic nav{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -971,7 +1037,7 @@
 
 {synopt:{opt Source Notes}}Rural population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -984,7 +1050,7 @@
 
 {synopt:{opt Source Notes}}Urban population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -997,7 +1063,7 @@
 
 {synopt:{opt Source Notes}}Population below 5m is the percentage of the total population living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
 
 
 {synoptline}
@@ -1010,7 +1076,7 @@
 
 {synopt:{opt Source Notes}}Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improve{p_end}
 
-{synopt:{opt Source Organization}}UN HABITAT, retrieved from the United Nation's Millennium Development Goals database. Data are available at : {browse "http://mdgs.un.org/"}{p_end}
+{synopt:{opt Source Organization}}United Nations Human Settlements Programme (UN-HABITAT){p_end}
 
 
 {synoptline}
@@ -1054,7 +1120,7 @@
 
 {synoptline}
 {marker topicid_ER.GDP.FWTL.M3.KD}
-{synopt:{bf:{help wbopendata_topicid##ER.GDP.FWTL.M3.KD:ER.GDP.FWTL.M3.KD} - Water productivity, total (constant 2010 US$ GDP per cubic meter of total freshwater withdrawal)}}
+{synopt:{bf:{help wbopendata_topicid##ER.GDP.FWTL.M3.KD:ER.GDP.FWTL.M3.KD} - Water productivity, total (constant 2015 US$ GDP per cubic meter of total freshwater withdrawal)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1100,6 +1166,19 @@
 {synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
+
+{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+
+
+{synoptline}
+{marker topicid_ER.H2O.FWST.ZS}
+{synopt:{bf:{help wbopendata_topicid##ER.H2O.FWST.ZS:ER.H2O.FWST.ZS} - Level of water stress: freshwater withdrawal as a proportion of available freshwater resources}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}The level of water stress: freshwater withdrawal as a proportion of available freshwater resources is the ratio between total freshwater withdrawn by all major sectors and total renewable freshwater resources, after taking into account environ{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
 
@@ -1205,7 +1284,7 @@
 
 {synopt:{opt Source Notes}}Education expenditure refers to the current operating expenditures in education, including wages and salaries and excluding capital investments in buildings and equipment.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO; data are extrapolated to the most recent year available{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using data from the United Nations Statistics Division's Statistical Yearbook, and the UNESCO Institute for Statistics online database.{p_end}
 
 
 {synoptline}
@@ -1218,7 +1297,7 @@
 
 {synopt:{opt Source Notes}}Education expenditure refers to the current operating expenditures in education, including wages and salaries and excluding capital investments in buildings and equipment.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO; data are extrapolated to the most recent year available{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using data from the United Nations Statistics Division's Statistical Yearbook, and the UNESCO Institute for Statistics online database.{p_end}
 
 
 {synoptline}
@@ -1229,9 +1308,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$30 per ton of CO2 (the unit damage in 2014 US dollars for CO2 emitted in 2015) times the number of tons of CO2 emitted.{p_end}
+{synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$40 per ton of CO2 (the unit damage in 2017 US dollars for CO2 emitted in 2020) times the number of tons of CO2 emitted.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1242,9 +1321,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$30 per ton of CO2 (the unit damage in 2014 US dollars for CO2 emitted in 2015) times the number of tons of CO2 emitted.{p_end}
+{synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$40 per ton of CO2 (the unit damage in 2017 US dollars for CO2 emitted in 2020) times the number of tons of CO2 emitted.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1257,7 +1336,7 @@
 
 {synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -1268,9 +1347,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth. If growth exceeds harvest, this figure is zero.{p_end}
+{synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -1283,7 +1362,7 @@
 
 {synopt:{opt Source Notes}}Consumption of fixed capital represents the replacement value of capital used up in the process of production.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using data from the United Nations Statistics Division's National Accounts Statistics.{p_end}
 
 
 {synoptline}
@@ -1296,7 +1375,7 @@
 
 {synopt:{opt Source Notes}}Consumption of fixed capital represents the replacement value of capital used up in the process of production.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using data from the United Nations Statistics Division's National Accounts Statistics.{p_end}
 
 
 {synoptline}
@@ -1307,9 +1386,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime. It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
+{synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -1320,9 +1399,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime. It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
+{synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -1333,9 +1412,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime. It covers coal, crude oil, and natural gas.{p_end}
+{synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -1346,9 +1425,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime. It covers coal, crude oil, and natural gas.{p_end}
+{synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -1361,7 +1440,7 @@
 
 {synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}Data on health impacts from exposure to ambient PM2.5 pollution and household air pollution are from the Global Burden of Disease 2013 study. Data are provided by the Institute for Health Metrics and Evaluation at the University of Washington.{p_end}
 
 
 {synoptline}
@@ -1374,7 +1453,7 @@
 
 {synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}Data on health impacts from exposure to ambient PM2.5 pollution and household air pollution are from the Global Burden of Disease 2013 study. Data are provided by the Institute for Health Metrics and Evaluation at the University of Washington.{p_end}
 
 
 {synoptline}
@@ -1400,7 +1479,7 @@
 
 {synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -1413,7 +1492,7 @@
 
 {synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -1426,7 +1505,7 @@
 
 {synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -1439,7 +1518,7 @@
 
 {synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -1452,7 +1531,7 @@
 
 {synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide. This series excludes particulate emissions damage.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -1465,7 +1544,7 @@
 
 {synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide. This series excludes particulate emissions damage.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
 
 
 {synoptline}
@@ -1478,7 +1557,7 @@
 
 {synopt:{opt Source Notes}}Coal rents are the difference between the value of both hard and soft coal production at world prices and their total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1489,9 +1568,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Forest rents are roundwood harvest times the product of average prices and a region-specific rental rate.{p_end}
+{synopt:{opt Source Notes}}Forest rents are roundwood harvest times the product of regional prices and a regional rental rate.{p_end}
 
-{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1504,7 +1583,7 @@
 
 {synopt:{opt Source Notes}}Mineral rents are the difference between the value of production for a stock of minerals at world prices and their total costs of production. Minerals included in the calculation are tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite{p_end}
 
-{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1515,9 +1594,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Natural gas rents are the difference between the value of natural gas production at world prices and total costs of production.{p_end}
+{synopt:{opt Source Notes}}Natural gas rents are the difference between the value of natural gas production at regional prices and total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1528,9 +1607,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Oil rents are the difference between the value of crude oil production at world prices and total costs of production.{p_end}
+{synopt:{opt Source Notes}}Oil rents are the difference between the value of crude oil production at regional prices and total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
 {synoptline}
@@ -1543,307 +1622,8 @@
 
 {synopt:{opt Source Notes}}Total natural resources rents are the sum of oil rents, natural gas rents, coal rents (hard and soft), mineral rents, and forest rents.{p_end}
 
-{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
 
 
-{synoptline}
-{marker topicid_SH.H2O.BASW.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.RU.ZS:SH.H2O.BASW.RU.ZS} - People using at least basic drinking water services, rural (% of rural population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.H2O.BASW.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.UR.ZS:SH.H2O.BASW.UR.ZS} - People using at least basic drinking water services, urban (% of urban population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.H2O.BASW.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.ZS:SH.H2O.BASW.ZS} - People using at least basic drinking water services (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.H2O.SMDW.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.RU.ZS:SH.H2O.SMDW.RU.ZS} - People using safely managed drinking water services, rural (% of rural population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.H2O.SMDW.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.UR.ZS:SH.H2O.SMDW.UR.ZS} - People using safely managed drinking water services, urban (% of urban population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.H2O.SMDW.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.ZS:SH.H2O.SMDW.ZS} - People using safely managed drinking water services (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.AIRP.P5}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.AIRP.P5:SH.STA.AIRP.P5} - Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following dise{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.BASS.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.RU.ZS:SH.STA.BASS.RU.ZS} - People using at least basic sanitation services, rural (% of rural population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.BASS.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.UR.ZS:SH.STA.BASS.UR.ZS} - People using at least basic sanitation services, urban (% of urban population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.BASS.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.ZS:SH.STA.BASS.ZS} - People using at least basic sanitation services (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.HYGN.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.RU.ZS:SH.STA.HYGN.RU.ZS} - People with basic handwashing facilities including soap and water, rural (% of rural population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.HYGN.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.UR.ZS:SH.STA.HYGN.UR.ZS} - People with basic handwashing facilities including soap and water, urban (% of urban population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.HYGN.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.ZS:SH.STA.HYGN.ZS} - People with basic handwashing facilities including soap and water (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.ODFC.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.RU.ZS:SH.STA.ODFC.RU.ZS} - People practicing open defecation, rural (% of rural population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}People practicing open defecation refers to the percentage of the population defecating in the open, such as in fields, forest, bushes, open bodies of water, on beaches, in other open spaces or disposed of with solid waste.{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.ODFC.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.UR.ZS:SH.STA.ODFC.UR.ZS} - People practicing open defecation, urban (% of urban population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}People practicing open defecation refers to the percentage of the population defecating in the open, such as in fields, forest, bushes, open bodies of water, on beaches, in other open spaces or disposed of with solid waste.{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.ODFC.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.ZS:SH.STA.ODFC.ZS} - People practicing open defecation (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}People practicing open defecation refers to the percentage of the population defecating in the open, such as in fields, forest, bushes, open bodies of water, on beaches, in other open spaces or disposed of with solid waste.{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.POIS.P5}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5:SH.STA.POIS.P5} - Mortality rate attributed to unintentional poisoning (per 100,000 population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.POIS.P5.FE}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5.FE:SH.STA.POIS.P5.FE} - Mortality rate attributed to unintentional poisoning, female (per 100,000 female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of female deaths from unintentional poisonings in a year per 100,000 female population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, ca{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.POIS.P5.MA}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5.MA:SH.STA.POIS.P5.MA} - Mortality rate attributed to unintentional poisoning, male (per 100,000 male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of male deaths from unintentional poisonings in a year per 100,000 male population. Unintentional poisoning can{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.SMSS.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.RU.ZS:SH.STA.SMSS.RU.ZS} - People using safely managed sanitation services, rural (% of rural population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.SMSS.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.UR.ZS:SH.STA.SMSS.UR.ZS} - People using safely managed sanitation services, urban (% of urban population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.SMSS.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.ZS:SH.STA.SMSS.ZS} - People using safely managed sanitation services (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.WASH.P5}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.WASH.P5:SH.STA.WASH.P5} - Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (per 100,000 population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene is deaths attributable to unsafe water, sanitation and hygiene focusing on inadequate WASH services per 100,000 population. Death rates are calculated by dividing{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-
-{right:(as of 28jun2020)}
+{right:(as of 18may2024)}
