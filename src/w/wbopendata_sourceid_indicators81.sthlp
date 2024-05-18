@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -12,8 +12,6 @@
 {synoptline}
 {synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
 {synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
-{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
-{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -25,7 +23,6 @@
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -34,15 +31,12 @@
 {synopt:{opt 33}}  {help wbopendata_sourceid_indicators33##sourceid_33:G20 Financial Inclusion Indicators}{p_end}
 {synopt:{opt 34}}  {help wbopendata_sourceid_indicators34##sourceid_34:Global Partnership for Education}{p_end}
 {synopt:{opt 35}}  {help wbopendata_sourceid_indicators35##sourceid_35:Sustainable Energy for All}{p_end}
-{synopt:{opt 36}}  {help wbopendata_sourceid_indicators36##sourceid_36:Statistical Capacity Indicators}{p_end}
 {synopt:{opt 37}}  {help wbopendata_sourceid_indicators37##sourceid_37:LAC Equity Lab}{p_end}
-{synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 40}}  {help wbopendata_sourceid_indicators40##sourceid_40:Population estimates and projections}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 43}}  {help wbopendata_sourceid_indicators43##sourceid_43:Adjusted Net Savings}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -53,16 +47,17 @@
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
 {synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
+{synopt:{opt 68}}  {help wbopendata_sourceid_indicators68##sourceid_68:PEFA 2016}{p_end}
 {synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 {synopt:{opt 78}}  {help wbopendata_sourceid_indicators78##sourceid_78:ICP 2017}{p_end}
+{synopt:{opt 79}}  {help wbopendata_sourceid_indicators79##sourceid_79:PEFA_GRPFM}{p_end}
 {synopt:{opt 80}}  {help wbopendata_sourceid_indicators80##sourceid_80:Gender Disaggregated Labor Database (GDLD)}{p_end}
 {synopt:{opt 81}}  {help wbopendata_sourceid_indicators81##sourceid_81:International Debt Statistics: DSSI}{p_end}
 {synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
-{synopt:{opt 83}}  {help wbopendata_sourceid_indicators83##sourceid_83:Statistical Performance Indicators (SPI)}{p_end}
 {synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
 {synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
 {synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
@@ -120,7 +115,7 @@
 
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Primary income on foreign direct investment covers payments of direct investment income (debit side), which consist of income on equity (dividends, branch profits, and reinvested earnings) and income on the intercompany debt (interest). Data a{p_end}
 
@@ -147,9 +142,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with bilateral creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -224,9 +219,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with bilateral creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -301,9 +296,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank  long-term debt are aggregated. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -418,7 +413,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 25 percent or more. Principal repay{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 35 percent or more. Principal repay{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -431,7 +426,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 25 percent or more. The grant element of a loan is th{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 35 percent or more. The grant element of a loan is th{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -443,9 +438,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on be{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -520,9 +515,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on be{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -597,9 +592,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt from official creditors includes loans from international organizations (multilateral loans) and loans from governments (bilateral loans). Loans from international organization include loans and credits from the World Bank, r{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -674,9 +669,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt in form of bonds. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and holds the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -751,9 +746,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with commercial banks. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -854,9 +849,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank other private credits from manufacturers, exporters, and other suppliers of goods. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary autho{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -944,9 +939,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt from private creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and hol{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1345,9 +1340,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with bilateral creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1422,9 +1417,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with bilateral creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1499,9 +1494,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank long-term debt are aggregated. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and h{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1614,7 +1609,7 @@
 
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
 {synopt:{opt Source Notes}}IDA grants are net disbursements of grants from the International Development Association (IDA). Data are in current U.S. dollars. Regional allocations are included in aggregate data.{p_end}
 
@@ -1629,7 +1624,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 25 percent or more. Disbursements a{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 35 percent or more. Disbursements a{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -1642,7 +1637,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 25 percent or more. The grant element of a loan is th{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 35 percent or more. The grant element of a loan is th{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -1654,9 +1649,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on be{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1731,9 +1726,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on be{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1808,9 +1803,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt from official creditors includes loans from international organizations (multilateral loans) and loans from governments (bilateral loans). Loans from international organization include loans and credits from the World Bank, r{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1885,9 +1880,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt in form of bonds. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and holds the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1962,9 +1957,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with commercial banks. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -2065,9 +2060,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank other private credits from manufacturers, exporters, and other suppliers of goods. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary autho{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -2155,9 +2150,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt from private creditors.The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and hold{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -2246,7 +2241,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Concessional debt to total external debt stocks. Concessional debt is defined as loans with an original grant element of 25 percent or more.{p_end}
+{synopt:{opt Source Notes}}Concessional debt to total external debt stocks. Concessional debt is defined as loans with an original grant element of 35 percent or more.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -2258,9 +2253,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with bilateral creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -2335,9 +2330,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with bilateral creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -2412,9 +2407,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central Bank debt position at end of the reference period.  The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issue{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -2436,9 +2431,21 @@
 
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Total external debt stocks to exports of goods, services and primary income.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DECT.PC.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.PC.CD:DT.DOD.DECT.PC.CD} - Total external debt per capita (US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -2470,6 +2477,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DOD.DIMF.US.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIMF.US.CD:DT.DOD.DIMF.US.CD} - Use of IMF credit (DOD, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DOD.DOPS.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DOPS.CD:DT.DOD.DOPS.CD} - External debt stocks, other public sector (PPG) (DOD, current US$)}}
 
@@ -2484,7 +2503,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSDR.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSDR.CD:DT.DOD.DSDR.CD} - Use of IMF credit, SDR allocations (DOD, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSDR.CD:DT.DOD.DSDR.CD} - SDR allocations (DOD, current US$)}}
 
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
@@ -2501,7 +2520,7 @@
 
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
 {synopt:{opt Source Notes}}Debt forgiveness grants data cover both debt cancelled by agreement between debtor and creditor and a reduction in the net present value of non-ODA debt achieved by concessional rescheduling or refinancing. The  data are on a disbursement basi{p_end}
 
@@ -2515,9 +2534,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on be{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -2605,9 +2624,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on be{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -2682,9 +2701,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt from official creditors includes loans from international organizations (multilateral loans) and loans from governments (bilateral loans). Loans from international organization include loans and credits from the World Bank, r{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -2759,9 +2778,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt in form of bonds. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and holds the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -2836,9 +2855,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with commercial banks. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -2939,9 +2958,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank other private credits from manufacturers, exporters, and other suppliers of goods. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary autho{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3042,9 +3061,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt from private creditors.The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and hold{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3314,9 +3333,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with bilateral creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3391,9 +3410,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with bilateral creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3468,9 +3487,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank long-term debt are aggregated. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and h{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3492,7 +3511,7 @@
 
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Total interest payments to exports of goods, services and primary income. Total interest payment is the sum of interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and charges to the IMF.{p_end}
 
@@ -3624,7 +3643,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 25 percent or more. Interest paymen{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 35 percent or more. Interest paymen{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -3637,7 +3656,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 25 percent or more. The grant element of a loan is th{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 35 percent or more. The grant element of a loan is th{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -3649,9 +3668,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on be{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3726,9 +3745,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on be{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3803,9 +3822,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt from official creditors includes loans from international organizations (multilateral loans) and loans from governments (bilateral loans). Loans from international organization include loans and credits from the World Bank, r{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3880,9 +3899,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt in form of bonds. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and holds the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3957,9 +3976,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with commercial banks. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4060,9 +4079,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank other private credits from manufacturers, exporters, and other suppliers of goods. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary autho{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4150,9 +4169,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt from private creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and hol{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4369,9 +4388,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with bilateral creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4433,9 +4452,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with bilateral creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4510,9 +4529,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank long-term debt are aggregated.  The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4613,9 +4632,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on be{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4677,9 +4696,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on be{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4767,9 +4786,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt from official creditors includes loans from international organizations (multilateral loans) and loans from governments (bilateral loans). Loans from international organization include loans and credits from the World Bank, r{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4831,9 +4850,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt in form of bonds.The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and holds the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4895,9 +4914,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with commercial banks. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4959,9 +4978,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank other private credits from manufacturers, exporters, and other suppliers of goods. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary autho{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5036,9 +5055,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt from private creditors.The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and hold{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5100,9 +5119,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with bilateral creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5177,9 +5196,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with bilateral creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5254,9 +5273,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and holds the country’s international reserves.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5358,7 +5377,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 25 percent or more. Net transfers a{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 35 percent or more. Net transfers a{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -5371,7 +5390,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 25 percent or more. The grant element of a loan is th{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 35 percent or more. The grant element of a loan is th{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -5383,9 +5402,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on be{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5460,9 +5479,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on be{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5537,9 +5556,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt from official creditors includes loans from international organizations (multilateral loans) and loans from governments (bilateral loans). Loans from international organization include loans and credits from the World Bank, r{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5614,9 +5633,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt in form of bonds.The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and holds the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5691,9 +5710,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with commercial banks. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5794,9 +5813,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank other private credits from manufacturers, exporters, and other suppliers of goods. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary autho{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5884,9 +5903,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt from private creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and hol{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5961,9 +5980,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with bilateral creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6038,9 +6057,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with bilateral creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6115,9 +6134,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank  debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term obligations of public debtors and long-term private obligations guaranteed by a public entity.The central ban{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6193,7 +6212,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 25 percent or more. Debt service pa{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 35 percent or more. Debt service pa{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -6206,7 +6225,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 25 percent or more. The grant element of a loan is th{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 35 percent or more. The grant element of a loan is th{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -6218,9 +6237,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on be{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6282,9 +6301,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on be{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6359,9 +6378,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt from official creditors includes loans from international organizations (multilateral loans) and loans from governments (bilateral loans). Loans from international organization include loans and credits from the World Bank, r{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6436,9 +6455,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt in form of bonds.The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and holds the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6513,9 +6532,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank bilateral debt includes Central bank debt with commercial banks.The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6616,9 +6635,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank other private credits from manufacturers, exporters, and other suppliers of goods. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary autho{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6706,9 +6725,9 @@
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Central bank debt from private creditors. The central bank is the financial institution (or institutions) that exercises control over key aspects of the financial system. The monetary authority, normally the agency that issues currency and hol{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6829,4 +6848,4 @@
 
 
 
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}

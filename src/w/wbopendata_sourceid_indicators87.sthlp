@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -12,8 +12,6 @@
 {synoptline}
 {synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
 {synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
-{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
-{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -25,7 +23,6 @@
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -34,15 +31,12 @@
 {synopt:{opt 33}}  {help wbopendata_sourceid_indicators33##sourceid_33:G20 Financial Inclusion Indicators}{p_end}
 {synopt:{opt 34}}  {help wbopendata_sourceid_indicators34##sourceid_34:Global Partnership for Education}{p_end}
 {synopt:{opt 35}}  {help wbopendata_sourceid_indicators35##sourceid_35:Sustainable Energy for All}{p_end}
-{synopt:{opt 36}}  {help wbopendata_sourceid_indicators36##sourceid_36:Statistical Capacity Indicators}{p_end}
 {synopt:{opt 37}}  {help wbopendata_sourceid_indicators37##sourceid_37:LAC Equity Lab}{p_end}
-{synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 40}}  {help wbopendata_sourceid_indicators40##sourceid_40:Population estimates and projections}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 43}}  {help wbopendata_sourceid_indicators43##sourceid_43:Adjusted Net Savings}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -53,16 +47,17 @@
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
 {synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
+{synopt:{opt 68}}  {help wbopendata_sourceid_indicators68##sourceid_68:PEFA 2016}{p_end}
 {synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 {synopt:{opt 78}}  {help wbopendata_sourceid_indicators78##sourceid_78:ICP 2017}{p_end}
+{synopt:{opt 79}}  {help wbopendata_sourceid_indicators79##sourceid_79:PEFA_GRPFM}{p_end}
 {synopt:{opt 80}}  {help wbopendata_sourceid_indicators80##sourceid_80:Gender Disaggregated Labor Database (GDLD)}{p_end}
 {synopt:{opt 81}}  {help wbopendata_sourceid_indicators81##sourceid_81:International Debt Statistics: DSSI}{p_end}
 {synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
-{synopt:{opt 83}}  {help wbopendata_sourceid_indicators83##sourceid_83:Statistical Performance Indicators (SPI)}{p_end}
 {synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
 {synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
 {synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
@@ -143,7 +138,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}Data generated by taking Nutrient Nitrogen N (tonnes) [Fertilizers by Nutrient sheet] and dividing it by Area Harvested (ha) [Crops and Livestock Products sheet] from FAOSTAT. FAOSTAT data is made available under the Creative Commons Attributi{p_end}
+{synopt:{opt Source Notes}}data{p_end}
 
 {synopt:{opt Source Organization}}FAOSTAT. Available at: {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -649,7 +644,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -675,7 +670,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -714,7 +709,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -727,7 +722,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -753,7 +748,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -779,7 +774,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -844,7 +839,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -857,7 +852,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -870,7 +865,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -922,7 +917,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -974,7 +969,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1000,7 +995,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1026,7 +1021,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1039,7 +1034,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1091,7 +1086,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1130,7 +1125,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1143,7 +1138,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1156,7 +1151,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1169,7 +1164,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1182,7 +1177,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1330,7 +1325,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1343,7 +1338,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1356,7 +1351,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1369,7 +1364,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1382,7 +1377,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1408,7 +1403,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1434,7 +1429,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1473,7 +1468,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1486,7 +1481,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1499,7 +1494,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1538,7 +1533,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1551,7 +1546,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1564,7 +1559,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1577,7 +1572,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1590,7 +1585,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1603,7 +1598,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1655,7 +1650,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1668,7 +1663,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1681,7 +1676,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1694,7 +1689,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1876,7 +1871,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1915,7 +1910,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1928,7 +1923,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1954,7 +1949,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1967,7 +1962,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2006,7 +2001,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2058,7 +2053,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2123,7 +2118,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2136,7 +2131,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2162,7 +2157,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2175,7 +2170,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2188,7 +2183,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2227,7 +2222,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2240,7 +2235,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2253,7 +2248,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2292,7 +2287,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3439,7 +3434,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3452,7 +3447,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3478,7 +3473,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3504,7 +3499,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3517,7 +3512,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3783,7 +3778,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}Net food imports are generated from FAOSTAT, taking Export level (tonnes) from the Import level (tonnes) [both under Trade: Crops and Livestock Products]. Net food imports are a proxy for the country's vulnerability to global food prices.{p_end}
+{synopt:{opt Source Notes}}data{p_end}
 
 {synopt:{opt Source Organization}}FAOSTAT. Available at: {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3822,7 +3817,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}Net food imports are generated from FAOSTAT, taking Export level (tonnes) from the Import level (tonnes) [both under Trade: Crops and Livestock Products]. Net food imports are a proxy for the country's vulnerability to global food prices.{p_end}
+{synopt:{opt Source Notes}}data{p_end}
 
 {synopt:{opt Source Organization}}FAOSTAT. Available at: {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3874,7 +3869,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}Net food imports are generated from FAOSTAT, taking Export level (tonnes) from the Import level (tonnes) [both under Trade: Crops and Livestock Products]. Net food imports are a proxy for the country's vulnerability to global food prices.{p_end}
+{synopt:{opt Source Notes}}data{p_end}
 
 {synopt:{opt Source Organization}}FAOSTAT. Available at: {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -4200,7 +4195,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data{p_end}
+{synopt:{opt Source Notes}}Average supply of protein of animal origin reflects a 3-year average from the Suite of Food Security Indicators on FAOSTAT. Suite of Food Security Indicators presents the core set of food security indicators. Following the recommendation of ex{p_end}
 
 {synopt:{opt Source Organization}}FAOSTAT. Available at: {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -4879,5 +4874,29 @@
 {synopt:{opt Source Organization}}Global Coal Plant Tracker, Global Energy Monitor. Available at: {browse "https://globalenergymonitor.org/projects/global-coal-plant-tracker/"}{p_end}
 
 
+{synoptline}
+{marker sourceid_fin18.t.d}
+{synopt:{bf:{help wbopendata_sourceid##fin18.t.d:fin18.t.d} - Saved any money in the past year (% age 15+)}}
 
-{right:(as of 23jan2023)}
+{synopt:{opt Source}}87 Country Climate and Development Report (CCDR){p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally saving or setting aside any money for any reason and using any mode of saving in the past 12 months.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_g20.t.made}
+{synopt:{bf:{help wbopendata_sourceid##g20.t.made:g20.t.made} - Made digital payments in the past year (% age 15+)}}
+
+{synopt:{opt Source}}87 Country Climate and Development Report (CCDR){p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report using mobile money, a debit or credit card, or a mobile phone to make a payment from an account, or report using the internet to pay bills or to buy something online, in the past 12 months. It also incl{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+
+{right:(as of 18may2024)}
