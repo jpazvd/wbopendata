@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Lending Type  (as of 24jan2023)}
+{title:Lending Type  (as of 18may2024)}
 
 {marker IBD}
 {p 20 20 2}(Go up to {it:{help wbopendata##lendingtype:Lending Type }}){p_end}
@@ -67,7 +67,6 @@
 {synopt:{opt SRB}}  Serbia {p_end}
 {synopt:{opt SYC}}  Seychelles {p_end}
 {synopt:{opt ZAF}}  South Africa {p_end}
-{synopt:{opt LKA}}  Sri Lanka {p_end}
 {synopt:{opt KNA}}  St Kitts and Nevis {p_end}
 {synopt:{opt SUR}}  Suriname {p_end}
 {synopt:{opt THA}}  Thailand {p_end}
@@ -78,7 +77,7 @@
 {synopt:{opt UKR}}  Ukraine {p_end}
 {synopt:{opt URY}}  Uruguay {p_end}
 {synopt:{opt VEN}}  Venezuela, RB {p_end}
-{synopt:{opt VNM}}  Vietnam {p_end}
+{synopt:{opt VNM}}  Viet Nam {p_end}
 
 {marker IDB}
 {p 20 20 2}(Go up to {it:{help wbopendata##lendingtype:Lending Type }}){p_end}
@@ -154,6 +153,7 @@
 {synopt:{opt SLB}}  Solomon Islands {p_end}
 {synopt:{opt SOM}}  Somalia {p_end}
 {synopt:{opt SSD}}  South Sudan {p_end}
+{synopt:{opt LKA}}  Sri Lanka {p_end}
 {synopt:{opt SDN}}  Sudan {p_end}
 {synopt:{opt SYR}}  Syrian Arab Republic {p_end}
 {synopt:{opt TJK}}  Tajikistan {p_end}
@@ -238,7 +238,6 @@
 {synopt:{opt MAF}}  St Martin (French part) {p_end}
 {synopt:{opt SWE}}  Sweden {p_end}
 {synopt:{opt CHE}}  Switzerland {p_end}
-{synopt:{opt TWN}}  Taiwan, China {p_end}
 {synopt:{opt TCA}}  Turks and Caicos Islands {p_end}
 {synopt:{opt ARE}}  United Arab Emirates {p_end}
 {synopt:{opt GBR}}  United Kingdom {p_end}

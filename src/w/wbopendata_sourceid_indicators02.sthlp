@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -12,8 +12,6 @@
 {synoptline}
 {synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
 {synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
-{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
-{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -25,7 +23,6 @@
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -34,15 +31,12 @@
 {synopt:{opt 33}}  {help wbopendata_sourceid_indicators33##sourceid_33:G20 Financial Inclusion Indicators}{p_end}
 {synopt:{opt 34}}  {help wbopendata_sourceid_indicators34##sourceid_34:Global Partnership for Education}{p_end}
 {synopt:{opt 35}}  {help wbopendata_sourceid_indicators35##sourceid_35:Sustainable Energy for All}{p_end}
-{synopt:{opt 36}}  {help wbopendata_sourceid_indicators36##sourceid_36:Statistical Capacity Indicators}{p_end}
 {synopt:{opt 37}}  {help wbopendata_sourceid_indicators37##sourceid_37:LAC Equity Lab}{p_end}
-{synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 40}}  {help wbopendata_sourceid_indicators40##sourceid_40:Population estimates and projections}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 43}}  {help wbopendata_sourceid_indicators43##sourceid_43:Adjusted Net Savings}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -53,16 +47,17 @@
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
 {synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
+{synopt:{opt 68}}  {help wbopendata_sourceid_indicators68##sourceid_68:PEFA 2016}{p_end}
 {synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 {synopt:{opt 78}}  {help wbopendata_sourceid_indicators78##sourceid_78:ICP 2017}{p_end}
+{synopt:{opt 79}}  {help wbopendata_sourceid_indicators79##sourceid_79:PEFA_GRPFM}{p_end}
 {synopt:{opt 80}}  {help wbopendata_sourceid_indicators80##sourceid_80:Gender Disaggregated Labor Database (GDLD)}{p_end}
 {synopt:{opt 81}}  {help wbopendata_sourceid_indicators81##sourceid_81:International Debt Statistics: DSSI}{p_end}
 {synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
-{synopt:{opt 83}}  {help wbopendata_sourceid_indicators83##sourceid_83:Statistical Performance Indicators (SPI)}{p_end}
 {synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
 {synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
 {synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
@@ -120,7 +115,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), tempora{p_end}
 
@@ -133,7 +128,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), tempora{p_end}
 
@@ -172,7 +167,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. Land abandoned{p_end}
 
@@ -224,7 +219,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the percentage of total land where the rural land elevation is 5 meters or less.{p_end}
 
@@ -237,7 +232,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the total urban land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
@@ -276,7 +271,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
 
@@ -289,7 +284,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
 
@@ -302,7 +297,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Agricultural irrigated land refers to agricultural areas purposely provided with water, including land irrigated by controlled flooding.{p_end}
 
@@ -458,7 +453,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Trade in services is the sum of service exports and imports divided by the value of GDP, all in current U.S. dollars.{p_end}
 
@@ -471,7 +466,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Communications, computer, information, and other services cover international telecommunications; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellan{p_end}
 
@@ -497,7 +492,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Imports of goods and services comprise all transactions between residents of a country and the rest of the world involving a change of ownership from nonresidents to residents of general merchandise, nonmonetary gold, and services. Data are in{p_end}
 
@@ -510,7 +505,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension f{p_end}
 
@@ -523,7 +518,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Goods imports refer to all movable goods (including nonmonetary gold) involved in a change of ownership from nonresidents to residents. Data are in current U.S. dollars.{p_end}
 
@@ -536,7 +531,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Services refer to economic output of intangible commodities that may be produced, transferred, and consumed at the same time. Data are in current U.S. dollars.{p_end}
 
@@ -562,7 +557,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Imports of goods, services and primary income is the sum of goods imports, service imports and primary income payments. Data are in current U.S. dollars.{p_end}
 
@@ -588,7 +583,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Travel covers goods and services acquired from an economy by travelers for their own use during visits of less than one year in that economy for either business or personal purposes. Travel includes local transport (i.e., transport within the{p_end}
 
@@ -601,7 +596,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Foreign direct investment refers to direct investment equity flows in an economy. It is the sum of equity capital, reinvestment of earnings, and other capital. Direct investment is a category of cross-border investment associated with a reside{p_end}
 
@@ -705,7 +700,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Net trade in goods and services is derived by offsetting imports of goods and services against exports of goods and services. Exports and imports of goods and services comprise all transactions involving a change of ownership of goods and serv{p_end}
 
@@ -718,7 +713,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Net trade in goods is the difference between exports and imports of goods. Trade in services is not included. Data are in current U.S. dollars.{p_end}
 
@@ -744,7 +739,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Foreign direct investment are the net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital{p_end}
 
@@ -757,7 +752,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Portfolio investment covers transactions in equity securities and debt securities. Data are in current U.S. dollars.{p_end}
 
@@ -809,7 +804,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
 {synopt:{opt Source Notes}}Grants are defined as legally binding commitments that obligate a specific value of funds available for disbursement for which there is no repayment requirement. Data are in current U.S. dollars.{p_end}
 
@@ -822,7 +817,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Technical cooperation grants include free-standing technical cooperation grants, which are intended to finance the transfer of technical and managerial skills or of technology for the purpose of building up general national capacity without re{p_end}
 
@@ -835,7 +830,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Information and communication technology service exports include computer and communications services (telecommunications and postal and courier services) and information services (computer data and news-related service transactions). Data are{p_end}
 
@@ -848,7 +843,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Information and communication technology service exports include computer and communications services (telecommunications and postal and courier services) and information services (computer data and news-related service transactions).{p_end}
 
@@ -861,7 +856,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Communications, computer, information, and other services cover international telecommunications; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellan{p_end}
 
@@ -887,7 +882,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Exports of goods and services comprise all transactions between residents of a country and the rest of the world involving a change of ownership from residents to nonresidents of general merchandise, net exports of goods under merchanting, non{p_end}
 
@@ -900,7 +895,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension f{p_end}
 
@@ -926,7 +921,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Services refer to economic output of intangible commodities that may be produced, transferred, and consumed at the same time. Data are in current U.S. dollars.{p_end}
 
@@ -991,7 +986,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Foreign direct investment refers to direct investment equity flows in the reporting economy. It is the sum of equity capital, reinvestment of earnings, and other capital. Direct investment is a category of cross-border investment associated wi{p_end}
 
@@ -1017,7 +1012,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Portfolio equity includes net inflows from equity securities other than those recorded as direct investment and including shares, stocks, depository receipts (American or global), and direct purchases of shares in local stock markets by foreig{p_end}
 
@@ -1043,7 +1038,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfers thus include all current transfers between resident and nonresident individual{p_end}
 
@@ -1056,7 +1051,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Personal remittances comprise personal transfers and compensation of employees. Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfer{p_end}
 
@@ -1074,6 +1069,84 @@
 {synopt:{opt Source Notes}}Personal remittances comprise personal transfers and compensation of employees. Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfer{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based on IMF balance of payments data, and World Bank and OECD GDP estimates.{p_end}
+
+
+{synoptline}
+{marker sourceid_CC.EST}
+{synopt:{bf:{help wbopendata_sourceid##CC.EST:CC.EST} - Control of Corruption: Estimate}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests. Estimate gives t{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_CC.NO.SRC}
+{synopt:{bf:{help wbopendata_sourceid##CC.NO.SRC:CC.NO.SRC} - Control of Corruption: Number of Sources}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests. Number of source{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_CC.PER.RNK}
+{synopt:{bf:{help wbopendata_sourceid##CC.PER.RNK:CC.PER.RNK} - Control of Corruption: Percentile Rank}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.  Percentile rank{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_CC.PER.RNK.LOWER}
+{synopt:{bf:{help wbopendata_sourceid##CC.PER.RNK.LOWER:CC.PER.RNK.LOWER} - Control of Corruption: Percentile Rank, Lower Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.  Percentile rank{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_CC.PER.RNK.UPPER}
+{synopt:{bf:{help wbopendata_sourceid##CC.PER.RNK.UPPER:CC.PER.RNK.UPPER} - Control of Corruption: Percentile Rank, Upper Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.  Percentile rank{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_CC.STD.ERR}
+{synopt:{bf:{help wbopendata_sourceid##CC.STD.ERR:CC.STD.ERR} - Control of Corruption: Standard Error}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.   Standard error{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
 
 
 {synoptline}
@@ -1247,7 +1320,7 @@
 
 {synoptline}
 {marker sourceid_DC.DAC.CZEL.CD}
-{synopt:{bf:{help wbopendata_sourceid##DC.DAC.CZEL.CD:DC.DAC.CZEL.CD} - Net bilateral aid flows from DAC donors, Czech Republic (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DC.DAC.CZEL.CD:DC.DAC.CZEL.CD} - Net bilateral aid flows from DAC donors, Czechia (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1291,6 +1364,18 @@
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
+{marker sourceid_DC.DAC.ESTL.CD}
+{synopt:{bf:{help wbopendata_sourceid##DC.DAC.ESTL.CD:DC.DAC.ESTL.CD} - Net bilateral aid flows from DAC donors, Estonia (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
@@ -1421,6 +1506,18 @@
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
+{marker sourceid_DC.DAC.LTUL.CD}
+{synopt:{bf:{help wbopendata_sourceid##DC.DAC.LTUL.CD:DC.DAC.LTUL.CD} - Net bilateral aid flows from DAC donors, Lithuania (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
@@ -1624,7 +1721,7 @@
 
 {synoptline}
 {marker sourceid_DC.ODA.TOTL.KD}
-{synopt:{bf:{help wbopendata_sourceid##DC.ODA.TOTL.KD:DC.ODA.TOTL.KD} - Net ODA provided, total (constant 2020 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DC.ODA.TOTL.KD:DC.ODA.TOTL.KD} - Net ODA provided, total (constant 2021 US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1732,7 +1829,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Total reserves includes gold.{p_end}
 
@@ -1745,7 +1842,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Short-term external debt is defined as debt that has an original maturity of one year or less. Available data permit no distinction between public and private nonguaranteed short-term debt.{p_end}
 
@@ -1823,7 +1920,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. This cal{p_end}
 
@@ -1836,7 +1933,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. This cal{p_end}
 
@@ -1867,6 +1964,18 @@
 {synopt:{opt Source Notes}}Bonds are securities issued with a fixed rate of interest for a period of more than one year. They include net flows through cross-border public and publicly guaranteed and private nonguaranteed bond issues. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.NFL.CERF.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.CERF.CD:DT.NFL.CERF.CD} - Net official flows from UN agencies, CERF (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -2014,7 +2123,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.NIFC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.NIFC.CD:DT.NFL.NIFC.CD} - IFC, private nonguaranteed (NFL, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.NIFC.CD:DT.NFL.NIFC.CD} - IFC, private nonguaranteed (NFL, US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2027,7 +2136,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.OFFT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.OFFT.CD:DT.NFL.OFFT.CD} - PPG, official creditors (NFL, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.OFFT.CD:DT.NFL.OFFT.CD} - PPG, official creditors (NFL, US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2118,7 +2227,7 @@
 
 {synoptline}
 {marker sourceid_DT.NFL.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PRVT.CD:DT.NFL.PRVT.CD} - PPG, private creditors (NFL, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.PRVT.CD:DT.NFL.PRVT.CD} - PPG, private creditors (NFL, US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2156,12 +2265,48 @@
 
 
 {synoptline}
+{marker sourceid_DT.NFL.SDGF.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.SDGF.CD:DT.NFL.SDGF.CD} - Net official flows from UN agencies, SDGFUND (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.NFL.SPRP.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.SPRP.CD:DT.NFL.SPRP.CD} - Net official flows from UN agencies, SPRP (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.NFL.UNAI.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.NFL.UNAI.CD:DT.NFL.UNAI.CD} - Net official flows from UN agencies, UNAIDS (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.NFL.UNCD.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.UNCD.CD:DT.NFL.UNCD.CD} - Net official flows from UN agencies, UNCDF (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
@@ -2188,6 +2333,30 @@
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.NFL.UNCTAD.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.UNCTAD.CD:DT.NFL.UNCTAD.CD} - Net official flows from UN agencies, UNCTAD (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.NFL.UNCV.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.UNCV.CD:DT.NFL.UNCV.CD} - Net official flows from UN agencies, UNCOVID (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
@@ -2260,6 +2429,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.NFL.UNIDO.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.UNIDO.CD:DT.NFL.UNIDO.CD} - Net official flows from UN agencies, UNIDO (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.NFL.UNPB.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.NFL.UNPB.CD:DT.NFL.UNPB.CD} - Net official flows from UN agencies, UNPBF (current US$)}}
 
@@ -2292,6 +2473,18 @@
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.NFL.UNWN.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.UNWN.CD:DT.NFL.UNWN.CD} - Net official flows from UN agencies, UNWOMEN (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
@@ -2338,6 +2531,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.NFL.WITC.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.WITC.CD:DT.NFL.WITC.CD} - Net official flows from UN agencies, WTO-ITC (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.ODA.ALLD.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.CD:DT.ODA.ALLD.CD} - Net official development assistance and official aid received (current US$)}}
 
@@ -2352,7 +2557,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ALLD.KD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.KD:DT.ODA.ALLD.KD} - Net official development assistance and official aid received (constant 2020 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.KD:DT.ODA.ALLD.KD} - Net official development assistance and official aid received (constant 2021 US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2378,7 +2583,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.OATL.KD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.OATL.KD:DT.ODA.OATL.KD} - Net official aid received (constant 2020 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.OATL.KD:DT.ODA.OATL.KD} - Net official aid received (constant 2021 US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2421,7 +2626,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
@@ -2430,7 +2635,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ODAT.KD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ODAT.KD:DT.ODA.ODAT.KD} - Net official development assistance received (constant 2020 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ODAT.KD:DT.ODA.ODAT.KD} - Net official development assistance received (constant 2021 US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2460,7 +2665,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) per capita consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), b{p_end}
 
@@ -2499,7 +2704,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Total debt service to exports of goods, services and primary income. Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repa{p_end}
 
@@ -2512,7 +2717,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
 
@@ -2620,7 +2825,7 @@
 
 {synopt:{opt Source Notes}}Access to clean fuels and technologies for cooking, rural is the proportion of rural population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels.{p_end}
 
-{synopt:{opt Source Organization}}WHO Global Health Observatory  ({browse "https://www.who.int/data/gho/data/themes/air-pollution/household-air-pollution"}){p_end}
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
 
 
 {synoptline}
@@ -2633,7 +2838,7 @@
 
 {synopt:{opt Source Notes}}Access to clean fuels and technologies for cooking, urban is the proportion of urban population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels.{p_end}
 
-{synopt:{opt Source Organization}}WHO Global Health Observatory  ({browse "https://www.who.int/data/gho/data/themes/air-pollution/household-air-pollution"}){p_end}
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
 
 
 {synoptline}
@@ -2646,7 +2851,7 @@
 
 {synopt:{opt Source Notes}}Access to clean fuels and technologies for cooking is the proportion of total population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels.{p_end}
 
-{synopt:{opt Source Organization}}WHO Global Health Observatory  ({browse "https://www.who.int/data/gho/data/themes/air-pollution/household-air-pollution"}){p_end}
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
 
 
 {synoptline}
@@ -2655,11 +2860,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Energy intensity level of primary energy is the ratio between energy supply and gross domestic product measured at purchasing power parity. Energy intensity is an indication of how much energy is used to produce one unit of economic output. Lo{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from the SE4ALL Global Tracking Framework led jointly by the World Bank, International Energy Agency, and the Energy Sector Management Assistance Program.{p_end}
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
 
 
 {synoptline}
@@ -2672,7 +2877,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity, rural is the percentage of rural population with access to electricity.{p_end}
 
-{synopt:{opt Source Organization}}World Bank Global Electrification Database from Tracking SDG 7: The Energy Progress Report led jointly by the custodian agencies: the International Energy Agency (IEA), the International Renewable Energy Agency (IRENA), the United Nations Stat{p_end}
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
 
 
 {synoptline}
@@ -2685,7 +2890,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity, urban is the percentage of urban population with access to electricity.{p_end}
 
-{synopt:{opt Source Organization}}World Bank Global Electrification Database from Tracking SDG 7: The Energy Progress Report led jointly by the custodian agencies: the International Energy Agency (IEA), the International Renewable Energy Agency (IRENA), the United Nations Stat{p_end}
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
 
 
 {synoptline}
@@ -2698,7 +2903,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity is the percentage of population with access to electricity. Electrification data are collected from industry, national surveys and international sources.{p_end}
 
-{synopt:{opt Source Organization}}World Bank Global Electrification Database from Tracking SDG 7: The Energy Progress Report led jointly by the custodian agencies: the International Energy Agency (IEA), the International Renewable Energy Agency (IRENA), the United Nations Stat{p_end}
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
 
 
 {synoptline}
@@ -2711,7 +2916,7 @@
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Coal refers to all coal and brown coal, both primary (including hard coal and lignite-brown coal) and derived fuels (including patent fuel, coke oven coke, gas coke, coke{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2724,7 +2929,7 @@
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products. Gas refers to natural gas but excludes natural gas liquids. Coal refers to all coal and brown coal, both primary (includin{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2737,7 +2942,7 @@
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Hydropower refers to electricity produced by hydroelectric power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2746,11 +2951,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Electric power transmission and distribution losses include losses in transmission between sources of supply and points of distribution and in the distribution to consumers, including pilferage.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2018 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2018 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2759,11 +2964,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Gas refers to natural gas but excludes natural gas liquids.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2776,7 +2981,7 @@
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Nuclear power refers to electricity produced by nuclear power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2789,7 +2994,7 @@
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2798,11 +3003,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Renewable electricity is the share of electrity generated by renewable power plants in total electricity generated by all types of plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2018 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2018 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2815,7 +3020,7 @@
 
 {synopt:{opt Source Notes}}Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2828,7 +3033,7 @@
 
 {synopt:{opt Source Notes}}Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2841,7 +3046,7 @@
 
 {synopt:{opt Source Notes}}Renewable energy consumption is the share of renewables energy in total final energy consumption.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from the SE4ALL Global Tracking Framework led jointly by the World Bank, International Energy Agency, and the Energy Sector Management Assistance Program.{p_end}
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
 
 
 {synoptline}
@@ -2854,7 +3059,7 @@
 
 {synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to current international dollars using purchasing power parity rates based on the 2017 ICP round. An internatio{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2867,7 +3072,7 @@
 
 {synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to 2017 constant international dollars using purchasing power parity rates. An international dollar has the sam{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2880,7 +3085,7 @@
 
 {synopt:{opt Source Notes}}Net energy imports are estimated as energy use less production, both measured in oil equivalents. A negative value indicates that the country is a net exporter. Energy use refers to use of primary energy before transformation to other end-use{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2893,7 +3098,7 @@
 
 {synopt:{opt Source Notes}}Clean energy is noncarbohydrate energy that does not produce carbon dioxide when generated. It includes hydropower and nuclear, geothermal, and solar power, among others.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2906,7 +3111,7 @@
 
 {synopt:{opt Source Notes}}Fossil fuel comprises coal, oil, petroleum, and natural gas products.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2919,7 +3124,7 @@
 
 {synopt:{opt Source Notes}}Energy use per PPP GDP is the kilogram of oil equivalent of energy use per constant PPP GDP. Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stoc{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2932,7 +3137,7 @@
 
 {synopt:{opt Source Notes}}Combustible renewables and waste comprise solid biomass, liquid biomass, biogas, industrial waste, and municipal waste, measured as a percentage of total energy use.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2945,7 +3150,7 @@
 
 {synopt:{opt Source Notes}}Electric power consumption measures the production of power plants and combined heat and power plants less transmission, distribution, and transformation losses and own use by heat and power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2954,11 +3159,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international tr{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2980,7 +3185,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions from liquid fuel consumption refer mainly to emissions from use of natural gas as an energy source.{p_end}
 
@@ -2993,7 +3198,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions from liquid fuel consumption refer mainly to emissions from use of natural gas as an energy source.{p_end}
 
@@ -3006,7 +3211,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
@@ -3019,11 +3224,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -3032,7 +3237,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions from liquid fuel consumption refer mainly to emissions from use of petroleum-derived fuels as an energy source.{p_end}
 
@@ -3045,7 +3250,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions from liquid fuel consumption refer mainly to emissions from use of petroleum-derived fuels as an energy source.{p_end}
 
@@ -3062,7 +3267,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
-{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions. See SP.POP.TOTL for the denominator's source.{p_end}
+{synopt:{opt Source Organization}}Emissions data are sourced from Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -3123,7 +3328,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Other greenhouse gas emissions are by-product emissions of hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride.{p_end}
 
@@ -3136,7 +3341,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Other greenhouse gas emissions are by-product emissions of hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride. Each year of data shows the percentage change to that year from 1990.{p_end}
 
@@ -3149,11 +3354,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Total greenhouse gas emissions in kt of CO2 equivalent are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and savanna burning) but including other biomass burning (such as forest fires, post-bu{p_end}
 
-{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -3162,7 +3367,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Total greenhouse gas emissions are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and savanna burning) but including other biomass burning (such as forest fires, post-burn decay, peat fires and{p_end}
 
@@ -3175,7 +3380,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Hydrofluorocarbons, used as a replacement for chlorofluorocarbons, are used mainly in refrigeration and semiconductor manufacturing.{p_end}
 
@@ -3192,7 +3397,7 @@
 
 {synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
-{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -3201,7 +3406,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
@@ -3218,7 +3423,7 @@
 
 {synopt:{opt Source Notes}}Methane emissions from energy processes are emissions from the production, handling, transmission, and combustion of fossil fuels and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -3244,7 +3449,7 @@
 
 {synopt:{opt Source Notes}}Methane emissions are those stemming from human activities such as agriculture and from industrial methane production.{p_end}
 
-{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -3266,11 +3471,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
-{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -3279,7 +3484,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
@@ -3292,11 +3497,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Nitrous oxide emissions from energy processes are emissions produced by the combustion of fossil fuels and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -3318,11 +3523,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Nitrous oxide emissions are emissions from agricultural biomass burning, industrial activities, and livestock management.{p_end}
 
-{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -3361,7 +3566,7 @@
 
 {synopt:{opt Source Notes}}Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of{p_end}
 
-{synopt:{opt Source Organization}}Brauer, M. et al. 2017, for the Global Burden of Disease Study 2017.{p_end}
+{synopt:{opt Source Organization}}Global Burden of Disease Collaborative Network. 2021. Global Burden of Disease Study 2019 (GBD 2019) Air Pollution Exposure Estimates 1990-2019. Seattle, United States of America: Institute for Health Metrics and Evaluation (IHME). {browse "https://doi"}{p_end}
 
 
 {synoptline}
@@ -3448,7 +3653,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Disaster risk reduction progress score is an average of self-assessment scores, ranging from 1 to 5, submitted by countries under Priority 1 of the Hyogo Framework National Progress Reports. The Hyogo Framework is a global blueprint for disast{p_end}
 
@@ -3461,7 +3666,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}GHG net emissions/removals by LUCF refers to changes in atmospheric levels of all greenhouse gases attributable to forest and land-use change activities, including but not limited to (1) emissions and removals of CO2 from decreases or increase{p_end}
 
@@ -3474,7 +3679,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Droughts, floods and extreme temperatures is the annual average percentage of the population that is affected by natural disasters classified as either droughts, floods, or extreme temperature events. A drought is an extended period of time ch{p_end}
 
@@ -3491,7 +3696,7 @@
 
 {synopt:{opt Source Notes}}CO2 emissions from residential buildings and commercial and public services contains all emissions from fuel combustion in households. This corresponds to IPCC Source/Sink Category 1 A 4 b. Commercial and public services includes emissions fro{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -3504,7 +3709,7 @@
 
 {synopt:{opt Source Notes}}CO2 emissions from electricity and heat production is the sum of three IEA categories of CO2 emissions: (1) Main Activity Producer Electricity and Heat which contains the sum of emissions from main activity producer electricity generation, com{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -3517,7 +3722,7 @@
 
 {synopt:{opt Source Notes}}CO2 emissions from manufacturing industries and construction contains the emissions from combustion of fuels in industry. The IPCC Source/Sink Category 1 A 2 includes these emissions. However, in the 1996 IPCC Guidelines, the IPCC category als{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -3530,7 +3735,7 @@
 
 {synopt:{opt Source Notes}}CO2 emissions from other sectors, less residential buildings and commercial and public services, contains the emissions from commercial/institutional activities, residential, agriculture/forestry, fishing and other emissions not specified else{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -3543,7 +3748,7 @@
 
 {synopt:{opt Source Notes}}CO2 emissions from transport contains emissions from the combustion of fuel for all transport activity, regardless of the sector, except for international marine bunkers and international aviation. This includes domestic aviation, domestic nav{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -3617,7 +3822,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Urban population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
@@ -3630,7 +3835,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Population below 5m is the percentage of the total population living in areas where the elevation is 5 meters or less.{p_end}
 
@@ -3643,7 +3848,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improve{p_end}
 
@@ -3786,7 +3991,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
@@ -3838,7 +4043,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
@@ -3851,7 +4056,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
@@ -4033,7 +4238,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Total reserves comprise holdings of monetary gold, special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. The gold component of these reserves is valued at y{p_end}
 
@@ -4059,7 +4264,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Total reserves comprise holdings of monetary gold, special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. The gold component of these reserves is valued at y{p_end}
 
@@ -4072,7 +4277,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Total reserves minus gold comprise special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. Gold holdings are excluded. Data are in current U.S. dollars.{p_end}
 
@@ -4358,7 +4563,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Domestic credit to private sector refers to financial resources provided to the private sector by financial corporations, such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish{p_end}
 
@@ -4492,7 +4697,7 @@
 
 {synopt:{opt Source Notes}}Gross domestic expenditures on research and development (R&amp;D), expressed as a percent of GDP. They include both capital and current expenditures in the four main sectors: Business enterprise, Government, Higher education and Private non-pr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed November 27, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -4696,7 +4901,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}Revenue is cash receipts from taxes, social contributions, and other revenues such as fines, fees, rent, and income from property or sales. Grants are also considered as revenue but are excluded here.{p_end}
 
@@ -4722,7 +4927,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}Taxes on exports are all levies on goods being transported out of the country or services being delivered to nonresidents by residents. Rebates on exported goods that are repayments of previously paid general consumption taxes, excise taxes, o{p_end}
 
@@ -4787,7 +4992,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}Customs and other import duties are all levies collected on goods that are entering the country or services delivered by nonresidents to residents. They include levies imposed for revenue or protection purposes and determined on a specific or{p_end}
 
@@ -5081,6 +5286,84 @@
 
 
 {synoptline}
+{marker sourceid_GE.EST}
+{synopt:{bf:{help wbopendata_sourceid##GE.EST:GE.EST} - Government Effectiveness: Estimate}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_GE.NO.SRC}
+{synopt:{bf:{help wbopendata_sourceid##GE.NO.SRC:GE.NO.SRC} - Government Effectiveness: Number of Sources}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_GE.PER.RNK}
+{synopt:{bf:{help wbopendata_sourceid##GE.PER.RNK:GE.PER.RNK} - Government Effectiveness: Percentile Rank}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_GE.PER.RNK.LOWER}
+{synopt:{bf:{help wbopendata_sourceid##GE.PER.RNK.LOWER:GE.PER.RNK.LOWER} - Government Effectiveness: Percentile Rank, Lower Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_GE.PER.RNK.UPPER}
+{synopt:{bf:{help wbopendata_sourceid##GE.PER.RNK.UPPER:GE.PER.RNK.UPPER} - Government Effectiveness: Percentile Rank, Upper Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_GE.STD.ERR}
+{synopt:{bf:{help wbopendata_sourceid##GE.STD.ERR:GE.STD.ERR} - Government Effectiveness: Standard Error}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
 {marker sourceid_GF.XPD.BUDG.ZS}
 {synopt:{bf:{help wbopendata_sourceid##GF.XPD.BUDG.ZS:GF.XPD.BUDG.ZS} - Primary government expenditures as a proportion of original approved budget (%)}}
 
@@ -5177,7 +5460,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Private credit bureau coverage reports the number of individuals or firms listed by a private credit bureau with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the adul{p_end}
 
@@ -5203,7 +5486,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Average time to clear exports through customs is the average number of days to clear direct exports through customs.{p_end}
 
@@ -5281,7 +5564,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
@@ -5333,7 +5616,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Firms using banks to finance investment are the percentage of firms using banks to finance investments.{p_end}
 
@@ -5381,7 +5664,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CRIM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRIM.ZS:IC.FRM.CRIM.ZS} - Losses due to theft and vandalism (% of annual sales of affected firms)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRIM.ZS:IC.FRM.CRIM.ZS} - Losses due to theft and vandalism (% of annual sales for affected firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -5424,7 +5707,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Firms with female participation in ownership are the percentage of firms with a woman among the principal owners.{p_end}
 
@@ -5463,6 +5746,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Percent of firms that were visited or required to meet with tax officials.{p_end}
 
@@ -5553,7 +5837,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
@@ -5774,7 +6058,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}Time to prepare and pay taxes is the time, in hours per year, it takes to prepare, file, and pay (or withhold) three major types of taxes: the corporate income tax, the value added or sales tax, and labor taxes, including payroll taxes and soc{p_end}
 
@@ -5839,7 +6123,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Tax payments by businesses are the total number of taxes paid by businesses, including electronic filing. The tax is counted as paid once a year even if payments are more frequent.{p_end}
 
@@ -5865,7 +6149,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Total tax rate measures the amount of taxes and mandatory contributions payable by businesses after accounting for allowable deductions and exemptions as a share of commercial profits. Taxes withheld (such as personal income tax) or collected{p_end}
 
@@ -5904,7 +6188,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Investment in energy projects with private participation  refers to commitments to  infrastructure projects in energy (electricity and natural gas: generation, transmission and distribution) that have reached financial closure and directly or{p_end}
 
@@ -5930,7 +6214,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Investment  in transport projects with private participation refers to commitments to  infrastructure projects in transport that have reached financial closure and directly or indirectly serve the public. Movable assets and small projects are{p_end}
 
@@ -6294,7 +6578,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}The public sector management and institutions cluster includes property rights and rule-based governance, quality of budgetary and financial management, efficiency of revenue mobilization, quality of public administration, and transparency, ac{p_end}
 
@@ -6556,9 +6840,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Passengers carried by railway are the number of passengers transported by rail times kilometers traveled.{p_end}
+{synopt:{opt Source Notes}}Passengers carried by railway are the number of passengers transported by rail multiplied by kilometers traveled.{p_end}
 
-{synopt:{opt Source Organization}}Internation Union of Railways (UIC), OECD Statistics{p_end}
+{synopt:{opt Source Organization}}Internation Union of Railways (UIC Railisa Database), OECD Statistics{p_end}
 
 
 {synoptline}
@@ -6727,7 +7011,7 @@
 
 {synopt:{opt Source Notes}}Lead time to export is the median time (the value for 50 percent of shipments) from shipment point to port of loading. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10 percent of{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
 
 
 {synoptline}
@@ -6740,7 +7024,7 @@
 
 {synopt:{opt Source Notes}}Lead time to import is the median time (the value for 50 percent of shipments) from port of discharge to arrival at the consignee. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
 
 
 {synoptline}
@@ -6751,9 +7035,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
+{synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
+{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
 
 
 {synoptline}
@@ -6764,9 +7048,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
+{synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
+{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
 
 
 {synoptline}
@@ -6777,9 +7061,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
+{synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
+{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
 
 
 {synoptline}
@@ -6788,11 +7072,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
+{synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
+{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
 
 
 {synoptline}
@@ -6803,9 +7087,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Logistics Performance Index overall score reflects perceptions of a country's logistics based on efficiency of customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competitively priced shipments,{p_end}
+{synopt:{opt Source Notes}}The Logistics Performance Index overall score reflects perceptions of a country's logistics based on the efficiency of customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competitively priced sh{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
+{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
 
 
 {synoptline}
@@ -6814,11 +7098,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
+{synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
+{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
 
 
 {synoptline}
@@ -6827,11 +7111,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
+{synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Eco{p_end}
+{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
 
 
 {synoptline}
@@ -6840,7 +7124,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Arms transfers cover the supply of military weapons through sales, aid, gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, missiles, and shi{p_end}
 
@@ -7128,7 +7412,7 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}This indicator provides values for households and NPISHs final consumption expenditure expressed in current international dollars converted by purchasing power parity (PPP) conversion factor.   Household final consumption expenditure (formerly{p_end}
+{synopt:{opt Source Notes}}This indicator provides values for households and NPISHs final consumption expenditure expressed in current international dollars converted by purchasing power parity (PPP) conversion factor.{p_end}
 
 {synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
@@ -7386,7 +7670,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other servic{p_end}
 
@@ -7620,7 +7904,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other serv{p_end}
 
@@ -7646,7 +7930,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other serv{p_end}
 
@@ -7685,7 +7969,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other serv{p_end}
 
@@ -7698,7 +7982,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}External balance on goods and services (formerly resource balance) equals exports of goods and services minus imports of goods and services (previously nonfactor services). Data are in current U.S. dollars.{p_end}
 
@@ -7737,7 +8021,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}External balance on goods and services (formerly resource balance) equals exports of goods and services minus imports of goods and services (previously nonfactor services).{p_end}
 
@@ -7776,7 +8060,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC divisions 1-3 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs a{p_end}
 
@@ -8231,7 +8515,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Education expenditure refers to the current operating expenditures in education, including wages and salaries and excluding capital investments in buildings and equipment.{p_end}
 
@@ -8244,7 +8528,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$40 per ton of CO2 (the unit damage in 2017 US dollars for CO2 emitted in 2020) times the number of tons of CO2 emitted.{p_end}
 
@@ -8257,7 +8541,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$40 per ton of CO2 (the unit damage in 2017 US dollars for CO2 emitted in 2020) times the number of tons of CO2 emitted.{p_end}
 
@@ -8270,7 +8554,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth.{p_end}
 
@@ -8283,7 +8567,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth.{p_end}
 
@@ -8296,7 +8580,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Consumption of fixed capital represents the replacement value of capital used up in the process of production.{p_end}
 
@@ -8309,7 +8593,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Consumption of fixed capital represents the replacement value of capital used up in the process of production.{p_end}
 
@@ -8322,7 +8606,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
 
@@ -8335,7 +8619,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
 
@@ -8348,7 +8632,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas.{p_end}
 
@@ -8361,7 +8645,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas.{p_end}
 
@@ -8400,7 +8684,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Natural resource depletion is the sum of net forest depletion, energy depletion, and mineral depletion. Net forest depletion is unit resource rents times the excess of roundwood harvest over natural growth. Energy depletion is the ratio of the{p_end}
 
@@ -8413,7 +8697,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Gross savings are the difference between gross national income and public and private consumption, plus net current transfers.{p_end}
 
@@ -8426,7 +8710,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital.{p_end}
 
@@ -8543,7 +8827,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage.{p_end}
 
@@ -8556,7 +8840,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide. This series excludes particulate emissions damage.{p_end}
 
@@ -8582,7 +8866,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Exports as a capacity to import equals the current price value of exports of goods and services deflated by the import price index. Data are in constant local currency.{p_end}
 
@@ -8751,7 +9035,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Mineral rents are the difference between the value of production for a stock of minerals at world prices and their total costs of production. Minerals included in the calculation are tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite{p_end}
 
@@ -8844,7 +9128,7 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}This indicator provides values for gross domestic product (GDP) expressed in current international dollars, converted by purchasing power parity (PPP) conversion factor.  GDP is the sum of gross value added by all resident producers in the cou{p_end}
+{synopt:{opt Source Notes}}This indicator provides values for gross domestic product (GDP) expressed in current international dollars, converted by purchasing power parity (PPP) conversion factor.{p_end}
 
 {synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
@@ -8948,7 +9232,7 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}This indicator provides per capita values for gross domestic product (GDP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor.   GDP is the sum of gross value added by all resident producers{p_end}
+{synopt:{opt Source Notes}}This indicator provides per capita values for gross domestic product (GDP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor.{p_end}
 
 {synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
@@ -9063,7 +9347,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abr{p_end}
 
@@ -9143,7 +9427,7 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}This indicator provides values for gross national income (GNI. Formerly GNP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor.  Gross national income is the sum of value added by all resid{p_end}
+{synopt:{opt Source Notes}}This indicator provides values for gross national income (GNI. Formerly GNP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor.{p_end}
 
 {synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
@@ -9234,7 +9518,7 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}This indicator provides per capita values for gross national income (GNI. Formerly GNP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor.  GNI is the sum of value added by all resident pro{p_end}
+{synopt:{opt Source Notes}}This indicator provides per capita values for gross national income (GNI. Formerly GNP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor.{p_end}
 
 {synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
 
@@ -9440,7 +9724,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}The DEC alternative conversion factor is the underlying annual exchange rate used for the World Bank Atlas method. As a rule, it is the official exchange rate reported in the IMF's International Financial Statistics (line rf). Exceptions arise{p_end}
 
@@ -9500,6 +9784,84 @@
 
 
 {synoptline}
+{marker sourceid_PV.EST}
+{synopt:{bf:{help wbopendata_sourceid##PV.EST:PV.EST} - Political Stability and Absence of Violence/Terrorism: Estimate}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism. Estimate gives the country's score on the aggregate indicator, in{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_PV.NO.SRC}
+{synopt:{bf:{help wbopendata_sourceid##PV.NO.SRC:PV.NO.SRC} - Political Stability and Absence of Violence/Terrorism: Number of Sources}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.   Number of sources indicates the number of underlying data sourc{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_PV.PER.RNK}
+{synopt:{bf:{help wbopendata_sourceid##PV.PER.RNK:PV.PER.RNK} - Political Stability and Absence of Violence/Terrorism: Percentile Rank}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Percentile rank indicates the country's rank among all countries{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_PV.PER.RNK.LOWER}
+{synopt:{bf:{help wbopendata_sourceid##PV.PER.RNK.LOWER:PV.PER.RNK.LOWER} - Political Stability and Absence of Violence/Terrorism: Percentile Rank, Lower Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Percentile rank indicates the country's rank among all countries{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_PV.PER.RNK.UPPER}
+{synopt:{bf:{help wbopendata_sourceid##PV.PER.RNK.UPPER:PV.PER.RNK.UPPER} - Political Stability and Absence of Violence/Terrorism: Percentile Rank, Upper Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Percentile rank indicates the country's rank among all countries{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_PV.STD.ERR}
+{synopt:{bf:{help wbopendata_sourceid##PV.STD.ERR:PV.STD.ERR} - Political Stability and Absence of Violence/Terrorism: Standard Error}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Standard error indicates the precision of the estimate of govern{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
 {marker sourceid_PX.REX.REER}
 {synopt:{bf:{help wbopendata_sourceid##PX.REX.REER:PX.REX.REER} - Real effective exchange rate index (2010 = 100)}}
 
@@ -9513,16 +9875,172 @@
 
 
 {synoptline}
+{marker sourceid_RL.EST}
+{synopt:{bf:{help wbopendata_sourceid##RL.EST:RL.EST} - Rule of Law: Estimate}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_RL.NO.SRC}
+{synopt:{bf:{help wbopendata_sourceid##RL.NO.SRC:RL.NO.SRC} - Rule of Law: Number of Sources}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_RL.PER.RNK}
+{synopt:{bf:{help wbopendata_sourceid##RL.PER.RNK:RL.PER.RNK} - Rule of Law: Percentile Rank}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_RL.PER.RNK.LOWER}
+{synopt:{bf:{help wbopendata_sourceid##RL.PER.RNK.LOWER:RL.PER.RNK.LOWER} - Rule of Law: Percentile Rank, Lower Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_RL.PER.RNK.UPPER}
+{synopt:{bf:{help wbopendata_sourceid##RL.PER.RNK.UPPER:RL.PER.RNK.UPPER} - Rule of Law: Percentile Rank, Upper Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_RL.STD.ERR}
+{synopt:{bf:{help wbopendata_sourceid##RL.STD.ERR:RL.STD.ERR} - Rule of Law: Standard Error}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_RQ.EST}
+{synopt:{bf:{help wbopendata_sourceid##RQ.EST:RQ.EST} - Regulatory Quality: Estimate}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Estimate gives the country's score on the aggregate indicato{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_RQ.NO.SRC}
+{synopt:{bf:{help wbopendata_sourceid##RQ.NO.SRC:RQ.NO.SRC} - Regulatory Quality: Number of Sources}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. umber of sources indicates the number of underlying data sou{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_RQ.PER.RNK}
+{synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK:RQ.PER.RNK} - Regulatory Quality: Percentile Rank}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_RQ.PER.RNK.LOWER}
+{synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK.LOWER:RQ.PER.RNK.LOWER} - Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_RQ.PER.RNK.UPPER}
+{synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK.UPPER:RQ.PER.RNK.UPPER} - Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
+{marker sourceid_RQ.STD.ERR}
+{synopt:{bf:{help wbopendata_sourceid##RQ.STD.ERR:RQ.STD.ERR} - Regulatory Quality: Standard Error}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Standard error indicates the precision of the estimate of go{p_end}
+
+{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+
+
+{synoptline}
 {marker sourceid_SE.ADT.1524.LT.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SE.ADT.1524.LT.FE.ZS:SE.ADT.1524.LT.FE.ZS} - Literacy rate, youth female (% of females ages 15-24)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9535,7 +10053,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for youth literacy rate is the ratio of females to males ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9548,7 +10066,7 @@
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9561,7 +10079,7 @@
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9570,11 +10088,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9583,11 +10101,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9600,7 +10118,7 @@
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9613,7 +10131,7 @@
 
 {synopt:{opt Source Notes}}Duration of compulsory education is the number of years that children are legally obliged to attend school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9622,7 +10140,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}15 Social Development{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary education is the ratio of girls to boys enrolled at primary level in public and private schools.{p_end}
 
@@ -9648,7 +10166,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}15 Social Development{p_end}
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in secondary education is the ratio of girls to boys enrolled at secondary level in public and private schools.{p_end}
 
@@ -9665,7 +10183,117 @@
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in tertiary education is the ratio of women to men enrolled at tertiary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM:SE.LPV.PRIM} - Learning poverty: Share of Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}The share of 10-year-olds who cannot read and understand a short passage of age-appropriate material—in other words, those who are below the “minimum proficiency” threshold for reading. This measure is defined as the union of two depriva{p_end}
+
+{synopt:{opt Source Organization}}World Bank and UIS{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM.FE}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM.FE:SE.LPV.PRIM.FE} - Learning poverty: Share of Female Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}The share of female 10-year-olds who cannot read and understand a short passage of age-appropriate material—in other words, those who are below the “minimum proficiency” threshold for reading. This measure is defined as the union of two{p_end}
+
+{synopt:{opt Source Organization}}World Bank and UIS{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM.LD}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM.LD:SE.LPV.PRIM.LD} - Pupils below minimum reading proficiency at end of primary (%). Low GAML threshold}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}The share of pupils at the end of primary schooling who are below the minimum proficiency level (MPL) for reading or learning deprived. The MPL in reading at the end of primary is defined by the Global Alliance to Monitor Learning (GAML), meas{p_end}
+
+{synopt:{opt Source Organization}}World Bank and UIS{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM.LD.FE}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM.LD.FE:SE.LPV.PRIM.LD.FE} - Female pupils below minimum reading proficiency at end of primary (%). Low GAML threshold}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}The share of female pupils at the end of primary schooling who are below the minimum proficiency level (MPL) for reading or learning deprived. The MPL in reading at the end of primary is defined by the Global Alliance to Monitor Learning (GAML{p_end}
+
+{synopt:{opt Source Organization}}World Bank and UIS{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM.LD.MA}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM.LD.MA:SE.LPV.PRIM.LD.MA} - Male pupils below minimum reading proficiency at end of primary (%). Low GAML threshold}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}The share of male pupils at the end of primary schooling who are below the minimum proficiency level (MPL) for reading or learning deprived. The MPL in reading at the end of primary is defined by the Global Alliance to Monitor Learning (GAML),{p_end}
+
+{synopt:{opt Source Organization}}World Bank and UIS{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM.MA}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM.MA:SE.LPV.PRIM.MA} - Learning poverty: Share of Male Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}04 Education{p_end}
+
+{synopt:{opt Source Notes}}The share of male 10-year-olds who cannot read and understand a short passage of age-appropriate material—in other words, those who are below the “minimum proficiency” threshold for reading. This measure is defined as the union of two de{p_end}
+
+{synopt:{opt Source Organization}}World Bank and UIS{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM.SD}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM.SD:SE.LPV.PRIM.SD} - Primary school age children out-of-school (%)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}The share of children of primary-school age who are out of school or schooling deprived. This dimension is linked to the indicator 4.1.4 from the SDG 4 thematic framework. This element reflects the belief that all primary-age children should b{p_end}
+
+{synopt:{opt Source Organization}}World Bank and UIS{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM.SD.FE}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM.SD.FE:SE.LPV.PRIM.SD.FE} - Female primary school age children out-of-school (%)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}The share of female children of primary-school age who are out of school or schooling deprived. This dimension is linked to the indicator 4.1.4 from the SDG 4 thematic framework. This element reflects the belief that all primary-age children s{p_end}
+
+{synopt:{opt Source Organization}}World Bank and UIS{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM.SD.MA}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM.SD.MA:SE.LPV.PRIM.SD.MA} - Male primary school age children out-of-school (%)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}The share of male children of primary-school age who are out of school or schooling deprived. This dimension is linked to the indicator 4.1.4 from the SDG 4 thematic framework. This element reflects the belief that all primary-age children sho{p_end}
+
+{synopt:{opt Source Organization}}World Bank and UIS{p_end}
 
 
 {synoptline}
@@ -9678,7 +10306,7 @@
 
 {synopt:{opt Source Notes}}Preprimary duration refers to the number of grades (years) in preprimary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9726,7 +10354,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Preprimary education refers to programs at the initial stage of organiz{p_end}
 
@@ -9743,7 +10371,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in preprimary education are the percentage of preprimary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9756,7 +10384,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in preprimary education are the percentage of preprimary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9769,7 +10397,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in preprimary education are the percentage of preprimary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9782,7 +10410,7 @@
 
 {synopt:{opt Source Notes}}Primary school starting age is the age at which students would enter primary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progressed through the s{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9795,7 +10423,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9808,7 +10436,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9817,11 +10445,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9830,11 +10458,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9843,11 +10471,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9860,7 +10488,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9873,7 +10501,7 @@
 
 {synopt:{opt Source Notes}}Primary duration refers to the number of grades (years) in primary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9886,7 +10514,7 @@
 
 {synopt:{opt Source Notes}}Primary education pupils is the total number of pupils enrolled at primary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9925,7 +10553,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9938,7 +10566,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -9951,7 +10579,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10012,7 +10640,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Primary education provides children with basic reading, writing, and mathematics skills{p_end}
 
@@ -10025,7 +10653,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Primary education provides children with basic reading, writing, and mathematics skills{p_end}
 
@@ -10038,7 +10666,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net intake rate in grade 1 is the number of new entrants in the first grade of primary education who are of official primary school entrance age, expressed as a percentage of the population of the corresponding age.{p_end}
 
@@ -10120,7 +10748,7 @@
 
 {synopt:{opt Source Notes}}Private enrollment refers to pupils or students enrolled in institutions that are not operated by a public authority but controlled and managed, whether for profit or not, by a private body such as a nongovernmental organization, religious bod{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10129,11 +10757,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10146,7 +10774,7 @@
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10159,7 +10787,7 @@
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10168,11 +10796,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10181,11 +10809,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10198,7 +10826,7 @@
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10207,7 +10835,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Repeaters in primary school are the number of students enrolled in the same grade as in the previous year, as a percentage of all students enrolled in primary school.{p_end}
 
@@ -10250,7 +10878,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10259,11 +10887,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10276,7 +10904,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10289,7 +10917,7 @@
 
 {synopt:{opt Source Notes}}Primary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10302,7 +10930,7 @@
 
 {synopt:{opt Source Notes}}Female teachers as a percentage of total primary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10337,7 +10965,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Adjusted net enrollment is the number of pupils of the school-age group for primary education, enrolled either in primary or secondary education, expressed as a percentage of the total population in that age group.{p_end}
 
@@ -10354,7 +10982,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10367,7 +10995,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10380,7 +11008,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the percentage of primary-school-age children who are not enrolled in primary or secondary school. Children in the official primary age group that are in preprimary education should be considered out of school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10393,7 +11021,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10406,7 +11034,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the percentage of primary-school-age children who are not enrolled in primary or secondary school. Children in the official primary age group that are in preprimary education should be considered out of school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10419,7 +11047,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the percentage of primary-school-age children who are not enrolled in primary or secondary school. Children in the official primary age group that are in preprimary education should be considered out of school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10432,7 +11060,7 @@
 
 {synopt:{opt Source Notes}}Lower secondary school starting age is the age at which students would enter lower secondary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progress{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10445,7 +11073,7 @@
 
 {synopt:{opt Source Notes}}Lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary ed{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10458,7 +11086,7 @@
 
 {synopt:{opt Source Notes}}Lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary ed{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10471,7 +11099,7 @@
 
 {synopt:{opt Source Notes}}Lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary ed{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10480,11 +11108,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10497,7 +11125,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10510,7 +11138,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10523,7 +11151,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10532,11 +11160,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10549,7 +11177,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10562,7 +11190,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10571,11 +11199,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10588,7 +11216,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10601,7 +11229,7 @@
 
 {synopt:{opt Source Notes}}Secondary duration refers to the number of grades (years) in secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10614,7 +11242,7 @@
 
 {synopt:{opt Source Notes}}Secondary education pupils is the total number of pupils enrolled at secondary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10623,7 +11251,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Female pupils as a percentage of total pupils at secondary level includes enrollments in public and private schools.{p_end}
 
@@ -10714,7 +11342,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Secondary vocational pupils are the number of secondary students enrolled in technical and vocational education programs, including teacher training.{p_end}
 
@@ -10731,7 +11359,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10740,11 +11368,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10757,7 +11385,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10779,7 +11407,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Secondary education completes the provision of basic education that began at the primary{p_end}
 
@@ -10809,7 +11437,7 @@
 
 {synopt:{opt Source Notes}}Private enrollment refers to pupils or students enrolled in institutions that are not operated by a public authority but controlled and managed, whether for profit or not, by a private body such as a nongovernmental organization, religious bod{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10861,7 +11489,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in secondary education are the percentage of secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10874,7 +11502,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in lower secondary education are the percentage of lower secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10887,7 +11515,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in lower secondary education are the percentage of lower secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10900,7 +11528,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in lower secondary education are the percentage of lower secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10913,7 +11541,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in secondary education are the percentage of secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10926,7 +11554,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in upper secondary education are the percentage of upper secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10939,7 +11567,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in upper secondary education are the percentage of upper secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10952,7 +11580,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in upper secondary education are the percentage of upper secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10965,7 +11593,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in secondary education are the percentage of secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10978,7 +11606,7 @@
 
 {synopt:{opt Source Notes}}Secondary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10991,7 +11619,7 @@
 
 {synopt:{opt Source Notes}}Secondary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11000,11 +11628,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Female teachers as a percentage of total secondary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11017,7 +11645,7 @@
 
 {synopt:{opt Source Notes}}Adolescents out of school are the percentage of lower secondary school age adolescents who are not enrolled in school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11030,7 +11658,7 @@
 
 {synopt:{opt Source Notes}}Adolescents out of school are the percentage of lower secondary school age adolescents who are not enrolled in school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11043,7 +11671,7 @@
 
 {synopt:{opt Source Notes}}Adolescents out of school are the percentage of lower secondary school age adolescents who are not enrolled in school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11056,7 +11684,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11065,11 +11693,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11078,11 +11706,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11095,7 +11723,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11108,7 +11736,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11121,7 +11749,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11130,11 +11758,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11143,11 +11771,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11156,11 +11784,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11173,7 +11801,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11186,7 +11814,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11199,7 +11827,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11225,7 +11853,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11234,11 +11862,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11247,7018 +11875,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.TCHR.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.TCHR.FE.ZS:SE.TER.TCHR.FE.ZS} - Tertiary education, academic staff (% female)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Tertiary education, academic staff (% female) is the share of female academic staff in tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.XPD.CPRM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.CPRM.ZS:SE.XPD.CPRM.ZS} - Current education expenditure, primary (% of total expenditure in primary public institutions)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Current expenditure is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded fro{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.XPD.CSEC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.CSEC.ZS:SE.XPD.CSEC.ZS} - Current education expenditure, secondary (% of total expenditure in secondary public institutions)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Current expenditure is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded fro{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.XPD.CTER.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.CTER.ZS:SE.XPD.CTER.ZS} - Current education expenditure, tertiary (% of total expenditure in tertiary public institutions)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Current expenditure is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded fro{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.XPD.CTOT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.CTOT.ZS:SE.XPD.CTOT.ZS} - Current education expenditure, total (% of total expenditure in public institutions)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Current expenditure is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded fro{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.XPD.PRIM.PC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.PRIM.PC.ZS:SE.XPD.PRIM.PC.ZS} - Government expenditure per student, primary (% of GDP per capita)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Government expenditure per student is the average general government expenditure (current, capital, and transfers) per student in the given level of education, expressed as a percentage of GDP per capita.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.XPD.PRIM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.PRIM.ZS:SE.XPD.PRIM.ZS} - Expenditure on primary education (% of government expenditure on education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Expenditure on primary education is expressed as a percentage of total general government expenditure on education. General government usually refers to local, regional and central governments.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.XPD.SECO.PC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.SECO.PC.ZS:SE.XPD.SECO.PC.ZS} - Government expenditure per student, secondary (% of GDP per capita)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Government expenditure per student is the average general government expenditure (current, capital, and transfers) per student in the given level of education, expressed as a percentage of GDP per capita.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.XPD.SECO.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.SECO.ZS:SE.XPD.SECO.ZS} - Expenditure on secondary education (% of government expenditure on education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Expenditure on secondary education is expressed as a percentage of total general government expenditure on education. General government usually refers to local, regional and central governments.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.XPD.TERT.PC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.TERT.PC.ZS:SE.XPD.TERT.PC.ZS} - Government expenditure per student, tertiary (% of GDP per capita)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Government expenditure per student is the average general government expenditure (current, capital, and transfers) per student in the given level of education, expressed as a percentage of GDP per capita.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.XPD.TERT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.TERT.ZS:SE.XPD.TERT.ZS} - Expenditure on tertiary education (% of government expenditure on education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Expenditure on tertiary education is expressed as a percentage of total general government expenditure on education. General government usually refers to local, regional and central governments.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.XPD.TOTL.GB.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.TOTL.GB.ZS:SE.XPD.TOTL.GB.ZS} - Government expenditure on education, total (% of government expenditure)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}General government expenditure on education (current, capital, and transfers) is expressed as a percentage of total general government expenditure on all sectors (including health, education, social services, etc.). It includes expenditure fun{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.XPD.TOTL.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.TOTL.GD.ZS:SE.XPD.TOTL.GD.ZS} - Government expenditure on education, total (% of GDP)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}General government expenditure on education (current, capital, and transfers) is expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. General government usually refers to local{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SG.DMK.ALLD.FN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SG.DMK.ALLD.FN.ZS:SG.DMK.ALLD.FN.ZS} - Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Women participating in the three decisions (own health care, major household purchases, and visiting family) is the percentage of currently married women aged 15-49 who say that they alone or jointly have the final say in all of the three deci{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker sourceid_SG.DMK.SRCR.FN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SG.DMK.SRCR.FN.ZS:SG.DMK.SRCR.FN.ZS} - Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Proportion of women ages 15-49 years (married or in union) who make their own decision on all three selected areas i.e. can say no to sexual intercourse with their husband or partner if they do not want; decide on use of contraception; and dec{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys compiled by United Nations Population Fund{p_end}
-
-
-{synoptline}
-{marker sourceid_SG.GEN.PARL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SG.GEN.PARL.ZS:SG.GEN.PARL.ZS} - Proportion of seats held by women in national parliaments (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.{p_end}
-
-{synopt:{opt Source Organization}}Inter-Parliamentary Union (IPU) ({browse "www.ipu.org"}).  For the year of 1998, the data is as of August 10, 1998.{p_end}
-
-
-{synoptline}
-{marker sourceid_SG.LAW.INDX}
-{synopt:{bf:{help wbopendata_sourceid##SG.LAW.INDX:SG.LAW.INDX} - Women Business and the Law Index Score (scale 1-100)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}The index measures how laws and regulations affect women’s economic opportunity. Overall scores are calculated by taking the average score of each index (Mobility, Workplace, Pay, Marriage, Parenthood, Entrepreneurship, Assets and Pension),{p_end}
-
-{synopt:{opt Source Organization}}World Bank: Women, Business and the Law. {browse "https://wbl.worldbank.org/"}{p_end}
-
-
-{synoptline}
-{marker sourceid_SG.TIM.UWRK.FE}
-{synopt:{bf:{help wbopendata_sourceid##SG.TIM.UWRK.FE:SG.TIM.UWRK.FE} - Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}The average time women spend on household provision of services for own consumption. Data are expressed as a proportion of time in a day. Domestic and care work includes food preparation, dishwashing, cleaning and upkeep of a dwelling, laundry{p_end}
-
-{synopt:{opt Source Organization}}National statistical offices or national database and publications compiled by United Nations Statistics Division.  The data were downloaded on December 3 from the Global SDG Indicators Database:  {browse "https://unstats.un.org/sdgs/indicators/databas"}{p_end}
-
-
-{synoptline}
-{marker sourceid_SG.TIM.UWRK.MA}
-{synopt:{bf:{help wbopendata_sourceid##SG.TIM.UWRK.MA:SG.TIM.UWRK.MA} - Proportion of time spent on unpaid domestic and care work, male (% of 24 hour day)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}The average time men spend on household provision of services for own consumption.  Data are expressed as a proportion of time in a day. Domestic and care work includes food preparation, dishwashing, cleaning and upkeep of a dwelling, laundry,{p_end}
-
-{synopt:{opt Source Organization}}National statistical offices or national database and publications compiled by United Nations Statistics Division{p_end}
-
-
-{synoptline}
-{marker sourceid_SG.VAW.1549.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SG.VAW.1549.ZS:SG.VAW.1549.ZS} - Proportion of women subjected to physical and/or sexual violence in the last 12 months (% of ever-partnered women ages 15-49)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Proportion of women subjected to physical and/or sexual violence in the last 12 months is the percentage of ever partnered women age 15-49 who are subjected to physical violence, sexual violence or both by a current or former intimate partner{p_end}
-
-{synopt:{opt Source Organization}}United Nations Statistics Division (UNSD){p_end}
-
-
-{synoptline}
-{marker sourceid_SG.VAW.ARGU.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SG.VAW.ARGU.ZS:SG.VAW.ARGU.ZS} - Women who believe a husband is justified in beating his wife when she argues with him (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she argues with him.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
-
-
-{synoptline}
-{marker sourceid_SG.VAW.BURN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SG.VAW.BURN.ZS:SG.VAW.BURN.ZS} - Women who believe a husband is justified in beating his wife when she burns the food (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she burns the food.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
-
-
-{synoptline}
-{marker sourceid_SG.VAW.GOES.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SG.VAW.GOES.ZS:SG.VAW.GOES.ZS} - Women who believe a husband is justified in beating his wife when she goes out without telling him (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
-
-
-{synoptline}
-{marker sourceid_SG.VAW.NEGL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SG.VAW.NEGL.ZS:SG.VAW.NEGL.ZS} - Women who believe a husband is justified in beating his wife when she neglects the children (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she neglects the children.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
-
-
-{synoptline}
-{marker sourceid_SG.VAW.REAS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SG.VAW.REAS.ZS:SG.VAW.REAS.ZS} - Women who believe a husband is justified in beating his wife (any of five reasons) (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
-
-
-{synoptline}
-{marker sourceid_SG.VAW.REFU.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SG.VAW.REFU.ZS:SG.VAW.REFU.ZS} - Women who believe a husband is justified in beating his wife when she refuses sex with him (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she refuses sex with him.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.ALC.PCAP.FE.LI}
-{synopt:{bf:{help wbopendata_sourceid##SH.ALC.PCAP.FE.LI:SH.ALC.PCAP.FE.LI} - Total alcohol consumption per capita, female (liters of pure alcohol, projected estimates, female 15+ years of age)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consum{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.ALC.PCAP.LI}
-{synopt:{bf:{help wbopendata_sourceid##SH.ALC.PCAP.LI:SH.ALC.PCAP.LI} - Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consum{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.ALC.PCAP.MA.LI}
-{synopt:{bf:{help wbopendata_sourceid##SH.ALC.PCAP.MA.LI:SH.ALC.PCAP.MA.LI} - Total alcohol consumption per capita, male (liters of pure alcohol, projected estimates, male 15+ years of age)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consum{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.ANM.ALLW.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.ANM.ALLW.ZS:SH.ANM.ALLW.ZS} - Prevalence of anemia among women of reproductive age (% of women ages 15-49)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of anemia among women of reproductive age refers to the combined prevalence of both non-pregnant with haemoglobin levels below 12 g/dL and pregnant women with haemoglobin levels below 11 g/dL.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository/World Health Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.ANM.CHLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.ANM.CHLD.ZS:SH.ANM.CHLD.ZS} - Prevalence of anemia among children (% of children ages 6-59 months)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of anemia, children ages 6-59 months, is the percentage of children ages 6-59 months whose hemoglobin level is less than 110 grams per liter, adjusted for altitude.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository/World Health Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.ANM.NPRG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.ANM.NPRG.ZS:SH.ANM.NPRG.ZS} - Prevalence of anemia among non-pregnant women (% of women ages 15-49)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of anemia, non-pregnant women, is the percentage of non-pregnant women whose hemoglobin level is less than 120 grams per liter at sea level.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository/World Health Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.CON.1524.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.CON.1524.FE.ZS:SH.CON.1524.FE.ZS} - Condom use, population ages 15-24, female (% of females ages 15-24)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Condom use, female is the percentage of the female population ages 15-24 who used a condom at last intercourse in the last 12 months.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys, and UNAIDS.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.CON.1524.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.CON.1524.MA.ZS:SH.CON.1524.MA.ZS} - Condom use, population ages 15-24, male (% of males ages 15-24)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Condom use, male is the percentage of the male population ages 15-24 who used a condom at last intercourse in the last 12 months.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys, and UNAIDS.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DTH.0509}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.0509:SH.DTH.0509} - Number of deaths ages 5-9 years}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of deaths of children ages 5-9 years{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DTH.1014}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.1014:SH.DTH.1014} - Number of deaths ages 10-14 years}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of deaths of adolescents ages 10-14 years{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DTH.1519}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.1519:SH.DTH.1519} - Number of deaths ages 15-19 years}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of deaths of adolescents ages 15-19 years{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DTH.2024}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.2024:SH.DTH.2024} - Number of deaths ages 20-24 years}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of deaths of youths ages 20-24 years{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DTH.COMM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.COMM.ZS:SH.DTH.COMM.ZS} - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for all ages by underlying causes. Communicable diseases and maternal, prenatal and nutrition conditions include infectious and parasitic diseases, respiratory infections, and nutritional defici{p_end}
-
-{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DTH.IMRT}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.IMRT:SH.DTH.IMRT} - Number of infant deaths}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Number of infants dying before reaching one year of age.{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DTH.INJR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.INJR.ZS:SH.DTH.INJR.ZS} - Cause of death, by injury (% of total)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for all ages by underlying causes. Injuries include unintentional and intentional injuries.{p_end}
-
-{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DTH.MORT}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.MORT:SH.DTH.MORT} - Number of under-five deaths}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Number of children dying before reaching age five.{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DTH.NCOM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NCOM.ZS:SH.DTH.NCOM.ZS} - Cause of death, by non-communicable diseases (% of total)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for all ages by underlying causes. Non-communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseases, musculoskeletal diseases, and congenit{p_end}
-
-{synopt:{opt Source Organization}}Derived based on the data from Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. Link: {browse "https://www.who.int/data/gho/data/themes/mortality-and-global-health-es"}{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DTH.NMRT}
-{synopt:{bf:{help wbopendata_sourceid##SH.DTH.NMRT:SH.DTH.NMRT} - Number of neonatal deaths}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Number of neonates dying before reaching 28 days of age.{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DYN.0509}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.0509:SH.DYN.0509} - Probability of dying among children ages 5-9 years (per 1,000)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Probability of dying between age 5-9 years of age expressed per 1,000 children aged 5, if subject to age-specific mortality rates of the specified year.{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DYN.1014}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.1014:SH.DYN.1014} - Probability of dying among adolescents ages 10-14 years (per 1,000)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Probability of dying between age 10-14 years of age expressed per 1,000 adolescents age 10, if subject to age-specific mortality rates of the specified year.{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DYN.1519}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.1519:SH.DYN.1519} - Probability of dying among adolescents ages 15-19 years (per 1,000)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Probability of dying between age 15-19 years of age expressed per 1,000 adolescents age 15, if subject to age-specific mortality rates of the specified year.{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DYN.2024}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.2024:SH.DYN.2024} - Probability of dying among youth ages 20-24 years (per 1,000)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Probability of dying between age 20-24 years of age expressed per 1,000 youths age 20, if subject to age-specific mortality rates of the specified year.{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DYN.AIDS.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.AIDS.FE.ZS:SH.DYN.AIDS.FE.ZS} - Women's share of population ages 15+ living with HIV (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of HIV is the percentage of people who are infected with HIV. Female rate is as a percentage of the total population ages 15+ who are living with HIV.{p_end}
-
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DYN.AIDS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.AIDS.ZS:SH.DYN.AIDS.ZS} - Prevalence of HIV, total (% of population ages 15-49)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of HIV refers to the percentage of people ages 15-49 who are infected with HIV.{p_end}
-
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DYN.MORT}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.MORT:SH.DYN.MORT} - Mortality rate, under-5 (per 1,000 live births)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of the specified year.{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DYN.MORT.FE}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.MORT.FE:SH.DYN.MORT.FE} - Mortality rate, under-5, female (per 1,000 live births)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Under-five mortality rate, female is the probability per 1,000 that a newborn female baby will die before reaching age five, if subject to female age-specific mortality rates of the specified year.{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DYN.MORT.MA}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.MORT.MA:SH.DYN.MORT.MA} - Mortality rate, under-5, male (per 1,000 live births)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Under-five mortality rate, male is the probability per 1,000 that a newborn male baby will die before reaching age five, if subject to male age-specific mortality rates of the specified year.{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DYN.NCOM.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.NCOM.FE.ZS:SH.DYN.NCOM.FE.ZS} - Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70, female (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Mortality from CVD, cancer, diabetes or CRD is the percent of 30-year-old-people who would die before their 70th birthday from any of cardiovascular disease, cancer, diabetes,  or chronic respiratory disease, assuming that s/he would experienc{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DYN.NCOM.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.NCOM.MA.ZS:SH.DYN.NCOM.MA.ZS} - Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70, male (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Mortality from CVD, cancer, diabetes or CRD is the percent of 30-year-old-people who would die before their 70th birthday from any of cardiovascular disease, cancer, diabetes,  or chronic respiratory disease, assuming that s/he would experienc{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DYN.NCOM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.NCOM.ZS:SH.DYN.NCOM.ZS} - Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Mortality from CVD, cancer, diabetes or CRD is the percent of 30-year-old-people who would die before their 70th birthday from any of cardiovascular disease, cancer, diabetes,  or chronic respiratory disease, assuming that s/he would experienc{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.DYN.NMRT}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.NMRT:SH.DYN.NMRT} - Mortality rate, neonatal (per 1,000 live births)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Neonatal mortality rate is the number of neonates dying before reaching 28 days of age, per 1,000 live births in a given year.{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.FPL.SATM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.FPL.SATM.ZS:SH.FPL.SATM.ZS} - Demand for family planning satisfied by modern methods (% of married women with demand for family planning)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Demand for family planning satisfied by modern methods refers to the percentage of married women ages 15-49 years whose need for family planning is satisfied with modern methods.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.H2O.BASW.RU.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.H2O.BASW.RU.ZS:SH.H2O.BASW.RU.ZS} - People using at least basic drinking water services, rural (% of rural population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.H2O.BASW.UR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.H2O.BASW.UR.ZS:SH.H2O.BASW.UR.ZS} - People using at least basic drinking water services, urban (% of urban population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.H2O.BASW.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.H2O.BASW.ZS:SH.H2O.BASW.ZS} - People using at least basic drinking water services (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.H2O.SMDW.RU.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.H2O.SMDW.RU.ZS:SH.H2O.SMDW.RU.ZS} - People using safely managed drinking water services, rural (% of rural population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.H2O.SMDW.UR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.H2O.SMDW.UR.ZS:SH.H2O.SMDW.UR.ZS} - People using safely managed drinking water services, urban (% of urban population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.H2O.SMDW.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.H2O.SMDW.ZS:SH.H2O.SMDW.ZS} - People using safely managed drinking water services (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.HIV.0014}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.0014:SH.HIV.0014} - Children (0-14) living with HIV}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Children living with HIV refers to the number of children ages 0-14 who are infected with HIV.{p_end}
-
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.HIV.1524.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.1524.FE.ZS:SH.HIV.1524.FE.ZS} - Prevalence of HIV, female (% ages 15-24)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}15 Social Development{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of HIV, female is the percentage of females who are infected with HIV. Youth rates are as a percentage of the relevant age group.{p_end}
-
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.HIV.1524.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.1524.MA.ZS:SH.HIV.1524.MA.ZS} - Prevalence of HIV, male (% ages 15-24)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of HIV, male is the percentage of males who are infected with HIV. Youth rates are as a percentage of the relevant age group.{p_end}
-
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.HIV.ARTC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.ARTC.ZS:SH.HIV.ARTC.ZS} - Antiretroviral therapy coverage (% of people living with HIV)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Antiretroviral therapy coverage indicates the percentage of all people living with HIV who are receiving antiretroviral therapy.{p_end}
-
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.HIV.INCD}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.INCD:SH.HIV.INCD} - Adults (ages 15-49) newly infected with HIV}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Number of adults (ages 15-49) newly infected with HIV.{p_end}
-
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.HIV.INCD.14}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.INCD.14:SH.HIV.INCD.14} - Children (ages 0-14) newly infected with HIV}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Number of children (ages 0-14) newly infected with HIV.{p_end}
-
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.HIV.INCD.TL}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.INCD.TL:SH.HIV.INCD.TL} - Adults (ages 15+) and children (ages 0-14) newly infected with HIV}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Number of adults (ages 15+) and children (ages 0-14) newly infected with HIV.{p_end}
-
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.HIV.INCD.TL.P3}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.INCD.TL.P3:SH.HIV.INCD.TL.P3} - Incidence of HIV, all (per 1,000 uninfected population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Number of new HIV infections among uninfected populations expressed per 1,000 uninfected population in the year before the period.{p_end}
-
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.HIV.INCD.YG}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.INCD.YG:SH.HIV.INCD.YG} - Young people (ages 15-24) newly infected with HIV}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Number of young people (ages 15-24) newly infected with HIV.{p_end}
-
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.HIV.INCD.YG.P3}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.INCD.YG.P3:SH.HIV.INCD.YG.P3} - Incidence of HIV, ages 15-24 (per 1,000 uninfected population ages 15-24)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Number of new HIV infections among uninfected populations ages 15-24 expressed per 1,000 uninfected population ages 15-24 in the year before the period.{p_end}
-
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.HIV.INCD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.INCD.ZS:SH.HIV.INCD.ZS} - Incidence of HIV, ages 15-49 (per 1,000 uninfected population ages 15-49)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Number of new HIV infections among uninfected populations ages 15-49 expressed per 1,000 uninfected population in the year before the period.{p_end}
-
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.HIV.PMTC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.PMTC.ZS:SH.HIV.PMTC.ZS} - Antiretroviral therapy coverage for PMTCT (% of pregnant women living with HIV)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Percentage of pregnant women with HIV who receive antiretroviral medicine for prevention of mother-to-child transmission (PMTCT).{p_end}
-
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.IMM.HEPB}
-{synopt:{bf:{help wbopendata_sourceid##SH.IMM.HEPB:SH.IMM.HEPB} - Immunization, HepB3 (% of one-year-old children)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Child immunization rate, hepatitis B is the percentage of children ages 12-23 months who received hepatitis B vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized after three doses.{p_end}
-
-{synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.IMM.IDPT}
-{synopt:{bf:{help wbopendata_sourceid##SH.IMM.IDPT:SH.IMM.IDPT} - Immunization, DPT (% of children ages 12-23 months)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Child immunization, DPT, measures the percentage of children ages 12-23 months who received DPT vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized against diphtheria, pertussis (or whoopi{p_end}
-
-{synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.IMM.MEAS}
-{synopt:{bf:{help wbopendata_sourceid##SH.IMM.MEAS:SH.IMM.MEAS} - Immunization, measles (% of children ages 12-23 months)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Child immunization, measles, measures the percentage of children ages 12-23 months who received the measles vaccination before 12 months or at any time before the survey. A child is considered adequately immunized against measles after receivi{p_end}
-
-{synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.MED.BEDS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.MED.BEDS.ZS:SH.MED.BEDS.ZS} - Hospital beds (per 1,000 people)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Hospital beds include inpatient beds available in public, private, general, and specialized hospitals and rehabilitation centers. In most cases beds for both acute and chronic care are included.{p_end}
-
-{synopt:{opt Source Organization}}Data are from the World Health Organization, supplemented by country data.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.MED.CMHW.P3}
-{synopt:{bf:{help wbopendata_sourceid##SH.MED.CMHW.P3:SH.MED.CMHW.P3} - Community health workers (per 1,000 people)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Community health workers include various types of community health aides, many with country-specific occupational titles such as community health officers, community health-education workers, family health workers, lady health visitors and hea{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization's Global Health Workforce Statistics, OECD, supplemented by country data.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.MED.NUMW.P3}
-{synopt:{bf:{help wbopendata_sourceid##SH.MED.NUMW.P3:SH.MED.NUMW.P3} - Nurses and midwives (per 1,000 people)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Nurses and midwives include professional nurses, professional midwives, auxiliary nurses, auxiliary midwives, enrolled nurses, enrolled midwives and other associated personnel, such as dental nurses and primary care nurses.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization's Global Health Workforce Statistics, OECD, supplemented by country data.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.MED.PHYS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.MED.PHYS.ZS:SH.MED.PHYS.ZS} - Physicians (per 1,000 people)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Physicians include generalist and specialist medical practitioners.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization's Global Health Workforce Statistics, OECD, supplemented by country data.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.MED.SAOP.P5}
-{synopt:{bf:{help wbopendata_sourceid##SH.MED.SAOP.P5:SH.MED.SAOP.P5} - Specialist surgical workforce (per 100,000 population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Specialist surgical workforce is the number of specialist surgical, anaesthetic, and obstetric (SAO) providers who are working in each country per 100,000 population.{p_end}
-
-{synopt:{opt Source Organization}}Data collected by the Lancet Commission on Global Surgery (www.lancetglobalsurgery.org); Data collected by WHO Collaborating Centre for Surgery and Public Health at Lund University from various sources including Ministries of Health or equival{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.MLR.INCD.P3}
-{synopt:{bf:{help wbopendata_sourceid##SH.MLR.INCD.P3:SH.MLR.INCD.P3} - Incidence of malaria (per 1,000 population at risk)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Incidence of malaria is the number of new cases of malaria in a year per 1,000 population at risk.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository/World Health Statistics ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.MLR.NETS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.MLR.NETS.ZS:SH.MLR.NETS.ZS} - Use of insecticide-treated bed nets (% of under-5 population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Use of insecticide-treated bed nets refers to the percentage of children under age five who slept under an insecticide-treated bednet to prevent malaria.{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.MLR.TRET.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.MLR.TRET.ZS:SH.MLR.TRET.ZS} - Children with fever receiving antimalarial drugs (% of children under age 5 with fever)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Malaria treatment refers to the percentage of children under age five who were ill with fever in the last two weeks and received any appropriate (locally defined) anti-malarial drugs.{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.MMR.DTHS}
-{synopt:{bf:{help wbopendata_sourceid##SH.MMR.DTHS:SH.MMR.DTHS} - Number of maternal deaths}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}A maternal death refers to the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management bu{p_end}
-
-{synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 2000 to 2017. Geneva, World Health Organization, 2019{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.MMR.RISK}
-{synopt:{bf:{help wbopendata_sourceid##SH.MMR.RISK:SH.MMR.RISK} - Lifetime risk of maternal death (1 in: rate varies by country)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Life time risk of maternal death is the probability that a 15-year-old female will die eventually from a maternal cause assuming that current levels of fertility and mortality (including maternal mortality) do not change in the future, taking{p_end}
-
-{synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 2000 to 2017. Geneva, World Health Organization, 2019{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.MMR.RISK.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.MMR.RISK.ZS:SH.MMR.RISK.ZS} - Lifetime risk of maternal death (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Life time risk of maternal death is the probability that a 15-year-old female will die eventually from a maternal cause assuming that current levels of fertility and mortality (including maternal mortality) do not change in the future, taking{p_end}
-
-{synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 2000 to 2017. Geneva, World Health Organization, 2019{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.PRG.ANEM}
-{synopt:{bf:{help wbopendata_sourceid##SH.PRG.ANEM:SH.PRG.ANEM} - Prevalence of anemia among pregnant women (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of anemia, pregnant women, is the percentage of pregnant women whose hemoglobin level is less than 110 grams per liter at sea level.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository/World Health Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.PRV.SMOK}
-{synopt:{bf:{help wbopendata_sourceid##SH.PRV.SMOK:SH.PRV.SMOK} - Prevalence of current tobacco use (% of adults)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the population ages 15 years and over who currently use any tobacco product (smoked and/or smokeless tobacco) on a daily or non-daily basis. Tobacco products include cigarettes, pipes, cigars, cigarillos, waterpipes (hookah,{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.PRV.SMOK.FE}
-{synopt:{bf:{help wbopendata_sourceid##SH.PRV.SMOK.FE:SH.PRV.SMOK.FE} - Prevalence of current tobacco use, females (% of female adults)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the female population ages 15 years and over who currently use any tobacco product (smoked and/or smokeless tobacco) on a daily or non-daily basis. Tobacco products include cigarettes, pipes, cigars, cigarillos, waterpipes (h{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.PRV.SMOK.MA}
-{synopt:{bf:{help wbopendata_sourceid##SH.PRV.SMOK.MA:SH.PRV.SMOK.MA} - Prevalence of current tobacco use, males (% of male adults)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the male population ages 15 years and over who currently use any tobacco product (smoked and/or smokeless tobacco) on a daily or non-daily basis. Tobacco products include cigarettes, pipes, cigars, cigarillos, waterpipes (hoo{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.SGR.CRSK.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.SGR.CRSK.ZS:SH.SGR.CRSK.ZS} - Risk of catastrophic expenditure for surgical care (% of people at risk)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}The proportion of population at risk of catastrophic expenditure when surgical care is required. Catastrophic expenditure is defined as direct out of pocket payments for surgical and anaesthesia care exceeding 10% of total income.{p_end}
-
-{synopt:{opt Source Organization}}The Program in Global Surgery and Social Change (PGSSC) at Harvard Medical School ({browse "https://www.pgssc.org/"}){p_end}
-
-
-{synoptline}
-{marker sourceid_SH.SGR.IRSK.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.SGR.IRSK.ZS:SH.SGR.IRSK.ZS} - Risk of impoverishing expenditure for surgical care (% of people at risk)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}The proportion of population at risk of impoverishing expenditure when surgical care is required. Impoverishing expenditure is defined as direct out of pocket payments for surgical and anaesthesia care which drive people below a poverty thresh{p_end}
-
-{synopt:{opt Source Organization}}The Program in Global Surgery and Social Change (PGSSC) at Harvard Medical School ({browse "https://www.pgssc.org/"}){p_end}
-
-
-{synoptline}
-{marker sourceid_SH.SGR.PROC.P5}
-{synopt:{bf:{help wbopendata_sourceid##SH.SGR.PROC.P5:SH.SGR.PROC.P5} - Number of surgical procedures (per 100,000 population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}The number of procedures undertaken in an operating theatre per 100,000 population per year in each country. A procedure is defined as the incision, excision, or manipulation of tissue that needs regional or general anaesthesia, or profound se{p_end}
-
-{synopt:{opt Source Organization}}Data from various sources compiled by the Lancet Commission on Global Surgery ({browse "www.lancetglobalsurgery.org"}) and the Center for Health Equity in Surgery and Anesthesia at UCSF Medical Center.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.AIRP.FE.P5}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.AIRP.FE.P5:SH.STA.AIRP.FE.P5} - Mortality rate attributed to household and ambient air pollution, age-standardized, female (per 100,000 female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following dise{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.AIRP.MA.P5}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.AIRP.MA.P5:SH.STA.AIRP.MA.P5} - Mortality rate attributed to household and ambient air pollution, age-standardized, male (per 100,000 male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following dise{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.AIRP.P5}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.AIRP.P5:SH.STA.AIRP.P5} - Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following dise{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.ANVC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.ANVC.ZS:SH.STA.ANVC.ZS} - Pregnant women receiving prenatal care (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Pregnant women receiving prenatal care are the percentage of women attended at least once during pregnancy by skilled health personnel for reasons related to pregnancy.{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.ARIC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.ARIC.ZS:SH.STA.ARIC.ZS} - ARI treatment (% of children under 5 taken to a health provider)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Children with acute respiratory infection (ARI) who are taken to a health provider refers to the percentage of children under age five with ARI in the last two weeks who were taken to an appropriate health provider, including hospital, health{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.BASS.RU.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.BASS.RU.ZS:SH.STA.BASS.RU.ZS} - People using at least basic sanitation services, rural (% of rural population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.BASS.UR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.BASS.UR.ZS:SH.STA.BASS.UR.ZS} - People using at least basic sanitation services, urban (% of urban population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.BASS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.BASS.ZS:SH.STA.BASS.ZS} - People using at least basic sanitation services (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.BFED.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.BFED.ZS:SH.STA.BFED.ZS} - Exclusive breastfeeding (% of children under 6 months)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Exclusive breastfeeding refers to the percentage of children less than six months old who are fed breast milk alone (no other liquids) in the past 24 hours.{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.BRTC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.BRTC.ZS:SH.STA.BRTC.ZS} - Births attended by skilled health staff (% of total)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Births attended by skilled health staff are the percentage of deliveries attended by personnel trained to give the necessary supervision, care, and advice to women during pregnancy, labor, and the postpartum period; to conduct deliveries on th{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.BRTW.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.BRTW.ZS:SH.STA.BRTW.ZS} - Low-birthweight babies (% of births)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Low-birthweight babies are newborns weighing less than 2,500 grams, with the measurement taken within the first hour of life, before significant postnatal weight loss has occurred.{p_end}
-
-{synopt:{opt Source Organization}}UNICEF-WHO Low birthweight estimates [data.unicef.org]{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.DIAB.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.DIAB.ZS:SH.STA.DIAB.ZS} - Diabetes prevalence (% of population ages 20 to 79)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Diabetes prevalence refers to the percentage of people ages 20-79 who have type 1 or type 2 diabetes. It is calculated by adjusting to a standard population age-structure.{p_end}
-
-{synopt:{opt Source Organization}}International Diabetes Federation, Diabetes Atlas.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.FGMS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.FGMS.ZS:SH.STA.FGMS.ZS} - Female genital mutilation prevalence (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Percentage of women aged 15–49 who have gone through partial or total removal of the female external genitalia or other injury to the female genital organs for cultural or other non-therapeutic reasons.{p_end}
-
-{synopt:{opt Source Organization}}UNICEF DATA (http://www.data.unicef.org/);  Demographic and Health Surveys (DHS); Multiple Indicator Cluster Surveys (MICS), and other surveys.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.HYGN.RU.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.HYGN.RU.ZS:SH.STA.HYGN.RU.ZS} - People with basic handwashing facilities including soap and water, rural (% of rural population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.HYGN.UR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.HYGN.UR.ZS:SH.STA.HYGN.UR.ZS} - People with basic handwashing facilities including soap and water, urban (% of urban population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.HYGN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.HYGN.ZS:SH.STA.HYGN.ZS} - People with basic handwashing facilities including soap and water (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.MALN.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.MALN.FE.ZS:SH.STA.MALN.FE.ZS} - Prevalence of underweight, weight for age, female (% of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of underweight, female, is the percentage of girls under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's n{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.MALN.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.MALN.MA.ZS:SH.STA.MALN.MA.ZS} - Prevalence of underweight, weight for age, male (% of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of underweight, male, is the percentage of boys under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's new{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.MALN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.MALN.ZS:SH.STA.MALN.ZS} - Prevalence of underweight, weight for age (% of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}19 Climate Change{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of underweight children is the percentage of children under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO'{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.MMRT}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.MMRT:SH.STA.MMRT} - Maternal mortality ratio (modeled estimate, per 100,000 live births)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
-
-{synopt:{opt Source Notes}}Maternal mortality ratio is the number of women who die from pregnancy-related causes while pregnant or within 42 days of pregnancy termination per 100,000 live births. The data are estimated with a regression model using information on the pr{p_end}
-
-{synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 2000 to 2017. Geneva, World Health Organization, 2019{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.MMRT.NE}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.MMRT.NE:SH.STA.MMRT.NE} - Maternal mortality ratio (national estimate, per 100,000 live births)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Maternal mortality ratio is the number of women who die from pregnancy-related causes while pregnant or within 42 days of pregnancy termination per 100,000 live births.{p_end}
-
-{synopt:{opt Source Organization}}The country data compiled, adjusted and used in the estimation model by the Maternal Mortality Estimation Inter-Agency Group (MMEIG). The country data were compiled from the following sources:  civil registration and vital statistics; speciali{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.ODFC.RU.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.ODFC.RU.ZS:SH.STA.ODFC.RU.ZS} - People practicing open defecation, rural (% of rural population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}People practicing open defecation refers to the percentage of the population defecating in the open, such as in fields, forest, bushes, open bodies of water, on beaches, in other open spaces or disposed of with solid waste.{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.ODFC.UR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.ODFC.UR.ZS:SH.STA.ODFC.UR.ZS} - People practicing open defecation, urban (% of urban population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}People practicing open defecation refers to the percentage of the population defecating in the open, such as in fields, forest, bushes, open bodies of water, on beaches, in other open spaces or disposed of with solid waste.{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.ODFC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.ODFC.ZS:SH.STA.ODFC.ZS} - People practicing open defecation (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}People practicing open defecation refers to the percentage of the population defecating in the open, such as in fields, forest, bushes, open bodies of water, on beaches, in other open spaces or disposed of with solid waste.{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.ORCF.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.ORCF.ZS:SH.STA.ORCF.ZS} - Diarrhea treatment (% of children under 5 receiving oral rehydration and continued feeding)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Children with diarrhea who received oral rehydration and continued feeding refer to the percentage of children under age five with diarrhea in the two weeks prior to the survey who received either oral rehydration therapy or increased fluids,{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.ORTH}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.ORTH:SH.STA.ORTH} - Diarrhea treatment (% of children under 5 who received ORS packet)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Percentage of children under age 5 with diarrhea in the two weeks preceding the survey who received oral rehydration salts (ORS packets or pre-packaged ORS fluids).{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.OWGH.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.OWGH.FE.ZS:SH.STA.OWGH.FE.ZS} - Prevalence of overweight, weight for height, female (% of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of overweight, female, is the percentage of girls under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the WH{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.OWGH.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.OWGH.MA.ZS:SH.STA.OWGH.MA.ZS} - Prevalence of overweight, weight for height, male (% of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of overweight, male, is the percentage of boys under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the WHO's{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.OWGH.ME.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.OWGH.ME.ZS:SH.STA.OWGH.ME.ZS} - Prevalence of overweight (modeled estimate, % of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of overweight children is the percentage of children under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.OWGH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.OWGH.ZS:SH.STA.OWGH.ZS} - Prevalence of overweight, weight for height (% of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of overweight children is the percentage of children under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.POIS.P5}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.POIS.P5:SH.STA.POIS.P5} - Mortality rate attributed to unintentional poisoning (per 100,000 population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.POIS.P5.FE}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.POIS.P5.FE:SH.STA.POIS.P5.FE} - Mortality rate attributed to unintentional poisoning, female (per 100,000 female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of female deaths from unintentional poisonings in a year per 100,000 female population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, ca{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.POIS.P5.MA}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.POIS.P5.MA:SH.STA.POIS.P5.MA} - Mortality rate attributed to unintentional poisoning, male (per 100,000 male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of male deaths from unintentional poisonings in a year per 100,000 male population. Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.SMSS.RU.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.SMSS.RU.ZS:SH.STA.SMSS.RU.ZS} - People using safely managed sanitation services, rural (% of rural population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.SMSS.UR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.SMSS.UR.ZS:SH.STA.SMSS.UR.ZS} - People using safely managed sanitation services, urban (% of urban population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}06 Environment{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.SMSS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.SMSS.ZS:SH.STA.SMSS.ZS} - People using safely managed sanitation services (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.STNT.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.STNT.FE.ZS:SH.STA.STNT.FE.ZS} - Prevalence of stunting, height for age, female (% of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of stunting, female, is the percentage of girls under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old hei{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.STNT.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.STNT.MA.ZS:SH.STA.STNT.MA.ZS} - Prevalence of stunting, height for age, male (% of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of stunting, male, is the percentage of boys under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.STNT.ME.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.STNT.ME.ZS:SH.STA.STNT.ME.ZS} - Prevalence of stunting, height for age (modeled estimate, % of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of stunting is the percentage of children under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height is{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.STNT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.STNT.ZS:SH.STA.STNT.ZS} - Prevalence of stunting, height for age (% of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of stunting is the percentage of children under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height is{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.SUIC.FE.P5}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.SUIC.FE.P5:SH.STA.SUIC.FE.P5} - Suicide mortality rate, female (per 100,000 female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Suicide mortality rate is the number of suicide deaths in a year per 100,000 population. Crude suicide rate (not age-adjusted).{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.SUIC.MA.P5}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.SUIC.MA.P5:SH.STA.SUIC.MA.P5} - Suicide mortality rate, male (per 100,000 male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Suicide mortality rate is the number of suicide deaths in a year per 100,000 population. Crude suicide rate (not age-adjusted).{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.SUIC.P5}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.SUIC.P5:SH.STA.SUIC.P5} - Suicide mortality rate (per 100,000 population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Suicide mortality rate is the number of suicide deaths in a year per 100,000 population. Crude suicide rate (not age-adjusted).{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.TRAF.P5}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.TRAF.P5:SH.STA.TRAF.P5} - Mortality caused by road traffic injury (per 100,000 population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Mortality caused by road traffic injury is estimated road traffic fatal injury deaths per 100,000 population.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.WASH.P5}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.WASH.P5:SH.STA.WASH.P5} - Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (per 100,000 population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene is deaths attributable to unsafe water, sanitation and hygiene focusing on inadequate WASH services per 100,000 population. Death rates are calculated by dividing{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.WAST.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.WAST.FE.ZS:SH.STA.WAST.FE.ZS} - Prevalence of wasting, weight for height, female (% of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of wasting, female, is the proportion of girls under age 5 whose weight for height is more than two standard deviations below the median for the international reference population ages 0-59.{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.WAST.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.WAST.MA.ZS:SH.STA.WAST.MA.ZS} - Prevalence of wasting, weight for height, male (% of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of wasting, male,is the proportion of boys under age 5 whose weight for height is more than two standard deviations below the median for the international reference population ages 0-59.{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.STA.WAST.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.WAST.ZS:SH.STA.WAST.ZS} - Prevalence of wasting, weight for height (% of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of wasting is the proportion of children under age 5 whose weight for height is more than two standard deviations below the median for the international reference population ages 0-59.{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.SVR.WAST.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.SVR.WAST.FE.ZS:SH.SVR.WAST.FE.ZS} - Prevalence of severe wasting, weight for height, female (% of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of severe wasting, female, is the proportion of girls under age 5 whose weight for height is more than three standard deviations below the median for the international reference population ages 0-59.{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.SVR.WAST.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.SVR.WAST.MA.ZS:SH.SVR.WAST.MA.ZS} - Prevalence of severe wasting, weight for height, male (% of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of severe wasting, male, is the proportion of boys under age 5 whose weight for height is more than three standard deviations below the median for the international reference population ages 0-59.{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.SVR.WAST.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.SVR.WAST.ZS:SH.SVR.WAST.ZS} - Prevalence of severe wasting, weight for height (% of children under 5)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of severe wasting is the proportion of children under age 5 whose weight for height is more than three standard deviations below the median for the international reference population ages 0-59.{p_end}
-
-{synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.TBS.CURE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.TBS.CURE.ZS:SH.TBS.CURE.ZS} - Tuberculosis treatment success rate (% of new cases)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Tuberculosis treatment success rate is the percentage of all new tuberculosis cases (or new and relapse cases for some countries) registered under a national tuberculosis control programme in a given year that successfully completed treatment,{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Tuberculosis Report.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.TBS.DTEC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.TBS.DTEC.ZS:SH.TBS.DTEC.ZS} - Tuberculosis case detection rate (%, all forms)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Tuberculosis case detection rate (all forms) is the number of new and relapse tuberculosis cases notified to WHO in a given year, divided by WHO's estimate of the number of incident tuberculosis cases for the same year, expressed as a percenta{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Tuberculosis Report.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.TBS.INCD}
-{synopt:{bf:{help wbopendata_sourceid##SH.TBS.INCD:SH.TBS.INCD} - Incidence of tuberculosis (per 100,000 people)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Incidence of tuberculosis is the estimated number of new and relapse tuberculosis cases arising in a given year, expressed as the rate per 100,000 population. All forms of TB are included, including cases in people living with HIV. Estimates f{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Tuberculosis Report.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.UHC.NOP1.CG}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOP1.CG:SH.UHC.NOP1.CG} - Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, expressed in US dollars (2011 PPP). The poverty gap increase due to out-of-pocket health spending is one way to measure how much out-of-po{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019. NOTE: This indicator has been discontinued as of December 2021. Please see the following indicators: SH.UHC.FBP1.ZS, SH.UHC.FBP2.Z{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.UHC.NOP1.TO}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOP1.TO:SH.UHC.NOP1.TO} - Number of people pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Number of people pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the number of people living in households experiencing impoverishing out-of-pocket health expenditures, defined as{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.UHC.NOP1.ZG}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOP1.ZG:SH.UHC.NOP1.ZG} - Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, as a percentage of the $1.90 poverty line. The poverty gap increase due to out-of-pocket health spending is one way to measure how much ou{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.  NOTE: This indicator has been discontinued as of December 2021. Please see the following indicators: SH.UHC.FBP1.ZS, SH.UHC.FBP2.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.UHC.NOP1.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOP1.ZS:SH.UHC.NOP1.ZS} - Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the fraction of a country’s population experiencing out-of-pocket health impoverishing expenditures, def{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.UHC.NOP2.CG}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOP2.CG:SH.UHC.NOP2.CG} - Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, expressed in US dollars (2011 PPP). The poverty gap increase due to out-of-pocket health spending is one way to measure how much out-of-po{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.  NOTE: This indicator has been discontinued as of December 2021. Please see the following indicators: SH.UHC.FBP1.ZS, SH.UHC.FBP2.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.UHC.NOP2.TO}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOP2.TO:SH.UHC.NOP2.TO} - Number of people pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Number of people pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the number of households experiencing impoverishing out-of-pocket health expenditures, defined as expenditures wit{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.UHC.NOP2.ZG}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOP2.ZG:SH.UHC.NOP2.ZG} - Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure, as a percentage of the $3.20 poverty line. The poverty gap increase due to out-of-pocket health spending is one way to measure how much ou{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2019. Global Monitoring Report on Financial Protection in Health 2019.  NOTE: This indicator has been discontinued as of December 2021. Please see the following indicators: SH.UHC.FBP1.ZS, SH.UHC.FBP2.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.UHC.NOP2.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.NOP2.ZS:SH.UHC.NOP2.ZS} - Proportion of population pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Proportion of population pushed below the $3.20 ($2011 PPP) poverty line by out-of-pocket health care expenditure. This indicator shows the fraction of a country’s population experiencing out-of-pocket health impoverishing expenditures, defi{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.UHC.OOPC.10.TO}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.OOPC.10.TO:SH.UHC.OOPC.10.TO} - Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure. Out-of-pocket health expenditure is defined as any spending incurred by a household when any member uses a health good or serv{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.UHC.OOPC.10.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.OOPC.10.ZS:SH.UHC.OOPC.10.ZS} - Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure. Out-of-pocket health expenditure is defined as any spending incurred by a household when any member uses a health good{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.UHC.OOPC.25.TO}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.OOPC.25.TO:SH.UHC.OOPC.25.TO} - Number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure. Out-of-pocket health expenditure is defined as any spending incurred by a household when any member uses a health good or serv{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.UHC.OOPC.25.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.OOPC.25.ZS:SH.UHC.OOPC.25.ZS} - Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure. Out-of-pocket health expenditure is defined as any spending incurred by a household when any member uses a health good{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization and World Bank. 2021. Global Monitoring Report on Financial Protection in Health 2021.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.UHC.SRVS.CV.XD}
-{synopt:{bf:{help wbopendata_sourceid##SH.UHC.SRVS.CV.XD:SH.UHC.SRVS.CV.XD} - UHC service coverage index}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Coverage index for essential health services (based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, noncommunicable diseases and service capacity and access). It is presented on a sca{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "https://www.who.int/data/gho"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.VAC.TTNS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.VAC.TTNS.ZS:SH.VAC.TTNS.ZS} - Newborns protected against tetanus (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Newborns protected against tetanus are the percentage of births by women of child-bearing age who are immunized against tetanus.{p_end}
-
-{synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.CHEX.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.CHEX.GD.ZS:SH.XPD.CHEX.GD.ZS} - Current health expenditure (% of GDP)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Level of current health expenditure expressed as a percentage of GDP.  Estimates of current health expenditures include healthcare goods and services consumed during each year. This indicator does not include capital health expenditures such a{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.CHEX.PC.CD}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.CHEX.PC.CD:SH.XPD.CHEX.PC.CD} - Current health expenditure per capita (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Current expenditures on health per capita in current US dollars. Estimates of current health expenditures include healthcare goods and services consumed during each year.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.CHEX.PP.CD}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.CHEX.PP.CD:SH.XPD.CHEX.PP.CD} - Current health expenditure per capita, PPP (current international $)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Current expenditures on health per capita expressed in international dollars at purchasing power parity.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.EHEX.CH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.EHEX.CH.ZS:SH.XPD.EHEX.CH.ZS} - External health expenditure (% of current health expenditure)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Share of current health expenditures funded from external sources. External sources compose of direct foreign transfers and foreign transfers distributed by government encompassing all financial inflows into the national health system from out{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.EHEX.PC.CD}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.EHEX.PC.CD:SH.XPD.EHEX.PC.CD} - External health expenditure per capita (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Current external expenditures on health per capita expressed in current US dollars. External sources are composed of direct foreign transfers and foreign transfers distributed by government encompassing all financial inflows into the national{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.EHEX.PP.CD}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.EHEX.PP.CD:SH.XPD.EHEX.PP.CD} - External health expenditure per capita, PPP (current international $)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Current external expenditures on health per capita expressed in international dollars at purchasing power parity. External sources are composed of direct foreign transfers and foreign transfers distributed by government encompassing all financ{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.GHED.CH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.GHED.CH.ZS:SH.XPD.GHED.CH.ZS} - Domestic general government health expenditure (% of current health expenditure)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Share of current health expenditures funded from domestic public sources for health.  Domestic public sources include domestic revenue as internal transfers and grants, transfers, subsidies to voluntary health insurance beneficiaries, non-prof{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.GHED.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.GHED.GD.ZS:SH.XPD.GHED.GD.ZS} - Domestic general government health expenditure (% of GDP)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Public expenditure on health from domestic sources as a share of the economy as measured by GDP.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.GHED.GE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.GHED.GE.ZS:SH.XPD.GHED.GE.ZS} - Domestic general government health expenditure (% of general government expenditure)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Public expenditure on health from domestic sources as a share of total public expenditure.  It indicates the priority of the government to spend on health from own domestic public resources.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.GHED.PC.CD}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.GHED.PC.CD:SH.XPD.GHED.PC.CD} - Domestic general government health expenditure per capita (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Public expenditure on health from domestic sources per capita expressed in current US dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.GHED.PP.CD}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.GHED.PP.CD:SH.XPD.GHED.PP.CD} - Domestic general government health expenditure per capita, PPP (current international $)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Public expenditure on health from domestic sources per capita expressed in international dollars at purchasing power parity.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.OOPC.CH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.OOPC.CH.ZS:SH.XPD.OOPC.CH.ZS} - Out-of-pocket expenditure (% of current health expenditure)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Share of out-of-pocket payments of total current health expenditures.  Out-of-pocket payments are spending on health directly out-of-pocket by households.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.OOPC.PC.CD}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.OOPC.PC.CD:SH.XPD.OOPC.PC.CD} - Out-of-pocket expenditure per capita (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Health expenditure through out-of-pocket payments per capita in USD.  Out of pocket payments are spending on health directly out of pocket by households in each country.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.OOPC.PP.CD}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.OOPC.PP.CD:SH.XPD.OOPC.PP.CD} - Out-of-pocket expenditure per capita, PPP (current international $)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Health expenditure through out-of-pocket payments per capita in international dollars at purchasing power parity.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.PVTD.CH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PVTD.CH.ZS:SH.XPD.PVTD.CH.ZS} - Domestic private health expenditure (% of current health expenditure)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Share of current health expenditures funded from domestic private sources.  Domestic private sources include funds from households, corporations and non-profit organizations. Such expenditures can be either prepaid to voluntary health insuranc{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.PVTD.PC.CD}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PVTD.PC.CD:SH.XPD.PVTD.PC.CD} - Domestic private health expenditure per capita (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Current private expenditures on health per capita expressed in current US dollars. Domestic private sources include funds from households, corporations and non-profit organizations. Such expenditures can be either prepaid to voluntary health i{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.PVTD.PP.CD}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PVTD.PP.CD:SH.XPD.PVTD.PP.CD} - Domestic private health expenditure per capita, PPP (current international $)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Current private expenditures on health per capita expressed in international dollars at purchasing power parity.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}). The data was retrieved on January 30, 2022.{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.DST.02ND.20}
-{synopt:{bf:{help wbopendata_sourceid##SI.DST.02ND.20:SI.DST.02ND.20} - Income share held by second 20%}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles. Percentage shares by quintile may not sum to 100 because of rounding.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.DST.03RD.20}
-{synopt:{bf:{help wbopendata_sourceid##SI.DST.03RD.20:SI.DST.03RD.20} - Income share held by third 20%}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles. Percentage shares by quintile may not sum to 100 because of rounding.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.DST.04TH.20}
-{synopt:{bf:{help wbopendata_sourceid##SI.DST.04TH.20:SI.DST.04TH.20} - Income share held by fourth 20%}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles. Percentage shares by quintile may not sum to 100 because of rounding.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.DST.05TH.20}
-{synopt:{bf:{help wbopendata_sourceid##SI.DST.05TH.20:SI.DST.05TH.20} - Income share held by highest 20%}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles. Percentage shares by quintile may not sum to 100 because of rounding.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.DST.10TH.10}
-{synopt:{bf:{help wbopendata_sourceid##SI.DST.10TH.10:SI.DST.10TH.10} - Income share held by highest 10%}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.DST.50MD}
-{synopt:{bf:{help wbopendata_sourceid##SI.DST.50MD:SI.DST.50MD} - Proportion of people living below 50 percent of median income (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people in the population who live in households whose per capita income or consumption is below half of the median income or consumption per capita. The median is measured at 2017 Purchasing Power Parity (PPP) using the Pover{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.DST.FRST.10}
-{synopt:{bf:{help wbopendata_sourceid##SI.DST.FRST.10:SI.DST.FRST.10} - Income share held by lowest 10%}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.DST.FRST.20}
-{synopt:{bf:{help wbopendata_sourceid##SI.DST.FRST.20:SI.DST.FRST.20} - Income share held by lowest 20%}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles. Percentage shares by quintile may not sum to 100 because of rounding.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.DDAY}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY:SI.POV.DDAY} - Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount ratio at $2.15 a day is the percentage of the population living on less than $2.15 a day at 2017 purchasing power adjusted prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.GAPS}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.GAPS:SI.POV.GAPS} - Poverty gap at $2.15 a day (2017 PPP) (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap at $2.15 a day (2017 PPP) is the mean shortfall in income or consumption from the poverty line $2.15 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the de{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.GINI}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.GINI:SI.POV.GINI} - Gini index}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Gini index measures the extent to which the distribution of income (or, in some cases, consumption expenditure) among individuals or households within an economy deviates from a perfectly equal distribution. A Lorenz curve plots the cumulative{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.LMIC}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.LMIC:SI.POV.LMIC} - Poverty headcount ratio at $3.65 a day (2017 PPP) (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount ratio at $3.65 a day is the percentage of the population living on less than $3.65 a day at 2017 international prices.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.LMIC.GP}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.LMIC.GP:SI.POV.LMIC.GP} - Poverty gap at $3.65 a day (2017 PPP) (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap at $3.65 a day (2017 PPP) is the mean shortfall in income or consumption from the poverty line $3.65 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the de{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.MDIM}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.MDIM:SI.POV.MDIM} - Multidimensional poverty headcount ratio (% of total population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people who are multidimensionally poor{p_end}
-
-{synopt:{opt Source Organization}}Government statistical agencies. Data for EU countires are from the EUROSTAT{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.MDIM.17}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.MDIM.17:SI.POV.MDIM.17} - Multidimensional poverty headcount ratio, children (% of population ages 0-17)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}The percentage of children who are multidimensionally poor{p_end}
-
-{synopt:{opt Source Organization}}Government statistical agencies. Data for EU countires are from the EUROSTAT{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.MDIM.17.XQ}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.MDIM.17.XQ:SI.POV.MDIM.17.XQ} - Multidimensional poverty index, children (population ages 0-17) (scale 0-1)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Proportion of the child population that is multidimensionally poor adjusted by the intensity of the deprivations{p_end}
-
-{synopt:{opt Source Organization}}Government statistical agencies. Data for EU countires are from the EUROSTAT{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.MDIM.FE}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.MDIM.FE:SI.POV.MDIM.FE} - Multidimensional poverty headcount ratio, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}The percentage of female population who are multidimensionally poor{p_end}
-
-{synopt:{opt Source Organization}}Government statistical agencies. Data for EU countires are from the EUROSTAT{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.MDIM.HH}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.MDIM.HH:SI.POV.MDIM.HH} - Multidimensional poverty headcount ratio, household (% of total households)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}The percentage of households who are multidimensionally poor{p_end}
-
-{synopt:{opt Source Organization}}Government statistical agencies. Data for EU countires are from the EUROSTAT{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.MDIM.IT}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.MDIM.IT:SI.POV.MDIM.IT} - Multidimensional poverty intensity (average share of deprivations experienced by the poor)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}The average percentage of dimensions in which poor people are deprived{p_end}
-
-{synopt:{opt Source Organization}}Government statistical agencies. Data for EU countires are from the EUROSTAT{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.MDIM.MA}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.MDIM.MA:SI.POV.MDIM.MA} - Multidimensional poverty headcount ratio, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}The percentage of male population who are multidimensionally poor{p_end}
-
-{synopt:{opt Source Organization}}Government statistical agencies. Data for EU countires are from the EUROSTAT{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.MDIM.XQ}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.MDIM.XQ:SI.POV.MDIM.XQ} - Multidimensional poverty index (scale 0-1)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Proportion of the population that is multidimensionally poor adjusted by the intensity of the deprivations{p_end}
-
-{synopt:{opt Source Organization}}Government statistical agencies. Data for EU countires are from the EUROSTAT{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.NAHC}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.NAHC:SI.POV.NAHC} - Poverty headcount ratio at national poverty lines (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}National poverty headcount ratio is the percentage of the population living below the national poverty line(s). National estimates are based on population-weighted subgroup estimates from household surveys. For economies for which the data are{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.UMIC}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.UMIC:SI.POV.UMIC} - Poverty headcount ratio at $6.85 a day (2017 PPP) (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount ratio at $6.85 a day is the percentage of the population living on less than $6.85 a day at 2017 international prices.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.UMIC.GP}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.UMIC.GP:SI.POV.UMIC.GP} - Poverty gap at $6.85 a day (2017 PPP) (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap at $6.85 a day (2017 PPP) is the mean shortfall in income or consumption from the poverty line $6.85 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the de{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.RMT.COST.IB.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SI.RMT.COST.IB.ZS:SI.RMT.COST.IB.ZS} - Average transaction cost of sending remittances to a specific country (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Average transaction cost of sending remittance to a specific country is the average of the total transaction cost in percentage of the amount sent for sending USD 200 charged by each single remittance service provider (RSP) included in the Rem{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Remittance Prices Worldwide, available at {browse "http://remittanceprices.worldbank.org"}{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.RMT.COST.OB.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SI.RMT.COST.OB.ZS:SI.RMT.COST.OB.ZS} - Average transaction cost of sending remittances from a specific country (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Average transaction cost of sending remittance from a specific country is the average of the total transaction cost in percentage of the amount sent for sending USD 200 charged by each single remittance service provider (RSP) included in the R{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Remittance Prices Worldwide, available at {browse "http://remittanceprices.worldbank.org"}{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.SPR.PC40}
-{synopt:{bf:{help wbopendata_sourceid##SI.SPR.PC40:SI.SPR.PC40} - Survey mean consumption or income per capita, bottom 40% of population (2017 PPP $ per day)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Mean consumption or income per capita (2017 PPP $ per day) of the bottom 40%, used in calculating the growth rate in the welfare aggregate of the bottom 40% of the population in the income distribution in a country.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.SPR.PC40.ZG}
-{synopt:{bf:{help wbopendata_sourceid##SI.SPR.PC40.ZG:SI.SPR.PC40.ZG} - Annualized average growth rate in per capita real survey mean consumption or income, bottom 40% of population (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}The growth rate in the welfare aggregate of the bottom 40% is computed as the annualized average growth rate in per capita real consumption or income of the bottom 40% of the population in  the income distribution in a country from household s{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.SPR.PCAP}
-{synopt:{bf:{help wbopendata_sourceid##SI.SPR.PCAP:SI.SPR.PCAP} - Survey mean consumption or income per capita, total population (2017 PPP $ per day)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}Mean consumption or income per capita (2017 PPP $ per day) used in calculating the growth rate in the welfare aggregate of total population.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.SPR.PCAP.ZG}
-{synopt:{bf:{help wbopendata_sourceid##SI.SPR.PCAP.ZG:SI.SPR.PCAP.ZG} - Annualized average growth rate in per capita real survey mean consumption or income, total population (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}11 Poverty{p_end}
-
-{synopt:{opt Source Notes}}The growth rate in the welfare aggregate of the total population is computed as the annualized average growth rate in per capita real consumption or income of the total population in  the income distribution in a country from household surveys{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.AGR.0714.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.AGR.0714.FE.ZS:SL.AGR.0714.FE.ZS} - Child employment in agriculture, female (% of female economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.AGR.0714.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.AGR.0714.MA.ZS:SL.AGR.0714.MA.ZS} - Child employment in agriculture, male (% of male economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.AGR.0714.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.AGR.0714.ZS:SL.AGR.0714.ZS} - Child employment in agriculture (% of economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.AGR.EMPL.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.AGR.EMPL.FE.ZS:SL.AGR.EMPL.FE.ZS} - Employment in agriculture, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.AGR.EMPL.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.AGR.EMPL.MA.ZS:SL.AGR.EMPL.MA.ZS} - Employment in agriculture, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.AGR.EMPL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.AGR.EMPL.ZS:SL.AGR.EMPL.ZS} - Employment in agriculture (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.1524.SP.FE.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.1524.SP.FE.NE.ZS:SL.EMP.1524.SP.FE.NE.ZS} - Employment to population ratio, ages 15-24, female (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.1524.SP.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.1524.SP.FE.ZS:SL.EMP.1524.SP.FE.ZS} - Employment to population ratio, ages 15-24, female (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.1524.SP.MA.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.1524.SP.MA.NE.ZS:SL.EMP.1524.SP.MA.NE.ZS} - Employment to population ratio, ages 15-24, male (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.1524.SP.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.1524.SP.MA.ZS:SL.EMP.1524.SP.MA.ZS} - Employment to population ratio, ages 15-24, male (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.1524.SP.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.1524.SP.NE.ZS:SL.EMP.1524.SP.NE.ZS} - Employment to population ratio, ages 15-24, total (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.1524.SP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.1524.SP.ZS:SL.EMP.1524.SP.ZS} - Employment to population ratio, ages 15-24, total (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.MPYR.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.MPYR.FE.ZS:SL.EMP.MPYR.FE.ZS} - Employers, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.MPYR.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.MPYR.MA.ZS:SL.EMP.MPYR.MA.ZS} - Employers, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.MPYR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.MPYR.ZS:SL.EMP.MPYR.ZS} - Employers, total (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.SELF.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.SELF.FE.ZS:SL.EMP.SELF.FE.ZS} - Self-employed, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.SELF.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.SELF.MA.ZS:SL.EMP.SELF.MA.ZS} - Self-employed, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.SELF.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.SELF.ZS:SL.EMP.SELF.ZS} - Self-employed, total (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.SMGT.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.SMGT.FE.ZS:SL.EMP.SMGT.FE.ZS} - Female share of employment in senior and middle management (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The proportion of females in total employment in senior and middle management. It corresponds to major group 1 in both ISCO-08 and ISCO-88 minus category 14 in ISCO-08 (hospitality, retail and other services managers) and minus category 13 in{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Market-related SDG Indicators database (ILOSDG)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.TOTL.SP.FE.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.TOTL.SP.FE.NE.ZS:SL.EMP.TOTL.SP.FE.NE.ZS} - Employment to population ratio, 15+, female (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.TOTL.SP.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.TOTL.SP.FE.ZS:SL.EMP.TOTL.SP.FE.ZS} - Employment to population ratio, 15+, female (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.TOTL.SP.MA.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.TOTL.SP.MA.NE.ZS:SL.EMP.TOTL.SP.MA.NE.ZS} - Employment to population ratio, 15+, male (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.TOTL.SP.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.TOTL.SP.MA.ZS:SL.EMP.TOTL.SP.MA.ZS} - Employment to population ratio, 15+, male (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.TOTL.SP.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.TOTL.SP.NE.ZS:SL.EMP.TOTL.SP.NE.ZS} - Employment to population ratio, 15+, total (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.TOTL.SP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.TOTL.SP.ZS:SL.EMP.TOTL.SP.ZS} - Employment to population ratio, 15+, total (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.VULN.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.VULN.FE.ZS:SL.EMP.VULN.FE.ZS} - Vulnerable employment, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization, ILOSTAT at {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.VULN.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.VULN.MA.ZS:SL.EMP.VULN.MA.ZS} - Vulnerable employment, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization, ILOSTAT at {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.VULN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.VULN.ZS:SL.EMP.VULN.ZS} - Vulnerable employment, total (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization, ILOSTAT at {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.WORK.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.WORK.FE.ZS:SL.EMP.WORK.FE.ZS} - Wage and salaried workers, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.WORK.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.WORK.MA.ZS:SL.EMP.WORK.MA.ZS} - Wage and salaried workers, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.EMP.WORK.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.WORK.ZS:SL.EMP.WORK.ZS} - Wage and salaried workers, total (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.FAM.0714.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.FAM.0714.FE.ZS:SL.FAM.0714.FE.ZS} - Children in employment, unpaid family workers, female (% of female children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unpaid family workers are people who work without pay in a market-oriented establishment operated by a related person living in the same household.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.FAM.0714.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.FAM.0714.MA.ZS:SL.FAM.0714.MA.ZS} - Children in employment, unpaid family workers, male (% of male children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unpaid family workers are people who work without pay in a market-oriented establishment operated by a related person living in the same household.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.FAM.0714.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.FAM.0714.ZS:SL.FAM.0714.ZS} - Children in employment, unpaid family workers (% of children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unpaid family workers are people who work without pay in a market-oriented establishment operated by a related person living in the same household.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.FAM.WORK.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.FAM.WORK.FE.ZS:SL.FAM.WORK.FE.ZS} - Contributing family workers, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Contributing family workers are those workers who hold self-employment jobs as own-account workers in a market-oriented establishment operated by a related person living in the same household.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.FAM.WORK.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.FAM.WORK.MA.ZS:SL.FAM.WORK.MA.ZS} - Contributing family workers, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Contributing family workers are those workers who hold self-employment jobs as own-account workers in a market-oriented establishment operated by a related person living in the same household.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.FAM.WORK.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.FAM.WORK.ZS:SL.FAM.WORK.ZS} - Contributing family workers, total (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Contributing family workers are those workers who hold self-employment jobs as own-account workers in a market-oriented establishment operated by a related person living in the same household.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.GDP.PCAP.EM.KD}
-{synopt:{bf:{help wbopendata_sourceid##SL.GDP.PCAP.EM.KD:SL.GDP.PCAP.EM.KD} - GDP per person employed (constant 2017 PPP $)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}GDP per person employed is gross domestic product (GDP) divided by total employment in the economy. Purchasing power parity (PPP) GDP is GDP converted to 2017 constant international dollars using PPP rates. An international dollar has the same{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on employment, population, GDP, and PPP data obtained from International Labour Organization, United Nations Population Division, Eurostat, OECD, and World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.IND.EMPL.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.IND.EMPL.FE.ZS:SL.IND.EMPL.FE.ZS} - Employment in industry, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.IND.EMPL.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.IND.EMPL.MA.ZS:SL.IND.EMPL.MA.ZS} - Employment in industry, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.IND.EMPL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.IND.EMPL.ZS:SL.IND.EMPL.ZS} - Employment in industry (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.MNF.0714.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.MNF.0714.FE.ZS:SL.MNF.0714.FE.ZS} - Child employment in manufacturing, female (% of female economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Manufacturing corresponds to division 3 (ISIC revisio{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.MNF.0714.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.MNF.0714.MA.ZS:SL.MNF.0714.MA.ZS} - Child employment in manufacturing, male (% of male economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Manufacturing corresponds to division 3 (ISIC revisio{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.MNF.0714.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.MNF.0714.ZS:SL.MNF.0714.ZS} - Child employment in manufacturing (% of economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Manufacturing corresponds to division 3 (ISIC revisio{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.SLF.0714.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.SLF.0714.FE.ZS:SL.SLF.0714.FE.ZS} - Children in employment, self-employed, female (% of female children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Self-employed workers are people whose remuneration depends directly on the profits derived from the goods and services they produce, with or without other employees, and include employers, own-account workers, and members of producers coopera{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.SLF.0714.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.SLF.0714.MA.ZS:SL.SLF.0714.MA.ZS} - Children in employment, self-employed, male (% of male children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Self-employed workers are people whose remuneration depends directly on the profits derived from the goods and services they produce, with or without other employees, and include employers, own-account workers, and members of producers coopera{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.SLF.0714.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.SLF.0714.ZS:SL.SLF.0714.ZS} - Children in employment, self-employed (% of children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Self-employed workers are people whose remuneration depends directly on the profits derived from the goods and services they produce, with or without other employees, and include employers, own-account workers, and members of producers coopera{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.SRV.0714.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.SRV.0714.FE.ZS:SL.SRV.0714.FE.ZS} - Child employment in services, female (% of female economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Services correspond to divisions 6-9 (ISIC revision 2{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.SRV.0714.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.SRV.0714.MA.ZS:SL.SRV.0714.MA.ZS} - Child employment in services, male (% of male economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Services correspond to divisions 6-9 (ISIC revision 2{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.SRV.0714.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.SRV.0714.ZS:SL.SRV.0714.ZS} - Child employment in services (% of economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Services correspond to divisions 6-9 (ISIC revision 2{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.SRV.EMPL.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.SRV.EMPL.FE.ZS:SL.SRV.EMPL.FE.ZS} - Employment in services, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.SRV.EMPL.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.SRV.EMPL.MA.ZS:SL.SRV.EMPL.MA.ZS} - Employment in services, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.SRV.EMPL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.SRV.EMPL.ZS:SL.SRV.EMPL.ZS} - Employment in services (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.0714.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.FE.ZS:SL.TLF.0714.FE.ZS} - Children in employment, female (% of female children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.0714.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.MA.ZS:SL.TLF.0714.MA.ZS} - Children in employment, male (% of male children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}15 Social Development{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.0714.SW.FE.TM}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.SW.FE.TM:SL.TLF.0714.SW.FE.TM} - Average working hours of children, study and work, female, ages 7-14 (hours per week)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Average working hours of children studying and working refer to the average weekly working hours of those children who are attending school in combination with economic activity.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.0714.SW.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.SW.FE.ZS:SL.TLF.0714.SW.FE.ZS} - Children in employment, study and work, female (% of female children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey. Study and work refer to children attending school in combination with economic activity.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.0714.SW.MA.TM}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.SW.MA.TM:SL.TLF.0714.SW.MA.TM} - Average working hours of children, study and work, male, ages 7-14 (hours per week)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Average working hours of children studying and working refer to the average weekly working hours of those children who are attending school in combination with economic activity.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.0714.SW.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.SW.MA.ZS:SL.TLF.0714.SW.MA.ZS} - Children in employment, study and work, male (% of male children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey. Study and work refer to children attending school in combination with economic activity.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.0714.SW.TM}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.SW.TM:SL.TLF.0714.SW.TM} - Average working hours of children, study and work, ages 7-14 (hours per week)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Average working hours of children studying and working refer to the average weekly working hours of those children who are attending school in combination with economic activity.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.0714.SW.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.SW.ZS:SL.TLF.0714.SW.ZS} - Children in employment, study and work (% of children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey. Study and work refer to children attending school in combination with economic activity.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.0714.WK.FE.TM}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.WK.FE.TM:SL.TLF.0714.WK.FE.TM} - Average working hours of children, working only, female, ages 7-14 (hours per week)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Average working hours of children working only refers to the average weekly working hours of those children who are involved in economic activity and not attending school.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.0714.WK.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.WK.FE.ZS:SL.TLF.0714.WK.FE.ZS} - Children in employment, work only, female (% of female children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey. Work only refers to children involved in economic activity and not attending school.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.0714.WK.MA.TM}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.WK.MA.TM:SL.TLF.0714.WK.MA.TM} - Average working hours of children, working only, male, ages 7-14 (hours per week)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Average working hours of children working only refers to the average weekly working hours of those children who are involved in economic activity and not attending school.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.0714.WK.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.WK.MA.ZS:SL.TLF.0714.WK.MA.ZS} - Children in employment, work only, male (% of male children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}15 Social Development{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey. Work only refers to children involved in economic activity and not attending school.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.0714.WK.TM}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.WK.TM:SL.TLF.0714.WK.TM} - Average working hours of children, working only, ages 7-14 (hours per week)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Average working hours of children working only refers to the average weekly working hours of those children who are involved in economic activity and not attending school.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.0714.WK.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.WK.ZS:SL.TLF.0714.WK.ZS} - Children in employment, work only (% of children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey. Work only refers to children involved in economic activity and not attending school.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.0714.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.ZS:SL.TLF.0714.ZS} - Children in employment, total (% of children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}15 Social Development{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.ACTI.1524.FE.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.ACTI.1524.FE.NE.ZS:SL.TLF.ACTI.1524.FE.NE.ZS} - Labor force participation rate for ages 15-24, female (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.ACTI.1524.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.ACTI.1524.FE.ZS:SL.TLF.ACTI.1524.FE.ZS} - Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}15 Social Development{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.ACTI.1524.MA.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.ACTI.1524.MA.NE.ZS:SL.TLF.ACTI.1524.MA.NE.ZS} - Labor force participation rate for ages 15-24, male (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.ACTI.1524.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.ACTI.1524.MA.ZS:SL.TLF.ACTI.1524.MA.ZS} - Labor force participation rate for ages 15-24, male (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}15 Social Development{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.ACTI.1524.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.ACTI.1524.NE.ZS:SL.TLF.ACTI.1524.NE.ZS} - Labor force participation rate for ages 15-24, total (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.ACTI.1524.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.ACTI.1524.ZS:SL.TLF.ACTI.1524.ZS} - Labor force participation rate for ages 15-24, total (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}15 Social Development{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.ACTI.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.ACTI.FE.ZS:SL.TLF.ACTI.FE.ZS} - Labor force participation rate, female (% of female population ages 15-64) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15-64 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed June 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.ACTI.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.ACTI.MA.ZS:SL.TLF.ACTI.MA.ZS} - Labor force participation rate, male (% of male population ages 15-64) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}15 Social Development{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15-64 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed June 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.ACTI.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.ACTI.ZS:SL.TLF.ACTI.ZS} - Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15-64 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed June 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.ADVN.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.ADVN.FE.ZS:SL.TLF.ADVN.FE.ZS} - Labor force with advanced education, female (% of female working-age population with advanced education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with advanced education to the working-age population with advanced education. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree o{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.ADVN.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.ADVN.MA.ZS:SL.TLF.ADVN.MA.ZS} - Labor force with advanced education, male (% of male working-age population with advanced education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with advanced education to the working-age population with advanced education. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree o{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.ADVN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.ADVN.ZS:SL.TLF.ADVN.ZS} - Labor force with advanced education (% of total working-age population with advanced education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with advanced education to the working-age population with advanced education. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree o{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.BASC.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.BASC.FE.ZS:SL.TLF.BASC.FE.ZS} - Labor force with basic education, female (% of female working-age population with basic education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with basic education to the working-age population with basic education. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.BASC.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.BASC.MA.ZS:SL.TLF.BASC.MA.ZS} - Labor force with basic education, male (% of male working-age population with basic education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with basic education to the working-age population with basic education. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.BASC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.BASC.ZS:SL.TLF.BASC.ZS} - Labor force with basic education (% of total working-age population with basic education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with basic education to the working-age population with basic education. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.CACT.FE.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.FE.NE.ZS:SL.TLF.CACT.FE.NE.ZS} - Labor force participation rate, female (% of female population ages 15+) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.CACT.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.FE.ZS:SL.TLF.CACT.FE.ZS} - Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.CACT.FM.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.FM.NE.ZS:SL.TLF.CACT.FM.NE.ZS} - Ratio of female to male labor force participation rate (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period. Ratio of female to male labor for{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization, ILOSTAT at {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.CACT.FM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.FM.ZS:SL.TLF.CACT.FM.ZS} - Ratio of female to male labor force participation rate (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period. Ratio of female to male labor for{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization, ILOSTAT at {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.CACT.MA.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.MA.NE.ZS:SL.TLF.CACT.MA.NE.ZS} - Labor force participation rate, male (% of male population ages 15+) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.CACT.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.MA.ZS:SL.TLF.CACT.MA.ZS} - Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.CACT.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.NE.ZS:SL.TLF.CACT.NE.ZS} - Labor force participation rate, total (% of total population ages 15+) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.CACT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.ZS:SL.TLF.CACT.ZS} - Labor force participation rate, total (% of total population ages 15+) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.INTM.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.INTM.FE.ZS:SL.TLF.INTM.FE.ZS} - Labor force with intermediate education, female (% of female working-age population with intermediate education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with intermediate education to the working-age population with intermediate education. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standa{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.INTM.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.INTM.MA.ZS:SL.TLF.INTM.MA.ZS} - Labor force with intermediate education, male (% of male working-age population with intermediate education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with intermediate education to the working-age population with intermediate education. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standa{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.INTM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.INTM.ZS:SL.TLF.INTM.ZS} - Labor force with intermediate education (% of total working-age population with intermediate education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with intermediate education to the working-age population with intermediate education. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standa{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.PART.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.PART.FE.ZS:SL.TLF.PART.FE.ZS} - Part time employment, female (% of total female employment)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Wages and Working Time Statistics database (COND)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.PART.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.PART.MA.ZS:SL.TLF.PART.MA.ZS} - Part time employment, male (% of total male employment)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Wages and Working Time Statistics database (COND)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.PART.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.PART.ZS:SL.TLF.PART.ZS} - Part time employment, total (% of total employment)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Wages and Working Time Statistics database (COND)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.TOTL.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.TOTL.FE.ZS:SL.TLF.TOTL.FE.ZS} - Labor force, female (% of total labor force)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female labor force as a percentage of the total show the extent to which women are active in the labor force. Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization and United Nations Population Division.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.TOTL.IN}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.TOTL.IN:SL.TLF.TOTL.IN} - Labor force, total}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period. It includes people who are currently employed and people who are unemployed but seeking work as well as first-t{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization and United Nations Population Division.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.1524.FE.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.1524.FE.NE.ZS:SL.UEM.1524.FE.NE.ZS} - Unemployment, youth female (% of female labor force ages 15-24) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.1524.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.1524.FE.ZS:SL.UEM.1524.FE.ZS} - Unemployment, youth female (% of female labor force ages 15-24) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.1524.MA.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.1524.MA.NE.ZS:SL.UEM.1524.MA.NE.ZS} - Unemployment, youth male (% of male labor force ages 15-24) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.1524.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.1524.MA.ZS:SL.UEM.1524.MA.ZS} - Unemployment, youth male (% of male labor force ages 15-24) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.1524.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.1524.NE.ZS:SL.UEM.1524.NE.ZS} - Unemployment, youth total (% of total labor force ages 15-24) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.1524.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.1524.ZS:SL.UEM.1524.ZS} - Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.ADVN.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.ADVN.FE.ZS:SL.UEM.ADVN.FE.ZS} - Unemployment with advanced education, female (% of female labor force with advanced education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent educa{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.ADVN.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.ADVN.MA.ZS:SL.UEM.ADVN.MA.ZS} - Unemployment with advanced education, male (% of male labor force with advanced education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent educa{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.ADVN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.ADVN.ZS:SL.UEM.ADVN.ZS} - Unemployment with advanced education (% of total labor force with advanced education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent educa{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.BASC.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.BASC.FE.ZS:SL.UEM.BASC.FE.ZS} - Unemployment with basic education, female (% of female labor force with basic education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.BASC.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.BASC.MA.ZS:SL.UEM.BASC.MA.ZS} - Unemployment with basic education, male (% of male labor force with basic education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.BASC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.BASC.ZS:SL.UEM.BASC.ZS} - Unemployment with basic education (% of total labor force with basic education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.INTM.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.INTM.FE.ZS:SL.UEM.INTM.FE.ZS} - Unemployment with intermediate education, female (% of female labor force with intermediate education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of E{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.INTM.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.INTM.MA.ZS:SL.UEM.INTM.MA.ZS} - Unemployment with intermediate education, male (% of male labor force with intermediate education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of E{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.INTM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.INTM.ZS:SL.UEM.INTM.ZS} - Unemployment with intermediate education (% of total labor force with intermediate education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of E{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.NEET.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.NEET.FE.ZS:SL.UEM.NEET.FE.ZS} - Share of youth not in education, employment or training, female (% of female youth population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.NEET.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.NEET.MA.ZS:SL.UEM.NEET.MA.ZS} - Share of youth not in education, employment or training, male (% of male youth population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.NEET.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.NEET.ZS:SL.UEM.NEET.ZS} - Share of youth not in education, employment or training, total (% of youth population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.TOTL.FE.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.TOTL.FE.NE.ZS:SL.UEM.TOTL.FE.NE.ZS} - Unemployment, female (% of female labor force) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.TOTL.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.TOTL.FE.ZS:SL.UEM.TOTL.FE.ZS} - Unemployment, female (% of female labor force) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.TOTL.MA.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.TOTL.MA.NE.ZS:SL.UEM.TOTL.MA.NE.ZS} - Unemployment, male (% of male labor force) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.TOTL.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.TOTL.MA.ZS:SL.UEM.TOTL.MA.ZS} - Unemployment, male (% of male labor force) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.TOTL.NE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.TOTL.NE.ZS:SL.UEM.TOTL.NE.ZS} - Unemployment, total (% of total labor force) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.UEM.TOTL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.TOTL.ZS:SL.UEM.TOTL.ZS} - Unemployment, total (% of total labor force) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.WAG.0714.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.WAG.0714.FE.ZS:SL.WAG.0714.FE.ZS} - Children in employment, wage workers, female (% of female children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Wage workers (also known as employees) are people who hold explicit (written or oral) or implicit employment contracts that provide basic remuneration that does not depend directly on the revenue of the unit for which they work.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.WAG.0714.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.WAG.0714.MA.ZS:SL.WAG.0714.MA.ZS} - Children in employment, wage workers, male (% of male children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Wage workers (also known as employees) are people who hold explicit (written or oral) or implicit employment contracts that provide basic remuneration that does not depend directly on the revenue of the unit for which they work.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.WAG.0714.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.WAG.0714.ZS:SL.WAG.0714.ZS} - Children in employment, wage workers (% of children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Wage workers (also known as employees) are people who hold explicit (written or oral) or implicit employment contracts that provide basic remuneration that does not depend directly on the revenue of the unit for which they work.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SM.POP.NETM}
-{synopt:{bf:{help wbopendata_sourceid##SM.POP.NETM:SM.POP.NETM} - Net migration}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Net migration is the net total of migrants during the period, that is, the number of immigrants minus the number of emigrants, including both citizens and noncitizens.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SM.POP.REFG}
-{synopt:{bf:{help wbopendata_sourceid##SM.POP.REFG:SM.POP.REFG} - Refugee population by country or territory of asylum}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Afric{p_end}
-
-{synopt:{opt Source Organization}}United Nations High Commissioner for Refugees (UNHCR) and UNRWA through UNHCR's Refugee Data Finder at {browse "https://www.unhcr.org/refugee-statistics/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SM.POP.REFG.OR}
-{synopt:{bf:{help wbopendata_sourceid##SM.POP.REFG.OR:SM.POP.REFG.OR} - Refugee population by country or territory of origin}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Afric{p_end}
-
-{synopt:{opt Source Organization}}United Nations High Commissioner for Refugees (UNHCR), Refugee Data Finder at {browse "https://www.unhcr.org/refugee-statistics/"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SM.POP.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##SM.POP.TOTL:SM.POP.TOTL} - International migrant stock, total}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees. The data used to estimate the international migrant stock at a particular time are obtained mainly from popula{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division, Trends in Total Migrant Stock: 2012 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SM.POP.TOTL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SM.POP.TOTL.ZS:SM.POP.TOTL.ZS} - International migrant stock (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees. The data used to estimate the international migrant stock at a particular time are obtained mainly from popula{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division, Trends in Total Migrant Stock: 2008 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SN.ITK.DEFC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SN.ITK.DEFC.ZS:SN.ITK.DEFC.ZS} - Prevalence of undernourishment (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}home).{p_end}
-
-{synopt:{opt Source Organization}}Food and Agriculture Organization (http://www.fao.org/faostat/en/{p_end}
-
-
-{synoptline}
-{marker sourceid_SN.ITK.MSFI.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SN.ITK.MSFI.ZS:SN.ITK.MSFI.ZS} - Prevalence of moderate or severe food insecurity in the population (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people in the population who live in households classified as moderately or severely food insecure. A household is classified as moderately or severely food insecure when at least one adult in the household has reported to ha{p_end}
-
-{synopt:{opt Source Organization}}Food and Agriculture Organization of the United Nations (FAO){p_end}
-
-
-{synoptline}
-{marker sourceid_SN.ITK.SALT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SN.ITK.SALT.ZS:SN.ITK.SALT.ZS} - Consumption of iodized salt (% of households)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Percentage of households which have salt they used for cooking that tested positive (&gt;0ppm) for presence of iodine.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Children's Fund, Division of Data, Analysis, Planning and Monitoring (2019). UNICEF Global Databases on Iodized salt, New York, June 2019{p_end}
-
-
-{synoptline}
-{marker sourceid_SN.ITK.SVFI.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SN.ITK.SVFI.ZS:SN.ITK.SVFI.ZS} - Prevalence of severe food insecurity in the population (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people in the population who live in households classified as severely food insecure. A household is classified as severely food insecure when at least one adult in the household has reported to have been exposed, at times du{p_end}
-
-{synopt:{opt Source Organization}}Food and Agriculture Organization of the United Nations (FAO){p_end}
-
-
-{synoptline}
-{marker sourceid_SN.ITK.VITA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SN.ITK.VITA.ZS:SN.ITK.VITA.ZS} - Vitamin A supplementation coverage rate (% of children ages 6-59 months)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Vitamin A supplementation refers to the percentage of children ages 6-59 months old who received at least two doses of vitamin A in the previous year.{p_end}
-
-{synopt:{opt Source Organization}}UNICEF global databases, based on administrative reports from countries (link: {browse "https://data.unicef.org/topic/nutrition/vitamin-a-deficiency/)"}{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.ADO.TFRT}
-{synopt:{bf:{help wbopendata_sourceid##SP.ADO.TFRT:SP.ADO.TFRT} - Adolescent fertility rate (births per 1,000 women ages 15-19)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Adolescent fertility rate is the number of births per 1,000 women ages 15-19.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division, World Population Prospects.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DYN.AMRT.FE}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.AMRT.FE:SP.DYN.AMRT.FE} - Mortality rate, adult, female (per 1,000 female adults)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Adult mortality rate, female, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old female dying before reaching age 60, if subject to age-specific mortality rates of the specified year between th{p_end}
-
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DYN.AMRT.MA}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.AMRT.MA:SP.DYN.AMRT.MA} - Mortality rate, adult, male (per 1,000 male adults)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Adult mortality rate, male, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old male dying before reaching age 60, if subject to age-specific mortality rates of the specified year between those{p_end}
-
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DYN.CBRT.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.CBRT.IN:SP.DYN.CBRT.IN} - Birth rate, crude (per 1,000 people)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Crude birth rate indicates the number of live births occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the{p_end}
-
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DYN.CDRT.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.CDRT.IN:SP.DYN.CDRT.IN} - Death rate, crude (per 1,000 people)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Crude death rate indicates the number of deaths occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the rate{p_end}
-
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DYN.CONM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.CONM.ZS:SP.DYN.CONM.ZS} - Contraceptive prevalence, any modern method (% of married women ages 15-49)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Contraceptive prevalence, any modern method is the percentage of married women ages 15-49 who are practicing, or whose sexual partners are practicing, at least one modern method of contraception.  Modern methods of contraception include female{p_end}
-
-{synopt:{opt Source Organization}}Household surveys, including Demographic and Health Surveys and Multiple Indicator Cluster Surveys. Largely compiled by United Nations Population Division.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DYN.CONU.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.CONU.ZS:SP.DYN.CONU.ZS} - Contraceptive prevalence, any method (% of married women ages 15-49)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Contraceptive prevalence, any method is the percentage of married women ages 15-49 who are practicing, or whose sexual partners are practicing, any method of contraception (modern or traditional). Modern methods of contraception include female{p_end}
-
-{synopt:{opt Source Organization}}Household surveys, including Demographic and Health Surveys and Multiple Indicator Cluster Surveys. Largely compiled by United Nations Population Division.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DYN.IMRT.FE.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.IMRT.FE.IN:SP.DYN.IMRT.FE.IN} - Mortality rate, infant, female (per 1,000 live births)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Infant mortality rate, female is the number of female infants dying before reaching one year of age, per 1,000 female live births in a given year.{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DYN.IMRT.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.IMRT.IN:SP.DYN.IMRT.IN} - Mortality rate, infant (per 1,000 live births)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Infant mortality rate is the number of infants dying before reaching one year of age, per 1,000 live births in a given year.{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DYN.IMRT.MA.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.IMRT.MA.IN:SP.DYN.IMRT.MA.IN} - Mortality rate, infant, male (per 1,000 live births)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Infant mortality rate, male is the number of male infants dying before reaching one year of age, per 1,000 male live births in a given year.{p_end}
-
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DYN.LE00.FE.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN} - Life expectancy at birth, female (years)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
-
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DYN.LE00.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.LE00.IN:SP.DYN.LE00.IN} - Life expectancy at birth, total (years)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
-
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision, or derived from male and female life expectancy at birth from sources such as: (2) Census reports and other statistical publications from national statistical o{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DYN.LE00.MA.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.LE00.MA.IN:SP.DYN.LE00.MA.IN} - Life expectancy at birth, male (years)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
-
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DYN.TFRT.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.TFRT.IN:SP.DYN.TFRT.IN} - Fertility rate, total (births per woman)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Total fertility rate represents the number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates of the specified year.{p_end}
-
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DYN.TO65.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.TO65.FE.ZS:SP.DYN.TO65.FE.ZS} - Survival to age 65, female (% of cohort)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Survival to age 65 refers to the percentage of a cohort of newborn infants that would survive to age 65, if subject to age specific mortality rates of the specified year.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DYN.TO65.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.TO65.MA.ZS:SP.DYN.TO65.MA.ZS} - Survival to age 65, male (% of cohort)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Survival to age 65 refers to the percentage of a cohort of newborn infants that would survive to age 65, if subject to age specific mortality rates of the specified year.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.DYN.WFRT}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.WFRT:SP.DYN.WFRT} - Wanted fertility rate (births per woman)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Wanted fertility rate is an estimate of what the total fertility rate would be if all unwanted births were avoided.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.HOU.FEMA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.HOU.FEMA.ZS:SP.HOU.FEMA.ZS} - Female headed households (% of households with a female head)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Female headed households shows the percentage of households with a female head.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.M15.2024.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.M15.2024.FE.ZS:SP.M15.2024.FE.ZS} - Women who were first married by age 15 (% of women ages 20-24)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Women who were first married by age 15 refers to the percentage of women ages 20-24 who were first married by age 15.{p_end}
-
-{synopt:{opt Source Organization}}UNICEF Data; Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), AIDS Indicator Surveys(AIS), Reproductive Health Survey(RHS), and other household surveys.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.M18.2024.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.M18.2024.FE.ZS:SP.M18.2024.FE.ZS} - Women who were first married by age 18 (% of women ages 20-24)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Women who were first married by age 18 refers to the percentage of women ages 20-24 who were first married by age 18.{p_end}
-
-{synopt:{opt Source Organization}}UNICEF Data; Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), AIDS Indicator Surveys(AIS), Reproductive Health Survey(RHS), and other household surveys.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.MTR.1519.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.MTR.1519.ZS:SP.MTR.1519.ZS} - Teenage mothers (% of women ages 15-19 who have had children or are currently pregnant)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Teenage mothers are the percentage of women ages 15-19 who already have children or are currently pregnant.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.0004.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.0004.FE.5Y:SP.POP.0004.FE.5Y} - Population ages 00-04, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 0 to 4 as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.0004.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.0004.MA.5Y:SP.POP.0004.MA.5Y} - Population ages 00-04, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 0 to 4 as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.0014.FE.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.0014.FE.IN:SP.POP.0014.FE.IN} - Population ages 0-14, female}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.0014.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.0014.FE.ZS:SP.POP.0014.FE.ZS} - Population ages 0-14, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 0 to 14 as a percentage of the total female population. Population is based on the de facto definition of population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.0014.MA.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.0014.MA.IN:SP.POP.0014.MA.IN} - Population ages 0-14, male}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.0014.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.0014.MA.ZS:SP.POP.0014.MA.ZS} - Population ages 0-14, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 0 to 14 as a percentage of the total male population. Population is based on the de facto definition of population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.0014.TO}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.0014.TO:SP.POP.0014.TO} - Population ages 0-14, total}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Total population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.0014.TO.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.0014.TO.ZS:SP.POP.0014.TO.ZS} - Population ages 0-14 (% of total population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Population between the ages 0 to 14 as a percentage of the total population. Population is based on the de facto definition of population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.0509.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.0509.FE.5Y:SP.POP.0509.FE.5Y} - Population ages 05-09, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 5 to 9 as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.0509.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.0509.MA.5Y:SP.POP.0509.MA.5Y} - Population ages 05-09, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 5 to 9 as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.1014.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.1014.FE.5Y:SP.POP.1014.FE.5Y} - Population ages 10-14, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 10 to 14 as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.1014.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.1014.MA.5Y:SP.POP.1014.MA.5Y} - Population ages 10-14, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 10 to 14 as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.1519.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.1519.FE.5Y:SP.POP.1519.FE.5Y} - Population ages 15-19, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 15 to 19 as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.1519.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.1519.MA.5Y:SP.POP.1519.MA.5Y} - Population ages 15-19, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 15 to 19 as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.1564.FE.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.1564.FE.IN:SP.POP.1564.FE.IN} - Population ages 15-64, female}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.1564.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.1564.FE.ZS:SP.POP.1564.FE.ZS} - Population ages 15-64, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 15 to 64 as a percentage of the total female population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.1564.MA.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.1564.MA.IN:SP.POP.1564.MA.IN} - Population ages 15-64, male}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.1564.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.1564.MA.ZS:SP.POP.1564.MA.ZS} - Population ages 15-64, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 15 to 64 as a percentage of the total male population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.1564.TO}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.1564.TO:SP.POP.1564.TO} - Population ages 15-64, total}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Total population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.1564.TO.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.1564.TO.ZS:SP.POP.1564.TO.ZS} - Population ages 15-64 (% of total population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Total population between the ages 15 to 64 as a percentage of the total population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.2024.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.2024.FE.5Y:SP.POP.2024.FE.5Y} - Population ages 20-24, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 20 to 24 as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.2024.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.2024.MA.5Y:SP.POP.2024.MA.5Y} - Population ages 20-24, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 20 to 24 as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.2529.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.2529.FE.5Y:SP.POP.2529.FE.5Y} - Population ages 25-29, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 25 to 29 as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.2529.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.2529.MA.5Y:SP.POP.2529.MA.5Y} - Population ages 25-29, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 25 to 29 as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.3034.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.3034.FE.5Y:SP.POP.3034.FE.5Y} - Population ages 30-34, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 30 to 34 as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.3034.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.3034.MA.5Y:SP.POP.3034.MA.5Y} - Population ages 30-34, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 30 to 34 as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.3539.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.3539.FE.5Y:SP.POP.3539.FE.5Y} - Population ages 35-39, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 35 to 39 as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.3539.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.3539.MA.5Y:SP.POP.3539.MA.5Y} - Population ages 35-39, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 35 to 39 as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.4044.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.4044.FE.5Y:SP.POP.4044.FE.5Y} - Population ages 40-44, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 40 to 44 as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.4044.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.4044.MA.5Y:SP.POP.4044.MA.5Y} - Population ages 40-44, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 40 to 44 as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.4549.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.4549.FE.5Y:SP.POP.4549.FE.5Y} - Population ages 45-49, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 45 to 49 as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.4549.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.4549.MA.5Y:SP.POP.4549.MA.5Y} - Population ages 45-49, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 45 to 49 as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.5054.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.5054.FE.5Y:SP.POP.5054.FE.5Y} - Population ages 50-54, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 50 to 54 as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.5054.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.5054.MA.5Y:SP.POP.5054.MA.5Y} - Population ages 50-54, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 50 to 54 as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.5559.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.5559.FE.5Y:SP.POP.5559.FE.5Y} - Population ages 55-59, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 55 to 59 as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.5559.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.5559.MA.5Y:SP.POP.5559.MA.5Y} - Population ages 55-59, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 55 to 59 as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.6064.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.6064.FE.5Y:SP.POP.6064.FE.5Y} - Population ages 60-64, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 60 to 64 as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.6064.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.6064.MA.5Y:SP.POP.6064.MA.5Y} - Population ages 60-64, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 60 to 64 as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.6569.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.6569.FE.5Y:SP.POP.6569.FE.5Y} - Population ages 65-69, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 65 to 69 as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.6569.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.6569.MA.5Y:SP.POP.6569.MA.5Y} - Population ages 65-69, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 65 to 69 as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.65UP.FE.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.65UP.FE.IN:SP.POP.65UP.FE.IN} - Population ages 65 and above, female}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.65UP.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.65UP.FE.ZS:SP.POP.65UP.FE.ZS} - Population ages 65 and above, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population 65 years of age or older as a percentage of the total female population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.65UP.MA.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.65UP.MA.IN:SP.POP.65UP.MA.IN} - Population ages 65 and above, male}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.65UP.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.65UP.MA.ZS:SP.POP.65UP.MA.ZS} - Population ages 65 and above, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population 65 years of age or older as a percentage of the total male population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.65UP.TO}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.65UP.TO:SP.POP.65UP.TO} - Population ages 65 and above, total}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Total population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.65UP.TO.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.65UP.TO.ZS:SP.POP.65UP.TO.ZS} - Population ages 65 and above (% of total population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Population ages 65 and above as a percentage of the total population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.7074.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.7074.FE.5Y:SP.POP.7074.FE.5Y} - Population ages 70-74, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 70 to 74 as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.7074.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.7074.MA.5Y:SP.POP.7074.MA.5Y} - Population ages 70-74, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 70 to 74 as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.7579.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.7579.FE.5Y:SP.POP.7579.FE.5Y} - Population ages 75-79, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 75 to 79 as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.7579.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.7579.MA.5Y:SP.POP.7579.MA.5Y} - Population ages 75-79, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 75 to 79 as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.80UP.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.80UP.FE.5Y:SP.POP.80UP.FE.5Y} - Population ages 80 and above, female (% of female population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population between the ages 80 and above as a percentage of the total female population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.80UP.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.80UP.MA.5Y:SP.POP.80UP.MA.5Y} - Population ages 80 and above, male (% of male population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 80 and above as a percentage of the total male population.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.BRTH.MF}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.BRTH.MF:SP.POP.BRTH.MF} - Sex ratio at birth (male births per female births)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Sex ratio at birth refers to male births per female births. The data are 5 year averages.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.DPND}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.DPND:SP.POP.DPND} - Age dependency ratio (% of working-age population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Age dependency ratio is the ratio of dependents--people younger than 15 or older than 64--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.DPND.OL}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.DPND.OL:SP.POP.DPND.OL} - Age dependency ratio, old (% of working-age population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Age dependency ratio, old, is the ratio of older dependents--people older than 64--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.DPND.YG}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.DPND.YG:SP.POP.DPND.YG} - Age dependency ratio, young (% of working-age population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Age dependency ratio, young, is the ratio of younger dependents--people younger than 15--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.GROW}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.GROW:SP.POP.GROW} - Population growth (annual %)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Annual population growth rate for year t is the exponential rate of growth of midyear population from year t-1 to t, expressed as a percentage . Population is based on the de facto definition of population, which counts all residents regardles{p_end}
-
-{synopt:{opt Source Organization}}Derived from total population. Population source: (1) United Nations Population Division. World Population Prospects: 2022 Revision, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demogra{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.SCIE.RD.P6}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.SCIE.RD.P6:SP.POP.SCIE.RD.P6} - Researchers in R&amp;D (per million people)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}14 Science and Technology{p_end}
-
-{synopt:{opt Source Notes}}The number of researchers engaged in Research &amp;Development (R&amp;D), expressed as per million. Researchers are professionals who conduct research and improve or develop concepts, theories, models techniques instrumentation, software of op{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.TECH.RD.P6}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.TECH.RD.P6:SP.POP.TECH.RD.P6} - Technicians in R&amp;D (per million people)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}14 Science and Technology{p_end}
-
-{synopt:{opt Source Notes}}The number of technicians participated in Research &amp; Development (R&amp;D), expressed as per million. Technicians and equivalent staff are people who perform scientific and technical tasks involving the application of concepts and operatio{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2021.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL:SP.POP.TOTL} - Population, total}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates.{p_end}
-
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.TOTL.FE.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.FE.IN:SP.POP.TOTL.FE.IN} - Population, female}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population is based on the de facto definition of population, which counts all female residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.TOTL.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.FE.ZS:SP.POP.TOTL.FE.ZS} - Population, female (% of total population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Female population is the percentage of the population that is female. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.TOTL.MA.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.MA.IN:SP.POP.TOTL.MA.IN} - Population, male}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population is based on the de facto definition of population, which counts all male residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.TOTL.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.MA.ZS:SP.POP.TOTL.MA.ZS} - Population, male (% of total population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Male population is the percentage of the population that is male. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2022 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.REG.BRTH.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.REG.BRTH.FE.ZS:SP.REG.BRTH.FE.ZS} - Completeness of birth registration, female (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the{p_end}
-
-{synopt:{opt Source Organization}}UNICEF's State of the World's Children based mostly on household surveys and ministry of health data.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.REG.BRTH.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.REG.BRTH.MA.ZS:SP.REG.BRTH.MA.ZS} - Completeness of birth registration, male (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the{p_end}
-
-{synopt:{opt Source Organization}}UNICEF's State of the World's Children based mostly on household surveys and ministry of health data.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.REG.BRTH.RU.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.REG.BRTH.RU.ZS:SP.REG.BRTH.RU.ZS} - Completeness of birth registration, rural (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the{p_end}
-
-{synopt:{opt Source Organization}}UNICEF's State of the World's Children based mostly on household surveys and ministry of health data.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.REG.BRTH.UR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.REG.BRTH.UR.ZS:SP.REG.BRTH.UR.ZS} - Completeness of birth registration, urban (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the{p_end}
-
-{synopt:{opt Source Organization}}UNICEF's State of the World's Children based mostly on household surveys and ministry of health data.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.REG.BRTH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.REG.BRTH.ZS:SP.REG.BRTH.ZS} - Completeness of birth registration (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the{p_end}
-
-{synopt:{opt Source Organization}}UNICEF's State of the World's Children based mostly on household surveys and ministry of health data.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.REG.DTHS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.REG.DTHS.ZS:SP.REG.DTHS.ZS} - Completeness of death registration with cause-of-death information (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Completeness of death registration is the estimated percentage of deaths that are registered with their cause of death information in the vital registration system of a country.{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository/World Health Statistics ({browse "http://apps.who.int/gho/data/node.main.1?lang=en"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.RUR.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##SP.RUR.TOTL:SP.RUR.TOTL} - Rural population}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
-
-{synopt:{opt Source Notes}}Rural population refers to people living in rural areas as defined by national statistical offices. It is calculated as the difference between total population and urban population. Aggregation of urban and rural population may not add up to t{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects: 2018 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.RUR.TOTL.ZG}
-{synopt:{bf:{help wbopendata_sourceid##SP.RUR.TOTL.ZG:SP.RUR.TOTL.ZG} - Rural population growth (annual %)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
-
-{synopt:{opt Source Notes}}Rural population refers to people living in rural areas as defined by national statistical offices. It is calculated as the difference between total population and urban population.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects: 2018 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.RUR.TOTL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.RUR.TOTL.ZS:SP.RUR.TOTL.ZS} - Rural population (% of total population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
-
-{synopt:{opt Source Notes}}Rural population refers to people living in rural areas as defined by national statistical offices. It is calculated as the difference between total population and urban population.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects: 2018 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.URB.GROW}
-{synopt:{bf:{help wbopendata_sourceid##SP.URB.GROW:SP.URB.GROW} - Urban population growth (annual %)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}19 Climate Change{p_end}
-
-{synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. It is calculated using World Bank population estimates and urban ratios from the United Nations World Urbanization Prospects.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects: 2018 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.URB.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##SP.URB.TOTL:SP.URB.TOTL} - Urban population}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}19 Climate Change{p_end}
-
-{synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. It is calculated using World Bank population estimates and urban ratios from the United Nations World Urbanization Prospects. Aggregation of ur{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects: 2018 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.URB.TOTL.IN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.URB.TOTL.IN.ZS:SP.URB.TOTL.IN.ZS} - Urban population (% of total population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}19 Climate Change{p_end}
-
-{synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. The data are collected and smoothed by United Nations Population Division.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division. World Urbanization Prospects: 2018 Revision.{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.UWT.TFRT}
-{synopt:{bf:{help wbopendata_sourceid##SP.UWT.TFRT:SP.UWT.TFRT} - Unmet need for contraception (% of married women ages 15-49)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}08 Health{p_end}
-
-{synopt:{opt Source Notes}}Unmet need for contraception is the percentage of fertile, married women of reproductive age who do not want to become pregnant and are not using contraception.{p_end}
-
-{synopt:{opt Source Organization}}Household surveys, including Demographic and Health Surveys and Multiple Indicator Cluster Surveys. Largely compiled by United Nations Population Division.{p_end}
-
-
-{synoptline}
-{marker sourceid_ST.INT.ARVL}
-{synopt:{bf:{help wbopendata_sourceid##ST.INT.ARVL:ST.INT.ARVL} - International tourism, number of arrivals}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}International inbound tourists (overnight visitors) are the number of tourists who travel to a country other than that in which they have their usual residence, but outside their usual environment, for a period not exceeding 12 months and whos{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_ST.INT.DPRT}
-{synopt:{bf:{help wbopendata_sourceid##ST.INT.DPRT:ST.INT.DPRT} - International tourism, number of departures}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}International outbound tourists are the number of departures that people make from their country of usual residence to any other country for any purpose other than a remunerated activity in the country visited. The data on outbound tourists re{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_ST.INT.RCPT.CD}
-{synopt:{bf:{help wbopendata_sourceid##ST.INT.RCPT.CD:ST.INT.RCPT.CD} - International tourism, receipts (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}International tourism receipts are expenditures by international inbound visitors, including payments to national carriers for international transport. These receipts include any other prepayment made for goods or services received in the dest{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_ST.INT.RCPT.XP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##ST.INT.RCPT.XP.ZS:ST.INT.RCPT.XP.ZS} - International tourism, receipts (% of total exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}International tourism receipts are expenditures by international inbound visitors, including payments to national carriers for international transport. These receipts include any other prepayment made for goods or services received in the dest{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files, and IMF and World Bank exports estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_ST.INT.TRNR.CD}
-{synopt:{bf:{help wbopendata_sourceid##ST.INT.TRNR.CD:ST.INT.TRNR.CD} - International tourism, receipts for passenger transport items (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}International tourism receipts for passenger transport items are expenditures by international inbound visitors for all services provided in the international transportation by resident carriers. Also included are passenger services performed{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_ST.INT.TRNX.CD}
-{synopt:{bf:{help wbopendata_sourceid##ST.INT.TRNX.CD:ST.INT.TRNX.CD} - International tourism, expenditures for passenger transport items (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}International tourism expenditures for passenger transport items are expenditures of international outbound visitors in other countries for all services provided during international transportation by nonresident carriers. Also included are pa{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_ST.INT.TVLR.CD}
-{synopt:{bf:{help wbopendata_sourceid##ST.INT.TVLR.CD:ST.INT.TVLR.CD} - International tourism, receipts for travel items (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}International tourism receipts for travel items are expenditures by international inbound visitors in the reporting economy. The goods and services are purchased by, or on behalf of, the traveler or provided, without a quid pro quo, for the tr{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_ST.INT.TVLX.CD}
-{synopt:{bf:{help wbopendata_sourceid##ST.INT.TVLX.CD:ST.INT.TVLX.CD} - International tourism, expenditures for travel items (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}International tourism expenditures are expenditures of international outbound visitors in other countries. The goods and services are purchased by, or on behalf of, the traveler or provided, without a quid pro quo, for the traveler to use or g{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_ST.INT.XPND.CD}
-{synopt:{bf:{help wbopendata_sourceid##ST.INT.XPND.CD:ST.INT.XPND.CD} - International tourism, expenditures (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}International tourism expenditures are expenditures of international outbound visitors in other countries, including payments to foreign carriers for international transport. These expenditures may include those by residents traveling abroad a{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_ST.INT.XPND.MP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##ST.INT.XPND.MP.ZS:ST.INT.XPND.MP.ZS} - International tourism, expenditures (% of total imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}International tourism expenditures are expenditures of international outbound visitors in other countries, including payments to foreign carriers for international transport. These expenditures may include those by residents traveling abroad a{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files, and IMF and World Bank imports estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_TG.VAL.TOTL.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TG.VAL.TOTL.GD.ZS:TG.VAL.TOTL.GD.ZS} - Merchandise trade (% of GDP)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise trade as a share of GDP is the sum of merchandise exports and imports divided by the value of GDP, all in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Trade Organization, and World Bank GDP estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.QTY.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_sourceid##TM.QTY.MRCH.XD.WD:TM.QTY.MRCH.XD.WD} - Import volume index (2000 = 100)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Import volume indexes are derived from UNCTAD's volume index series and are the ratio of the import value indexes to the corresponding unit value indexes. Unit value indexes are based on data reported by countries that demonstrate consistency{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MANF.BC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.BC.ZS:TM.TAX.MANF.BC.ZS} - Binding coverage, manufactured products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Binding coverage is the percentage of product lines with an agreed bound rate. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforceable. Manufactured products are commodities cla{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MANF.BR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.BR.ZS:TM.TAX.MANF.BR.ZS} - Bound rate, simple mean, manufactured products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Simple mean bound rate is the unweighted average of all the lines in the tariff schedule in which bound rates have been set. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforcea{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MANF.IP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.IP.ZS:TM.TAX.MANF.IP.ZS} - Share of tariff lines with international peaks, manufactured products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Share of tariff lines with international peaks is the share of lines in the tariff schedule with tariff rates that exceed 15 percent. It provides an indication of how selectively tariffs are applied. Manufactured products are commodities class{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MANF.SM.AR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.SM.AR.ZS:TM.TAX.MANF.SM.AR.ZS} - Tariff rate, applied, simple mean, manufactured products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Simple mean applied tariff is the unweighted average of effectively applied rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. T{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MANF.SM.FN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.SM.FN.ZS:TM.TAX.MANF.SM.FN.ZS} - Tariff rate, most favored nation, simple mean, manufactured products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Simple mean most favored nation tariff rate is the unweighted average of most favored nation rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eig{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MANF.SR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.SR.ZS:TM.TAX.MANF.SR.ZS} - Share of tariff lines with specific rates, manufactured products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Share of tariff lines with specific rates is the share of lines in the tariff schedule that are set on a per unit basis or that combine ad valorem and per unit rates. It shows the extent to which countries use tariffs based on physical quantit{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MANF.WM.AR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.WM.AR.ZS:TM.TAX.MANF.WM.AR.ZS} - Tariff rate, applied, weighted mean, manufactured products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Weighted mean applied tariff is the average of effectively applied rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Ta{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MANF.WM.FN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.WM.FN.ZS:TM.TAX.MANF.WM.FN.ZS} - Tariff rate, most favored nation, weighted mean, manufactured products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Weighted mean most favored nations tariff is the average of most favored nation rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-di{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MRCH.BC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MRCH.BC.ZS:TM.TAX.MRCH.BC.ZS} - Binding coverage, all products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Binding coverage is the percentage of product lines with an agreed bound rate. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforceable.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MRCH.BR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MRCH.BR.ZS:TM.TAX.MRCH.BR.ZS} - Bound rate, simple mean, all products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Simple mean bound rate is the unweighted average of all the lines in the tariff schedule in which bound rates have been set. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforcea{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MRCH.IP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MRCH.IP.ZS:TM.TAX.MRCH.IP.ZS} - Share of tariff lines with international peaks, all products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Share of tariff lines with international peaks is the share of lines in the tariff schedule with tariff rates that exceed 15 percent. It provides an indication of how selectively tariffs are applied.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MRCH.SM.AR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MRCH.SM.AR.ZS:TM.TAX.MRCH.SM.AR.ZS} - Tariff rate, applied, simple mean, all products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Simple mean applied tariff is the unweighted average of effectively applied rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. T{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MRCH.SM.FN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MRCH.SM.FN.ZS:TM.TAX.MRCH.SM.FN.ZS} - Tariff rate, most favored nation, simple mean, all products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Simple mean most favored nation tariff rate is the unweighted average of most favored nation rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eig{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MRCH.SR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MRCH.SR.ZS:TM.TAX.MRCH.SR.ZS} - Share of tariff lines with specific rates, all products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Share of tariff lines with specific rates is the share of lines in the tariff schedule that are set on a per unit basis or that combine ad valorem and per unit rates. It shows the extent to which countries use tariffs based on physical quantit{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MRCH.WM.AR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MRCH.WM.AR.ZS:TM.TAX.MRCH.WM.AR.ZS} - Tariff rate, applied, weighted mean, all products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Weighted mean applied tariff is the average of effectively applied rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Ta{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MRCH.WM.FN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MRCH.WM.FN.ZS:TM.TAX.MRCH.WM.FN.ZS} - Tariff rate, most favored nation, weighted mean, all products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Weighted mean most favored nations tariff is the average of most favored nation rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-di{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.TCOM.BC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.BC.ZS:TM.TAX.TCOM.BC.ZS} - Binding coverage, primary products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Binding coverage is the percentage of product lines with an agreed bound rate. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforceable. Primary products are commodities classifi{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.TCOM.BR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.BR.ZS:TM.TAX.TCOM.BR.ZS} - Bound rate, simple mean, primary products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Simple mean bound rate is the unweighted average of all the lines in the tariff schedule in which bound rates have been set. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforcea{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.TCOM.IP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.IP.ZS:TM.TAX.TCOM.IP.ZS} - Share of tariff lines with international peaks, primary products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Share of tariff lines with international peaks is the share of lines in the tariff schedule with tariff rates that exceed 15 percent. It provides an indication of how selectively tariffs are applied. Primary products are commodities classified{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.TCOM.SM.AR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.SM.AR.ZS:TM.TAX.TCOM.SM.AR.ZS} - Tariff rate, applied, simple mean, primary products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Simple mean applied tariff is the unweighted average of effectively applied rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. T{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.TCOM.SM.FN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.SM.FN.ZS:TM.TAX.TCOM.SM.FN.ZS} - Tariff rate, most favored nation, simple mean, primary products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Simple mean most favored nation tariff rate is the unweighted average of most favored nation rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eig{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.TCOM.SR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.SR.ZS:TM.TAX.TCOM.SR.ZS} - Share of tariff lines with specific rates, primary products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Share of tariff lines with specific rates is the share of lines in the tariff schedule that are set on a per unit basis or that combine ad valorem and per unit rates. It shows the extent to which countries use tariffs based on physical quantit{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.TCOM.WM.AR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.WM.AR.ZS:TM.TAX.TCOM.WM.AR.ZS} - Tariff rate, applied, weighted mean, primary products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Weighted mean applied tariff is the average of effectively applied rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Ta{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.TCOM.WM.FN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.WM.FN.ZS:TM.TAX.TCOM.WM.FN.ZS} - Tariff rate, most favored nation, weighted mean, primary products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Weighted mean most favored nations tariff is the average of most favored nation rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-di{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker sourceid_TM.UVI.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_sourceid##TM.UVI.MRCH.XD.WD:TM.UVI.MRCH.XD.WD} - Import unit value index (2015 = 100 )}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Import unit value indices come from UNCTAD's trade database. Unit value indices are based on data reported by countries that demonstrate consistency under UNCTAD quality controls, supplemented by UNCTAD’s estimates using the previous year’{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files. ({browse "http://unctadstat.unctad.org"}){p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.AGRI.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.AGRI.ZS.UN:TM.VAL.AGRI.ZS.UN} - Agricultural raw materials imports (% of merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Agricultural raw materials comprise SITC section 2 (crude materials except fuels) excluding divisions 22, 27 (crude fertilizers and minerals excluding coal, petroleum, and precious stones), and 28 (metalliferous ores and scrap).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.FOOD.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.FOOD.ZS.UN:TM.VAL.FOOD.ZS.UN} - Food imports (% of merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Food comprises the commodities in SITC sections 0 (food and live animals), 1 (beverages and tobacco), and 4 (animal and vegetable oils and fats) and SITC division 22 (oil seeds, oil nuts, and oil kernels).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.FUEL.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.FUEL.ZS.UN:TM.VAL.FUEL.ZS.UN} - Fuel imports (% of merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
-
-{synopt:{opt Source Notes}}Fuels comprise the commodities in SITC section 3 (mineral fuels, lubricants and related materials).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.ICTG.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.ICTG.ZS.UN:TM.VAL.ICTG.ZS.UN} - ICT goods imports (% total goods imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Information and communication technology goods imports include computers and peripheral equipment, communication equipment, consumer electronic equipment, electronic components, and other information and technology goods (miscellaneous).{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development's UNCTADstat database at {browse "http://unctadstat.unctad.org/ReportFolders/reportFolders.aspx"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.INSF.ZS.WT}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.INSF.ZS.WT:TM.VAL.INSF.ZS.WT} - Insurance and financial services (% of commercial service imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Insurance and financial services cover freight insurance on goods imported and other direct insurance such as life insurance; financial intermediation services such as commissions, foreign exchange transactions, and brokerage services; and aux{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.MANF.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MANF.ZS.UN:TM.VAL.MANF.ZS.UN} - Manufactures imports (% of merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Manufactures comprise the commodities in SITC sections 5 (chemicals), 6 (basic manufactures), 7 (machinery and transport equipment), and 8 (miscellaneous manufactured goods), excluding division 68 (nonferrous metals).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.MMTL.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MMTL.ZS.UN:TM.VAL.MMTL.ZS.UN} - Ores and metals imports (% of merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Ores and metals comprise commodities in SITC sections 27 (crude fertilizer, minerals nes); 28 (metalliferous ores, scrap); and 68 (non-ferrous metals).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.MRCH.AL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.AL.ZS:TM.VAL.MRCH.AL.ZS} - Merchandise imports from economies in the Arab World (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from economies in the Arab World are the sum of merchandise imports by the reporting economy from economies in the Arab World. Data are expressed as a percentage of total merchandise imports by the economy. Data are compute{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.MRCH.CD.WT}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.CD.WT:TM.VAL.MRCH.CD.WT} - Merchandise imports (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports show the c.i.f. value of goods received from the rest of the world valued in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Trade Organization.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.MRCH.HI.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.HI.ZS:TM.VAL.MRCH.HI.ZS} - Merchandise imports from high-income economies (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from high-income economies are the sum of merchandise imports by the reporting economy from high-income economies according to the World Bank classification of economies. Data are expressed as a percentage of total merchand{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.MRCH.OR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.OR.ZS:TM.VAL.MRCH.OR.ZS} - Merchandise imports from low- and middle-income economies outside region (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies outside region are the sum of merchandise imports by the reporting economy from other low- and middle-income economies in other World Bank regions according to the World Bank classifica{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.MRCH.R1.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.R1.ZS:TM.VAL.MRCH.R1.ZS} - Merchandise imports from low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in East Asia and Pacific are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the East Asia and Pacific region according to the World Ban{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.MRCH.R2.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.R2.ZS:TM.VAL.MRCH.R2.ZS} - Merchandise imports from low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Europe and Central Asia are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Europe and Central Asia region according to the World{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.MRCH.R3.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.R3.ZS:TM.VAL.MRCH.R3.ZS} - Merchandise imports from low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Latin America and the Caribbean are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Latin America and the Caribbean region accord{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.MRCH.R4.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.R4.ZS:TM.VAL.MRCH.R4.ZS} - Merchandise imports from low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Middle East and North Africa are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Middle East and North Africa region according to{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.MRCH.R5.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.R5.ZS:TM.VAL.MRCH.R5.ZS} - Merchandise imports from low- and middle-income economies in South Asia (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in South Asia are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the South Asia region according to the World Bank classification of ec{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.MRCH.R6.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.R6.ZS:TM.VAL.MRCH.R6.ZS} - Merchandise imports from low- and middle-income economies in Sub-Saharan Africa (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Sub-Saharan Africa are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Sub-Saharan Africa region according to the World Bank clas{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.MRCH.RS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.RS.ZS:TM.VAL.MRCH.RS.ZS} - Merchandise imports by the reporting economy, residual (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports by the reporting economy residuals are the total merchandise imports by the reporting economy from the rest of the world as reported in the IMF's Direction of trade database, less the sum of imports by the reporting economy{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.MRCH.WL.CD}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.WL.CD:TM.VAL.MRCH.WL.CD} - Merchandise imports by the reporting economy (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports by the reporting economy are the total merchandise imports by the reporting economy from the rest of the world, as reported in the IMF's Direction of trade database. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.MRCH.WR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.WR.ZS:TM.VAL.MRCH.WR.ZS} - Merchandise imports from low- and middle-income economies within region (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies within region are the sum of merchandise imports by the reporting economy from other low- and middle-income economies in the same World Bank region according to the World Bank classific{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.XD.WD:TM.VAL.MRCH.XD.WD} - Import unit value index (2015 = 100)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Import value indexes are the current value of imports (c.i.f.) converted to U.S. dollars and expressed as a percentage of the average for the base period (2000). UNCTAD's import value indexes are reported for most economies. For selected econo{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.OTHR.ZS.WT}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.OTHR.ZS.WT:TM.VAL.OTHR.ZS.WT} - Computer, communications and other services (% of commercial service imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Computer, communications and other services (% of commercial service imports) include such activities as international telecommunications, and postal and courier services; computer data; news-related service transactions between residents and{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.SERV.CD.WT}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.SERV.CD.WT:TM.VAL.SERV.CD.WT} - Commercial service imports (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Commercial service imports are total service imports minus imports of government services not included elsewhere. International transactions in services are defined by the IMF's Balance of Payments Manual (1993) as the economic output of intan{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.TRAN.ZS.WT}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.TRAN.ZS.WT:TM.VAL.TRAN.ZS.WT} - Transport services (% of commercial service imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Transport services (% of commercial service imports) covers all transport services (sea, air, land, internal waterway, space, and pipeline) performed by residents of one economy for those of another and involving the carriage of passengers, mo{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.VAL.TRVL.ZS.WT}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.TRVL.ZS.WT:TM.VAL.TRVL.ZS.WT} - Travel services (% of commercial service imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Travel services (% of commercial service imports) covers goods and services acquired from an economy by travelers in that economy for their own use during visits of less than one year for business or personal purposes. Travel services include{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_TT.PRI.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_sourceid##TT.PRI.MRCH.XD.WD:TT.PRI.MRCH.XD.WD} - Net barter terms of trade index (2000 = 100)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Net barter terms of trade index is calculated as the percentage ratio of the export unit value indexes to the import unit value indexes, measured relative to the base year 2000. Unit value indexes are based on data reported by countries that d{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.MNF.TECH.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TX.MNF.TECH.ZS.UN:TX.MNF.TECH.ZS.UN} - Medium and high-tech exports (% manufactured exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Share of medium and high-tech manufactured exports in total manufactured exports.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Industrial Development Organization (UNIDO), Competitive Industrial Performance (CIP) database{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.QTY.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_sourceid##TX.QTY.MRCH.XD.WD:TX.QTY.MRCH.XD.WD} - Export volume index (2000 = 100)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Export volume indexes are derived from UNCTAD's volume index series and are the ratio of the export value indexes to the corresponding unit value indexes. Unit value indexes are based on data reported by countries that demonstrate consistency{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.UVI.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_sourceid##TX.UVI.MRCH.XD.WD:TX.UVI.MRCH.XD.WD} - Export unit value index (2015 = 100)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Export unit value indices come from UNCTAD's trade database. Unit value indices are based on data reported by countries that demonstrate consistency under UNCTAD quality controls, supplemented by UNCTAD’s estimates using the previous year’{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files. ({browse "http://unctadstat.unctad.org"}){p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.AGRI.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.AGRI.ZS.UN:TX.VAL.AGRI.ZS.UN} - Agricultural raw materials exports (% of merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
-
-{synopt:{opt Source Notes}}Agricultural raw materials comprise SITC section 2 (crude materials except fuels) excluding divisions 22, 27 (crude fertilizers and minerals excluding coal, petroleum, and precious stones), and 28 (metalliferous ores and scrap).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.FOOD.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.FOOD.ZS.UN:TX.VAL.FOOD.ZS.UN} - Food exports (% of merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Food comprises the commodities in SITC sections 0 (food and live animals), 1 (beverages and tobacco), and 4 (animal and vegetable oils and fats) and SITC division 22 (oil seeds, oil nuts, and oil kernels).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.FUEL.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.FUEL.ZS.UN:TX.VAL.FUEL.ZS.UN} - Fuel exports (% of merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Fuels comprise the commodities in SITC section 3 (mineral fuels, lubricants and related materials).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.ICTG.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.ICTG.ZS.UN:TX.VAL.ICTG.ZS.UN} - ICT goods exports (% of total goods exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}09 Infrastructure{p_end}
-
-{synopt:{opt Source Notes}}Information and communication technology goods exports include computers and peripheral equipment, communication equipment, consumer electronic equipment, electronic components, and other information and technology goods (miscellaneous).{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development's UNCTADstat database at {browse "http://unctadstat.unctad.org/ReportFolders/reportFolders.aspx"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.INSF.ZS.WT}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.INSF.ZS.WT:TX.VAL.INSF.ZS.WT} - Insurance and financial services (% of commercial service exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Insurance and financial services cover freight insurance on goods exported and other direct insurance such as life insurance; financial intermediation services such as commissions, foreign exchange transactions, and brokerage services; and aux{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.MANF.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MANF.ZS.UN:TX.VAL.MANF.ZS.UN} - Manufactures exports (% of merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Manufactures comprise commodities in SITC sections 5 (chemicals), 6 (basic manufactures), 7 (machinery and transport equipment), and 8 (miscellaneous manufactured goods), excluding division 68 (non-ferrous metals).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.MMTL.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MMTL.ZS.UN:TX.VAL.MMTL.ZS.UN} - Ores and metals exports (% of merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
-
-{synopt:{opt Source Notes}}Ores and metals comprise the commodities in SITC sections 27 (crude fertilizer, minerals nes); 28 (metalliferous ores, scrap); and 68 (non-ferrous metals).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.MRCH.AL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.AL.ZS:TX.VAL.MRCH.AL.ZS} - Merchandise exports to economies in the Arab World (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to economies in the Arab World are the sum of merchandise exports by the reporting economy to economies in the Arab World. Data are expressed as a percentage of total merchandise exports by the economy. Data are computed on{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.MRCH.CD.WT}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.CD.WT:TX.VAL.MRCH.CD.WT} - Merchandise exports (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports show the f.o.b. value of goods provided to the rest of the world valued in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Trade Organization.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.MRCH.HI.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.HI.ZS:TX.VAL.MRCH.HI.ZS} - Merchandise exports to high-income economies (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to high-income economies are the sum of merchandise exports from the reporting economy to high-income economies according to the World Bank classification of economies. Data are expressed as a percentage of total merchandis{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.MRCH.OR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.OR.ZS:TX.VAL.MRCH.OR.ZS} - Merchandise exports to low- and middle-income economies outside region (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies outside region are the sum of merchandise exports from the reporting economy to other low- and middle-income economies in other World Bank regions according to the World Bank classificati{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.MRCH.R1.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.R1.ZS:TX.VAL.MRCH.R1.ZS} - Merchandise exports to low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in East Asia and Pacific are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the East Asia and Pacific region according to World Bank clas{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.MRCH.R2.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.R2.ZS:TX.VAL.MRCH.R2.ZS} - Merchandise exports to low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Europe and Central Asia are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Europe and Central Asia region according to World Bank{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.MRCH.R3.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.R3.ZS:TX.VAL.MRCH.R3.ZS} - Merchandise exports to low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Latin America and the Caribbean are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Latin America and the Caribbean region accordin{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.MRCH.R4.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.R4.ZS:TX.VAL.MRCH.R4.ZS} - Merchandise exports to low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Middle East and North Africa are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Middle East and North Africa region according to W{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.MRCH.R5.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.R5.ZS:TX.VAL.MRCH.R5.ZS} - Merchandise exports to low- and middle-income economies in South Asia (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in South Asia are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the South Asia region according to World Bank classification of economie{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.MRCH.R6.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.R6.ZS:TX.VAL.MRCH.R6.ZS} - Merchandise exports to low- and middle-income economies in Sub-Saharan Africa (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Sub-Saharan Africa are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Sub-Saharan Africa region according to World Bank classifica{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.MRCH.RS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.RS.ZS:TX.VAL.MRCH.RS.ZS} - Merchandise exports by the reporting economy, residual (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports by the reporting economy residuals are the total merchandise exports by the reporting economy to the rest of the world as reported in the IMF's Direction of trade database, less the sum of exports by the reporting economy t{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.MRCH.WL.CD}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.WL.CD:TX.VAL.MRCH.WL.CD} - Merchandise exports by the reporting economy (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports by the reporting economy are the total merchandise exports by the reporting economy to the rest of the world, as reported in the IMF's Direction of trade database. Data are in current US$.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.MRCH.WR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.WR.ZS:TX.VAL.MRCH.WR.ZS} - Merchandise exports to low- and middle-income economies within region (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies within region are the sum of merchandise exports from the reporting economy to other low- and middle-income economies in the same World Bank region as a percentage of total merchandise ex{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.XD.WD:TX.VAL.MRCH.XD.WD} - Export value index (2000 = 100)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Export values are the current value of exports (f.o.b.) converted to U.S. dollars and expressed as a percentage of the average for the base period (2000). UNCTAD's export value indexes are reported for most economies. For selected economies fo{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.OTHR.ZS.WT}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.OTHR.ZS.WT:TX.VAL.OTHR.ZS.WT} - Computer, communications and other services (% of commercial service exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Computer, communications and other services (% of commercial service exports) include such activities as international telecommunications, and postal and courier services; computer data; news-related service transactions between residents and{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.SERV.CD.WT}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.SERV.CD.WT:TX.VAL.SERV.CD.WT} - Commercial service exports (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Commercial service exports are total service exports minus exports of government services not included elsewhere. International transactions in services are defined by the IMF's Balance of Payments Manual (1993) as the economic output of intan{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.TECH.CD}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.TECH.CD:TX.VAL.TECH.CD} - High-technology exports (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}High-technology exports are products with high R&amp;D intensity, such as aerospace, computers, pharmaceuticals, scientific instruments, and electrical machinery. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}United Nations, Comtrade database through the WITS platform.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.TECH.MF.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.TECH.MF.ZS:TX.VAL.TECH.MF.ZS} - High-technology exports (% of manufactured exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}14 Science and Technology{p_end}
-
-{synopt:{opt Source Notes}}High-technology exports are products with high R&amp;D intensity, such as in aerospace, computers, pharmaceuticals, scientific instruments, and electrical machinery.{p_end}
-
-{synopt:{opt Source Organization}}United Nations, Comtrade database through the WITS platform.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.TRAN.ZS.WT}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.TRAN.ZS.WT:TX.VAL.TRAN.ZS.WT} - Transport services (% of commercial service exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Transport services (% of commercial service exports) covers all transport services (sea, air, land, internal waterway, space, and pipeline) performed by residents of one economy for those of another and involving the carriage of passengers, mo{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_TX.VAL.TRVL.ZS.WT}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.TRVL.ZS.WT:TX.VAL.TRVL.ZS.WT} - Travel services (% of commercial service exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}21 Trade{p_end}
-
-{synopt:{opt Source Notes}}Travel services (% of commercial service exports) covers goods and services acquired from an economy by travelers in that economy for their own use during visits of less than one year for business or personal purposes. Travel services include{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -18613,4 +12234,4 @@
 
 
 
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -4623,7 +4623,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the high international benchmark of mathematics achievement (%) is the share of 4th grade students scoring at least 550 on the mathematics assessment. Students at this benchmark can apply their knowledge a{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the high international benchmark of mathematics achievement (%) is the share of 4th grade students scoring at least 550 on the mathematics assessment. Students at this benchmark can apply conceptual unders{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -4636,7 +4636,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the intermediate international benchmark of mathematics achievement (%) is the share of 4th grade students scoring at least 475 on the mathematics assessment. Students can apply basic mathematical knowledg{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the intermediate international benchmark of mathematics achievement (%) is the share of 4th grade students scoring at least 475 on the mathematics assessment. Students at this benchmark can apply basic mat{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -4649,7 +4649,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the low international benchmark of mathematics achievement (%) is the share of 4th grade students scoring at least 400 on the mathematics assessment. Students have some basic mathematical knowledge. They c{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the low international benchmark of mathematics achievement (%) is the share of 4th grade students scoring at least 400 on the mathematics assessment. Students at this benchmark have some basic mathematical{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -4688,7 +4688,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the advanced international benchmark of mathematics achievement (%) is the share of 8th grade students scoring at least 625 on the mathematics assessment. Students at this benchmark can apply and reason in{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the advanced international benchmark of mathematics achievement (%) is the share of 8th grade students scoring at least 625 on the mathematics assessment. Students can apply and reason in a variety of prob{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -4740,7 +4740,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the intermediate international benchmark of mathematics achievement (%) is the share of 8th grade students scoring at least 475 on the mathematics assessment. Students at this benchmark can apply basic mat{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the intermediate international benchmark of mathematics achievement (%) is the share of 8th grade students scoring at least 475 on the mathematics assessment. Students at this benchmark can  apply basic ma{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -4792,7 +4792,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the advanced international benchmark of science achievement (%) is the share of 4th grade students scoring at least 625 on the science assessment. Students communicate understanding of life, physical, and{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the advanced international benchmark of science achievement (%) is the share of 4th grade students scoring at least 625 on the science assessment. Students reaching this benchmark can communicate their und{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -4831,7 +4831,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the high international benchmark of science achievement (%) is the share of 4th grade students scoring at least 550 on the science assessment. Students reaching this benchmark can communicate and apply kno{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the high international benchmark of science achievement (%) is the share of 4th grade students scoring at least 550 on the science assessment. Students reaching this benchmark  can communicate and apply kn{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -4844,7 +4844,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the intermediate international benchmark of science achievement (%) is the share of 4th grade students scoring at least 475 on the science assessment. Students reaching this benchmark show basic knowledge{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the intermediate international benchmark of science achievement (%) is the share of 4th grade students scoring at least 475 on the science assessment. Students reaching this benchmark show knowledge and un{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -4857,7 +4857,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the low international benchmark of science achievement (%) is the share of 4th grade students scoring at least 400 on the science assessment. Students reaching this benchmark show basic knowledge of life a{p_end}
+{synopt:{opt Source Notes}}TIMSS: Fourth grade students reaching the low international benchmark of science achievement (%) is the share of 4th grade students scoring at least 400 on the science assessment. Students reaching this benchmark show limited understanding of{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -4935,7 +4935,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the high international benchmark of science achievement (%) is the share of 8th grade students scoring at least 550 on the science assessment. Students at this benchmark can apply and communicate understan{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the high international benchmark of science achievement (%) is the share of 8th grade students scoring at least 550 on the science assessment. Students at this benchmark can apply understanding of concepts{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -4948,7 +4948,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the intermediate international benchmark of science achievement (%) is the share of 8th grade students scoring at least 475 on the science assessment. Students at this benchmark can demonstrate and apply t{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the intermediate international benchmark of science achievement (%) is the share of 8th grade students scoring at least 475 on the science assessment. Students at this benchmark can show and apply some kno{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -4961,7 +4961,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the low international benchmark of science achievement (%) is the share of 8th grade students scoring at least 400 on the science assessment. Students at this benchmark show some basic knowledge of biology{p_end}
+{synopt:{opt Source Notes}}TIMSS: Eighth grade students reaching the low international benchmark of science achievement (%) is the share of 8th grade students scoring at least 400 on the science assessment. Students at this benchmark show  limited understanding of scien{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
 
@@ -5574,7 +5574,7 @@
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -5587,7 +5587,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for youth literacy rate is the ratio of females to males ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -5600,7 +5600,7 @@
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -5613,7 +5613,7 @@
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -5626,7 +5626,7 @@
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -5639,7 +5639,7 @@
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -5652,7 +5652,7 @@
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -5665,7 +5665,7 @@
 
 {synopt:{opt Source Notes}}Duration of compulsory education is the number of years that children are legally obliged to attend school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -5717,7 +5717,7 @@
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in tertiary education is the ratio of women to men enrolled at tertiary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -5750,26 +5750,26 @@
 {marker topicid_SE.LPV.PRIM.FE}
 {synopt:{bf:{help wbopendata_topicid##SE.LPV.PRIM.FE:SE.LPV.PRIM.FE} - Learning poverty: Share of Female Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}This indicator brings together schooling and learning. It starts with the share of children who haven't achieved minimum reading proficiency and adjusts it by the proportion of children who are out of school.{p_end}
+{synopt:{opt Source Notes}}The share of female 10-year-olds who cannot read and understand a short passage of age-appropriate material—in other words, those who are below the “minimum proficiency” threshold for reading. This measure is defined as the union of two{p_end}
 
-{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+{synopt:{opt Source Organization}}World Bank and UIS{p_end}
 
 
 {synoptline}
 {marker topicid_SE.LPV.PRIM.MA}
 {synopt:{bf:{help wbopendata_topicid##SE.LPV.PRIM.MA:SE.LPV.PRIM.MA} - Learning poverty: Share of Male Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
+{synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}This indicator brings together schooling and learning. It starts with the share of children who haven't achieved minimum reading proficiency and adjusts it by the proportion of children who are out of school.{p_end}
+{synopt:{opt Source Notes}}The share of male 10-year-olds who cannot read and understand a short passage of age-appropriate material—in other words, those who are below the “minimum proficiency” threshold for reading. This measure is defined as the union of two de{p_end}
 
-{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+{synopt:{opt Source Organization}}World Bank and UIS{p_end}
 
 
 {synoptline}
@@ -5808,7 +5808,7 @@
 
 {synopt:{opt Source Notes}}Preprimary duration refers to the number of grades (years) in preprimary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -5912,7 +5912,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in preprimary education are the percentage of preprimary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -5925,7 +5925,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in preprimary education are the percentage of preprimary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -5938,7 +5938,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in preprimary education are the percentage of preprimary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -5990,7 +5990,7 @@
 
 {synopt:{opt Source Notes}}Primary school starting age is the age at which students would enter primary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progressed through the s{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6042,7 +6042,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6055,7 +6055,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6068,7 +6068,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6081,7 +6081,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6094,7 +6094,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6107,7 +6107,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6120,7 +6120,7 @@
 
 {synopt:{opt Source Notes}}Primary duration refers to the number of grades (years) in primary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6133,7 +6133,7 @@
 
 {synopt:{opt Source Notes}}Primary education pupils is the total number of pupils enrolled at primary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6185,7 +6185,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6198,7 +6198,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6211,7 +6211,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6380,7 +6380,7 @@
 
 {synopt:{opt Source Notes}}Private enrollment refers to pupils or students enrolled in institutions that are not operated by a public authority but controlled and managed, whether for profit or not, by a private body such as a nongovernmental organization, religious bod{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6393,7 +6393,7 @@
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6406,7 +6406,7 @@
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6419,7 +6419,7 @@
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6432,7 +6432,7 @@
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6445,7 +6445,7 @@
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6458,7 +6458,7 @@
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6510,7 +6510,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6523,7 +6523,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6536,7 +6536,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6549,7 +6549,7 @@
 
 {synopt:{opt Source Notes}}Primary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6575,7 +6575,7 @@
 
 {synopt:{opt Source Notes}}Female teachers as a percentage of total primary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6627,7 +6627,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6640,7 +6640,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6653,7 +6653,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the percentage of primary-school-age children who are not enrolled in primary or secondary school. Children in the official primary age group that are in preprimary education should be considered out of school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6666,7 +6666,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6679,7 +6679,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the percentage of primary-school-age children who are not enrolled in primary or secondary school. Children in the official primary age group that are in preprimary education should be considered out of school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6692,7 +6692,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the percentage of primary-school-age children who are not enrolled in primary or secondary school. Children in the official primary age group that are in preprimary education should be considered out of school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6705,7 +6705,7 @@
 
 {synopt:{opt Source Notes}}Lower secondary school starting age is the age at which students would enter lower secondary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progress{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6718,7 +6718,7 @@
 
 {synopt:{opt Source Notes}}Lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary ed{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6731,7 +6731,7 @@
 
 {synopt:{opt Source Notes}}Lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary ed{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6744,7 +6744,7 @@
 
 {synopt:{opt Source Notes}}Lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary ed{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6757,7 +6757,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6770,7 +6770,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6783,7 +6783,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6796,7 +6796,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6809,7 +6809,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6822,7 +6822,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6835,7 +6835,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6848,7 +6848,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6861,7 +6861,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6874,7 +6874,7 @@
 
 {synopt:{opt Source Notes}}Secondary duration refers to the number of grades (years) in secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -6913,7 +6913,7 @@
 
 {synopt:{opt Source Notes}}Secondary education pupils is the total number of pupils enrolled at secondary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7082,7 +7082,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7095,7 +7095,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7147,7 +7147,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7238,7 +7238,7 @@
 
 {synopt:{opt Source Notes}}Private enrollment refers to pupils or students enrolled in institutions that are not operated by a public authority but controlled and managed, whether for profit or not, by a private body such as a nongovernmental organization, religious bod{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7290,7 +7290,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in secondary education are the percentage of secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7303,7 +7303,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in lower secondary education are the percentage of lower secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7316,7 +7316,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in lower secondary education are the percentage of lower secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7329,7 +7329,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in lower secondary education are the percentage of lower secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7342,7 +7342,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in secondary education are the percentage of secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7355,7 +7355,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in upper secondary education are the percentage of upper secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7368,7 +7368,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in upper secondary education are the percentage of upper secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7381,7 +7381,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in upper secondary education are the percentage of upper secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7394,7 +7394,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in secondary education are the percentage of secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7407,7 +7407,7 @@
 
 {synopt:{opt Source Notes}}Secondary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7420,7 +7420,7 @@
 
 {synopt:{opt Source Notes}}Secondary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7433,7 +7433,7 @@
 
 {synopt:{opt Source Notes}}Female teachers as a percentage of total secondary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7446,7 +7446,7 @@
 
 {synopt:{opt Source Notes}}Adolescents out of school are the percentage of lower secondary school age adolescents who are not enrolled in school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7459,7 +7459,7 @@
 
 {synopt:{opt Source Notes}}Adolescents out of school are the percentage of lower secondary school age adolescents who are not enrolled in school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7472,7 +7472,7 @@
 
 {synopt:{opt Source Notes}}Adolescents out of school are the percentage of lower secondary school age adolescents who are not enrolled in school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7524,7 +7524,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7537,7 +7537,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7550,7 +7550,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7563,7 +7563,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7576,7 +7576,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7589,7 +7589,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7602,7 +7602,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7615,7 +7615,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7628,7 +7628,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7641,7 +7641,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7654,7 +7654,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7667,7 +7667,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7732,7 +7732,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7745,7 +7745,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7758,7 +7758,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -7931,409 +7931,6 @@
 
 
 {synoptline}
-{marker topicid_SE.TER.GRAD.HL.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.HL.ZS:SE.TER.GRAD.HL.ZS} - Percentage of graduates from tertiary education graduating from Health and Welfare programmes, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all tertiary graduates who completed health and welfare programmes in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.GRAD.HU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.HU.ZS:SE.TER.GRAD.HU.ZS} - Percentage of graduates from tertiary education graduating from Arts and Humanities programmes, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all tertiary graduates who completed humanities and arts programmes in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.GRAD.OT.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.OT.ZS:SE.TER.GRAD.OT.ZS} - Percentage of graduates from tertiary education graduating from programmes in unspecified fields, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all tertiary graduates who completed programmes in unspecified fields in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.GRAD.SC.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.SC.ZS:SE.TER.GRAD.SC.ZS} - Percentage of graduates from tertiary education graduating from Natural Sciences, Mathematics and Statistics programmes, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all tertiary graduates who completed Natural Sciences, Mathematics and Statistics programmes in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.GRAD.SS.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.SS.ZS:SE.TER.GRAD.SS.ZS} - Percentage of graduates from tertiary education graduating from Social Sciences, Journalism and Information programmes, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all tertiary graduates who completed Social Sciences, Journalism and Information programmes in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.GRAD.SV.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.GRAD.SV.ZS:SE.TER.GRAD.SV.ZS} - Percentage of graduates from tertiary education graduating from Services programmes, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all tertiary graduates who completed services programmes in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.PRIV.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.PRIV.ZS:SE.TER.PRIV.ZS} - Percentage of enrolment in tertiary education in private institutions (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students in tertiary education enrolled in institutions that are not operated by a public authority but controlled and managed, whether for profit or not, by a private body (e.g., non-governmental organisation, religious body,{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.TCHR}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.TCHR:SE.TER.TCHR} - Teachers in tertiary education programmes, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of teachers in public and private tertiary education institutions (ISCED 5-8). Teachers are persons employed full time or part time in an official capacity to guide and direct the learning experience of pupils and students, irresp{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.TCHR.FE}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.TCHR.FE:SE.TER.TCHR.FE} - Teachers in tertiary education programmes, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female teachers in public and private tertiary education institutions (ISCED 5-8). Teachers are persons employed full time or part time in an official capacity to guide and direct the learning experience of pupils and students,{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.TER.TCHR.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.TER.TCHR.FE.ZS:SE.TER.TCHR.FE.ZS} - Tertiary education, academic staff (% female)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Tertiary education, academic staff (% female) is the share of female academic staff in tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.TOT.ENRR}
-{synopt:{bf:{help wbopendata_topicid##SE.TOT.ENRR:SE.TOT.ENRR} - Gross enrolment ratio, primary to tertiary, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total enrollment in primary, secondary and tertiary education, regardless of age, expressed as a percentage of the total population of primary school age, secondary school age, and the five-year age group following on from secondary school lea{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.CPRM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.CPRM.ZS:SE.XPD.CPRM.ZS} - Current education expenditure, primary (% of total expenditure in primary public institutions)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Current expenditure is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded fro{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.CSEC.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.CSEC.ZS:SE.XPD.CSEC.ZS} - Current education expenditure, secondary (% of total expenditure in secondary public institutions)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Current expenditure is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded fro{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.CTER.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.CTER.ZS:SE.XPD.CTER.ZS} - Current education expenditure, tertiary (% of total expenditure in tertiary public institutions)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Current expenditure is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded fro{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.CTOT.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.CTOT.ZS:SE.XPD.CTOT.ZS} - Current education expenditure, total (% of total expenditure in public institutions)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Current expenditure is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded fro{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.CUR.TOTL.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.CUR.TOTL.ZS:SE.XPD.CUR.TOTL.ZS} - Current expenditure as % of total expenditure in public institutions (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Current expenditure expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional). Financial aid to students and other transfers are excluded from direct expenditure. Current expenditu{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.MPRM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.MPRM.ZS:SE.XPD.MPRM.ZS} - All education staff compensation, primary (% of total expenditure in primary public institutions)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}All staff (teacher and non-teachers) compensation is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and ot{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.MSEC.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.MSEC.ZS:SE.XPD.MSEC.ZS} - All education staff compensation, secondary (% of total expenditure in secondary public institutions)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}All staff (teacher and non-teachers) compensation is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and ot{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.MTER.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.MTER.ZS:SE.XPD.MTER.ZS} - All education staff compensation, tertiary (% of total expenditure in tertiary public institutions)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}All staff (teacher and non-teachers) compensation is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and ot{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.MTOT.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.MTOT.ZS:SE.XPD.MTOT.ZS} - All education staff compensation, total (% of total expenditure in public institutions)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}All staff (teacher and non-teachers) compensation is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and ot{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.PRIM.PC.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.PRIM.PC.ZS:SE.XPD.PRIM.PC.ZS} - Government expenditure per student, primary (% of GDP per capita)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Government expenditure per student is the average general government expenditure (current, capital, and transfers) per student in the given level of education, expressed as a percentage of GDP per capita.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.PRIM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.PRIM.ZS:SE.XPD.PRIM.ZS} - Expenditure on primary education (% of government expenditure on education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Expenditure on primary education is expressed as a percentage of total general government expenditure on education. General government usually refers to local, regional and central governments.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.PTCH.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.PTCH.ZS:SE.XPD.PTCH.ZS} - Spending on teaching materials, primary (% of primary expenditure)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.SECO.PC.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.SECO.PC.ZS:SE.XPD.SECO.PC.ZS} - Government expenditure per student, secondary (% of GDP per capita)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Government expenditure per student is the average general government expenditure (current, capital, and transfers) per student in the given level of education, expressed as a percentage of GDP per capita.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.SECO.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.SECO.ZS:SE.XPD.SECO.ZS} - Expenditure on secondary education (% of government expenditure on education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Expenditure on secondary education is expressed as a percentage of total general government expenditure on education. General government usually refers to local, regional and central governments.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.STCH.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.STCH.ZS:SE.XPD.STCH.ZS} - Spending on teaching materials, secondary (% of secondary expenditure)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.TCHR.XC.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.TCHR.XC.ZS:SE.XPD.TCHR.XC.ZS} - Teachers' salaries (% of current education expenditure)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.TERT.PC.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.TERT.PC.ZS:SE.XPD.TERT.PC.ZS} - Government expenditure per student, tertiary (% of GDP per capita)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Government expenditure per student is the average general government expenditure (current, capital, and transfers) per student in the given level of education, expressed as a percentage of GDP per capita.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.TERT.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.TERT.ZS:SE.XPD.TERT.ZS} - Expenditure on tertiary education (% of government expenditure on education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Expenditure on tertiary education is expressed as a percentage of total general government expenditure on education. General government usually refers to local, regional and central governments.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.TOTL.GB.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.TOTL.GB.ZS:SE.XPD.TOTL.GB.ZS} - Government expenditure on education, total (% of government expenditure)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}General government expenditure on education (current, capital, and transfers) is expressed as a percentage of total general government expenditure on all sectors (including health, education, social services, etc.). It includes expenditure fun{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.XPD.TOTL.GD.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.XPD.TOTL.GD.ZS:SE.XPD.TOTL.GD.ZS} - Government expenditure on education, total (% of GDP)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}General government expenditure on education (current, capital, and transfers) is expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. General government usually refers to local{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
 {marker topicid_SH.DTH.0509}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.0509:SH.DTH.0509} - Number of deaths ages 5-9 years}}
 
@@ -8350,7 +7947,7 @@
 {marker topicid_SH.DTH.1014}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.1014:SH.DTH.1014} - Number of deaths ages 10-14 years}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -8363,7 +7960,7 @@
 {marker topicid_SH.DTH.1519}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.1519:SH.DTH.1519} - Number of deaths ages 15-19 years}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -8376,7 +7973,7 @@
 {marker topicid_SH.DTH.2024}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.2024:SH.DTH.2024} - Number of deaths ages 20-24 years}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -8454,7 +8051,7 @@
 {marker topicid_SH.DYN.1014}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.1014:SH.DYN.1014} - Probability of dying among adolescents ages 10-14 years (per 1,000)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -8467,7 +8064,7 @@
 {marker topicid_SH.DYN.1519}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.1519:SH.DYN.1519} - Probability of dying among adolescents ages 15-19 years (per 1,000)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
@@ -8480,208 +8077,13 @@
 {marker topicid_SH.DYN.2024}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.2024:SH.DYN.2024} - Probability of dying among youth ages 20-24 years (per 1,000)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Probability of dying between age 20-24 years of age expressed per 1,000 youths age 20, if subject to age-specific mortality rates of the specified year.{p_end}
 
 {synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.PRIM.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.PRIM.FE.ZS:SL.TLF.PRIM.FE.ZS} - Labor force with primary education, female (% of female labor force)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female labor force with primary education is the share of the female labor force that attained or completed primary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.PRIM.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.PRIM.MA.ZS:SL.TLF.PRIM.MA.ZS} - Labor force with primary education, male (% of male labor force)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Male labor force with primary education is the share of the male labor force that attained or completed primary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.PRIM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.PRIM.ZS:SL.TLF.PRIM.ZS} - Labor force with primary education (% of total)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Labor force with primary education is the share of the total labor force that attained or completed primary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.SECO.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.SECO.FE.ZS:SL.TLF.SECO.FE.ZS} - Labor force with secondary education, female (% of female labor force)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female labor force with secondary education is the share of the female labor force that attained or completed secondary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.SECO.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.SECO.MA.ZS:SL.TLF.SECO.MA.ZS} - Labor force with secondary education, male (% of male labor force)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Male labor force with secondary education is the share of the male labor force that attained or completed secondary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.SECO.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.SECO.ZS:SL.TLF.SECO.ZS} - Labor force with secondary education (% of total)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Labor force with secondary education is the share of the total labor force that attained or completed secondary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.TERT.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.TERT.FE.ZS:SL.TLF.TERT.FE.ZS} - Labor force with tertiary education, female (% of female labor force)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female labor force with tertiary education is the share of the female labor force that attained or completed tertiary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.TERT.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.TERT.MA.ZS:SL.TLF.TERT.MA.ZS} - Labor force with tertiary education, male (% of male labor force)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Male labor force with tertiary education is the share of the male labor force that attained or completed tertiary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.TERT.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.TERT.ZS:SL.TLF.TERT.ZS} - Labor force with tertiary education (% of total)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Labor force with tertiary education is the share of the total labor force that attained or completed tertiary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.TOTL.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.TOTL.FE.ZS:SL.TLF.TOTL.FE.ZS} - Labor force, female (% of total labor force)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female labor force as a percentage of the total show the extent to which women are active in the labor force. Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization and United Nations Population Division.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.TOTL.IN}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.TOTL.IN:SL.TLF.TOTL.IN} - Labor force, total}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period. It includes people who are currently employed and people who are unemployed but seeking work as well as first-t{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization and United Nations Population Division.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.TOTL.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.FE.ZS:SL.UEM.TOTL.FE.ZS} - Unemployment, female (% of female labor force) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.TOTL.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.MA.ZS:SL.UEM.TOTL.MA.ZS} - Unemployment, male (% of male labor force) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.TOTL.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.ZS:SL.UEM.TOTL.ZS} - Unemployment, total (% of total labor force) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SM.EMI.TERT.ZS}
-{synopt:{bf:{help wbopendata_topicid##SM.EMI.TERT.ZS:SM.EMI.TERT.ZS} - Emigration rate of tertiary educated (% of total tertiary educated population)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Emigration rate of tertiary educated shows the stock of emigrants ages 25 and older, residing in an OECD country other than that in which they were born, with at least one year of tertiary education as a percentage of the population age 25 and{p_end}
-
-{synopt:{opt Source Organization}}Frédéric Docquier, B. Lindsay Lowell, and Abdeslam Marfouk's , A Gendered Assessment of Highly Skilled Emigration (2009).{p_end}
 
 
 {synoptline}
@@ -8698,1332 +8100,6 @@
 
 
 {synoptline}
-{marker topicid_SP.POP.0305.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0305.FE.UN:SP.POP.0305.FE.UN} - Population, ages 3-5, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 3-5, female is the total number of females age 3-5.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0305.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0305.MA.UN:SP.POP.0305.MA.UN} - Population, ages 3-5, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 3-5, male is the total number of males age 3-5.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0305.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0305.TO.UN:SP.POP.0305.TO.UN} - Population, ages 3-5, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 3-5, total is the total population age 3-5.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0406.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0406.FE.UN:SP.POP.0406.FE.UN} - Population, ages 4-6, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 4-6, female is the total number of females age 4-6.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0406.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0406.MA.UN:SP.POP.0406.MA.UN} - Population, ages 4-6, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 4-6, male is the total number of males age 4-6.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0406.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0406.TO.UN:SP.POP.0406.TO.UN} - Population, ages 4-6, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 4-6, total is the total population age 4-6.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0509.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0509.FE.UN:SP.POP.0509.FE.UN} - Population, ages 5-9, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 5-9, female is the total number of females age 5-9.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0509.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0509.MA.UN:SP.POP.0509.MA.UN} - Population, ages 5-9, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 5-9, male is the total number of males age 5-9.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0509.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0509.TO.UN:SP.POP.0509.TO.UN} - Population, ages 5-9, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 5-9, total is the total population age 5-9.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0510.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0510.FE.UN:SP.POP.0510.FE.UN} - Population, ages 5-10, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 5-10, female is the total number of females age 5-10.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0510.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0510.MA.UN:SP.POP.0510.MA.UN} - Population, ages 5-10, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 5-10, male is the total number of males age 5-10.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0510.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0510.TO.UN:SP.POP.0510.TO.UN} - Population, ages 5-10, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 5-10, total is the total population age 5-10.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0511.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0511.FE.UN:SP.POP.0511.FE.UN} - Population, ages 5-11, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 5-11, female is the total number of females age 5-11.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0511.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0511.MA.UN:SP.POP.0511.MA.UN} - Population, ages 5-11, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 5-11, male is the total number of males age 5-11.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0511.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0511.TO.UN:SP.POP.0511.TO.UN} - Population, ages 5-11, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 5-11, total is the total population age 5-11.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0609.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0609.FE.UN:SP.POP.0609.FE.UN} - Population, ages 6-9, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 6-9, male is the total number of males age 6-9.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0609.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0609.MA.UN:SP.POP.0609.MA.UN} - Population, ages 6-9, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 6-9, total is the total population age 6-9.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0609.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0609.TO.UN:SP.POP.0609.TO.UN} - Population, ages 6-9, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 6-9, female is the total number of females age 6-9.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0610.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0610.FE.UN:SP.POP.0610.FE.UN} - Population, ages 6-10, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 6-10, female is the total number of females age 6-10.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0610.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0610.MA.UN:SP.POP.0610.MA.UN} - Population, ages 6-10, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 6-10, male is the total number of males age 6-10.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0610.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0610.TO.UN:SP.POP.0610.TO.UN} - Population, ages 6-10, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 6-10, total is the total population age 6-10.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0611.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0611.FE.UN:SP.POP.0611.FE.UN} - Population, ages 6-11, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 6-11, female is the total number of females age 6-11.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0611.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0611.MA.UN:SP.POP.0611.MA.UN} - Population, ages 6-11, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 6-11, male is the total number of males age 6-11.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0611.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0611.TO.UN:SP.POP.0611.TO.UN} - Population, ages 6-11, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 6-11, total is the total population age 6-11.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0612.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0612.FE.UN:SP.POP.0612.FE.UN} - Population, ages 6-12, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 6-12, female is the total number of females age 6-12.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0612.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0612.MA.UN:SP.POP.0612.MA.UN} - Population, ages 6-12, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 6-12, male is the total number of males age 6-12.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0612.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0612.TO.UN:SP.POP.0612.TO.UN} - Population, ages 6-12, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 6-12, total is the total population age 6-12.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0709.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0709.FE.UN:SP.POP.0709.FE.UN} - Population, ages 7-9, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 7-9, female is the total number of females age 7-9.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0709.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0709.MA.UN:SP.POP.0709.MA.UN} - Population, ages 7-9, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 7-9, male is the total number of males age 7-9.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0709.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0709.TO.UN:SP.POP.0709.TO.UN} - Population, ages 7-9, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 7-9, total is the total population age 7-9.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0710.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0710.FE.UN:SP.POP.0710.FE.UN} - Population, ages 7-10, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 7-10, female is the total number of females age 7-10.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0710.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0710.MA.UN:SP.POP.0710.MA.UN} - Population, ages 7-10, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 7-10, male is the total number of males age 7-10.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0710.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0710.TO.UN:SP.POP.0710.TO.UN} - Population, ages 7-10, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 7-10, total is the total population age 7-10.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0711.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0711.FE.UN:SP.POP.0711.FE.UN} - Population, ages 7-11, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 7-11, female is the total number of females age 7-11.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0711.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0711.MA.UN:SP.POP.0711.MA.UN} - Population, ages 7-11, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 7-11, male is the total number of males age 7-11.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0711.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0711.TO.UN:SP.POP.0711.TO.UN} - Population, ages 7-11, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 7-11, total is the total population age 7-11.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0712.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0712.FE.UN:SP.POP.0712.FE.UN} - Population, ages 7-12, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 7-12, female is the total number of females age 7-12.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0712.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0712.MA.UN:SP.POP.0712.MA.UN} - Population, ages 7-12, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 7-12, male is the total number of males age 7-12.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0712.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0712.TO.UN:SP.POP.0712.TO.UN} - Population, ages 7-12, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 7-12, total is the total population age 7-12.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0713.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0713.FE.UN:SP.POP.0713.FE.UN} - Population, ages 7-13, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 7-13, female is the total number of females age 7-13.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0713.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0713.MA.UN:SP.POP.0713.MA.UN} - Population, ages 7-13, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 7-13, male is the total number of males age 7-13.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.0713.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0713.TO.UN:SP.POP.0713.TO.UN} - Population, ages 7-13, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 7-13, total is the total population age 7-13.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1014.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1014.FE.UN:SP.POP.1014.FE.UN} - Population, ages 10-14, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 10-14, female is the total number of females age 10-14.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1014.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1014.MA.UN:SP.POP.1014.MA.UN} - Population, ages 10-14, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 10-14, male is the total number of males age 10-14.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1014.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1014.TO.UN:SP.POP.1014.TO.UN} - Population, ages 10-14, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 10-14, total is the total population age 10-14.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1015.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1015.FE.UN:SP.POP.1015.FE.UN} - Population, ages 10-15, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 10-15, female is the total number of females age 10-15.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1015.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1015.MA.UN:SP.POP.1015.MA.UN} - Population, ages 10-15, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 10-15, male is the total number of males age 10-15.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1015.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1015.TO.UN:SP.POP.1015.TO.UN} - Population, ages 10-15, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 10-15, total is the total population age 10-15.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1016.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1016.FE.UN:SP.POP.1016.FE.UN} - Population, ages 10-16, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 10-16, female is the total number of females age 10-16.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1016.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1016.MA.UN:SP.POP.1016.MA.UN} - Population, ages 10-16, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 10-16, male is the total number of males age 10-16.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1016.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1016.TO.UN:SP.POP.1016.TO.UN} - Population, ages 10-16, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 10-16, total is the total population age 10-16.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1017.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1017.FE.UN:SP.POP.1017.FE.UN} - Population, ages 10-17, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 10-17, female is the total number of females age 10-17.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1017.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1017.MA.UN:SP.POP.1017.MA.UN} - Population, ages 10-17, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 10-17, male is the total number of males age 10-17.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1017.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1017.TO.UN:SP.POP.1017.TO.UN} - Population, ages 10-17, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 10-17, total is the total population age 10-17.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1018.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1018.FE.UN:SP.POP.1018.FE.UN} - Population, ages 10-18, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 10-18, female is the total number of females age 10-18.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1018.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1018.MA.UN:SP.POP.1018.MA.UN} - Population, ages 10-18, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 10-18, male is the total number of males age 10-18.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1018.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1018.TO.UN:SP.POP.1018.TO.UN} - Population, ages 10-18, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 10-18, total is the total population age 10-18.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1115.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1115.FE.UN:SP.POP.1115.FE.UN} - Population, ages 11-15, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 11-15, female is the total number of females age 11-15.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1115.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1115.MA.UN:SP.POP.1115.MA.UN} - Population, ages 11-15, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 11-15, male is the total number of males age 11-15.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1115.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1115.TO.UN:SP.POP.1115.TO.UN} - Population, ages 11-15, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 11-15, total is the total population age 11-15.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1116.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1116.FE.UN:SP.POP.1116.FE.UN} - Population, ages 11-16, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 11-16, female is the total number of females age 11-16.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1116.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1116.MA.UN:SP.POP.1116.MA.UN} - Population, ages 11-16, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 11-16, male is the total number of males age 11-16.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1116.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1116.TO.UN:SP.POP.1116.TO.UN} - Population, ages 11-16, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 11-16, total is the total population age 11-16.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1117.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1117.FE.UN:SP.POP.1117.FE.UN} - Population, ages 11-17, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 11-17, female is the total number of females age 11-17.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1117.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1117.MA.UN:SP.POP.1117.MA.UN} - Population, ages 11-17, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 11-17, male is the total number of males age 11-17.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1117.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1117.TO.UN:SP.POP.1117.TO.UN} - Population, ages 11-17, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 11-17, total is the total population age 11-17.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1118.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1118.FE.UN:SP.POP.1118.FE.UN} - Population, ages 11-18, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 11-18, female is the total number of females age 11-18.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1118.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1118.MA.UN:SP.POP.1118.MA.UN} - Population, ages 11-18, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 11-18, male is the total number of males age 11-18.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1118.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1118.TO.UN:SP.POP.1118.TO.UN} - Population, ages 11-18, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 11-18, total is the total population age 11-18.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1215.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1215.FE.UN:SP.POP.1215.FE.UN} - Population, ages 12-15, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 12-15, female is the total number of females age 12-15.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1215.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1215.MA.UN:SP.POP.1215.MA.UN} - Population, ages 12-15, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 12-15, male is the total number of males age 12-15.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1215.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1215.TO.UN:SP.POP.1215.TO.UN} - Population, ages 12-15, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 12-15, total is the total population age 12-15.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1216.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1216.FE.UN:SP.POP.1216.FE.UN} - Population, ages 12-16, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 12-16, female is the total number of females age 12-16.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1216.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1216.MA.UN:SP.POP.1216.MA.UN} - Population, ages 12-16, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 12-16, male is the total number of males age 12-16.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1216.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1216.TO.UN:SP.POP.1216.TO.UN} - Population, ages 12-16, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 12-16, total is the total population age 12-16.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1217.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1217.FE.UN:SP.POP.1217.FE.UN} - Population, ages 12-17, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 12-17, female is the total number of females age 12-17.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1217.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1217.MA.UN:SP.POP.1217.MA.UN} - Population, ages 12-17, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 12-17, male is the total number of males age 12-17.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1217.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1217.TO.UN:SP.POP.1217.TO.UN} - Population, ages 12-17, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 12-17, total is the total population age 12-17.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1218.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1218.FE.UN:SP.POP.1218.FE.UN} - Population, ages 12-18, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 12-18, female is the total number of females age 12-18.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1218.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1218.MA.UN:SP.POP.1218.MA.UN} - Population, ages 12-18, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 12-18, male is the total number of males age 12-18.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1218.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1218.TO.UN:SP.POP.1218.TO.UN} - Population, ages 12-18, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 12-18, total is the total population age 12-18.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1316.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1316.FE.UN:SP.POP.1316.FE.UN} - Population, ages 13-16, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 13-16, female is the total number of females age 13-16.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1316.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1316.MA.UN:SP.POP.1316.MA.UN} - Population, ages 13-16, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 13-16, male is the total number of males age 13-16.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1316.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1316.TO.UN:SP.POP.1316.TO.UN} - Population, ages 13-16, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 13-16, total is the total population age 13-16.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1317.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1317.FE.UN:SP.POP.1317.FE.UN} - Population, ages 13-17, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 13-17, female is the total number of females age 13-17.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1317.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1317.MA.UN:SP.POP.1317.MA.UN} - Population, ages 13-17, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 13-17, male is the total number of males age 13-17.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1317.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1317.TO.UN:SP.POP.1317.TO.UN} - Population, ages 13-17, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 13-17, total is the total population age 13-17.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1318.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1318.FE.UN:SP.POP.1318.FE.UN} - Population, ages 13-18, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 13-18, female is the total number of females age 13-18.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1318.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1318.MA.UN:SP.POP.1318.MA.UN} - Population, ages 13-18, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 13-18, male is the total number of males age 13-18.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1318.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1318.TO.UN:SP.POP.1318.TO.UN} - Population, ages 13-18, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 13-18, total is the total population age 13-18.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1319.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1319.FE.UN:SP.POP.1319.FE.UN} - Population, ages 13-19, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 13-19, female is the total number of females age 13-19.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1319.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1319.MA.UN:SP.POP.1319.MA.UN} - Population, ages 13-19, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 13-19, male is the total number of males age 13-19.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1319.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1319.TO.UN:SP.POP.1319.TO.UN} - Population, ages 13-19, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 13-19, total is the total population age 13-19.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1418.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1418.FE.UN:SP.POP.1418.FE.UN} - Population, ages 14-18, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 14-18, female is the total number of females age 14-18.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1418.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1418.MA.UN:SP.POP.1418.MA.UN} - Population, ages 14-18, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 14-18, male is the total number of males age 14-18.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1418.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1418.TO.UN:SP.POP.1418.TO.UN} - Population, ages 14-18, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 14-18, total is the total population age 14-18.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1419.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1419.FE.UN:SP.POP.1419.FE.UN} - Population, ages 14-19, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 14-19, female is the total number of females age 14-19.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1419.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1419.MA.UN:SP.POP.1419.MA.UN} - Population, ages 14-19, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 14-19, male is the total number of males age 14-19.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1419.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1419.TO.UN:SP.POP.1419.TO.UN} - Population, ages 14-19, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 14-19, total is the total population age 14-19.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1524.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1524.FE.UN:SP.POP.1524.FE.UN} - Population, ages 15-24, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 15-24, female is the total number of females age 15-24.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1524.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1524.MA.UN:SP.POP.1524.MA.UN} - Population, ages 15-24, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 15-24, male is the total number of males age 15-24.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.1524.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1524.TO.UN:SP.POP.1524.TO.UN} - Population, ages 15-24, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, ages 15-24, total is the total population age 15-24.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
 {marker topicid_SP.POP.1564.TO.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.TO.ZS:SP.POP.1564.TO.ZS} - Population ages 15-64 (% of total population)}}
 
@@ -10036,1825 +8112,5 @@
 {synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
-{synoptline}
-{marker topicid_SP.POP.AG00.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG00.FE.UN:SP.POP.AG00.FE.UN} - Population, age 0, female}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG00.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG00.MA.UN:SP.POP.AG00.MA.UN} - Population, age 0, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 0, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG00.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG00.TO.UN:SP.POP.AG00.TO.UN} - Population, age 0, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG01.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG01.FE.UN:SP.POP.AG01.FE.UN} - Population, age 1, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG01.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG01.MA.UN:SP.POP.AG01.MA.UN} - Population, age 1, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 1, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG01.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG01.TO.UN:SP.POP.AG01.TO.UN} - Population, age 1, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG02.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG02.FE.UN:SP.POP.AG02.FE.UN} - Population, age 2, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG02.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG02.MA.UN:SP.POP.AG02.MA.UN} - Population, age 2, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 2, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG02.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG02.TO.UN:SP.POP.AG02.TO.UN} - Population, age 2, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG03.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG03.FE.UN:SP.POP.AG03.FE.UN} - Population, age 3, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG03.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG03.MA.UN:SP.POP.AG03.MA.UN} - Population, age 3, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 3, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG03.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG03.TO.UN:SP.POP.AG03.TO.UN} - Population, age 3, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG04.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG04.FE.UN:SP.POP.AG04.FE.UN} - Population, age 4, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG04.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG04.MA.UN:SP.POP.AG04.MA.UN} - Population, age 4, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 4, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG04.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG04.TO.UN:SP.POP.AG04.TO.UN} - Population, age 4, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG05.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG05.FE.UN:SP.POP.AG05.FE.UN} - Population, age 5, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG05.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG05.MA.UN:SP.POP.AG05.MA.UN} - Population, age 5, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 5, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG05.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG05.TO.UN:SP.POP.AG05.TO.UN} - Population, age 5, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG06.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG06.FE.UN:SP.POP.AG06.FE.UN} - Population, age 6, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG06.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG06.MA.UN:SP.POP.AG06.MA.UN} - Population, age 6, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 6, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG06.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG06.TO.UN:SP.POP.AG06.TO.UN} - Population, age 6, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG07.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG07.FE.UN:SP.POP.AG07.FE.UN} - Population, age 7, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG07.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG07.MA.UN:SP.POP.AG07.MA.UN} - Population, age 7, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 7, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG07.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG07.TO.UN:SP.POP.AG07.TO.UN} - Population, age 7, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG08.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG08.FE.UN:SP.POP.AG08.FE.UN} - Population, age 8, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG08.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG08.MA.UN:SP.POP.AG08.MA.UN} - Population, age 8, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 8, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG08.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG08.TO.UN:SP.POP.AG08.TO.UN} - Population, age 8, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG09.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG09.FE.UN:SP.POP.AG09.FE.UN} - Population, age 9, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG09.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG09.MA.UN:SP.POP.AG09.MA.UN} - Population, age 9, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 9, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG09.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG09.TO.UN:SP.POP.AG09.TO.UN} - Population, age 9, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG10.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG10.FE.UN:SP.POP.AG10.FE.UN} - Population, age 10, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG10.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG10.MA.UN:SP.POP.AG10.MA.UN} - Population, age 10, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 10, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG10.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG10.TO.UN:SP.POP.AG10.TO.UN} - Population, age 10, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG11.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG11.FE.UN:SP.POP.AG11.FE.UN} - Population, age 11, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG11.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG11.MA.UN:SP.POP.AG11.MA.UN} - Population, age 11, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 11, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG11.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG11.TO.UN:SP.POP.AG11.TO.UN} - Population, age 11, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG12.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG12.FE.UN:SP.POP.AG12.FE.UN} - Population, age 12, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG12.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG12.MA.UN:SP.POP.AG12.MA.UN} - Population, age 12, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 12, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG12.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG12.TO.UN:SP.POP.AG12.TO.UN} - Population, age 12, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG13.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG13.FE.UN:SP.POP.AG13.FE.UN} - Population, age 13, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG13.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG13.MA.UN:SP.POP.AG13.MA.UN} - Population, age 13, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 13, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG13.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG13.TO.UN:SP.POP.AG13.TO.UN} - Population, age 13, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG14.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG14.FE.UN:SP.POP.AG14.FE.UN} - Population, age 14, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG14.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG14.MA.UN:SP.POP.AG14.MA.UN} - Population, age 14, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 14, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG14.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG14.TO.UN:SP.POP.AG14.TO.UN} - Population, age 14, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG15.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG15.FE.UN:SP.POP.AG15.FE.UN} - Population, age 15, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG15.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG15.MA.UN:SP.POP.AG15.MA.UN} - Population, age 15, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 15, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG15.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG15.TO.UN:SP.POP.AG15.TO.UN} - Population, age 15, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG16.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG16.FE.UN:SP.POP.AG16.FE.UN} - Population, age 16, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG16.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG16.MA.UN:SP.POP.AG16.MA.UN} - Population, age 16, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 16, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG16.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG16.TO.UN:SP.POP.AG16.TO.UN} - Population, age 16, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG17.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG17.FE.UN:SP.POP.AG17.FE.UN} - Population, age 17, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG17.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG17.MA.UN:SP.POP.AG17.MA.UN} - Population, age 17, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 17, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG17.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG17.TO.UN:SP.POP.AG17.TO.UN} - Population, age 17, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG18.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG18.FE.UN:SP.POP.AG18.FE.UN} - Population, age 18, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG18.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG18.MA.UN:SP.POP.AG18.MA.UN} - Population, age 18, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 18, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG18.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG18.TO.UN:SP.POP.AG18.TO.UN} - Population, age 18, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG19.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG19.FE.UN:SP.POP.AG19.FE.UN} - Population, age 19, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG19.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG19.MA.UN:SP.POP.AG19.MA.UN} - Population, age 19, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 19, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG19.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG19.TO.UN:SP.POP.AG19.TO.UN} - Population, age 19, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG20.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG20.FE.UN:SP.POP.AG20.FE.UN} - Population, age 20, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG20.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG20.MA.UN:SP.POP.AG20.MA.UN} - Population, age 20, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 20, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG20.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG20.TO.UN:SP.POP.AG20.TO.UN} - Population, age 20, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG21.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG21.FE.UN:SP.POP.AG21.FE.UN} - Population, age 21, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG21.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG21.MA.UN:SP.POP.AG21.MA.UN} - Population, age 21, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 21, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG21.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG21.TO.UN:SP.POP.AG21.TO.UN} - Population, age 21, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG22.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG22.FE.UN:SP.POP.AG22.FE.UN} - Population, age 22, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG22.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG22.MA.UN:SP.POP.AG22.MA.UN} - Population, age 22, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 22, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG22.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG22.TO.UN:SP.POP.AG22.TO.UN} - Population, age 22, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG23.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG23.FE.UN:SP.POP.AG23.FE.UN} - Population, age 23, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG23.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG23.MA.UN:SP.POP.AG23.MA.UN} - Population, age 23, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 23, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG23.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG23.TO.UN:SP.POP.AG23.TO.UN} - Population, age 23, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG24.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG24.FE.UN:SP.POP.AG24.FE.UN} - Population, age 24, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG24.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG24.MA.UN:SP.POP.AG24.MA.UN} - Population, age 24, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 24, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG24.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG24.TO.UN:SP.POP.AG24.TO.UN} - Population, age 24, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG25.FE.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG25.FE.UN:SP.POP.AG25.FE.UN} - Population, age 25, female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG25.MA.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG25.MA.UN:SP.POP.AG25.MA.UN} - Population, age 25, male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population, age 25, male refers to the male population at the specified age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.AG25.TO.UN}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.AG25.TO.UN:SP.POP.AG25.TO.UN} - Population, age 25, total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Age population, total refers to total population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.PRE.TOTL.FE.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.PRE.TOTL.FE.IN:SP.PRE.TOTL.FE.IN} - School age population, pre-primary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female population of the age-group theoretically corresponding to pre-primary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.PRE.TOTL.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.PRE.TOTL.IN:SP.PRE.TOTL.IN} - School age population, pre-primary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population of the age-group theoretically corresponding to pre-primary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.PRE.TOTL.MA.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.PRE.TOTL.MA.IN:SP.PRE.TOTL.MA.IN} - School age population, pre-primary education, male (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Male population of the age-group theoretically corresponding to pre-primary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.PRM.GRAD.FE}
-{synopt:{bf:{help wbopendata_topicid##SP.PRM.GRAD.FE:SP.PRM.GRAD.FE} - School age population, last grade of primary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female population of the age-group theoretically corresponding to the last grade of primary school as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.PRM.GRAD.MA}
-{synopt:{bf:{help wbopendata_topicid##SP.PRM.GRAD.MA:SP.PRM.GRAD.MA} - School age population, last grade of primary education, male (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Male population of the age-group theoretically corresponding to the last grade of primary school as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.PRM.GRAD.TO}
-{synopt:{bf:{help wbopendata_topicid##SP.PRM.GRAD.TO:SP.PRM.GRAD.TO} - School age population, last grade of primary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population of the age-group theoretically corresponding to the last grade of primary school as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.PRM.TOTL.FE.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.PRM.TOTL.FE.IN:SP.PRM.TOTL.FE.IN} - School age population, primary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female population of the age-group theoretically corresponding to primary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.PRM.TOTL.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.PRM.TOTL.IN:SP.PRM.TOTL.IN} - School age population, primary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population of the age-group theoretically corresponding to primary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.PRM.TOTL.MA.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.PRM.TOTL.MA.IN:SP.PRM.TOTL.MA.IN} - School age population, primary education, male (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Male population of the age-group theoretically corresponding to primary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.SEC.LTOT.FE.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.SEC.LTOT.FE.IN:SP.SEC.LTOT.FE.IN} - School age population, lower secondary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female population of the age-group theoretically corresponding to lower secondary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.SEC.LTOT.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.SEC.LTOT.IN:SP.SEC.LTOT.IN} - School age population, lower secondary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population of the age-group theoretically corresponding to lower secondary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.SEC.LTOT.MA.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.SEC.LTOT.MA.IN:SP.SEC.LTOT.MA.IN} - School age population, lower secondary education, male (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Male population of the age-group theoretically corresponding to lower secondary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.SEC.TOTL.FE.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.SEC.TOTL.FE.IN:SP.SEC.TOTL.FE.IN} - School age population, secondary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female population of the age-group theoretically corresponding to secondary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.SEC.TOTL.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.SEC.TOTL.IN:SP.SEC.TOTL.IN} - School age population, secondary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population of the age-group theoretically corresponding to secondary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.SEC.TOTL.MA.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.SEC.TOTL.MA.IN:SP.SEC.TOTL.MA.IN} - School age population, secondary education, male (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Male population of the age-group theoretically corresponding to secondary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.SEC.UTOT.FE.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.SEC.UTOT.FE.IN:SP.SEC.UTOT.FE.IN} - School age population, upper secondary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female population of the age-group theoretically corresponding to upper secondary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.SEC.UTOT.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.SEC.UTOT.IN:SP.SEC.UTOT.IN} - School age population, upper secondary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population of the age-group theoretically corresponding to upper secondary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.SEC.UTOT.MA.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.SEC.UTOT.MA.IN:SP.SEC.UTOT.MA.IN} - School age population, upper secondary education, male (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Male population of the age-group theoretically corresponding to upper secondary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.TER.TOTL.FE.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.TER.TOTL.FE.IN:SP.TER.TOTL.FE.IN} - School age population, tertiary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female population of the age-group theoretically corresponding to tertiary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.TER.TOTL.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.TER.TOTL.IN:SP.TER.TOTL.IN} - School age population, tertiary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Population of the age-group theoretically corresponding to tertiary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_SP.TER.TOTL.MA.IN}
-{synopt:{bf:{help wbopendata_topicid##SP.TER.TOTL.MA.IN:SP.TER.TOTL.MA.IN} - School age population, tertiary education, male (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Male population of the age-group theoretically corresponding to tertiary education as indicated by theoretical entrance age and duration.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.CEAGE.1}
-{synopt:{bf:{help wbopendata_topicid##UIS.CEAGE.1:UIS.CEAGE.1} - Official entrance age to compulsory education (years)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Official age when students should enter compulsory education assuming they start at the official entrance age for the lowest level of education, study full-time throughout and progressed through the system without repeating or skipping a grade{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2:UIS.E.2} - Enrolment in lower secondary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in public and private lower secondary education institutions regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.2.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.2.F:UIS.E.2.F} - Enrolment in lower secondary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in public and private lower secondary education institutions regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.3}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.3:UIS.E.3} - Enrolment in upper secondary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in public and private upper secondary education institutions regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.3.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.3.F:UIS.E.3.F} - Enrolment in upper secondary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in public and private upper secondary education institutions regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.4}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.4:UIS.E.4} - Enrolment in post-secondary non-tertiary education, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in public and private post-secondary non-tertiary education institutions regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.4.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.4.F:UIS.E.4.F} - Enrolment in post-secondary non-tertiary education, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in public and private post-secondary non-tertiary education institutions regardless of age.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.6}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.6:UIS.E.6} - Enrolment in tertiary education, ISCED 6 programmes, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in public and private tertiary education institutions in programmes on the bachelors or equivalent (ISCED 6) level.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.6.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.6.F:UIS.E.6.F} - Enrolment in tertiary education, ISCED 6 programmes, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in public and private tertiary education institutions in programmes on the bachelors or equivalent (ISCED 6) level.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.7}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.7:UIS.E.7} - Enrolment in tertiary education, ISCED 7 programmes, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in public and private tertiary education institutions in programmes on the masters or equivalent (ISCED 7) level.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.7.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.7.F:UIS.E.7.F} - Enrolment in tertiary education, ISCED 7 programmes, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in public and private tertiary education institutions in programmes on the masters or equivalent (ISCED 7) level.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.8}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.8:UIS.E.8} - Enrolment in tertiary education, ISCED 8 programmes, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in public and private tertiary education institutions in programmes on the doctoral or equivalent (ISCED 8) level.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.E.8.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.E.8.F:UIS.E.8.F} - Enrolment in tertiary education, ISCED 8 programmes, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students enrolled in public and private tertiary education institutions in programmes on the doctoral or equivalent (ISCED 8) level.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FGP.5T8.F400}
-{synopt:{bf:{help wbopendata_topicid##UIS.FGP.5T8.F400:UIS.FGP.5T8.F400} - Female share of graduates in Business, Administration and Law programmes, tertiary (%)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FGP.5T8.F600}
-{synopt:{bf:{help wbopendata_topicid##UIS.FGP.5T8.F600:UIS.FGP.5T8.F600} - Female share of graduates in Information and Communication Technologies programmes, tertiary (%)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FGP.5T8.FNON500600700}
-{synopt:{bf:{help wbopendata_topicid##UIS.FGP.5T8.FNON500600700:UIS.FGP.5T8.FNON500600700} - Female share of graduates in other fields than Science, Technology, Engineering and Mathematics programmes, tertiary (%)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FTP.2}
-{synopt:{bf:{help wbopendata_topicid##UIS.FTP.2:UIS.FTP.2} - Percentage of teachers in lower secondary education who are female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of female teachers at the lower secondary level expressed as a percentage of the total number of teachers (male and female) at the lower secondary level in a given school year. Teachers are persons employed full time or part time in an{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FTP.3}
-{synopt:{bf:{help wbopendata_topicid##UIS.FTP.3:UIS.FTP.3} - Percentage of teachers in upper secondary education who are female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of female teachers at the upper secondary level expressed as a percentage of the total number of teachers (male and female) at the upper secondary level in a given school year. Teachers are persons employed full time or part time in an{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.FTP.4}
-{synopt:{bf:{help wbopendata_topicid##UIS.FTP.4:UIS.FTP.4} - Percentage of teachers in post-secondary non-tertiary education who are female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of female teachers at the post-secondary non-tertiary level expressed as a percentage of the total number of teachers (male and female) at the post-secondary non-tertiary level in a given school year. Teachers are persons employed full{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.GER.123}
-{synopt:{bf:{help wbopendata_topicid##UIS.GER.123:UIS.GER.123} - Gross enrolment ratio, primary and secondary, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total enrollment in primary and secondary education, regardless of age, expressed as a percentage of the total population of official primary and secondary education age. GER can exceed 100% due to the inclusion of over-aged and under-aged stu{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.GER.123.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.GER.123.F:UIS.GER.123.F} - Gross enrolment ratio, primary and secondary, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total female enrollment in primary and secondary education, regardless of age, expressed as a percentage of the total female population of official primary and secondary education age. GER can exceed 100% due to the inclusion of over-aged and{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.GER.123.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.GER.123.M:UIS.GER.123.M} - Gross enrolment ratio, primary and secondary, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total male enrollment in primary and secondary education, regardless of age, expressed as a percentage of the total male population of official primary and secondary education age. GER can exceed 100% due to the inclusion of over-aged and unde{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.GER.1T6.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.GER.1T6.F:UIS.GER.1T6.F} - Gross enrolment ratio, primary to tertiary, female (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total female enrollment in primary, secondary and tertiary education, regardless of age, expressed as a percentage of the total female population of primary school age, secondary school age, and the five-year age group following on from second{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.GER.1T6.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.GER.1T6.GPI:UIS.GER.1T6.GPI} - Gross enrolment ratio, primary to tertiary, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of female gross enrolment ratio for primary to tertiary to the male value for the same indicator. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity betw{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.GER.1T6.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.GER.1T6.M:UIS.GER.1T6.M} - Gross enrolment ratio, primary to tertiary, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total male enrollment in primary, secondary and tertiary education, regardless of age, expressed as a percentage of the total male population of primary school age, secondary school age, and the five-year age group following on from secondary{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.GER.2.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.GER.2.GPI:UIS.GER.2.GPI} - Gross enrolment ratio, lower secondary, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of female gross enrolment ratio for lower secondary to the male gross enrolment ratio for lower secondary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates pa{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.GER.3.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.GER.3.GPI:UIS.GER.3.GPI} - Gross enrolment ratio, upper secondary, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of female gross enrolment ratio for upper secondary to the male gross enrolment ratio for upper secondary. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates pa{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.GGR.5.A.GPI}
-{synopt:{bf:{help wbopendata_topicid##UIS.GGR.5.A.GPI:UIS.GGR.5.A.GPI} - Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, gender parity index (GPI)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Ratio of female gross graduation ratio to the male value for the same indicator. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between females and males.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.GTVP.2.V}
-{synopt:{bf:{help wbopendata_topicid##UIS.GTVP.2.V:UIS.GTVP.2.V} - Share of all students in lower secondary education enrolled in vocational programmes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in vocational programmes at the lower secondary education level, expressed as a percentage of the total number of students enrolled in all programmes (vocational and general) at the lower secondary level. Voca{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.GTVP.3.V}
-{synopt:{bf:{help wbopendata_topicid##UIS.GTVP.3.V:UIS.GTVP.3.V} - Share of all students in upper secondary education enrolled in vocational programmes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students enrolled in vocational programmes at the upper secondary education level, expressed as a percentage of the total number of students enrolled in all programmes (vocational and general) at the upper secondary level. Voca{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.LP.AG15T24}
-{synopt:{bf:{help wbopendata_topicid##UIS.LP.AG15T24:UIS.LP.AG15T24} - Youth illiterate population, 15-24 years, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of youth between age 15 and age 24 who cannot both read and write with understanding a short simple statement on their everyday life.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.LP.AG15T24.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.LP.AG15T24.F:UIS.LP.AG15T24.F} - Youth illiterate population, 15-24 years, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of females between age 15 and age 24 who cannot both read and write with understanding a short simple statement on their everyday life.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.LP.AG15T24.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.LP.AG15T24.M:UIS.LP.AG15T24.M} - Youth illiterate population, 15-24 years, male (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of males between age 15 and age 24 who cannot both read and write with understanding a short simple statement on their everyday life.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.LP.AG15T99}
-{synopt:{bf:{help wbopendata_topicid##UIS.LP.AG15T99:UIS.LP.AG15T99} - Adult illiterate population, 15+ years, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of adults over age 15 who cannot both read and write with understanding a short simple statement on their everyday life.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.LP.AG15T99.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.LP.AG15T99.F:UIS.LP.AG15T99.F} - Adult illiterate population, 15+ years, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of females over age 15 who cannot both read and write with understanding a short simple statement on their everyday life.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.LP.AG15T99.M}
-{synopt:{bf:{help wbopendata_topicid##UIS.LP.AG15T99.M:UIS.LP.AG15T99.M} - Adult illiterate population, 15+ years, male (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of males over age 15 who cannot both read and write with understanding a short simple statement on their everyday life.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.LPP.AG15T24}
-{synopt:{bf:{help wbopendata_topicid##UIS.LPP.AG15T24:UIS.LPP.AG15T24} - Youth illiterate population, 15-24 years, % female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of the youth illiterate population that is female.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.LPP.AG15T99}
-{synopt:{bf:{help wbopendata_topicid##UIS.LPP.AG15T99:UIS.LPP.AG15T99} - Adult illiterate population, 15+ years, % female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of the adult illiterate population (age 15+) that is female.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.MS.56.F}
-{synopt:{bf:{help wbopendata_topicid##UIS.MS.56.F:UIS.MS.56.F} - Total inbound internationally mobile students, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of female students who have crossed a national or territorial border for the purpose of education and are now enrolled in tertiary institutions outside their country of origin.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.MS.56.T}
-{synopt:{bf:{help wbopendata_topicid##UIS.MS.56.T:UIS.MS.56.T} - Total inbound internationally mobile students, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Total number of students who have crossed a national or territorial border for the purpose of education and are now enrolled in tertiary institutions outside their country of origin.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker topicid_UIS.MSEP.56}
-{synopt:{bf:{help wbopendata_topicid##UIS.MSEP.56:UIS.MSEP.56} - Inbound mobility rate, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of students from abroad studying in a given country, as a percentage of the total tertiary enrollment in that country.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}

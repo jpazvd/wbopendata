@@ -2,13 +2,14 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Income Level  (as of 24jan2023)}
+{title:Income Level  (as of 18may2024)}
 
 {marker HIC}
 {p 20 20 2}(Go up to {it:{help wbopendata##incomelevel:Income Level }}){p_end}
 {synoptset 33 tabbed}{...}
 {synopthdr:High income (HIC)}
 {synoptline}
+{synopt:{opt ASM}}  American Samoa {p_end}
 {synopt:{opt AND}}  Andorra {p_end}
 {synopt:{opt ATG}}  Antigua and Barbuda {p_end}
 {synopt:{opt ABW}}  Aruba {p_end}
@@ -40,6 +41,7 @@
 {synopt:{opt GRC}}  Greece {p_end}
 {synopt:{opt GRL}}  Greenland {p_end}
 {synopt:{opt GUM}}  Guam {p_end}
+{synopt:{opt GUY}}  Guyana {p_end}
 {synopt:{opt HKG}}  Hong Kong SAR, China {p_end}
 {synopt:{opt HUN}}  Hungary {p_end}
 {synopt:{opt ISL}}  Iceland {p_end}
@@ -82,7 +84,6 @@
 {synopt:{opt MAF}}  St Martin (French part) {p_end}
 {synopt:{opt SWE}}  Sweden {p_end}
 {synopt:{opt CHE}}  Switzerland {p_end}
-{synopt:{opt TWN}}  Taiwan, China {p_end}
 {synopt:{opt TTO}}  Trinidad and Tobago {p_end}
 {synopt:{opt TCA}}  Turks and Caicos Islands {p_end}
 {synopt:{opt ARE}}  United Arab Emirates {p_end}
@@ -112,7 +113,6 @@
 {synopt:{opt ERI}}  Eritrea {p_end}
 {synopt:{opt ETH}}  Ethiopia {p_end}
 {synopt:{opt GMB}}  Gambia, The {p_end}
-{synopt:{opt GIN}}  Guinea {p_end}
 {synopt:{opt GNB}}  Guinea-Bissau {p_end}
 {synopt:{opt PRK}}  Korea, Dem People's Rep {p_end}
 {synopt:{opt LBR}}  Liberia {p_end}
@@ -130,7 +130,6 @@
 {synopt:{opt TGO}}  Togo {p_end}
 {synopt:{opt UGA}}  Uganda {p_end}
 {synopt:{opt YEM}}  Yemen, Rep {p_end}
-{synopt:{opt ZMB}}  Zambia {p_end}
 
 {marker LMC}
 {p 20 20 2}(Go up to {it:{help wbopendata##incomelevel:Income Level }}){p_end}
@@ -151,14 +150,14 @@
 {synopt:{opt CIV}}  Cote d'Ivoire {p_end}
 {synopt:{opt DJI}}  Djibouti {p_end}
 {synopt:{opt EGY}}  Egypt, Arab Rep {p_end}
-{synopt:{opt SLV}}  El Salvador {p_end}
 {synopt:{opt SWZ}}  Eswatini {p_end}
 {synopt:{opt GHA}}  Ghana {p_end}
+{synopt:{opt GIN}}  Guinea {p_end}
 {synopt:{opt HTI}}  Haiti {p_end}
 {synopt:{opt HND}}  Honduras {p_end}
 {synopt:{opt IND}}  India {p_end}
-{synopt:{opt IDN}}  Indonesia {p_end}
 {synopt:{opt IRN}}  Iran, Islamic Rep {p_end}
+{synopt:{opt JOR}}  Jordan {p_end}
 {synopt:{opt KEN}}  Kenya {p_end}
 {synopt:{opt KIR}}  Kiribati {p_end}
 {synopt:{opt KGZ}}  Kyrgyz Republic {p_end}
@@ -188,8 +187,8 @@
 {synopt:{opt UKR}}  Ukraine {p_end}
 {synopt:{opt UZB}}  Uzbekistan {p_end}
 {synopt:{opt VUT}}  Vanuatu {p_end}
-{synopt:{opt VNM}}  Vietnam {p_end}
-{synopt:{opt PSE}}  West Bank and Gaza {p_end}
+{synopt:{opt VNM}}  Viet Nam {p_end}
+{synopt:{opt ZMB}}  Zambia {p_end}
 {synopt:{opt ZWE}}  Zimbabwe {p_end}
 
 {marker NA}
@@ -226,11 +225,9 @@
 {synopt:{opt IBB}}  IBRD, including blend {p_end}
 {synopt:{opt IBT}}  IDA and IBRD total {p_end}
 {synopt:{opt IDB}}  IDA blend {p_end}
-{synopt:{opt DFS}}  IDA countries classified as Fragile Situations {p_end}
 {synopt:{opt FXS}}  IDA countries classified as fragile situations, excluding Sub-Saharan Africa {p_end}
 {synopt:{opt DSF}}  IDA countries in Sub-Saharan Africa classified as fragile situations {p_end}
 {synopt:{opt DNS}}  IDA countries in Sub-Saharan Africa not classified as fragile situations {p_end}
-{synopt:{opt DNF}}  IDA countries not classified as Fragile Situations {p_end}
 {synopt:{opt NXS}}  IDA countries not classified as fragile situations, excluding Sub-Saharan Africa {p_end}
 {synopt:{opt IDX}}  IDA only {p_end}
 {synopt:{opt IDA}}  IDA total {p_end}
@@ -285,7 +282,6 @@
 {synopthdr:Upper middle income (UMC)}
 {synoptline}
 {synopt:{opt ALB}}  Albania {p_end}
-{synopt:{opt ASM}}  American Samoa {p_end}
 {synopt:{opt ARG}}  Argentina {p_end}
 {synopt:{opt ARM}}  Armenia {p_end}
 {synopt:{opt AZE}}  Azerbaijan {p_end}
@@ -302,16 +298,16 @@
 {synopt:{opt DMA}}  Dominica {p_end}
 {synopt:{opt DOM}}  Dominican Republic {p_end}
 {synopt:{opt ECU}}  Ecuador {p_end}
+{synopt:{opt SLV}}  El Salvador {p_end}
 {synopt:{opt GNQ}}  Equatorial Guinea {p_end}
 {synopt:{opt FJI}}  Fiji {p_end}
 {synopt:{opt GAB}}  Gabon {p_end}
 {synopt:{opt GEO}}  Georgia {p_end}
 {synopt:{opt GRD}}  Grenada {p_end}
 {synopt:{opt GTM}}  Guatemala {p_end}
-{synopt:{opt GUY}}  Guyana {p_end}
+{synopt:{opt IDN}}  Indonesia {p_end}
 {synopt:{opt IRQ}}  Iraq {p_end}
 {synopt:{opt JAM}}  Jamaica {p_end}
-{synopt:{opt JOR}}  Jordan {p_end}
 {synopt:{opt KAZ}}  Kazakhstan {p_end}
 {synopt:{opt XKX}}  Kosovo {p_end}
 {synopt:{opt LBY}}  Libya {p_end}
@@ -338,4 +334,5 @@
 {synopt:{opt TUR}}  Turkiye {p_end}
 {synopt:{opt TKM}}  Turkmenistan {p_end}
 {synopt:{opt TUV}}  Tuvalu {p_end}
+{synopt:{opt PSE}}  West Bank and Gaza {p_end}
 

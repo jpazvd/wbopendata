@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -450,7 +450,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 25 percent or more. Principal repay{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 35 percent or more. Principal repay{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -463,7 +463,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 25 percent or more. The grant element of a loan is th{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 35 percent or more. The grant element of a loan is th{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -1542,7 +1542,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 25 percent or more. Disbursements a{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 35 percent or more. Disbursements a{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -1555,7 +1555,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 25 percent or more. The grant element of a loan is th{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 35 percent or more. The grant element of a loan is th{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -2075,7 +2075,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Concessional debt to total external debt stocks. Concessional debt is defined as loans with an original grant element of 25 percent or more.{p_end}
+{synopt:{opt Source Notes}}Concessional debt to total external debt stocks. Concessional debt is defined as loans with an original grant element of 35 percent or more.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -2355,7 +2355,7 @@
 
 {synoptline}
 {marker topicid_DT.DOD.DSDR.CD}
-{synopt:{bf:{help wbopendata_topicid##DT.DOD.DSDR.CD:DT.DOD.DSDR.CD} - Use of IMF credit, SDR allocations (DOD, current US$)}}
+{synopt:{bf:{help wbopendata_topicid##DT.DOD.DSDR.CD:DT.DOD.DSDR.CD} - SDR allocations (DOD, current US$)}}
 
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
@@ -3505,7 +3505,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 25 percent or more. Interest paymen{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 35 percent or more. Interest paymen{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -3518,7 +3518,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 25 percent or more. The grant element of a loan is th{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 35 percent or more. The grant element of a loan is th{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -4617,7 +4617,7 @@
 
 {synoptline}
 {marker topicid_DT.NFL.NIFC.CD}
-{synopt:{bf:{help wbopendata_topicid##DT.NFL.NIFC.CD:DT.NFL.NIFC.CD} - IFC, private nonguaranteed (NFL, current US$)}}
+{synopt:{bf:{help wbopendata_topicid##DT.NFL.NIFC.CD:DT.NFL.NIFC.CD} - IFC, private nonguaranteed (NFL, US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -4630,7 +4630,7 @@
 
 {synoptline}
 {marker topicid_DT.NFL.OFFT.CD}
-{synopt:{bf:{help wbopendata_topicid##DT.NFL.OFFT.CD:DT.NFL.OFFT.CD} - PPG, official creditors (NFL, current US$)}}
+{synopt:{bf:{help wbopendata_topicid##DT.NFL.OFFT.CD:DT.NFL.OFFT.CD} - PPG, official creditors (NFL, US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -4942,7 +4942,7 @@
 
 {synoptline}
 {marker topicid_DT.NFL.PRVT.CD}
-{synopt:{bf:{help wbopendata_topicid##DT.NFL.PRVT.CD:DT.NFL.PRVT.CD} - PPG, private creditors (NFL, current US$)}}
+{synopt:{bf:{help wbopendata_topicid##DT.NFL.PRVT.CD:DT.NFL.PRVT.CD} - PPG, private creditors (NFL, US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -5260,7 +5260,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 25 percent or more. Net transfers a{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 35 percent or more. Net transfers a{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -5273,7 +5273,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 25 percent or more. The grant element of a loan is th{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 35 percent or more. The grant element of a loan is th{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -6118,7 +6118,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 25 percent or more. Debt service pa{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 35 percent or more. Debt service pa{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -6131,7 +6131,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 25 percent or more. The grant element of a loan is th{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 35 percent or more. The grant element of a loan is th{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -6748,4 +6748,4 @@
 
 
 
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}

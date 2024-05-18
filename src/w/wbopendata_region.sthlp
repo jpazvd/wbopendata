@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Region  (as of 24jan2023)}
+{title:Region  (as of 18may2024)}
 
 {marker EAS}
 {p 20 20 2}(Go up to {it:{help wbopendata##region:Region }}){p_end}
@@ -40,13 +40,12 @@
 {synopt:{opt WSM}}  Samoa {p_end}
 {synopt:{opt SGP}}  Singapore {p_end}
 {synopt:{opt SLB}}  Solomon Islands {p_end}
-{synopt:{opt TWN}}  Taiwan, China {p_end}
 {synopt:{opt THA}}  Thailand {p_end}
 {synopt:{opt TLS}}  Timor-Leste {p_end}
 {synopt:{opt TON}}  Tonga {p_end}
 {synopt:{opt TUV}}  Tuvalu {p_end}
 {synopt:{opt VUT}}  Vanuatu {p_end}
-{synopt:{opt VNM}}  Vietnam {p_end}
+{synopt:{opt VNM}}  Viet Nam {p_end}
 
 {marker ECS}
 {p 20 20 2}(Go up to {it:{help wbopendata##region:Region }}){p_end}
@@ -221,11 +220,9 @@
 {synopt:{opt IBB}}  IBRD, including blend {p_end}
 {synopt:{opt IBT}}  IDA and IBRD total {p_end}
 {synopt:{opt IDB}}  IDA blend {p_end}
-{synopt:{opt DFS}}  IDA countries classified as Fragile Situations {p_end}
 {synopt:{opt FXS}}  IDA countries classified as fragile situations, excluding Sub-Saharan Africa {p_end}
 {synopt:{opt DSF}}  IDA countries in Sub-Saharan Africa classified as fragile situations {p_end}
 {synopt:{opt DNS}}  IDA countries in Sub-Saharan Africa not classified as fragile situations {p_end}
-{synopt:{opt DNF}}  IDA countries not classified as Fragile Situations {p_end}
 {synopt:{opt NXS}}  IDA countries not classified as fragile situations, excluding Sub-Saharan Africa {p_end}
 {synopt:{opt IDX}}  IDA only {p_end}
 {synopt:{opt IDA}}  IDA total {p_end}
