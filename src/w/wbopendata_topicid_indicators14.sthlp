@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -75,7 +75,7 @@
 
 {synopt:{opt Source Notes}}Gross domestic expenditures on research and development (R&amp;D), expressed as a percent of GDP. They include both capital and current expenditures in the four main sectors: Business enterprise, Government, Higher education and Private non-pr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed November 27, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -156,57 +156,5 @@
 {synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), World Intellectual Property Indicators and {browse "www.wipo.int/econ_stat"}. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data. Data last retrieve{p_end}
 
 
-{synoptline}
-{marker topicid_SP.POP.SCIE.RD.P6}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.SCIE.RD.P6:SP.POP.SCIE.RD.P6} - Researchers in R&amp;D (per million people)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}14 Science and Technology{p_end}
-
-{synopt:{opt Source Notes}}The number of researchers engaged in Research &amp;Development (R&amp;D), expressed as per million. Researchers are professionals who conduct research and improve or develop concepts, theories, models techniques instrumentation, software of op{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SP.POP.TECH.RD.P6}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.TECH.RD.P6:SP.POP.TECH.RD.P6} - Technicians in R&amp;D (per million people)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}14 Science and Technology{p_end}
-
-{synopt:{opt Source Notes}}The number of technicians participated in Research &amp; Development (R&amp;D), expressed as per million. Technicians and equivalent staff are people who perform scientific and technical tasks involving the application of concepts and operatio{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2021.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.TECH.CD}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.TECH.CD:TX.VAL.TECH.CD} - High-technology exports (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}14 Science and Technology{p_end}
-
-{synopt:{opt Source Notes}}High-technology exports are products with high R&amp;D intensity, such as aerospace, computers, pharmaceuticals, scientific instruments, and electrical machinery. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}United Nations, Comtrade database through the WITS platform.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.TECH.MF.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.TECH.MF.ZS:TX.VAL.TECH.MF.ZS} - High-technology exports (% of manufactured exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}14 Science and Technology{p_end}
-
-{synopt:{opt Source Notes}}High-technology exports are products with high R&amp;D intensity, such as in aerospace, computers, pharmaceuticals, scientific instruments, and electrical machinery.{p_end}
-
-{synopt:{opt Source Organization}}United Nations, Comtrade database through the WITS platform.{p_end}
-
-
-
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}

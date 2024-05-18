@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -2354,45 +2354,6 @@
 
 
 {synoptline}
-{marker topicid_SI.RMT.COST.IB.ZS}
-{synopt:{bf:{help wbopendata_topicid##SI.RMT.COST.IB.ZS:SI.RMT.COST.IB.ZS} - Average transaction cost of sending remittances to a specific country (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Average transaction cost of sending remittance to a specific country is the average of the total transaction cost in percentage of the amount sent for sending USD 200 charged by each single remittance service provider (RSP) included in the Rem{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Remittance Prices Worldwide, available at {browse "http://remittanceprices.worldbank.org"}{p_end}
-
-
-{synoptline}
-{marker topicid_SI.RMT.COST.OB.ZS}
-{synopt:{bf:{help wbopendata_topicid##SI.RMT.COST.OB.ZS:SI.RMT.COST.OB.ZS} - Average transaction cost of sending remittances from a specific country (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Average transaction cost of sending remittance from a specific country is the average of the total transaction cost in percentage of the amount sent for sending USD 200 charged by each single remittance service provider (RSP) included in the R{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Remittance Prices Worldwide, available at {browse "http://remittanceprices.worldbank.org"}{p_end}
-
-
-{synoptline}
-{marker topicid_SM.EMI.TERT.ZS}
-{synopt:{bf:{help wbopendata_topicid##SM.EMI.TERT.ZS:SM.EMI.TERT.ZS} - Emigration rate of tertiary educated (% of total tertiary educated population)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Emigration rate of tertiary educated shows the stock of emigrants ages 25 and older, residing in an OECD country other than that in which they were born, with at least one year of tertiary education as a percentage of the population age 25 and{p_end}
-
-{synopt:{opt Source Organization}}Frédéric Docquier, B. Lindsay Lowell, and Abdeslam Marfouk's , A Gendered Assessment of Highly Skilled Emigration (2009).{p_end}
-
-
-{synoptline}
 {marker topicid_SM.POP.NETM}
 {synopt:{bf:{help wbopendata_topicid##SM.POP.NETM:SM.POP.NETM} - Net migration}}
 
@@ -2405,31 +2366,5 @@
 {synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
-{synoptline}
-{marker topicid_SM.POP.TOTL}
-{synopt:{bf:{help wbopendata_topicid##SM.POP.TOTL:SM.POP.TOTL} - International migrant stock, total}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees. The data used to estimate the international migrant stock at a particular time are obtained mainly from popula{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division, Trends in Total Migrant Stock: 2012 Revision.{p_end}
-
-
-{synoptline}
-{marker topicid_SM.POP.TOTL.ZS}
-{synopt:{bf:{help wbopendata_topicid##SM.POP.TOTL.ZS:SM.POP.TOTL.ZS} - International migrant stock (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees. The data used to estimate the international migrant stock at a particular time are obtained mainly from popula{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division, Trends in Total Migrant Stock: 2008 Revision.{p_end}
-
-
-
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}
