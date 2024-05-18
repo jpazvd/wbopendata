@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid_indicators19##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid_indicators20##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid_indicators21##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid_indicatorstopicID##topicid_topicID:}{p_end}
 
 
 {marker topicid_07}
@@ -133,7 +134,7 @@
 {marker topicid_BX.KLT.DREM.CD.DT}
 {synopt:{bf:{help wbopendata_topicid##BX.KLT.DREM.CD.DT:BX.KLT.DREM.CD.DT} - Primary income on FDI (current US$)}}
 
-{synopt:{opt Source}}06 International Debt Statistics{p_end}
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -334,7 +335,7 @@
 
 {synopt:{opt Source Notes}}Bank nonperforming loans to total gross loans are the value of nonperforming loans divided by the total value of the loan portfolio (including nonperforming loans before the deduction of specific loan-loss provisions). The loan amount recorded{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Global Financial Stability Report.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Financial Soundness Indicators.{p_end}
 
 
 {synoptline}
@@ -360,7 +361,7 @@
 
 {synopt:{opt Source Notes}}Bank capital to assets is the ratio of bank capital and reserves to total assets. Capital and reserves include funds contributed by owners, retained earnings, general and special reserves, provisions, and valuation adjustments. Capital include{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Global Financial Stability Report.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Financial Soundness Indicators.{p_end}
 
 
 {synoptline}
@@ -569,6 +570,19 @@
 {synopt:{opt Source Notes}}Net foreign assets are the sum of foreign assets held by monetary authorities and deposit money banks, less their foreign liabilities. Data are in current local currency.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+
+
+{synoptline}
+{marker topicid_FM.AST.PRVT.GD.ZS}
+{synopt:{bf:{help wbopendata_topicid##FM.AST.PRVT.GD.ZS:FM.AST.PRVT.GD.ZS} - Monetary Sector credit to private sector (% GDP)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}07 Financial Sector{p_end}
+
+{synopt:{opt Source Notes}}Domestic credit to private sector refers to financial resources provided to the private sector, such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. Fo{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files, and World Bank and OECD GDP estimates.{p_end}
 
 
 {synoptline}
@@ -803,6 +817,123 @@
 {synopt:{opt Source Notes}}Domestic credit to private sector refers to financial resources provided to the private sector by financial corporations, such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files, and World Bank and OECD GDP estimates.{p_end}
+
+
+{synoptline}
+{marker topicid_FX.OWN.TOTL.40.ZS}
+{synopt:{bf:{help wbopendata_topicid##FX.OWN.TOTL.40.ZS:FX.OWN.TOTL.40.ZS} - Account ownership at a financial institution or with a mobile-money-service provider, poorest 40% (% of population ages 15+)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}07 Financial Sector{p_end}
+
+{synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+
+
+{synoptline}
+{marker topicid_FX.OWN.TOTL.60.ZS}
+{synopt:{bf:{help wbopendata_topicid##FX.OWN.TOTL.60.ZS:FX.OWN.TOTL.60.ZS} - Account ownership at a financial institution or with a mobile-money-service provider, richest 60% (% of population ages 15+)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}07 Financial Sector{p_end}
+
+{synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+
+
+{synoptline}
+{marker topicid_FX.OWN.TOTL.FE.ZS}
+{synopt:{bf:{help wbopendata_topicid##FX.OWN.TOTL.FE.ZS:FX.OWN.TOTL.FE.ZS} - Account ownership at a financial institution or with a mobile-money-service provider, female (% of population ages 15+)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}07 Financial Sector{p_end}
+
+{synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+
+
+{synoptline}
+{marker topicid_FX.OWN.TOTL.MA.ZS}
+{synopt:{bf:{help wbopendata_topicid##FX.OWN.TOTL.MA.ZS:FX.OWN.TOTL.MA.ZS} - Account ownership at a financial institution or with a mobile-money-service provider, male (% of population ages 15+)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}07 Financial Sector{p_end}
+
+{synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+
+
+{synoptline}
+{marker topicid_FX.OWN.TOTL.OL.ZS}
+{synopt:{bf:{help wbopendata_topicid##FX.OWN.TOTL.OL.ZS:FX.OWN.TOTL.OL.ZS} - Account ownership at a financial institution or with a mobile-money-service provider, older adults (% of population ages 25+)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}07 Financial Sector{p_end}
+
+{synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+
+
+{synoptline}
+{marker topicid_FX.OWN.TOTL.PL.ZS}
+{synopt:{bf:{help wbopendata_topicid##FX.OWN.TOTL.PL.ZS:FX.OWN.TOTL.PL.ZS} - Account ownership at a financial institution or with a mobile-money-service provider, primary education or less (% of population ages 15+)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}07 Financial Sector{p_end}
+
+{synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+
+
+{synoptline}
+{marker topicid_FX.OWN.TOTL.SO.ZS}
+{synopt:{bf:{help wbopendata_topicid##FX.OWN.TOTL.SO.ZS:FX.OWN.TOTL.SO.ZS} - Account ownership at a financial institution or with a mobile-money-service provider, secondary education or more (% of population ages 15+)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}07 Financial Sector{p_end}
+
+{synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+
+
+{synoptline}
+{marker topicid_FX.OWN.TOTL.YG.ZS}
+{synopt:{bf:{help wbopendata_topicid##FX.OWN.TOTL.YG.ZS:FX.OWN.TOTL.YG.ZS} - Account ownership at a financial institution or with a mobile-money-service provider, young adults (% of population ages 15-24)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}07 Financial Sector{p_end}
+
+{synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+
+
+{synoptline}
+{marker topicid_FX.OWN.TOTL.ZS}
+{synopt:{bf:{help wbopendata_topicid##FX.OWN.TOTL.ZS:FX.OWN.TOTL.ZS} - Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}07 Financial Sector{p_end}
+
+{synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
+
+{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
 
 
 {synoptline}
@@ -1313,19 +1444,6 @@
 
 
 {synoptline}
-{marker topicid_GFDD.AM.04}
-{synopt:{bf:{help wbopendata_topicid##GFDD.AM.04:GFDD.AM.04} - Investments financed by equity or stock sales (%)}}
-
-{synopt:{opt Source}}32 Global Financial Development{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Estimated proportion of purchases of fixed assets that was financed by owners’ contribution or issue of new equity shares.{p_end}
-
-{synopt:{opt Source Organization}}Enterprise Surveys, World Bank{p_end}
-
-
-{synoptline}
 {marker topicid_GFDD.DI.01}
 {synopt:{bf:{help wbopendata_topicid##GFDD.DI.01:GFDD.DI.01} - Private credit by deposit money banks to GDP (%)}}
 
@@ -1807,45 +1925,6 @@
 
 
 {synoptline}
-{marker topicid_GFDD.OI.03}
-{synopt:{bf:{help wbopendata_topicid##GFDD.OI.03:GFDD.OI.03} - H-statistic}}
-
-{synopt:{opt Source}}32 Global Financial Development{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}A measure of the degree of competition in the banking market. It measures the elasticity of banks revenues relative to input prices. Under perfect competition, an increase in input prices raises both marginal costs and total revenues by the sa{p_end}
-
-{synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
-
-
-{synoptline}
-{marker topicid_GFDD.OI.04}
-{synopt:{bf:{help wbopendata_topicid##GFDD.OI.04:GFDD.OI.04} - Lerner index}}
-
-{synopt:{opt Source}}32 Global Financial Development{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}A measure of market power in the banking market. It is defined as the difference between output prices and marginal costs (relative to prices). Prices are calculated as total bank revenue over assets, whereas marginal costs are obtained from a{p_end}
-
-{synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
-
-
-{synoptline}
-{marker topicid_GFDD.OI.05}
-{synopt:{bf:{help wbopendata_topicid##GFDD.OI.05:GFDD.OI.05} - Boone indicator}}
-
-{synopt:{opt Source}}32 Global Financial Development{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}A measure of degree of competition, calculated as the elasticity of profits to marginal costs. To obtain the elasticity, the log of profits (measured by return on assets) is regressed on the log of marginal costs. The estimated coefficient (co{p_end}
-
-{synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
-
-
-{synoptline}
 {marker topicid_GFDD.OI.06}
 {synopt:{bf:{help wbopendata_topicid##GFDD.OI.06:GFDD.OI.06} - 5-bank asset concentration}}
 
@@ -2167,7 +2246,7 @@
 
 {synopt:{opt Source Notes}}Depth of credit information index measures rules affecting the scope, accessibility, and quality of credit information available through public or private credit registries. The index ranges from 0 to 8, with higher values indicating the avail{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -2180,7 +2259,7 @@
 
 {synopt:{opt Source Notes}}Private credit bureau coverage reports the number of individuals or firms listed by a private credit bureau with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the adul{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -2193,7 +2272,7 @@
 
 {synopt:{opt Source Notes}}Public credit registry coverage reports the number of individuals and firms listed in a public credit registry with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -2206,7 +2285,7 @@
 
 {synopt:{opt Source Notes}}Strength of legal rights index measures the degree to which collateral and bankruptcy laws protect the rights of borrowers and lenders and thus facilitate lending. The index ranges from 0 to 12, with higher scores indicating that these laws ar{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -2275,19 +2354,6 @@
 
 
 {synoptline}
-{marker topicid_SM.EMI.TERT.ZS}
-{synopt:{bf:{help wbopendata_topicid##SM.EMI.TERT.ZS:SM.EMI.TERT.ZS} - Emigration rate of tertiary educated (% of total tertiary educated population)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Emigration rate of tertiary educated shows the stock of emigrants ages 25 and older, residing in an OECD country other than that in which they were born, with at least one year of tertiary education as a percentage of the population age 25 and{p_end}
-
-{synopt:{opt Source Organization}}Frédéric Docquier, B. Lindsay Lowell, and Abdeslam Marfouk's , A Gendered Assessment of Highly Skilled Emigration (2009).{p_end}
-
-
-{synoptline}
 {marker topicid_SM.POP.NETM}
 {synopt:{bf:{help wbopendata_topicid##SM.POP.NETM:SM.POP.NETM} - Net migration}}
 
@@ -2295,283 +2361,10 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Net migration is the net total of migrants during the period, that is, the total number of immigrants less the annual number of emigrants, including both citizens and noncitizens. Data are five-year estimates.{p_end}
+{synopt:{opt Source Notes}}Net migration is the net total of migrants during the period, that is, the number of immigrants minus the number of emigrants, including both citizens and noncitizens.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2019 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
 
 
-{synoptline}
-{marker topicid_SM.POP.TOTL}
-{synopt:{bf:{help wbopendata_topicid##SM.POP.TOTL:SM.POP.TOTL} - International migrant stock, total}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees. The data used to estimate the international migrant stock at a particular time are obtained mainly from popula{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division, Trends in Total Migrant Stock: 2012 Revision.{p_end}
-
-
-{synoptline}
-{marker topicid_SM.POP.TOTL.ZS}
-{synopt:{bf:{help wbopendata_topicid##SM.POP.TOTL.ZS:SM.POP.TOTL.ZS} - International migrant stock (% of population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees. The data used to estimate the international migrant stock at a particular time are obtained mainly from popula{p_end}
-
-{synopt:{opt Source Organization}}United Nations Population Division, Trends in Total Migrant Stock: 2008 Revision.{p_end}
-
-
-{synoptline}
-{marker topicid_WP15163_4.1}
-{synopt:{bf:{help wbopendata_topicid##WP15163_4.1:WP15163_4.1} - Mobile account (% age 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP15163_4.2}
-{synopt:{bf:{help wbopendata_topicid##WP15163_4.2:WP15163_4.2} - Mobile account, male (% age 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP15163_4.3}
-{synopt:{bf:{help wbopendata_topicid##WP15163_4.3:WP15163_4.3} - Mobile account, female (% age 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP15163_4.8}
-{synopt:{bf:{help wbopendata_topicid##WP15163_4.8:WP15163_4.8} - Mobile account, income, poorest 40% (% ages 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP15163_4.9}
-{synopt:{bf:{help wbopendata_topicid##WP15163_4.9:WP15163_4.9} - Mobile account, income, richest 60% (% ages 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Mobile account denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or rec{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP_time_01.1}
-{synopt:{bf:{help wbopendata_topicid##WP_time_01.1:WP_time_01.1} - Account at a financial institution (% age 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP_time_01.2}
-{synopt:{bf:{help wbopendata_topicid##WP_time_01.2:WP_time_01.2} - Account at a financial institution, male (% age 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP_time_01.3}
-{synopt:{bf:{help wbopendata_topicid##WP_time_01.3:WP_time_01.3} - Account at a financial institution, female (% age 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP_time_01.8}
-{synopt:{bf:{help wbopendata_topicid##WP_time_01.8:WP_time_01.8} - Account at a financial institution, income, poorest 40% (% ages 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP_time_01.9}
-{synopt:{bf:{help wbopendata_topicid##WP_time_01.9:WP_time_01.9} - Account at a financial institution, income, richest 60% (% ages 15+)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP_time_10.1}
-{synopt:{bf:{help wbopendata_topicid##WP_time_10.1:WP_time_10.1} - Account (% age 15+) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP_time_10.2}
-{synopt:{bf:{help wbopendata_topicid##WP_time_10.2:WP_time_10.2} - Account, male (% age 15+) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP_time_10.3}
-{synopt:{bf:{help wbopendata_topicid##WP_time_10.3:WP_time_10.3} - Account, female (% age 15+) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP_time_10.4}
-{synopt:{bf:{help wbopendata_topicid##WP_time_10.4:WP_time_10.4} - Account, young adults (% ages 15-24) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP_time_10.5}
-{synopt:{bf:{help wbopendata_topicid##WP_time_10.5:WP_time_10.5} - Account, older adults (% ages 25+) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP_time_10.6}
-{synopt:{bf:{help wbopendata_topicid##WP_time_10.6:WP_time_10.6} - Account, primary education or less (% ages 15+) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP_time_10.7}
-{synopt:{bf:{help wbopendata_topicid##WP_time_10.7:WP_time_10.7} - Account, secondary education or more (% ages 15+) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP_time_10.8}
-{synopt:{bf:{help wbopendata_topicid##WP_time_10.8:WP_time_10.8} - Account, income, poorest 40% (% ages 15+) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_WP_time_10.9}
-{synopt:{bf:{help wbopendata_topicid##WP_time_10.9:WP_time_10.9} - Account, income, richest 60% (% ages 15+) [ts]}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
-
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-
-{right:(as of 28jun2020)}
+{right:(as of 18may2024)}

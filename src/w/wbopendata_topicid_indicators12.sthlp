@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid_indicators19##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid_indicators20##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid_indicators21##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid_indicatorstopicID##topicid_topicID:}{p_end}
 
 
 {marker topicid_12}
@@ -98,9 +99,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Distance to frontier score illustrates the distance of an economy to the frontier, which represents the best performance observed on each Doing Business topic across all economies and years included since 2005. An economy's distance to frontie{p_end}
+{synopt:{opt Source Notes}}The ease of doing business scores benchmark economies with respect to regulatory best practice, showing the proximity to the best regulatory performance on each Doing Business indicator. An economy’s score is indicated on a scale from 0 to 1{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -113,20 +114,20 @@
 
 {synopt:{opt Source Notes}}Disclosure index measures the extent to which investors are protected through disclosure of ownership and financial information. The index ranges from 0 to 10, with higher values indicating more disclosure.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
 {marker topicid_IC.BUS.EASE.XQ}
-{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Ease of doing business index (1=most business-friendly regulations)}}
+{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Ease of doing business rank (1=most business-friendly regulations)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. A high ranking (a low numerical rank) means that the regulatory environment is conducive to business operation. The index averages the country's percentile{p_end}
+{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. The ranking of economies is determined by sorting the aggregate ease of doing business scores. A high ranking (a low numerical rank) means that the regulato{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -137,9 +138,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}New businesses registered are the number of new limited liability corporations registered in the calendar year.{p_end}
+{synopt:{opt Source Notes}}New businesses registered are the number of new limited liability corporations (or its equivalent) registered in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -150,9 +151,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}New businesses registered are the number of new limited liability corporations registered in the calendar year.{p_end}
+{synopt:{opt Source Notes}}New businesses registered are the number of new limited liability corporations (or its equivalent) registered in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}).{p_end}
 
 
 {synoptline}
@@ -165,7 +166,7 @@
 
 {synopt:{opt Source Notes}}Depth of credit information index measures rules affecting the scope, accessibility, and quality of credit information available through public or private credit registries. The index ranges from 0 to 8, with higher values indicating the avail{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -178,7 +179,7 @@
 
 {synopt:{opt Source Notes}}Private credit bureau coverage reports the number of individuals or firms listed by a private credit bureau with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the adul{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -191,7 +192,7 @@
 
 {synopt:{opt Source Notes}}Public credit registry coverage reports the number of individuals and firms listed in a public credit registry with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -234,6 +235,19 @@
 
 
 {synoptline}
+{marker topicid_IC.ELC.OUTG.ZS}
+{synopt:{bf:{help wbopendata_topicid##IC.ELC.OUTG.ZS:IC.ELC.OUTG.ZS} - Firms experiencing electrical outages (% of firms)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Percent of firms experiencing electrical outages during the previous fiscal year.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
 {marker topicid_IC.ELC.TIME}
 {synopt:{bf:{help wbopendata_topicid##IC.ELC.TIME:IC.ELC.TIME} - Time required to get electricity (days)}}
 
@@ -243,7 +257,7 @@
 
 {synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -321,7 +335,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -334,7 +348,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -373,7 +387,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -386,7 +400,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -456,7 +470,7 @@
 
 {synoptline}
 {marker topicid_IC.FRM.CRIM.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.FRM.CRIM.ZS:IC.FRM.CRIM.ZS} - Losses due to theft and vandalism (% of annual sales of affected firms)}}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.CRIM.ZS:IC.FRM.CRIM.ZS} - Losses due to theft and vandalism (% of annual sales for affected firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -464,7 +478,7 @@
 
 {synopt:{opt Source Notes}}Average losses as a result of theft, robbery, vandalism or arson that occurred on the establishment’s premises calculated as a percentage of annual sales. The value represents the average losses for all firms which reported losses (please se{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}){p_end}
 
 
 {synoptline}
@@ -546,6 +560,19 @@
 
 
 {synoptline}
+{marker topicid_IC.FRM.METG.ZS}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.METG.ZS:IC.FRM.METG.ZS} - Firms visited or required meetings with tax officials (% of firms)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Percent of firms that were visited or required to meet with tax officials.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
 {marker topicid_IC.FRM.OUTG.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.FRM.OUTG.ZS:IC.FRM.OUTG.ZS} - Value lost due to electrical outages (% of sales for affected firms)}}
 
@@ -554,6 +581,32 @@
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Average losses due to electrical outages, as percentage of total annual sales. The value represents average losses for all firms which reported outages (please see indicator IC.ELC.OUTG.ZS).{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
+{marker topicid_IC.FRM.RSDV.ZS}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.RSDV.ZS:IC.FRM.RSDV.ZS} - Firms that spend on R&amp;D (% of firms)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Percent of firms that spend on research and development.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
+{marker topicid_IC.FRM.THEV.ZS}
+{synopt:{bf:{help wbopendata_topicid##IC.FRM.THEV.ZS:IC.FRM.THEV.ZS} - Firms experiencing losses due to theft and vandalism (% of firms)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Percent of firms experiencing losses due to theft, robbery, vandalism or arson that occurred on the establishment's premises.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -620,7 +673,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -633,7 +686,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -672,7 +725,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -685,7 +738,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -698,7 +751,7 @@
 
 {synopt:{opt Source Notes}}Time to resolve insolvency is the number of years from the filing for insolvency in court until the resolution of distressed assets.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -711,7 +764,7 @@
 
 {synopt:{opt Source Notes}}Strength of legal rights index measures the degree to which collateral and bankruptcy laws protect the rights of borrowers and lenders and thus facilitate lending. The index ranges from 0 to 12, with higher scores indicating that these laws ar{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -724,7 +777,7 @@
 
 {synopt:{opt Source Notes}}Time required to enforce a contract is the number of calendar days from the filing of the lawsuit in court until the final determination and, in appropriate cases, payment.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -737,7 +790,7 @@
 
 {synopt:{opt Source Notes}}Time required to register property is the number of calendar days needed for businesses to secure rights to property.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -750,7 +803,7 @@
 
 {synopt:{opt Source Notes}}Number of procedures to register property is the number of procedures required for a businesses to secure rights to property.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -763,7 +816,7 @@
 
 {synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -776,7 +829,7 @@
 
 {synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -789,7 +842,7 @@
 
 {synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -802,7 +855,7 @@
 
 {synopt:{opt Source Notes}}Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -815,7 +868,7 @@
 
 {synopt:{opt Source Notes}}Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -828,7 +881,7 @@
 
 {synopt:{opt Source Notes}}Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -841,7 +894,7 @@
 
 {synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -854,7 +907,7 @@
 
 {synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -867,7 +920,7 @@
 
 {synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -880,7 +933,7 @@
 
 {synopt:{opt Source Notes}}Time to prepare and pay taxes is the time, in hours per year, it takes to prepare, file, and pay (or withhold) three major types of taxes: the corporate income tax, the value added or sales tax, and labor taxes, including payroll taxes and soc{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -906,12 +959,12 @@
 
 {synopt:{opt Source Notes}}Labor tax and contributions is the amount of taxes and mandatory contributions on labor paid by the business.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
 {marker topicid_IC.TAX.METG}
-{synopt:{bf:{help wbopendata_topicid##IC.TAX.METG:IC.TAX.METG} - Average number of visits or required meetings with tax officials (for affected firms)}}
+{synopt:{bf:{help wbopendata_topicid##IC.TAX.METG:IC.TAX.METG} - Number of visits or required meetings with tax officials (average for affected firms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -932,7 +985,7 @@
 
 {synopt:{opt Source Notes}}Other taxes payable by businesses include the amounts paid for property taxes, turnover taxes, and other small taxes such as municipal fees and vehicle and fuel taxes.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -945,7 +998,7 @@
 
 {synopt:{opt Source Notes}}Tax payments by businesses are the total number of taxes paid by businesses, including electronic filing. The tax is counted as paid once a year even if payments are more frequent.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -958,7 +1011,7 @@
 
 {synopt:{opt Source Notes}}Profit tax is the amount of taxes on profits paid by the business.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -971,7 +1024,7 @@
 
 {synopt:{opt Source Notes}}Total tax rate measures the amount of taxes and mandatory contributions payable by businesses after accounting for allowable deductions and exemptions as a share of commercial profits. Taxes withheld (such as personal income tax) or collected{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -984,7 +1037,7 @@
 
 {synopt:{opt Source Notes}}Number of female directors is the number of female individuals who conduct the affairs of newly registered limited liability companies in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}). Downloaded on November 29, 2023.{p_end}
 
 
 {synoptline}
@@ -997,7 +1050,7 @@
 
 {synopt:{opt Source Notes}}Share of female directors is the proportion of female directors of newly registered limited liability companies out of the total number of directors of newly registered limited liability companies in the economy in the calendar year. A  direct{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}). Downloaded on November 29, 2023.{p_end}
 
 
 {synoptline}
@@ -1010,7 +1063,7 @@
 
 {synopt:{opt Source Notes}}Number of female directors is the number of female individuals who conduct the affairs of newly registered limited liability companies in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}). Downloaded on November 29, 2023.{p_end}
 
 
 {synoptline}
@@ -1023,7 +1076,7 @@
 
 {synopt:{opt Source Notes}}Share of male directors is the proportion of male directors of newly registered limited liability companies out of the total number of directors of newly registered limited liability companies in the economy in the calendar year. A  director i{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}). Downloaded on November 29, 2023.{p_end}
 
 
 {synoptline}
@@ -1036,7 +1089,7 @@
 
 {synopt:{opt Source Notes}}Number of female business owners is the number of female individuals that own at least one share of a limited liability company that was newly registered in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}). Downloaded on November 29, 2023.{p_end}
 
 
 {synoptline}
@@ -1049,7 +1102,7 @@
 
 {synopt:{opt Source Notes}}Share of female business is the proportion of female newly registered limited liability company owners out of the total number of newly registered limited liability company owners in the economy in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}). Downloaded on November 29, 2023.{p_end}
 
 
 {synoptline}
@@ -1062,7 +1115,7 @@
 
 {synopt:{opt Source Notes}}Number of female business owners is the number of male individuals that own at least one share of a limited liability company that was newly registered in the calendar  year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}). Downloaded on November 29, 2023.{p_end}
 
 
 {synoptline}
@@ -1075,7 +1128,7 @@
 
 {synopt:{opt Source Notes}}Share of female business is the proportion of male newly registered limited liability company owners out of the total number of newly registered limited liability company owners in the economy in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}). Downloaded on November 29, 2023.{p_end}
 
 
 {synoptline}
@@ -1088,7 +1141,7 @@
 
 {synopt:{opt Source Notes}}Number of female sole proprietors is the number of newly registered sole proprietors owned by female individuals in the calendar year. A sole proprietorship is a business entity owned and managed by a single individual who is indistinguishable{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}). Downloaded on November 29, 2023.{p_end}
 
 
 {synoptline}
@@ -1101,7 +1154,7 @@
 
 {synopt:{opt Source Notes}}Share of female sole proprietors is the proportion of female newly registered sole proprietors out of the total number of newly registered sole proprietors in the economy in the calendar year. A sole proprietorship is a business entity owned a{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}). Downloaded on November 29, 2023.{p_end}
 
 
 {synoptline}
@@ -1114,7 +1167,7 @@
 
 {synopt:{opt Source Notes}}Number of male sole proprietors is the number of newly registered sole proprietors owned by female individuals in the calendar year.  A sole proprietorship is a business entity owned and managed by a single individual who is indistinguishable{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}). Downloaded on November 29, 2023.{p_end}
 
 
 {synoptline}
@@ -1127,7 +1180,7 @@
 
 {synopt:{opt Source Notes}}Share of female sole proprietors is the proportion of male newly registered sole proprietors out of the total number of newly registered sole proprietors in the economy in the calendar year. A sole proprietorship is a business entity owned and{p_end}
 
-{synopt:{opt Source Organization}}World Bank'S Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}). Downloaded on November 29, 2023.{p_end}
 
 
 {synoptline}
@@ -1140,7 +1193,7 @@
 
 {synopt:{opt Source Notes}}Time required to build a warehouse is the number of calendar days needed to complete the required procedures for building a warehouse. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -1153,7 +1206,7 @@
 
 {synopt:{opt Source Notes}}Number of procedures to build a warehouse is the number of interactions of a company's employees or managers with external parties, including government agency staff, public inspectors, notaries, land registry and cadastre staff, and technical{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -1212,7 +1265,7 @@
 {marker topicid_IQ.WEF.CUST.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.WEF.CUST.XQ:IQ.WEF.CUST.XQ} - Burden of customs procedure, WEF (1=extremely inefficient to 7=extremely efficient)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -1255,9 +1308,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
+{synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
 
 
 {synoptline}
@@ -1268,9 +1321,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
+{synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
 
 
 {synoptline}
@@ -1281,9 +1334,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
+{synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
 
 
 {synoptline}
@@ -1294,9 +1347,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
+{synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
 
 
 {synoptline}
@@ -1307,9 +1360,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Logistics Performance Index overall score reflects perceptions of a country's logistics based on efficiency of customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competitively priced shipments,{p_end}
+{synopt:{opt Source Notes}}The Logistics Performance Index overall score reflects perceptions of a country's logistics based on the efficiency of customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competitively priced sh{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
 
 
 {synoptline}
@@ -1320,9 +1373,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
+{synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
 
 
 {synoptline}
@@ -1333,1180 +1386,10 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
+{synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
 
 
-{synoptline}
-{marker topicid_ST.INT.ARVL}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.ARVL:ST.INT.ARVL} - International tourism, number of arrivals}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}International inbound tourists (overnight visitors) are the number of tourists who travel to a country other than that in which they have their usual residence, but outside their usual environment, for a period not exceeding 12 months and whos{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_ST.INT.DPRT}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.DPRT:ST.INT.DPRT} - International tourism, number of departures}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}International outbound tourists are the number of departures that people make from their country of usual residence to any other country for any purpose other than a remunerated activity in the country visited. The data on outbound tourists re{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_ST.INT.RCPT.CD}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.RCPT.CD:ST.INT.RCPT.CD} - International tourism, receipts (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}International tourism receipts are expenditures by international inbound visitors, including payments to national carriers for international transport. These receipts include any other prepayment made for goods or services received in the dest{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_ST.INT.RCPT.XP.ZS}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.RCPT.XP.ZS:ST.INT.RCPT.XP.ZS} - International tourism, receipts (% of total exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}International tourism receipts are expenditures by international inbound visitors, including payments to national carriers for international transport. These receipts include any other prepayment made for goods or services received in the dest{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files, and IMF and World Bank exports estimates.{p_end}
-
-
-{synoptline}
-{marker topicid_ST.INT.TRNR.CD}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.TRNR.CD:ST.INT.TRNR.CD} - International tourism, receipts for passenger transport items (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}International tourism receipts for passenger transport items are expenditures by international inbound visitors for all services provided in the international transportation by resident carriers. Also included are passenger services performed{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_ST.INT.TRNX.CD}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.TRNX.CD:ST.INT.TRNX.CD} - International tourism, expenditures for passenger transport items (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}International tourism expenditures for passenger transport items are expenditures of international outbound visitors in other countries for all services provided during international transportation by nonresident carriers. Also included are pa{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_ST.INT.TVLR.CD}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.TVLR.CD:ST.INT.TVLR.CD} - International tourism, receipts for travel items (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}International tourism receipts for travel items are expenditures by international inbound visitors in the reporting economy. The goods and services are purchased by, or on behalf of, the traveler or provided, without a quid pro quo, for the tr{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_ST.INT.TVLX.CD}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.TVLX.CD:ST.INT.TVLX.CD} - International tourism, expenditures for travel items (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}International tourism expenditures are expenditures of international outbound visitors in other countries. The goods and services are purchased by, or on behalf of, the traveler or provided, without a quid pro quo, for the traveler to use or g{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_ST.INT.XPND.CD}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.XPND.CD:ST.INT.XPND.CD} - International tourism, expenditures (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}International tourism expenditures are expenditures of international outbound visitors in other countries, including payments to foreign carriers for international transport. These expenditures may include those by residents traveling abroad a{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_ST.INT.XPND.MP.ZS}
-{synopt:{bf:{help wbopendata_topicid##ST.INT.XPND.MP.ZS:ST.INT.XPND.MP.ZS} - International tourism, expenditures (% of total imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}International tourism expenditures are expenditures of international outbound visitors in other countries, including payments to foreign carriers for international transport. These expenditures may include those by residents traveling abroad a{p_end}
-
-{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files, and IMF and World Bank imports estimates.{p_end}
-
-
-{synoptline}
-{marker topicid_TG.VAL.TOTL.GD.ZS}
-{synopt:{bf:{help wbopendata_topicid##TG.VAL.TOTL.GD.ZS:TG.VAL.TOTL.GD.ZS} - Merchandise trade (% of GDP)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise trade as a share of GDP is the sum of merchandise exports and imports divided by the value of GDP, all in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Trade Organization, and World Bank GDP estimates.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.QTY.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_topicid##TM.QTY.MRCH.XD.WD:TM.QTY.MRCH.XD.WD} - Import volume index (2000 = 100)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Import volume indexes are derived from UNCTAD's volume index series and are the ratio of the import value indexes to the corresponding unit value indexes. Unit value indexes are based on data reported by countries that demonstrate consistency{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.MANF.BC.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.BC.ZS:TM.TAX.MANF.BC.ZS} - Binding coverage, manufactured products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Binding coverage is the percentage of product lines with an agreed bound rate. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforceable. Manufactured products are commodities cla{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.MANF.BR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.BR.ZS:TM.TAX.MANF.BR.ZS} - Bound rate, simple mean, manufactured products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Simple mean bound rate is the unweighted average of all the lines in the tariff schedule in which bound rates have been set. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforcea{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.MANF.IP.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.IP.ZS:TM.TAX.MANF.IP.ZS} - Share of tariff lines with international peaks, manufactured products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Share of tariff lines with international peaks is the share of lines in the tariff schedule with tariff rates that exceed 15 percent. It provides an indication of how selectively tariffs are applied. Manufactured products are commodities class{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.MANF.SM.AR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.SM.AR.ZS:TM.TAX.MANF.SM.AR.ZS} - Tariff rate, applied, simple mean, manufactured products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Simple mean applied tariff is the unweighted average of effectively applied rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. T{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.MANF.SM.FN.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.SM.FN.ZS:TM.TAX.MANF.SM.FN.ZS} - Tariff rate, most favored nation, simple mean, manufactured products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Simple mean most favored nation tariff rate is the unweighted average of most favored nation rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eig{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.MANF.SR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.SR.ZS:TM.TAX.MANF.SR.ZS} - Share of tariff lines with specific rates, manufactured products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Share of tariff lines with specific rates is the share of lines in the tariff schedule that are set on a per unit basis or that combine ad valorem and per unit rates. It shows the extent to which countries use tariffs based on physical quantit{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.MANF.WM.AR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.WM.AR.ZS:TM.TAX.MANF.WM.AR.ZS} - Tariff rate, applied, weighted mean, manufactured products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Weighted mean applied tariff is the average of effectively applied rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Ta{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.MANF.WM.FN.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MANF.WM.FN.ZS:TM.TAX.MANF.WM.FN.ZS} - Tariff rate, most favored nation, weighted mean, manufactured products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Weighted mean most favored nations tariff is the average of most favored nation rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-di{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.MRCH.BC.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.BC.ZS:TM.TAX.MRCH.BC.ZS} - Binding coverage, all products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Binding coverage is the percentage of product lines with an agreed bound rate. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforceable.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.MRCH.BR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.BR.ZS:TM.TAX.MRCH.BR.ZS} - Bound rate, simple mean, all products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Simple mean bound rate is the unweighted average of all the lines in the tariff schedule in which bound rates have been set. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforcea{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.MRCH.IP.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.IP.ZS:TM.TAX.MRCH.IP.ZS} - Share of tariff lines with international peaks, all products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Share of tariff lines with international peaks is the share of lines in the tariff schedule with tariff rates that exceed 15 percent. It provides an indication of how selectively tariffs are applied.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.MRCH.SM.AR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.SM.AR.ZS:TM.TAX.MRCH.SM.AR.ZS} - Tariff rate, applied, simple mean, all products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Simple mean applied tariff is the unweighted average of effectively applied rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. T{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.MRCH.SM.FN.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.SM.FN.ZS:TM.TAX.MRCH.SM.FN.ZS} - Tariff rate, most favored nation, simple mean, all products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Simple mean most favored nation tariff rate is the unweighted average of most favored nation rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eig{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.MRCH.SR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.SR.ZS:TM.TAX.MRCH.SR.ZS} - Share of tariff lines with specific rates, all products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Share of tariff lines with specific rates is the share of lines in the tariff schedule that are set on a per unit basis or that combine ad valorem and per unit rates. It shows the extent to which countries use tariffs based on physical quantit{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.MRCH.WM.AR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.WM.AR.ZS:TM.TAX.MRCH.WM.AR.ZS} - Tariff rate, applied, weighted mean, all products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Weighted mean applied tariff is the average of effectively applied rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Ta{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.MRCH.WM.FN.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.MRCH.WM.FN.ZS:TM.TAX.MRCH.WM.FN.ZS} - Tariff rate, most favored nation, weighted mean, all products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Weighted mean most favored nations tariff is the average of most favored nation rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-di{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.TCOM.BC.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.BC.ZS:TM.TAX.TCOM.BC.ZS} - Binding coverage, primary products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Binding coverage is the percentage of product lines with an agreed bound rate. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforceable. Primary products are commodities classifi{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.TCOM.BR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.BR.ZS:TM.TAX.TCOM.BR.ZS} - Bound rate, simple mean, primary products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Simple mean bound rate is the unweighted average of all the lines in the tariff schedule in which bound rates have been set. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforcea{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.TCOM.IP.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.IP.ZS:TM.TAX.TCOM.IP.ZS} - Share of tariff lines with international peaks, primary products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Share of tariff lines with international peaks is the share of lines in the tariff schedule with tariff rates that exceed 15 percent. It provides an indication of how selectively tariffs are applied. Primary products are commodities classified{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.TCOM.SM.AR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.SM.AR.ZS:TM.TAX.TCOM.SM.AR.ZS} - Tariff rate, applied, simple mean, primary products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Simple mean applied tariff is the unweighted average of effectively applied rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. T{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.TCOM.SM.FN.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.SM.FN.ZS:TM.TAX.TCOM.SM.FN.ZS} - Tariff rate, most favored nation, simple mean, primary products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Simple mean most favored nation tariff rate is the unweighted average of most favored nation rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eig{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.TCOM.SR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.SR.ZS:TM.TAX.TCOM.SR.ZS} - Share of tariff lines with specific rates, primary products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Share of tariff lines with specific rates is the share of lines in the tariff schedule that are set on a per unit basis or that combine ad valorem and per unit rates. It shows the extent to which countries use tariffs based on physical quantit{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.TCOM.WM.AR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.WM.AR.ZS:TM.TAX.TCOM.WM.AR.ZS} - Tariff rate, applied, weighted mean, primary products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Weighted mean applied tariff is the average of effectively applied rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Ta{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker topicid_TM.TAX.TCOM.WM.FN.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.TAX.TCOM.WM.FN.ZS:TM.TAX.TCOM.WM.FN.ZS} - Tariff rate, most favored nation, weighted mean, primary products (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Weighted mean most favored nations tariff is the average of most favored nation rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-di{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.AGRI.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.AGRI.ZS.UN:TM.VAL.AGRI.ZS.UN} - Agricultural raw materials imports (% of merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Agricultural raw materials comprise SITC section 2 (crude materials except fuels) excluding divisions 22, 27 (crude fertilizers and minerals excluding coal, petroleum, and precious stones), and 28 (metalliferous ores and scrap).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.FOOD.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.FOOD.ZS.UN:TM.VAL.FOOD.ZS.UN} - Food imports (% of merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Food comprises the commodities in SITC sections 0 (food and live animals), 1 (beverages and tobacco), and 4 (animal and vegetable oils and fats) and SITC division 22 (oil seeds, oil nuts, and oil kernels).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.FUEL.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.FUEL.ZS.UN:TM.VAL.FUEL.ZS.UN} - Fuel imports (% of merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Fuels comprise the commodities in SITC section 3 (mineral fuels, lubricants and related materials).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.ICTG.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.ICTG.ZS.UN:TM.VAL.ICTG.ZS.UN} - ICT goods imports (% total goods imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Information and communication technology goods imports include computers and peripheral equipment, communication equipment, consumer electronic equipment, electronic components, and other information and technology goods (miscellaneous).{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development's UNCTADstat database at {browse "http://unctadstat.unctad.org/ReportFolders/reportFolders.aspx"}.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.INSF.ZS.WT}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.INSF.ZS.WT:TM.VAL.INSF.ZS.WT} - Insurance and financial services (% of commercial service imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Insurance and financial services cover freight insurance on goods imported and other direct insurance such as life insurance; financial intermediation services such as commissions, foreign exchange transactions, and brokerage services; and aux{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.MANF.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MANF.ZS.UN:TM.VAL.MANF.ZS.UN} - Manufactures imports (% of merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Manufactures comprise the commodities in SITC sections 5 (chemicals), 6 (basic manufactures), 7 (machinery and transport equipment), and 8 (miscellaneous manufactured goods), excluding division 68 (nonferrous metals).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.MMTL.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MMTL.ZS.UN:TM.VAL.MMTL.ZS.UN} - Ores and metals imports (% of merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Ores and metals comprise commodities in SITC sections 27 (crude fertilizer, minerals nes); 28 (metalliferous ores, scrap); and 68 (non-ferrous metals).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.MRCH.AL.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.AL.ZS:TM.VAL.MRCH.AL.ZS} - Merchandise imports from economies in the Arab World (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from economies in the Arab World are the sum of merchandise imports by the reporting economy from economies in the Arab World. Data are expressed as a percentage of total merchandise imports by the economy. Data are compute{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.MRCH.CD.WT}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.CD.WT:TM.VAL.MRCH.CD.WT} - Merchandise imports (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports show the c.i.f. value of goods received from the rest of the world valued in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Trade Organization.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.MRCH.HI.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.HI.ZS:TM.VAL.MRCH.HI.ZS} - Merchandise imports from high-income economies (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from high-income economies are the sum of merchandise imports by the reporting economy from high-income economies according to the World Bank classification of economies. Data are expressed as a percentage of total merchand{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.MRCH.OR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.OR.ZS:TM.VAL.MRCH.OR.ZS} - Merchandise imports from low- and middle-income economies outside region (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies outside region are the sum of merchandise imports by the reporting economy from other low- and middle-income economies in other World Bank regions according to the World Bank classifica{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.MRCH.R1.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R1.ZS:TM.VAL.MRCH.R1.ZS} - Merchandise imports from low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in East Asia and Pacific are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the East Asia and Pacific region according to the World Ban{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.MRCH.R2.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R2.ZS:TM.VAL.MRCH.R2.ZS} - Merchandise imports from low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Europe and Central Asia are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Europe and Central Asia region according to the World{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.MRCH.R3.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R3.ZS:TM.VAL.MRCH.R3.ZS} - Merchandise imports from low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Latin America and the Caribbean are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Latin America and the Caribbean region accord{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.MRCH.R4.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R4.ZS:TM.VAL.MRCH.R4.ZS} - Merchandise imports from low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Middle East and North Africa are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Middle East and North Africa region according to{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.MRCH.R5.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R5.ZS:TM.VAL.MRCH.R5.ZS} - Merchandise imports from low- and middle-income economies in South Asia (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in South Asia are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the South Asia region according to the World Bank classification of ec{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.MRCH.R6.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.R6.ZS:TM.VAL.MRCH.R6.ZS} - Merchandise imports from low- and middle-income economies in Sub-Saharan Africa (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Sub-Saharan Africa are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Sub-Saharan Africa region according to the World Bank clas{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.MRCH.RS.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.RS.ZS:TM.VAL.MRCH.RS.ZS} - Merchandise imports by the reporting economy, residual (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports by the reporting economy residuals are the total merchandise imports by the reporting economy from the rest of the world as reported in the IMF's Direction of trade database, less the sum of imports by the reporting economy{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.MRCH.WL.CD}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.WL.CD:TM.VAL.MRCH.WL.CD} - Merchandise imports by the reporting economy (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports by the reporting economy are the total merchandise imports by the reporting economy from the rest of the world, as reported in the IMF's Direction of trade database. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.MRCH.WR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.WR.ZS:TM.VAL.MRCH.WR.ZS} - Merchandise imports from low- and middle-income economies within region (% of total merchandise imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies within region are the sum of merchandise imports by the reporting economy from other low- and middle-income economies in the same World Bank region according to the World Bank classific{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.MRCH.XD.WD:TM.VAL.MRCH.XD.WD} - Import value index (2000 = 100)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Import value indexes are the current value of imports (c.i.f.) converted to U.S. dollars and expressed as a percentage of the average for the base period (2000). UNCTAD's import value indexes are reported for most economies. For selected econo{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.OTHR.ZS.WT}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.OTHR.ZS.WT:TM.VAL.OTHR.ZS.WT} - Computer, communications and other services (% of commercial service imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Computer, communications and other services (% of commercial service imports) include such activities as international telecommunications, and postal and courier services; computer data; news-related service transactions between residents and{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.SERV.CD.WT}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.SERV.CD.WT:TM.VAL.SERV.CD.WT} - Commercial service imports (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Commercial service imports are total service imports minus imports of government services not included elsewhere. International transactions in services are defined by the IMF's Balance of Payments Manual (1993) as the economic output of intan{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.TRAN.ZS.WT}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.TRAN.ZS.WT:TM.VAL.TRAN.ZS.WT} - Transport services (% of commercial service imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Transport services (% of commercial service imports) covers all transport services (sea, air, land, internal waterway, space, and pipeline) performed by residents of one economy for those of another and involving the carriage of passengers, mo{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_TM.VAL.TRVL.ZS.WT}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.TRVL.ZS.WT:TM.VAL.TRVL.ZS.WT} - Travel services (% of commercial service imports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Travel services (% of commercial service imports) covers goods and services acquired from an economy by travelers in that economy for their own use during visits of less than one year for business or personal purposes. Travel services include{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_TT.PRI.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_topicid##TT.PRI.MRCH.XD.WD:TT.PRI.MRCH.XD.WD} - Net barter terms of trade index (2000 = 100)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Net barter terms of trade index is calculated as the percentage ratio of the export unit value indexes to the import unit value indexes, measured relative to the base year 2000. Unit value indexes are based on data reported by countries that d{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.QTY.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_topicid##TX.QTY.MRCH.XD.WD:TX.QTY.MRCH.XD.WD} - Export volume index (2000 = 100)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Export volume indexes are derived from UNCTAD's volume index series and are the ratio of the export value indexes to the corresponding unit value indexes. Unit value indexes are based on data reported by countries that demonstrate consistency{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.AGRI.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.AGRI.ZS.UN:TX.VAL.AGRI.ZS.UN} - Agricultural raw materials exports (% of merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Agricultural raw materials comprise SITC section 2 (crude materials except fuels) excluding divisions 22, 27 (crude fertilizers and minerals excluding coal, petroleum, and precious stones), and 28 (metalliferous ores and scrap).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.FOOD.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.FOOD.ZS.UN:TX.VAL.FOOD.ZS.UN} - Food exports (% of merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Food comprises the commodities in SITC sections 0 (food and live animals), 1 (beverages and tobacco), and 4 (animal and vegetable oils and fats) and SITC division 22 (oil seeds, oil nuts, and oil kernels).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.FUEL.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.FUEL.ZS.UN:TX.VAL.FUEL.ZS.UN} - Fuel exports (% of merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Fuels comprise the commodities in SITC section 3 (mineral fuels, lubricants and related materials).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.ICTG.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.ICTG.ZS.UN:TX.VAL.ICTG.ZS.UN} - ICT goods exports (% of total goods exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Information and communication technology goods exports include computers and peripheral equipment, communication equipment, consumer electronic equipment, electronic components, and other information and technology goods (miscellaneous).{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development's UNCTADstat database at {browse "http://unctadstat.unctad.org/ReportFolders/reportFolders.aspx"}.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.INSF.ZS.WT}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.INSF.ZS.WT:TX.VAL.INSF.ZS.WT} - Insurance and financial services (% of commercial service exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Insurance and financial services cover freight insurance on goods exported and other direct insurance such as life insurance; financial intermediation services such as commissions, foreign exchange transactions, and brokerage services; and aux{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.MANF.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MANF.ZS.UN:TX.VAL.MANF.ZS.UN} - Manufactures exports (% of merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Manufactures comprise commodities in SITC sections 5 (chemicals), 6 (basic manufactures), 7 (machinery and transport equipment), and 8 (miscellaneous manufactured goods), excluding division 68 (non-ferrous metals).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.MMTL.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MMTL.ZS.UN:TX.VAL.MMTL.ZS.UN} - Ores and metals exports (% of merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Ores and metals comprise the commodities in SITC sections 27 (crude fertilizer, minerals nes); 28 (metalliferous ores, scrap); and 68 (non-ferrous metals).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.MRCH.AL.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.AL.ZS:TX.VAL.MRCH.AL.ZS} - Merchandise exports to economies in the Arab World (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to economies in the Arab World are the sum of merchandise exports by the reporting economy to economies in the Arab World. Data are expressed as a percentage of total merchandise exports by the economy. Data are computed on{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.MRCH.CD.WT}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.CD.WT:TX.VAL.MRCH.CD.WT} - Merchandise exports (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports show the f.o.b. value of goods provided to the rest of the world valued in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Trade Organization.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.MRCH.HI.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.HI.ZS:TX.VAL.MRCH.HI.ZS} - Merchandise exports to high-income economies (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to high-income economies are the sum of merchandise exports from the reporting economy to high-income economies according to the World Bank classification of economies. Data are expressed as a percentage of total merchandis{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.MRCH.OR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.OR.ZS:TX.VAL.MRCH.OR.ZS} - Merchandise exports to low- and middle-income economies outside region (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies outside region are the sum of merchandise exports from the reporting economy to other low- and middle-income economies in other World Bank regions according to the World Bank classificati{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.MRCH.R1.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R1.ZS:TX.VAL.MRCH.R1.ZS} - Merchandise exports to low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in East Asia and Pacific are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the East Asia and Pacific region according to World Bank clas{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.MRCH.R2.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R2.ZS:TX.VAL.MRCH.R2.ZS} - Merchandise exports to low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Europe and Central Asia are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Europe and Central Asia region according to World Bank{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.MRCH.R3.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R3.ZS:TX.VAL.MRCH.R3.ZS} - Merchandise exports to low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Latin America and the Caribbean are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Latin America and the Caribbean region accordin{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.MRCH.R4.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R4.ZS:TX.VAL.MRCH.R4.ZS} - Merchandise exports to low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Middle East and North Africa are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Middle East and North Africa region according to W{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.MRCH.R5.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R5.ZS:TX.VAL.MRCH.R5.ZS} - Merchandise exports to low- and middle-income economies in South Asia (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in South Asia are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the South Asia region according to World Bank classification of economie{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.MRCH.R6.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.R6.ZS:TX.VAL.MRCH.R6.ZS} - Merchandise exports to low- and middle-income economies in Sub-Saharan Africa (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Sub-Saharan Africa are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Sub-Saharan Africa region according to World Bank classifica{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.MRCH.RS.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.RS.ZS:TX.VAL.MRCH.RS.ZS} - Merchandise exports by the reporting economy, residual (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports by the reporting economy residuals are the total merchandise exports by the reporting economy to the rest of the world as reported in the IMF's Direction of trade database, less the sum of exports by the reporting economy t{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.MRCH.WL.CD}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.WL.CD:TX.VAL.MRCH.WL.CD} - Merchandise exports by the reporting economy (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports by the reporting economy are the total merchandise exports by the reporting economy to the rest of the world, as reported in the IMF's Direction of trade database. Data are in current US$.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.MRCH.WR.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.WR.ZS:TX.VAL.MRCH.WR.ZS} - Merchandise exports to low- and middle-income economies within region (% of total merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies within region are the sum of merchandise exports from the reporting economy to other low- and middle-income economies in the same World Bank region as a percentage of total merchandise ex{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.MRCH.XD.WD:TX.VAL.MRCH.XD.WD} - Export value index (2000 = 100)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Export values are the current value of exports (f.o.b.) converted to U.S. dollars and expressed as a percentage of the average for the base period (2000). UNCTAD's export value indexes are reported for most economies. For selected economies fo{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.OTHR.ZS.WT}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.OTHR.ZS.WT:TX.VAL.OTHR.ZS.WT} - Computer, communications and other services (% of commercial service exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Computer, communications and other services (% of commercial service exports) include such activities as international telecommunications, and postal and courier services; computer data; news-related service transactions between residents and{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.SERV.CD.WT}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.SERV.CD.WT:TX.VAL.SERV.CD.WT} - Commercial service exports (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Commercial service exports are total service exports minus exports of government services not included elsewhere. International transactions in services are defined by the IMF's Balance of Payments Manual (1993) as the economic output of intan{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.TECH.CD}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.TECH.CD:TX.VAL.TECH.CD} - High-technology exports (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}High-technology exports are products with high R&amp;D intensity, such as aerospace, computers, pharmaceuticals, scientific instruments, and electrical machinery. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}United Nations, Comtrade database through the WITS platform.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.TECH.MF.ZS}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.TECH.MF.ZS:TX.VAL.TECH.MF.ZS} - High-technology exports (% of manufactured exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}High-technology exports are products with high R&amp;D intensity, such as in aerospace, computers, pharmaceuticals, scientific instruments, and electrical machinery.{p_end}
-
-{synopt:{opt Source Organization}}United Nations, Comtrade database through the WITS platform.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.TRAN.ZS.WT}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.TRAN.ZS.WT:TX.VAL.TRAN.ZS.WT} - Transport services (% of commercial service exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Transport services (% of commercial service exports) covers all transport services (sea, air, land, internal waterway, space, and pipeline) performed by residents of one economy for those of another and involving the carriage of passengers, mo{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.TRVL.ZS.WT}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.TRVL.ZS.WT:TX.VAL.TRVL.ZS.WT} - Travel services (% of commercial service exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}12 Private Sector{p_end}
-
-{synopt:{opt Source Notes}}Travel services (% of commercial service exports) covers goods and services acquired from an economy by travelers in that economy for their own use during visits of less than one year for business or personal purposes. Travel services include{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
-
-
-
-{right:(as of 28jun2020)}
+{right:(as of 18may2024)}

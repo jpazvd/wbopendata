@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -12,9 +12,6 @@
 {synoptline}
 {synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
 {synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
-{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
-{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
-{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -26,8 +23,6 @@
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
-{synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -36,32 +31,38 @@
 {synopt:{opt 33}}  {help wbopendata_sourceid_indicators33##sourceid_33:G20 Financial Inclusion Indicators}{p_end}
 {synopt:{opt 34}}  {help wbopendata_sourceid_indicators34##sourceid_34:Global Partnership for Education}{p_end}
 {synopt:{opt 35}}  {help wbopendata_sourceid_indicators35##sourceid_35:Sustainable Energy for All}{p_end}
-{synopt:{opt 36}}  {help wbopendata_sourceid_indicators36##sourceid_36:Statistical Capacity Indicators}{p_end}
 {synopt:{opt 37}}  {help wbopendata_sourceid_indicators37##sourceid_37:LAC Equity Lab}{p_end}
-{synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 40}}  {help wbopendata_sourceid_indicators40##sourceid_40:Population estimates and projections}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 43}}  {help wbopendata_sourceid_indicators43##sourceid_43:Adjusted Net Savings}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
 {synopt:{opt 60}}  {help wbopendata_sourceid_indicators60##sourceid_60:Economic Fitness}{p_end}
 {synopt:{opt 61}}  {help wbopendata_sourceid_indicators61##sourceid_61:PPPs Regulatory Quality}{p_end}
-{synopt:{opt 62}}  {help wbopendata_sourceid_indicators62##sourceid_62:International Comparison Program (ICP) 2011}{p_end}
 {synopt:{opt 63}}  {help wbopendata_sourceid_indicators63##sourceid_63:Human Capital Index}{p_end}
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
 {synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
+{synopt:{opt 68}}  {help wbopendata_sourceid_indicators68##sourceid_68:PEFA 2016}{p_end}
 {synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 {synopt:{opt 78}}  {help wbopendata_sourceid_indicators78##sourceid_78:ICP 2017}{p_end}
+{synopt:{opt 79}}  {help wbopendata_sourceid_indicators79##sourceid_79:PEFA_GRPFM}{p_end}
+{synopt:{opt 80}}  {help wbopendata_sourceid_indicators80##sourceid_80:Gender Disaggregated Labor Database (GDLD)}{p_end}
+{synopt:{opt 81}}  {help wbopendata_sourceid_indicators81##sourceid_81:International Debt Statistics: DSSI}{p_end}
+{synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
+{synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
+{synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
+{synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
+{synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
+{synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
 
 
 {marker sourceid_01}
@@ -154,18 +155,6 @@
 
 
 {synoptline}
-{marker sourceid_ENF.CONT.COEN.CTSP.DB16}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.CTSP.DB16:ENF.CONT.COEN.CTSP.DB16} - Enforcing contracts: Court structure and proceedings (0-5) (DB16 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
 {marker sourceid_ENF.CONT.COEN.CTSP.DB1719}
 {synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.CTSP.DB1719:ENF.CONT.COEN.CTSP.DB1719} - Enforcing contracts: Court structure and proceedings (0-5) (DB17-20 methodology)}}
 
@@ -185,18 +174,6 @@
 
 
 {synopt:{opt Source Notes}}The score for enforcing contracts is the simple average of the scores for each of the component indicators: the procedures, time and cost for resolving a commercial dispute through a local first-instance court. The score is computed based on t{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_ENF.CONT.COEN.DB16.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.DB16.DFRN:ENF.CONT.COEN.DB16.DFRN} - Enforcing contracts (DB16 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
 
@@ -286,18 +263,6 @@
 
 
 {synoptline}
-{marker sourceid_ENF.CONT.COEN.QUJP.DB1719.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.QUJP.DB1719.DFRN:ENF.CONT.COEN.QUJP.DB1719.DFRN} - Enforcing contracts: Quality of judicial processes index (0-19) (DB17-19 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
 {marker sourceid_ENF.CONT.COEN.QUJP.XD}
 {synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.QUJP.XD:ENF.CONT.COEN.QUJP.XD} - Enforcing contracts: Quality of the judicial processes index (0-18) (DB17-20 methodology)}}
 
@@ -358,18 +323,6 @@
 
 
 {synoptline}
-{marker sourceid_ENF.CONT.EC.QJPI}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.EC.QJPI:ENF.CONT.EC.QJPI} - Enforcing contracts: Quality of judicial administration index (0-18) (DB17-19 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
 {marker sourceid_IC.BUS.EASE.DFRN.DB1014}
 {synopt:{bf:{help wbopendata_sourceid##IC.BUS.EASE.DFRN.DB1014:IC.BUS.EASE.DFRN.DB1014} - Global: Ease of doing business score (DB10-14 methodology)}}
 
@@ -377,18 +330,6 @@
 
 
 {synopt:{opt Source Notes}}The ease of doing business score is the simple average of the scores for each of the Doing Business topics: starting a business, dealing with construction permits, getting electricity, registering property, getting credit, protecting minority{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_IC.BUS.EASE.DFRN.DB15}
-{synopt:{bf:{help wbopendata_sourceid##IC.BUS.EASE.DFRN.DB15:IC.BUS.EASE.DFRN.DB15} - Ease of doing business score (DB15 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
 
@@ -826,13 +767,13 @@
 
 
 {synoptline}
-{marker sourceid_IC.ELC.ACES.RK DB19}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.ACES.RK DB19:IC.ELC.ACES.RK DB19} - Rank: Getting electricity (1=most business-friendly regulations)}}
+{marker sourceid_IC.ELC.ACES.RK.DB19}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.ACES.RK.DB19:IC.ELC.ACES.RK.DB19} - Rank: Getting electricity (1=most business-friendly regulations)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}The ranking of economies on the ease of getting electricity is determined by sorting their scores for getting electricity.{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
 
@@ -1222,18 +1163,6 @@
 
 
 {synoptline}
-{marker sourceid_IC.REG.PRRT.DFRN.DB16}
-{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.DFRN.DB16:IC.REG.PRRT.DFRN.DB16} - Registering property (DB16 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
 {marker sourceid_IC.REG.PRRT.DFRN.DB1719}
 {synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.DFRN.DB1719:IC.REG.PRRT.DFRN.DB1719} - Registering property (DB17-20 methodology) - Score}}
 
@@ -1306,18 +1235,6 @@
 
 
 {synoptline}
-{marker sourceid_IC.REG.PRRT.LNDADM.GEN.XD.030.DB1719.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.LNDADM.GEN.XD.030.DB1719.DFRN:IC.REG.PRRT.LNDADM.GEN.XD.030.DB1719.DFRN} - Registering property: Quality of land administration index with Gender (0-30) (DB17-19 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
 {marker sourceid_IC.REG.PRRT.PROC.NO}
 {synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.PROC.NO:IC.REG.PRRT.PROC.NO} - Registering property: Procedures (number)}}
 
@@ -1361,18 +1278,6 @@
 
 
 {synopt:{opt Source Notes}}The score for the quality of land administration index benchmarks economies with respect to the regulatory best practice on the indicator. The score ranges from 0 to 100, where 0 represents the worst regulatory performance and 100 the best reg{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_IC.REG.PRRT.QUAL.LNDADM.XD.030.DB1719}
-{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.QUAL.LNDADM.XD.030.DB1719:IC.REG.PRRT.QUAL.LNDADM.XD.030.DB1719} - Registering property: Quality of land administration index (0-30) (DB17-19 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
 
@@ -1774,18 +1679,6 @@
 
 
 {synoptline}
-{marker sourceid_PROT.MINOR.INV.EXT.CONFL.INTER.XD.010.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.CONFL.INTER.XD.010.DB1519:PROT.MINOR.INV.EXT.CONFL.INTER.XD.010.DB1519} - Protecting minority investors: Extent of conflict of interest regulation index (0-10) (DB15-19 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
 {marker sourceid_PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519}
 {synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519:PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519} - Protecting minority investors: Extent of corporate transparency index (0-7) (DB15-20 methodology)}}
 
@@ -1853,18 +1746,6 @@
 
 
 {synopt:{opt Source Notes}}The score for extent of ownership and control index benchmarks economies with respect to the regulatory best practice on the indicator. The score is indicated on a scale from 0 to 100, where 0 represents the worst regulatory performance and 10{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.EXT.SHARE.GOV.XD.010.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.SHARE.GOV.XD.010.DB1519:PROT.MINOR.INV.EXT.SHARE.GOV.XD.010.DB1519} - Protecting minority investors: Extent of shareholder governance index (0-10) (DB15-19 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
 
@@ -1973,18 +1854,6 @@
 
 
 {synopt:{opt Source Notes}}The creditor participation index has four components: (i) whether creditors appoint the insolvency representative or approve, ratify or reject the appointment of the insolvency representative; (ii) Whether creditors are required to approve the{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_RESLV.ISV.DB0414.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.DB0414.DFRN:RESLV.ISV.DB0414.DFRN} - Resolving insolvency (DB04-14 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
 
@@ -2109,377 +1978,5 @@
 {synopt:{opt Source Organization}}{p_end}
 
 
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.DB0615.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.DB0615.DFRN:TRD.ACRS.BRDR.DB0615.DFRN} - Trading across borders (DB06-15 methodology) - Score}}
 
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}Doing Business measures the time and cost associated with exporting and importing a standardized cargo of goods by sea transport. The time and cost necessary to complete 4 predefined stages (document preparation; customs clearance and inspecti{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.DB1619.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.DB1619.DFRN:TRD.ACRS.BRDR.DB1619.DFRN} - Trading across borders (DB16-20 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}Doing Business measures the time and cost associated with three sets of procedures of exporting and importing goods —documentary compliance, border compliance and domestic transport—within the overall process of exporting or importing a sh{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.DOC.COMP.HR.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.DOC.COMP.HR.DB1619:TRD.ACRS.BRDR.DOC.COMP.HR.DB1619} - Time to export: Documentary compliance (hours) (DB16-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The time for documentary compliance to export records the time associated with compliance with the export documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. It is calcu{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.DOCS.EXPT.NO.DB0615}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.DOCS.EXPT.NO.DB0615:TRD.ACRS.BRDR.DOCS.EXPT.NO.DB0615} - Trading across borders: Documents to export (number) (DB06-15 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The number of documents to export records the number of documents required by law or common practice by relevant agencies per export shipment. All documents required by law or common practice by relevant agencies—including government ministr{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.DOCS.EXPT.NO.DB0615.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.DOCS.EXPT.NO.DB0615.DFRN:TRD.ACRS.BRDR.DOCS.EXPT.NO.DB0615.DFRN} - Trading across borders: Documents to export (number) (DB06-15 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for the number of documents to export benchmarks economies with respect to the regulatory best practice on the indicator. The score ranges from 0 to 100, where 0 represents the worst regulatory performance and 100 the best regulatory{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615:TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615} - Trading across borders: Documents to import (number) (DB06-15 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The number of documents to import records the number of documents required by law or common practice by relevant agencies per import shipment. All documents required by law or common practice by relevant agencies—including government ministr{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615.DFRN:TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615.DFRN} - Trading across borders: Documents to import (number) (DB06-15 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for the number of documents to import benchmarks economies with respect to the regulatory best practice on the indicator. The score ranges from 0 to 100, where 0 represents the worst regulatory performance and 100 the best regulatory{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.EXPT.BRDR.COMP.HR.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.BRDR.COMP.HR.DB1619:TRD.ACRS.BRDR.EXPT.BRDR.COMP.HR.DB1619} - Time to export: Border compliance (hours) (DB16-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The time for border compliance to export records the time associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the export shipment to cross the e{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619:TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619} - Trading across borders: Cost to export: Border compliance (USD) (DB16-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The cost for border compliance to export records the cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the export shipment to cross the e{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619.DFRN:TRD.ACRS.BRDR.EXPT.COST.BRDR.COMP.CD.DB1619.DFRN} - Trading across borders: Cost to export: Border compliance (USD) (DB16-20 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for the cost for border compliance to export benchmarks economies with respect to the regulatory best practice on the indicator. The score ranges from 0 to 100, where 0 represents the worst regulatory performance and 100 the best reg{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.EXPT.COST.CD.DB0615}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.COST.CD.DB0615:TRD.ACRS.BRDR.EXPT.COST.CD.DB0615} - Trading across borders: Cost to export (US$ per container deflated) (DB06-15 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The cost to export records the cost associated with exporting a standardized cargo of goods by sea transport through 4 predefined stages: document preparation; customs clearance and inspections; inland transport and handling; and port and term{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.EXPT.COST.CD.DB0615.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.COST.CD.DB0615.DFRN:TRD.ACRS.BRDR.EXPT.COST.CD.DB0615.DFRN} - Trading across borders: Cost to export (US$ per container) (DB06-15 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for the cost to export benchmarks economies with respect to the regulatory best practice on the indicator. The score ranges from 0 to 100, where 0 represents the worst regulatory performance and 100 the best regulatory performance, a{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619:TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619} - Trading across borders: Cost to export: Documentary compliance (USD) (DB16-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The cost for documentary compliance to export records the cost associated with compliance with the export documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. It is calcu{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619.DFRN:TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619.DFRN} - Trading across borders: Cost to export: Documentary compliance (USD) (DB16-20 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for the cost for documentary compliance to export benchmarks economies with respect to the regulatory best practice on the indicator. The score ranges from 0 to 100, where 0 represents the worst regulatory performance and 100 the bes{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.EXPT.DURS.DY.DB0615}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.DURS.DY.DB0615:TRD.ACRS.BRDR.EXPT.DURS.DY.DB0615} - Time to export (days) (DB06-15 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The time to export records the time associated with exporting a standardized cargo of goods by sea transport through 4 predefined stages: document preparation; customs clearance and inspections; inland transport and handling; and port and term{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.EXPT.TM.BRDR.COMP.HR.DB1619.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.TM.BRDR.COMP.HR.DB1619.DFRN:TRD.ACRS.BRDR.EXPT.TM.BRDR.COMP.HR.DB1619.DFRN} - Trading across borders: Time to export: Border compliance (hours) (DB16-20 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for the time for border compliance to export benchmarks economies with respect to the regulatory best practice on the indicator. The score ranges from 0 to 100, where 0 represents the worst regulatory performance and 100 the best reg{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.EXPT.TM.DOC.COMP.HR.DB1619.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.TM.DOC.COMP.HR.DB1619.DFRN:TRD.ACRS.BRDR.EXPT.TM.DOC.COMP.HR.DB1619.DFRN} - Trading across borders: Time to export: Documentary compliance (hours) (DB16-20 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for the time for documentary compliance to export benchmarks economies with respect to the regulatory best practice on the indicator. The score ranges from 0 to 100, where 0 represents the worst regulatory performance and 100 the bes{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.EXPT.TM.DY.DB0615.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.TM.DY.DB0615.DFRN:TRD.ACRS.BRDR.EXPT.TM.DY.DB0615.DFRN} - Trading across borders: Time to export (days) (DB06-15 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for the time to export benchmarks economies with respect to the regulatory best practice on the indicator. The score ranges from 0 to 100, where 0 represents the worst regulatory performance and 100 the best regulatory performance, a{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.IMP.BRDR.COMP.HR.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.BRDR.COMP.HR.DB1619:TRD.ACRS.BRDR.IMP.BRDR.COMP.HR.DB1619} - Time to import: Border compliance (hours) (DB16-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The time for border compliance to import records the time associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the import shipment to cross the e{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619:TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619} - Trading across borders: Cost to import: Border compliance (USD) (DB16-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The cost for border compliance to import records the cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the import shipment to cross the e{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619.DFRN:TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619.DFRN} - Trading across borders: Cost to import: Border compliance (USD) (DB16-20 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for the cost for border compliance to import benchmarks economies with respect to the regulatory best practice on the indicator. The score ranges from 0 to 100, where 0 represents the worst regulatory performance and 100 the best reg{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.IMP.COST.CD.DB0615}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.COST.CD.DB0615:TRD.ACRS.BRDR.IMP.COST.CD.DB0615} - Trading across borders: Cost to import (US$ per container deflated)(DB06-15 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The cost to import records the cost associated with importing a standardized cargo of goods by sea transport through 4 predefined stages: document preparation; customs clearance and inspections; inland transport and handling; and port and term{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.IMP.COST.CD.DB0615.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.COST.CD.DB0615.DFRN:TRD.ACRS.BRDR.IMP.COST.CD.DB0615.DFRN} - Trading across borders: Cost to import (US$ per container)(DB06-15 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for the cost to import benchmarks economies with respect to the regulatory best practice on the indicator. The score ranges from 0 to 100, where 0 represents the worst regulatory performance and 100 the best regulatory performance, a{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619:TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619} - Trading across borders: Cost to import: Documentary compliance (USD) (DB16-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The cost for documentary compliance to import records the cost associated with compliance with the import documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. It is calcu{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619.DFRN:TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619.DFRN} - Trading across borders: Cost to import: Documentary compliance (USD) (DB16-20 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for the cost for documentary compliance to import benchmarks economies with respect to the regulatory best practice on the indicator. The score ranges from 0 to 100, where 0 represents the worst regulatory performance and 100 the bes{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.IMP.DOC.COMP.HR.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.DOC.COMP.HR.DB1619:TRD.ACRS.BRDR.IMP.DOC.COMP.HR.DB1619} - Time to import: Documentary compliance (hours) (DB16-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The time for documentary compliance to import records the time associated with compliance with the import documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. It is calcu{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.IMP.DURS.DY.DB0615}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.DURS.DY.DB0615:TRD.ACRS.BRDR.IMP.DURS.DY.DB0615} - Time to import (days) (DB06-15 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The time to import records the time associated with importing a standardized cargo of goods by sea transport through 4 predefined stages: document preparation; customs clearance and inspections; inland transport and handling; and port and term{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.IMP.TM.BRDR.COMP.HR.DB1619.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.TM.BRDR.COMP.HR.DB1619.DFRN:TRD.ACRS.BRDR.IMP.TM.BRDR.COMP.HR.DB1619.DFRN} - Trading across borders: Time to import: Border compliance (hours) (DB16-20 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for the time for border compliance to import benchmarks economies with respect to the regulatory best practice on the indicator. The score ranges from 0 to 100, where 0 represents the worst regulatory performance and 100 the best reg{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.IMP.TM.DOC.COMP.HR.DB1619.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.TM.DOC.COMP.HR.DB1619.DFRN:TRD.ACRS.BRDR.IMP.TM.DOC.COMP.HR.DB1619.DFRN} - Trading across borders: Time to import: Documentary compliance (hours) (DB16-20 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for the time for documentary compliance to import benchmarks economies with respect to the regulatory best practice on the indicator. The score ranges from 0 to 100, where 0 represents the worst regulatory performance and 100 the bes{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.IMP.TM.DY.DB0615.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.TM.DY.DB0615.DFRN:TRD.ACRS.BRDR.IMP.TM.DY.DB0615.DFRN} - Trading across borders: Time to import (days) (DB06-15 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for the time to import benchmarks economies with respect to the regulatory best practice on the indicator. The score ranges from 0 to 100, where 0 represents the worst regulatory performance and 100 the best regulatory performance, a{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_TRD.ACRS.BRDR.RK.DB19}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.RK.DB19:TRD.ACRS.BRDR.RK.DB19} - Rank: Trading across borders (1=most business-friendly regulations)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The ranking of economies on the ease of trading across borders is determined by sorting their scores for trading across borders.{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-
-{right:(as of 28jun2020)}
+{right:(as of 18may2024)}

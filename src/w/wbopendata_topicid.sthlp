@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 28jun2020)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid##topicid_21:Trade}{p_end}
+{synopt:{opt topicID}}  {help wbopendata_topicid##topicid_topicID:}{p_end}
 {synoptline}
 
 
@@ -80,11 +81,11 @@
 
 {synopt:{help wbopendata_topicid_indicators01##topicid_AG.PRD.CREL.MT:AG.PRD.CREL.MT{marker AG.PRD.CREL.MT}}}Cereal production (metric tons){p_end}
 
-{synopt:{help wbopendata_topicid_indicators01##topicid_AG.PRD.CROP.XD:AG.PRD.CROP.XD{marker AG.PRD.CROP.XD}}}Crop production index (2004-2006 = 100){p_end}
+{synopt:{help wbopendata_topicid_indicators01##topicid_AG.PRD.CROP.XD:AG.PRD.CROP.XD{marker AG.PRD.CROP.XD}}}Crop production index (2014-2016 = 100){p_end}
 
-{synopt:{help wbopendata_topicid_indicators01##topicid_AG.PRD.FOOD.XD:AG.PRD.FOOD.XD{marker AG.PRD.FOOD.XD}}}Food production index (2004-2006 = 100){p_end}
+{synopt:{help wbopendata_topicid_indicators01##topicid_AG.PRD.FOOD.XD:AG.PRD.FOOD.XD{marker AG.PRD.FOOD.XD}}}Food production index (2014-2016 = 100){p_end}
 
-{synopt:{help wbopendata_topicid_indicators01##topicid_AG.PRD.LVSK.XD:AG.PRD.LVSK.XD{marker AG.PRD.LVSK.XD}}}Livestock production index (2004-2006 = 100){p_end}
+{synopt:{help wbopendata_topicid_indicators01##topicid_AG.PRD.LVSK.XD:AG.PRD.LVSK.XD{marker AG.PRD.LVSK.XD}}}Livestock production index (2014-2016 = 100){p_end}
 
 {synopt:{help wbopendata_topicid_indicators01##topicid_AG.SRF.TOTL.K2:AG.SRF.TOTL.K2{marker AG.SRF.TOTL.K2}}}Surface area (sq. km){p_end}
 
@@ -114,29 +115,11 @@
 
 {synopt:{help wbopendata_topicid_indicators01##topicid_NV.AGR.TOTL.ZS:NV.AGR.TOTL.ZS{marker NV.AGR.TOTL.ZS}}}Agriculture, forestry, and fishing, value added (% of GDP){p_end}
 
-{synopt:{help wbopendata_topicid_indicators01##topicid_SH.H2O.SAFE.RU.ZS:SH.H2O.SAFE.RU.ZS{marker SH.H2O.SAFE.RU.ZS}}}Improved water source, rural (% of rural population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators01##topicid_SH.STA.ACSN.RU:SH.STA.ACSN.RU{marker SH.STA.ACSN.RU}}}Improved sanitation facilities, rural (% of rural population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators01##topicid_SI.POV.RUGP:SI.POV.RUGP{marker SI.POV.RUGP}}}Rural poverty gap at national poverty lines (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators01##topicid_SI.POV.RUHC:SI.POV.RUHC{marker SI.POV.RUHC}}}Rural poverty headcount ratio at national poverty lines (% of rural population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators01##topicid_SL.AGR.EMPL.FE.ZS:SL.AGR.EMPL.FE.ZS{marker SL.AGR.EMPL.FE.ZS}}}Employment in agriculture, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators01##topicid_SL.AGR.EMPL.MA.ZS:SL.AGR.EMPL.MA.ZS{marker SL.AGR.EMPL.MA.ZS}}}Employment in agriculture, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators01##topicid_SL.AGR.EMPL.ZS:SL.AGR.EMPL.ZS{marker SL.AGR.EMPL.ZS}}}Employment in agriculture (% of total employment) (modeled ILO estimate){p_end}
-
 {synopt:{help wbopendata_topicid_indicators01##topicid_SP.RUR.TOTL:SP.RUR.TOTL{marker SP.RUR.TOTL}}}Rural population{p_end}
 
 {synopt:{help wbopendata_topicid_indicators01##topicid_SP.RUR.TOTL.ZG:SP.RUR.TOTL.ZG{marker SP.RUR.TOTL.ZG}}}Rural population growth (annual %){p_end}
 
 {synopt:{help wbopendata_topicid_indicators01##topicid_SP.RUR.TOTL.ZS:SP.RUR.TOTL.ZS{marker SP.RUR.TOTL.ZS}}}Rural population (% of total population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators01##topicid_TM.VAL.AGRI.ZS.UN:TM.VAL.AGRI.ZS.UN{marker TM.VAL.AGRI.ZS.UN}}}Agricultural raw materials imports (% of merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators01##topicid_TX.VAL.AGRI.ZS.UN:TX.VAL.AGRI.ZS.UN{marker TX.VAL.AGRI.ZS.UN}}}Agricultural raw materials exports (% of merchandise exports){p_end}
 {synoptline}
 
 {marker topicid_02}
@@ -161,7 +144,7 @@
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DC.DAC.CHEL.CD:DC.DAC.CHEL.CD{marker DC.DAC.CHEL.CD}}}Net bilateral aid flows from DAC donors, Switzerland (current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators02##topicid_DC.DAC.CZEL.CD:DC.DAC.CZEL.CD{marker DC.DAC.CZEL.CD}}}Net bilateral aid flows from DAC donors, Czech Republic (current US$){p_end}
+{synopt:{help wbopendata_topicid_indicators02##topicid_DC.DAC.CZEL.CD:DC.DAC.CZEL.CD{marker DC.DAC.CZEL.CD}}}Net bilateral aid flows from DAC donors, Czechia (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DC.DAC.DEUL.CD:DC.DAC.DEUL.CD{marker DC.DAC.DEUL.CD}}}Net bilateral aid flows from DAC donors, Germany (current US$){p_end}
 
@@ -176,6 +159,8 @@
 {synopt:{help wbopendata_topicid_indicators02##topicid_DC.DAC.GBRL.CD:DC.DAC.GBRL.CD{marker DC.DAC.GBRL.CD}}}Net bilateral aid flows from DAC donors, United Kingdom (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DC.DAC.GRCL.CD:DC.DAC.GRCL.CD{marker DC.DAC.GRCL.CD}}}Net bilateral aid flows from DAC donors, Greece (current US$){p_end}
+
+{synopt:{help wbopendata_topicid_indicators02##topicid_DC.DAC.HUNL.CD:DC.DAC.HUNL.CD{marker DC.DAC.HUNL.CD}}}Net bilateral aid flows from DAC donors, Hungary (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DC.DAC.IRLL.CD:DC.DAC.IRLL.CD{marker DC.DAC.IRLL.CD}}}Net bilateral aid flows from DAC donors, Ireland (current US$){p_end}
 
@@ -231,7 +216,11 @@
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.UNEC.CD:DT.NFL.UNEC.CD{marker DT.NFL.UNEC.CD}}}Net official flows from UN agencies, UNECE (current US$){p_end}
 
+{synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.UNEP.CD:DT.NFL.UNEP.CD{marker DT.NFL.UNEP.CD}}}Net official flows from UN agencies, UNEP (current US$){p_end}
+
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.UNFP.CD:DT.NFL.UNFP.CD{marker DT.NFL.UNFP.CD}}}Net official flows from UN agencies, UNFPA (current US$){p_end}
+
+{synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.UNID.CD:DT.NFL.UNID.CD{marker DT.NFL.UNID.CD}}}Net official flows from UN agencies, UNIDIR (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.UNPB.CD:DT.NFL.UNPB.CD{marker DT.NFL.UNPB.CD}}}Net official flows from UN agencies, UNPBF (current US$){p_end}
 
@@ -239,17 +228,19 @@
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.UNTA.CD:DT.NFL.UNTA.CD{marker DT.NFL.UNTA.CD}}}Net official flows from UN agencies, UNTA (current US$){p_end}
 
+{synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.UNWT.CD:DT.NFL.UNWT.CD{marker DT.NFL.UNWT.CD}}}Net official flows from UN agencies, UNWTO (current US$){p_end}
+
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.WFPG.CD:DT.NFL.WFPG.CD{marker DT.NFL.WFPG.CD}}}Net official flows from UN agencies, WFP (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.NFL.WHOL.CD:DT.NFL.WHOL.CD{marker DT.NFL.WHOL.CD}}}Net official flows from UN agencies, WHO (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ALLD.CD:DT.ODA.ALLD.CD{marker DT.ODA.ALLD.CD}}}Net official development assistance and official aid received (current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ALLD.KD:DT.ODA.ALLD.KD{marker DT.ODA.ALLD.KD}}}Net official development assistance and official aid received (constant 2015 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ALLD.KD:DT.ODA.ALLD.KD{marker DT.ODA.ALLD.KD}}}Net official development assistance and official aid received (constant 2021 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.OATL.CD:DT.ODA.OATL.CD{marker DT.ODA.OATL.CD}}}Net official aid received (current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.OATL.KD:DT.ODA.OATL.KD{marker DT.ODA.OATL.KD}}}Net official aid received (constant 2015 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.OATL.KD:DT.ODA.OATL.KD{marker DT.ODA.OATL.KD}}}Net official aid received (constant 2021 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.CD:DT.ODA.ODAT.CD{marker DT.ODA.ODAT.CD}}}Net official development assistance received (current US$){p_end}
 
@@ -257,7 +248,7 @@
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.GN.ZS:DT.ODA.ODAT.GN.ZS{marker DT.ODA.ODAT.GN.ZS}}}Net ODA received (% of GNI){p_end}
 
-{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.KD:DT.ODA.ODAT.KD{marker DT.ODA.ODAT.KD}}}Net official development assistance received (constant 2015 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.KD:DT.ODA.ODAT.KD{marker DT.ODA.ODAT.KD}}}Net official development assistance received (constant 2021 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.MP.ZS:DT.ODA.ODAT.MP.ZS{marker DT.ODA.ODAT.MP.ZS}}}Net ODA received (% of imports of goods, services and primary income){p_end}
 
@@ -269,25 +260,7 @@
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_SE.PRM.CMPT.ZS:SE.PRM.CMPT.ZS{marker SE.PRM.CMPT.ZS}}}Primary completion rate, total (% of relevant age group){p_end}
 
-{synopt:{help wbopendata_topicid_indicators02##topicid_SH.DYN.AIDS.ZS:SH.DYN.AIDS.ZS{marker SH.DYN.AIDS.ZS}}}Prevalence of HIV, total (% of population ages 15-49){p_end}
-
 {synopt:{help wbopendata_topicid_indicators02##topicid_SH.DYN.MORT:SH.DYN.MORT{marker SH.DYN.MORT}}}Mortality rate, under-5 (per 1,000 live births){p_end}
-
-{synopt:{help wbopendata_topicid_indicators02##topicid_SH.STA.ACSN:SH.STA.ACSN{marker SH.STA.ACSN}}}Improved sanitation facilities (% of population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators02##topicid_SH.STA.ANVC.ZS:SH.STA.ANVC.ZS{marker SH.STA.ANVC.ZS}}}Pregnant women receiving prenatal care (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators02##topicid_SH.STA.MMRT:SH.STA.MMRT{marker SH.STA.MMRT}}}Maternal mortality ratio (modeled estimate, per 100,000 live births){p_end}
-
-{synopt:{help wbopendata_topicid_indicators02##topicid_SH.STA.STNT.ZS:SH.STA.STNT.ZS{marker SH.STA.STNT.ZS}}}Prevalence of stunting, height for age (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators02##topicid_SH.TBS.INCD:SH.TBS.INCD{marker SH.TBS.INCD}}}Incidence of tuberculosis (per 100,000 people){p_end}
-
-{synopt:{help wbopendata_topicid_indicators02##topicid_SI.DST.FRST.20:SI.DST.FRST.20{marker SI.DST.FRST.20}}}Income share held by lowest 20%{p_end}
-
-{synopt:{help wbopendata_topicid_indicators02##topicid_SI.POV.DDAY:SI.POV.DDAY{marker SI.POV.DDAY}}}Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators02##topicid_SL.EMP.VULN.ZS:SL.EMP.VULN.ZS{marker SL.EMP.VULN.ZS}}}Vulnerable employment, total (% of total employment) (modeled ILO estimate){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_SM.POP.NETM:SM.POP.NETM{marker SM.POP.NETM}}}Net migration{p_end}
 {synoptline}
@@ -496,7 +469,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.GOVT.CN:NE.CON.GOVT.CN{marker NE.CON.GOVT.CN}}}General government final consumption expenditure (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.GOVT.KD:NE.CON.GOVT.KD{marker NE.CON.GOVT.KD}}}General government final consumption expenditure (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.GOVT.KD:NE.CON.GOVT.KD{marker NE.CON.GOVT.KD}}}General government final consumption expenditure (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.GOVT.KD.ZG:NE.CON.GOVT.KD.ZG{marker NE.CON.GOVT.KD.ZG}}}General government final consumption expenditure (annual % growth){p_end}
 
@@ -520,13 +493,15 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.CN:NE.CON.PRVT.CN{marker NE.CON.PRVT.CN}}}Households and NPISHs Final consumption expenditure (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.KD:NE.CON.PRVT.KD{marker NE.CON.PRVT.KD}}}Households and NPISHs Final consumption expenditure (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.CN.AD:NE.CON.PRVT.CN.AD{marker NE.CON.PRVT.CN.AD}}}Households and NPISHs final consumption expenditure: linked series (current LCU){p_end}
+
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.KD:NE.CON.PRVT.KD{marker NE.CON.PRVT.KD}}}Households and NPISHs Final consumption expenditure (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.KD.ZG:NE.CON.PRVT.KD.ZG{marker NE.CON.PRVT.KD.ZG}}}Households and NPISHs Final consumption expenditure (annual % growth){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.KN:NE.CON.PRVT.KN{marker NE.CON.PRVT.KN}}}Households and NPISHs Final consumption expenditure (constant LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.PC.KD:NE.CON.PRVT.PC.KD{marker NE.CON.PRVT.PC.KD}}}Households and NPISHs Final consumption expenditure per capita (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.PC.KD:NE.CON.PRVT.PC.KD{marker NE.CON.PRVT.PC.KD}}}Households and NPISHs Final consumption expenditure per capita (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.PC.KD.ZG:NE.CON.PRVT.PC.KD.ZG{marker NE.CON.PRVT.PC.KD.ZG}}}Households and NPISHs Final consumption expenditure per capita growth (annual %){p_end}
 
@@ -552,7 +527,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.TOTL.CN:NE.CON.TOTL.CN{marker NE.CON.TOTL.CN}}}Final consumption expenditure (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.TOTL.KD:NE.CON.TOTL.KD{marker NE.CON.TOTL.KD}}}Final consumption expenditure (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.TOTL.KD:NE.CON.TOTL.KD{marker NE.CON.TOTL.KD}}}Final consumption expenditure (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.TOTL.KD.ZG:NE.CON.TOTL.KD.ZG{marker NE.CON.TOTL.KD.ZG}}}Final consumption expenditure (annual % growth){p_end}
 
@@ -566,7 +541,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.DAB.TOTL.CN:NE.DAB.TOTL.CN{marker NE.DAB.TOTL.CN}}}Gross national expenditure (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.DAB.TOTL.KD:NE.DAB.TOTL.KD{marker NE.DAB.TOTL.KD}}}Gross national expenditure (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.DAB.TOTL.KD:NE.DAB.TOTL.KD{marker NE.DAB.TOTL.KD}}}Gross national expenditure (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.DAB.TOTL.KN:NE.DAB.TOTL.KN{marker NE.DAB.TOTL.KN}}}Gross national expenditure (constant LCU){p_end}
 
@@ -576,7 +551,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.EXP.GNFS.CN:NE.EXP.GNFS.CN{marker NE.EXP.GNFS.CN}}}Exports of goods and services (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.EXP.GNFS.KD:NE.EXP.GNFS.KD{marker NE.EXP.GNFS.KD}}}Exports of goods and services (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.EXP.GNFS.KD:NE.EXP.GNFS.KD{marker NE.EXP.GNFS.KD}}}Exports of goods and services (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.EXP.GNFS.KD.ZG:NE.EXP.GNFS.KD.ZG{marker NE.EXP.GNFS.KD.ZG}}}Exports of goods and services (annual % growth){p_end}
 
@@ -592,7 +567,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.GDI.FTOT.CN:NE.GDI.FTOT.CN{marker NE.GDI.FTOT.CN}}}Gross fixed capital formation (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.GDI.FTOT.KD:NE.GDI.FTOT.KD{marker NE.GDI.FTOT.KD}}}Gross fixed capital formation (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.GDI.FTOT.KD:NE.GDI.FTOT.KD{marker NE.GDI.FTOT.KD}}}Gross fixed capital formation (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.GDI.FTOT.KD.ZG:NE.GDI.FTOT.KD.ZG{marker NE.GDI.FTOT.KD.ZG}}}Gross fixed capital formation (annual % growth){p_end}
 
@@ -610,7 +585,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.GDI.TOTL.CN:NE.GDI.TOTL.CN{marker NE.GDI.TOTL.CN}}}Gross capital formation (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.GDI.TOTL.KD:NE.GDI.TOTL.KD{marker NE.GDI.TOTL.KD}}}Gross capital formation (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.GDI.TOTL.KD:NE.GDI.TOTL.KD{marker NE.GDI.TOTL.KD}}}Gross capital formation (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.GDI.TOTL.KD.ZG:NE.GDI.TOTL.KD.ZG{marker NE.GDI.TOTL.KD.ZG}}}Gross capital formation (annual % growth){p_end}
 
@@ -622,7 +597,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.IMP.GNFS.CN:NE.IMP.GNFS.CN{marker NE.IMP.GNFS.CN}}}Imports of goods and services (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.IMP.GNFS.KD:NE.IMP.GNFS.KD{marker NE.IMP.GNFS.KD}}}Imports of goods and services (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.IMP.GNFS.KD:NE.IMP.GNFS.KD{marker NE.IMP.GNFS.KD}}}Imports of goods and services (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.IMP.GNFS.KD.ZG:NE.IMP.GNFS.KD.ZG{marker NE.IMP.GNFS.KD.ZG}}}Imports of goods and services (annual % growth){p_end}
 
@@ -640,11 +615,13 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.TRD.GNFS.ZS:NE.TRD.GNFS.ZS{marker NE.TRD.GNFS.ZS}}}Trade (% of GDP){p_end}
 
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.AGR.EMPL.KD:NV.AGR.EMPL.KD{marker NV.AGR.EMPL.KD}}}Agriculture, forestry, and fishing, value added per worker (constant 2015 US$){p_end}
+
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.AGR.TOTL.CD:NV.AGR.TOTL.CD{marker NV.AGR.TOTL.CD}}}Agriculture, forestry, and fishing, value added (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.AGR.TOTL.CN:NV.AGR.TOTL.CN{marker NV.AGR.TOTL.CN}}}Agriculture, forestry, and fishing, value added (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NV.AGR.TOTL.KD:NV.AGR.TOTL.KD{marker NV.AGR.TOTL.KD}}}Agriculture, forestry, and fishing, value added (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.AGR.TOTL.KD:NV.AGR.TOTL.KD{marker NV.AGR.TOTL.KD}}}Agriculture, forestry, and fishing, value added (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.AGR.TOTL.KD.ZG:NV.AGR.TOTL.KD.ZG{marker NV.AGR.TOTL.KD.ZG}}}Agriculture, forestry, and fishing, value added (annual % growth){p_end}
 
@@ -656,11 +633,13 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.FSM.TOTL.KN:NV.FSM.TOTL.KN{marker NV.FSM.TOTL.KN}}}Financial intermediary services indirectly Measured (FISIM) (constant LCU){p_end}
 
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.EMPL.KD:NV.IND.EMPL.KD{marker NV.IND.EMPL.KD}}}Industry (including construction), value added per worker (constant 2015 US$){p_end}
+
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.MANF.CD:NV.IND.MANF.CD{marker NV.IND.MANF.CD}}}Manufacturing, value added (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.MANF.CN:NV.IND.MANF.CN{marker NV.IND.MANF.CN}}}Manufacturing, value added (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.MANF.KD:NV.IND.MANF.KD{marker NV.IND.MANF.KD}}}Manufacturing, value added (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.MANF.KD:NV.IND.MANF.KD{marker NV.IND.MANF.KD}}}Manufacturing, value added (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.MANF.KD.ZG:NV.IND.MANF.KD.ZG{marker NV.IND.MANF.KD.ZG}}}Manufacturing, value added (annual % growth){p_end}
 
@@ -672,7 +651,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.TOTL.CN:NV.IND.TOTL.CN{marker NV.IND.TOTL.CN}}}Industry (including construction), value added (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.TOTL.KD:NV.IND.TOTL.KD{marker NV.IND.TOTL.KD}}}Industry (including construction), value added (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.TOTL.KD:NV.IND.TOTL.KD{marker NV.IND.TOTL.KD}}}Industry (including construction), value added (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.IND.TOTL.KD.ZG:NV.IND.TOTL.KD.ZG{marker NV.IND.TOTL.KD.ZG}}}Industry (including construction), value added (annual % growth){p_end}
 
@@ -688,7 +667,11 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.MNF.OTHR.ZS.UN:NV.MNF.OTHR.ZS.UN{marker NV.MNF.OTHR.ZS.UN}}}Other manufacturing (% of value added in manufacturing){p_end}
 
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.MNF.TECH.ZS.UN:NV.MNF.TECH.ZS.UN{marker NV.MNF.TECH.ZS.UN}}}Medium and high-tech manufacturing value added (% manufacturing value added){p_end}
+
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.MNF.TXTL.ZS.UN:NV.MNF.TXTL.ZS.UN{marker NV.MNF.TXTL.ZS.UN}}}Textiles and clothing (% of value added in manufacturing){p_end}
+
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.EMPL.KD:NV.SRV.EMPL.KD{marker NV.SRV.EMPL.KD}}}Services, value added per worker (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TETC.CD:NV.SRV.TETC.CD{marker NV.SRV.TETC.CD}}}Services, etc., value added (current US$){p_end}
 
@@ -702,9 +685,15 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TETC.ZS:NV.SRV.TETC.ZS{marker NV.SRV.TETC.ZS}}}Services, etc., value added (% of GDP){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TOTL.KD:NV.SRV.TOTL.KD{marker NV.SRV.TOTL.KD}}}Services, value added (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TOTL.CD:NV.SRV.TOTL.CD{marker NV.SRV.TOTL.CD}}}Services, value added (current US$){p_end}
+
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TOTL.CN:NV.SRV.TOTL.CN{marker NV.SRV.TOTL.CN}}}Services, value added (current LCU){p_end}
+
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TOTL.KD:NV.SRV.TOTL.KD{marker NV.SRV.TOTL.KD}}}Services, value added (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TOTL.KD.ZG:NV.SRV.TOTL.KD.ZG{marker NV.SRV.TOTL.KD.ZG}}}Services, value added (annual % growth){p_end}
+
+{synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TOTL.KN:NV.SRV.TOTL.KN{marker NV.SRV.TOTL.KN}}}Services, value added (constant LCU){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NV.SRV.TOTL.ZS:NV.SRV.TOTL.ZS{marker NV.SRV.TOTL.ZS}}}Services, value added (% of GDP){p_end}
 
@@ -746,13 +735,13 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.ADJ.NNTY.CD:NY.ADJ.NNTY.CD{marker NY.ADJ.NNTY.CD}}}Adjusted net national income (current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.ADJ.NNTY.KD:NY.ADJ.NNTY.KD{marker NY.ADJ.NNTY.KD}}}Adjusted net national income (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.ADJ.NNTY.KD:NY.ADJ.NNTY.KD{marker NY.ADJ.NNTY.KD}}}Adjusted net national income (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.ADJ.NNTY.KD.ZG:NY.ADJ.NNTY.KD.ZG{marker NY.ADJ.NNTY.KD.ZG}}}Adjusted net national income (annual % growth){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.ADJ.NNTY.PC.CD:NY.ADJ.NNTY.PC.CD{marker NY.ADJ.NNTY.PC.CD}}}Adjusted net national income per capita (current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.ADJ.NNTY.PC.KD:NY.ADJ.NNTY.PC.KD{marker NY.ADJ.NNTY.PC.KD}}}Adjusted net national income per capita (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.ADJ.NNTY.PC.KD:NY.ADJ.NNTY.PC.KD{marker NY.ADJ.NNTY.PC.KD}}}Adjusted net national income per capita (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.ADJ.NNTY.PC.KD.ZG:NY.ADJ.NNTY.PC.KD.ZG{marker NY.ADJ.NNTY.PC.KD.ZG}}}Adjusted net national income per capita (annual % growth){p_end}
 
@@ -778,7 +767,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.FCST.CN:NY.GDP.FCST.CN{marker NY.GDP.FCST.CN}}}Gross value added at basic prices (GVA) (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.FCST.KD:NY.GDP.FCST.KD{marker NY.GDP.FCST.KD}}}Gross value added at basic prices (GVA) (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.FCST.KD:NY.GDP.FCST.KD{marker NY.GDP.FCST.KD}}}Gross value added at basic prices (GVA) (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.FCST.KN:NY.GDP.FCST.KN{marker NY.GDP.FCST.KN}}}Gross value added at basic prices (GVA) (constant LCU){p_end}
 
@@ -788,7 +777,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.MKTP.CN.AD:NY.GDP.MKTP.CN.AD{marker NY.GDP.MKTP.CN.AD}}}GDP: linked series (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.MKTP.KD:NY.GDP.MKTP.KD{marker NY.GDP.MKTP.KD}}}GDP (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.MKTP.KD:NY.GDP.MKTP.KD{marker NY.GDP.MKTP.KD}}}GDP (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.MKTP.KD.ZG:NY.GDP.MKTP.KD.ZG{marker NY.GDP.MKTP.KD.ZG}}}GDP growth (annual %){p_end}
 
@@ -802,7 +791,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.PCAP.CN:NY.GDP.PCAP.CN{marker NY.GDP.PCAP.CN}}}GDP per capita (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.PCAP.KD:NY.GDP.PCAP.KD{marker NY.GDP.PCAP.KD}}}GDP per capita (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.PCAP.KD:NY.GDP.PCAP.KD{marker NY.GDP.PCAP.KD}}}GDP per capita (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.PCAP.KD.ZG:NY.GDP.PCAP.KD.ZG{marker NY.GDP.PCAP.KD.ZG}}}GDP per capita growth (annual %){p_end}
 
@@ -826,7 +815,9 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.MKTP.CN:NY.GNP.MKTP.CN{marker NY.GNP.MKTP.CN}}}GNI (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.MKTP.KD:NY.GNP.MKTP.KD{marker NY.GNP.MKTP.KD}}}GNI (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.MKTP.CN.AD:NY.GNP.MKTP.CN.AD{marker NY.GNP.MKTP.CN.AD}}}GNI: linked series (current LCU){p_end}
+
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.MKTP.KD:NY.GNP.MKTP.KD{marker NY.GNP.MKTP.KD}}}GNI (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.MKTP.KD.ZG:NY.GNP.MKTP.KD.ZG{marker NY.GNP.MKTP.KD.ZG}}}GNI growth (annual %){p_end}
 
@@ -840,7 +831,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.PCAP.CN:NY.GNP.PCAP.CN{marker NY.GNP.PCAP.CN}}}GNI per capita (current LCU){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.PCAP.KD:NY.GNP.PCAP.KD{marker NY.GNP.PCAP.KD}}}GNI per capita (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.PCAP.KD:NY.GNP.PCAP.KD{marker NY.GNP.PCAP.KD}}}GNI per capita (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.PCAP.KD.ZG:NY.GNP.PCAP.KD.ZG{marker NY.GNP.PCAP.KD.ZG}}}GNI per capita growth (annual %){p_end}
 
@@ -1479,486 +1470,6 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_BAR.TER.SCHL.6064.FE:BAR.TER.SCHL.6064.FE{marker BAR.TER.SCHL.6064.FE}}}Barro-Lee: Average years of tertiary schooling, age 60-64, female{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.GAR.456:HH.DHS.GAR.456{marker HH.DHS.GAR.456}}}DHS: Gross attendance rate. Post Secondary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.GAR.456.F:HH.DHS.GAR.456.F{marker HH.DHS.GAR.456.F}}}DHS: Gross attendance rate. Post Secondary. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.GAR.456.M:HH.DHS.GAR.456.M{marker HH.DHS.GAR.456.M}}}DHS: Gross attendance rate. Post Secondary. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.GAR.456.Q1:HH.DHS.GAR.456.Q1{marker HH.DHS.GAR.456.Q1}}}DHS: Gross attendance rate. Post Secondary. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.GAR.456.Q2:HH.DHS.GAR.456.Q2{marker HH.DHS.GAR.456.Q2}}}DHS: Gross attendance rate. Post Secondary. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.GAR.456.Q3:HH.DHS.GAR.456.Q3{marker HH.DHS.GAR.456.Q3}}}DHS: Gross attendance rate. Post Secondary. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.GAR.456.Q4:HH.DHS.GAR.456.Q4{marker HH.DHS.GAR.456.Q4}}}DHS: Gross attendance rate. Post Secondary. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.GAR.456.Q5:HH.DHS.GAR.456.Q5{marker HH.DHS.GAR.456.Q5}}}DHS: Gross attendance rate. Post Secondary. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.GAR.456.R:HH.DHS.GAR.456.R{marker HH.DHS.GAR.456.R}}}DHS: Gross attendance rate. Post Secondary. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.GAR.456.U:HH.DHS.GAR.456.U{marker HH.DHS.GAR.456.U}}}DHS: Gross attendance rate. Post Secondary. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.1:HH.DHS.NAR.1{marker HH.DHS.NAR.1}}}DHS: Net attendance rate. Primary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.1.F:HH.DHS.NAR.1.F{marker HH.DHS.NAR.1.F}}}DHS: Net attendance rate. Primary. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.1.M:HH.DHS.NAR.1.M{marker HH.DHS.NAR.1.M}}}DHS: Net attendance rate. Primary. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.1.Q1:HH.DHS.NAR.1.Q1{marker HH.DHS.NAR.1.Q1}}}DHS: Net attendance rate. Primary. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.1.Q2:HH.DHS.NAR.1.Q2{marker HH.DHS.NAR.1.Q2}}}DHS: Net attendance rate. Primary. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.1.Q3:HH.DHS.NAR.1.Q3{marker HH.DHS.NAR.1.Q3}}}DHS: Net attendance rate. Primary. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.1.Q4:HH.DHS.NAR.1.Q4{marker HH.DHS.NAR.1.Q4}}}DHS: Net attendance rate. Primary. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.1.Q5:HH.DHS.NAR.1.Q5{marker HH.DHS.NAR.1.Q5}}}DHS: Net attendance rate. Primary. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.1.R:HH.DHS.NAR.1.R{marker HH.DHS.NAR.1.R}}}DHS: Net attendance rate. Primary. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.1.U:HH.DHS.NAR.1.U{marker HH.DHS.NAR.1.U}}}DHS: Net attendance rate. Primary. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.23:HH.DHS.NAR.23{marker HH.DHS.NAR.23}}}DHS: Net attendance rate. Secondary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.23.F:HH.DHS.NAR.23.F{marker HH.DHS.NAR.23.F}}}DHS: Net attendance rate. Secondary. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.23.M:HH.DHS.NAR.23.M{marker HH.DHS.NAR.23.M}}}DHS: Net attendance rate. Secondary. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.23.Q1:HH.DHS.NAR.23.Q1{marker HH.DHS.NAR.23.Q1}}}DHS: Net attendance rate. Secondary. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.23.Q2:HH.DHS.NAR.23.Q2{marker HH.DHS.NAR.23.Q2}}}DHS: Net attendance rate. Secondary. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.23.Q3:HH.DHS.NAR.23.Q3{marker HH.DHS.NAR.23.Q3}}}DHS: Net attendance rate. Secondary. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.23.Q4:HH.DHS.NAR.23.Q4{marker HH.DHS.NAR.23.Q4}}}DHS: Net attendance rate. Secondary. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.23.Q5:HH.DHS.NAR.23.Q5{marker HH.DHS.NAR.23.Q5}}}DHS: Net attendance rate. Secondary. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.23.R:HH.DHS.NAR.23.R{marker HH.DHS.NAR.23.R}}}DHS: Net attendance rate. Secondary. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NAR.23.U:HH.DHS.NAR.23.U{marker HH.DHS.NAR.23.U}}}DHS: Net attendance rate. Secondary. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NIR.1:HH.DHS.NIR.1{marker HH.DHS.NIR.1}}}DHS: Net intake rate for the first grade of primary education{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NIR.1.F:HH.DHS.NIR.1.F{marker HH.DHS.NIR.1.F}}}DHS: Net intake rate for the first grade of primary education. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NIR.1.M:HH.DHS.NIR.1.M{marker HH.DHS.NIR.1.M}}}DHS: Net intake rate for the first grade of primary education. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NIR.1.Q1:HH.DHS.NIR.1.Q1{marker HH.DHS.NIR.1.Q1}}}DHS: Net intake rate for the first grade of primary education. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NIR.1.Q2:HH.DHS.NIR.1.Q2{marker HH.DHS.NIR.1.Q2}}}DHS: Net intake rate for the first grade of primary education. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NIR.1.Q3:HH.DHS.NIR.1.Q3{marker HH.DHS.NIR.1.Q3}}}DHS: Net intake rate for the first grade of primary education. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NIR.1.Q4:HH.DHS.NIR.1.Q4{marker HH.DHS.NIR.1.Q4}}}DHS: Net intake rate for the first grade of primary education. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NIR.1.Q5:HH.DHS.NIR.1.Q5{marker HH.DHS.NIR.1.Q5}}}DHS: Net intake rate for the first grade of primary education. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NIR.1.R:HH.DHS.NIR.1.R{marker HH.DHS.NIR.1.R}}}DHS: Net intake rate for the first grade of primary education. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.NIR.1.U:HH.DHS.NIR.1.U{marker HH.DHS.NIR.1.U}}}DHS: Net intake rate for the first grade of primary education. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOS.1:HH.DHS.OOS.1{marker HH.DHS.OOS.1}}}DHS: Proportion of out-of-school. Primary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOS.1.F:HH.DHS.OOS.1.F{marker HH.DHS.OOS.1.F}}}DHS: Proportion of out-of-school. Primary. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOS.1.M:HH.DHS.OOS.1.M{marker HH.DHS.OOS.1.M}}}DHS: Proportion of out-of-school. Primary. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOS.1.Q1:HH.DHS.OOS.1.Q1{marker HH.DHS.OOS.1.Q1}}}DHS: Proportion of out-of-school. Primary. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOS.1.Q2:HH.DHS.OOS.1.Q2{marker HH.DHS.OOS.1.Q2}}}DHS: Proportion of out-of-school. Primary. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOS.1.Q3:HH.DHS.OOS.1.Q3{marker HH.DHS.OOS.1.Q3}}}DHS: Proportion of out-of-school. Primary. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOS.1.Q4:HH.DHS.OOS.1.Q4{marker HH.DHS.OOS.1.Q4}}}DHS: Proportion of out-of-school. Primary. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOS.1.Q5:HH.DHS.OOS.1.Q5{marker HH.DHS.OOS.1.Q5}}}DHS: Proportion of out-of-school. Primary. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOS.1.R:HH.DHS.OOS.1.R{marker HH.DHS.OOS.1.R}}}DHS: Proportion of out-of-school. Primary. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOS.1.U:HH.DHS.OOS.1.U{marker HH.DHS.OOS.1.U}}}DHS: Proportion of out-of-school. Primary. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.DO:HH.DHS.OOST.DO{marker HH.DHS.OOST.DO}}}DHS: Typology of out-of-school children. Primary. Dropped out{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.DO.F:HH.DHS.OOST.DO.F{marker HH.DHS.OOST.DO.F}}}DHS: Typology of out-of-school children. Primary. Dropped out. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.DO.M:HH.DHS.OOST.DO.M{marker HH.DHS.OOST.DO.M}}}DHS: Typology of out-of-school children. Primary. Dropped out. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.DO.Q1:HH.DHS.OOST.DO.Q1{marker HH.DHS.OOST.DO.Q1}}}DHS: Typology of out-of-school children. Primary. Dropped out. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.DO.Q2:HH.DHS.OOST.DO.Q2{marker HH.DHS.OOST.DO.Q2}}}DHS: Typology of out-of-school children. Primary. Dropped out. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.DO.Q3:HH.DHS.OOST.DO.Q3{marker HH.DHS.OOST.DO.Q3}}}DHS: Typology of out-of-school children. Primary. Dropped out. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.DO.Q4:HH.DHS.OOST.DO.Q4{marker HH.DHS.OOST.DO.Q4}}}DHS: Typology of out-of-school children. Primary. Dropped out. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.DO.Q5:HH.DHS.OOST.DO.Q5{marker HH.DHS.OOST.DO.Q5}}}DHS: Typology of out-of-school children. Primary. Dropped out. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.DO.R:HH.DHS.OOST.DO.R{marker HH.DHS.OOST.DO.R}}}DHS: Typology of out-of-school children. Primary. Dropped out. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.DO.U:HH.DHS.OOST.DO.U{marker HH.DHS.OOST.DO.U}}}DHS: Typology of out-of-school children. Primary. Dropped out. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.L:HH.DHS.OOST.L{marker HH.DHS.OOST.L}}}DHS: Typology of out-of-school children. Primary. Late entry{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.L.F:HH.DHS.OOST.L.F{marker HH.DHS.OOST.L.F}}}DHS: Typology of out-of-school children. Primary. Late entry. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.L.M:HH.DHS.OOST.L.M{marker HH.DHS.OOST.L.M}}}DHS: Typology of out-of-school children. Primary. Late entry. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.L.Q1:HH.DHS.OOST.L.Q1{marker HH.DHS.OOST.L.Q1}}}DHS: Typology of out-of-school children. Primary. Late entry. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.L.Q2:HH.DHS.OOST.L.Q2{marker HH.DHS.OOST.L.Q2}}}DHS: Typology of out-of-school children. Primary. Late entry. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.L.Q3:HH.DHS.OOST.L.Q3{marker HH.DHS.OOST.L.Q3}}}DHS: Typology of out-of-school children. Primary. Late entry. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.L.Q4:HH.DHS.OOST.L.Q4{marker HH.DHS.OOST.L.Q4}}}DHS: Typology of out-of-school children. Primary. Late entry. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.L.Q5:HH.DHS.OOST.L.Q5{marker HH.DHS.OOST.L.Q5}}}DHS: Typology of out-of-school children. Primary. Late entry. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.L.R:HH.DHS.OOST.L.R{marker HH.DHS.OOST.L.R}}}DHS: Typology of out-of-school children. Primary. Late entry. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.L.U:HH.DHS.OOST.L.U{marker HH.DHS.OOST.L.U}}}DHS: Typology of out-of-school children. Primary. Late entry. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.X:HH.DHS.OOST.X{marker HH.DHS.OOST.X}}}DHS: Typology of out-of-school children. Primary. Never in school{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.X.F:HH.DHS.OOST.X.F{marker HH.DHS.OOST.X.F}}}DHS: Typology of out-of-school children. Primary. Never in school. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.X.M:HH.DHS.OOST.X.M{marker HH.DHS.OOST.X.M}}}DHS: Typology of out-of-school children. Primary. Never in school. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.X.Q1:HH.DHS.OOST.X.Q1{marker HH.DHS.OOST.X.Q1}}}DHS: Typology of out-of-school children. Primary. Never in school. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.X.Q2:HH.DHS.OOST.X.Q2{marker HH.DHS.OOST.X.Q2}}}DHS: Typology of out-of-school children. Primary. Never in school. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.X.Q3:HH.DHS.OOST.X.Q3{marker HH.DHS.OOST.X.Q3}}}DHS: Typology of out-of-school children. Primary. Never in school. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.X.Q4:HH.DHS.OOST.X.Q4{marker HH.DHS.OOST.X.Q4}}}DHS: Typology of out-of-school children. Primary. Never in school. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.X.Q5:HH.DHS.OOST.X.Q5{marker HH.DHS.OOST.X.Q5}}}DHS: Typology of out-of-school children. Primary. Never in school. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.X.R:HH.DHS.OOST.X.R{marker HH.DHS.OOST.X.R}}}DHS: Typology of out-of-school children. Primary. Never in school. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.OOST.X.U:HH.DHS.OOST.X.U{marker HH.DHS.OOST.X.U}}}DHS: Typology of out-of-school children. Primary. Never in school. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.PCR:HH.DHS.PCR{marker HH.DHS.PCR}}}DHS: Primary completion rate{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.PCR.F:HH.DHS.PCR.F{marker HH.DHS.PCR.F}}}DHS: Primary completion rate. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.PCR.M:HH.DHS.PCR.M{marker HH.DHS.PCR.M}}}DHS: Primary completion rate. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.PCR.Q1:HH.DHS.PCR.Q1{marker HH.DHS.PCR.Q1}}}DHS: Primary completion rate. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.PCR.Q2:HH.DHS.PCR.Q2{marker HH.DHS.PCR.Q2}}}DHS: Primary completion rate. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.PCR.Q3:HH.DHS.PCR.Q3{marker HH.DHS.PCR.Q3}}}DHS: Primary completion rate. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.PCR.Q4:HH.DHS.PCR.Q4{marker HH.DHS.PCR.Q4}}}DHS: Primary completion rate. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.PCR.Q5:HH.DHS.PCR.Q5{marker HH.DHS.PCR.Q5}}}DHS: Primary completion rate. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.PCR.R:HH.DHS.PCR.R{marker HH.DHS.PCR.R}}}DHS: Primary completion rate. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.PCR.U:HH.DHS.PCR.U{marker HH.DHS.PCR.U}}}DHS: Primary completion rate. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.SCR:HH.DHS.SCR{marker HH.DHS.SCR}}}DHS: Secondary completion rate{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.SCR.F:HH.DHS.SCR.F{marker HH.DHS.SCR.F}}}DHS: Secondary completion rate. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.SCR.M:HH.DHS.SCR.M{marker HH.DHS.SCR.M}}}DHS: Secondary completion rate. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.SCR.Q1:HH.DHS.SCR.Q1{marker HH.DHS.SCR.Q1}}}DHS: Secondary completion rate. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.SCR.Q2:HH.DHS.SCR.Q2{marker HH.DHS.SCR.Q2}}}DHS: Secondary completion rate. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.SCR.Q3:HH.DHS.SCR.Q3{marker HH.DHS.SCR.Q3}}}DHS: Secondary completion rate. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.SCR.Q4:HH.DHS.SCR.Q4{marker HH.DHS.SCR.Q4}}}DHS: Secondary completion rate. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.SCR.Q5:HH.DHS.SCR.Q5{marker HH.DHS.SCR.Q5}}}DHS: Secondary completion rate. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.SCR.R:HH.DHS.SCR.R{marker HH.DHS.SCR.R}}}DHS: Secondary completion rate. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.SCR.U:HH.DHS.SCR.U{marker HH.DHS.SCR.U}}}DHS: Secondary completion rate. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.TR.12:HH.DHS.TR.12{marker HH.DHS.TR.12}}}DHS: Transition rate. Primary to Secondary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.TR.12.F:HH.DHS.TR.12.F{marker HH.DHS.TR.12.F}}}DHS: Transition rate. Primary to Secondary. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.TR.12.M:HH.DHS.TR.12.M{marker HH.DHS.TR.12.M}}}DHS: Transition rate. Primary to Secondary. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.TR.12.Q1:HH.DHS.TR.12.Q1{marker HH.DHS.TR.12.Q1}}}DHS: Transition rate. Primary to Secondary. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.TR.12.Q2:HH.DHS.TR.12.Q2{marker HH.DHS.TR.12.Q2}}}DHS: Transition rate. Primary to Secondary. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.TR.12.Q3:HH.DHS.TR.12.Q3{marker HH.DHS.TR.12.Q3}}}DHS: Transition rate. Primary to Secondary. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.TR.12.Q4:HH.DHS.TR.12.Q4{marker HH.DHS.TR.12.Q4}}}DHS: Transition rate. Primary to Secondary. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.TR.12.Q5:HH.DHS.TR.12.Q5{marker HH.DHS.TR.12.Q5}}}DHS: Transition rate. Primary to Secondary. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.TR.12.R:HH.DHS.TR.12.R{marker HH.DHS.TR.12.R}}}DHS: Transition rate. Primary to Secondary. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.TR.12.U:HH.DHS.TR.12.U{marker HH.DHS.TR.12.U}}}DHS: Transition rate. Primary to Secondary. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.YRS.1519:HH.DHS.YRS.1519{marker HH.DHS.YRS.1519}}}DHS: Average years of schooling by age group. Age 15-19{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.YRS.1519.F:HH.DHS.YRS.1519.F{marker HH.DHS.YRS.1519.F}}}DHS: Average years of schooling by age group. Age 15-19. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.YRS.1519.M:HH.DHS.YRS.1519.M{marker HH.DHS.YRS.1519.M}}}DHS: Average years of schooling by age group. Age 15-19. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.YRS.1519.Q1:HH.DHS.YRS.1519.Q1{marker HH.DHS.YRS.1519.Q1}}}DHS: Average years of schooling by age group. Age 15-19. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.YRS.1519.Q2:HH.DHS.YRS.1519.Q2{marker HH.DHS.YRS.1519.Q2}}}DHS: Average years of schooling by age group. Age 15-19. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.YRS.1519.Q3:HH.DHS.YRS.1519.Q3{marker HH.DHS.YRS.1519.Q3}}}DHS: Average years of schooling by age group. Age 15-19. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.YRS.1519.Q4:HH.DHS.YRS.1519.Q4{marker HH.DHS.YRS.1519.Q4}}}DHS: Average years of schooling by age group. Age 15-19. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.YRS.1519.Q5:HH.DHS.YRS.1519.Q5{marker HH.DHS.YRS.1519.Q5}}}DHS: Average years of schooling by age group. Age 15-19. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.YRS.1519.R:HH.DHS.YRS.1519.R{marker HH.DHS.YRS.1519.R}}}DHS: Average years of schooling by age group. Age 15-19. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.YRS.1519.U:HH.DHS.YRS.1519.U{marker HH.DHS.YRS.1519.U}}}DHS: Average years of schooling by age group. Age 15-19. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.YRS.15UP.GIN:HH.DHS.YRS.15UP.GIN{marker HH.DHS.YRS.15UP.GIN}}}DHS: Gini coefficient of average years of schooling. Age 15+{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.YRS.15UP.GIN.F:HH.DHS.YRS.15UP.GIN.F{marker HH.DHS.YRS.15UP.GIN.F}}}DHS: Gini coefficient of average years of schooling. Age 15+. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.YRS.15UP.GIN.M:HH.DHS.YRS.15UP.GIN.M{marker HH.DHS.YRS.15UP.GIN.M}}}DHS: Gini coefficient of average years of schooling. Age 15+. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.YRS.15UP.GIN.R:HH.DHS.YRS.15UP.GIN.R{marker HH.DHS.YRS.15UP.GIN.R}}}DHS: Gini coefficient of average years of schooling. Age 15+. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.DHS.YRS.15UP.GIN.U:HH.DHS.YRS.15UP.GIN.U{marker HH.DHS.YRS.15UP.GIN.U}}}DHS: Gini coefficient of average years of schooling. Age 15+. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.GAR.456:HH.MICS.GAR.456{marker HH.MICS.GAR.456}}}MICS: Gross attendance rate. Post Secondary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.GAR.456.F:HH.MICS.GAR.456.F{marker HH.MICS.GAR.456.F}}}MICS: Gross attendance rate. Post Secondary. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.GAR.456.M:HH.MICS.GAR.456.M{marker HH.MICS.GAR.456.M}}}MICS: Gross attendance rate. Post Secondary. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.GAR.456.Q1:HH.MICS.GAR.456.Q1{marker HH.MICS.GAR.456.Q1}}}MICS: Gross attendance rate. Post Secondary. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.GAR.456.Q2:HH.MICS.GAR.456.Q2{marker HH.MICS.GAR.456.Q2}}}MICS: Gross attendance rate. Post Secondary. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.GAR.456.Q3:HH.MICS.GAR.456.Q3{marker HH.MICS.GAR.456.Q3}}}MICS: Gross attendance rate. Post Secondary. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.GAR.456.Q4:HH.MICS.GAR.456.Q4{marker HH.MICS.GAR.456.Q4}}}MICS: Gross attendance rate. Post Secondary. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.GAR.456.Q5:HH.MICS.GAR.456.Q5{marker HH.MICS.GAR.456.Q5}}}MICS: Gross attendance rate. Post Secondary. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.GAR.456.R:HH.MICS.GAR.456.R{marker HH.MICS.GAR.456.R}}}MICS: Gross attendance rate. Post Secondary. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.GAR.456.U:HH.MICS.GAR.456.U{marker HH.MICS.GAR.456.U}}}MICS: Gross attendance rate. Post Secondary. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.1:HH.MICS.NAR.1{marker HH.MICS.NAR.1}}}MICS: Net attendance rate. Primary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.1.F:HH.MICS.NAR.1.F{marker HH.MICS.NAR.1.F}}}MICS: Net attendance rate. Primary. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.1.M:HH.MICS.NAR.1.M{marker HH.MICS.NAR.1.M}}}MICS: Net attendance rate. Primary. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.1.Q1:HH.MICS.NAR.1.Q1{marker HH.MICS.NAR.1.Q1}}}MICS: Net attendance rate. Primary. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.1.Q2:HH.MICS.NAR.1.Q2{marker HH.MICS.NAR.1.Q2}}}MICS: Net attendance rate. Primary. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.1.Q3:HH.MICS.NAR.1.Q3{marker HH.MICS.NAR.1.Q3}}}MICS: Net attendance rate. Primary. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.1.Q4:HH.MICS.NAR.1.Q4{marker HH.MICS.NAR.1.Q4}}}MICS: Net attendance rate. Primary. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.1.Q5:HH.MICS.NAR.1.Q5{marker HH.MICS.NAR.1.Q5}}}MICS: Net attendance rate. Primary. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.1.R:HH.MICS.NAR.1.R{marker HH.MICS.NAR.1.R}}}MICS: Net attendance rate. Primary. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.1.U:HH.MICS.NAR.1.U{marker HH.MICS.NAR.1.U}}}MICS: Net attendance rate. Primary. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.23:HH.MICS.NAR.23{marker HH.MICS.NAR.23}}}MICS: Net attendance rate. Secondary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.23.F:HH.MICS.NAR.23.F{marker HH.MICS.NAR.23.F}}}MICS: Net attendance rate. Secondary. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.23.M:HH.MICS.NAR.23.M{marker HH.MICS.NAR.23.M}}}MICS: Net attendance rate. Secondary. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.23.Q1:HH.MICS.NAR.23.Q1{marker HH.MICS.NAR.23.Q1}}}MICS: Net attendance rate. Secondary. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.23.Q2:HH.MICS.NAR.23.Q2{marker HH.MICS.NAR.23.Q2}}}MICS: Net attendance rate. Secondary. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.23.Q3:HH.MICS.NAR.23.Q3{marker HH.MICS.NAR.23.Q3}}}MICS: Net attendance rate. Secondary. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.23.Q4:HH.MICS.NAR.23.Q4{marker HH.MICS.NAR.23.Q4}}}MICS: Net attendance rate. Secondary. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.23.Q5:HH.MICS.NAR.23.Q5{marker HH.MICS.NAR.23.Q5}}}MICS: Net attendance rate. Secondary. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.23.R:HH.MICS.NAR.23.R{marker HH.MICS.NAR.23.R}}}MICS: Net attendance rate. Secondary. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.NAR.23.U:HH.MICS.NAR.23.U{marker HH.MICS.NAR.23.U}}}MICS: Net attendance rate. Secondary. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOS.1:HH.MICS.OOS.1{marker HH.MICS.OOS.1}}}MICS: Proportion of out-of-school. Primary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOS.1.F:HH.MICS.OOS.1.F{marker HH.MICS.OOS.1.F}}}MICS: Proportion of out-of-school. Primary. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOS.1.M:HH.MICS.OOS.1.M{marker HH.MICS.OOS.1.M}}}MICS: Proportion of out-of-school. Primary. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOS.1.Q1:HH.MICS.OOS.1.Q1{marker HH.MICS.OOS.1.Q1}}}MICS: Proportion of out-of-school. Primary. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOS.1.Q2:HH.MICS.OOS.1.Q2{marker HH.MICS.OOS.1.Q2}}}MICS: Proportion of out-of-school. Primary. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOS.1.Q3:HH.MICS.OOS.1.Q3{marker HH.MICS.OOS.1.Q3}}}MICS: Proportion of out-of-school. Primary. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOS.1.Q4:HH.MICS.OOS.1.Q4{marker HH.MICS.OOS.1.Q4}}}MICS: Proportion of out-of-school. Primary. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOS.1.Q5:HH.MICS.OOS.1.Q5{marker HH.MICS.OOS.1.Q5}}}MICS: Proportion of out-of-school. Primary. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOS.1.R:HH.MICS.OOS.1.R{marker HH.MICS.OOS.1.R}}}MICS: Proportion of out-of-school. Primary. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOS.1.U:HH.MICS.OOS.1.U{marker HH.MICS.OOS.1.U}}}MICS: Proportion of out-of-school. Primary. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.DO:HH.MICS.OOST.DO{marker HH.MICS.OOST.DO}}}MICS: Typology of out-of-school children. Primary. Dropped out{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.DO.F:HH.MICS.OOST.DO.F{marker HH.MICS.OOST.DO.F}}}MICS: Typology of out-of-school children. Primary. Dropped out. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.DO.M:HH.MICS.OOST.DO.M{marker HH.MICS.OOST.DO.M}}}MICS: Typology of out-of-school children. Primary. Dropped out. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.DO.Q1:HH.MICS.OOST.DO.Q1{marker HH.MICS.OOST.DO.Q1}}}MICS: Typology of out-of-school children. Primary. Dropped out. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.DO.Q2:HH.MICS.OOST.DO.Q2{marker HH.MICS.OOST.DO.Q2}}}MICS: Typology of out-of-school children. Primary. Dropped out. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.DO.Q3:HH.MICS.OOST.DO.Q3{marker HH.MICS.OOST.DO.Q3}}}MICS: Typology of out-of-school children. Primary. Dropped out. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.DO.Q4:HH.MICS.OOST.DO.Q4{marker HH.MICS.OOST.DO.Q4}}}MICS: Typology of out-of-school children. Primary. Dropped out. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.DO.Q5:HH.MICS.OOST.DO.Q5{marker HH.MICS.OOST.DO.Q5}}}MICS: Typology of out-of-school children. Primary. Dropped out. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.DO.R:HH.MICS.OOST.DO.R{marker HH.MICS.OOST.DO.R}}}MICS: Typology of out-of-school children. Primary. Dropped out. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.DO.U:HH.MICS.OOST.DO.U{marker HH.MICS.OOST.DO.U}}}MICS: Typology of out-of-school children. Primary. Dropped out. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.L:HH.MICS.OOST.L{marker HH.MICS.OOST.L}}}MICS: Typology of out-of-school children. Primary. Late entry{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.L.F:HH.MICS.OOST.L.F{marker HH.MICS.OOST.L.F}}}MICS: Typology of out-of-school children. Primary. Late entry. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.L.M:HH.MICS.OOST.L.M{marker HH.MICS.OOST.L.M}}}MICS: Typology of out-of-school children. Primary. Late entry. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.L.Q1:HH.MICS.OOST.L.Q1{marker HH.MICS.OOST.L.Q1}}}MICS: Typology of out-of-school children. Primary. Late entry. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.L.Q2:HH.MICS.OOST.L.Q2{marker HH.MICS.OOST.L.Q2}}}MICS: Typology of out-of-school children. Primary. Late entry. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.L.Q3:HH.MICS.OOST.L.Q3{marker HH.MICS.OOST.L.Q3}}}MICS: Typology of out-of-school children. Primary. Late entry. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.L.Q4:HH.MICS.OOST.L.Q4{marker HH.MICS.OOST.L.Q4}}}MICS: Typology of out-of-school children. Primary. Late entry. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.L.Q5:HH.MICS.OOST.L.Q5{marker HH.MICS.OOST.L.Q5}}}MICS: Typology of out-of-school children. Primary. Late entry. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.L.R:HH.MICS.OOST.L.R{marker HH.MICS.OOST.L.R}}}MICS: Typology of out-of-school children. Primary. Late entry. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.L.U:HH.MICS.OOST.L.U{marker HH.MICS.OOST.L.U}}}MICS: Typology of out-of-school children. Primary. Late entry. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.X:HH.MICS.OOST.X{marker HH.MICS.OOST.X}}}MICS: Typology of out-of-school children. Primary. Never in school{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.X.F:HH.MICS.OOST.X.F{marker HH.MICS.OOST.X.F}}}MICS: Typology of out-of-school children. Primary. Never in school. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.X.M:HH.MICS.OOST.X.M{marker HH.MICS.OOST.X.M}}}MICS: Typology of out-of-school children. Primary. Never in school. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.X.Q1:HH.MICS.OOST.X.Q1{marker HH.MICS.OOST.X.Q1}}}MICS: Typology of out-of-school children. Primary. Never in school. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.X.Q2:HH.MICS.OOST.X.Q2{marker HH.MICS.OOST.X.Q2}}}MICS: Typology of out-of-school children. Primary. Never in school. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.X.Q3:HH.MICS.OOST.X.Q3{marker HH.MICS.OOST.X.Q3}}}MICS: Typology of out-of-school children. Primary. Never in school. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.X.Q4:HH.MICS.OOST.X.Q4{marker HH.MICS.OOST.X.Q4}}}MICS: Typology of out-of-school children. Primary. Never in school. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.X.Q5:HH.MICS.OOST.X.Q5{marker HH.MICS.OOST.X.Q5}}}MICS: Typology of out-of-school children. Primary. Never in school. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.X.R:HH.MICS.OOST.X.R{marker HH.MICS.OOST.X.R}}}MICS: Typology of out-of-school children. Primary. Never in school. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.OOST.X.U:HH.MICS.OOST.X.U{marker HH.MICS.OOST.X.U}}}MICS: Typology of out-of-school children. Primary. Never in school. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.PCR:HH.MICS.PCR{marker HH.MICS.PCR}}}MICS: Primary completion rate{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.PCR.F:HH.MICS.PCR.F{marker HH.MICS.PCR.F}}}MICS: Primary completion rate. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.PCR.M:HH.MICS.PCR.M{marker HH.MICS.PCR.M}}}MICS: Primary completion rate. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.PCR.Q1:HH.MICS.PCR.Q1{marker HH.MICS.PCR.Q1}}}MICS: Primary completion rate. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.PCR.Q2:HH.MICS.PCR.Q2{marker HH.MICS.PCR.Q2}}}MICS: Primary completion rate. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.PCR.Q3:HH.MICS.PCR.Q3{marker HH.MICS.PCR.Q3}}}MICS: Primary completion rate. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.PCR.Q4:HH.MICS.PCR.Q4{marker HH.MICS.PCR.Q4}}}MICS: Primary completion rate. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.PCR.Q5:HH.MICS.PCR.Q5{marker HH.MICS.PCR.Q5}}}MICS: Primary completion rate. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.PCR.R:HH.MICS.PCR.R{marker HH.MICS.PCR.R}}}MICS: Primary completion rate. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.PCR.U:HH.MICS.PCR.U{marker HH.MICS.PCR.U}}}MICS: Primary completion rate. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.SCR:HH.MICS.SCR{marker HH.MICS.SCR}}}MICS: Secondary completion rate{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.SCR.F:HH.MICS.SCR.F{marker HH.MICS.SCR.F}}}MICS: Secondary completion rate. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.SCR.M:HH.MICS.SCR.M{marker HH.MICS.SCR.M}}}MICS: Secondary completion rate. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.SCR.Q1:HH.MICS.SCR.Q1{marker HH.MICS.SCR.Q1}}}MICS: Secondary completion rate. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.SCR.Q2:HH.MICS.SCR.Q2{marker HH.MICS.SCR.Q2}}}MICS: Secondary completion rate. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.SCR.Q3:HH.MICS.SCR.Q3{marker HH.MICS.SCR.Q3}}}MICS: Secondary completion rate. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.SCR.Q4:HH.MICS.SCR.Q4{marker HH.MICS.SCR.Q4}}}MICS: Secondary completion rate. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.SCR.Q5:HH.MICS.SCR.Q5{marker HH.MICS.SCR.Q5}}}MICS: Secondary completion rate. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.SCR.R:HH.MICS.SCR.R{marker HH.MICS.SCR.R}}}MICS: Secondary completion rate. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.SCR.U:HH.MICS.SCR.U{marker HH.MICS.SCR.U}}}MICS: Secondary completion rate. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.TR.12:HH.MICS.TR.12{marker HH.MICS.TR.12}}}MICS: Transition rate. Primary to Secondary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.TR.12.F:HH.MICS.TR.12.F{marker HH.MICS.TR.12.F}}}MICS: Transition rate. Primary to Secondary. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.TR.12.M:HH.MICS.TR.12.M{marker HH.MICS.TR.12.M}}}MICS: Transition rate. Primary to Secondary. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.TR.12.Q1:HH.MICS.TR.12.Q1{marker HH.MICS.TR.12.Q1}}}MICS: Transition rate. Primary to Secondary. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.TR.12.Q2:HH.MICS.TR.12.Q2{marker HH.MICS.TR.12.Q2}}}MICS: Transition rate. Primary to Secondary. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.TR.12.Q3:HH.MICS.TR.12.Q3{marker HH.MICS.TR.12.Q3}}}MICS: Transition rate. Primary to Secondary. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.TR.12.Q4:HH.MICS.TR.12.Q4{marker HH.MICS.TR.12.Q4}}}MICS: Transition rate. Primary to Secondary. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.TR.12.Q5:HH.MICS.TR.12.Q5{marker HH.MICS.TR.12.Q5}}}MICS: Transition rate. Primary to Secondary. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.TR.12.R:HH.MICS.TR.12.R{marker HH.MICS.TR.12.R}}}MICS: Transition rate. Primary to Secondary. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.TR.12.U:HH.MICS.TR.12.U{marker HH.MICS.TR.12.U}}}MICS: Transition rate. Primary to Secondary. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.YRS.1519:HH.MICS.YRS.1519{marker HH.MICS.YRS.1519}}}MICS: Average years of schooling by age group. Age 15-19{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.YRS.1519.F:HH.MICS.YRS.1519.F{marker HH.MICS.YRS.1519.F}}}MICS: Average years of schooling by age group. Age 15-19. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.YRS.1519.M:HH.MICS.YRS.1519.M{marker HH.MICS.YRS.1519.M}}}MICS: Average years of schooling by age group. Age 15-19. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.YRS.1519.Q1:HH.MICS.YRS.1519.Q1{marker HH.MICS.YRS.1519.Q1}}}MICS: Average years of schooling by age group. Age 15-19. Quintile 1{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.YRS.1519.Q2:HH.MICS.YRS.1519.Q2{marker HH.MICS.YRS.1519.Q2}}}MICS: Average years of schooling by age group. Age 15-19. Quintile 2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.YRS.1519.Q3:HH.MICS.YRS.1519.Q3{marker HH.MICS.YRS.1519.Q3}}}MICS: Average years of schooling by age group. Age 15-19. Quintile 3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.YRS.1519.Q4:HH.MICS.YRS.1519.Q4{marker HH.MICS.YRS.1519.Q4}}}MICS: Average years of schooling by age group. Age 15-19. Quintile 4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.YRS.1519.Q5:HH.MICS.YRS.1519.Q5{marker HH.MICS.YRS.1519.Q5}}}MICS: Average years of schooling by age group. Age 15-19. Quintile 5{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.YRS.1519.R:HH.MICS.YRS.1519.R{marker HH.MICS.YRS.1519.R}}}MICS: Average years of schooling by age group. Age 15-19. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.YRS.1519.U:HH.MICS.YRS.1519.U{marker HH.MICS.YRS.1519.U}}}MICS: Average years of schooling by age group. Age 15-19. Urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.YRS.15UP.GIN:HH.MICS.YRS.15UP.GIN{marker HH.MICS.YRS.15UP.GIN}}}MICS: Gini coefficient of average years of schooling. Age 15+{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.YRS.15UP.GIN.F:HH.MICS.YRS.15UP.GIN.F{marker HH.MICS.YRS.15UP.GIN.F}}}MICS: Gini coefficient of average years of schooling. Age 15+. Female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.YRS.15UP.GIN.M:HH.MICS.YRS.15UP.GIN.M{marker HH.MICS.YRS.15UP.GIN.M}}}MICS: Gini coefficient of average years of schooling. Age 15+. Male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.YRS.15UP.GIN.R:HH.MICS.YRS.15UP.GIN.R{marker HH.MICS.YRS.15UP.GIN.R}}}MICS: Gini coefficient of average years of schooling. Age 15+. Rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_HH.MICS.YRS.15UP.GIN.U:HH.MICS.YRS.15UP.GIN.U{marker HH.MICS.YRS.15UP.GIN.U}}}MICS: Gini coefficient of average years of schooling. Age 15+. Urban{p_end}
-
 {synopt:{help wbopendata_topicid_indicators04##topicid_LO.LLECE.MAT3:LO.LLECE.MAT3{marker LO.LLECE.MAT3}}}LLECE: Mean performance on the mathematics scale for 3rd grade students, total{p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_LO.LLECE.MAT3.FE:LO.LLECE.MAT3.FE{marker LO.LLECE.MAT3.FE}}}LLECE: Mean performance on the mathematics scale for 3rd grade students, female{p_end}
@@ -2271,8 +1782,6 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.ENRL.FE:SE.PRE.ENRL.FE{marker SE.PRE.ENRL.FE}}}Enrolment in pre-primary education, female (number){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.ENRL.FE.ZS:SE.PRE.ENRL.FE.ZS{marker SE.PRE.ENRL.FE.ZS}}}Percentage of students in pre-primary education who are female (%){p_end}
-
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.ENRL.TC.ZS:SE.PRE.ENRL.TC.ZS{marker SE.PRE.ENRL.TC.ZS}}}Pupil-teacher ratio, preprimary{p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.ENRR:SE.PRE.ENRR{marker SE.PRE.ENRR}}}School enrollment, preprimary (% gross){p_end}
@@ -2280,12 +1789,6 @@
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.ENRR.FE:SE.PRE.ENRR.FE{marker SE.PRE.ENRR.FE}}}School enrollment, preprimary, female (% gross){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.ENRR.MA:SE.PRE.ENRR.MA{marker SE.PRE.ENRR.MA}}}School enrollment, preprimary, male (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.NENR:SE.PRE.NENR{marker SE.PRE.NENR}}}Net enrolment rate, pre-primary, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.NENR.FE:SE.PRE.NENR.FE{marker SE.PRE.NENR.FE}}}Net enrolment rate, pre-primary, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.NENR.MA:SE.PRE.NENR.MA{marker SE.PRE.NENR.MA}}}Net enrolment rate, pre-primary, male (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.PRIV.ZS:SE.PRE.PRIV.ZS{marker SE.PRE.PRIV.ZS}}}Percentage of enrolment in pre-primary education in private institutions (%){p_end}
 
@@ -2303,11 +1806,11 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.AGES:SE.PRM.AGES{marker SE.PRM.AGES}}}Primary school starting age (years){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPL.FE.ZS:SE.PRM.CMPL.FE.ZS{marker SE.PRM.CMPL.FE.ZS}}}Gross graduation ratio from primary education, female (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPL.FE.ZS:SE.PRM.CMPL.FE.ZS{marker SE.PRM.CMPL.FE.ZS}}}Gross graduation ratio, primary, female (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPL.MA.ZS:SE.PRM.CMPL.MA.ZS{marker SE.PRM.CMPL.MA.ZS}}}Gross graduation ratio from primary education, male (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPL.MA.ZS:SE.PRM.CMPL.MA.ZS{marker SE.PRM.CMPL.MA.ZS}}}Gross graduation ratio, primary, male (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPL.ZS:SE.PRM.CMPL.ZS{marker SE.PRM.CMPL.ZS}}}Gross graduation ratio from primary education, both sexes (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPL.ZS:SE.PRM.CMPL.ZS{marker SE.PRM.CMPL.ZS}}}Gross graduation ratio, primary, total (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPT.FE.ZS:SE.PRM.CMPT.FE.ZS{marker SE.PRM.CMPT.FE.ZS}}}Primary completion rate, female (% of relevant age group){p_end}
 
@@ -2320,12 +1823,6 @@
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CUAT.MA.ZS:SE.PRM.CUAT.MA.ZS{marker SE.PRM.CUAT.MA.ZS}}}Educational attainment, at least completed primary, population 25+ years, male (%) (cumulative){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CUAT.ZS:SE.PRM.CUAT.ZS{marker SE.PRM.CUAT.ZS}}}Educational attainment, at least completed primary, population 25+ years, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.DROP.FE.ZS:SE.PRM.DROP.FE.ZS{marker SE.PRM.DROP.FE.ZS}}}Cumulative drop-out rate to the last grade of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.DROP.MA.ZS:SE.PRM.DROP.MA.ZS{marker SE.PRM.DROP.MA.ZS}}}Cumulative drop-out rate to the last grade of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.DROP.ZS:SE.PRM.DROP.ZS{marker SE.PRM.DROP.ZS}}}Cumulative drop-out rate to the last grade of primary education, both sexes (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.DURS:SE.PRM.DURS{marker SE.PRM.DURS}}}Primary education, duration (years){p_end}
 
@@ -2453,13 +1950,11 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.FE:SE.SEC.ENRL.FE{marker SE.SEC.ENRL.FE}}}Enrolment in secondary education, female (number){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.FE.VO.ZS:SE.SEC.ENRL.FE.VO.ZS{marker SE.SEC.ENRL.FE.VO.ZS}}}Share of female students in secondary education enrolled in vocational programmes (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.FE.VO.ZS:SE.SEC.ENRL.FE.VO.ZS{marker SE.SEC.ENRL.FE.VO.ZS}}}Vocational and Technical enrolment (% of total secondary enrolment), female{p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.FE.ZS:SE.SEC.ENRL.FE.ZS{marker SE.SEC.ENRL.FE.ZS}}}Secondary education, pupils (% female){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.GC:SE.SEC.ENRL.GC{marker SE.SEC.ENRL.GC}}}Secondary education, general pupils{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.GC.FE:SE.SEC.ENRL.GC.FE{marker SE.SEC.ENRL.GC.FE}}}Enrolment in secondary general, female (number){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.GC.FE.ZS:SE.SEC.ENRL.GC.FE.ZS{marker SE.SEC.ENRL.GC.FE.ZS}}}Secondary education, general pupils (% female){p_end}
 
@@ -2472,8 +1967,6 @@
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.UP.TC.ZS:SE.SEC.ENRL.UP.TC.ZS{marker SE.SEC.ENRL.UP.TC.ZS}}}Pupil-teacher ratio, upper secondary{p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.VO:SE.SEC.ENRL.VO{marker SE.SEC.ENRL.VO}}}Secondary education, vocational pupils{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.VO.FE:SE.SEC.ENRL.VO.FE{marker SE.SEC.ENRL.VO.FE}}}Enrolment in secondary vocational, female (number){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.VO.FE.ZS:SE.SEC.ENRL.VO.FE.ZS{marker SE.SEC.ENRL.VO.FE.ZS}}}Secondary education, vocational pupils (% female){p_end}
 
@@ -2585,1271 +2078,59 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.ENRR.MA:SE.TER.ENRR.MA{marker SE.TER.ENRR.MA}}}School enrollment, tertiary, male (% gross){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD:SE.TER.GRAD{marker SE.TER.GRAD}}}Graduates from tertiary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.AG.FE.ZS:SE.TER.GRAD.AG.FE.ZS{marker SE.TER.GRAD.AG.FE.ZS}}}Percentage of female graduates from tertiary education graduating from Agriculture, Forestry, Fisheries and Veterinary programmes, female (%){p_end}
-
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.AG.ZS:SE.TER.GRAD.AG.ZS{marker SE.TER.GRAD.AG.ZS}}}Percentage of graduates from tertiary education graduating from Agriculture, Forestry, Fisheries and Veterinary programmes, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.ED.FE.ZS:SE.TER.GRAD.ED.FE.ZS{marker SE.TER.GRAD.ED.FE.ZS}}}Percentage of female graduates from tertiary education graduating from Education programmes, female (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.ED.ZS:SE.TER.GRAD.ED.ZS{marker SE.TER.GRAD.ED.ZS}}}Percentage of graduates from tertiary education graduating from Education programmes, both sexes (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.EN.FE.ZS:SE.TER.GRAD.EN.FE.ZS{marker SE.TER.GRAD.EN.FE.ZS}}}Percentage of female graduates from tertiary education graduating from Engineering, Manufacturing and Construction programmes, female (%){p_end}
-
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.EN.ZS:SE.TER.GRAD.EN.ZS{marker SE.TER.GRAD.EN.ZS}}}Percentage of graduates from tertiary education graduating from Engineering, Manufacturing and Construction programmes, both sexes (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE:SE.TER.GRAD.FE{marker SE.TER.GRAD.FE}}}Graduates from tertiary education, female (number){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.AG.ZS:SE.TER.GRAD.FE.AG.ZS{marker SE.TER.GRAD.FE.AG.ZS}}}Female share of graduates in Agriculture, Forestry, Fisheries and Veterinary programmes, tertiary (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.AG.ZS:SE.TER.GRAD.FE.AG.ZS{marker SE.TER.GRAD.FE.AG.ZS}}}Percentage of graduates from Agriculture, Forestry, Fisheries and Veterinary programmes in tertiary education who are female (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.ED.ZS:SE.TER.GRAD.FE.ED.ZS{marker SE.TER.GRAD.FE.ED.ZS}}}Female share of graduates in Education programmes, tertiary (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.ED.ZS:SE.TER.GRAD.FE.ED.ZS{marker SE.TER.GRAD.FE.ED.ZS}}}Percentage of graduates from Education programmes in tertiary education who are female (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.EN.ZS:SE.TER.GRAD.FE.EN.ZS{marker SE.TER.GRAD.FE.EN.ZS}}}Female share of graduates in Engineering, Manufacturing and Construction programmes, tertiary (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.EN.ZS:SE.TER.GRAD.FE.EN.ZS{marker SE.TER.GRAD.FE.EN.ZS}}}Percentage of graduates from Engineering, Manufacturing and Construction programmes in tertiary education who are female (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.HL.ZS:SE.TER.GRAD.FE.HL.ZS{marker SE.TER.GRAD.FE.HL.ZS}}}Female share of graduates in Health and Welfare programmes, tertiary (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.HL.ZS:SE.TER.GRAD.FE.HL.ZS{marker SE.TER.GRAD.FE.HL.ZS}}}Percentage of graduates from Health and Welfare programmes in tertiary education who are female (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.HU.ZS:SE.TER.GRAD.FE.HU.ZS{marker SE.TER.GRAD.FE.HU.ZS}}}Female share of graduates in Arts and Humanities programmes, tertiary (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.HU.ZS:SE.TER.GRAD.FE.HU.ZS{marker SE.TER.GRAD.FE.HU.ZS}}}Percentage of graduates from Arts and Humanities programmes in tertiary education who are female (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.OT.ZS:SE.TER.GRAD.FE.OT.ZS{marker SE.TER.GRAD.FE.OT.ZS}}}Female share of graduates in unknown or unspecified fields, tertiary (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.OT.ZS:SE.TER.GRAD.FE.OT.ZS{marker SE.TER.GRAD.FE.OT.ZS}}}Percentage of graduates from programmes in unspecified fields in tertiary education who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.SC.ZS:SE.TER.GRAD.FE.SC.ZS{marker SE.TER.GRAD.FE.SC.ZS}}}Percentage of graduates from Natural Sciences, Mathematics and Statistics programmes in tertiary education who are female (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.SC.ZS:SE.TER.GRAD.FE.SC.ZS{marker SE.TER.GRAD.FE.SC.ZS}}}Female share of graduates in Natural Sciences, Mathematics and Statistics programmes, tertiary (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.SI.ZS:SE.TER.GRAD.FE.SI.ZS{marker SE.TER.GRAD.FE.SI.ZS}}}Female share of graduates from Science, Technology, Engineering and Mathematics (STEM) programmes, tertiary (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.SS.ZS:SE.TER.GRAD.FE.SS.ZS{marker SE.TER.GRAD.FE.SS.ZS}}}Percentage of graduates from Social Sciences, Journalism and Information programmes in tertiary education who are female (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.SS.ZS:SE.TER.GRAD.FE.SS.ZS{marker SE.TER.GRAD.FE.SS.ZS}}}Female share of graduates in Social Sciences, Journalism and Information programmes, tertiary (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.SV.ZS:SE.TER.GRAD.FE.SV.ZS{marker SE.TER.GRAD.FE.SV.ZS}}}Percentage of graduates from Services programmes in tertiary education who are female (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.SV.ZS:SE.TER.GRAD.FE.SV.ZS{marker SE.TER.GRAD.FE.SV.ZS}}}Female share of graduates in Services programmes, tertiary (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.ZS:SE.TER.GRAD.FE.ZS{marker SE.TER.GRAD.FE.ZS}}}Percentage of graduates from tertiary education who are female (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SH.DTH.0509:SH.DTH.0509{marker SH.DTH.0509}}}Number of deaths ages 5-9 years{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.HL.FE.ZS:SE.TER.GRAD.HL.FE.ZS{marker SE.TER.GRAD.HL.FE.ZS}}}Percentage of female graduates from tertiary education graduating from Health and Welfare programmes, female (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SH.DTH.1014:SH.DTH.1014{marker SH.DTH.1014}}}Number of deaths ages 10-14 years{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.HL.ZS:SE.TER.GRAD.HL.ZS{marker SE.TER.GRAD.HL.ZS}}}Percentage of graduates from tertiary education graduating from Health and Welfare programmes, both sexes (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SH.DTH.1519:SH.DTH.1519{marker SH.DTH.1519}}}Number of deaths ages 15-19 years{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.HU.FE.ZS:SE.TER.GRAD.HU.FE.ZS{marker SE.TER.GRAD.HU.FE.ZS}}}Percentage of female graduates from tertiary education graduating from Arts and Humanities programmes, female (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SH.DTH.2024:SH.DTH.2024{marker SH.DTH.2024}}}Number of deaths ages 20-24 years{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.HU.ZS:SE.TER.GRAD.HU.ZS{marker SE.TER.GRAD.HU.ZS}}}Percentage of graduates from tertiary education graduating from Arts and Humanities programmes, both sexes (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SH.DTH.IMRT.FE:SH.DTH.IMRT.FE{marker SH.DTH.IMRT.FE}}}Number of infant deaths, female{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.OT.FE.ZS:SE.TER.GRAD.OT.FE.ZS{marker SE.TER.GRAD.OT.FE.ZS}}}Percentage of female graduates from tertiary education graduating from programmes in unspecified fields, female (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SH.DTH.IMRT.MA:SH.DTH.IMRT.MA{marker SH.DTH.IMRT.MA}}}Number of infant deaths, male{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.OT.ZS:SE.TER.GRAD.OT.ZS{marker SE.TER.GRAD.OT.ZS}}}Percentage of graduates from tertiary education graduating from programmes in unspecified fields, both sexes (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SH.DTH.MORT.FE:SH.DTH.MORT.FE{marker SH.DTH.MORT.FE}}}Number of under-five deaths, female{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.SC.FE.ZS:SE.TER.GRAD.SC.FE.ZS{marker SE.TER.GRAD.SC.FE.ZS}}}Percentage of female graduates from tertiary education graduating from Natural Sciences, Mathematics and Statistics programmes, female (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SH.DTH.MORT.MA:SH.DTH.MORT.MA{marker SH.DTH.MORT.MA}}}Number of under-five deaths, male{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.SC.ZS:SE.TER.GRAD.SC.ZS{marker SE.TER.GRAD.SC.ZS}}}Percentage of graduates from tertiary education graduating from Natural Sciences, Mathematics and Statistics programmes, both sexes (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SH.DYN.0509:SH.DYN.0509{marker SH.DYN.0509}}}Probability of dying among children ages 5-9 years (per 1,000){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.SS.FE.ZS:SE.TER.GRAD.SS.FE.ZS{marker SE.TER.GRAD.SS.FE.ZS}}}Percentage of female graduates from tertiary education graduating from Social Sciences, Journalism and Information programmes, female (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SH.DYN.1014:SH.DYN.1014{marker SH.DYN.1014}}}Probability of dying among adolescents ages 10-14 years (per 1,000){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.SS.ZS:SE.TER.GRAD.SS.ZS{marker SE.TER.GRAD.SS.ZS}}}Percentage of graduates from tertiary education graduating from Social Sciences, Journalism and Information programmes, both sexes (%){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SH.DYN.1519:SH.DYN.1519{marker SH.DYN.1519}}}Probability of dying among adolescents ages 15-19 years (per 1,000){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.SV.FE.ZS:SE.TER.GRAD.SV.FE.ZS{marker SE.TER.GRAD.SV.FE.ZS}}}Percentage of female graduates from tertiary education graduating from Services programmes, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.SV.ZS:SE.TER.GRAD.SV.ZS{marker SE.TER.GRAD.SV.ZS}}}Percentage of graduates from tertiary education graduating from Services programmes, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.PRIV.ZS:SE.TER.PRIV.ZS{marker SE.TER.PRIV.ZS}}}Percentage of enrolment in tertiary education in private institutions (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.TCHR:SE.TER.TCHR{marker SE.TER.TCHR}}}Teachers in tertiary education programmes, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.TCHR.FE:SE.TER.TCHR.FE{marker SE.TER.TCHR.FE}}}Teachers in tertiary education programmes, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.TCHR.FE.ZS:SE.TER.TCHR.FE.ZS{marker SE.TER.TCHR.FE.ZS}}}Tertiary education, academic staff (% female){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TOT.ENRR:SE.TOT.ENRR{marker SE.TOT.ENRR}}}Gross enrolment ratio, primary to tertiary, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.CPRM.ZS:SE.XPD.CPRM.ZS{marker SE.XPD.CPRM.ZS}}}Current education expenditure, primary (% of total expenditure in primary public institutions){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.CSEC.ZS:SE.XPD.CSEC.ZS{marker SE.XPD.CSEC.ZS}}}Current education expenditure, secondary (% of total expenditure in secondary public institutions){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.CTER.ZS:SE.XPD.CTER.ZS{marker SE.XPD.CTER.ZS}}}Current education expenditure, tertiary (% of total expenditure in tertiary public institutions){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.CTOT.ZS:SE.XPD.CTOT.ZS{marker SE.XPD.CTOT.ZS}}}Current education expenditure, total (% of total expenditure in public institutions){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.CUR.TOTL.ZS:SE.XPD.CUR.TOTL.ZS{marker SE.XPD.CUR.TOTL.ZS}}}Current expenditure as % of total expenditure in public institutions (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.MPRM.ZS:SE.XPD.MPRM.ZS{marker SE.XPD.MPRM.ZS}}}All education staff compensation, primary (% of total expenditure in primary public institutions){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.MSEC.ZS:SE.XPD.MSEC.ZS{marker SE.XPD.MSEC.ZS}}}All education staff compensation, secondary (% of total expenditure in secondary public institutions){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.MTER.ZS:SE.XPD.MTER.ZS{marker SE.XPD.MTER.ZS}}}All education staff compensation, tertiary (% of total expenditure in tertiary public institutions){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.MTOT.ZS:SE.XPD.MTOT.ZS{marker SE.XPD.MTOT.ZS}}}All education staff compensation, total (% of total expenditure in public institutions){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.PRIM.PC.ZS:SE.XPD.PRIM.PC.ZS{marker SE.XPD.PRIM.PC.ZS}}}Government expenditure per student, primary (% of GDP per capita){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.PRIM.ZS:SE.XPD.PRIM.ZS{marker SE.XPD.PRIM.ZS}}}Expenditure on primary education (% of government expenditure on education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.PTCH.ZS:SE.XPD.PTCH.ZS{marker SE.XPD.PTCH.ZS}}}Spending on teaching materials, primary (% of primary expenditure){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.SECO.PC.ZS:SE.XPD.SECO.PC.ZS{marker SE.XPD.SECO.PC.ZS}}}Government expenditure per student, secondary (% of GDP per capita){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.SECO.ZS:SE.XPD.SECO.ZS{marker SE.XPD.SECO.ZS}}}Expenditure on secondary education (% of government expenditure on education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.STCH.ZS:SE.XPD.STCH.ZS{marker SE.XPD.STCH.ZS}}}Spending on teaching materials, secondary (% of secondary expenditure){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.TCHR.XC.ZS:SE.XPD.TCHR.XC.ZS{marker SE.XPD.TCHR.XC.ZS}}}Teachers' salaries (% of current education expenditure){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.TERT.PC.ZS:SE.XPD.TERT.PC.ZS{marker SE.XPD.TERT.PC.ZS}}}Government expenditure per student, tertiary (% of GDP per capita){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.TERT.ZS:SE.XPD.TERT.ZS{marker SE.XPD.TERT.ZS}}}Expenditure on tertiary education (% of government expenditure on education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.TOTL.GB.ZS:SE.XPD.TOTL.GB.ZS{marker SE.XPD.TOTL.GB.ZS}}}Government expenditure on education, total (% of government expenditure){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.XPD.TOTL.GD.ZS:SE.XPD.TOTL.GD.ZS{marker SE.XPD.TOTL.GD.ZS}}}Government expenditure on education, total (% of GDP){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SL.TLF.PRIM.FE.ZS:SL.TLF.PRIM.FE.ZS{marker SL.TLF.PRIM.FE.ZS}}}Labor force with primary education, female (% of female labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SL.TLF.PRIM.MA.ZS:SL.TLF.PRIM.MA.ZS{marker SL.TLF.PRIM.MA.ZS}}}Labor force with primary education, male (% of male labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SL.TLF.PRIM.ZS:SL.TLF.PRIM.ZS{marker SL.TLF.PRIM.ZS}}}Labor force with primary education (% of total){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SL.TLF.SECO.FE.ZS:SL.TLF.SECO.FE.ZS{marker SL.TLF.SECO.FE.ZS}}}Labor force with secondary education, female (% of female labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SL.TLF.SECO.MA.ZS:SL.TLF.SECO.MA.ZS{marker SL.TLF.SECO.MA.ZS}}}Labor force with secondary education, male (% of male labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SL.TLF.SECO.ZS:SL.TLF.SECO.ZS{marker SL.TLF.SECO.ZS}}}Labor force with secondary education (% of total){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SL.TLF.TERT.FE.ZS:SL.TLF.TERT.FE.ZS{marker SL.TLF.TERT.FE.ZS}}}Labor force with tertiary education, female (% of female labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SL.TLF.TERT.MA.ZS:SL.TLF.TERT.MA.ZS{marker SL.TLF.TERT.MA.ZS}}}Labor force with tertiary education, male (% of male labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SL.TLF.TERT.ZS:SL.TLF.TERT.ZS{marker SL.TLF.TERT.ZS}}}Labor force with tertiary education (% of total){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SL.TLF.TOTL.FE.ZS:SL.TLF.TOTL.FE.ZS{marker SL.TLF.TOTL.FE.ZS}}}Labor force, female (% of total labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SL.TLF.TOTL.IN:SL.TLF.TOTL.IN{marker SL.TLF.TOTL.IN}}}Labor force, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SL.UEM.TOTL.FE.ZS:SL.UEM.TOTL.FE.ZS{marker SL.UEM.TOTL.FE.ZS}}}Unemployment, female (% of female labor force) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SL.UEM.TOTL.MA.ZS:SL.UEM.TOTL.MA.ZS{marker SL.UEM.TOTL.MA.ZS}}}Unemployment, male (% of male labor force) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SL.UEM.TOTL.ZS:SL.UEM.TOTL.ZS{marker SL.UEM.TOTL.ZS}}}Unemployment, total (% of total labor force) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SM.EMI.TERT.ZS:SM.EMI.TERT.ZS{marker SM.EMI.TERT.ZS}}}Emigration rate of tertiary educated (% of total tertiary educated population){p_end}
+{synopt:{help wbopendata_topicid_indicators04##topicid_SH.DYN.2024:SH.DYN.2024{marker SH.DYN.2024}}}Probability of dying among youth ages 20-24 years (per 1,000){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0014.TO.ZS:SP.POP.0014.TO.ZS{marker SP.POP.0014.TO.ZS}}}Population ages 0-14 (% of total population){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0305.FE.UN:SP.POP.0305.FE.UN{marker SP.POP.0305.FE.UN}}}Population, ages 3-5, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0305.MA.UN:SP.POP.0305.MA.UN{marker SP.POP.0305.MA.UN}}}Population, ages 3-5, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0305.TO.UN:SP.POP.0305.TO.UN{marker SP.POP.0305.TO.UN}}}Population, ages 3-5, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0406.FE.UN:SP.POP.0406.FE.UN{marker SP.POP.0406.FE.UN}}}Population, ages 4-6, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0406.MA.UN:SP.POP.0406.MA.UN{marker SP.POP.0406.MA.UN}}}Population, ages 4-6, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0406.TO.UN:SP.POP.0406.TO.UN{marker SP.POP.0406.TO.UN}}}Population, ages 4-6, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0509.FE.UN:SP.POP.0509.FE.UN{marker SP.POP.0509.FE.UN}}}Population, ages 5-9, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0509.MA.UN:SP.POP.0509.MA.UN{marker SP.POP.0509.MA.UN}}}Population, ages 5-9, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0509.TO.UN:SP.POP.0509.TO.UN{marker SP.POP.0509.TO.UN}}}Population, ages 5-9, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0510.FE.UN:SP.POP.0510.FE.UN{marker SP.POP.0510.FE.UN}}}Population, ages 5-10, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0510.MA.UN:SP.POP.0510.MA.UN{marker SP.POP.0510.MA.UN}}}Population, ages 5-10, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0510.TO.UN:SP.POP.0510.TO.UN{marker SP.POP.0510.TO.UN}}}Population, ages 5-10, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0511.FE.UN:SP.POP.0511.FE.UN{marker SP.POP.0511.FE.UN}}}Population, ages 5-11, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0511.MA.UN:SP.POP.0511.MA.UN{marker SP.POP.0511.MA.UN}}}Population, ages 5-11, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0511.TO.UN:SP.POP.0511.TO.UN{marker SP.POP.0511.TO.UN}}}Population, ages 5-11, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0609.FE.UN:SP.POP.0609.FE.UN{marker SP.POP.0609.FE.UN}}}Population, ages 6-9, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0609.MA.UN:SP.POP.0609.MA.UN{marker SP.POP.0609.MA.UN}}}Population, ages 6-9, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0609.TO.UN:SP.POP.0609.TO.UN{marker SP.POP.0609.TO.UN}}}Population, ages 6-9, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0610.FE.UN:SP.POP.0610.FE.UN{marker SP.POP.0610.FE.UN}}}Population, ages 6-10, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0610.MA.UN:SP.POP.0610.MA.UN{marker SP.POP.0610.MA.UN}}}Population, ages 6-10, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0610.TO.UN:SP.POP.0610.TO.UN{marker SP.POP.0610.TO.UN}}}Population, ages 6-10, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0611.FE.UN:SP.POP.0611.FE.UN{marker SP.POP.0611.FE.UN}}}Population, ages 6-11, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0611.MA.UN:SP.POP.0611.MA.UN{marker SP.POP.0611.MA.UN}}}Population, ages 6-11, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0611.TO.UN:SP.POP.0611.TO.UN{marker SP.POP.0611.TO.UN}}}Population, ages 6-11, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0612.FE.UN:SP.POP.0612.FE.UN{marker SP.POP.0612.FE.UN}}}Population, ages 6-12, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0612.MA.UN:SP.POP.0612.MA.UN{marker SP.POP.0612.MA.UN}}}Population, ages 6-12, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0612.TO.UN:SP.POP.0612.TO.UN{marker SP.POP.0612.TO.UN}}}Population, ages 6-12, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0709.FE.UN:SP.POP.0709.FE.UN{marker SP.POP.0709.FE.UN}}}Population, ages 7-9, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0709.MA.UN:SP.POP.0709.MA.UN{marker SP.POP.0709.MA.UN}}}Population, ages 7-9, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0709.TO.UN:SP.POP.0709.TO.UN{marker SP.POP.0709.TO.UN}}}Population, ages 7-9, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0710.FE.UN:SP.POP.0710.FE.UN{marker SP.POP.0710.FE.UN}}}Population, ages 7-10, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0710.MA.UN:SP.POP.0710.MA.UN{marker SP.POP.0710.MA.UN}}}Population, ages 7-10, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0710.TO.UN:SP.POP.0710.TO.UN{marker SP.POP.0710.TO.UN}}}Population, ages 7-10, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0711.FE.UN:SP.POP.0711.FE.UN{marker SP.POP.0711.FE.UN}}}Population, ages 7-11, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0711.MA.UN:SP.POP.0711.MA.UN{marker SP.POP.0711.MA.UN}}}Population, ages 7-11, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0711.TO.UN:SP.POP.0711.TO.UN{marker SP.POP.0711.TO.UN}}}Population, ages 7-11, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0712.FE.UN:SP.POP.0712.FE.UN{marker SP.POP.0712.FE.UN}}}Population, ages 7-12, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0712.MA.UN:SP.POP.0712.MA.UN{marker SP.POP.0712.MA.UN}}}Population, ages 7-12, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0712.TO.UN:SP.POP.0712.TO.UN{marker SP.POP.0712.TO.UN}}}Population, ages 7-12, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0713.FE.UN:SP.POP.0713.FE.UN{marker SP.POP.0713.FE.UN}}}Population, ages 7-13, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0713.MA.UN:SP.POP.0713.MA.UN{marker SP.POP.0713.MA.UN}}}Population, ages 7-13, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.0713.TO.UN:SP.POP.0713.TO.UN{marker SP.POP.0713.TO.UN}}}Population, ages 7-13, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1014.FE.UN:SP.POP.1014.FE.UN{marker SP.POP.1014.FE.UN}}}Population, ages 10-14, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1014.MA.UN:SP.POP.1014.MA.UN{marker SP.POP.1014.MA.UN}}}Population, ages 10-14, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1014.TO.UN:SP.POP.1014.TO.UN{marker SP.POP.1014.TO.UN}}}Population, ages 10-14, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1015.FE.UN:SP.POP.1015.FE.UN{marker SP.POP.1015.FE.UN}}}Population, ages 10-15, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1015.MA.UN:SP.POP.1015.MA.UN{marker SP.POP.1015.MA.UN}}}Population, ages 10-15, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1015.TO.UN:SP.POP.1015.TO.UN{marker SP.POP.1015.TO.UN}}}Population, ages 10-15, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1016.FE.UN:SP.POP.1016.FE.UN{marker SP.POP.1016.FE.UN}}}Population, ages 10-16, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1016.MA.UN:SP.POP.1016.MA.UN{marker SP.POP.1016.MA.UN}}}Population, ages 10-16, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1016.TO.UN:SP.POP.1016.TO.UN{marker SP.POP.1016.TO.UN}}}Population, ages 10-16, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1017.FE.UN:SP.POP.1017.FE.UN{marker SP.POP.1017.FE.UN}}}Population, ages 10-17, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1017.MA.UN:SP.POP.1017.MA.UN{marker SP.POP.1017.MA.UN}}}Population, ages 10-17, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1017.TO.UN:SP.POP.1017.TO.UN{marker SP.POP.1017.TO.UN}}}Population, ages 10-17, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1018.FE.UN:SP.POP.1018.FE.UN{marker SP.POP.1018.FE.UN}}}Population, ages 10-18, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1018.MA.UN:SP.POP.1018.MA.UN{marker SP.POP.1018.MA.UN}}}Population, ages 10-18, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1018.TO.UN:SP.POP.1018.TO.UN{marker SP.POP.1018.TO.UN}}}Population, ages 10-18, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1115.FE.UN:SP.POP.1115.FE.UN{marker SP.POP.1115.FE.UN}}}Population, ages 11-15, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1115.MA.UN:SP.POP.1115.MA.UN{marker SP.POP.1115.MA.UN}}}Population, ages 11-15, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1115.TO.UN:SP.POP.1115.TO.UN{marker SP.POP.1115.TO.UN}}}Population, ages 11-15, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1116.FE.UN:SP.POP.1116.FE.UN{marker SP.POP.1116.FE.UN}}}Population, ages 11-16, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1116.MA.UN:SP.POP.1116.MA.UN{marker SP.POP.1116.MA.UN}}}Population, ages 11-16, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1116.TO.UN:SP.POP.1116.TO.UN{marker SP.POP.1116.TO.UN}}}Population, ages 11-16, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1117.FE.UN:SP.POP.1117.FE.UN{marker SP.POP.1117.FE.UN}}}Population, ages 11-17, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1117.MA.UN:SP.POP.1117.MA.UN{marker SP.POP.1117.MA.UN}}}Population, ages 11-17, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1117.TO.UN:SP.POP.1117.TO.UN{marker SP.POP.1117.TO.UN}}}Population, ages 11-17, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1118.FE.UN:SP.POP.1118.FE.UN{marker SP.POP.1118.FE.UN}}}Population, ages 11-18, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1118.MA.UN:SP.POP.1118.MA.UN{marker SP.POP.1118.MA.UN}}}Population, ages 11-18, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1118.TO.UN:SP.POP.1118.TO.UN{marker SP.POP.1118.TO.UN}}}Population, ages 11-18, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1215.FE.UN:SP.POP.1215.FE.UN{marker SP.POP.1215.FE.UN}}}Population, ages 12-15, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1215.MA.UN:SP.POP.1215.MA.UN{marker SP.POP.1215.MA.UN}}}Population, ages 12-15, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1215.TO.UN:SP.POP.1215.TO.UN{marker SP.POP.1215.TO.UN}}}Population, ages 12-15, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1216.FE.UN:SP.POP.1216.FE.UN{marker SP.POP.1216.FE.UN}}}Population, ages 12-16, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1216.MA.UN:SP.POP.1216.MA.UN{marker SP.POP.1216.MA.UN}}}Population, ages 12-16, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1216.TO.UN:SP.POP.1216.TO.UN{marker SP.POP.1216.TO.UN}}}Population, ages 12-16, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1217.FE.UN:SP.POP.1217.FE.UN{marker SP.POP.1217.FE.UN}}}Population, ages 12-17, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1217.MA.UN:SP.POP.1217.MA.UN{marker SP.POP.1217.MA.UN}}}Population, ages 12-17, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1217.TO.UN:SP.POP.1217.TO.UN{marker SP.POP.1217.TO.UN}}}Population, ages 12-17, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1218.FE.UN:SP.POP.1218.FE.UN{marker SP.POP.1218.FE.UN}}}Population, ages 12-18, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1218.MA.UN:SP.POP.1218.MA.UN{marker SP.POP.1218.MA.UN}}}Population, ages 12-18, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1218.TO.UN:SP.POP.1218.TO.UN{marker SP.POP.1218.TO.UN}}}Population, ages 12-18, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1316.FE.UN:SP.POP.1316.FE.UN{marker SP.POP.1316.FE.UN}}}Population, ages 13-16, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1316.MA.UN:SP.POP.1316.MA.UN{marker SP.POP.1316.MA.UN}}}Population, ages 13-16, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1316.TO.UN:SP.POP.1316.TO.UN{marker SP.POP.1316.TO.UN}}}Population, ages 13-16, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1317.FE.UN:SP.POP.1317.FE.UN{marker SP.POP.1317.FE.UN}}}Population, ages 13-17, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1317.MA.UN:SP.POP.1317.MA.UN{marker SP.POP.1317.MA.UN}}}Population, ages 13-17, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1317.TO.UN:SP.POP.1317.TO.UN{marker SP.POP.1317.TO.UN}}}Population, ages 13-17, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1318.FE.UN:SP.POP.1318.FE.UN{marker SP.POP.1318.FE.UN}}}Population, ages 13-18, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1318.MA.UN:SP.POP.1318.MA.UN{marker SP.POP.1318.MA.UN}}}Population, ages 13-18, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1318.TO.UN:SP.POP.1318.TO.UN{marker SP.POP.1318.TO.UN}}}Population, ages 13-18, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1319.FE.UN:SP.POP.1319.FE.UN{marker SP.POP.1319.FE.UN}}}Population, ages 13-19, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1319.MA.UN:SP.POP.1319.MA.UN{marker SP.POP.1319.MA.UN}}}Population, ages 13-19, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1319.TO.UN:SP.POP.1319.TO.UN{marker SP.POP.1319.TO.UN}}}Population, ages 13-19, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1418.FE.UN:SP.POP.1418.FE.UN{marker SP.POP.1418.FE.UN}}}Population, ages 14-18, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1418.MA.UN:SP.POP.1418.MA.UN{marker SP.POP.1418.MA.UN}}}Population, ages 14-18, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1418.TO.UN:SP.POP.1418.TO.UN{marker SP.POP.1418.TO.UN}}}Population, ages 14-18, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1419.FE.UN:SP.POP.1419.FE.UN{marker SP.POP.1419.FE.UN}}}Population, ages 14-19, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1419.MA.UN:SP.POP.1419.MA.UN{marker SP.POP.1419.MA.UN}}}Population, ages 14-19, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1419.TO.UN:SP.POP.1419.TO.UN{marker SP.POP.1419.TO.UN}}}Population, ages 14-19, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1524.FE.UN:SP.POP.1524.FE.UN{marker SP.POP.1524.FE.UN}}}Population, ages 15-24, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1524.MA.UN:SP.POP.1524.MA.UN{marker SP.POP.1524.MA.UN}}}Population, ages 15-24, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1524.TO.UN:SP.POP.1524.TO.UN{marker SP.POP.1524.TO.UN}}}Population, ages 15-24, total{p_end}
-
 {synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.1564.TO.ZS:SP.POP.1564.TO.ZS{marker SP.POP.1564.TO.ZS}}}Population ages 15-64 (% of total population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG00.FE.UN:SP.POP.AG00.FE.UN{marker SP.POP.AG00.FE.UN}}}Population, age 0, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG00.MA.UN:SP.POP.AG00.MA.UN{marker SP.POP.AG00.MA.UN}}}Population, age 0, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG00.TO.UN:SP.POP.AG00.TO.UN{marker SP.POP.AG00.TO.UN}}}Population, age 0, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG01.FE.UN:SP.POP.AG01.FE.UN{marker SP.POP.AG01.FE.UN}}}Population, age 1, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG01.MA.UN:SP.POP.AG01.MA.UN{marker SP.POP.AG01.MA.UN}}}Population, age 1, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG01.TO.UN:SP.POP.AG01.TO.UN{marker SP.POP.AG01.TO.UN}}}Population, age 1, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG02.FE.UN:SP.POP.AG02.FE.UN{marker SP.POP.AG02.FE.UN}}}Population, age 2, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG02.MA.UN:SP.POP.AG02.MA.UN{marker SP.POP.AG02.MA.UN}}}Population, age 2, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG02.TO.UN:SP.POP.AG02.TO.UN{marker SP.POP.AG02.TO.UN}}}Population, age 2, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG03.FE.UN:SP.POP.AG03.FE.UN{marker SP.POP.AG03.FE.UN}}}Population, age 3, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG03.MA.UN:SP.POP.AG03.MA.UN{marker SP.POP.AG03.MA.UN}}}Population, age 3, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG03.TO.UN:SP.POP.AG03.TO.UN{marker SP.POP.AG03.TO.UN}}}Population, age 3, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG04.FE.UN:SP.POP.AG04.FE.UN{marker SP.POP.AG04.FE.UN}}}Population, age 4, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG04.MA.UN:SP.POP.AG04.MA.UN{marker SP.POP.AG04.MA.UN}}}Population, age 4, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG04.TO.UN:SP.POP.AG04.TO.UN{marker SP.POP.AG04.TO.UN}}}Population, age 4, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG05.FE.UN:SP.POP.AG05.FE.UN{marker SP.POP.AG05.FE.UN}}}Population, age 5, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG05.MA.UN:SP.POP.AG05.MA.UN{marker SP.POP.AG05.MA.UN}}}Population, age 5, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG05.TO.UN:SP.POP.AG05.TO.UN{marker SP.POP.AG05.TO.UN}}}Population, age 5, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG06.FE.UN:SP.POP.AG06.FE.UN{marker SP.POP.AG06.FE.UN}}}Population, age 6, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG06.MA.UN:SP.POP.AG06.MA.UN{marker SP.POP.AG06.MA.UN}}}Population, age 6, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG06.TO.UN:SP.POP.AG06.TO.UN{marker SP.POP.AG06.TO.UN}}}Population, age 6, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG07.FE.UN:SP.POP.AG07.FE.UN{marker SP.POP.AG07.FE.UN}}}Population, age 7, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG07.MA.UN:SP.POP.AG07.MA.UN{marker SP.POP.AG07.MA.UN}}}Population, age 7, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG07.TO.UN:SP.POP.AG07.TO.UN{marker SP.POP.AG07.TO.UN}}}Population, age 7, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG08.FE.UN:SP.POP.AG08.FE.UN{marker SP.POP.AG08.FE.UN}}}Population, age 8, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG08.MA.UN:SP.POP.AG08.MA.UN{marker SP.POP.AG08.MA.UN}}}Population, age 8, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG08.TO.UN:SP.POP.AG08.TO.UN{marker SP.POP.AG08.TO.UN}}}Population, age 8, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG09.FE.UN:SP.POP.AG09.FE.UN{marker SP.POP.AG09.FE.UN}}}Population, age 9, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG09.MA.UN:SP.POP.AG09.MA.UN{marker SP.POP.AG09.MA.UN}}}Population, age 9, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG09.TO.UN:SP.POP.AG09.TO.UN{marker SP.POP.AG09.TO.UN}}}Population, age 9, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG10.FE.UN:SP.POP.AG10.FE.UN{marker SP.POP.AG10.FE.UN}}}Population, age 10, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG10.MA.UN:SP.POP.AG10.MA.UN{marker SP.POP.AG10.MA.UN}}}Population, age 10, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG10.TO.UN:SP.POP.AG10.TO.UN{marker SP.POP.AG10.TO.UN}}}Population, age 10, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG11.FE.UN:SP.POP.AG11.FE.UN{marker SP.POP.AG11.FE.UN}}}Population, age 11, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG11.MA.UN:SP.POP.AG11.MA.UN{marker SP.POP.AG11.MA.UN}}}Population, age 11, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG11.TO.UN:SP.POP.AG11.TO.UN{marker SP.POP.AG11.TO.UN}}}Population, age 11, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG12.FE.UN:SP.POP.AG12.FE.UN{marker SP.POP.AG12.FE.UN}}}Population, age 12, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG12.MA.UN:SP.POP.AG12.MA.UN{marker SP.POP.AG12.MA.UN}}}Population, age 12, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG12.TO.UN:SP.POP.AG12.TO.UN{marker SP.POP.AG12.TO.UN}}}Population, age 12, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG13.FE.UN:SP.POP.AG13.FE.UN{marker SP.POP.AG13.FE.UN}}}Population, age 13, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG13.MA.UN:SP.POP.AG13.MA.UN{marker SP.POP.AG13.MA.UN}}}Population, age 13, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG13.TO.UN:SP.POP.AG13.TO.UN{marker SP.POP.AG13.TO.UN}}}Population, age 13, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG14.FE.UN:SP.POP.AG14.FE.UN{marker SP.POP.AG14.FE.UN}}}Population, age 14, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG14.MA.UN:SP.POP.AG14.MA.UN{marker SP.POP.AG14.MA.UN}}}Population, age 14, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG14.TO.UN:SP.POP.AG14.TO.UN{marker SP.POP.AG14.TO.UN}}}Population, age 14, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG15.FE.UN:SP.POP.AG15.FE.UN{marker SP.POP.AG15.FE.UN}}}Population, age 15, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG15.MA.UN:SP.POP.AG15.MA.UN{marker SP.POP.AG15.MA.UN}}}Population, age 15, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG15.TO.UN:SP.POP.AG15.TO.UN{marker SP.POP.AG15.TO.UN}}}Population, age 15, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG16.FE.UN:SP.POP.AG16.FE.UN{marker SP.POP.AG16.FE.UN}}}Population, age 16, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG16.MA.UN:SP.POP.AG16.MA.UN{marker SP.POP.AG16.MA.UN}}}Population, age 16, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG16.TO.UN:SP.POP.AG16.TO.UN{marker SP.POP.AG16.TO.UN}}}Population, age 16, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG17.FE.UN:SP.POP.AG17.FE.UN{marker SP.POP.AG17.FE.UN}}}Population, age 17, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG17.MA.UN:SP.POP.AG17.MA.UN{marker SP.POP.AG17.MA.UN}}}Population, age 17, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG17.TO.UN:SP.POP.AG17.TO.UN{marker SP.POP.AG17.TO.UN}}}Population, age 17, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG18.FE.UN:SP.POP.AG18.FE.UN{marker SP.POP.AG18.FE.UN}}}Population, age 18, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG18.MA.UN:SP.POP.AG18.MA.UN{marker SP.POP.AG18.MA.UN}}}Population, age 18, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG18.TO.UN:SP.POP.AG18.TO.UN{marker SP.POP.AG18.TO.UN}}}Population, age 18, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG19.FE.UN:SP.POP.AG19.FE.UN{marker SP.POP.AG19.FE.UN}}}Population, age 19, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG19.MA.UN:SP.POP.AG19.MA.UN{marker SP.POP.AG19.MA.UN}}}Population, age 19, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG19.TO.UN:SP.POP.AG19.TO.UN{marker SP.POP.AG19.TO.UN}}}Population, age 19, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG20.FE.UN:SP.POP.AG20.FE.UN{marker SP.POP.AG20.FE.UN}}}Population, age 20, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG20.MA.UN:SP.POP.AG20.MA.UN{marker SP.POP.AG20.MA.UN}}}Population, age 20, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG20.TO.UN:SP.POP.AG20.TO.UN{marker SP.POP.AG20.TO.UN}}}Population, age 20, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG21.FE.UN:SP.POP.AG21.FE.UN{marker SP.POP.AG21.FE.UN}}}Population, age 21, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG21.MA.UN:SP.POP.AG21.MA.UN{marker SP.POP.AG21.MA.UN}}}Population, age 21, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG21.TO.UN:SP.POP.AG21.TO.UN{marker SP.POP.AG21.TO.UN}}}Population, age 21, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG22.FE.UN:SP.POP.AG22.FE.UN{marker SP.POP.AG22.FE.UN}}}Population, age 22, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG22.MA.UN:SP.POP.AG22.MA.UN{marker SP.POP.AG22.MA.UN}}}Population, age 22, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG22.TO.UN:SP.POP.AG22.TO.UN{marker SP.POP.AG22.TO.UN}}}Population, age 22, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG23.FE.UN:SP.POP.AG23.FE.UN{marker SP.POP.AG23.FE.UN}}}Population, age 23, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG23.MA.UN:SP.POP.AG23.MA.UN{marker SP.POP.AG23.MA.UN}}}Population, age 23, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG23.TO.UN:SP.POP.AG23.TO.UN{marker SP.POP.AG23.TO.UN}}}Population, age 23, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG24.FE.UN:SP.POP.AG24.FE.UN{marker SP.POP.AG24.FE.UN}}}Population, age 24, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG24.MA.UN:SP.POP.AG24.MA.UN{marker SP.POP.AG24.MA.UN}}}Population, age 24, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG24.TO.UN:SP.POP.AG24.TO.UN{marker SP.POP.AG24.TO.UN}}}Population, age 24, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG25.FE.UN:SP.POP.AG25.FE.UN{marker SP.POP.AG25.FE.UN}}}Population, age 25, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG25.MA.UN:SP.POP.AG25.MA.UN{marker SP.POP.AG25.MA.UN}}}Population, age 25, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.POP.AG25.TO.UN:SP.POP.AG25.TO.UN{marker SP.POP.AG25.TO.UN}}}Population, age 25, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.PRE.TOTL.FE.IN:SP.PRE.TOTL.FE.IN{marker SP.PRE.TOTL.FE.IN}}}School age population, pre-primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.PRE.TOTL.IN:SP.PRE.TOTL.IN{marker SP.PRE.TOTL.IN}}}School age population, pre-primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.PRE.TOTL.MA.IN:SP.PRE.TOTL.MA.IN{marker SP.PRE.TOTL.MA.IN}}}School age population, pre-primary education, male (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.PRM.GRAD.FE:SP.PRM.GRAD.FE{marker SP.PRM.GRAD.FE}}}School age population, last grade of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.PRM.GRAD.MA:SP.PRM.GRAD.MA{marker SP.PRM.GRAD.MA}}}School age population, last grade of primary education, male (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.PRM.GRAD.TO:SP.PRM.GRAD.TO{marker SP.PRM.GRAD.TO}}}School age population, last grade of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.PRM.TOTL.FE.IN:SP.PRM.TOTL.FE.IN{marker SP.PRM.TOTL.FE.IN}}}School age population, primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.PRM.TOTL.IN:SP.PRM.TOTL.IN{marker SP.PRM.TOTL.IN}}}School age population, primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.PRM.TOTL.MA.IN:SP.PRM.TOTL.MA.IN{marker SP.PRM.TOTL.MA.IN}}}School age population, primary education, male (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.SEC.LTOT.FE.IN:SP.SEC.LTOT.FE.IN{marker SP.SEC.LTOT.FE.IN}}}School age population, lower secondary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.SEC.LTOT.IN:SP.SEC.LTOT.IN{marker SP.SEC.LTOT.IN}}}School age population, lower secondary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.SEC.LTOT.MA.IN:SP.SEC.LTOT.MA.IN{marker SP.SEC.LTOT.MA.IN}}}School age population, lower secondary education, male (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.SEC.TOTL.FE.IN:SP.SEC.TOTL.FE.IN{marker SP.SEC.TOTL.FE.IN}}}School age population, secondary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.SEC.TOTL.IN:SP.SEC.TOTL.IN{marker SP.SEC.TOTL.IN}}}School age population, secondary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.SEC.TOTL.MA.IN:SP.SEC.TOTL.MA.IN{marker SP.SEC.TOTL.MA.IN}}}School age population, secondary education, male (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.SEC.UTOT.FE.IN:SP.SEC.UTOT.FE.IN{marker SP.SEC.UTOT.FE.IN}}}School age population, upper secondary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.SEC.UTOT.IN:SP.SEC.UTOT.IN{marker SP.SEC.UTOT.IN}}}School age population, upper secondary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.SEC.UTOT.MA.IN:SP.SEC.UTOT.MA.IN{marker SP.SEC.UTOT.MA.IN}}}School age population, upper secondary education, male (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.TER.TOTL.FE.IN:SP.TER.TOTL.FE.IN{marker SP.TER.TOTL.FE.IN}}}School age population, tertiary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.TER.TOTL.IN:SP.TER.TOTL.IN{marker SP.TER.TOTL.IN}}}School age population, tertiary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SP.TER.TOTL.MA.IN:SP.TER.TOTL.MA.IN{marker SP.TER.TOTL.MA.IN}}}School age population, tertiary education, male (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.AFR.SCHCENRESPR.1.PU:UIS.AFR.SCHCENRESPR.1.PU{marker UIS.AFR.SCHCENRESPR.1.PU}}}Africa Dataset: School census return rate from primary schools{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.AFR.SCHCENRESPR.23.PU:UIS.AFR.SCHCENRESPR.23.PU{marker UIS.AFR.SCHCENRESPR.23.PU}}}Africa Dataset: School census return rate from secondary schools{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.AIR.1.GPI:UIS.AIR.1.GPI{marker UIS.AIR.1.GPI}}}Gross intake ratio to Grade 1 of primary education, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.AIR.1.Glast.GPI:UIS.AIR.1.Glast.GPI{marker UIS.AIR.1.Glast.GPI}}}Primary completion rate, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.AIR.2.GPV:UIS.AIR.2.GPV{marker UIS.AIR.2.GPV}}}Gross intake ratio to Grade 1 of lower secondary general education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.AIR.2.GPV.F:UIS.AIR.2.GPV.F{marker UIS.AIR.2.GPV.F}}}Gross intake ratio to Grade 1 of lower secondary general education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.AIR.2.GPV.M:UIS.AIR.2.GPV.M{marker UIS.AIR.2.GPV.M}}}Gross intake ratio to Grade 1 of lower secondary general education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.CEAge.1:UIS.CEAge.1{marker UIS.CEAge.1}}}Official entrance age to compulsory education (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G1:UIS.DR.1.G1{marker UIS.DR.1.G1}}}Drop-out rate from Grade 1 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G1.F:UIS.DR.1.G1.F{marker UIS.DR.1.G1.F}}}Drop-out rate from Grade 1 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G1.M:UIS.DR.1.G1.M{marker UIS.DR.1.G1.M}}}Drop-out rate from Grade 1 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G2:UIS.DR.1.G2{marker UIS.DR.1.G2}}}Drop-out rate from Grade 2 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G2.F:UIS.DR.1.G2.F{marker UIS.DR.1.G2.F}}}Drop-out rate from Grade 2 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G2.M:UIS.DR.1.G2.M{marker UIS.DR.1.G2.M}}}Drop-out rate from Grade 2 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G3:UIS.DR.1.G3{marker UIS.DR.1.G3}}}Drop-out rate from Grade 3 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G3.F:UIS.DR.1.G3.F{marker UIS.DR.1.G3.F}}}Drop-out rate from Grade 3 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G3.M:UIS.DR.1.G3.M{marker UIS.DR.1.G3.M}}}Drop-out rate from Grade 3 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G4:UIS.DR.1.G4{marker UIS.DR.1.G4}}}Drop-out rate from Grade 4 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G4.F:UIS.DR.1.G4.F{marker UIS.DR.1.G4.F}}}Drop-out rate from Grade 4 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G4.M:UIS.DR.1.G4.M{marker UIS.DR.1.G4.M}}}Drop-out rate from Grade 4 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G5:UIS.DR.1.G5{marker UIS.DR.1.G5}}}Drop-out rate from Grade 5 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G5.F:UIS.DR.1.G5.F{marker UIS.DR.1.G5.F}}}Drop-out rate from Grade 5 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G5.M:UIS.DR.1.G5.M{marker UIS.DR.1.G5.M}}}Drop-out rate from Grade 5 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G6:UIS.DR.1.G6{marker UIS.DR.1.G6}}}Drop-out rate from Grade 6 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G6.F:UIS.DR.1.G6.F{marker UIS.DR.1.G6.F}}}Drop-out rate from Grade 6 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.DR.1.G6.M:UIS.DR.1.G6.M{marker UIS.DR.1.G6.M}}}Drop-out rate from Grade 6 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.0.Pu.F:UIS.E.0.Pu.F{marker UIS.E.0.Pu.F}}}Enrolment in early childhood education, public institutions, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.G1:UIS.E.1.G1{marker UIS.E.1.G1}}}Enrolment in Grade 1 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.G1.F:UIS.E.1.G1.F{marker UIS.E.1.G1.F}}}Enrolment in Grade 1 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.G2:UIS.E.1.G2{marker UIS.E.1.G2}}}Enrolment in Grade 2 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.G2.F:UIS.E.1.G2.F{marker UIS.E.1.G2.F}}}Enrolment in Grade 2 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.G3:UIS.E.1.G3{marker UIS.E.1.G3}}}Enrolment in Grade 3 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.G3.F:UIS.E.1.G3.F{marker UIS.E.1.G3.F}}}Enrolment in Grade 3 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.G4:UIS.E.1.G4{marker UIS.E.1.G4}}}Enrolment in Grade 4 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.G4.F:UIS.E.1.G4.F{marker UIS.E.1.G4.F}}}Enrolment in Grade 4 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.G5:UIS.E.1.G5{marker UIS.E.1.G5}}}Enrolment in Grade 5 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.G5.F:UIS.E.1.G5.F{marker UIS.E.1.G5.F}}}Enrolment in Grade 5 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.G6:UIS.E.1.G6{marker UIS.E.1.G6}}}Enrolment in Grade 6 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.G6.F:UIS.E.1.G6.F{marker UIS.E.1.G6.F}}}Enrolment in Grade 6 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.G7:UIS.E.1.G7{marker UIS.E.1.G7}}}Enrolment in Grade 7 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.G7.F:UIS.E.1.G7.F{marker UIS.E.1.G7.F}}}Enrolment in Grade 7 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.Guk:UIS.E.1.Guk{marker UIS.E.1.Guk}}}Enrolment in primary education, Grade unspecified, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.Guk.F:UIS.E.1.Guk.F{marker UIS.E.1.Guk.F}}}Enrolment in primary education, Grade unspecified, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.PR:UIS.E.1.PR{marker UIS.E.1.PR}}}Enrolment in primary education, private institutions, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.Pu:UIS.E.1.Pu{marker UIS.E.1.Pu}}}Enrolment in primary education, public institutions, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.1.Pu.F:UIS.E.1.Pu.F{marker UIS.E.1.Pu.F}}}Enrolment in primary education, public institutions, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2:UIS.E.2{marker UIS.E.2}}}Enrolment in lower secondary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.F:UIS.E.2.F{marker UIS.E.2.F}}}Enrolment in lower secondary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.GPV:UIS.E.2.GPV{marker UIS.E.2.GPV}}}Enrolment in lower secondary general, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.GPV.F:UIS.E.2.GPV.F{marker UIS.E.2.GPV.F}}}Enrolment in lower secondary general, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.GPV.G1.F:UIS.E.2.GPV.G1.F{marker UIS.E.2.GPV.G1.F}}}Enrolment in Grade 1 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.GPV.G1.T:UIS.E.2.GPV.G1.T{marker UIS.E.2.GPV.G1.T}}}Enrolment in Grade 1 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.GPV.G2.F:UIS.E.2.GPV.G2.F{marker UIS.E.2.GPV.G2.F}}}Enrolment in Grade 2 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.GPV.G2.T:UIS.E.2.GPV.G2.T{marker UIS.E.2.GPV.G2.T}}}Enrolment in Grade 2 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.GPV.G3.F:UIS.E.2.GPV.G3.F{marker UIS.E.2.GPV.G3.F}}}Enrolment in Grade 3 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.GPV.G3.T:UIS.E.2.GPV.G3.T{marker UIS.E.2.GPV.G3.T}}}Enrolment in Grade 3 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.GPV.G4.F:UIS.E.2.GPV.G4.F{marker UIS.E.2.GPV.G4.F}}}Enrolment in Grade 4 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.GPV.G4.T:UIS.E.2.GPV.G4.T{marker UIS.E.2.GPV.G4.T}}}Enrolment in Grade 4 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.GPV.G5.F:UIS.E.2.GPV.G5.F{marker UIS.E.2.GPV.G5.F}}}Enrolment in Grade 5 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.GPV.G5.T:UIS.E.2.GPV.G5.T{marker UIS.E.2.GPV.G5.T}}}Enrolment in Grade 5 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.GPV.GUK.F:UIS.E.2.GPV.GUK.F{marker UIS.E.2.GPV.GUK.F}}}Enrolment in lower secondary general education, Grade unspecified, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.GPV.GUK.T:UIS.E.2.GPV.GUK.T{marker UIS.E.2.GPV.GUK.T}}}Enrolment in lower secondary general education, Grade unspecified, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.PU:UIS.E.2.PU{marker UIS.E.2.PU}}}Enrolment in lower secondary education, public institutions, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.PU.F:UIS.E.2.PU.F{marker UIS.E.2.PU.F}}}Enrolment in lower secondary education, public institutions, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.V:UIS.E.2.V{marker UIS.E.2.V}}}Enrolment in lower secondary vocational, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.2.V.F:UIS.E.2.V.F{marker UIS.E.2.V.F}}}Enrolment in lower secondary vocational, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.23.PR:UIS.E.23.PR{marker UIS.E.23.PR}}}Enrolment in secondary education, private institutions, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.23.PU:UIS.E.23.PU{marker UIS.E.23.PU}}}Enrolment in secondary education, public institutions, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.23.PU.F:UIS.E.23.PU.F{marker UIS.E.23.PU.F}}}Enrolment in secondary education, public institutions, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.3:UIS.E.3{marker UIS.E.3}}}Enrolment in upper secondary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.3.F:UIS.E.3.F{marker UIS.E.3.F}}}Enrolment in upper secondary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.3.GPV:UIS.E.3.GPV{marker UIS.E.3.GPV}}}Enrolment in upper secondary general, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.3.GPV.F:UIS.E.3.GPV.F{marker UIS.E.3.GPV.F}}}Enrolment in upper secondary general, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.3.PU:UIS.E.3.PU{marker UIS.E.3.PU}}}Enrolment in upper secondary education, public institutions, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.3.PU.F:UIS.E.3.PU.F{marker UIS.E.3.PU.F}}}Enrolment in upper secondary education, public institutions, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.3.V:UIS.E.3.V{marker UIS.E.3.V}}}Enrolment in upper secondary vocational, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.3.V.F:UIS.E.3.V.F{marker UIS.E.3.V.F}}}Enrolment in upper secondary vocational, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.4:UIS.E.4{marker UIS.E.4}}}Enrolment in post-secondary non-tertiary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.4.F:UIS.E.4.F{marker UIS.E.4.F}}}Enrolment in post-secondary non-tertiary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.4.PU:UIS.E.4.PU{marker UIS.E.4.PU}}}Enrolment in post-secondary non-tertiary education, public institutions, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.4.PU.F:UIS.E.4.PU.F{marker UIS.E.4.PU.F}}}Enrolment in post-secondary non-tertiary education, public institutions, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.6:UIS.E.6{marker UIS.E.6}}}Enrolment in tertiary education, ISCED 6 programmes, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.6.F:UIS.E.6.F{marker UIS.E.6.F}}}Enrolment in tertiary education, ISCED 6 programmes, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.7:UIS.E.7{marker UIS.E.7}}}Enrolment in tertiary education, ISCED 7 programmes, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.7.F:UIS.E.7.F{marker UIS.E.7.F}}}Enrolment in tertiary education, ISCED 7 programmes, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.8:UIS.E.8{marker UIS.E.8}}}Enrolment in tertiary education, ISCED 8 programmes, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.E.8.F:UIS.E.8.F{marker UIS.E.8.F}}}Enrolment in tertiary education, ISCED 8 programmes, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ECDP.1:UIS.ECDP.1{marker UIS.ECDP.1}}}Percentage of new entrants to Grade 1 of primary education with early childhood education experience, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ECDP.1.F:UIS.ECDP.1.F{marker UIS.ECDP.1.F}}}Percentage of new entrants to Grade 1 of primary education with early childhood education experience, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ECDP.1.GPI:UIS.ECDP.1.GPI{marker UIS.ECDP.1.GPI}}}Percentage of new entrants to Grade 1 of primary education with early childhood education experience, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ECDP.1.M:UIS.ECDP.1.M{marker UIS.ECDP.1.M}}}Percentage of new entrants to Grade 1 of primary education with early childhood education experience, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FEP.4:UIS.FEP.4{marker UIS.FEP.4}}}Percentage of students in post-secondary non-tertiary education who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FEP.5.B:UIS.FEP.5.B{marker UIS.FEP.5.B}}}Percentage of students in tertiary ISCED 5 programmes who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FEP.56.FOREIGN:UIS.FEP.56.FOREIGN{marker UIS.FEP.56.FOREIGN}}}Percentage of all inbound internationally mobile students in tertiary education in the host country who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FEP.6:UIS.FEP.6{marker UIS.FEP.6}}}Percentage of students in tertiary ISCED 6 programmes who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FEP.7:UIS.FEP.7{marker UIS.FEP.7}}}Percentage of students in tertiary ISCED 7 programmes who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FEP.8:UIS.FEP.8{marker UIS.FEP.8}}}Percentage of students in tertiary ISCED 8 programmes who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FGP.5T8.F400:UIS.FGP.5T8.F400{marker UIS.FGP.5T8.F400}}}Percentage of graduates from Business, Administration and Law programmes in tertiary education who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FGP.5T8.F600:UIS.FGP.5T8.F600{marker UIS.FGP.5T8.F600}}}Percentage of graduates from Information and Communication Technologies programmes in tertiary education who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FGP.5T8.FNON500600700:UIS.FGP.5T8.FNON500600700{marker UIS.FGP.5T8.FNON500600700}}}Percentage of graduates from other fields than Science, Technology, Engineering and Mathematics programmes in tertiary education who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FGP.7:UIS.FGP.7{marker UIS.FGP.7}}}Percentage of graduates from tertiary ISCED 7 programmes who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FGP.8:UIS.FGP.8{marker UIS.FGP.8}}}Percentage of graduates from tertiary ISCED 8 programmes who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.F140:UIS.FOSEP.56.F140{marker UIS.FOSEP.56.F140}}}Percentage of students in tertiary education enrolled in Education programmes, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.F140.F:UIS.FOSEP.56.F140.F{marker UIS.FOSEP.56.F140.F}}}Percentage of students in tertiary education enrolled in Education programmes, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.F200:UIS.FOSEP.56.F200{marker UIS.FOSEP.56.F200}}}Percentage of students in tertiary education enrolled in Arts and Humanities programmes, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.F200.F:UIS.FOSEP.56.F200.F{marker UIS.FOSEP.56.F200.F}}}Percentage of students in tertiary education enrolled in Arts and Humanities programmes, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.F300:UIS.FOSEP.56.F300{marker UIS.FOSEP.56.F300}}}Percentage of students in tertiary education enrolled in Social Sciences, Journalism and Information programmes, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.F300.F:UIS.FOSEP.56.F300.F{marker UIS.FOSEP.56.F300.F}}}Percentage of students in tertiary education enrolled in Social Sciences, Journalism and Information programmes, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.F400:UIS.FOSEP.56.F400{marker UIS.FOSEP.56.F400}}}Percentage of students in tertiary education enrolled in Business, Administration and Law programmes, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.F400.F:UIS.FOSEP.56.F400.F{marker UIS.FOSEP.56.F400.F}}}Percentage of students in tertiary education enrolled in Business, Administration and Law programmes, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.F500:UIS.FOSEP.56.F500{marker UIS.FOSEP.56.F500}}}Percentage of students in tertiary education enrolled in Natural Sciences, Mathematics and Statistics programmes, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.F500.F:UIS.FOSEP.56.F500.F{marker UIS.FOSEP.56.F500.F}}}Percentage of students in tertiary education enrolled in Natural Sciences, Mathematics and Statistics programmes, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.F600:UIS.FOSEP.56.F600{marker UIS.FOSEP.56.F600}}}Percentage of students in tertiary education enrolled in Information and Communication Technologies programmes, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.F600.F:UIS.FOSEP.56.F600.F{marker UIS.FOSEP.56.F600.F}}}Percentage of students in tertiary education enrolled in Information and Communication Technologies programmes, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.F700:UIS.FOSEP.56.F700{marker UIS.FOSEP.56.F700}}}Percentage of students in tertiary education enrolled in Engineering, Manufacturing and Construction programmes, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.F700.F:UIS.FOSEP.56.F700.F{marker UIS.FOSEP.56.F700.F}}}Percentage of students in tertiary education enrolled in Engineering, Manufacturing and Construction programmes, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.F800:UIS.FOSEP.56.F800{marker UIS.FOSEP.56.F800}}}Percentage of students in tertiary education enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.F800.F:UIS.FOSEP.56.F800.F{marker UIS.FOSEP.56.F800.F}}}Percentage of students in tertiary education enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.FUK:UIS.FOSEP.56.FUK{marker UIS.FOSEP.56.FUK}}}Percentage of students in tertiary education enrolled in programmes in unspecified fields, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FOSEP.56.FUK.F:UIS.FOSEP.56.FUK.F{marker UIS.FOSEP.56.FUK.F}}}Percentage of students in tertiary education enrolled in unspecified fields, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FTP.2:UIS.FTP.2{marker UIS.FTP.2}}}Percentage of teachers in lower secondary education who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FTP.3:UIS.FTP.3{marker UIS.FTP.3}}}Percentage of teachers in upper secondary education who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.FTP.4:UIS.FTP.4{marker UIS.FTP.4}}}Percentage of teachers in post-secondary non-tertiary education who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.G.7.F:UIS.G.7.F{marker UIS.G.7.F}}}Graduates from ISCED 7 programmes in tertiary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.G.7.T:UIS.G.7.T{marker UIS.G.7.T}}}Graduates from ISCED 7 programmes in tertiary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.G.8.F:UIS.G.8.F{marker UIS.G.8.F}}}Graduates from ISCED 8 programmes in tertiary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.G.8.T:UIS.G.8.T{marker UIS.G.8.T}}}Graduates from ISCED 8 programmes in tertiary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.0.GPI:UIS.GER.0.GPI{marker UIS.GER.0.GPI}}}Gross enrolment ratio, pre-primary, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.123:UIS.GER.123{marker UIS.GER.123}}}Gross enrolment ratio, primary and secondary, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.123.F:UIS.GER.123.F{marker UIS.GER.123.F}}}Gross enrolment ratio, primary and secondary, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.123.M:UIS.GER.123.M{marker UIS.GER.123.M}}}Gross enrolment ratio, primary and secondary, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.1t6.F:UIS.GER.1t6.F{marker UIS.GER.1t6.F}}}Gross enrolment ratio, primary to tertiary, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.1t6.GPI:UIS.GER.1t6.GPI{marker UIS.GER.1t6.GPI}}}Gross enrolment ratio, primary to tertiary, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.1t6.M:UIS.GER.1t6.M{marker UIS.GER.1t6.M}}}Gross enrolment ratio, primary to tertiary, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.2.GPI:UIS.GER.2.GPI{marker UIS.GER.2.GPI}}}Gross enrolment ratio, lower secondary, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GER.3.GPI:UIS.GER.3.GPI{marker UIS.GER.3.GPI}}}Gross enrolment ratio, upper secondary, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GGR.1.GPI:UIS.GGR.1.GPI{marker UIS.GGR.1.GPI}}}Gross graduation ratio from primary education, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GGR.2:UIS.GGR.2{marker UIS.GGR.2}}}Gross graduation ratio from lower secondary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GGR.2.F:UIS.GGR.2.F{marker UIS.GGR.2.F}}}Gross graduation ratio from lower secondary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GGR.2.M:UIS.GGR.2.M{marker UIS.GGR.2.M}}}Gross graduation ratio from lower secondary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GGR.5.A.GPI:UIS.GGR.5.A.GPI{marker UIS.GGR.5.A.GPI}}}Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GOER.56:UIS.GOER.56{marker UIS.GOER.56}}}Gross outbound enrolment ratio, all regions, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GTVP.2.V:UIS.GTVP.2.V{marker UIS.GTVP.2.V}}}Share of all students in lower secondary education enrolled in vocational programmes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.GTVP.3.V:UIS.GTVP.3.V{marker UIS.GTVP.3.V}}}Share of all students in upper secondary education enrolled in vocational programmes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.LP.AG15T24:UIS.LP.AG15T24{marker UIS.LP.AG15T24}}}Youth illiterate population, 15-24 years, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.LP.AG15T24.F:UIS.LP.AG15T24.F{marker UIS.LP.AG15T24.F}}}Youth illiterate population, 15-24 years, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.LP.AG15T24.M:UIS.LP.AG15T24.M{marker UIS.LP.AG15T24.M}}}Youth illiterate population, 15-24 years, male (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.LP.AG15T99:UIS.LP.AG15T99{marker UIS.LP.AG15T99}}}Adult illiterate population, 15+ years, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.LP.AG15T99.F:UIS.LP.AG15T99.F{marker UIS.LP.AG15T99.F}}}Adult illiterate population, 15+ years, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.LP.AG15T99.M:UIS.LP.AG15T99.M{marker UIS.LP.AG15T99.M}}}Adult illiterate population, 15+ years, male (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.LPP.AG15T24:UIS.LPP.AG15T24{marker UIS.LPP.AG15T24}}}Youth illiterate population, 15-24 years, % female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.LPP.AG15T99:UIS.LPP.AG15T99{marker UIS.LPP.AG15T99}}}Adult illiterate population, 15+ years, % female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.LR.AG15T99.GPI:UIS.LR.AG15T99.GPI{marker UIS.LR.AG15T99.GPI}}}Adult literacy rate, population 15+ years, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.MS.56.F:UIS.MS.56.F{marker UIS.MS.56.F}}}Total inbound internationally mobile students, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.MS.56.T:UIS.MS.56.T{marker UIS.MS.56.T}}}Total inbound internationally mobile students, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.MSEP.56:UIS.MSEP.56{marker UIS.MSEP.56}}}Inbound mobility rate, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NE.1.ECD:UIS.NE.1.ECD{marker UIS.NE.1.ECD}}}New entrants to Grade 1 of primary education with early childhood education experience, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NE.1.ECD.F:UIS.NE.1.ECD.F{marker UIS.NE.1.ECD.F}}}New entrants to Grade 1 of primary education with early childhood education experience, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NE.1.G1:UIS.NE.1.G1{marker UIS.NE.1.G1}}}New entrants to Grade 1 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NE.1.G1.F:UIS.NE.1.G1.F{marker UIS.NE.1.G1.F}}}New entrants to Grade 1 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NER.1.GPI:UIS.NER.1.GPI{marker UIS.NER.1.GPI}}}Net enrolment rate, primary, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NER.23.GPI:UIS.NER.23.GPI{marker UIS.NER.23.GPI}}}Net enrolment rate, secondary, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NERT.1.GPI:UIS.NERT.1.GPI{marker UIS.NERT.1.GPI}}}Total net enrolment rate, primary, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NIR.1.AGM1:UIS.NIR.1.AGM1{marker UIS.NIR.1.AGM1}}}Net intake rate to Grade 1 of primary education by under-age entrants (-1 year), both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NIR.1.AGM1.F:UIS.NIR.1.AGM1.F{marker UIS.NIR.1.AGM1.F}}}Net intake rate to Grade 1 of primary education by under-age entrants (-1 year), female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NIR.1.AGM1.M:UIS.NIR.1.AGM1.M{marker UIS.NIR.1.AGM1.M}}}Net intake rate to Grade 1 of primary education by under-age entrants (-1 year), male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NIR.1.AGP1:UIS.NIR.1.AGP1{marker UIS.NIR.1.AGP1}}}Net intake rate to Grade 1 of primary education by over-age entrants (+1 year), both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NIR.1.AGP1.F:UIS.NIR.1.AGP1.F{marker UIS.NIR.1.AGP1.F}}}Net intake rate to Grade 1 of primary education by over-age entrants (+1 year), female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NIR.1.AGP1.M:UIS.NIR.1.AGP1.M{marker UIS.NIR.1.AGP1.M}}}Net intake rate to Grade 1 of primary education by over-age entrants (+1 year), male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NIR.1.GPI:UIS.NIR.1.GPI{marker UIS.NIR.1.GPI}}}Net intake rate to Grade 1 of primary education, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NIRA.1:UIS.NIRA.1{marker UIS.NIRA.1}}}Adjusted net intake rate to Grade 1 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NIRA.1.F:UIS.NIRA.1.F{marker UIS.NIRA.1.F}}}Adjusted net intake rate to Grade 1 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NIRA.1.GPI:UIS.NIRA.1.GPI{marker UIS.NIRA.1.GPI}}}Adjusted net intake rate to Grade 1 of primary education, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.NIRA.1.M:UIS.NIRA.1.M{marker UIS.NIRA.1.M}}}Adjusted net intake rate to Grade 1 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OAPP.1:UIS.OAPP.1{marker UIS.OAPP.1}}}Over-age enrolment ratio in primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OAPP.1.F:UIS.OAPP.1.F{marker UIS.OAPP.1.F}}}Over-age enrolment ratio in primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OAPP.1.M:UIS.OAPP.1.M{marker UIS.OAPP.1.M}}}Over-age enrolment ratio in primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OE.56.40510:UIS.OE.56.40510{marker UIS.OE.56.40510}}}Total outbound internationally mobile tertiary students studying abroad, all countries, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OFST.2:UIS.OFST.2{marker UIS.OFST.2}}}Out-of-school adolescents of lower secondary school age, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OFST.2.F:UIS.OFST.2.F{marker UIS.OFST.2.F}}}Out-of-school adolescents of lower secondary school age, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OFST.2.M:UIS.OFST.2.M{marker UIS.OFST.2.M}}}Out-of-school adolescents of lower secondary school age, male (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.OMR.56:UIS.OMR.56{marker UIS.OMR.56}}}Outbound mobility ratio, all regions, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.PTRHC.2:UIS.PTRHC.2{marker UIS.PTRHC.2}}}Pupil-teacher ratio in lower secondary education (headcount basis){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.PTRHC.3:UIS.PTRHC.3{marker UIS.PTRHC.3}}}Pupil-teacher ratio in upper secondary education (headcount basis){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1:UIS.R.1{marker UIS.R.1}}}Repeaters in primary education, all grades, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.F:UIS.R.1.F{marker UIS.R.1.F}}}Repeaters in primary education, all grades, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G1:UIS.R.1.G1{marker UIS.R.1.G1}}}Repeaters in Grade 1 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G1.F:UIS.R.1.G1.F{marker UIS.R.1.G1.F}}}Repeaters in Grade 1 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G2:UIS.R.1.G2{marker UIS.R.1.G2}}}Repeaters in Grade 2 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G2.F:UIS.R.1.G2.F{marker UIS.R.1.G2.F}}}Repeaters in Grade 2 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G3:UIS.R.1.G3{marker UIS.R.1.G3}}}Repeaters in Grade 3 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G3.F:UIS.R.1.G3.F{marker UIS.R.1.G3.F}}}Repeaters in Grade 3 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G4:UIS.R.1.G4{marker UIS.R.1.G4}}}Repeaters in Grade 4 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G4.F:UIS.R.1.G4.F{marker UIS.R.1.G4.F}}}Repeaters in Grade 4 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G5:UIS.R.1.G5{marker UIS.R.1.G5}}}Repeaters in Grade 5 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G5.F:UIS.R.1.G5.F{marker UIS.R.1.G5.F}}}Repeaters in Grade 5 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G6:UIS.R.1.G6{marker UIS.R.1.G6}}}Repeaters in Grade 6 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G6.F:UIS.R.1.G6.F{marker UIS.R.1.G6.F}}}Repeaters in Grade 6 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G7:UIS.R.1.G7{marker UIS.R.1.G7}}}Repeaters in Grade 7 of primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.1.G7.F:UIS.R.1.G7.F{marker UIS.R.1.G7.F}}}Repeaters in Grade 7 of primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV:UIS.R.2.GPV{marker UIS.R.2.GPV}}}Repeaters in lower secondary general education, all grades, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.F:UIS.R.2.GPV.F{marker UIS.R.2.GPV.F}}}Repeaters in lower secondary general education, all grades, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G1:UIS.R.2.GPV.G1{marker UIS.R.2.GPV.G1}}}Repeaters in Grade 1 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G1.F:UIS.R.2.GPV.G1.F{marker UIS.R.2.GPV.G1.F}}}Repeaters in Grade 1 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G2:UIS.R.2.GPV.G2{marker UIS.R.2.GPV.G2}}}Repeaters in Grade 2 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G2.F:UIS.R.2.GPV.G2.F{marker UIS.R.2.GPV.G2.F}}}Repeaters in Grade 2 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G3:UIS.R.2.GPV.G3{marker UIS.R.2.GPV.G3}}}Repeaters in Grade 3 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G3.F:UIS.R.2.GPV.G3.F{marker UIS.R.2.GPV.G3.F}}}Repeaters in Grade 3 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G4:UIS.R.2.GPV.G4{marker UIS.R.2.GPV.G4}}}Repeaters in Grade 4 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G4.F:UIS.R.2.GPV.G4.F{marker UIS.R.2.GPV.G4.F}}}Repeaters in Grade 4 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G5:UIS.R.2.GPV.G5{marker UIS.R.2.GPV.G5}}}Repeaters in Grade 5 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G5.F:UIS.R.2.GPV.G5.F{marker UIS.R.2.GPV.G5.F}}}Repeaters in Grade 5 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G6:UIS.R.2.GPV.G6{marker UIS.R.2.GPV.G6}}}Repeaters in Grade 6 of lower secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.R.2.GPV.G6.F:UIS.R.2.GPV.G6.F{marker UIS.R.2.GPV.G6.F}}}Repeaters in Grade 6 of lower secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G1:UIS.REPP.1.G1{marker UIS.REPP.1.G1}}}Percentage of repeaters in Grade 1 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G1.F:UIS.REPP.1.G1.F{marker UIS.REPP.1.G1.F}}}Percentage of repeaters in Grade 1 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G1.M:UIS.REPP.1.G1.M{marker UIS.REPP.1.G1.M}}}Percentage of repeaters in Grade 1 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G2:UIS.REPP.1.G2{marker UIS.REPP.1.G2}}}Percentage of repeaters in Grade 2 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G2.F:UIS.REPP.1.G2.F{marker UIS.REPP.1.G2.F}}}Percentage of repeaters in Grade 2 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G2.M:UIS.REPP.1.G2.M{marker UIS.REPP.1.G2.M}}}Percentage of repeaters in Grade 2 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G3:UIS.REPP.1.G3{marker UIS.REPP.1.G3}}}Percentage of repeaters in Grade 3 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G3.F:UIS.REPP.1.G3.F{marker UIS.REPP.1.G3.F}}}Percentage of repeaters in Grade 3 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G3.M:UIS.REPP.1.G3.M{marker UIS.REPP.1.G3.M}}}Percentage of repeaters in Grade 3 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G4:UIS.REPP.1.G4{marker UIS.REPP.1.G4}}}Percentage of repeaters in Grade 4 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G4.F:UIS.REPP.1.G4.F{marker UIS.REPP.1.G4.F}}}Percentage of repeaters in Grade 4 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G4.M:UIS.REPP.1.G4.M{marker UIS.REPP.1.G4.M}}}Percentage of repeaters in Grade 4 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G5:UIS.REPP.1.G5{marker UIS.REPP.1.G5}}}Percentage of repeaters in Grade 5 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G5.F:UIS.REPP.1.G5.F{marker UIS.REPP.1.G5.F}}}Percentage of repeaters in Grade 5 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G5.M:UIS.REPP.1.G5.M{marker UIS.REPP.1.G5.M}}}Percentage of repeaters in Grade 5 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G6:UIS.REPP.1.G6{marker UIS.REPP.1.G6}}}Percentage of repeaters in Grade 6 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G6.F:UIS.REPP.1.G6.F{marker UIS.REPP.1.G6.F}}}Percentage of repeaters in Grade 6 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G6.M:UIS.REPP.1.G6.M{marker UIS.REPP.1.G6.M}}}Percentage of repeaters in Grade 6 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G7:UIS.REPP.1.G7{marker UIS.REPP.1.G7}}}Percentage of repeaters in Grade 7 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G7.F:UIS.REPP.1.G7.F{marker UIS.REPP.1.G7.F}}}Percentage of repeaters in Grade 7 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.G7.M:UIS.REPP.1.G7.M{marker UIS.REPP.1.G7.M}}}Percentage of repeaters in Grade 7 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.1.GPI:UIS.REPP.1.GPI{marker UIS.REPP.1.GPI}}}Percentage of repeaters in primary education, all grades, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV:UIS.REPP.2.GPV{marker UIS.REPP.2.GPV}}}Percentage of repeaters in lower secondary general education, all grades, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.F:UIS.REPP.2.GPV.F{marker UIS.REPP.2.GPV.F}}}Percentage of repeaters in lower secondary general education, all grades, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G1:UIS.REPP.2.GPV.G1{marker UIS.REPP.2.GPV.G1}}}Percentage of repeaters in Grade 1 of lower secondary general education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G1.F:UIS.REPP.2.GPV.G1.F{marker UIS.REPP.2.GPV.G1.F}}}Percentage of repeaters in Grade 1 of lower secondary general education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G1.M:UIS.REPP.2.GPV.G1.M{marker UIS.REPP.2.GPV.G1.M}}}Percentage of repeaters in Grade 1 of lower secondary general education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G2:UIS.REPP.2.GPV.G2{marker UIS.REPP.2.GPV.G2}}}Percentage of repeaters in Grade 2 of lower secondary general education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G2.F:UIS.REPP.2.GPV.G2.F{marker UIS.REPP.2.GPV.G2.F}}}Percentage of repeaters in Grade 2 of lower secondary general education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G2.M:UIS.REPP.2.GPV.G2.M{marker UIS.REPP.2.GPV.G2.M}}}Percentage of repeaters in Grade 2 of lower secondary general education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G3:UIS.REPP.2.GPV.G3{marker UIS.REPP.2.GPV.G3}}}Percentage of repeaters in Grade 3 of lower secondary general education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G3.F:UIS.REPP.2.GPV.G3.F{marker UIS.REPP.2.GPV.G3.F}}}Percentage of repeaters in Grade 3 of lower secondary general education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G3.M:UIS.REPP.2.GPV.G3.M{marker UIS.REPP.2.GPV.G3.M}}}Percentage of repeaters in Grade 3 of lower secondary general education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G4:UIS.REPP.2.GPV.G4{marker UIS.REPP.2.GPV.G4}}}Percentage of repeaters in Grade 4 of lower secondary general education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G4.F:UIS.REPP.2.GPV.G4.F{marker UIS.REPP.2.GPV.G4.F}}}Percentage of repeaters in Grade 4 of lower secondary general education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G4.M:UIS.REPP.2.GPV.G4.M{marker UIS.REPP.2.GPV.G4.M}}}Percentage of repeaters in Grade 4 of lower secondary general education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G5:UIS.REPP.2.GPV.G5{marker UIS.REPP.2.GPV.G5}}}Percentage of repeaters in Grade 5 of lower secondary general education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G5.F:UIS.REPP.2.GPV.G5.F{marker UIS.REPP.2.GPV.G5.F}}}Percentage of repeaters in Grade 5 of lower secondary general education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G5.M:UIS.REPP.2.GPV.G5.M{marker UIS.REPP.2.GPV.G5.M}}}Percentage of repeaters in Grade 5 of lower secondary general education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G6:UIS.REPP.2.GPV.G6{marker UIS.REPP.2.GPV.G6}}}Percentage of repeaters in Grade 6 of lower secondary general education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G6.F:UIS.REPP.2.GPV.G6.F{marker UIS.REPP.2.GPV.G6.F}}}Percentage of repeaters in Grade 6 of lower secondary general education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.G6.M:UIS.REPP.2.GPV.G6.M{marker UIS.REPP.2.GPV.G6.M}}}Percentage of repeaters in Grade 6 of lower secondary general education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPP.2.GPV.M:UIS.REPP.2.GPV.M{marker UIS.REPP.2.GPV.M}}}Percentage of repeaters in lower secondary general education, all grades, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G1:UIS.REPR.1.G1{marker UIS.REPR.1.G1}}}Repetition rate in Grade 1 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G1.F:UIS.REPR.1.G1.F{marker UIS.REPR.1.G1.F}}}Repetition rate in Grade 1 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G1.M:UIS.REPR.1.G1.M{marker UIS.REPR.1.G1.M}}}Repetition rate in Grade 1 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G2:UIS.REPR.1.G2{marker UIS.REPR.1.G2}}}Repetition rate in Grade 2 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G2.F:UIS.REPR.1.G2.F{marker UIS.REPR.1.G2.F}}}Repetition rate in Grade 2 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G2.M:UIS.REPR.1.G2.M{marker UIS.REPR.1.G2.M}}}Repetition rate in Grade 2 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G3:UIS.REPR.1.G3{marker UIS.REPR.1.G3}}}Repetition rate in Grade 3 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G3.F:UIS.REPR.1.G3.F{marker UIS.REPR.1.G3.F}}}Repetition rate in Grade 3 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G3.M:UIS.REPR.1.G3.M{marker UIS.REPR.1.G3.M}}}Repetition rate in Grade 3 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G4:UIS.REPR.1.G4{marker UIS.REPR.1.G4}}}Repetition rate in Grade 4 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G4.F:UIS.REPR.1.G4.F{marker UIS.REPR.1.G4.F}}}Repetition rate in Grade 4 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G4.M:UIS.REPR.1.G4.M{marker UIS.REPR.1.G4.M}}}Repetition rate in Grade 4 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G5:UIS.REPR.1.G5{marker UIS.REPR.1.G5}}}Repetition rate in Grade 5 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G5.F:UIS.REPR.1.G5.F{marker UIS.REPR.1.G5.F}}}Repetition rate in Grade 5 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G5.M:UIS.REPR.1.G5.M{marker UIS.REPR.1.G5.M}}}Repetition rate in Grade 5 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G6:UIS.REPR.1.G6{marker UIS.REPR.1.G6}}}Repetition rate in Grade 6 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G6.F:UIS.REPR.1.G6.F{marker UIS.REPR.1.G6.F}}}Repetition rate in Grade 6 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G6.M:UIS.REPR.1.G6.M{marker UIS.REPR.1.G6.M}}}Repetition rate in Grade 6 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G7:UIS.REPR.1.G7{marker UIS.REPR.1.G7}}}Repetition rate in Grade 7 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G7.F:UIS.REPR.1.G7.F{marker UIS.REPR.1.G7.F}}}Repetition rate in Grade 7 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.REPR.1.G7.M:UIS.REPR.1.G7.M{marker UIS.REPR.1.G7.M}}}Repetition rate in Grade 7 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFST.1:UIS.ROFST.1{marker UIS.ROFST.1}}}Rate of out-of-school children of primary school age, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFST.1.F:UIS.ROFST.1.F{marker UIS.ROFST.1.F}}}Rate of out-of-school children of primary school age, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFST.1.M:UIS.ROFST.1.M{marker UIS.ROFST.1.M}}}Rate of out-of-school children of primary school age, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFST.2:UIS.ROFST.2{marker UIS.ROFST.2}}}Rate of out-of-school adolescents of lower secondary school age, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFST.2.F:UIS.ROFST.2.F{marker UIS.ROFST.2.F}}}Rate of out-of-school adolescents of lower secondary school age, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.ROFST.2.M:UIS.ROFST.2.M{marker UIS.ROFST.2.M}}}Rate of out-of-school adolescents of lower secondary school age, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SAP.1.G1:UIS.SAP.1.G1{marker UIS.SAP.1.G1}}}Population of the official entrance age to primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SAP.1.G1.F:UIS.SAP.1.G1.F{marker UIS.SAP.1.G1.F}}}Population of the official entrance age to primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SAP.1.G1.M:UIS.SAP.1.G1.M{marker UIS.SAP.1.G1.M}}}Population of the official entrance age to primary education, male (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SAP.4:UIS.SAP.4{marker UIS.SAP.4}}}School age population, post-secondary non-tertiary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SAP.4.F:UIS.SAP.4.F{marker UIS.SAP.4.F}}}School age population, post-secondary non-tertiary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SAP.4.M:UIS.SAP.4.M{marker UIS.SAP.4.M}}}School age population, post-secondary non-tertiary education, male (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.123:UIS.SLE.123{marker UIS.SLE.123}}}School life expectancy, primary and secondary, both sexes (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.123.F:UIS.SLE.123.F{marker UIS.SLE.123.F}}}School life expectancy, primary and secondary, female (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.123.GPI:UIS.SLE.123.GPI{marker UIS.SLE.123.GPI}}}School life expectancy, primary and secondary, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.123.M:UIS.SLE.123.M{marker UIS.SLE.123.M}}}School life expectancy, primary and secondary, male (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.1t6.GPI:UIS.SLE.1t6.GPI{marker UIS.SLE.1t6.GPI}}}School life expectancy, primary to tertiary, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.56:UIS.SLE.56{marker UIS.SLE.56}}}School life expectancy, tertiary, both sexes (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.56.F:UIS.SLE.56.F{marker UIS.SLE.56.F}}}School life expectancy, tertiary, female (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.56.GPI:UIS.SLE.56.GPI{marker UIS.SLE.56.GPI}}}School life expectancy, tertiary, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLE.56.M:UIS.SLE.56.M{marker UIS.SLE.56.M}}}School life expectancy, tertiary, male (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLEN.12.F:UIS.SLEN.12.F{marker UIS.SLEN.12.F}}}School life expectancy, primary and lower secondary (excluding repetition), female (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLEN.12.GPI:UIS.SLEN.12.GPI{marker UIS.SLEN.12.GPI}}}School life expectancy, primary and lower secondary (excluding repetition), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLEN.12.M:UIS.SLEN.12.M{marker UIS.SLEN.12.M}}}School life expectancy, primary and lower secondary (excluding repetition), male (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SLEN.12.T:UIS.SLEN.12.T{marker UIS.SLEN.12.T}}}School life expectancy, primary and lower secondary (excluding repetition), both sexes (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SR.1.G4:UIS.SR.1.G4{marker UIS.SR.1.G4}}}Survival rate to Grade 4 of primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SR.1.G4.F:UIS.SR.1.G4.F{marker UIS.SR.1.G4.F}}}Survival rate to Grade 4 of primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SR.1.G4.GPI:UIS.SR.1.G4.GPI{marker UIS.SR.1.G4.GPI}}}Survival rate to Grade 4 of primary education, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SR.1.G4.M:UIS.SR.1.G4.M{marker UIS.SR.1.G4.M}}}Survival rate to Grade 4 of primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SR.1.G5.GPI:UIS.SR.1.G5.GPI{marker UIS.SR.1.G5.GPI}}}Survival rate to Grade 5 of primary education, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SR.1.GLAST.GPI:UIS.SR.1.GLAST.GPI{marker UIS.SR.1.GLAST.GPI}}}Survival rate to the last grade of primary education, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SR.2.GPV.GLAST.CP.F:UIS.SR.2.GPV.GLAST.CP.F{marker UIS.SR.2.GPV.GLAST.CP.F}}}Survival rate to the last grade of lower secondary general education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SR.2.GPV.GLAST.CP.M:UIS.SR.2.GPV.GLAST.CP.M{marker UIS.SR.2.GPV.GLAST.CP.M}}}Survival rate to the last grade of lower secondary general education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SR.2.GPV.GLAST.CP.T:UIS.SR.2.GPV.GLAST.CP.T{marker UIS.SR.2.GPV.GLAST.CP.T}}}Survival rate to the last grade of lower secondary general education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.SR.2.GPV.GLAST.GPI:UIS.SR.2.GPV.GLAST.GPI{marker UIS.SR.2.GPV.GLAST.GPI}}}Survival rate to the last grade of lower secondary general education, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.2:UIS.T.2{marker UIS.T.2}}}Teachers in lower secondary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.2.F:UIS.T.2.F{marker UIS.T.2.F}}}Teachers in lower secondary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.23.GPV:UIS.T.23.GPV{marker UIS.T.23.GPV}}}Teachers in secondary general education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.23.GPV.F:UIS.T.23.GPV.F{marker UIS.T.23.GPV.F}}}Teachers in secondary general education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.23.V:UIS.T.23.V{marker UIS.T.23.V}}}Teachers in secondary vocational education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.23.V.F:UIS.T.23.V.F{marker UIS.T.23.V.F}}}Teachers in secondary vocational education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.3:UIS.T.3{marker UIS.T.3}}}Teachers in upper secondary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.3.F:UIS.T.3.F{marker UIS.T.3.F}}}Teachers in upper secondary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.4:UIS.T.4{marker UIS.T.4}}}Teachers in post-secondary non-tertiary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.T.4.F:UIS.T.4.F{marker UIS.T.4.F}}}Teachers in post-secondary non-tertiary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TEP.5.B:UIS.TEP.5.B{marker UIS.TEP.5.B}}}Share of all students in tertiary education enrolled in ISCED 5 (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TEP.6:UIS.TEP.6{marker UIS.TEP.6}}}Share of all students in tertiary education enrolled in ISCED 6 (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TEP.7:UIS.TEP.7{marker UIS.TEP.7}}}Share of all students in tertiary education enrolled in ISCED 7 (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TEP.7.F:UIS.TEP.7.F{marker UIS.TEP.7.F}}}Share of female students in tertiary education enrolled in ISCED 7 (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TEP.7.M:UIS.TEP.7.M{marker UIS.TEP.7.M}}}Share of male students in tertiary education enrolled in ISCED 7 (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TEP.8:UIS.TEP.8{marker UIS.TEP.8}}}Share of all students in tertiary education enrolled in ISCED 8 (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TEP.8.F:UIS.TEP.8.F{marker UIS.TEP.8.F}}}Share of female students in tertiary education enrolled in ISCED 8 (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TEP.8.M:UIS.TEP.8.M{marker UIS.TEP.8.M}}}Share of male students in tertiary education enrolled in ISCED 8 (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRANRA.23.GPV.GPI:UIS.TRANRA.23.GPV.GPI{marker UIS.TRANRA.23.GPV.GPI}}}Effective transition rate from primary to lower secondary general education, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRTP.1.GPI:UIS.TRTP.1.GPI{marker UIS.TRTP.1.GPI}}}Percentage of teachers in primary education who are trained, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRTP.2:UIS.TRTP.2{marker UIS.TRTP.2}}}Percentage of teachers in lower secondary education who are trained, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRTP.2.F:UIS.TRTP.2.F{marker UIS.TRTP.2.F}}}Percentage of female teachers in lower secondary education who are trained, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRTP.2.GPI:UIS.TRTP.2.GPI{marker UIS.TRTP.2.GPI}}}Percentage of teachers in lower secondary education who are trained, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRTP.2.M:UIS.TRTP.2.M{marker UIS.TRTP.2.M}}}Percentage of male teachers in lower secondary education who are trained, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRTP.23.GPI:UIS.TRTP.23.GPI{marker UIS.TRTP.23.GPI}}}Percentage of teachers in secondary education who are trained, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRTP.3:UIS.TRTP.3{marker UIS.TRTP.3}}}Percentage of teachers in upper secondary education who are trained, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRTP.3.F:UIS.TRTP.3.F{marker UIS.TRTP.3.F}}}Percentage of female teachers in upper secondary education who are trained, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRTP.3.GPI:UIS.TRTP.3.GPI{marker UIS.TRTP.3.GPI}}}Percentage of teachers in upper secondary education who are trained, gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.TRTP.3.M:UIS.TRTP.3.M{marker UIS.TRTP.3.M}}}Percentage of male teachers in upper secondary education who are trained, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.UAPP.1:UIS.UAPP.1{marker UIS.UAPP.1}}}Under-age enrolment ratio in primary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.UAPP.1.F:UIS.UAPP.1.F{marker UIS.UAPP.1.F}}}Under-age enrolment ratio in primary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.UAPP.1.M:UIS.UAPP.1.M{marker UIS.UAPP.1.M}}}Under-age enrolment ratio in primary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.XPUBP.0:UIS.XPUBP.0{marker UIS.XPUBP.0}}}Expenditure on pre-primary as % of government expenditure on education (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.XPUBP.2:UIS.XPUBP.2{marker UIS.XPUBP.2}}}Expenditure on lower secondary as % of government expenditure on education (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.XPUBP.3:UIS.XPUBP.3{marker UIS.XPUBP.3}}}Expenditure on upper secondary as % of government expenditure on education (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.XPUBP.4:UIS.XPUBP.4{marker UIS.XPUBP.4}}}Expenditure on post-secondary non-tertiary as % of government expenditure on education (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.XPUBP.UK:UIS.XPUBP.UK{marker UIS.XPUBP.UK}}}Expenditure on education not specified by level as % of government expenditure on education (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.XSPENDP.56.FDPUB.FNCAP:UIS.XSPENDP.56.FDPUB.FNCAP{marker UIS.XSPENDP.56.FDPUB.FNCAP}}}Capital expenditure as % of total expenditure in tertiary public institutions (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.XSPENDP.56.FDPUB.FNCUR:UIS.XSPENDP.56.FDPUB.FNCUR{marker UIS.XSPENDP.56.FDPUB.FNCUR}}}Current expenditure as % of total expenditure in tertiary public institutions (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.XSPENDP.56.FDPUB.FNNONS:UIS.XSPENDP.56.FDPUB.FNNONS{marker UIS.XSPENDP.56.FDPUB.FNNONS}}}Current expenditure other than staff compensation as % of total expenditure in tertiary public institutions (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.XSPENDP.56.FDPUB.FNS:UIS.XSPENDP.56.FDPUB.FNS{marker UIS.XSPENDP.56.FDPUB.FNS}}}All staff compensation as % of total expenditure in tertiary public institutions (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.thAge.0:UIS.thAge.0{marker UIS.thAge.0}}}Official entrance age to pre-primary education (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.thAge.3.A.GPV:UIS.thAge.3.A.GPV{marker UIS.thAge.3.A.GPV}}}Official entrance age to upper secondary education (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.thAge.4.A.GPV:UIS.thAge.4.A.GPV{marker UIS.thAge.4.A.GPV}}}Official entrance age to post-secondary non-tertiary education (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.thDur.0:UIS.thDur.0{marker UIS.thDur.0}}}Theoretical duration of pre-primary education (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_UIS.thDur.4.A.GPV:UIS.thDur.4.A.GPV{marker UIS.thDur.4.A.GPV}}}Theoretical duration of post-secondary non-tertiary education (years){p_end}
 {synoptline}
 
 {marker topicid_05}
@@ -3858,7 +2139,7 @@
 {synopthdr:05 Energy and Mining}
 {synoptline}
 
-{synopt:{help wbopendata_topicid_indicators05##topicid_EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD{marker EG.EGY.PRIM.PP.KD}}}Energy intensity level of primary energy (MJ/$2011 PPP GDP){p_end}
+{synopt:{help wbopendata_topicid_indicators05##topicid_EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD{marker EG.EGY.PRIM.PP.KD}}}Energy intensity level of primary energy (MJ/$2017 PPP GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators05##topicid_EG.ELC.ACCS.RU.ZS:EG.ELC.ACCS.RU.ZS{marker EG.ELC.ACCS.RU.ZS}}}Access to electricity, rural (% of rural population){p_end}
 
@@ -3955,14 +2236,6 @@
 {synopt:{help wbopendata_topicid_indicators05##topicid_NY.GDP.PETR.RT.ZS:NY.GDP.PETR.RT.ZS{marker NY.GDP.PETR.RT.ZS}}}Oil rents (% of GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators05##topicid_NY.GDP.TOTL.RT.ZS:NY.GDP.TOTL.RT.ZS{marker NY.GDP.TOTL.RT.ZS}}}Total natural resources rents (% of GDP){p_end}
-
-{synopt:{help wbopendata_topicid_indicators05##topicid_TM.VAL.FUEL.ZS.UN:TM.VAL.FUEL.ZS.UN{marker TM.VAL.FUEL.ZS.UN}}}Fuel imports (% of merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators05##topicid_TM.VAL.MMTL.ZS.UN:TM.VAL.MMTL.ZS.UN{marker TM.VAL.MMTL.ZS.UN}}}Ores and metals imports (% of merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators05##topicid_TX.VAL.FUEL.ZS.UN:TX.VAL.FUEL.ZS.UN{marker TX.VAL.FUEL.ZS.UN}}}Fuel exports (% of merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators05##topicid_TX.VAL.MMTL.ZS.UN:TX.VAL.MMTL.ZS.UN{marker TX.VAL.MMTL.ZS.UN}}}Ores and metals exports (% of merchandise exports){p_end}
 {synoptline}
 
 {marker topicid_06}
@@ -4001,9 +2274,13 @@
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EE.BOD.TOTL.KG:EE.BOD.TOTL.KG{marker EE.BOD.TOTL.KG}}}Organic water pollutant (BOD) emissions (kg per day){p_end}
 
+{synopt:{help wbopendata_topicid_indicators06##topicid_EG.CFT.ACCS.RU.ZS:EG.CFT.ACCS.RU.ZS{marker EG.CFT.ACCS.RU.ZS}}}Access to clean fuels and technologies for cooking, rural (% of rural population){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EG.CFT.ACCS.UR.ZS:EG.CFT.ACCS.UR.ZS{marker EG.CFT.ACCS.UR.ZS}}}Access to clean fuels and technologies for cooking, urban (% of urban population){p_end}
+
 {synopt:{help wbopendata_topicid_indicators06##topicid_EG.CFT.ACCS.ZS:EG.CFT.ACCS.ZS{marker EG.CFT.ACCS.ZS}}}Access to clean fuels and technologies for cooking (% of population){p_end}
 
-{synopt:{help wbopendata_topicid_indicators06##topicid_EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD{marker EG.EGY.PRIM.PP.KD}}}Energy intensity level of primary energy (MJ/$2011 PPP GDP){p_end}
+{synopt:{help wbopendata_topicid_indicators06##topicid_EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD{marker EG.EGY.PRIM.PP.KD}}}Energy intensity level of primary energy (MJ/$2017 PPP GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EG.ELC.ACCS.ZS:EG.ELC.ACCS.ZS{marker EG.ELC.ACCS.ZS}}}Access to electricity (% of population){p_end}
 
@@ -4025,7 +2302,7 @@
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS{marker EN.ATM.CO2E.GF.ZS}}}CO2 emissions from gaseous fuel consumption (% of total){p_end}
 
-{synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD{marker EN.ATM.CO2E.KD.GD}}}CO2 emissions (kg per 2010 US$ of GDP){p_end}
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD{marker EN.ATM.CO2E.KD.GD}}}CO2 emissions (kg per 2015 US$ of GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.KT:EN.ATM.CO2E.KT{marker EN.ATM.CO2E.KT}}}CO2 emissions (kt){p_end}
 
@@ -4085,6 +2362,12 @@
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.PM25.MC.M3:EN.ATM.PM25.MC.M3{marker EN.ATM.PM25.MC.M3}}}PM2.5 air pollution, mean annual exposure (micrograms per cubic meter){p_end}
 
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.PM25.MC.T1.ZS:EN.ATM.PM25.MC.T1.ZS{marker EN.ATM.PM25.MC.T1.ZS}}}PM2.5 pollution, population exposed to levels exceeding WHO Interim Target-1 value (% of total){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.PM25.MC.T2.ZS:EN.ATM.PM25.MC.T2.ZS{marker EN.ATM.PM25.MC.T2.ZS}}}PM2.5 pollution, population exposed to levels exceeding WHO Interim Target-2 value (% of total){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.PM25.MC.T3.ZS:EN.ATM.PM25.MC.T3.ZS{marker EN.ATM.PM25.MC.T3.ZS}}}PM2.5 pollution, population exposed to levels exceeding WHO Interim Target-3 value (% of total){p_end}
+
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.PM25.MC.ZS:EN.ATM.PM25.MC.ZS{marker EN.ATM.PM25.MC.ZS}}}PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.SF6G.KT.CE:EN.ATM.SF6G.KT.CE{marker EN.ATM.SF6G.KT.CE}}}SF6 gas emissions (thousand metric tons of CO2 equivalent){p_end}
@@ -4127,13 +2410,15 @@
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_ER.FSH.PROD.MT:ER.FSH.PROD.MT{marker ER.FSH.PROD.MT}}}Total fisheries production (metric tons){p_end}
 
-{synopt:{help wbopendata_topicid_indicators06##topicid_ER.GDP.FWTL.M3.KD:ER.GDP.FWTL.M3.KD{marker ER.GDP.FWTL.M3.KD}}}Water productivity, total (constant 2010 US$ GDP per cubic meter of total freshwater withdrawal){p_end}
+{synopt:{help wbopendata_topicid_indicators06##topicid_ER.GDP.FWTL.M3.KD:ER.GDP.FWTL.M3.KD{marker ER.GDP.FWTL.M3.KD}}}Water productivity, total (constant 2015 US$ GDP per cubic meter of total freshwater withdrawal){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_ER.H2O.FWAG.ZS:ER.H2O.FWAG.ZS{marker ER.H2O.FWAG.ZS}}}Annual freshwater withdrawals, agriculture (% of total freshwater withdrawal){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_ER.H2O.FWDM.ZS:ER.H2O.FWDM.ZS{marker ER.H2O.FWDM.ZS}}}Annual freshwater withdrawals, domestic (% of total freshwater withdrawal){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_ER.H2O.FWIN.ZS:ER.H2O.FWIN.ZS{marker ER.H2O.FWIN.ZS}}}Annual freshwater withdrawals, industry (% of total freshwater withdrawal){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_ER.H2O.FWST.ZS:ER.H2O.FWST.ZS{marker ER.H2O.FWST.ZS}}}Level of water stress: freshwater withdrawal as a proportion of available freshwater resources{p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_ER.H2O.FWTL.K3:ER.H2O.FWTL.K3{marker ER.H2O.FWTL.K3}}}Annual freshwater withdrawals, total (billion cubic meters){p_end}
 
@@ -4202,52 +2487,6 @@
 {synopt:{help wbopendata_topicid_indicators06##topicid_NY.GDP.PETR.RT.ZS:NY.GDP.PETR.RT.ZS{marker NY.GDP.PETR.RT.ZS}}}Oil rents (% of GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_NY.GDP.TOTL.RT.ZS:NY.GDP.TOTL.RT.ZS{marker NY.GDP.TOTL.RT.ZS}}}Total natural resources rents (% of GDP){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.H2O.BASW.RU.ZS:SH.H2O.BASW.RU.ZS{marker SH.H2O.BASW.RU.ZS}}}People using at least basic drinking water services, rural (% of rural population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.H2O.BASW.UR.ZS:SH.H2O.BASW.UR.ZS{marker SH.H2O.BASW.UR.ZS}}}People using at least basic drinking water services, urban (% of urban population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.H2O.BASW.ZS:SH.H2O.BASW.ZS{marker SH.H2O.BASW.ZS}}}People using at least basic drinking water services (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.H2O.SMDW.RU.ZS:SH.H2O.SMDW.RU.ZS{marker SH.H2O.SMDW.RU.ZS}}}People using safely managed drinking water services, rural (% of rural population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.H2O.SMDW.UR.ZS:SH.H2O.SMDW.UR.ZS{marker SH.H2O.SMDW.UR.ZS}}}People using safely managed drinking water services, urban (% of urban population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.H2O.SMDW.ZS:SH.H2O.SMDW.ZS{marker SH.H2O.SMDW.ZS}}}People using safely managed drinking water services (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.AIRP.P5:SH.STA.AIRP.P5{marker SH.STA.AIRP.P5}}}Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.BASS.RU.ZS:SH.STA.BASS.RU.ZS{marker SH.STA.BASS.RU.ZS}}}People using at least basic sanitation services, rural (% of rural population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.BASS.UR.ZS:SH.STA.BASS.UR.ZS{marker SH.STA.BASS.UR.ZS}}}People using at least basic sanitation services, urban (% of urban population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.BASS.ZS:SH.STA.BASS.ZS{marker SH.STA.BASS.ZS}}}People using at least basic sanitation services (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.HYGN.RU.ZS:SH.STA.HYGN.RU.ZS{marker SH.STA.HYGN.RU.ZS}}}People with basic handwashing facilities including soap and water, rural (% of rural population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.HYGN.UR.ZS:SH.STA.HYGN.UR.ZS{marker SH.STA.HYGN.UR.ZS}}}People with basic handwashing facilities including soap and water, urban (% of urban population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.HYGN.ZS:SH.STA.HYGN.ZS{marker SH.STA.HYGN.ZS}}}People with basic handwashing facilities including soap and water (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.ODFC.RU.ZS:SH.STA.ODFC.RU.ZS{marker SH.STA.ODFC.RU.ZS}}}People practicing open defecation, rural (% of rural population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.ODFC.UR.ZS:SH.STA.ODFC.UR.ZS{marker SH.STA.ODFC.UR.ZS}}}People practicing open defecation, urban (% of urban population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.ODFC.ZS:SH.STA.ODFC.ZS{marker SH.STA.ODFC.ZS}}}People practicing open defecation (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.POIS.P5:SH.STA.POIS.P5{marker SH.STA.POIS.P5}}}Mortality rate attributed to unintentional poisoning (per 100,000 population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.POIS.P5.FE:SH.STA.POIS.P5.FE{marker SH.STA.POIS.P5.FE}}}Mortality rate attributed to unintentional poisoning, female (per 100,000 female population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.POIS.P5.MA:SH.STA.POIS.P5.MA{marker SH.STA.POIS.P5.MA}}}Mortality rate attributed to unintentional poisoning, male (per 100,000 male population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.SMSS.RU.ZS:SH.STA.SMSS.RU.ZS{marker SH.STA.SMSS.RU.ZS}}}People using safely managed sanitation services, rural (% of rural population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.SMSS.UR.ZS:SH.STA.SMSS.UR.ZS{marker SH.STA.SMSS.UR.ZS}}}People using safely managed sanitation services, urban (% of urban population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.SMSS.ZS:SH.STA.SMSS.ZS{marker SH.STA.SMSS.ZS}}}People using safely managed sanitation services (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.WASH.P5:SH.STA.WASH.P5{marker SH.STA.WASH.P5}}}Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (per 100,000 population){p_end}
 {synoptline}
 
 {marker topicid_07}
@@ -4338,6 +2577,8 @@
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_FM.AST.NFRG.CN:FM.AST.NFRG.CN{marker FM.AST.NFRG.CN}}}Net foreign assets (current LCU){p_end}
 
+{synopt:{help wbopendata_topicid_indicators07##topicid_FM.AST.PRVT.GD.ZS:FM.AST.PRVT.GD.ZS{marker FM.AST.PRVT.GD.ZS}}}Monetary Sector credit to private sector (% GDP){p_end}
+
 {synopt:{help wbopendata_topicid_indicators07##topicid_FM.AST.PRVT.ZG.M2:FM.AST.PRVT.ZG.M2{marker FM.AST.PRVT.ZG.M2}}}Claims on private sector (annual growth as % of M2){p_end}
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_FM.AST.PRVT.ZG.M3:FM.AST.PRVT.ZG.M3{marker FM.AST.PRVT.ZG.M3}}}Claims on private sector (annual growth as % of broad money){p_end}
@@ -4373,6 +2614,24 @@
 {synopt:{help wbopendata_topicid_indicators07##topicid_FS.AST.DOMS.GD.ZS:FS.AST.DOMS.GD.ZS{marker FS.AST.DOMS.GD.ZS}}}Domestic credit provided by financial sector (% of GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_FS.AST.PRVT.GD.ZS:FS.AST.PRVT.GD.ZS{marker FS.AST.PRVT.GD.ZS}}}Domestic credit to private sector (% of GDP){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.40.ZS:FX.OWN.TOTL.40.ZS{marker FX.OWN.TOTL.40.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, poorest 40% (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.60.ZS:FX.OWN.TOTL.60.ZS{marker FX.OWN.TOTL.60.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, richest 60% (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.FE.ZS:FX.OWN.TOTL.FE.ZS{marker FX.OWN.TOTL.FE.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, female (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.MA.ZS:FX.OWN.TOTL.MA.ZS{marker FX.OWN.TOTL.MA.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, male (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.OL.ZS:FX.OWN.TOTL.OL.ZS{marker FX.OWN.TOTL.OL.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, older adults (% of population ages 25+){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.PL.ZS:FX.OWN.TOTL.PL.ZS{marker FX.OWN.TOTL.PL.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, primary education or less (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.SO.ZS:FX.OWN.TOTL.SO.ZS{marker FX.OWN.TOTL.SO.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, secondary education or more (% of population ages 15+){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.YG.ZS:FX.OWN.TOTL.YG.ZS{marker FX.OWN.TOTL.YG.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider, young adults (% of population ages 15-24){p_end}
+
+{synopt:{help wbopendata_topicid_indicators07##topicid_FX.OWN.TOTL.ZS:FX.OWN.TOTL.ZS{marker FX.OWN.TOTL.ZS}}}Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+){p_end}
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.AI.01:GFDD.AI.01{marker GFDD.AI.01}}}Bank accounts per 1,000 adults{p_end}
 
@@ -4452,8 +2711,6 @@
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.AM.03:GFDD.AM.03{marker GFDD.AM.03}}}Nonfinancial corporate bonds to total bonds and notes outstanding (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.AM.04:GFDD.AM.04{marker GFDD.AM.04}}}Investments financed by equity or stock sales (%){p_end}
-
 {synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.DI.01:GFDD.DI.01{marker GFDD.DI.01}}}Private credit by deposit money banks to GDP (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.DI.02:GFDD.DI.02{marker GFDD.DI.02}}}Deposit money banks'' assets to GDP (%){p_end}
@@ -4528,12 +2785,6 @@
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.OI.02:GFDD.OI.02{marker GFDD.OI.02}}}Bank deposits to GDP (%){p_end}
 
-{synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.OI.03:GFDD.OI.03{marker GFDD.OI.03}}}H-statistic{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.OI.04:GFDD.OI.04{marker GFDD.OI.04}}}Lerner index{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.OI.05:GFDD.OI.05{marker GFDD.OI.05}}}Boone indicator{p_end}
-
 {synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.OI.06:GFDD.OI.06{marker GFDD.OI.06}}}5-bank asset concentration{p_end}
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_GFDD.OI.07:GFDD.OI.07{marker GFDD.OI.07}}}Liquid liabilities in millions USD (2000 constant){p_end}
@@ -4600,51 +2851,7 @@
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_PX.REX.REER:PX.REX.REER{marker PX.REX.REER}}}Real effective exchange rate index (2010 = 100){p_end}
 
-{synopt:{help wbopendata_topicid_indicators07##topicid_SM.EMI.TERT.ZS:SM.EMI.TERT.ZS{marker SM.EMI.TERT.ZS}}}Emigration rate of tertiary educated (% of total tertiary educated population){p_end}
-
 {synopt:{help wbopendata_topicid_indicators07##topicid_SM.POP.NETM:SM.POP.NETM{marker SM.POP.NETM}}}Net migration{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_SM.POP.TOTL:SM.POP.TOTL{marker SM.POP.TOTL}}}International migrant stock, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_SM.POP.TOTL.ZS:SM.POP.TOTL.ZS{marker SM.POP.TOTL.ZS}}}International migrant stock (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP15163_4.1:WP15163_4.1{marker WP15163_4.1}}}Mobile account (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP15163_4.2:WP15163_4.2{marker WP15163_4.2}}}Mobile account, male (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP15163_4.3:WP15163_4.3{marker WP15163_4.3}}}Mobile account, female (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP15163_4.8:WP15163_4.8{marker WP15163_4.8}}}Mobile account, income, poorest 40% (% ages 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP15163_4.9:WP15163_4.9{marker WP15163_4.9}}}Mobile account, income, richest 60% (% ages 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_01.1:WP_time_01.1{marker WP_time_01.1}}}Account at a financial institution (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_01.2:WP_time_01.2{marker WP_time_01.2}}}Account at a financial institution, male (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_01.3:WP_time_01.3{marker WP_time_01.3}}}Account at a financial institution, female (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_01.8:WP_time_01.8{marker WP_time_01.8}}}Account at a financial institution, income, poorest 40% (% ages 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_01.9:WP_time_01.9{marker WP_time_01.9}}}Account at a financial institution, income, richest 60% (% ages 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.1:WP_time_10.1{marker WP_time_10.1}}}Account (% age 15+) [ts]{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.2:WP_time_10.2{marker WP_time_10.2}}}Account, male (% age 15+) [ts]{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.3:WP_time_10.3{marker WP_time_10.3}}}Account, female (% age 15+) [ts]{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.4:WP_time_10.4{marker WP_time_10.4}}}Account, young adults (% ages 15-24) [ts]{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.5:WP_time_10.5{marker WP_time_10.5}}}Account, older adults (% ages 25+) [ts]{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.6:WP_time_10.6{marker WP_time_10.6}}}Account, primary education or less (% ages 15+) [ts]{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.7:WP_time_10.7{marker WP_time_10.7}}}Account, secondary education or more (% ages 15+) [ts]{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.8:WP_time_10.8{marker WP_time_10.8}}}Account, income, poorest 40% (% ages 15+) [ts]{p_end}
-
-{synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.9:WP_time_10.9{marker WP_time_10.9}}}Account, income, richest 60% (% ages 15+) [ts]{p_end}
 {synoptline}
 
 {marker topicid_08}
@@ -4653,139 +2860,23 @@
 {synopthdr:08 Health}
 {synoptline}
 
-{synopt:{help wbopendata_topicid_indicators08##topicid_SG.VAW.1549.ZS:SG.VAW.1549.ZS{marker SG.VAW.1549.ZS}}}Proportion of women subjected to physical and/or sexual violence in the last 12 months (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SG.VAW.ARGU.ZS:SG.VAW.ARGU.ZS{marker SG.VAW.ARGU.ZS}}}Women who believe a husband is justified in beating his wife when she argues with him (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SG.VAW.BURN.ZS:SG.VAW.BURN.ZS{marker SG.VAW.BURN.ZS}}}Women who believe a husband is justified in beating his wife when she burns the food (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SG.VAW.GOES.ZS:SG.VAW.GOES.ZS{marker SG.VAW.GOES.ZS}}}Women who believe a husband is justified in beating his wife when she goes out without telling him (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SG.VAW.NEGL.ZS:SG.VAW.NEGL.ZS{marker SG.VAW.NEGL.ZS}}}Women who believe a husband is justified in beating his wife when she neglects the children (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SG.VAW.REAS.ZS:SG.VAW.REAS.ZS{marker SG.VAW.REAS.ZS}}}Women who believe a husband is justified in beating his wife (any of five reasons) (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SG.VAW.REFU.ZS:SG.VAW.REFU.ZS{marker SG.VAW.REFU.ZS}}}Women who believe a husband is justified in beating his wife when she refuses sex with him (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.ALON.Q1.ZS:SH.ACS.ALON.Q1.ZS{marker SH.ACS.ALON.Q1.ZS}}}Problems in accessing health care (not wanting to go alone) (% of women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.ALON.Q2.ZS:SH.ACS.ALON.Q2.ZS{marker SH.ACS.ALON.Q2.ZS}}}Problems in accessing health care (not wanting to go alone) (% of women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.ALON.Q3.ZS:SH.ACS.ALON.Q3.ZS{marker SH.ACS.ALON.Q3.ZS}}}Problems in accessing health care (not wanting to go alone) (% of women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.ALON.Q4.ZS:SH.ACS.ALON.Q4.ZS{marker SH.ACS.ALON.Q4.ZS}}}Problems in accessing health care (not wanting to go alone) (% of women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.ALON.Q5.ZS:SH.ACS.ALON.Q5.ZS{marker SH.ACS.ALON.Q5.ZS}}}Problems in accessing health care (not wanting to go alone) (% of women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.DIST.Q1.ZS:SH.ACS.DIST.Q1.ZS{marker SH.ACS.DIST.Q1.ZS}}}Problems in accessing health care (distance to health facility) (% of women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.DIST.Q2.ZS:SH.ACS.DIST.Q2.ZS{marker SH.ACS.DIST.Q2.ZS}}}Problems in accessing health care (distance to health facility) (% of women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.DIST.Q3.ZS:SH.ACS.DIST.Q3.ZS{marker SH.ACS.DIST.Q3.ZS}}}Problems in accessing health care (distance to health facility) (% of women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.DIST.Q4.ZS:SH.ACS.DIST.Q4.ZS{marker SH.ACS.DIST.Q4.ZS}}}Problems in accessing health care (distance to health facility) (% of women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.DIST.Q5.ZS:SH.ACS.DIST.Q5.ZS{marker SH.ACS.DIST.Q5.ZS}}}Problems in accessing health care (distance to health facility) (% of women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.MONY.Q1.ZS:SH.ACS.MONY.Q1.ZS{marker SH.ACS.MONY.Q1.ZS}}}Problems in accessing health care (getting money for treatment) (% of women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.MONY.Q2.ZS:SH.ACS.MONY.Q2.ZS{marker SH.ACS.MONY.Q2.ZS}}}Problems in accessing health care (getting money for treatment) (% of women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.MONY.Q3.ZS:SH.ACS.MONY.Q3.ZS{marker SH.ACS.MONY.Q3.ZS}}}Problems in accessing health care (getting money for treatment) (% of women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.MONY.Q4.ZS:SH.ACS.MONY.Q4.ZS{marker SH.ACS.MONY.Q4.ZS}}}Problems in accessing health care (getting money for treatment) (% of women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.MONY.Q5.ZS:SH.ACS.MONY.Q5.ZS{marker SH.ACS.MONY.Q5.ZS}}}Problems in accessing health care (getting money for treatment) (% of women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.NOFP.Q1.ZS:SH.ACS.NOFP.Q1.ZS{marker SH.ACS.NOFP.Q1.ZS}}}Problems in accessing health care (concern there may not be a female provider) (% of women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.NOFP.Q2.ZS:SH.ACS.NOFP.Q2.ZS{marker SH.ACS.NOFP.Q2.ZS}}}Problems in accessing health care (concern there may not be a female provider) (% of women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.NOFP.Q3.ZS:SH.ACS.NOFP.Q3.ZS{marker SH.ACS.NOFP.Q3.ZS}}}Problems in accessing health care (concern there may not be a female provider) (% of women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.NOFP.Q4.ZS:SH.ACS.NOFP.Q4.ZS{marker SH.ACS.NOFP.Q4.ZS}}}Problems in accessing health care (concern there may not be a female provider) (% of women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.NOFP.Q5.ZS:SH.ACS.NOFP.Q5.ZS{marker SH.ACS.NOFP.Q5.ZS}}}Problems in accessing health care (concern there may not be a female provider) (% of women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.PERM.Q1.ZS:SH.ACS.PERM.Q1.ZS{marker SH.ACS.PERM.Q1.ZS}}}Problems in accessing health care (getting permission to go for treatment) (% of women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.PERM.Q2.ZS:SH.ACS.PERM.Q2.ZS{marker SH.ACS.PERM.Q2.ZS}}}Problems in accessing health care (getting permission to go for treatment) (% of women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.PERM.Q3.ZS:SH.ACS.PERM.Q3.ZS{marker SH.ACS.PERM.Q3.ZS}}}Problems in accessing health care (getting permission to go for treatment) (% of women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.PERM.Q4.ZS:SH.ACS.PERM.Q4.ZS{marker SH.ACS.PERM.Q4.ZS}}}Problems in accessing health care (getting permission to go for treatment) (% of women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.PERM.Q5.ZS:SH.ACS.PERM.Q5.ZS{marker SH.ACS.PERM.Q5.ZS}}}Problems in accessing health care (getting permission to go for treatment) (% of women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.PROB.Q1.ZS:SH.ACS.PROB.Q1.ZS{marker SH.ACS.PROB.Q1.ZS}}}Problems in accessing health care (any of the specified problems) (% of women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.PROB.Q2.ZS:SH.ACS.PROB.Q2.ZS{marker SH.ACS.PROB.Q2.ZS}}}Problems in accessing health care (any of the specified problems) (% of women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.PROB.Q3.ZS:SH.ACS.PROB.Q3.ZS{marker SH.ACS.PROB.Q3.ZS}}}Problems in accessing health care (any of the specified problems) (% of women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.PROB.Q4.ZS:SH.ACS.PROB.Q4.ZS{marker SH.ACS.PROB.Q4.ZS}}}Problems in accessing health care (any of the specified problems) (% of women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.PROB.Q5.ZS:SH.ACS.PROB.Q5.ZS{marker SH.ACS.PROB.Q5.ZS}}}Problems in accessing health care (any of the specified problems) (% of women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.TRAN.Q1.ZS:SH.ACS.TRAN.Q1.ZS{marker SH.ACS.TRAN.Q1.ZS}}}Problems in accessing health care (having to take transport) (% of women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.TRAN.Q2.ZS:SH.ACS.TRAN.Q2.ZS{marker SH.ACS.TRAN.Q2.ZS}}}Problems in accessing health care (having to take transport) (% of women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.TRAN.Q3.ZS:SH.ACS.TRAN.Q3.ZS{marker SH.ACS.TRAN.Q3.ZS}}}Problems in accessing health care (having to take transport) (% of women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.TRAN.Q4.ZS:SH.ACS.TRAN.Q4.ZS{marker SH.ACS.TRAN.Q4.ZS}}}Problems in accessing health care (having to take transport) (% of women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.TRAN.Q5.ZS:SH.ACS.TRAN.Q5.ZS{marker SH.ACS.TRAN.Q5.ZS}}}Problems in accessing health care (having to take transport) (% of women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.WHER.Q1.ZS:SH.ACS.WHER.Q1.ZS{marker SH.ACS.WHER.Q1.ZS}}}Problems in accessing health care (knowing where to go for treatment) (% of women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.WHER.Q2.ZS:SH.ACS.WHER.Q2.ZS{marker SH.ACS.WHER.Q2.ZS}}}Problems in accessing health care (knowing where to go for treatment) (% of women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.WHER.Q3.ZS:SH.ACS.WHER.Q3.ZS{marker SH.ACS.WHER.Q3.ZS}}}Problems in accessing health care (knowing where to go for treatment) (% of women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.WHER.Q4.ZS:SH.ACS.WHER.Q4.ZS{marker SH.ACS.WHER.Q4.ZS}}}Problems in accessing health care (knowing where to go for treatment) (% of women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ACS.WHER.Q5.ZS:SH.ACS.WHER.Q5.ZS{marker SH.ACS.WHER.Q5.ZS}}}Problems in accessing health care (knowing where to go for treatment) (% of women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ALC.PCAP.FE.LI:SH.ALC.PCAP.FE.LI{marker SH.ALC.PCAP.FE.LI}}}Total alcohol consumption per capita, female (liters of pure alcohol, projected estimates, female 15+ years of age){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ALC.PCAP.LI:SH.ALC.PCAP.LI{marker SH.ALC.PCAP.LI}}}Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ALC.PCAP.MA.LI:SH.ALC.PCAP.MA.LI{marker SH.ALC.PCAP.MA.LI}}}Total alcohol consumption per capita, male (liters of pure alcohol, projected estimates, male 15+ years of age){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ANM.ALLW.ZS:SH.ANM.ALLW.ZS{marker SH.ANM.ALLW.ZS}}}Prevalence of anemia among women of reproductive age (% of women ages 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ANM.CHLD.ZS:SH.ANM.CHLD.ZS{marker SH.ANM.CHLD.ZS}}}Prevalence of anemia among children (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.ANM.NPRG.ZS:SH.ANM.NPRG.ZS{marker SH.ANM.NPRG.ZS}}}Prevalence of anemia among non-pregnant women (% of women ages 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.CON.1524.FE.ZS:SH.CON.1524.FE.ZS{marker SH.CON.1524.FE.ZS}}}Condom use, population ages 15-24, female (% of females ages 15-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.CON.1524.MA.ZS:SH.CON.1524.MA.ZS{marker SH.CON.1524.MA.ZS}}}Condom use, population ages 15-24, male (% of males ages 15-24){p_end}
-
 {synopt:{help wbopendata_topicid_indicators08##topicid_SH.DTH.0514:SH.DTH.0514{marker SH.DTH.0514}}}Number of deaths ages 5-14 years{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DTH.COMM.ZS:SH.DTH.COMM.ZS{marker SH.DTH.COMM.ZS}}}Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total){p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SH.DTH.IMRT:SH.DTH.IMRT{marker SH.DTH.IMRT}}}Number of infant deaths{p_end}
 
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DTH.INJR.ZS:SH.DTH.INJR.ZS{marker SH.DTH.INJR.ZS}}}Cause of death, by injury (% of total){p_end}
+{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DTH.IMRT.FE:SH.DTH.IMRT.FE{marker SH.DTH.IMRT.FE}}}Number of infant deaths, female{p_end}
+
+{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DTH.IMRT.MA:SH.DTH.IMRT.MA{marker SH.DTH.IMRT.MA}}}Number of infant deaths, male{p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SH.DTH.MORT:SH.DTH.MORT{marker SH.DTH.MORT}}}Number of under-five deaths{p_end}
 
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DTH.NCOM.ZS:SH.DTH.NCOM.ZS{marker SH.DTH.NCOM.ZS}}}Cause of death, by non-communicable diseases (% of total){p_end}
+{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DTH.MORT.FE:SH.DTH.MORT.FE{marker SH.DTH.MORT.FE}}}Number of under-five deaths, female{p_end}
+
+{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DTH.MORT.MA:SH.DTH.MORT.MA{marker SH.DTH.MORT.MA}}}Number of under-five deaths, male{p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SH.DTH.NMRT:SH.DTH.NMRT{marker SH.DTH.NMRT}}}Number of neonatal deaths{p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SH.DYN.0514:SH.DYN.0514{marker SH.DYN.0514}}}Probability of dying at age 5-14 years (per 1,000 children age 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DYN.AIDS.FE.ZS:SH.DYN.AIDS.FE.ZS{marker SH.DYN.AIDS.FE.ZS}}}Women's share of population ages 15+ living with HIV (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DYN.AIDS.ZS:SH.DYN.AIDS.ZS{marker SH.DYN.AIDS.ZS}}}Prevalence of HIV, total (% of population ages 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DYN.CHLD.FE:SH.DYN.CHLD.FE{marker SH.DYN.CHLD.FE}}}Mortality rate, female child (per 1,000 female children age one){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DYN.CHLD.MA:SH.DYN.CHLD.MA{marker SH.DYN.CHLD.MA}}}Mortality rate, male child (per 1,000 male children age one){p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SH.DYN.MORT:SH.DYN.MORT{marker SH.DYN.MORT}}}Mortality rate, under-5 (per 1,000 live births){p_end}
 
@@ -4793,859 +2884,9 @@
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SH.DYN.MORT.MA:SH.DYN.MORT.MA{marker SH.DYN.MORT.MA}}}Mortality rate, under-5, male (per 1,000 live births){p_end}
 
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DYN.MORT.Q1:SH.DYN.MORT.Q1{marker SH.DYN.MORT.Q1}}}Under-5 mortality rate (per 1,000 live births): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DYN.MORT.Q2:SH.DYN.MORT.Q2{marker SH.DYN.MORT.Q2}}}Under-5 mortality rate (per 1,000 live births): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DYN.MORT.Q3:SH.DYN.MORT.Q3{marker SH.DYN.MORT.Q3}}}Under-5 mortality rate (per 1,000 live births): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DYN.MORT.Q4:SH.DYN.MORT.Q4{marker SH.DYN.MORT.Q4}}}Under-5 mortality rate (per 1,000 live births): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DYN.MORT.Q5:SH.DYN.MORT.Q5{marker SH.DYN.MORT.Q5}}}Under-5 mortality rate (per 1,000 live births): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DYN.NCOM.FE.ZS:SH.DYN.NCOM.FE.ZS{marker SH.DYN.NCOM.FE.ZS}}}Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DYN.NCOM.MA.ZS:SH.DYN.NCOM.MA.ZS{marker SH.DYN.NCOM.MA.ZS}}}Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.DYN.NCOM.ZS:SH.DYN.NCOM.ZS{marker SH.DYN.NCOM.ZS}}}Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%){p_end}
-
 {synopt:{help wbopendata_topicid_indicators08##topicid_SH.DYN.NMRT:SH.DYN.NMRT{marker SH.DYN.NMRT}}}Mortality rate, neonatal (per 1,000 live births){p_end}
 
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.ACPT.Q1.ZS:SH.FPL.ACPT.Q1.ZS{marker SH.FPL.ACPT.Q1.ZS}}}Acceptability of media messages on family planning (% of women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.ACPT.Q2.ZS:SH.FPL.ACPT.Q2.ZS{marker SH.FPL.ACPT.Q2.ZS}}}Acceptability of media messages on family planning (% of women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.ACPT.Q3.ZS:SH.FPL.ACPT.Q3.ZS{marker SH.FPL.ACPT.Q3.ZS}}}Acceptability of media messages on family planning (% of women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.ACPT.Q4.ZS:SH.FPL.ACPT.Q4.ZS{marker SH.FPL.ACPT.Q4.ZS}}}Acceptability of media messages on family planning (% of women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.ACPT.Q5.ZS:SH.FPL.ACPT.Q5.ZS{marker SH.FPL.ACPT.Q5.ZS}}}Acceptability of media messages on family planning (% of women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.FBRT.Q1.ZS:SH.FPL.FBRT.Q1.ZS{marker SH.FPL.FBRT.Q1.ZS}}}Median age at first birth (women ages 25-49): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.FBRT.Q2.ZS:SH.FPL.FBRT.Q2.ZS{marker SH.FPL.FBRT.Q2.ZS}}}Median age at first birth (women ages 25-49): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.FBRT.Q3.ZS:SH.FPL.FBRT.Q3.ZS{marker SH.FPL.FBRT.Q3.ZS}}}Median age at first birth (women ages 25-49): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.FBRT.Q4.ZS:SH.FPL.FBRT.Q4.ZS{marker SH.FPL.FBRT.Q4.ZS}}}Median age at first birth (women ages 25-49): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.FBRT.Q5.ZS:SH.FPL.FBRT.Q5.ZS{marker SH.FPL.FBRT.Q5.ZS}}}Median age at first birth (women ages 25-49): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.FMAR.Q1.ZS:SH.FPL.FMAR.Q1.ZS{marker SH.FPL.FMAR.Q1.ZS}}}Median age at first marriage (women ages 25-49): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.FMAR.Q2.ZS:SH.FPL.FMAR.Q2.ZS{marker SH.FPL.FMAR.Q2.ZS}}}Median age at first marriage (women ages 25-49): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.FMAR.Q3.ZS:SH.FPL.FMAR.Q3.ZS{marker SH.FPL.FMAR.Q3.ZS}}}Median age at first marriage (women ages 25-49): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.FMAR.Q4.ZS:SH.FPL.FMAR.Q4.ZS{marker SH.FPL.FMAR.Q4.ZS}}}Median age at first marriage (women ages 25-49): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.FMAR.Q5.ZS:SH.FPL.FMAR.Q5.ZS{marker SH.FPL.FMAR.Q5.ZS}}}Median age at first marriage (women ages 25-49): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.FSEX.Q1.ZS:SH.FPL.FSEX.Q1.ZS{marker SH.FPL.FSEX.Q1.ZS}}}Median age at first sexual intercourse (women ages 25-49): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.FSEX.Q2.ZS:SH.FPL.FSEX.Q2.ZS{marker SH.FPL.FSEX.Q2.ZS}}}Median age at first sexual intercourse (women ages 25-49): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.FSEX.Q3.ZS:SH.FPL.FSEX.Q3.ZS{marker SH.FPL.FSEX.Q3.ZS}}}Median age at first sexual intercourse (women ages 25-49): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.FSEX.Q4.ZS:SH.FPL.FSEX.Q4.ZS{marker SH.FPL.FSEX.Q4.ZS}}}Median age at first sexual intercourse (women ages 25-49): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.FSEX.Q5.ZS:SH.FPL.FSEX.Q5.ZS{marker SH.FPL.FSEX.Q5.ZS}}}Median age at first sexual intercourse (women ages 25-49): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.HEAR.Q1.ZS:SH.FPL.HEAR.Q1.ZS{marker SH.FPL.HEAR.Q1.ZS}}}Heard family planning on radio and television (% of women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.HEAR.Q2.ZS:SH.FPL.HEAR.Q2.ZS{marker SH.FPL.HEAR.Q2.ZS}}}Heard family planning on radio and television (% of women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.HEAR.Q3.ZS:SH.FPL.HEAR.Q3.ZS{marker SH.FPL.HEAR.Q3.ZS}}}Heard family planning on radio and television (% of women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.HEAR.Q4.ZS:SH.FPL.HEAR.Q4.ZS{marker SH.FPL.HEAR.Q4.ZS}}}Heard family planning on radio and television (% of women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.HEAR.Q5.ZS:SH.FPL.HEAR.Q5.ZS{marker SH.FPL.HEAR.Q5.ZS}}}Heard family planning on radio and television (% of women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.IDLC.Q1:SH.FPL.IDLC.Q1{marker SH.FPL.IDLC.Q1}}}Mean ideal number of children (per woman): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.IDLC.Q2:SH.FPL.IDLC.Q2{marker SH.FPL.IDLC.Q2}}}Mean ideal number of children (per woman): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.IDLC.Q3:SH.FPL.IDLC.Q3{marker SH.FPL.IDLC.Q3}}}Mean ideal number of children (per woman): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.IDLC.Q4:SH.FPL.IDLC.Q4{marker SH.FPL.IDLC.Q4}}}Mean ideal number of children (per woman): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.IDLC.Q5:SH.FPL.IDLC.Q5{marker SH.FPL.IDLC.Q5}}}Mean ideal number of children (per woman): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.KNOW.Q1.ZS:SH.FPL.KNOW.Q1.ZS{marker SH.FPL.KNOW.Q1.ZS}}}Knowledge of contraception (any method) (% of married women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.KNOW.Q2.ZS:SH.FPL.KNOW.Q2.ZS{marker SH.FPL.KNOW.Q2.ZS}}}Knowledge of contraception (any method) (% of married women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.KNOW.Q3.ZS:SH.FPL.KNOW.Q3.ZS{marker SH.FPL.KNOW.Q3.ZS}}}Knowledge of contraception (any method) (% of married women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.KNOW.Q4.ZS:SH.FPL.KNOW.Q4.ZS{marker SH.FPL.KNOW.Q4.ZS}}}Knowledge of contraception (any method) (% of married women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.KNOW.Q5.ZS:SH.FPL.KNOW.Q5.ZS{marker SH.FPL.KNOW.Q5.ZS}}}Knowledge of contraception (any method) (% of married women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.KWMD.Q1.ZS:SH.FPL.KWMD.Q1.ZS{marker SH.FPL.KWMD.Q1.ZS}}}Knowledge of contraception (modern method) (% of married women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.KWMD.Q2.ZS:SH.FPL.KWMD.Q2.ZS{marker SH.FPL.KWMD.Q2.ZS}}}Knowledge of contraception (modern method) (% of married women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.KWMD.Q3.ZS:SH.FPL.KWMD.Q3.ZS{marker SH.FPL.KWMD.Q3.ZS}}}Knowledge of contraception (modern method) (% of married women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.KWMD.Q4.ZS:SH.FPL.KWMD.Q4.ZS{marker SH.FPL.KWMD.Q4.ZS}}}Knowledge of contraception (modern method) (% of married women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.KWMD.Q5.ZS:SH.FPL.KWMD.Q5.ZS{marker SH.FPL.KWMD.Q5.ZS}}}Knowledge of contraception (modern method) (% of married women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.LIMT.Q1.ZS:SH.FPL.LIMT.Q1.ZS{marker SH.FPL.LIMT.Q1.ZS}}}Desire to stop (limit) childbearing (% of married women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.LIMT.Q2.ZS:SH.FPL.LIMT.Q2.ZS{marker SH.FPL.LIMT.Q2.ZS}}}Desire to stop (limit) childbearing (% of married women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.LIMT.Q3.ZS:SH.FPL.LIMT.Q3.ZS{marker SH.FPL.LIMT.Q3.ZS}}}Desire to stop (limit) childbearing (% of married women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.LIMT.Q4.ZS:SH.FPL.LIMT.Q4.ZS{marker SH.FPL.LIMT.Q4.ZS}}}Desire to stop (limit) childbearing (% of married women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.LIMT.Q5.ZS:SH.FPL.LIMT.Q5.ZS{marker SH.FPL.LIMT.Q5.ZS}}}Desire to stop (limit) childbearing (% of married women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.MBRI.Q1:SH.FPL.MBRI.Q1{marker SH.FPL.MBRI.Q1}}}Median birth interval (months): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.MBRI.Q2:SH.FPL.MBRI.Q2{marker SH.FPL.MBRI.Q2}}}Median birth interval (months): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.MBRI.Q3:SH.FPL.MBRI.Q3{marker SH.FPL.MBRI.Q3}}}Median birth interval (months): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.MBRI.Q4:SH.FPL.MBRI.Q4{marker SH.FPL.MBRI.Q4}}}Median birth interval (months): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.MBRI.Q5:SH.FPL.MBRI.Q5{marker SH.FPL.MBRI.Q5}}}Median birth interval (months): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.MSTM.Q1.ZS:SH.FPL.MSTM.Q1.ZS{marker SH.FPL.MSTM.Q1.ZS}}}Fertility planning status (wanted later) (% of births): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.MSTM.Q2.ZS:SH.FPL.MSTM.Q2.ZS{marker SH.FPL.MSTM.Q2.ZS}}}Fertility planning status (wanted later) (% of births): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.MSTM.Q3.ZS:SH.FPL.MSTM.Q3.ZS{marker SH.FPL.MSTM.Q3.ZS}}}Fertility planning status (wanted later) (% of births): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.MSTM.Q4.ZS:SH.FPL.MSTM.Q4.ZS{marker SH.FPL.MSTM.Q4.ZS}}}Fertility planning status (wanted later) (% of births): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.MSTM.Q5.ZS:SH.FPL.MSTM.Q5.ZS{marker SH.FPL.MSTM.Q5.ZS}}}Fertility planning status (wanted later) (% of births): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.READ.Q1.ZS:SH.FPL.READ.Q1.ZS{marker SH.FPL.READ.Q1.ZS}}}Family planning messages in print (% of women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.READ.Q2.ZS:SH.FPL.READ.Q2.ZS{marker SH.FPL.READ.Q2.ZS}}}Family planning messages in print (% of women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.READ.Q3.ZS:SH.FPL.READ.Q3.ZS{marker SH.FPL.READ.Q3.ZS}}}Family planning messages in print (% of women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.READ.Q4.ZS:SH.FPL.READ.Q4.ZS{marker SH.FPL.READ.Q4.ZS}}}Family planning messages in print (% of women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.READ.Q5.ZS:SH.FPL.READ.Q5.ZS{marker SH.FPL.READ.Q5.ZS}}}Family planning messages in print (% of women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.SATM.ZS:SH.FPL.SATM.ZS{marker SH.FPL.SATM.ZS}}}Demand for family planning satisfied by modern methods (% of married women with demand for family planning){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.UWTD.Q1.ZS:SH.FPL.UWTD.Q1.ZS{marker SH.FPL.UWTD.Q1.ZS}}}Fertility planning status (wanted no more) (% of births): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.UWTD.Q2.ZS:SH.FPL.UWTD.Q2.ZS{marker SH.FPL.UWTD.Q2.ZS}}}Fertility planning status (wanted no more) (% of births): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.UWTD.Q3.ZS:SH.FPL.UWTD.Q3.ZS{marker SH.FPL.UWTD.Q3.ZS}}}Fertility planning status (wanted no more) (% of births): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.UWTD.Q4.ZS:SH.FPL.UWTD.Q4.ZS{marker SH.FPL.UWTD.Q4.ZS}}}Fertility planning status (wanted no more) (% of births): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.UWTD.Q5.ZS:SH.FPL.UWTD.Q5.ZS{marker SH.FPL.UWTD.Q5.ZS}}}Fertility planning status (wanted no more) (% of births): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.WNTD.Q1.ZS:SH.FPL.WNTD.Q1.ZS{marker SH.FPL.WNTD.Q1.ZS}}}Fertility planning status (wanted then) (% of births): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.WNTD.Q2.ZS:SH.FPL.WNTD.Q2.ZS{marker SH.FPL.WNTD.Q2.ZS}}}Fertility planning status (wanted then) (% of births): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.WNTD.Q3.ZS:SH.FPL.WNTD.Q3.ZS{marker SH.FPL.WNTD.Q3.ZS}}}Fertility planning status (wanted then) (% of births): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.WNTD.Q4.ZS:SH.FPL.WNTD.Q4.ZS{marker SH.FPL.WNTD.Q4.ZS}}}Fertility planning status (wanted then) (% of births): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.FPL.WNTD.Q5.ZS:SH.FPL.WNTD.Q5.ZS{marker SH.FPL.WNTD.Q5.ZS}}}Fertility planning status (wanted then) (% of births): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.H2O.BASW.Q1.ZS:SH.H2O.BASW.Q1.ZS{marker SH.H2O.BASW.Q1.ZS}}}People using at least basic drinking water services (% of population): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.H2O.BASW.RU.Q2.ZS:SH.H2O.BASW.RU.Q2.ZS{marker SH.H2O.BASW.RU.Q2.ZS}}}People using at least basic drinking water services, rural (% of rural population): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.H2O.BASW.RU.ZS:SH.H2O.BASW.RU.ZS{marker SH.H2O.BASW.RU.ZS}}}People using at least basic drinking water services, rural (% of rural population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.H2O.BASW.UR.ZS:SH.H2O.BASW.UR.ZS{marker SH.H2O.BASW.UR.ZS}}}People using at least basic drinking water services, urban (% of urban population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.H2O.BASW.ZS:SH.H2O.BASW.ZS{marker SH.H2O.BASW.ZS}}}People using at least basic drinking water services (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.H2O.SAFE.RU.ZS:SH.H2O.SAFE.RU.ZS{marker SH.H2O.SAFE.RU.ZS}}}Improved water source, rural (% of rural population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.H2O.SAFE.UR.ZS:SH.H2O.SAFE.UR.ZS{marker SH.H2O.SAFE.UR.ZS}}}Improved water source, urban (% of urban population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.H2O.SAFE.ZS:SH.H2O.SAFE.ZS{marker SH.H2O.SAFE.ZS}}}Improved water source (% of population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.H2O.SMDW.RU.ZS:SH.H2O.SMDW.RU.ZS{marker SH.H2O.SMDW.RU.ZS}}}People using safely managed drinking water services, rural (% of rural population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.H2O.SMDW.UR.ZS:SH.H2O.SMDW.UR.ZS{marker SH.H2O.SMDW.UR.ZS}}}People using safely managed drinking water services, urban (% of urban population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.H2O.SMDW.ZS:SH.H2O.SMDW.ZS{marker SH.H2O.SMDW.ZS}}}People using safely managed drinking water services (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.HIV.0014:SH.HIV.0014{marker SH.HIV.0014}}}Children (0-14) living with HIV{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.HIV.1524.FE.ZS:SH.HIV.1524.FE.ZS{marker SH.HIV.1524.FE.ZS}}}Prevalence of HIV, female (% ages 15-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.HIV.1524.MA.ZS:SH.HIV.1524.MA.ZS{marker SH.HIV.1524.MA.ZS}}}Prevalence of HIV, male (% ages 15-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.HIV.ARTC.ZS:SH.HIV.ARTC.ZS{marker SH.HIV.ARTC.ZS}}}Antiretroviral therapy coverage (% of people living with HIV){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.HIV.INCD:SH.HIV.INCD{marker SH.HIV.INCD}}}Adults (ages 15+) newly infected with HIV{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.HIV.INCD.14:SH.HIV.INCD.14{marker SH.HIV.INCD.14}}}Children (ages 0-14) newly infected with HIV{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.HIV.INCD.TL:SH.HIV.INCD.TL{marker SH.HIV.INCD.TL}}}Adults (ages 15+) and children (ages 0-14) newly infected with HIV{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.HIV.INCD.ZS:SH.HIV.INCD.ZS{marker SH.HIV.INCD.ZS}}}Incidence of HIV (per 1,000 uninfected population ages 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.HIV.PMTC.ZS:SH.HIV.PMTC.ZS{marker SH.HIV.PMTC.ZS}}}Antiretroviral therapy coverage for PMTCT (% of pregnant women living with HIV){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.ALLV.Q1.ZS:SH.IMM.ALLV.Q1.ZS{marker SH.IMM.ALLV.Q1.ZS}}}Vaccinations (all vaccinations) (% of children ages 12-23 months): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.ALLV.Q2.ZS:SH.IMM.ALLV.Q2.ZS{marker SH.IMM.ALLV.Q2.ZS}}}Vaccinations (all vaccinations) (% of children ages 12-23 months): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.ALLV.Q3.ZS:SH.IMM.ALLV.Q3.ZS{marker SH.IMM.ALLV.Q3.ZS}}}Vaccinations (all vaccinations) (% of children ages 12-23 months): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.ALLV.Q4.ZS:SH.IMM.ALLV.Q4.ZS{marker SH.IMM.ALLV.Q4.ZS}}}Vaccinations (all vaccinations) (% of children ages 12-23 months): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.ALLV.Q5.ZS:SH.IMM.ALLV.Q5.ZS{marker SH.IMM.ALLV.Q5.ZS}}}Vaccinations (all vaccinations) (% of children ages 12-23 months): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.HEPB:SH.IMM.HEPB{marker SH.IMM.HEPB}}}Immunization, HepB3 (% of one-year-old children){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.IBCG.Q1.ZS:SH.IMM.IBCG.Q1.ZS{marker SH.IMM.IBCG.Q1.ZS}}}Vaccinations (BCG) (% of children ages 12-23 months): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.IBCG.Q2.ZS:SH.IMM.IBCG.Q2.ZS{marker SH.IMM.IBCG.Q2.ZS}}}Vaccinations (BCG) (% of children ages 12-23 months): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.IBCG.Q3.ZS:SH.IMM.IBCG.Q3.ZS{marker SH.IMM.IBCG.Q3.ZS}}}Vaccinations (BCG) (% of children ages 12-23 months): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.IBCG.Q4.ZS:SH.IMM.IBCG.Q4.ZS{marker SH.IMM.IBCG.Q4.ZS}}}Vaccinations (BCG) (% of children ages 12-23 months): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.IBCG.Q5.ZS:SH.IMM.IBCG.Q5.ZS{marker SH.IMM.IBCG.Q5.ZS}}}Vaccinations (BCG) (% of children ages 12-23 months): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.IDPT:SH.IMM.IDPT{marker SH.IMM.IDPT}}}Immunization, DPT (% of children ages 12-23 months){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.IDPT.Q1.ZS:SH.IMM.IDPT.Q1.ZS{marker SH.IMM.IDPT.Q1.ZS}}}Vaccinations (DPT 3) (% of children ages 12-23 months): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.IDPT.Q2.ZS:SH.IMM.IDPT.Q2.ZS{marker SH.IMM.IDPT.Q2.ZS}}}Vaccinations (DPT 3) (% of children ages 12-23 months): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.IDPT.Q3.ZS:SH.IMM.IDPT.Q3.ZS{marker SH.IMM.IDPT.Q3.ZS}}}Vaccinations (DPT 3) (% of children ages 12-23 months): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.IDPT.Q4.ZS:SH.IMM.IDPT.Q4.ZS{marker SH.IMM.IDPT.Q4.ZS}}}Vaccinations (DPT 3) (% of children ages 12-23 months): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.IDPT.Q5.ZS:SH.IMM.IDPT.Q5.ZS{marker SH.IMM.IDPT.Q5.ZS}}}Vaccinations (DPT 3) (% of children ages 12-23 months): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.MEAS:SH.IMM.MEAS{marker SH.IMM.MEAS}}}Immunization, measles (% of children ages 12-23 months){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.MEAS.Q1.ZS:SH.IMM.MEAS.Q1.ZS{marker SH.IMM.MEAS.Q1.ZS}}}Vaccinations (Measles) (% of children ages 12-23 months): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.MEAS.Q2.ZS:SH.IMM.MEAS.Q2.ZS{marker SH.IMM.MEAS.Q2.ZS}}}Vaccinations (Measles) (% of children ages 12-23 months): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.MEAS.Q3.ZS:SH.IMM.MEAS.Q3.ZS{marker SH.IMM.MEAS.Q3.ZS}}}Vaccinations (Measles) (% of children ages 12-23 months): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.MEAS.Q4.ZS:SH.IMM.MEAS.Q4.ZS{marker SH.IMM.MEAS.Q4.ZS}}}Vaccinations (Measles) (% of children ages 12-23 months): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.MEAS.Q5.ZS:SH.IMM.MEAS.Q5.ZS{marker SH.IMM.MEAS.Q5.ZS}}}Vaccinations (Measles) (% of children ages 12-23 months): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.NONE.Q1.ZS:SH.IMM.NONE.Q1.ZS{marker SH.IMM.NONE.Q1.ZS}}}Vaccinations (no vaccinations) (% of children ages 12-23 months): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.NONE.Q2.ZS:SH.IMM.NONE.Q2.ZS{marker SH.IMM.NONE.Q2.ZS}}}Vaccinations (no vaccinations) (% of children ages 12-23 months): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.NONE.Q3.ZS:SH.IMM.NONE.Q3.ZS{marker SH.IMM.NONE.Q3.ZS}}}Vaccinations (no vaccinations) (% of children ages 12-23 months): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.NONE.Q4.ZS:SH.IMM.NONE.Q4.ZS{marker SH.IMM.NONE.Q4.ZS}}}Vaccinations (no vaccinations) (% of children ages 12-23 months): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.IMM.NONE.Q5.ZS:SH.IMM.NONE.Q5.ZS{marker SH.IMM.NONE.Q5.ZS}}}Vaccinations (no vaccinations) (% of children ages 12-23 months): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MED.BEDS.ZS:SH.MED.BEDS.ZS{marker SH.MED.BEDS.ZS}}}Hospital beds (per 1,000 people){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MED.CMHW.P3:SH.MED.CMHW.P3{marker SH.MED.CMHW.P3}}}Community health workers (per 1,000 people){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MED.NUMW.P3:SH.MED.NUMW.P3{marker SH.MED.NUMW.P3}}}Nurses and midwives (per 1,000 people){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MED.PHYS.ZS:SH.MED.PHYS.ZS{marker SH.MED.PHYS.ZS}}}Physicians (per 1,000 people){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MED.SAOP.P5:SH.MED.SAOP.P5{marker SH.MED.SAOP.P5}}}Specialist surgical workforce (per 100,000 population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.INCD:SH.MLR.INCD{marker SH.MLR.INCD}}}Notified cases of malaria (per 100,000 people){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.INCD.P3:SH.MLR.INCD.P3{marker SH.MLR.INCD.P3}}}Incidence of malaria (per 1,000 population at risk){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.IPTP.ZS:SH.MLR.IPTP.ZS{marker SH.MLR.IPTP.ZS}}}Intermittent preventive treatment (IPT) of malaria in pregnancy (% of pregnant women){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETA.Q1.ZS:SH.MLR.NETA.Q1.ZS{marker SH.MLR.NETA.Q1.ZS}}}Mosquito net use by children (any mosquito net) (% of children under 5): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETA.Q2.ZS:SH.MLR.NETA.Q2.ZS{marker SH.MLR.NETA.Q2.ZS}}}Mosquito net use by children (any mosquito net) (% of children under 5): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETA.Q3.ZS:SH.MLR.NETA.Q3.ZS{marker SH.MLR.NETA.Q3.ZS}}}Mosquito net use by children (any mosquito net) (% of children under 5): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETA.Q4.ZS:SH.MLR.NETA.Q4.ZS{marker SH.MLR.NETA.Q4.ZS}}}Mosquito net use by children (any mosquito net) (% of children under 5): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETA.Q5.ZS:SH.MLR.NETA.Q5.ZS{marker SH.MLR.NETA.Q5.ZS}}}Mosquito net use by children (any mosquito net) (% of children under 5): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETH.Q1.ZS:SH.MLR.NETH.Q1.ZS{marker SH.MLR.NETH.Q1.ZS}}}Household posession of mosquito nets (any type of mosquito net) (% of households): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETH.Q2.ZS:SH.MLR.NETH.Q2.ZS{marker SH.MLR.NETH.Q2.ZS}}}Household posession of mosquito nets (any type of mosquito net) (% of households): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETH.Q3.ZS:SH.MLR.NETH.Q3.ZS{marker SH.MLR.NETH.Q3.ZS}}}Household posession of mosquito nets (any type of mosquito net) (% of households): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETH.Q4.ZS:SH.MLR.NETH.Q4.ZS{marker SH.MLR.NETH.Q4.ZS}}}Household posession of mosquito nets (any type of mosquito net) (% of households): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETH.Q5.ZS:SH.MLR.NETH.Q5.ZS{marker SH.MLR.NETH.Q5.ZS}}}Household posession of mosquito nets (any type of mosquito net) (% of households): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETP.Q1.ZS:SH.MLR.NETP.Q1.ZS{marker SH.MLR.NETP.Q1.ZS}}}Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETP.Q2.ZS:SH.MLR.NETP.Q2.ZS{marker SH.MLR.NETP.Q2.ZS}}}Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETP.Q3.ZS:SH.MLR.NETP.Q3.ZS{marker SH.MLR.NETP.Q3.ZS}}}Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETP.Q4.ZS:SH.MLR.NETP.Q4.ZS{marker SH.MLR.NETP.Q4.ZS}}}Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETP.Q5.ZS:SH.MLR.NETP.Q5.ZS{marker SH.MLR.NETP.Q5.ZS}}}Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETS.Q2.ZS:SH.MLR.NETS.Q2.ZS{marker SH.MLR.NETS.Q2.ZS}}}Mosquito net use by children (insecticide-treated net) (% of children under 5): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETS.Q3.ZS:SH.MLR.NETS.Q3.ZS{marker SH.MLR.NETS.Q3.ZS}}}Mosquito net use by children (insecticide-treated net) (% of children under 5): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETS.Q4.ZS:SH.MLR.NETS.Q4.ZS{marker SH.MLR.NETS.Q4.ZS}}}Mosquito net use by children (insecticide-treated net) (% of children under 5): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NETS.ZS:SH.MLR.NETS.ZS{marker SH.MLR.NETS.ZS}}}Use of insecticide-treated bed nets (% of under-5 population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NTHI.Q1.ZS:SH.MLR.NTHI.Q1.ZS{marker SH.MLR.NTHI.Q1.ZS}}}Household posession of mosquito nets (insecticide-treated net) (% of households): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NTHI.Q2.ZS:SH.MLR.NTHI.Q2.ZS{marker SH.MLR.NTHI.Q2.ZS}}}Household posession of mosquito nets (insecticide-treated net) (% of households): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NTHI.Q3.ZS:SH.MLR.NTHI.Q3.ZS{marker SH.MLR.NTHI.Q3.ZS}}}Household posession of mosquito nets (insecticide-treated net) (% of households): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NTHI.Q4.ZS:SH.MLR.NTHI.Q4.ZS{marker SH.MLR.NTHI.Q4.ZS}}}Household posession of mosquito nets (insecticide-treated net) (% of households): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NTHI.Q5.ZS:SH.MLR.NTHI.Q5.ZS{marker SH.MLR.NTHI.Q5.ZS}}}Household posession of mosquito nets (insecticide-treated net) (% of households): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NTPI.Q1.ZS:SH.MLR.NTPI.Q1.ZS{marker SH.MLR.NTPI.Q1.ZS}}}Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NTPI.Q2.ZS:SH.MLR.NTPI.Q2.ZS{marker SH.MLR.NTPI.Q2.ZS}}}Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NTPI.Q3.ZS:SH.MLR.NTPI.Q3.ZS{marker SH.MLR.NTPI.Q3.ZS}}}Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NTPI.Q4.ZS:SH.MLR.NTPI.Q4.ZS{marker SH.MLR.NTPI.Q4.ZS}}}Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.NTPI.Q5.ZS:SH.MLR.NTPI.Q5.ZS{marker SH.MLR.NTPI.Q5.ZS}}}Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.SPFN.Q1.ZS:SH.MLR.SPFN.Q1.ZS{marker SH.MLR.SPFN.Q1.ZS}}}Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.SPFN.Q2.ZS:SH.MLR.SPFN.Q2.ZS{marker SH.MLR.SPFN.Q2.ZS}}}Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.SPFN.Q3.ZS:SH.MLR.SPFN.Q3.ZS{marker SH.MLR.SPFN.Q3.ZS}}}Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.SPFN.Q4.ZS:SH.MLR.SPFN.Q4.ZS{marker SH.MLR.SPFN.Q4.ZS}}}Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.SPFN.Q5.ZS:SH.MLR.SPFN.Q5.ZS{marker SH.MLR.SPFN.Q5.ZS}}}Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.TRET.Q1.ZS:SH.MLR.TRET.Q1.ZS{marker SH.MLR.TRET.Q1.ZS}}}Treatment of fever (% of children under 5 with fever): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.TRET.Q2.ZS:SH.MLR.TRET.Q2.ZS{marker SH.MLR.TRET.Q2.ZS}}}Treatment of fever (% of children under 5 with fever): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.TRET.Q3.ZS:SH.MLR.TRET.Q3.ZS{marker SH.MLR.TRET.Q3.ZS}}}Treatment of fever (% of children under 5 with fever): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.TRET.Q4.ZS:SH.MLR.TRET.Q4.ZS{marker SH.MLR.TRET.Q4.ZS}}}Treatment of fever (% of children under 5 with fever): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.TRET.Q5.ZS:SH.MLR.TRET.Q5.ZS{marker SH.MLR.TRET.Q5.ZS}}}Treatment of fever (% of children under 5 with fever): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MLR.TRET.ZS:SH.MLR.TRET.ZS{marker SH.MLR.TRET.ZS}}}Children with fever receiving antimalarial drugs (% of children under age 5 with fever){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MMR.DTHS:SH.MMR.DTHS{marker SH.MMR.DTHS}}}Number of maternal deaths{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MMR.RISK:SH.MMR.RISK{marker SH.MMR.RISK}}}Lifetime risk of maternal death (1 in: rate varies by country){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.MMR.RISK.ZS:SH.MMR.RISK.ZS{marker SH.MMR.RISK.ZS}}}Lifetime risk of maternal death (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.PRG.ANEM:SH.PRG.ANEM{marker SH.PRG.ANEM}}}Prevalence of anemia among pregnant women (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.PRV.SMOK:SH.PRV.SMOK{marker SH.PRV.SMOK}}}Smoking prevalence, total (ages 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.PRV.SMOK.FE:SH.PRV.SMOK.FE{marker SH.PRV.SMOK.FE}}}Smoking prevalence, females (% of adults){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.PRV.SMOK.FE.Q1.ZS:SH.PRV.SMOK.FE.Q1.ZS{marker SH.PRV.SMOK.FE.Q1.ZS}}}Smoking (% of women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.PRV.SMOK.FE.Q2.ZS:SH.PRV.SMOK.FE.Q2.ZS{marker SH.PRV.SMOK.FE.Q2.ZS}}}Smoking (% of women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.PRV.SMOK.FE.Q3.ZS:SH.PRV.SMOK.FE.Q3.ZS{marker SH.PRV.SMOK.FE.Q3.ZS}}}Smoking (% of women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.PRV.SMOK.FE.Q4.ZS:SH.PRV.SMOK.FE.Q4.ZS{marker SH.PRV.SMOK.FE.Q4.ZS}}}Smoking (% of women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.PRV.SMOK.FE.Q5.ZS:SH.PRV.SMOK.FE.Q5.ZS{marker SH.PRV.SMOK.FE.Q5.ZS}}}Smoking (% of women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.PRV.SMOK.MA:SH.PRV.SMOK.MA{marker SH.PRV.SMOK.MA}}}Smoking prevalence, males (% of adults){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.SGR.CRSK.ZS:SH.SGR.CRSK.ZS{marker SH.SGR.CRSK.ZS}}}Risk of catastrophic expenditure for surgical care (% of people at risk){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.SGR.IRSK.ZS:SH.SGR.IRSK.ZS{marker SH.SGR.IRSK.ZS}}}Risk of impoverishing expenditure for surgical care (% of people at risk){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.SGR.PROC.P5:SH.SGR.PROC.P5{marker SH.SGR.PROC.P5}}}Number of surgical procedures (per 100,000 population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ACSN:SH.STA.ACSN{marker SH.STA.ACSN}}}Improved sanitation facilities (% of population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ACSN.RU:SH.STA.ACSN.RU{marker SH.STA.ACSN.RU}}}Improved sanitation facilities, rural (% of rural population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ACSN.UR:SH.STA.ACSN.UR{marker SH.STA.ACSN.UR}}}Improved sanitation facilities, urban (% of urban population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.AIRP.FE.P5:SH.STA.AIRP.FE.P5{marker SH.STA.AIRP.FE.P5}}}Mortality rate attributed to household and ambient air pollution, age-standardized, female (per 100,000 female population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.AIRP.MA.P5:SH.STA.AIRP.MA.P5{marker SH.STA.AIRP.MA.P5}}}Mortality rate attributed to household and ambient air pollution, age-standardized, male (per 100,000 male population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.AIRP.P5:SH.STA.AIRP.P5{marker SH.STA.AIRP.P5}}}Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ANCP.Q1.ZS:SH.STA.ANCP.Q1.ZS{marker SH.STA.ANCP.Q1.ZS}}}Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ANCP.Q2.ZS:SH.STA.ANCP.Q2.ZS{marker SH.STA.ANCP.Q2.ZS}}}Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ANCP.Q3.ZS:SH.STA.ANCP.Q3.ZS{marker SH.STA.ANCP.Q3.ZS}}}Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ANCP.Q4.ZS:SH.STA.ANCP.Q4.ZS{marker SH.STA.ANCP.Q4.ZS}}}Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ANCP.Q5.ZS:SH.STA.ANCP.Q5.ZS{marker SH.STA.ANCP.Q5.ZS}}}Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ANVC.Q1.ZS:SH.STA.ANVC.Q1.ZS{marker SH.STA.ANVC.Q1.ZS}}}Antenatal care (any skilled personnel) (% of women with a birth): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ANVC.Q2.ZS:SH.STA.ANVC.Q2.ZS{marker SH.STA.ANVC.Q2.ZS}}}Antenatal care (any skilled personnel) (% of women with a birth): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ANVC.Q3.ZS:SH.STA.ANVC.Q3.ZS{marker SH.STA.ANVC.Q3.ZS}}}Antenatal care (any skilled personnel) (% of women with a birth): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ANVC.Q4.ZS:SH.STA.ANVC.Q4.ZS{marker SH.STA.ANVC.Q4.ZS}}}Antenatal care (any skilled personnel) (% of women with a birth): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ANVC.Q5.ZS:SH.STA.ANVC.Q5.ZS{marker SH.STA.ANVC.Q5.ZS}}}Antenatal care (any skilled personnel) (% of women with a birth): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ANVC.ZS:SH.STA.ANVC.ZS{marker SH.STA.ANVC.ZS}}}Pregnant women receiving prenatal care (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ANVP.Q1.ZS:SH.STA.ANVP.Q1.ZS{marker SH.STA.ANVP.Q1.ZS}}}Antenatal care (doctor) (% of women with a birth): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ANVP.Q2.ZS:SH.STA.ANVP.Q2.ZS{marker SH.STA.ANVP.Q2.ZS}}}Antenatal care (doctor) (% of women with a birth): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ANVP.Q3.ZS:SH.STA.ANVP.Q3.ZS{marker SH.STA.ANVP.Q3.ZS}}}Antenatal care (doctor) (% of women with a birth): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ANVP.Q4.ZS:SH.STA.ANVP.Q4.ZS{marker SH.STA.ANVP.Q4.ZS}}}Antenatal care (doctor) (% of women with a birth): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ANVP.Q5.ZS:SH.STA.ANVP.Q5.ZS{marker SH.STA.ANVP.Q5.ZS}}}Antenatal care (doctor) (% of women with a birth): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ARIC.Q1.ZS:SH.STA.ARIC.Q1.ZS{marker SH.STA.ARIC.Q1.ZS}}}Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ARIC.Q2.ZS:SH.STA.ARIC.Q2.ZS{marker SH.STA.ARIC.Q2.ZS}}}Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ARIC.Q3.ZS:SH.STA.ARIC.Q3.ZS{marker SH.STA.ARIC.Q3.ZS}}}Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ARIC.Q4.ZS:SH.STA.ARIC.Q4.ZS{marker SH.STA.ARIC.Q4.ZS}}}Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ARIC.Q5.ZS:SH.STA.ARIC.Q5.ZS{marker SH.STA.ARIC.Q5.ZS}}}Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ARIC.ZS:SH.STA.ARIC.ZS{marker SH.STA.ARIC.ZS}}}ARI treatment (% of children under 5 taken to a health provider){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ARIF.Q1.ZS:SH.STA.ARIF.Q1.ZS{marker SH.STA.ARIF.Q1.ZS}}}Prevalence of acute respiratory infection (ARI) (% of children under 5): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ARIF.Q2.ZS:SH.STA.ARIF.Q2.ZS{marker SH.STA.ARIF.Q2.ZS}}}Prevalence of acute respiratory infection (ARI) (% of children under 5): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ARIF.Q3.ZS:SH.STA.ARIF.Q3.ZS{marker SH.STA.ARIF.Q3.ZS}}}Prevalence of acute respiratory infection (ARI) (% of children under 5): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ARIF.Q4.ZS:SH.STA.ARIF.Q4.ZS{marker SH.STA.ARIF.Q4.ZS}}}Prevalence of acute respiratory infection (ARI) (% of children under 5): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ARIF.Q5.ZS:SH.STA.ARIF.Q5.ZS{marker SH.STA.ARIF.Q5.ZS}}}Prevalence of acute respiratory infection (ARI) (% of children under 5): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BASS.RU.ZS:SH.STA.BASS.RU.ZS{marker SH.STA.BASS.RU.ZS}}}People using at least basic sanitation services, rural (% of rural population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BASS.UR.ZS:SH.STA.BASS.UR.ZS{marker SH.STA.BASS.UR.ZS}}}People using at least basic sanitation services, urban (% of urban population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BASS.ZS:SH.STA.BASS.ZS{marker SH.STA.BASS.ZS}}}People using at least basic sanitation services (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BFED.Q1.ZS:SH.STA.BFED.Q1.ZS{marker SH.STA.BFED.Q1.ZS}}}Breastfeeding (% of children under 6 months): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BFED.Q2.ZS:SH.STA.BFED.Q2.ZS{marker SH.STA.BFED.Q2.ZS}}}Breastfeeding (% of children under 6 months): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BFED.Q3.ZS:SH.STA.BFED.Q3.ZS{marker SH.STA.BFED.Q3.ZS}}}Breastfeeding (% of children under 6 months): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BFED.Q4.ZS:SH.STA.BFED.Q4.ZS{marker SH.STA.BFED.Q4.ZS}}}Breastfeeding (% of children under 6 months): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BFED.Q5.ZS:SH.STA.BFED.Q5.ZS{marker SH.STA.BFED.Q5.ZS}}}Breastfeeding (% of children under 6 months): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BFED.ZS:SH.STA.BFED.ZS{marker SH.STA.BFED.ZS}}}Exclusive breastfeeding (% of children under 6 months){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTC.Q1.ZS:SH.STA.BRTC.Q1.ZS{marker SH.STA.BRTC.Q1.ZS}}}Assistance during delivery (any skilled personnel) (% of births): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTC.Q2.ZS:SH.STA.BRTC.Q2.ZS{marker SH.STA.BRTC.Q2.ZS}}}Assistance during delivery (any skilled personnel) (% of births): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTC.Q3.ZS:SH.STA.BRTC.Q3.ZS{marker SH.STA.BRTC.Q3.ZS}}}Assistance during delivery (any skilled personnel) (% of births): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTC.Q4.ZS:SH.STA.BRTC.Q4.ZS{marker SH.STA.BRTC.Q4.ZS}}}Assistance during delivery (any skilled personnel) (% of births): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTC.Q5.ZS:SH.STA.BRTC.Q5.ZS{marker SH.STA.BRTC.Q5.ZS}}}Assistance during delivery (any skilled personnel) (% of births): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTC.ZS:SH.STA.BRTC.ZS{marker SH.STA.BRTC.ZS}}}Births attended by skilled health staff (% of total){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTF.Q1.ZS:SH.STA.BRTF.Q1.ZS{marker SH.STA.BRTF.Q1.ZS}}}Place of delivery (births at health facility) (% of births): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTF.Q2.ZS:SH.STA.BRTF.Q2.ZS{marker SH.STA.BRTF.Q2.ZS}}}Place of delivery (births at health facility) (% of births): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTF.Q3.ZS:SH.STA.BRTF.Q3.ZS{marker SH.STA.BRTF.Q3.ZS}}}Place of delivery (births at health facility) (% of births): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTF.Q4.ZS:SH.STA.BRTF.Q4.ZS{marker SH.STA.BRTF.Q4.ZS}}}Place of delivery (births at health facility) (% of births): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTF.Q5.ZS:SH.STA.BRTF.Q5.ZS{marker SH.STA.BRTF.Q5.ZS}}}Place of delivery (births at health facility) (% of births): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTP.Q1.ZS:SH.STA.BRTP.Q1.ZS{marker SH.STA.BRTP.Q1.ZS}}}Assistance during delivery (doctor) (% of births): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTP.Q2.ZS:SH.STA.BRTP.Q2.ZS{marker SH.STA.BRTP.Q2.ZS}}}Assistance during delivery (doctor) (% of births): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTP.Q3.ZS:SH.STA.BRTP.Q3.ZS{marker SH.STA.BRTP.Q3.ZS}}}Assistance during delivery (doctor) (% of births): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTP.Q4.ZS:SH.STA.BRTP.Q4.ZS{marker SH.STA.BRTP.Q4.ZS}}}Assistance during delivery (doctor) (% of births): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTP.Q5.ZS:SH.STA.BRTP.Q5.ZS{marker SH.STA.BRTP.Q5.ZS}}}Assistance during delivery (doctor) (% of births): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.BRTW.ZS:SH.STA.BRTW.ZS{marker SH.STA.BRTW.ZS}}}Low-birthweight babies (% of births){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.DIAB.ZS:SH.STA.DIAB.ZS{marker SH.STA.DIAB.ZS}}}Diabetes prevalence (% of population ages 20 to 79){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.DIRH.Q1.ZS:SH.STA.DIRH.Q1.ZS{marker SH.STA.DIRH.Q1.ZS}}}Prevalence of diarrhea (% of children under 5): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.DIRH.Q2.ZS:SH.STA.DIRH.Q2.ZS{marker SH.STA.DIRH.Q2.ZS}}}Prevalence of diarrhea (% of children under 5): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.DIRH.Q3.ZS:SH.STA.DIRH.Q3.ZS{marker SH.STA.DIRH.Q3.ZS}}}Prevalence of diarrhea (% of children under 5): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.DIRH.Q4.ZS:SH.STA.DIRH.Q4.ZS{marker SH.STA.DIRH.Q4.ZS}}}Prevalence of diarrhea (% of children under 5): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.DIRH.Q5.ZS:SH.STA.DIRH.Q5.ZS{marker SH.STA.DIRH.Q5.ZS}}}Prevalence of diarrhea (% of children under 5): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.FEVR.Q1.ZS:SH.STA.FEVR.Q1.ZS{marker SH.STA.FEVR.Q1.ZS}}}Prevalence of children with fever (% of children under 5): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.FEVR.Q2.ZS:SH.STA.FEVR.Q2.ZS{marker SH.STA.FEVR.Q2.ZS}}}Prevalence of children with fever (% of children under 5): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.FEVR.Q3.ZS:SH.STA.FEVR.Q3.ZS{marker SH.STA.FEVR.Q3.ZS}}}Prevalence of children with fever (% of children under 5): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.FEVR.Q4.ZS:SH.STA.FEVR.Q4.ZS{marker SH.STA.FEVR.Q4.ZS}}}Prevalence of children with fever (% of children under 5): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.FEVR.Q5.ZS:SH.STA.FEVR.Q5.ZS{marker SH.STA.FEVR.Q5.ZS}}}Prevalence of children with fever (% of children under 5): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.FGMS.ZS:SH.STA.FGMS.ZS{marker SH.STA.FGMS.ZS}}}Female genital mutilation prevalence (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.HYGN.RU.ZS:SH.STA.HYGN.RU.ZS{marker SH.STA.HYGN.RU.ZS}}}People with basic handwashing facilities including soap and water, rural (% of rural population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.HYGN.UR.ZS:SH.STA.HYGN.UR.ZS{marker SH.STA.HYGN.UR.ZS}}}People with basic handwashing facilities including soap and water, urban (% of urban population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.HYGN.ZS:SH.STA.HYGN.ZS{marker SH.STA.HYGN.ZS}}}People with basic handwashing facilities including soap and water (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.LBMI.Q1.ZS:SH.STA.LBMI.Q1.ZS{marker SH.STA.LBMI.Q1.ZS}}}Malnourished women (BMI is less than 18.5) (% of women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.LBMI.Q2.ZS:SH.STA.LBMI.Q2.ZS{marker SH.STA.LBMI.Q2.ZS}}}Malnourished women (BMI is less than 18.5) (% of women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.LBMI.Q3.ZS:SH.STA.LBMI.Q3.ZS{marker SH.STA.LBMI.Q3.ZS}}}Malnourished women (BMI is less than 18.5) (% of women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.LBMI.Q4.ZS:SH.STA.LBMI.Q4.ZS{marker SH.STA.LBMI.Q4.ZS}}}Malnourished women (BMI is less than 18.5) (% of women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.LBMI.Q5.ZS:SH.STA.LBMI.Q5.ZS{marker SH.STA.LBMI.Q5.ZS}}}Malnourished women (BMI is less than 18.5) (% of women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.MALN.FE.ZS:SH.STA.MALN.FE.ZS{marker SH.STA.MALN.FE.ZS}}}Prevalence of underweight, weight for age, female (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.MALN.MA.ZS:SH.STA.MALN.MA.ZS{marker SH.STA.MALN.MA.ZS}}}Prevalence of underweight, weight for age, male (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.MALN.Q1.ZS:SH.STA.MALN.Q1.ZS{marker SH.STA.MALN.Q1.ZS}}}Malnourished children (underweight, -2SD) (% of children under 5): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.MALN.Q2.ZS:SH.STA.MALN.Q2.ZS{marker SH.STA.MALN.Q2.ZS}}}Malnourished children (underweight, -2SD) (% of children under 5): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.MALN.Q3.ZS:SH.STA.MALN.Q3.ZS{marker SH.STA.MALN.Q3.ZS}}}Malnourished children (underweight, -2SD) (% of children under 5): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.MALN.Q4.ZS:SH.STA.MALN.Q4.ZS{marker SH.STA.MALN.Q4.ZS}}}Malnourished children (underweight, -2SD) (% of children under 5): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.MALN.Q5.ZS:SH.STA.MALN.Q5.ZS{marker SH.STA.MALN.Q5.ZS}}}Malnourished children (underweight, -2SD) (% of children under 5): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.MALN.ZS:SH.STA.MALN.ZS{marker SH.STA.MALN.ZS}}}Prevalence of underweight, weight for age (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.MLN3.Q1.ZS:SH.STA.MLN3.Q1.ZS{marker SH.STA.MLN3.Q1.ZS}}}Malnourished children (underweight, -3SD) (% of children under 5): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.MLN3.Q2.ZS:SH.STA.MLN3.Q2.ZS{marker SH.STA.MLN3.Q2.ZS}}}Malnourished children (underweight, -3SD) (% of children under 5): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.MLN3.Q3.ZS:SH.STA.MLN3.Q3.ZS{marker SH.STA.MLN3.Q3.ZS}}}Malnourished children (underweight, -3SD) (% of children under 5): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.MLN3.Q4.ZS:SH.STA.MLN3.Q4.ZS{marker SH.STA.MLN3.Q4.ZS}}}Malnourished children (underweight, -3SD) (% of children under 5): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.MLN3.Q5.ZS:SH.STA.MLN3.Q5.ZS{marker SH.STA.MLN3.Q5.ZS}}}Malnourished children (underweight, -3SD) (% of children under 5): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.MMRT:SH.STA.MMRT{marker SH.STA.MMRT}}}Maternal mortality ratio (modeled estimate, per 100,000 live births){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.MMRT.NE:SH.STA.MMRT.NE{marker SH.STA.MMRT.NE}}}Maternal mortality ratio (national estimate, per 100,000 live births){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ODFC.RU.ZS:SH.STA.ODFC.RU.ZS{marker SH.STA.ODFC.RU.ZS}}}People practicing open defecation, rural (% of rural population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ODFC.UR.ZS:SH.STA.ODFC.UR.ZS{marker SH.STA.ODFC.UR.ZS}}}People practicing open defecation, urban (% of urban population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ODFC.ZS:SH.STA.ODFC.ZS{marker SH.STA.ODFC.ZS}}}People practicing open defecation (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORCF.ZS:SH.STA.ORCF.ZS{marker SH.STA.ORCF.ZS}}}Diarrhea treatment (% of children under 5 receiving oral rehydration and continued feeding){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORHF.Q1.ZS:SH.STA.ORHF.Q1.ZS{marker SH.STA.ORHF.Q1.ZS}}}Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORHF.Q2.ZS:SH.STA.ORHF.Q2.ZS{marker SH.STA.ORHF.Q2.ZS}}}Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORHF.Q3.ZS:SH.STA.ORHF.Q3.ZS{marker SH.STA.ORHF.Q3.ZS}}}Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORHF.Q4.ZS:SH.STA.ORHF.Q4.ZS{marker SH.STA.ORHF.Q4.ZS}}}Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORHF.Q5.ZS:SH.STA.ORHF.Q5.ZS{marker SH.STA.ORHF.Q5.ZS}}}Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORHK.Q1.ZS:SH.STA.ORHK.Q1.ZS{marker SH.STA.ORHK.Q1.ZS}}}Knowledge of diarrhea care (% of mothers): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORHK.Q2.ZS:SH.STA.ORHK.Q2.ZS{marker SH.STA.ORHK.Q2.ZS}}}Knowledge of diarrhea care (% of mothers): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORHK.Q3.ZS:SH.STA.ORHK.Q3.ZS{marker SH.STA.ORHK.Q3.ZS}}}Knowledge of diarrhea care (% of mothers): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORHK.Q4.ZS:SH.STA.ORHK.Q4.ZS{marker SH.STA.ORHK.Q4.ZS}}}Knowledge of diarrhea care (% of mothers): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORHK.Q5.ZS:SH.STA.ORHK.Q5.ZS{marker SH.STA.ORHK.Q5.ZS}}}Knowledge of diarrhea care (% of mothers): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORHS.Q1ZS:SH.STA.ORHS.Q1ZS{marker SH.STA.ORHS.Q1ZS}}}Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORHS.Q2ZS:SH.STA.ORHS.Q2ZS{marker SH.STA.ORHS.Q2ZS}}}Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORHS.Q3ZS:SH.STA.ORHS.Q3ZS{marker SH.STA.ORHS.Q3ZS}}}Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORHS.Q4ZS:SH.STA.ORHS.Q4ZS{marker SH.STA.ORHS.Q4ZS}}}Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORHS.Q5ZS:SH.STA.ORHS.Q5ZS{marker SH.STA.ORHS.Q5ZS}}}Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.ORTH:SH.STA.ORTH{marker SH.STA.ORTH}}}Diarrhea treatment (% of children under 5 who received ORS packet){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.OWGH.FE.ZS:SH.STA.OWGH.FE.ZS{marker SH.STA.OWGH.FE.ZS}}}Prevalence of overweight, weight for height, female (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.OWGH.MA.ZS:SH.STA.OWGH.MA.ZS{marker SH.STA.OWGH.MA.ZS}}}Prevalence of overweight, weight for height, male (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.OWGH.ZS:SH.STA.OWGH.ZS{marker SH.STA.OWGH.ZS}}}Prevalence of overweight, weight for height (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.POIS.P5:SH.STA.POIS.P5{marker SH.STA.POIS.P5}}}Mortality rate attributed to unintentional poisoning (per 100,000 population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.POIS.P5.FE:SH.STA.POIS.P5.FE{marker SH.STA.POIS.P5.FE}}}Mortality rate attributed to unintentional poisoning, female (per 100,000 female population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.POIS.P5.MA:SH.STA.POIS.P5.MA{marker SH.STA.POIS.P5.MA}}}Mortality rate attributed to unintentional poisoning, male (per 100,000 male population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.SMSS.RU.ZS:SH.STA.SMSS.RU.ZS{marker SH.STA.SMSS.RU.ZS}}}People using safely managed sanitation services, rural (% of rural population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.SMSS.UR.ZS:SH.STA.SMSS.UR.ZS{marker SH.STA.SMSS.UR.ZS}}}People using safely managed sanitation services, urban (% of urban population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.SMSS.ZS:SH.STA.SMSS.ZS{marker SH.STA.SMSS.ZS}}}People using safely managed sanitation services (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STN3.Q1.ZS:SH.STA.STN3.Q1.ZS{marker SH.STA.STN3.Q1.ZS}}}Malnourished children (stunting, -3SD) (% of children under 5): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STN3.Q2.ZS:SH.STA.STN3.Q2.ZS{marker SH.STA.STN3.Q2.ZS}}}Malnourished children (stunting, -3SD) (% of children under 5): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STN3.Q3.ZS:SH.STA.STN3.Q3.ZS{marker SH.STA.STN3.Q3.ZS}}}Malnourished children (stunting, -3SD) (% of children under 5): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STN3.Q4.ZS:SH.STA.STN3.Q4.ZS{marker SH.STA.STN3.Q4.ZS}}}Malnourished children (stunting, -3SD) (% of children under 5): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STN3.Q5.ZS:SH.STA.STN3.Q5.ZS{marker SH.STA.STN3.Q5.ZS}}}Malnourished children (stunting, -3SD) (% of children under 5): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STNT.FE.ZS:SH.STA.STNT.FE.ZS{marker SH.STA.STNT.FE.ZS}}}Prevalence of stunting, height for age, female (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STNT.MA.ZS:SH.STA.STNT.MA.ZS{marker SH.STA.STNT.MA.ZS}}}Prevalence of stunting, height for age, male (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STNT.Q1.ZS:SH.STA.STNT.Q1.ZS{marker SH.STA.STNT.Q1.ZS}}}Malnourished children (stunting, -2SD) (% of children under 5): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STNT.Q2.ZS:SH.STA.STNT.Q2.ZS{marker SH.STA.STNT.Q2.ZS}}}Malnourished children (stunting, -2SD) (% of children under 5): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STNT.Q3.ZS:SH.STA.STNT.Q3.ZS{marker SH.STA.STNT.Q3.ZS}}}Malnourished children (stunting, -2SD) (% of children under 5): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STNT.Q4.ZS:SH.STA.STNT.Q4.ZS{marker SH.STA.STNT.Q4.ZS}}}Malnourished children (stunting, -2SD) (% of children under 5): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STNT.Q5.ZS:SH.STA.STNT.Q5.ZS{marker SH.STA.STNT.Q5.ZS}}}Malnourished children (stunting, -2SD) (% of children under 5): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.STNT.ZS:SH.STA.STNT.ZS{marker SH.STA.STNT.ZS}}}Prevalence of stunting, height for age (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.SUIC.FE.P5:SH.STA.SUIC.FE.P5{marker SH.STA.SUIC.FE.P5}}}Suicide mortality rate, female (per 100,000 female population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.SUIC.MA.P5:SH.STA.SUIC.MA.P5{marker SH.STA.SUIC.MA.P5}}}Suicide mortality rate, male (per 100,000 male population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.SUIC.P5:SH.STA.SUIC.P5{marker SH.STA.SUIC.P5}}}Suicide mortality rate (per 100,000 population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.TRAF.P5:SH.STA.TRAF.P5{marker SH.STA.TRAF.P5}}}Mortality caused by road traffic injury (per 100,000 people){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.WASH.P5:SH.STA.WASH.P5{marker SH.STA.WASH.P5}}}Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (per 100,000 population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.WAST.FE.ZS:SH.STA.WAST.FE.ZS{marker SH.STA.WAST.FE.ZS}}}Prevalence of wasting, weight for height, female (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.WAST.MA.ZS:SH.STA.WAST.MA.ZS{marker SH.STA.WAST.MA.ZS}}}Prevalence of wasting, weight for height, male (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.WAST.Q1.ZS:SH.STA.WAST.Q1.ZS{marker SH.STA.WAST.Q1.ZS}}}Malnourished children (wasting, -2SD) (% of children under 5): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.WAST.Q2.ZS:SH.STA.WAST.Q2.ZS{marker SH.STA.WAST.Q2.ZS}}}Malnourished children (wasting, -2SD) (% of children under 5): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.WAST.Q3.ZS:SH.STA.WAST.Q3.ZS{marker SH.STA.WAST.Q3.ZS}}}Malnourished children (wasting, -2SD) (% of children under 5): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.WAST.Q4.ZS:SH.STA.WAST.Q4.ZS{marker SH.STA.WAST.Q4.ZS}}}Malnourished children (wasting, -2SD) (% of children under 5): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.WAST.Q5.ZS:SH.STA.WAST.Q5.ZS{marker SH.STA.WAST.Q5.ZS}}}Malnourished children (wasting, -2SD) (% of children under 5): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.WAST.ZS:SH.STA.WAST.ZS{marker SH.STA.WAST.ZS}}}Prevalence of wasting, weight for height (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.WST3.Q1.ZS:SH.STA.WST3.Q1.ZS{marker SH.STA.WST3.Q1.ZS}}}Malnourished children (wasting, -3SD) (% of children under 5): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.WST3.Q2.ZS:SH.STA.WST3.Q2.ZS{marker SH.STA.WST3.Q2.ZS}}}Malnourished children (wasting, -3SD) (% of children under 5): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.WST3.Q3.ZS:SH.STA.WST3.Q3.ZS{marker SH.STA.WST3.Q3.ZS}}}Malnourished children (wasting, -3SD) (% of children under 5): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.WST3.Q4.ZS:SH.STA.WST3.Q4.ZS{marker SH.STA.WST3.Q4.ZS}}}Malnourished children (wasting, -3SD) (% of children under 5): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.STA.WST3.Q5.ZS:SH.STA.WST3.Q5.ZS{marker SH.STA.WST3.Q5.ZS}}}Malnourished children (wasting, -3SD) (% of children under 5): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.SVR.WAST.FE.ZS:SH.SVR.WAST.FE.ZS{marker SH.SVR.WAST.FE.ZS}}}Prevalence of severe wasting, weight for height, female (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.SVR.WAST.MA.ZS:SH.SVR.WAST.MA.ZS{marker SH.SVR.WAST.MA.ZS}}}Prevalence of severe wasting, weight for height, male (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.SVR.WAST.ZS:SH.SVR.WAST.ZS{marker SH.SVR.WAST.ZS}}}Prevalence of severe wasting, weight for height (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.TBS.CURE.ZS:SH.TBS.CURE.ZS{marker SH.TBS.CURE.ZS}}}Tuberculosis treatment success rate (% of new cases){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.TBS.DTEC.ZS:SH.TBS.DTEC.ZS{marker SH.TBS.DTEC.ZS}}}Tuberculosis case detection rate (%, all forms){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.TBS.INCD:SH.TBS.INCD{marker SH.TBS.INCD}}}Incidence of tuberculosis (per 100,000 people){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.CONS.TO:SH.UHC.CONS.TO{marker SH.UHC.CONS.TO}}}Number of people pushed below the 50% median consumption poverty line by out-of-pocket health care expenditure{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.CONS.ZS:SH.UHC.CONS.ZS{marker SH.UHC.CONS.ZS}}}Proportion of population pushed below the 50% median consumption poverty line by out-of-pocket health care expenditure (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP1.CG:SH.UHC.NOP1.CG{marker SH.UHC.NOP1.CG}}}Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP1.TO:SH.UHC.NOP1.TO{marker SH.UHC.NOP1.TO}}}Number of people pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP1.ZG:SH.UHC.NOP1.ZG{marker SH.UHC.NOP1.ZG}}}Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP1.ZS:SH.UHC.NOP1.ZS{marker SH.UHC.NOP1.ZS}}}Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP2.CG:SH.UHC.NOP2.CG{marker SH.UHC.NOP2.CG}}}Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP2.TO:SH.UHC.NOP2.TO{marker SH.UHC.NOP2.TO}}}Number of people pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP2.ZG:SH.UHC.NOP2.ZG{marker SH.UHC.NOP2.ZG}}}Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.NOP2.ZS:SH.UHC.NOP2.ZS{marker SH.UHC.NOP2.ZS}}}Proportion of population pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.OOPC.10.TO:SH.UHC.OOPC.10.TO{marker SH.UHC.OOPC.10.TO}}}Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.OOPC.10.ZS:SH.UHC.OOPC.10.ZS{marker SH.UHC.OOPC.10.ZS}}}Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.OOPC.25.TO:SH.UHC.OOPC.25.TO{marker SH.UHC.OOPC.25.TO}}}Number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.OOPC.25.ZS:SH.UHC.OOPC.25.ZS{marker SH.UHC.OOPC.25.ZS}}}Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.UHC.SRVS.CV.XD:SH.UHC.SRVS.CV.XD{marker SH.UHC.SRVS.CV.XD}}}UHC service coverage index{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.VAC.TTNS.Q1.ZS:SH.VAC.TTNS.Q1.ZS{marker SH.VAC.TTNS.Q1.ZS}}}Tetanus toxoid vaccination (% of live births): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.VAC.TTNS.Q2.ZS:SH.VAC.TTNS.Q2.ZS{marker SH.VAC.TTNS.Q2.ZS}}}Tetanus toxoid vaccination (% of live births): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.VAC.TTNS.Q3.ZS:SH.VAC.TTNS.Q3.ZS{marker SH.VAC.TTNS.Q3.ZS}}}Tetanus toxoid vaccination (% of live births): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.VAC.TTNS.Q4.ZS:SH.VAC.TTNS.Q4.ZS{marker SH.VAC.TTNS.Q4.ZS}}}Tetanus toxoid vaccination (% of live births): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.VAC.TTNS.Q5.ZS:SH.VAC.TTNS.Q5.ZS{marker SH.VAC.TTNS.Q5.ZS}}}Tetanus toxoid vaccination (% of live births): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.VAC.TTNS.ZS:SH.VAC.TTNS.ZS{marker SH.VAC.TTNS.ZS}}}Newborns protected against tetanus (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.VST.OUTP:SH.VST.OUTP{marker SH.VST.OUTP}}}Outpatient visits per capita{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.CHEX.GD.ZS:SH.XPD.CHEX.GD.ZS{marker SH.XPD.CHEX.GD.ZS}}}Current health expenditure (% of GDP){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.CHEX.PC.CD:SH.XPD.CHEX.PC.CD{marker SH.XPD.CHEX.PC.CD}}}Current health expenditure per capita (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.CHEX.PP.CD:SH.XPD.CHEX.PP.CD{marker SH.XPD.CHEX.PP.CD}}}Current health expenditure per capita, PPP (current international $){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.EHEX.CH.ZS:SH.XPD.EHEX.CH.ZS{marker SH.XPD.EHEX.CH.ZS}}}External health expenditure (% of current health expenditure){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.EHEX.PC.CD:SH.XPD.EHEX.PC.CD{marker SH.XPD.EHEX.PC.CD}}}External health expenditure per capita (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.EHEX.PP.CD:SH.XPD.EHEX.PP.CD{marker SH.XPD.EHEX.PP.CD}}}External health expenditure per capita, PPP (current international $){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.EXTR.ZS:SH.XPD.EXTR.ZS{marker SH.XPD.EXTR.ZS}}}External resources for health (% of total expenditure on health){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.GHED.CH.ZS:SH.XPD.GHED.CH.ZS{marker SH.XPD.GHED.CH.ZS}}}Domestic general government health expenditure (% of current health expenditure){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.GHED.GD.ZS:SH.XPD.GHED.GD.ZS{marker SH.XPD.GHED.GD.ZS}}}Domestic general government health expenditure (% of GDP){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.GHED.GE.ZS:SH.XPD.GHED.GE.ZS{marker SH.XPD.GHED.GE.ZS}}}Domestic general government health expenditure (% of general government expenditure){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.GHED.PC.CD:SH.XPD.GHED.PC.CD{marker SH.XPD.GHED.PC.CD}}}Domestic general government health expenditure per capita (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.GHED.PP.CD:SH.XPD.GHED.PP.CD{marker SH.XPD.GHED.PP.CD}}}Domestic general government health expenditure per capita, PPP (current international $){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.OOPC.CH.ZS:SH.XPD.OOPC.CH.ZS{marker SH.XPD.OOPC.CH.ZS}}}Out-of-pocket expenditure (% of current health expenditure){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.OOPC.PC.CD:SH.XPD.OOPC.PC.CD{marker SH.XPD.OOPC.PC.CD}}}Out-of-pocket expenditure per capita (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.OOPC.PP.CD:SH.XPD.OOPC.PP.CD{marker SH.XPD.OOPC.PP.CD}}}Out-of-pocket expenditure per capita, PPP (current international $){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.OOPC.TO.ZS:SH.XPD.OOPC.TO.ZS{marker SH.XPD.OOPC.TO.ZS}}}Out-of-pocket health expenditure (% of total expenditure on health){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.OOPC.ZS:SH.XPD.OOPC.ZS{marker SH.XPD.OOPC.ZS}}}Out-of-pocket health expenditure (% of private expenditure on health){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.PCAP:SH.XPD.PCAP{marker SH.XPD.PCAP}}}Health expenditure per capita (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.PCAP.PP.KD:SH.XPD.PCAP.PP.KD{marker SH.XPD.PCAP.PP.KD}}}Health expenditure per capita, PPP (constant 2011 international $){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.PRIV:SH.XPD.PRIV{marker SH.XPD.PRIV}}}Health expenditure, private (% of total health expenditure){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.PRIV.ZS:SH.XPD.PRIV.ZS{marker SH.XPD.PRIV.ZS}}}Health expenditure, private (% of GDP){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.PUBL:SH.XPD.PUBL{marker SH.XPD.PUBL}}}Health expenditure, public (% of total health expenditure){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.PUBL.GX.ZS:SH.XPD.PUBL.GX.ZS{marker SH.XPD.PUBL.GX.ZS}}}Health expenditure, public (% of government expenditure){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.PUBL.ZS:SH.XPD.PUBL.ZS{marker SH.XPD.PUBL.ZS}}}Health expenditure, public (% of GDP){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.PVTD.CH.ZS:SH.XPD.PVTD.CH.ZS{marker SH.XPD.PVTD.CH.ZS}}}Domestic private health expenditure (% of current health expenditure){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.PVTD.PC.CD:SH.XPD.PVTD.PC.CD{marker SH.XPD.PVTD.PC.CD}}}Domestic private health expenditure per capita (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.PVTD.PP.CD:SH.XPD.PVTD.PP.CD{marker SH.XPD.PVTD.PP.CD}}}Domestic private health expenditure per capita, PPP (current international $){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SH.XPD.TOTL.ZS:SH.XPD.TOTL.ZS{marker SH.XPD.TOTL.ZS}}}Health expenditure, total (% of GDP){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SM.EMI.TERT.ZS:SM.EMI.TERT.ZS{marker SM.EMI.TERT.ZS}}}Emigration rate of tertiary educated (% of total tertiary educated population){p_end}
-
 {synopt:{help wbopendata_topicid_indicators08##topicid_SM.POP.NETM:SM.POP.NETM{marker SM.POP.NETM}}}Net migration{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SM.POP.REFG:SM.POP.REFG{marker SM.POP.REFG}}}Refugee population by country or territory of asylum{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SM.POP.REFG.OR:SM.POP.REFG.OR{marker SM.POP.REFG.OR}}}Refugee population by country or territory of origin{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SM.POP.TOTL:SM.POP.TOTL{marker SM.POP.TOTL}}}International migrant stock, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SM.POP.TOTL.ZS:SM.POP.TOTL.ZS{marker SM.POP.TOTL.ZS}}}International migrant stock (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.DEFC.ZS:SN.ITK.DEFC.ZS{marker SN.ITK.DEFC.ZS}}}Prevalence of undernourishment (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.DFCT:SN.ITK.DFCT{marker SN.ITK.DFCT}}}Depth of the food deficit (kilocalories per person per day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.DPTH:SN.ITK.DPTH{marker SN.ITK.DPTH}}}Depth of hunger (kilocalories per person per day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.MSFI.ZS:SN.ITK.MSFI.ZS{marker SN.ITK.MSFI.ZS}}}Prevalence of moderate or severe food insecurity in the population (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.SALT.ZS:SN.ITK.SALT.ZS{marker SN.ITK.SALT.ZS}}}Consumption of iodized salt (% of households){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.SVFI.ZS:SN.ITK.SVFI.ZS{marker SN.ITK.SVFI.ZS}}}Prevalence of severe food insecurity in the population (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.VAPP.Q1.ZS:SN.ITK.VAPP.Q1.ZS{marker SN.ITK.VAPP.Q1.ZS}}}Vitamin A supplements for postpartum women (% of women with a birth): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.VAPP.Q2.ZS:SN.ITK.VAPP.Q2.ZS{marker SN.ITK.VAPP.Q2.ZS}}}Vitamin A supplements for postpartum women (% of women with a birth): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.VAPP.Q3.ZS:SN.ITK.VAPP.Q3.ZS{marker SN.ITK.VAPP.Q3.ZS}}}Vitamin A supplements for postpartum women (% of women with a birth): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.VAPP.Q4.ZS:SN.ITK.VAPP.Q4.ZS{marker SN.ITK.VAPP.Q4.ZS}}}Vitamin A supplements for postpartum women (% of women with a birth): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.VAPP.Q5.ZS:SN.ITK.VAPP.Q5.ZS{marker SN.ITK.VAPP.Q5.ZS}}}Vitamin A supplements for postpartum women (% of women with a birth): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.VITA.Q1.ZS:SN.ITK.VITA.Q1.ZS{marker SN.ITK.VITA.Q1.ZS}}}Vitamin A supplements for children (% of children ages 6-59 months): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.VITA.Q2.ZS:SN.ITK.VITA.Q2.ZS{marker SN.ITK.VITA.Q2.ZS}}}Vitamin A supplements for children (% of children ages 6-59 months): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.VITA.Q3.ZS:SN.ITK.VITA.Q3.ZS{marker SN.ITK.VITA.Q3.ZS}}}Vitamin A supplements for children (% of children ages 6-59 months): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.VITA.Q4.ZS:SN.ITK.VITA.Q4.ZS{marker SN.ITK.VITA.Q4.ZS}}}Vitamin A supplements for children (% of children ages 6-59 months): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.VITA.Q5.ZS:SN.ITK.VITA.Q5.ZS{marker SN.ITK.VITA.Q5.ZS}}}Vitamin A supplements for children (% of children ages 6-59 months): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SN.ITK.VITA.ZS:SN.ITK.VITA.ZS{marker SN.ITK.VITA.ZS}}}Vitamin A supplementation coverage rate (% of children ages 6-59 months){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.ADO.TFRT:SP.ADO.TFRT{marker SP.ADO.TFRT}}}Adolescent fertility rate (births per 1,000 women ages 15-19){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DTH.INFR.ZS:SP.DTH.INFR.ZS{marker SP.DTH.INFR.ZS}}}Completeness of infant death reporting (% of reported infant deaths to estimated infant deaths){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DTH.REPT.ZS:SP.DTH.REPT.ZS{marker SP.DTH.REPT.ZS}}}Completeness of total death reporting (% of reported total deaths to estimated total deaths){p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.AMRT.FE:SP.DYN.AMRT.FE{marker SP.DYN.AMRT.FE}}}Mortality rate, adult, female (per 1,000 female adults){p_end}
 
@@ -5655,55 +2896,11 @@
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CDRT.IN:SP.DYN.CDRT.IN{marker SP.DYN.CDRT.IN}}}Death rate, crude (per 1,000 people){p_end}
 
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CEBN.Q1:SP.DYN.CEBN.Q1{marker SP.DYN.CEBN.Q1}}}Mean number of children ever born to women aged 40-49: Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CEBN.Q2:SP.DYN.CEBN.Q2{marker SP.DYN.CEBN.Q2}}}Mean number of children ever born to women aged 40-49: Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CEBN.Q3:SP.DYN.CEBN.Q3{marker SP.DYN.CEBN.Q3}}}Mean number of children ever born to women aged 40-49: Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CEBN.Q4:SP.DYN.CEBN.Q4{marker SP.DYN.CEBN.Q4}}}Mean number of children ever born to women aged 40-49: Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CEBN.Q5:SP.DYN.CEBN.Q5{marker SP.DYN.CEBN.Q5}}}Mean number of children ever born to women aged 40-49: Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONM.Q1.ZS:SP.DYN.CONM.Q1.ZS{marker SP.DYN.CONM.Q1.ZS}}}Current use of contraception (modern method) (% of married women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONM.Q2.ZS:SP.DYN.CONM.Q2.ZS{marker SP.DYN.CONM.Q2.ZS}}}Current use of contraception (modern method) (% of married women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONM.Q3.ZS:SP.DYN.CONM.Q3.ZS{marker SP.DYN.CONM.Q3.ZS}}}Current use of contraception (modern method) (% of married women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONM.Q4.ZS:SP.DYN.CONM.Q4.ZS{marker SP.DYN.CONM.Q4.ZS}}}Current use of contraception (modern method) (% of married women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONM.Q5.ZS:SP.DYN.CONM.Q5.ZS{marker SP.DYN.CONM.Q5.ZS}}}Current use of contraception (modern method) (% of married women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONM.ZS:SP.DYN.CONM.ZS{marker SP.DYN.CONM.ZS}}}Contraceptive prevalence, modern methods (% of women ages 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONU.Q1.ZS:SP.DYN.CONU.Q1.ZS{marker SP.DYN.CONU.Q1.ZS}}}Current use of contraception (any method) (% of married women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONU.Q2.ZS:SP.DYN.CONU.Q2.ZS{marker SP.DYN.CONU.Q2.ZS}}}Current use of contraception (any method) (% of married women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONU.Q3.ZS:SP.DYN.CONU.Q3.ZS{marker SP.DYN.CONU.Q3.ZS}}}Current use of contraception (any method) (% of married women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONU.Q4.ZS:SP.DYN.CONU.Q4.ZS{marker SP.DYN.CONU.Q4.ZS}}}Current use of contraception (any method) (% of married women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONU.Q5.ZS:SP.DYN.CONU.Q5.ZS{marker SP.DYN.CONU.Q5.ZS}}}Current use of contraception (any method) (% of married women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.CONU.ZS:SP.DYN.CONU.ZS{marker SP.DYN.CONU.ZS}}}Contraceptive prevalence, any methods (% of women ages 15-49){p_end}
-
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.IMRT.FE.IN:SP.DYN.IMRT.FE.IN{marker SP.DYN.IMRT.FE.IN}}}Mortality rate, infant, female (per 1,000 live births){p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.IMRT.IN:SP.DYN.IMRT.IN{marker SP.DYN.IMRT.IN}}}Mortality rate, infant (per 1,000 live births){p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.IMRT.MA.IN:SP.DYN.IMRT.MA.IN{marker SP.DYN.IMRT.MA.IN}}}Mortality rate, infant, male (per 1,000 live births){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.IMRT.Q1:SP.DYN.IMRT.Q1{marker SP.DYN.IMRT.Q1}}}Infant mortality rate (per 1,000 live births): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.IMRT.Q2:SP.DYN.IMRT.Q2{marker SP.DYN.IMRT.Q2}}}Infant mortality rate (per 1,000 live births): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.IMRT.Q3:SP.DYN.IMRT.Q3{marker SP.DYN.IMRT.Q3}}}Infant mortality rate (per 1,000 live births): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.IMRT.Q4:SP.DYN.IMRT.Q4{marker SP.DYN.IMRT.Q4}}}Infant mortality rate (per 1,000 live births): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.IMRT.Q5:SP.DYN.IMRT.Q5{marker SP.DYN.IMRT.Q5}}}Infant mortality rate (per 1,000 live births): Q5 (highest){p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN{marker SP.DYN.LE00.FE.IN}}}Life expectancy at birth, female (years){p_end}
 
@@ -5712,50 +2909,6 @@
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.LE00.MA.IN:SP.DYN.LE00.MA.IN{marker SP.DYN.LE00.MA.IN}}}Life expectancy at birth, male (years){p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.TFRT.IN:SP.DYN.TFRT.IN{marker SP.DYN.TFRT.IN}}}Fertility rate, total (births per woman){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.TFRT.Q1:SP.DYN.TFRT.Q1{marker SP.DYN.TFRT.Q1}}}Total fertility rate (TFR) (births per woman): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.TFRT.Q2:SP.DYN.TFRT.Q2{marker SP.DYN.TFRT.Q2}}}Total fertility rate (TFR) (births per woman): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.TFRT.Q3:SP.DYN.TFRT.Q3{marker SP.DYN.TFRT.Q3}}}Total fertility rate (TFR) (births per woman): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.TFRT.Q4:SP.DYN.TFRT.Q4{marker SP.DYN.TFRT.Q4}}}Total fertility rate (TFR) (births per woman): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.TFRT.Q5:SP.DYN.TFRT.Q5{marker SP.DYN.TFRT.Q5}}}Total fertility rate (TFR) (births per woman): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.TO65.FE.ZS:SP.DYN.TO65.FE.ZS{marker SP.DYN.TO65.FE.ZS}}}Survival to age 65, female (% of cohort){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.TO65.MA.ZS:SP.DYN.TO65.MA.ZS{marker SP.DYN.TO65.MA.ZS}}}Survival to age 65, male (% of cohort){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.WFRT:SP.DYN.WFRT{marker SP.DYN.WFRT}}}Wanted fertility rate (births per woman){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.WFRT.Q1:SP.DYN.WFRT.Q1{marker SP.DYN.WFRT.Q1}}}Total wanted fertility rate (births per woman): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.WFRT.Q2:SP.DYN.WFRT.Q2{marker SP.DYN.WFRT.Q2}}}Total wanted fertility rate (births per woman): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.WFRT.Q3:SP.DYN.WFRT.Q3{marker SP.DYN.WFRT.Q3}}}Total wanted fertility rate (births per woman): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.WFRT.Q4:SP.DYN.WFRT.Q4{marker SP.DYN.WFRT.Q4}}}Total wanted fertility rate (births per woman): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.DYN.WFRT.Q5:SP.DYN.WFRT.Q5{marker SP.DYN.WFRT.Q5}}}Total wanted fertility rate (births per woman): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.HOU.FEMA.ZS:SP.HOU.FEMA.ZS{marker SP.HOU.FEMA.ZS}}}Female headed households (% of households with a female head){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.M15.2024.FE.ZS:SP.M15.2024.FE.ZS{marker SP.M15.2024.FE.ZS}}}Women who were first married by age 15 (% of women ages 20-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.M18.2024.FE.ZS:SP.M18.2024.FE.ZS{marker SP.M18.2024.FE.ZS}}}Women who were first married by age 18 (% of women ages 20-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.MTR.1519.Q1.ZS:SP.MTR.1519.Q1.ZS{marker SP.MTR.1519.Q1.ZS}}}Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.MTR.1519.Q2.ZS:SP.MTR.1519.Q2.ZS{marker SP.MTR.1519.Q2.ZS}}}Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.MTR.1519.Q3.ZS:SP.MTR.1519.Q3.ZS{marker SP.MTR.1519.Q3.ZS}}}Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.MTR.1519.Q4.ZS:SP.MTR.1519.Q4.ZS{marker SP.MTR.1519.Q4.ZS}}}Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.MTR.1519.Q5.ZS:SP.MTR.1519.Q5.ZS{marker SP.MTR.1519.Q5.ZS}}}Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.MTR.1519.ZS:SP.MTR.1519.ZS{marker SP.MTR.1519.ZS}}}Teenage mothers (% of women ages 15-19 who have had children or are currently pregnant){p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.POP.0004.FE.5Y:SP.POP.0004.FE.5Y{marker SP.POP.0004.FE.5Y}}}Population ages 00-04, female (% of female population){p_end}
 
@@ -5857,7 +3010,7 @@
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.POP.7579.MA.5Y:SP.POP.7579.MA.5Y{marker SP.POP.7579.MA.5Y}}}Population ages 75-79, male (% of male population){p_end}
 
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.POP.80UP.FE:SP.POP.80UP.FE{marker SP.POP.80UP.FE}}}Female population 80+{p_end}
+{synopt:{help wbopendata_topicid_indicators08##topicid_SP.POP.80UP.FE:SP.POP.80UP.FE{marker SP.POP.80UP.FE}}}Population ages 80 and above, female{p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.POP.80UP.FE.5Y:SP.POP.80UP.FE.5Y{marker SP.POP.80UP.FE.5Y}}}Population ages 80 and above, female (% of female population){p_end}
 
@@ -5882,50 +3035,6 @@
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.POP.TOTL.MA.IN:SP.POP.TOTL.MA.IN{marker SP.POP.TOTL.MA.IN}}}Population, male{p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.POP.TOTL.MA.ZS:SP.POP.TOTL.MA.ZS{marker SP.POP.TOTL.MA.ZS}}}Population, male (% of total population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.REG.BRTH.FE.ZS:SP.REG.BRTH.FE.ZS{marker SP.REG.BRTH.FE.ZS}}}Completeness of birth registration, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.REG.BRTH.MA.ZS:SP.REG.BRTH.MA.ZS{marker SP.REG.BRTH.MA.ZS}}}Completeness of birth registration, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.REG.BRTH.RU.ZS:SP.REG.BRTH.RU.ZS{marker SP.REG.BRTH.RU.ZS}}}Completeness of birth registration, rural (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.REG.BRTH.UR.ZS:SP.REG.BRTH.UR.ZS{marker SP.REG.BRTH.UR.ZS}}}Completeness of birth registration, urban (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.REG.BRTH.ZS:SP.REG.BRTH.ZS{marker SP.REG.BRTH.ZS}}}Completeness of birth registration (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.REG.DTHS.ZS:SP.REG.DTHS.ZS{marker SP.REG.DTHS.ZS}}}Completeness of death registration with cause-of-death information (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.LMTG.Q1.ZS:SP.UWT.LMTG.Q1.ZS{marker SP.UWT.LMTG.Q1.ZS}}}Unmet need for family planning (for limiting) (% of married women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.LMTG.Q2.ZS:SP.UWT.LMTG.Q2.ZS{marker SP.UWT.LMTG.Q2.ZS}}}Unmet need for family planning (for limiting) (% of married women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.LMTG.Q3.ZS:SP.UWT.LMTG.Q3.ZS{marker SP.UWT.LMTG.Q3.ZS}}}Unmet need for family planning (for limiting) (% of married women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.LMTG.Q4.ZS:SP.UWT.LMTG.Q4.ZS{marker SP.UWT.LMTG.Q4.ZS}}}Unmet need for family planning (for limiting) (% of married women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.LMTG.Q5.ZS:SP.UWT.LMTG.Q5.ZS{marker SP.UWT.LMTG.Q5.ZS}}}Unmet need for family planning (for limiting) (% of married women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.SPCG.Q1.ZS:SP.UWT.SPCG.Q1.ZS{marker SP.UWT.SPCG.Q1.ZS}}}Unmet need for family planning (for spacing) (% of married women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.SPCG.Q2.ZS:SP.UWT.SPCG.Q2.ZS{marker SP.UWT.SPCG.Q2.ZS}}}Unmet need for family planning (for spacing) (% of married women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.SPCG.Q3.ZS:SP.UWT.SPCG.Q3.ZS{marker SP.UWT.SPCG.Q3.ZS}}}Unmet need for family planning (for spacing) (% of married women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.SPCG.Q4.ZS:SP.UWT.SPCG.Q4.ZS{marker SP.UWT.SPCG.Q4.ZS}}}Unmet need for family planning (for spacing) (% of married women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.SPCG.Q5.ZS:SP.UWT.SPCG.Q5.ZS{marker SP.UWT.SPCG.Q5.ZS}}}Unmet need for family planning (for spacing) (% of married women): Q5 (highest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.TFRT:SP.UWT.TFRT{marker SP.UWT.TFRT}}}Unmet need for contraception (% of married women ages 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.TFRT.Q1.ZS:SP.UWT.TFRT.Q1.ZS{marker SP.UWT.TFRT.Q1.ZS}}}Unmet need for family planning (total) (% of married women): Q1 (lowest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.TFRT.Q2.ZS:SP.UWT.TFRT.Q2.ZS{marker SP.UWT.TFRT.Q2.ZS}}}Unmet need for family planning (total) (% of married women): Q2{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.TFRT.Q3.ZS:SP.UWT.TFRT.Q3.ZS{marker SP.UWT.TFRT.Q3.ZS}}}Unmet need for family planning (total) (% of married women): Q3{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.TFRT.Q4.ZS:SP.UWT.TFRT.Q4.ZS{marker SP.UWT.TFRT.Q4.ZS}}}Unmet need for family planning (total) (% of married women): Q4{p_end}
-
-{synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.TFRT.Q5.ZS:SP.UWT.TFRT.Q5.ZS{marker SP.UWT.TFRT.Q5.ZS}}}Unmet need for family planning (total) (% of married women): Q5 (highest){p_end}
 {synoptline}
 
 {marker topicid_09}
@@ -5983,6 +3092,8 @@
 {synopt:{help wbopendata_topicid_indicators09##topicid_IE.PPI.WATR.CD:IE.PPI.WATR.CD{marker IE.PPI.WATR.CD}}}Investment in water and sanitation with private participation (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators09##topicid_IE.PPN.ENGY.CD:IE.PPN.ENGY.CD{marker IE.PPN.ENGY.CD}}}Public private partnerships investment in energy (current US$){p_end}
+
+{synopt:{help wbopendata_topicid_indicators09##topicid_IE.PPN.ICTI.CD:IE.PPN.ICTI.CD{marker IE.PPN.ICTI.CD}}}Public private partnerships investment in ICT (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators09##topicid_IE.PPN.TELE.CD:IE.PPN.TELE.CD{marker IE.PPN.TELE.CD}}}Public private partnerships investment in telecom (current US$){p_end}
 
@@ -6073,16 +3184,6 @@
 {synopt:{help wbopendata_topicid_indicators09##topicid_IT.TEL.TOTL.P2:IT.TEL.TOTL.P2{marker IT.TEL.TOTL.P2}}}Fixed line and mobile cellular subscriptions (per 100 people){p_end}
 
 {synopt:{help wbopendata_topicid_indicators09##topicid_IT.TVS.HOUS.ZS:IT.TVS.HOUS.ZS{marker IT.TVS.HOUS.ZS}}}Households with television (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators09##topicid_SH.H2O.SAFE.RU.ZS:SH.H2O.SAFE.RU.ZS{marker SH.H2O.SAFE.RU.ZS}}}Improved water source, rural (% of rural population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators09##topicid_SH.H2O.SAFE.UR.ZS:SH.H2O.SAFE.UR.ZS{marker SH.H2O.SAFE.UR.ZS}}}Improved water source, urban (% of urban population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators09##topicid_SH.H2O.SAFE.ZS:SH.H2O.SAFE.ZS{marker SH.H2O.SAFE.ZS}}}Improved water source (% of population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators09##topicid_TM.VAL.ICTG.ZS.UN:TM.VAL.ICTG.ZS.UN{marker TM.VAL.ICTG.ZS.UN}}}ICT goods imports (% total goods imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators09##topicid_TX.VAL.ICTG.ZS.UN:TX.VAL.ICTG.ZS.UN{marker TX.VAL.ICTG.ZS.UN}}}ICT goods exports (% of total goods exports){p_end}
 {synoptline}
 
 {marker topicid_10}
@@ -6259,325 +3360,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_9.2.Unpaid.T60:9.2.Unpaid.T60{marker 9.2.Unpaid.T60}}}Unpaid Workers-Top 60 Percent (%), Female{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.AGR.0714.FE.ZS:SL.AGR.0714.FE.ZS{marker SL.AGR.0714.FE.ZS}}}Child employment in agriculture, female (% of female economically active children ages 7-14){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.adq_ep_preT_tot:per_allsp.adq_ep_preT_tot{marker per_allsp.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.AGR.0714.MA.ZS:SL.AGR.0714.MA.ZS{marker SL.AGR.0714.MA.ZS}}}Child employment in agriculture, male (% of male economically active children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.AGR.0714.ZS:SL.AGR.0714.ZS{marker SL.AGR.0714.ZS}}}Child employment in agriculture (% of economically active children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.AGR.EMPL.FE.ZS:SL.AGR.EMPL.FE.ZS{marker SL.AGR.EMPL.FE.ZS}}}Employment in agriculture, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.AGR.EMPL.MA.ZS:SL.AGR.EMPL.MA.ZS{marker SL.AGR.EMPL.MA.ZS}}}Employment in agriculture, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.AGR.EMPL.ZS:SL.AGR.EMPL.ZS{marker SL.AGR.EMPL.ZS}}}Employment in agriculture (% of total employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.1524.SP.FE.NE.ZS:SL.EMP.1524.SP.FE.NE.ZS{marker SL.EMP.1524.SP.FE.NE.ZS}}}Employment to population ratio, ages 15-24, female (%) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.1524.SP.FE.ZS:SL.EMP.1524.SP.FE.ZS{marker SL.EMP.1524.SP.FE.ZS}}}Employment to population ratio, ages 15-24, female (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.1524.SP.MA.NE.ZS:SL.EMP.1524.SP.MA.NE.ZS{marker SL.EMP.1524.SP.MA.NE.ZS}}}Employment to population ratio, ages 15-24, male (%) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.1524.SP.MA.ZS:SL.EMP.1524.SP.MA.ZS{marker SL.EMP.1524.SP.MA.ZS}}}Employment to population ratio, ages 15-24, male (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.1524.SP.NE.ZS:SL.EMP.1524.SP.NE.ZS{marker SL.EMP.1524.SP.NE.ZS}}}Employment to population ratio, ages 15-24, total (%) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.1524.SP.ZS:SL.EMP.1524.SP.ZS{marker SL.EMP.1524.SP.ZS}}}Employment to population ratio, ages 15-24, total (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.INSV.FE.ZS:SL.EMP.INSV.FE.ZS{marker SL.EMP.INSV.FE.ZS}}}Share of women in wage employment in the nonagricultural sector (% of total nonagricultural employment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.MPYR.FE.ZS:SL.EMP.MPYR.FE.ZS{marker SL.EMP.MPYR.FE.ZS}}}Employers, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.MPYR.MA.ZS:SL.EMP.MPYR.MA.ZS{marker SL.EMP.MPYR.MA.ZS}}}Employers, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.MPYR.ZS:SL.EMP.MPYR.ZS{marker SL.EMP.MPYR.ZS}}}Employers, total (% of total employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.SELF.FE.ZS:SL.EMP.SELF.FE.ZS{marker SL.EMP.SELF.FE.ZS}}}Self-employed, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.SELF.MA.ZS:SL.EMP.SELF.MA.ZS{marker SL.EMP.SELF.MA.ZS}}}Self-employed, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.SELF.ZS:SL.EMP.SELF.ZS{marker SL.EMP.SELF.ZS}}}Self-employed, total (% of total employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.SMGT.FE.ZS:SL.EMP.SMGT.FE.ZS{marker SL.EMP.SMGT.FE.ZS}}}Female share of employment in senior and middle management (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.TOTL.SP.FE.NE.ZS:SL.EMP.TOTL.SP.FE.NE.ZS{marker SL.EMP.TOTL.SP.FE.NE.ZS}}}Employment to population ratio, 15+, female (%) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.TOTL.SP.FE.ZS:SL.EMP.TOTL.SP.FE.ZS{marker SL.EMP.TOTL.SP.FE.ZS}}}Employment to population ratio, 15+, female (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.TOTL.SP.MA.NE.ZS:SL.EMP.TOTL.SP.MA.NE.ZS{marker SL.EMP.TOTL.SP.MA.NE.ZS}}}Employment to population ratio, 15+, male (%) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.TOTL.SP.MA.ZS:SL.EMP.TOTL.SP.MA.ZS{marker SL.EMP.TOTL.SP.MA.ZS}}}Employment to population ratio, 15+, male (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.TOTL.SP.NE.ZS:SL.EMP.TOTL.SP.NE.ZS{marker SL.EMP.TOTL.SP.NE.ZS}}}Employment to population ratio, 15+, total (%) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.TOTL.SP.ZS:SL.EMP.TOTL.SP.ZS{marker SL.EMP.TOTL.SP.ZS}}}Employment to population ratio, 15+, total (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.VULN.FE.ZS:SL.EMP.VULN.FE.ZS{marker SL.EMP.VULN.FE.ZS}}}Vulnerable employment, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.VULN.MA.ZS:SL.EMP.VULN.MA.ZS{marker SL.EMP.VULN.MA.ZS}}}Vulnerable employment, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.VULN.ZS:SL.EMP.VULN.ZS{marker SL.EMP.VULN.ZS}}}Vulnerable employment, total (% of total employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.WORK.FE.ZS:SL.EMP.WORK.FE.ZS{marker SL.EMP.WORK.FE.ZS}}}Wage and salaried workers, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.WORK.MA.ZS:SL.EMP.WORK.MA.ZS{marker SL.EMP.WORK.MA.ZS}}}Wage and salaried workers, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.EMP.WORK.ZS:SL.EMP.WORK.ZS{marker SL.EMP.WORK.ZS}}}Wage and salaried workers, total (% of total employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.FAM.0714.FE.ZS:SL.FAM.0714.FE.ZS{marker SL.FAM.0714.FE.ZS}}}Children in employment, unpaid family workers, female (% of female children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.FAM.0714.MA.ZS:SL.FAM.0714.MA.ZS{marker SL.FAM.0714.MA.ZS}}}Children in employment, unpaid family workers, male (% of male children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.FAM.0714.ZS:SL.FAM.0714.ZS{marker SL.FAM.0714.ZS}}}Children in employment, unpaid family workers (% of children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.FAM.WORK.FE.ZS:SL.FAM.WORK.FE.ZS{marker SL.FAM.WORK.FE.ZS}}}Contributing family workers, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.FAM.WORK.MA.ZS:SL.FAM.WORK.MA.ZS{marker SL.FAM.WORK.MA.ZS}}}Contributing family workers, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.FAM.WORK.ZS:SL.FAM.WORK.ZS{marker SL.FAM.WORK.ZS}}}Contributing family workers, total (% of total employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.GDP.PCAP.EM.KD:SL.GDP.PCAP.EM.KD{marker SL.GDP.PCAP.EM.KD}}}GDP per person employed (constant 2017 PPP $){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.IND.EMPL.FE.ZS:SL.IND.EMPL.FE.ZS{marker SL.IND.EMPL.FE.ZS}}}Employment in industry, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.IND.EMPL.MA.ZS:SL.IND.EMPL.MA.ZS{marker SL.IND.EMPL.MA.ZS}}}Employment in industry, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.IND.EMPL.ZS:SL.IND.EMPL.ZS{marker SL.IND.EMPL.ZS}}}Employment in industry (% of total employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.ISV.IFRM.FE.ZS:SL.ISV.IFRM.FE.ZS{marker SL.ISV.IFRM.FE.ZS}}}Informal employment, female (% of total non-agricultural employment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.ISV.IFRM.MA.ZS:SL.ISV.IFRM.MA.ZS{marker SL.ISV.IFRM.MA.ZS}}}Informal employment, male (% of total non-agricultural employment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.ISV.IFRM.ZS:SL.ISV.IFRM.ZS{marker SL.ISV.IFRM.ZS}}}Informal employment (% of total non-agricultural employment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.MNF.0714.FE.ZS:SL.MNF.0714.FE.ZS{marker SL.MNF.0714.FE.ZS}}}Child employment in manufacturing, female (% of female economically active children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.MNF.0714.MA.ZS:SL.MNF.0714.MA.ZS{marker SL.MNF.0714.MA.ZS}}}Child employment in manufacturing, male (% of male economically active children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.MNF.0714.ZS:SL.MNF.0714.ZS{marker SL.MNF.0714.ZS}}}Child employment in manufacturing (% of economically active children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.MNF.WAGE.FM:SL.MNF.WAGE.FM{marker SL.MNF.WAGE.FM}}}Ratio of female to male wages in manufacturing (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.SLF.0714.FE.ZS:SL.SLF.0714.FE.ZS{marker SL.SLF.0714.FE.ZS}}}Children in employment, self-employed, female (% of female children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.SLF.0714.MA.ZS:SL.SLF.0714.MA.ZS{marker SL.SLF.0714.MA.ZS}}}Children in employment, self-employed, male (% of male children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.SLF.0714.ZS:SL.SLF.0714.ZS{marker SL.SLF.0714.ZS}}}Children in employment, self-employed (% of children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.SRV.0714.FE.ZS:SL.SRV.0714.FE.ZS{marker SL.SRV.0714.FE.ZS}}}Child employment in services, female (% of female economically active children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.SRV.0714.MA.ZS:SL.SRV.0714.MA.ZS{marker SL.SRV.0714.MA.ZS}}}Child employment in services, male (% of male economically active children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.SRV.0714.ZS:SL.SRV.0714.ZS{marker SL.SRV.0714.ZS}}}Child employment in services (% of economically active children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.SRV.EMPL.FE.ZS:SL.SRV.EMPL.FE.ZS{marker SL.SRV.EMPL.FE.ZS}}}Employment in services, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.SRV.EMPL.MA.ZS:SL.SRV.EMPL.MA.ZS{marker SL.SRV.EMPL.MA.ZS}}}Employment in services, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.SRV.EMPL.ZS:SL.SRV.EMPL.ZS{marker SL.SRV.EMPL.ZS}}}Employment in services (% of total employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.0714.FE.ZS:SL.TLF.0714.FE.ZS{marker SL.TLF.0714.FE.ZS}}}Children in employment, female (% of female children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.0714.MA.ZS:SL.TLF.0714.MA.ZS{marker SL.TLF.0714.MA.ZS}}}Children in employment, male (% of male children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.0714.SW.FE.TM:SL.TLF.0714.SW.FE.TM{marker SL.TLF.0714.SW.FE.TM}}}Average working hours of children, study and work, female, ages 7-14 (hours per week){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.0714.SW.FE.ZS:SL.TLF.0714.SW.FE.ZS{marker SL.TLF.0714.SW.FE.ZS}}}Children in employment, study and work, female (% of female children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.0714.SW.MA.TM:SL.TLF.0714.SW.MA.TM{marker SL.TLF.0714.SW.MA.TM}}}Average working hours of children, study and work, male, ages 7-14 (hours per week){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.0714.SW.MA.ZS:SL.TLF.0714.SW.MA.ZS{marker SL.TLF.0714.SW.MA.ZS}}}Children in employment, study and work, male (% of male children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.0714.SW.TM:SL.TLF.0714.SW.TM{marker SL.TLF.0714.SW.TM}}}Average working hours of children, study and work, ages 7-14 (hours per week){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.0714.SW.ZS:SL.TLF.0714.SW.ZS{marker SL.TLF.0714.SW.ZS}}}Children in employment, study and work (% of children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.0714.WK.FE.TM:SL.TLF.0714.WK.FE.TM{marker SL.TLF.0714.WK.FE.TM}}}Average working hours of children, working only, female, ages 7-14 (hours per week){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.0714.WK.FE.ZS:SL.TLF.0714.WK.FE.ZS{marker SL.TLF.0714.WK.FE.ZS}}}Children in employment, work only, female (% of female children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.0714.WK.MA.TM:SL.TLF.0714.WK.MA.TM{marker SL.TLF.0714.WK.MA.TM}}}Average working hours of children, working only, male, ages 7-14 (hours per week){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.0714.WK.MA.ZS:SL.TLF.0714.WK.MA.ZS{marker SL.TLF.0714.WK.MA.ZS}}}Children in employment, work only, male (% of male children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.0714.WK.TM:SL.TLF.0714.WK.TM{marker SL.TLF.0714.WK.TM}}}Average working hours of children, working only, ages 7-14 (hours per week){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.0714.WK.ZS:SL.TLF.0714.WK.ZS{marker SL.TLF.0714.WK.ZS}}}Children in employment, work only (% of children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.0714.ZS:SL.TLF.0714.ZS{marker SL.TLF.0714.ZS}}}Children in employment, total (% of children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.1564.FE.IN:SL.TLF.1564.FE.IN{marker SL.TLF.1564.FE.IN}}}Labor force (15-64 years), female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.1564.FE.ZS:SL.TLF.1564.FE.ZS{marker SL.TLF.1564.FE.ZS}}}Labor force (15-64 years), female (% of total labor force 15-64 years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.1564.IN:SL.TLF.1564.IN{marker SL.TLF.1564.IN}}}Labor force (15-64 years), total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.1564.MA.IN:SL.TLF.1564.MA.IN{marker SL.TLF.1564.MA.IN}}}Labor force (15-64 years), male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.1564.MA.ZS:SL.TLF.1564.MA.ZS{marker SL.TLF.1564.MA.ZS}}}Labor force (15-64 years), male (% of total labor force 15-64 years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.ACTI.1524.FE.NE.ZS:SL.TLF.ACTI.1524.FE.NE.ZS{marker SL.TLF.ACTI.1524.FE.NE.ZS}}}Labor force participation rate for ages 15-24, female (%) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.ACTI.1524.FE.ZS:SL.TLF.ACTI.1524.FE.ZS{marker SL.TLF.ACTI.1524.FE.ZS}}}Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.ACTI.1524.MA.NE.ZS:SL.TLF.ACTI.1524.MA.NE.ZS{marker SL.TLF.ACTI.1524.MA.NE.ZS}}}Labor force participation rate for ages 15-24, male (%) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.ACTI.1524.MA.ZS:SL.TLF.ACTI.1524.MA.ZS{marker SL.TLF.ACTI.1524.MA.ZS}}}Labor force participation rate for ages 15-24, male (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.ACTI.1524.NE.ZS:SL.TLF.ACTI.1524.NE.ZS{marker SL.TLF.ACTI.1524.NE.ZS}}}Labor force participation rate for ages 15-24, total (%) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.ACTI.1524.ZS:SL.TLF.ACTI.1524.ZS{marker SL.TLF.ACTI.1524.ZS}}}Labor force participation rate for ages 15-24, total (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.ACTI.FE.ZS:SL.TLF.ACTI.FE.ZS{marker SL.TLF.ACTI.FE.ZS}}}Labor force participation rate, female (% of female population ages 15-64) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.ACTI.MA.ZS:SL.TLF.ACTI.MA.ZS{marker SL.TLF.ACTI.MA.ZS}}}Labor force participation rate, male (% of male population ages 15-64) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.ACTI.ZS:SL.TLF.ACTI.ZS{marker SL.TLF.ACTI.ZS}}}Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.ADVN.FE.ZS:SL.TLF.ADVN.FE.ZS{marker SL.TLF.ADVN.FE.ZS}}}Labor force with advanced education, female (% of female working-age population with advanced education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.ADVN.MA.ZS:SL.TLF.ADVN.MA.ZS{marker SL.TLF.ADVN.MA.ZS}}}Labor force with advanced education, male (% of male working-age population with advanced education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.ADVN.ZS:SL.TLF.ADVN.ZS{marker SL.TLF.ADVN.ZS}}}Labor force with advanced education (% of total working-age population with advanced education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.BASC.FE.ZS:SL.TLF.BASC.FE.ZS{marker SL.TLF.BASC.FE.ZS}}}Labor force with basic education, female (% of female working-age population with basic education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.BASC.MA.ZS:SL.TLF.BASC.MA.ZS{marker SL.TLF.BASC.MA.ZS}}}Labor force with basic education, male (% of male working-age population with basic education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.BASC.ZS:SL.TLF.BASC.ZS{marker SL.TLF.BASC.ZS}}}Labor force with basic education (% of total working-age population with basic education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.CACT.FE.NE.ZS:SL.TLF.CACT.FE.NE.ZS{marker SL.TLF.CACT.FE.NE.ZS}}}Labor force participation rate, female (% of female population ages 15+) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.CACT.FE.ZS:SL.TLF.CACT.FE.ZS{marker SL.TLF.CACT.FE.ZS}}}Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.CACT.FM.NE.ZS:SL.TLF.CACT.FM.NE.ZS{marker SL.TLF.CACT.FM.NE.ZS}}}Ratio of female to male labor force participation rate (%) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.CACT.FM.ZS:SL.TLF.CACT.FM.ZS{marker SL.TLF.CACT.FM.ZS}}}Ratio of female to male labor force participation rate (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.CACT.MA.NE.ZS:SL.TLF.CACT.MA.NE.ZS{marker SL.TLF.CACT.MA.NE.ZS}}}Labor force participation rate, male (% of male population ages 15+) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.CACT.MA.ZS:SL.TLF.CACT.MA.ZS{marker SL.TLF.CACT.MA.ZS}}}Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.CACT.NE.ZS:SL.TLF.CACT.NE.ZS{marker SL.TLF.CACT.NE.ZS}}}Labor force participation rate, total (% of total population ages 15+) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.CACT.ZS:SL.TLF.CACT.ZS{marker SL.TLF.CACT.ZS}}}Labor force participation rate, total (% of total population ages 15+) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.INTM.FE.ZS:SL.TLF.INTM.FE.ZS{marker SL.TLF.INTM.FE.ZS}}}Labor force with intermediate education, female (% of female working-age population with intermediate education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.INTM.MA.ZS:SL.TLF.INTM.MA.ZS{marker SL.TLF.INTM.MA.ZS}}}Labor force with intermediate education, male (% of male working-age population with intermediate education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.INTM.ZS:SL.TLF.INTM.ZS{marker SL.TLF.INTM.ZS}}}Labor force with intermediate education (% of total working-age population with intermediate education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.PART.FE.ZS:SL.TLF.PART.FE.ZS{marker SL.TLF.PART.FE.ZS}}}Part time employment, female (% of total female employment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.PART.MA.ZS:SL.TLF.PART.MA.ZS{marker SL.TLF.PART.MA.ZS}}}Part time employment, male (% of total male employment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.PART.TL.FE.ZS:SL.TLF.PART.TL.FE.ZS{marker SL.TLF.PART.TL.FE.ZS}}}Part time employment, female (% of total part time employment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.PART.ZS:SL.TLF.PART.ZS{marker SL.TLF.PART.ZS}}}Part time employment, total (% of total employment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.PRIM.FE.ZS:SL.TLF.PRIM.FE.ZS{marker SL.TLF.PRIM.FE.ZS}}}Labor force with primary education, female (% of female labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.PRIM.MA.ZS:SL.TLF.PRIM.MA.ZS{marker SL.TLF.PRIM.MA.ZS}}}Labor force with primary education, male (% of male labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.PRIM.ZS:SL.TLF.PRIM.ZS{marker SL.TLF.PRIM.ZS}}}Labor force with primary education (% of total){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.SECO.FE.ZS:SL.TLF.SECO.FE.ZS{marker SL.TLF.SECO.FE.ZS}}}Labor force with secondary education, female (% of female labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.SECO.MA.ZS:SL.TLF.SECO.MA.ZS{marker SL.TLF.SECO.MA.ZS}}}Labor force with secondary education, male (% of male labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.SECO.ZS:SL.TLF.SECO.ZS{marker SL.TLF.SECO.ZS}}}Labor force with secondary education (% of total){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.TERT.FE.ZS:SL.TLF.TERT.FE.ZS{marker SL.TLF.TERT.FE.ZS}}}Labor force with tertiary education, female (% of female labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.TERT.MA.ZS:SL.TLF.TERT.MA.ZS{marker SL.TLF.TERT.MA.ZS}}}Labor force with tertiary education, male (% of male labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.TERT.ZS:SL.TLF.TERT.ZS{marker SL.TLF.TERT.ZS}}}Labor force with tertiary education (% of total){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.TOTL.FE.ZS:SL.TLF.TOTL.FE.ZS{marker SL.TLF.TOTL.FE.ZS}}}Labor force, female (% of total labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.TLF.TOTL.IN:SL.TLF.TOTL.IN{marker SL.TLF.TOTL.IN}}}Labor force, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.1524.FE.NE.ZS:SL.UEM.1524.FE.NE.ZS{marker SL.UEM.1524.FE.NE.ZS}}}Unemployment, youth female (% of female labor force ages 15-24) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.1524.FE.ZS:SL.UEM.1524.FE.ZS{marker SL.UEM.1524.FE.ZS}}}Unemployment, youth female (% of female labor force ages 15-24) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.1524.MA.NE.ZS:SL.UEM.1524.MA.NE.ZS{marker SL.UEM.1524.MA.NE.ZS}}}Unemployment, youth male (% of male labor force ages 15-24) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.1524.MA.ZS:SL.UEM.1524.MA.ZS{marker SL.UEM.1524.MA.ZS}}}Unemployment, youth male (% of male labor force ages 15-24) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.1524.NE.ZS:SL.UEM.1524.NE.ZS{marker SL.UEM.1524.NE.ZS}}}Unemployment, youth total (% of total labor force ages 15-24) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.1524.ZS:SL.UEM.1524.ZS{marker SL.UEM.1524.ZS}}}Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.ADVN.FE.ZS:SL.UEM.ADVN.FE.ZS{marker SL.UEM.ADVN.FE.ZS}}}Unemployment with advanced education, female (% of female labor force with advanced education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.ADVN.MA.ZS:SL.UEM.ADVN.MA.ZS{marker SL.UEM.ADVN.MA.ZS}}}Unemployment with advanced education, male (% of male labor force with advanced education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.ADVN.ZS:SL.UEM.ADVN.ZS{marker SL.UEM.ADVN.ZS}}}Unemployment with advanced education (% of total labor force with advanced education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.BASC.FE.ZS:SL.UEM.BASC.FE.ZS{marker SL.UEM.BASC.FE.ZS}}}Unemployment with basic education, female (% of female labor force with basic education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.BASC.MA.ZS:SL.UEM.BASC.MA.ZS{marker SL.UEM.BASC.MA.ZS}}}Unemployment with basic education, male (% of male labor force with basic education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.BASC.ZS:SL.UEM.BASC.ZS{marker SL.UEM.BASC.ZS}}}Unemployment with basic education (% of total labor force with basic education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.INTM.FE.ZS:SL.UEM.INTM.FE.ZS{marker SL.UEM.INTM.FE.ZS}}}Unemployment with intermediate education, female (% of female labor force with intermediate education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.INTM.MA.ZS:SL.UEM.INTM.MA.ZS{marker SL.UEM.INTM.MA.ZS}}}Unemployment with intermediate education, male (% of male labor force with intermediate education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.INTM.ZS:SL.UEM.INTM.ZS{marker SL.UEM.INTM.ZS}}}Unemployment with intermediate education (% of total labor force with intermediate education){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.LTRM.FE.ZS:SL.UEM.LTRM.FE.ZS{marker SL.UEM.LTRM.FE.ZS}}}Long-term unemployment, female (% of female unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.LTRM.MA.ZS:SL.UEM.LTRM.MA.ZS{marker SL.UEM.LTRM.MA.ZS}}}Long-term unemployment, male (% of male unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.LTRM.ZS:SL.UEM.LTRM.ZS{marker SL.UEM.LTRM.ZS}}}Long-term unemployment (% of total unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.NEET.FE.ZS:SL.UEM.NEET.FE.ZS{marker SL.UEM.NEET.FE.ZS}}}Share of youth not in education, employment or training, female (% of female youth population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.NEET.MA.ZS:SL.UEM.NEET.MA.ZS{marker SL.UEM.NEET.MA.ZS}}}Share of youth not in education, employment or training, male (% of male youth population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.NEET.ZS:SL.UEM.NEET.ZS{marker SL.UEM.NEET.ZS}}}Share of youth not in education, employment or training, total (% of youth population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.PRIM.FE.ZS:SL.UEM.PRIM.FE.ZS{marker SL.UEM.PRIM.FE.ZS}}}Unemployment with primary education, female (% of female unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.PRIM.MA.ZS:SL.UEM.PRIM.MA.ZS{marker SL.UEM.PRIM.MA.ZS}}}Unemployment with primary education, male (% of male unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.PRIM.ZS:SL.UEM.PRIM.ZS{marker SL.UEM.PRIM.ZS}}}Unemployment with primary education (% of total unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.SECO.FE.ZS:SL.UEM.SECO.FE.ZS{marker SL.UEM.SECO.FE.ZS}}}Unemployment with secondary education, female (% of female unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.SECO.MA.ZS:SL.UEM.SECO.MA.ZS{marker SL.UEM.SECO.MA.ZS}}}Unemployment with secondary education, male (% of male unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.SECO.ZS:SL.UEM.SECO.ZS{marker SL.UEM.SECO.ZS}}}Unemployment with secondary education (% of total unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.TERT.FE.ZS:SL.UEM.TERT.FE.ZS{marker SL.UEM.TERT.FE.ZS}}}Unemployment with tertiary education, female (% of female unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.TERT.MA.ZS:SL.UEM.TERT.MA.ZS{marker SL.UEM.TERT.MA.ZS}}}Unemployment with tertiary education, male (% of male unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.TERT.ZS:SL.UEM.TERT.ZS{marker SL.UEM.TERT.ZS}}}Unemployment with tertiary education (% of total unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.TOTL.FE.NE.ZS:SL.UEM.TOTL.FE.NE.ZS{marker SL.UEM.TOTL.FE.NE.ZS}}}Unemployment, female (% of female labor force) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.TOTL.FE.ZS:SL.UEM.TOTL.FE.ZS{marker SL.UEM.TOTL.FE.ZS}}}Unemployment, female (% of female labor force) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.TOTL.MA.NE.ZS:SL.UEM.TOTL.MA.NE.ZS{marker SL.UEM.TOTL.MA.NE.ZS}}}Unemployment, male (% of male labor force) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.TOTL.MA.ZS:SL.UEM.TOTL.MA.ZS{marker SL.UEM.TOTL.MA.ZS}}}Unemployment, male (% of male labor force) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.TOTL.NE.ZS:SL.UEM.TOTL.NE.ZS{marker SL.UEM.TOTL.NE.ZS}}}Unemployment, total (% of total labor force) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.UEM.TOTL.ZS:SL.UEM.TOTL.ZS{marker SL.UEM.TOTL.ZS}}}Unemployment, total (% of total labor force) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.WAG.0714.FE.ZS:SL.WAG.0714.FE.ZS{marker SL.WAG.0714.FE.ZS}}}Children in employment, wage workers, female (% of female children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.WAG.0714.MA.ZS:SL.WAG.0714.MA.ZS{marker SL.WAG.0714.MA.ZS}}}Children in employment, wage workers, male (% of male children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_SL.WAG.0714.ZS:SL.WAG.0714.ZS{marker SL.WAG.0714.ZS}}}Children in employment, wage workers (% of children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.adq_ep_preT_tot:per_allsp.adq_ep_preT_tot{marker per_allsp.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor  (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.adq_ep_tot:per_allsp.adq_ep_tot{marker per_allsp.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.adq_ep_tot:per_allsp.adq_ep_tot{marker per_allsp.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.adq_pop_preT_tot:per_allsp.adq_pop_preT_tot{marker per_allsp.adq_pop_preT_tot}}}Adequacy of benefits (%) -All Social Protection and Labor (preT){p_end}
 
@@ -6627,9 +3412,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.adq_q5_urb:per_allsp.adq_q5_urb{marker per_allsp.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) -All Social Protection and Labor -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.avt_ep_preT_tot:per_allsp.avt_ep_preT_tot{marker per_allsp.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) -All Social Protection and Labor  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.avt_ep_preT_tot:per_allsp.avt_ep_preT_tot{marker per_allsp.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) -All Social Protection and Labor  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.avt_ep_tot:per_allsp.avt_ep_tot{marker per_allsp.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) -All Social Protection and Labor{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.avt_ep_tot:per_allsp.avt_ep_tot{marker per_allsp.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) -All Social Protection and Labor{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.avt_pop_preT_tot:per_allsp.avt_pop_preT_tot{marker per_allsp.avt_pop_preT_tot}}}Average per capita transfer -All Social Protection and Labor (preT){p_end}
 
@@ -6679,9 +3464,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.avt_q5_urb:per_allsp.avt_q5_urb{marker per_allsp.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) -All Social Protection and Labor -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.ben_ep_preT_tot:per_allsp.ben_ep_preT_tot{marker per_allsp.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.ben_ep_preT_tot:per_allsp.ben_ep_preT_tot{marker per_allsp.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.ben_ep_tot:per_allsp.ben_ep_tot{marker per_allsp.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.ben_ep_tot:per_allsp.ben_ep_tot{marker per_allsp.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.ben_q1_preT_tot:per_allsp.ben_q1_preT_tot{marker per_allsp.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) -All Social Protection and Labor (preT){p_end}
 
@@ -6723,9 +3508,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.ben_q5_urb:per_allsp.ben_q5_urb{marker per_allsp.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) -All Social Protection and Labor -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.bry_ep_preT_tot:per_allsp.bry_ep_preT_tot{marker per_allsp.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.bry_ep_preT_tot:per_allsp.bry_ep_preT_tot{marker per_allsp.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.bry_ep_tot:per_allsp.bry_ep_tot{marker per_allsp.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.bry_ep_tot:per_allsp.bry_ep_tot{marker per_allsp.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.bry_q1_preT_tot:per_allsp.bry_q1_preT_tot{marker per_allsp.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) -All Social Protection and Labor (preT){p_end}
 
@@ -6767,11 +3552,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.bry_q5_urb:per_allsp.bry_q5_urb{marker per_allsp.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) -All Social Protection and Labor -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.cba_ep_preT_tot:per_allsp.cba_ep_preT_tot{marker per_allsp.cba_ep_preT_tot}}}Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.cba_ep_tot:per_allsp.cba_ep_tot{marker per_allsp.cba_ep_tot}}}Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.cba_q1_preT_tot:per_allsp.cba_q1_preT_tot{marker per_allsp.cba_q1_preT_tot}}}Benefit-cost ratio - All Social Protection and Labor -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.cba_ep_tot:per_allsp.cba_ep_tot{marker per_allsp.cba_ep_tot}}}Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.cba_q1_rur:per_allsp.cba_q1_rur{marker per_allsp.cba_q1_rur}}}Benefit-cost ratio - All Social Protection and Labor -1st quintile (poorest) -rural{p_end}
 
@@ -6779,9 +3560,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.cba_q1_urb:per_allsp.cba_q1_urb{marker per_allsp.cba_q1_urb}}}Benefit-cost ratio - All Social Protection and Labor - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.cov_ep_preT_tot:per_allsp.cov_ep_preT_tot{marker per_allsp.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.cov_ep_preT_tot:per_allsp.cov_ep_preT_tot{marker per_allsp.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.cov_ep_tot:per_allsp.cov_ep_tot{marker per_allsp.cov_ep_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.cov_ep_tot:per_allsp.cov_ep_tot{marker per_allsp.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.cov_pop_preT_tot:per_allsp.cov_pop_preT_tot{marker per_allsp.cov_pop_preT_tot}}}Coverage (%) -All Social Protection and Labor (preT){p_end}
 
@@ -6831,19 +3612,13 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.cov_q5_urb:per_allsp.cov_q5_urb{marker per_allsp.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) -All Social Protection and Labor -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp_gini_preT_tot:per_allsp_gini_preT_tot{marker per_allsp_gini_preT_tot}}}Gini inequality index reduction (%) - All Social Protection and Labor (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp_gini_rur:per_allsp_gini_rur{marker per_allsp_gini_rur}}}Gini inequality index reduction (%) - All Social Protection and Labor -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp_gini_tot:per_allsp_gini_tot{marker per_allsp_gini_tot}}}Gini inequality index reduction (%) - All Social Protection and Labor{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp_gini_urb:per_allsp_gini_urb{marker per_allsp_gini_urb}}}Gini inequality index reduction (%) - All Social Protection and Labor -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp_p0_ep_preT_tot:per_allsp_p0_ep_preT_tot{marker per_allsp_p0_ep_preT_tot}}}Poverty Headcount reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp_p0_ep_tot:per_allsp_p0_ep_tot{marker per_allsp_p0_ep_tot}}}Poverty Headcount reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp_p0_preT_tot:per_allsp_p0_preT_tot{marker per_allsp_p0_preT_tot}}}Poverty Headcount reduction (%) - All Social Protection and Labor -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp_p0_ep_tot:per_allsp_p0_ep_tot{marker per_allsp_p0_ep_tot}}}Poverty Headcount reduction (%) - All Social Protection and Labor -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp_p0_rur:per_allsp_p0_rur{marker per_allsp_p0_rur}}}Poverty Headcount reduction (%) - All Social Protection and Labor -1st quintile (poorest) -rural{p_end}
 
@@ -6851,11 +3626,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp_p0_urb:per_allsp_p0_urb{marker per_allsp_p0_urb}}}Poverty Headcount reduction (%) - All Social Protection and Labor - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp_p1_ep_preT_tot:per_allsp_p1_ep_preT_tot{marker per_allsp_p1_ep_preT_tot}}}Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp_p1_ep_tot:per_allsp_p1_ep_tot{marker per_allsp_p1_ep_tot}}}Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp_p1_preT_tot:per_allsp_p1_preT_tot{marker per_allsp_p1_preT_tot}}}Poverty Gap reduction (%) - All Social Protection and Labor -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp_p1_ep_tot:per_allsp_p1_ep_tot{marker per_allsp_p1_ep_tot}}}Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp_p1_rur:per_allsp_p1_rur{marker per_allsp_p1_rur}}}Poverty Gap reduction (%) - All Social Protection and Labor -1st quintile (poorest) -rural{p_end}
 
@@ -6863,9 +3634,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp_p1_urb:per_allsp_p1_urb{marker per_allsp_p1_urb}}}Poverty Gap reduction (%) - All Social Protection and Labor - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.adq_ep_preT_tot:per_lm_ac.adq_ep_preT_tot{marker per_lm_ac.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.adq_ep_preT_tot:per_lm_ac.adq_ep_preT_tot{marker per_lm_ac.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.adq_ep_tot:per_lm_ac.adq_ep_tot{marker per_lm_ac.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.adq_ep_tot:per_lm_ac.adq_ep_tot{marker per_lm_ac.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.adq_pop_preT_tot:per_lm_ac.adq_pop_preT_tot{marker per_lm_ac.adq_pop_preT_tot}}}Adequacy of benefits (%) - Active Labor Market (preT){p_end}
 
@@ -6915,9 +3686,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.adq_q5_urb:per_lm_ac.adq_q5_urb{marker per_lm_ac.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) - Active Labor Market -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.avt_ep_preT_tot:per_lm_ac.avt_ep_preT_tot{marker per_lm_ac.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Active Labor Market  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.avt_ep_preT_tot:per_lm_ac.avt_ep_preT_tot{marker per_lm_ac.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Active Labor Market  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.avt_ep_tot:per_lm_ac.avt_ep_tot{marker per_lm_ac.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Active Labor Market{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.avt_ep_tot:per_lm_ac.avt_ep_tot{marker per_lm_ac.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Active Labor Market{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.avt_pop_preT_tot:per_lm_ac.avt_pop_preT_tot{marker per_lm_ac.avt_pop_preT_tot}}}Average per capita transfer - Active Labor Market (preT){p_end}
 
@@ -6967,9 +3738,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.avt_q5_urb:per_lm_ac.avt_q5_urb{marker per_lm_ac.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - Active Labor Market -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.ben_ep_preT_tot:per_lm_ac.ben_ep_preT_tot{marker per_lm_ac.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.ben_ep_preT_tot:per_lm_ac.ben_ep_preT_tot{marker per_lm_ac.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.ben_ep_tot:per_lm_ac.ben_ep_tot{marker per_lm_ac.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.ben_ep_tot:per_lm_ac.ben_ep_tot{marker per_lm_ac.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.ben_q1_preT_tot:per_lm_ac.ben_q1_preT_tot{marker per_lm_ac.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - Active Labor Market (preT){p_end}
 
@@ -7011,9 +3782,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.ben_q5_urb:per_lm_ac.ben_q5_urb{marker per_lm_ac.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - Active Labor Market -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.bry_ep_preT_tot:per_lm_ac.bry_ep_preT_tot{marker per_lm_ac.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.bry_ep_preT_tot:per_lm_ac.bry_ep_preT_tot{marker per_lm_ac.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.bry_ep_tot:per_lm_ac.bry_ep_tot{marker per_lm_ac.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.bry_ep_tot:per_lm_ac.bry_ep_tot{marker per_lm_ac.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.bry_q1_preT_tot:per_lm_ac.bry_q1_preT_tot{marker per_lm_ac.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - Active Labor Market (preT){p_end}
 
@@ -7055,11 +3826,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.bry_q5_urb:per_lm_ac.bry_q5_urb{marker per_lm_ac.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - Active Labor Market -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.cba_ep_preT_tot:per_lm_ac.cba_ep_preT_tot{marker per_lm_ac.cba_ep_preT_tot}}}Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.cba_ep_tot:per_lm_ac.cba_ep_tot{marker per_lm_ac.cba_ep_tot}}}Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.cba_q1_preT_tot:per_lm_ac.cba_q1_preT_tot{marker per_lm_ac.cba_q1_preT_tot}}}Benefit-cost ratio -  Active Labor Market  -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.cba_ep_tot:per_lm_ac.cba_ep_tot{marker per_lm_ac.cba_ep_tot}}}Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.cba_q1_rur:per_lm_ac.cba_q1_rur{marker per_lm_ac.cba_q1_rur}}}Benefit-cost ratio -  Active Labor Market  -1st quintile (poorest) -rural{p_end}
 
@@ -7067,9 +3834,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.cba_q1_urb:per_lm_ac.cba_q1_urb{marker per_lm_ac.cba_q1_urb}}}Benefit-cost ratio -  Active Labor Market  - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.cov_ep_preT_tot:per_lm_ac.cov_ep_preT_tot{marker per_lm_ac.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.cov_ep_preT_tot:per_lm_ac.cov_ep_preT_tot{marker per_lm_ac.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.cov_ep_tot:per_lm_ac.cov_ep_tot{marker per_lm_ac.cov_ep_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.cov_ep_tot:per_lm_ac.cov_ep_tot{marker per_lm_ac.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.cov_pop_preT_tot:per_lm_ac.cov_pop_preT_tot{marker per_lm_ac.cov_pop_preT_tot}}}Coverage (%) - Active Labor Market (preT){p_end}
 
@@ -7119,19 +3886,13 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.cov_q5_urb:per_lm_ac.cov_q5_urb{marker per_lm_ac.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - Active Labor Market -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac_gini_preT_tot:per_lm_ac_gini_preT_tot{marker per_lm_ac_gini_preT_tot}}}Gini inequality index reduction (%) -  Active Labor Market (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac_gini_rur:per_lm_ac_gini_rur{marker per_lm_ac_gini_rur}}}Gini inequality index reduction (%) -  Active Labor Market -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac_gini_tot:per_lm_ac_gini_tot{marker per_lm_ac_gini_tot}}}Gini inequality index reduction (%) -  Active Labor Market{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac_gini_urb:per_lm_ac_gini_urb{marker per_lm_ac_gini_urb}}}Gini inequality index reduction (%) -  Active Labor Market -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac_p0_ep_preT_tot:per_lm_ac_p0_ep_preT_tot{marker per_lm_ac_p0_ep_preT_tot}}}Poverty Headcount reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac_p0_ep_tot:per_lm_ac_p0_ep_tot{marker per_lm_ac_p0_ep_tot}}}Poverty Headcount reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac_p0_preT_tot:per_lm_ac_p0_preT_tot{marker per_lm_ac_p0_preT_tot}}}Poverty Headcount reduction (%) -  Active Labor Market  -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac_p0_ep_tot:per_lm_ac_p0_ep_tot{marker per_lm_ac_p0_ep_tot}}}Poverty Headcount reduction (%) -  Active Labor Market  -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac_p0_rur:per_lm_ac_p0_rur{marker per_lm_ac_p0_rur}}}Poverty Headcount reduction (%) -  Active Labor Market  -1st quintile (poorest) -rural{p_end}
 
@@ -7139,11 +3900,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac_p0_urb:per_lm_ac_p0_urb{marker per_lm_ac_p0_urb}}}Poverty Headcount reduction (%) -  Active Labor Market  - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac_p1_ep_preT_tot:per_lm_ac_p1_ep_preT_tot{marker per_lm_ac_p1_ep_preT_tot}}}Poverty Gap reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac_p1_ep_tot:per_lm_ac_p1_ep_tot{marker per_lm_ac_p1_ep_tot}}}Poverty Gap reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac_p1_preT_tot:per_lm_ac_p1_preT_tot{marker per_lm_ac_p1_preT_tot}}}Poverty Gap reduction (%) -  Active Labor Market  -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac_p1_ep_tot:per_lm_ac_p1_ep_tot{marker per_lm_ac_p1_ep_tot}}}Poverty Gap reduction (%) -  Active Labor Market  -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac_p1_rur:per_lm_ac_p1_rur{marker per_lm_ac_p1_rur}}}Poverty Gap reduction (%) -  Active Labor Market  -1st quintile (poorest) -rural{p_end}
 
@@ -7151,9 +3908,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac_p1_urb:per_lm_ac_p1_urb{marker per_lm_ac_p1_urb}}}Poverty Gap reduction (%) -  Active Labor Market  - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.adq_ep_preT_tot:per_lm_alllm.adq_ep_preT_tot{marker per_lm_alllm.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.adq_ep_preT_tot:per_lm_alllm.adq_ep_preT_tot{marker per_lm_alllm.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - All Labor Market  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.adq_ep_tot:per_lm_alllm.adq_ep_tot{marker per_lm_alllm.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.adq_ep_tot:per_lm_alllm.adq_ep_tot{marker per_lm_alllm.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - All Labor Market{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.adq_pop_preT_tot:per_lm_alllm.adq_pop_preT_tot{marker per_lm_alllm.adq_pop_preT_tot}}}Adequacy of benefits (%) - All Labor Market (preT){p_end}
 
@@ -7203,9 +3960,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.adq_q5_urb:per_lm_alllm.adq_q5_urb{marker per_lm_alllm.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) - All Labor Market -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.avt_ep_preT_tot:per_lm_alllm.avt_ep_preT_tot{marker per_lm_alllm.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Labor Market  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.avt_ep_preT_tot:per_lm_alllm.avt_ep_preT_tot{marker per_lm_alllm.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Labor Market  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.avt_ep_tot:per_lm_alllm.avt_ep_tot{marker per_lm_alllm.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Labor Market{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.avt_ep_tot:per_lm_alllm.avt_ep_tot{marker per_lm_alllm.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Labor Market{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.avt_pop_preT_tot:per_lm_alllm.avt_pop_preT_tot{marker per_lm_alllm.avt_pop_preT_tot}}}Average per capita transfer - All Labor Market (preT){p_end}
 
@@ -7255,9 +4012,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.avt_q5_urb:per_lm_alllm.avt_q5_urb{marker per_lm_alllm.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - All Labor Market -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.ben_ep_preT_tot:per_lm_alllm.ben_ep_preT_tot{marker per_lm_alllm.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.ben_ep_preT_tot:per_lm_alllm.ben_ep_preT_tot{marker per_lm_alllm.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - All Labor Market  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.ben_ep_tot:per_lm_alllm.ben_ep_tot{marker per_lm_alllm.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.ben_ep_tot:per_lm_alllm.ben_ep_tot{marker per_lm_alllm.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - All Labor Market{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.ben_q1_preT_tot:per_lm_alllm.ben_q1_preT_tot{marker per_lm_alllm.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - All Labor Market (preT){p_end}
 
@@ -7299,9 +4056,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.ben_q5_urb:per_lm_alllm.ben_q5_urb{marker per_lm_alllm.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - All Labor Market -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.bry_ep_preT_tot:per_lm_alllm.bry_ep_preT_tot{marker per_lm_alllm.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.bry_ep_preT_tot:per_lm_alllm.bry_ep_preT_tot{marker per_lm_alllm.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - All Labor Market  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.bry_ep_tot:per_lm_alllm.bry_ep_tot{marker per_lm_alllm.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.bry_ep_tot:per_lm_alllm.bry_ep_tot{marker per_lm_alllm.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - All Labor Market{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.bry_q1_preT_tot:per_lm_alllm.bry_q1_preT_tot{marker per_lm_alllm.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - All Labor Market (preT){p_end}
 
@@ -7343,11 +4100,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.bry_q5_urb:per_lm_alllm.bry_q5_urb{marker per_lm_alllm.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - All Labor Market -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.cba_ep_preT_tot:per_lm_alllm.cba_ep_preT_tot{marker per_lm_alllm.cba_ep_preT_tot}}}Benefit-cost ratio -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.cba_ep_tot:per_lm_alllm.cba_ep_tot{marker per_lm_alllm.cba_ep_tot}}}Benefit-cost ratio -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.cba_q1_preT_tot:per_lm_alllm.cba_q1_preT_tot{marker per_lm_alllm.cba_q1_preT_tot}}}Benefit-cost ratio -  All Labor Market  -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.cba_ep_tot:per_lm_alllm.cba_ep_tot{marker per_lm_alllm.cba_ep_tot}}}Benefit-cost ratio -  All Labor Market  -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.cba_q1_rur:per_lm_alllm.cba_q1_rur{marker per_lm_alllm.cba_q1_rur}}}Benefit-cost ratio -  All Labor Market  -1st quintile (poorest) -rural{p_end}
 
@@ -7355,9 +4108,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.cba_q1_urb:per_lm_alllm.cba_q1_urb{marker per_lm_alllm.cba_q1_urb}}}Benefit-cost ratio -  All Labor Market  - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.cov_ep_preT_tot:per_lm_alllm.cov_ep_preT_tot{marker per_lm_alllm.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.cov_ep_preT_tot:per_lm_alllm.cov_ep_preT_tot{marker per_lm_alllm.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - All Labor Market  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.cov_ep_tot:per_lm_alllm.cov_ep_tot{marker per_lm_alllm.cov_ep_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.cov_ep_tot:per_lm_alllm.cov_ep_tot{marker per_lm_alllm.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - All Labor Market{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.cov_pop_preT_tot:per_lm_alllm.cov_pop_preT_tot{marker per_lm_alllm.cov_pop_preT_tot}}}Coverage (%) - All Labor Market (preT){p_end}
 
@@ -7407,19 +4160,13 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.cov_q5_urb:per_lm_alllm.cov_q5_urb{marker per_lm_alllm.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - All Labor Market -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm_gini_preT_tot:per_lm_alllm_gini_preT_tot{marker per_lm_alllm_gini_preT_tot}}}Gini inequality index reduction (%) -  All Labor Market (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm_gini_rur:per_lm_alllm_gini_rur{marker per_lm_alllm_gini_rur}}}Gini inequality index reduction (%) -  All Labor Market -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm_gini_tot:per_lm_alllm_gini_tot{marker per_lm_alllm_gini_tot}}}Gini inequality index reduction (%) -  All Labor Market{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm_gini_urb:per_lm_alllm_gini_urb{marker per_lm_alllm_gini_urb}}}Gini inequality index reduction (%) -  All Labor Market -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm_p0_ep_preT_tot:per_lm_alllm_p0_ep_preT_tot{marker per_lm_alllm_p0_ep_preT_tot}}}Poverty Headcount reduction (%) -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm_p0_ep_tot:per_lm_alllm_p0_ep_tot{marker per_lm_alllm_p0_ep_tot}}}Poverty Headcount reduction (%) -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm_p0_preT_tot:per_lm_alllm_p0_preT_tot{marker per_lm_alllm_p0_preT_tot}}}Poverty Headcount reduction (%) -  All Labor Market  -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm_p0_ep_tot:per_lm_alllm_p0_ep_tot{marker per_lm_alllm_p0_ep_tot}}}Poverty Headcount reduction (%) -  All Labor Market  -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm_p0_rur:per_lm_alllm_p0_rur{marker per_lm_alllm_p0_rur}}}Poverty Headcount reduction (%) -  All Labor Market  -1st quintile (poorest) -rural{p_end}
 
@@ -7427,11 +4174,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm_p0_urb:per_lm_alllm_p0_urb{marker per_lm_alllm_p0_urb}}}Poverty Headcount reduction (%) -  All Labor Market  - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm_p1_ep_preT_tot:per_lm_alllm_p1_ep_preT_tot{marker per_lm_alllm_p1_ep_preT_tot}}}Poverty Gap reduction (%) -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm_p1_ep_tot:per_lm_alllm_p1_ep_tot{marker per_lm_alllm_p1_ep_tot}}}Poverty Gap reduction (%) -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm_p1_preT_tot:per_lm_alllm_p1_preT_tot{marker per_lm_alllm_p1_preT_tot}}}Poverty Gap reduction (%) -  All Labor Market  -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm_p1_ep_tot:per_lm_alllm_p1_ep_tot{marker per_lm_alllm_p1_ep_tot}}}Poverty Gap reduction (%) -  All Labor Market  -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm_p1_rur:per_lm_alllm_p1_rur{marker per_lm_alllm_p1_rur}}}Poverty Gap reduction (%) -  All Labor Market  -1st quintile (poorest) -rural{p_end}
 
@@ -7439,11 +4182,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm_p1_urb:per_lm_alllm_p1_urb{marker per_lm_alllm_p1_urb}}}Poverty Gap reduction (%) -  All Labor Market  - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lmonl.overlap_ep_preT_tot:per_lmonl.overlap_ep_preT_tot{marker per_lmonl.overlap_ep_preT_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) only receiving Labor Market (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lmonl.overlap_ep_preT_tot:per_lmonl.overlap_ep_preT_tot{marker per_lmonl.overlap_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) only receiving Labor Market (%, preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lmonl.overlap_ep_tot:per_lmonl.overlap_ep_tot{marker per_lmonl.overlap_ep_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) only receiving Labor Market (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lmonl.overlap_pop_preT_tot:per_lmonl.overlap_pop_preT_tot{marker per_lmonl.overlap_pop_preT_tot}}}Population only receiving Labor Market (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_lmonl.overlap_ep_tot:per_lmonl.overlap_ep_tot{marker per_lmonl.overlap_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) only receiving Labor Market (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lmonl.overlap_pop_rur:per_lmonl.overlap_pop_rur{marker per_lmonl.overlap_pop_rur}}}Population only receiving Labor Market (%) -rural{p_end}
 
@@ -7459,11 +4200,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lmonl.overlap_q1_urb:per_lmonl.overlap_q1_urb{marker per_lmonl.overlap_q1_urb}}}Population in the 1st quintile (poorest) only receiving Labor Market (%) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_nprog.overlap_ep_preT_tot:per_nprog.overlap_ep_preT_tot{marker per_nprog.overlap_ep_preT_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) not receiving Social Protection (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_nprog.overlap_ep_preT_tot:per_nprog.overlap_ep_preT_tot{marker per_nprog.overlap_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) not receiving Social Protection (%, preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_nprog.overlap_ep_tot:per_nprog.overlap_ep_tot{marker per_nprog.overlap_ep_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) not receiving Social Protection (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_nprog.overlap_pop_preT_tot:per_nprog.overlap_pop_preT_tot{marker per_nprog.overlap_pop_preT_tot}}}Population not receiving Social Protection (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_nprog.overlap_ep_tot:per_nprog.overlap_ep_tot{marker per_nprog.overlap_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) not receiving Social Protection (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_nprog.overlap_pop_rur:per_nprog.overlap_pop_rur{marker per_nprog.overlap_pop_rur}}}Population not receiving Social Protection (%) -rural{p_end}
 
@@ -7479,11 +4218,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_nprog.overlap_q1_urb:per_nprog.overlap_q1_urb{marker per_nprog.overlap_q1_urb}}}Population in the 1st quintile (poorest) not receiving Social Protection (%) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog1_ep_preT_tot:per_numprog1_ep_preT_tot{marker per_numprog1_ep_preT_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) receiving only 1 program (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog1_ep_preT_tot:per_numprog1_ep_preT_tot{marker per_numprog1_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving only 1 program (%, preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog1_ep_tot:per_numprog1_ep_tot{marker per_numprog1_ep_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) receiving only 1 program (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog1_pop_preT_tot:per_numprog1_pop_preT_tot{marker per_numprog1_pop_preT_tot}}}Population receiving only 1 program (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog1_ep_tot:per_numprog1_ep_tot{marker per_numprog1_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving only 1 program (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog1_pop_rur:per_numprog1_pop_rur{marker per_numprog1_pop_rur}}}Population receiving only 1 program (%) -rural{p_end}
 
@@ -7499,11 +4236,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog1_q1_urb:per_numprog1_q1_urb{marker per_numprog1_q1_urb}}}Population in the 1st quintile (poorest) receiving 1 program (%) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog2_ep_preT_tot:per_numprog2_ep_preT_tot{marker per_numprog2_ep_preT_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) receiving 2 programs (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog2_ep_preT_tot:per_numprog2_ep_preT_tot{marker per_numprog2_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving 2 programs (%, preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog2_ep_tot:per_numprog2_ep_tot{marker per_numprog2_ep_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) receiving 2 programs (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog2_pop_preT_tot:per_numprog2_pop_preT_tot{marker per_numprog2_pop_preT_tot}}}Population receiving 2 programs (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog2_ep_tot:per_numprog2_ep_tot{marker per_numprog2_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving 2 programs (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog2_pop_rur:per_numprog2_pop_rur{marker per_numprog2_pop_rur}}}Population receiving 2 programs (%) -rural{p_end}
 
@@ -7519,11 +4254,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog2_q1_urb:per_numprog2_q1_urb{marker per_numprog2_q1_urb}}}Population in the 1st quintile (poorest) receiving 2 programs (%) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog3_ep_preT_tot:per_numprog3_ep_preT_tot{marker per_numprog3_ep_preT_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) receiving 3 programs (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog3_ep_preT_tot:per_numprog3_ep_preT_tot{marker per_numprog3_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving 3 programs (%, preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog3_ep_tot:per_numprog3_ep_tot{marker per_numprog3_ep_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) receiving 3 programs (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog3_pop_preT_tot:per_numprog3_pop_preT_tot{marker per_numprog3_pop_preT_tot}}}Population receiving 3 programs (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog3_ep_tot:per_numprog3_ep_tot{marker per_numprog3_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving 3 programs (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog3_pop_rur:per_numprog3_pop_rur{marker per_numprog3_pop_rur}}}Population receiving 3 programs (%) -rural{p_end}
 
@@ -7539,11 +4272,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog3_q1_urb:per_numprog3_q1_urb{marker per_numprog3_q1_urb}}}Population in the 1st quintile (poorest) receiving 3 programs (%) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog4_ep_preT_tot:per_numprog4_ep_preT_tot{marker per_numprog4_ep_preT_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) receiving 4 or more programs (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog4_ep_preT_tot:per_numprog4_ep_preT_tot{marker per_numprog4_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving 4 or more programs (%, preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog4_ep_tot:per_numprog4_ep_tot{marker per_numprog4_ep_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) receiving 4 or more programs (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog4_pop_preT_tot:per_numprog4_pop_preT_tot{marker per_numprog4_pop_preT_tot}}}Population receiving 4 or more programs (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog4_ep_tot:per_numprog4_ep_tot{marker per_numprog4_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving 4 or more programs (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog4_pop_rur:per_numprog4_pop_rur{marker per_numprog4_pop_rur}}}Population receiving 4 or more programs (%) -rural{p_end}
 
@@ -7559,9 +4290,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog4_q1_urb:per_numprog4_q1_urb{marker per_numprog4_q1_urb}}}Population in the 1st quintile (poorest) receiving 4 or more programs (%) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.adq_ep_preT_tot:per_pr_dp.adq_ep_preT_tot{marker per_pr_dp.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.adq_ep_preT_tot:per_pr_dp.adq_ep_preT_tot{marker per_pr_dp.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.adq_ep_tot:per_pr_dp.adq_ep_tot{marker per_pr_dp.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.adq_ep_tot:per_pr_dp.adq_ep_tot{marker per_pr_dp.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.adq_pop_preT_tot:per_pr_dp.adq_pop_preT_tot{marker per_pr_dp.adq_pop_preT_tot}}}Adequacy of benefits (%) - Domestic Private Transfers (preT){p_end}
 
@@ -7611,9 +4342,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.adq_q5_urb:per_pr_dp.adq_q5_urb{marker per_pr_dp.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) - Domestic Private Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.avt_ep_preT_tot:per_pr_dp.avt_ep_preT_tot{marker per_pr_dp.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Domestic Private Transfers (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.avt_ep_preT_tot:per_pr_dp.avt_ep_preT_tot{marker per_pr_dp.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Domestic Private Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.avt_ep_tot:per_pr_dp.avt_ep_tot{marker per_pr_dp.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Domestic Private Transfers{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.avt_ep_tot:per_pr_dp.avt_ep_tot{marker per_pr_dp.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Domestic Private Transfers{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.avt_pop_preT_tot:per_pr_dp.avt_pop_preT_tot{marker per_pr_dp.avt_pop_preT_tot}}}Average per capita transfer - Domestic Private Transfers (preT){p_end}
 
@@ -7663,9 +4394,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.avt_q5_urb:per_pr_dp.avt_q5_urb{marker per_pr_dp.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - Domestic Private Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.ben_ep_preT_tot:per_pr_dp.ben_ep_preT_tot{marker per_pr_dp.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.ben_ep_preT_tot:per_pr_dp.ben_ep_preT_tot{marker per_pr_dp.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.ben_ep_tot:per_pr_dp.ben_ep_tot{marker per_pr_dp.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.ben_ep_tot:per_pr_dp.ben_ep_tot{marker per_pr_dp.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.ben_q1_preT_tot:per_pr_dp.ben_q1_preT_tot{marker per_pr_dp.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - Domestic Private Transfers (preT){p_end}
 
@@ -7707,9 +4438,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.ben_q5_urb:per_pr_dp.ben_q5_urb{marker per_pr_dp.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - Domestic Private Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.bry_ep_preT_tot:per_pr_dp.bry_ep_preT_tot{marker per_pr_dp.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.bry_ep_preT_tot:per_pr_dp.bry_ep_preT_tot{marker per_pr_dp.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.bry_ep_tot:per_pr_dp.bry_ep_tot{marker per_pr_dp.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.bry_ep_tot:per_pr_dp.bry_ep_tot{marker per_pr_dp.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.bry_q1_preT_tot:per_pr_dp.bry_q1_preT_tot{marker per_pr_dp.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - Domestic Private Transfers (preT){p_end}
 
@@ -7751,11 +4482,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.bry_q5_urb:per_pr_dp.bry_q5_urb{marker per_pr_dp.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - Domestic Private Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.cba_ep_preT_tot:per_pr_dp.cba_ep_preT_tot{marker per_pr_dp.cba_ep_preT_tot}}}Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.cba_ep_tot:per_pr_dp.cba_ep_tot{marker per_pr_dp.cba_ep_tot}}}Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.cba_q1_preT_tot:per_pr_dp.cba_q1_preT_tot{marker per_pr_dp.cba_q1_preT_tot}}}Benefit-cost ratio -  Domestic Private Transfers -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.cba_ep_tot:per_pr_dp.cba_ep_tot{marker per_pr_dp.cba_ep_tot}}}Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.cba_q1_rur:per_pr_dp.cba_q1_rur{marker per_pr_dp.cba_q1_rur}}}Benefit-cost ratio -  Domestic Private Transfers -1st quintile (poorest) -rural{p_end}
 
@@ -7763,9 +4490,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.cba_q1_urb:per_pr_dp.cba_q1_urb{marker per_pr_dp.cba_q1_urb}}}Benefit-cost ratio -  Domestic Private Transfers - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.cov_ep_preT_tot:per_pr_dp.cov_ep_preT_tot{marker per_pr_dp.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.cov_ep_preT_tot:per_pr_dp.cov_ep_preT_tot{marker per_pr_dp.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.cov_ep_tot:per_pr_dp.cov_ep_tot{marker per_pr_dp.cov_ep_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.cov_ep_tot:per_pr_dp.cov_ep_tot{marker per_pr_dp.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.cov_pop_preT_tot:per_pr_dp.cov_pop_preT_tot{marker per_pr_dp.cov_pop_preT_tot}}}Coverage (%) - Domestic Private Transfers (preT){p_end}
 
@@ -7815,19 +4542,13 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.cov_q5_urb:per_pr_dp.cov_q5_urb{marker per_pr_dp.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - Domestic Private Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp_gini_preT_tot:per_pr_dp_gini_preT_tot{marker per_pr_dp_gini_preT_tot}}}Gini inequality index reduction (%) -  Domestic Private Transfers (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp_gini_rur:per_pr_dp_gini_rur{marker per_pr_dp_gini_rur}}}Gini inequality index reduction (%) -  Domestic Private Transfers -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp_gini_tot:per_pr_dp_gini_tot{marker per_pr_dp_gini_tot}}}Gini inequality index reduction (%) -  Domestic Private Transfers{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp_gini_urb:per_pr_dp_gini_urb{marker per_pr_dp_gini_urb}}}Gini inequality index reduction (%) -  Domestic Private Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp_p0_ep_preT_tot:per_pr_dp_p0_ep_preT_tot{marker per_pr_dp_p0_ep_preT_tot}}}Poverty Headcount reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp_p0_ep_tot:per_pr_dp_p0_ep_tot{marker per_pr_dp_p0_ep_tot}}}Poverty Headcount reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp_p0_preT_tot:per_pr_dp_p0_preT_tot{marker per_pr_dp_p0_preT_tot}}}Poverty Headcount reduction (%) -  Domestic Private Transfers -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp_p0_ep_tot:per_pr_dp_p0_ep_tot{marker per_pr_dp_p0_ep_tot}}}Poverty Headcount reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp_p0_rur:per_pr_dp_p0_rur{marker per_pr_dp_p0_rur}}}Poverty Headcount reduction (%) -  Domestic Private Transfers -1st quintile (poorest) -rural{p_end}
 
@@ -7835,11 +4556,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp_p0_urb:per_pr_dp_p0_urb{marker per_pr_dp_p0_urb}}}Poverty Headcount reduction (%) -  Domestic Private Transfers - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp_p1_ep_preT_tot:per_pr_dp_p1_ep_preT_tot{marker per_pr_dp_p1_ep_preT_tot}}}Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp_p1_ep_tot:per_pr_dp_p1_ep_tot{marker per_pr_dp_p1_ep_tot}}}Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp_p1_preT_tot:per_pr_dp_p1_preT_tot{marker per_pr_dp_p1_preT_tot}}}Poverty Gap reduction (%) -  Domestic Private Transfers -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp_p1_ep_tot:per_pr_dp_p1_ep_tot{marker per_pr_dp_p1_ep_tot}}}Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp_p1_rur:per_pr_dp_p1_rur{marker per_pr_dp_p1_rur}}}Poverty Gap reduction (%) -  Domestic Private Transfers -1st quintile (poorest) -rural{p_end}
 
@@ -7847,9 +4564,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp_p1_urb:per_pr_dp_p1_urb{marker per_pr_dp_p1_urb}}}Poverty Gap reduction (%) -  Domestic Private Transfers - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.adq_ep_preT_tot:per_pr_ip.adq_ep_preT_tot{marker per_pr_ip.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.adq_ep_preT_tot:per_pr_ip.adq_ep_preT_tot{marker per_pr_ip.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.adq_ep_tot:per_pr_ip.adq_ep_tot{marker per_pr_ip.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.adq_ep_tot:per_pr_ip.adq_ep_tot{marker per_pr_ip.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.adq_pop_preT_tot:per_pr_ip.adq_pop_preT_tot{marker per_pr_ip.adq_pop_preT_tot}}}Adequacy of benefits (%) - International Private Transfers (preT){p_end}
 
@@ -7899,9 +4616,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.adq_q5_urb:per_pr_ip.adq_q5_urb{marker per_pr_ip.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) - International Private Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.avt_ep_preT_tot:per_pr_ip.avt_ep_preT_tot{marker per_pr_ip.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - International Private Transfers (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.avt_ep_preT_tot:per_pr_ip.avt_ep_preT_tot{marker per_pr_ip.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - International Private Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.avt_ep_tot:per_pr_ip.avt_ep_tot{marker per_pr_ip.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - International Private Transfers{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.avt_ep_tot:per_pr_ip.avt_ep_tot{marker per_pr_ip.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - International Private Transfers{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.avt_pop_preT_tot:per_pr_ip.avt_pop_preT_tot{marker per_pr_ip.avt_pop_preT_tot}}}Average per capita transfer - International Private Transfers (preT){p_end}
 
@@ -7951,9 +4668,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.avt_q5_urb:per_pr_ip.avt_q5_urb{marker per_pr_ip.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - International Private Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.ben_ep_preT_tot:per_pr_ip.ben_ep_preT_tot{marker per_pr_ip.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.ben_ep_preT_tot:per_pr_ip.ben_ep_preT_tot{marker per_pr_ip.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.ben_ep_tot:per_pr_ip.ben_ep_tot{marker per_pr_ip.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.ben_ep_tot:per_pr_ip.ben_ep_tot{marker per_pr_ip.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.ben_q1_preT_tot:per_pr_ip.ben_q1_preT_tot{marker per_pr_ip.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - International Private Transfers (preT){p_end}
 
@@ -7995,9 +4712,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.ben_q5_urb:per_pr_ip.ben_q5_urb{marker per_pr_ip.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - International Private Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.bry_ep_preT_tot:per_pr_ip.bry_ep_preT_tot{marker per_pr_ip.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.bry_ep_preT_tot:per_pr_ip.bry_ep_preT_tot{marker per_pr_ip.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.bry_ep_tot:per_pr_ip.bry_ep_tot{marker per_pr_ip.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.bry_ep_tot:per_pr_ip.bry_ep_tot{marker per_pr_ip.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.bry_q1_preT_tot:per_pr_ip.bry_q1_preT_tot{marker per_pr_ip.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - International Private Transfers (preT){p_end}
 
@@ -8039,11 +4756,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.bry_q5_urb:per_pr_ip.bry_q5_urb{marker per_pr_ip.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - International Private Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.cba_ep_preT_tot:per_pr_ip.cba_ep_preT_tot{marker per_pr_ip.cba_ep_preT_tot}}}Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.cba_ep_tot:per_pr_ip.cba_ep_tot{marker per_pr_ip.cba_ep_tot}}}Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.cba_q1_preT_tot:per_pr_ip.cba_q1_preT_tot{marker per_pr_ip.cba_q1_preT_tot}}}Benefit-cost ratio -  International Private Transfers -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.cba_ep_tot:per_pr_ip.cba_ep_tot{marker per_pr_ip.cba_ep_tot}}}Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.cba_q1_rur:per_pr_ip.cba_q1_rur{marker per_pr_ip.cba_q1_rur}}}Benefit-cost ratio -  International Private Transfers -1st quintile (poorest) -rural{p_end}
 
@@ -8051,9 +4764,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.cba_q1_urb:per_pr_ip.cba_q1_urb{marker per_pr_ip.cba_q1_urb}}}Benefit-cost ratio -  International Private Transfers - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.cov_ep_preT_tot:per_pr_ip.cov_ep_preT_tot{marker per_pr_ip.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.cov_ep_preT_tot:per_pr_ip.cov_ep_preT_tot{marker per_pr_ip.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.cov_ep_tot:per_pr_ip.cov_ep_tot{marker per_pr_ip.cov_ep_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.cov_ep_tot:per_pr_ip.cov_ep_tot{marker per_pr_ip.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.cov_pop_preT_tot:per_pr_ip.cov_pop_preT_tot{marker per_pr_ip.cov_pop_preT_tot}}}Coverage (%) - International Private Transfers (preT){p_end}
 
@@ -8103,19 +4816,13 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.cov_q5_urb:per_pr_ip.cov_q5_urb{marker per_pr_ip.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - International Private Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip_gini_preT_tot:per_pr_ip_gini_preT_tot{marker per_pr_ip_gini_preT_tot}}}Gini inequality index reduction (%) -  International Private Transfers (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip_gini_rur:per_pr_ip_gini_rur{marker per_pr_ip_gini_rur}}}Gini inequality index reduction (%) -  International Private Transfers -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip_gini_tot:per_pr_ip_gini_tot{marker per_pr_ip_gini_tot}}}Gini inequality index reduction (%) -  International Private Transfers{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip_gini_urb:per_pr_ip_gini_urb{marker per_pr_ip_gini_urb}}}Gini inequality index reduction (%) -  International Private Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip_p0_ep_preT_tot:per_pr_ip_p0_ep_preT_tot{marker per_pr_ip_p0_ep_preT_tot}}}Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip_p0_ep_tot:per_pr_ip_p0_ep_tot{marker per_pr_ip_p0_ep_tot}}}Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip_p0_preT_tot:per_pr_ip_p0_preT_tot{marker per_pr_ip_p0_preT_tot}}}Poverty Headcount reduction (%) -  International Private Transfers -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip_p0_ep_tot:per_pr_ip_p0_ep_tot{marker per_pr_ip_p0_ep_tot}}}Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip_p0_rur:per_pr_ip_p0_rur{marker per_pr_ip_p0_rur}}}Poverty Headcount reduction (%) -  International Private Transfers -1st quintile (poorest) -rural{p_end}
 
@@ -8123,11 +4830,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip_p0_urb:per_pr_ip_p0_urb{marker per_pr_ip_p0_urb}}}Poverty Headcount reduction (%) -  International Private Transfers - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip_p1_ep_preT_tot:per_pr_ip_p1_ep_preT_tot{marker per_pr_ip_p1_ep_preT_tot}}}Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip_p1_ep_tot:per_pr_ip_p1_ep_tot{marker per_pr_ip_p1_ep_tot}}}Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip_p1_preT_tot:per_pr_ip_p1_preT_tot{marker per_pr_ip_p1_preT_tot}}}Poverty Gap reduction (%) -  International Private Transfers -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip_p1_ep_tot:per_pr_ip_p1_ep_tot{marker per_pr_ip_p1_ep_tot}}}Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip_p1_rur:per_pr_ip_p1_rur{marker per_pr_ip_p1_rur}}}Poverty Gap reduction (%) -  International Private Transfers -1st quintile (poorest) -rural{p_end}
 
@@ -8135,9 +4838,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip_p1_urb:per_pr_ip_p1_urb{marker per_pr_ip_p1_urb}}}Poverty Gap reduction (%) -  International Private Transfers - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.adq_ep_preT_tot:per_sa_allsa.adq_ep_preT_tot{marker per_sa_allsa.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.adq_ep_preT_tot:per_sa_allsa.adq_ep_preT_tot{marker per_sa_allsa.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.adq_ep_tot:per_sa_allsa.adq_ep_tot{marker per_sa_allsa.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.adq_ep_tot:per_sa_allsa.adq_ep_tot{marker per_sa_allsa.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.adq_pop_preT_tot:per_sa_allsa.adq_pop_preT_tot{marker per_sa_allsa.adq_pop_preT_tot}}}Adequacy of benefits (%) - All Social Assistance (preT){p_end}
 
@@ -8187,9 +4890,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.adq_q5_urb:per_sa_allsa.adq_q5_urb{marker per_sa_allsa.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) - All Social Assistance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.avt_ep_preT_tot:per_sa_allsa.avt_ep_preT_tot{marker per_sa_allsa.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Social Assistance  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.avt_ep_preT_tot:per_sa_allsa.avt_ep_preT_tot{marker per_sa_allsa.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Social Assistance  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.avt_ep_tot:per_sa_allsa.avt_ep_tot{marker per_sa_allsa.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Social Assistance{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.avt_ep_tot:per_sa_allsa.avt_ep_tot{marker per_sa_allsa.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Social Assistance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.avt_pop_preT_tot:per_sa_allsa.avt_pop_preT_tot{marker per_sa_allsa.avt_pop_preT_tot}}}Average per capita transfer - All Social Assistance (preT){p_end}
 
@@ -8239,9 +4942,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.avt_q5_urb:per_sa_allsa.avt_q5_urb{marker per_sa_allsa.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - All Social Assistance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.ben_ep_preT_tot:per_sa_allsa.ben_ep_preT_tot{marker per_sa_allsa.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.ben_ep_preT_tot:per_sa_allsa.ben_ep_preT_tot{marker per_sa_allsa.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.ben_ep_tot:per_sa_allsa.ben_ep_tot{marker per_sa_allsa.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.ben_ep_tot:per_sa_allsa.ben_ep_tot{marker per_sa_allsa.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.ben_q1_preT_tot:per_sa_allsa.ben_q1_preT_tot{marker per_sa_allsa.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - All Social Assistance (preT){p_end}
 
@@ -8283,9 +4986,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.ben_q5_urb:per_sa_allsa.ben_q5_urb{marker per_sa_allsa.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - All Social Assistance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.bry_ep_preT_tot:per_sa_allsa.bry_ep_preT_tot{marker per_sa_allsa.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.bry_ep_preT_tot:per_sa_allsa.bry_ep_preT_tot{marker per_sa_allsa.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.bry_ep_tot:per_sa_allsa.bry_ep_tot{marker per_sa_allsa.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.bry_ep_tot:per_sa_allsa.bry_ep_tot{marker per_sa_allsa.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.bry_q1_preT_tot:per_sa_allsa.bry_q1_preT_tot{marker per_sa_allsa.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - All Social Assistance (preT){p_end}
 
@@ -8327,11 +5030,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.bry_q5_urb:per_sa_allsa.bry_q5_urb{marker per_sa_allsa.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - All Social Assistance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.cba_ep_preT_tot:per_sa_allsa.cba_ep_preT_tot{marker per_sa_allsa.cba_ep_preT_tot}}}Benefit-cost ratio -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.cba_ep_tot:per_sa_allsa.cba_ep_tot{marker per_sa_allsa.cba_ep_tot}}}Benefit-cost ratio -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.cba_q1_preT_tot:per_sa_allsa.cba_q1_preT_tot{marker per_sa_allsa.cba_q1_preT_tot}}}Benefit-cost ratio -  All Social Assistance -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.cba_ep_tot:per_sa_allsa.cba_ep_tot{marker per_sa_allsa.cba_ep_tot}}}Benefit-cost ratio -  All Social Assistance -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.cba_q1_rur:per_sa_allsa.cba_q1_rur{marker per_sa_allsa.cba_q1_rur}}}Benefit-cost ratio -  All Social Assistance -1st quintile (poorest) -rural{p_end}
 
@@ -8339,9 +5038,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.cba_q1_urb:per_sa_allsa.cba_q1_urb{marker per_sa_allsa.cba_q1_urb}}}Benefit-cost ratio -  All Social Assistance - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.cov_ep_preT_tot:per_sa_allsa.cov_ep_preT_tot{marker per_sa_allsa.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.cov_ep_preT_tot:per_sa_allsa.cov_ep_preT_tot{marker per_sa_allsa.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.cov_ep_tot:per_sa_allsa.cov_ep_tot{marker per_sa_allsa.cov_ep_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.cov_ep_tot:per_sa_allsa.cov_ep_tot{marker per_sa_allsa.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.cov_pop_preT_tot:per_sa_allsa.cov_pop_preT_tot{marker per_sa_allsa.cov_pop_preT_tot}}}Coverage (%) - All Social Assistance (preT){p_end}
 
@@ -8391,19 +5090,13 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.cov_q5_urb:per_sa_allsa.cov_q5_urb{marker per_sa_allsa.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - All Social Assistance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_gini_preT_tot:per_sa_allsa_gini_preT_tot{marker per_sa_allsa_gini_preT_tot}}}Gini inequality index reduction (%) -  All Social Assistance (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_gini_rur:per_sa_allsa_gini_rur{marker per_sa_allsa_gini_rur}}}Gini inequality index reduction (%) -  All Social Assistance -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_gini_tot:per_sa_allsa_gini_tot{marker per_sa_allsa_gini_tot}}}Gini inequality index reduction (%) -  All Social Assistance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_gini_urb:per_sa_allsa_gini_urb{marker per_sa_allsa_gini_urb}}}Gini inequality index reduction (%) -  All Social Assistance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_p0_ep_preT_tot:per_sa_allsa_p0_ep_preT_tot{marker per_sa_allsa_p0_ep_preT_tot}}}Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_p0_ep_tot:per_sa_allsa_p0_ep_tot{marker per_sa_allsa_p0_ep_tot}}}Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_p0_preT_tot:per_sa_allsa_p0_preT_tot{marker per_sa_allsa_p0_preT_tot}}}Poverty Headcount reduction (%) -  All Social Assistance -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_p0_ep_tot:per_sa_allsa_p0_ep_tot{marker per_sa_allsa_p0_ep_tot}}}Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_p0_rur:per_sa_allsa_p0_rur{marker per_sa_allsa_p0_rur}}}Poverty Headcount reduction (%) -  All Social Assistance -1st quintile (poorest) -rural{p_end}
 
@@ -8411,11 +5104,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_p0_urb:per_sa_allsa_p0_urb{marker per_sa_allsa_p0_urb}}}Poverty Headcount reduction (%) -  All Social Assistance - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_p1_ep_preT_tot:per_sa_allsa_p1_ep_preT_tot{marker per_sa_allsa_p1_ep_preT_tot}}}Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_p1_ep_tot:per_sa_allsa_p1_ep_tot{marker per_sa_allsa_p1_ep_tot}}}Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_p1_preT_tot:per_sa_allsa_p1_preT_tot{marker per_sa_allsa_p1_preT_tot}}}Poverty Gap reduction (%) -  All Social Assistance -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_p1_ep_tot:per_sa_allsa_p1_ep_tot{marker per_sa_allsa_p1_ep_tot}}}Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_p1_rur:per_sa_allsa_p1_rur{marker per_sa_allsa_p1_rur}}}Poverty Gap reduction (%) -  All Social Assistance -1st quintile (poorest) -rural{p_end}
 
@@ -8423,9 +5112,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_p1_urb:per_sa_allsa_p1_urb{marker per_sa_allsa_p1_urb}}}Poverty Gap reduction (%) -  All Social Assistance - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_ep_preT_tot:per_sa_ct.adq_ep_preT_tot{marker per_sa_ct.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_ep_preT_tot:per_sa_ct.adq_ep_preT_tot{marker per_sa_ct.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_ep_tot:per_sa_ct.adq_ep_tot{marker per_sa_ct.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_ep_tot:per_sa_ct.adq_ep_tot{marker per_sa_ct.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_pop_preT_tot:per_sa_ct.adq_pop_preT_tot{marker per_sa_ct.adq_pop_preT_tot}}}Adequacy of benefits (%) - Cash Transfer (preT){p_end}
 
@@ -8475,9 +5164,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q5_urb:per_sa_ct.adq_q5_urb{marker per_sa_ct.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) - Cash Transfer -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_ep_preT_tot:per_sa_ct.avt_ep_preT_tot{marker per_sa_ct.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Cash Transfer  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_ep_preT_tot:per_sa_ct.avt_ep_preT_tot{marker per_sa_ct.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Cash Transfer  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_ep_tot:per_sa_ct.avt_ep_tot{marker per_sa_ct.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_ep_tot:per_sa_ct.avt_ep_tot{marker per_sa_ct.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Cash Transfer{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_pop_preT_tot:per_sa_ct.avt_pop_preT_tot{marker per_sa_ct.avt_pop_preT_tot}}}Average per capita transfer - Cash Transfer (preT){p_end}
 
@@ -8527,9 +5216,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q5_urb:per_sa_ct.avt_q5_urb{marker per_sa_ct.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - Cash Transfer -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_ep_preT_tot:per_sa_ct.ben_ep_preT_tot{marker per_sa_ct.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_ep_preT_tot:per_sa_ct.ben_ep_preT_tot{marker per_sa_ct.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_ep_tot:per_sa_ct.ben_ep_tot{marker per_sa_ct.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_ep_tot:per_sa_ct.ben_ep_tot{marker per_sa_ct.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q1_preT_tot:per_sa_ct.ben_q1_preT_tot{marker per_sa_ct.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - Cash Transfer (preT){p_end}
 
@@ -8571,9 +5260,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q5_urb:per_sa_ct.ben_q5_urb{marker per_sa_ct.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - Cash Transfer -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_ep_preT_tot:per_sa_ct.bry_ep_preT_tot{marker per_sa_ct.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_ep_preT_tot:per_sa_ct.bry_ep_preT_tot{marker per_sa_ct.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_ep_tot:per_sa_ct.bry_ep_tot{marker per_sa_ct.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_ep_tot:per_sa_ct.bry_ep_tot{marker per_sa_ct.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q1_preT_tot:per_sa_ct.bry_q1_preT_tot{marker per_sa_ct.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - Cash Transfer (preT){p_end}
 
@@ -8615,11 +5304,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q5_urb:per_sa_ct.bry_q5_urb{marker per_sa_ct.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - Cash Transfer -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cba_ep_preT_tot:per_sa_ct.cba_ep_preT_tot{marker per_sa_ct.cba_ep_preT_tot}}}Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cba_ep_tot:per_sa_ct.cba_ep_tot{marker per_sa_ct.cba_ep_tot}}}Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cba_q1_preT_tot:per_sa_ct.cba_q1_preT_tot{marker per_sa_ct.cba_q1_preT_tot}}}Benefit-cost ratio -  Cash Transfer -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cba_ep_tot:per_sa_ct.cba_ep_tot{marker per_sa_ct.cba_ep_tot}}}Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cba_q1_rur:per_sa_ct.cba_q1_rur{marker per_sa_ct.cba_q1_rur}}}Benefit-cost ratio -  Cash Transfer -1st quintile (poorest) -rural{p_end}
 
@@ -8627,9 +5312,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cba_q1_urb:per_sa_ct.cba_q1_urb{marker per_sa_ct.cba_q1_urb}}}Benefit-cost ratio -  Cash Transfer - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_ep_preT_tot:per_sa_ct.cov_ep_preT_tot{marker per_sa_ct.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_ep_preT_tot:per_sa_ct.cov_ep_preT_tot{marker per_sa_ct.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_ep_tot:per_sa_ct.cov_ep_tot{marker per_sa_ct.cov_ep_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_ep_tot:per_sa_ct.cov_ep_tot{marker per_sa_ct.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_pop_preT_tot:per_sa_ct.cov_pop_preT_tot{marker per_sa_ct.cov_pop_preT_tot}}}Coverage (%) - Cash Transfer (preT){p_end}
 
@@ -8679,19 +5364,13 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q5_urb:per_sa_ct.cov_q5_urb{marker per_sa_ct.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - Cash Transfer -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_gini_preT_tot:per_sa_ct_gini_preT_tot{marker per_sa_ct_gini_preT_tot}}}Gini inequality index reduction (%) -  Cash Transfer (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_gini_rur:per_sa_ct_gini_rur{marker per_sa_ct_gini_rur}}}Gini inequality index reduction (%) -  Cash Transfer -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_gini_tot:per_sa_ct_gini_tot{marker per_sa_ct_gini_tot}}}Gini inequality index reduction (%) -  Cash Transfer{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_gini_urb:per_sa_ct_gini_urb{marker per_sa_ct_gini_urb}}}Gini inequality index reduction (%) -  Cash Transfer -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p0_ep_preT_tot:per_sa_ct_p0_ep_preT_tot{marker per_sa_ct_p0_ep_preT_tot}}}Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p0_ep_tot:per_sa_ct_p0_ep_tot{marker per_sa_ct_p0_ep_tot}}}Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p0_preT_tot:per_sa_ct_p0_preT_tot{marker per_sa_ct_p0_preT_tot}}}Poverty Headcount reduction (%) -  Cash Transfer -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p0_ep_tot:per_sa_ct_p0_ep_tot{marker per_sa_ct_p0_ep_tot}}}Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p0_rur:per_sa_ct_p0_rur{marker per_sa_ct_p0_rur}}}Poverty Headcount reduction (%) -  Cash Transfer -1st quintile (poorest) -rural{p_end}
 
@@ -8699,11 +5378,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p0_urb:per_sa_ct_p0_urb{marker per_sa_ct_p0_urb}}}Poverty Headcount reduction (%) -  Cash Transfer - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p1_ep_preT_tot:per_sa_ct_p1_ep_preT_tot{marker per_sa_ct_p1_ep_preT_tot}}}Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p1_ep_tot:per_sa_ct_p1_ep_tot{marker per_sa_ct_p1_ep_tot}}}Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p1_preT_tot:per_sa_ct_p1_preT_tot{marker per_sa_ct_p1_preT_tot}}}Poverty Gap reduction (%) -  Cash Transfer -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p1_ep_tot:per_sa_ct_p1_ep_tot{marker per_sa_ct_p1_ep_tot}}}Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p1_rur:per_sa_ct_p1_rur{marker per_sa_ct_p1_rur}}}Poverty Gap reduction (%) -  Cash Transfer -1st quintile (poorest) -rural{p_end}
 
@@ -8711,9 +5386,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p1_urb:per_sa_ct_p1_urb{marker per_sa_ct_p1_urb}}}Poverty Gap reduction (%) -  Cash Transfer - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.adq_ep_preT_tot:per_sa_ik.adq_ep_preT_tot{marker per_sa_ik.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.adq_ep_preT_tot:per_sa_ik.adq_ep_preT_tot{marker per_sa_ik.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - In-Kind (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.adq_ep_tot:per_sa_ik.adq_ep_tot{marker per_sa_ik.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.adq_ep_tot:per_sa_ik.adq_ep_tot{marker per_sa_ik.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - In-Kind{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.adq_pop_preT_tot:per_sa_ik.adq_pop_preT_tot{marker per_sa_ik.adq_pop_preT_tot}}}Adequacy of benefits (%) - In-Kind (preT){p_end}
 
@@ -8763,9 +5438,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.adq_q5_urb:per_sa_ik.adq_q5_urb{marker per_sa_ik.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) - In-Kind -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.avt_ep_preT_tot:per_sa_ik.avt_ep_preT_tot{marker per_sa_ik.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - In-Kind (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.avt_ep_preT_tot:per_sa_ik.avt_ep_preT_tot{marker per_sa_ik.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - In-Kind (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.avt_ep_tot:per_sa_ik.avt_ep_tot{marker per_sa_ik.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - In-Kind{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.avt_ep_tot:per_sa_ik.avt_ep_tot{marker per_sa_ik.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - In-Kind{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.avt_pop_preT_tot:per_sa_ik.avt_pop_preT_tot{marker per_sa_ik.avt_pop_preT_tot}}}Average per capita transfer - In-Kind (preT){p_end}
 
@@ -8815,9 +5490,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.avt_q5_urb:per_sa_ik.avt_q5_urb{marker per_sa_ik.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - In-Kind -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.ben_ep_preT_tot:per_sa_ik.ben_ep_preT_tot{marker per_sa_ik.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.ben_ep_preT_tot:per_sa_ik.ben_ep_preT_tot{marker per_sa_ik.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - In-Kind (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.ben_ep_tot:per_sa_ik.ben_ep_tot{marker per_sa_ik.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.ben_ep_tot:per_sa_ik.ben_ep_tot{marker per_sa_ik.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - In-Kind{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.ben_q1_preT_tot:per_sa_ik.ben_q1_preT_tot{marker per_sa_ik.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - In-Kind (preT){p_end}
 
@@ -8859,9 +5534,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.ben_q5_urb:per_sa_ik.ben_q5_urb{marker per_sa_ik.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - In-Kind -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.bry_ep_preT_tot:per_sa_ik.bry_ep_preT_tot{marker per_sa_ik.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.bry_ep_preT_tot:per_sa_ik.bry_ep_preT_tot{marker per_sa_ik.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - In-Kind (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.bry_ep_tot:per_sa_ik.bry_ep_tot{marker per_sa_ik.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.bry_ep_tot:per_sa_ik.bry_ep_tot{marker per_sa_ik.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - In-Kind{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.bry_q1_preT_tot:per_sa_ik.bry_q1_preT_tot{marker per_sa_ik.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - In-Kind (preT){p_end}
 
@@ -8903,11 +5578,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.bry_q5_urb:per_sa_ik.bry_q5_urb{marker per_sa_ik.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - In-Kind -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.cba_ep_preT_tot:per_sa_ik.cba_ep_preT_tot{marker per_sa_ik.cba_ep_preT_tot}}}Benefit-cost ratio -  In-Kind -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.cba_ep_tot:per_sa_ik.cba_ep_tot{marker per_sa_ik.cba_ep_tot}}}Benefit-cost ratio -  In-Kind -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.cba_q1_preT_tot:per_sa_ik.cba_q1_preT_tot{marker per_sa_ik.cba_q1_preT_tot}}}Benefit-cost ratio -  In-Kind -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.cba_ep_tot:per_sa_ik.cba_ep_tot{marker per_sa_ik.cba_ep_tot}}}Benefit-cost ratio -  In-Kind -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.cba_q1_rur:per_sa_ik.cba_q1_rur{marker per_sa_ik.cba_q1_rur}}}Benefit-cost ratio -  In-Kind -1st quintile (poorest) -rural{p_end}
 
@@ -8915,9 +5586,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.cba_q1_urb:per_sa_ik.cba_q1_urb{marker per_sa_ik.cba_q1_urb}}}Benefit-cost ratio -  In-Kind - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.cov_ep_preT_tot:per_sa_ik.cov_ep_preT_tot{marker per_sa_ik.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.cov_ep_preT_tot:per_sa_ik.cov_ep_preT_tot{marker per_sa_ik.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - In-Kind (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.cov_ep_tot:per_sa_ik.cov_ep_tot{marker per_sa_ik.cov_ep_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.cov_ep_tot:per_sa_ik.cov_ep_tot{marker per_sa_ik.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - In-Kind{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.cov_pop_preT_tot:per_sa_ik.cov_pop_preT_tot{marker per_sa_ik.cov_pop_preT_tot}}}Coverage (%) - In-Kind (preT){p_end}
 
@@ -8967,19 +5638,13 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.cov_q5_urb:per_sa_ik.cov_q5_urb{marker per_sa_ik.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - In-Kind -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik_gini_preT_tot:per_sa_ik_gini_preT_tot{marker per_sa_ik_gini_preT_tot}}}Gini inequality index reduction (%) -  In-Kind (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik_gini_rur:per_sa_ik_gini_rur{marker per_sa_ik_gini_rur}}}Gini inequality index reduction (%) -  In-Kind -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik_gini_tot:per_sa_ik_gini_tot{marker per_sa_ik_gini_tot}}}Gini inequality index reduction (%) -  In-Kind{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik_gini_urb:per_sa_ik_gini_urb{marker per_sa_ik_gini_urb}}}Gini inequality index reduction (%) -  In-Kind -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik_p0_ep_preT_tot:per_sa_ik_p0_ep_preT_tot{marker per_sa_ik_p0_ep_preT_tot}}}Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik_p0_ep_tot:per_sa_ik_p0_ep_tot{marker per_sa_ik_p0_ep_tot}}}Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik_p0_preT_tot:per_sa_ik_p0_preT_tot{marker per_sa_ik_p0_preT_tot}}}Poverty Headcount reduction (%) -  In-Kind -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik_p0_ep_tot:per_sa_ik_p0_ep_tot{marker per_sa_ik_p0_ep_tot}}}Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik_p0_rur:per_sa_ik_p0_rur{marker per_sa_ik_p0_rur}}}Poverty Headcount reduction (%) -  In-Kind -1st quintile (poorest) -rural{p_end}
 
@@ -8987,11 +5652,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik_p0_urb:per_sa_ik_p0_urb{marker per_sa_ik_p0_urb}}}Poverty Headcount reduction (%) -  In-Kind - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik_p1_ep_preT_tot:per_sa_ik_p1_ep_preT_tot{marker per_sa_ik_p1_ep_preT_tot}}}Poverty Gap reduction (%) -  In-Kind -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik_p1_ep_tot:per_sa_ik_p1_ep_tot{marker per_sa_ik_p1_ep_tot}}}Poverty Gap reduction (%) -  In-Kind -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik_p1_preT_tot:per_sa_ik_p1_preT_tot{marker per_sa_ik_p1_preT_tot}}}Poverty Gap reduction (%) -  In-Kind -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik_p1_ep_tot:per_sa_ik_p1_ep_tot{marker per_sa_ik_p1_ep_tot}}}Poverty Gap reduction (%) -  In-Kind -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik_p1_rur:per_sa_ik_p1_rur{marker per_sa_ik_p1_rur}}}Poverty Gap reduction (%) -  In-Kind -1st quintile (poorest) -rural{p_end}
 
@@ -8999,9 +5660,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik_p1_urb:per_sa_ik_p1_urb{marker per_sa_ik_p1_urb}}}Poverty Gap reduction (%) -  In-Kind - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.adq_ep_preT_tot:per_sa_pw.adq_ep_preT_tot{marker per_sa_pw.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.adq_ep_preT_tot:per_sa_pw.adq_ep_preT_tot{marker per_sa_pw.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Public Works (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.adq_ep_tot:per_sa_pw.adq_ep_tot{marker per_sa_pw.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.adq_ep_tot:per_sa_pw.adq_ep_tot{marker per_sa_pw.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Public Works{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.adq_pop_preT_tot:per_sa_pw.adq_pop_preT_tot{marker per_sa_pw.adq_pop_preT_tot}}}Adequacy of benefits (%) - Public Works (preT){p_end}
 
@@ -9051,9 +5712,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.adq_q5_urb:per_sa_pw.adq_q5_urb{marker per_sa_pw.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) - Public Works -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.avt_ep_preT_tot:per_sa_pw.avt_ep_preT_tot{marker per_sa_pw.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Public Works (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.avt_ep_preT_tot:per_sa_pw.avt_ep_preT_tot{marker per_sa_pw.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Public Works (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.avt_ep_tot:per_sa_pw.avt_ep_tot{marker per_sa_pw.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Public Works{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.avt_ep_tot:per_sa_pw.avt_ep_tot{marker per_sa_pw.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Public Works{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.avt_pop_preT_tot:per_sa_pw.avt_pop_preT_tot{marker per_sa_pw.avt_pop_preT_tot}}}Average per capita transfer - Public Works (preT){p_end}
 
@@ -9103,9 +5764,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.avt_q5_urb:per_sa_pw.avt_q5_urb{marker per_sa_pw.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - Public Works -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.ben_ep_preT_tot:per_sa_pw.ben_ep_preT_tot{marker per_sa_pw.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.ben_ep_preT_tot:per_sa_pw.ben_ep_preT_tot{marker per_sa_pw.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Public Works (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.ben_ep_tot:per_sa_pw.ben_ep_tot{marker per_sa_pw.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.ben_ep_tot:per_sa_pw.ben_ep_tot{marker per_sa_pw.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Public Works{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.ben_q1_preT_tot:per_sa_pw.ben_q1_preT_tot{marker per_sa_pw.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - Public Works (preT){p_end}
 
@@ -9147,9 +5808,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.ben_q5_urb:per_sa_pw.ben_q5_urb{marker per_sa_pw.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - Public Works -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.bry_ep_preT_tot:per_sa_pw.bry_ep_preT_tot{marker per_sa_pw.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.bry_ep_preT_tot:per_sa_pw.bry_ep_preT_tot{marker per_sa_pw.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Public Works (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.bry_ep_tot:per_sa_pw.bry_ep_tot{marker per_sa_pw.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.bry_ep_tot:per_sa_pw.bry_ep_tot{marker per_sa_pw.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Public Works{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.bry_q1_preT_tot:per_sa_pw.bry_q1_preT_tot{marker per_sa_pw.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - Public Works (preT){p_end}
 
@@ -9191,11 +5852,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.bry_q5_urb:per_sa_pw.bry_q5_urb{marker per_sa_pw.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - Public Works -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.cba_ep_preT_tot:per_sa_pw.cba_ep_preT_tot{marker per_sa_pw.cba_ep_preT_tot}}}Benefit-cost ratio -  Public Works -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.cba_ep_tot:per_sa_pw.cba_ep_tot{marker per_sa_pw.cba_ep_tot}}}Benefit-cost ratio -  Public Works -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.cba_q1_preT_tot:per_sa_pw.cba_q1_preT_tot{marker per_sa_pw.cba_q1_preT_tot}}}Benefit-cost ratio -  Public Works -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.cba_ep_tot:per_sa_pw.cba_ep_tot{marker per_sa_pw.cba_ep_tot}}}Benefit-cost ratio -  Public Works -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.cba_q1_rur:per_sa_pw.cba_q1_rur{marker per_sa_pw.cba_q1_rur}}}Benefit-cost ratio -  Public Works -1st quintile (poorest) -rural{p_end}
 
@@ -9203,9 +5860,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.cba_q1_urb:per_sa_pw.cba_q1_urb{marker per_sa_pw.cba_q1_urb}}}Benefit-cost ratio -  Public Works - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.cov_ep_preT_tot:per_sa_pw.cov_ep_preT_tot{marker per_sa_pw.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.cov_ep_preT_tot:per_sa_pw.cov_ep_preT_tot{marker per_sa_pw.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Public Works (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.cov_ep_tot:per_sa_pw.cov_ep_tot{marker per_sa_pw.cov_ep_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.cov_ep_tot:per_sa_pw.cov_ep_tot{marker per_sa_pw.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Public Works{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.cov_pop_preT_tot:per_sa_pw.cov_pop_preT_tot{marker per_sa_pw.cov_pop_preT_tot}}}Coverage (%) - Public Works (preT){p_end}
 
@@ -9255,19 +5912,13 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.cov_q5_urb:per_sa_pw.cov_q5_urb{marker per_sa_pw.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - Public Works -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw_gini_preT_tot:per_sa_pw_gini_preT_tot{marker per_sa_pw_gini_preT_tot}}}Gini inequality index reduction (%) -  Public Works (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw_gini_rur:per_sa_pw_gini_rur{marker per_sa_pw_gini_rur}}}Gini inequality index reduction (%) -  Public Works -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw_gini_tot:per_sa_pw_gini_tot{marker per_sa_pw_gini_tot}}}Gini inequality index reduction (%) -  Public Works{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw_gini_urb:per_sa_pw_gini_urb{marker per_sa_pw_gini_urb}}}Gini inequality index reduction (%) -  Public Works -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw_p0_ep_preT_tot:per_sa_pw_p0_ep_preT_tot{marker per_sa_pw_p0_ep_preT_tot}}}Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw_p0_ep_tot:per_sa_pw_p0_ep_tot{marker per_sa_pw_p0_ep_tot}}}Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw_p0_preT_tot:per_sa_pw_p0_preT_tot{marker per_sa_pw_p0_preT_tot}}}Poverty Headcount reduction (%) -  Public Works -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw_p0_ep_tot:per_sa_pw_p0_ep_tot{marker per_sa_pw_p0_ep_tot}}}Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw_p0_rur:per_sa_pw_p0_rur{marker per_sa_pw_p0_rur}}}Poverty Headcount reduction (%) -  Public Works -1st quintile (poorest) -rural{p_end}
 
@@ -9275,11 +5926,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw_p0_urb:per_sa_pw_p0_urb{marker per_sa_pw_p0_urb}}}Poverty Headcount reduction (%) -  Public Works - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw_p1_ep_preT_tot:per_sa_pw_p1_ep_preT_tot{marker per_sa_pw_p1_ep_preT_tot}}}Poverty Gap reduction (%) -  Public Works -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw_p1_ep_tot:per_sa_pw_p1_ep_tot{marker per_sa_pw_p1_ep_tot}}}Poverty Gap reduction (%) -  Public Works -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw_p1_preT_tot:per_sa_pw_p1_preT_tot{marker per_sa_pw_p1_preT_tot}}}Poverty Gap reduction (%) -  Public Works -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw_p1_ep_tot:per_sa_pw_p1_ep_tot{marker per_sa_pw_p1_ep_tot}}}Poverty Gap reduction (%) -  Public Works -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw_p1_rur:per_sa_pw_p1_rur{marker per_sa_pw_p1_rur}}}Poverty Gap reduction (%) -  Public Works -1st quintile (poorest) -rural{p_end}
 
@@ -9287,9 +5934,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw_p1_urb:per_sa_pw_p1_urb{marker per_sa_pw_p1_urb}}}Poverty Gap reduction (%) -  Public Works - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.adq_ep_preT_tot:per_sa_sf.adq_ep_preT_tot{marker per_sa_sf.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.adq_ep_preT_tot:per_sa_sf.adq_ep_preT_tot{marker per_sa_sf.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - School Feeding (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.adq_ep_tot:per_sa_sf.adq_ep_tot{marker per_sa_sf.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.adq_ep_tot:per_sa_sf.adq_ep_tot{marker per_sa_sf.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - School Feeding{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.adq_pop_preT_tot:per_sa_sf.adq_pop_preT_tot{marker per_sa_sf.adq_pop_preT_tot}}}Adequacy of benefits (%) - School Feeding (preT){p_end}
 
@@ -9339,9 +5986,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.adq_q5_urb:per_sa_sf.adq_q5_urb{marker per_sa_sf.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) - School feeding -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.avt_ep_preT_tot:per_sa_sf.avt_ep_preT_tot{marker per_sa_sf.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - School feeding (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.avt_ep_preT_tot:per_sa_sf.avt_ep_preT_tot{marker per_sa_sf.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - School Feeding (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.avt_ep_tot:per_sa_sf.avt_ep_tot{marker per_sa_sf.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - School feeding{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.avt_ep_tot:per_sa_sf.avt_ep_tot{marker per_sa_sf.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - School Feeding{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.avt_pop_preT_tot:per_sa_sf.avt_pop_preT_tot{marker per_sa_sf.avt_pop_preT_tot}}}Average per capita transfer - School Feeding (preT){p_end}
 
@@ -9391,9 +6038,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.avt_q5_urb:per_sa_sf.avt_q5_urb{marker per_sa_sf.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - School feeding -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.ben_ep_preT_tot:per_sa_sf.ben_ep_preT_tot{marker per_sa_sf.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.ben_ep_preT_tot:per_sa_sf.ben_ep_preT_tot{marker per_sa_sf.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - School Feeding (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.ben_ep_tot:per_sa_sf.ben_ep_tot{marker per_sa_sf.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.ben_ep_tot:per_sa_sf.ben_ep_tot{marker per_sa_sf.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - School Feeding{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.ben_q1_preT_tot:per_sa_sf.ben_q1_preT_tot{marker per_sa_sf.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - School feeding (preT){p_end}
 
@@ -9435,9 +6082,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.ben_q5_urb:per_sa_sf.ben_q5_urb{marker per_sa_sf.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - School feeding -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.bry_ep_preT_tot:per_sa_sf.bry_ep_preT_tot{marker per_sa_sf.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.bry_ep_preT_tot:per_sa_sf.bry_ep_preT_tot{marker per_sa_sf.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - School Feeding (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.bry_ep_tot:per_sa_sf.bry_ep_tot{marker per_sa_sf.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.bry_ep_tot:per_sa_sf.bry_ep_tot{marker per_sa_sf.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - School Feeding{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.bry_q1_preT_tot:per_sa_sf.bry_q1_preT_tot{marker per_sa_sf.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - School feeding (preT){p_end}
 
@@ -9479,21 +6126,17 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.bry_q5_urb:per_sa_sf.bry_q5_urb{marker per_sa_sf.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - School feeding -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cba_ep_preT_tot:per_sa_sf.cba_ep_preT_tot{marker per_sa_sf.cba_ep_preT_tot}}}Benefit-cost ratio -  School feeding -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cba_ep_tot:per_sa_sf.cba_ep_tot{marker per_sa_sf.cba_ep_tot}}}Benefit-cost ratio -  School-feeding -extreme poor (&lt;$2.15 a day){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cba_ep_tot:per_sa_sf.cba_ep_tot{marker per_sa_sf.cba_ep_tot}}}Benefit-cost ratio -  School feeding -extreme poor (&lt;$1.90 PPP a day){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cba_q1_rur:per_sa_sf.cba_q1_rur{marker per_sa_sf.cba_q1_rur}}}Benefit-cost ratio -  School-feeding -1st quintile (poorest) -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cba_q1_preT_tot:per_sa_sf.cba_q1_preT_tot{marker per_sa_sf.cba_q1_preT_tot}}}Benefit-cost ratio -  School feeding -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cba_q1_tot:per_sa_sf.cba_q1_tot{marker per_sa_sf.cba_q1_tot}}}Benefit-cost ratio -  School-feeding -1st quintile (poorest){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cba_q1_rur:per_sa_sf.cba_q1_rur{marker per_sa_sf.cba_q1_rur}}}Benefit-cost ratio -  School feeding -1st quintile (poorest) -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cba_q1_urb:per_sa_sf.cba_q1_urb{marker per_sa_sf.cba_q1_urb}}}Benefit-cost ratio -  School-feeding - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cba_q1_tot:per_sa_sf.cba_q1_tot{marker per_sa_sf.cba_q1_tot}}}Benefit-cost ratio -  School feeding -1st quintile (poorest){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cov_ep_preT_tot:per_sa_sf.cov_ep_preT_tot{marker per_sa_sf.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - School Feeding (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cba_q1_urb:per_sa_sf.cba_q1_urb{marker per_sa_sf.cba_q1_urb}}}Benefit-cost ratio -  School feeding - 1st quintile (poorest) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cov_ep_preT_tot:per_sa_sf.cov_ep_preT_tot{marker per_sa_sf.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cov_ep_tot:per_sa_sf.cov_ep_tot{marker per_sa_sf.cov_ep_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cov_ep_tot:per_sa_sf.cov_ep_tot{marker per_sa_sf.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - School Feeding{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cov_pop_preT_tot:per_sa_sf.cov_pop_preT_tot{marker per_sa_sf.cov_pop_preT_tot}}}Coverage (%) - School Feeding (preT){p_end}
 
@@ -9543,41 +6186,31 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cov_q5_urb:per_sa_sf.cov_q5_urb{marker per_sa_sf.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - School feeding -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_gini_preT_tot:per_sa_sf_gini_preT_tot{marker per_sa_sf_gini_preT_tot}}}Gini inequality index reduction (%) -  School feeding (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_gini_rur:per_sa_sf_gini_rur{marker per_sa_sf_gini_rur}}}Gini inequality index reduction (%) -  School-feeding -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_gini_rur:per_sa_sf_gini_rur{marker per_sa_sf_gini_rur}}}Gini inequality index reduction (%) -  School feeding -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_gini_tot:per_sa_sf_gini_tot{marker per_sa_sf_gini_tot}}}Gini inequality index reduction (%) -  School-feeding{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_gini_tot:per_sa_sf_gini_tot{marker per_sa_sf_gini_tot}}}Gini inequality index reduction (%) -  School feeding{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_gini_urb:per_sa_sf_gini_urb{marker per_sa_sf_gini_urb}}}Gini inequality index reduction (%) -  School-feeding -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_gini_urb:per_sa_sf_gini_urb{marker per_sa_sf_gini_urb}}}Gini inequality index reduction (%) -  School feeding -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p0_ep_tot:per_sa_sf_p0_ep_tot{marker per_sa_sf_p0_ep_tot}}}Poverty Headcount reduction (%) -  School-feeding -extreme poor (&lt;$2.15 a day){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p0_ep_preT_tot:per_sa_sf_p0_ep_preT_tot{marker per_sa_sf_p0_ep_preT_tot}}}Poverty Headcount reduction (%) -  School feeding -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p0_rur:per_sa_sf_p0_rur{marker per_sa_sf_p0_rur}}}Poverty Headcount reduction (%) -  School-feeding -1st quintile (poorest) -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p0_ep_tot:per_sa_sf_p0_ep_tot{marker per_sa_sf_p0_ep_tot}}}Poverty Headcount reduction (%) -  School feeding -extreme poor (&lt;$1.90 PPP a day){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p0_tot:per_sa_sf_p0_tot{marker per_sa_sf_p0_tot}}}Poverty Headcount reduction (%) -  School-feeding -1st quintile (poorest){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p0_preT_tot:per_sa_sf_p0_preT_tot{marker per_sa_sf_p0_preT_tot}}}Poverty Headcount reduction (%) -  School feeding -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p0_urb:per_sa_sf_p0_urb{marker per_sa_sf_p0_urb}}}Poverty Headcount reduction (%) -  School-feeding - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p0_rur:per_sa_sf_p0_rur{marker per_sa_sf_p0_rur}}}Poverty Headcount reduction (%) -  School feeding -1st quintile (poorest) -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p1_ep_tot:per_sa_sf_p1_ep_tot{marker per_sa_sf_p1_ep_tot}}}Poverty Gap reduction (%) -  School-feeding -extreme poor (&lt;$2.15 a day){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p0_tot:per_sa_sf_p0_tot{marker per_sa_sf_p0_tot}}}Poverty Headcount reduction (%) -  School feeding -1st quintile (poorest){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p1_rur:per_sa_sf_p1_rur{marker per_sa_sf_p1_rur}}}Poverty Gap reduction (%) -  School-feeding -1st quintile (poorest) -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p0_urb:per_sa_sf_p0_urb{marker per_sa_sf_p0_urb}}}Poverty Headcount reduction (%) -  School feeding - 1st quintile (poorest) -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p1_tot:per_sa_sf_p1_tot{marker per_sa_sf_p1_tot}}}Poverty Gap reduction (%) -  School-feeding -1st quintile (poorest){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p1_ep_preT_tot:per_sa_sf_p1_ep_preT_tot{marker per_sa_sf_p1_ep_preT_tot}}}Poverty Gap reduction (%) -  School feeding -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p1_urb:per_sa_sf_p1_urb{marker per_sa_sf_p1_urb}}}Poverty Gap reduction (%) -  School-feeding - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p1_ep_tot:per_sa_sf_p1_ep_tot{marker per_sa_sf_p1_ep_tot}}}Poverty Gap reduction (%) -  School feeding -extreme poor (&lt;$1.90 PPP a day){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.adq_ep_preT_tot:per_sa_sp.adq_ep_preT_tot{marker per_sa_sp.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Social Pensions  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p1_preT_tot:per_sa_sf_p1_preT_tot{marker per_sa_sf_p1_preT_tot}}}Poverty Gap reduction (%) -  School feeding -1st quintile (poorest) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p1_rur:per_sa_sf_p1_rur{marker per_sa_sf_p1_rur}}}Poverty Gap reduction (%) -  School feeding -1st quintile (poorest) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p1_tot:per_sa_sf_p1_tot{marker per_sa_sf_p1_tot}}}Poverty Gap reduction (%) -  School feeding -1st quintile (poorest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf_p1_urb:per_sa_sf_p1_urb{marker per_sa_sf_p1_urb}}}Poverty Gap reduction (%) -  School feeding - 1st quintile (poorest) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.adq_ep_preT_tot:per_sa_sp.adq_ep_preT_tot{marker per_sa_sp.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions  (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.adq_ep_tot:per_sa_sp.adq_ep_tot{marker per_sa_sp.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.adq_ep_tot:per_sa_sp.adq_ep_tot{marker per_sa_sp.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Social Pensions{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.adq_pop_preT_tot:per_sa_sp.adq_pop_preT_tot{marker per_sa_sp.adq_pop_preT_tot}}}Adequacy of benefits (%) - Social Pensions (preT){p_end}
 
@@ -9627,9 +6260,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.adq_q5_urb:per_sa_sp.adq_q5_urb{marker per_sa_sp.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) - Social Pensions -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_ep_preT_tot:per_sa_sp.avt_ep_preT_tot{marker per_sa_sp.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Social Pensions  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_ep_preT_tot:per_sa_sp.avt_ep_preT_tot{marker per_sa_sp.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Social Pensions  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_ep_tot:per_sa_sp.avt_ep_tot{marker per_sa_sp.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Social Pensions{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_ep_tot:per_sa_sp.avt_ep_tot{marker per_sa_sp.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Social Pensions{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_pop_preT_tot:per_sa_sp.avt_pop_preT_tot{marker per_sa_sp.avt_pop_preT_tot}}}Average per capita transfer - Social Pensions (preT){p_end}
 
@@ -9679,9 +6312,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_q5_urb:per_sa_sp.avt_q5_urb{marker per_sa_sp.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - Social Pensions -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_ep_preT_tot:per_sa_sp.ben_ep_preT_tot{marker per_sa_sp.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_ep_preT_tot:per_sa_sp.ben_ep_preT_tot{marker per_sa_sp.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Social Pensions  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_ep_tot:per_sa_sp.ben_ep_tot{marker per_sa_sp.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_ep_tot:per_sa_sp.ben_ep_tot{marker per_sa_sp.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Social Pensions{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q1_preT_tot:per_sa_sp.ben_q1_preT_tot{marker per_sa_sp.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - Social Pensions (preT){p_end}
 
@@ -9723,9 +6356,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q5_urb:per_sa_sp.ben_q5_urb{marker per_sa_sp.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - Social Pensions -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_ep_preT_tot:per_sa_sp.bry_ep_preT_tot{marker per_sa_sp.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_ep_preT_tot:per_sa_sp.bry_ep_preT_tot{marker per_sa_sp.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Social Pensions  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_ep_tot:per_sa_sp.bry_ep_tot{marker per_sa_sp.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_ep_tot:per_sa_sp.bry_ep_tot{marker per_sa_sp.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Social Pensions{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q1_preT_tot:per_sa_sp.bry_q1_preT_tot{marker per_sa_sp.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - Social Pensions (preT){p_end}
 
@@ -9767,11 +6400,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q5_urb:per_sa_sp.bry_q5_urb{marker per_sa_sp.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - Social Pensions -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cba_ep_preT_tot:per_sa_sp.cba_ep_preT_tot{marker per_sa_sp.cba_ep_preT_tot}}}Benefit-cost ratio -  Social Pension -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cba_ep_tot:per_sa_sp.cba_ep_tot{marker per_sa_sp.cba_ep_tot}}}Benefit-cost ratio -  Social Pension -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cba_q1_preT_tot:per_sa_sp.cba_q1_preT_tot{marker per_sa_sp.cba_q1_preT_tot}}}Benefit-cost ratio -  Social Pension -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cba_ep_tot:per_sa_sp.cba_ep_tot{marker per_sa_sp.cba_ep_tot}}}Benefit-cost ratio -  Social Pension -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cba_q1_rur:per_sa_sp.cba_q1_rur{marker per_sa_sp.cba_q1_rur}}}Benefit-cost ratio -  Social Pension -1st quintile (poorest) -rural{p_end}
 
@@ -9779,9 +6408,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cba_q1_urb:per_sa_sp.cba_q1_urb{marker per_sa_sp.cba_q1_urb}}}Benefit-cost ratio -  Social Pension - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_ep_preT_tot:per_sa_sp.cov_ep_preT_tot{marker per_sa_sp.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_ep_preT_tot:per_sa_sp.cov_ep_preT_tot{marker per_sa_sp.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Social Pensions  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_ep_tot:per_sa_sp.cov_ep_tot{marker per_sa_sp.cov_ep_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_ep_tot:per_sa_sp.cov_ep_tot{marker per_sa_sp.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Social Pensions{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_pop_preT_tot:per_sa_sp.cov_pop_preT_tot{marker per_sa_sp.cov_pop_preT_tot}}}Coverage (%) - Social Pensions (preT){p_end}
 
@@ -9831,19 +6460,13 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q5_urb:per_sa_sp.cov_q5_urb{marker per_sa_sp.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - Social Pensions -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_gini_preT_tot:per_sa_sp_gini_preT_tot{marker per_sa_sp_gini_preT_tot}}}Gini inequality index reduction (%) -  Social Pension (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_gini_rur:per_sa_sp_gini_rur{marker per_sa_sp_gini_rur}}}Gini inequality index reduction (%) -  Social Pension -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_gini_rur:per_sa_sp_gini_rur{marker per_sa_sp_gini_rur}}}Gini inequality index reduction (%) -  Social Pension-rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_gini_tot:per_sa_sp_gini_tot{marker per_sa_sp_gini_tot}}}Gini inequality index reduction (%) -  Social Pension{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_gini_urb:per_sa_sp_gini_urb{marker per_sa_sp_gini_urb}}}Gini inequality index reduction (%) -  Social Pension -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p0_ep_preT_tot:per_sa_sp_p0_ep_preT_tot{marker per_sa_sp_p0_ep_preT_tot}}}Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p0_ep_tot:per_sa_sp_p0_ep_tot{marker per_sa_sp_p0_ep_tot}}}Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p0_preT_tot:per_sa_sp_p0_preT_tot{marker per_sa_sp_p0_preT_tot}}}Poverty Headcount reduction (%) -  Social Pension -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p0_ep_tot:per_sa_sp_p0_ep_tot{marker per_sa_sp_p0_ep_tot}}}Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p0_rur:per_sa_sp_p0_rur{marker per_sa_sp_p0_rur}}}Poverty Headcount reduction (%) -  Social Pension -1st quintile (poorest) -rural{p_end}
 
@@ -9851,11 +6474,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p0_urb:per_sa_sp_p0_urb{marker per_sa_sp_p0_urb}}}Poverty Headcount reduction (%) -  Social Pension - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p1_ep_preT_tot:per_sa_sp_p1_ep_preT_tot{marker per_sa_sp_p1_ep_preT_tot}}}Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p1_ep_tot:per_sa_sp_p1_ep_tot{marker per_sa_sp_p1_ep_tot}}}Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p1_preT_tot:per_sa_sp_p1_preT_tot{marker per_sa_sp_p1_preT_tot}}}Poverty Gap reduction (%) -  Social Pension -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p1_ep_tot:per_sa_sp_p1_ep_tot{marker per_sa_sp_p1_ep_tot}}}Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p1_rur:per_sa_sp_p1_rur{marker per_sa_sp_p1_rur}}}Poverty Gap reduction (%) -  Social Pension -1st quintile (poorest) -rural{p_end}
 
@@ -9863,11 +6482,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p1_urb:per_sa_sp_p1_urb{marker per_sa_sp_p1_urb}}}Poverty Gap reduction (%) -  Social Pension - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saonl.overlap_ep_preT_tot:per_saonl.overlap_ep_preT_tot{marker per_saonl.overlap_ep_preT_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) only receiving All Social Assistance (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_saonl.overlap_ep_preT_tot:per_saonl.overlap_ep_preT_tot{marker per_saonl.overlap_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) only receiving All Social Assistance (%, preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saonl.overlap_ep_tot:per_saonl.overlap_ep_tot{marker per_saonl.overlap_ep_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) only receiving All Social Assistance (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saonl.overlap_pop_preT_tot:per_saonl.overlap_pop_preT_tot{marker per_saonl.overlap_pop_preT_tot}}}Population only receiving All Social Assistance (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_saonl.overlap_ep_tot:per_saonl.overlap_ep_tot{marker per_saonl.overlap_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) only receiving All Social Assistance (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_saonl.overlap_pop_rur:per_saonl.overlap_pop_rur{marker per_saonl.overlap_pop_rur}}}Population only receiving All Social Assistance (%) -rural{p_end}
 
@@ -9883,11 +6500,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_saonl.overlap_q1_urb:per_saonl.overlap_q1_urb{marker per_saonl.overlap_q1_urb}}}Population in the 1st quintile (poorest) only receiving All Social Assistance (%) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saoth.overlap_ep_preT_tot:per_saoth.overlap_ep_preT_tot{marker per_saoth.overlap_ep_preT_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) receiving Social Assistance and Other (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_saoth.overlap_ep_preT_tot:per_saoth.overlap_ep_preT_tot{marker per_saoth.overlap_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving Social Assistance and Other (%, preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saoth.overlap_ep_tot:per_saoth.overlap_ep_tot{marker per_saoth.overlap_ep_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) receiving Social Assistance and Other (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saoth.overlap_pop_preT_tot:per_saoth.overlap_pop_preT_tot{marker per_saoth.overlap_pop_preT_tot}}}Population receiving Social Assistance and Other (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_saoth.overlap_ep_tot:per_saoth.overlap_ep_tot{marker per_saoth.overlap_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving Social Assistance and Other (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_saoth.overlap_pop_rur:per_saoth.overlap_pop_rur{marker per_saoth.overlap_pop_rur}}}Population receiving Social Assistance and Other (%) -rural{p_end}
 
@@ -9903,9 +6518,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_saoth.overlap_q1_urb:per_saoth.overlap_q1_urb{marker per_saoth.overlap_q1_urb}}}Population in the 1st quintile (poorest) receiving Social Assistance and Other (%) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_ep_preT_tot:per_si_allsi.adq_ep_preT_tot{marker per_si_allsi.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_ep_preT_tot:per_si_allsi.adq_ep_preT_tot{marker per_si_allsi.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_ep_tot:per_si_allsi.adq_ep_tot{marker per_si_allsi.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_ep_tot:per_si_allsi.adq_ep_tot{marker per_si_allsi.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_pop_preT_tot:per_si_allsi.adq_pop_preT_tot{marker per_si_allsi.adq_pop_preT_tot}}}Adequacy of benefits (%) - All Social Insurance (preT){p_end}
 
@@ -9955,9 +6570,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q5_urb:per_si_allsi.adq_q5_urb{marker per_si_allsi.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) - All Social Insurance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_ep_preT_tot:per_si_allsi.avt_ep_preT_tot{marker per_si_allsi.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Social Insurance  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_ep_preT_tot:per_si_allsi.avt_ep_preT_tot{marker per_si_allsi.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Social Insurance  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_ep_tot:per_si_allsi.avt_ep_tot{marker per_si_allsi.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Social Insurance{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_ep_tot:per_si_allsi.avt_ep_tot{marker per_si_allsi.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Social Insurance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_pop_preT_tot:per_si_allsi.avt_pop_preT_tot{marker per_si_allsi.avt_pop_preT_tot}}}Average per capita transfer - All Social Insurance (preT){p_end}
 
@@ -10007,9 +6622,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q5_urb:per_si_allsi.avt_q5_urb{marker per_si_allsi.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - All Social Insurance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_ep_preT_tot:per_si_allsi.ben_ep_preT_tot{marker per_si_allsi.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_ep_preT_tot:per_si_allsi.ben_ep_preT_tot{marker per_si_allsi.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_ep_tot:per_si_allsi.ben_ep_tot{marker per_si_allsi.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_ep_tot:per_si_allsi.ben_ep_tot{marker per_si_allsi.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q1_preT_tot:per_si_allsi.ben_q1_preT_tot{marker per_si_allsi.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - All Social Insurance (preT){p_end}
 
@@ -10051,9 +6666,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q5_urb:per_si_allsi.ben_q5_urb{marker per_si_allsi.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - All Social Insurance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_ep_preT_tot:per_si_allsi.bry_ep_preT_tot{marker per_si_allsi.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_ep_preT_tot:per_si_allsi.bry_ep_preT_tot{marker per_si_allsi.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_ep_tot:per_si_allsi.bry_ep_tot{marker per_si_allsi.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_ep_tot:per_si_allsi.bry_ep_tot{marker per_si_allsi.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q1_preT_tot:per_si_allsi.bry_q1_preT_tot{marker per_si_allsi.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - All Social Insurance (preT){p_end}
 
@@ -10095,11 +6710,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q5_urb:per_si_allsi.bry_q5_urb{marker per_si_allsi.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - All Social Insurance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cba_ep_preT_tot:per_si_allsi.cba_ep_preT_tot{marker per_si_allsi.cba_ep_preT_tot}}}Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cba_ep_tot:per_si_allsi.cba_ep_tot{marker per_si_allsi.cba_ep_tot}}}Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cba_q1_preT_tot:per_si_allsi.cba_q1_preT_tot{marker per_si_allsi.cba_q1_preT_tot}}}Benefit-cost ratio -  All Social Insurance -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cba_ep_tot:per_si_allsi.cba_ep_tot{marker per_si_allsi.cba_ep_tot}}}Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cba_q1_rur:per_si_allsi.cba_q1_rur{marker per_si_allsi.cba_q1_rur}}}Benefit-cost ratio -  All Social Insurance -1st quintile (poorest) -rural{p_end}
 
@@ -10107,9 +6718,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cba_q1_urb:per_si_allsi.cba_q1_urb{marker per_si_allsi.cba_q1_urb}}}Benefit-cost ratio -  All Social Insurance - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_ep_preT_tot:per_si_allsi.cov_ep_preT_tot{marker per_si_allsi.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_ep_preT_tot:per_si_allsi.cov_ep_preT_tot{marker per_si_allsi.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_ep_tot:per_si_allsi.cov_ep_tot{marker per_si_allsi.cov_ep_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_ep_tot:per_si_allsi.cov_ep_tot{marker per_si_allsi.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_pop_preT_tot:per_si_allsi.cov_pop_preT_tot{marker per_si_allsi.cov_pop_preT_tot}}}Coverage (%) - All Social Insurance (preT){p_end}
 
@@ -10159,19 +6770,13 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q5_urb:per_si_allsi.cov_q5_urb{marker per_si_allsi.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - All Social Insurance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_gini_preT_tot:per_si_allsi_gini_preT_tot{marker per_si_allsi_gini_preT_tot}}}Gini inequality index reduction (%) -  All Social Insurance (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_gini_rur:per_si_allsi_gini_rur{marker per_si_allsi_gini_rur}}}Gini inequality index reduction (%) -  All Social Insurance -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_gini_tot:per_si_allsi_gini_tot{marker per_si_allsi_gini_tot}}}Gini inequality index reduction (%) -  All Social Insurance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_gini_urb:per_si_allsi_gini_urb{marker per_si_allsi_gini_urb}}}Gini inequality index reduction (%) -  All Social Insurance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p0_ep_preT_tot:per_si_allsi_p0_ep_preT_tot{marker per_si_allsi_p0_ep_preT_tot}}}Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p0_ep_tot:per_si_allsi_p0_ep_tot{marker per_si_allsi_p0_ep_tot}}}Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p0_preT_tot:per_si_allsi_p0_preT_tot{marker per_si_allsi_p0_preT_tot}}}Poverty Headcount reduction (%) -  All Social Insurance -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p0_ep_tot:per_si_allsi_p0_ep_tot{marker per_si_allsi_p0_ep_tot}}}Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p0_rur:per_si_allsi_p0_rur{marker per_si_allsi_p0_rur}}}Poverty Headcount reduction (%) -  All Social Insurance -1st quintile (poorest) -rural{p_end}
 
@@ -10179,11 +6784,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p0_urb:per_si_allsi_p0_urb{marker per_si_allsi_p0_urb}}}Poverty Headcount reduction (%) -  All Social Insurance - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p1_ep_preT_tot:per_si_allsi_p1_ep_preT_tot{marker per_si_allsi_p1_ep_preT_tot}}}Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p1_ep_tot:per_si_allsi_p1_ep_tot{marker per_si_allsi_p1_ep_tot}}}Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p1_preT_tot:per_si_allsi_p1_preT_tot{marker per_si_allsi_p1_preT_tot}}}Poverty Gap reduction (%) -  All Social Insurance -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p1_ep_tot:per_si_allsi_p1_ep_tot{marker per_si_allsi_p1_ep_tot}}}Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p1_rur:per_si_allsi_p1_rur{marker per_si_allsi_p1_rur}}}Poverty Gap reduction (%) -  All Social Insurance -1st quintile (poorest) -rural{p_end}
 
@@ -10191,9 +6792,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p1_urb:per_si_allsi_p1_urb{marker per_si_allsi_p1_urb}}}Poverty Gap reduction (%) -  All Social Insurance - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_ep_preT_tot:per_si_ss.adq_ep_preT_tot{marker per_si_ss.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_ep_preT_tot:per_si_ss.adq_ep_preT_tot{marker per_si_ss.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_ep_tot:per_si_ss.adq_ep_tot{marker per_si_ss.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_ep_tot:per_si_ss.adq_ep_tot{marker per_si_ss.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_pop_preT_tot:per_si_ss.adq_pop_preT_tot{marker per_si_ss.adq_pop_preT_tot}}}Adequacy of benefits (%) - Other Social Insurance (preT){p_end}
 
@@ -10243,9 +6844,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q5_urb:per_si_ss.adq_q5_urb{marker per_si_ss.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) - Other Social Insurance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_ep_preT_tot:per_si_ss.avt_ep_preT_tot{marker per_si_ss.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Other Social Insurance  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_ep_preT_tot:per_si_ss.avt_ep_preT_tot{marker per_si_ss.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Other Social Insurance  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_ep_tot:per_si_ss.avt_ep_tot{marker per_si_ss.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Other Social Insurance{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_ep_tot:per_si_ss.avt_ep_tot{marker per_si_ss.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Other Social Insurance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_pop_preT_tot:per_si_ss.avt_pop_preT_tot{marker per_si_ss.avt_pop_preT_tot}}}Average per capita transfer - Other Social Insurance (preT){p_end}
 
@@ -10295,9 +6896,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q5_urb:per_si_ss.avt_q5_urb{marker per_si_ss.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - Other Social Insurance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_ep_preT_tot:per_si_ss.ben_ep_preT_tot{marker per_si_ss.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_ep_preT_tot:per_si_ss.ben_ep_preT_tot{marker per_si_ss.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_ep_tot:per_si_ss.ben_ep_tot{marker per_si_ss.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_ep_tot:per_si_ss.ben_ep_tot{marker per_si_ss.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q1_preT_tot:per_si_ss.ben_q1_preT_tot{marker per_si_ss.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - Other Social Insurance (preT){p_end}
 
@@ -10339,9 +6940,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q5_urb:per_si_ss.ben_q5_urb{marker per_si_ss.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - Other Social Insurance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_ep_preT_tot:per_si_ss.bry_ep_preT_tot{marker per_si_ss.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_ep_preT_tot:per_si_ss.bry_ep_preT_tot{marker per_si_ss.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_ep_tot:per_si_ss.bry_ep_tot{marker per_si_ss.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_ep_tot:per_si_ss.bry_ep_tot{marker per_si_ss.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q1_preT_tot:per_si_ss.bry_q1_preT_tot{marker per_si_ss.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - Other Social Insurance (preT){p_end}
 
@@ -10383,11 +6984,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q5_urb:per_si_ss.bry_q5_urb{marker per_si_ss.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - Other Social Insurance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cba_ep_preT_tot:per_si_ss.cba_ep_preT_tot{marker per_si_ss.cba_ep_preT_tot}}}Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cba_ep_tot:per_si_ss.cba_ep_tot{marker per_si_ss.cba_ep_tot}}}Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cba_q1_preT_tot:per_si_ss.cba_q1_preT_tot{marker per_si_ss.cba_q1_preT_tot}}}Benefit-cost ratio -  Other Social Insurance -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cba_ep_tot:per_si_ss.cba_ep_tot{marker per_si_ss.cba_ep_tot}}}Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cba_q1_rur:per_si_ss.cba_q1_rur{marker per_si_ss.cba_q1_rur}}}Benefit-cost ratio -  Other Social Insurance -1st quintile (poorest) -rural{p_end}
 
@@ -10395,9 +6992,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cba_q1_urb:per_si_ss.cba_q1_urb{marker per_si_ss.cba_q1_urb}}}Benefit-cost ratio -  Other Social Insurance - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_ep_preT_tot:per_si_ss.cov_ep_preT_tot{marker per_si_ss.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_ep_preT_tot:per_si_ss.cov_ep_preT_tot{marker per_si_ss.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_ep_tot:per_si_ss.cov_ep_tot{marker per_si_ss.cov_ep_tot}}}Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_ep_tot:per_si_ss.cov_ep_tot{marker per_si_ss.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_pop_preT_tot:per_si_ss.cov_pop_preT_tot{marker per_si_ss.cov_pop_preT_tot}}}Coverage (%) - Other Social Insurance (preT){p_end}
 
@@ -10447,19 +7044,13 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q5_urb:per_si_ss.cov_q5_urb{marker per_si_ss.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - Other Social Insurance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_gini_preT_tot:per_si_ss_gini_preT_tot{marker per_si_ss_gini_preT_tot}}}Gini inequality index reduction (%) -  Other Social Insurance (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_gini_rur:per_si_ss_gini_rur{marker per_si_ss_gini_rur}}}Gini inequality index reduction (%) -  Other Social Insurance -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_gini_tot:per_si_ss_gini_tot{marker per_si_ss_gini_tot}}}Gini inequality index reduction (%) -  Other Social Insurance{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_gini_urb:per_si_ss_gini_urb{marker per_si_ss_gini_urb}}}Gini inequality index reduction (%) -  Other Social Insurance -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p0_ep_preT_tot:per_si_ss_p0_ep_preT_tot{marker per_si_ss_p0_ep_preT_tot}}}Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p0_ep_tot:per_si_ss_p0_ep_tot{marker per_si_ss_p0_ep_tot}}}Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p0_preT_tot:per_si_ss_p0_preT_tot{marker per_si_ss_p0_preT_tot}}}Poverty Headcount reduction (%) -  Other Social Insurance -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p0_ep_tot:per_si_ss_p0_ep_tot{marker per_si_ss_p0_ep_tot}}}Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p0_rur:per_si_ss_p0_rur{marker per_si_ss_p0_rur}}}Poverty Headcount reduction (%) -  Other Social Insurance -1st quintile (poorest) -rural{p_end}
 
@@ -10467,11 +7058,7 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p0_urb:per_si_ss_p0_urb{marker per_si_ss_p0_urb}}}Poverty Headcount reduction (%) -  Other Social Insurance - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p1_ep_preT_tot:per_si_ss_p1_ep_preT_tot{marker per_si_ss_p1_ep_preT_tot}}}Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p1_ep_tot:per_si_ss_p1_ep_tot{marker per_si_ss_p1_ep_tot}}}Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p1_preT_tot:per_si_ss_p1_preT_tot{marker per_si_ss_p1_preT_tot}}}Poverty Gap reduction (%) -  Other Social Insurance -1st quintile (poorest) (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p1_ep_tot:per_si_ss_p1_ep_tot{marker per_si_ss_p1_ep_tot}}}Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$2.15 a day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p1_rur:per_si_ss_p1_rur{marker per_si_ss_p1_rur}}}Poverty Gap reduction (%) -  Other Social Insurance -1st quintile (poorest) -rural{p_end}
 
@@ -10479,11 +7066,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p1_urb:per_si_ss_p1_urb{marker per_si_ss_p1_urb}}}Poverty Gap reduction (%) -  Other Social Insurance - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_silm.overlap_ep_preT_tot:per_silm.overlap_ep_preT_tot{marker per_silm.overlap_ep_preT_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) receiving All Social Insurance and Labor Market (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_silm.overlap_ep_preT_tot:per_silm.overlap_ep_preT_tot{marker per_silm.overlap_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving All Social Insurance and Labor Market (%, preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_silm.overlap_ep_tot:per_silm.overlap_ep_tot{marker per_silm.overlap_ep_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) receiving All Social Insurance and Labor Market (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_silm.overlap_pop_preT_tot:per_silm.overlap_pop_preT_tot{marker per_silm.overlap_pop_preT_tot}}}Population receiving All Social Insurance and Labor Market (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_silm.overlap_ep_tot:per_silm.overlap_ep_tot{marker per_silm.overlap_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving All Social Insurance and Labor Market (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_silm.overlap_pop_rur:per_silm.overlap_pop_rur{marker per_silm.overlap_pop_rur}}}Population receiving All Social Insurance and Labor Market (%) -rural{p_end}
 
@@ -10499,11 +7084,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_silm.overlap_q1_urb:per_silm.overlap_q1_urb{marker per_silm.overlap_q1_urb}}}Population in the 1st quintile (poorest) receiving All Social Insurance and Labor Market (%) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_ep_preT_tot:per_sionl.overlap_ep_preT_tot{marker per_sionl.overlap_ep_preT_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) only receiving All Social Insurance (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_ep_preT_tot:per_sionl.overlap_ep_preT_tot{marker per_sionl.overlap_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) only receiving All Social Insurance (%, preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_ep_tot:per_sionl.overlap_ep_tot{marker per_sionl.overlap_ep_tot}}}Population in extreme poor (&lt;$1.90 PPP a day) only receiving All Social Insurance (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_pop_preT_tot:per_sionl.overlap_pop_preT_tot{marker per_sionl.overlap_pop_preT_tot}}}Population only receiving All Social Insurance (%, preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_ep_tot:per_sionl.overlap_ep_tot{marker per_sionl.overlap_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) only receiving All Social Insurance (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_pop_rur:per_sionl.overlap_pop_rur{marker per_sionl.overlap_pop_rur}}}Population only receiving All Social Insurance (%) -rural{p_end}
 
@@ -10741,80 +7324,6 @@
 {synopt:{help wbopendata_topicid_indicators11##topicid_8.0.LIPI:8.0.LIPI{marker 8.0.LIPI}}}Labor Income Poverty Index{p_end}
 
 {synopt:{help wbopendata_topicid_indicators11##topicid_EN.POP.SLUM.UR.ZS:EN.POP.SLUM.UR.ZS{marker EN.POP.SLUM.UR.ZS}}}Population living in slums (% of urban population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.DST.02ND.20:SI.DST.02ND.20{marker SI.DST.02ND.20}}}Income share held by second 20%{p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.DST.03RD.20:SI.DST.03RD.20{marker SI.DST.03RD.20}}}Income share held by third 20%{p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.DST.04TH.20:SI.DST.04TH.20{marker SI.DST.04TH.20}}}Income share held by fourth 20%{p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.DST.05TH.20:SI.DST.05TH.20{marker SI.DST.05TH.20}}}Income share held by highest 20%{p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.DST.10TH.10:SI.DST.10TH.10{marker SI.DST.10TH.10}}}Income share held by highest 10%{p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.DST.50MD:SI.DST.50MD{marker SI.DST.50MD}}}Proportion of people living below 50 percent of median income (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.DST.FRST.10:SI.DST.FRST.10{marker SI.DST.FRST.10}}}Income share held by lowest 10%{p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.DST.FRST.20:SI.DST.FRST.20{marker SI.DST.FRST.20}}}Income share held by lowest 20%{p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.2DAY:SI.POV.2DAY{marker SI.POV.2DAY}}}Poverty headcount ratio at $3.10 a day (2011 PPP) (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.DDAY:SI.POV.DDAY{marker SI.POV.DDAY}}}Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.GAP2:SI.POV.GAP2{marker SI.POV.GAP2}}}Poverty gap at $3.10 a day (2011 PPP) (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.GAPS:SI.POV.GAPS{marker SI.POV.GAPS}}}Poverty gap at $1.90 a day (2011 PPP) (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.GINI:SI.POV.GINI{marker SI.POV.GINI}}}GINI index (World Bank estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.LMIC:SI.POV.LMIC{marker SI.POV.LMIC}}}Poverty headcount ratio at $3.20 a day (2011 PPP) (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.LMIC.GP:SI.POV.LMIC.GP{marker SI.POV.LMIC.GP}}}Poverty gap at $3.20 a day (2011 PPP) (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.MDIM:SI.POV.MDIM{marker SI.POV.MDIM}}}Multidimensional poverty headcount ratio (% of total population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.MDIM.17:SI.POV.MDIM.17{marker SI.POV.MDIM.17}}}Multidimensional poverty headcount ratio, children (% of population ages 0-17){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.MDIM.17.XQ:SI.POV.MDIM.17.XQ{marker SI.POV.MDIM.17.XQ}}}Multidimensional poverty index, children (population ages 0-17) (scale 0-1){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.MDIM.FE:SI.POV.MDIM.FE{marker SI.POV.MDIM.FE}}}Multidimensional poverty headcount ratio, female (% of female population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.MDIM.HH:SI.POV.MDIM.HH{marker SI.POV.MDIM.HH}}}Multidimensional poverty headcount ratio, household (% of total households){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.MDIM.IT:SI.POV.MDIM.IT{marker SI.POV.MDIM.IT}}}Multidimensional poverty intensity (average share of deprivations experienced by the poor){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.MDIM.MA:SI.POV.MDIM.MA{marker SI.POV.MDIM.MA}}}Multidimensional poverty headcount ratio, male (% of male population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.MDIM.XQ:SI.POV.MDIM.XQ{marker SI.POV.MDIM.XQ}}}Multidimensional poverty index (scale 0-1){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.NAGP:SI.POV.NAGP{marker SI.POV.NAGP}}}Poverty gap at national poverty lines (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.NAHC:SI.POV.NAHC{marker SI.POV.NAHC}}}Poverty headcount ratio at national poverty lines (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.RUGP:SI.POV.RUGP{marker SI.POV.RUGP}}}Rural poverty gap at national poverty lines (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.RUHC:SI.POV.RUHC{marker SI.POV.RUHC}}}Rural poverty headcount ratio at national poverty lines (% of rural population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.UMIC:SI.POV.UMIC{marker SI.POV.UMIC}}}Poverty headcount ratio at $5.50 a day (2011 PPP) (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.UMIC.GP:SI.POV.UMIC.GP{marker SI.POV.UMIC.GP}}}Poverty gap at $5.50 a day (2011 PPP) (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.URGP:SI.POV.URGP{marker SI.POV.URGP}}}Urban poverty gap at national poverty lines (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.POV.URHC:SI.POV.URHC{marker SI.POV.URHC}}}Urban poverty headcount ratio at national poverty lines (% of urban population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.SPR.PC40:SI.SPR.PC40{marker SI.SPR.PC40}}}Survey mean consumption or income per capita, bottom 40% of population (2011 PPP $ per day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.SPR.PC40.05:SI.SPR.PC40.05{marker SI.SPR.PC40.05}}}Survey mean consumption or income per capita, bottom 40% (2005 PPP $ per day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.SPR.PC40.ZG:SI.SPR.PC40.ZG{marker SI.SPR.PC40.ZG}}}Annualized average growth rate in per capita real survey mean consumption or income, bottom 40% of population (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.SPR.PCAP:SI.SPR.PCAP{marker SI.SPR.PCAP}}}Survey mean consumption or income per capita, total population (2011 PPP $ per day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.SPR.PCAP.05:SI.SPR.PCAP.05{marker SI.SPR.PCAP.05}}}Survey mean consumption or income per capita, total population (2005 PPP $ per day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators11##topicid_SI.SPR.PCAP.ZG:SI.SPR.PCAP.ZG{marker SI.SPR.PCAP.ZG}}}Annualized average growth rate in per capita real survey mean consumption or income, total population (%){p_end}
 {synoptline}
 
 {marker topicid_12}
@@ -10835,7 +7344,7 @@
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.DISC.XQ:IC.BUS.DISC.XQ{marker IC.BUS.DISC.XQ}}}Business extent of disclosure index (0=less disclosure to 10=more disclosure){p_end}
 
-{synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Ease of doing business index (1=most business-friendly regulations){p_end}
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Ease of doing business rank (1=most business-friendly regulations){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.NDNS.ZS:IC.BUS.NDNS.ZS{marker IC.BUS.NDNS.ZS}}}New business density (new registrations per 1,000 people ages 15-64){p_end}
 
@@ -10852,6 +7361,8 @@
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.ELC.DURS:IC.ELC.DURS{marker IC.ELC.DURS}}}Time to obtain an electrical connection (days){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.ELC.OUTG:IC.ELC.OUTG{marker IC.ELC.OUTG}}}Power outages in firms in a typical month (number){p_end}
+
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.ELC.OUTG.ZS:IC.ELC.OUTG.ZS{marker IC.ELC.OUTG.ZS}}}Firms experiencing electrical outages (% of firms){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.ELC.TIME:IC.ELC.TIME{marker IC.ELC.TIME}}}Time required to get electricity (days){p_end}
 
@@ -10887,7 +7398,7 @@
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.FRM.CORR.ZS:IC.FRM.CORR.ZS{marker IC.FRM.CORR.ZS}}}Informal payments to public officials (% of firms){p_end}
 
-{synopt:{help wbopendata_topicid_indicators12##topicid_IC.FRM.CRIM.ZS:IC.FRM.CRIM.ZS{marker IC.FRM.CRIM.ZS}}}Losses due to theft and vandalism (% of annual sales of affected firms){p_end}
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.FRM.CRIM.ZS:IC.FRM.CRIM.ZS{marker IC.FRM.CRIM.ZS}}}Losses due to theft and vandalism (% of annual sales for affected firms){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.FRM.DURS:IC.FRM.DURS{marker IC.FRM.DURS}}}Time required to obtain an operating license (days){p_end}
 
@@ -10901,7 +7412,13 @@
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.FRM.ISOC.ZS:IC.FRM.ISOC.ZS{marker IC.FRM.ISOC.ZS}}}Internationally-recognized quality certification (% of firms){p_end}
 
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.FRM.METG.ZS:IC.FRM.METG.ZS{marker IC.FRM.METG.ZS}}}Firms visited or required meetings with tax officials (% of firms){p_end}
+
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.FRM.OUTG.ZS:IC.FRM.OUTG.ZS{marker IC.FRM.OUTG.ZS}}}Value lost due to electrical outages (% of sales for affected firms){p_end}
+
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.FRM.RSDV.ZS:IC.FRM.RSDV.ZS{marker IC.FRM.RSDV.ZS}}}Firms that spend on R&amp;D (% of firms){p_end}
+
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.FRM.THEV.ZS:IC.FRM.THEV.ZS{marker IC.FRM.THEV.ZS}}}Firms experiencing losses due to theft and vandalism (% of firms){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.FRM.TIME:IC.FRM.TIME{marker IC.FRM.TIME}}}Time required to deal with construction permits (days){p_end}
 
@@ -10957,7 +7474,7 @@
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.TAX.LABR.CP.ZS:IC.TAX.LABR.CP.ZS{marker IC.TAX.LABR.CP.ZS}}}Labor tax and contributions (% of commercial profits){p_end}
 
-{synopt:{help wbopendata_topicid_indicators12##topicid_IC.TAX.METG:IC.TAX.METG{marker IC.TAX.METG}}}Average number of visits or required meetings with tax officials (for affected firms){p_end}
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.TAX.METG:IC.TAX.METG{marker IC.TAX.METG}}}Number of visits or required meetings with tax officials (average for affected firms){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.TAX.OTHR.CP.ZS:IC.TAX.OTHR.CP.ZS{marker IC.TAX.OTHR.CP.ZS}}}Other taxes payable by businesses (% of commercial profits){p_end}
 
@@ -11022,186 +7539,6 @@
 {synopt:{help wbopendata_topicid_indicators12##topicid_LP.LPI.TIME.XQ:LP.LPI.TIME.XQ{marker LP.LPI.TIME.XQ}}}Logistics performance index: Frequency with which shipments reach consignee within scheduled or expected time (1=low to 5=high){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_LP.LPI.TRAC.XQ:LP.LPI.TRAC.XQ{marker LP.LPI.TRAC.XQ}}}Logistics performance index: Ability to track and trace consignments (1=low to 5=high){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_ST.INT.ARVL:ST.INT.ARVL{marker ST.INT.ARVL}}}International tourism, number of arrivals{p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_ST.INT.DPRT:ST.INT.DPRT{marker ST.INT.DPRT}}}International tourism, number of departures{p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_ST.INT.RCPT.CD:ST.INT.RCPT.CD{marker ST.INT.RCPT.CD}}}International tourism, receipts (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_ST.INT.RCPT.XP.ZS:ST.INT.RCPT.XP.ZS{marker ST.INT.RCPT.XP.ZS}}}International tourism, receipts (% of total exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_ST.INT.TRNR.CD:ST.INT.TRNR.CD{marker ST.INT.TRNR.CD}}}International tourism, receipts for passenger transport items (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_ST.INT.TRNX.CD:ST.INT.TRNX.CD{marker ST.INT.TRNX.CD}}}International tourism, expenditures for passenger transport items (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_ST.INT.TVLR.CD:ST.INT.TVLR.CD{marker ST.INT.TVLR.CD}}}International tourism, receipts for travel items (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_ST.INT.TVLX.CD:ST.INT.TVLX.CD{marker ST.INT.TVLX.CD}}}International tourism, expenditures for travel items (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_ST.INT.XPND.CD:ST.INT.XPND.CD{marker ST.INT.XPND.CD}}}International tourism, expenditures (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_ST.INT.XPND.MP.ZS:ST.INT.XPND.MP.ZS{marker ST.INT.XPND.MP.ZS}}}International tourism, expenditures (% of total imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TG.VAL.TOTL.GD.ZS:TG.VAL.TOTL.GD.ZS{marker TG.VAL.TOTL.GD.ZS}}}Merchandise trade (% of GDP){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.QTY.MRCH.XD.WD:TM.QTY.MRCH.XD.WD{marker TM.QTY.MRCH.XD.WD}}}Import volume index (2000 = 100){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.MANF.BC.ZS:TM.TAX.MANF.BC.ZS{marker TM.TAX.MANF.BC.ZS}}}Binding coverage, manufactured products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.MANF.BR.ZS:TM.TAX.MANF.BR.ZS{marker TM.TAX.MANF.BR.ZS}}}Bound rate, simple mean, manufactured products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.MANF.IP.ZS:TM.TAX.MANF.IP.ZS{marker TM.TAX.MANF.IP.ZS}}}Share of tariff lines with international peaks, manufactured products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.MANF.SM.AR.ZS:TM.TAX.MANF.SM.AR.ZS{marker TM.TAX.MANF.SM.AR.ZS}}}Tariff rate, applied, simple mean, manufactured products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.MANF.SM.FN.ZS:TM.TAX.MANF.SM.FN.ZS{marker TM.TAX.MANF.SM.FN.ZS}}}Tariff rate, most favored nation, simple mean, manufactured products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.MANF.SR.ZS:TM.TAX.MANF.SR.ZS{marker TM.TAX.MANF.SR.ZS}}}Share of tariff lines with specific rates, manufactured products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.MANF.WM.AR.ZS:TM.TAX.MANF.WM.AR.ZS{marker TM.TAX.MANF.WM.AR.ZS}}}Tariff rate, applied, weighted mean, manufactured products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.MANF.WM.FN.ZS:TM.TAX.MANF.WM.FN.ZS{marker TM.TAX.MANF.WM.FN.ZS}}}Tariff rate, most favored nation, weighted mean, manufactured products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.MRCH.BC.ZS:TM.TAX.MRCH.BC.ZS{marker TM.TAX.MRCH.BC.ZS}}}Binding coverage, all products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.MRCH.BR.ZS:TM.TAX.MRCH.BR.ZS{marker TM.TAX.MRCH.BR.ZS}}}Bound rate, simple mean, all products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.MRCH.IP.ZS:TM.TAX.MRCH.IP.ZS{marker TM.TAX.MRCH.IP.ZS}}}Share of tariff lines with international peaks, all products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.MRCH.SM.AR.ZS:TM.TAX.MRCH.SM.AR.ZS{marker TM.TAX.MRCH.SM.AR.ZS}}}Tariff rate, applied, simple mean, all products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.MRCH.SM.FN.ZS:TM.TAX.MRCH.SM.FN.ZS{marker TM.TAX.MRCH.SM.FN.ZS}}}Tariff rate, most favored nation, simple mean, all products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.MRCH.SR.ZS:TM.TAX.MRCH.SR.ZS{marker TM.TAX.MRCH.SR.ZS}}}Share of tariff lines with specific rates, all products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.MRCH.WM.AR.ZS:TM.TAX.MRCH.WM.AR.ZS{marker TM.TAX.MRCH.WM.AR.ZS}}}Tariff rate, applied, weighted mean, all products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.MRCH.WM.FN.ZS:TM.TAX.MRCH.WM.FN.ZS{marker TM.TAX.MRCH.WM.FN.ZS}}}Tariff rate, most favored nation, weighted mean, all products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.TCOM.BC.ZS:TM.TAX.TCOM.BC.ZS{marker TM.TAX.TCOM.BC.ZS}}}Binding coverage, primary products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.TCOM.BR.ZS:TM.TAX.TCOM.BR.ZS{marker TM.TAX.TCOM.BR.ZS}}}Bound rate, simple mean, primary products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.TCOM.IP.ZS:TM.TAX.TCOM.IP.ZS{marker TM.TAX.TCOM.IP.ZS}}}Share of tariff lines with international peaks, primary products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.TCOM.SM.AR.ZS:TM.TAX.TCOM.SM.AR.ZS{marker TM.TAX.TCOM.SM.AR.ZS}}}Tariff rate, applied, simple mean, primary products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.TCOM.SM.FN.ZS:TM.TAX.TCOM.SM.FN.ZS{marker TM.TAX.TCOM.SM.FN.ZS}}}Tariff rate, most favored nation, simple mean, primary products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.TCOM.SR.ZS:TM.TAX.TCOM.SR.ZS{marker TM.TAX.TCOM.SR.ZS}}}Share of tariff lines with specific rates, primary products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.TCOM.WM.AR.ZS:TM.TAX.TCOM.WM.AR.ZS{marker TM.TAX.TCOM.WM.AR.ZS}}}Tariff rate, applied, weighted mean, primary products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.TAX.TCOM.WM.FN.ZS:TM.TAX.TCOM.WM.FN.ZS{marker TM.TAX.TCOM.WM.FN.ZS}}}Tariff rate, most favored nation, weighted mean, primary products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.AGRI.ZS.UN:TM.VAL.AGRI.ZS.UN{marker TM.VAL.AGRI.ZS.UN}}}Agricultural raw materials imports (% of merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.FOOD.ZS.UN:TM.VAL.FOOD.ZS.UN{marker TM.VAL.FOOD.ZS.UN}}}Food imports (% of merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.FUEL.ZS.UN:TM.VAL.FUEL.ZS.UN{marker TM.VAL.FUEL.ZS.UN}}}Fuel imports (% of merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.ICTG.ZS.UN:TM.VAL.ICTG.ZS.UN{marker TM.VAL.ICTG.ZS.UN}}}ICT goods imports (% total goods imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.INSF.ZS.WT:TM.VAL.INSF.ZS.WT{marker TM.VAL.INSF.ZS.WT}}}Insurance and financial services (% of commercial service imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MANF.ZS.UN:TM.VAL.MANF.ZS.UN{marker TM.VAL.MANF.ZS.UN}}}Manufactures imports (% of merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MMTL.ZS.UN:TM.VAL.MMTL.ZS.UN{marker TM.VAL.MMTL.ZS.UN}}}Ores and metals imports (% of merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.AL.ZS:TM.VAL.MRCH.AL.ZS{marker TM.VAL.MRCH.AL.ZS}}}Merchandise imports from economies in the Arab World (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.CD.WT:TM.VAL.MRCH.CD.WT{marker TM.VAL.MRCH.CD.WT}}}Merchandise imports (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.HI.ZS:TM.VAL.MRCH.HI.ZS{marker TM.VAL.MRCH.HI.ZS}}}Merchandise imports from high-income economies (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.OR.ZS:TM.VAL.MRCH.OR.ZS{marker TM.VAL.MRCH.OR.ZS}}}Merchandise imports from low- and middle-income economies outside region (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.R1.ZS:TM.VAL.MRCH.R1.ZS{marker TM.VAL.MRCH.R1.ZS}}}Merchandise imports from low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.R2.ZS:TM.VAL.MRCH.R2.ZS{marker TM.VAL.MRCH.R2.ZS}}}Merchandise imports from low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.R3.ZS:TM.VAL.MRCH.R3.ZS{marker TM.VAL.MRCH.R3.ZS}}}Merchandise imports from low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.R4.ZS:TM.VAL.MRCH.R4.ZS{marker TM.VAL.MRCH.R4.ZS}}}Merchandise imports from low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.R5.ZS:TM.VAL.MRCH.R5.ZS{marker TM.VAL.MRCH.R5.ZS}}}Merchandise imports from low- and middle-income economies in South Asia (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.R6.ZS:TM.VAL.MRCH.R6.ZS{marker TM.VAL.MRCH.R6.ZS}}}Merchandise imports from low- and middle-income economies in Sub-Saharan Africa (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.RS.ZS:TM.VAL.MRCH.RS.ZS{marker TM.VAL.MRCH.RS.ZS}}}Merchandise imports by the reporting economy, residual (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.WL.CD:TM.VAL.MRCH.WL.CD{marker TM.VAL.MRCH.WL.CD}}}Merchandise imports by the reporting economy (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.WR.ZS:TM.VAL.MRCH.WR.ZS{marker TM.VAL.MRCH.WR.ZS}}}Merchandise imports from low- and middle-income economies within region (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.MRCH.XD.WD:TM.VAL.MRCH.XD.WD{marker TM.VAL.MRCH.XD.WD}}}Import value index (2000 = 100){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.OTHR.ZS.WT:TM.VAL.OTHR.ZS.WT{marker TM.VAL.OTHR.ZS.WT}}}Computer, communications and other services (% of commercial service imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.SERV.CD.WT:TM.VAL.SERV.CD.WT{marker TM.VAL.SERV.CD.WT}}}Commercial service imports (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.TRAN.ZS.WT:TM.VAL.TRAN.ZS.WT{marker TM.VAL.TRAN.ZS.WT}}}Transport services (% of commercial service imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TM.VAL.TRVL.ZS.WT:TM.VAL.TRVL.ZS.WT{marker TM.VAL.TRVL.ZS.WT}}}Travel services (% of commercial service imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TT.PRI.MRCH.XD.WD:TT.PRI.MRCH.XD.WD{marker TT.PRI.MRCH.XD.WD}}}Net barter terms of trade index (2000 = 100){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.QTY.MRCH.XD.WD:TX.QTY.MRCH.XD.WD{marker TX.QTY.MRCH.XD.WD}}}Export volume index (2000 = 100){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.AGRI.ZS.UN:TX.VAL.AGRI.ZS.UN{marker TX.VAL.AGRI.ZS.UN}}}Agricultural raw materials exports (% of merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.FOOD.ZS.UN:TX.VAL.FOOD.ZS.UN{marker TX.VAL.FOOD.ZS.UN}}}Food exports (% of merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.FUEL.ZS.UN:TX.VAL.FUEL.ZS.UN{marker TX.VAL.FUEL.ZS.UN}}}Fuel exports (% of merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.ICTG.ZS.UN:TX.VAL.ICTG.ZS.UN{marker TX.VAL.ICTG.ZS.UN}}}ICT goods exports (% of total goods exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.INSF.ZS.WT:TX.VAL.INSF.ZS.WT{marker TX.VAL.INSF.ZS.WT}}}Insurance and financial services (% of commercial service exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.MANF.ZS.UN:TX.VAL.MANF.ZS.UN{marker TX.VAL.MANF.ZS.UN}}}Manufactures exports (% of merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.MMTL.ZS.UN:TX.VAL.MMTL.ZS.UN{marker TX.VAL.MMTL.ZS.UN}}}Ores and metals exports (% of merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.MRCH.AL.ZS:TX.VAL.MRCH.AL.ZS{marker TX.VAL.MRCH.AL.ZS}}}Merchandise exports to economies in the Arab World (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.MRCH.CD.WT:TX.VAL.MRCH.CD.WT{marker TX.VAL.MRCH.CD.WT}}}Merchandise exports (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.MRCH.HI.ZS:TX.VAL.MRCH.HI.ZS{marker TX.VAL.MRCH.HI.ZS}}}Merchandise exports to high-income economies (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.MRCH.OR.ZS:TX.VAL.MRCH.OR.ZS{marker TX.VAL.MRCH.OR.ZS}}}Merchandise exports to low- and middle-income economies outside region (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.MRCH.R1.ZS:TX.VAL.MRCH.R1.ZS{marker TX.VAL.MRCH.R1.ZS}}}Merchandise exports to low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.MRCH.R2.ZS:TX.VAL.MRCH.R2.ZS{marker TX.VAL.MRCH.R2.ZS}}}Merchandise exports to low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.MRCH.R3.ZS:TX.VAL.MRCH.R3.ZS{marker TX.VAL.MRCH.R3.ZS}}}Merchandise exports to low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.MRCH.R4.ZS:TX.VAL.MRCH.R4.ZS{marker TX.VAL.MRCH.R4.ZS}}}Merchandise exports to low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.MRCH.R5.ZS:TX.VAL.MRCH.R5.ZS{marker TX.VAL.MRCH.R5.ZS}}}Merchandise exports to low- and middle-income economies in South Asia (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.MRCH.R6.ZS:TX.VAL.MRCH.R6.ZS{marker TX.VAL.MRCH.R6.ZS}}}Merchandise exports to low- and middle-income economies in Sub-Saharan Africa (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.MRCH.RS.ZS:TX.VAL.MRCH.RS.ZS{marker TX.VAL.MRCH.RS.ZS}}}Merchandise exports by the reporting economy, residual (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.MRCH.WL.CD:TX.VAL.MRCH.WL.CD{marker TX.VAL.MRCH.WL.CD}}}Merchandise exports by the reporting economy (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.MRCH.WR.ZS:TX.VAL.MRCH.WR.ZS{marker TX.VAL.MRCH.WR.ZS}}}Merchandise exports to low- and middle-income economies within region (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.MRCH.XD.WD:TX.VAL.MRCH.XD.WD{marker TX.VAL.MRCH.XD.WD}}}Export value index (2000 = 100){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.OTHR.ZS.WT:TX.VAL.OTHR.ZS.WT{marker TX.VAL.OTHR.ZS.WT}}}Computer, communications and other services (% of commercial service exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.SERV.CD.WT:TX.VAL.SERV.CD.WT{marker TX.VAL.SERV.CD.WT}}}Commercial service exports (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.TECH.CD:TX.VAL.TECH.CD{marker TX.VAL.TECH.CD}}}High-technology exports (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.TECH.MF.ZS:TX.VAL.TECH.MF.ZS{marker TX.VAL.TECH.MF.ZS}}}High-technology exports (% of manufactured exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.TRAN.ZS.WT:TX.VAL.TRAN.ZS.WT{marker TX.VAL.TRAN.ZS.WT}}}Transport services (% of commercial service exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.TRVL.ZS.WT:TX.VAL.TRVL.ZS.WT{marker TX.VAL.TRVL.ZS.WT}}}Travel services (% of commercial service exports){p_end}
 {synoptline}
 
 {marker topicid_13}
@@ -11209,6 +7546,18 @@
 {synoptset 40 tabbed}{...}
 {synopthdr:13 Public Sector}
 {synoptline}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_CC.EST:CC.EST{marker CC.EST}}}Control of Corruption: Estimate{p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_CC.NO.SRC:CC.NO.SRC{marker CC.NO.SRC}}}Control of Corruption: Number of Sources{p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_CC.PER.RNK:CC.PER.RNK{marker CC.PER.RNK}}}Control of Corruption: Percentile Rank{p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_CC.PER.RNK.LOWER:CC.PER.RNK.LOWER{marker CC.PER.RNK.LOWER}}}Control of Corruption: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_CC.PER.RNK.UPPER:CC.PER.RNK.UPPER{marker CC.PER.RNK.UPPER}}}Control of Corruption: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_CC.STD.ERR:CC.STD.ERR{marker CC.STD.ERR}}}Control of Corruption: Standard Error{p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_GB.TAX.CMAR.ZS:GB.TAX.CMAR.ZS{marker GB.TAX.CMAR.ZS}}}Highest marginal tax rate, corporate rate (%){p_end}
 
@@ -11302,6 +7651,38 @@
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_GC.XPN.TRFT.ZS:GC.XPN.TRFT.ZS{marker GC.XPN.TRFT.ZS}}}Subsidies and other transfers (% of expense){p_end}
 
+{synopt:{help wbopendata_topicid_indicators13##topicid_GE.EST:GE.EST{marker GE.EST}}}Government Effectiveness: Estimate{p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_GE.NO.SRC:GE.NO.SRC{marker GE.NO.SRC}}}Government Effectiveness: Number of Sources{p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_GE.PER.RNK:GE.PER.RNK{marker GE.PER.RNK}}}Government Effectiveness: Percentile Rank{p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_GE.PER.RNK.LOWER:GE.PER.RNK.LOWER{marker GE.PER.RNK.LOWER}}}Government Effectiveness: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_GE.PER.RNK.UPPER:GE.PER.RNK.UPPER{marker GE.PER.RNK.UPPER}}}Government Effectiveness: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_GE.STD.ERR:GE.STD.ERR{marker GE.STD.ERR}}}Government Effectiveness: Standard Error{p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_GF.XPD.BUDG.ZS:GF.XPD.BUDG.ZS{marker GF.XPD.BUDG.ZS}}}Primary government expenditures as a proportion of original approved budget (%){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL:HD.HCI.OVRL{marker HD.HCI.OVRL}}}Human Capital Index (HCI) (scale 0-1){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL.FE:HD.HCI.OVRL.FE{marker HD.HCI.OVRL.FE}}}Human Capital Index (HCI), Female (scale 0-1){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL.LB:HD.HCI.OVRL.LB{marker HD.HCI.OVRL.LB}}}Human Capital Index (HCI), Lower Bound (scale 0-1){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL.LB.FE:HD.HCI.OVRL.LB.FE{marker HD.HCI.OVRL.LB.FE}}}Human Capital Index (HCI), Female, Lower Bound (scale 0-1){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL.LB.MA:HD.HCI.OVRL.LB.MA{marker HD.HCI.OVRL.LB.MA}}}Human Capital Index (HCI), Male, Lower Bound (scale 0-1){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL.MA:HD.HCI.OVRL.MA{marker HD.HCI.OVRL.MA}}}Human Capital Index (HCI), Male (scale 0-1){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL.UB:HD.HCI.OVRL.UB{marker HD.HCI.OVRL.UB}}}Human Capital Index (HCI), Upper Bound (scale 0-1){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL.UB.FE:HD.HCI.OVRL.UB.FE{marker HD.HCI.OVRL.UB.FE}}}Human Capital Index (HCI), Female, Upper Bound (scale 0-1){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_HD.HCI.OVRL.UB.MA:HD.HCI.OVRL.UB.MA{marker HD.HCI.OVRL.UB.MA}}}Human Capital Index (HCI), Male, Upper Bound (scale 0-1){p_end}
+
 {synopt:{help wbopendata_topicid_indicators13##topicid_IC.CRD.PUBL.ZS:IC.CRD.PUBL.ZS{marker IC.CRD.PUBL.ZS}}}Public credit registry coverage (% of adults){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_IC.LGL.CRED.XQ:IC.LGL.CRED.XQ{marker IC.LGL.CRED.XQ}}}Strength of legal rights index (0=weak to 12=strong){p_end}
@@ -11356,17 +7737,31 @@
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SCI.MTHD:IQ.SCI.MTHD{marker IQ.SCI.MTHD}}}Methodology assessment of statistical capacity (scale 0 - 100){p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SCI.OVRL:IQ.SCI.OVRL{marker IQ.SCI.OVRL}}}Statistical Capacity score (Overall average){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SCI.OVRL:IQ.SCI.OVRL{marker IQ.SCI.OVRL}}}Statistical Capacity Score (Overall Average) (scale 0 - 100){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SCI.PRDC:IQ.SCI.PRDC{marker IQ.SCI.PRDC}}}Periodicity and timeliness assessment of statistical capacity (scale 0 - 100){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SCI.SRCE:IQ.SCI.SRCE{marker IQ.SCI.SRCE}}}Source data assessment of statistical capacity (scale 0 - 100){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SPI.OVRL:IQ.SPI.OVRL{marker IQ.SPI.OVRL}}}Statistical performance indicators (SPI): Overall score (scale 0-100){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SPI.PIL1:IQ.SPI.PIL1{marker IQ.SPI.PIL1}}}Statistical performance indicators (SPI): Pillar 1 data use score (scale 0-100){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SPI.PIL2:IQ.SPI.PIL2{marker IQ.SPI.PIL2}}}Statistical performance indicators (SPI): Pillar 2 data services score (scale 0-100){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SPI.PIL3:IQ.SPI.PIL3{marker IQ.SPI.PIL3}}}Statistical performance indicators (SPI): Pillar 3 data products score  (scale 0-100){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SPI.PIL4:IQ.SPI.PIL4{marker IQ.SPI.PIL4}}}Statistical performance indicators (SPI): Pillar 4 data sources score (scale 0-100){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SPI.PIL5:IQ.SPI.PIL5{marker IQ.SPI.PIL5}}}Statistical performance indicators (SPI): Pillar 5 data infrastructure score (scale 0-100){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_MS.MIL.MPRT.KD:MS.MIL.MPRT.KD{marker MS.MIL.MPRT.KD}}}Arms imports (SIPRI trend indicator values){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_MS.MIL.TOTL.P1:MS.MIL.TOTL.P1{marker MS.MIL.TOTL.P1}}}Armed forces personnel, total{p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_MS.MIL.TOTL.TF.ZS:MS.MIL.TOTL.TF.ZS{marker MS.MIL.TOTL.TF.ZS}}}Armed forces personnel (% of total labor force){p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_MS.MIL.XPND.CD:MS.MIL.XPND.CD{marker MS.MIL.XPND.CD}}}Military expenditure (current USD){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_MS.MIL.XPND.CN:MS.MIL.XPND.CN{marker MS.MIL.XPND.CN}}}Military expenditure (current LCU){p_end}
 
@@ -11376,39 +7771,41 @@
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_MS.MIL.XPRT.KD:MS.MIL.XPRT.KD{marker MS.MIL.XPRT.KD}}}Arms exports (SIPRI trend indicator values){p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_SG.GEN.PARL.ZS:SG.GEN.PARL.ZS{marker SG.GEN.PARL.ZS}}}Proportion of seats held by women in national parliaments (%){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_PV.EST:PV.EST{marker PV.EST}}}Political Stability and Absence of Violence/Terrorism: Estimate{p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_SG.JOB.NOPN.EQ:SG.JOB.NOPN.EQ{marker SG.JOB.NOPN.EQ}}}Nonpregnant and nonnursing women can do the same jobs as men (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_PV.NO.SRC:PV.NO.SRC{marker PV.NO.SRC}}}Political Stability and Absence of Violence/Terrorism: Number of Sources{p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_SG.LAW.CHMR:SG.LAW.CHMR{marker SG.LAW.CHMR}}}Law prohibits or invalidates child or early marriage (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_PV.PER.RNK:PV.PER.RNK{marker PV.PER.RNK}}}Political Stability and Absence of Violence/Terrorism: Percentile Rank{p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_SG.LAW.EQRM.WK:SG.LAW.EQRM.WK{marker SG.LAW.EQRM.WK}}}Law mandates equal remuneration for females and males for work of equal value (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_PV.PER.RNK.LOWER:PV.PER.RNK.LOWER{marker PV.PER.RNK.LOWER}}}Political Stability and Absence of Violence/Terrorism: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_SG.LAW.LEVE.PU:SG.LAW.LEVE.PU{marker SG.LAW.LEVE.PU}}}Law mandates paid or unpaid maternity leave (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_PV.PER.RNK.UPPER:PV.PER.RNK.UPPER{marker PV.PER.RNK.UPPER}}}Political Stability and Absence of Violence/Terrorism: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_SG.LAW.NODC.HR:SG.LAW.NODC.HR{marker SG.LAW.NODC.HR}}}Law prohibits discrimination in employment based on gender (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_PV.STD.ERR:PV.STD.ERR{marker PV.STD.ERR}}}Political Stability and Absence of Violence/Terrorism: Standard Error{p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_SG.LEG.DVAW:SG.LEG.DVAW{marker SG.LEG.DVAW}}}There is legislation specifically addressing domestic violence (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_RL.EST:RL.EST{marker RL.EST}}}Rule of Law: Estimate{p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_SG.MMR.LEVE.EP:SG.MMR.LEVE.EP{marker SG.MMR.LEVE.EP}}}Mothers are guaranteed an equivalent position after maternity leave (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_RL.NO.SRC:RL.NO.SRC{marker RL.NO.SRC}}}Rule of Law: Number of Sources{p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_SG.NOD.CONS:SG.NOD.CONS{marker SG.NOD.CONS}}}Nondiscrimination clause mentions gender in the constitution (1=yes; 0=no){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_RL.PER.RNK:RL.PER.RNK{marker RL.PER.RNK}}}Rule of Law: Percentile Rank{p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_VC.BTL.DETH:VC.BTL.DETH{marker VC.BTL.DETH}}}Battle-related deaths (number of people){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_RL.PER.RNK.LOWER:RL.PER.RNK.LOWER{marker RL.PER.RNK.LOWER}}}Rule of Law: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_VC.IDP.NWCV:VC.IDP.NWCV{marker VC.IDP.NWCV}}}Internally displaced persons, new displacement associated with conflict and violence (number of cases){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_RL.PER.RNK.UPPER:RL.PER.RNK.UPPER{marker RL.PER.RNK.UPPER}}}Rule of Law: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_VC.IDP.NWDS:VC.IDP.NWDS{marker VC.IDP.NWDS}}}Internally displaced persons, new displacement associated with disasters (number of cases){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_RL.STD.ERR:RL.STD.ERR{marker RL.STD.ERR}}}Rule of Law: Standard Error{p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_VC.IDP.TOCV:VC.IDP.TOCV{marker VC.IDP.TOCV}}}Internally displaced persons, total displaced by conflict and violence (number of people){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_RQ.EST:RQ.EST{marker RQ.EST}}}Regulatory Quality: Estimate{p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_VC.IDP.TOTL.HE:VC.IDP.TOTL.HE{marker VC.IDP.TOTL.HE}}}Internally displaced persons (number, high estimate){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_RQ.NO.SRC:RQ.NO.SRC{marker RQ.NO.SRC}}}Regulatory Quality: Number of Sources{p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_VC.IDP.TOTL.LE:VC.IDP.TOTL.LE{marker VC.IDP.TOTL.LE}}}Internally displaced persons (number, low estimate){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_RQ.PER.RNK:RQ.PER.RNK{marker RQ.PER.RNK}}}Regulatory Quality: Percentile Rank{p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_VC.IHR.PSRC.P5:VC.IHR.PSRC.P5{marker VC.IHR.PSRC.P5}}}Intentional homicides (per 100,000 people){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_RQ.PER.RNK.LOWER:RQ.PER.RNK.LOWER{marker RQ.PER.RNK.LOWER}}}Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_VC.PKP.TOTL.UN:VC.PKP.TOTL.UN{marker VC.PKP.TOTL.UN}}}Presence of peace keepers (number of troops, police, and military observers in mandate){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_RQ.PER.RNK.UPPER:RQ.PER.RNK.UPPER{marker RQ.PER.RNK.UPPER}}}Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
+
+{synopt:{help wbopendata_topicid_indicators13##topicid_RQ.STD.ERR:RQ.STD.ERR{marker RQ.STD.ERR}}}Regulatory Quality: Standard Error{p_end}
 {synoptline}
 
 {marker topicid_14}
@@ -11434,14 +7831,6 @@
 {synopt:{help wbopendata_topicid_indicators14##topicid_IP.TMK.RESD:IP.TMK.RESD{marker IP.TMK.RESD}}}Trademark applications, direct resident{p_end}
 
 {synopt:{help wbopendata_topicid_indicators14##topicid_IP.TMK.TOTL:IP.TMK.TOTL{marker IP.TMK.TOTL}}}Trademark applications, total{p_end}
-
-{synopt:{help wbopendata_topicid_indicators14##topicid_SP.POP.SCIE.RD.P6:SP.POP.SCIE.RD.P6{marker SP.POP.SCIE.RD.P6}}}Researchers in R&amp;D (per million people){p_end}
-
-{synopt:{help wbopendata_topicid_indicators14##topicid_SP.POP.TECH.RD.P6:SP.POP.TECH.RD.P6{marker SP.POP.TECH.RD.P6}}}Technicians in R&amp;D (per million people){p_end}
-
-{synopt:{help wbopendata_topicid_indicators14##topicid_TX.VAL.TECH.CD:TX.VAL.TECH.CD{marker TX.VAL.TECH.CD}}}High-technology exports (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators14##topicid_TX.VAL.TECH.MF.ZS:TX.VAL.TECH.MF.ZS{marker TX.VAL.TECH.MF.ZS}}}High-technology exports (% of manufactured exports){p_end}
 {synoptline}
 
 {marker topicid_15}
@@ -11459,62 +7848,6 @@
 {synopt:{help wbopendata_topicid_indicators15##topicid_SE.ENR.SECO.FM.ZS:SE.ENR.SECO.FM.ZS{marker SE.ENR.SECO.FM.ZS}}}School enrollment, secondary (gross), gender parity index (GPI){p_end}
 
 {synopt:{help wbopendata_topicid_indicators15##topicid_SE.ENR.TERT.FM.ZS:SE.ENR.TERT.FM.ZS{marker SE.ENR.TERT.FM.ZS}}}School enrollment, tertiary (gross), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SG.GEN.PARL.ZS:SG.GEN.PARL.ZS{marker SG.GEN.PARL.ZS}}}Proportion of seats held by women in national parliaments (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SH.HIV.1524.FE.ZS:SH.HIV.1524.FE.ZS{marker SH.HIV.1524.FE.ZS}}}Prevalence of HIV, female (% ages 15-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SH.HIV.1524.MA.ZS:SH.HIV.1524.MA.ZS{marker SH.HIV.1524.MA.ZS}}}Prevalence of HIV, male (% ages 15-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.EMP.INSV.FE.ZS:SL.EMP.INSV.FE.ZS{marker SL.EMP.INSV.FE.ZS}}}Share of women in wage employment in the nonagricultural sector (% of total nonagricultural employment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.EMP.VULN.FE.ZS:SL.EMP.VULN.FE.ZS{marker SL.EMP.VULN.FE.ZS}}}Vulnerable employment, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.EMP.VULN.MA.ZS:SL.EMP.VULN.MA.ZS{marker SL.EMP.VULN.MA.ZS}}}Vulnerable employment, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.0714.FE.ZS:SL.TLF.0714.FE.ZS{marker SL.TLF.0714.FE.ZS}}}Children in employment, female (% of female children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.0714.MA.ZS:SL.TLF.0714.MA.ZS{marker SL.TLF.0714.MA.ZS}}}Children in employment, male (% of male children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.0714.SW.FE.ZS:SL.TLF.0714.SW.FE.ZS{marker SL.TLF.0714.SW.FE.ZS}}}Children in employment, study and work, female (% of female children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.0714.SW.MA.ZS:SL.TLF.0714.SW.MA.ZS{marker SL.TLF.0714.SW.MA.ZS}}}Children in employment, study and work, male (% of male children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.0714.SW.ZS:SL.TLF.0714.SW.ZS{marker SL.TLF.0714.SW.ZS}}}Children in employment, study and work (% of children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.0714.WK.FE.ZS:SL.TLF.0714.WK.FE.ZS{marker SL.TLF.0714.WK.FE.ZS}}}Children in employment, work only, female (% of female children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.0714.WK.MA.ZS:SL.TLF.0714.WK.MA.ZS{marker SL.TLF.0714.WK.MA.ZS}}}Children in employment, work only, male (% of male children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.0714.WK.ZS:SL.TLF.0714.WK.ZS{marker SL.TLF.0714.WK.ZS}}}Children in employment, work only (% of children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.0714.ZS:SL.TLF.0714.ZS{marker SL.TLF.0714.ZS}}}Children in employment, total (% of children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.ACTI.1524.FE.ZS:SL.TLF.ACTI.1524.FE.ZS{marker SL.TLF.ACTI.1524.FE.ZS}}}Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.ACTI.1524.MA.ZS:SL.TLF.ACTI.1524.MA.ZS{marker SL.TLF.ACTI.1524.MA.ZS}}}Labor force participation rate for ages 15-24, male (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.ACTI.1524.ZS:SL.TLF.ACTI.1524.ZS{marker SL.TLF.ACTI.1524.ZS}}}Labor force participation rate for ages 15-24, total (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.ACTI.FE.ZS:SL.TLF.ACTI.FE.ZS{marker SL.TLF.ACTI.FE.ZS}}}Labor force participation rate, female (% of female population ages 15-64) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.ACTI.MA.ZS:SL.TLF.ACTI.MA.ZS{marker SL.TLF.ACTI.MA.ZS}}}Labor force participation rate, male (% of male population ages 15-64) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.ACTI.ZS:SL.TLF.ACTI.ZS{marker SL.TLF.ACTI.ZS}}}Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.CACT.FE.ZS:SL.TLF.CACT.FE.ZS{marker SL.TLF.CACT.FE.ZS}}}Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.TLF.CACT.MA.ZS:SL.TLF.CACT.MA.ZS{marker SL.TLF.CACT.MA.ZS}}}Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.UEM.TOTL.FE.ZS:SL.UEM.TOTL.FE.ZS{marker SL.UEM.TOTL.FE.ZS}}}Unemployment, female (% of female labor force) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SL.UEM.TOTL.MA.ZS:SL.UEM.TOTL.MA.ZS{marker SL.UEM.TOTL.MA.ZS}}}Unemployment, male (% of male labor force) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SM.POP.REFG:SM.POP.REFG{marker SM.POP.REFG}}}Refugee population by country or territory of asylum{p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SM.POP.REFG.OR:SM.POP.REFG.OR{marker SM.POP.REFG.OR}}}Refugee population by country or territory of origin{p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SP.ADO.TFRT:SP.ADO.TFRT{marker SP.ADO.TFRT}}}Adolescent fertility rate (births per 1,000 women ages 15-19){p_end}
 
 {synopt:{help wbopendata_topicid_indicators15##topicid_SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN{marker SP.DYN.LE00.FE.IN}}}Life expectancy at birth, female (years){p_end}
 
@@ -11564,16 +7897,6 @@
 {synopt:{help wbopendata_topicid_indicators16##topicid_IS.VEH.PCAR.P3:IS.VEH.PCAR.P3{marker IS.VEH.PCAR.P3}}}Passenger cars (per 1,000 people){p_end}
 
 {synopt:{help wbopendata_topicid_indicators16##topicid_IS.VEH.ROAD.K1:IS.VEH.ROAD.K1{marker IS.VEH.ROAD.K1}}}Vehicles (per km of road){p_end}
-
-{synopt:{help wbopendata_topicid_indicators16##topicid_SH.H2O.SAFE.UR.ZS:SH.H2O.SAFE.UR.ZS{marker SH.H2O.SAFE.UR.ZS}}}Improved water source, urban (% of urban population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators16##topicid_SH.STA.ACSN.UR:SH.STA.ACSN.UR{marker SH.STA.ACSN.UR}}}Improved sanitation facilities, urban (% of urban population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators16##topicid_SH.STA.TRAF.P5:SH.STA.TRAF.P5{marker SH.STA.TRAF.P5}}}Mortality caused by road traffic injury (per 100,000 people){p_end}
-
-{synopt:{help wbopendata_topicid_indicators16##topicid_SI.POV.URGP:SI.POV.URGP{marker SI.POV.URGP}}}Urban poverty gap at national poverty lines (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators16##topicid_SI.POV.URHC:SI.POV.URHC{marker SI.POV.URHC}}}Urban poverty headcount ratio at national poverty lines (% of urban population){p_end}
 
 {synopt:{help wbopendata_topicid_indicators16##topicid_SP.URB.GROW:SP.URB.GROW{marker SP.URB.GROW}}}Urban population growth (annual %){p_end}
 
@@ -11738,461 +8061,15 @@
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SE.TER.ENRR.MA:SE.TER.ENRR.MA{marker SE.TER.ENRR.MA}}}School enrollment, tertiary, male (% gross){p_end}
 
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.ABS.PENB:SG.ABS.PENB{marker SG.ABS.PENB}}}There are periods of absence due to child care accounted for in pension benefits (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.AGE.FUPN.EQ:SG.AGE.FUPN.EQ{marker SG.AGE.FUPN.EQ}}}The ages at which men and women can retire with full pension benefits are equal (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.AGE.MRET.EQ:SG.AGE.MRET.EQ{marker SG.AGE.MRET.EQ}}}The mandatory retirement age for men and women are equal (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.AGE.PAPN.EQ:SG.AGE.PAPN.EQ{marker SG.AGE.PAPN.EQ}}}The ages at which men and women can retire with partial pension benefits are equal (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.AGE.RTRE.FE:SG.AGE.RTRE.FE{marker SG.AGE.RTRE.FE}}}Mandatory retirement age, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.AGE.RTRE.FL.FE:SG.AGE.RTRE.FL.FE{marker SG.AGE.RTRE.FL.FE}}}Retirement age with full benefits, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.AGE.RTRE.FL.MA:SG.AGE.RTRE.FL.MA{marker SG.AGE.RTRE.FL.MA}}}Retirement age with full benefits, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.AGE.RTRE.MA:SG.AGE.RTRE.MA{marker SG.AGE.RTRE.MA}}}Mandatory retirement age, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.AGE.RTRE.PL.FE:SG.AGE.RTRE.PL.FE{marker SG.AGE.RTRE.PL.FE}}}Retirement age with partial benefits, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.AGE.RTRE.PL.MA:SG.AGE.RTRE.PL.MA{marker SG.AGE.RTRE.PL.MA}}}Retirement age with partial benefits, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.APL.PSPT.EQ:SG.APL.PSPT.EQ{marker SG.APL.PSPT.EQ}}}A woman can apply for a passport in the same way as a man (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.BUS.REGT.EQ:SG.BUS.REGT.EQ{marker SG.BUS.REGT.EQ}}}A woman can register a business in the same way as a man (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.CNT.SIGN.EQ:SG.CNT.SIGN.EQ{marker SG.CNT.SIGN.EQ}}}A woman can sign a contract in the same way as a man (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.COK.CHCO.ZS:SG.COK.CHCO.ZS{marker SG.COK.CHCO.ZS}}}Main cooking fuel: charcoal (% of households){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.COK.CROP.ZS:SG.COK.CROP.ZS{marker SG.COK.CROP.ZS}}}Main cooking fuel: agricultural crop (% of households){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.COK.DUNG.ZS:SG.COK.DUNG.ZS{marker SG.COK.DUNG.ZS}}}Main cooking fuel: dung (% of households){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.COK.ELEC.ZS:SG.COK.ELEC.ZS{marker SG.COK.ELEC.ZS}}}Main cooking fuel: electricity  (% of households){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.COK.HOUS.ZS:SG.COK.HOUS.ZS{marker SG.COK.HOUS.ZS}}}Location of cooking: inside the house (% of households){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.COK.LPGN.ZS:SG.COK.LPGN.ZS{marker SG.COK.LPGN.ZS}}}Main cooking fuel: LPG/natural gas/biogas (% of households){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.COK.OTHR.ZS:SG.COK.OTHR.ZS{marker SG.COK.OTHR.ZS}}}Location of cooking: other places (% of households){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.COK.OUTD.ZS:SG.COK.OUTD.ZS{marker SG.COK.OUTD.ZS}}}Location of cooking: outdoors (% of households){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.COK.SBLD.ZS:SG.COK.SBLD.ZS{marker SG.COK.SBLD.ZS}}}Location of cooking: separate building (% of households){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.COK.STRW.ZS:SG.COK.STRW.ZS{marker SG.COK.STRW.ZS}}}Main cooking fuel: straw/shrubs/grass (% of households){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.COK.WOOD.ZS:SG.COK.WOOD.ZS{marker SG.COK.WOOD.ZS}}}Main cooking fuel: wood (% of households){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.CTR.TRVL.EQ:SG.CTR.TRVL.EQ{marker SG.CTR.TRVL.EQ}}}A woman can travel outside the country in the same way as a man (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.ALLD.FN.ZS:SG.DMK.ALLD.FN.ZS{marker SG.DMK.ALLD.FN.ZS}}}Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.DPCH.FN.ZS:SG.DMK.DPCH.FN.ZS{marker SG.DMK.DPCH.FN.ZS}}}Women participating in making daily purchase decisions (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.FOOD.FN.ZS:SG.DMK.FOOD.FN.ZS{marker SG.DMK.FOOD.FN.ZS}}}Women participating in decision of what food to cook daily (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.HLTH.FN.ZS:SG.DMK.HLTH.FN.ZS{marker SG.DMK.HLTH.FN.ZS}}}Women participating in own health care decisions (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.HLTH.HB.ZS:SG.DMK.HLTH.HB.ZS{marker SG.DMK.HLTH.HB.ZS}}}Decision maker about a woman's own health care: mainly husband (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.HLTH.OT.ZS:SG.DMK.HLTH.OT.ZS{marker SG.DMK.HLTH.OT.ZS}}}Decision maker about a woman's own health care: other (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.HLTH.SE.ZS:SG.DMK.HLTH.SE.ZS{marker SG.DMK.HLTH.SE.ZS}}}Decision maker about a woman's own health care: someone else (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.HLTH.WF.ZS:SG.DMK.HLTH.WF.ZS{marker SG.DMK.HLTH.WF.ZS}}}Decision maker about a woman's own health care: mainly wife (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.HLTH.WH.ZS:SG.DMK.HLTH.WH.ZS{marker SG.DMK.HLTH.WH.ZS}}}Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.NONE.FN.ZS:SG.DMK.NONE.FN.ZS{marker SG.DMK.NONE.FN.ZS}}}Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.PRCH.FN.ZS:SG.DMK.PRCH.FN.ZS{marker SG.DMK.PRCH.FN.ZS}}}Women participating in making major household purchase decisions (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.PRCH.HB.ZS:SG.DMK.PRCH.HB.ZS{marker SG.DMK.PRCH.HB.ZS}}}Decision maker about major household purchases: mainly husband (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.PRCH.OT.ZS:SG.DMK.PRCH.OT.ZS{marker SG.DMK.PRCH.OT.ZS}}}Decision maker about major household purchases: other (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.PRCH.SE.ZS:SG.DMK.PRCH.SE.ZS{marker SG.DMK.PRCH.SE.ZS}}}Decision maker about major household purchases: someone else (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.PRCH.WF.ZS:SG.DMK.PRCH.WF.ZS{marker SG.DMK.PRCH.WF.ZS}}}Decision maker about major household purchases: mainly wife (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.PRCH.WH.ZS:SG.DMK.PRCH.WH.ZS{marker SG.DMK.PRCH.WH.ZS}}}Decision maker about major household purchases: wife and husband jointly (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.SRCR.FN.ZS:SG.DMK.SRCR.FN.ZS{marker SG.DMK.SRCR.FN.ZS}}}Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.VISI.FN.ZS:SG.DMK.VISI.FN.ZS{marker SG.DMK.VISI.FN.ZS}}}Women participating in decision of visits to family, relatives, friends (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.VISI.HB.ZS:SG.DMK.VISI.HB.ZS{marker SG.DMK.VISI.HB.ZS}}}Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.VISI.OT.ZS:SG.DMK.VISI.OT.ZS{marker SG.DMK.VISI.OT.ZS}}}Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.VISI.SE.ZS:SG.DMK.VISI.SE.ZS{marker SG.DMK.VISI.SE.ZS}}}Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.VISI.WF.ZS:SG.DMK.VISI.WF.ZS{marker SG.DMK.VISI.WF.ZS}}}Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DMK.VISI.WH.ZS:SG.DMK.VISI.WH.ZS{marker SG.DMK.VISI.WH.ZS}}}Decision maker about Visits to her family or relatives: wife and husband jointly (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DML.PRGW:SG.DML.PRGW{marker SG.DML.PRGW}}}Dismissal of pregnant workers is prohibited (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.DNG.WORK.DN.EQ:SG.DNG.WORK.DN.EQ{marker SG.DNG.WORK.DN.EQ}}}Women can work in jobs deemed dangerous in the same way as men (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.GEN.MNST.ZS:SG.GEN.MNST.ZS{marker SG.GEN.MNST.ZS}}}Proportion of women in ministerial level positions (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.GEN.PARL.ZS:SG.GEN.PARL.ZS{marker SG.GEN.PARL.ZS}}}Proportion of seats held by women in national parliaments (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.GEN.TECH.ZS:SG.GEN.TECH.ZS{marker SG.GEN.TECH.ZS}}}Female professional and technical workers (% of total){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.GET.JOBS.EQ:SG.GET.JOBS.EQ{marker SG.GET.JOBS.EQ}}}A woman can get a job in the same way as a man (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.H2O.PRMS.HH.ZS:SG.H2O.PRMS.HH.ZS{marker SG.H2O.PRMS.HH.ZS}}}Households with water on the premises (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.H2O.TL30.HH.ZS:SG.H2O.TL30.HH.ZS{marker SG.H2O.TL30.HH.ZS}}}Households with water less than 30 minutes away round trip (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.H2O.TM30.HH.ZS:SG.H2O.TM30.HH.ZS{marker SG.H2O.TM30.HH.ZS}}}Households with water 30 minutes or longer away round trip (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.HLD.HEAD.EQ:SG.HLD.HEAD.EQ{marker SG.HLD.HEAD.EQ}}}A woman can be head of household in the same way as a man (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.HME.TRVL.EQ:SG.HME.TRVL.EQ{marker SG.HME.TRVL.EQ}}}A woman can travel outside her home in the same way as a man (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.IHT.ASST.EQ:SG.IHT.ASST.EQ{marker SG.IHT.ASST.EQ}}}Female and male surviving spouses have equal rights to inherit assets (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.IHT.ASST.PT.EQ:SG.IHT.ASST.PT.EQ{marker SG.IHT.ASST.PT.EQ}}}Sons and daughters have equal rights to inherit assets from their parents (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.IND.WORK.EQ:SG.IND.WORK.EQ{marker SG.IND.WORK.EQ}}}Women are able to work in the same industries as men (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.JOB.NOPN.EQ:SG.JOB.NOPN.EQ{marker SG.JOB.NOPN.EQ}}}Nonpregnant and nonnursing women can do the same jobs as men (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.LAW.ASST.AR:SG.LAW.ASST.AR{marker SG.LAW.ASST.AR}}}The law grants spouses equal administrative authority over assets during marriage (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.LAW.CHMR:SG.LAW.CHMR{marker SG.LAW.CHMR}}}Law prohibits or invalidates child or early marriage (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.LAW.CRDD.GR:SG.LAW.CRDD.GR{marker SG.LAW.CRDD.GR}}}The law prohibits discrimination in access to credit based on gender (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.LAW.EQRM.WK:SG.LAW.EQRM.WK{marker SG.LAW.EQRM.WK}}}Law mandates equal remuneration for females and males for work of equal value (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.LAW.INDX:SG.LAW.INDX{marker SG.LAW.INDX}}}Women Business and the Law Index Score (scale 1-100){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.LAW.LEVE.PU:SG.LAW.LEVE.PU{marker SG.LAW.LEVE.PU}}}Law mandates paid or unpaid maternity leave (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.LAW.NMCN:SG.LAW.NMCN{marker SG.LAW.NMCN}}}The law provides for the valuation of nonmonetary contributions (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.LAW.NODC.HR:SG.LAW.NODC.HR{marker SG.LAW.NODC.HR}}}Law prohibits discrimination in employment based on gender (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.LAW.OBHB.MR.NO:SG.LAW.OBHB.MR.NO{marker SG.LAW.OBHB.MR.NO}}}There is no legal provision that requires a married woman to obey her husband (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.LEG.DVAW:SG.LEG.DVAW{marker SG.LEG.DVAW}}}There is legislation specifically addressing domestic violence (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.LEG.SXHR.EM:SG.LEG.SXHR.EM{marker SG.LEG.SXHR.EM}}}There is legislation on sexual harassment in employment (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.LOC.LIVE.EQ:SG.LOC.LIVE.EQ{marker SG.LOC.LIVE.EQ}}}A woman can choose where to live in the same way as a man (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.MMR.LEVE.EP:SG.MMR.LEVE.EP{marker SG.MMR.LEVE.EP}}}Mothers are guaranteed an equivalent position after maternity leave (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.NGT.WORK.EQ:SG.NGT.WORK.EQ{marker SG.NGT.WORK.EQ}}}Women can work the same night hours as men (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.NOD.CONS:SG.NOD.CONS{marker SG.NOD.CONS}}}Nondiscrimination clause mentions gender in the constitution (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.OBT.DVRC.EQ:SG.OBT.DVRC.EQ{marker SG.OBT.DVRC.EQ}}}A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.OPN.BANK.EQ:SG.OPN.BANK.EQ{marker SG.OPN.BANK.EQ}}}A woman can open a bank account in the same way as a man (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.OWN.PRRT.IM:SG.OWN.PRRT.IM{marker SG.OWN.PRRT.IM}}}Men and married women have equal ownership rights to immovable property (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.PEN.SXHR.EM:SG.PEN.SXHR.EM{marker SG.PEN.SXHR.EM}}}Criminal penalties or civil remedies exist for sexual harassment in employment (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.POP.MIGR.FE.ZS:SG.POP.MIGR.FE.ZS{marker SG.POP.MIGR.FE.ZS}}}Female migrants (% of international migrant stock){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.REG.NLID.FE.ZS:SG.REG.NLID.FE.ZS{marker SG.REG.NLID.FE.ZS}}}Women with a national identity card or equivalent foundational identity document (% of women ages 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.REG.NLID.MA.ZS:SG.REG.NLID.MA.ZS{marker SG.REG.NLID.MA.ZS}}}Men with a national identity card or equivalent foundational identity document (% of men ages 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.REM.RIGT.EQ:SG.REM.RIGT.EQ{marker SG.REM.RIGT.EQ}}}A woman has the same rights to remarry as a man (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.RSX.BRTH.ZS:SG.RSX.BRTH.ZS{marker SG.RSX.BRTH.ZS}}}Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.RSX.NORS.ZS:SG.RSX.NORS.ZS{marker SG.RSX.NORS.ZS}}}Women who believe a wife is justified refusing sex with her husband for none of the reasons (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.RSX.REAS.ZS:SG.RSX.REAS.ZS{marker SG.RSX.REAS.ZS}}}Women who believe a wife is justified refusing sex with her husband for all of the reasons (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.RSX.SXOT.ZS:SG.RSX.SXOT.ZS{marker SG.RSX.SXOT.ZS}}}Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.RSX.TIRD.ZS:SG.RSX.TIRD.ZS{marker SG.RSX.TIRD.ZS}}}Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.RSX.TMDS.ZS:SG.RSX.TMDS.ZS{marker SG.RSX.TMDS.ZS}}}Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.TIM.UWRK.FE:SG.TIM.UWRK.FE{marker SG.TIM.UWRK.FE}}}Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.TIM.UWRK.MA:SG.TIM.UWRK.MA{marker SG.TIM.UWRK.MA}}}Proportion of time spent on unpaid domestic and care work, male (% of 24 hour day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.VAW.1549.ZS:SG.VAW.1549.ZS{marker SG.VAW.1549.ZS}}}Proportion of women subjected to physical and/or sexual violence in the last 12 months (% of women age 15-49){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.VAW.ARGU.ZS:SG.VAW.ARGU.ZS{marker SG.VAW.ARGU.ZS}}}Women who believe a husband is justified in beating his wife when she argues with him (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.VAW.BURN.ZS:SG.VAW.BURN.ZS{marker SG.VAW.BURN.ZS}}}Women who believe a husband is justified in beating his wife when she burns the food (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.VAW.GOES.ZS:SG.VAW.GOES.ZS{marker SG.VAW.GOES.ZS}}}Women who believe a husband is justified in beating his wife when she goes out without telling him (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.VAW.NEGL.ZS:SG.VAW.NEGL.ZS{marker SG.VAW.NEGL.ZS}}}Women who believe a husband is justified in beating his wife when she neglects the children (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.VAW.REAS.ZS:SG.VAW.REAS.ZS{marker SG.VAW.REAS.ZS}}}Women who believe a husband is justified in beating his wife (any of five reasons) (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SG.VAW.REFU.ZS:SG.VAW.REFU.ZS{marker SG.VAW.REFU.ZS}}}Women who believe a husband is justified in beating his wife when she refuses sex with him (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.CON.1524.FE.ZS:SH.CON.1524.FE.ZS{marker SH.CON.1524.FE.ZS}}}Condom use, population ages 15-24, female (% of females ages 15-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.CON.1524.MA.ZS:SH.CON.1524.MA.ZS{marker SH.CON.1524.MA.ZS}}}Condom use, population ages 15-24, male (% of males ages 15-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.DTH.COMM.1534.FE.ZS:SH.DTH.COMM.1534.FE.ZS{marker SH.DTH.COMM.1534.FE.ZS}}}Cause of death, by communicable diseases, ages 15-34, female (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.DTH.COMM.1534.MA.ZS:SH.DTH.COMM.1534.MA.ZS{marker SH.DTH.COMM.1534.MA.ZS}}}Cause of death, by communicable diseases, ages 15-34, male (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.DTH.COMM.3559.FE.ZS:SH.DTH.COMM.3559.FE.ZS{marker SH.DTH.COMM.3559.FE.ZS}}}Cause of death, by communicable diseases, ages 35-59, female (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.DTH.COMM.3559.MA.ZS:SH.DTH.COMM.3559.MA.ZS{marker SH.DTH.COMM.3559.MA.ZS}}}Cause of death, by communicable diseases, ages 35-59, male (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.DTH.INJR.1534.FE.ZS:SH.DTH.INJR.1534.FE.ZS{marker SH.DTH.INJR.1534.FE.ZS}}}Cause of death, by injury, ages 15-34, female  (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.DTH.INJR.1534.MA.ZS:SH.DTH.INJR.1534.MA.ZS{marker SH.DTH.INJR.1534.MA.ZS}}}Cause of death, by injury, ages 15-34, male (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.DTH.INJR.3559.FE.ZS:SH.DTH.INJR.3559.FE.ZS{marker SH.DTH.INJR.3559.FE.ZS}}}Cause of death, by injury, ages 35-59, female (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.DTH.INJR.3559.MA.ZS:SH.DTH.INJR.3559.MA.ZS{marker SH.DTH.INJR.3559.MA.ZS}}}Cause of death, by injury, ages 35-59, male (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.DTH.NCOM.1534.FE.ZS:SH.DTH.NCOM.1534.FE.ZS{marker SH.DTH.NCOM.1534.FE.ZS}}}Cause of death, by non-communicable diseases, ages 15-34, female (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.DTH.NCOM.1534.MA.ZS:SH.DTH.NCOM.1534.MA.ZS{marker SH.DTH.NCOM.1534.MA.ZS}}}Cause of death, by non-communicable diseases, ages 15-34, male (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.DTH.NCOM.3559.FE.ZS:SH.DTH.NCOM.3559.FE.ZS{marker SH.DTH.NCOM.3559.FE.ZS}}}Cause of death, by non-communicable diseases, ages 35-59, female (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.DTH.NCOM.3559.MA.ZS:SH.DTH.NCOM.3559.MA.ZS{marker SH.DTH.NCOM.3559.MA.ZS}}}Cause of death, by non-communicable diseases, ages 35-59, male (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.DYN.AIDS.FE.ZS:SH.DYN.AIDS.FE.ZS{marker SH.DYN.AIDS.FE.ZS}}}Women's share of population ages 15+ living with HIV (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.DYN.CHLD.FE:SH.DYN.CHLD.FE{marker SH.DYN.CHLD.FE}}}Mortality rate, female child (per 1,000 female children age one){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.DYN.CHLD.MA:SH.DYN.CHLD.MA{marker SH.DYN.CHLD.MA}}}Mortality rate, male child (per 1,000 male children age one){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.FPL.SATI.ZS:SH.FPL.SATI.ZS{marker SH.FPL.SATI.ZS}}}Demand for family planning satisfied by any methods (% of married women with demand for family planning){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.HIV.1524.FE.ZS:SH.HIV.1524.FE.ZS{marker SH.HIV.1524.FE.ZS}}}Prevalence of HIV, female (% ages 15-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.HIV.1524.MA.ZS:SH.HIV.1524.MA.ZS{marker SH.HIV.1524.MA.ZS}}}Prevalence of HIV, male (% ages 15-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.HIV.ARTC.FE.ZS:SH.HIV.ARTC.FE.ZS{marker SH.HIV.ARTC.FE.ZS}}}Access to anti-retroviral drugs, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.HIV.ARTC.MA.ZS:SH.HIV.ARTC.MA.ZS{marker SH.HIV.ARTC.MA.ZS}}}Access to anti-retroviral drugs, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.MMR.LEVE:SH.MMR.LEVE{marker SH.MMR.LEVE}}}Length of paid maternity leave (days){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.MMR.LEVE.AL:SH.MMR.LEVE.AL{marker SH.MMR.LEVE.AL}}}Paid leave of at least 14 weeks is available to women (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.MMR.LEVE.GT:SH.MMR.LEVE.GT{marker SH.MMR.LEVE.GT}}}The government administers 100% of maternity leave benefits (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.MMR.RISK:SH.MMR.RISK{marker SH.MMR.RISK}}}Lifetime risk of maternal death (1 in: rate varies by country){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.MMR.RISK.ZS:SH.MMR.RISK.ZS{marker SH.MMR.RISK.ZS}}}Lifetime risk of maternal death (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.MMR.WAGE.ZS:SH.MMR.WAGE.ZS{marker SH.MMR.WAGE.ZS}}}Maternity leave benefits (% of wages paid){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.PAR.LEVE:SH.PAR.LEVE{marker SH.PAR.LEVE}}}Length of paid shared parental leave (days){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.PAR.LEVE.AL:SH.PAR.LEVE.AL{marker SH.PAR.LEVE.AL}}}There is paid parental leave (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.PAR.LEVE.FE:SH.PAR.LEVE.FE{marker SH.PAR.LEVE.FE}}}Length of paid parental leave for mother (days){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.PAR.LEVE.MA:SH.PAR.LEVE.MA{marker SH.PAR.LEVE.MA}}}Length of paid parental leave for father (days){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.PRV.SMOK.FE:SH.PRV.SMOK.FE{marker SH.PRV.SMOK.FE}}}Smoking prevalence, females (% of adults){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.PRV.SMOK.MA:SH.PRV.SMOK.MA{marker SH.PRV.SMOK.MA}}}Smoking prevalence, males (% of adults){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.PTR.LEVE:SH.PTR.LEVE{marker SH.PTR.LEVE}}}Length of paid paternity leave (days){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.PTR.LEVE.AL:SH.PTR.LEVE.AL{marker SH.PTR.LEVE.AL}}}Paid leave is available to fathers (1=yes; 0=no){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.STA.ANVC.ZS:SH.STA.ANVC.ZS{marker SH.STA.ANVC.ZS}}}Pregnant women receiving prenatal care (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.STA.BRTC.ZS:SH.STA.BRTC.ZS{marker SH.STA.BRTC.ZS}}}Births attended by skilled health staff (% of total){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.STA.MALN.FE.ZS:SH.STA.MALN.FE.ZS{marker SH.STA.MALN.FE.ZS}}}Prevalence of underweight, weight for age, female (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.STA.MALN.MA.ZS:SH.STA.MALN.MA.ZS{marker SH.STA.MALN.MA.ZS}}}Prevalence of underweight, weight for age, male (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.STA.MMRT:SH.STA.MMRT{marker SH.STA.MMRT}}}Maternal mortality ratio (modeled estimate, per 100,000 live births){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.STA.MMRT.NE:SH.STA.MMRT.NE{marker SH.STA.MMRT.NE}}}Maternal mortality ratio (national estimate, per 100,000 live births){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.STA.OB18.FE.ZS:SH.STA.OB18.FE.ZS{marker SH.STA.OB18.FE.ZS}}}Prevalence of obesity, female (% of female population ages 18+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SH.STA.OB18.MA.ZS:SH.STA.OB18.MA.ZS{marker SH.STA.OB18.MA.ZS}}}Prevalence of obesity, male (% of male population ages 18+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.AGR.0714.FE.ZS:SL.AGR.0714.FE.ZS{marker SL.AGR.0714.FE.ZS}}}Child employment in agriculture, female (% of female economically active children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.AGR.0714.MA.ZS:SL.AGR.0714.MA.ZS{marker SL.AGR.0714.MA.ZS}}}Child employment in agriculture, male (% of male economically active children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.AGR.EMPL.FE.ZS:SL.AGR.EMPL.FE.ZS{marker SL.AGR.EMPL.FE.ZS}}}Employment in agriculture, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.AGR.EMPL.MA.ZS:SL.AGR.EMPL.MA.ZS{marker SL.AGR.EMPL.MA.ZS}}}Employment in agriculture, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.1524.SP.FE.ZS:SL.EMP.1524.SP.FE.ZS{marker SL.EMP.1524.SP.FE.ZS}}}Employment to population ratio, ages 15-24, female (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.1524.SP.MA.ZS:SL.EMP.1524.SP.MA.ZS{marker SL.EMP.1524.SP.MA.ZS}}}Employment to population ratio, ages 15-24, male (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.INSV.FE.ZS:SL.EMP.INSV.FE.ZS{marker SL.EMP.INSV.FE.ZS}}}Share of women in wage employment in the nonagricultural sector (% of total nonagricultural employment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.MPYR.FE.ZS:SL.EMP.MPYR.FE.ZS{marker SL.EMP.MPYR.FE.ZS}}}Employers, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.MPYR.MA.ZS:SL.EMP.MPYR.MA.ZS{marker SL.EMP.MPYR.MA.ZS}}}Employers, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.OWAC.FE.ZS:SL.EMP.OWAC.FE.ZS{marker SL.EMP.OWAC.FE.ZS}}}Own-account workers, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.OWAC.MA.ZS:SL.EMP.OWAC.MA.ZS{marker SL.EMP.OWAC.MA.ZS}}}Own-account workers, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.SELF.FE.ZS:SL.EMP.SELF.FE.ZS{marker SL.EMP.SELF.FE.ZS}}}Self-employed, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.SELF.MA.ZS:SL.EMP.SELF.MA.ZS{marker SL.EMP.SELF.MA.ZS}}}Self-employed, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.TOTL.SP.FE.ZS:SL.EMP.TOTL.SP.FE.ZS{marker SL.EMP.TOTL.SP.FE.ZS}}}Employment to population ratio, 15+, female (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.TOTL.SP.MA.ZS:SL.EMP.TOTL.SP.MA.ZS{marker SL.EMP.TOTL.SP.MA.ZS}}}Employment to population ratio, 15+, male (%) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.UNDR.FE.ZS:SL.EMP.UNDR.FE.ZS{marker SL.EMP.UNDR.FE.ZS}}}Time-related underemployment, female (% of employment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.UNDR.MA.ZS:SL.EMP.UNDR.MA.ZS{marker SL.EMP.UNDR.MA.ZS}}}Time-related underemployment, male (% of employment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.VULN.FE.ZS:SL.EMP.VULN.FE.ZS{marker SL.EMP.VULN.FE.ZS}}}Vulnerable employment, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.VULN.MA.ZS:SL.EMP.VULN.MA.ZS{marker SL.EMP.VULN.MA.ZS}}}Vulnerable employment, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.WORK.FE.ZS:SL.EMP.WORK.FE.ZS{marker SL.EMP.WORK.FE.ZS}}}Wage and salaried workers, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.EMP.WORK.MA.ZS:SL.EMP.WORK.MA.ZS{marker SL.EMP.WORK.MA.ZS}}}Wage and salaried workers, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.FAM.WORK.FE.ZS:SL.FAM.WORK.FE.ZS{marker SL.FAM.WORK.FE.ZS}}}Contributing family workers, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.FAM.WORK.MA.ZS:SL.FAM.WORK.MA.ZS{marker SL.FAM.WORK.MA.ZS}}}Contributing family workers, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.IND.EMPL.FE.ZS:SL.IND.EMPL.FE.ZS{marker SL.IND.EMPL.FE.ZS}}}Employment in industry, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.IND.EMPL.MA.ZS:SL.IND.EMPL.MA.ZS{marker SL.IND.EMPL.MA.ZS}}}Employment in industry, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.MNF.0714.FE.ZS:SL.MNF.0714.FE.ZS{marker SL.MNF.0714.FE.ZS}}}Child employment in manufacturing, female (% of female economically active children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.MNF.0714.MA.ZS:SL.MNF.0714.MA.ZS{marker SL.MNF.0714.MA.ZS}}}Child employment in manufacturing, male (% of male economically active children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.MNF.WAGE.FM:SL.MNF.WAGE.FM{marker SL.MNF.WAGE.FM}}}Ratio of female to male wages in manufacturing (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.SRV.0714.FE.ZS:SL.SRV.0714.FE.ZS{marker SL.SRV.0714.FE.ZS}}}Child employment in services, female (% of female economically active children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.SRV.0714.MA.ZS:SL.SRV.0714.MA.ZS{marker SL.SRV.0714.MA.ZS}}}Child employment in services, male (% of male economically active children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.SRV.EMPL.FE.ZS:SL.SRV.EMPL.FE.ZS{marker SL.SRV.EMPL.FE.ZS}}}Employment in services, female (% of female employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.SRV.EMPL.MA.ZS:SL.SRV.EMPL.MA.ZS{marker SL.SRV.EMPL.MA.ZS}}}Employment in services, male (% of male employment) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.0714.FE.ZS:SL.TLF.0714.FE.ZS{marker SL.TLF.0714.FE.ZS}}}Children in employment, female (% of female children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.0714.MA.ZS:SL.TLF.0714.MA.ZS{marker SL.TLF.0714.MA.ZS}}}Children in employment, male (% of male children ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.0714.SW.FE.ZS:SL.TLF.0714.SW.FE.ZS{marker SL.TLF.0714.SW.FE.ZS}}}Children in employment, study and work, female (% of female children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.0714.SW.MA.ZS:SL.TLF.0714.SW.MA.ZS{marker SL.TLF.0714.SW.MA.ZS}}}Children in employment, study and work, male (% of male children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.0714.WK.FE.ZS:SL.TLF.0714.WK.FE.ZS{marker SL.TLF.0714.WK.FE.ZS}}}Children in employment, work only, female (% of female children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.0714.WK.MA.ZS:SL.TLF.0714.WK.MA.ZS{marker SL.TLF.0714.WK.MA.ZS}}}Children in employment, work only, male (% of male children in employment, ages 7-14){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.CACT.FE.ZS:SL.TLF.CACT.FE.ZS{marker SL.TLF.CACT.FE.ZS}}}Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.CACT.MA.ZS:SL.TLF.CACT.MA.ZS{marker SL.TLF.CACT.MA.ZS}}}Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.PART.FE.ZS:SL.TLF.PART.FE.ZS{marker SL.TLF.PART.FE.ZS}}}Part time employment, female (% of total female employment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.PART.MA.ZS:SL.TLF.PART.MA.ZS{marker SL.TLF.PART.MA.ZS}}}Part time employment, male (% of total male employment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.PART.TL.FE.ZS:SL.TLF.PART.TL.FE.ZS{marker SL.TLF.PART.TL.FE.ZS}}}Part time employment, female (% of total part time employment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.PRIM.FE.ZS:SL.TLF.PRIM.FE.ZS{marker SL.TLF.PRIM.FE.ZS}}}Labor force with primary education, female (% of female labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.PRIM.MA.ZS:SL.TLF.PRIM.MA.ZS{marker SL.TLF.PRIM.MA.ZS}}}Labor force with primary education, male (% of male labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.SECO.FE.ZS:SL.TLF.SECO.FE.ZS{marker SL.TLF.SECO.FE.ZS}}}Labor force with secondary education, female (% of female labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.SECO.MA.ZS:SL.TLF.SECO.MA.ZS{marker SL.TLF.SECO.MA.ZS}}}Labor force with secondary education, male (% of male labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.TERT.FE.ZS:SL.TLF.TERT.FE.ZS{marker SL.TLF.TERT.FE.ZS}}}Labor force with tertiary education, female (% of female labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.TERT.MA.ZS:SL.TLF.TERT.MA.ZS{marker SL.TLF.TERT.MA.ZS}}}Labor force with tertiary education, male (% of male labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.TOTL.FE.IN:SL.TLF.TOTL.FE.IN{marker SL.TLF.TOTL.FE.IN}}}Labor force, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.TLF.TOTL.FE.ZS:SL.TLF.TOTL.FE.ZS{marker SL.TLF.TOTL.FE.ZS}}}Labor force, female (% of total labor force){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.UEM.1524.FE.ZS:SL.UEM.1524.FE.ZS{marker SL.UEM.1524.FE.ZS}}}Unemployment, youth female (% of female labor force ages 15-24) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.UEM.1524.FM.NE.ZS:SL.UEM.1524.FM.NE.ZS{marker SL.UEM.1524.FM.NE.ZS}}}Ratio of female to male youth unemployment rate (%) (national estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.UEM.1524.FM.ZS:SL.UEM.1524.FM.ZS{marker SL.UEM.1524.FM.ZS}}}Ratio of female to male youth unemployment rate (% ages 15-24) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.UEM.1524.MA.ZS:SL.UEM.1524.MA.ZS{marker SL.UEM.1524.MA.ZS}}}Unemployment, youth male (% of male labor force ages 15-24) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.UEM.LTRM.FE.ZS:SL.UEM.LTRM.FE.ZS{marker SL.UEM.LTRM.FE.ZS}}}Long-term unemployment, female (% of female unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.UEM.LTRM.MA.ZS:SL.UEM.LTRM.MA.ZS{marker SL.UEM.LTRM.MA.ZS}}}Long-term unemployment, male (% of male unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.UEM.PRIM.FE.ZS:SL.UEM.PRIM.FE.ZS{marker SL.UEM.PRIM.FE.ZS}}}Unemployment with primary education, female (% of female unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.UEM.PRIM.MA.ZS:SL.UEM.PRIM.MA.ZS{marker SL.UEM.PRIM.MA.ZS}}}Unemployment with primary education, male (% of male unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.UEM.SECO.FE.ZS:SL.UEM.SECO.FE.ZS{marker SL.UEM.SECO.FE.ZS}}}Unemployment with secondary education, female (% of female unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.UEM.SECO.MA.ZS:SL.UEM.SECO.MA.ZS{marker SL.UEM.SECO.MA.ZS}}}Unemployment with secondary education, male (% of male unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.UEM.TERT.FE.ZS:SL.UEM.TERT.FE.ZS{marker SL.UEM.TERT.FE.ZS}}}Unemployment with tertiary education, female (% of female unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.UEM.TERT.MA.ZS:SL.UEM.TERT.MA.ZS{marker SL.UEM.TERT.MA.ZS}}}Unemployment with tertiary education, male (% of male unemployment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.UEM.TOTL.FE.ZS:SL.UEM.TOTL.FE.ZS{marker SL.UEM.TOTL.FE.ZS}}}Unemployment, female (% of female labor force) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SL.UEM.TOTL.MA.ZS:SL.UEM.TOTL.MA.ZS{marker SL.UEM.TOTL.MA.ZS}}}Unemployment, male (% of male labor force) (modeled ILO estimate){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.ADO.TFRT:SP.ADO.TFRT{marker SP.ADO.TFRT}}}Adolescent fertility rate (births per 1,000 women ages 15-19){p_end}
-
 {synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.AMRT.FE:SP.DYN.AMRT.FE{marker SP.DYN.AMRT.FE}}}Mortality rate, adult, female (per 1,000 female adults){p_end}
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.AMRT.MA:SP.DYN.AMRT.MA{marker SP.DYN.AMRT.MA}}}Mortality rate, adult, male (per 1,000 male adults){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.CONU.ZS:SP.DYN.CONU.ZS{marker SP.DYN.CONU.ZS}}}Contraceptive prevalence, any methods (% of women ages 15-49){p_end}
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN{marker SP.DYN.LE00.FE.IN}}}Life expectancy at birth, female (years){p_end}
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.LE00.MA.IN:SP.DYN.LE00.MA.IN{marker SP.DYN.LE00.MA.IN}}}Life expectancy at birth, male (years){p_end}
 
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.LE60.FE.IN:SP.DYN.LE60.FE.IN{marker SP.DYN.LE60.FE.IN}}}Life expectancy at age 60, female (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.LE60.MA.IN:SP.DYN.LE60.MA.IN{marker SP.DYN.LE60.MA.IN}}}Life expectancy at age 60, male (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.SMAM.FE:SP.DYN.SMAM.FE{marker SP.DYN.SMAM.FE}}}Age at first marriage, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.SMAM.MA:SP.DYN.SMAM.MA{marker SP.DYN.SMAM.MA}}}Age at first marriage, male{p_end}
-
 {synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.TFRT.IN:SP.DYN.TFRT.IN{marker SP.DYN.TFRT.IN}}}Fertility rate, total (births per woman){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.TO65.FE.ZS:SP.DYN.TO65.FE.ZS{marker SP.DYN.TO65.FE.ZS}}}Survival to age 65, female (% of cohort){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.TO65.MA.ZS:SP.DYN.TO65.MA.ZS{marker SP.DYN.TO65.MA.ZS}}}Survival to age 65, male (% of cohort){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.WFRT:SP.DYN.WFRT{marker SP.DYN.WFRT}}}Wanted fertility rate (births per woman){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.HOU.FEMA.ZS:SP.HOU.FEMA.ZS{marker SP.HOU.FEMA.ZS}}}Female headed households (% of households with a female head){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.M15.2024.FE.ZS:SP.M15.2024.FE.ZS{marker SP.M15.2024.FE.ZS}}}Women who were first married by age 15 (% of women ages 20-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.M18.2024.FE.ZS:SP.M18.2024.FE.ZS{marker SP.M18.2024.FE.ZS}}}Women who were first married by age 18 (% of women ages 20-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.MTR.1519.ZS:SP.MTR.1519.ZS{marker SP.MTR.1519.ZS}}}Teenage mothers (% of women ages 15-19 who have had children or are currently pregnant){p_end}
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SP.POP.AG00.FE.IN:SP.POP.AG00.FE.IN{marker SP.POP.AG00.FE.IN}}}Age population, age 00, female, interpolated{p_end}
 
@@ -12217,22 +8094,6 @@
 {synopt:{help wbopendata_topicid_indicators17##topicid_SP.POP.AG05.FE.IN:SP.POP.AG05.FE.IN{marker SP.POP.AG05.FE.IN}}}Age population, age 05, female, interpolated{p_end}
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SP.POP.AG05.MA.IN:SP.POP.AG05.MA.IN{marker SP.POP.AG05.MA.IN}}}Age population, age 05, male, interpolated{p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.RUR.TOTL.FE.ZS:SP.RUR.TOTL.FE.ZS{marker SP.RUR.TOTL.FE.ZS}}}Rural population, female (% of total){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.RUR.TOTL.MA.ZS:SP.RUR.TOTL.MA.ZS{marker SP.RUR.TOTL.MA.ZS}}}Rural population, male (% of total){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.URB.TOTL.FE.ZS:SP.URB.TOTL.FE.ZS{marker SP.URB.TOTL.FE.ZS}}}Urban population, female (% of total){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SP.URB.TOTL.MA.ZS:SP.URB.TOTL.MA.ZS{marker SP.URB.TOTL.MA.ZS}}}Urban population, male (% of total){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_WP15163_4.2:WP15163_4.2{marker WP15163_4.2}}}Mobile account, male (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_WP15163_4.3:WP15163_4.3{marker WP15163_4.3}}}Mobile account, female (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_WP_time_01.2:WP_time_01.2{marker WP_time_01.2}}}Account at a financial institution, male (% age 15+){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_WP_time_01.3:WP_time_01.3{marker WP_time_01.3}}}Account at a financial institution, female (% age 15+){p_end}
 {synoptline}
 
 {marker topicid_18}
@@ -12257,7 +8118,7 @@
 
 {synopt:{help wbopendata_topicid_indicators18##topicid_DC.ODA.TOTL.GN.ZS:DC.ODA.TOTL.GN.ZS{marker DC.ODA.TOTL.GN.ZS}}}Net ODA provided, total (% of GNI){p_end}
 
-{synopt:{help wbopendata_topicid_indicators18##topicid_DC.ODA.TOTL.KD:DC.ODA.TOTL.KD{marker DC.ODA.TOTL.KD}}}Net ODA provided, total (constant 2015 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators18##topicid_DC.ODA.TOTL.KD:DC.ODA.TOTL.KD{marker DC.ODA.TOTL.KD}}}Net ODA provided, total (constant 2021 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators18##topicid_DC.ODA.UNTD.CD:DC.ODA.UNTD.CD{marker DC.ODA.UNTD.CD}}}Bilateral ODA commitments that is untied (current US$){p_end}
 
@@ -12272,26 +8133,6 @@
 {synopt:{help wbopendata_topicid_indicators18##topicid_DT.HPC.TOTL.PV:DT.HPC.TOTL.PV{marker DT.HPC.TOTL.PV}}}Debt relief committed under HIPC and MDRI initiatives, cumulative US$ in end-2012 NPV terms{p_end}
 
 {synopt:{help wbopendata_topicid_indicators18##topicid_NY.AGR.SUBS.GD.ZS:NY.AGR.SUBS.GD.ZS{marker NY.AGR.SUBS.GD.ZS}}}Agricultural support estimate (% of GDP){p_end}
-
-{synopt:{help wbopendata_topicid_indicators18##topicid_SH.MLR.NETS.Q1.ZS:SH.MLR.NETS.Q1.ZS{marker SH.MLR.NETS.Q1.ZS}}}Malaria prevention, use of bed nets (% of under-5 children in the poorest quintile){p_end}
-
-{synopt:{help wbopendata_topicid_indicators18##topicid_SH.MLR.NETS.Q5.ZS:SH.MLR.NETS.Q5.ZS{marker SH.MLR.NETS.Q5.ZS}}}Malaria prevention, use of bed nets (% of under-5 children in the richest quintile){p_end}
-
-{synopt:{help wbopendata_topicid_indicators18##topicid_TM.MRC.NOTX.DV.ZS:TM.MRC.NOTX.DV.ZS{marker TM.MRC.NOTX.DV.ZS}}}Goods (excluding arms) admitted free of tariffs from developing countries (% total merchandise imports excluding arms){p_end}
-
-{synopt:{help wbopendata_topicid_indicators18##topicid_TM.MRC.NOTX.LD.ZS:TM.MRC.NOTX.LD.ZS{marker TM.MRC.NOTX.LD.ZS}}}Goods (excluding arms) admitted free of tariffs from least developed countries (% total merchandise imports excluding arms){p_end}
-
-{synopt:{help wbopendata_topicid_indicators18##topicid_TM.TAX.AGRI.CD.DV:TM.TAX.AGRI.CD.DV{marker TM.TAX.AGRI.CD.DV}}}Average tariffs imposed by developed countries on agricultural products from developing countries (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators18##topicid_TM.TAX.AGRI.CD.LD:TM.TAX.AGRI.CD.LD{marker TM.TAX.AGRI.CD.LD}}}Average tariffs imposed by developed countries on agricultural products from least developed countries (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators18##topicid_TM.TAX.CLTH.CD.DV:TM.TAX.CLTH.CD.DV{marker TM.TAX.CLTH.CD.DV}}}Average tariffs imposed by developed countries on clothing products from developing countries (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators18##topicid_TM.TAX.CLTH.CD.LD:TM.TAX.CLTH.CD.LD{marker TM.TAX.CLTH.CD.LD}}}Average tariffs imposed by developed countries on clothing products from least developed countries (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators18##topicid_TM.TAX.TXTL.CD.DV:TM.TAX.TXTL.CD.DV{marker TM.TAX.TXTL.CD.DV}}}Average tariffs imposed by developed countries on textile products from developing countries (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators18##topicid_TM.TAX.TXTL.CD.LD:TM.TAX.TXTL.CD.LD{marker TM.TAX.TXTL.CD.LD}}}Average tariffs imposed by developed countries on textile products from least developed countries (%){p_end}
 {synoptline}
 
 {marker topicid_19}
@@ -12360,7 +8201,7 @@
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS{marker EN.ATM.CO2E.GF.ZS}}}CO2 emissions from gaseous fuel consumption (% of total){p_end}
 
-{synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD{marker EN.ATM.CO2E.KD.GD}}}CO2 emissions (kg per 2010 US$ of GDP){p_end}
+{synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD{marker EN.ATM.CO2E.KD.GD}}}CO2 emissions (kg per 2015 US$ of GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.KT:EN.ATM.CO2E.KT{marker EN.ATM.CO2E.KT}}}CO2 emissions (kt){p_end}
 
@@ -12424,7 +8265,7 @@
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_ER.PTD.TOTL.ZS:ER.PTD.TOTL.ZS{marker ER.PTD.TOTL.ZS}}}Terrestrial and marine protected areas (% of total territorial area){p_end}
 
-{synopt:{help wbopendata_topicid_indicators19##topicid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Ease of doing business index (1=most business-friendly regulations){p_end}
+{synopt:{help wbopendata_topicid_indicators19##topicid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Ease of doing business rank (1=most business-friendly regulations){p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_IQ.CPA.PUBS.XQ:IQ.CPA.PUBS.XQ{marker IQ.CPA.PUBS.XQ}}}CPIA public sector management and institutions cluster average (1=low to 6=high){p_end}
 
@@ -12437,22 +8278,6 @@
 {synopt:{help wbopendata_topicid_indicators19##topicid_SE.PRM.CMPT.ZS:SE.PRM.CMPT.ZS{marker SE.PRM.CMPT.ZS}}}Primary completion rate, total (% of relevant age group){p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_SH.DYN.MORT:SH.DYN.MORT{marker SH.DYN.MORT}}}Mortality rate, under-5 (per 1,000 live births){p_end}
-
-{synopt:{help wbopendata_topicid_indicators19##topicid_SH.H2O.SAFE.RU.ZS:SH.H2O.SAFE.RU.ZS{marker SH.H2O.SAFE.RU.ZS}}}Improved water source, rural (% of rural population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators19##topicid_SH.H2O.SAFE.UR.ZS:SH.H2O.SAFE.UR.ZS{marker SH.H2O.SAFE.UR.ZS}}}Improved water source, urban (% of urban population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators19##topicid_SH.H2O.SAFE.ZS:SH.H2O.SAFE.ZS{marker SH.H2O.SAFE.ZS}}}Improved water source (% of population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators19##topicid_SH.MED.CMHW.P3:SH.MED.CMHW.P3{marker SH.MED.CMHW.P3}}}Community health workers (per 1,000 people){p_end}
-
-{synopt:{help wbopendata_topicid_indicators19##topicid_SH.MLR.INCD:SH.MLR.INCD{marker SH.MLR.INCD}}}Notified cases of malaria (per 100,000 people){p_end}
-
-{synopt:{help wbopendata_topicid_indicators19##topicid_SH.STA.ACSN:SH.STA.ACSN{marker SH.STA.ACSN}}}Improved sanitation facilities (% of population with access){p_end}
-
-{synopt:{help wbopendata_topicid_indicators19##topicid_SH.STA.MALN.ZS:SH.STA.MALN.ZS{marker SH.STA.MALN.ZS}}}Prevalence of underweight, weight for age (% of children under 5){p_end}
-
-{synopt:{help wbopendata_topicid_indicators19##topicid_SI.POV.DDAY:SI.POV.DDAY{marker SI.POV.DDAY}}}Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population){p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_SP.POP.GROW:SP.POP.GROW{marker SP.POP.GROW}}}Population growth (annual %){p_end}
 
@@ -12827,7 +8652,7 @@
 
 {synopt:{help wbopendata_topicid_indicators20##topicid_DT.DOD.DPPG.CD:DT.DOD.DPPG.CD{marker DT.DOD.DPPG.CD}}}External debt stocks, public and publicly guaranteed (PPG) (DOD, current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators20##topicid_DT.DOD.DSDR.CD:DT.DOD.DSDR.CD{marker DT.DOD.DSDR.CD}}}Use of IMF credit, SDR allocations (DOD, current US$){p_end}
+{synopt:{help wbopendata_topicid_indicators20##topicid_DT.DOD.DSDR.CD:DT.DOD.DSDR.CD{marker DT.DOD.DSDR.CD}}}SDR allocations (DOD, current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators20##topicid_DT.DOD.DSTC.CD:DT.DOD.DSTC.CD{marker DT.DOD.DSTC.CD}}}External debt stocks, short-term (DOD, current US$){p_end}
 
@@ -13175,9 +9000,9 @@
 
 {synopt:{help wbopendata_topicid_indicators20##topicid_DT.NFL.NEBR.CD:DT.NFL.NEBR.CD{marker DT.NFL.NEBR.CD}}}EBRD, private nonguaranteed (NFL, current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators20##topicid_DT.NFL.NIFC.CD:DT.NFL.NIFC.CD{marker DT.NFL.NIFC.CD}}}IFC, private nonguaranteed (NFL, current US$){p_end}
+{synopt:{help wbopendata_topicid_indicators20##topicid_DT.NFL.NIFC.CD:DT.NFL.NIFC.CD{marker DT.NFL.NIFC.CD}}}IFC, private nonguaranteed (NFL, US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators20##topicid_DT.NFL.OFFT.CD:DT.NFL.OFFT.CD{marker DT.NFL.OFFT.CD}}}PPG, official creditors (NFL, current US$){p_end}
+{synopt:{help wbopendata_topicid_indicators20##topicid_DT.NFL.OFFT.CD:DT.NFL.OFFT.CD{marker DT.NFL.OFFT.CD}}}PPG, official creditors (NFL, US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators20##topicid_DT.NFL.OFFT.GG.CD:DT.NFL.OFFT.GG.CD{marker DT.NFL.OFFT.GG.CD}}}GG, official creditors (NFL, current US$){p_end}
 
@@ -13225,7 +9050,7 @@
 
 {synopt:{help wbopendata_topicid_indicators20##topicid_DT.NFL.PRPG.CD:DT.NFL.PRPG.CD{marker DT.NFL.PRPG.CD}}}Net flows on external debt, private guaranteed by public sector (PPG) (NFL, current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators20##topicid_DT.NFL.PRVT.CD:DT.NFL.PRVT.CD{marker DT.NFL.PRVT.CD}}}PPG, private creditors (NFL, current US$){p_end}
+{synopt:{help wbopendata_topicid_indicators20##topicid_DT.NFL.PRVT.CD:DT.NFL.PRVT.CD{marker DT.NFL.PRVT.CD}}}PPG, private creditors (NFL, US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators20##topicid_DT.NFL.PRVT.GG.CD:DT.NFL.PRVT.GG.CD{marker DT.NFL.PRVT.GG.CD}}}GG, private creditors (NFL, current US$){p_end}
 
@@ -13612,7 +9437,7 @@
 
 {synopt:{help wbopendata_topicid_indicators21##topicid_NE.EXP.GNFS.CD:NE.EXP.GNFS.CD{marker NE.EXP.GNFS.CD}}}Exports of goods and services (current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators21##topicid_NE.EXP.GNFS.KD:NE.EXP.GNFS.KD{marker NE.EXP.GNFS.KD}}}Exports of goods and services (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators21##topicid_NE.EXP.GNFS.KD:NE.EXP.GNFS.KD{marker NE.EXP.GNFS.KD}}}Exports of goods and services (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators21##topicid_NE.EXP.GNFS.KD.ZG:NE.EXP.GNFS.KD.ZG{marker NE.EXP.GNFS.KD.ZG}}}Exports of goods and services (annual % growth){p_end}
 
@@ -13620,7 +9445,7 @@
 
 {synopt:{help wbopendata_topicid_indicators21##topicid_NE.IMP.GNFS.CD:NE.IMP.GNFS.CD{marker NE.IMP.GNFS.CD}}}Imports of goods and services (current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators21##topicid_NE.IMP.GNFS.KD:NE.IMP.GNFS.KD{marker NE.IMP.GNFS.KD}}}Imports of goods and services (constant 2010 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators21##topicid_NE.IMP.GNFS.KD:NE.IMP.GNFS.KD{marker NE.IMP.GNFS.KD}}}Imports of goods and services (constant 2015 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators21##topicid_NE.IMP.GNFS.KD.ZG:NE.IMP.GNFS.KD.ZG{marker NE.IMP.GNFS.KD.ZG}}}Imports of goods and services (annual % growth){p_end}
 
@@ -13633,186 +9458,285 @@
 {synopt:{help wbopendata_topicid_indicators21##topicid_NE.TRD.GNFS.ZS:NE.TRD.GNFS.ZS{marker NE.TRD.GNFS.ZS}}}Trade (% of GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators21##topicid_NY.EXP.CAPM.KN:NY.EXP.CAPM.KN{marker NY.EXP.CAPM.KN}}}Exports as a capacity to import (constant LCU){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_ST.INT.ARVL:ST.INT.ARVL{marker ST.INT.ARVL}}}International tourism, number of arrivals{p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_ST.INT.DPRT:ST.INT.DPRT{marker ST.INT.DPRT}}}International tourism, number of departures{p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_ST.INT.RCPT.CD:ST.INT.RCPT.CD{marker ST.INT.RCPT.CD}}}International tourism, receipts (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_ST.INT.RCPT.XP.ZS:ST.INT.RCPT.XP.ZS{marker ST.INT.RCPT.XP.ZS}}}International tourism, receipts (% of total exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_ST.INT.TRNR.CD:ST.INT.TRNR.CD{marker ST.INT.TRNR.CD}}}International tourism, receipts for passenger transport items (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_ST.INT.TRNX.CD:ST.INT.TRNX.CD{marker ST.INT.TRNX.CD}}}International tourism, expenditures for passenger transport items (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_ST.INT.TVLR.CD:ST.INT.TVLR.CD{marker ST.INT.TVLR.CD}}}International tourism, receipts for travel items (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_ST.INT.TVLX.CD:ST.INT.TVLX.CD{marker ST.INT.TVLX.CD}}}International tourism, expenditures for travel items (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_ST.INT.XPND.CD:ST.INT.XPND.CD{marker ST.INT.XPND.CD}}}International tourism, expenditures (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_ST.INT.XPND.MP.ZS:ST.INT.XPND.MP.ZS{marker ST.INT.XPND.MP.ZS}}}International tourism, expenditures (% of total imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TG.VAL.TOTL.GD.ZS:TG.VAL.TOTL.GD.ZS{marker TG.VAL.TOTL.GD.ZS}}}Merchandise trade (% of GDP){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.QTY.MRCH.XD.WD:TM.QTY.MRCH.XD.WD{marker TM.QTY.MRCH.XD.WD}}}Import volume index (2000 = 100){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.MANF.BC.ZS:TM.TAX.MANF.BC.ZS{marker TM.TAX.MANF.BC.ZS}}}Binding coverage, manufactured products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.MANF.BR.ZS:TM.TAX.MANF.BR.ZS{marker TM.TAX.MANF.BR.ZS}}}Bound rate, simple mean, manufactured products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.MANF.IP.ZS:TM.TAX.MANF.IP.ZS{marker TM.TAX.MANF.IP.ZS}}}Share of tariff lines with international peaks, manufactured products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.MANF.SM.AR.ZS:TM.TAX.MANF.SM.AR.ZS{marker TM.TAX.MANF.SM.AR.ZS}}}Tariff rate, applied, simple mean, manufactured products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.MANF.SM.FN.ZS:TM.TAX.MANF.SM.FN.ZS{marker TM.TAX.MANF.SM.FN.ZS}}}Tariff rate, most favored nation, simple mean, manufactured products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.MANF.SR.ZS:TM.TAX.MANF.SR.ZS{marker TM.TAX.MANF.SR.ZS}}}Share of tariff lines with specific rates, manufactured products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.MANF.WM.AR.ZS:TM.TAX.MANF.WM.AR.ZS{marker TM.TAX.MANF.WM.AR.ZS}}}Tariff rate, applied, weighted mean, manufactured products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.MANF.WM.FN.ZS:TM.TAX.MANF.WM.FN.ZS{marker TM.TAX.MANF.WM.FN.ZS}}}Tariff rate, most favored nation, weighted mean, manufactured products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.MRCH.BC.ZS:TM.TAX.MRCH.BC.ZS{marker TM.TAX.MRCH.BC.ZS}}}Binding coverage, all products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.MRCH.BR.ZS:TM.TAX.MRCH.BR.ZS{marker TM.TAX.MRCH.BR.ZS}}}Bound rate, simple mean, all products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.MRCH.IP.ZS:TM.TAX.MRCH.IP.ZS{marker TM.TAX.MRCH.IP.ZS}}}Share of tariff lines with international peaks, all products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.MRCH.SM.AR.ZS:TM.TAX.MRCH.SM.AR.ZS{marker TM.TAX.MRCH.SM.AR.ZS}}}Tariff rate, applied, simple mean, all products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.MRCH.SM.FN.ZS:TM.TAX.MRCH.SM.FN.ZS{marker TM.TAX.MRCH.SM.FN.ZS}}}Tariff rate, most favored nation, simple mean, all products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.MRCH.SR.ZS:TM.TAX.MRCH.SR.ZS{marker TM.TAX.MRCH.SR.ZS}}}Share of tariff lines with specific rates, all products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.MRCH.WM.AR.ZS:TM.TAX.MRCH.WM.AR.ZS{marker TM.TAX.MRCH.WM.AR.ZS}}}Tariff rate, applied, weighted mean, all products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.MRCH.WM.FN.ZS:TM.TAX.MRCH.WM.FN.ZS{marker TM.TAX.MRCH.WM.FN.ZS}}}Tariff rate, most favored nation, weighted mean, all products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.TCOM.BC.ZS:TM.TAX.TCOM.BC.ZS{marker TM.TAX.TCOM.BC.ZS}}}Binding coverage, primary products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.TCOM.BR.ZS:TM.TAX.TCOM.BR.ZS{marker TM.TAX.TCOM.BR.ZS}}}Bound rate, simple mean, primary products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.TCOM.IP.ZS:TM.TAX.TCOM.IP.ZS{marker TM.TAX.TCOM.IP.ZS}}}Share of tariff lines with international peaks, primary products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.TCOM.SM.AR.ZS:TM.TAX.TCOM.SM.AR.ZS{marker TM.TAX.TCOM.SM.AR.ZS}}}Tariff rate, applied, simple mean, primary products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.TCOM.SM.FN.ZS:TM.TAX.TCOM.SM.FN.ZS{marker TM.TAX.TCOM.SM.FN.ZS}}}Tariff rate, most favored nation, simple mean, primary products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.TCOM.SR.ZS:TM.TAX.TCOM.SR.ZS{marker TM.TAX.TCOM.SR.ZS}}}Share of tariff lines with specific rates, primary products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.TCOM.WM.AR.ZS:TM.TAX.TCOM.WM.AR.ZS{marker TM.TAX.TCOM.WM.AR.ZS}}}Tariff rate, applied, weighted mean, primary products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.TAX.TCOM.WM.FN.ZS:TM.TAX.TCOM.WM.FN.ZS{marker TM.TAX.TCOM.WM.FN.ZS}}}Tariff rate, most favored nation, weighted mean, primary products (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.AGRI.ZS.UN:TM.VAL.AGRI.ZS.UN{marker TM.VAL.AGRI.ZS.UN}}}Agricultural raw materials imports (% of merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.FOOD.ZS.UN:TM.VAL.FOOD.ZS.UN{marker TM.VAL.FOOD.ZS.UN}}}Food imports (% of merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.FUEL.ZS.UN:TM.VAL.FUEL.ZS.UN{marker TM.VAL.FUEL.ZS.UN}}}Fuel imports (% of merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.ICTG.ZS.UN:TM.VAL.ICTG.ZS.UN{marker TM.VAL.ICTG.ZS.UN}}}ICT goods imports (% total goods imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.INSF.ZS.WT:TM.VAL.INSF.ZS.WT{marker TM.VAL.INSF.ZS.WT}}}Insurance and financial services (% of commercial service imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MANF.ZS.UN:TM.VAL.MANF.ZS.UN{marker TM.VAL.MANF.ZS.UN}}}Manufactures imports (% of merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MMTL.ZS.UN:TM.VAL.MMTL.ZS.UN{marker TM.VAL.MMTL.ZS.UN}}}Ores and metals imports (% of merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.AL.ZS:TM.VAL.MRCH.AL.ZS{marker TM.VAL.MRCH.AL.ZS}}}Merchandise imports from economies in the Arab World (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.CD.WT:TM.VAL.MRCH.CD.WT{marker TM.VAL.MRCH.CD.WT}}}Merchandise imports (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.HI.ZS:TM.VAL.MRCH.HI.ZS{marker TM.VAL.MRCH.HI.ZS}}}Merchandise imports from high-income economies (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.OR.ZS:TM.VAL.MRCH.OR.ZS{marker TM.VAL.MRCH.OR.ZS}}}Merchandise imports from low- and middle-income economies outside region (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.R1.ZS:TM.VAL.MRCH.R1.ZS{marker TM.VAL.MRCH.R1.ZS}}}Merchandise imports from low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.R2.ZS:TM.VAL.MRCH.R2.ZS{marker TM.VAL.MRCH.R2.ZS}}}Merchandise imports from low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.R3.ZS:TM.VAL.MRCH.R3.ZS{marker TM.VAL.MRCH.R3.ZS}}}Merchandise imports from low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.R4.ZS:TM.VAL.MRCH.R4.ZS{marker TM.VAL.MRCH.R4.ZS}}}Merchandise imports from low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.R5.ZS:TM.VAL.MRCH.R5.ZS{marker TM.VAL.MRCH.R5.ZS}}}Merchandise imports from low- and middle-income economies in South Asia (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.R6.ZS:TM.VAL.MRCH.R6.ZS{marker TM.VAL.MRCH.R6.ZS}}}Merchandise imports from low- and middle-income economies in Sub-Saharan Africa (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.RS.ZS:TM.VAL.MRCH.RS.ZS{marker TM.VAL.MRCH.RS.ZS}}}Merchandise imports by the reporting economy, residual (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.WL.CD:TM.VAL.MRCH.WL.CD{marker TM.VAL.MRCH.WL.CD}}}Merchandise imports by the reporting economy (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.WR.ZS:TM.VAL.MRCH.WR.ZS{marker TM.VAL.MRCH.WR.ZS}}}Merchandise imports from low- and middle-income economies within region (% of total merchandise imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.MRCH.XD.WD:TM.VAL.MRCH.XD.WD{marker TM.VAL.MRCH.XD.WD}}}Import value index (2000 = 100){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.OTHR.ZS.WT:TM.VAL.OTHR.ZS.WT{marker TM.VAL.OTHR.ZS.WT}}}Computer, communications and other services (% of commercial service imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.SERV.CD.WT:TM.VAL.SERV.CD.WT{marker TM.VAL.SERV.CD.WT}}}Commercial service imports (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.TRAN.ZS.WT:TM.VAL.TRAN.ZS.WT{marker TM.VAL.TRAN.ZS.WT}}}Transport services (% of commercial service imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TM.VAL.TRVL.ZS.WT:TM.VAL.TRVL.ZS.WT{marker TM.VAL.TRVL.ZS.WT}}}Travel services (% of commercial service imports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TT.PRI.MRCH.XD.WD:TT.PRI.MRCH.XD.WD{marker TT.PRI.MRCH.XD.WD}}}Net barter terms of trade index (2000 = 100){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.QTY.MRCH.XD.WD:TX.QTY.MRCH.XD.WD{marker TX.QTY.MRCH.XD.WD}}}Export volume index (2000 = 100){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.AGRI.ZS.UN:TX.VAL.AGRI.ZS.UN{marker TX.VAL.AGRI.ZS.UN}}}Agricultural raw materials exports (% of merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.FOOD.ZS.UN:TX.VAL.FOOD.ZS.UN{marker TX.VAL.FOOD.ZS.UN}}}Food exports (% of merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.FUEL.ZS.UN:TX.VAL.FUEL.ZS.UN{marker TX.VAL.FUEL.ZS.UN}}}Fuel exports (% of merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.ICTG.ZS.UN:TX.VAL.ICTG.ZS.UN{marker TX.VAL.ICTG.ZS.UN}}}ICT goods exports (% of total goods exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.INSF.ZS.WT:TX.VAL.INSF.ZS.WT{marker TX.VAL.INSF.ZS.WT}}}Insurance and financial services (% of commercial service exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.MANF.ZS.UN:TX.VAL.MANF.ZS.UN{marker TX.VAL.MANF.ZS.UN}}}Manufactures exports (% of merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.MMTL.ZS.UN:TX.VAL.MMTL.ZS.UN{marker TX.VAL.MMTL.ZS.UN}}}Ores and metals exports (% of merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.MRCH.AL.ZS:TX.VAL.MRCH.AL.ZS{marker TX.VAL.MRCH.AL.ZS}}}Merchandise exports to economies in the Arab World (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.MRCH.CD.WT:TX.VAL.MRCH.CD.WT{marker TX.VAL.MRCH.CD.WT}}}Merchandise exports (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.MRCH.HI.ZS:TX.VAL.MRCH.HI.ZS{marker TX.VAL.MRCH.HI.ZS}}}Merchandise exports to high-income economies (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.MRCH.OR.ZS:TX.VAL.MRCH.OR.ZS{marker TX.VAL.MRCH.OR.ZS}}}Merchandise exports to low- and middle-income economies outside region (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.MRCH.R1.ZS:TX.VAL.MRCH.R1.ZS{marker TX.VAL.MRCH.R1.ZS}}}Merchandise exports to low- and middle-income economies in East Asia &amp; Pacific (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.MRCH.R2.ZS:TX.VAL.MRCH.R2.ZS{marker TX.VAL.MRCH.R2.ZS}}}Merchandise exports to low- and middle-income economies in Europe &amp; Central Asia (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.MRCH.R3.ZS:TX.VAL.MRCH.R3.ZS{marker TX.VAL.MRCH.R3.ZS}}}Merchandise exports to low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.MRCH.R4.ZS:TX.VAL.MRCH.R4.ZS{marker TX.VAL.MRCH.R4.ZS}}}Merchandise exports to low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.MRCH.R5.ZS:TX.VAL.MRCH.R5.ZS{marker TX.VAL.MRCH.R5.ZS}}}Merchandise exports to low- and middle-income economies in South Asia (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.MRCH.R6.ZS:TX.VAL.MRCH.R6.ZS{marker TX.VAL.MRCH.R6.ZS}}}Merchandise exports to low- and middle-income economies in Sub-Saharan Africa (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.MRCH.RS.ZS:TX.VAL.MRCH.RS.ZS{marker TX.VAL.MRCH.RS.ZS}}}Merchandise exports by the reporting economy, residual (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.MRCH.WL.CD:TX.VAL.MRCH.WL.CD{marker TX.VAL.MRCH.WL.CD}}}Merchandise exports by the reporting economy (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.MRCH.WR.ZS:TX.VAL.MRCH.WR.ZS{marker TX.VAL.MRCH.WR.ZS}}}Merchandise exports to low- and middle-income economies within region (% of total merchandise exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.MRCH.XD.WD:TX.VAL.MRCH.XD.WD{marker TX.VAL.MRCH.XD.WD}}}Export value index (2000 = 100){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.OTHR.ZS.WT:TX.VAL.OTHR.ZS.WT{marker TX.VAL.OTHR.ZS.WT}}}Computer, communications and other services (% of commercial service exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.SERV.CD.WT:TX.VAL.SERV.CD.WT{marker TX.VAL.SERV.CD.WT}}}Commercial service exports (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.TECH.CD:TX.VAL.TECH.CD{marker TX.VAL.TECH.CD}}}High-technology exports (current US$){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.TECH.MF.ZS:TX.VAL.TECH.MF.ZS{marker TX.VAL.TECH.MF.ZS}}}High-technology exports (% of manufactured exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.TRAN.ZS.WT:TX.VAL.TRAN.ZS.WT{marker TX.VAL.TRAN.ZS.WT}}}Transport services (% of commercial service exports){p_end}
-
-{synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.TRVL.ZS.WT:TX.VAL.TRVL.ZS.WT{marker TX.VAL.TRVL.ZS.WT}}}Travel services (% of commercial service exports){p_end}
 {synoptline}
 
-{right:(as of 28jun2020)}
+{marker topicid_topicID}
+{p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_topicID:Topics}} or {it:{help wbopendata_topicid_indicatorstopicID##:TOC}}){p_end}
+{synoptset 40 tabbed}{...}
+{synopthdr:topicID}
+{synoptline}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.AG.NTR.TOHA:CC.AG.NTR.TOHA{marker CC.AG.NTR.TOHA}}}Nitrogen application (tons per ha){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.CUF.STUN:CC.CUF.STUN{marker CC.CUF.STUN}}}Children under 5 years of age who are stunted (% of total){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.AFO:CC.DEN.AFO{marker CC.DEN.AFO}}}Emission Totals - Direct emissions (N2O) - AFOLU{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.AGS:CC.DEN.AGS{marker CC.DEN.AGS}}}Emission Totals - Direct emissions (N2O) - Agricultural Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.CRE:CC.DEN.CRE{marker CC.DEN.CRE}}}Emission Totals - Direct emissions (N2O) - Crop Residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.EAL:CC.DEN.EAL{marker CC.DEN.EAL}}}Emission Totals - Direct emissions (N2O) - Emissions on agricultural land{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.FGE:CC.DEN.FGE{marker CC.DEN.FGE}}}Emission Totals - Direct emissions (N2O) - Farm-gate emissions{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.IPA:CC.DEN.IPA{marker CC.DEN.IPA}}}Emission Totals - Direct emissions (N2O) - IPCC Agriculture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.MLP:CC.DEN.MLP{marker CC.DEN.MLP}}}Emission Totals - Direct emissions (N2O) - Manure left on Pasture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.SAS:CC.DEN.SAS{marker CC.DEN.SAS}}}Emission Totals - Direct emissions (N2O) - Manure applied to Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.DEN.SFE:CC.DEN.SFE{marker CC.DEN.SFE}}}Emission Totals - Direct emissions (N2O) - Synthetic Fertilizers{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.AFO:CC.EAR.AFO{marker CC.EAR.AFO}}}Emission Totals - Emissions (CO2eq) (AR5) - AFOLU{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.AGS:CC.EAR.AGS{marker CC.EAR.AGS}}}Emission Totals - Emissions (CO2eq) (AR5) - Agricultural Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.BCR:CC.EAR.BCR{marker CC.EAR.BCR}}}Emission Totals - Emissions (CO2eq) (AR5) - Burning - Crop residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.CRE:CC.EAR.CRE{marker CC.EAR.CRE}}}Emission Totals - Emissions (CO2eq) (AR5) - Crop Residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.DOC:CC.EAR.DOC{marker CC.EAR.DOC}}}Emission Totals - Emissions (CO2eq) (AR5) - Drained organic soils (CO2){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.DON:CC.EAR.DON{marker CC.EAR.DON}}}Emission Totals - Emissions (CO2eq) (AR5) - Drained organic soils (N2O){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.DOS:CC.EAR.DOS{marker CC.EAR.DOS}}}Emission Totals - Emissions (CO2eq) (AR5) - Drained organic soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.EAL:CC.EAR.EAL{marker CC.EAR.EAL}}}Emission Totals - Emissions (CO2eq) (AR5) - Emissions on agricultural land{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.EFE:CC.EAR.EFE{marker CC.EAR.EFE}}}Emission Totals - Emissions (CO2eq) (AR5) - Enteric Fermentation{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.FFR:CC.EAR.FFR{marker CC.EAR.FFR}}}Emission Totals - Emissions (CO2eq) (AR5) - Forest fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.FGE:CC.EAR.FGE{marker CC.EAR.FGE}}}Emission Totals - Emissions (CO2eq) (AR5) - Farm-gate emissions{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.FOR:CC.EAR.FOR{marker CC.EAR.FOR}}}Emission Totals - Emissions (CO2eq) (AR5) - Forestland{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.FOS:CC.EAR.FOS{marker CC.EAR.FOS}}}Emission Totals - Emissions (CO2eq) (AR5) - Fires in organic soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.FTR:CC.EAR.FTR{marker CC.EAR.FTR}}}Emission Totals - Emissions (CO2eq) (AR5) - Fires in humid tropical forests{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.IPA:CC.EAR.IPA{marker CC.EAR.IPA}}}Emission Totals - Emissions (CO2eq) (AR5) - IPCC Agriculture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.LUC:CC.EAR.LUC{marker CC.EAR.LUC}}}Emission Totals - Emissions (CO2eq) (AR5) - Land Use change{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.LUL:CC.EAR.LUL{marker CC.EAR.LUL}}}Emission Totals - Emissions (CO2eq) (AR5) - LULUCF{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.MLP:CC.EAR.MLP{marker CC.EAR.MLP}}}Emission Totals - Emissions (CO2eq) (AR5) - Manure left on Pasture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.MMA:CC.EAR.MMA{marker CC.EAR.MMA}}}Emission Totals - Emissions (CO2eq) (AR5) - Manure Management{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.NFC:CC.EAR.NFC{marker CC.EAR.NFC}}}Emission Totals - Emissions (CO2eq) (AR5) - Net Forest conversion{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.OEU:CC.EAR.OEU{marker CC.EAR.OEU}}}Emission Totals - Emissions (CO2eq) (AR5) - On-farm energy use{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.RCA:CC.EAR.RCA{marker CC.EAR.RCA}}}Emission Totals - Emissions (CO2eq) (AR5) - Rice Cultivation{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.SAS:CC.EAR.SAS{marker CC.EAR.SAS}}}Emission Totals - Emissions (CO2eq) (AR5) - Manure applied to Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.SFE:CC.EAR.SFE{marker CC.EAR.SFE}}}Emission Totals - Emissions (CO2eq) (AR5) - Synthetic Fertilizers{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.EAR.SVF:CC.EAR.SVF{marker CC.EAR.SVF}}}Emission Totals - Emissions (CO2eq) (AR5) - Savanna fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.AFO:CC.ECA.AFO{marker CC.ECA.AFO}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - AFOLU{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.BCR:CC.ECA.BCR{marker CC.ECA.BCR}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Burning - Crop residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.EAL:CC.ECA.EAL{marker CC.ECA.EAL}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Emissions on agricultural land{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.EFE:CC.ECA.EFE{marker CC.ECA.EFE}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Enteric Fermentation{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.FFR:CC.ECA.FFR{marker CC.ECA.FFR}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Forest fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.FGE:CC.ECA.FGE{marker CC.ECA.FGE}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Farm-gate emissions{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.FOS:CC.ECA.FOS{marker CC.ECA.FOS}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Fires in organic soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.FTR:CC.ECA.FTR{marker CC.ECA.FTR}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Fires in humid tropical forests{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.IPA:CC.ECA.IPA{marker CC.ECA.IPA}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - IPCC Agriculture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.LUC:CC.ECA.LUC{marker CC.ECA.LUC}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Land Use change{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.LUL:CC.ECA.LUL{marker CC.ECA.LUL}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - LULUCF{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.MMA:CC.ECA.MMA{marker CC.ECA.MMA}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Manure Management{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.OEU:CC.ECA.OEU{marker CC.ECA.OEU}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - On-farm energy use{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.RCA:CC.ECA.RCA{marker CC.ECA.RCA}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Rice Cultivation{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECA.SVF:CC.ECA.SVF{marker CC.ECA.SVF}}}Emission Totals - Emissions (CO2eq) from CH4 (AR5) - Savanna fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.AFO:CC.ECH.AFO{marker CC.ECH.AFO}}}Emission Totals - Emissions (CH4) - AFOLU{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.BCR:CC.ECH.BCR{marker CC.ECH.BCR}}}Emission Totals - Emissions (CH4) - Burning - Crop residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.EAL:CC.ECH.EAL{marker CC.ECH.EAL}}}Emission Totals - Emissions (CH4) - Emissions on agricultural land{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.EFE:CC.ECH.EFE{marker CC.ECH.EFE}}}Emission Totals - Emissions (CH4) - Enteric Fermentation{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.FFR:CC.ECH.FFR{marker CC.ECH.FFR}}}Emission Totals - Emissions (CH4) - Forest fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.FGE:CC.ECH.FGE{marker CC.ECH.FGE}}}Emission Totals - Emissions (CH4) - Farm-gate emissions{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.FOS:CC.ECH.FOS{marker CC.ECH.FOS}}}Emission Totals - Emissions (CH4) - Fires in organic soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.FTR:CC.ECH.FTR{marker CC.ECH.FTR}}}Emission Totals - Emissions (CH4) - Fires in humid tropical forests{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.IPA:CC.ECH.IPA{marker CC.ECH.IPA}}}Emission Totals - Emissions (CH4) - IPCC Agriculture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.LUC:CC.ECH.LUC{marker CC.ECH.LUC}}}Emission Totals - Emissions (CH4) - Land Use change{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.LUL:CC.ECH.LUL{marker CC.ECH.LUL}}}Emission Totals - Emissions (CH4) - LULUCF{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.MMA:CC.ECH.MMA{marker CC.ECH.MMA}}}Emission Totals - Emissions (CH4) - Manure Management{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.OEU:CC.ECH.OEU{marker CC.ECH.OEU}}}Emission Totals - Emissions (CH4) - On-farm energy use{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.RCA:CC.ECH.RCA{marker CC.ECH.RCA}}}Emission Totals - Emissions (CH4) - Rice Cultivation{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECH.SVF:CC.ECH.SVF{marker CC.ECH.SVF}}}Emission Totals - Emissions (CH4) - Savanna fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.AFO:CC.ECO.AFO{marker CC.ECO.AFO}}}Emission Totals - Emissions (CO2) - AFOLU{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.DOC:CC.ECO.DOC{marker CC.ECO.DOC}}}Emission Totals - Emissions (CO2) - Drained organic soils (CO2){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.EAL:CC.ECO.EAL{marker CC.ECO.EAL}}}Emission Totals - Emissions (CO2) - Emissions on agricultural land{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.FGE:CC.ECO.FGE{marker CC.ECO.FGE}}}Emission Totals - Emissions (CO2) - Farm-gate emissions{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.FOR:CC.ECO.FOR{marker CC.ECO.FOR}}}Emission Totals - Emissions (CO2) - Forestland{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.FOS:CC.ECO.FOS{marker CC.ECO.FOS}}}Emission Totals - Emissions (CO2) - Fires in organic soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.LUC:CC.ECO.LUC{marker CC.ECO.LUC}}}Emission Totals - Emissions (CO2) - Land Use change{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.LUL:CC.ECO.LUL{marker CC.ECO.LUL}}}Emission Totals - Emissions (CO2) - LULUCF{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.NFC:CC.ECO.NFC{marker CC.ECO.NFC}}}Emission Totals - Emissions (CO2) - Net Forest conversion{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ECO.OEU:CC.ECO.OEU{marker CC.ECO.OEU}}}Emission Totals - Emissions (CO2) - On-farm energy use{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.AFO:CC.ENA.AFO{marker CC.ENA.AFO}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - AFOLU{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.AGS:CC.ENA.AGS{marker CC.ENA.AGS}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Agricultural Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.BCR:CC.ENA.BCR{marker CC.ENA.BCR}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Burning - Crop residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.CRE:CC.ENA.CRE{marker CC.ENA.CRE}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Crop Residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.DON:CC.ENA.DON{marker CC.ENA.DON}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Drained organic soils (N2O){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.EAL:CC.ENA.EAL{marker CC.ENA.EAL}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Emissions on agricultural land{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.FFR:CC.ENA.FFR{marker CC.ENA.FFR}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Forest fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.FGE:CC.ENA.FGE{marker CC.ENA.FGE}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Farm-gate emissions{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.FTR:CC.ENA.FTR{marker CC.ENA.FTR}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Fires in humid tropical forests{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.IPA:CC.ENA.IPA{marker CC.ENA.IPA}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - IPCC Agriculture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.LUC:CC.ENA.LUC{marker CC.ENA.LUC}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Land Use change{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.LUL:CC.ENA.LUL{marker CC.ENA.LUL}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - LULUCF{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.MLP:CC.ENA.MLP{marker CC.ENA.MLP}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Manure left on Pasture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.MMA:CC.ENA.MMA{marker CC.ENA.MMA}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Manure Management{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.OEU:CC.ENA.OEU{marker CC.ENA.OEU}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - On-farm energy use{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.SAS:CC.ENA.SAS{marker CC.ENA.SAS}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Manure applied to Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.SFE:CC.ENA.SFE{marker CC.ENA.SFE}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Synthetic Fertilizers{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENA.SVF:CC.ENA.SVF{marker CC.ENA.SVF}}}Emission Totals - Emissions (CO2eq) from N2O (AR5) - Savanna fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.AFO:CC.ENO.AFO{marker CC.ENO.AFO}}}Emission Totals - Emissions (N2O) - AFOLU{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.AGS:CC.ENO.AGS{marker CC.ENO.AGS}}}Emission Totals - Emissions (N2O) - Agricultural Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.BCR:CC.ENO.BCR{marker CC.ENO.BCR}}}Emission Totals - Emissions (N2O) - Burning - Crop residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.CRE:CC.ENO.CRE{marker CC.ENO.CRE}}}Emission Totals - Emissions (N2O) - Crop Residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.DON:CC.ENO.DON{marker CC.ENO.DON}}}Emission Totals - Emissions (N2O) - Drained organic soils (N2O){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.EAL:CC.ENO.EAL{marker CC.ENO.EAL}}}Emission Totals - Emissions (N2O) - Emissions on agricultural land{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.FFR:CC.ENO.FFR{marker CC.ENO.FFR}}}Emission Totals - Emissions (N2O) - Forest fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.FGE:CC.ENO.FGE{marker CC.ENO.FGE}}}Emission Totals - Emissions (N2O) - Farm-gate emissions{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.FTR:CC.ENO.FTR{marker CC.ENO.FTR}}}Emission Totals - Emissions (N2O) - Fires in humid tropical forests{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.IPA:CC.ENO.IPA{marker CC.ENO.IPA}}}Emission Totals - Emissions (N2O) - IPCC Agriculture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.LUC:CC.ENO.LUC{marker CC.ENO.LUC}}}Emission Totals - Emissions (N2O) - Land Use change{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.LUL:CC.ENO.LUL{marker CC.ENO.LUL}}}Emission Totals - Emissions (N2O) - LULUCF{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.MLP:CC.ENO.MLP{marker CC.ENO.MLP}}}Emission Totals - Emissions (N2O) - Manure left on Pasture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.MMA:CC.ENO.MMA{marker CC.ENO.MMA}}}Emission Totals - Emissions (N2O) - Manure Management{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.OEU:CC.ENO.OEU{marker CC.ENO.OEU}}}Emission Totals - Emissions (N2O) - On-farm energy use{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.SAS:CC.ENO.SAS{marker CC.ENO.SAS}}}Emission Totals - Emissions (N2O) - Manure applied to Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.SFE:CC.ENO.SFE{marker CC.ENO.SFE}}}Emission Totals - Emissions (N2O) - Synthetic Fertilizers{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.ENO.SVF:CC.ENO.SVF{marker CC.ENO.SVF}}}Emission Totals - Emissions (N2O) - Savanna fires{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.FOOD.ANIM.ZS:CC.FOOD.ANIM.ZS{marker CC.FOOD.ANIM.ZS}}}Share of animal products in food supply (% of total){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.FOOD.VEGT.ZS:CC.FOOD.VEGT.ZS{marker CC.FOOD.VEGT.ZS}}}Share of vegetal products in food supply (% of total){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.AFO:CC.IEN.AFO{marker CC.IEN.AFO}}}Emission Totals - Indirect emissions (N2O) - AFOLU{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.AGS:CC.IEN.AGS{marker CC.IEN.AGS}}}Emission Totals - Indirect emissions (N2O) - Agricultural Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.CRE:CC.IEN.CRE{marker CC.IEN.CRE}}}Emission Totals - Indirect emissions (N2O) - Crop Residues{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.EAL:CC.IEN.EAL{marker CC.IEN.EAL}}}Emission Totals - Indirect emissions (N2O) - Emissions on agricultural land{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.FGE:CC.IEN.FGE{marker CC.IEN.FGE}}}Emission Totals - Indirect emissions (N2O) - Farm-gate emissions{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.IPA:CC.IEN.IPA{marker CC.IEN.IPA}}}Emission Totals - Indirect emissions (N2O) - IPCC Agriculture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.MLP:CC.IEN.MLP{marker CC.IEN.MLP}}}Emission Totals - Indirect emissions (N2O) - Manure left on Pasture{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.SAS:CC.IEN.SAS{marker CC.IEN.SAS}}}Emission Totals - Indirect emissions (N2O) - Manure applied to Soils{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.IEN.SFE:CC.IEN.SFE{marker CC.IEN.SFE}}}Emission Totals - Indirect emissions (N2O) - Synthetic Fertilizers{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.BA:CC.NEFO.IMCR.BA{marker CC.NEFO.IMCR.BA}}}Net food imports by crop - Barley{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.BP:CC.NEFO.IMCR.BP{marker CC.NEFO.IMCR.BP}}}Net food imports by crop - Rice, paddy{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.MA:CC.NEFO.IMCR.MA{marker CC.NEFO.IMCR.MA}}}Net food imports by crop - Maize{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.RB:CC.NEFO.IMCR.RB{marker CC.NEFO.IMCR.RB}}}Net food imports by crop - Rice, broken{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.RE:CC.NEFO.IMCR.RE{marker CC.NEFO.IMCR.RE}}}Net food imports by crop - Rice, paddy (rice milled equivalent){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.RH:CC.NEFO.IMCR.RH{marker CC.NEFO.IMCR.RH}}}Net food imports by crop - Rice, husked{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.RI:CC.NEFO.IMCR.RI{marker CC.NEFO.IMCR.RI}}}Net food imports by crop - Rice, milled/husked{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.RM:CC.NEFO.IMCR.RM{marker CC.NEFO.IMCR.RM}}}Net food imports by crop - Rice, milled{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.SB:CC.NEFO.IMCR.SB{marker CC.NEFO.IMCR.SB}}}Net food imports by crop - Soybeans{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.NEFO.IMCR.WH:CC.NEFO.IMCR.WH{marker CC.NEFO.IMCR.WH}}}Net food imports by crop - Wheat{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.PRO.ANI:CC.PRO.ANI{marker CC.PRO.ANI}}}Average supply of protein of animal origin (g/cap/day){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.PUN.TOTL:CC.PUN.TOTL{marker CC.PUN.TOTL}}}Prevalence of undernourishment (3-year average) (% of total){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.RIC.PECA:CC.RIC.PECA{marker CC.RIC.PECA}}}Rice supply quantity (g/capita/day){p_end}
+{synoptline}
+
+{right:(as of 18may2024)}
