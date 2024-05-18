@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -387,7 +387,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity, rural is the percentage of rural population with access to electricity.{p_end}
 
-{synopt:{opt Source Organization}}World Bank Global Electrification Database from Tracking SDG 7: The Energy Progress Report led jointly by the custodian agencies: the International Energy Agency (IEA), the International Renewable Energy Agency (IRENA), the United Nations Stat{p_end}
+{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
 
 
 {synoptline}
@@ -426,7 +426,7 @@
 
 {synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
-{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -452,7 +452,7 @@
 
 {synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
-{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions.{p_end}
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
 
 
 {synoptline}
@@ -521,97 +521,6 @@
 
 
 {synoptline}
-{marker topicid_SH.H2O.SAFE.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.RU.ZS:SH.H2O.SAFE.RU.ZS} - Improved water source, rural (% of rural population with access)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
-
-{synopt:{opt Source Notes}}Access to an improved water source, rural, refers to the percentage of the rural population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
-
-
-{synoptline}
-{marker topicid_SH.STA.ACSN.RU}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.ACSN.RU:SH.STA.ACSN.RU} - Improved sanitation facilities, rural (% of rural population with access)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
-
-{synopt:{opt Source Notes}}Access to improved sanitation facilities, rural, refers to the percentage of the rural population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
-
-
-{synoptline}
-{marker topicid_SI.POV.RUGP}
-{synopt:{bf:{help wbopendata_topicid##SI.POV.RUGP:SI.POV.RUGP} - Rural poverty gap at national poverty lines (%)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
-
-{synopt:{opt Source Notes}}Rural poverty gap at national poverty lines is the rural population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as wel{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
-
-
-{synoptline}
-{marker topicid_SI.POV.RUHC}
-{synopt:{bf:{help wbopendata_topicid##SI.POV.RUHC:SI.POV.RUHC} - Rural poverty headcount ratio at national poverty lines (% of rural population)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
-
-{synopt:{opt Source Notes}}Rural poverty headcount ratio is the percentage of the rural population living below the national poverty lines.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.AGR.EMPL.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.AGR.EMPL.FE.ZS:SL.AGR.EMPL.FE.ZS} - Employment in agriculture, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.AGR.EMPL.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.AGR.EMPL.MA.ZS:SL.AGR.EMPL.MA.ZS} - Employment in agriculture, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.AGR.EMPL.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.AGR.EMPL.ZS:SL.AGR.EMPL.ZS} - Employment in agriculture (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
 {marker topicid_SP.RUR.TOTL}
 {synopt:{bf:{help wbopendata_topicid##SP.RUR.TOTL:SP.RUR.TOTL} - Rural population}}
 
@@ -628,7 +537,7 @@
 {marker topicid_SP.RUR.TOTL.ZG}
 {synopt:{bf:{help wbopendata_topicid##SP.RUR.TOTL.ZG:SP.RUR.TOTL.ZG} - Rural population growth (annual %)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
@@ -641,7 +550,7 @@
 {marker topicid_SP.RUR.TOTL.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.RUR.TOTL.ZS:SP.RUR.TOTL.ZS} - Rural population (% of total population)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}40 Population estimates and projections{p_end}
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
@@ -650,31 +559,5 @@
 {synopt:{opt Source Organization}}World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects: 2018 Revision.{p_end}
 
 
-{synoptline}
-{marker topicid_TM.VAL.AGRI.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TM.VAL.AGRI.ZS.UN:TM.VAL.AGRI.ZS.UN} - Agricultural raw materials imports (% of merchandise imports)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
-
-{synopt:{opt Source Notes}}Agricultural raw materials comprise SITC section 2 (crude materials except fuels) excluding divisions 22, 27 (crude fertilizers and minerals excluding coal, petroleum, and precious stones), and 28 (metalliferous ores and scrap).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-{synoptline}
-{marker topicid_TX.VAL.AGRI.ZS.UN}
-{synopt:{bf:{help wbopendata_topicid##TX.VAL.AGRI.ZS.UN:TX.VAL.AGRI.ZS.UN} - Agricultural raw materials exports (% of merchandise exports)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
-
-{synopt:{opt Source Notes}}Agricultural raw materials comprise SITC section 2 (crude materials except fuels) excluding divisions 22, 27 (crude fertilizers and minerals excluding coal, petroleum, and precious stones), and 28 (metalliferous ores and scrap).{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
-
-
-
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}

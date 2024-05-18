@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1132,2062 +1132,8 @@
 
 
 {synoptline}
-{marker topicid_SL.AGR.0714.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.AGR.0714.FE.ZS:SL.AGR.0714.FE.ZS} - Child employment in agriculture, female (% of female economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.AGR.0714.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.AGR.0714.MA.ZS:SL.AGR.0714.MA.ZS} - Child employment in agriculture, male (% of male economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.AGR.0714.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.AGR.0714.ZS:SL.AGR.0714.ZS} - Child employment in agriculture (% of economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.AGR.EMPL.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.AGR.EMPL.FE.ZS:SL.AGR.EMPL.FE.ZS} - Employment in agriculture, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.AGR.EMPL.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.AGR.EMPL.MA.ZS:SL.AGR.EMPL.MA.ZS} - Employment in agriculture, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.AGR.EMPL.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.AGR.EMPL.ZS:SL.AGR.EMPL.ZS} - Employment in agriculture (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.1524.SP.FE.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.1524.SP.FE.NE.ZS:SL.EMP.1524.SP.FE.NE.ZS} - Employment to population ratio, ages 15-24, female (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.1524.SP.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.1524.SP.FE.ZS:SL.EMP.1524.SP.FE.ZS} - Employment to population ratio, ages 15-24, female (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.1524.SP.MA.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.1524.SP.MA.NE.ZS:SL.EMP.1524.SP.MA.NE.ZS} - Employment to population ratio, ages 15-24, male (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.1524.SP.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.1524.SP.MA.ZS:SL.EMP.1524.SP.MA.ZS} - Employment to population ratio, ages 15-24, male (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.1524.SP.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.1524.SP.NE.ZS:SL.EMP.1524.SP.NE.ZS} - Employment to population ratio, ages 15-24, total (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.1524.SP.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.1524.SP.ZS:SL.EMP.1524.SP.ZS} - Employment to population ratio, ages 15-24, total (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.INSV.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.INSV.FE.ZS:SL.EMP.INSV.FE.ZS} - Share of women in wage employment in the nonagricultural sector (% of total nonagricultural employment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural secto{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.MPYR.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.MPYR.FE.ZS:SL.EMP.MPYR.FE.ZS} - Employers, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.MPYR.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.MPYR.MA.ZS:SL.EMP.MPYR.MA.ZS} - Employers, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.MPYR.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.MPYR.ZS:SL.EMP.MPYR.ZS} - Employers, total (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.SELF.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.SELF.FE.ZS:SL.EMP.SELF.FE.ZS} - Self-employed, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.SELF.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.SELF.MA.ZS:SL.EMP.SELF.MA.ZS} - Self-employed, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.SELF.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.SELF.ZS:SL.EMP.SELF.ZS} - Self-employed, total (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.SMGT.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.SMGT.FE.ZS:SL.EMP.SMGT.FE.ZS} - Female share of employment in senior and middle management (%)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The proportion of females in total employment in senior and middle management. It corresponds to major group 1 in both ISCO-08 and ISCO-88 minus category 14 in ISCO-08 (hospitality, retail and other services managers) and minus category 13 in{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Market-related SDG Indicators database (ILOSDG)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.TOTL.SP.FE.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.TOTL.SP.FE.NE.ZS:SL.EMP.TOTL.SP.FE.NE.ZS} - Employment to population ratio, 15+, female (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.TOTL.SP.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.TOTL.SP.FE.ZS:SL.EMP.TOTL.SP.FE.ZS} - Employment to population ratio, 15+, female (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.TOTL.SP.MA.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.TOTL.SP.MA.NE.ZS:SL.EMP.TOTL.SP.MA.NE.ZS} - Employment to population ratio, 15+, male (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.TOTL.SP.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.TOTL.SP.MA.ZS:SL.EMP.TOTL.SP.MA.ZS} - Employment to population ratio, 15+, male (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.TOTL.SP.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.TOTL.SP.NE.ZS:SL.EMP.TOTL.SP.NE.ZS} - Employment to population ratio, 15+, total (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.TOTL.SP.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.TOTL.SP.ZS:SL.EMP.TOTL.SP.ZS} - Employment to population ratio, 15+, total (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.VULN.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.VULN.FE.ZS:SL.EMP.VULN.FE.ZS} - Vulnerable employment, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization, ILOSTAT at {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.VULN.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.VULN.MA.ZS:SL.EMP.VULN.MA.ZS} - Vulnerable employment, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization, ILOSTAT at {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.VULN.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.VULN.ZS:SL.EMP.VULN.ZS} - Vulnerable employment, total (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Vulnerable employment is contributing family workers and own-account workers as a percentage of total employment.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization, ILOSTAT at {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.WORK.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.WORK.FE.ZS:SL.EMP.WORK.FE.ZS} - Wage and salaried workers, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.WORK.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.WORK.MA.ZS:SL.EMP.WORK.MA.ZS} - Wage and salaried workers, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.EMP.WORK.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.EMP.WORK.ZS:SL.EMP.WORK.ZS} - Wage and salaried workers, total (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.FAM.0714.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.FAM.0714.FE.ZS:SL.FAM.0714.FE.ZS} - Children in employment, unpaid family workers, female (% of female children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unpaid family workers are people who work without pay in a market-oriented establishment operated by a related person living in the same household.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.FAM.0714.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.FAM.0714.MA.ZS:SL.FAM.0714.MA.ZS} - Children in employment, unpaid family workers, male (% of male children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unpaid family workers are people who work without pay in a market-oriented establishment operated by a related person living in the same household.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.FAM.0714.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.FAM.0714.ZS:SL.FAM.0714.ZS} - Children in employment, unpaid family workers (% of children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unpaid family workers are people who work without pay in a market-oriented establishment operated by a related person living in the same household.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.FAM.WORK.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.FAM.WORK.FE.ZS:SL.FAM.WORK.FE.ZS} - Contributing family workers, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Contributing family workers are those workers who hold self-employment jobs as own-account workers in a market-oriented establishment operated by a related person living in the same household.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.FAM.WORK.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.FAM.WORK.MA.ZS:SL.FAM.WORK.MA.ZS} - Contributing family workers, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Contributing family workers are those workers who hold self-employment jobs as own-account workers in a market-oriented establishment operated by a related person living in the same household.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.FAM.WORK.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.FAM.WORK.ZS:SL.FAM.WORK.ZS} - Contributing family workers, total (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Contributing family workers are those workers who hold self-employment jobs as own-account workers in a market-oriented establishment operated by a related person living in the same household.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.GDP.PCAP.EM.KD}
-{synopt:{bf:{help wbopendata_topicid##SL.GDP.PCAP.EM.KD:SL.GDP.PCAP.EM.KD} - GDP per person employed (constant 2017 PPP $)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}GDP per person employed is gross domestic product (GDP) divided by total employment in the economy. Purchasing power parity (PPP) GDP is GDP converted to 2017 constant international dollars using PPP rates. An international dollar has the same{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on employment, population, GDP, and PPP data obtained from International Labour Organization, United Nations Population Division, Eurostat, OECD, and World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.IND.EMPL.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.IND.EMPL.FE.ZS:SL.IND.EMPL.FE.ZS} - Employment in industry, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.IND.EMPL.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.IND.EMPL.MA.ZS:SL.IND.EMPL.MA.ZS} - Employment in industry, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.IND.EMPL.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.IND.EMPL.ZS:SL.IND.EMPL.ZS} - Employment in industry (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.ISV.IFRM.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.ISV.IFRM.FE.ZS:SL.ISV.IFRM.FE.ZS} - Informal employment, female (% of total non-agricultural employment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 20, 2020.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.ISV.IFRM.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.ISV.IFRM.MA.ZS:SL.ISV.IFRM.MA.ZS} - Informal employment, male (% of total non-agricultural employment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 20, 2020.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.ISV.IFRM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.ISV.IFRM.ZS:SL.ISV.IFRM.ZS} - Informal employment (% of total non-agricultural employment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 20, 2020.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.MNF.0714.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.MNF.0714.FE.ZS:SL.MNF.0714.FE.ZS} - Child employment in manufacturing, female (% of female economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Manufacturing corresponds to division 3 (ISIC revisio{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.MNF.0714.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.MNF.0714.MA.ZS:SL.MNF.0714.MA.ZS} - Child employment in manufacturing, male (% of male economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Manufacturing corresponds to division 3 (ISIC revisio{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.MNF.0714.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.MNF.0714.ZS:SL.MNF.0714.ZS} - Child employment in manufacturing (% of economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Manufacturing corresponds to division 3 (ISIC revisio{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.MNF.WAGE.FM}
-{synopt:{bf:{help wbopendata_topicid##SL.MNF.WAGE.FM:SL.MNF.WAGE.FM} - Ratio of female to male wages in manufacturing (%)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Ratio of female to male wages in manufacturing refers to female to male wages and salaries in manufacturing.{p_end}
-
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.SLF.0714.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.SLF.0714.FE.ZS:SL.SLF.0714.FE.ZS} - Children in employment, self-employed, female (% of female children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Self-employed workers are people whose remuneration depends directly on the profits derived from the goods and services they produce, with or without other employees, and include employers, own-account workers, and members of producers coopera{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.SLF.0714.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.SLF.0714.MA.ZS:SL.SLF.0714.MA.ZS} - Children in employment, self-employed, male (% of male children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Self-employed workers are people whose remuneration depends directly on the profits derived from the goods and services they produce, with or without other employees, and include employers, own-account workers, and members of producers coopera{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.SLF.0714.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.SLF.0714.ZS:SL.SLF.0714.ZS} - Children in employment, self-employed (% of children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Self-employed workers are people whose remuneration depends directly on the profits derived from the goods and services they produce, with or without other employees, and include employers, own-account workers, and members of producers coopera{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.SRV.0714.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.SRV.0714.FE.ZS:SL.SRV.0714.FE.ZS} - Child employment in services, female (% of female economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Services correspond to divisions 6-9 (ISIC revision 2{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.SRV.0714.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.SRV.0714.MA.ZS:SL.SRV.0714.MA.ZS} - Child employment in services, male (% of male economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Services correspond to divisions 6-9 (ISIC revision 2{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.SRV.0714.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.SRV.0714.ZS:SL.SRV.0714.ZS} - Child employment in services (% of economically active children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Services correspond to divisions 6-9 (ISIC revision 2{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.SRV.EMPL.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.SRV.EMPL.FE.ZS:SL.SRV.EMPL.FE.ZS} - Employment in services, female (% of female employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.SRV.EMPL.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.SRV.EMPL.MA.ZS:SL.SRV.EMPL.MA.ZS} - Employment in services, male (% of male employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.SRV.EMPL.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.SRV.EMPL.ZS:SL.SRV.EMPL.ZS} - Employment in services (% of total employment) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed January 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.0714.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.FE.ZS:SL.TLF.0714.FE.ZS} - Children in employment, female (% of female children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.0714.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.MA.ZS:SL.TLF.0714.MA.ZS} - Children in employment, male (% of male children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.0714.SW.FE.TM}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.FE.TM:SL.TLF.0714.SW.FE.TM} - Average working hours of children, study and work, female, ages 7-14 (hours per week)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Average working hours of children studying and working refer to the average weekly working hours of those children who are attending school in combination with economic activity.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.0714.SW.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.FE.ZS:SL.TLF.0714.SW.FE.ZS} - Children in employment, study and work, female (% of female children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey. Study and work refer to children attending school in combination with economic activity.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.0714.SW.MA.TM}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.MA.TM:SL.TLF.0714.SW.MA.TM} - Average working hours of children, study and work, male, ages 7-14 (hours per week)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Average working hours of children studying and working refer to the average weekly working hours of those children who are attending school in combination with economic activity.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.0714.SW.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.MA.ZS:SL.TLF.0714.SW.MA.ZS} - Children in employment, study and work, male (% of male children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey. Study and work refer to children attending school in combination with economic activity.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.0714.SW.TM}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.TM:SL.TLF.0714.SW.TM} - Average working hours of children, study and work, ages 7-14 (hours per week)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Average working hours of children studying and working refer to the average weekly working hours of those children who are attending school in combination with economic activity.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.0714.SW.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.SW.ZS:SL.TLF.0714.SW.ZS} - Children in employment, study and work (% of children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey. Study and work refer to children attending school in combination with economic activity.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.0714.WK.FE.TM}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.FE.TM:SL.TLF.0714.WK.FE.TM} - Average working hours of children, working only, female, ages 7-14 (hours per week)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Average working hours of children working only refers to the average weekly working hours of those children who are involved in economic activity and not attending school.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.0714.WK.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.FE.ZS:SL.TLF.0714.WK.FE.ZS} - Children in employment, work only, female (% of female children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey. Work only refers to children involved in economic activity and not attending school.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.0714.WK.MA.TM}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.MA.TM:SL.TLF.0714.WK.MA.TM} - Average working hours of children, working only, male, ages 7-14 (hours per week)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Average working hours of children working only refers to the average weekly working hours of those children who are involved in economic activity and not attending school.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.0714.WK.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.MA.ZS:SL.TLF.0714.WK.MA.ZS} - Children in employment, work only, male (% of male children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey. Work only refers to children involved in economic activity and not attending school.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.0714.WK.TM}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.TM:SL.TLF.0714.WK.TM} - Average working hours of children, working only, ages 7-14 (hours per week)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Average working hours of children working only refers to the average weekly working hours of those children who are involved in economic activity and not attending school.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.0714.WK.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.WK.ZS:SL.TLF.0714.WK.ZS} - Children in employment, work only (% of children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey. Work only refers to children involved in economic activity and not attending school.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.0714.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.0714.ZS:SL.TLF.0714.ZS} - Children in employment, total (% of children ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.1564.FE.IN}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.1564.FE.IN:SL.TLF.1564.FE.IN} - Labor force (15-64 years), female}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The labor force comprising people ages 15 to 64 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.1564.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.1564.FE.ZS:SL.TLF.1564.FE.ZS} - Labor force (15-64 years), female (% of total labor force 15-64 years)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The labor force comprising people ages 15 to 64 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.1564.IN}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.1564.IN:SL.TLF.1564.IN} - Labor force (15-64 years), total}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The labor force comprising people ages 15 to 64 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.1564.MA.IN}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.1564.MA.IN:SL.TLF.1564.MA.IN} - Labor force (15-64 years), male}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The labor force comprising people ages 15 to 64 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.1564.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.1564.MA.ZS:SL.TLF.1564.MA.ZS} - Labor force (15-64 years), male (% of total labor force 15-64 years)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The labor force comprising people ages 15 to 64 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.ACTI.1524.FE.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.FE.NE.ZS:SL.TLF.ACTI.1524.FE.NE.ZS} - Labor force participation rate for ages 15-24, female (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.ACTI.1524.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.FE.ZS:SL.TLF.ACTI.1524.FE.ZS} - Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.ACTI.1524.MA.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.MA.NE.ZS:SL.TLF.ACTI.1524.MA.NE.ZS} - Labor force participation rate for ages 15-24, male (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.ACTI.1524.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.MA.ZS:SL.TLF.ACTI.1524.MA.ZS} - Labor force participation rate for ages 15-24, male (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.ACTI.1524.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.NE.ZS:SL.TLF.ACTI.1524.NE.ZS} - Labor force participation rate for ages 15-24, total (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.ACTI.1524.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.1524.ZS:SL.TLF.ACTI.1524.ZS} - Labor force participation rate for ages 15-24, total (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate for ages 15-24 is the proportion of the population ages 15-24 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.ACTI.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.FE.ZS:SL.TLF.ACTI.FE.ZS} - Labor force participation rate, female (% of female population ages 15-64) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15-64 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed June 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.ACTI.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.MA.ZS:SL.TLF.ACTI.MA.ZS} - Labor force participation rate, male (% of male population ages 15-64) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15-64 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed June 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.ACTI.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ACTI.ZS:SL.TLF.ACTI.ZS} - Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15-64 that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO modelled estimates database” ILOSTAT. Accessed June 2021. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.ADVN.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ADVN.FE.ZS:SL.TLF.ADVN.FE.ZS} - Labor force with advanced education, female (% of female working-age population with advanced education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with advanced education to the working-age population with advanced education. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree o{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.ADVN.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ADVN.MA.ZS:SL.TLF.ADVN.MA.ZS} - Labor force with advanced education, male (% of male working-age population with advanced education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with advanced education to the working-age population with advanced education. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree o{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.ADVN.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.ADVN.ZS:SL.TLF.ADVN.ZS} - Labor force with advanced education (% of total working-age population with advanced education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with advanced education to the working-age population with advanced education. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree o{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.BASC.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.BASC.FE.ZS:SL.TLF.BASC.FE.ZS} - Labor force with basic education, female (% of female working-age population with basic education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with basic education to the working-age population with basic education. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.BASC.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.BASC.MA.ZS:SL.TLF.BASC.MA.ZS} - Labor force with basic education, male (% of male working-age population with basic education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with basic education to the working-age population with basic education. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.BASC.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.BASC.ZS:SL.TLF.BASC.ZS} - Labor force with basic education (% of total working-age population with basic education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with basic education to the working-age population with basic education. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.CACT.FE.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.FE.NE.ZS:SL.TLF.CACT.FE.NE.ZS} - Labor force participation rate, female (% of female population ages 15+) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.CACT.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.FE.ZS:SL.TLF.CACT.FE.ZS} - Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.CACT.FM.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.FM.NE.ZS:SL.TLF.CACT.FM.NE.ZS} - Ratio of female to male labor force participation rate (%) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period. Ratio of female to male labor for{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization, ILOSTAT at {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.CACT.FM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.FM.ZS:SL.TLF.CACT.FM.ZS} - Ratio of female to male labor force participation rate (%) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period. Ratio of female to male labor for{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization, ILOSTAT at {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.CACT.MA.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.MA.NE.ZS:SL.TLF.CACT.MA.NE.ZS} - Labor force participation rate, male (% of male population ages 15+) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.CACT.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.MA.ZS:SL.TLF.CACT.MA.ZS} - Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.CACT.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.NE.ZS:SL.TLF.CACT.NE.ZS} - Labor force participation rate, total (% of total population ages 15+) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.CACT.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.CACT.ZS:SL.TLF.CACT.ZS} - Labor force participation rate, total (% of total population ages 15+) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.INTM.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.INTM.FE.ZS:SL.TLF.INTM.FE.ZS} - Labor force with intermediate education, female (% of female working-age population with intermediate education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with intermediate education to the working-age population with intermediate education. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standa{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.INTM.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.INTM.MA.ZS:SL.TLF.INTM.MA.ZS} - Labor force with intermediate education, male (% of male working-age population with intermediate education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with intermediate education to the working-age population with intermediate education. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standa{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.INTM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.INTM.ZS:SL.TLF.INTM.ZS} - Labor force with intermediate education (% of total working-age population with intermediate education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The ratio of the labor force with intermediate education to the working-age population with intermediate education. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standa{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.PART.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.PART.FE.ZS:SL.TLF.PART.FE.ZS} - Part time employment, female (% of total female employment)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Wages and Working Time Statistics database (COND)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.PART.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.PART.MA.ZS:SL.TLF.PART.MA.ZS} - Part time employment, male (% of total male employment)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Wages and Working Time Statistics database (COND)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.PART.TL.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.PART.TL.FE.ZS:SL.TLF.PART.TL.FE.ZS} - Part time employment, female (% of total part time employment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 1, 2020.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.PART.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.PART.ZS:SL.TLF.PART.ZS} - Part time employment, total (% of total employment)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Wages and Working Time Statistics database (COND)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.PRIM.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.PRIM.FE.ZS:SL.TLF.PRIM.FE.ZS} - Labor force with primary education, female (% of female labor force)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Female labor force with primary education is the share of the female labor force that attained or completed primary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.PRIM.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.PRIM.MA.ZS:SL.TLF.PRIM.MA.ZS} - Labor force with primary education, male (% of male labor force)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Male labor force with primary education is the share of the male labor force that attained or completed primary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.PRIM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.PRIM.ZS:SL.TLF.PRIM.ZS} - Labor force with primary education (% of total)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force with primary education is the share of the total labor force that attained or completed primary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.SECO.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.SECO.FE.ZS:SL.TLF.SECO.FE.ZS} - Labor force with secondary education, female (% of female labor force)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Female labor force with secondary education is the share of the female labor force that attained or completed secondary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.SECO.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.SECO.MA.ZS:SL.TLF.SECO.MA.ZS} - Labor force with secondary education, male (% of male labor force)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Male labor force with secondary education is the share of the male labor force that attained or completed secondary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.SECO.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.SECO.ZS:SL.TLF.SECO.ZS} - Labor force with secondary education (% of total)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force with secondary education is the share of the total labor force that attained or completed secondary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.TERT.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.TERT.FE.ZS:SL.TLF.TERT.FE.ZS} - Labor force with tertiary education, female (% of female labor force)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Female labor force with tertiary education is the share of the female labor force that attained or completed tertiary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.TERT.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.TERT.MA.ZS:SL.TLF.TERT.MA.ZS} - Labor force with tertiary education, male (% of male labor force)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Male labor force with tertiary education is the share of the male labor force that attained or completed tertiary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.TERT.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.TERT.ZS:SL.TLF.TERT.ZS} - Labor force with tertiary education (% of total)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force with tertiary education is the share of the total labor force that attained or completed tertiary education as the highest level of education.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.TOTL.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.TOTL.FE.ZS:SL.TLF.TOTL.FE.ZS} - Labor force, female (% of total labor force)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Female labor force as a percentage of the total show the extent to which women are active in the labor force. Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization and United Nations Population Division.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.TLF.TOTL.IN}
-{synopt:{bf:{help wbopendata_topicid##SL.TLF.TOTL.IN:SL.TLF.TOTL.IN} - Labor force, total}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period. It includes people who are currently employed and people who are unemployed but seeking work as well as first-t{p_end}
-
-{synopt:{opt Source Organization}}World Bank, World Development Indicators database. Estimates are based on data obtained from International Labour Organization and United Nations Population Division.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.1524.FE.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.1524.FE.NE.ZS:SL.UEM.1524.FE.NE.ZS} - Unemployment, youth female (% of female labor force ages 15-24) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.1524.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.1524.FE.ZS:SL.UEM.1524.FE.ZS} - Unemployment, youth female (% of female labor force ages 15-24) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.1524.MA.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.1524.MA.NE.ZS:SL.UEM.1524.MA.NE.ZS} - Unemployment, youth male (% of male labor force ages 15-24) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.1524.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.1524.MA.ZS:SL.UEM.1524.MA.ZS} - Unemployment, youth male (% of male labor force ages 15-24) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.1524.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.1524.NE.ZS:SL.UEM.1524.NE.ZS} - Unemployment, youth total (% of total labor force ages 15-24) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.1524.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.1524.ZS:SL.UEM.1524.ZS} - Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.ADVN.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.ADVN.FE.ZS:SL.UEM.ADVN.FE.ZS} - Unemployment with advanced education, female (% of female labor force with advanced education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent educa{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.ADVN.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.ADVN.MA.ZS:SL.UEM.ADVN.MA.ZS} - Unemployment with advanced education, male (% of male labor force with advanced education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent educa{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.ADVN.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.ADVN.ZS:SL.UEM.ADVN.ZS} - Unemployment with advanced education (% of total labor force with advanced education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent educa{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.BASC.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.BASC.FE.ZS:SL.UEM.BASC.FE.ZS} - Unemployment with basic education, female (% of female labor force with basic education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.BASC.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.BASC.MA.ZS:SL.UEM.BASC.MA.ZS} - Unemployment with basic education, male (% of male labor force with basic education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.BASC.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.BASC.ZS:SL.UEM.BASC.ZS} - Unemployment with basic education (% of total labor force with basic education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.INTM.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.INTM.FE.ZS:SL.UEM.INTM.FE.ZS} - Unemployment with intermediate education, female (% of female labor force with intermediate education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of E{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.INTM.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.INTM.MA.ZS:SL.UEM.INTM.MA.ZS} - Unemployment with intermediate education, male (% of male labor force with intermediate education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of E{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.INTM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.INTM.ZS:SL.UEM.INTM.ZS} - Unemployment with intermediate education (% of total labor force with intermediate education)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of E{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Education and Mismatch Indicators database (EMI)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.LTRM.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.LTRM.FE.ZS:SL.UEM.LTRM.FE.ZS} - Long-term unemployment, female (% of female unemployment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Long-term unemployment refers to the number of people with continuous periods of unemployment extending for a year or longer, expressed as a percentage of the total unemployed.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.LTRM.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.LTRM.MA.ZS:SL.UEM.LTRM.MA.ZS} - Long-term unemployment, male (% of male unemployment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Long-term unemployment refers to the number of people with continuous periods of unemployment extending for a year or longer, expressed as a percentage of the total unemployed.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.LTRM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.LTRM.ZS:SL.UEM.LTRM.ZS} - Long-term unemployment (% of total unemployment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Long-term unemployment refers to the number of people with continuous periods of unemployment extending for a year or longer, expressed as a percentage of the total unemployed.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.NEET.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.NEET.FE.ZS:SL.UEM.NEET.FE.ZS} - Share of youth not in education, employment or training, female (% of female youth population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.NEET.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.NEET.MA.ZS:SL.UEM.NEET.MA.ZS} - Share of youth not in education, employment or training, male (% of male youth population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.NEET.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.NEET.ZS:SL.UEM.NEET.ZS} - Share of youth not in education, employment or training, total (% of youth population)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.PRIM.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.PRIM.FE.ZS:SL.UEM.PRIM.FE.ZS} - Unemployment with primary education, female (% of female unemployment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Female unemployment with primary education is the share of the female unemployed who attained or completed primary education as the highest level.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.PRIM.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.PRIM.MA.ZS:SL.UEM.PRIM.MA.ZS} - Unemployment with primary education, male (% of male unemployment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Male unemployment with primary education is the share of the male unemployed who attained or completed primary education as the highest level.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.PRIM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.PRIM.ZS:SL.UEM.PRIM.ZS} - Unemployment with primary education (% of total unemployment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unemployment with primary education is the share of the total unemployed who attained or completed primary education as the highest level.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.SECO.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.SECO.FE.ZS:SL.UEM.SECO.FE.ZS} - Unemployment with secondary education, female (% of female unemployment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Female unemployment with secondary education is the share of the female unemployed who attained or completed secondary education as the highest level.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.SECO.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.SECO.MA.ZS:SL.UEM.SECO.MA.ZS} - Unemployment with secondary education, male (% of male unemployment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Male unemployment with secondary education is the share of the male unemployed who attained or completed secondary education as the highest level.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.SECO.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.SECO.ZS:SL.UEM.SECO.ZS} - Unemployment with secondary education (% of total unemployment)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unemployment with secondary education is the share of the total unemployed who attained or completed secondary education as the highest level.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.TERT.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.TERT.FE.ZS:SL.UEM.TERT.FE.ZS} - Unemployment with tertiary education, female (% of female unemployment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Female unemployment with tertiary education is the share of the female unemployed who attained or completed tertiary education as the highest level.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.TERT.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.TERT.MA.ZS:SL.UEM.TERT.MA.ZS} - Unemployment with tertiary education, male (% of male unemployment)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Male unemployment with tertiary education is the share of the male unemployed who attained or completed tertiary education as the highest level.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.TERT.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.TERT.ZS:SL.UEM.TERT.ZS} - Unemployment with tertiary education (% of total unemployment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unemployment with tertiary education is the share of the total unemployed who attained or completed tertiary education as the highest level.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.TOTL.FE.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.FE.NE.ZS:SL.UEM.TOTL.FE.NE.ZS} - Unemployment, female (% of female labor force) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.TOTL.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.FE.ZS:SL.UEM.TOTL.FE.ZS} - Unemployment, female (% of female labor force) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.TOTL.MA.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.MA.NE.ZS:SL.UEM.TOTL.MA.NE.ZS} - Unemployment, male (% of male labor force) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.TOTL.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.MA.ZS:SL.UEM.TOTL.MA.ZS} - Unemployment, male (% of male labor force) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.TOTL.NE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.NE.ZS:SL.UEM.TOTL.NE.ZS} - Unemployment, total (% of total labor force) (national estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “Labour Force Statistics database (LFS)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.UEM.TOTL.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.ZS:SL.UEM.TOTL.ZS} - Unemployment, total (% of total labor force) (modeled ILO estimate)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization. “ILO Modelled Estimates and Projections database (ILOEST)” ILOSTAT. Accessed December 6, 2022. {browse "https://ilostat.ilo.org/data/"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.WAG.0714.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.WAG.0714.FE.ZS:SL.WAG.0714.FE.ZS} - Children in employment, wage workers, female (% of female children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Wage workers (also known as employees) are people who hold explicit (written or oral) or implicit employment contracts that provide basic remuneration that does not depend directly on the revenue of the unit for which they work.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.WAG.0714.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.WAG.0714.MA.ZS:SL.WAG.0714.MA.ZS} - Children in employment, wage workers, male (% of male children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Wage workers (also known as employees) are people who hold explicit (written or oral) or implicit employment contracts that provide basic remuneration that does not depend directly on the revenue of the unit for which they work.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker topicid_SL.WAG.0714.ZS}
-{synopt:{bf:{help wbopendata_topicid##SL.WAG.0714.ZS:SL.WAG.0714.ZS} - Children in employment, wage workers (% of children in employment, ages 7-14)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Wage workers (also known as employees) are people who hold explicit (written or oral) or implicit employment contracts that provide basic remuneration that does not depend directly on the revenue of the unit for which they work.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
 {marker topicid_per_allsp.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.adq_ep_preT_tot:per_allsp.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) -All Social Protection and Labor  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.adq_ep_preT_tot:per_allsp.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3200,7 +1146,7 @@
 
 {synoptline}
 {marker topicid_per_allsp.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.adq_ep_tot:per_allsp.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) -All Social Protection and Labor}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.adq_ep_tot:per_allsp.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3525,7 +1471,7 @@
 
 {synoptline}
 {marker topicid_per_allsp.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.avt_ep_preT_tot:per_allsp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) -All Social Protection and Labor  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.avt_ep_preT_tot:per_allsp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) -All Social Protection and Labor  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3538,7 +1484,7 @@
 
 {synoptline}
 {marker topicid_per_allsp.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.avt_ep_tot:per_allsp.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) -All Social Protection and Labor}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.avt_ep_tot:per_allsp.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3863,7 +1809,7 @@
 
 {synoptline}
 {marker topicid_per_allsp.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.ben_ep_preT_tot:per_allsp.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) -All Social Protection and Labor  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.ben_ep_preT_tot:per_allsp.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3876,7 +1822,7 @@
 
 {synoptline}
 {marker topicid_per_allsp.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.ben_ep_tot:per_allsp.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) -All Social Protection and Labor}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.ben_ep_tot:per_allsp.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4149,7 +2095,7 @@
 
 {synoptline}
 {marker topicid_per_allsp.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.bry_ep_preT_tot:per_allsp.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) -All Social Protection and Labor  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.bry_ep_preT_tot:per_allsp.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4162,7 +2108,7 @@
 
 {synoptline}
 {marker topicid_per_allsp.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.bry_ep_tot:per_allsp.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) -All Social Protection and Labor}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.bry_ep_tot:per_allsp.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4434,34 +2380,8 @@
 
 
 {synoptline}
-{marker topicid_per_allsp.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.cba_ep_preT_tot:per_allsp.cba_ep_preT_tot} - Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
 {marker topicid_per_allsp.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.cba_ep_tot:per_allsp.cba_ep_tot} - Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.9 a day)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_allsp.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.cba_q1_preT_tot:per_allsp.cba_q1_preT_tot} - Benefit-cost ratio - All Social Protection and Labor -1st quintile (poorest) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.cba_ep_tot:per_allsp.cba_ep_tot} - Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4513,7 +2433,7 @@
 
 {synoptline}
 {marker topicid_per_allsp.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.cov_ep_preT_tot:per_allsp.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) -All Social Protection and Labor  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.cov_ep_preT_tot:per_allsp.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4526,7 +2446,7 @@
 
 {synoptline}
 {marker topicid_per_allsp.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp.cov_ep_tot:per_allsp.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) -All Social Protection and Labor}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp.cov_ep_tot:per_allsp.cov_ep_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4850,19 +2770,6 @@
 
 
 {synoptline}
-{marker topicid_per_allsp_gini_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp_gini_preT_tot:per_allsp_gini_preT_tot} - Gini inequality index reduction (%) - All Social Protection and Labor (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
 {marker topicid_per_allsp_gini_rur}
 {synopt:{bf:{help wbopendata_topicid##per_allsp_gini_rur:per_allsp_gini_rur} - Gini inequality index reduction (%) - All Social Protection and Labor -rural}}
 
@@ -4902,34 +2809,8 @@
 
 
 {synoptline}
-{marker topicid_per_allsp_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp_p0_ep_preT_tot:per_allsp_p0_ep_preT_tot} - Poverty Headcount reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
 {marker topicid_per_allsp_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp_p0_ep_tot:per_allsp_p0_ep_tot} - Poverty Headcount reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.9 a day)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_allsp_p0_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp_p0_preT_tot:per_allsp_p0_preT_tot} - Poverty Headcount reduction (%) - All Social Protection and Labor -1st quintile (poorest) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp_p0_ep_tot:per_allsp_p0_ep_tot} - Poverty Headcount reduction (%) - All Social Protection and Labor -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4980,34 +2861,8 @@
 
 
 {synoptline}
-{marker topicid_per_allsp_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp_p1_ep_preT_tot:per_allsp_p1_ep_preT_tot} - Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
 {marker topicid_per_allsp_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp_p1_ep_tot:per_allsp_p1_ep_tot} - Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.9 a day)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_allsp_p1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_allsp_p1_preT_tot:per_allsp_p1_preT_tot} - Poverty Gap reduction (%) - All Social Protection and Labor -1st quintile (poorest) (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_allsp_p1_ep_tot:per_allsp_p1_ep_tot} - Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5059,7 +2914,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.adq_ep_preT_tot:per_lm_ac.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Active Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.adq_ep_preT_tot:per_lm_ac.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5072,7 +2927,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.adq_ep_tot:per_lm_ac.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Active Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.adq_ep_tot:per_lm_ac.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5397,26 +3252,26 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.avt_ep_preT_tot:per_lm_ac.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Active Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.avt_ep_preT_tot:per_lm_ac.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Active Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_ac.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.avt_ep_tot:per_lm_ac.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Active Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.avt_ep_tot:per_lm_ac.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5429,7 +3284,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5442,7 +3297,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5455,7 +3310,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5468,7 +3323,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5481,7 +3336,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5494,7 +3349,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5507,7 +3362,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5520,7 +3375,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5533,7 +3388,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5546,7 +3401,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5559,7 +3414,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5572,7 +3427,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5585,7 +3440,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5598,7 +3453,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5611,7 +3466,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5624,7 +3479,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5637,7 +3492,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5650,7 +3505,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5663,7 +3518,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5676,7 +3531,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5689,7 +3544,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5702,7 +3557,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5715,7 +3570,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5728,14 +3583,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Active Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_ac.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.ben_ep_preT_tot:per_lm_ac.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Active Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.ben_ep_preT_tot:per_lm_ac.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5748,7 +3603,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.ben_ep_tot:per_lm_ac.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Active Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.ben_ep_tot:per_lm_ac.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6021,7 +3876,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.bry_ep_preT_tot:per_lm_ac.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Active Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.bry_ep_preT_tot:per_lm_ac.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6034,7 +3889,7 @@
 
 {synoptline}
 {marker topicid_per_lm_ac.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.bry_ep_tot:per_lm_ac.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Active Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.bry_ep_tot:per_lm_ac.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6306,40 +4161,14 @@
 
 
 {synoptline}
-{marker topicid_per_lm_ac.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.cba_ep_preT_tot:per_lm_ac.cba_ep_preT_tot} - Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
 {marker topicid_per_lm_ac.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.cba_ep_tot:per_lm_ac.cba_ep_tot} - Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.cba_ep_tot:per_lm_ac.cba_ep_tot} - Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_lm_ac.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.cba_q1_preT_tot:per_lm_ac.cba_q1_preT_tot} - Benefit-cost ratio -  Active Labor Market  -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Active Labor Market programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6352,7 +4181,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Active Labor Market programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6365,7 +4194,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Active Labor Market programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6378,33 +4207,33 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Active Labor Market programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_ac.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.cov_ep_preT_tot:per_lm_ac.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Active Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.cov_ep_preT_tot:per_lm_ac.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_ac.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac.cov_ep_tot:per_lm_ac.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Active Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac.cov_ep_tot:per_lm_ac.cov_ep_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6417,7 +4246,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6430,7 +4259,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6443,7 +4272,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6456,7 +4285,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6469,7 +4298,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6482,7 +4311,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6495,7 +4324,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6508,7 +4337,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6521,7 +4350,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6534,7 +4363,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6547,7 +4376,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6560,7 +4389,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6573,7 +4402,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6586,7 +4415,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6599,7 +4428,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6612,7 +4441,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6625,7 +4454,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6638,7 +4467,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6651,7 +4480,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6664,7 +4493,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6677,7 +4506,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6690,7 +4519,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6703,7 +4532,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6716,20 +4545,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_lm_ac_gini_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac_gini_preT_tot:per_lm_ac_gini_preT_tot} - Gini inequality index reduction (%) -  Active Labor Market (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Active Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6742,7 +4558,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Active Labor Market programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6755,7 +4571,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Active Labor Market programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6768,46 +4584,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_lm_ac_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac_p0_ep_preT_tot:per_lm_ac_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Active Labor Market programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_ac_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac_p0_ep_tot:per_lm_ac_p0_ep_tot} - Poverty Headcount reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac_p0_ep_tot:per_lm_ac_p0_ep_tot} - Poverty Headcount reduction (%) -  Active Labor Market  -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_lm_ac_p0_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac_p0_preT_tot:per_lm_ac_p0_preT_tot} - Poverty Headcount reduction (%) -  Active Labor Market  -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Active Labor Market programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6820,7 +4610,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Active Labor Market programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6833,7 +4623,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Active Labor Market programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6846,46 +4636,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_lm_ac_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac_p1_ep_preT_tot:per_lm_ac_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Active Labor Market programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_ac_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac_p1_ep_tot:per_lm_ac_p1_ep_tot} - Poverty Gap reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_ac_p1_ep_tot:per_lm_ac_p1_ep_tot} - Poverty Gap reduction (%) -  Active Labor Market  -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_lm_ac_p1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_ac_p1_preT_tot:per_lm_ac_p1_preT_tot} - Poverty Gap reduction (%) -  Active Labor Market  -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Active Labor Market programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6898,7 +4662,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Active Labor Market programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6911,7 +4675,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Active Labor Market programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -6924,14 +4688,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Active Labor Market programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.adq_ep_preT_tot:per_lm_alllm.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - All Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.adq_ep_preT_tot:per_lm_alllm.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - All Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6944,7 +4708,7 @@
 
 {synoptline}
 {marker topicid_per_lm_alllm.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.adq_ep_tot:per_lm_alllm.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - All Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.adq_ep_tot:per_lm_alllm.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - All Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -7269,26 +5033,26 @@
 
 {synoptline}
 {marker topicid_per_lm_alllm.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.avt_ep_preT_tot:per_lm_alllm.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - All Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.avt_ep_preT_tot:per_lm_alllm.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.avt_ep_tot:per_lm_alllm.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - All Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.avt_ep_tot:per_lm_alllm.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7301,7 +5065,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7314,7 +5078,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7327,7 +5091,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7340,7 +5104,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7353,7 +5117,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7366,7 +5130,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7379,7 +5143,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7392,7 +5156,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7405,7 +5169,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7418,7 +5182,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7431,7 +5195,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7444,7 +5208,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7457,7 +5221,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7470,7 +5234,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7483,7 +5247,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7496,7 +5260,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7509,7 +5273,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7522,7 +5286,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7535,7 +5299,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7548,7 +5312,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7561,7 +5325,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7574,7 +5338,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7587,7 +5351,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -7600,14 +5364,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Labor Market programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.ben_ep_preT_tot:per_lm_alllm.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - All Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.ben_ep_preT_tot:per_lm_alllm.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - All Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -7620,7 +5384,7 @@
 
 {synoptline}
 {marker topicid_per_lm_alllm.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.ben_ep_tot:per_lm_alllm.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - All Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.ben_ep_tot:per_lm_alllm.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - All Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -7893,7 +5657,7 @@
 
 {synoptline}
 {marker topicid_per_lm_alllm.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.bry_ep_preT_tot:per_lm_alllm.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - All Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.bry_ep_preT_tot:per_lm_alllm.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - All Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -7906,7 +5670,7 @@
 
 {synoptline}
 {marker topicid_per_lm_alllm.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.bry_ep_tot:per_lm_alllm.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - All Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.bry_ep_tot:per_lm_alllm.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - All Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8178,40 +5942,14 @@
 
 
 {synoptline}
-{marker topicid_per_lm_alllm.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cba_ep_preT_tot:per_lm_alllm.cba_ep_preT_tot} - Benefit-cost ratio -  All Labor Market  -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
 {marker topicid_per_lm_alllm.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cba_ep_tot:per_lm_alllm.cba_ep_tot} - Benefit-cost ratio -  All Labor Market  -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cba_ep_tot:per_lm_alllm.cba_ep_tot} - Benefit-cost ratio -  All Labor Market  -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_lm_alllm.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cba_q1_preT_tot:per_lm_alllm.cba_q1_preT_tot} - Benefit-cost ratio -  All Labor Market  -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Labor Market programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8224,7 +5962,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Labor Market programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8237,7 +5975,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Labor Market programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8250,33 +5988,33 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Labor Market programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cov_ep_preT_tot:per_lm_alllm.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - All Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cov_ep_preT_tot:per_lm_alllm.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - All Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cov_ep_tot:per_lm_alllm.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - All Labor Market}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm.cov_ep_tot:per_lm_alllm.cov_ep_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - All Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8289,7 +6027,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8302,7 +6040,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8328,7 +6066,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8341,7 +6079,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8354,7 +6092,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8380,7 +6118,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8393,7 +6131,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8406,7 +6144,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8432,7 +6170,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8445,7 +6183,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8458,7 +6196,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8484,7 +6222,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8497,7 +6235,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8510,7 +6248,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8536,7 +6274,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8549,7 +6287,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8562,7 +6300,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8588,20 +6326,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_lm_alllm_gini_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_gini_preT_tot:per_lm_alllm_gini_preT_tot} - Gini inequality index reduction (%) -  All Labor Market (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Labor Market programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8614,7 +6339,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Labor Market programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8627,7 +6352,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Labor Market programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8640,46 +6365,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_lm_alllm_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_p0_ep_preT_tot:per_lm_alllm_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  All Labor Market  -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Labor Market programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_p0_ep_tot:per_lm_alllm_p0_ep_tot} - Poverty Headcount reduction (%) -  All Labor Market  -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_p0_ep_tot:per_lm_alllm_p0_ep_tot} - Poverty Headcount reduction (%) -  All Labor Market  -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_lm_alllm_p0_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_p0_preT_tot:per_lm_alllm_p0_preT_tot} - Poverty Headcount reduction (%) -  All Labor Market  -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Labor Market programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8692,7 +6391,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Labor Market programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8705,7 +6404,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Labor Market programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8718,46 +6417,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_lm_alllm_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_p1_ep_preT_tot:per_lm_alllm_p1_ep_preT_tot} - Poverty Gap reduction (%) -  All Labor Market  -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Labor Market programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lm_alllm_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_p1_ep_tot:per_lm_alllm_p1_ep_tot} - Poverty Gap reduction (%) -  All Labor Market  -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_p1_ep_tot:per_lm_alllm_p1_ep_tot} - Poverty Gap reduction (%) -  All Labor Market  -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_lm_alllm_p1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lm_alllm_p1_preT_tot:per_lm_alllm_p1_preT_tot} - Poverty Gap reduction (%) -  All Labor Market  -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Labor Market programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8770,7 +6443,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Labor Market programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8783,7 +6456,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Labor Market programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -8796,14 +6469,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Labor Market programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_lmonl.overlap_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lmonl.overlap_ep_preT_tot:per_lmonl.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) only receiving Labor Market (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lmonl.overlap_ep_preT_tot:per_lmonl.overlap_ep_preT_tot} - Population in extreme poor (&lt;$2.15 a day) only receiving Labor Market (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8816,20 +6489,7 @@
 
 {synoptline}
 {marker topicid_per_lmonl.overlap_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lmonl.overlap_ep_tot:per_lmonl.overlap_ep_tot} - Population in extreme poor (&lt;$1.9 a day) only receiving Labor Market (%)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Percentage of population only receiving Labor Market programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_lmonl.overlap_pop_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_lmonl.overlap_pop_preT_tot:per_lmonl.overlap_pop_preT_tot} - Population only receiving Labor Market (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_lmonl.overlap_ep_tot:per_lmonl.overlap_ep_tot} - Population in extreme poor (&lt;$2.15 a day) only receiving Labor Market (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8933,7 +6593,7 @@
 
 {synoptline}
 {marker topicid_per_nprog.overlap_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_nprog.overlap_ep_preT_tot:per_nprog.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) not receiving Social Protection (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_nprog.overlap_ep_preT_tot:per_nprog.overlap_ep_preT_tot} - Population in extreme poor (&lt;$2.15 a day) not receiving Social Protection (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8946,20 +6606,7 @@
 
 {synoptline}
 {marker topicid_per_nprog.overlap_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_nprog.overlap_ep_tot:per_nprog.overlap_ep_tot} - Population in extreme poor (&lt;$1.9 a day) not receiving Social Protection (%)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Percentage of population not receiving Social Protection programs{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_nprog.overlap_pop_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_nprog.overlap_pop_preT_tot:per_nprog.overlap_pop_preT_tot} - Population not receiving Social Protection (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_nprog.overlap_ep_tot:per_nprog.overlap_ep_tot} - Population in extreme poor (&lt;$2.15 a day) not receiving Social Protection (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9063,7 +6710,7 @@
 
 {synoptline}
 {marker topicid_per_numprog1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog1_ep_preT_tot:per_numprog1_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) receiving only 1 program (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_numprog1_ep_preT_tot:per_numprog1_ep_preT_tot} - Population in extreme poor (&lt;$2.15 a day) receiving only 1 program (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9076,20 +6723,7 @@
 
 {synoptline}
 {marker topicid_per_numprog1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog1_ep_tot:per_numprog1_ep_tot} - Population in extreme poor (&lt;$1.9 a day) receiving only 1 program (%)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Percentage of population only receiving receiving only 1 SPL program (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_numprog1_pop_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog1_pop_preT_tot:per_numprog1_pop_preT_tot} - Population receiving only 1 program (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_numprog1_ep_tot:per_numprog1_ep_tot} - Population in extreme poor (&lt;$2.15 a day) receiving only 1 program (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9193,7 +6827,7 @@
 
 {synoptline}
 {marker topicid_per_numprog2_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog2_ep_preT_tot:per_numprog2_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) receiving 2 programs (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_numprog2_ep_preT_tot:per_numprog2_ep_preT_tot} - Population in extreme poor (&lt;$2.15 a day) receiving 2 programs (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9206,20 +6840,7 @@
 
 {synoptline}
 {marker topicid_per_numprog2_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog2_ep_tot:per_numprog2_ep_tot} - Population in extreme poor (&lt;$1.9 a day) receiving 2 programs (%)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Percentage of population receiving 2 SPL programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_numprog2_pop_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog2_pop_preT_tot:per_numprog2_pop_preT_tot} - Population receiving 2 programs (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_numprog2_ep_tot:per_numprog2_ep_tot} - Population in extreme poor (&lt;$2.15 a day) receiving 2 programs (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9323,7 +6944,7 @@
 
 {synoptline}
 {marker topicid_per_numprog3_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog3_ep_preT_tot:per_numprog3_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) receiving 3 programs (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_numprog3_ep_preT_tot:per_numprog3_ep_preT_tot} - Population in extreme poor (&lt;$2.15 a day) receiving 3 programs (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9336,20 +6957,7 @@
 
 {synoptline}
 {marker topicid_per_numprog3_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog3_ep_tot:per_numprog3_ep_tot} - Population in extreme poor (&lt;$1.9 a day) receiving 3 programs (%)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Percentage of population receiving 3 SPL programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_numprog3_pop_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog3_pop_preT_tot:per_numprog3_pop_preT_tot} - Population receiving 3 programs (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_numprog3_ep_tot:per_numprog3_ep_tot} - Population in extreme poor (&lt;$2.15 a day) receiving 3 programs (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9453,7 +7061,7 @@
 
 {synoptline}
 {marker topicid_per_numprog4_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog4_ep_preT_tot:per_numprog4_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) receiving 4 or more programs (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_numprog4_ep_preT_tot:per_numprog4_ep_preT_tot} - Population in extreme poor (&lt;$2.15 a day) receiving 4 or more programs (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9466,20 +7074,7 @@
 
 {synoptline}
 {marker topicid_per_numprog4_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog4_ep_tot:per_numprog4_ep_tot} - Population in extreme poor (&lt;$1.9 a day) receiving 4 or more programs (%)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Percentage of population receiving 4 or more SPL programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_numprog4_pop_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_numprog4_pop_preT_tot:per_numprog4_pop_preT_tot} - Population receiving 4 or more programs (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_numprog4_ep_tot:per_numprog4_ep_tot} - Population in extreme poor (&lt;$2.15 a day) receiving 4 or more programs (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9583,7 +7178,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.adq_ep_preT_tot:per_pr_dp.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Domestic Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.adq_ep_preT_tot:per_pr_dp.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9596,7 +7191,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.adq_ep_tot:per_pr_dp.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.adq_ep_tot:per_pr_dp.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9921,26 +7516,26 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.avt_ep_preT_tot:per_pr_dp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Domestic Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.avt_ep_preT_tot:per_pr_dp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Domestic Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_pr_dp.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.avt_ep_tot:per_pr_dp.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.avt_ep_tot:per_pr_dp.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Domestic Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -9953,7 +7548,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -9966,7 +7561,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -9979,7 +7574,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -9992,7 +7587,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10005,7 +7600,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10018,7 +7613,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10031,7 +7626,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10044,7 +7639,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10057,7 +7652,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10070,7 +7665,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10083,7 +7678,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10096,7 +7691,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10109,7 +7704,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10122,7 +7717,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10135,7 +7730,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10148,7 +7743,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10161,7 +7756,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10174,7 +7769,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10187,7 +7782,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10200,7 +7795,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10213,7 +7808,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10226,7 +7821,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10239,7 +7834,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10252,14 +7847,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Domestic Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_pr_dp.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.ben_ep_preT_tot:per_pr_dp.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Domestic Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.ben_ep_preT_tot:per_pr_dp.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10272,7 +7867,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.ben_ep_tot:per_pr_dp.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.ben_ep_tot:per_pr_dp.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10545,7 +8140,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.bry_ep_preT_tot:per_pr_dp.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Domestic Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.bry_ep_preT_tot:per_pr_dp.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10558,7 +8153,7 @@
 
 {synoptline}
 {marker topicid_per_pr_dp.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.bry_ep_tot:per_pr_dp.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.bry_ep_tot:per_pr_dp.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10830,40 +8425,14 @@
 
 
 {synoptline}
-{marker topicid_per_pr_dp.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.cba_ep_preT_tot:per_pr_dp.cba_ep_preT_tot} - Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
 {marker topicid_per_pr_dp.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.cba_ep_tot:per_pr_dp.cba_ep_tot} - Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.cba_ep_tot:per_pr_dp.cba_ep_tot} - Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_pr_dp.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.cba_q1_preT_tot:per_pr_dp.cba_q1_preT_tot} - Benefit-cost ratio -  Domestic Private Transfers -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Domestic Private Transfers programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10876,7 +8445,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Domestic Private Transfers programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10889,7 +8458,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Domestic Private Transfers programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10902,33 +8471,33 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Domestic Private Transfers programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_pr_dp.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.cov_ep_preT_tot:per_pr_dp.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Domestic Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.cov_ep_preT_tot:per_pr_dp.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_pr_dp.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp.cov_ep_tot:per_pr_dp.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp.cov_ep_tot:per_pr_dp.cov_ep_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10941,7 +8510,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10954,7 +8523,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10967,7 +8536,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10980,7 +8549,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -10993,7 +8562,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11006,7 +8575,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11019,7 +8588,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11032,7 +8601,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11045,7 +8614,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11058,7 +8627,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11071,7 +8640,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11084,7 +8653,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11097,7 +8666,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11110,7 +8679,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11123,7 +8692,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11136,7 +8705,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11149,7 +8718,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11162,7 +8731,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11175,7 +8744,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11188,7 +8757,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11201,7 +8770,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11214,7 +8783,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11227,7 +8796,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11240,20 +8809,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_pr_dp_gini_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp_gini_preT_tot:per_pr_dp_gini_preT_tot} - Gini inequality index reduction (%) -  Domestic Private Transfers (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Domestic Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11266,7 +8822,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Domestic Private Transfers programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11279,7 +8835,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Domestic Private Transfers programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11292,46 +8848,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_pr_dp_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp_p0_ep_preT_tot:per_pr_dp_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Domestic Private Transfers programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_pr_dp_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp_p0_ep_tot:per_pr_dp_p0_ep_tot} - Poverty Headcount reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp_p0_ep_tot:per_pr_dp_p0_ep_tot} - Poverty Headcount reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_pr_dp_p0_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp_p0_preT_tot:per_pr_dp_p0_preT_tot} - Poverty Headcount reduction (%) -  Domestic Private Transfers -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Domestic Private Transfers programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11344,7 +8874,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Domestic Private Transfers programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11357,7 +8887,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Domestic Private Transfers programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11370,46 +8900,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_pr_dp_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp_p1_ep_preT_tot:per_pr_dp_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Domestic Private Transfers programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_pr_dp_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp_p1_ep_tot:per_pr_dp_p1_ep_tot} - Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_dp_p1_ep_tot:per_pr_dp_p1_ep_tot} - Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_pr_dp_p1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_dp_p1_preT_tot:per_pr_dp_p1_preT_tot} - Poverty Gap reduction (%) -  Domestic Private Transfers -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Domestic Private Transfers programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11422,7 +8926,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Domestic Private Transfers programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11435,7 +8939,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Domestic Private Transfers programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11448,14 +8952,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Domestic Private Transfers programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_pr_ip.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.adq_ep_preT_tot:per_pr_ip.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - International Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.adq_ep_preT_tot:per_pr_ip.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11468,7 +8972,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.adq_ep_tot:per_pr_ip.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - International Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.adq_ep_tot:per_pr_ip.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11793,26 +9297,26 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.avt_ep_preT_tot:per_pr_ip.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - International Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.avt_ep_preT_tot:per_pr_ip.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_pr_ip.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.avt_ep_tot:per_pr_ip.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - International Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.avt_ep_tot:per_pr_ip.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - International Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11825,7 +9329,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11838,7 +9342,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11851,7 +9355,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11864,7 +9368,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11877,7 +9381,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11890,7 +9394,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11903,7 +9407,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11916,7 +9420,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11929,7 +9433,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11942,7 +9446,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11955,7 +9459,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11968,7 +9472,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11981,7 +9485,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -11994,7 +9498,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12007,7 +9511,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12020,7 +9524,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12033,7 +9537,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12046,7 +9550,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12059,7 +9563,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12072,7 +9576,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12085,7 +9589,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12098,7 +9602,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12111,7 +9615,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12124,14 +9628,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  International Private Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_pr_ip.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.ben_ep_preT_tot:per_pr_ip.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - International Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.ben_ep_preT_tot:per_pr_ip.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12144,7 +9648,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.ben_ep_tot:per_pr_ip.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - International Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.ben_ep_tot:per_pr_ip.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12417,7 +9921,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.bry_ep_preT_tot:per_pr_ip.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - International Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.bry_ep_preT_tot:per_pr_ip.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12430,7 +9934,7 @@
 
 {synoptline}
 {marker topicid_per_pr_ip.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.bry_ep_tot:per_pr_ip.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - International Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.bry_ep_tot:per_pr_ip.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12702,40 +10206,14 @@
 
 
 {synoptline}
-{marker topicid_per_pr_ip.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.cba_ep_preT_tot:per_pr_ip.cba_ep_preT_tot} - Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
 {marker topicid_per_pr_ip.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.cba_ep_tot:per_pr_ip.cba_ep_tot} - Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.cba_ep_tot:per_pr_ip.cba_ep_tot} - Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_pr_ip.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.cba_q1_preT_tot:per_pr_ip.cba_q1_preT_tot} - Benefit-cost ratio -  International Private Transfers -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in International Private Transfers programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12748,7 +10226,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in International Private Transfers programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12761,7 +10239,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in International Private Transfers programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12774,33 +10252,33 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in International Private Transfers programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_pr_ip.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.cov_ep_preT_tot:per_pr_ip.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - International Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.cov_ep_preT_tot:per_pr_ip.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_pr_ip.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip.cov_ep_tot:per_pr_ip.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - International Private Transfers}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip.cov_ep_tot:per_pr_ip.cov_ep_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12813,7 +10291,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12826,7 +10304,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12839,7 +10317,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12852,7 +10330,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12865,7 +10343,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12878,7 +10356,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12891,7 +10369,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12904,7 +10382,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12917,7 +10395,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12930,7 +10408,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12943,7 +10421,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12956,7 +10434,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12969,7 +10447,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12982,7 +10460,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12995,7 +10473,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13008,7 +10486,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13021,7 +10499,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13034,7 +10512,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13047,7 +10525,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13060,7 +10538,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13073,7 +10551,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13086,7 +10564,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13099,7 +10577,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13112,20 +10590,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_pr_ip_gini_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip_gini_preT_tot:per_pr_ip_gini_preT_tot} - Gini inequality index reduction (%) -  International Private Transfers (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in International Private Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13138,7 +10603,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to International Private Transfers programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13151,7 +10616,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to International Private Transfers programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13164,46 +10629,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_pr_ip_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip_p0_ep_preT_tot:per_pr_ip_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to International Private Transfers programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_pr_ip_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip_p0_ep_tot:per_pr_ip_p0_ep_tot} - Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip_p0_ep_tot:per_pr_ip_p0_ep_tot} - Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_pr_ip_p0_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip_p0_preT_tot:per_pr_ip_p0_preT_tot} - Poverty Headcount reduction (%) -  International Private Transfers -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to International Private Transfers programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13216,7 +10655,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to International Private Transfers programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13229,7 +10668,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to International Private Transfers programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13242,46 +10681,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_pr_ip_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip_p1_ep_preT_tot:per_pr_ip_p1_ep_preT_tot} - Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to International Private Transfers programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_pr_ip_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip_p1_ep_tot:per_pr_ip_p1_ep_tot} - Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_pr_ip_p1_ep_tot:per_pr_ip_p1_ep_tot} - Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_pr_ip_p1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_pr_ip_p1_preT_tot:per_pr_ip_p1_preT_tot} - Poverty Gap reduction (%) -  International Private Transfers -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to International Private Transfers programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13294,7 +10707,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to International Private Transfers programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13307,7 +10720,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to International Private Transfers programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13320,14 +10733,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to International Private Transfers programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.adq_ep_preT_tot:per_sa_allsa.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - All Social Assistance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.adq_ep_preT_tot:per_sa_allsa.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13340,7 +10753,7 @@
 
 {synoptline}
 {marker topicid_per_sa_allsa.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.adq_ep_tot:per_sa_allsa.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - All Social Assistance}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.adq_ep_tot:per_sa_allsa.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13665,26 +11078,26 @@
 
 {synoptline}
 {marker topicid_per_sa_allsa.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.avt_ep_preT_tot:per_sa_allsa.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - All Social Assistance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.avt_ep_preT_tot:per_sa_allsa.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Social Assistance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.avt_ep_tot:per_sa_allsa.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - All Social Assistance}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.avt_ep_tot:per_sa_allsa.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13697,7 +11110,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13710,7 +11123,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13723,7 +11136,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13736,7 +11149,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13749,7 +11162,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13762,7 +11175,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13775,7 +11188,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13788,7 +11201,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13801,7 +11214,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13814,7 +11227,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13827,7 +11240,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13840,7 +11253,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13853,7 +11266,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13866,7 +11279,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13879,7 +11292,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13892,7 +11305,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13905,7 +11318,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13918,7 +11331,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13931,7 +11344,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13944,7 +11357,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13957,7 +11370,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13970,7 +11383,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13983,7 +11396,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -13996,14 +11409,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Assistance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.ben_ep_preT_tot:per_sa_allsa.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - All Social Assistance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.ben_ep_preT_tot:per_sa_allsa.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -14016,7 +11429,7 @@
 
 {synoptline}
 {marker topicid_per_sa_allsa.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.ben_ep_tot:per_sa_allsa.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - All Social Assistance}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.ben_ep_tot:per_sa_allsa.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -14289,7 +11702,7 @@
 
 {synoptline}
 {marker topicid_per_sa_allsa.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.bry_ep_preT_tot:per_sa_allsa.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - All Social Assistance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.bry_ep_preT_tot:per_sa_allsa.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -14302,7 +11715,7 @@
 
 {synoptline}
 {marker topicid_per_sa_allsa.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.bry_ep_tot:per_sa_allsa.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - All Social Assistance}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.bry_ep_tot:per_sa_allsa.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -14574,40 +11987,14 @@
 
 
 {synoptline}
-{marker topicid_per_sa_allsa.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cba_ep_preT_tot:per_sa_allsa.cba_ep_preT_tot} - Benefit-cost ratio -  All Social Assistance -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
 {marker topicid_per_sa_allsa.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cba_ep_tot:per_sa_allsa.cba_ep_tot} - Benefit-cost ratio -  All Social Assistance -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cba_ep_tot:per_sa_allsa.cba_ep_tot} - Benefit-cost ratio -  All Social Assistance -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_allsa.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cba_q1_preT_tot:per_sa_allsa.cba_q1_preT_tot} - Benefit-cost ratio -  All Social Assistance -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Social Assistance programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14620,7 +12007,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Social Assistance programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14633,7 +12020,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Social Assistance programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14646,33 +12033,33 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Social Assistance programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cov_ep_preT_tot:per_sa_allsa.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - All Social Assistance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cov_ep_preT_tot:per_sa_allsa.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cov_ep_tot:per_sa_allsa.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - All Social Assistance}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa.cov_ep_tot:per_sa_allsa.cov_ep_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14685,7 +12072,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14698,7 +12085,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14724,7 +12111,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14737,7 +12124,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14750,7 +12137,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14776,7 +12163,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14789,7 +12176,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14802,7 +12189,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14828,7 +12215,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14841,7 +12228,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14854,7 +12241,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14880,7 +12267,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14893,7 +12280,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14906,7 +12293,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14932,7 +12319,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14945,7 +12332,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14958,7 +12345,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14984,20 +12371,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_allsa_gini_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_gini_preT_tot:per_sa_allsa_gini_preT_tot} - Gini inequality index reduction (%) -  All Social Assistance (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Assistance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15010,7 +12384,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Social Assistance programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15023,7 +12397,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Social Assistance programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15036,46 +12410,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_allsa_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_p0_ep_preT_tot:per_sa_allsa_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Social Assistance programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_p0_ep_tot:per_sa_allsa_p0_ep_tot} - Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_p0_ep_tot:per_sa_allsa_p0_ep_tot} - Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_allsa_p0_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_p0_preT_tot:per_sa_allsa_p0_preT_tot} - Poverty Headcount reduction (%) -  All Social Assistance -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Social Assistance programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15088,7 +12436,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Social Assistance programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15101,7 +12449,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Social Assistance programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15114,46 +12462,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_allsa_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_p1_ep_preT_tot:per_sa_allsa_p1_ep_preT_tot} - Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Social Assistance programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_allsa_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_p1_ep_tot:per_sa_allsa_p1_ep_tot} - Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_p1_ep_tot:per_sa_allsa_p1_ep_tot} - Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_allsa_p1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_allsa_p1_preT_tot:per_sa_allsa_p1_preT_tot} - Poverty Gap reduction (%) -  All Social Assistance -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Social Assistance programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15166,7 +12488,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Social Assistance programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15179,7 +12501,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Social Assistance programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15192,14 +12514,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Social Assistance programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.adq_ep_preT_tot:per_sa_ct.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Cash Transfer  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.adq_ep_preT_tot:per_sa_ct.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15212,7 +12534,7 @@
 
 {synoptline}
 {marker topicid_per_sa_ct.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.adq_ep_tot:per_sa_ct.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Cash Transfer}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.adq_ep_tot:per_sa_ct.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15537,26 +12859,26 @@
 
 {synoptline}
 {marker topicid_per_sa_ct.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.avt_ep_preT_tot:per_sa_ct.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Cash Transfer  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.avt_ep_preT_tot:per_sa_ct.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Cash Transfer  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.avt_ep_tot:per_sa_ct.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Cash Transfer}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.avt_ep_tot:per_sa_ct.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15569,7 +12891,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15582,7 +12904,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15595,7 +12917,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15608,7 +12930,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15621,7 +12943,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15634,7 +12956,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15647,7 +12969,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15660,7 +12982,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15673,7 +12995,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15686,7 +13008,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15699,7 +13021,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15712,7 +13034,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15725,7 +13047,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15738,7 +13060,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15751,7 +13073,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15764,7 +13086,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15777,7 +13099,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15790,7 +13112,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15803,7 +13125,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15816,7 +13138,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15829,7 +13151,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15842,7 +13164,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15855,7 +13177,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15868,14 +13190,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Cash Transfers programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.ben_ep_preT_tot:per_sa_ct.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Cash Transfer  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.ben_ep_preT_tot:per_sa_ct.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15888,7 +13210,7 @@
 
 {synoptline}
 {marker topicid_per_sa_ct.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.ben_ep_tot:per_sa_ct.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Cash Transfer}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.ben_ep_tot:per_sa_ct.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16161,7 +13483,7 @@
 
 {synoptline}
 {marker topicid_per_sa_ct.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.bry_ep_preT_tot:per_sa_ct.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Cash Transfer  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.bry_ep_preT_tot:per_sa_ct.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16174,7 +13496,7 @@
 
 {synoptline}
 {marker topicid_per_sa_ct.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.bry_ep_tot:per_sa_ct.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Cash Transfer}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.bry_ep_tot:per_sa_ct.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16446,40 +13768,14 @@
 
 
 {synoptline}
-{marker topicid_per_sa_ct.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.cba_ep_preT_tot:per_sa_ct.cba_ep_preT_tot} - Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
 {marker topicid_per_sa_ct.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.cba_ep_tot:per_sa_ct.cba_ep_tot} - Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.cba_ep_tot:per_sa_ct.cba_ep_tot} - Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_ct.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.cba_q1_preT_tot:per_sa_ct.cba_q1_preT_tot} - Benefit-cost ratio -  Cash Transfer -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Cash Transfers programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16492,7 +13788,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Cash Transfers programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16505,7 +13801,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Cash Transfers programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16518,33 +13814,33 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Cash Transfers programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.cov_ep_preT_tot:per_sa_ct.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Cash Transfer  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.cov_ep_preT_tot:per_sa_ct.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct.cov_ep_tot:per_sa_ct.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Cash Transfer}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct.cov_ep_tot:per_sa_ct.cov_ep_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16557,7 +13853,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16570,7 +13866,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16583,7 +13879,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16596,7 +13892,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16609,7 +13905,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16622,7 +13918,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16635,7 +13931,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16648,7 +13944,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16661,7 +13957,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16674,7 +13970,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16687,7 +13983,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16700,7 +13996,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16713,7 +14009,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16726,7 +14022,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16739,7 +14035,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16752,7 +14048,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16765,7 +14061,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16778,7 +14074,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16791,7 +14087,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16804,7 +14100,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16817,7 +14113,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16830,7 +14126,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16843,7 +14139,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16856,20 +14152,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_ct_gini_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct_gini_preT_tot:per_sa_ct_gini_preT_tot} - Gini inequality index reduction (%) -  Cash Transfer (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Cash Transfers programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16882,7 +14165,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Cash Transfers programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16895,7 +14178,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Cash Transfers programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16908,46 +14191,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_ct_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct_p0_ep_preT_tot:per_sa_ct_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Cash Transfers programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct_p0_ep_tot:per_sa_ct_p0_ep_tot} - Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct_p0_ep_tot:per_sa_ct_p0_ep_tot} - Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_ct_p0_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct_p0_preT_tot:per_sa_ct_p0_preT_tot} - Poverty Headcount reduction (%) -  Cash Transfer -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Cash Transfers programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16960,7 +14217,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Cash Transfers programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16973,7 +14230,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Cash Transfers programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -16986,46 +14243,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_ct_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct_p1_ep_preT_tot:per_sa_ct_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Cash Transfers programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ct_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct_p1_ep_tot:per_sa_ct_p1_ep_tot} - Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ct_p1_ep_tot:per_sa_ct_p1_ep_tot} - Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_ct_p1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ct_p1_preT_tot:per_sa_ct_p1_preT_tot} - Poverty Gap reduction (%) -  Cash Transfer -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Cash Transfers programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17038,7 +14269,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Cash Transfers programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17051,7 +14282,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Cash Transfers programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17064,14 +14295,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Cash Transfers programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.adq_ep_preT_tot:per_sa_ik.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - In-Kind (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.adq_ep_preT_tot:per_sa_ik.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17084,7 +14315,7 @@
 
 {synoptline}
 {marker topicid_per_sa_ik.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.adq_ep_tot:per_sa_ik.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.adq_ep_tot:per_sa_ik.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - In-Kind}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17409,26 +14640,26 @@
 
 {synoptline}
 {marker topicid_per_sa_ik.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.avt_ep_preT_tot:per_sa_ik.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - In-Kind (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.avt_ep_preT_tot:per_sa_ik.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.avt_ep_tot:per_sa_ik.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - In-Kind}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.avt_ep_tot:per_sa_ik.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - In-Kind}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17441,7 +14672,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17454,7 +14685,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17467,7 +14698,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17480,7 +14711,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17493,7 +14724,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17506,7 +14737,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17519,7 +14750,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17532,7 +14763,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17545,7 +14776,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17558,7 +14789,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17571,7 +14802,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17584,7 +14815,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17597,7 +14828,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17610,7 +14841,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17623,7 +14854,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17636,7 +14867,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17649,7 +14880,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17662,7 +14893,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17675,7 +14906,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17688,7 +14919,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17701,7 +14932,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17714,7 +14945,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17727,7 +14958,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -17740,14 +14971,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  In-Kind programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.ben_ep_preT_tot:per_sa_ik.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - In-Kind (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.ben_ep_preT_tot:per_sa_ik.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17760,7 +14991,7 @@
 
 {synoptline}
 {marker topicid_per_sa_ik.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.ben_ep_tot:per_sa_ik.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.ben_ep_tot:per_sa_ik.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - In-Kind}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18033,7 +15264,7 @@
 
 {synoptline}
 {marker topicid_per_sa_ik.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.bry_ep_preT_tot:per_sa_ik.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - In-Kind (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.bry_ep_preT_tot:per_sa_ik.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18046,7 +15277,7 @@
 
 {synoptline}
 {marker topicid_per_sa_ik.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.bry_ep_tot:per_sa_ik.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.bry_ep_tot:per_sa_ik.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - In-Kind}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18318,40 +15549,14 @@
 
 
 {synoptline}
-{marker topicid_per_sa_ik.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.cba_ep_preT_tot:per_sa_ik.cba_ep_preT_tot} - Benefit-cost ratio -  In-Kind -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
 {marker topicid_per_sa_ik.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.cba_ep_tot:per_sa_ik.cba_ep_tot} - Benefit-cost ratio -  In-Kind -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.cba_ep_tot:per_sa_ik.cba_ep_tot} - Benefit-cost ratio -  In-Kind -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_ik.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.cba_q1_preT_tot:per_sa_ik.cba_q1_preT_tot} - Benefit-cost ratio -  In-Kind -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in In-Kind programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18364,7 +15569,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in In-Kind programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18377,7 +15582,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in In-Kind programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18390,33 +15595,33 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in In-Kind programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.cov_ep_preT_tot:per_sa_ik.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - In-Kind (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.cov_ep_preT_tot:per_sa_ik.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik.cov_ep_tot:per_sa_ik.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik.cov_ep_tot:per_sa_ik.cov_ep_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - In-Kind}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18429,7 +15634,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18442,7 +15647,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18455,7 +15660,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18468,7 +15673,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18481,7 +15686,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18494,7 +15699,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18507,7 +15712,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18520,7 +15725,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18533,7 +15738,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18546,7 +15751,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18559,7 +15764,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18572,7 +15777,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18585,7 +15790,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18598,7 +15803,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18611,7 +15816,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18624,7 +15829,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18637,7 +15842,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18650,7 +15855,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18663,7 +15868,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18676,7 +15881,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18689,7 +15894,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18702,7 +15907,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18715,7 +15920,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18728,20 +15933,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_ik_gini_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik_gini_preT_tot:per_sa_ik_gini_preT_tot} - Gini inequality index reduction (%) -  In-Kind (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in In-Kind programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18754,7 +15946,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to In-Kind programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18767,7 +15959,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to In-Kind programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18780,46 +15972,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_ik_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik_p0_ep_preT_tot:per_sa_ik_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to In-Kind programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik_p0_ep_tot:per_sa_ik_p0_ep_tot} - Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik_p0_ep_tot:per_sa_ik_p0_ep_tot} - Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_ik_p0_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik_p0_preT_tot:per_sa_ik_p0_preT_tot} - Poverty Headcount reduction (%) -  In-Kind -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to In-Kind programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18832,7 +15998,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to In-Kind programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18845,7 +16011,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to In-Kind programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18858,46 +16024,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_ik_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik_p1_ep_preT_tot:per_sa_ik_p1_ep_preT_tot} - Poverty Gap reduction (%) -  In-Kind -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to In-Kind programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_ik_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik_p1_ep_tot:per_sa_ik_p1_ep_tot} - Poverty Gap reduction (%) -  In-Kind -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_ik_p1_ep_tot:per_sa_ik_p1_ep_tot} - Poverty Gap reduction (%) -  In-Kind -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_ik_p1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_ik_p1_preT_tot:per_sa_ik_p1_preT_tot} - Poverty Gap reduction (%) -  In-Kind -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to In-Kind programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18910,7 +16050,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to In-Kind programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18923,7 +16063,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to In-Kind programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -18936,14 +16076,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to In-Kind programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.adq_ep_preT_tot:per_sa_pw.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Public Works (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.adq_ep_preT_tot:per_sa_pw.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Public Works (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18956,7 +16096,7 @@
 
 {synoptline}
 {marker topicid_per_sa_pw.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.adq_ep_tot:per_sa_pw.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Public Works}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.adq_ep_tot:per_sa_pw.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Public Works}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19281,26 +16421,26 @@
 
 {synoptline}
 {marker topicid_per_sa_pw.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.avt_ep_preT_tot:per_sa_pw.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Public Works (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.avt_ep_preT_tot:per_sa_pw.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Public Works (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.avt_ep_tot:per_sa_pw.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Public Works}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.avt_ep_tot:per_sa_pw.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Public Works}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19313,7 +16453,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19326,7 +16466,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19339,7 +16479,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19352,7 +16492,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19365,7 +16505,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19378,7 +16518,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19391,7 +16531,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19404,7 +16544,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19417,7 +16557,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19430,7 +16570,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19443,7 +16583,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19456,7 +16596,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19469,7 +16609,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19482,7 +16622,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19495,7 +16635,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19508,7 +16648,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19521,7 +16661,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19534,7 +16674,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19547,7 +16687,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19560,7 +16700,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19573,7 +16713,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19586,7 +16726,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19599,7 +16739,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -19612,14 +16752,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Public Works programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.ben_ep_preT_tot:per_sa_pw.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Public Works (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.ben_ep_preT_tot:per_sa_pw.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Public Works (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19632,7 +16772,7 @@
 
 {synoptline}
 {marker topicid_per_sa_pw.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.ben_ep_tot:per_sa_pw.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Public Works}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.ben_ep_tot:per_sa_pw.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Public Works}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19905,7 +17045,7 @@
 
 {synoptline}
 {marker topicid_per_sa_pw.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.bry_ep_preT_tot:per_sa_pw.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Public Works (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.bry_ep_preT_tot:per_sa_pw.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Public Works (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19918,7 +17058,7 @@
 
 {synoptline}
 {marker topicid_per_sa_pw.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.bry_ep_tot:per_sa_pw.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Public Works}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.bry_ep_tot:per_sa_pw.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Public Works}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -20190,40 +17330,14 @@
 
 
 {synoptline}
-{marker topicid_per_sa_pw.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.cba_ep_preT_tot:per_sa_pw.cba_ep_preT_tot} - Benefit-cost ratio -  Public Works -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
 {marker topicid_per_sa_pw.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.cba_ep_tot:per_sa_pw.cba_ep_tot} - Benefit-cost ratio -  Public Works -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.cba_ep_tot:per_sa_pw.cba_ep_tot} - Benefit-cost ratio -  Public Works -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_pw.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.cba_q1_preT_tot:per_sa_pw.cba_q1_preT_tot} - Benefit-cost ratio -  Public Works -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Public Works programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20236,7 +17350,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Public Works programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20249,7 +17363,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Public Works programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20262,33 +17376,33 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Public Works programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.cov_ep_preT_tot:per_sa_pw.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Public Works (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.cov_ep_preT_tot:per_sa_pw.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - Public Works (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw.cov_ep_tot:per_sa_pw.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Public Works}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw.cov_ep_tot:per_sa_pw.cov_ep_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - Public Works}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20301,7 +17415,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20314,7 +17428,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20327,7 +17441,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20340,7 +17454,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20353,7 +17467,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20366,7 +17480,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20379,7 +17493,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20392,7 +17506,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20405,7 +17519,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20418,7 +17532,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20431,7 +17545,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20444,7 +17558,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20457,7 +17571,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20470,7 +17584,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20483,7 +17597,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20496,7 +17610,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20509,7 +17623,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20522,7 +17636,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20535,7 +17649,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20548,7 +17662,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20561,7 +17675,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20574,7 +17688,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20587,7 +17701,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20600,20 +17714,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_pw_gini_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw_gini_preT_tot:per_sa_pw_gini_preT_tot} - Gini inequality index reduction (%) -  Public Works (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Public Works programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20626,7 +17727,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Public Works programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20639,7 +17740,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Public Works programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20652,46 +17753,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_pw_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw_p0_ep_preT_tot:per_sa_pw_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Public Works programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw_p0_ep_tot:per_sa_pw_p0_ep_tot} - Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw_p0_ep_tot:per_sa_pw_p0_ep_tot} - Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_pw_p0_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw_p0_preT_tot:per_sa_pw_p0_preT_tot} - Poverty Headcount reduction (%) -  Public Works -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Public Works programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20704,7 +17779,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Public Works programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20717,7 +17792,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Public Works programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20730,46 +17805,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_pw_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw_p1_ep_preT_tot:per_sa_pw_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Public Works -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Public Works programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_pw_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw_p1_ep_tot:per_sa_pw_p1_ep_tot} - Poverty Gap reduction (%) -  Public Works -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_pw_p1_ep_tot:per_sa_pw_p1_ep_tot} - Poverty Gap reduction (%) -  Public Works -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_pw_p1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_pw_p1_preT_tot:per_sa_pw_p1_preT_tot} - Poverty Gap reduction (%) -  Public Works -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Public Works programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20782,7 +17831,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Public Works programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20795,7 +17844,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Public Works programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -20808,14 +17857,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Public Works programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.adq_ep_preT_tot:per_sa_sf.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - School Feeding (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.adq_ep_preT_tot:per_sa_sf.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -20828,7 +17877,7 @@
 
 {synoptline}
 {marker topicid_per_sa_sf.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.adq_ep_tot:per_sa_sf.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - School Feeding}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.adq_ep_tot:per_sa_sf.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - School Feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21153,26 +18202,26 @@
 
 {synoptline}
 {marker topicid_per_sa_sf.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.avt_ep_preT_tot:per_sa_sf.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - School Feeding (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.avt_ep_preT_tot:per_sa_sf.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.avt_ep_tot:per_sa_sf.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - School Feeding}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.avt_ep_tot:per_sa_sf.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - School Feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21185,7 +18234,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21198,7 +18247,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21211,7 +18260,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21224,7 +18273,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21237,7 +18286,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21250,7 +18299,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21263,7 +18312,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21276,7 +18325,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21289,7 +18338,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21302,7 +18351,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21315,7 +18364,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21328,7 +18377,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21341,7 +18390,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21354,7 +18403,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21367,7 +18416,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21380,7 +18429,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21393,7 +18442,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21406,7 +18455,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21419,7 +18468,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21432,7 +18481,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21445,7 +18494,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21458,7 +18507,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21471,7 +18520,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -21484,14 +18533,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  School Feeding programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.ben_ep_preT_tot:per_sa_sf.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - School Feeding (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.ben_ep_preT_tot:per_sa_sf.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21504,7 +18553,7 @@
 
 {synoptline}
 {marker topicid_per_sa_sf.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.ben_ep_tot:per_sa_sf.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - School Feeding}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.ben_ep_tot:per_sa_sf.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - School Feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21777,7 +18826,7 @@
 
 {synoptline}
 {marker topicid_per_sa_sf.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.bry_ep_preT_tot:per_sa_sf.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - School Feeding (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.bry_ep_preT_tot:per_sa_sf.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21790,7 +18839,7 @@
 
 {synoptline}
 {marker topicid_per_sa_sf.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.bry_ep_tot:per_sa_sf.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - School Feeding}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.bry_ep_tot:per_sa_sf.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - School Feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22062,40 +19111,14 @@
 
 
 {synoptline}
-{marker topicid_per_sa_sf.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cba_ep_preT_tot:per_sa_sf.cba_ep_preT_tot} - Benefit-cost ratio -  School-feeding -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
 {marker topicid_per_sa_sf.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cba_ep_tot:per_sa_sf.cba_ep_tot} - Benefit-cost ratio -  School-feeding -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cba_ep_tot:per_sa_sf.cba_ep_tot} - Benefit-cost ratio -  School-feeding -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_sf.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cba_q1_preT_tot:per_sa_sf.cba_q1_preT_tot} - Benefit-cost ratio -  School-feeding -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in School Feeding programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22108,7 +19131,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in School Feeding programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22121,7 +19144,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in School Feeding programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22134,33 +19157,33 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in School Feeding programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cov_ep_preT_tot:per_sa_sf.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - School Feeding (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cov_ep_preT_tot:per_sa_sf.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cov_ep_tot:per_sa_sf.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - School Feeding}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf.cov_ep_tot:per_sa_sf.cov_ep_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - School Feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22173,7 +19196,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22186,7 +19209,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22199,7 +19222,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22212,7 +19235,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22225,7 +19248,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22238,7 +19261,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22251,7 +19274,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22264,7 +19287,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22277,7 +19300,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22290,7 +19313,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22303,7 +19326,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22316,7 +19339,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22329,7 +19352,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22342,7 +19365,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22355,7 +19378,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22368,7 +19391,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22381,7 +19404,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22394,7 +19417,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22407,7 +19430,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22420,7 +19443,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22433,7 +19456,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22446,7 +19469,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22459,7 +19482,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22472,20 +19495,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_sf_gini_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_gini_preT_tot:per_sa_sf_gini_preT_tot} - Gini inequality index reduction (%) -  School-feeding (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in School Feeding programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22498,7 +19508,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to School Feeding programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22511,7 +19521,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to School Feeding programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22524,46 +19534,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_sf_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p0_ep_preT_tot:per_sa_sf_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  School-feeding -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to School Feeding programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p0_ep_tot:per_sa_sf_p0_ep_tot} - Poverty Headcount reduction (%) -  School-feeding -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p0_ep_tot:per_sa_sf_p0_ep_tot} - Poverty Headcount reduction (%) -  School-feeding -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_sf_p0_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p0_preT_tot:per_sa_sf_p0_preT_tot} - Poverty Headcount reduction (%) -  School-feeding -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to School Feeding programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22576,7 +19560,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to School Feeding programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22589,7 +19573,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to School Feeding programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22602,46 +19586,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_sf_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p1_ep_preT_tot:per_sa_sf_p1_ep_preT_tot} - Poverty Gap reduction (%) -  School-feeding -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to School Feeding programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sf_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p1_ep_tot:per_sa_sf_p1_ep_tot} - Poverty Gap reduction (%) -  School-feeding -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p1_ep_tot:per_sa_sf_p1_ep_tot} - Poverty Gap reduction (%) -  School-feeding -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_sf_p1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sf_p1_preT_tot:per_sa_sf_p1_preT_tot} - Poverty Gap reduction (%) -  School-feeding -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to School Feeding programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22654,7 +19612,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to School Feeding programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22667,7 +19625,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to School Feeding programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -22680,14 +19638,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to School Feeding programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.adq_ep_preT_tot:per_sa_sp.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Social Pensions  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.adq_ep_preT_tot:per_sa_sp.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Social Pensions  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22700,7 +19658,7 @@
 
 {synoptline}
 {marker topicid_per_sa_sp.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.adq_ep_tot:per_sa_sp.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.adq_ep_tot:per_sa_sp.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Social Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23025,26 +19983,26 @@
 
 {synoptline}
 {marker topicid_per_sa_sp.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.avt_ep_preT_tot:per_sa_sp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Social Pensions  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.avt_ep_preT_tot:per_sa_sp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Social Pensions  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.avt_ep_tot:per_sa_sp.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Social Pensions}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.avt_ep_tot:per_sa_sp.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Social Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23057,7 +20015,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23070,7 +20028,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23083,7 +20041,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23096,7 +20054,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23109,7 +20067,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23122,7 +20080,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23135,7 +20093,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23148,7 +20106,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23161,7 +20119,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23174,7 +20132,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23187,7 +20145,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23200,7 +20158,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23213,7 +20171,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23226,7 +20184,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23239,7 +20197,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23252,7 +20210,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23265,7 +20223,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23278,7 +20236,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23291,7 +20249,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23304,7 +20262,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23317,7 +20275,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23330,7 +20288,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23343,7 +20301,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23356,14 +20314,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Pensions programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.ben_ep_preT_tot:per_sa_sp.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Social Pensions  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.ben_ep_preT_tot:per_sa_sp.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Social Pensions  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23376,7 +20334,7 @@
 
 {synoptline}
 {marker topicid_per_sa_sp.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.ben_ep_tot:per_sa_sp.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.ben_ep_tot:per_sa_sp.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Social Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23649,7 +20607,7 @@
 
 {synoptline}
 {marker topicid_per_sa_sp.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.bry_ep_preT_tot:per_sa_sp.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Social Pensions  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.bry_ep_preT_tot:per_sa_sp.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Social Pensions  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23662,7 +20620,7 @@
 
 {synoptline}
 {marker topicid_per_sa_sp.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.bry_ep_tot:per_sa_sp.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.bry_ep_tot:per_sa_sp.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Social Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23934,40 +20892,14 @@
 
 
 {synoptline}
-{marker topicid_per_sa_sp.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.cba_ep_preT_tot:per_sa_sp.cba_ep_preT_tot} - Benefit-cost ratio -  Social Pension -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
 {marker topicid_per_sa_sp.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.cba_ep_tot:per_sa_sp.cba_ep_tot} - Benefit-cost ratio -  Social Pension -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.cba_ep_tot:per_sa_sp.cba_ep_tot} - Benefit-cost ratio -  Social Pension -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_sp.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.cba_q1_preT_tot:per_sa_sp.cba_q1_preT_tot} - Benefit-cost ratio -  Social Pension -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Social Pensions programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23980,7 +20912,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Social Pensions programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -23993,7 +20925,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Social Pensions programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24006,33 +20938,33 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Social Pensions programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.cov_ep_preT_tot:per_sa_sp.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Social Pensions  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.cov_ep_preT_tot:per_sa_sp.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - Social Pensions  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp.cov_ep_tot:per_sa_sp.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp.cov_ep_tot:per_sa_sp.cov_ep_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - Social Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24045,7 +20977,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24058,7 +20990,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24071,7 +21003,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24084,7 +21016,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24097,7 +21029,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24110,7 +21042,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24123,7 +21055,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24136,7 +21068,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24149,7 +21081,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24162,7 +21094,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24175,7 +21107,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24188,7 +21120,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24201,7 +21133,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24214,7 +21146,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24227,7 +21159,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24240,7 +21172,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24253,7 +21185,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24266,7 +21198,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24279,7 +21211,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24292,7 +21224,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24305,7 +21237,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24318,7 +21250,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24331,7 +21263,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24344,20 +21276,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_sp_gini_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp_gini_preT_tot:per_sa_sp_gini_preT_tot} - Gini inequality index reduction (%) -  Social Pension (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Pensions programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24370,7 +21289,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Social Pensions programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24383,7 +21302,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Social Pensions programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24396,46 +21315,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_sp_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp_p0_ep_preT_tot:per_sa_sp_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Social Pensions programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp_p0_ep_tot:per_sa_sp_p0_ep_tot} - Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp_p0_ep_tot:per_sa_sp_p0_ep_tot} - Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_sp_p0_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp_p0_preT_tot:per_sa_sp_p0_preT_tot} - Poverty Headcount reduction (%) -  Social Pension -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Social Pensions programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24448,7 +21341,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Social Pensions programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24461,7 +21354,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Social Pensions programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24474,46 +21367,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_sp_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp_p1_ep_preT_tot:per_sa_sp_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Social Pensions programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_sa_sp_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp_p1_ep_tot:per_sa_sp_p1_ep_tot} - Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_sa_sp_p1_ep_tot:per_sa_sp_p1_ep_tot} - Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sa_sp_p1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sa_sp_p1_preT_tot:per_sa_sp_p1_preT_tot} - Poverty Gap reduction (%) -  Social Pension -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Social Pensions programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24526,7 +21393,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Social Pensions programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24539,7 +21406,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Social Pensions programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -24552,14 +21419,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Social Pensions programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_saonl.overlap_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_saonl.overlap_ep_preT_tot:per_saonl.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) only receiving All Social Assistance (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_saonl.overlap_ep_preT_tot:per_saonl.overlap_ep_preT_tot} - Population in extreme poor (&lt;$2.15 a day) only receiving All Social Assistance (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24572,20 +21439,7 @@
 
 {synoptline}
 {marker topicid_per_saonl.overlap_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_saonl.overlap_ep_tot:per_saonl.overlap_ep_tot} - Population in extreme poor (&lt;$1.9 a day) only receiving All Social Assistance (%)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Percentage of population only receiving All Social Assistance programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_saonl.overlap_pop_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_saonl.overlap_pop_preT_tot:per_saonl.overlap_pop_preT_tot} - Population only receiving All Social Assistance (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_saonl.overlap_ep_tot:per_saonl.overlap_ep_tot} - Population in extreme poor (&lt;$2.15 a day) only receiving All Social Assistance (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24689,7 +21543,7 @@
 
 {synoptline}
 {marker topicid_per_saoth.overlap_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_saoth.overlap_ep_preT_tot:per_saoth.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) receiving Social Assistance and Other (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_saoth.overlap_ep_preT_tot:per_saoth.overlap_ep_preT_tot} - Population in extreme poor (&lt;$2.15 a day) receiving Social Assistance and Other (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24702,20 +21556,7 @@
 
 {synoptline}
 {marker topicid_per_saoth.overlap_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_saoth.overlap_ep_tot:per_saoth.overlap_ep_tot} - Population in extreme poor (&lt;$1.9 a day) receiving Social Assistance and Other (%)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Percentage of population receiving Social Assistance and Other program (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_saoth.overlap_pop_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_saoth.overlap_pop_preT_tot:per_saoth.overlap_pop_preT_tot} - Population receiving Social Assistance and Other (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_saoth.overlap_ep_tot:per_saoth.overlap_ep_tot} - Population in extreme poor (&lt;$2.15 a day) receiving Social Assistance and Other (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24819,7 +21660,7 @@
 
 {synoptline}
 {marker topicid_per_si_allsi.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.adq_ep_preT_tot:per_si_allsi.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - All Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.adq_ep_preT_tot:per_si_allsi.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24832,7 +21673,7 @@
 
 {synoptline}
 {marker topicid_per_si_allsi.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.adq_ep_tot:per_si_allsi.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - All Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.adq_ep_tot:per_si_allsi.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25157,26 +21998,26 @@
 
 {synoptline}
 {marker topicid_per_si_allsi.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.avt_ep_preT_tot:per_si_allsi.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - All Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.avt_ep_preT_tot:per_si_allsi.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.avt_ep_tot:per_si_allsi.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - All Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.avt_ep_tot:per_si_allsi.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25189,7 +22030,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25202,7 +22043,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25215,7 +22056,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25228,7 +22069,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25241,7 +22082,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25254,7 +22095,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25267,7 +22108,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25280,7 +22121,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25293,7 +22134,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25306,7 +22147,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25319,7 +22160,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25332,7 +22173,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25345,7 +22186,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25358,7 +22199,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25371,7 +22212,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25384,7 +22225,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25397,7 +22238,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25410,7 +22251,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25423,7 +22264,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25436,7 +22277,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25449,7 +22290,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25462,7 +22303,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25475,7 +22316,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -25488,14 +22329,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.ben_ep_preT_tot:per_si_allsi.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - All Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.ben_ep_preT_tot:per_si_allsi.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25508,7 +22349,7 @@
 
 {synoptline}
 {marker topicid_per_si_allsi.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.ben_ep_tot:per_si_allsi.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - All Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.ben_ep_tot:per_si_allsi.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25781,7 +22622,7 @@
 
 {synoptline}
 {marker topicid_per_si_allsi.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.bry_ep_preT_tot:per_si_allsi.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - All Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.bry_ep_preT_tot:per_si_allsi.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25794,7 +22635,7 @@
 
 {synoptline}
 {marker topicid_per_si_allsi.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.bry_ep_tot:per_si_allsi.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - All Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.bry_ep_tot:per_si_allsi.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26066,40 +22907,14 @@
 
 
 {synoptline}
-{marker topicid_per_si_allsi.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.cba_ep_preT_tot:per_si_allsi.cba_ep_preT_tot} - Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
 {marker topicid_per_si_allsi.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.cba_ep_tot:per_si_allsi.cba_ep_tot} - Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.cba_ep_tot:per_si_allsi.cba_ep_tot} - Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_si_allsi.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.cba_q1_preT_tot:per_si_allsi.cba_q1_preT_tot} - Benefit-cost ratio -  All Social Insurance -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Social Insurance programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26112,7 +22927,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Social Insurance programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26125,7 +22940,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Social Insurance programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26138,33 +22953,33 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Social Insurance programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.cov_ep_preT_tot:per_si_allsi.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - All Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.cov_ep_preT_tot:per_si_allsi.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi.cov_ep_tot:per_si_allsi.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - All Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi.cov_ep_tot:per_si_allsi.cov_ep_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26177,7 +22992,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26190,7 +23005,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26216,7 +23031,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26229,7 +23044,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26242,7 +23057,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26268,7 +23083,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26281,7 +23096,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26294,7 +23109,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26320,7 +23135,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26333,7 +23148,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26346,7 +23161,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26372,7 +23187,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26385,7 +23200,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26398,7 +23213,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26424,7 +23239,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26437,7 +23252,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26450,7 +23265,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26476,20 +23291,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_si_allsi_gini_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi_gini_preT_tot:per_si_allsi_gini_preT_tot} - Gini inequality index reduction (%) -  All Social Insurance (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26502,7 +23304,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Social Insurance programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26515,7 +23317,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Social Insurance programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26528,46 +23330,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_si_allsi_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi_p0_ep_preT_tot:per_si_allsi_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Social Insurance programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi_p0_ep_tot:per_si_allsi_p0_ep_tot} - Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi_p0_ep_tot:per_si_allsi_p0_ep_tot} - Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_si_allsi_p0_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi_p0_preT_tot:per_si_allsi_p0_preT_tot} - Poverty Headcount reduction (%) -  All Social Insurance -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Social Insurance programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26580,7 +23356,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Social Insurance programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26593,7 +23369,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Social Insurance programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26606,46 +23382,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_si_allsi_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi_p1_ep_preT_tot:per_si_allsi_p1_ep_preT_tot} - Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Social Insurance programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_allsi_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi_p1_ep_tot:per_si_allsi_p1_ep_tot} - Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_allsi_p1_ep_tot:per_si_allsi_p1_ep_tot} - Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_si_allsi_p1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_allsi_p1_preT_tot:per_si_allsi_p1_preT_tot} - Poverty Gap reduction (%) -  All Social Insurance -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Social Insurance programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26658,7 +23408,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Social Insurance programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26671,7 +23421,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Social Insurance programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -26684,14 +23434,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Social Insurance programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.adq_ep_preT_tot:per_si_ss.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Other Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.adq_ep_preT_tot:per_si_ss.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26704,7 +23454,7 @@
 
 {synoptline}
 {marker topicid_per_si_ss.adq_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.adq_ep_tot:per_si_ss.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.9 a day) (%) - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.adq_ep_tot:per_si_ss.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27029,26 +23779,26 @@
 
 {synoptline}
 {marker topicid_per_si_ss.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.avt_ep_preT_tot:per_si_ss.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Other Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.avt_ep_preT_tot:per_si_ss.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Other Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.avt_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.avt_ep_tot:per_si_ss.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.9 a day) - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.avt_ep_tot:per_si_ss.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Other Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27061,7 +23811,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27074,7 +23824,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27087,7 +23837,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27100,7 +23850,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27113,7 +23863,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27126,7 +23876,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27139,7 +23889,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27152,7 +23902,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27165,7 +23915,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27178,7 +23928,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27191,7 +23941,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27204,7 +23954,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27217,7 +23967,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27230,7 +23980,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27243,7 +23993,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27256,7 +24006,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27269,7 +24019,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27282,7 +24032,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27295,7 +24045,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27308,7 +24058,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27321,7 +24071,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27334,7 +24084,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27347,7 +24097,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27360,14 +24110,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Other Social Insurance programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.ben_ep_preT_tot:per_si_ss.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Other Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.ben_ep_preT_tot:per_si_ss.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27380,7 +24130,7 @@
 
 {synoptline}
 {marker topicid_per_si_ss.ben_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.ben_ep_tot:per_si_ss.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.9 a day) (%) - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.ben_ep_tot:per_si_ss.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27653,7 +24403,7 @@
 
 {synoptline}
 {marker topicid_per_si_ss.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.bry_ep_preT_tot:per_si_ss.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Other Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.bry_ep_preT_tot:per_si_ss.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27666,7 +24416,7 @@
 
 {synoptline}
 {marker topicid_per_si_ss.bry_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.bry_ep_tot:per_si_ss.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.9 a day) (%) - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.bry_ep_tot:per_si_ss.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27938,40 +24688,14 @@
 
 
 {synoptline}
-{marker topicid_per_si_ss.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.cba_ep_preT_tot:per_si_ss.cba_ep_preT_tot} - Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
 {marker topicid_per_si_ss.cba_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.cba_ep_tot:per_si_ss.cba_ep_tot} - Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.cba_ep_tot:per_si_ss.cba_ep_tot} - Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_si_ss.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.cba_q1_preT_tot:per_si_ss.cba_q1_preT_tot} - Benefit-cost ratio -  Other Social Insurance -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Other Social Insurance programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27984,7 +24708,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Other Social Insurance programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -27997,7 +24721,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Other Social Insurance programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28010,33 +24734,33 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in Other Social Insurance programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.cov_ep_preT_tot:per_si_ss.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Other Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.cov_ep_preT_tot:per_si_ss.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss.cov_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss.cov_ep_tot:per_si_ss.cov_ep_tot} - Coverage in extreme poor (&lt;$1.9 a day) (%) - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss.cov_ep_tot:per_si_ss.cov_ep_tot} - Coverage in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28049,7 +24773,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28062,7 +24786,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28075,7 +24799,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28088,7 +24812,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28101,7 +24825,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28114,7 +24838,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28127,7 +24851,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28140,7 +24864,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28153,7 +24877,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28166,7 +24890,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28179,7 +24903,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28192,7 +24916,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28205,7 +24929,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28218,7 +24942,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28231,7 +24955,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28244,7 +24968,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28257,7 +24981,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28270,7 +24994,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28283,7 +25007,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28296,7 +25020,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28309,7 +25033,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28322,7 +25046,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28335,7 +25059,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28348,20 +25072,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_si_ss_gini_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss_gini_preT_tot:per_si_ss_gini_preT_tot} - Gini inequality index reduction (%) -  Other Social Insurance (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Other Social Insurance programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28374,7 +25085,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Other Social Insurance programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28387,7 +25098,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Other Social Insurance programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28400,46 +25111,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_si_ss_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss_p0_ep_preT_tot:per_si_ss_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to Other Social Insurance programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss_p0_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss_p0_ep_tot:per_si_ss_p0_ep_tot} - Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss_p0_ep_tot:per_si_ss_p0_ep_tot} - Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_si_ss_p0_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss_p0_preT_tot:per_si_ss_p0_preT_tot} - Poverty Headcount reduction (%) -  Other Social Insurance -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Other Social Insurance programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28452,7 +25137,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Other Social Insurance programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28465,7 +25150,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Other Social Insurance programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28478,46 +25163,20 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_si_ss_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss_p1_ep_preT_tot:per_si_ss_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.9 a day) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty headcount reduction due to Other Social Insurance programs as % of pre-transfer poverty headcount{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_si_ss_p1_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss_p1_ep_tot:per_si_ss_p1_ep_tot} - Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.9 a day)}}
+{synopt:{bf:{help wbopendata_topicid##per_si_ss_p1_ep_tot:per_si_ss_p1_ep_tot} - Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$2.15 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_si_ss_p1_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_si_ss_p1_preT_tot:per_si_ss_p1_preT_tot} - Poverty Gap reduction (%) -  Other Social Insurance -1st quintile (poorest) (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Other Social Insurance programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28530,7 +25189,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Other Social Insurance programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28543,7 +25202,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Other Social Insurance programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -28556,14 +25215,14 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to Other Social Insurance programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker topicid_per_silm.overlap_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_silm.overlap_ep_preT_tot:per_silm.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) receiving All Social Insurance and Labor Market (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_silm.overlap_ep_preT_tot:per_silm.overlap_ep_preT_tot} - Population in extreme poor (&lt;$2.15 a day) receiving All Social Insurance and Labor Market (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -28576,20 +25235,7 @@
 
 {synoptline}
 {marker topicid_per_silm.overlap_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_silm.overlap_ep_tot:per_silm.overlap_ep_tot} - Population in extreme poor (&lt;$1.9 a day) receiving All Social Insurance and Labor Market (%)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance and Labor Market programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_silm.overlap_pop_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_silm.overlap_pop_preT_tot:per_silm.overlap_pop_preT_tot} - Population receiving All Social Insurance and Labor Market (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_silm.overlap_ep_tot:per_silm.overlap_ep_tot} - Population in extreme poor (&lt;$2.15 a day) receiving All Social Insurance and Labor Market (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -28693,7 +25339,7 @@
 
 {synoptline}
 {marker topicid_per_sionl.overlap_ep_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sionl.overlap_ep_preT_tot:per_sionl.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.9 a day) only receiving All Social Insurance (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sionl.overlap_ep_preT_tot:per_sionl.overlap_ep_preT_tot} - Population in extreme poor (&lt;$2.15 a day) only receiving All Social Insurance (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -28706,20 +25352,7 @@
 
 {synoptline}
 {marker topicid_per_sionl.overlap_ep_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sionl.overlap_ep_tot:per_sionl.overlap_ep_tot} - Population in extreme poor (&lt;$1.9 a day) only receiving All Social Insurance (%)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
-
-{synopt:{opt Source Notes}}Percentage of population only receiving All Social Insurance programs (includes direct and indirect beneficiaries){p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker topicid_per_sionl.overlap_pop_preT_tot}
-{synopt:{bf:{help wbopendata_topicid##per_sionl.overlap_pop_preT_tot:per_sionl.overlap_pop_preT_tot} - Population only receiving All Social Insurance (%, preT)}}
+{synopt:{bf:{help wbopendata_topicid##per_sionl.overlap_ep_tot:per_sionl.overlap_ep_tot} - Population in extreme poor (&lt;$2.15 a day) only receiving All Social Insurance (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -28822,4 +25455,4 @@
 
 
 
-{right:(as of 23jan2023)}
+{right:(as of 18may2024)}

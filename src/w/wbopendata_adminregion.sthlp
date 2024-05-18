@@ -2,14 +2,13 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Administrative Region  (as of 24jan2023)}
+{title:Administrative Region  (as of 18may2024)}
 
 {marker EAP}
 {p 20 20 2}(Go up to {it:{help wbopendata##adminregion:Administrative Region }}){p_end}
 {synoptset 33 tabbed}{...}
 {synopthdr:East Asia and Pacific (excluding high income) (EAP)}
 {synoptline}
-{synopt:{opt ASM}}  American Samoa {p_end}
 {synopt:{opt KHM}}  Cambodia {p_end}
 {synopt:{opt CHN}}  China {p_end}
 {synopt:{opt FJI}}  Fiji {p_end}
@@ -32,7 +31,7 @@
 {synopt:{opt TON}}  Tonga {p_end}
 {synopt:{opt TUV}}  Tuvalu {p_end}
 {synopt:{opt VUT}}  Vanuatu {p_end}
-{synopt:{opt VNM}}  Vietnam {p_end}
+{synopt:{opt VNM}}  Viet Nam {p_end}
 
 {marker ECA}
 {p 20 20 2}(Go up to {it:{help wbopendata##adminregion:Administrative Region }}){p_end}
@@ -78,7 +77,6 @@
 {synopt:{opt SLV}}  El Salvador {p_end}
 {synopt:{opt GRD}}  Grenada {p_end}
 {synopt:{opt GTM}}  Guatemala {p_end}
-{synopt:{opt GUY}}  Guyana {p_end}
 {synopt:{opt HTI}}  Haiti {p_end}
 {synopt:{opt HND}}  Honduras {p_end}
 {synopt:{opt JAM}}  Jamaica {p_end}
