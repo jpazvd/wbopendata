@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -507,7 +507,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.PP.CD:NE.CON.PRVT.PP.CD{marker NE.CON.PRVT.PP.CD}}}Households and NPISHs Final consumption expenditure, PPP (current international $){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.PP.KD:NE.CON.PRVT.PP.KD{marker NE.CON.PRVT.PP.KD}}}Households and NPISHs Final consumption expenditure, PPP (constant 2017 international $){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.PP.KD:NE.CON.PRVT.PP.KD{marker NE.CON.PRVT.PP.KD}}}Households and NPISHs Final consumption expenditure, PPP (constant 2021 international $){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NE.CON.PRVT.ZS:NE.CON.PRVT.ZS{marker NE.CON.PRVT.ZS}}}Households and NPISHs final consumption expenditure (% of GDP){p_end}
 
@@ -785,7 +785,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.MKTP.PP.CD:NY.GDP.MKTP.PP.CD{marker NY.GDP.MKTP.PP.CD}}}GDP, PPP (current international $){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.MKTP.PP.KD:NY.GDP.MKTP.PP.KD{marker NY.GDP.MKTP.PP.KD}}}GDP, PPP (constant 2017 international $){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.MKTP.PP.KD:NY.GDP.MKTP.PP.KD{marker NY.GDP.MKTP.PP.KD}}}GDP, PPP (constant 2021 international $){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.PCAP.CD:NY.GDP.PCAP.CD{marker NY.GDP.PCAP.CD}}}GDP per capita (current US$){p_end}
 
@@ -799,7 +799,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.PCAP.PP.CD:NY.GDP.PCAP.PP.CD{marker NY.GDP.PCAP.PP.CD}}}GDP per capita, PPP (current international $){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.PCAP.PP.KD:NY.GDP.PCAP.PP.KD{marker NY.GDP.PCAP.PP.KD}}}GDP per capita, PPP (constant 2017 international $){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDP.PCAP.PP.KD:NY.GDP.PCAP.PP.KD{marker NY.GDP.PCAP.PP.KD}}}GDP per capita, PPP (constant 2021 international $){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GDS.TOTL.CD:NY.GDS.TOTL.CD{marker NY.GDS.TOTL.CD}}}Gross domestic savings (current US$){p_end}
 
@@ -825,7 +825,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.MKTP.PP.CD:NY.GNP.MKTP.PP.CD{marker NY.GNP.MKTP.PP.CD}}}GNI, PPP (current international $){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.MKTP.PP.KD:NY.GNP.MKTP.PP.KD{marker NY.GNP.MKTP.PP.KD}}}GNI, PPP (constant 2017 international $){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.MKTP.PP.KD:NY.GNP.MKTP.PP.KD{marker NY.GNP.MKTP.PP.KD}}}GNI, PPP (constant 2021 international $){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.PCAP.CD:NY.GNP.PCAP.CD{marker NY.GNP.PCAP.CD}}}GNI per capita, Atlas method (current US$){p_end}
 
@@ -839,7 +839,7 @@
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.PCAP.PP.CD:NY.GNP.PCAP.PP.CD{marker NY.GNP.PCAP.PP.CD}}}GNI per capita, PPP (current international $){p_end}
 
-{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.PCAP.PP.KD:NY.GNP.PCAP.PP.KD{marker NY.GNP.PCAP.PP.KD}}}GNI per capita, PPP (constant 2017 international $){p_end}
+{synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNP.PCAP.PP.KD:NY.GNP.PCAP.PP.KD{marker NY.GNP.PCAP.PP.KD}}}GNI per capita, PPP (constant 2021 international $){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_NY.GNS.ICTR.CD:NY.GNS.ICTR.CD{marker NY.GNS.ICTR.CD}}}Gross savings (current US$){p_end}
 
@@ -2034,76 +2034,6 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.UNER.LO.ZS:SE.SEC.UNER.LO.ZS{marker SE.SEC.UNER.LO.ZS}}}Adolescents out of school (% of lower secondary school age){p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.CMPL.FE.ZS:SE.TER.CMPL.FE.ZS{marker SE.TER.CMPL.FE.ZS}}}Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.CMPL.MA.ZS:SE.TER.CMPL.MA.ZS{marker SE.TER.CMPL.MA.ZS}}}Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.CMPL.ZS:SE.TER.CMPL.ZS{marker SE.TER.CMPL.ZS}}}Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.CUAT.BA.FE.ZS:SE.TER.CUAT.BA.FE.ZS{marker SE.TER.CUAT.BA.FE.ZS}}}Educational attainment, at least Bachelor's or equivalent, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.CUAT.BA.MA.ZS:SE.TER.CUAT.BA.MA.ZS{marker SE.TER.CUAT.BA.MA.ZS}}}Educational attainment, at least Bachelor's or equivalent, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.CUAT.BA.ZS:SE.TER.CUAT.BA.ZS{marker SE.TER.CUAT.BA.ZS}}}Educational attainment, at least Bachelor's or equivalent, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.CUAT.DO.FE.ZS:SE.TER.CUAT.DO.FE.ZS{marker SE.TER.CUAT.DO.FE.ZS}}}Educational attainment, Doctoral or equivalent, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.CUAT.DO.MA.ZS:SE.TER.CUAT.DO.MA.ZS{marker SE.TER.CUAT.DO.MA.ZS}}}Educational attainment, Doctoral or equivalent, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.CUAT.DO.ZS:SE.TER.CUAT.DO.ZS{marker SE.TER.CUAT.DO.ZS}}}Educational attainment, Doctoral or equivalent, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.CUAT.MS.FE.ZS:SE.TER.CUAT.MS.FE.ZS{marker SE.TER.CUAT.MS.FE.ZS}}}Educational attainment, at least Master's or equivalent, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.CUAT.MS.MA.ZS:SE.TER.CUAT.MS.MA.ZS{marker SE.TER.CUAT.MS.MA.ZS}}}Educational attainment, at least Master's or equivalent, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.CUAT.MS.ZS:SE.TER.CUAT.MS.ZS{marker SE.TER.CUAT.MS.ZS}}}Educational attainment, at least Master's or equivalent, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.CUAT.ST.FE.ZS:SE.TER.CUAT.ST.FE.ZS{marker SE.TER.CUAT.ST.FE.ZS}}}Educational attainment, at least completed short-cycle tertiary, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.CUAT.ST.MA.ZS:SE.TER.CUAT.ST.MA.ZS{marker SE.TER.CUAT.ST.MA.ZS}}}Educational attainment, at least completed short-cycle tertiary, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.CUAT.ST.ZS:SE.TER.CUAT.ST.ZS{marker SE.TER.CUAT.ST.ZS}}}Educational attainment, at least completed short-cycle tertiary, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.ENRL:SE.TER.ENRL{marker SE.TER.ENRL}}}Enrolment in tertiary education, all programmes, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.ENRL.FE:SE.TER.ENRL.FE{marker SE.TER.ENRL.FE}}}Enrolment in tertiary education, all programmes, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.ENRL.FE.ZS:SE.TER.ENRL.FE.ZS{marker SE.TER.ENRL.FE.ZS}}}Percentage of students in tertiary education who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.ENRL.TC.ZS:SE.TER.ENRL.TC.ZS{marker SE.TER.ENRL.TC.ZS}}}Pupil-teacher ratio, tertiary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.ENRR:SE.TER.ENRR{marker SE.TER.ENRR}}}School enrollment, tertiary (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.ENRR.FE:SE.TER.ENRR.FE{marker SE.TER.ENRR.FE}}}School enrollment, tertiary, female (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.ENRR.MA:SE.TER.ENRR.MA{marker SE.TER.ENRR.MA}}}School enrollment, tertiary, male (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.AG.ZS:SE.TER.GRAD.AG.ZS{marker SE.TER.GRAD.AG.ZS}}}Percentage of graduates from tertiary education graduating from Agriculture, Forestry, Fisheries and Veterinary programmes, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.ED.ZS:SE.TER.GRAD.ED.ZS{marker SE.TER.GRAD.ED.ZS}}}Percentage of graduates from tertiary education graduating from Education programmes, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.EN.ZS:SE.TER.GRAD.EN.ZS{marker SE.TER.GRAD.EN.ZS}}}Percentage of graduates from tertiary education graduating from Engineering, Manufacturing and Construction programmes, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.AG.ZS:SE.TER.GRAD.FE.AG.ZS{marker SE.TER.GRAD.FE.AG.ZS}}}Female share of graduates in Agriculture, Forestry, Fisheries and Veterinary programmes, tertiary (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.ED.ZS:SE.TER.GRAD.FE.ED.ZS{marker SE.TER.GRAD.FE.ED.ZS}}}Female share of graduates in Education programmes, tertiary (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.EN.ZS:SE.TER.GRAD.FE.EN.ZS{marker SE.TER.GRAD.FE.EN.ZS}}}Female share of graduates in Engineering, Manufacturing and Construction programmes, tertiary (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.HL.ZS:SE.TER.GRAD.FE.HL.ZS{marker SE.TER.GRAD.FE.HL.ZS}}}Female share of graduates in Health and Welfare programmes, tertiary (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.HU.ZS:SE.TER.GRAD.FE.HU.ZS{marker SE.TER.GRAD.FE.HU.ZS}}}Female share of graduates in Arts and Humanities programmes, tertiary (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.OT.ZS:SE.TER.GRAD.FE.OT.ZS{marker SE.TER.GRAD.FE.OT.ZS}}}Female share of graduates in unknown or unspecified fields, tertiary (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.SC.ZS:SE.TER.GRAD.FE.SC.ZS{marker SE.TER.GRAD.FE.SC.ZS}}}Female share of graduates in Natural Sciences, Mathematics and Statistics programmes, tertiary (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.SI.ZS:SE.TER.GRAD.FE.SI.ZS{marker SE.TER.GRAD.FE.SI.ZS}}}Female share of graduates from Science, Technology, Engineering and Mathematics (STEM) programmes, tertiary (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.SS.ZS:SE.TER.GRAD.FE.SS.ZS{marker SE.TER.GRAD.FE.SS.ZS}}}Female share of graduates in Social Sciences, Journalism and Information programmes, tertiary (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.TER.GRAD.FE.SV.ZS:SE.TER.GRAD.FE.SV.ZS{marker SE.TER.GRAD.FE.SV.ZS}}}Female share of graduates in Services programmes, tertiary (%){p_end}
-
 {synopt:{help wbopendata_topicid_indicators04##topicid_SH.DTH.0509:SH.DTH.0509{marker SH.DTH.0509}}}Number of deaths ages 5-9 years{p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SH.DTH.1014:SH.DTH.1014{marker SH.DTH.1014}}}Number of deaths ages 10-14 years{p_end}
@@ -2171,7 +2101,7 @@
 
 {synopt:{help wbopendata_topicid_indicators05##topicid_EG.GDP.PUSE.KO.PP:EG.GDP.PUSE.KO.PP{marker EG.GDP.PUSE.KO.PP}}}GDP per unit of energy use (PPP $ per kg of oil equivalent){p_end}
 
-{synopt:{help wbopendata_topicid_indicators05##topicid_EG.GDP.PUSE.KO.PP.KD:EG.GDP.PUSE.KO.PP.KD{marker EG.GDP.PUSE.KO.PP.KD}}}GDP per unit of energy use (constant 2017 PPP $ per kg of oil equivalent){p_end}
+{synopt:{help wbopendata_topicid_indicators05##topicid_EG.GDP.PUSE.KO.PP.KD:EG.GDP.PUSE.KO.PP.KD{marker EG.GDP.PUSE.KO.PP.KD}}}GDP per unit of energy use (constant 2021 PPP $ per kg of oil equivalent){p_end}
 
 {synopt:{help wbopendata_topicid_indicators05##topicid_EG.IMP.CONS.ZS:EG.IMP.CONS.ZS{marker EG.IMP.CONS.ZS}}}Energy imports, net (% of energy use){p_end}
 
@@ -2185,7 +2115,7 @@
 
 {synopt:{help wbopendata_topicid_indicators05##topicid_EG.USE.COMM.FO.ZS:EG.USE.COMM.FO.ZS{marker EG.USE.COMM.FO.ZS}}}Fossil fuel energy consumption (% of total){p_end}
 
-{synopt:{help wbopendata_topicid_indicators05##topicid_EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD{marker EG.USE.COMM.GD.PP.KD}}}Energy use (kg of oil equivalent) per $1,000 GDP (constant 2017 PPP){p_end}
+{synopt:{help wbopendata_topicid_indicators05##topicid_EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD{marker EG.USE.COMM.GD.PP.KD}}}Energy use (kg of oil equivalent) per $1,000 GDP (constant 2021 PPP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators05##topicid_EG.USE.CRNW.ZS:EG.USE.CRNW.ZS{marker EG.USE.CRNW.ZS}}}Combustible renewables and waste (% of total energy){p_end}
 
@@ -2314,7 +2244,7 @@
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.PP.GD:EN.ATM.CO2E.PP.GD{marker EN.ATM.CO2E.PP.GD}}}CO2 emissions (kg per PPP $ of GDP){p_end}
 
-{synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD{marker EN.ATM.CO2E.PP.GD.KD}}}CO2 emissions (kg per 2017 PPP $ of GDP){p_end}
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD{marker EN.ATM.CO2E.PP.GD.KD}}}CO2 emissions (kg per 2021 PPP $ of GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.SF.KT:EN.ATM.CO2E.SF.KT{marker EN.ATM.CO2E.SF.KT}}}CO2 emissions from solid fuel consumption (kt){p_end}
 
@@ -8033,34 +7963,6 @@
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.TCHR.FE.ZS:SE.SEC.TCHR.FE.ZS{marker SE.SEC.TCHR.FE.ZS}}}Secondary education, teachers (% female){p_end}
 
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.TER.CUAT.BA.FE.ZS:SE.TER.CUAT.BA.FE.ZS{marker SE.TER.CUAT.BA.FE.ZS}}}Educational attainment, at least Bachelor's or equivalent, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.TER.CUAT.BA.MA.ZS:SE.TER.CUAT.BA.MA.ZS{marker SE.TER.CUAT.BA.MA.ZS}}}Educational attainment, at least Bachelor's or equivalent, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.TER.CUAT.BA.ZS:SE.TER.CUAT.BA.ZS{marker SE.TER.CUAT.BA.ZS}}}Educational attainment, at least Bachelor's or equivalent, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.TER.CUAT.DO.FE.ZS:SE.TER.CUAT.DO.FE.ZS{marker SE.TER.CUAT.DO.FE.ZS}}}Educational attainment, Doctoral or equivalent, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.TER.CUAT.DO.MA.ZS:SE.TER.CUAT.DO.MA.ZS{marker SE.TER.CUAT.DO.MA.ZS}}}Educational attainment, Doctoral or equivalent, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.TER.CUAT.DO.ZS:SE.TER.CUAT.DO.ZS{marker SE.TER.CUAT.DO.ZS}}}Educational attainment, Doctoral or equivalent, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.TER.CUAT.MS.FE.ZS:SE.TER.CUAT.MS.FE.ZS{marker SE.TER.CUAT.MS.FE.ZS}}}Educational attainment, at least Master's or equivalent, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.TER.CUAT.MS.MA.ZS:SE.TER.CUAT.MS.MA.ZS{marker SE.TER.CUAT.MS.MA.ZS}}}Educational attainment, at least Master's or equivalent, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.TER.CUAT.MS.ZS:SE.TER.CUAT.MS.ZS{marker SE.TER.CUAT.MS.ZS}}}Educational attainment, at least Master's or equivalent, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.TER.CUAT.ST.FE.ZS:SE.TER.CUAT.ST.FE.ZS{marker SE.TER.CUAT.ST.FE.ZS}}}Educational attainment, at least completed short-cycle tertiary, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.TER.CUAT.ST.MA.ZS:SE.TER.CUAT.ST.MA.ZS{marker SE.TER.CUAT.ST.MA.ZS}}}Educational attainment, at least completed short-cycle tertiary, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.TER.CUAT.ST.ZS:SE.TER.CUAT.ST.ZS{marker SE.TER.CUAT.ST.ZS}}}Educational attainment, at least completed short-cycle tertiary, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.TER.ENRR.FE:SE.TER.ENRR.FE{marker SE.TER.ENRR.FE}}}School enrollment, tertiary, female (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.TER.ENRR.MA:SE.TER.ENRR.MA{marker SE.TER.ENRR.MA}}}School enrollment, tertiary, male (% gross){p_end}
-
 {synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.AMRT.FE:SP.DYN.AMRT.FE{marker SP.DYN.AMRT.FE}}}Mortality rate, adult, female (per 1,000 female adults){p_end}
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.AMRT.MA:SP.DYN.AMRT.MA{marker SP.DYN.AMRT.MA}}}Mortality rate, adult, male (per 1,000 male adults){p_end}
@@ -8189,7 +8091,7 @@
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_EG.FEC.RNEW.ZS:EG.FEC.RNEW.ZS{marker EG.FEC.RNEW.ZS}}}Renewable energy consumption (% of total final energy consumption){p_end}
 
-{synopt:{help wbopendata_topicid_indicators19##topicid_EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD{marker EG.USE.COMM.GD.PP.KD}}}Energy use (kg of oil equivalent) per $1,000 GDP (constant 2017 PPP){p_end}
+{synopt:{help wbopendata_topicid_indicators19##topicid_EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD{marker EG.USE.COMM.GD.PP.KD}}}Energy use (kg of oil equivalent) per $1,000 GDP (constant 2021 PPP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_EG.USE.ELEC.KH.PC:EG.USE.ELEC.KH.PC{marker EG.USE.ELEC.KH.PC}}}Electric power consumption (kWh per capita){p_end}
 
@@ -8213,7 +8115,7 @@
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.PP.GD:EN.ATM.CO2E.PP.GD{marker EN.ATM.CO2E.PP.GD}}}CO2 emissions (kg per PPP $ of GDP){p_end}
 
-{synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD{marker EN.ATM.CO2E.PP.GD.KD}}}CO2 emissions (kg per 2017 PPP $ of GDP){p_end}
+{synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD{marker EN.ATM.CO2E.PP.GD.KD}}}CO2 emissions (kg per 2021 PPP $ of GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.SF.KT:EN.ATM.CO2E.SF.KT{marker EN.ATM.CO2E.SF.KT}}}CO2 emissions from solid fuel consumption (kt){p_end}
 
@@ -9739,4 +9641,4 @@
 {synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.RIC.PECA:CC.RIC.PECA{marker CC.RIC.PECA}}}Rice supply quantity (g/capita/day){p_end}
 {synoptline}
 
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}

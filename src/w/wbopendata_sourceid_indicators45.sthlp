@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -63,6 +63,7 @@
 {synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
 {synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
 {synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
+{synopt:{opt 91}}  {help wbopendata_sourceid_indicators91##sourceid_91:PEFA_CRPFM}{p_end}
 
 
 {marker sourceid_45}
@@ -2590,89 +2591,5 @@
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
 
 
-{synoptline}
-{marker sourceid_SE.SRSEC.NENR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.SRSEC.NENR.ZS:SE.SRSEC.NENR.ZS} - Net Enrollment Ratio: Senior Secondary (in %)}}
 
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}The junior secondary net enrolment ratio is a comparative figure for the number of junior secondary school students to the number of population aged 13-15, expressed as a percentage.{p_end}
-
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
-
-
-{synoptline}
-{marker sourceid_SE.STUD.JRSEC}
-{synopt:{bf:{help wbopendata_sourceid##SE.STUD.JRSEC:SE.STUD.JRSEC} - Number of Student: Junior Secondary Level (in number of people, 2009 data only)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}Ministry of Education{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.STUD.PRM}
-{synopt:{bf:{help wbopendata_sourceid##SE.STUD.PRM:SE.STUD.PRM} - Number of Student: Primary Level (in number of people, 2009 data only)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}Ministry of Education{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.STUD.SRSEC}
-{synopt:{bf:{help wbopendata_sourceid##SE.STUD.SRSEC:SE.STUD.SRSEC} - Number of Student: Senior Secondary Level (in number of people, 2009 data only)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}Ministry of Education{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TCHR.JRSEC}
-{synopt:{bf:{help wbopendata_sourceid##SE.TCHR.JRSEC:SE.TCHR.JRSEC} - Number of Teacher: Junior Secondary Level (in number of people, 2009 data only)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}Ministry of Education{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TCHR.PRM}
-{synopt:{bf:{help wbopendata_sourceid##SE.TCHR.PRM:SE.TCHR.PRM} - Number of Teacher: Primary Level (in number of people, 2009 data only)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}Ministry of Education{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TCHR.SRSEC}
-{synopt:{bf:{help wbopendata_sourceid##SE.TCHR.SRSEC:SE.TCHR.SRSEC} - Number of Teacher: Senior Secondary Level (in number of people, 2009 data only)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}Ministry of Education{p_end}
-
-
-
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}
