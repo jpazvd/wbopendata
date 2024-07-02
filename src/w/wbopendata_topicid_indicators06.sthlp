@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -496,7 +496,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.PP.GD.KD}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - CO2 emissions (kg per 2017 PPP $ of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - CO2 emissions (kg per 2021 PPP $ of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -1626,4 +1626,4 @@
 
 
 
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}

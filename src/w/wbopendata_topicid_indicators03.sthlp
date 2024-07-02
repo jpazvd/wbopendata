@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1575,7 +1575,7 @@
 
 {synoptline}
 {marker topicid_NE.CON.PRVT.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##NE.CON.PRVT.PP.KD:NE.CON.PRVT.PP.KD} - Households and NPISHs Final consumption expenditure, PPP (constant 2017 international $)}}
+{synopt:{bf:{help wbopendata_topicid##NE.CON.PRVT.PP.KD:NE.CON.PRVT.PP.KD} - Households and NPISHs Final consumption expenditure, PPP (constant 2021 international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -3382,7 +3382,7 @@
 
 {synoptline}
 {marker topicid_NY.GDP.MKTP.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##NY.GDP.MKTP.PP.KD:NY.GDP.MKTP.PP.KD} - GDP, PPP (constant 2017 international $)}}
+{synopt:{bf:{help wbopendata_topicid##NY.GDP.MKTP.PP.KD:NY.GDP.MKTP.PP.KD} - GDP, PPP (constant 2021 international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -3473,7 +3473,7 @@
 
 {synoptline}
 {marker topicid_NY.GDP.PCAP.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##NY.GDP.PCAP.PP.KD:NY.GDP.PCAP.PP.KD} - GDP per capita, PPP (constant 2017 international $)}}
+{synopt:{bf:{help wbopendata_topicid##NY.GDP.PCAP.PP.KD:NY.GDP.PCAP.PP.KD} - GDP per capita, PPP (constant 2021 international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -3642,7 +3642,7 @@
 
 {synoptline}
 {marker topicid_NY.GNP.MKTP.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##NY.GNP.MKTP.PP.KD:NY.GNP.MKTP.PP.KD} - GNI, PPP (constant 2017 international $)}}
+{synopt:{bf:{help wbopendata_topicid##NY.GNP.MKTP.PP.KD:NY.GNP.MKTP.PP.KD} - GNI, PPP (constant 2021 international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -3733,7 +3733,7 @@
 
 {synoptline}
 {marker topicid_NY.GNP.PCAP.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##NY.GNP.PCAP.PP.KD:NY.GNP.PCAP.PP.KD} - GNI per capita, PPP (constant 2017 international $)}}
+{synopt:{bf:{help wbopendata_topicid##NY.GNP.PCAP.PP.KD:NY.GNP.PCAP.PP.KD} - GNI per capita, PPP (constant 2021 international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -4018,4 +4018,4 @@
 
 
 
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}
