@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Lending Type  (as of 18may2024)}
+{title:Lending Type  (as of 02jul2024)}
 
 {marker IBD}
 {p 20 20 2}(Go up to {it:{help wbopendata##lendingtype:Lending Type }}){p_end}
@@ -16,8 +16,8 @@
 {synopt:{opt ARG}}  Argentina {p_end}
 {synopt:{opt ARM}}  Armenia {p_end}
 {synopt:{opt AZE}}  Azerbaijan {p_end}
+{synopt:{opt BRB}}  Barbados {p_end}
 {synopt:{opt BLR}}  Belarus {p_end}
-{synopt:{opt BLZ}}  Belize {p_end}
 {synopt:{opt BOL}}  Bolivia {p_end}
 {synopt:{opt BIH}}  Bosnia and Herzegovina {p_end}
 {synopt:{opt BWA}}  Botswana {p_end}
@@ -33,7 +33,6 @@
 {synopt:{opt EGY}}  Egypt, Arab Rep {p_end}
 {synopt:{opt SLV}}  El Salvador {p_end}
 {synopt:{opt GNQ}}  Equatorial Guinea {p_end}
-{synopt:{opt SWZ}}  Eswatini {p_end}
 {synopt:{opt GAB}}  Gabon {p_end}
 {synopt:{opt GEO}}  Georgia {p_end}
 {synopt:{opt GTM}}  Guatemala {p_end}
@@ -84,10 +83,12 @@
 {synoptset 33 tabbed}{...}
 {synopthdr:Blend (IDB)}
 {synoptline}
+{synopt:{opt BLZ}}  Belize {p_end}
 {synopt:{opt CPV}}  Cabo Verde {p_end}
 {synopt:{opt CMR}}  Cameroon {p_end}
 {synopt:{opt COG}}  Congo, Rep {p_end}
 {synopt:{opt DMA}}  Dominica {p_end}
+{synopt:{opt SWZ}}  Eswatini {p_end}
 {synopt:{opt FJI}}  Fiji {p_end}
 {synopt:{opt GRD}}  Grenada {p_end}
 {synopt:{opt KEN}}  Kenya {p_end}
@@ -178,7 +179,6 @@
 {synopt:{opt AUT}}  Austria {p_end}
 {synopt:{opt BHS}}  Bahamas, The {p_end}
 {synopt:{opt BHR}}  Bahrain {p_end}
-{synopt:{opt BRB}}  Barbados {p_end}
 {synopt:{opt BEL}}  Belgium {p_end}
 {synopt:{opt BMU}}  Bermuda {p_end}
 {synopt:{opt VGB}}  British Virgin Islands {p_end}

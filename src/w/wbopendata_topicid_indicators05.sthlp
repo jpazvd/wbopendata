@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -249,13 +249,13 @@
 
 {synoptline}
 {marker topicid_EG.GDP.PUSE.KO.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##EG.GDP.PUSE.KO.PP.KD:EG.GDP.PUSE.KO.PP.KD} - GDP per unit of energy use (constant 2017 PPP $ per kg of oil equivalent)}}
+{synopt:{bf:{help wbopendata_topicid##EG.GDP.PUSE.KO.PP.KD:EG.GDP.PUSE.KO.PP.KD} - GDP per unit of energy use (constant 2021 PPP $ per kg of oil equivalent)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to 2017 constant international dollars using purchasing power parity rates. An international dollar has the sam{p_end}
+{synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to 2021 constant international dollars using purchasing power parity rates. An international dollar has the sam{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
@@ -340,7 +340,7 @@
 
 {synoptline}
 {marker topicid_EG.USE.COMM.GD.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD} - Energy use (kg of oil equivalent) per $1,000 GDP (constant 2017 PPP)}}
+{synopt:{bf:{help wbopendata_topicid##EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD} - Energy use (kg of oil equivalent) per $1,000 GDP (constant 2021 PPP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -677,4 +677,4 @@
 
 
 
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -63,6 +63,7 @@
 {synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
 {synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
 {synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
+{synopt:{opt 91}}  {help wbopendata_sourceid_indicators91##sourceid_91:PEFA_CRPFM}{p_end}
 
 
 {marker sourceid_14}
@@ -291,135 +292,5 @@
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
 
 
-{synoptline}
-{marker sourceid_SE.TER.GRAD.FE.AG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.AG.ZS:SE.TER.GRAD.FE.AG.ZS} - Female share of graduates in Agriculture, Forestry, Fisheries and Veterinary programmes, tertiary (%)}}
 
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.GRAD.FE.ED.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.ED.ZS:SE.TER.GRAD.FE.ED.ZS} - Female share of graduates in Education programmes, tertiary (%)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.GRAD.FE.EN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.EN.ZS:SE.TER.GRAD.FE.EN.ZS} - Female share of graduates in Engineering, Manufacturing and Construction programmes, tertiary (%)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.GRAD.FE.HL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.HL.ZS:SE.TER.GRAD.FE.HL.ZS} - Female share of graduates in Health and Welfare programmes, tertiary (%)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.GRAD.FE.HU.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.HU.ZS:SE.TER.GRAD.FE.HU.ZS} - Female share of graduates in Arts and Humanities programmes, tertiary (%)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.GRAD.FE.OT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.OT.ZS:SE.TER.GRAD.FE.OT.ZS} - Female share of graduates in unknown or unspecified fields, tertiary (%)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.GRAD.FE.SC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.SC.ZS:SE.TER.GRAD.FE.SC.ZS} - Female share of graduates in Natural Sciences, Mathematics and Statistics programmes, tertiary (%)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.GRAD.FE.SI.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.SI.ZS:SE.TER.GRAD.FE.SI.ZS} - Female share of graduates from Science, Technology, Engineering and Mathematics (STEM) programmes, tertiary (%)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.GRAD.FE.SS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.SS.ZS:SE.TER.GRAD.FE.SS.ZS} - Female share of graduates in Social Sciences, Journalism and Information programmes, tertiary (%)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.GRAD.FE.SV.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.FE.SV.ZS:SE.TER.GRAD.FE.SV.ZS} - Female share of graduates in Services programmes, tertiary (%)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of March 2020.{p_end}
-
-
-
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}

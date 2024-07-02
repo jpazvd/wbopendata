@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -63,6 +63,7 @@
 {synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
 {synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
 {synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
+{synopt:{opt 91}}  {help wbopendata_sourceid_indicators91##sourceid_91:PEFA_CRPFM}{p_end}
 
 
 {marker sourceid_12}
@@ -72986,109 +72987,5 @@
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
-{synoptline}
-{marker sourceid_SE.TER.CMPL.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.CMPL.FE.ZS:SE.TER.CMPL.FE.ZS} - Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, female (%)}}
 
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of female graduates from first degree programmes (at ISCED 6 and 7) expressed as a percentage of the female population of the theoretical graduation age of the most common first degree programme.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.CMPL.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.CMPL.MA.ZS:SE.TER.CMPL.MA.ZS} - Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, male (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of male graduates from first degree programmes (at ISCED 6 and 7) expressed as a percentage of the male population of the theoretical graduation age of the most common first degree programme.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.CMPL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.CMPL.ZS:SE.TER.CMPL.ZS} - Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Number of graduates from first degree programmes (at ISCED 6 and 7) expressed as a percentage of the population of the theoretical graduation age of the most common first degree programme.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.ENRL}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.ENRL:SE.TER.ENRL} - Enrolment in tertiary education, all programmes, both sexes (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}The total number of students enrolled at public and private tertiary education institutions.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.ENRL.FE}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.ENRL.FE:SE.TER.ENRL.FE} - Enrolment in tertiary education, all programmes, female (number)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}The total number of female students enrolled at public and private tertiary education institutions.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.GRAD.AG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.AG.ZS:SE.TER.GRAD.AG.ZS} - Percentage of graduates from tertiary education graduating from Agriculture, Forestry, Fisheries and Veterinary programmes, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all tertiary graduates who completed Agriculture, Forestry, Fisheries and Veterinary programmes in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.GRAD.ED.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.ED.ZS:SE.TER.GRAD.ED.ZS} - Percentage of graduates from tertiary education graduating from Education programmes, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all tertiary graduates who completed education programmes in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.GRAD.EN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.GRAD.EN.ZS:SE.TER.GRAD.EN.ZS} - Percentage of graduates from tertiary education graduating from Engineering, Manufacturing and Construction programmes, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Share of all tertiary graduates who completed engineering, manufacturing and construction programmes in the reference year.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}

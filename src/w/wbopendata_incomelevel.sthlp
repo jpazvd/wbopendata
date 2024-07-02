@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Income Level  (as of 18may2024)}
+{title:Income Level  (as of 02jul2024)}
 
 {marker HIC}
 {p 20 20 2}(Go up to {it:{help wbopendata##incomelevel:Income Level }}){p_end}
@@ -22,6 +22,7 @@
 {synopt:{opt BMU}}  Bermuda {p_end}
 {synopt:{opt VGB}}  British Virgin Islands {p_end}
 {synopt:{opt BRN}}  Brunei Darussalam {p_end}
+{synopt:{opt BGR}}  Bulgaria {p_end}
 {synopt:{opt CAN}}  Canada {p_end}
 {synopt:{opt CYM}}  Cayman Islands {p_end}
 {synopt:{opt CHI}}  Channel Islands {p_end}
@@ -66,12 +67,14 @@
 {synopt:{opt MNP}}  Northern Mariana Islands {p_end}
 {synopt:{opt NOR}}  Norway {p_end}
 {synopt:{opt OMN}}  Oman {p_end}
+{synopt:{opt PLW}}  Palau {p_end}
 {synopt:{opt PAN}}  Panama {p_end}
 {synopt:{opt POL}}  Poland {p_end}
 {synopt:{opt PRT}}  Portugal {p_end}
 {synopt:{opt PRI}}  Puerto Rico {p_end}
 {synopt:{opt QAT}}  Qatar {p_end}
 {synopt:{opt ROU}}  Romania {p_end}
+{synopt:{opt RUS}}  Russian Federation {p_end}
 {synopt:{opt SMR}}  San Marino {p_end}
 {synopt:{opt SAU}}  Saudi Arabia {p_end}
 {synopt:{opt SYC}}  Seychelles {p_end}
@@ -136,7 +139,6 @@
 {synoptset 33 tabbed}{...}
 {synopthdr:Lower middle income (LMC)}
 {synoptline}
-{synopt:{opt DZA}}  Algeria {p_end}
 {synopt:{opt AGO}}  Angola {p_end}
 {synopt:{opt BGD}}  Bangladesh {p_end}
 {synopt:{opt BEN}}  Benin {p_end}
@@ -156,7 +158,6 @@
 {synopt:{opt HTI}}  Haiti {p_end}
 {synopt:{opt HND}}  Honduras {p_end}
 {synopt:{opt IND}}  India {p_end}
-{synopt:{opt IRN}}  Iran, Islamic Rep {p_end}
 {synopt:{opt JOR}}  Jordan {p_end}
 {synopt:{opt KEN}}  Kenya {p_end}
 {synopt:{opt KIR}}  Kiribati {p_end}
@@ -166,7 +167,6 @@
 {synopt:{opt LSO}}  Lesotho {p_end}
 {synopt:{opt MRT}}  Mauritania {p_end}
 {synopt:{opt FSM}}  Micronesia, Fed Sts {p_end}
-{synopt:{opt MNG}}  Mongolia {p_end}
 {synopt:{opt MAR}}  Morocco {p_end}
 {synopt:{opt MMR}}  Myanmar {p_end}
 {synopt:{opt NPL}}  Nepal {p_end}
@@ -184,10 +184,10 @@
 {synopt:{opt TZA}}  Tanzania {p_end}
 {synopt:{opt TLS}}  Timor-Leste {p_end}
 {synopt:{opt TUN}}  Tunisia {p_end}
-{synopt:{opt UKR}}  Ukraine {p_end}
 {synopt:{opt UZB}}  Uzbekistan {p_end}
 {synopt:{opt VUT}}  Vanuatu {p_end}
 {synopt:{opt VNM}}  Viet Nam {p_end}
+{synopt:{opt PSE}}  West Bank and Gaza {p_end}
 {synopt:{opt ZMB}}  Zambia {p_end}
 {synopt:{opt ZWE}}  Zimbabwe {p_end}
 
@@ -282,6 +282,7 @@
 {synopthdr:Upper middle income (UMC)}
 {synoptline}
 {synopt:{opt ALB}}  Albania {p_end}
+{synopt:{opt DZA}}  Algeria {p_end}
 {synopt:{opt ARG}}  Argentina {p_end}
 {synopt:{opt ARM}}  Armenia {p_end}
 {synopt:{opt AZE}}  Azerbaijan {p_end}
@@ -290,7 +291,6 @@
 {synopt:{opt BIH}}  Bosnia and Herzegovina {p_end}
 {synopt:{opt BWA}}  Botswana {p_end}
 {synopt:{opt BRA}}  Brazil {p_end}
-{synopt:{opt BGR}}  Bulgaria {p_end}
 {synopt:{opt CHN}}  China {p_end}
 {synopt:{opt COL}}  Colombia {p_end}
 {synopt:{opt CRI}}  Costa Rica {p_end}
@@ -306,6 +306,7 @@
 {synopt:{opt GRD}}  Grenada {p_end}
 {synopt:{opt GTM}}  Guatemala {p_end}
 {synopt:{opt IDN}}  Indonesia {p_end}
+{synopt:{opt IRN}}  Iran, Islamic Rep {p_end}
 {synopt:{opt IRQ}}  Iraq {p_end}
 {synopt:{opt JAM}}  Jamaica {p_end}
 {synopt:{opt KAZ}}  Kazakhstan {p_end}
@@ -317,13 +318,12 @@
 {synopt:{opt MUS}}  Mauritius {p_end}
 {synopt:{opt MEX}}  Mexico {p_end}
 {synopt:{opt MDA}}  Moldova {p_end}
+{synopt:{opt MNG}}  Mongolia {p_end}
 {synopt:{opt MNE}}  Montenegro {p_end}
 {synopt:{opt NAM}}  Namibia {p_end}
 {synopt:{opt MKD}}  North Macedonia {p_end}
-{synopt:{opt PLW}}  Palau {p_end}
 {synopt:{opt PRY}}  Paraguay {p_end}
 {synopt:{opt PER}}  Peru {p_end}
-{synopt:{opt RUS}}  Russian Federation {p_end}
 {synopt:{opt SRB}}  Serbia {p_end}
 {synopt:{opt ZAF}}  South Africa {p_end}
 {synopt:{opt LCA}}  St Lucia {p_end}
@@ -334,5 +334,5 @@
 {synopt:{opt TUR}}  Turkiye {p_end}
 {synopt:{opt TKM}}  Turkmenistan {p_end}
 {synopt:{opt TUV}}  Tuvalu {p_end}
-{synopt:{opt PSE}}  West Bank and Gaza {p_end}
+{synopt:{opt UKR}}  Ukraine {p_end}
 

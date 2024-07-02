@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -138,7 +138,7 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}New businesses registered are the number of new limited liability corporations (or its equivalent) registered in the calendar year.{p_end}
+{synopt:{opt Source Notes}}New business density is defined as the number of newly registered companies with limited liability{p_end}
 
 {synopt:{opt Source Organization}}World Bank's Entrepreneurship Database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}).{p_end}
 
@@ -1392,4 +1392,4 @@
 
 
 
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}
